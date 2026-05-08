@@ -129,6 +129,37 @@ function isFirstRankValue(rank) {
   return value === "i" || value === "1";
 }
 
+function getRankOrder(rank) {
+  const value = String(rank || "").trim().toLowerCase();
+  const roman = {
+    i: 1,
+    ii: 2,
+    iii: 3,
+    iv: 4,
+    v: 5,
+    vi: 6,
+    vii: 7,
+    viii: 8,
+    ix: 9,
+    x: 10,
+  };
+  return roman[value] || parseNumber(value) || Number.MAX_SAFE_INTEGER;
+}
+
+function getSectionOrder(section) {
+  return section === "researchable" ? 0 : 1;
+}
+
+function compareUnitsByProgression(a, b) {
+  return (
+    getRankOrder(a.rank) - getRankOrder(b.rank) ||
+    getSectionOrder(a.section) - getSectionOrder(b.section) ||
+    parseNumber(a.columnIndex) - parseNumber(b.columnIndex) ||
+    parseNumber(a.rowIndex) - parseNumber(b.rowIndex) ||
+    String(a.title || "").localeCompare(String(b.title || ""), "zh-CN")
+  );
+}
+
 function getIndexedItem(id, indexes) {
   return indexes.unitMap.get(id) || indexes.groupMap.get(id);
 }
@@ -281,7 +312,8 @@ function calculatePlan(tree, body = {}) {
     .filter((id) => !owned.has(id))
     .map((id) => indexes.unitMap.get(id))
     .filter((unit) => unit && !isInitialUnlockedUnit(unit))
-    .filter(Boolean);
+    .filter(Boolean)
+    .sort(compareUnitsByProgression);
 
   const totalRp = missing.reduce((sum, unit) => sum + parseNumber(unit.rp), 0);
   const totalSp = missing.reduce((sum, unit) => sum + parseNumber(unit.sp), 0);
