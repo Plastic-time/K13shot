@@ -167,6 +167,27 @@ button:focus-visible {
   gap: 0;
 }
 
+.creator-watermark {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 14px;
+  min-height: 38px;
+  padding: 8px 18px 10px;
+  border-top: 1px solid rgba(214, 208, 195, 0.72);
+  background: rgba(255, 253, 247, 0.72);
+  color: rgba(69, 96, 106, 0.86);
+  backdrop-filter: blur(14px);
+  font-size: 12px;
+  font-weight: 800;
+  letter-spacing: 0;
+  text-align: center;
+}
+
+.creator-watermark span {
+  color: rgba(104, 112, 106, 0.9);
+}
+
 .summary-panel {
   border-right: 1px solid var(--line);
   background: rgba(255, 253, 247, 0.82);
