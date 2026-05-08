@@ -63,27 +63,50 @@ internal static class Program
 
     private static string? FindAppDirectory()
     {
-        var dir = new DirectoryInfo(AppContext.BaseDirectory);
-        while (dir is not null)
+        foreach (var startDir in GetCandidateStartDirectories())
         {
-            if (File.Exists(Path.Combine(dir.FullName, "main.js")) && File.Exists(Path.Combine(dir.FullName, "package.json")))
+            var dir = new DirectoryInfo(startDir);
+            while (dir is not null)
             {
-                return dir.FullName;
-            }
+                if (File.Exists(Path.Combine(dir.FullName, "main.js")) && File.Exists(Path.Combine(dir.FullName, "package.json")))
+                {
+                    return dir.FullName;
+                }
 
-            dir = dir.Parent;
+                dir = dir.Parent;
+            }
         }
 
         return null;
     }
 
+    private static IEnumerable<string> GetCandidateStartDirectories()
+    {
+        var dirs = new[]
+        {
+            Path.GetDirectoryName(Environment.ProcessPath),
+            AppContext.BaseDirectory,
+            Environment.CurrentDirectory,
+            Path.GetDirectoryName(Process.GetCurrentProcess().MainModule?.FileName),
+        };
+
+        return dirs.Where(dir => !string.IsNullOrWhiteSpace(dir)).Distinct(StringComparer.OrdinalIgnoreCase)!;
+    }
+
     private static string? FindNode(string appDir)
     {
-        var localNode = Path.Combine(appDir, "node.exe");
-        if (File.Exists(localNode)) return localNode;
+        var localNodes = new[]
+        {
+            Path.Combine(appDir, "node.exe"),
+            Path.Combine(Environment.CurrentDirectory, "node.exe"),
+            Path.Combine(Path.GetDirectoryName(Environment.ProcessPath) ?? "", "node.exe"),
+            Path.Combine(AppContext.BaseDirectory, "node.exe"),
+        };
 
-        var launcherNode = Path.Combine(AppContext.BaseDirectory, "node.exe");
-        if (File.Exists(launcherNode)) return launcherNode;
+        foreach (var localNode in localNodes.Distinct(StringComparer.OrdinalIgnoreCase))
+        {
+            if (File.Exists(localNode)) return localNode;
+        }
 
         var pathValue = Environment.GetEnvironmentVariable("PATH") ?? "";
         foreach (var dir in pathValue.Split(Path.PathSeparator, StringSplitOptions.RemoveEmptyEntries))
