@@ -7,6 +7,8 @@ const path = require("path");
 const { fetchTreeHTML } = require("@/src/1-extract_tree_div");
 const { extract_rank_tb } = require("@/src/2-extract_rank_tb");
 const { vehicle_type, country_code } = require("@/dict/country_code");
+const { get_unlock_quantity } = require("@/dict/unlock_quantity");
+const shopDependencies = require("@/dict/shop_dependencies.json");
 const { request_details } = require("./src/3-request_details");
 const { updateTree } = require("./src/4-fill_tree_details");
 
@@ -63,7 +65,52 @@ function readTree(country, type) {
   }
 
   const raw = JSON.parse(fs.readFileSync(file, "utf-8"));
-  return Array.isArray(raw) ? raw : raw.data || [];
+  const tree = Array.isArray(raw) ? raw : raw.data || [];
+  return enrichTreeRanks(applyShopDependencies(tree, country, type), country, type);
+}
+
+function getUnlockQuantity(country, type, rank) {
+  try {
+    const value = get_unlock_quantity(country, type, rank);
+    return Number.isFinite(Number(value)) ? Number(value) : 0;
+  } catch {
+    return 0;
+  }
+}
+
+function enrichTreeRanks(tree, country, type) {
+  return tree.map((rank) => ({
+    ...rank,
+    unlock_quantity: parseNumber(rank.unlock_quantity) || getUnlockQuantity(country, type, rank.rank),
+  }));
+}
+
+function applyShopDependencies(tree, country, type) {
+  const dependencyMap = shopDependencies?.[country]?.[type]?.units || {};
+  if (!Object.keys(dependencyMap).length) return tree;
+
+  const applyItem = (item) => {
+    if (item.type === "multiple") {
+      const groupReq = Object.prototype.hasOwnProperty.call(dependencyMap, item.data_unit_id)
+        ? dependencyMap[item.data_unit_id]
+        : item.required_unit_id || "";
+      return {
+        ...item,
+        required_unit_id: groupReq,
+        items: (item.items || []).map((subItem) => applyItem(subItem)),
+      };
+    }
+
+    if (Object.prototype.hasOwnProperty.call(dependencyMap, item.data_unit_id)) {
+      return { ...item, required_unit_id: dependencyMap[item.data_unit_id] };
+    }
+    return item;
+  };
+
+  return tree.map((rank) => ({
+    ...rank,
+    researchable_vehicles: (rank.researchable_vehicles || []).map((column) => column.map(applyItem)),
+  }));
 }
 
 function parseNumber(value) {
@@ -73,20 +120,65 @@ function parseNumber(value) {
   return Number.isFinite(number) ? number : 0;
 }
 
+function getGroupMainChildId(group) {
+  return (group.items || []).map((item) => item.data_unit_id).find(Boolean) || "";
+}
+
+function isFirstRankValue(rank) {
+  const value = String(rank || "").trim().toLowerCase();
+  return value === "i" || value === "1";
+}
+
+function getIndexedItem(id, indexes) {
+  return indexes.unitMap.get(id) || indexes.groupMap.get(id);
+}
+
+function shouldIgnoreRequirement(unit, reqId, indexes) {
+  if (!unit || !reqId) return false;
+  if (isFirstRankValue(unit.rank)) return true;
+
+  const requiredItem = getIndexedItem(reqId, indexes);
+  return requiredItem ? isFirstRankValue(requiredItem.rank) : false;
+}
+
+function isInitialUnlockedUnit(unit) {
+  if (!unit) return false;
+  const className = String(unit.class_name || "").trim().toLowerCase();
+  return (
+    unit.section === "researchable" &&
+    isFirstRankValue(unit.rank) &&
+    !["prem", "premium", "squad", "event", "gift"].includes(className) &&
+    parseNumber(unit.rp) === 0 &&
+    parseNumber(unit.sp) === 0
+  );
+}
+
 function flattenTree(tree) {
   const units = [];
   const groups = [];
+  const previousByColumn = {
+    researchable: [],
+    premium: [],
+  };
+  let rankIndex = 0;
 
   for (const rank of tree) {
+    if (rankIndex === 1) previousByColumn.researchable = [];
+
     for (const section of ["researchable_vehicles", "premium_vehicles"]) {
       const sectionType = section === "premium_vehicles" ? "premium" : "researchable";
       const columns = rank[section] || [];
 
       columns.forEach((column, columnIndex) => {
+        let previousDependencyId = previousByColumn[sectionType][columnIndex] || "";
         column.forEach((item, rowIndex) => {
+          const inferredReqId = sectionType === "researchable" ? previousDependencyId : "";
           if (item.type === "multiple") {
+            const groupReqId = item.required_unit_id || inferredReqId;
+            const groupMainChildId = getGroupMainChildId(item);
             const group = {
               ...item,
+              required_unit_id: groupReqId,
               rank: rank.rank,
               section: sectionType,
               columnIndex,
@@ -95,29 +187,41 @@ function flattenTree(tree) {
             groups.push(group);
 
             (item.items || []).forEach((subItem, subIndex) => {
+              const subReqId = subItem.required_unit_id || groupReqId;
               units.push({
                 ...subItem,
+                required_unit_id: subReqId,
                 rank: rank.rank,
                 section: sectionType,
                 parent_group_id: item.data_unit_id,
                 parent_group_title: item.title,
-                parent_required_unit_id: item.required_unit_id || "",
+                parent_required_unit_id: groupReqId,
                 columnIndex,
                 rowIndex: rowIndex + subIndex / 10,
               });
             });
+            if (sectionType === "researchable") {
+              previousDependencyId = groupMainChildId || item.data_unit_id || previousDependencyId;
+              previousByColumn[sectionType][columnIndex] = previousDependencyId;
+            }
           } else if (item.type === "single") {
             units.push({
               ...item,
+              required_unit_id: item.required_unit_id || inferredReqId,
               rank: rank.rank,
               section: sectionType,
               columnIndex,
               rowIndex,
             });
+            if (sectionType === "researchable") {
+              previousDependencyId = item.data_unit_id || previousDependencyId;
+              previousByColumn[sectionType][columnIndex] = previousDependencyId;
+            }
           }
         });
       });
     }
+    rankIndex += 1;
   }
 
   return { units, groups };
@@ -139,23 +243,24 @@ function getDependencyIds(unitId, indexes, options = {}, visited = new Set()) {
   const group = groupMap.get(unitId);
 
   if (group) {
-    const childIds = (group.items || []).map((item) => item.data_unit_id).filter(Boolean);
-    const selectedChildIds = options.folderMode === "first" ? childIds.slice(0, 1) : childIds;
-    const parentDeps = getDependencyIds(group.required_unit_id, indexes, options, visited);
-    return [...parentDeps, ...selectedChildIds.flatMap((id) => getDependencyIds(id, indexes, options, visited)), ...selectedChildIds];
+    const mainChildId = getGroupMainChildId(group);
+    if (mainChildId) return getDependencyIds(mainChildId, indexes, options, visited);
+    return getDependencyIds(group.required_unit_id, indexes, options, visited);
   }
 
   if (!unit) return [];
 
   const parentReq = unit.parent_required_unit_id && !unit.required_unit_id ? unit.parent_required_unit_id : "";
   const reqId = unit.required_unit_id || parentReq;
-  return [...getDependencyIds(reqId, indexes, options, visited), unitId];
+  const dependencyIds = shouldIgnoreRequirement(unit, reqId, indexes)
+    ? []
+    : getDependencyIds(reqId, indexes, options, visited);
+  return [...dependencyIds, unitId];
 }
 
 function calculatePlan(tree, body = {}) {
   const indexes = buildUnitIndexes(tree);
   const owned = new Set(body.ownedIds || []);
-  const currentRp = parseNumber(body.currentRp);
   const targetIds = [...new Set([...(body.plannedIds || []), body.targetId].filter(Boolean))];
   const folderMode = body.folderMode === "first" ? "first" : "all";
   const dependencyMode = body.dependencyMode === "dependencies" ? "dependencies" : "selected";
@@ -175,16 +280,16 @@ function calculatePlan(tree, body = {}) {
   const missing = orderedIds
     .filter((id) => !owned.has(id))
     .map((id) => indexes.unitMap.get(id))
+    .filter((unit) => unit && !isInitialUnlockedUnit(unit))
     .filter(Boolean);
 
   const totalRp = missing.reduce((sum, unit) => sum + parseNumber(unit.rp), 0);
   const totalSp = missing.reduce((sum, unit) => sum + parseNumber(unit.sp), 0);
 
   return {
-    total_rp: Math.max(totalRp - currentRp, 0),
+    total_rp: totalRp,
     raw_total_rp: totalRp,
     total_sp: totalSp,
-    current_rp: currentRp,
     missing,
   };
 }
@@ -248,7 +353,7 @@ app.post("/api/update/:country/:type", async (req, res) => {
 
   try {
     const data = await updateTree(country, type, { limit: req.body?.limit });
-    res.json({ success: true, country, type, data });
+    res.json({ success: true, country, type, data: enrichTreeRanks(applyShopDependencies(data, country, type), country, type) });
   } catch (err) {
     res.status(500).json({ success: false, error: err.message });
   }

@@ -23,6 +23,7 @@ const state = {
   groups: [],
   unitMap: new Map(),
   groupMap: new Map(),
+  initialUnlocked: new Set(),
   planned: new Set(),
   missing: [],
   country: "usa",
@@ -129,9 +130,21 @@ function getRankUnlockQuantity(rank) {
   return parseNumber(rank.unlock_quantity);
 }
 
+function getUnlockCountVehicleIds() {
+  const ids = new Set(state.initialUnlocked);
+  if (state.dependencyMode === "dependencies") {
+    state.missing.forEach((unit) => {
+      if (unit.data_unit_id) ids.add(unit.data_unit_id);
+    });
+  } else {
+    state.planned.forEach((id) => ids.add(id));
+  }
+  return [...ids];
+}
+
 function getSelectedVehicleCount(rankValue) {
   let count = 0;
-  for (const id of state.planned) {
+  for (const id of getUnlockCountVehicleIds()) {
     const unit = state.unitMap.get(id);
     if (unit && unit.rank === rankValue) count += 1;
   }
@@ -162,6 +175,39 @@ function formatCost(value) {
   return number ? formatNumber(number) : "0";
 }
 
+function getGroupMainChildId(group) {
+  return (group.items || []).map((item) => item.data_unit_id).find(Boolean) || "";
+}
+
+function isFirstRankValue(rank) {
+  const value = cleanText(rank).toLowerCase();
+  return value === "i" || value === "1";
+}
+
+function getIndexedItem(id) {
+  return state.unitMap.get(id) || state.groupMap.get(id);
+}
+
+function shouldIgnoreRequirement(unit, reqId) {
+  if (!unit || !reqId) return false;
+  if (isFirstRankValue(unit.rank)) return true;
+
+  const requiredItem = getIndexedItem(reqId);
+  return requiredItem ? isFirstRankValue(requiredItem.rank) : false;
+}
+
+function isInitialUnlockedUnit(unit) {
+  if (!unit) return false;
+  const className = cleanText(unit.class_name).toLowerCase();
+  return (
+    unit.section === "researchable" &&
+    isFirstRankValue(unit.rank) &&
+    !["prem", "premium", "squad", "event", "gift"].includes(className) &&
+    parseNumber(unit.rp) === 0 &&
+    parseNumber(unit.sp) === 0
+  );
+}
+
 function loadSavedState() {
   const saved = JSON.parse(localStorage.getItem(storageKey()) || "{}");
   state.planned = new Set(saved.planned || []);
@@ -187,8 +233,11 @@ function flattenTree(tree) {
     researchable: [],
     premium: [],
   };
+  let rankIndex = 0;
 
   for (const rank of tree) {
+    if (rankIndex === 1) previousByColumn.researchable = [];
+
     for (const section of ["researchable_vehicles", "premium_vehicles"]) {
       const sectionType = section === "premium_vehicles" ? "premium" : "researchable";
       const columns = rank[section] || [];
@@ -198,11 +247,11 @@ function flattenTree(tree) {
           const inferredReqId = sectionType === "researchable" ? previousDependencyId : "";
           if (item.type === "multiple") {
             const groupReqId = item.required_unit_id || inferredReqId;
+            const groupMainChildId = getGroupMainChildId(item);
             const group = { ...item, required_unit_id: groupReqId, rank: rank.rank, section: sectionType, columnIndex, rowIndex };
             groups.push(group);
-            let previousSubItemId = "";
             (item.items || []).forEach((subItem, subIndex) => {
-              const subReqId = subItem.required_unit_id || previousSubItemId || (subIndex === 0 ? groupReqId : "");
+              const subReqId = subItem.required_unit_id || groupReqId;
               units.push({
                 ...subItem,
                 required_unit_id: subReqId,
@@ -214,10 +263,9 @@ function flattenTree(tree) {
                 columnIndex,
                 rowIndex: rowIndex + subIndex / 10,
               });
-              previousSubItemId = subItem.data_unit_id || previousSubItemId;
             });
             if (sectionType === "researchable") {
-              previousDependencyId = item.data_unit_id || previousSubItemId || previousDependencyId;
+              previousDependencyId = groupMainChildId || item.data_unit_id || previousDependencyId;
               previousByColumn[sectionType][columnIndex] = previousDependencyId;
             }
           } else if (item.type === "single") {
@@ -231,12 +279,15 @@ function flattenTree(tree) {
         });
       });
     }
+    rankIndex += 1;
   }
 
   state.units = units;
   state.groups = groups;
   state.unitMap = new Map(units.map((unit) => [unit.data_unit_id, unit]));
   state.groupMap = new Map(groups.map((group) => [group.data_unit_id, group]));
+  state.initialUnlocked = new Set(units.filter(isInitialUnlockedUnit).map((unit) => unit.data_unit_id));
+  state.initialUnlocked.forEach((id) => state.planned.delete(id));
 }
 
 function getDependencyIds(unitId, visited = new Set()) {
@@ -247,20 +298,17 @@ function getDependencyIds(unitId, visited = new Set()) {
   const group = state.groupMap.get(unitId);
 
   if (group) {
-    const childIds = (group.items || []).map((item) => item.data_unit_id).filter(Boolean);
-    const selectedChildIds = state.folderMode === "first" ? childIds.slice(0, 1) : childIds;
-    return [
-      ...getDependencyIds(group.required_unit_id, visited),
-      ...selectedChildIds.flatMap((id) => getDependencyIds(id, visited)),
-      ...selectedChildIds,
-    ];
+    const mainChildId = getGroupMainChildId(group);
+    if (mainChildId) return getDependencyIds(mainChildId, visited);
+    return getDependencyIds(group.required_unit_id, visited);
   }
 
   if (!unit) return [];
 
   const parentReq = unit.parent_required_unit_id && !unit.required_unit_id ? unit.parent_required_unit_id : "";
   const reqId = unit.required_unit_id || parentReq;
-  return [...getDependencyIds(reqId, visited), unitId];
+  const dependencyIds = shouldIgnoreRequirement(unit, reqId) ? [] : getDependencyIds(reqId, visited);
+  return [...dependencyIds, unitId];
 }
 
 function calculatePlan() {
@@ -279,6 +327,7 @@ function calculatePlan() {
 
   state.missing = orderedIds
     .map((id) => state.unitMap.get(id))
+    .filter((unit) => unit && !isInitialUnlockedUnit(unit))
     .filter(Boolean);
 
   renderSummary();
@@ -336,9 +385,11 @@ function renderUnit(unit) {
   const className = cleanText(unit.class_name).toLowerCase();
   if (state.planned.has(id)) classes.push("planned");
   if (state.missing.some((missing) => missing.data_unit_id === id)) classes.push("missing");
+  if (isInitialUnlockedUnit(unit)) classes.push("unlocked");
   if (className) classes.push(className);
   if (unit.section === "premium" || className === "prem" || className === "premium") classes.push("premium");
   const role = translateRole(unit.main_role);
+  const unlocked = isInitialUnlockedUnit(unit);
 
   return `
     <button class="${classes.join(" ")}" type="button" data-unit-id="${escapeHtml(id)}" title="${escapeHtml(id)}">
@@ -349,6 +400,7 @@ function renderUnit(unit) {
           <span class="pill">BR ${escapeHtml(unit.br || "-")}</span>
           <span class="pill rp">RP ${formatCost(unit.rp)}</span>
           <span class="pill sp">SL ${formatCost(unit.sp)}</span>
+          ${unlocked ? `<span class="pill unlocked">已解锁</span>` : ""}
           ${role ? `<span class="pill role">${escapeHtml(role)}</span>` : ""}
         </span>
       </span>
@@ -431,15 +483,14 @@ function resolveRequirementSources(reqId) {
   const group = state.groupMap.get(reqId);
   if (!group) return [reqId];
 
-  const childIds = (group.items || []).map((item) => item.data_unit_id).filter(Boolean);
-  const selectedChildIds = state.folderMode === "first" ? childIds.slice(0, 1) : childIds;
-  return selectedChildIds.length ? selectedChildIds : [reqId];
+  const mainChildId = getGroupMainChildId(group);
+  return mainChildId ? [mainChildId] : [reqId];
 }
 
 function getImmediateRequirement(unit) {
   if (!unit) return "";
-  if (unit.required_unit_id) return unit.required_unit_id;
-  return unit.parent_required_unit_id || "";
+  const reqId = unit.required_unit_id || unit.parent_required_unit_id || "";
+  return shouldIgnoreRequirement(unit, reqId) ? "" : reqId;
 }
 
 function svgNumber(value) {
@@ -609,6 +660,7 @@ async function loadTree() {
     state.groups = [];
     state.unitMap = new Map();
     state.groupMap = new Map();
+    state.initialUnlocked = new Set();
     state.missing = [];
     setStatus(err.message);
     renderSummary();
@@ -617,6 +669,7 @@ async function loadTree() {
 }
 
 function toggleUnit(id) {
+  if (state.initialUnlocked.has(id)) return;
   if (state.planned.has(id)) state.planned.delete(id);
   else state.planned.add(id);
   saveState();
