@@ -3,11 +3,7 @@ const els = {
   countrySelect: document.getElementById("countrySelect"),
   typeSelect: document.getElementById("typeSelect"),
   searchInput: document.getElementById("searchInput"),
-  currentRpInput: document.getElementById("currentRpInput"),
-  folderModeSelect: document.getElementById("folderModeSelect"),
   dependencyModeSelect: document.getElementById("dependencyModeSelect"),
-  planModeButton: document.getElementById("planModeButton"),
-  ownedModeButton: document.getElementById("ownedModeButton"),
   clearButton: document.getElementById("clearButton"),
   refreshDataButton: document.getElementById("refreshDataButton"),
   totalRp: document.getElementById("totalRp"),
@@ -28,12 +24,9 @@ const state = {
   unitMap: new Map(),
   groupMap: new Map(),
   planned: new Set(),
-  owned: new Set(),
   missing: [],
-  mode: "plan",
   country: "usa",
   type: "ground",
-  currentRp: 0,
   folderMode: "all",
   dependencyMode: "selected",
   search: "",
@@ -132,6 +125,19 @@ function sectionLabel(section) {
   return zh.sections[section] || section;
 }
 
+function getRankUnlockQuantity(rank) {
+  return parseNumber(rank.unlock_quantity);
+}
+
+function getSelectedVehicleCount(rankValue) {
+  let count = 0;
+  for (const id of state.planned) {
+    const unit = state.unitMap.get(id);
+    if (unit && unit.rank === rankValue) count += 1;
+  }
+  return count;
+}
+
 function escapeHtml(value) {
   return cleanText(value)
     .replace(/&/g, "&amp;")
@@ -159,12 +165,8 @@ function formatCost(value) {
 function loadSavedState() {
   const saved = JSON.parse(localStorage.getItem(storageKey()) || "{}");
   state.planned = new Set(saved.planned || []);
-  state.owned = new Set(saved.owned || []);
-  state.currentRp = parseNumber(saved.currentRp);
-  state.folderMode = saved.folderMode || "all";
+  state.folderMode = "all";
   state.dependencyMode = saved.dependencyMode || "selected";
-  els.currentRpInput.value = state.currentRp;
-  els.folderModeSelect.value = state.folderMode;
   els.dependencyModeSelect.value = state.dependencyMode;
 }
 
@@ -173,9 +175,6 @@ function saveState() {
     storageKey(),
     JSON.stringify({
       planned: [...state.planned],
-      owned: [...state.owned],
-      currentRp: state.currentRp,
-      folderMode: state.folderMode,
       dependencyMode: state.dependencyMode,
     })
   );
@@ -184,30 +183,50 @@ function saveState() {
 function flattenTree(tree) {
   const units = [];
   const groups = [];
+  const previousByColumn = {
+    researchable: [],
+    premium: [],
+  };
 
   for (const rank of tree) {
     for (const section of ["researchable_vehicles", "premium_vehicles"]) {
       const sectionType = section === "premium_vehicles" ? "premium" : "researchable";
       const columns = rank[section] || [];
       columns.forEach((column, columnIndex) => {
+        let previousDependencyId = previousByColumn[sectionType][columnIndex] || "";
         column.forEach((item, rowIndex) => {
+          const inferredReqId = sectionType === "researchable" ? previousDependencyId : "";
           if (item.type === "multiple") {
-            const group = { ...item, rank: rank.rank, section: sectionType, columnIndex, rowIndex };
+            const groupReqId = item.required_unit_id || inferredReqId;
+            const group = { ...item, required_unit_id: groupReqId, rank: rank.rank, section: sectionType, columnIndex, rowIndex };
             groups.push(group);
+            let previousSubItemId = "";
             (item.items || []).forEach((subItem, subIndex) => {
+              const subReqId = subItem.required_unit_id || previousSubItemId || (subIndex === 0 ? groupReqId : "");
               units.push({
                 ...subItem,
+                required_unit_id: subReqId,
                 rank: rank.rank,
                 section: sectionType,
                 parent_group_id: item.data_unit_id,
                 parent_group_title: item.title,
-                parent_required_unit_id: item.required_unit_id || "",
+                parent_required_unit_id: groupReqId,
                 columnIndex,
                 rowIndex: rowIndex + subIndex / 10,
               });
+              previousSubItemId = subItem.data_unit_id || previousSubItemId;
             });
+            if (sectionType === "researchable") {
+              previousDependencyId = item.data_unit_id || previousSubItemId || previousDependencyId;
+              previousByColumn[sectionType][columnIndex] = previousDependencyId;
+            }
           } else if (item.type === "single") {
-            units.push({ ...item, rank: rank.rank, section: sectionType, columnIndex, rowIndex });
+            const reqId = item.required_unit_id || inferredReqId;
+            units.push({ ...item, required_unit_id: reqId, rank: rank.rank, section: sectionType, columnIndex, rowIndex });
+            if (sectionType === "researchable") {
+              previousDependencyId = item.data_unit_id || previousDependencyId;
+              previousByColumn[sectionType][columnIndex] = previousDependencyId;
+            }
           }
         });
       });
@@ -259,7 +278,6 @@ function calculatePlan() {
   }
 
   state.missing = orderedIds
-    .filter((id) => !state.owned.has(id))
     .map((id) => state.unitMap.get(id))
     .filter(Boolean);
 
@@ -270,10 +288,9 @@ function calculatePlan() {
 function renderSummary() {
   const plannedUnits = [...state.planned].map((id) => state.unitMap.get(id)).filter(Boolean);
   const rawRp = state.missing.reduce((sum, unit) => sum + parseNumber(unit.rp), 0);
-  const totalRp = Math.max(rawRp - state.currentRp, 0);
   const totalSp = state.missing.reduce((sum, unit) => sum + parseNumber(unit.sp), 0);
 
-  els.totalRp.textContent = formatNumber(totalRp);
+  els.totalRp.textContent = formatNumber(rawRp);
   els.totalSp.textContent = formatNumber(totalSp);
   els.missingCount.textContent = state.missing.length;
   els.plannedCount.textContent = plannedUnits.length;
@@ -281,11 +298,11 @@ function renderSummary() {
 
   els.plannedList.innerHTML = plannedUnits.length
     ? plannedUnits.map((unit) => renderListItem(unit, true)).join("")
-    : `<div class="empty-state">暂无计划</div>`;
+    : `<div class="empty-state">暂无选择</div>`;
 
   els.missingList.innerHTML = state.missing.length
     ? state.missing.map((unit) => renderListItem(unit, false)).join("")
-    : `<div class="empty-state">路径已完成</div>`;
+    : `<div class="empty-state">暂无计算结果</div>`;
 }
 
 function renderListItem(unit, removable) {
@@ -318,7 +335,6 @@ function renderUnit(unit) {
   const classes = ["unit-tile"];
   const className = cleanText(unit.class_name).toLowerCase();
   if (state.planned.has(id)) classes.push("planned");
-  if (state.owned.has(id)) classes.push("owned");
   if (state.missing.some((missing) => missing.data_unit_id === id)) classes.push("missing");
   if (className) classes.push(className);
   if (unit.section === "premium" || className === "prem" || className === "premium") classes.push("premium");
@@ -403,7 +419,7 @@ function renderBand(title, columns, context) {
   return `
     <div class="tree-band ${sectionClass}">
       <h3 class="band-title">${title}</h3>
-      <div class="column-grid" style="grid-template-columns: repeat(${count}, 138px);">
+      <div class="column-grid" style="grid-template-columns: repeat(${count}, 168px);">
         ${visibleColumns.map((column) => renderColumn(column, context)).join("")}
       </div>
     </div>
@@ -499,6 +515,32 @@ function renderTreeConnections() {
   svg.innerHTML = segments.join("");
 }
 
+function renderRankUnlockGate(rank, nextRank) {
+  const quantity = getRankUnlockQuantity(rank);
+  const selected = getSelectedVehicleCount(rank.rank);
+  const complete = quantity > 0 && selected >= quantity;
+  const targetLabel = nextRank ? `解锁${displayRank(nextRank.rank)}` : "后续等级要求";
+
+  return `
+    <div class="rank-unlock-line ${quantity ? "" : "is-zero"} ${complete ? "is-complete" : ""}" aria-label="已选择 ${selected} 个，${targetLabel}需要 ${quantity} 个载具">
+      <span>${targetLabel}：${selected} / ${quantity}</span>
+    </div>
+  `;
+}
+
+function renderRankRail(rank) {
+  const quantity = getRankUnlockQuantity(rank);
+  const selected = getSelectedVehicleCount(rank.rank);
+  const complete = quantity > 0 && selected >= quantity;
+
+  return `
+    <div class="rank-rail ${complete ? "is-complete" : ""}">
+      <span class="rank-name">${escapeHtml(displayRank(rank.rank))}</span>
+      <span class="rank-unlock-count">${escapeHtml(quantity)}</span>
+    </div>
+  `;
+}
+
 function renderTree() {
   if (!state.tree.length) {
     els.treeContainer.innerHTML = `<div class="loading">没有本地数据</div>`;
@@ -506,7 +548,7 @@ function renderTree() {
   }
 
   const html = state.tree
-    .map((rank) => {
+    .map((rank, index, ranks) => {
       const researchable = renderBand(sectionLabel("researchable"), rank.researchable_vehicles || [], {
         rank: rank.rank,
         section: "researchable",
@@ -518,13 +560,12 @@ function renderTree() {
       if (!researchable && !premium) return "";
       return `
         <article class="rank-block">
-          <div class="rank-rail">
-            <span>${escapeHtml(displayRank(rank.rank))}</span>
-          </div>
+          ${renderRankRail(rank)}
           <div class="rank-field">
             ${researchable}
             ${premium}
           </div>
+          ${renderRankUnlockGate(rank, ranks[index + 1])}
         </article>
       `;
     })
@@ -534,12 +575,6 @@ function renderTree() {
     ? `<div class="tree-canvas"><svg class="tree-links" aria-hidden="true"></svg><div class="tree-content">${html}</div></div>`
     : `<div class="loading">没有匹配项</div>`;
   window.requestAnimationFrame(renderTreeConnections);
-}
-
-function setMode(mode) {
-  state.mode = mode;
-  els.planModeButton.classList.toggle("active", mode === "plan");
-  els.ownedModeButton.classList.toggle("active", mode === "owned");
 }
 
 async function loadMeta() {
@@ -582,14 +617,8 @@ async function loadTree() {
 }
 
 function toggleUnit(id) {
-  if (state.mode === "owned") {
-    if (state.owned.has(id)) state.owned.delete(id);
-    else state.owned.add(id);
-    state.planned.delete(id);
-  } else {
-    if (state.planned.has(id)) state.planned.delete(id);
-    else state.planned.add(id);
-  }
+  if (state.planned.has(id)) state.planned.delete(id);
+  else state.planned.add(id);
   saveState();
   calculatePlan();
 }
@@ -622,26 +651,11 @@ function wireEvents() {
     renderTree();
   });
 
-  els.currentRpInput.addEventListener("input", () => {
-    state.currentRp = parseNumber(els.currentRpInput.value);
-    saveState();
-    calculatePlan();
-  });
-
-  els.folderModeSelect.addEventListener("change", () => {
-    state.folderMode = els.folderModeSelect.value;
-    saveState();
-    calculatePlan();
-  });
-
   els.dependencyModeSelect.addEventListener("change", () => {
     state.dependencyMode = els.dependencyModeSelect.value;
     saveState();
     calculatePlan();
   });
-
-  els.planModeButton.addEventListener("click", () => setMode("plan"));
-  els.ownedModeButton.addEventListener("click", () => setMode("owned"));
 
   els.clearButton.addEventListener("click", () => {
     state.planned.clear();
@@ -671,7 +685,6 @@ function wireEvents() {
 async function init() {
   try {
     wireEvents();
-    setMode("plan");
     await loadMeta();
     await loadTree();
   } catch (err) {
