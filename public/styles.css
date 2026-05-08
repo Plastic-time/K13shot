@@ -81,7 +81,17 @@ button {
   backdrop-filter: blur(14px);
 }
 
+.brand-block {
+  display: grid;
+  grid-template-columns: max-content max-content;
+  column-gap: 12px;
+  row-gap: 6px;
+  align-items: center;
+  min-width: 0;
+}
+
 .topbar h1 {
+  grid-column: 1 / -1;
   margin: 0;
   font-size: 24px;
   line-height: 1.15;
@@ -90,7 +100,7 @@ button {
 }
 
 .topbar p {
-  margin: 6px 0 0;
+  margin: 0;
   color: var(--muted);
   font-size: 13px;
 }
@@ -167,24 +177,25 @@ button:focus-visible {
   gap: 0;
 }
 
-.creator-watermark {
+.brand-block .creator-watermark {
   display: flex;
   align-items: center;
   justify-content: center;
-  gap: 14px;
-  min-height: 38px;
-  padding: 8px 18px 10px;
-  border-top: 1px solid rgba(214, 208, 195, 0.72);
-  background: rgba(255, 253, 247, 0.72);
-  color: rgba(69, 96, 106, 0.86);
-  backdrop-filter: blur(14px);
-  font-size: 12px;
+  gap: 8px;
+  min-height: 24px;
+  padding: 4px 9px;
+  border: 1px solid rgba(69, 96, 106, 0.2);
+  border-radius: 6px;
+  background: rgba(255, 253, 247, 0.66);
+  color: rgba(39, 118, 91, 0.92);
+  font-size: 11px;
   font-weight: 800;
   letter-spacing: 0;
   text-align: center;
+  white-space: nowrap;
 }
 
-.creator-watermark span {
+.brand-block .creator-watermark span {
   color: rgba(104, 112, 106, 0.9);
 }
 
@@ -738,6 +749,15 @@ button:focus-visible {
     align-items: stretch;
     flex-direction: column;
     padding: 16px;
+  }
+
+  .brand-block {
+    grid-template-columns: 1fr;
+  }
+
+  .brand-block .creator-watermark {
+    justify-self: start;
+    white-space: normal;
   }
 
   .topbar-actions {

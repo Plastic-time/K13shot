@@ -1,4 +1,4 @@
-<!doctype html>
+﻿<!doctype html>
 <html lang="zh-CN">
   <head>
     <meta charset="utf-8" />
@@ -9,9 +9,12 @@
   <body>
     <div class="app-shell">
       <header class="topbar">
-        <div>
+        <div class="brand-block">
           <h1>War Thunder 研发计算器</h1>
           <p id="statusText">正在载入数据</p>
+          <div class="creator-watermark" aria-label="作者水印">
+            bilibili关注：扑街的靓仔 <span>游戏ID：如日方中</span>
+          </div>
         </div>
         <div class="topbar-actions">
           <button id="refreshDataButton" class="secondary-button" type="button">更新当前树</button>
@@ -76,9 +79,6 @@
         <section id="treeContainer" class="tree-container" aria-live="polite"></section>
       </main>
 
-      <footer class="creator-watermark" aria-label="作者水印">
-        bilibili关注：扑街的靓仔 <span>游戏ID：如日方中</span>
-      </footer>
     </div>
 
     <script src="/app.js"></script>
