@@ -1,7 +1,288 @@
-const unlock_quantity = {};
-
-function get_unlock_quantity(t_c, type, rank) {
-  return unlock_quantity[t_c]?.[type]?.[rank] ?? 0;
+const unlock_quantity = {
+  usa: {
+    ground: {
+      'I': 6,
+      'II': 6,
+      'III': 6,
+      'IV': 6,
+      'V': 5,
+      'VI': 5,
+      'VII': 5,
+      'VIII': 0,
+    },
+    aviation: {
+      'I': 6,
+      'II': 6,
+      'III': 6,
+      'IV': 6,
+      'V': 5,
+      'VI': 5,
+      'VII': 5,
+      'VIII': 3,
+      'XI': 0,
+    },
+    helicopters: {
+      'V': 1,
+      'VI': 1,
+      'VII': 0,
+    },
+  },
+  germany: {
+    ground: {
+      'I': 6,
+      'II': 6,
+      'III': 6,
+      'IV': 6,
+      'V': 5,
+      'VI': 5,
+      'VII': 5,
+      'VIII': 0,
+    },
+    aviation: {
+      'I': 6,
+      'II': 6,
+      'III': 6,
+      'IV': 6,
+      'V': 5,
+      'VI': 5,
+      'VII': 5,
+      'VIII': 3,
+      'XI': 0,
+    },
+    helicopters: {
+      'V': 1,
+      'VI': 1,
+      'VII': 0,
+    },
+  },
+  ussr: {
+    ground: {
+      'I': 6,
+      'II': 6,
+      'III': 6,
+      'IV': 6,
+      'V': 5,
+      'VI': 5,
+      'VII': 5,
+      'VIII': 0,
+    },
+    aviation: {
+      'I': 6,
+      'II': 6,
+      'III': 6,
+      'IV': 6,
+      'V': 5,
+      'VI': 5,
+      'VII': 5,
+      'VIII': 3,
+      'XI': 0,
+    },
+    helicopters: {
+      'V': 1,
+      'VI': 1,
+      'VII': 0,
+    },
+  },
+  britain: {
+    ground: {
+      'I': 6,
+      'II': 6,
+      'III': 6,
+      'IV': 6,
+      'V': 5,
+      'VI': 5,
+      'VII': 5,
+      'VIII': 0,
+    },
+    aviation: {
+      'I': 6,
+      'II': 6,
+      'III': 6,
+      'IV': 6,
+      'V': 5,
+      'VI': 5,
+      'VII': 5,
+      'VIII': 3,
+      'XI': 0,
+    },
+    helicopters: {
+      'V': 1,
+      'VI': 1,
+      'VII': 0,
+    },
+  },
+  japan: {
+    ground: {
+      'I': 6,
+      'II': 6,
+      'III': 6,
+      'IV': 6,
+      'V': 5,
+      'VI': 5,
+      'VII': 5,
+      'VIII': 0,
+    },
+    aviation: {
+      'I': 6,
+      'II': 6,
+      'III': 6,
+      'IV': 6,
+      'V': 4,
+      'VI': 5,
+      'VII': 5,
+      'VIII': 3,
+      'XI': 0,
+    },
+    helicopters: {
+      'V': 1,
+      'VI': 1,
+      'VII': 0,
+    },
+  },
+  china: {
+    ground: {
+      'I': 6,
+      'II': 6,
+      'III': 6,
+      'IV': 6,
+      'V': 5,
+      'VI': 5,
+      'VII': 5,
+      'VIII': 0,
+    },
+    aviation: {
+      'I': 6,
+      'II': 6,
+      'III': 6,
+      'IV': 5,
+      'V': 5,
+      'VI': 5,
+      'VII': 5,
+      'VIII': 3,
+      'XI': 0,
+    },
+    helicopters: {
+      'V': 1,
+      'VI': 1,
+      'VII': 0,
+    },
+  },
+  italy: {
+    ground: {
+      'I': 6,
+      'II': 6,
+      'III': 6,
+      'IV': 6,
+      'V': 5,
+      'VI': 5,
+      'VII': 5,
+      'VIII': 0,
+    },
+    aviation: {
+      'I': 6,
+      'II': 6,
+      'III': 6,
+      'IV': 6,
+      'V': 5,
+      'VI': 5,
+      'VII': 5,
+      'VIII': 3,
+      'XI': 0,
+    },
+    helicopters: {
+      'V': 1,
+      'VI': 1,
+      'VII': 0,
+    },
+  },
+  france: {
+    ground: {
+      'I': 6,
+      'II': 6,
+      'III': 6,
+      'IV': 5,
+      'V': 5,
+      'VI': 5,
+      'VII': 5,
+      'VIII': 0,
+    },
+    aviation: {
+      'I': 6,
+      'II': 6,
+      'III': 6,
+      'IV': 6,
+      'V': 5,
+      'VI': 5,
+      'VII': 5,
+      'VIII': 3,
+      'XI': 0,
+    },
+    helicopters: {
+      'V': 1,
+      'VI': 1,
+      'VII': 0,
+    },
+  },
+  sweden: {
+    ground: {
+      'I': 6,
+      'II': 6,
+      'III': 6,
+      'IV': 6,
+      'V': 5,
+      'VI': 5,
+      'VII': 5,
+      'VIII': 0,
+    },
+    aviation: {
+      'I': 6,
+      'II': 6,
+      'III': 6,
+      'IV': 3,
+      'V': 5,
+      'VI': 4,
+      'VII': 5,
+      'VIII': 3,
+      'XI': 0,
+    },
+    helicopters: {
+      'V': 1,
+      'VI': 1,
+      'VII': 0,
+    },
+  },
+  israel: {
+    ground: {
+      'IV': 6,
+      'V': 5,
+      'VI': 5,
+      'VII': 4,
+      'VIII': 0,
+    },
+    aviation: {
+      'IV': 5,
+      'V': 3,
+      'VI': 5,
+      'VII': 4,
+      'VIII': 3,
+      'XI': 0,
+    },
+    helicopters: {
+      'V': 1,
+      'VI': 1,
+      'VII': 0,
+    },
+  },
 }
 
-module.exports = { get_unlock_quantity };
+/**
+ * 获取指定国家指定等级的载具需解锁数量
+ * @param {string} t_c - 国家代号（例如 "germany"）
+ * @param {string} type - 军种类型 "ground" / "aviation" / "helicopters"
+ * @param {string} rank - 载具等级（例如 "VII"）
+ */
+function get_unlock_quantity(t_c, type, rank) {
+  return unlock_quantity[t_c][type][rank]
+}
+
+module.exports = { get_unlock_quantity }

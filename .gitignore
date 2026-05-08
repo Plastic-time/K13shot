@@ -9,5 +9,11 @@ pnpm-debug.log*
 *.7z
 *.rar
 dist-package/
+launcher-dist/
+logs/
+tools/launcher/bin/
+tools/launcher/obj/
+.dotnet-cli/
+.nuget/
 .DS_Store
 Thumbs.db

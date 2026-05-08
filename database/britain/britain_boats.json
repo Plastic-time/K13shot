@@ -1,0 +1,577 @@
+[
+  {
+    "rank": "I",
+    "researchable_vehicles": [
+      [
+        {
+          "type": "single",
+          "title": "MTB-1(1)",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/uk_mtb_1series.png",
+          "br": "1.0",
+          "rp": null,
+          "sp": null,
+          "data_unit_id": "uk_mtb_1series",
+          "selected": false,
+          "class_name": "",
+          "details": true,
+          "main_role": "Boat"
+        },
+        {
+          "type": "single",
+          "title": "MTB-35",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/uk_mtb35_vosper.png",
+          "br": "1.0",
+          "rp": null,
+          "sp": null,
+          "data_unit_id": "uk_mtb35_vosper",
+          "selected": false,
+          "class_name": "",
+          "details": true,
+          "main_role": "Boat"
+        },
+        {
+          "type": "single",
+          "title": "Fairmile A (ML100)",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/uk_fairmile_a_ml100.png",
+          "br": "1.0",
+          "rp": "2,900",
+          "sp": "700",
+          "data_unit_id": "uk_fairmile_a_ml100",
+          "selected": false,
+          "class_name": "",
+          "details": true,
+          "main_role": "Boat"
+        },
+        {
+          "type": "single",
+          "title": "MGB-61",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/uk_70ft_mgb.png",
+          "br": "1.7",
+          "rp": "5,900",
+          "sp": "6,300",
+          "data_unit_id": "uk_70ft_mgb",
+          "selected": false,
+          "class_name": "",
+          "details": true,
+          "main_role": "Boat"
+        }
+      ],
+      [
+        {
+          "type": "single",
+          "title": "MTB Vosper",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/uk_mtb_vosper_1series.png",
+          "br": "1.0",
+          "rp": "2,900",
+          "sp": "700",
+          "data_unit_id": "uk_mtb_vosper_1series",
+          "selected": false,
+          "class_name": "",
+          "details": true,
+          "main_role": "Boat"
+        },
+        {
+          "type": "single",
+          "title": "MTB Vosper(2)",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/uk_mtb_vosper_2series.png",
+          "br": "1.7",
+          "rp": "4,000",
+          "sp": "2,100",
+          "data_unit_id": "uk_mtb_vosper_2series",
+          "selected": false,
+          "class_name": "",
+          "details": true,
+          "main_role": "Boat"
+        },
+        {
+          "type": "single",
+          "title": "ML 1383",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/uk_hdml_ml1383.png",
+          "br": "1.7",
+          "rp": "5,900",
+          "sp": "6,300",
+          "data_unit_id": "uk_hdml_ml1383",
+          "selected": false,
+          "class_name": "",
+          "details": true,
+          "main_role": "Boat"
+        }
+      ]
+    ],
+    "premium_vehicles": [
+      [
+        {
+          "type": "single",
+          "title": "MTB-1(2)",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/uk_mtb_2series.png",
+          "br": "1.0",
+          "rp": 0,
+          "sp": 0,
+          "data_unit_id": "uk_mtb_2series",
+          "selected": false,
+          "class_name": "prem",
+          "details": true,
+          "main_role": "Boat"
+        }
+      ],
+      []
+    ],
+    "selected": [],
+    "unlock_quantity": 0
+  },
+  {
+    "rank": "II",
+    "researchable_vehicles": [
+      [
+        {
+          "type": "single",
+          "title": "MTB-379",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/uk_73ft_vosper_type1.png",
+          "br": "2.0",
+          "rp": "7,900",
+          "sp": "10,000",
+          "data_unit_id": "uk_73ft_vosper_type1",
+          "selected": false,
+          "class_name": "",
+          "details": true,
+          "main_role": "Boat"
+        },
+        {
+          "type": "single",
+          "title": "Fairmile B (ML345)",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/uk_fairmile_b_ml345.png",
+          "br": "2.0",
+          "rp": "9,200",
+          "sp": "16,000",
+          "data_unit_id": "uk_fairmile_b_ml345",
+          "selected": false,
+          "class_name": "",
+          "details": true,
+          "main_role": "Boat"
+        },
+        {
+          "type": "single",
+          "title": "Dark Adventurer",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/uk_dark_class.png",
+          "br": "2.0",
+          "rp": "14,000",
+          "sp": "32,000",
+          "data_unit_id": "uk_dark_class",
+          "selected": false,
+          "class_name": "",
+          "details": true,
+          "main_role": "Boat"
+        }
+      ],
+      [
+        {
+          "type": "single",
+          "title": "HMS Liscomb",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/uk_isles_class_trawler.png",
+          "br": "2.3",
+          "rp": "7,900",
+          "sp": "10,000",
+          "data_unit_id": "uk_isles_class_trawler",
+          "selected": false,
+          "class_name": "",
+          "details": true,
+          "main_role": "Heavy boat"
+        },
+        {
+          "type": "single",
+          "title": "HMCS Brantford",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/uk_flower_class.png",
+          "br": "2.3",
+          "rp": "11,000",
+          "sp": "22,000",
+          "data_unit_id": "uk_flower_class",
+          "selected": false,
+          "class_name": "",
+          "details": true,
+          "main_role": "Heavy boat"
+        }
+      ]
+    ],
+    "premium_vehicles": [
+      [
+        {
+          "type": "single",
+          "title": "MGB-75",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/uk_71ft_mgb.png",
+          "br": "2.3",
+          "rp": 0,
+          "sp": 0,
+          "data_unit_id": "uk_71ft_mgb",
+          "selected": false,
+          "class_name": "prem",
+          "details": true,
+          "main_role": "Boat"
+        }
+      ],
+      []
+    ],
+    "selected": [],
+    "unlock_quantity": 0
+  },
+  {
+    "rank": "III",
+    "researchable_vehicles": [
+      [
+        {
+          "type": "single",
+          "title": "MTB-460",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/uk_71ft_mtb460.png",
+          "br": "2.3",
+          "rp": "18,000",
+          "sp": "47,000",
+          "data_unit_id": "uk_71ft_mtb460",
+          "selected": false,
+          "class_name": "",
+          "details": true,
+          "main_role": "Boat"
+        },
+        {
+          "type": "single",
+          "title": "Dark Aggressor",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/uk_dark_class_mtb.png",
+          "br": "2.3",
+          "rp": "26,000",
+          "sp": "76,000",
+          "data_unit_id": "uk_dark_class_mtb",
+          "selected": false,
+          "class_name": "",
+          "details": true,
+          "main_role": "Boat"
+        },
+        {
+          "type": "single",
+          "title": "Fairmile D (617)",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/uk_fairmile_d_617_632.png",
+          "br": "2.3",
+          "rp": "36,000",
+          "sp": "115,000",
+          "data_unit_id": "uk_fairmile_d_617_632",
+          "selected": false,
+          "class_name": "",
+          "details": true,
+          "main_role": "Boat"
+        }
+      ],
+      [
+        {
+          "type": "single",
+          "title": "Fairmile C (312)",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/uk_fairmile_c.png",
+          "br": "2.3",
+          "rp": "26,000",
+          "sp": "76,000",
+          "data_unit_id": "uk_fairmile_c",
+          "selected": false,
+          "class_name": "",
+          "details": true,
+          "main_role": "Boat"
+        },
+        {
+          "type": "single",
+          "title": "Fairmile H LCS(L)(2)",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/uk_fairmile_lcs_l_h_mk2.png",
+          "br": "2.3",
+          "rp": "36,000",
+          "sp": "115,000",
+          "data_unit_id": "uk_fairmile_lcs_l_h_mk2",
+          "selected": false,
+          "class_name": "",
+          "details": true,
+          "main_role": "Boat"
+        },
+        {
+          "type": "single",
+          "title": "Fairmile D (601)",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/uk_fairmile_d_601_616.png",
+          "br": "2.3",
+          "rp": "48,000",
+          "sp": "180,000",
+          "data_unit_id": "uk_fairmile_d_601_616",
+          "selected": false,
+          "class_name": "",
+          "details": true,
+          "main_role": "Boat"
+        }
+      ]
+    ],
+    "premium_vehicles": [
+      [
+        {
+          "type": "single",
+          "title": "HMS Gay Archer",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/uk_gay_class_archer.png",
+          "br": "2.3",
+          "rp": 0,
+          "sp": 0,
+          "data_unit_id": "uk_gay_class_archer",
+          "selected": false,
+          "class_name": "prem",
+          "details": true,
+          "main_role": "Boat"
+        },
+        {
+          "type": "single",
+          "title": "Fairmile D (5001)",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/uk_fairmile_d_5001_5029.png",
+          "br": "2.7",
+          "rp": 0,
+          "sp": 0,
+          "data_unit_id": "uk_fairmile_d_5001_5029",
+          "selected": false,
+          "class_name": "prem",
+          "details": true,
+          "main_role": "Boat"
+        },
+        {
+          "type": "single",
+          "title": "SGB Grey Goose",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/uk_sgb_309.png",
+          "br": "3.0",
+          "rp": 0,
+          "sp": 0,
+          "data_unit_id": "uk_sgb_309",
+          "selected": false,
+          "class_name": "prem",
+          "details": true,
+          "main_role": "Boat"
+        }
+      ],
+      [
+        {
+          "type": "single",
+          "title": "MTB-422",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/uk_higgins_78ft_mtb422.png",
+          "br": "2.3",
+          "rp": 0,
+          "sp": 0,
+          "data_unit_id": "uk_higgins_78ft_mtb422",
+          "selected": false,
+          "class_name": "prem",
+          "details": true,
+          "main_role": "Boat"
+        },
+        {
+          "type": "single",
+          "title": "Dark Aggressor TD",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/uk_dark_class_mtb_td.png",
+          "br": "2.3",
+          "rp": null,
+          "sp": null,
+          "data_unit_id": "uk_dark_class_mtb_td",
+          "selected": false,
+          "class_name": "",
+          "details": true,
+          "main_role": "Boat"
+        }
+      ]
+    ],
+    "selected": [],
+    "unlock_quantity": 0
+  },
+  {
+    "rank": "IV",
+    "researchable_vehicles": [
+      [
+        {
+          "type": "single",
+          "title": "Fairmile D (697)",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/uk_fairmile_d_697_800.png",
+          "br": "2.7",
+          "rp": "75,000",
+          "sp": "250,000",
+          "data_unit_id": "uk_fairmile_d_697_800",
+          "selected": false,
+          "class_name": "",
+          "details": true,
+          "main_role": "Boat"
+        },
+        {
+          "type": "single",
+          "title": "SGB Grey Fox",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/uk_sgb_304.png",
+          "br": "3.0",
+          "rp": "120,000",
+          "sp": "360,000",
+          "data_unit_id": "uk_sgb_304",
+          "selected": false,
+          "class_name": "",
+          "details": true,
+          "main_role": "Boat"
+        }
+      ],
+      [
+        {
+          "type": "single",
+          "title": "HMAS Arrow",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/uk_attack_class_arrow.png",
+          "br": "2.7",
+          "rp": "75,000",
+          "sp": "250,000",
+          "data_unit_id": "uk_attack_class_arrow",
+          "selected": false,
+          "class_name": "",
+          "details": true,
+          "main_role": "Heavy boat"
+        },
+        {
+          "type": "single",
+          "title": "HMAS Fremantle",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/uk_fremantle_class.png",
+          "br": "3.0",
+          "rp": "89,000",
+          "sp": "300,000",
+          "data_unit_id": "uk_fremantle_class",
+          "selected": false,
+          "class_name": "",
+          "details": true,
+          "main_role": "Heavy boat"
+        },
+        {
+          "type": "single",
+          "title": "Fairmile C (332)",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/uk_fairmile_c_332.png",
+          "br": "3.0",
+          "rp": "120,000",
+          "sp": "360,000",
+          "data_unit_id": "uk_fairmile_c_332",
+          "selected": false,
+          "class_name": "",
+          "details": true,
+          "main_role": "Boat"
+        }
+      ]
+    ],
+    "premium_vehicles": [
+      [
+        {
+          "type": "single",
+          "title": "LÉ Orla",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/uk_corvette_orla.png",
+          "br": "4.3",
+          "rp": 0,
+          "sp": 0,
+          "data_unit_id": "uk_corvette_orla",
+          "selected": false,
+          "class_name": "prem",
+          "details": true,
+          "main_role": "Heavy boat"
+        },
+        {
+          "type": "single",
+          "title": "HMS Whitby",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/uk_frigate_whitby.png",
+          "br": "3.7",
+          "rp": 0,
+          "sp": 0,
+          "data_unit_id": "uk_frigate_whitby",
+          "selected": false,
+          "class_name": "prem",
+          "details": true,
+          "main_role": "Frigate"
+        }
+      ],
+      [
+        {
+          "type": "single",
+          "title": "HMS Spey",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/uk_frigate_river.png",
+          "br": "3.3",
+          "rp": 0,
+          "sp": 0,
+          "data_unit_id": "uk_frigate_river",
+          "selected": false,
+          "class_name": "prem",
+          "details": true,
+          "main_role": "Frigate"
+        }
+      ]
+    ],
+    "selected": [],
+    "unlock_quantity": 0
+  },
+  {
+    "rank": "V",
+    "researchable_vehicles": [
+      [
+        {
+          "type": "single",
+          "title": "Brave Borderer",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/uk_brave_borderer.png",
+          "br": "3.3",
+          "rp": "220,000",
+          "sp": "640,000",
+          "data_unit_id": "uk_brave_borderer",
+          "selected": false,
+          "class_name": "",
+          "details": true,
+          "main_role": "Boat"
+        },
+        {
+          "type": "single",
+          "title": "HMCS Terra Nova",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/uk_destroyer_restigouche_class_terranova.png",
+          "br": "4.0",
+          "rp": "280,000",
+          "sp": "780,000",
+          "data_unit_id": "uk_destroyer_restigouche_class_terranova",
+          "selected": false,
+          "class_name": "",
+          "details": true,
+          "main_role": "Frigate"
+        },
+        {
+          "type": "single",
+          "title": "HMS Leopard",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/uk_frigate_leopard.png",
+          "br": "4.0",
+          "rp": "320,000",
+          "sp": "860,000",
+          "data_unit_id": "uk_frigate_leopard",
+          "selected": false,
+          "class_name": "",
+          "details": true,
+          "main_role": "Frigate"
+        }
+      ],
+      [
+        {
+          "type": "single",
+          "title": "HMS Blackpool",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/uk_frigate_whitby_blackpool.png",
+          "br": "3.7",
+          "rp": "250,000",
+          "sp": "700,000",
+          "data_unit_id": "uk_frigate_whitby_blackpool",
+          "selected": false,
+          "class_name": "",
+          "details": true,
+          "main_role": "Frigate"
+        },
+        {
+          "type": "single",
+          "title": "HMS Peacock",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/uk_corvette_peacock.png",
+          "br": "4.3",
+          "rp": "280,000",
+          "sp": "780,000",
+          "data_unit_id": "uk_corvette_peacock",
+          "selected": false,
+          "class_name": "",
+          "details": true,
+          "main_role": "Heavy boat"
+        }
+      ]
+    ],
+    "premium_vehicles": [
+      [],
+      []
+    ],
+    "selected": [],
+    "unlock_quantity": 0
+  }
+]

@@ -1,0 +1,420 @@
+[
+  {
+    "rank": "I",
+    "researchable_vehicles": [
+      [
+        {
+          "type": "single",
+          "title": "MAS 561",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/it_mas_classe500_3_1944.png",
+          "br": "1.0",
+          "rp": null,
+          "sp": null,
+          "data_unit_id": "it_mas_classe500_3_1944",
+          "selected": false,
+          "class_name": "",
+          "details": true,
+          "main_role": "Boat"
+        },
+        {
+          "type": "single",
+          "title": "VAS 201",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/it_vas_baglietto_68t_1serie.png",
+          "br": "1.3",
+          "rp": "4,000",
+          "sp": "2,100",
+          "data_unit_id": "it_vas_baglietto_68t_1serie",
+          "selected": false,
+          "class_name": "",
+          "details": true,
+          "main_role": "Boat"
+        }
+      ],
+      [
+        {
+          "type": "single",
+          "title": "MAS 555",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/it_mas_classe500_3.png",
+          "br": "1.0",
+          "rp": "2,900",
+          "sp": "700",
+          "data_unit_id": "it_mas_classe500_3",
+          "selected": false,
+          "class_name": "",
+          "details": true,
+          "main_role": "Boat"
+        }
+      ]
+    ],
+    "premium_vehicles": [
+      [
+        {
+          "type": "single",
+          "title": "MAS 569",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/it_mas_classe500_4.png",
+          "br": "1.0",
+          "rp": 0,
+          "sp": 0,
+          "data_unit_id": "it_mas_classe500_4",
+          "selected": false,
+          "class_name": "prem",
+          "details": true,
+          "main_role": "Boat"
+        }
+      ],
+      []
+    ],
+    "selected": [],
+    "unlock_quantity": 0
+  },
+  {
+    "rank": "II",
+    "researchable_vehicles": [
+      [
+        {
+          "type": "single",
+          "title": "MS-15",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/it_ms15_1a.png",
+          "br": "1.3",
+          "rp": "9,200",
+          "sp": "16,000",
+          "data_unit_id": "it_ms15_1a",
+          "selected": false,
+          "class_name": "",
+          "details": true,
+          "main_role": "Boat"
+        },
+        {
+          "type": "single",
+          "title": "Stefano Turr",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/it_mas_stefano_turr.png",
+          "br": "1.7",
+          "rp": "14,000",
+          "sp": "32,000",
+          "data_unit_id": "it_mas_stefano_turr",
+          "selected": false,
+          "class_name": "",
+          "details": true,
+          "main_role": "Boat"
+        }
+      ],
+      [
+        {
+          "type": "single",
+          "title": "MS-53",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/it_ms53_2a.png",
+          "br": "1.7",
+          "rp": "11,000",
+          "sp": "22,000",
+          "data_unit_id": "it_ms53_2a",
+          "selected": false,
+          "class_name": "",
+          "details": true,
+          "main_role": "Boat"
+        },
+        {
+          "type": "single",
+          "title": "MAS 441",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/it_mas441.png",
+          "br": "2.0",
+          "rp": "14,000",
+          "sp": "32,000",
+          "data_unit_id": "it_mas441",
+          "selected": false,
+          "class_name": "",
+          "details": true,
+          "main_role": "Boat"
+        }
+      ]
+    ],
+    "premium_vehicles": [
+      [],
+      []
+    ],
+    "selected": [],
+    "unlock_quantity": 0
+  },
+  {
+    "rank": "III",
+    "researchable_vehicles": [
+      [
+        {
+          "type": "single",
+          "title": "GIS 811",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/it_a1_vosper.png",
+          "br": "2.3",
+          "rp": "26,000",
+          "sp": "76,000",
+          "data_unit_id": "it_a1_vosper",
+          "selected": false,
+          "class_name": "",
+          "details": true,
+          "main_role": "Boat"
+        },
+        {
+          "type": "single",
+          "title": "MS-472",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/it_ms473_2a.png",
+          "br": "2.3",
+          "rp": "48,000",
+          "sp": "180,000",
+          "data_unit_id": "it_ms473_2a",
+          "selected": false,
+          "class_name": "",
+          "details": true,
+          "main_role": "Boat"
+        }
+      ],
+      [
+        {
+          "type": "single",
+          "title": "MV-611",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/it_ms471_1a.png",
+          "br": "2.3",
+          "rp": "36,000",
+          "sp": "115,000",
+          "data_unit_id": "it_ms471_1a",
+          "selected": false,
+          "class_name": "",
+          "details": true,
+          "main_role": "Boat"
+        }
+      ]
+    ],
+    "premium_vehicles": [
+      [
+        {
+          "type": "single",
+          "title": "MS 444",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/it_ms444.png",
+          "br": "2.7",
+          "rp": 0,
+          "sp": 0,
+          "data_unit_id": "it_ms444",
+          "selected": false,
+          "class_name": "prem",
+          "details": true,
+          "main_role": "Boat"
+        },
+        {
+          "type": "single",
+          "title": "MC-485",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/it_mc_485.png",
+          "br": "2.7",
+          "rp": 0,
+          "sp": 0,
+          "data_unit_id": "it_mc_485",
+          "selected": false,
+          "class_name": "prem",
+          "details": true,
+          "main_role": "Boat"
+        }
+      ],
+      []
+    ],
+    "selected": [],
+    "unlock_quantity": 0
+  },
+  {
+    "rank": "IV",
+    "researchable_vehicles": [
+      [
+        {
+          "type": "single",
+          "title": "MC-490",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/it_mc490_folgore.png",
+          "br": "3.3",
+          "rp": "89,000",
+          "sp": "300,000",
+          "data_unit_id": "it_mc490_folgore",
+          "selected": false,
+          "class_name": "",
+          "details": true,
+          "main_role": "Boat"
+        },
+        {
+          "type": "single",
+          "title": "Baleno MC-492",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/it_mc492_baleno.png",
+          "br": "3.3",
+          "rp": "120,000",
+          "sp": "360,000",
+          "data_unit_id": "it_mc492_baleno",
+          "selected": false,
+          "class_name": "",
+          "details": true,
+          "main_role": "Boat"
+        }
+      ],
+      [
+        {
+          "type": "single",
+          "title": "MS-473",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/it_ms473_2a_art.png",
+          "br": "3.0",
+          "rp": "89,000",
+          "sp": "300,000",
+          "data_unit_id": "it_ms473_2a_art",
+          "selected": false,
+          "class_name": "",
+          "details": true,
+          "main_role": "Boat"
+        },
+        {
+          "type": "single",
+          "title": "RN Gabbiano",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/it_gabbiano_class.png",
+          "br": "3.7",
+          "rp": "120,000",
+          "sp": "360,000",
+          "data_unit_id": "it_gabbiano_class",
+          "selected": false,
+          "class_name": "",
+          "details": true,
+          "main_role": "Heavy boat"
+        }
+      ]
+    ],
+    "premium_vehicles": [
+      [
+        {
+          "type": "single",
+          "title": "Folaga",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/it_gabbiano_class_c16.png",
+          "br": "3.7",
+          "rp": 0,
+          "sp": 0,
+          "data_unit_id": "it_gabbiano_class_c16",
+          "selected": false,
+          "class_name": "prem",
+          "details": true,
+          "main_role": "Heavy boat"
+        },
+        {
+          "type": "single",
+          "title": "Sparviero",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/it_p420_sparviero.png",
+          "br": "3.7",
+          "rp": 0,
+          "sp": 0,
+          "data_unit_id": "it_p420_sparviero",
+          "selected": false,
+          "class_name": "prem",
+          "details": true,
+          "main_role": "Boat"
+        }
+      ],
+      [
+        {
+          "type": "single",
+          "title": "Freccia P-493",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/it_p493_freccia.png",
+          "br": "4.7",
+          "rp": 0,
+          "sp": 0,
+          "data_unit_id": "it_p493_freccia",
+          "selected": false,
+          "class_name": "prem",
+          "details": true,
+          "main_role": "Boat"
+        }
+      ]
+    ],
+    "selected": [],
+    "unlock_quantity": 0
+  },
+  {
+    "rank": "V",
+    "researchable_vehicles": [
+      [
+        {
+          "type": "single",
+          "title": "Alano",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/it_alano_9851.png",
+          "br": "3.7",
+          "rp": "220,000",
+          "sp": "640,000",
+          "data_unit_id": "it_alano_9851",
+          "selected": false,
+          "class_name": "",
+          "details": true,
+          "main_role": "Heavy boat"
+        },
+        {
+          "type": "single",
+          "title": "Cassiopea",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/it_cassiopea_p401.png",
+          "br": "3.7",
+          "rp": "250,000",
+          "sp": "700,000",
+          "data_unit_id": "it_cassiopea_p401",
+          "selected": false,
+          "class_name": "",
+          "details": true,
+          "main_role": "Frigate"
+        },
+        {
+          "type": "single",
+          "title": "Saetta P-494",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/it_p494_saetta.png",
+          "br": "4.7",
+          "rp": "280,000",
+          "sp": "780,000",
+          "data_unit_id": "it_p494_saetta",
+          "selected": false,
+          "class_name": "",
+          "details": true,
+          "main_role": "Heavy boat"
+        }
+      ],
+      [
+        {
+          "type": "single",
+          "title": "RN Ghibli",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/it_ciclone_class_ghibli.png",
+          "br": "3.7",
+          "rp": "220,000",
+          "sp": "640,000",
+          "data_unit_id": "it_ciclone_class_ghibli",
+          "selected": false,
+          "class_name": "",
+          "details": true,
+          "main_role": "Frigate"
+        },
+        {
+          "type": "single",
+          "title": "Albatros",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/it_albatros_class_f543.png",
+          "br": "4.0",
+          "rp": "250,000",
+          "sp": "700,000",
+          "data_unit_id": "it_albatros_class_f543",
+          "selected": false,
+          "class_name": "",
+          "details": true,
+          "main_role": "Frigate"
+        }
+      ]
+    ],
+    "premium_vehicles": [
+      [
+        {
+          "type": "single",
+          "title": "Alcione",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/it_albatros_class_f544.png",
+          "br": "4.0",
+          "rp": null,
+          "sp": null,
+          "data_unit_id": "it_albatros_class_f544",
+          "selected": false,
+          "class_name": "",
+          "details": true,
+          "main_role": "Frigate"
+        }
+      ],
+      []
+    ],
+    "selected": [],
+    "unlock_quantity": 0
+  }
+]

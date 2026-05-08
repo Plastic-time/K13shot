@@ -1,0 +1,247 @@
+[
+  {
+    "rank": "V",
+    "researchable_vehicles": [
+      [
+        {
+          "type": "single",
+          "title": "Mi-8TV",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/mi_8tv.png",
+          "br": "8.0",
+          "rp": "150,000",
+          "sp": "490,000",
+          "data_unit_id": "mi_8tv",
+          "selected": false,
+          "class_name": "",
+          "details": true,
+          "main_role": "Attack helicopter"
+        }
+      ],
+      [
+        {
+          "type": "single",
+          "title": "Mi-4AV",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/mi_4av.png",
+          "br": "8.0",
+          "rp": null,
+          "sp": "390,000",
+          "data_unit_id": "mi_4av",
+          "selected": false,
+          "class_name": "",
+          "details": true,
+          "main_role": "Attack helicopter"
+        },
+        {
+          "type": "single",
+          "title": "Mi-24A",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/mi_24a.png",
+          "br": "8.7",
+          "rp": "150,000",
+          "sp": "490,000",
+          "data_unit_id": "mi_24a",
+          "selected": false,
+          "class_name": "",
+          "details": true,
+          "main_role": "Attack helicopter"
+        }
+      ],
+      []
+    ],
+    "premium_vehicles": [
+      [
+        {
+          "type": "single",
+          "title": "▂Mi-24D",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/mi_24d.png",
+          "br": "8.7",
+          "rp": 0,
+          "sp": 0,
+          "data_unit_id": "mi_24d",
+          "selected": false,
+          "class_name": "prem",
+          "details": true,
+          "main_role": "Attack helicopter"
+        }
+      ]
+    ],
+    "selected": [],
+    "unlock_quantity": 0
+  },
+  {
+    "rank": "VI",
+    "researchable_vehicles": [
+      [
+        {
+          "type": "single",
+          "title": "Mi-8AMTSh",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/mi_8amtsh.png",
+          "br": "9.7",
+          "rp": "360,000",
+          "sp": "980,000",
+          "data_unit_id": "mi_8amtsh",
+          "selected": false,
+          "class_name": "",
+          "details": true,
+          "main_role": "Attack helicopter"
+        }
+      ],
+      [
+        {
+          "type": "single",
+          "title": "Mi-24V",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/mi_24v.png",
+          "br": "9.7",
+          "rp": "360,000",
+          "sp": "980,000",
+          "data_unit_id": "mi_24v",
+          "selected": false,
+          "class_name": "",
+          "details": true,
+          "main_role": "Attack helicopter"
+        },
+        {
+          "type": "single",
+          "title": "Mi-24P",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/mi_24p.png",
+          "br": "9.7",
+          "rp": "370,000",
+          "sp": "990,000",
+          "data_unit_id": "mi_24p",
+          "selected": false,
+          "class_name": "",
+          "details": true,
+          "main_role": "Attack helicopter"
+        },
+        {
+          "type": "single",
+          "title": "Mi-35M",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/mi_35m.png",
+          "br": "10.7",
+          "rp": "390,000",
+          "sp": "1,010,000",
+          "data_unit_id": "mi_35m",
+          "selected": false,
+          "class_name": "",
+          "details": true,
+          "main_role": "Attack helicopter"
+        }
+      ],
+      [
+        {
+          "type": "single",
+          "title": "Ka-29",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/ka_29.png",
+          "br": "9.7",
+          "rp": "380,000",
+          "sp": "1,000,000",
+          "data_unit_id": "ka_29",
+          "selected": false,
+          "class_name": "",
+          "details": true,
+          "main_role": "Attack helicopter"
+        }
+      ]
+    ],
+    "premium_vehicles": [
+      [
+        {
+          "type": "single",
+          "title": "Ka-50",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/ka_50.png",
+          "br": "11.3",
+          "rp": 0,
+          "sp": 0,
+          "data_unit_id": "ka_50",
+          "selected": false,
+          "class_name": "prem",
+          "details": true,
+          "main_role": "Attack helicopter"
+        }
+      ]
+    ],
+    "selected": [],
+    "unlock_quantity": 0
+  },
+  {
+    "rank": "VII",
+    "researchable_vehicles": [
+      [
+        {
+          "type": "single",
+          "title": "Mi-8AMTSh-VN",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/mi_8amtsh_vn.png",
+          "br": "11.0",
+          "rp": "400,000",
+          "sp": "1,020,000",
+          "data_unit_id": "mi_8amtsh_vn",
+          "selected": false,
+          "class_name": "",
+          "details": true,
+          "main_role": "Attack helicopter"
+        }
+      ],
+      [
+        {
+          "type": "single",
+          "title": "Mi-28N",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/mi_28n.png",
+          "br": "11.0",
+          "rp": "400,000",
+          "sp": "1,020,000",
+          "data_unit_id": "mi_28n",
+          "selected": false,
+          "class_name": "",
+          "details": true,
+          "main_role": "Attack helicopter"
+        },
+        {
+          "type": "single",
+          "title": "Mi-28NM",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/mi_28nm.png",
+          "br": "13.0",
+          "rp": "400,000",
+          "sp": "1,030,000",
+          "data_unit_id": "mi_28nm",
+          "selected": false,
+          "class_name": "",
+          "details": true,
+          "main_role": "Attack helicopter"
+        }
+      ],
+      [
+        {
+          "type": "single",
+          "title": "Ka-52",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/ka_52.png",
+          "br": "12.0",
+          "rp": "400,000",
+          "sp": "1,030,000",
+          "data_unit_id": "ka_52",
+          "selected": false,
+          "class_name": "",
+          "details": true,
+          "main_role": "Attack helicopter"
+        }
+      ]
+    ],
+    "premium_vehicles": [
+      [
+        {
+          "type": "single",
+          "title": "Mi-35P",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/mi_35p.png",
+          "br": "11.7",
+          "rp": "540,000",
+          "sp": "1,080,000",
+          "data_unit_id": "mi_35p",
+          "selected": false,
+          "class_name": "squad",
+          "details": true,
+          "main_role": "Attack helicopter"
+        }
+      ]
+    ],
+    "selected": [],
+    "unlock_quantity": 0
+  }
+]

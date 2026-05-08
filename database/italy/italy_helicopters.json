@@ -1,0 +1,156 @@
+[
+  {
+    "rank": "V",
+    "researchable_vehicles": [
+      [
+        {
+          "type": "single",
+          "title": "AB 205 A-1",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/ab_205a_1.png",
+          "br": "7.7",
+          "rp": null,
+          "sp": "390,000",
+          "data_unit_id": "ab_205a_1",
+          "selected": false,
+          "class_name": "",
+          "details": true,
+          "main_role": "Utility helicopter"
+        },
+        {
+          "type": "single",
+          "title": "◔Mi-24D",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/mi_24d_hungary.png",
+          "br": "8.7",
+          "rp": "150,000",
+          "sp": "490,000",
+          "data_unit_id": "mi_24d_hungary",
+          "selected": false,
+          "class_name": "",
+          "details": true,
+          "main_role": "Attack helicopter"
+        }
+      ]
+    ],
+    "premium_vehicles": [
+      []
+    ],
+    "selected": [],
+    "unlock_quantity": 0
+  },
+  {
+    "rank": "VI",
+    "researchable_vehicles": [
+      [
+        {
+          "type": "single",
+          "title": "A.109EOA-2",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/a_109_eoa2.png",
+          "br": "8.7",
+          "rp": "380,000",
+          "sp": "1,000,000",
+          "data_unit_id": "a_109_eoa2",
+          "selected": false,
+          "class_name": "",
+          "details": true,
+          "main_role": "Utility helicopter"
+        },
+        {
+          "type": "single",
+          "title": "◔Mi-24V",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/mi_24v_hungary.png",
+          "br": "9.7",
+          "rp": "390,000",
+          "sp": "1,010,000",
+          "data_unit_id": "mi_24v_hungary",
+          "selected": false,
+          "class_name": "",
+          "details": true,
+          "main_role": "Attack helicopter"
+        }
+      ]
+    ],
+    "premium_vehicles": [
+      [
+        {
+          "type": "single",
+          "title": "T129",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/t_129_atak.png",
+          "br": "10.7",
+          "rp": 0,
+          "sp": 0,
+          "data_unit_id": "t_129_atak",
+          "selected": false,
+          "class_name": "prem",
+          "details": true,
+          "main_role": "Attack helicopter"
+        },
+        {
+          "type": "single",
+          "title": "◔Mi-24P",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/mi_24p_hungary.png",
+          "br": "9.7",
+          "rp": 0,
+          "sp": 0,
+          "data_unit_id": "mi_24p_hungary",
+          "selected": false,
+          "class_name": "prem",
+          "details": true,
+          "main_role": "Attack helicopter"
+        },
+        {
+          "type": "single",
+          "title": "A-129 International (p)",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/a_129_a.png",
+          "br": "11.0",
+          "rp": 0,
+          "sp": 0,
+          "data_unit_id": "a_129_a",
+          "selected": false,
+          "class_name": "prem",
+          "details": true,
+          "main_role": "Attack helicopter"
+        }
+      ]
+    ],
+    "selected": [],
+    "unlock_quantity": 0
+  },
+  {
+    "rank": "VII",
+    "researchable_vehicles": [
+      [
+        {
+          "type": "single",
+          "title": "A129CBT",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/a_129_cbt.png",
+          "br": "11.0",
+          "rp": "400,000",
+          "sp": "1,020,000",
+          "data_unit_id": "a_129_cbt",
+          "selected": false,
+          "class_name": "",
+          "details": true,
+          "main_role": "Attack helicopter"
+        },
+        {
+          "type": "single",
+          "title": "AH-129D",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/a_129_d.png",
+          "br": "12.7",
+          "rp": "400,000",
+          "sp": "1,030,000",
+          "data_unit_id": "a_129_d",
+          "selected": false,
+          "class_name": "",
+          "details": true,
+          "main_role": "Attack helicopter"
+        }
+      ]
+    ],
+    "premium_vehicles": [
+      []
+    ],
+    "selected": [],
+    "unlock_quantity": 0
+  }
+]

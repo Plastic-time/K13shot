@@ -17,6 +17,11 @@ function extractIcon(style = "") {
 function extractClassName($el) {
   if ($el.hasClass("wt-tree_item--prem") || $el.hasClass("wt-tree_group--prem")) return "prem";
   if ($el.hasClass("wt-tree_item--squad") || $el.hasClass("wt-tree_group--squad")) return "squad";
+  if ($el.hasClass("wt-tree_item--event") || $el.hasClass("wt-tree_group--event")) return "event";
+  if ($el.hasClass("wt-tree_item--gift") || $el.hasClass("wt-tree_group--gift")) return "gift";
+  const classList = ($el.attr("class") || "").toLowerCase();
+  if (classList.includes("event")) return "event";
+  if (classList.includes("gift")) return "gift";
   return "";
 }
 

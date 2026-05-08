@@ -1,0 +1,582 @@
+[
+  {
+    "rank": "I",
+    "researchable_vehicles": [
+      [
+        {
+          "type": "single",
+          "title": "RN Turbine",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/it_destroyer_turbine.png",
+          "br": "3.3",
+          "rp": null,
+          "sp": null,
+          "data_unit_id": "it_destroyer_turbine",
+          "selected": false,
+          "class_name": "",
+          "details": true,
+          "main_role": "Destroyer"
+        },
+        {
+          "type": "single",
+          "title": "RN Dardo",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/it_destroyer_dardo.png",
+          "br": "3.7",
+          "rp": "4,000",
+          "sp": "2,100",
+          "data_unit_id": "it_destroyer_dardo",
+          "selected": false,
+          "class_name": "",
+          "details": true,
+          "main_role": "Destroyer"
+        },
+        {
+          "type": "single",
+          "title": "RN Vincenzo Gioberti",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/it_destroyer_oriani_class_gioberti.png",
+          "br": "3.7",
+          "rp": "5,300",
+          "sp": "5,000",
+          "data_unit_id": "it_destroyer_oriani_class_gioberti",
+          "selected": false,
+          "class_name": "",
+          "details": true,
+          "main_role": "Destroyer"
+        }
+      ],
+      [
+        {
+          "type": "single",
+          "title": "RN Aquila",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/it_destroyer_vifor_class_aquila.png",
+          "br": "3.3",
+          "rp": "2,900",
+          "sp": "700",
+          "data_unit_id": "it_destroyer_vifor_class_aquila",
+          "selected": false,
+          "class_name": "",
+          "details": true,
+          "main_role": "Destroyer"
+        },
+        {
+          "type": "single",
+          "title": "Grecale",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/it_destroyer_maestrale_class_grecale.png",
+          "br": "3.7",
+          "rp": "5,300",
+          "sp": "5,000",
+          "data_unit_id": "it_destroyer_maestrale_class_grecale",
+          "selected": false,
+          "class_name": "",
+          "details": true,
+          "main_role": "Destroyer"
+        }
+      ]
+    ],
+    "premium_vehicles": [
+      [
+        {
+          "type": "single",
+          "title": "RN Aquilone",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/it_destroyer_aquilone.png",
+          "br": "3.3",
+          "rp": 0,
+          "sp": 0,
+          "data_unit_id": "it_destroyer_aquilone",
+          "selected": false,
+          "class_name": "prem",
+          "details": true,
+          "main_role": "Destroyer"
+        }
+      ],
+      [
+        {
+          "type": "single",
+          "title": "RN Saetta",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/it_destroyer_saetta.png",
+          "br": "3.7",
+          "rp": 0,
+          "sp": 0,
+          "data_unit_id": "it_destroyer_saetta",
+          "selected": false,
+          "class_name": "prem",
+          "details": true,
+          "main_role": "Destroyer"
+        }
+      ]
+    ],
+    "selected": [],
+    "unlock_quantity": 0
+  },
+  {
+    "rank": "II",
+    "researchable_vehicles": [
+      [
+        {
+          "type": "single",
+          "title": "RN Leone",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/it_destroyer_leone_class.png",
+          "br": "4.0",
+          "rp": "9,000",
+          "sp": "16,000",
+          "data_unit_id": "it_destroyer_leone_class",
+          "selected": false,
+          "class_name": "",
+          "details": true,
+          "main_role": "Destroyer"
+        },
+        {
+          "type": "single",
+          "title": "RN Corazziere",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/it_destroyer_soldati_serie1_camicianera.png",
+          "br": "4.3",
+          "rp": "11,000",
+          "sp": "22,000",
+          "data_unit_id": "it_destroyer_soldati_serie1_camicianera",
+          "selected": false,
+          "class_name": "",
+          "details": true,
+          "main_role": "Destroyer"
+        }
+      ],
+      [
+        {
+          "type": "single",
+          "title": "RN Comandante Margottini",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/it_destroyer_comandanti_medaglie_doro.png",
+          "br": "4.0",
+          "rp": "7,000",
+          "sp": "8,700",
+          "data_unit_id": "it_destroyer_comandanti_medaglie_doro",
+          "selected": false,
+          "class_name": "",
+          "details": true,
+          "main_role": "Destroyer"
+        },
+        {
+          "type": "single",
+          "title": "Impetuoso",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/it_destroyer_impetuoso_class_impetuoso.png",
+          "br": "4.3",
+          "rp": "13,000",
+          "sp": "31,000",
+          "data_unit_id": "it_destroyer_impetuoso_class_impetuoso",
+          "selected": false,
+          "class_name": "",
+          "details": true,
+          "main_role": "Destroyer"
+        }
+      ]
+    ],
+    "premium_vehicles": [
+      [
+        {
+          "type": "single",
+          "title": "Geniere",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/it_destroyer_fletcher_geniere.png",
+          "br": "4.7",
+          "rp": 0,
+          "sp": 0,
+          "data_unit_id": "it_destroyer_fletcher_geniere",
+          "selected": false,
+          "class_name": "prem",
+          "details": true,
+          "main_role": "Destroyer"
+        }
+      ],
+      []
+    ],
+    "selected": [],
+    "unlock_quantity": 0
+  },
+  {
+    "rank": "III",
+    "researchable_vehicles": [
+      [
+        {
+          "type": "single",
+          "title": "RN Da Verazzano",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/it_destroyer_navigatori_class_verazzano.png",
+          "br": "4.3",
+          "rp": "15,000",
+          "sp": "38,000",
+          "data_unit_id": "it_destroyer_navigatori_class_verazzano",
+          "selected": false,
+          "class_name": "",
+          "details": true,
+          "main_role": "Destroyer"
+        },
+        {
+          "type": "single",
+          "title": "RN Bartolomeo Colleoni",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/it_cruiser_bartolomeocolleoni_1940.png",
+          "br": "5.0",
+          "rp": "21,000",
+          "sp": "70,000",
+          "data_unit_id": "it_cruiser_bartolomeocolleoni_1940",
+          "selected": false,
+          "class_name": "",
+          "details": true,
+          "main_role": "Light cruiser"
+        },
+        {
+          "type": "single",
+          "title": "RN Armando Diaz",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/it_cruiser_cadorna_class_diaz.png",
+          "br": "5.0",
+          "rp": "25,000",
+          "sp": "87,000",
+          "data_unit_id": "it_cruiser_cadorna_class_diaz",
+          "selected": false,
+          "class_name": "",
+          "details": true,
+          "main_role": "Light cruiser"
+        }
+      ],
+      [
+        {
+          "type": "single",
+          "title": "RN Etna",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/it_cruiser_etna_class.png",
+          "br": "4.7",
+          "rp": "18,000",
+          "sp": "55,000",
+          "data_unit_id": "it_cruiser_etna_class",
+          "selected": false,
+          "class_name": "",
+          "details": true,
+          "main_role": "Light cruiser"
+        },
+        {
+          "type": "single",
+          "title": "RN Attilio Regolo",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/it_cruiser_capitani_romani_class_attilio_regolo.png",
+          "br": "4.7",
+          "rp": "25,000",
+          "sp": "87,000",
+          "data_unit_id": "it_cruiser_capitani_romani_class_attilio_regolo",
+          "selected": false,
+          "class_name": "",
+          "details": true,
+          "main_role": "Light cruiser"
+        }
+      ]
+    ],
+    "premium_vehicles": [
+      [
+        {
+          "type": "single",
+          "title": "RN Tigre",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/it_destroyer_leone_class_tigre.png",
+          "br": "4.0",
+          "rp": 0,
+          "sp": 0,
+          "data_unit_id": "it_destroyer_leone_class_tigre",
+          "selected": false,
+          "class_name": "prem",
+          "details": true,
+          "main_role": "Destroyer"
+        },
+        {
+          "type": "single",
+          "title": "RN Geniere",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/it_destroyer_soldati_serie1_geniere.png",
+          "br": "4.3",
+          "rp": 0,
+          "sp": 0,
+          "data_unit_id": "it_destroyer_soldati_serie1_geniere",
+          "selected": false,
+          "class_name": "prem",
+          "details": true,
+          "main_role": "Destroyer"
+        }
+      ],
+      [
+        {
+          "type": "single",
+          "title": "RN Aviere",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/it_destroyer_soldati_serie1.png",
+          "br": "4.0",
+          "rp": 0,
+          "sp": 0,
+          "data_unit_id": "it_destroyer_soldati_serie1",
+          "selected": false,
+          "class_name": "prem",
+          "details": true,
+          "main_role": "Destroyer"
+        },
+        {
+          "type": "single",
+          "title": "RN Luigi Cadorna",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/it_cruiser_cadorna_class_cadorna.png",
+          "br": "5.0",
+          "rp": 0,
+          "sp": 0,
+          "data_unit_id": "it_cruiser_cadorna_class_cadorna",
+          "selected": false,
+          "class_name": "prem",
+          "details": true,
+          "main_role": "Light cruiser"
+        }
+      ]
+    ],
+    "selected": [],
+    "unlock_quantity": 0
+  },
+  {
+    "rank": "IV",
+    "researchable_vehicles": [
+      [
+        {
+          "type": "single",
+          "title": "RN Raimondo Montecuccoli",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/it_cruiser_montecuccoli.png",
+          "br": "5.3",
+          "rp": "46,000",
+          "sp": "150,000",
+          "data_unit_id": "it_cruiser_montecuccoli",
+          "selected": false,
+          "class_name": "",
+          "details": true,
+          "main_role": "Light cruiser"
+        },
+        {
+          "type": "single",
+          "title": "RN Eugenio di Savoia",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/it_cruiser_eugenio_di_savoia.png",
+          "br": "5.7",
+          "rp": "59,000",
+          "sp": "185,000",
+          "data_unit_id": "it_cruiser_eugenio_di_savoia",
+          "selected": false,
+          "class_name": "",
+          "details": true,
+          "main_role": "Light cruiser"
+        }
+      ],
+      [
+        {
+          "type": "single",
+          "title": "RN Trento",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/it_cruiser_trento.png",
+          "br": "5.3",
+          "rp": "33,000",
+          "sp": "115,000",
+          "data_unit_id": "it_cruiser_trento",
+          "selected": false,
+          "class_name": "",
+          "details": true,
+          "main_role": "Heavy cruiser"
+        },
+        {
+          "type": "single",
+          "title": "RN Bolzano",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/it_cruiser_bolzano.png",
+          "br": "5.7",
+          "rp": "73,000",
+          "sp": "230,000",
+          "data_unit_id": "it_cruiser_bolzano",
+          "selected": false,
+          "class_name": "",
+          "details": true,
+          "main_role": "Heavy cruiser"
+        }
+      ]
+    ],
+    "premium_vehicles": [
+      [
+        {
+          "type": "single",
+          "title": "RN Pola",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/it_cruiser_zara_class_pola.png",
+          "br": "6.0",
+          "rp": 0,
+          "sp": 0,
+          "data_unit_id": "it_cruiser_zara_class_pola",
+          "selected": false,
+          "class_name": "prem",
+          "details": true,
+          "main_role": "Heavy cruiser"
+        }
+      ],
+      []
+    ],
+    "selected": [],
+    "unlock_quantity": 0
+  },
+  {
+    "rank": "V",
+    "researchable_vehicles": [
+      [
+        {
+          "type": "single",
+          "title": "RN Duca degli Abruzzi",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/it_cruiser_garibaldi_class_abruzzi.png",
+          "br": "5.7",
+          "rp": "90,000",
+          "sp": "280,000",
+          "data_unit_id": "it_cruiser_garibaldi_class_abruzzi",
+          "selected": false,
+          "class_name": "",
+          "details": true,
+          "main_role": "Light cruiser"
+        },
+        {
+          "type": "single",
+          "title": "RN Dante Alighieri",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/it_battleship_dante_alighieri.png",
+          "br": "6.3",
+          "rp": "145,000",
+          "sp": "440,000",
+          "data_unit_id": "it_battleship_dante_alighieri",
+          "selected": false,
+          "class_name": "",
+          "details": true,
+          "main_role": "Battleship"
+        },
+        {
+          "type": "single",
+          "title": "RN Francesco Caracciolo",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/it_battleship_francesco_caracciolo.png",
+          "br": "6.7",
+          "rp": "180,000",
+          "sp": "540,000",
+          "data_unit_id": "it_battleship_francesco_caracciolo",
+          "selected": false,
+          "class_name": "",
+          "details": true,
+          "main_role": "Battleship"
+        }
+      ],
+      [
+        {
+          "type": "single",
+          "title": "RN Zara",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/it_cruiser_zara_class.png",
+          "br": "6.0",
+          "rp": "110,000",
+          "sp": "340,000",
+          "data_unit_id": "it_cruiser_zara_class",
+          "selected": false,
+          "class_name": "",
+          "details": true,
+          "main_role": "Heavy cruiser"
+        },
+        {
+          "type": "single",
+          "title": "RN Andrea Doria",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/it_battleship_andrea_doria.png",
+          "br": "6.3",
+          "rp": "145,000",
+          "sp": "440,000",
+          "data_unit_id": "it_battleship_andrea_doria",
+          "selected": false,
+          "class_name": "",
+          "details": true,
+          "main_role": "Battleship"
+        }
+      ]
+    ],
+    "premium_vehicles": [
+      [
+        {
+          "type": "single",
+          "title": "RN Leonardo da Vinci",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/it_battleship_leonardo_da_vinci.png",
+          "br": "6.3",
+          "rp": 0,
+          "sp": 0,
+          "data_unit_id": "it_battleship_leonardo_da_vinci",
+          "selected": false,
+          "class_name": "prem",
+          "details": true,
+          "main_role": "Battleship"
+        }
+      ],
+      []
+    ],
+    "selected": [],
+    "unlock_quantity": 0
+  },
+  {
+    "rank": "VI",
+    "researchable_vehicles": [
+      [
+        {
+          "type": "single",
+          "title": "RN Conte di Cavour",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/it_battleship_conte_di_cavour.png",
+          "br": "7.3",
+          "rp": "300,000",
+          "sp": "900,000",
+          "data_unit_id": "it_battleship_conte_di_cavour",
+          "selected": false,
+          "class_name": "",
+          "details": true,
+          "main_role": "Battleship"
+        }
+      ],
+      [
+        {
+          "type": "single",
+          "title": "RN Duilio",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/it_battleship_caio_duilio.png",
+          "br": "7.3",
+          "rp": "220,000",
+          "sp": "660,000",
+          "data_unit_id": "it_battleship_caio_duilio",
+          "selected": false,
+          "class_name": "",
+          "details": true,
+          "main_role": "Battleship"
+        }
+      ]
+    ],
+    "premium_vehicles": [
+      [],
+      []
+    ],
+    "selected": [],
+    "unlock_quantity": 0
+  },
+  {
+    "rank": "VII",
+    "researchable_vehicles": [
+      [
+        {
+          "type": "single",
+          "title": "RN Roma",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/it_battleship_littorio_class_roma.png",
+          "br": "8.3",
+          "rp": "400,000",
+          "sp": "1,150,000",
+          "data_unit_id": "it_battleship_littorio_class_roma",
+          "selected": false,
+          "class_name": "",
+          "details": true,
+          "main_role": "Battleship"
+        }
+      ],
+      [
+        {
+          "type": "single",
+          "title": "RN Italia",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/it_battleship_littorio_class_littorio.png",
+          "br": "8.3",
+          "rp": "410,000",
+          "sp": "1,190,000",
+          "data_unit_id": "it_battleship_littorio_class_littorio",
+          "selected": false,
+          "class_name": "",
+          "details": true,
+          "main_role": "Battleship"
+        }
+      ]
+    ],
+    "premium_vehicles": [
+      [],
+      []
+    ],
+    "selected": [],
+    "unlock_quantity": 0
+  }
+]

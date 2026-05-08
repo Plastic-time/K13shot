@@ -1,0 +1,673 @@
+[
+  {
+    "rank": "I",
+    "researchable_vehicles": [
+      [
+        {
+          "type": "single",
+          "title": "Frunze",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/ussr_destroyer_frunze.png",
+          "br": "3.3",
+          "rp": null,
+          "sp": null,
+          "data_unit_id": "ussr_destroyer_frunze",
+          "selected": false,
+          "class_name": "",
+          "details": true,
+          "main_role": "Destroyer"
+        },
+        {
+          "type": "single",
+          "title": "Besposhchadny",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/ussr_destroyer_7_besposhchadny.png",
+          "br": "4.0",
+          "rp": "5,300",
+          "sp": "5,000",
+          "data_unit_id": "ussr_destroyer_7_besposhchadny",
+          "selected": false,
+          "class_name": "",
+          "details": true,
+          "main_role": "Destroyer"
+        }
+      ],
+      [
+        {
+          "type": "single",
+          "title": "Opytny",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/ussr_destroyer_pr45.png",
+          "br": "3.7",
+          "rp": "2,900",
+          "sp": "700",
+          "data_unit_id": "ussr_destroyer_pr45",
+          "selected": false,
+          "class_name": "",
+          "details": true,
+          "main_role": "Destroyer"
+        },
+        {
+          "type": "single",
+          "title": "Letuchiy",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/ussr_destroyer_regele_ferdinand_class_letuchiy.png",
+          "br": "4.0",
+          "rp": "4,000",
+          "sp": "2,100",
+          "data_unit_id": "ussr_destroyer_regele_ferdinand_class_letuchiy",
+          "selected": false,
+          "class_name": "",
+          "details": true,
+          "main_role": "Destroyer"
+        }
+      ]
+    ],
+    "premium_vehicles": [
+      [
+        {
+          "type": "single",
+          "title": "Kerch",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/ussr_destroyer_kerch.png",
+          "br": "3.3",
+          "rp": 0,
+          "sp": 0,
+          "data_unit_id": "ussr_destroyer_kerch",
+          "selected": false,
+          "class_name": "prem",
+          "details": true,
+          "main_role": "Destroyer"
+        }
+      ],
+      []
+    ],
+    "selected": [],
+    "unlock_quantity": 0
+  },
+  {
+    "rank": "II",
+    "researchable_vehicles": [
+      [
+        {
+          "type": "single",
+          "title": "Moskva",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/ussr_destroyer_moskva.png",
+          "br": "4.3",
+          "rp": "7,000",
+          "sp": "8,700",
+          "data_unit_id": "ussr_destroyer_moskva",
+          "selected": false,
+          "class_name": "",
+          "details": true,
+          "main_role": "Destroyer"
+        },
+        {
+          "type": "single",
+          "title": "Soobrazitelny",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/ussr_destroyer_7y.png",
+          "br": "4.7",
+          "rp": "13,000",
+          "sp": "31,000",
+          "data_unit_id": "ussr_destroyer_7y",
+          "selected": false,
+          "class_name": "",
+          "details": true,
+          "main_role": "Destroyer"
+        }
+      ],
+      [
+        {
+          "type": "single",
+          "title": "Ognevoy",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/ussr_destroyer_pr30_ognevoy.png",
+          "br": "4.3",
+          "rp": "9,000",
+          "sp": "16,000",
+          "data_unit_id": "ussr_destroyer_pr30_ognevoy",
+          "selected": false,
+          "class_name": "",
+          "details": true,
+          "main_role": "Destroyer"
+        },
+        {
+          "type": "single",
+          "title": "Bezuprechny",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/ussr_destroyer_pr30bis_bezuprechnyi.png",
+          "br": "4.3",
+          "rp": "11,000",
+          "sp": "22,000",
+          "data_unit_id": "ussr_destroyer_pr30bis_bezuprechnyi",
+          "selected": false,
+          "class_name": "",
+          "details": true,
+          "main_role": "Destroyer"
+        }
+      ]
+    ],
+    "premium_vehicles": [
+      [
+        {
+          "type": "single",
+          "title": "Ryany",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/ussr_destroyer_7_ryany.png",
+          "br": "4.3",
+          "rp": 0,
+          "sp": 0,
+          "data_unit_id": "ussr_destroyer_7_ryany",
+          "selected": false,
+          "class_name": "prem",
+          "details": true,
+          "main_role": "Destroyer"
+        },
+        {
+          "type": "single",
+          "title": "Smelyi",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/ussr_destroyer_pr30bis_smelyi.png",
+          "br": "4.3",
+          "rp": 0,
+          "sp": 0,
+          "data_unit_id": "ussr_destroyer_pr30bis_smelyi",
+          "selected": false,
+          "class_name": "prem",
+          "details": true,
+          "main_role": "Destroyer"
+        }
+      ],
+      []
+    ],
+    "selected": [],
+    "unlock_quantity": 0
+  },
+  {
+    "rank": "III",
+    "researchable_vehicles": [
+      [
+        {
+          "type": "single",
+          "title": "Krasny Kavkaz",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/ussr_cruiser_krasnyi_kavkaz.png",
+          "br": "5.0",
+          "rp": "18,000",
+          "sp": "55,000",
+          "data_unit_id": "ussr_cruiser_krasnyi_kavkaz",
+          "selected": false,
+          "class_name": "",
+          "details": true,
+          "main_role": "Light cruiser"
+        },
+        {
+          "type": "single",
+          "title": "Krasny Krym",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/ussr_cruiser_krasnyi_krim.png",
+          "br": "5.3",
+          "rp": "25,000",
+          "sp": "87,000",
+          "data_unit_id": "ussr_cruiser_krasnyi_krim",
+          "selected": false,
+          "class_name": "",
+          "details": true,
+          "main_role": "Light cruiser"
+        }
+      ],
+      [
+        {
+          "type": "single",
+          "title": "Tashkent",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/ussr_destroyer_pr20_tashkent.png",
+          "br": "5.0",
+          "rp": "15,000",
+          "sp": "38,000",
+          "data_unit_id": "ussr_destroyer_pr20_tashkent",
+          "selected": false,
+          "class_name": "",
+          "details": true,
+          "main_role": "Destroyer"
+        },
+        {
+          "type": "single",
+          "title": "Erevan",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/ussr_destroyer_pr48k_erevan.png",
+          "br": "5.0",
+          "rp": "18,000",
+          "sp": "55,000",
+          "data_unit_id": "ussr_destroyer_pr48k_erevan",
+          "selected": false,
+          "class_name": "",
+          "details": true,
+          "main_role": "Destroyer"
+        },
+        {
+          "type": "single",
+          "title": "Spokoinyy",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/ussr_destroyer_pr56_spokoinyy.png",
+          "br": "5.3",
+          "rp": "21,000",
+          "sp": "70,000",
+          "data_unit_id": "ussr_destroyer_pr56_spokoinyy",
+          "selected": false,
+          "class_name": "",
+          "details": true,
+          "main_role": "Destroyer"
+        }
+      ]
+    ],
+    "premium_vehicles": [
+      [
+        {
+          "type": "single",
+          "title": "Leningrad",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/ussr_destroyer_leningrad.png",
+          "br": "4.3",
+          "rp": 0,
+          "sp": 0,
+          "data_unit_id": "ussr_destroyer_leningrad",
+          "selected": false,
+          "class_name": "prem",
+          "details": true,
+          "main_role": "Destroyer"
+        },
+        {
+          "type": "single",
+          "title": "Blagorodnyy",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/ussr_destroyer_pr56_blagorodny.png",
+          "br": "5.3",
+          "rp": 0,
+          "sp": 0,
+          "data_unit_id": "ussr_destroyer_pr56_blagorodny",
+          "selected": false,
+          "class_name": "prem",
+          "details": true,
+          "main_role": "Destroyer"
+        }
+      ],
+      [
+        {
+          "type": "single",
+          "title": "Stroyny",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/ussr_destroyer_7y_stroyny.png",
+          "br": "4.7",
+          "rp": 0,
+          "sp": 0,
+          "data_unit_id": "ussr_destroyer_7y_stroyny",
+          "selected": false,
+          "class_name": "prem",
+          "details": true,
+          "main_role": "Destroyer"
+        },
+        {
+          "type": "single",
+          "title": "Murmansk",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/ussr_cruiser_omaha_class_murmansk.png",
+          "br": "5.0",
+          "rp": 0,
+          "sp": 0,
+          "data_unit_id": "ussr_cruiser_omaha_class_murmansk",
+          "selected": false,
+          "class_name": "prem",
+          "details": true,
+          "main_role": "Light cruiser"
+        },
+        {
+          "type": "single",
+          "title": "Neustrashimy",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/ussr_destroyer_pr41_neustrashimy.png",
+          "br": "5.3",
+          "rp": 0,
+          "sp": 0,
+          "data_unit_id": "ussr_destroyer_pr41_neustrashimy",
+          "selected": false,
+          "class_name": "prem",
+          "details": true,
+          "main_role": "Destroyer"
+        }
+      ]
+    ],
+    "selected": [],
+    "unlock_quantity": 0
+  },
+  {
+    "rank": "IV",
+    "researchable_vehicles": [
+      [
+        {
+          "type": "single",
+          "title": "Kirov",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/ussr_cruiser_kirov.png",
+          "br": "5.7",
+          "rp": "33,000",
+          "sp": "115,000",
+          "data_unit_id": "ussr_cruiser_kirov",
+          "selected": false,
+          "class_name": "",
+          "details": true,
+          "main_role": "Light cruiser"
+        },
+        {
+          "type": "multiple",
+          "title": "Project 68",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/ussr_cruiser_chapaev_kutuzov_group.png",
+          "selected": false,
+          "br": "6.0",
+          "data_unit_id": "ussr_cruiser_chapaev_kutuzov_group",
+          "class_name": "",
+          "items": [
+            {
+              "type": "single",
+              "title": "Chapayev",
+              "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/ussr_cruiser_chapayev.png",
+              "br": "6.0",
+              "rp": "46,000",
+              "sp": "150,000",
+              "data_unit_id": "ussr_cruiser_chapayev",
+              "selected": false,
+              "class_name": "",
+              "details": true,
+              "main_role": "Light cruiser"
+            },
+            {
+              "type": "single",
+              "title": "Sverdlov",
+              "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/ussr_cruiser_sverdlov.png",
+              "br": "6.0",
+              "rp": "30,000",
+              "sp": "185,000",
+              "data_unit_id": "ussr_cruiser_sverdlov",
+              "selected": false,
+              "class_name": "",
+              "details": true,
+              "main_role": "Light cruiser"
+            },
+            {
+              "type": "single",
+              "title": "Mikhail Kutuzov",
+              "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/ussr_cruiser_mikhail_kutuzov.png",
+              "br": "6.0",
+              "rp": "36,000",
+              "sp": "230,000",
+              "data_unit_id": "ussr_cruiser_mikhail_kutuzov",
+              "selected": false,
+              "class_name": "",
+              "details": true,
+              "main_role": "Light cruiser"
+            }
+          ],
+          "details": true
+        }
+      ],
+      [
+        {
+          "type": "single",
+          "title": "Bravy",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/ussr_destroyer_pr56_bravy.png",
+          "br": "5.3",
+          "rp": "33,000",
+          "sp": "115,000",
+          "data_unit_id": "ussr_destroyer_pr56_bravy",
+          "selected": false,
+          "class_name": "",
+          "details": true,
+          "main_role": "Destroyer"
+        }
+      ]
+    ],
+    "premium_vehicles": [
+      [
+        {
+          "type": "single",
+          "title": "Kerch",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/ussr_cruiser_kerch.png",
+          "br": "5.7",
+          "rp": 0,
+          "sp": 0,
+          "data_unit_id": "ussr_cruiser_kerch",
+          "selected": false,
+          "class_name": "prem",
+          "details": true,
+          "main_role": "Light cruiser"
+        },
+        {
+          "type": "single",
+          "title": "Zheleznyakov",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/ussr_cruiser_zheleznyakov.png",
+          "br": "6.0",
+          "rp": 0,
+          "sp": 0,
+          "data_unit_id": "ussr_cruiser_zheleznyakov",
+          "selected": false,
+          "class_name": "prem",
+          "details": true,
+          "main_role": "Light cruiser"
+        }
+      ],
+      [
+        {
+          "type": "single",
+          "title": "Voroshilov",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/ussr_cruiser_voroshilov.png",
+          "br": "5.7",
+          "rp": null,
+          "sp": null,
+          "data_unit_id": "ussr_cruiser_voroshilov",
+          "selected": false,
+          "class_name": "",
+          "details": true,
+          "main_role": "Light cruiser"
+        }
+      ]
+    ],
+    "selected": [],
+    "unlock_quantity": 0
+  },
+  {
+    "rank": "V",
+    "researchable_vehicles": [
+      [
+        {
+          "type": "single",
+          "title": "Poltava",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/ussr_battleship_poltava.png",
+          "br": "6.3",
+          "rp": "90,000",
+          "sp": "280,000",
+          "data_unit_id": "ussr_battleship_poltava",
+          "selected": false,
+          "class_name": "",
+          "details": true,
+          "main_role": "Battleship"
+        },
+        {
+          "type": "single",
+          "title": "Parizhskaya Kommuna",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/ussr_battleship_parizhskaya_kommuna.png",
+          "br": "6.7",
+          "rp": "145,000",
+          "sp": "440,000",
+          "data_unit_id": "ussr_battleship_parizhskaya_kommuna",
+          "selected": false,
+          "class_name": "",
+          "details": true,
+          "main_role": "Battleship"
+        }
+      ],
+      [
+        {
+          "type": "single",
+          "title": "Imperatritsa Mariya",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/ussr_battleship_imperatritsa_mariya.png",
+          "br": "6.7",
+          "rp": "110,000",
+          "sp": "340,000",
+          "data_unit_id": "ussr_battleship_imperatritsa_mariya",
+          "selected": false,
+          "class_name": "",
+          "details": true,
+          "main_role": "Battleship"
+        },
+        {
+          "type": "single",
+          "title": "Izmail",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/ussr_battlecruiser_izmail.png",
+          "br": "7.0",
+          "rp": "180,000",
+          "sp": "540,000",
+          "data_unit_id": "ussr_battlecruiser_izmail",
+          "selected": false,
+          "class_name": "",
+          "details": true,
+          "main_role": "Battlecruiser"
+        }
+      ]
+    ],
+    "premium_vehicles": [
+      [
+        {
+          "type": "single",
+          "title": "Shcherbakov",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/ussr_cruiser_shcherbakov.png",
+          "br": "6.0",
+          "rp": null,
+          "sp": null,
+          "data_unit_id": "ussr_cruiser_shcherbakov",
+          "selected": false,
+          "class_name": "",
+          "details": true,
+          "main_role": "Light cruiser"
+        },
+        {
+          "type": "single",
+          "title": "Marat",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/ussr_battleship_marat.png",
+          "br": "6.7",
+          "rp": 0,
+          "sp": 0,
+          "data_unit_id": "ussr_battleship_marat",
+          "selected": false,
+          "class_name": "prem",
+          "details": true,
+          "main_role": "Battleship"
+        }
+      ],
+      [
+        {
+          "type": "single",
+          "title": "Maxim Gorky",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/ussr_cruiser_maxim_gorky.png",
+          "br": "5.7",
+          "rp": null,
+          "sp": null,
+          "data_unit_id": "ussr_cruiser_maxim_gorky",
+          "selected": false,
+          "class_name": "",
+          "details": true,
+          "main_role": "Light cruiser"
+        }
+      ]
+    ],
+    "selected": [],
+    "unlock_quantity": 0
+  },
+  {
+    "rank": "VI",
+    "researchable_vehicles": [
+      [
+        {
+          "type": "single",
+          "title": "Novorossiysk",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/ussr_battleship_novorossiysk.png",
+          "br": "7.3",
+          "rp": "220,000",
+          "sp": "660,000",
+          "data_unit_id": "ussr_battleship_novorossiysk",
+          "selected": false,
+          "class_name": "",
+          "details": true,
+          "main_role": "Battleship"
+        },
+        {
+          "type": "single",
+          "title": "Arkhangelsk",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/ussr_battleship_arhangelsk.png",
+          "br": "7.7",
+          "rp": "350,000",
+          "sp": "1,050,000",
+          "data_unit_id": "ussr_battleship_arhangelsk",
+          "selected": false,
+          "class_name": "",
+          "details": true,
+          "main_role": "Battleship"
+        }
+      ],
+      [
+        {
+          "type": "single",
+          "title": "Kronshtadt",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/ussr_battlecruiser_kronshtadt.png",
+          "br": "7.3",
+          "rp": "260,000",
+          "sp": "780,000",
+          "data_unit_id": "ussr_battlecruiser_kronshtadt",
+          "selected": false,
+          "class_name": "",
+          "details": true,
+          "main_role": "Battlecruiser"
+        },
+        {
+          "type": "single",
+          "title": "Stalingrad",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/ussr_battlecruiser_stalingrad.png",
+          "br": "7.7",
+          "rp": "300,000",
+          "sp": "900,000",
+          "data_unit_id": "ussr_battlecruiser_stalingrad",
+          "selected": false,
+          "class_name": "",
+          "details": true,
+          "main_role": "Battlecruiser"
+        }
+      ]
+    ],
+    "premium_vehicles": [
+      [
+        {
+          "type": "single",
+          "title": "Sevastopol",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/ussr_battlecruiser_sevastopol.png",
+          "br": "7.3",
+          "rp": 0,
+          "sp": 0,
+          "data_unit_id": "ussr_battlecruiser_sevastopol",
+          "selected": false,
+          "class_name": "prem",
+          "details": true,
+          "main_role": "Battlecruiser"
+        }
+      ],
+      []
+    ],
+    "selected": [],
+    "unlock_quantity": 0
+  },
+  {
+    "rank": "VII",
+    "researchable_vehicles": [
+      [
+        {
+          "type": "single",
+          "title": "Sovetsky Soyuz",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/ussr_battleship_pr23_sovetskij_soyuz.png",
+          "br": "8.7",
+          "rp": "400,000",
+          "sp": "1,150,000",
+          "data_unit_id": "ussr_battleship_pr23_sovetskij_soyuz",
+          "selected": false,
+          "class_name": "",
+          "details": true,
+          "main_role": "Battleship"
+        }
+      ],
+      []
+    ],
+    "premium_vehicles": [
+      [],
+      []
+    ],
+    "selected": [],
+    "unlock_quantity": 0
+  }
+]

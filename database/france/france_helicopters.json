@@ -1,0 +1,214 @@
+[
+  {
+    "rank": "V",
+    "researchable_vehicles": [
+      [
+        {
+          "type": "single",
+          "title": "▄H-34",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/h_34_france.png",
+          "br": "8.0",
+          "rp": null,
+          "sp": "390,000",
+          "data_unit_id": "h_34_france",
+          "selected": false,
+          "class_name": "",
+          "details": true,
+          "main_role": "Attack helicopter"
+        },
+        {
+          "type": "single",
+          "title": "SA 313B Alouette II",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/sa_313b_france.png",
+          "br": "8.3",
+          "rp": "150,000",
+          "sp": "490,000",
+          "data_unit_id": "sa_313b_france",
+          "selected": false,
+          "class_name": "",
+          "details": true,
+          "main_role": "Utility helicopter"
+        }
+      ],
+      [
+        {
+          "type": "single",
+          "title": "SA 316B Alouette III",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/sa_316b.png",
+          "br": "8.3",
+          "rp": "150,000",
+          "sp": "490,000",
+          "data_unit_id": "sa_316b",
+          "selected": false,
+          "class_name": "",
+          "details": true,
+          "main_role": "Utility helicopter"
+        }
+      ]
+    ],
+    "premium_vehicles": [
+      [
+        {
+          "type": "single",
+          "title": "IAR 316B",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/iar_316b.png",
+          "br": "8.3",
+          "rp": 0,
+          "sp": 0,
+          "data_unit_id": "iar_316b",
+          "selected": false,
+          "class_name": "prem",
+          "details": true,
+          "main_role": "Utility helicopter"
+        }
+      ]
+    ],
+    "selected": [],
+    "unlock_quantity": 0
+  },
+  {
+    "rank": "VI",
+    "researchable_vehicles": [
+      [],
+      [
+        {
+          "type": "single",
+          "title": "SA.341F Gazelle",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/sa_341f.png",
+          "br": "9.0",
+          "rp": "370,000",
+          "sp": "990,000",
+          "data_unit_id": "sa_341f",
+          "selected": false,
+          "class_name": "",
+          "details": true,
+          "main_role": "Utility helicopter"
+        },
+        {
+          "type": "single",
+          "title": "SA.342M Gazelle",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/sa_342m.png",
+          "br": "9.7",
+          "rp": "380,000",
+          "sp": "1,000,000",
+          "data_unit_id": "sa_342m",
+          "selected": false,
+          "class_name": "",
+          "details": true,
+          "main_role": "Utility helicopter"
+        }
+      ]
+    ],
+    "premium_vehicles": [
+      [
+        {
+          "type": "single",
+          "title": "EC-665 Tiger HAP",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/tiger_hap_france.png",
+          "br": "10.0",
+          "rp": 0,
+          "sp": 0,
+          "data_unit_id": "tiger_hap_france",
+          "selected": false,
+          "class_name": "prem",
+          "details": true,
+          "main_role": "Attack helicopter"
+        }
+      ]
+    ],
+    "selected": [],
+    "unlock_quantity": 0
+  },
+  {
+    "rank": "VII",
+    "researchable_vehicles": [
+      [
+        {
+          "type": "single",
+          "title": "◘AH-64E",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/ah_64e_netherlands.png",
+          "br": "13.0",
+          "rp": "400,000",
+          "sp": "1,030,000",
+          "data_unit_id": "ah_64e_netherlands",
+          "selected": false,
+          "class_name": "",
+          "details": true,
+          "main_role": "Attack helicopter"
+        }
+      ],
+      [
+        {
+          "type": "multiple",
+          "title": "Tiger HAD/Tiger HAC",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/tiger_group.png",
+          "selected": false,
+          "br": "11.0-12.7",
+          "data_unit_id": "tiger_group",
+          "class_name": "",
+          "items": [
+            {
+              "type": "single",
+              "title": "EC-665 Tiger HAD",
+              "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/tiger_had_france.png",
+              "br": "11.0",
+              "rp": "400,000",
+              "sp": "1,020,000",
+              "data_unit_id": "tiger_had_france",
+              "selected": false,
+              "class_name": "",
+              "details": true,
+              "main_role": "Attack helicopter"
+            },
+            {
+              "type": "single",
+              "title": "EC-665 Tiger HAC",
+              "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/tiger_hac_france.png",
+              "br": "12.7",
+              "rp": "200,000",
+              "sp": "1,030,000",
+              "data_unit_id": "tiger_hac_france",
+              "selected": false,
+              "class_name": "",
+              "details": true,
+              "main_role": "Attack helicopter"
+            }
+          ],
+          "details": true
+        },
+        {
+          "type": "single",
+          "title": "Tiger HAD Block 2",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/tiger_had_block2_france.png",
+          "br": "12.7",
+          "rp": "400,000",
+          "sp": "1,030,000",
+          "data_unit_id": "tiger_had_block2_france",
+          "selected": false,
+          "class_name": "",
+          "details": true,
+          "main_role": "Attack helicopter"
+        }
+      ]
+    ],
+    "premium_vehicles": [
+      [
+        {
+          "type": "single",
+          "title": "◘AH-64D",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/ah_64d_netherlands.png",
+          "br": "11.7",
+          "rp": 0,
+          "sp": 0,
+          "data_unit_id": "ah_64d_netherlands",
+          "selected": false,
+          "class_name": "prem",
+          "details": true,
+          "main_role": "Attack helicopter"
+        }
+      ]
+    ],
+    "selected": [],
+    "unlock_quantity": 0
+  }
+]

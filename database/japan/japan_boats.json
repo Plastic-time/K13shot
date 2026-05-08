@@ -1,0 +1,480 @@
+[
+  {
+    "rank": "I",
+    "researchable_vehicles": [
+      [
+        {
+          "type": "single",
+          "title": "Type T-14",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/jp_t14_class.png",
+          "br": "1.0",
+          "rp": null,
+          "sp": null,
+          "data_unit_id": "jp_t14_class",
+          "selected": false,
+          "class_name": "",
+          "details": true,
+          "main_role": "Boat"
+        },
+        {
+          "type": "single",
+          "title": "Type T-14 (mod. 2)",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/jp_t14_class_mod02.png",
+          "br": "1.0",
+          "rp": null,
+          "sp": null,
+          "data_unit_id": "jp_t14_class_mod02",
+          "selected": false,
+          "class_name": "",
+          "details": true,
+          "main_role": "Boat"
+        },
+        {
+          "type": "single",
+          "title": "Type 5",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/jp_type5_escortboat.png",
+          "br": "1.7",
+          "rp": "5,900",
+          "sp": "6,300",
+          "data_unit_id": "jp_type5_escortboat",
+          "selected": false,
+          "class_name": "",
+          "details": true,
+          "main_role": "Heavy boat"
+        }
+      ],
+      [
+        {
+          "type": "single",
+          "title": "Type T-1",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/jp_type_t1_1941.png",
+          "br": "1.0",
+          "rp": "2,900",
+          "sp": "700",
+          "data_unit_id": "jp_type_t1_1941",
+          "selected": false,
+          "class_name": "",
+          "details": true,
+          "main_role": "Boat"
+        },
+        {
+          "type": "single",
+          "title": "Soukou-Tei",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/jp_abtei_pr1.png",
+          "br": "1.0",
+          "rp": "4,000",
+          "sp": "2,100",
+          "data_unit_id": "jp_abtei_pr1",
+          "selected": false,
+          "class_name": "",
+          "details": true,
+          "main_role": "Heavy boat"
+        }
+      ]
+    ],
+    "premium_vehicles": [
+      [
+        {
+          "type": "single",
+          "title": "Type T-14 (mod. 1)",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/jp_t14_class_mod01.png",
+          "br": "1.0",
+          "rp": 0,
+          "sp": 0,
+          "data_unit_id": "jp_t14_class_mod01",
+          "selected": false,
+          "class_name": "prem",
+          "details": true,
+          "main_role": "Boat"
+        }
+      ]
+    ],
+    "selected": [],
+    "unlock_quantity": 0
+  },
+  {
+    "rank": "II",
+    "researchable_vehicles": [
+      [
+        {
+          "type": "single",
+          "title": "Type 4 (mod. 2)",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/jp_karotei_type2.png",
+          "br": "1.7",
+          "rp": "9,200",
+          "sp": "16,000",
+          "data_unit_id": "jp_karotei_type2",
+          "selected": false,
+          "class_name": "",
+          "details": true,
+          "main_role": "Boat"
+        },
+        {
+          "type": "single",
+          "title": "Ha-Go (mod. 1)",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/jp_sehatei_mod1.png",
+          "br": "1.7",
+          "rp": "14,000",
+          "sp": "32,000",
+          "data_unit_id": "jp_sehatei_mod1",
+          "selected": false,
+          "class_name": "",
+          "details": true,
+          "main_role": "Boat"
+        }
+      ],
+      [
+        {
+          "type": "single",
+          "title": "Soukou-Tei No.4",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/jp_abtei_pr4.png",
+          "br": "1.3",
+          "rp": "7,900",
+          "sp": "10,000",
+          "data_unit_id": "jp_abtei_pr4",
+          "selected": false,
+          "class_name": "",
+          "details": true,
+          "main_role": "Heavy boat"
+        },
+        {
+          "type": "single",
+          "title": "Type T-38",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/jp_type38_1944.png",
+          "br": "1.7",
+          "rp": "11,000",
+          "sp": "22,000",
+          "data_unit_id": "jp_type38_1944",
+          "selected": false,
+          "class_name": "",
+          "details": true,
+          "main_role": "Boat"
+        },
+        {
+          "type": "single",
+          "title": "PT-802",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/jp_type1_pt2.png",
+          "br": "2.0",
+          "rp": "14,000",
+          "sp": "32,000",
+          "data_unit_id": "jp_type1_pt2",
+          "selected": false,
+          "class_name": "",
+          "details": true,
+          "main_role": "Boat"
+        }
+      ]
+    ],
+    "premium_vehicles": [
+      [
+        {
+          "type": "single",
+          "title": "Type K-8 No.13",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/jp_kusen_tei_13_1942.png",
+          "br": "2.0",
+          "rp": 0,
+          "sp": 0,
+          "data_unit_id": "jp_kusen_tei_13_1942",
+          "selected": false,
+          "class_name": "prem",
+          "details": true,
+          "main_role": "Heavy boat"
+        },
+        {
+          "type": "single",
+          "title": "Type 4 (mod. 4)",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/jp_karotei_type4.png",
+          "br": "1.7",
+          "rp": 0,
+          "sp": 0,
+          "data_unit_id": "jp_karotei_type4",
+          "selected": false,
+          "class_name": "prem",
+          "details": true,
+          "main_role": "Boat"
+        }
+      ]
+    ],
+    "selected": [],
+    "unlock_quantity": 0
+  },
+  {
+    "rank": "III",
+    "researchable_vehicles": [
+      [
+        {
+          "type": "single",
+          "title": "Type K-8 No.13 late",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/jp_kusen_tei_13_1944.png",
+          "br": "2.3",
+          "rp": "18,000",
+          "sp": "47,000",
+          "data_unit_id": "jp_kusen_tei_13_1944",
+          "selected": false,
+          "class_name": "",
+          "details": true,
+          "main_role": "Heavy boat"
+        },
+        {
+          "type": "single",
+          "title": "Type T-51b",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/jp_t51b.png",
+          "br": "2.3",
+          "rp": "36,000",
+          "sp": "115,000",
+          "data_unit_id": "jp_t51b",
+          "selected": false,
+          "class_name": "",
+          "details": true,
+          "main_role": "Boat"
+        },
+        {
+          "type": "single",
+          "title": "Kari",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/jp_pc301_kari_class.png",
+          "br": "3.0",
+          "rp": "48,000",
+          "sp": "180,000",
+          "data_unit_id": "jp_pc301_kari_class",
+          "selected": false,
+          "class_name": "",
+          "details": true,
+          "main_role": "Heavy boat"
+        }
+      ],
+      [
+        {
+          "type": "single",
+          "title": "Type K-3 No.1",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/jp_no1_ch2.png",
+          "br": "3.0",
+          "rp": "26,000",
+          "sp": "76,000",
+          "data_unit_id": "jp_no1_ch2",
+          "selected": false,
+          "class_name": "",
+          "details": true,
+          "main_role": "Heavy boat"
+        },
+        {
+          "type": "single",
+          "title": "Type K-7 No.4",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/jp_no4_ch8.png",
+          "br": "3.0",
+          "rp": "36,000",
+          "sp": "115,000",
+          "data_unit_id": "jp_no4_ch8",
+          "selected": false,
+          "class_name": "",
+          "details": true,
+          "main_role": "Heavy boat"
+        },
+        {
+          "type": "single",
+          "title": "PT-808",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/jp_type7_pt808.png",
+          "br": "3.3",
+          "rp": "61,000",
+          "sp": "230,000",
+          "data_unit_id": "jp_type7_pt808",
+          "selected": false,
+          "class_name": "",
+          "details": true,
+          "main_role": "Boat"
+        }
+      ]
+    ],
+    "premium_vehicles": [
+      [
+        {
+          "type": "single",
+          "title": "Type T-51a",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/jp_t51a.png",
+          "br": "2.3",
+          "rp": 0,
+          "sp": 0,
+          "data_unit_id": "jp_t51a",
+          "selected": false,
+          "class_name": "prem",
+          "details": true,
+          "main_role": "Boat"
+        }
+      ]
+    ],
+    "selected": [],
+    "unlock_quantity": 0
+  },
+  {
+    "rank": "IV",
+    "researchable_vehicles": [
+      [
+        {
+          "type": "single",
+          "title": "PT-15",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/jp_type_11_pt_15.png",
+          "br": "3.3",
+          "rp": "75,000",
+          "sp": "250,000",
+          "data_unit_id": "jp_type_11_pt_15",
+          "selected": false,
+          "class_name": "",
+          "details": true,
+          "main_role": "Boat"
+        },
+        {
+          "type": "single",
+          "title": "Ikazuchi",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/jp_escort_ikazuchi_class.png",
+          "br": "3.3",
+          "rp": "120,000",
+          "sp": "360,000",
+          "data_unit_id": "jp_escort_ikazuchi_class",
+          "selected": false,
+          "class_name": "",
+          "details": true,
+          "main_role": "Frigate"
+        }
+      ],
+      [
+        {
+          "type": "single",
+          "title": "Chikugo",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/jp_escort_chikugo_class.png",
+          "br": "3.3",
+          "rp": "120,000",
+          "sp": "360,000",
+          "data_unit_id": "jp_escort_chikugo_class",
+          "selected": false,
+          "class_name": "",
+          "details": true,
+          "main_role": "Frigate"
+        }
+      ]
+    ],
+    "premium_vehicles": [
+      [
+        {
+          "type": "single",
+          "title": "Akebono",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/jp_escort_akebono_class.png",
+          "br": "3.3",
+          "rp": 0,
+          "sp": 0,
+          "data_unit_id": "jp_escort_akebono_class",
+          "selected": false,
+          "class_name": "prem",
+          "details": true,
+          "main_role": "Frigate"
+        },
+        {
+          "type": "single",
+          "title": "PG 02",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/jp_pg02.png",
+          "br": "3.3",
+          "rp": 0,
+          "sp": 0,
+          "data_unit_id": "jp_pg02",
+          "selected": false,
+          "class_name": "prem",
+          "details": true,
+          "main_role": "Heavy boat"
+        }
+      ]
+    ],
+    "selected": [],
+    "unlock_quantity": 0
+  },
+  {
+    "rank": "V",
+    "researchable_vehicles": [
+      [
+        {
+          "type": "single",
+          "title": "Syonan",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/jp_escort_hiburi_class_syonan.png",
+          "br": "3.3",
+          "rp": "220,000",
+          "sp": "640,000",
+          "data_unit_id": "jp_escort_hiburi_class_syonan",
+          "selected": false,
+          "class_name": "",
+          "details": true,
+          "main_role": "Frigate"
+        },
+        {
+          "type": "single",
+          "title": "Asagao (YTE-01)",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/jp_yuri_class_asagao.png",
+          "br": "3.7",
+          "rp": "250,000",
+          "sp": "700,000",
+          "data_unit_id": "jp_yuri_class_asagao",
+          "selected": false,
+          "class_name": "",
+          "details": true,
+          "main_role": "Heavy boat"
+        },
+        {
+          "type": "single",
+          "title": "Chidori",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/jp_destroyer_chidori.png",
+          "br": "3.7",
+          "rp": "280,000",
+          "sp": "780,000",
+          "data_unit_id": "jp_destroyer_chidori",
+          "selected": false,
+          "class_name": "",
+          "details": true,
+          "main_role": "Frigate"
+        }
+      ],
+      [
+        {
+          "type": "single",
+          "title": "Isuzu",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/jp_destroyer_isuzu.png",
+          "br": "3.7",
+          "rp": "280,000",
+          "sp": "780,000",
+          "data_unit_id": "jp_destroyer_isuzu",
+          "selected": false,
+          "class_name": "",
+          "details": true,
+          "main_role": "Frigate"
+        },
+        {
+          "type": "single",
+          "title": "JDS Ayanami (DD-103)",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/jp_destroyer_ayanami.png",
+          "br": "4.3",
+          "rp": "320,000",
+          "sp": "860,000",
+          "data_unit_id": "jp_destroyer_ayanami",
+          "selected": false,
+          "class_name": "",
+          "details": true,
+          "main_role": "Frigate"
+        }
+      ]
+    ],
+    "premium_vehicles": [
+      [
+        {
+          "type": "single",
+          "title": "Shisaka",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/jp_escort_hiburi_class_shisaka.png",
+          "br": "3.3",
+          "rp": null,
+          "sp": null,
+          "data_unit_id": "jp_escort_hiburi_class_shisaka",
+          "selected": false,
+          "class_name": "",
+          "details": true,
+          "main_role": "Frigate"
+        }
+      ]
+    ],
+    "selected": [],
+    "unlock_quantity": 0
+  }
+]

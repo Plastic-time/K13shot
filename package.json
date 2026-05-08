@@ -5,13 +5,14 @@
   "scripts": {
     "start": "node main.js",
     "dev": "node main.js",
+    "build:launcher": "dotnet publish ./tools/launcher/WarThunderResearchLauncher.csproj -c Release -r win-x64 --self-contained false -p:PublishSingleFile=true -o ./launcher-dist && powershell -NoProfile -Command \"Copy-Item -Force ./launcher-dist/WarThunderResearchCalculator.exe ./WarThunderResearchCalculator.exe\"",
     "pull": "node ./src/4-fill_tree_details.js",
     "pull:usa-ground": "node ./src/4-fill_tree_details.js usa ground"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
-  "description": "War Thunder research calculator",
+  "description": "War Thunder TreeData-Test-App",
   "dependencies": {
     "axios": "^1.12.2",
     "cheerio": "^1.1.2",

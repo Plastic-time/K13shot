@@ -1,0 +1,2593 @@
+[
+  {
+    "rank": "I",
+    "researchable_vehicles": [
+      [
+        {
+          "type": "multiple",
+          "title": "Fury",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/fury_mk_group.png",
+          "selected": false,
+          "br": "1.0",
+          "data_unit_id": "fury_group",
+          "class_name": "",
+          "items": [
+            {
+              "type": "single",
+              "title": "Fury Mk I",
+              "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/fury_mk1.png",
+              "br": "1.0",
+              "rp": null,
+              "sp": null,
+              "data_unit_id": "fury_mk1",
+              "selected": false,
+              "class_name": "",
+              "details": true,
+              "main_role": "Fighter"
+            },
+            {
+              "type": "single",
+              "title": "Fury Mk II",
+              "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/fury_mk2.png",
+              "br": "1.0",
+              "rp": null,
+              "sp": null,
+              "data_unit_id": "fury_mk2",
+              "selected": false,
+              "class_name": "",
+              "details": true,
+              "main_role": "Fighter"
+            }
+          ],
+          "details": true
+        }
+      ],
+      [
+        {
+          "type": "single",
+          "title": "Gladiator Mk IIF",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/gladiator_mk2_france.png",
+          "br": "1.3",
+          "rp": null,
+          "sp": null,
+          "data_unit_id": "gladiator_mk2_france",
+          "selected": false,
+          "class_name": "",
+          "details": true,
+          "main_role": "Fighter"
+        },
+        {
+          "type": "single",
+          "title": "Gladiator Mk IIS",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/gladiator_mk2_silver.png",
+          "br": "1.3",
+          "rp": null,
+          "sp": null,
+          "data_unit_id": "gladiator_mk2_silver",
+          "selected": false,
+          "class_name": "",
+          "details": true,
+          "main_role": "Fighter"
+        },
+        {
+          "type": "single",
+          "title": "Gladiator Mk II",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/gladiator_mk2.png",
+          "br": "1.3",
+          "rp": "2,900",
+          "sp": "700",
+          "data_unit_id": "gladiator_mk2",
+          "selected": false,
+          "class_name": "",
+          "details": true,
+          "main_role": "Fighter"
+        }
+      ],
+      [
+        {
+          "type": "single",
+          "title": "Nimrod Mk I",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/nimrod_mk1.png",
+          "br": "1.0",
+          "rp": null,
+          "sp": null,
+          "data_unit_id": "nimrod_mk1",
+          "selected": false,
+          "class_name": "",
+          "details": true,
+          "main_role": "Fighter"
+        },
+        {
+          "type": "single",
+          "title": "Nimrod Mk II",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/nimrod_mk2.png",
+          "br": "1.0",
+          "rp": "2,900",
+          "sp": "700",
+          "data_unit_id": "nimrod_mk2",
+          "selected": false,
+          "class_name": "",
+          "details": true,
+          "main_role": "Fighter"
+        },
+        {
+          "type": "single",
+          "title": "Sea Gladiator Mk I",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/gladiator_mk2_navy.png",
+          "br": "1.0",
+          "rp": "4,000",
+          "sp": "2,100",
+          "data_unit_id": "gladiator_mk2_navy",
+          "selected": false,
+          "class_name": "",
+          "details": true,
+          "main_role": "Fighter"
+        }
+      ],
+      [
+        {
+          "type": "single",
+          "title": "Chesapeake Mk I",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/v_156_b1.png",
+          "br": "1.0",
+          "rp": "2,900",
+          "sp": "700",
+          "data_unit_id": "v_156_b1",
+          "selected": false,
+          "class_name": "",
+          "details": true,
+          "main_role": "Bomber"
+        },
+        {
+          "type": "multiple",
+          "title": "Blenheim/Beaufort",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/blenheim_group.png",
+          "selected": false,
+          "br": "1.3-1.7",
+          "data_unit_id": "blenheim_group",
+          "class_name": "",
+          "items": [
+            {
+              "type": "single",
+              "title": "Blenheim Mk IV",
+              "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/blenheim_mkiv.png",
+              "br": "1.3",
+              "rp": "4,000",
+              "sp": "2,100",
+              "data_unit_id": "blenheim_mkiv",
+              "selected": false,
+              "class_name": "",
+              "details": true,
+              "main_role": "Bomber"
+            },
+            {
+              "type": "single",
+              "title": "Beaufort Mk VIII",
+              "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/beaufort_mkviii.png",
+              "br": "1.7",
+              "rp": "3,000",
+              "sp": "6,300",
+              "data_unit_id": "beaufort_mkviii",
+              "selected": false,
+              "class_name": "",
+              "details": true,
+              "main_role": "Bomber"
+            }
+          ],
+          "details": true
+        }
+      ],
+      [
+        {
+          "type": "single",
+          "title": "H.P.12",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/hp_12.png",
+          "br": "1.0",
+          "rp": null,
+          "sp": null,
+          "data_unit_id": "hp_12",
+          "selected": false,
+          "class_name": "",
+          "details": true,
+          "main_role": "Bomber"
+        },
+        {
+          "type": "single",
+          "title": "Swordfish Mk I",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/swordfish_mk1.png",
+          "br": "1.0",
+          "rp": "2,900",
+          "sp": "700",
+          "data_unit_id": "swordfish_mk1",
+          "selected": false,
+          "class_name": "",
+          "details": true,
+          "main_role": "Bomber"
+        },
+        {
+          "type": "multiple",
+          "title": "Hampden Mk I",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/hp52_hampden_group.png",
+          "selected": false,
+          "br": "1.7",
+          "data_unit_id": "hampden_group",
+          "class_name": "",
+          "items": [
+            {
+              "type": "single",
+              "title": "Hampden Mk I",
+              "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/hp52_hampden_mk1_late.png",
+              "br": "1.7",
+              "rp": "4,000",
+              "sp": "2,100",
+              "data_unit_id": "hp52_hampden_mk1_late",
+              "selected": false,
+              "class_name": "",
+              "details": true,
+              "main_role": "Bomber"
+            },
+            {
+              "type": "single",
+              "title": "Hampden TB Mk I",
+              "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/hp52_hampden_tbmk1.png",
+              "br": "1.7",
+              "rp": "3,000",
+              "sp": "6,300",
+              "data_unit_id": "hp52_hampden_tbmk1",
+              "selected": false,
+              "class_name": "",
+              "details": true,
+              "main_role": "Bomber"
+            }
+          ],
+          "details": true
+        }
+      ]
+    ],
+    "premium_vehicles": [
+      [
+        {
+          "type": "single",
+          "title": "Tuck's Gladiator Mk II",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/gladiator_mk2_tuck.png",
+          "br": "1.0",
+          "rp": 0,
+          "sp": 0,
+          "data_unit_id": "gladiator_mk2_tuck",
+          "selected": false,
+          "class_name": "prem",
+          "details": true,
+          "main_role": "Fighter"
+        },
+        {
+          "type": "single",
+          "title": "▄Wirraway",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/wirraway.png",
+          "br": "1.3",
+          "rp": 0,
+          "sp": 0,
+          "data_unit_id": "wirraway",
+          "selected": false,
+          "class_name": "prem",
+          "details": true,
+          "main_role": "Strike aircraft"
+        }
+      ],
+      [
+        {
+          "type": "single",
+          "title": "Swordfish Mk II",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/swordfish_mk2.png",
+          "br": "1.0",
+          "rp": 0,
+          "sp": 0,
+          "data_unit_id": "swordfish_mk2",
+          "selected": false,
+          "class_name": "prem",
+          "details": true,
+          "main_role": "Bomber"
+        },
+        {
+          "type": "single",
+          "title": "▄Catalina Mk IIIa",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/pby-5a_raf.png",
+          "br": "1.7",
+          "rp": 0,
+          "sp": 0,
+          "data_unit_id": "pby-5a_raf",
+          "selected": false,
+          "class_name": "prem",
+          "details": true,
+          "main_role": "Bomber"
+        }
+      ]
+    ],
+    "selected": [],
+    "unlock_quantity": 0
+  },
+  {
+    "rank": "II",
+    "researchable_vehicles": [
+      [
+        {
+          "type": "multiple",
+          "title": "Hurricane",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/hurricane_group.png",
+          "selected": false,
+          "br": "2.3",
+          "data_unit_id": "hurricane_group",
+          "class_name": "",
+          "items": [
+            {
+              "type": "single",
+              "title": "Hurricane Mk IIB/Trop",
+              "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/hurricanemkii.png",
+              "br": "2.3",
+              "rp": "7,900",
+              "sp": "10,000",
+              "data_unit_id": "hurricanemkii",
+              "selected": false,
+              "class_name": "",
+              "details": true,
+              "main_role": "Fighter"
+            },
+            {
+              "type": "single",
+              "title": "Hurricane Mk I/L",
+              "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/hurricane_mk1.png",
+              "br": "2.3",
+              "rp": "4,600",
+              "sp": "16,000",
+              "data_unit_id": "hurricane_mk1",
+              "selected": false,
+              "class_name": "",
+              "details": true,
+              "main_role": "Fighter"
+            }
+          ],
+          "details": true
+        },
+        {
+          "type": "single",
+          "title": "Typhoon Mk Ia",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/typhoon_mk1a.png",
+          "br": "3.0",
+          "rp": "9,200",
+          "sp": "16,000",
+          "data_unit_id": "typhoon_mk1a",
+          "selected": false,
+          "class_name": "",
+          "details": true,
+          "main_role": "Fighter"
+        }
+      ],
+      [
+        {
+          "type": "multiple",
+          "title": "Spitfire (e)",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/spitfire_mk5_group.png",
+          "selected": false,
+          "br": "3.0",
+          "data_unit_id": "spitfire_mk1_group",
+          "class_name": "",
+          "items": [
+            {
+              "type": "single",
+              "title": "Spitfire Mk Ia",
+              "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/spitfire_mk1.png",
+              "br": "3.0",
+              "rp": "7,900",
+              "sp": "10,000",
+              "data_unit_id": "spitfire_mk1",
+              "selected": false,
+              "class_name": "",
+              "details": true,
+              "main_role": "Fighter"
+            },
+            {
+              "type": "single",
+              "title": "Spitfire Mk IIa",
+              "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/spitfiremkiia.png",
+              "br": "3.0",
+              "rp": "4,600",
+              "sp": "16,000",
+              "data_unit_id": "spitfiremkiia",
+              "selected": false,
+              "class_name": "",
+              "details": true,
+              "main_role": "Fighter"
+            }
+          ],
+          "details": true
+        },
+        {
+          "type": "single",
+          "title": "Spitfire Mk IIb",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/spitfiremkii.png",
+          "br": "3.7",
+          "rp": "9,200",
+          "sp": "16,000",
+          "data_unit_id": "spitfiremkii",
+          "selected": false,
+          "class_name": "",
+          "details": true,
+          "main_role": "Fighter"
+        },
+        {
+          "type": "multiple",
+          "title": "Spitfire Mk Vb",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/spitfire_mk5_group.png",
+          "selected": false,
+          "br": "3.7-4.0",
+          "data_unit_id": "spitfire_mk5b_group",
+          "class_name": "",
+          "items": [
+            {
+              "type": "single",
+              "title": "Spitfire Mk Vb/trop",
+              "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/spitfire_mk5b.png",
+              "br": "3.7",
+              "rp": "11,000",
+              "sp": "22,000",
+              "data_unit_id": "spitfire_mk5b",
+              "selected": false,
+              "class_name": "",
+              "details": true,
+              "main_role": "Fighter"
+            },
+            {
+              "type": "single",
+              "title": "Spitfire Mk Vb",
+              "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/spitfire_mk5b_notrop.png",
+              "br": "4.0",
+              "rp": "6,900",
+              "sp": "32,000",
+              "data_unit_id": "spitfire_mk5b_notrop",
+              "selected": false,
+              "class_name": "",
+              "details": true,
+              "main_role": "Fighter"
+            }
+          ],
+          "details": true
+        }
+      ],
+      [
+        {
+          "type": "single",
+          "title": "Sea Hurricane Mk IB",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/hurricane_mk1b.png",
+          "br": "2.0",
+          "rp": "7,900",
+          "sp": "10,000",
+          "data_unit_id": "hurricane_mk1b",
+          "selected": false,
+          "class_name": "",
+          "details": true,
+          "main_role": "Fighter"
+        },
+        {
+          "type": "single",
+          "title": "Sea Hurricane Mk IC",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/hurricane_mk1c.png",
+          "br": "3.0",
+          "rp": "9,200",
+          "sp": "16,000",
+          "data_unit_id": "hurricane_mk1c",
+          "selected": false,
+          "class_name": "",
+          "details": true,
+          "main_role": "Fighter"
+        },
+        {
+          "type": "single",
+          "title": "Firebrand TF Mk IV",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/firebrand_tf4.png",
+          "br": "3.7",
+          "rp": "11,000",
+          "sp": "22,000",
+          "data_unit_id": "firebrand_tf4",
+          "selected": false,
+          "class_name": "",
+          "details": true,
+          "main_role": "Strike aircraft"
+        }
+      ],
+      [
+        {
+          "type": "single",
+          "title": "Hurricane Mk IV",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/hurricane_mk4.png",
+          "br": "2.0",
+          "rp": "7,900",
+          "sp": "10,000",
+          "data_unit_id": "hurricane_mk4",
+          "selected": false,
+          "class_name": "",
+          "details": true,
+          "main_role": "Strike aircraft"
+        },
+        {
+          "type": "multiple",
+          "title": "Beaufighter",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/beaufighter_group.png",
+          "selected": false,
+          "br": "3.0-3.7",
+          "data_unit_id": "beaufighter_group",
+          "class_name": "",
+          "items": [
+            {
+              "type": "single",
+              "title": "Beaufighter Mk VIc",
+              "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/beaufighter_mk6c.png",
+              "br": "3.0",
+              "rp": "9,200",
+              "sp": "16,000",
+              "data_unit_id": "beaufighter_mk6c",
+              "selected": false,
+              "class_name": "",
+              "details": true,
+              "main_role": "Strike aircraft"
+            },
+            {
+              "type": "single",
+              "title": "Beaufighter Mk X",
+              "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/beaufighter_mkx.png",
+              "br": "3.0",
+              "rp": "5,600",
+              "sp": "22,000",
+              "data_unit_id": "beaufighter_mkx",
+              "selected": false,
+              "class_name": "",
+              "details": true,
+              "main_role": "Strike aircraft"
+            },
+            {
+              "type": "single",
+              "title": "Beaufighter Mk 21",
+              "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/beaufighter_mk21.png",
+              "br": "3.7",
+              "rp": "6,900",
+              "sp": "32,000",
+              "data_unit_id": "beaufighter_mk21",
+              "selected": false,
+              "class_name": "",
+              "details": true,
+              "main_role": "Strike aircraft"
+            }
+          ],
+          "details": true
+        },
+        {
+          "type": "single",
+          "title": "Tempest Mk V (Vickers P)",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/tempest_mkv_vikkers.png",
+          "br": "3.7",
+          "rp": "11,000",
+          "sp": "22,000",
+          "data_unit_id": "tempest_mkv_vikkers",
+          "selected": false,
+          "class_name": "",
+          "details": true,
+          "main_role": "Strike aircraft"
+        }
+      ],
+      [
+        {
+          "type": "multiple",
+          "title": "Sunderland",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/sunderland_group.png",
+          "selected": false,
+          "br": "1.7-2.0",
+          "data_unit_id": "sunderland_group",
+          "class_name": "",
+          "items": [
+            {
+              "type": "single",
+              "title": "Sunderland Mk IIIa",
+              "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/sunderland_mk3a.png",
+              "br": "1.7",
+              "rp": "7,900",
+              "sp": "10,000",
+              "data_unit_id": "sunderland_mk3a",
+              "selected": false,
+              "class_name": "",
+              "details": true,
+              "main_role": "Bomber"
+            },
+            {
+              "type": "single",
+              "title": "Sunderland Mk V",
+              "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/sunderland_mk5.png",
+              "br": "2.0",
+              "rp": "4,600",
+              "sp": "16,000",
+              "data_unit_id": "sunderland_mk5",
+              "selected": false,
+              "class_name": "",
+              "details": true,
+              "main_role": "Bomber"
+            }
+          ],
+          "details": true
+        },
+        {
+          "type": "multiple",
+          "title": "Wellington",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/wellington_group.png",
+          "selected": false,
+          "br": "2.3-2.7",
+          "data_unit_id": "wellington_group",
+          "class_name": "",
+          "items": [
+            {
+              "type": "single",
+              "title": "Wellington Mk Ic",
+              "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/wellington_mk1c.png",
+              "br": "2.3",
+              "rp": "9,200",
+              "sp": "16,000",
+              "data_unit_id": "wellington_mk1c",
+              "selected": false,
+              "class_name": "",
+              "details": true,
+              "main_role": "Bomber"
+            },
+            {
+              "type": "single",
+              "title": "Wellington Mk Ic/L",
+              "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/wellington_mk1c_late.png",
+              "br": "2.7",
+              "rp": "5,600",
+              "sp": "22,000",
+              "data_unit_id": "wellington_mk1c_late",
+              "selected": false,
+              "class_name": "",
+              "details": true,
+              "main_role": "Bomber"
+            }
+          ],
+          "details": true
+        },
+        {
+          "type": "multiple",
+          "title": "Wellington (l)",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/wellington_late_group.png",
+          "selected": false,
+          "br": "3.0-3.3",
+          "data_unit_id": "wellington_late_group",
+          "class_name": "",
+          "items": [
+            {
+              "type": "single",
+              "title": "Wellington Mk III",
+              "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/wellington_mk3.png",
+              "br": "3.0",
+              "rp": "11,000",
+              "sp": "22,000",
+              "data_unit_id": "wellington_mk3",
+              "selected": false,
+              "class_name": "",
+              "details": true,
+              "main_role": "Bomber"
+            },
+            {
+              "type": "single",
+              "title": "Wellington Mk X",
+              "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/wellington_mk10.png",
+              "br": "3.3",
+              "rp": "6,900",
+              "sp": "32,000",
+              "data_unit_id": "wellington_mk10",
+              "selected": false,
+              "class_name": "",
+              "details": true,
+              "main_role": "Bomber"
+            }
+          ],
+          "details": true
+        }
+      ]
+    ],
+    "premium_vehicles": [
+      [
+        {
+          "type": "single",
+          "title": "▄Avenger Mk II",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/avenger_mk1.png",
+          "br": "1.7",
+          "rp": 0,
+          "sp": 0,
+          "data_unit_id": "avenger_mk1",
+          "selected": false,
+          "class_name": "prem",
+          "details": true,
+          "main_role": "Bomber"
+        },
+        {
+          "type": "single",
+          "title": "▄Hudson Mk V",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/hudson_mk_v.png",
+          "br": "2.0",
+          "rp": 0,
+          "sp": 0,
+          "data_unit_id": "hudson_mk_v",
+          "selected": false,
+          "class_name": "prem",
+          "details": true,
+          "main_role": "Bomber"
+        },
+        {
+          "type": "single",
+          "title": "Firecrest",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/b_48_firecrest.png",
+          "br": "2.3",
+          "rp": "155,000",
+          "sp": "32,000",
+          "data_unit_id": "b_48_firecrest",
+          "selected": false,
+          "class_name": "squad",
+          "details": true,
+          "main_role": "Strike aircraft"
+        },
+        {
+          "type": "single",
+          "title": "▄Corsair F Mk II",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/corsair_fmk2.png",
+          "br": "2.7",
+          "rp": 0,
+          "sp": 0,
+          "data_unit_id": "corsair_fmk2",
+          "selected": false,
+          "class_name": "prem",
+          "details": true,
+          "main_role": "Fighter"
+        },
+        {
+          "type": "single",
+          "title": "Spitfire Mk.IIa Venture I",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/spitfiremkiia_ep.png",
+          "br": "3.0",
+          "rp": 0,
+          "sp": 0,
+          "data_unit_id": "spitfiremkiia_ep",
+          "selected": false,
+          "class_name": "prem",
+          "details": true,
+          "main_role": "Fighter"
+        },
+        {
+          "type": "single",
+          "title": "▄D.520",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/d_520.png",
+          "br": "3.0",
+          "rp": 0,
+          "sp": 0,
+          "data_unit_id": "d_520",
+          "selected": false,
+          "class_name": "prem",
+          "details": true,
+          "main_role": "Fighter"
+        },
+        {
+          "type": "single",
+          "title": "▄D.521",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/d_521.png",
+          "br": "3.0",
+          "rp": null,
+          "sp": null,
+          "data_unit_id": "d_521",
+          "selected": false,
+          "class_name": "",
+          "details": true,
+          "main_role": "Fighter"
+        }
+      ],
+      [
+        {
+          "type": "single",
+          "title": "▄Havoc Mk I",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/intruder_mk_1.png",
+          "br": "2.0",
+          "rp": 0,
+          "sp": 0,
+          "data_unit_id": "intruder_mk_1",
+          "selected": false,
+          "class_name": "prem",
+          "details": true,
+          "main_role": "Bomber"
+        },
+        {
+          "type": "single",
+          "title": "Beaufighter Mk I (40-mm)",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/beaufighter_mk1_40mm.png",
+          "br": "2.3",
+          "rp": 0,
+          "sp": 0,
+          "data_unit_id": "beaufighter_mk1_40mm",
+          "selected": false,
+          "class_name": "prem",
+          "details": true,
+          "main_role": "Strike aircraft"
+        },
+        {
+          "type": "single",
+          "title": "▄Boston Mk I",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/boston_mk_1.png",
+          "br": "2.3",
+          "rp": 0,
+          "sp": 0,
+          "data_unit_id": "boston_mk_1",
+          "selected": false,
+          "class_name": "prem",
+          "details": true,
+          "main_role": "Bomber"
+        },
+        {
+          "type": "single",
+          "title": "▄DB-7",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/db_7.png",
+          "br": "2.3",
+          "rp": 0,
+          "sp": 0,
+          "data_unit_id": "db_7",
+          "selected": false,
+          "class_name": "prem",
+          "details": true,
+          "main_role": "Bomber"
+        },
+        {
+          "type": "single",
+          "title": "Hurricane Mk.I/L FAA M",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/hurricane_mk1_late_ep.png",
+          "br": "2.3",
+          "rp": 0,
+          "sp": 0,
+          "data_unit_id": "hurricane_mk1_late_ep",
+          "selected": false,
+          "class_name": "prem",
+          "details": true,
+          "main_role": "Fighter"
+        },
+        {
+          "type": "single",
+          "title": "▄Martlet Mk IV",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/f4f-4_martlet_mk4.png",
+          "br": "2.7",
+          "rp": 0,
+          "sp": 0,
+          "data_unit_id": "f4f-4_martlet_mk4",
+          "selected": false,
+          "class_name": "prem",
+          "details": true,
+          "main_role": "Fighter"
+        },
+        {
+          "type": "single",
+          "title": "▄Boomerang Mk I",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/boomerang_mki.png",
+          "br": "3.0",
+          "rp": 0,
+          "sp": 0,
+          "data_unit_id": "boomerang_mki",
+          "selected": false,
+          "class_name": "prem",
+          "details": true,
+          "main_role": "Fighter"
+        },
+        {
+          "type": "single",
+          "title": "▄Boomerang Mk II",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/boomerang_mkii.png",
+          "br": "3.0",
+          "rp": 0,
+          "sp": 0,
+          "data_unit_id": "boomerang_mkii",
+          "selected": false,
+          "class_name": "prem",
+          "details": true,
+          "main_role": "Fighter"
+        }
+      ]
+    ],
+    "selected": [],
+    "unlock_quantity": 0
+  },
+  {
+    "rank": "III",
+    "researchable_vehicles": [
+      [
+        {
+          "type": "single",
+          "title": "Typhoon Mk Ib/L",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/typhoon_mk1b_late.png",
+          "br": "4.3",
+          "rp": "18,000",
+          "sp": "47,000",
+          "data_unit_id": "typhoon_mk1b_late",
+          "selected": false,
+          "class_name": "",
+          "details": true,
+          "main_role": "Fighter"
+        }
+      ],
+      [
+        {
+          "type": "multiple",
+          "title": "Spitfire Mk IX",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/spitfire_mk9_group.png",
+          "selected": false,
+          "br": "4.3-5.0",
+          "data_unit_id": "spitfire_mk9_group",
+          "class_name": "",
+          "items": [
+            {
+              "type": "single",
+              "title": "Spitfire F Mk IX",
+              "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/spitfire_ix_early.png",
+              "br": "4.3",
+              "rp": "18,000",
+              "sp": "47,000",
+              "data_unit_id": "spitfire_ix_early",
+              "selected": false,
+              "class_name": "",
+              "details": true,
+              "main_role": "Fighter"
+            },
+            {
+              "type": "single",
+              "title": "Spitfire F Mk XVI",
+              "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/spitfire_xvi.png",
+              "br": "5.0",
+              "rp": "13,000",
+              "sp": "76,000",
+              "data_unit_id": "spitfire_xvi",
+              "selected": false,
+              "class_name": "",
+              "details": true,
+              "main_role": "Fighter"
+            }
+          ],
+          "details": true
+        },
+        {
+          "type": "multiple",
+          "title": "Spitfire Mk Vc",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/spitfire_mk5_group.png",
+          "selected": false,
+          "br": "4.7-5.0",
+          "data_unit_id": "spitfire_mk5c_group",
+          "class_name": "",
+          "items": [
+            {
+              "type": "single",
+              "title": "Spitfire Mk Vc/trop",
+              "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/spitfire_mk5c.png",
+              "br": "4.7",
+              "rp": "26,000",
+              "sp": "76,000",
+              "data_unit_id": "spitfire_mk5c",
+              "selected": false,
+              "class_name": "",
+              "details": true,
+              "main_role": "Fighter"
+            },
+            {
+              "type": "single",
+              "title": "Spitfire Mk Vc",
+              "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/spitfire_mk5c_notrop.png",
+              "br": "5.0",
+              "rp": "17,000",
+              "sp": "105,000",
+              "data_unit_id": "spitfire_mk5c_notrop",
+              "selected": false,
+              "class_name": "",
+              "details": true,
+              "main_role": "Fighter"
+            }
+          ],
+          "details": true
+        }
+      ],
+      [
+        {
+          "type": "multiple",
+          "title": "Firefly",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/firefly_group.png",
+          "selected": false,
+          "br": "3.3-3.7",
+          "data_unit_id": "firefly_group",
+          "class_name": "",
+          "items": [
+            {
+              "type": "single",
+              "title": "Firefly F Mk I",
+              "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/firefly_mk1.png",
+              "br": "3.3",
+              "rp": "18,000",
+              "sp": "47,000",
+              "data_unit_id": "firefly_mk1",
+              "selected": false,
+              "class_name": "",
+              "details": true,
+              "main_role": "Strike aircraft"
+            },
+            {
+              "type": "single",
+              "title": "Firefly FR Mk V",
+              "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/firefly_mk5.png",
+              "br": "3.7",
+              "rp": "13,000",
+              "sp": "76,000",
+              "data_unit_id": "firefly_mk5",
+              "selected": false,
+              "class_name": "",
+              "details": true,
+              "main_role": "Strike aircraft"
+            }
+          ],
+          "details": true
+        },
+        {
+          "type": "single",
+          "title": "Seafire LF Mk.III",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/seafire_mk3.png",
+          "br": "5.0",
+          "rp": "26,000",
+          "sp": "76,000",
+          "data_unit_id": "seafire_mk3",
+          "selected": false,
+          "class_name": "",
+          "details": true,
+          "main_role": "Fighter"
+        }
+      ],
+      [
+        {
+          "type": "multiple",
+          "title": "Mosquito",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/mosquito_group.png",
+          "selected": false,
+          "br": "3.0-3.7",
+          "data_unit_id": "mosquito_group",
+          "class_name": "",
+          "items": [
+            {
+              "type": "single",
+              "title": "Mosquito FB Mk VI",
+              "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/mosquito_fb_mk6.png",
+              "br": "3.7",
+              "rp": "26,000",
+              "sp": "76,000",
+              "data_unit_id": "mosquito_fb_mk6",
+              "selected": false,
+              "class_name": "",
+              "details": true,
+              "main_role": "Strike aircraft"
+            },
+            {
+              "type": "single",
+              "title": "Mosquito FB Mk XVIII",
+              "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/mosquito_fb_mk18.png",
+              "br": "3.0",
+              "rp": "17,000",
+              "sp": "105,000",
+              "data_unit_id": "mosquito_fb_mk18",
+              "selected": false,
+              "class_name": "",
+              "details": true,
+              "main_role": "Strike aircraft"
+            },
+            {
+              "type": "single",
+              "title": "Mosquito NF.Mk.II",
+              "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/mosquito_nf_mk2.png",
+              "br": "3.7",
+              "rp": "17,000",
+              "sp": "105,000",
+              "data_unit_id": "mosquito_nf_mk2",
+              "selected": false,
+              "class_name": "",
+              "details": true,
+              "main_role": "Fighter"
+            },
+            {
+              "type": "single",
+              "title": "Mosquito TR.Mk.33",
+              "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/mosquito_tr_mk33.png",
+              "br": "3.7",
+              "rp": "17,000",
+              "sp": "105,000",
+              "data_unit_id": "mosquito_tr_mk33",
+              "selected": false,
+              "class_name": "",
+              "details": true,
+              "main_role": "Strike aircraft"
+            }
+          ],
+          "details": true
+        },
+        {
+          "type": "multiple",
+          "title": "Brigand/Whirlwind",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/brigand_group.png",
+          "selected": false,
+          "br": "3.7-4.0",
+          "data_unit_id": "brigand_group",
+          "class_name": "",
+          "items": [
+            {
+              "type": "single",
+              "title": "Brigand B 1",
+              "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/brigand_b1.png",
+              "br": "4.0",
+              "rp": "33,000",
+              "sp": "105,000",
+              "data_unit_id": "brigand_b1",
+              "selected": false,
+              "class_name": "",
+              "details": true,
+              "main_role": "Bomber"
+            },
+            {
+              "type": "single",
+              "title": "Whirlwind Mk I",
+              "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/whirlwind_mk1.png",
+              "br": "3.7",
+              "rp": "20,000",
+              "sp": "135,000",
+              "data_unit_id": "whirlwind_mk1",
+              "selected": false,
+              "class_name": "",
+              "details": true,
+              "main_role": "Fighter"
+            }
+          ],
+          "details": true
+        }
+      ],
+      [
+        {
+          "type": "single",
+          "title": "Halifax B Mk IIIa",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/halifax_mk3.png",
+          "br": "4.0",
+          "rp": "18,000",
+          "sp": "47,000",
+          "data_unit_id": "halifax_mk3",
+          "selected": false,
+          "class_name": "",
+          "details": true,
+          "main_role": "Bomber"
+        },
+        {
+          "type": "multiple",
+          "title": "Stirling",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/stirling_group.png",
+          "selected": false,
+          "br": "4.0-4.7",
+          "data_unit_id": "stirling_group",
+          "class_name": "",
+          "items": [
+            {
+              "type": "single",
+              "title": "Stirling B Mk I",
+              "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/stirling_mk1.png",
+              "br": "4.0",
+              "rp": "26,000",
+              "sp": "76,000",
+              "data_unit_id": "stirling_mk1",
+              "selected": false,
+              "class_name": "",
+              "details": true,
+              "main_role": "Bomber"
+            },
+            {
+              "type": "single",
+              "title": "Stirling B Mk III",
+              "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/stirling_mk3.png",
+              "br": "4.7",
+              "rp": "20,000",
+              "sp": "135,000",
+              "data_unit_id": "stirling_mk3",
+              "selected": false,
+              "class_name": "",
+              "details": true,
+              "main_role": "Bomber"
+            }
+          ],
+          "details": true
+        }
+      ]
+    ],
+    "premium_vehicles": [
+      [
+        {
+          "type": "single",
+          "title": "▄Hellcat Mk II",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/hellcat_fmk1.png",
+          "br": "3.3",
+          "rp": 0,
+          "sp": 0,
+          "data_unit_id": "hellcat_fmk1",
+          "selected": false,
+          "class_name": "prem",
+          "details": true,
+          "main_role": "Fighter"
+        },
+        {
+          "type": "single",
+          "title": "▄Thunderbolt Mk.1",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/thunderbolt_mk1.png",
+          "br": "3.7",
+          "rp": 0,
+          "sp": 0,
+          "data_unit_id": "thunderbolt_mk1",
+          "selected": false,
+          "class_name": "prem",
+          "details": true,
+          "main_role": "Fighter"
+        },
+        {
+          "type": "single",
+          "title": "▄Mustang Mk IA",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/p-51b.png",
+          "br": "3.7",
+          "rp": 0,
+          "sp": 0,
+          "data_unit_id": "p-51b",
+          "selected": false,
+          "class_name": "prem",
+          "details": true,
+          "main_role": "Fighter"
+        },
+        {
+          "type": "single",
+          "title": "Typhoon Mk Ib",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/typhoon_mk1b.png",
+          "br": "4.3",
+          "rp": 0,
+          "sp": 0,
+          "data_unit_id": "typhoon_mk1b",
+          "selected": false,
+          "class_name": "prem",
+          "details": true,
+          "main_role": "Fighter"
+        }
+      ],
+      [
+        {
+          "type": "single",
+          "title": "Mosquito B.Mk.XVI",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/mosquito_b_mk16.png",
+          "br": "3.7",
+          "rp": "170,000",
+          "sp": "80,000",
+          "data_unit_id": "mosquito_b_mk16",
+          "selected": false,
+          "class_name": "squad",
+          "details": true,
+          "main_role": "Bomber"
+        },
+        {
+          "type": "single",
+          "title": "Whirlwind P.9",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/whirlwind_p9.png",
+          "br": "3.7",
+          "rp": 0,
+          "sp": 0,
+          "data_unit_id": "whirlwind_p9",
+          "selected": false,
+          "class_name": "prem",
+          "details": true,
+          "main_role": "Fighter"
+        },
+        {
+          "type": "single",
+          "title": "Spitfire F Mk IXc",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/spitfire_mk9c_4cannons.png",
+          "br": "4.7",
+          "rp": 0,
+          "sp": 0,
+          "data_unit_id": "spitfire_mk9c_4cannons",
+          "selected": false,
+          "class_name": "prem",
+          "details": true,
+          "main_role": "Fighter"
+        }
+      ]
+    ],
+    "selected": [],
+    "unlock_quantity": 0
+  },
+  {
+    "rank": "IV",
+    "researchable_vehicles": [
+      [
+        {
+          "type": "single",
+          "title": "Tempest Mk V",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/tempest_mkv.png",
+          "br": "5.7",
+          "rp": "46,000",
+          "sp": "155,000",
+          "data_unit_id": "tempest_mkv",
+          "selected": false,
+          "class_name": "",
+          "details": true,
+          "main_role": "Fighter"
+        },
+        {
+          "type": "single",
+          "title": "Tempest Mk II",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/tempest_mk2.png",
+          "br": "6.0",
+          "rp": "54,000",
+          "sp": "185,000",
+          "data_unit_id": "tempest_mk2",
+          "selected": false,
+          "class_name": "",
+          "details": true,
+          "main_role": "Fighter"
+        }
+      ],
+      [
+        {
+          "type": "multiple",
+          "title": "Spitfire F",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/spitfire_mk9e_group.png",
+          "selected": false,
+          "br": "5.7",
+          "data_unit_id": "spitfire_mk9e_group",
+          "class_name": "",
+          "items": [
+            {
+              "type": "single",
+              "title": "Spitfire F Mk XIVe",
+              "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/spitfire_mk14e.png",
+              "br": "5.7",
+              "rp": "46,000",
+              "sp": "155,000",
+              "data_unit_id": "spitfire_mk14e",
+              "selected": false,
+              "class_name": "",
+              "details": true,
+              "main_role": "Fighter"
+            },
+            {
+              "type": "single",
+              "title": "Spitfire F Mk XVIIIe",
+              "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/spitfire_mk18e.png",
+              "br": "5.7",
+              "rp": "27,000",
+              "sp": "185,000",
+              "data_unit_id": "spitfire_mk18e",
+              "selected": false,
+              "class_name": "",
+              "details": true,
+              "main_role": "Fighter"
+            },
+            {
+              "type": "single",
+              "title": "Spitfire LF Mk IX",
+              "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/spitfire_ix.png",
+              "br": "5.7",
+              "rp": "31,000",
+              "sp": "200,000",
+              "data_unit_id": "spitfire_ix",
+              "selected": false,
+              "class_name": "",
+              "details": true,
+              "main_role": "Fighter"
+            }
+          ],
+          "details": true
+        },
+        {
+          "type": "multiple",
+          "title": "Spitfire (Griffon)",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/spitfire_f2x_group.png",
+          "selected": false,
+          "br": "6.7",
+          "data_unit_id": "spitfire_griffon_group",
+          "class_name": "",
+          "items": [
+            {
+              "type": "single",
+              "title": "Spitfire F Mk 22",
+              "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/spitfire_f22.png",
+              "br": "6.7",
+              "rp": "54,000",
+              "sp": "185,000",
+              "data_unit_id": "spitfire_f22",
+              "selected": false,
+              "class_name": "",
+              "details": true,
+              "main_role": "Fighter"
+            },
+            {
+              "type": "single",
+              "title": "Spitfire F Mk 24",
+              "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/spitfire_f24.png",
+              "br": "6.7",
+              "rp": "35,000",
+              "sp": "210,000",
+              "data_unit_id": "spitfire_f24",
+              "selected": false,
+              "class_name": "",
+              "details": true,
+              "main_role": "Fighter"
+            }
+          ],
+          "details": true
+        }
+      ],
+      [
+        {
+          "type": "multiple",
+          "title": "Seafire",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/seafire_group.png",
+          "selected": false,
+          "br": "5.3-5.7",
+          "data_unit_id": "seafire_group",
+          "class_name": "",
+          "items": [
+            {
+              "type": "single",
+              "title": "Seafire F Mk XVII",
+              "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/seafire_mk17.png",
+              "br": "5.3",
+              "rp": "46,000",
+              "sp": "155,000",
+              "data_unit_id": "seafire_mk17",
+              "selected": false,
+              "class_name": "",
+              "details": true,
+              "main_role": "Fighter"
+            },
+            {
+              "type": "single",
+              "title": "Seafire FR 47",
+              "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/seafire_fr47.png",
+              "br": "5.7",
+              "rp": "27,000",
+              "sp": "185,000",
+              "data_unit_id": "seafire_fr47",
+              "selected": false,
+              "class_name": "",
+              "details": true,
+              "main_role": "Fighter"
+            }
+          ],
+          "details": true
+        },
+        {
+          "type": "single",
+          "title": "Sea Fury FB 11",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/sea_fury_fb11.png",
+          "br": "5.7",
+          "rp": "54,000",
+          "sp": "185,000",
+          "data_unit_id": "sea_fury_fb11",
+          "selected": false,
+          "class_name": "",
+          "details": true,
+          "main_role": "Fighter"
+        }
+      ],
+      [
+        {
+          "type": "single",
+          "title": "Hornet Mk.III",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/hornet_mk3.png",
+          "br": "6.0",
+          "rp": "46,000",
+          "sp": "155,000",
+          "data_unit_id": "hornet_mk3",
+          "selected": false,
+          "class_name": "",
+          "details": true,
+          "main_role": "Fighter"
+        }
+      ],
+      [
+        {
+          "type": "multiple",
+          "title": "Lancaster",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/lancaster_group.png",
+          "selected": false,
+          "br": "5.0",
+          "data_unit_id": "lancaster_group",
+          "class_name": "",
+          "items": [
+            {
+              "type": "single",
+              "title": "Lancaster B Mk I",
+              "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/lancaster_mk1.png",
+              "br": "5.0",
+              "rp": "46,000",
+              "sp": "155,000",
+              "data_unit_id": "lancaster_mk1",
+              "selected": false,
+              "class_name": "",
+              "details": true,
+              "main_role": "Bomber"
+            },
+            {
+              "type": "single",
+              "title": "Lancaster B Mk III",
+              "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/lancaster_mk3.png",
+              "br": "5.0",
+              "rp": "27,000",
+              "sp": "185,000",
+              "data_unit_id": "lancaster_mk3",
+              "selected": false,
+              "class_name": "",
+              "details": true,
+              "main_role": "Bomber"
+            }
+          ],
+          "details": true
+        },
+        {
+          "type": "multiple",
+          "title": "Lincoln/Shackleton",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/lincoln_group.png",
+          "selected": false,
+          "br": "6.0",
+          "data_unit_id": "lincoln_group",
+          "class_name": "",
+          "items": [
+            {
+              "type": "single",
+              "title": "Lincoln B Mk II",
+              "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/lincoln_b2.png",
+              "br": "6.0",
+              "rp": "54,000",
+              "sp": "185,000",
+              "data_unit_id": "lincoln_b2",
+              "selected": false,
+              "class_name": "",
+              "details": true,
+              "main_role": "Bomber"
+            },
+            {
+              "type": "single",
+              "title": "Shackleton MR.Mk.2",
+              "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/shackleton_mr_mk_2.png",
+              "br": "6.0",
+              "rp": "31,000",
+              "sp": "200,000",
+              "data_unit_id": "shackleton_mr_mk_2",
+              "selected": false,
+              "class_name": "",
+              "details": true,
+              "main_role": "Bomber"
+            }
+          ],
+          "details": true
+        }
+      ]
+    ],
+    "premium_vehicles": [
+      [
+        {
+          "type": "single",
+          "title": "MB.5",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/mb_5.png",
+          "br": "5.0",
+          "rp": 0,
+          "sp": 0,
+          "data_unit_id": "mb_5",
+          "selected": false,
+          "class_name": "prem",
+          "details": true,
+          "main_role": "Fighter"
+        },
+        {
+          "type": "single",
+          "title": "Hornet Mk.I",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/hornet_mk1.png",
+          "br": "6.0",
+          "rp": 0,
+          "sp": 0,
+          "data_unit_id": "hornet_mk1",
+          "selected": false,
+          "class_name": "prem",
+          "details": true,
+          "main_role": "Fighter"
+        },
+        {
+          "type": "single",
+          "title": "Plagis' Spitfire LF Mk IXc",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/spitfire_ix_plagis.png",
+          "br": "5.7",
+          "rp": 0,
+          "sp": 0,
+          "data_unit_id": "spitfire_ix_plagis",
+          "selected": false,
+          "class_name": "prem",
+          "details": true,
+          "main_role": "Fighter"
+        },
+        {
+          "type": "single",
+          "title": "Strikemaster Mk.88",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/strikemaster_mk88.png",
+          "br": "6.3",
+          "rp": 0,
+          "sp": 0,
+          "data_unit_id": "strikemaster_mk88",
+          "selected": false,
+          "class_name": "prem",
+          "details": true,
+          "main_role": "Strike aircraft"
+        }
+      ],
+      [
+        {
+          "type": "single",
+          "title": "Wyvern S.4",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/wyvern_s4.png",
+          "br": "4.7",
+          "rp": 0,
+          "sp": 0,
+          "data_unit_id": "wyvern_s4",
+          "selected": false,
+          "class_name": "prem",
+          "details": true,
+          "main_role": "Strike aircraft"
+        },
+        {
+          "type": "single",
+          "title": "Spitfire F Mk XIVc",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/spitfire_mk14c.png",
+          "br": "5.7",
+          "rp": 0,
+          "sp": 0,
+          "data_unit_id": "spitfire_mk14c",
+          "selected": false,
+          "class_name": "prem",
+          "details": true,
+          "main_role": "Fighter"
+        },
+        {
+          "type": "single",
+          "title": "Prendergast's Spitfire FR Mk XIVe",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/spitfire_fr_mk14e.png",
+          "br": "5.7",
+          "rp": 0,
+          "sp": 0,
+          "data_unit_id": "spitfire_fr_mk14e",
+          "selected": false,
+          "class_name": "prem",
+          "details": true,
+          "main_role": "Fighter"
+        }
+      ]
+    ],
+    "selected": [],
+    "unlock_quantity": 0
+  },
+  {
+    "rank": "V",
+    "researchable_vehicles": [
+      [
+        {
+          "type": "single",
+          "title": "Vampire F.B.5",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/vampire_fb5.png",
+          "br": "8.0",
+          "rp": "95,000",
+          "sp": "270,000",
+          "data_unit_id": "vampire_fb5",
+          "selected": false,
+          "class_name": "",
+          "details": true,
+          "main_role": "Fighter"
+        },
+        {
+          "type": "single",
+          "title": "Venom FB.4",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/venom_fb4.png",
+          "br": "8.7",
+          "rp": "120,000",
+          "sp": "340,000",
+          "data_unit_id": "venom_fb4",
+          "selected": false,
+          "class_name": "",
+          "details": true,
+          "main_role": "Fighter"
+        }
+      ],
+      [
+        {
+          "type": "multiple",
+          "title": "Meteor F Mk 3",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/meteor_group.png",
+          "selected": false,
+          "br": "7.3",
+          "data_unit_id": "meteor3_group",
+          "class_name": "",
+          "items": [
+            {
+              "type": "single",
+              "title": "Meteor F Mk 3",
+              "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/meteor_fmk3.png",
+              "br": "7.3",
+              "rp": "95,000",
+              "sp": "270,000",
+              "data_unit_id": "meteor_fmk3",
+              "selected": false,
+              "class_name": "",
+              "details": true,
+              "main_role": "Fighter"
+            },
+            {
+              "type": "single",
+              "title": "Sea Meteor F Mk 3",
+              "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/meteor_fmk3_navy.png",
+              "br": "7.3",
+              "rp": "53,000",
+              "sp": "300,000",
+              "data_unit_id": "meteor_fmk3_navy",
+              "selected": false,
+              "class_name": "",
+              "details": true,
+              "main_role": "Fighter"
+            }
+          ],
+          "details": true
+        },
+        {
+          "type": "multiple",
+          "title": "Meteor F Mk 4",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/meteor4_group.png",
+          "selected": false,
+          "br": "7.7-8.0",
+          "data_unit_id": "meteor4_group",
+          "class_name": "",
+          "items": [
+            {
+              "type": "single",
+              "title": "Meteor F Mk 4 G.41F",
+              "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/meteor_fmk4_lw.png",
+              "br": "7.7",
+              "rp": "105,000",
+              "sp": "300,000",
+              "data_unit_id": "meteor_fmk4_lw",
+              "selected": false,
+              "class_name": "",
+              "details": true,
+              "main_role": "Fighter"
+            },
+            {
+              "type": "single",
+              "title": "Meteor F Mk 4 G.41G",
+              "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/meteor_fmk4_sw.png",
+              "br": "8.0",
+              "rp": "61,000",
+              "sp": "340,000",
+              "data_unit_id": "meteor_fmk4_sw",
+              "selected": false,
+              "class_name": "",
+              "details": true,
+              "main_role": "Fighter"
+            },
+            {
+              "type": "single",
+              "title": "Meteor F Mk 8 G.41K",
+              "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/meteor_fmk8.png",
+              "br": "8.0",
+              "rp": "61,000",
+              "sp": "340,000",
+              "data_unit_id": "meteor_fmk8",
+              "selected": false,
+              "class_name": "",
+              "details": true,
+              "main_role": "Fighter"
+            }
+          ],
+          "details": true
+        }
+      ],
+      [
+        {
+          "type": "single",
+          "title": "Attacker FB 1",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/attaker_fb1.png",
+          "br": "7.0",
+          "rp": "95,000",
+          "sp": "270,000",
+          "data_unit_id": "attaker_fb1",
+          "selected": false,
+          "class_name": "",
+          "details": true,
+          "main_role": "Fighter"
+        },
+        {
+          "type": "multiple",
+          "title": "Sea Hawk/Sea Venom",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/sea_hawk_group.png",
+          "selected": false,
+          "br": "7.7-8.0",
+          "data_unit_id": "sea_hawk_group",
+          "class_name": "",
+          "items": [
+            {
+              "type": "single",
+              "title": "Sea Hawk FGA.6",
+              "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/sea_hawk_fga6.png",
+              "br": "8.0",
+              "rp": "105,000",
+              "sp": "300,000",
+              "data_unit_id": "sea_hawk_fga6",
+              "selected": false,
+              "class_name": "",
+              "details": true,
+              "main_role": "Fighter"
+            },
+            {
+              "type": "single",
+              "title": "Sea Venom FAW 20",
+              "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/sea_venom_faw20.png",
+              "br": "7.7",
+              "rp": "61,000",
+              "sp": "340,000",
+              "data_unit_id": "sea_venom_faw20",
+              "selected": false,
+              "class_name": "",
+              "details": true,
+              "main_role": "Fighter"
+            }
+          ],
+          "details": true
+        }
+      ],
+      [
+        {
+          "type": "single",
+          "title": "Swift F.1",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/swift_f1.png",
+          "br": "8.3",
+          "rp": "105,000",
+          "sp": "300,000",
+          "data_unit_id": "swift_f1",
+          "selected": false,
+          "class_name": "",
+          "details": true,
+          "main_role": "Fighter"
+        },
+        {
+          "type": "single",
+          "title": "Swift F.7",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/swift_f7.png",
+          "br": "8.7",
+          "rp": "120,000",
+          "sp": "340,000",
+          "data_unit_id": "swift_f7",
+          "selected": false,
+          "class_name": "",
+          "details": true,
+          "main_role": "Fighter"
+        }
+      ],
+      [
+        {
+          "type": "multiple",
+          "title": "Canberra B",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/canberra_group.png",
+          "selected": false,
+          "br": "8.3",
+          "data_unit_id": "canberra_group",
+          "class_name": "",
+          "items": [
+            {
+              "type": "single",
+              "title": "Canberra B Mk 2",
+              "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/canberra_bmk2.png",
+              "br": "8.3",
+              "rp": "105,000",
+              "sp": "300,000",
+              "data_unit_id": "canberra_bmk2",
+              "selected": false,
+              "class_name": "",
+              "details": true,
+              "main_role": "Bomber"
+            },
+            {
+              "type": "single",
+              "title": "Canberra B (I) Mk 6",
+              "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/canberra_bimk6.png",
+              "br": "8.3",
+              "rp": "61,000",
+              "sp": "340,000",
+              "data_unit_id": "canberra_bimk6",
+              "selected": false,
+              "class_name": "",
+              "details": true,
+              "main_role": "Bomber"
+            }
+          ],
+          "details": true
+        }
+      ]
+    ],
+    "premium_vehicles": [
+      [
+        {
+          "type": "single",
+          "title": "Meteor F Mk.8 Reaper",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/meteor_fmk8_reaper.png",
+          "br": "8.0",
+          "rp": 0,
+          "sp": 0,
+          "data_unit_id": "meteor_fmk8_reaper",
+          "selected": false,
+          "class_name": "prem",
+          "details": true,
+          "main_role": "Fighter"
+        },
+        {
+          "type": "single",
+          "title": "Sea Vixen F.A.W. Mk.2",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/dh_110_sea_vixen.png",
+          "br": "9.0",
+          "rp": 0,
+          "sp": 0,
+          "data_unit_id": "dh_110_sea_vixen",
+          "selected": false,
+          "class_name": "prem",
+          "details": true,
+          "main_role": "Fighter"
+        }
+      ],
+      [
+        {
+          "type": "single",
+          "title": "Attacker FB.2",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/attaker_fb2.png",
+          "br": "7.0",
+          "rp": 0,
+          "sp": 0,
+          "data_unit_id": "attaker_fb2",
+          "selected": false,
+          "class_name": "prem",
+          "details": true,
+          "main_role": "Fighter"
+        },
+        {
+          "type": "single",
+          "title": "▄HF-24",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/marut_mk1.png",
+          "br": "9.0",
+          "rp": null,
+          "sp": null,
+          "data_unit_id": "marut_mk1",
+          "selected": false,
+          "class_name": "",
+          "details": true,
+          "main_role": "Strike aircraft"
+        }
+      ]
+    ],
+    "selected": [],
+    "unlock_quantity": 0
+  },
+  {
+    "rank": "VI",
+    "researchable_vehicles": [
+      [
+        {
+          "type": "single",
+          "title": "Hunter F.1",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/hunter_f1.png",
+          "br": "8.7",
+          "rp": "150,000",
+          "sp": "420,000",
+          "data_unit_id": "hunter_f1",
+          "selected": false,
+          "class_name": "",
+          "details": true,
+          "main_role": "Fighter"
+        },
+        {
+          "type": "single",
+          "title": "Hunter F.6",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/hunter_f6.png",
+          "br": "9.7",
+          "rp": "190,000",
+          "sp": "530,000",
+          "data_unit_id": "hunter_f6",
+          "selected": false,
+          "class_name": "",
+          "details": true,
+          "main_role": "Fighter"
+        }
+      ],
+      [
+        {
+          "type": "single",
+          "title": "Javelin F.(A.W.) Mk.9",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/javelin_fmk9.png",
+          "br": "8.3",
+          "rp": "135,000",
+          "sp": "380,000",
+          "data_unit_id": "javelin_fmk9",
+          "selected": false,
+          "class_name": "",
+          "details": true,
+          "main_role": "Fighter"
+        },
+        {
+          "type": "single",
+          "title": "Lightning F.6",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/lightning_f6.png",
+          "br": "9.3",
+          "rp": "170,000",
+          "sp": "480,000",
+          "data_unit_id": "lightning_f6",
+          "selected": false,
+          "class_name": "",
+          "details": true,
+          "main_role": "Fighter"
+        }
+      ],
+      [
+        {
+          "type": "single",
+          "title": "Scimitar F Mk.1",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/scimitar_f1.png",
+          "br": "8.7",
+          "rp": "150,000",
+          "sp": "420,000",
+          "data_unit_id": "scimitar_f1",
+          "selected": false,
+          "class_name": "",
+          "details": true,
+          "main_role": "Fighter"
+        }
+      ],
+      [
+        {
+          "type": "single",
+          "title": "Jaguar GR.1",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/jaguar_gr1.png",
+          "br": "9.7",
+          "rp": "170,000",
+          "sp": "480,000",
+          "data_unit_id": "jaguar_gr1",
+          "selected": false,
+          "class_name": "",
+          "details": true,
+          "main_role": "Strike aircraft"
+        },
+        {
+          "type": "single",
+          "title": "Harrier GR.3",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/harrier_gr3.png",
+          "br": "9.7",
+          "rp": "190,000",
+          "sp": "530,000",
+          "data_unit_id": "harrier_gr3",
+          "selected": false,
+          "class_name": "",
+          "details": true,
+          "main_role": "Strike aircraft"
+        }
+      ],
+      [
+        {
+          "type": "single",
+          "title": "Buccaneer S.2",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/buccaneer_s2.png",
+          "br": "9.3",
+          "rp": "170,000",
+          "sp": "480,000",
+          "data_unit_id": "buccaneer_s2",
+          "selected": false,
+          "class_name": "",
+          "details": true,
+          "main_role": "Strike aircraft"
+        }
+      ]
+    ],
+    "premium_vehicles": [
+      [
+        {
+          "type": "single",
+          "title": "Lightning F.53",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/lightning_f53.png",
+          "br": "9.3",
+          "rp": 0,
+          "sp": 0,
+          "data_unit_id": "lightning_f53",
+          "selected": false,
+          "class_name": "prem",
+          "details": true,
+          "main_role": "Fighter"
+        },
+        {
+          "type": "single",
+          "title": "Harrier GR.1",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/harrier_gr1.png",
+          "br": "9.7",
+          "rp": 0,
+          "sp": 0,
+          "data_unit_id": "harrier_gr1",
+          "selected": false,
+          "class_name": "prem",
+          "details": true,
+          "main_role": "Strike aircraft"
+        }
+      ],
+      [
+        {
+          "type": "single",
+          "title": "Buccaneer S.1",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/buccaneer_s1.png",
+          "br": "8.7",
+          "rp": null,
+          "sp": null,
+          "data_unit_id": "buccaneer_s1",
+          "selected": false,
+          "class_name": "",
+          "details": true,
+          "main_role": "Strike aircraft"
+        },
+        {
+          "type": "single",
+          "title": "Hunter FGA.9",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/hunter_f9_rhodesia.png",
+          "br": "9.3",
+          "rp": 0,
+          "sp": 0,
+          "data_unit_id": "hunter_f9_rhodesia",
+          "selected": false,
+          "class_name": "prem",
+          "details": true,
+          "main_role": "Fighter"
+        }
+      ]
+    ],
+    "selected": [],
+    "unlock_quantity": 0
+  },
+  {
+    "rank": "VII",
+    "researchable_vehicles": [
+      [
+        {
+          "type": "single",
+          "title": "Phantom FGR.2",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/f-4m_fgr2.png",
+          "br": "12.0",
+          "rp": "260,000",
+          "sp": "720,000",
+          "data_unit_id": "f-4m_fgr2",
+          "selected": false,
+          "class_name": "",
+          "details": true,
+          "main_role": "Fighter"
+        }
+      ],
+      [
+        {
+          "type": "single",
+          "title": "Tornado F.3",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/tornado_f3.png",
+          "br": "12.0",
+          "rp": "260,000",
+          "sp": "720,000",
+          "data_unit_id": "tornado_f3",
+          "selected": false,
+          "class_name": "",
+          "details": true,
+          "main_role": "Fighter"
+        }
+      ],
+      [
+        {
+          "type": "single",
+          "title": "Sea Harrier FRS.1 (e)",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/harrier_frs1_early.png",
+          "br": "10.7",
+          "rp": "210,000",
+          "sp": "580,000",
+          "data_unit_id": "harrier_frs1_early",
+          "selected": false,
+          "class_name": "",
+          "details": true,
+          "main_role": "Strike aircraft"
+        },
+        {
+          "type": "single",
+          "title": "Phantom FG.1",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/f-4k.png",
+          "br": "12.0",
+          "rp": "260,000",
+          "sp": "720,000",
+          "data_unit_id": "f-4k",
+          "selected": false,
+          "class_name": "",
+          "details": true,
+          "main_role": "Fighter"
+        }
+      ],
+      [
+        {
+          "type": "single",
+          "title": "Jaguar GR.1A",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/jaguar_gr1a.png",
+          "br": "10.7",
+          "rp": "210,000",
+          "sp": "580,000",
+          "data_unit_id": "jaguar_gr1a",
+          "selected": false,
+          "class_name": "",
+          "details": true,
+          "main_role": "Strike aircraft"
+        },
+        {
+          "type": "multiple",
+          "title": "Hawk 200",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/hawk_200_group.png",
+          "selected": false,
+          "br": "10.7-11.3",
+          "data_unit_id": "hawk_200_group",
+          "class_name": "",
+          "items": [
+            {
+              "type": "single",
+              "title": "Hawk 200",
+              "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/hawk_200.png",
+              "br": "10.7",
+              "rp": "230,000",
+              "sp": "630,000",
+              "data_unit_id": "hawk_200",
+              "selected": false,
+              "class_name": "",
+              "details": true,
+              "main_role": "Strike aircraft"
+            },
+            {
+              "type": "single",
+              "title": "Hawk 200 RDA",
+              "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/hawk_200_rda.png",
+              "br": "11.3",
+              "rp": "130,000",
+              "sp": "720,000",
+              "data_unit_id": "hawk_200_rda",
+              "selected": false,
+              "class_name": "",
+              "details": true,
+              "main_role": "Strike aircraft"
+            }
+          ],
+          "details": true
+        }
+      ],
+      [
+        {
+          "type": "single",
+          "title": "Buccaneer S.2B",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/buccaneer_s2b.png",
+          "br": "10.7",
+          "rp": "210,000",
+          "sp": "580,000",
+          "data_unit_id": "buccaneer_s2b",
+          "selected": false,
+          "class_name": "",
+          "details": true,
+          "main_role": "Strike aircraft"
+        },
+        {
+          "type": "multiple",
+          "title": "F-111/Tornado",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/f_111c_tornado_group.png",
+          "selected": false,
+          "br": "11.7",
+          "data_unit_id": "f_111c_tornado_group",
+          "class_name": "",
+          "items": [
+            {
+              "type": "single",
+              "title": "F-111C",
+              "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/f_111c_raaf.png",
+              "br": "11.7",
+              "rp": "230,000",
+              "sp": "630,000",
+              "data_unit_id": "f_111c_raaf",
+              "selected": false,
+              "class_name": "",
+              "details": true,
+              "main_role": "Strike aircraft"
+            },
+            {
+              "type": "single",
+              "title": "Tornado GR.1",
+              "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/tornado_gr1.png",
+              "br": "11.7",
+              "rp": "130,000",
+              "sp": "720,000",
+              "data_unit_id": "tornado_gr1",
+              "selected": false,
+              "class_name": "",
+              "details": true,
+              "main_role": "Strike aircraft"
+            }
+          ],
+          "details": true
+        }
+      ]
+    ],
+    "premium_vehicles": [
+      [
+        {
+          "type": "single",
+          "title": "Sea Harrier FRS.1",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/harrier_frs1.png",
+          "br": "11.0",
+          "rp": "520,000",
+          "sp": "580,000",
+          "data_unit_id": "harrier_frs1",
+          "selected": false,
+          "class_name": "squad",
+          "details": true,
+          "main_role": "Strike aircraft"
+        },
+        {
+          "type": "single",
+          "title": "F-4J(UK) Phantom II",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/f-4jk.png",
+          "br": "12.0",
+          "rp": 0,
+          "sp": 0,
+          "data_unit_id": "f-4jk",
+          "selected": false,
+          "class_name": "prem",
+          "details": true,
+          "main_role": "Fighter"
+        }
+      ],
+      [
+        {
+          "type": "single",
+          "title": "Jaguar IS",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/jaguar_is.png",
+          "br": "11.3",
+          "rp": null,
+          "sp": null,
+          "data_unit_id": "jaguar_is",
+          "selected": false,
+          "class_name": "",
+          "details": true,
+          "main_role": "Strike aircraft"
+        },
+        {
+          "type": "single",
+          "title": "Harrier T.10",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/harrier_t10.png",
+          "br": "11.3",
+          "rp": 0,
+          "sp": 0,
+          "data_unit_id": "harrier_t10",
+          "selected": false,
+          "class_name": "prem",
+          "details": true,
+          "main_role": "Strike aircraft"
+        }
+      ]
+    ],
+    "selected": [],
+    "unlock_quantity": 0
+  },
+  {
+    "rank": "VIII",
+    "researchable_vehicles": [
+      [
+        {
+          "type": "single",
+          "title": "▄JAS39C",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/saab_jas39c_south_africa.png",
+          "br": "13.7",
+          "rp": "350,000",
+          "sp": "940,000",
+          "data_unit_id": "saab_jas39c_south_africa",
+          "selected": false,
+          "class_name": "",
+          "details": true,
+          "main_role": "Fighter"
+        }
+      ],
+      [
+        {
+          "type": "single",
+          "title": "Tornado F.3 Late",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/tornado_f3_late.png",
+          "br": "13.0",
+          "rp": "320,000",
+          "sp": "860,000",
+          "data_unit_id": "tornado_f3_late",
+          "selected": false,
+          "class_name": "",
+          "details": true,
+          "main_role": "Fighter"
+        }
+      ],
+      [
+        {
+          "type": "multiple",
+          "title": "▄F/A-18",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/fa_18a_raaf_group.png",
+          "selected": false,
+          "br": "12.3-14.0",
+          "data_unit_id": "fa_18a_raaf_group",
+          "class_name": "",
+          "items": [
+            {
+              "type": "single",
+              "title": "▄F/A-18A",
+              "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/fa_18a_raaf.png",
+              "br": "12.3",
+              "rp": "290,000",
+              "sp": "780,000",
+              "data_unit_id": "fa_18a_raaf",
+              "selected": false,
+              "class_name": "",
+              "details": true,
+              "main_role": "Fighter"
+            },
+            {
+              "type": "single",
+              "title": "▄AF/A-18A Late",
+              "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/fa_18a_hug_2_raaf.png",
+              "br": "14.0",
+              "rp": "175,000",
+              "sp": "940,000",
+              "data_unit_id": "fa_18a_hug_2_raaf",
+              "selected": false,
+              "class_name": "",
+              "details": true,
+              "main_role": "Fighter"
+            }
+          ],
+          "details": true
+        },
+        {
+          "type": "single",
+          "title": "Sea Harrier FA 2",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/sea_harrier_fa2.png",
+          "br": "13.0",
+          "rp": "320,000",
+          "sp": "860,000",
+          "data_unit_id": "sea_harrier_fa2",
+          "selected": false,
+          "class_name": "",
+          "details": true,
+          "main_role": "Fighter"
+        }
+      ],
+      [
+        {
+          "type": "single",
+          "title": "Harrier GR.7",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/harrier_gr7.png",
+          "br": "12.3",
+          "rp": "290,000",
+          "sp": "780,000",
+          "data_unit_id": "harrier_gr7",
+          "selected": false,
+          "class_name": "",
+          "details": true,
+          "main_role": "Strike aircraft"
+        }
+      ],
+      [
+        {
+          "type": "single",
+          "title": "Tornado GR.4",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/tornado_gr4.png",
+          "br": "12.3",
+          "rp": "290,000",
+          "sp": "780,000",
+          "data_unit_id": "tornado_gr4",
+          "selected": false,
+          "class_name": "",
+          "details": true,
+          "main_role": "Strike aircraft"
+        }
+      ]
+    ],
+    "premium_vehicles": [
+      [
+        {
+          "type": "single",
+          "title": "▄MiG-21 Bison",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/mig-21_bison.png",
+          "br": "12.3",
+          "rp": 0,
+          "sp": 0,
+          "data_unit_id": "mig-21_bison",
+          "selected": false,
+          "class_name": "prem",
+          "details": true,
+          "main_role": "Fighter"
+        },
+        {
+          "type": "single",
+          "title": "CF-188A",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/cf_188a_canada.png",
+          "br": "12.7",
+          "rp": 0,
+          "sp": 0,
+          "data_unit_id": "cf_188a_canada",
+          "selected": false,
+          "class_name": "prem",
+          "details": true,
+          "main_role": "Fighter"
+        }
+      ],
+      []
+    ],
+    "selected": [],
+    "unlock_quantity": 0
+  },
+  {
+    "rank": "IX",
+    "researchable_vehicles": [
+      [
+        {
+          "type": "single",
+          "title": "Typhoon FGR.4",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/ef_2000_fgr4.png",
+          "br": "14.3",
+          "rp": "400,000",
+          "sp": "1,080,000",
+          "data_unit_id": "ef_2000_fgr4",
+          "selected": false,
+          "class_name": "",
+          "details": true,
+          "main_role": "Fighter"
+        },
+        {
+          "type": "single",
+          "title": "Typhoon (AESA)",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/ef_2000_typhoon_aesa.png",
+          "br": "14.7",
+          "rp": "410,000",
+          "sp": "1,100,000",
+          "data_unit_id": "ef_2000_typhoon_aesa",
+          "selected": false,
+          "class_name": "",
+          "details": true,
+          "main_role": "Fighter"
+        }
+      ],
+      [],
+      [
+        {
+          "type": "single",
+          "title": "▄F/A-18F",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/fa_18f_block_2_raaf.png",
+          "br": "14.3",
+          "rp": "400,000",
+          "sp": "1,080,000",
+          "data_unit_id": "fa_18f_block_2_raaf",
+          "selected": false,
+          "class_name": "",
+          "details": true,
+          "main_role": "Fighter"
+        }
+      ],
+      [],
+      []
+    ],
+    "premium_vehicles": [
+      [],
+      []
+    ],
+    "selected": [],
+    "unlock_quantity": 0
+  }
+]

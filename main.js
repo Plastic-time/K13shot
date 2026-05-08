@@ -16,24 +16,24 @@ const DATABASE_DIR = path.join(__dirname, "database");
 const PUBLIC_DIR = path.join(__dirname, "public");
 
 const countryLabels = {
-  usa: "USA",
-  germany: "Germany",
-  ussr: "USSR",
-  britain: "Great Britain",
-  japan: "Japan",
-  china: "China",
-  italy: "Italy",
-  france: "France",
-  sweden: "Sweden",
-  israel: "Israel",
+  usa: "美国",
+  germany: "德国",
+  ussr: "苏联",
+  britain: "英国",
+  japan: "日本",
+  china: "中国",
+  italy: "意大利",
+  france: "法国",
+  sweden: "瑞典",
+  israel: "以色列",
 };
 
 const typeLabels = {
-  ground: "Ground Vehicles",
-  aviation: "Aviation",
-  helicopters: "Helicopters",
-  ships: "Bluewater Fleet",
-  boats: "Coastal Fleet",
+  ground: "陆战",
+  aviation: "空战",
+  helicopters: "直升机",
+  ships: "远洋舰队",
+  boats: "近岸舰队",
 };
 
 app.use(cors());
@@ -158,11 +158,13 @@ function calculatePlan(tree, body = {}) {
   const currentRp = parseNumber(body.currentRp);
   const targetIds = [...new Set([...(body.plannedIds || []), body.targetId].filter(Boolean))];
   const folderMode = body.folderMode === "first" ? "first" : "all";
+  const dependencyMode = body.dependencyMode === "dependencies" ? "dependencies" : "selected";
 
   const orderedIds = [];
   const seen = new Set();
   for (const targetId of targetIds) {
-    for (const id of getDependencyIds(targetId, indexes, { folderMode })) {
+    const ids = dependencyMode === "dependencies" ? getDependencyIds(targetId, indexes, { folderMode }) : [targetId];
+    for (const id of ids) {
       if (!seen.has(id)) {
         seen.add(id);
         orderedIds.push(id);
