@@ -1,0 +1,61 @@
+<!doctype html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>War Thunder 研发计算器</title>
+    <link rel="stylesheet" href="/styles.css" />
+  </head>
+  <body>
+    <div class="app-shell">
+      <header class="topbar">
+        <div>
+          <h1>War Thunder 研发计算器</h1>
+          <p id="statusText">正在载入数据</p>
+        </div>
+        <div class="topbar-actions">
+          <button id="refreshDataButton" class="secondary-button" type="button">更新当前树</button>
+          <button id="clearButton" class="danger-button" type="button">清空计划</button>
+        </div>
+      </header>
+
+      <section class="toolbar" aria-label="筛选">
+        <label><span>国家</span><select id="countrySelect"></select></label>
+        <label><span>军种</span><select id="typeSelect"></select></label>
+        <label class="search-label"><span>搜索</span><input id="searchInput" type="search" placeholder="载具名称或 ID" /></label>
+        <label><span>已攒 RP</span><input id="currentRpInput" type="number" min="0" step="100" value="0" /></label>
+        <label>
+          <span>文件夹</span>
+          <select id="folderModeSelect">
+            <option value="all">全部计入</option>
+            <option value="first">只计首车</option>
+          </select>
+        </label>
+        <div class="mode-switch" role="group" aria-label="点击模式">
+          <button id="planModeButton" class="active" type="button">计划</button>
+          <button id="ownedModeButton" type="button">已拥有</button>
+        </div>
+      </section>
+
+      <main class="workspace">
+        <aside class="summary-panel">
+          <div class="metric-grid">
+            <div class="metric"><span>还需 RP</span><strong id="totalRp">0</strong></div>
+            <div class="metric"><span>购买 SL</span><strong id="totalSp">0</strong></div>
+            <div class="metric"><span>缺少载具</span><strong id="missingCount">0</strong></div>
+          </div>
+          <div class="planned-block">
+            <div class="panel-heading"><h2>计划队列</h2><span id="plannedCount">0</span></div>
+            <div id="plannedList" class="compact-list"></div>
+          </div>
+          <div class="planned-block">
+            <div class="panel-heading"><h2>研发路径</h2><span id="pathCount">0</span></div>
+            <div id="missingList" class="compact-list"></div>
+          </div>
+        </aside>
+        <section id="treeContainer" class="tree-container" aria-live="polite"></section>
+      </main>
+    </div>
+    <script src="/app.js"></script>
+  </body>
+</html>
