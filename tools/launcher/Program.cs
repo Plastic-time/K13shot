@@ -44,9 +44,9 @@ internal static class Program
                 StartServer(appDir, nodePath);
             }
 
-            if (!await WaitForServerAsync(TimeSpan.FromSeconds(20)))
+            if (!await WaitForServerAsync(TimeSpan.FromSeconds(60)))
             {
-                ShowError("服务器没有在 20 秒内启动成功。可以手动运行 npm start 查看具体报错。");
+                ShowError("服务器没有在 60 秒内启动成功。可以手动运行 node.exe main.js 查看具体报错。");
                 return;
             }
 
@@ -127,19 +127,14 @@ internal static class Program
 
     private static void StartServer(string appDir, string nodePath)
     {
-        var logDir = Path.Combine(appDir, "logs");
-        Directory.CreateDirectory(logDir);
-        var outLog = Path.Combine(logDir, "server.out.log");
-        var errLog = Path.Combine(logDir, "server.err.log");
-
         var startInfo = new ProcessStartInfo
         {
-            FileName = "cmd.exe",
-            Arguments = $"/d /c \"\"{nodePath}\" main.js > \"{outLog}\" 2> \"{errLog}\"\"",
+            FileName = nodePath,
             WorkingDirectory = appDir,
-            UseShellExecute = true,
-            WindowStyle = ProcessWindowStyle.Hidden,
+            UseShellExecute = false,
+            CreateNoWindow = true,
         };
+        startInfo.ArgumentList.Add("main.js");
 
         var process = new Process { StartInfo = startInfo };
         if (!process.Start())
