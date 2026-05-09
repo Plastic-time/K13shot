@@ -326,15 +326,16 @@ function getDependencyIds(unitId, visited = new Set()) {
   visited.add(unitId);
 
   const unit = state.unitMap.get(unitId);
-  const group = state.groupMap.get(unitId);
+  if (!unit) {
+    const group = state.groupMap.get(unitId);
+    if (group) {
+      const mainChildId = getGroupMainChildId(group);
+      if (mainChildId && mainChildId !== unitId) return getDependencyIds(mainChildId, visited);
+      return getDependencyIds(group.required_unit_id, visited);
+    }
 
-  if (group) {
-    const mainChildId = getGroupMainChildId(group);
-    if (mainChildId) return getDependencyIds(mainChildId, visited);
-    return getDependencyIds(group.required_unit_id, visited);
+    return [];
   }
-
-  if (!unit) return [];
 
   const parentReq = unit.parent_required_unit_id && !unit.required_unit_id ? unit.parent_required_unit_id : "";
   const reqId = unit.required_unit_id || parentReq;

@@ -271,15 +271,16 @@ function getDependencyIds(unitId, indexes, options = {}, visited = new Set()) {
 
   const { unitMap, groupMap } = indexes;
   const unit = unitMap.get(unitId);
-  const group = groupMap.get(unitId);
+  if (!unit) {
+    const group = groupMap.get(unitId);
+    if (group) {
+      const mainChildId = getGroupMainChildId(group);
+      if (mainChildId && mainChildId !== unitId) return getDependencyIds(mainChildId, indexes, options, visited);
+      return getDependencyIds(group.required_unit_id, indexes, options, visited);
+    }
 
-  if (group) {
-    const mainChildId = getGroupMainChildId(group);
-    if (mainChildId) return getDependencyIds(mainChildId, indexes, options, visited);
-    return getDependencyIds(group.required_unit_id, indexes, options, visited);
+    return [];
   }
-
-  if (!unit) return [];
 
   const parentReq = unit.parent_required_unit_id && !unit.required_unit_id ? unit.parent_required_unit_id : "";
   const reqId = unit.required_unit_id || parentReq;
