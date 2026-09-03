@@ -52,8 +52,17 @@ function processMultipleItems(tree_data) {
           const max = Math.max(...brs);
           item.br = min === max ? `${min.toFixed(1)}` : `${min.toFixed(1)}-${max.toFixed(1)}`;
         }
-        item.rp = item.items.reduce((sum, sub) => sum + parseNumber(sub.rp), 0);
-        item.sp = item.items.reduce((sum, sub) => sum + parseNumber(sub.sp), 0);
+        const isSquadronGroup = String(item.class_name || "").toLowerCase() === "squad";
+        if (isSquadronGroup) {
+          item.items.forEach((subItem) => {
+            subItem.class_name = subItem.class_name || "squad";
+            subItem.is_squadron = true;
+            subItem.rp = 0;
+            subItem.sp = 0;
+          });
+        }
+        item.rp = isSquadronGroup ? 0 : item.items.reduce((sum, sub) => sum + parseNumber(sub.rp), 0);
+        item.sp = isSquadronGroup ? 0 : item.items.reduce((sum, sub) => sum + parseNumber(sub.sp), 0);
         item.details = true;
       }
     }
@@ -142,7 +151,13 @@ async function updateTree(t_c, type, options = {}) {
     singleItems,
     async (item) => {
       const res = await retry(request_details, [item.data_unit_id], options.attempts || 3);
-      Object.assign(item, res, { details: true });
+      const isSquadron = String(item.class_name || "").toLowerCase() === "squad";
+      Object.assign(item, res, {
+        details: true,
+        is_squadron: isSquadron,
+        rp: isSquadron ? 0 : res.rp,
+        sp: isSquadron ? 0 : res.sp,
+      });
     },
     limit,
     options.showProgress !== false
@@ -205,3 +220,4 @@ module.exports = {
   collectSingleItems,
   processMultipleItems,
 };
+
