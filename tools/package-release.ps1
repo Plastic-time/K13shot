@@ -33,6 +33,11 @@ try {
 
 $portableItems = @("config", "database", "dict", "public", "src", "node_modules", "main.js", "package.json", "package-lock.json", "README.md", "node.exe")
 foreach ($item in $portableItems) {
+  if ($item -eq "node.exe" -and -not (Test-Path -LiteralPath (Join-Path $root $item))) {
+    $nodePath = (Get-Command node -ErrorAction Stop).Source
+    Copy-Item -LiteralPath $nodePath -Destination (Join-Path $portableRoot "node.exe") -Force
+    continue
+  }
   Copy-Item -LiteralPath (Join-Path $root $item) -Destination $portableRoot -Recurse -Force
 }
 Copy-Item -LiteralPath (Join-Path $launcherOutput "WarThunderResearchCalculator.exe") -Destination $portableRoot -Force
