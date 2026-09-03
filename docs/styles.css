@@ -122,6 +122,54 @@ button {
   backdrop-filter: blur(14px);
 }
 
+.page-notice {
+  border: 0;
+  border-bottom: 1px solid var(--line);
+  background: rgba(255, 253, 247, 0.88);
+  color: var(--ink);
+  padding: 0 24px;
+}
+
+.page-notice summary {
+  color: var(--steel);
+  cursor: pointer;
+  font-size: 13px;
+  font-weight: 800;
+  list-style-position: inside;
+  padding: 10px 0;
+}
+
+.page-notice-grid {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 18px;
+  margin: 0;
+  padding: 0 0 14px;
+}
+
+.page-notice-grid div {
+  min-width: 0;
+}
+
+.page-notice dt {
+  color: var(--green-strong);
+  font-size: 12px;
+  font-weight: 800;
+}
+
+.page-notice dd {
+  margin: 5px 0 0;
+  color: var(--muted);
+  font-size: 12px;
+  line-height: 1.55;
+}
+
+.page-notice code {
+  color: var(--ink);
+  font-family: ui-monospace, "Cascadia Code", Consolas, monospace;
+  font-size: 0.95em;
+}
+
 label {
   display: grid;
   gap: 6px;
@@ -748,6 +796,11 @@ button:focus-visible {
     grid-template-columns: repeat(2, minmax(0, 1fr));
   }
 
+  .page-notice-grid {
+    grid-template-columns: 1fr;
+    gap: 10px;
+  }
+
   .workspace {
     grid-template-columns: 1fr;
   }
@@ -786,6 +839,10 @@ button:focus-visible {
   .toolbar {
     grid-template-columns: 1fr;
     padding: 12px 16px;
+  }
+
+  .page-notice {
+    padding: 0 16px;
   }
 
   .summary-panel,
