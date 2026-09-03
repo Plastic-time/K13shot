@@ -697,7 +697,7 @@ async function loadMeta() {
 async function loadTree() {
   state.country = els.countrySelect.value;
   state.type = els.typeSelect.value;
-  setStatus("正在读取本地数据库");
+  setStatus("正在读取科技树数据");
   els.treeContainer.innerHTML = `<div class="loading">正在载入科技树</div>`;
 
   loadSavedState();
