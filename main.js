@@ -66,7 +66,7 @@ function readTree(country, type) {
 
   const raw = JSON.parse(fs.readFileSync(file, "utf-8"));
   const tree = Array.isArray(raw) ? raw : raw.data || [];
-  return enrichTreeRanks(applyShopDependencies(tree, country, type), country, type);
+  return normalizeSpecialVehicleCosts(enrichTreeRanks(applyShopDependencies(tree, country, type), country, type));
 }
 
 function getUnlockQuantity(country, type, rank) {
@@ -184,6 +184,42 @@ function isInitialUnlockedUnit(unit) {
   );
 }
 
+function isSquadronUnit(unit) {
+  if (!unit) return false;
+  const className = String(unit.class_name || "").trim().toLowerCase();
+  return unit.is_squadron === true || unit.isSquadron === true || className === "squad";
+}
+
+function normalizeSpecialVehicleCosts(tree) {
+  const normalizeItem = (item) => {
+    if (item.type === "multiple") {
+      const isSquadronGroup = isSquadronUnit(item);
+      const items = (item.items || []).map((subItem) =>
+        normalizeItem({
+          ...subItem,
+          class_name: subItem.class_name || (isSquadronGroup ? "squad" : ""),
+        })
+      );
+      return {
+        ...item,
+        is_squadron: isSquadronGroup,
+        rp: isSquadronGroup ? 0 : item.rp,
+        sp: isSquadronGroup ? 0 : item.sp,
+        items,
+      };
+    }
+
+    if (!isSquadronUnit(item)) return item;
+    return { ...item, is_squadron: true, rp: 0, sp: 0 };
+  };
+
+  return tree.map((rank) => ({
+    ...rank,
+    researchable_vehicles: (rank.researchable_vehicles || []).map((column) => column.map(normalizeItem)),
+    premium_vehicles: (rank.premium_vehicles || []).map((column) => column.map(normalizeItem)),
+  }));
+}
+
 function flattenTree(tree) {
   const units = [];
   const groups = [];
@@ -193,7 +229,7 @@ function flattenTree(tree) {
   };
   let rankIndex = 0;
 
-  for (const rank of tree) {
+  for (const rank of normalizeSpecialVehicleCosts(tree)) {
     if (rankIndex === 1) previousByColumn.researchable = [];
 
     for (const section of ["researchable_vehicles", "premium_vehicles"]) {
@@ -312,7 +348,7 @@ function calculatePlan(tree, body = {}) {
   const missing = orderedIds
     .filter((id) => !owned.has(id))
     .map((id) => indexes.unitMap.get(id))
-    .filter((unit) => unit && !isInitialUnlockedUnit(unit))
+    .filter((unit) => unit && !isInitialUnlockedUnit(unit) && !isSquadronUnit(unit))
     .filter(Boolean)
     .sort(compareUnitsByProgression);
 
@@ -386,7 +422,12 @@ app.post("/api/update/:country/:type", async (req, res) => {
 
   try {
     const data = await updateTree(country, type, { limit: req.body?.limit });
-    res.json({ success: true, country, type, data: enrichTreeRanks(applyShopDependencies(data, country, type), country, type) });
+    res.json({
+      success: true,
+      country,
+      type,
+      data: normalizeSpecialVehicleCosts(enrichTreeRanks(applyShopDependencies(data, country, type), country, type)),
+    });
   } catch (err) {
     res.status(500).json({ success: false, error: err.message });
   }
@@ -432,3 +473,4 @@ if (require.main === module) {
 }
 
 module.exports = app;
+
