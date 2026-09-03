@@ -239,6 +239,12 @@ function isInitialUnlockedUnit(unit) {
   );
 }
 
+function isSquadronUnit(unit) {
+  if (!unit) return false;
+  const className = cleanText(unit.class_name).toLowerCase();
+  return unit.is_squadron === true || unit.isSquadron === true || className === "squad";
+}
+
 function loadSavedState() {
   const saved = JSON.parse(localStorage.getItem(storageKey()) || "{}");
   state.planned = new Set(saved.planned || []);
@@ -279,12 +285,23 @@ function flattenTree(tree) {
           if (item.type === "multiple") {
             const groupReqId = item.required_unit_id || inferredReqId;
             const groupMainChildId = getGroupMainChildId(item);
-            const group = { ...item, required_unit_id: groupReqId, rank: rank.rank, section: sectionType, columnIndex, rowIndex };
+            const squadronGroup = isSquadronUnit(item);
+            const group = {
+              ...item,
+              is_squadron: squadronGroup,
+              required_unit_id: groupReqId,
+              rank: rank.rank,
+              section: sectionType,
+              columnIndex,
+              rowIndex,
+            };
             groups.push(group);
             (item.items || []).forEach((subItem, subIndex) => {
               const subReqId = subItem.required_unit_id || groupReqId;
               units.push({
                 ...subItem,
+                class_name: subItem.class_name || (squadronGroup ? "squad" : ""),
+                is_squadron: squadronGroup || subItem.is_squadron === true,
                 required_unit_id: subReqId,
                 rank: rank.rank,
                 section: sectionType,
@@ -319,6 +336,7 @@ function flattenTree(tree) {
   state.groupMap = new Map(groups.map((group) => [group.data_unit_id, group]));
   state.initialUnlocked = new Set(units.filter(isInitialUnlockedUnit).map((unit) => unit.data_unit_id));
   state.initialUnlocked.forEach((id) => state.planned.delete(id));
+  units.filter(isSquadronUnit).forEach((unit) => state.planned.delete(unit.data_unit_id));
 }
 
 function getDependencyIds(unitId, visited = new Set()) {
@@ -359,7 +377,7 @@ function calculatePlan() {
 
   state.missing = orderedIds
     .map((id) => state.unitMap.get(id))
-    .filter((unit) => unit && !isInitialUnlockedUnit(unit))
+    .filter((unit) => unit && !isInitialUnlockedUnit(unit) && !isSquadronUnit(unit))
     .filter(Boolean)
     .sort(compareUnitsByProgression);
 
@@ -416,23 +434,24 @@ function renderUnit(unit) {
   const id = unit.data_unit_id;
   const classes = ["unit-tile"];
   const className = cleanText(unit.class_name).toLowerCase();
+  const squadron = isSquadronUnit(unit);
   if (state.planned.has(id)) classes.push("planned");
   if (state.missing.some((missing) => missing.data_unit_id === id)) classes.push("missing");
   if (isInitialUnlockedUnit(unit)) classes.push("unlocked");
+  if (squadron) classes.push("squadron");
   if (className) classes.push(className);
   if (unit.section === "premium" || className === "prem" || className === "premium") classes.push("premium");
   const role = translateRole(unit.main_role);
   const unlocked = isInitialUnlockedUnit(unit);
 
   return `
-    <button class="${classes.join(" ")}" type="button" data-unit-id="${escapeHtml(id)}" title="${escapeHtml(id)}">
+    <button class="${classes.join(" ")}" type="button" ${squadron ? "disabled" : `data-unit-id="${escapeHtml(id)}"`} title="${escapeHtml(id)}">
       ${unit.vehicle_icon ? `<img src="${escapeHtml(unit.vehicle_icon)}" alt="">` : `<span></span>`}
       <span>
         <span class="unit-title">${escapeHtml(displayTitle(unit))}</span>
         <span class="unit-meta">
           <span class="pill">BR ${escapeHtml(unit.br || "-")}</span>
-          <span class="pill rp">RP ${formatCost(unit.rp)}</span>
-          <span class="pill sp">SL ${formatCost(unit.sp)}</span>
+          ${squadron ? `<span class="pill squadron-label">联队载具</span>` : `<span class="pill rp">RP ${formatCost(unit.rp)}</span><span class="pill sp">SL ${formatCost(unit.sp)}</span>`}
           ${unlocked ? `<span class="pill unlocked">已解锁</span>` : ""}
           ${role ? `<span class="pill role">${escapeHtml(role)}</span>` : ""}
         </span>
@@ -702,7 +721,7 @@ async function loadTree() {
 }
 
 function toggleUnit(id) {
-  if (state.initialUnlocked.has(id)) return;
+  if (state.initialUnlocked.has(id) || isSquadronUnit(state.unitMap.get(id))) return;
   if (state.planned.has(id)) state.planned.delete(id);
   else state.planned.add(id);
   saveState();
@@ -779,3 +798,4 @@ async function init() {
 }
 
 init();
+
