@@ -1,0 +1,48 @@
+name: Build Release Package
+
+on:
+  push:
+    branches:
+      - "release/**"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  package:
+    runs-on: windows-latest
+    steps:
+      - name: Check out source
+        uses: actions/checkout@v4
+
+      - name: Set up Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: 20
+
+      - name: Set up .NET
+        uses: actions/setup-dotnet@v4
+        with:
+          dotnet-version: "6.0.x"
+
+      - name: Install dependencies
+        run: npm ci
+
+      - name: Build packages
+        run: npm run package:release
+
+      - name: Create GitHub Release
+        shell: pwsh
+        env:
+          GH_TOKEN: ${{ github.token }}
+          TAG: ${{ github.ref_name }}
+        run: |
+          $tag = $env:TAG -replace "^release/", ""
+          gh release create $tag `
+            --target $env:GITHUB_SHA `
+            --title "War Thunder 研发计算器 $tag" `
+            --notes "- 修复联队载具被错误计入研发点和银狮币的问题。`n- 新增可直接在浏览器使用的网页端。`n- 便携版包含独立启动器，无需安装 Node.js。" `
+            "WarThunderResearchCalculator-$tag-portable.zip" `
+            "WarThunderResearchCalculator-$tag.zip"
+
