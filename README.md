@@ -15,13 +15,13 @@
 | `WarThunderResearchCalculator-v1.0.1-portable.zip` | 普通玩家，推荐下载 | 不需要 | 解压后双击 exe |
 | `WarThunderResearchCalculator-v1.0.1.zip` | 开发者或已安装 Node.js 的用户 | 需要 | 解压后运行 `npm install` |
 
-## 在线使用
+## GitHub Pages 静态版
 
-完整网页端需要运行在线后端，才能和桌面版一样从当前 War Thunder Wiki 更新科技树。部署后，所有玩家只需打开部署地址即可使用，不需要下载或安装任何东西。
+GitHub Pages 可直接在浏览器中使用，无需安装或登录。它读取仓库 `docs/database` 内随发布提交的科技树快照，因此可以浏览科技树、选择载具并计算 RP 与 SL。
 
-本仓库已经提供 `render.yaml`，可直接作为 Render Web Service 部署。部署成功后会获得一个 `onrender.com` 链接，可直接分享给其他玩家。
+页面不会连接或更新 War Thunder Wiki；Wiki 数据变动后，需要通过桌面版或源码更新数据库并发布新的 Pages 版本。所选载具和计算范围仅保存在当前浏览器的本地存储中，不会上传或同步。
 
-GitHub Pages 版可用于静态科技树计算；完整在线版使用与桌面版相同的 API，支持“更新当前树”。
+本次修正：联队载具显示为“联队载具”，RP 和 SL 按 0 计算且不计入合计；叠加载具按实际前置关系计算；Rank I 初始载具自动视为已解锁，Rank I 到 Rank II 按游戏内所需解锁数量判定。
 
 ## 功能亮点
 
@@ -39,7 +39,7 @@ GitHub Pages 版可用于静态科技树计算；完整在线版使用与桌面�
 
 ### 便携版，推荐
 
-1. 下载 `WarThunderResearchCalculator-v1.0.0-portable.zip`。
+1. 下载 `WarThunderResearchCalculator-v1.0.1-portable.zip`。
 2. 解压到任意文件夹。
 3. 双击 `WarThunderResearchCalculator.exe`。
 4. 浏览器会自动打开计算器页面。
