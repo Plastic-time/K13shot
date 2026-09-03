@@ -348,7 +348,7 @@ function calculatePlan(tree, body = {}) {
   const missing = orderedIds
     .filter((id) => !owned.has(id))
     .map((id) => indexes.unitMap.get(id))
-    .filter((unit) => unit && !isInitialUnlockedUnit(unit) && !isSquadronUnit(unit))
+    .filter((unit) => unit && !isInitialUnlockedUnit(unit))
     .filter(Boolean)
     .sort(compareUnitsByProgression);
 
