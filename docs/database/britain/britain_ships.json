@@ -1,0 +1,880 @@
+[
+  {
+    "rank": "I",
+    "researchable_vehicles": [
+      [
+        {
+          "type": "single",
+          "title": "HMS Vega",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/uk_destroyer_v_class_vega.png",
+          "br": "3.7",
+          "rp": null,
+          "sp": null,
+          "data_unit_id": "uk_destroyer_v_class_vega",
+          "selected": false,
+          "class_name": "",
+          "details": true,
+          "main_role": "Destroyer"
+        },
+        {
+          "type": "single",
+          "title": "HMS Calpe",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/uk_destroyer_hunt_2series.png",
+          "br": "4.3",
+          "rp": "5,300",
+          "sp": "5,000",
+          "data_unit_id": "uk_destroyer_hunt_2series",
+          "selected": false,
+          "class_name": "",
+          "details": true,
+          "main_role": "Destroyer"
+        }
+      ],
+      [
+        {
+          "type": "single",
+          "title": "HMS Grafton",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/uk_destroyer_g_grafton.png",
+          "br": "3.7",
+          "rp": "2,900",
+          "sp": "700",
+          "data_unit_id": "uk_destroyer_g_grafton",
+          "selected": false,
+          "class_name": "",
+          "details": true,
+          "main_role": "Destroyer"
+        },
+        {
+          "type": "single",
+          "title": "HMS Saumarez",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/uk_destroyer_st_class_saumarez.png",
+          "br": "4.3",
+          "rp": "4,000",
+          "sp": "2,100",
+          "data_unit_id": "uk_destroyer_st_class_saumarez",
+          "selected": false,
+          "class_name": "",
+          "details": true,
+          "main_role": "Destroyer"
+        }
+      ],
+      [
+        {
+          "type": "single",
+          "title": "HMS Churchill",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/uk_destroyer_clemson_churchill.png",
+          "br": "3.3",
+          "rp": null,
+          "sp": null,
+          "data_unit_id": "uk_destroyer_clemson_churchill",
+          "selected": false,
+          "class_name": "",
+          "details": true,
+          "main_role": "Destroyer"
+        }
+      ]
+    ],
+    "premium_vehicles": [
+      [
+        {
+          "type": "single",
+          "title": "HMS Verdun",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/uk_destroyer_v_class_verdun.png",
+          "br": "3.7",
+          "rp": 0,
+          "sp": 0,
+          "data_unit_id": "uk_destroyer_v_class_verdun",
+          "selected": false,
+          "class_name": "prem",
+          "details": true,
+          "main_role": "Destroyer"
+        },
+        {
+          "type": "single",
+          "title": "HMS Valhalla",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/uk_destroyer_v_class_valhalla.png",
+          "br": "3.3",
+          "rp": 0,
+          "sp": 0,
+          "data_unit_id": "uk_destroyer_v_class_valhalla",
+          "selected": false,
+          "class_name": "prem",
+          "details": true,
+          "main_role": "Destroyer"
+        }
+      ],
+      [
+        {
+          "type": "single",
+          "title": "HMS Montgomery",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/uk_destroyer_clemson_montgomery_g95.png",
+          "br": "3.3",
+          "rp": 0,
+          "sp": 0,
+          "data_unit_id": "uk_destroyer_clemson_montgomery_g95",
+          "selected": false,
+          "class_name": "prem",
+          "details": true,
+          "main_role": "Destroyer"
+        }
+      ]
+    ],
+    "selected": [],
+    "unlock_quantity": 0
+  },
+  {
+    "rank": "II",
+    "researchable_vehicles": [
+      [
+        {
+          "type": "single",
+          "title": "HMS Eskimo",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/uk_destroyer_tribal.png",
+          "br": "4.7",
+          "rp": "9,000",
+          "sp": "16,000",
+          "data_unit_id": "uk_destroyer_tribal",
+          "selected": false,
+          "class_name": "",
+          "details": true,
+          "main_role": "Destroyer"
+        },
+        {
+          "type": "single",
+          "title": "HMAS Nepal",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/uk_destroyer_n_class.png",
+          "br": "4.7",
+          "rp": "13,000",
+          "sp": "31,000",
+          "data_unit_id": "uk_destroyer_n_class",
+          "selected": false,
+          "class_name": "",
+          "details": true,
+          "main_role": "Destroyer"
+        }
+      ],
+      [
+        {
+          "type": "single",
+          "title": "HMS Brissenden",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/uk_destroyer_hunt_4series.png",
+          "br": "4.3",
+          "rp": "7,000",
+          "sp": "8,700",
+          "data_unit_id": "uk_destroyer_hunt_4series",
+          "selected": false,
+          "class_name": "",
+          "details": true,
+          "main_role": "Destroyer"
+        },
+        {
+          "type": "single",
+          "title": "HMS Kelvin",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/uk_destroyer_k_class.png",
+          "br": "4.7",
+          "rp": "11,000",
+          "sp": "22,000",
+          "data_unit_id": "uk_destroyer_k_class",
+          "selected": false,
+          "class_name": "",
+          "details": true,
+          "main_role": "Destroyer"
+        }
+      ],
+      [
+        {
+          "type": "single",
+          "title": "HMS Abdiel",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/uk_minelayer_abdiel_class_abdiel.png",
+          "br": "4.7",
+          "rp": "11,000",
+          "sp": "22,000",
+          "data_unit_id": "uk_minelayer_abdiel_class_abdiel",
+          "selected": false,
+          "class_name": "",
+          "details": true,
+          "main_role": "Light cruiser"
+        }
+      ]
+    ],
+    "premium_vehicles": [
+      [
+        {
+          "type": "single",
+          "title": "HMS Jervis",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/uk_destroyer_j_class.png",
+          "br": "4.7",
+          "rp": 0,
+          "sp": 0,
+          "data_unit_id": "uk_destroyer_j_class",
+          "selected": false,
+          "class_name": "prem",
+          "details": true,
+          "main_role": "Destroyer"
+        },
+        {
+          "type": "single",
+          "title": "HMS Mohawk",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/uk_destroyer_tribal_mohawk.png",
+          "br": "4.7",
+          "rp": 0,
+          "sp": 0,
+          "data_unit_id": "uk_destroyer_tribal_mohawk",
+          "selected": false,
+          "class_name": "prem",
+          "details": true,
+          "main_role": "Destroyer"
+        }
+      ],
+      [
+        {
+          "type": "single",
+          "title": "ORP Garland",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/uk_destroyer_g_garland.png",
+          "br": "3.7",
+          "rp": 0,
+          "sp": 0,
+          "data_unit_id": "uk_destroyer_g_garland",
+          "selected": false,
+          "class_name": "prem",
+          "details": true,
+          "main_role": "Destroyer"
+        }
+      ]
+    ],
+    "selected": [],
+    "unlock_quantity": 0
+  },
+  {
+    "rank": "III",
+    "researchable_vehicles": [
+      [
+        {
+          "type": "multiple",
+          "title": "HMAS Tobruk/HMS Armada",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/uk_destroyer_battle_group.png",
+          "selected": false,
+          "br": "4.7",
+          "data_unit_id": "uk_destroyer_battle_group",
+          "class_name": "",
+          "items": [
+            {
+              "type": "single",
+              "title": "HMS Armada",
+              "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/uk_destroyer_battle_2series.png",
+              "br": "4.7",
+              "rp": "15,000",
+              "sp": "38,000",
+              "data_unit_id": "uk_destroyer_battle_2series",
+              "selected": false,
+              "class_name": "",
+              "details": true,
+              "main_role": "Destroyer"
+            },
+            {
+              "type": "single",
+              "title": "HMAS Tobruk",
+              "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/uk_destroyer_battle_tobruk.png",
+              "br": "4.7",
+              "rp": "9,200",
+              "sp": "55,000",
+              "data_unit_id": "uk_destroyer_battle_tobruk",
+              "selected": false,
+              "class_name": "",
+              "details": true,
+              "main_role": "Destroyer"
+            }
+          ],
+          "details": true
+        },
+        {
+          "type": "single",
+          "title": "HMS Arethusa",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/uk_cruiser_arethusa.png",
+          "br": "5.3",
+          "rp": "21,000",
+          "sp": "70,000",
+          "data_unit_id": "uk_cruiser_arethusa",
+          "selected": false,
+          "class_name": "",
+          "details": true,
+          "main_role": "Light cruiser"
+        }
+      ],
+      [
+        {
+          "type": "multiple",
+          "title": "HMS Diana/HMS Daring",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/uk_destroyer_daring_group.png",
+          "selected": false,
+          "br": "5.0",
+          "data_unit_id": "uk_destroyer_daring_group",
+          "class_name": "",
+          "items": [
+            {
+              "type": "single",
+              "title": "HMS Diana",
+              "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/uk_destroyer_daring_class_diana.png",
+              "br": "5.0",
+              "rp": "18,000",
+              "sp": "55,000",
+              "data_unit_id": "uk_destroyer_daring_class_diana",
+              "selected": false,
+              "class_name": "",
+              "details": true,
+              "main_role": "Destroyer"
+            },
+            {
+              "type": "single",
+              "title": "HMS Daring",
+              "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/uk_destroyer_daring_class_daring.png",
+              "br": "5.0",
+              "rp": "11,000",
+              "sp": "70,000",
+              "data_unit_id": "uk_destroyer_daring_class_daring",
+              "selected": false,
+              "class_name": "",
+              "details": true,
+              "main_role": "Destroyer"
+            }
+          ],
+          "details": true
+        }
+      ],
+      [
+        {
+          "type": "single",
+          "title": "HMS Enterprise",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/uk_cruiser_enterprise_d52.png",
+          "br": "5.0",
+          "rp": "21,000",
+          "sp": "70,000",
+          "data_unit_id": "uk_cruiser_enterprise_d52",
+          "selected": false,
+          "class_name": "",
+          "details": true,
+          "main_role": "Light cruiser"
+        },
+        {
+          "type": "single",
+          "title": "HMS Hawkins",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/uk_cruiser_hawkins.png",
+          "br": "5.3",
+          "rp": "25,000",
+          "sp": "87,000",
+          "data_unit_id": "uk_cruiser_hawkins",
+          "selected": false,
+          "class_name": "",
+          "details": true,
+          "main_role": "Heavy cruiser"
+        }
+      ]
+    ],
+    "premium_vehicles": [
+      [
+        {
+          "type": "single",
+          "title": "HMCS Haida",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/uk_destroyer_haida.png",
+          "br": "4.7",
+          "rp": 0,
+          "sp": 0,
+          "data_unit_id": "uk_destroyer_haida",
+          "selected": false,
+          "class_name": "prem",
+          "details": true,
+          "main_role": "Destroyer"
+        },
+        {
+          "type": "single",
+          "title": "HMS Diamond",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/uk_destroyer_daring_class_diamond.png",
+          "br": "5.0",
+          "rp": 0,
+          "sp": 0,
+          "data_unit_id": "uk_destroyer_daring_class_diamond",
+          "selected": false,
+          "class_name": "prem",
+          "details": true,
+          "main_role": "Destroyer"
+        }
+      ],
+      [
+        {
+          "type": "single",
+          "title": "HMS Cadiz",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/uk_destroyer_battle_cadiz.png",
+          "br": "4.7",
+          "rp": 0,
+          "sp": 0,
+          "data_unit_id": "uk_destroyer_battle_cadiz",
+          "selected": false,
+          "class_name": "prem",
+          "details": true,
+          "main_role": "Destroyer"
+        }
+      ]
+    ],
+    "selected": [],
+    "unlock_quantity": 0
+  },
+  {
+    "rank": "IV",
+    "researchable_vehicles": [
+      [
+        {
+          "type": "single",
+          "title": "HMNZS Leander",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/uk_cruiser_leander.png",
+          "br": "5.3",
+          "rp": "33,000",
+          "sp": "115,000",
+          "data_unit_id": "uk_cruiser_leander",
+          "selected": false,
+          "class_name": "",
+          "details": true,
+          "main_role": "Light cruiser"
+        },
+        {
+          "type": "single",
+          "title": "HMS Fiji",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/uk_cruiser_fiji_class_fiji.png",
+          "br": "5.7",
+          "rp": "59,000",
+          "sp": "185,000",
+          "data_unit_id": "uk_cruiser_fiji_class_fiji",
+          "selected": false,
+          "class_name": "",
+          "details": true,
+          "main_role": "Light cruiser"
+        },
+        {
+          "type": "single",
+          "title": "HMS Southampton",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/uk_cruiser_southampton.png",
+          "br": "6.0",
+          "rp": "73,000",
+          "sp": "230,000",
+          "data_unit_id": "uk_cruiser_southampton",
+          "selected": false,
+          "class_name": "",
+          "details": true,
+          "main_role": "Light cruiser"
+        }
+      ],
+      [
+        {
+          "type": "single",
+          "title": "HMS Dido",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/uk_cruiser_dido.png",
+          "br": "5.3",
+          "rp": "46,000",
+          "sp": "150,000",
+          "data_unit_id": "uk_cruiser_dido",
+          "selected": false,
+          "class_name": "",
+          "details": true,
+          "main_role": "Light cruiser"
+        },
+        {
+          "type": "single",
+          "title": "HMS York",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/uk_cruiser_york.png",
+          "br": "5.3",
+          "rp": "59,000",
+          "sp": "185,000",
+          "data_unit_id": "uk_cruiser_york",
+          "selected": false,
+          "class_name": "",
+          "details": true,
+          "main_role": "Heavy cruiser"
+        }
+      ],
+      [
+        {
+          "type": "multiple",
+          "title": "County-class",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/uk_cruiser_kent_norfolk_group.png",
+          "selected": false,
+          "br": "5.7",
+          "data_unit_id": "uk_cruiser_kent_norfolk_group",
+          "class_name": "",
+          "items": [
+            {
+              "type": "single",
+              "title": "HMS Kent",
+              "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/uk_cruiser_kent.png",
+              "br": "5.7",
+              "rp": "33,000",
+              "sp": "115,000",
+              "data_unit_id": "uk_cruiser_kent",
+              "selected": false,
+              "class_name": "",
+              "details": true,
+              "main_role": "Heavy cruiser"
+            },
+            {
+              "type": "single",
+              "title": "HMS Norfolk",
+              "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/uk_cruiser_norfolk.png",
+              "br": "5.7",
+              "rp": "23,000",
+              "sp": "150,000",
+              "data_unit_id": "uk_cruiser_norfolk",
+              "selected": false,
+              "class_name": "",
+              "details": true,
+              "main_role": "Heavy cruiser"
+            },
+            {
+              "type": "single",
+              "title": "HMS London",
+              "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/uk_cruiser_london.png",
+              "br": "5.7",
+              "rp": "30,000",
+              "sp": "185,000",
+              "data_unit_id": "uk_cruiser_london",
+              "selected": false,
+              "class_name": "",
+              "details": true,
+              "main_role": "Heavy cruiser"
+            }
+          ],
+          "details": true
+        },
+        {
+          "type": "single",
+          "title": "HMS Invincible",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/uk_battlecruiser_invincible.png",
+          "br": "5.7",
+          "rp": "73,000",
+          "sp": "230,000",
+          "data_unit_id": "uk_battlecruiser_invincible",
+          "selected": false,
+          "class_name": "",
+          "details": true,
+          "main_role": "Battlecruiser"
+        }
+      ]
+    ],
+    "premium_vehicles": [
+      [
+        {
+          "type": "single",
+          "title": "HMS Liverpool",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/uk_cruiser_liverpool.png",
+          "br": "5.7",
+          "rp": "390,000",
+          "sp": "230,000",
+          "data_unit_id": "uk_cruiser_liverpool",
+          "selected": false,
+          "class_name": "squad",
+          "details": true,
+          "main_role": "Light cruiser"
+        },
+        {
+          "type": "single",
+          "title": "HMS Belfast",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/uk_cruiser_belfast.png",
+          "br": "6.0",
+          "rp": 0,
+          "sp": 0,
+          "data_unit_id": "uk_cruiser_belfast",
+          "selected": false,
+          "class_name": "prem",
+          "details": true,
+          "main_role": "Light cruiser"
+        }
+      ],
+      []
+    ],
+    "selected": [],
+    "unlock_quantity": 0
+  },
+  {
+    "rank": "V",
+    "researchable_vehicles": [
+      [
+        {
+          "type": "single",
+          "title": "HMS Dreadnought",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/uk_battleship_dreadnought.png",
+          "br": "6.0",
+          "rp": "110,000",
+          "sp": "340,000",
+          "data_unit_id": "uk_battleship_dreadnought",
+          "selected": false,
+          "class_name": "",
+          "details": true,
+          "main_role": "Battleship"
+        },
+        {
+          "type": "single",
+          "title": "HMS Orion",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/uk_battleship_orion.png",
+          "br": "6.7",
+          "rp": "180,000",
+          "sp": "540,000",
+          "data_unit_id": "uk_battleship_orion",
+          "selected": false,
+          "class_name": "",
+          "details": true,
+          "main_role": "Battleship"
+        }
+      ],
+      [
+        {
+          "type": "single",
+          "title": "HMS Colossus",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/uk_battleship_colossus.png",
+          "br": "6.3",
+          "rp": "145,000",
+          "sp": "440,000",
+          "data_unit_id": "uk_battleship_colossus",
+          "selected": false,
+          "class_name": "",
+          "details": true,
+          "main_role": "Battleship"
+        },
+        {
+          "type": "single",
+          "title": "HMS Centurion",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/uk_battleship_centurion.png",
+          "br": "6.7",
+          "rp": "180,000",
+          "sp": "540,000",
+          "data_unit_id": "uk_battleship_centurion",
+          "selected": false,
+          "class_name": "",
+          "details": true,
+          "main_role": "Battleship"
+        }
+      ],
+      [
+        {
+          "type": "single",
+          "title": "HMS Glorious",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/uk_battlecruiser_glorious.png",
+          "br": "5.7",
+          "rp": "90,000",
+          "sp": "280,000",
+          "data_unit_id": "uk_battlecruiser_glorious",
+          "selected": false,
+          "class_name": "",
+          "details": true,
+          "main_role": "Battlecruiser"
+        },
+        {
+          "type": "single",
+          "title": "HMS Queen Mary",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/uk_battlecruiser_queen_mary.png",
+          "br": "6.3",
+          "rp": "145,000",
+          "sp": "440,000",
+          "data_unit_id": "uk_battlecruiser_queen_mary",
+          "selected": false,
+          "class_name": "",
+          "details": true,
+          "main_role": "Battlecruiser"
+        }
+      ]
+    ],
+    "premium_vehicles": [
+      [
+        {
+          "type": "single",
+          "title": "HMS Iron Duke",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/uk_battleship_iron_duke.png",
+          "br": "7.0",
+          "rp": 0,
+          "sp": 0,
+          "data_unit_id": "uk_battleship_iron_duke",
+          "selected": false,
+          "class_name": "prem",
+          "details": true,
+          "main_role": "Battleship"
+        },
+        {
+          "type": "single",
+          "title": "HMS Renown",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/uk_battlecruiser_renown.png",
+          "br": "7.0",
+          "rp": null,
+          "sp": null,
+          "data_unit_id": "uk_battlecruiser_renown",
+          "selected": false,
+          "class_name": "",
+          "details": true,
+          "main_role": "Battlecruiser"
+        }
+      ],
+      [
+        {
+          "type": "single",
+          "title": "HMS Tiger",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/uk_cruiser_tiger.png",
+          "br": "6.0",
+          "rp": null,
+          "sp": null,
+          "data_unit_id": "uk_cruiser_tiger",
+          "selected": false,
+          "class_name": "",
+          "details": true,
+          "main_role": "Light cruiser"
+        }
+      ]
+    ],
+    "selected": [],
+    "unlock_quantity": 0
+  },
+  {
+    "rank": "VI",
+    "researchable_vehicles": [
+      [
+        {
+          "type": "single",
+          "title": "HMS Marlborough",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/uk_battleship_marlborough.png",
+          "br": "7.0",
+          "rp": "260,000",
+          "sp": "780,000",
+          "data_unit_id": "uk_battleship_marlborough",
+          "selected": false,
+          "class_name": "",
+          "details": true,
+          "main_role": "Battleship"
+        },
+        {
+          "type": "single",
+          "title": "HMS Warspite",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/uk_battleship_q_elizabet_class_warspite.png",
+          "br": "7.7",
+          "rp": "300,000",
+          "sp": "900,000",
+          "data_unit_id": "uk_battleship_q_elizabet_class_warspite",
+          "selected": false,
+          "class_name": "",
+          "details": true,
+          "main_role": "Battleship"
+        }
+      ],
+      [
+        {
+          "type": "single",
+          "title": "HMS Rodney",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/uk_battleship_rodney.png",
+          "br": "7.7",
+          "rp": "300,000",
+          "sp": "900,000",
+          "data_unit_id": "uk_battleship_rodney",
+          "selected": false,
+          "class_name": "",
+          "details": true,
+          "main_role": "Battleship"
+        },
+        {
+          "type": "single",
+          "title": "HMS Prince of Wales",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/uk_battleship_prince_of_wales.png",
+          "br": "8.0",
+          "rp": "350,000",
+          "sp": "1,050,000",
+          "data_unit_id": "uk_battleship_prince_of_wales",
+          "selected": false,
+          "class_name": "",
+          "details": true,
+          "main_role": "Battleship"
+        }
+      ],
+      [
+        {
+          "type": "single",
+          "title": "HMS Repulse",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/uk_battlecruiser_repulse.png",
+          "br": "7.0",
+          "rp": "220,000",
+          "sp": "660,000",
+          "data_unit_id": "uk_battlecruiser_repulse",
+          "selected": false,
+          "class_name": "",
+          "details": true,
+          "main_role": "Battlecruiser"
+        },
+        {
+          "type": "single",
+          "title": "HMS Hood",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/uk_battlecruiser_hood.png",
+          "br": "7.7",
+          "rp": "350,000",
+          "sp": "1,050,000",
+          "data_unit_id": "uk_battlecruiser_hood",
+          "selected": false,
+          "class_name": "",
+          "details": true,
+          "main_role": "Battlecruiser"
+        }
+      ]
+    ],
+    "premium_vehicles": [
+      [
+        {
+          "type": "single",
+          "title": "HMS Barham",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/uk_battleship_q_elizabet_class_barham.png",
+          "br": "7.3",
+          "rp": null,
+          "sp": null,
+          "data_unit_id": "uk_battleship_q_elizabet_class_barham",
+          "selected": false,
+          "class_name": "",
+          "details": true,
+          "main_role": "Battleship"
+        },
+        {
+          "type": "single",
+          "title": "HMS Nelson",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/uk_battleship_nelson.png",
+          "br": "7.7",
+          "rp": 0,
+          "sp": 0,
+          "data_unit_id": "uk_battleship_nelson",
+          "selected": false,
+          "class_name": "prem",
+          "details": true,
+          "main_role": "Battleship"
+        }
+      ],
+      []
+    ],
+    "selected": [],
+    "unlock_quantity": 0
+  },
+  {
+    "rank": "VII",
+    "researchable_vehicles": [
+      [
+        {
+          "type": "single",
+          "title": "HMS Vanguard",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/uk_battleship_vanguard.png",
+          "br": "8.3",
+          "rp": "400,000",
+          "sp": "1,150,000",
+          "data_unit_id": "uk_battleship_vanguard",
+          "selected": false,
+          "class_name": "",
+          "details": true,
+          "main_role": "Battleship"
+        }
+      ],
+      [],
+      []
+    ],
+    "premium_vehicles": [
+      [],
+      []
+    ],
+    "selected": [],
+    "unlock_quantity": 0
+  }
+]

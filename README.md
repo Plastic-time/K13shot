@@ -6,14 +6,22 @@
 
 如果你只是想直接使用，下载：
 
-**`WarThunderResearchCalculator-v1.0.0-portable.zip`**
+**`WarThunderResearchCalculator-v1.0.1-portable.zip`**
 
 这是推荐给大多数玩家的便携版。解压后双击 `WarThunderResearchCalculator.exe` 即可运行，不需要安装 Node.js，也不需要执行 `npm install`。
 
 | 文件 | 推荐人群 | 是否需要安装 Node.js | 使用方式 |
 | --- | --- | --- | --- |
-| `WarThunderResearchCalculator-v1.0.0-portable.zip` | 普通玩家，推荐下载 | 不需要 | 解压后双击 exe |
-| `WarThunderResearchCalculator-v1.0.0.zip` | 开发者或已安装 Node.js 的用户 | 需要 | 解压后运行 `npm install` |
+| `WarThunderResearchCalculator-v1.0.1-portable.zip` | 普通玩家，推荐下载 | 不需要 | 解压后双击 exe |
+| `WarThunderResearchCalculator-v1.0.1.zip` | 开发者或已安装 Node.js 的用户 | 需要 | 解压后运行 `npm install` |
+
+## 在线使用
+
+无需下载可直接打开：
+
+**https://plastic-time.github.io/K13shot/**
+
+网页端会在浏览器中完成研发计算，适合分享链接给其他玩家。网页数据随项目发布更新；桌面版可从当前 War Thunder Wiki 更新科技树。
 
 ## 功能亮点
 
@@ -105,14 +113,14 @@ A local research planning tool for War Thunder tech trees. It displays tech tree
 
 If you simply want to use the calculator, download:
 
-**`WarThunderResearchCalculator-v1.0.0-portable.zip`**
+**`WarThunderResearchCalculator-v1.0.1-portable.zip`**
 
 This is the recommended portable package for most players. Extract it and double-click `WarThunderResearchCalculator.exe`. No Node.js installation or `npm install` is required.
 
 | File | Recommended For | Requires Node.js | How to Use |
 | --- | --- | --- | --- |
-| `WarThunderResearchCalculator-v1.0.0-portable.zip` | Most players | No | Extract and double-click the exe |
-| `WarThunderResearchCalculator-v1.0.0.zip` | Developers or users with Node.js installed | Yes | Extract and run `npm install` |
+| `WarThunderResearchCalculator-v1.0.1-portable.zip` | Most players | No | Extract and double-click the exe |
+| `WarThunderResearchCalculator-v1.0.1.zip` | Developers or users with Node.js installed | Yes | Extract and run `npm install` |
 
 ## Features
 
@@ -130,3 +138,4 @@ This is the recommended portable package for most players. Extract it and double
 
 bilibili: 扑街的靓仔  
 In-game ID: 如日方中
+

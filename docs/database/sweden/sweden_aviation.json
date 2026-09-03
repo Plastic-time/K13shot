@@ -1,0 +1,1232 @@
+[
+  {
+    "rank": "I",
+    "researchable_vehicles": [
+      [
+        {
+          "type": "multiple",
+          "title": "J8A/J6B",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/gladiator_j8a.png",
+          "selected": false,
+          "br": "1.0",
+          "data_unit_id": "gladiator_j8a_group",
+          "class_name": "",
+          "items": [
+            {
+              "type": "single",
+              "title": "J8A",
+              "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/gladiator_j8a.png",
+              "br": "1.0",
+              "rp": null,
+              "sp": null,
+              "data_unit_id": "gladiator_j8a",
+              "selected": false,
+              "class_name": "",
+              "details": true,
+              "main_role": "Fighter"
+            },
+            {
+              "type": "single",
+              "title": "J6B",
+              "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/j6b.png",
+              "br": "1.0",
+              "rp": null,
+              "sp": null,
+              "data_unit_id": "j6b",
+              "selected": false,
+              "class_name": "",
+              "details": true,
+              "main_role": "Fighter"
+            }
+          ],
+          "details": true
+        },
+        {
+          "type": "single",
+          "title": "J11",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/fiat_cr42_j11.png",
+          "br": "1.3",
+          "rp": "2,900",
+          "sp": "700",
+          "data_unit_id": "fiat_cr42_j11",
+          "selected": false,
+          "class_name": "",
+          "details": true,
+          "main_role": "Fighter"
+        }
+      ],
+      [
+        {
+          "type": "single",
+          "title": "S17BS",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/saab_b17bs.png",
+          "br": "1.0",
+          "rp": "2,900",
+          "sp": "700",
+          "data_unit_id": "saab_b17bs",
+          "selected": false,
+          "class_name": "",
+          "details": true,
+          "main_role": "Bomber"
+        },
+        {
+          "type": "multiple",
+          "title": "B17",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/saab_b17a_group.png",
+          "selected": false,
+          "br": "1.3-1.7",
+          "data_unit_id": "saab_b17a_group",
+          "class_name": "",
+          "items": [
+            {
+              "type": "single",
+              "title": "B17B",
+              "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/saab_b17b.png",
+              "br": "1.3",
+              "rp": "4,000",
+              "sp": "2,100",
+              "data_unit_id": "saab_b17b",
+              "selected": false,
+              "class_name": "",
+              "details": true,
+              "main_role": "Bomber"
+            },
+            {
+              "type": "single",
+              "title": "B17A",
+              "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/saab_b17a.png",
+              "br": "1.7",
+              "rp": "3,000",
+              "sp": "6,300",
+              "data_unit_id": "saab_b17a",
+              "selected": false,
+              "class_name": "",
+              "details": true,
+              "main_role": "Bomber"
+            }
+          ],
+          "details": true
+        }
+      ],
+      [
+        {
+          "type": "single",
+          "title": "T 2",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/he_115a_2_sweden.png",
+          "br": "1.0",
+          "rp": "2,900",
+          "sp": "700",
+          "data_unit_id": "he_115a_2_sweden",
+          "selected": false,
+          "class_name": "",
+          "details": true,
+          "main_role": "Bomber"
+        },
+        {
+          "type": "single",
+          "title": "B3C",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/saab_b3c.png",
+          "br": "1.3",
+          "rp": "4,000",
+          "sp": "2,100",
+          "data_unit_id": "saab_b3c",
+          "selected": false,
+          "class_name": "",
+          "details": true,
+          "main_role": "Bomber"
+        }
+      ],
+      [
+        {
+          "type": "single",
+          "title": "▄Fokker D.XXI-3",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/fokker_d21_serie3_finland.png",
+          "br": "1.7",
+          "rp": "4,000",
+          "sp": "2,100",
+          "data_unit_id": "fokker_d21_serie3_finland",
+          "selected": false,
+          "class_name": "",
+          "details": true,
+          "main_role": "Fighter"
+        }
+      ]
+    ],
+    "premium_vehicles": [
+      [
+        {
+          "type": "single",
+          "title": "Iacobi's J8A",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/gladiator_j8a_iacobi.png",
+          "br": "1.0",
+          "rp": 0,
+          "sp": 0,
+          "data_unit_id": "gladiator_j8a_iacobi",
+          "selected": false,
+          "class_name": "prem",
+          "details": true,
+          "main_role": "Fighter"
+        },
+        {
+          "type": "single",
+          "title": "▄Ar 196 A-5",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/arado-196a-5.png",
+          "br": "1.3",
+          "rp": 0,
+          "sp": 0,
+          "data_unit_id": "arado-196a-5",
+          "selected": false,
+          "class_name": "prem",
+          "details": true,
+          "main_role": "Bomber"
+        }
+      ],
+      []
+    ],
+    "selected": [],
+    "unlock_quantity": 0
+  },
+  {
+    "rank": "II",
+    "researchable_vehicles": [
+      [
+        {
+          "type": "single",
+          "title": "J20",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/re_2000_j20.png",
+          "br": "2.0",
+          "rp": "7,900",
+          "sp": "10,000",
+          "data_unit_id": "re_2000_j20",
+          "selected": false,
+          "class_name": "",
+          "details": true,
+          "main_role": "Fighter"
+        },
+        {
+          "type": "single",
+          "title": "J22-A",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/ffvs_j22_a.png",
+          "br": "3.0",
+          "rp": "9,200",
+          "sp": "16,000",
+          "data_unit_id": "ffvs_j22_a",
+          "selected": false,
+          "class_name": "",
+          "details": true,
+          "main_role": "Fighter"
+        }
+      ],
+      [],
+      [
+        {
+          "type": "single",
+          "title": "B18A",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/saab_b18a.png",
+          "br": "2.7",
+          "rp": "7,900",
+          "sp": "10,000",
+          "data_unit_id": "saab_b18a",
+          "selected": false,
+          "class_name": "",
+          "details": true,
+          "main_role": "Bomber"
+        },
+        {
+          "type": "single",
+          "title": "▄Ju 88 A-4",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/ju-88a-4_finland.png",
+          "br": "3.0",
+          "rp": "9,200",
+          "sp": "16,000",
+          "data_unit_id": "ju-88a-4_finland",
+          "selected": false,
+          "class_name": "",
+          "details": true,
+          "main_role": "Bomber"
+        }
+      ],
+      [
+        {
+          "type": "single",
+          "title": "▄B-239",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/b_239_finland.png",
+          "br": "2.7",
+          "rp": "7,900",
+          "sp": "10,000",
+          "data_unit_id": "b_239_finland",
+          "selected": false,
+          "class_name": "",
+          "details": true,
+          "main_role": "Fighter"
+        },
+        {
+          "type": "single",
+          "title": "▄Hurricane Mk I/L",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/hurricane_mk1_late_finland.png",
+          "br": "2.3",
+          "rp": "9,200",
+          "sp": "16,000",
+          "data_unit_id": "hurricane_mk1_late_finland",
+          "selected": false,
+          "class_name": "",
+          "details": true,
+          "main_role": "Fighter"
+        }
+      ]
+    ],
+    "premium_vehicles": [
+      [
+        {
+          "type": "single",
+          "title": "▄Fokker D.XXI",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/fokker_d21_mod20.png",
+          "br": "2.0",
+          "rp": 0,
+          "sp": 0,
+          "data_unit_id": "fokker_d21_mod20",
+          "selected": false,
+          "class_name": "prem",
+          "details": true,
+          "main_role": "Fighter"
+        },
+        {
+          "type": "single",
+          "title": "Mörkö-Morane",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/morko_morane.png",
+          "br": "2.3",
+          "rp": 0,
+          "sp": 0,
+          "data_unit_id": "morko_morane",
+          "selected": false,
+          "class_name": "prem",
+          "details": true,
+          "main_role": "Fighter"
+        }
+      ],
+      [
+        {
+          "type": "single",
+          "title": "J9 Early",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/j9_early.png",
+          "br": "2.3",
+          "rp": 0,
+          "sp": 0,
+          "data_unit_id": "j9_early",
+          "selected": false,
+          "class_name": "prem",
+          "details": true,
+          "main_role": "Fighter"
+        },
+        {
+          "type": "single",
+          "title": "VL Myrsky II",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/vl_myrsky_2_late.png",
+          "br": "2.3",
+          "rp": 0,
+          "sp": 0,
+          "data_unit_id": "vl_myrsky_2_late",
+          "selected": false,
+          "class_name": "prem",
+          "details": true,
+          "main_role": "Fighter"
+        }
+      ]
+    ],
+    "selected": [],
+    "unlock_quantity": 0
+  },
+  {
+    "rank": "III",
+    "researchable_vehicles": [
+      [
+        {
+          "type": "single",
+          "title": "J22-B",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/ffvs_j22_b.png",
+          "br": "3.7",
+          "rp": "18,000",
+          "sp": "47,000",
+          "data_unit_id": "ffvs_j22_b",
+          "selected": false,
+          "class_name": "",
+          "details": true,
+          "main_role": "Fighter"
+        }
+      ],
+      [
+        {
+          "type": "single",
+          "title": "◢Mosquito F.Mk.II",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/mosquito_f_mk2_norway.png",
+          "br": "3.7",
+          "rp": "18,000",
+          "sp": "47,000",
+          "data_unit_id": "mosquito_f_mk2_norway",
+          "selected": false,
+          "class_name": "",
+          "details": true,
+          "main_role": "Fighter"
+        },
+        {
+          "type": "multiple",
+          "title": "◢Mosquito",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/mosquito_norway_group.png",
+          "selected": false,
+          "br": "3.7",
+          "data_unit_id": "mosquito_norway_group",
+          "class_name": "",
+          "items": [
+            {
+              "type": "single",
+              "title": "◢Mosquito FB Mk VI",
+              "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/mosquito_fb_mk6_norway.png",
+              "br": "3.7",
+              "rp": "26,000",
+              "sp": "76,000",
+              "data_unit_id": "mosquito_fb_mk6_norway",
+              "selected": false,
+              "class_name": "",
+              "details": true,
+              "main_role": "Strike aircraft"
+            },
+            {
+              "type": "single",
+              "title": "◢Mosquito FB Mk VI ASH",
+              "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/mosquito_fb_mk6_ash_norway.png",
+              "br": "3.7",
+              "rp": "17,000",
+              "sp": "105,000",
+              "data_unit_id": "mosquito_fb_mk6_ash_norway",
+              "selected": false,
+              "class_name": "",
+              "details": true,
+              "main_role": "Strike aircraft"
+            }
+          ],
+          "details": true
+        }
+      ],
+      [
+        {
+          "type": "single",
+          "title": "B18B",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/saab_b18b.png",
+          "br": "4.0",
+          "rp": "18,000",
+          "sp": "47,000",
+          "data_unit_id": "saab_b18b",
+          "selected": false,
+          "class_name": "",
+          "details": true,
+          "main_role": "Bomber"
+        },
+        {
+          "type": "multiple",
+          "title": "T18B",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/saab_t18b_group.png",
+          "selected": false,
+          "br": "4.3",
+          "data_unit_id": "saab_t18b_group",
+          "class_name": "",
+          "items": [
+            {
+              "type": "single",
+              "title": "T18B",
+              "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/saab_t18b_1.png",
+              "br": "4.3",
+              "rp": "26,000",
+              "sp": "76,000",
+              "data_unit_id": "saab_t18b_1",
+              "selected": false,
+              "class_name": "",
+              "details": true,
+              "main_role": "Bomber"
+            },
+            {
+              "type": "single",
+              "title": "T18B (57)",
+              "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/saab_t18b_2.png",
+              "br": "4.3",
+              "rp": "17,000",
+              "sp": "105,000",
+              "data_unit_id": "saab_t18b_2",
+              "selected": false,
+              "class_name": "",
+              "details": true,
+              "main_role": "Bomber"
+            }
+          ],
+          "details": true
+        }
+      ],
+      [
+        {
+          "type": "single",
+          "title": "J26",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/p-51d-20-na_j26.png",
+          "br": "4.0",
+          "rp": "18,000",
+          "sp": "47,000",
+          "data_unit_id": "p-51d-20-na_j26",
+          "selected": false,
+          "class_name": "",
+          "details": true,
+          "main_role": "Fighter"
+        }
+      ]
+    ],
+    "premium_vehicles": [
+      [
+        {
+          "type": "single",
+          "title": "J26 David",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/p-51b_7_sweden.png",
+          "br": "3.7",
+          "rp": 0,
+          "sp": 0,
+          "data_unit_id": "p-51b_7_sweden",
+          "selected": false,
+          "class_name": "prem",
+          "details": true,
+          "main_role": "Fighter"
+        },
+        {
+          "type": "single",
+          "title": "VL Pyörremyrsky",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/pyorremyrsky.png",
+          "br": "4.3",
+          "rp": 0,
+          "sp": 0,
+          "data_unit_id": "pyorremyrsky",
+          "selected": false,
+          "class_name": "prem",
+          "details": true,
+          "main_role": "Fighter"
+        }
+      ],
+      [
+        {
+          "type": "single",
+          "title": "Mosquito J30",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/mosquito_j30_sweden.png",
+          "br": "3.7",
+          "rp": 0,
+          "sp": 0,
+          "data_unit_id": "mosquito_j30_sweden",
+          "selected": false,
+          "class_name": "prem",
+          "details": true,
+          "main_role": "Fighter"
+        }
+      ]
+    ],
+    "selected": [],
+    "unlock_quantity": 0
+  },
+  {
+    "rank": "IV",
+    "researchable_vehicles": [
+      [
+        {
+          "type": "multiple",
+          "title": "J21A",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/saab_j21a_group.png",
+          "selected": false,
+          "br": "4.3",
+          "data_unit_id": "saab_j21a_group",
+          "class_name": "",
+          "items": [
+            {
+              "type": "single",
+              "title": "J21A-1",
+              "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/saab_j21a_1.png",
+              "br": "4.3",
+              "rp": "46,000",
+              "sp": "155,000",
+              "data_unit_id": "saab_j21a_1",
+              "selected": false,
+              "class_name": "",
+              "details": true,
+              "main_role": "Fighter"
+            },
+            {
+              "type": "single",
+              "title": "J21A-2",
+              "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/saab_j21a_2.png",
+              "br": "4.3",
+              "rp": "27,000",
+              "sp": "185,000",
+              "data_unit_id": "saab_j21a_2",
+              "selected": false,
+              "class_name": "",
+              "details": true,
+              "main_role": "Fighter"
+            }
+          ],
+          "details": true
+        }
+      ],
+      [
+        {
+          "type": "single",
+          "title": "A21A-3",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/saab_a21a_3.png",
+          "br": "4.3",
+          "rp": "46,000",
+          "sp": "155,000",
+          "data_unit_id": "saab_a21a_3",
+          "selected": false,
+          "class_name": "",
+          "details": true,
+          "main_role": "Fighter"
+        }
+      ],
+      [],
+      [
+        {
+          "type": "multiple",
+          "title": "▄Bf 109G",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/bf_109g_sweden_group.png",
+          "selected": false,
+          "br": "4.3-4.7",
+          "data_unit_id": "bf_109g_sweden_group",
+          "class_name": "",
+          "items": [
+            {
+              "type": "single",
+              "title": "▄Bf 109 G-2",
+              "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/bf-109g-2_finland.png",
+              "br": "4.3",
+              "rp": "46,000",
+              "sp": "155,000",
+              "data_unit_id": "bf-109g-2_finland",
+              "selected": false,
+              "class_name": "",
+              "details": true,
+              "main_role": "Fighter"
+            },
+            {
+              "type": "single",
+              "title": "▄Bf 109 G-6 Erla",
+              "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/bf-109g-6_erla_finland.png",
+              "br": "4.7",
+              "rp": "27,000",
+              "sp": "185,000",
+              "data_unit_id": "bf-109g-6_erla_finland",
+              "selected": false,
+              "class_name": "",
+              "details": true,
+              "main_role": "Fighter"
+            }
+          ],
+          "details": true
+        }
+      ]
+    ],
+    "premium_vehicles": [
+      [
+        {
+          "type": "single",
+          "title": "▄Bf 109 G-6",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/bf-109g-6_finland.png",
+          "br": "4.7",
+          "rp": 0,
+          "sp": 0,
+          "data_unit_id": "bf-109g-6_finland",
+          "selected": false,
+          "class_name": "prem",
+          "details": true,
+          "main_role": "Fighter"
+        }
+      ],
+      []
+    ],
+    "selected": [],
+    "unlock_quantity": 0
+  },
+  {
+    "rank": "V",
+    "researchable_vehicles": [
+      [
+        {
+          "type": "single",
+          "title": "J21RA",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/saab_j21ra.png",
+          "br": "6.7",
+          "rp": "82,000",
+          "sp": "240,000",
+          "data_unit_id": "saab_j21ra",
+          "selected": false,
+          "class_name": "",
+          "details": true,
+          "main_role": "Fighter"
+        },
+        {
+          "type": "single",
+          "title": "J29A",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/saab_j29a.png",
+          "br": "7.7",
+          "rp": "105,000",
+          "sp": "300,000",
+          "data_unit_id": "saab_j29a",
+          "selected": false,
+          "class_name": "",
+          "details": true,
+          "main_role": "Fighter"
+        }
+      ],
+      [
+        {
+          "type": "single",
+          "title": "A21RB",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/saab_a21rb.png",
+          "br": "6.7",
+          "rp": "82,000",
+          "sp": "240,000",
+          "data_unit_id": "saab_a21rb",
+          "selected": false,
+          "class_name": "",
+          "details": true,
+          "main_role": "Fighter"
+        },
+        {
+          "type": "single",
+          "title": "A29B",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/saab_j29b.png",
+          "br": "7.7",
+          "rp": "105,000",
+          "sp": "300,000",
+          "data_unit_id": "saab_j29b",
+          "selected": false,
+          "class_name": "",
+          "details": true,
+          "main_role": "Fighter"
+        }
+      ],
+      [
+        {
+          "type": "single",
+          "title": "SK60B",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/saab_sk60b.png",
+          "br": "7.0",
+          "rp": "95,000",
+          "sp": "270,000",
+          "data_unit_id": "saab_sk60b",
+          "selected": false,
+          "class_name": "",
+          "details": true,
+          "main_role": "Strike aircraft"
+        },
+        {
+          "type": "single",
+          "title": "SAAB-105G",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/saab_105g.png",
+          "br": "8.3",
+          "rp": "120,000",
+          "sp": "340,000",
+          "data_unit_id": "saab_105g",
+          "selected": false,
+          "class_name": "",
+          "details": true,
+          "main_role": "Strike aircraft"
+        }
+      ],
+      [
+        {
+          "type": "multiple",
+          "title": "Vampire",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/vampire_fb_group.png",
+          "selected": false,
+          "br": "8.0",
+          "data_unit_id": "vampire_fb_group",
+          "class_name": "",
+          "items": [
+            {
+              "type": "single",
+              "title": "A28B",
+              "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/vampire_fb5_j28b.png",
+              "br": "8.0",
+              "rp": "95,000",
+              "sp": "270,000",
+              "data_unit_id": "vampire_fb5_j28b",
+              "selected": false,
+              "class_name": "",
+              "details": true,
+              "main_role": "Fighter"
+            },
+            {
+              "type": "single",
+              "title": "▄Vampire FB 52A",
+              "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/vampire_fb52_finland.png",
+              "br": "8.0",
+              "rp": "53,000",
+              "sp": "300,000",
+              "data_unit_id": "vampire_fb52_finland",
+              "selected": false,
+              "class_name": "",
+              "details": true,
+              "main_role": "Fighter"
+            }
+          ],
+          "details": true
+        }
+      ]
+    ],
+    "premium_vehicles": [
+      [
+        {
+          "type": "single",
+          "title": "SAAB-105OE",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/saab_105oe.png",
+          "br": "8.3",
+          "rp": 0,
+          "sp": 0,
+          "data_unit_id": "saab_105oe",
+          "selected": false,
+          "class_name": "prem",
+          "details": true,
+          "main_role": "Strike aircraft"
+        },
+        {
+          "type": "single",
+          "title": "J29D",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/saab_j29d.png",
+          "br": "8.3",
+          "rp": 0,
+          "sp": 0,
+          "data_unit_id": "saab_j29d",
+          "selected": false,
+          "class_name": "prem",
+          "details": true,
+          "main_role": "Fighter"
+        }
+      ],
+      []
+    ],
+    "selected": [],
+    "unlock_quantity": 0
+  },
+  {
+    "rank": "VI",
+    "researchable_vehicles": [
+      [
+        {
+          "type": "single",
+          "title": "J29F",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/saab_j29f.png",
+          "br": "9.0",
+          "rp": "150,000",
+          "sp": "420,000",
+          "data_unit_id": "saab_j29f",
+          "selected": false,
+          "class_name": "",
+          "details": true,
+          "main_role": "Fighter"
+        },
+        {
+          "type": "single",
+          "title": "J32B",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/saab_j32b.png",
+          "br": "9.3",
+          "rp": "190,000",
+          "sp": "530,000",
+          "data_unit_id": "saab_j32b",
+          "selected": false,
+          "class_name": "",
+          "details": true,
+          "main_role": "Fighter"
+        }
+      ],
+      [
+        {
+          "type": "single",
+          "title": "A32A",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/saab_a32a.png",
+          "br": "9.0",
+          "rp": "170,000",
+          "sp": "480,000",
+          "data_unit_id": "saab_a32a",
+          "selected": false,
+          "class_name": "",
+          "details": true,
+          "main_role": "Strike aircraft"
+        }
+      ],
+      [],
+      [
+        {
+          "type": "single",
+          "title": "J34",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/hunter_f50_sweden.png",
+          "br": "9.0",
+          "rp": "150,000",
+          "sp": "420,000",
+          "data_unit_id": "hunter_f50_sweden",
+          "selected": false,
+          "class_name": "",
+          "details": true,
+          "main_role": "Fighter"
+        }
+      ]
+    ],
+    "premium_vehicles": [
+      [
+        {
+          "type": "single",
+          "title": "A32A Röd Adam",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/saab_a32a_red_adam.png",
+          "br": "9.0",
+          "rp": 0,
+          "sp": 0,
+          "data_unit_id": "saab_a32a_red_adam",
+          "selected": false,
+          "class_name": "prem",
+          "details": true,
+          "main_role": "Strike aircraft"
+        },
+        {
+          "type": "single",
+          "title": "J35A",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/saab_j35a.png",
+          "br": "9.3",
+          "rp": 0,
+          "sp": 0,
+          "data_unit_id": "saab_j35a",
+          "selected": false,
+          "class_name": "prem",
+          "details": true,
+          "main_role": "Fighter"
+        }
+      ],
+      []
+    ],
+    "selected": [],
+    "unlock_quantity": 0
+  },
+  {
+    "rank": "VII",
+    "researchable_vehicles": [
+      [
+        {
+          "type": "single",
+          "title": "J35D",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/saab_j35d.png",
+          "br": "10.0",
+          "rp": "210,000",
+          "sp": "580,000",
+          "data_unit_id": "saab_j35d",
+          "selected": false,
+          "class_name": "",
+          "details": true,
+          "main_role": "Fighter"
+        },
+        {
+          "type": "single",
+          "title": "JA37C",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/saab_ja37.png",
+          "br": "11.3",
+          "rp": "260,000",
+          "sp": "720,000",
+          "data_unit_id": "saab_ja37",
+          "selected": false,
+          "class_name": "",
+          "details": true,
+          "main_role": "Fighter"
+        }
+      ],
+      [
+        {
+          "type": "single",
+          "title": "AJ37",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/saab_aj37.png",
+          "br": "10.3",
+          "rp": "210,000",
+          "sp": "580,000",
+          "data_unit_id": "saab_aj37",
+          "selected": false,
+          "class_name": "",
+          "details": true,
+          "main_role": "Strike aircraft"
+        },
+        {
+          "type": "single",
+          "title": "AJS37",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/saab_ajs37.png",
+          "br": "11.0",
+          "rp": "260,000",
+          "sp": "720,000",
+          "data_unit_id": "saab_ajs37",
+          "selected": false,
+          "class_name": "",
+          "details": true,
+          "main_role": "Strike aircraft"
+        }
+      ],
+      [],
+      [
+        {
+          "type": "single",
+          "title": "▄MiG-21bis",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/mig_21_bis_finland.png",
+          "br": "11.0",
+          "rp": "230,000",
+          "sp": "630,000",
+          "data_unit_id": "mig_21_bis_finland",
+          "selected": false,
+          "class_name": "",
+          "details": true,
+          "main_role": "Fighter"
+        }
+      ]
+    ],
+    "premium_vehicles": [
+      [
+        {
+          "type": "single",
+          "title": "Saab J35XS",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/saab_j35xs.png",
+          "br": "10.3",
+          "rp": 0,
+          "sp": 0,
+          "data_unit_id": "saab_j35xs",
+          "selected": false,
+          "class_name": "prem",
+          "details": true,
+          "main_role": "Fighter"
+        },
+        {
+          "type": "single",
+          "title": "Saab F-35",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/saab_f35_wdns.png",
+          "br": "10.3",
+          "rp": "520,000",
+          "sp": "610,000",
+          "data_unit_id": "saab_f35_wdns",
+          "selected": false,
+          "class_name": "squad",
+          "details": true,
+          "main_role": "Strike aircraft"
+        },
+        {
+          "type": "single",
+          "title": "◢F-5A(G)",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/f-5ag_norway.png",
+          "br": "11.0",
+          "rp": null,
+          "sp": null,
+          "data_unit_id": "f-5ag_norway",
+          "selected": false,
+          "class_name": "",
+          "details": true,
+          "main_role": "Fighter"
+        }
+      ],
+      []
+    ],
+    "selected": [],
+    "unlock_quantity": 0
+  },
+  {
+    "rank": "VIII",
+    "researchable_vehicles": [
+      [
+        {
+          "type": "multiple",
+          "title": "JA37D/DI",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/saab_ja37d_group.png",
+          "selected": false,
+          "br": "12.0-13.0",
+          "data_unit_id": "saab_ja37d_group",
+          "class_name": "",
+          "items": [
+            {
+              "type": "single",
+              "title": "JA37D",
+              "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/saab_ja37d.png",
+              "br": "12.0",
+              "rp": "290,000",
+              "sp": "780,000",
+              "data_unit_id": "saab_ja37d",
+              "selected": false,
+              "class_name": "",
+              "details": true,
+              "main_role": "Fighter"
+            },
+            {
+              "type": "single",
+              "title": "JA37DI",
+              "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/saab_ja37di.png",
+              "br": "13.0",
+              "rp": "160,000",
+              "sp": "860,000",
+              "data_unit_id": "saab_ja37di",
+              "selected": false,
+              "class_name": "",
+              "details": true,
+              "main_role": "Fighter"
+            }
+          ],
+          "details": true
+        },
+        {
+          "type": "multiple",
+          "title": "JAS39",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/saab_jas39_group.png",
+          "selected": false,
+          "br": "13.0-13.7",
+          "data_unit_id": "saab_jas39_group",
+          "class_name": "",
+          "items": [
+            {
+              "type": "single",
+              "title": "JAS39A",
+              "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/saab_jas39a.png",
+              "br": "13.0",
+              "rp": "320,000",
+              "sp": "860,000",
+              "data_unit_id": "saab_jas39a",
+              "selected": false,
+              "class_name": "",
+              "details": true,
+              "main_role": "Fighter"
+            },
+            {
+              "type": "single",
+              "title": "JAS39C",
+              "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/saab_jas39c.png",
+              "br": "13.7",
+              "rp": "175,000",
+              "sp": "940,000",
+              "data_unit_id": "saab_jas39c",
+              "selected": false,
+              "class_name": "",
+              "details": true,
+              "main_role": "Fighter"
+            }
+          ],
+          "details": true
+        }
+      ],
+      [
+        {
+          "type": "single",
+          "title": "◢F-16A",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/f_16a_block_10_norway.png",
+          "br": "12.3",
+          "rp": "290,000",
+          "sp": "780,000",
+          "data_unit_id": "f_16a_block_10_norway",
+          "selected": false,
+          "class_name": "",
+          "details": true,
+          "main_role": "Fighter"
+        },
+        {
+          "type": "single",
+          "title": "◢F-16AM",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/f_16am_block_20_mlu_norway.png",
+          "br": "13.7",
+          "rp": "320,000",
+          "sp": "860,000",
+          "data_unit_id": "f_16am_block_20_mlu_norway",
+          "selected": false,
+          "class_name": "",
+          "details": true,
+          "main_role": "Fighter"
+        }
+      ],
+      [],
+      [
+        {
+          "type": "single",
+          "title": "▄F-18C",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/fa_18c_finland.png",
+          "br": "14.0",
+          "rp": "320,000",
+          "sp": "860,000",
+          "data_unit_id": "fa_18c_finland",
+          "selected": false,
+          "class_name": "",
+          "details": true,
+          "main_role": "Fighter"
+        },
+        {
+          "type": "single",
+          "title": "▄F/A-18C MLU 2",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/fa_18c_mlu_2_finland.png",
+          "br": "14.0",
+          "rp": "350,000",
+          "sp": "940,000",
+          "data_unit_id": "fa_18c_mlu_2_finland",
+          "selected": false,
+          "class_name": "",
+          "details": true,
+          "main_role": "Fighter"
+        }
+      ]
+    ],
+    "premium_vehicles": [
+      [
+        {
+          "type": "single",
+          "title": "JA37DI F21",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/saab_ja37di_f21.png",
+          "br": "13.0",
+          "rp": 0,
+          "sp": 0,
+          "data_unit_id": "saab_ja37di_f21",
+          "selected": false,
+          "class_name": "prem",
+          "details": true,
+          "main_role": "Fighter"
+        },
+        {
+          "type": "single",
+          "title": "JAS39D",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/saab_jas39d.png",
+          "br": "13.7",
+          "rp": "600,000",
+          "sp": "990,000",
+          "data_unit_id": "saab_jas39d",
+          "selected": false,
+          "class_name": "squad",
+          "details": true,
+          "main_role": "Fighter"
+        }
+      ],
+      []
+    ],
+    "selected": [],
+    "unlock_quantity": 0
+  },
+  {
+    "rank": "IX",
+    "researchable_vehicles": [
+      [
+        {
+          "type": "single",
+          "title": "JAS39E",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/saab_jas39e.png",
+          "br": "14.3",
+          "rp": "400,000",
+          "sp": "1,080,000",
+          "data_unit_id": "saab_jas39e",
+          "selected": false,
+          "class_name": "",
+          "details": true,
+          "main_role": "Fighter"
+        }
+      ],
+      [],
+      [],
+      []
+    ],
+    "premium_vehicles": [
+      [],
+      []
+    ],
+    "selected": [],
+    "unlock_quantity": 0
+  }
+]

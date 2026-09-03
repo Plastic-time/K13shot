@@ -1,0 +1,302 @@
+[
+  {
+    "rank": "V",
+    "researchable_vehicles": [
+      [],
+      [
+        {
+          "type": "single",
+          "title": "AH-1G",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/ah_1g.png",
+          "br": "8.0",
+          "rp": null,
+          "sp": "370,000",
+          "data_unit_id": "ah_1g",
+          "selected": false,
+          "class_name": "",
+          "details": true,
+          "main_role": "Attack helicopter"
+        },
+        {
+          "type": "single",
+          "title": "UH-1B",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/uh_1b.png",
+          "br": "8.3",
+          "rp": "99,000",
+          "sp": "390,000",
+          "data_unit_id": "uh_1b",
+          "selected": false,
+          "class_name": "",
+          "details": true,
+          "main_role": "Utility helicopter"
+        }
+      ],
+      [
+        {
+          "type": "single",
+          "title": "UH-1C",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/uh_1c.png",
+          "br": "8.7",
+          "rp": "150,000",
+          "sp": "490,000",
+          "data_unit_id": "uh_1c",
+          "selected": false,
+          "class_name": "",
+          "details": true,
+          "main_role": "Utility helicopter"
+        }
+      ]
+    ],
+    "premium_vehicles": [
+      [
+        {
+          "type": "single",
+          "title": "H-34",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/h_34.png",
+          "br": "8.0",
+          "rp": 0,
+          "sp": 0,
+          "data_unit_id": "h_34",
+          "selected": false,
+          "class_name": "prem",
+          "details": true,
+          "main_role": "Attack helicopter"
+        },
+        {
+          "type": "single",
+          "title": "UH-1C XM-30",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/uh_1c_xm_30.png",
+          "br": "8.7",
+          "rp": 0,
+          "sp": 0,
+          "data_unit_id": "uh_1c_xm_30",
+          "selected": false,
+          "class_name": "prem",
+          "details": true,
+          "main_role": "Utility helicopter"
+        }
+      ],
+      []
+    ],
+    "selected": [],
+    "unlock_quantity": 0
+  },
+  {
+    "rank": "VI",
+    "researchable_vehicles": [
+      [
+        {
+          "type": "single",
+          "title": "AH-6M",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/ah_6m.png",
+          "br": "10.3",
+          "rp": "370,000",
+          "sp": "990,000",
+          "data_unit_id": "ah_6m",
+          "selected": false,
+          "class_name": "",
+          "details": true,
+          "main_role": "Attack helicopter"
+        },
+        {
+          "type": "single",
+          "title": "OH-58D",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/oh_58d.png",
+          "br": "10.3",
+          "rp": "380,000",
+          "sp": "1,000,000",
+          "data_unit_id": "oh_58d",
+          "selected": false,
+          "class_name": "",
+          "details": true,
+          "main_role": "Attack helicopter"
+        }
+      ],
+      [
+        {
+          "type": "single",
+          "title": "AH-64A",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/ah_64a.png",
+          "br": "11.7",
+          "rp": "390,000",
+          "sp": "1,010,000",
+          "data_unit_id": "ah_64a",
+          "selected": false,
+          "class_name": "",
+          "details": true,
+          "main_role": "Attack helicopter"
+        }
+      ],
+      [
+        {
+          "type": "single",
+          "title": "AH-1F",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/ah_1f.png",
+          "br": "9.7",
+          "rp": "370,000",
+          "sp": "990,000",
+          "data_unit_id": "ah_1f",
+          "selected": false,
+          "class_name": "",
+          "details": true,
+          "main_role": "Attack helicopter"
+        },
+        {
+          "type": "single",
+          "title": "AH-1W",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/ah_1w.png",
+          "br": "11.0",
+          "rp": "380,000",
+          "sp": "1,000,000",
+          "data_unit_id": "ah_1w",
+          "selected": false,
+          "class_name": "",
+          "details": true,
+          "main_role": "Attack helicopter"
+        }
+      ]
+    ],
+    "premium_vehicles": [
+      [
+        {
+          "type": "single",
+          "title": "RAH-66",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/rah_66.png",
+          "br": "11.3",
+          "rp": 0,
+          "sp": 0,
+          "data_unit_id": "rah_66",
+          "selected": false,
+          "class_name": "prem",
+          "details": true,
+          "main_role": "Attack helicopter"
+        },
+        {
+          "type": "single",
+          "title": "AH-64A (GR)",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/ah_64a_greece_usa.png",
+          "br": "11.7",
+          "rp": 0,
+          "sp": 0,
+          "data_unit_id": "ah_64a_greece_usa",
+          "selected": false,
+          "class_name": "prem",
+          "details": true,
+          "main_role": "Attack helicopter"
+        },
+        {
+          "type": "single",
+          "title": "▃AH-64A Peten",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/ah_64a_peten.png",
+          "br": "11.7",
+          "rp": 0,
+          "sp": 0,
+          "data_unit_id": "ah_64a_peten",
+          "selected": false,
+          "class_name": "prem",
+          "details": true,
+          "main_role": "Attack helicopter"
+        }
+      ],
+      [
+        {
+          "type": "single",
+          "title": "AH-56A",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/ah_56a.png",
+          "br": "9.7",
+          "rp": "520,000",
+          "sp": "1,020,000",
+          "data_unit_id": "ah_56a",
+          "selected": false,
+          "class_name": "squad",
+          "details": true,
+          "main_role": "Attack helicopter"
+        },
+        {
+          "type": "single",
+          "title": "YAH-64",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/yah_64.png",
+          "br": "11.3",
+          "rp": "480,000",
+          "sp": "1,010,000",
+          "data_unit_id": "yah_64",
+          "selected": false,
+          "class_name": "squad",
+          "details": true,
+          "main_role": "Attack helicopter"
+        }
+      ]
+    ],
+    "selected": [],
+    "unlock_quantity": 0
+  },
+  {
+    "rank": "VII",
+    "researchable_vehicles": [
+      [
+        {
+          "type": "single",
+          "title": "MH-60L DAP",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/mh_60l_dap.png",
+          "br": "11.0",
+          "rp": "400,000",
+          "sp": "1,020,000",
+          "data_unit_id": "mh_60l_dap",
+          "selected": false,
+          "class_name": "",
+          "details": true,
+          "main_role": "Attack helicopter"
+        }
+      ],
+      [
+        {
+          "type": "single",
+          "title": "AH-64D",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/ah_64d.png",
+          "br": "12.0",
+          "rp": "400,000",
+          "sp": "1,020,000",
+          "data_unit_id": "ah_64d",
+          "selected": false,
+          "class_name": "",
+          "details": true,
+          "main_role": "Attack helicopter"
+        },
+        {
+          "type": "single",
+          "title": "AH-64E",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/ah_64e.png",
+          "br": "13.0",
+          "rp": "400,000",
+          "sp": "1,030,000",
+          "data_unit_id": "ah_64e",
+          "selected": false,
+          "class_name": "",
+          "details": true,
+          "main_role": "Attack helicopter"
+        }
+      ],
+      [
+        {
+          "type": "single",
+          "title": "AH-1Z",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/ah_1z.png",
+          "br": "12.0",
+          "rp": "400,000",
+          "sp": "1,020,000",
+          "data_unit_id": "ah_1z",
+          "selected": false,
+          "class_name": "",
+          "details": true,
+          "main_role": "Attack helicopter"
+        }
+      ]
+    ],
+    "premium_vehicles": [
+      [],
+      []
+    ],
+    "selected": [],
+    "unlock_quantity": 0
+  }
+]

@@ -1,0 +1,117 @@
+[
+  {
+    "rank": "V",
+    "researchable_vehicles": [
+      [
+        {
+          "type": "single",
+          "title": "HKP3C",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/hkp3c.png",
+          "br": "7.7",
+          "rp": null,
+          "sp": "390,000",
+          "data_unit_id": "hkp3c",
+          "selected": false,
+          "class_name": "",
+          "details": true,
+          "main_role": "Utility helicopter"
+        },
+        {
+          "type": "single",
+          "title": "HKP2",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/hkp2.png",
+          "br": "8.3",
+          "rp": "150,000",
+          "sp": "490,000",
+          "data_unit_id": "hkp2",
+          "selected": false,
+          "class_name": "",
+          "details": true,
+          "main_role": "Utility helicopter"
+        }
+      ]
+    ],
+    "premium_vehicles": [
+      []
+    ],
+    "selected": [],
+    "unlock_quantity": 0
+  },
+  {
+    "rank": "VI",
+    "researchable_vehicles": [
+      [
+        {
+          "type": "single",
+          "title": "HKP9A",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/hkp9a_cb2.png",
+          "br": "9.3",
+          "rp": "360,000",
+          "sp": "980,000",
+          "data_unit_id": "hkp9a_cb2",
+          "selected": false,
+          "class_name": "",
+          "details": true,
+          "main_role": "Utility helicopter"
+        },
+        {
+          "type": "single",
+          "title": "HKP9A (FC)",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/hkp9a_cb3_fc.png",
+          "br": "9.7",
+          "rp": "370,000",
+          "sp": "990,000",
+          "data_unit_id": "hkp9a_cb3_fc",
+          "selected": false,
+          "class_name": "",
+          "details": true,
+          "main_role": "Utility helicopter"
+        }
+      ]
+    ],
+    "premium_vehicles": [
+      [
+        {
+          "type": "single",
+          "title": "Mi-28A",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/mi_28a_sweden.png",
+          "br": "10.7",
+          "rp": 0,
+          "sp": 0,
+          "data_unit_id": "mi_28a_sweden",
+          "selected": false,
+          "class_name": "prem",
+          "details": true,
+          "main_role": "Attack helicopter"
+        }
+      ]
+    ],
+    "selected": [],
+    "unlock_quantity": 0
+  },
+  {
+    "rank": "VII",
+    "researchable_vehicles": [
+      [
+        {
+          "type": "single",
+          "title": "AHS",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/ahs.png",
+          "br": "11.7",
+          "rp": "400,000",
+          "sp": "1,020,000",
+          "data_unit_id": "ahs",
+          "selected": false,
+          "class_name": "",
+          "details": true,
+          "main_role": "Attack helicopter"
+        }
+      ]
+    ],
+    "premium_vehicles": [
+      []
+    ],
+    "selected": [],
+    "unlock_quantity": 0
+  }
+]

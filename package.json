@@ -1,11 +1,12 @@
 {
   "name": "server",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "main": "main.js",
   "scripts": {
     "start": "node main.js",
     "dev": "node main.js",
-    "build:launcher": "dotnet publish ./tools/launcher/WarThunderResearchLauncher.csproj -c Release -r win-x64 --self-contained false -p:PublishSingleFile=true -o ./launcher-dist && powershell -NoProfile -Command \"Copy-Item -Force ./launcher-dist/WarThunderResearchCalculator.exe ./WarThunderResearchCalculator.exe\"",
+    "build:launcher": "dotnet publish ./tools/launcher/WarThunderResearchLauncher.csproj -c Release -r win-x64 --self-contained true -p:PublishSingleFile=true -o ./launcher-dist && powershell -NoProfile -Command \"Copy-Item -Force ./launcher-dist/WarThunderResearchCalculator.exe ./WarThunderResearchCalculator.exe\"",
+    "package:release": "powershell -NoProfile -ExecutionPolicy Bypass -File ./tools/package-release.ps1",
     "pull": "node ./src/4-fill_tree_details.js",
     "pull:usa-ground": "node ./src/4-fill_tree_details.js usa ground"
   },
@@ -27,3 +28,4 @@
     "@dict": "dict"
   }
 }
+

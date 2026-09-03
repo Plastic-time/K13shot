@@ -1,0 +1,571 @@
+[
+  {
+    "rank": "I",
+    "researchable_vehicles": [
+      [
+        {
+          "type": "single",
+          "title": "LS 3",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/germ_ls_class.png",
+          "br": "1.0",
+          "rp": null,
+          "sp": null,
+          "data_unit_id": "germ_ls_class",
+          "selected": false,
+          "class_name": "",
+          "details": true,
+          "main_role": "Boat"
+        },
+        {
+          "type": "single",
+          "title": "S-38",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/germ_s38.png",
+          "br": "1.0",
+          "rp": null,
+          "sp": null,
+          "data_unit_id": "germ_s38",
+          "selected": false,
+          "class_name": "",
+          "details": true,
+          "main_role": "Boat"
+        }
+      ],
+      [
+        {
+          "type": "single",
+          "title": "R-41",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/germ_rboot_r41.png",
+          "br": "1.0",
+          "rp": "2,900",
+          "sp": "700",
+          "data_unit_id": "germ_rboot_r41",
+          "selected": false,
+          "class_name": "",
+          "details": true,
+          "main_role": "Boat"
+        }
+      ],
+      []
+    ],
+    "premium_vehicles": [
+      [
+        {
+          "type": "single",
+          "title": "LS 4 Esau",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/germ_ls4_class.png",
+          "br": "1.0",
+          "rp": 0,
+          "sp": 0,
+          "data_unit_id": "germ_ls4_class",
+          "selected": false,
+          "class_name": "prem",
+          "details": true,
+          "main_role": "Boat"
+        },
+        {
+          "type": "single",
+          "title": "KM-5",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/germ_km5.png",
+          "br": "1.7",
+          "rp": 0,
+          "sp": 0,
+          "data_unit_id": "germ_km5",
+          "selected": false,
+          "class_name": "prem",
+          "details": true,
+          "main_role": "Boat"
+        }
+      ],
+      []
+    ],
+    "selected": [],
+    "unlock_quantity": 0
+  },
+  {
+    "rank": "II",
+    "researchable_vehicles": [
+      [
+        {
+          "type": "single",
+          "title": "S-38b",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/germ_s38b.png",
+          "br": "1.7",
+          "rp": "7,900",
+          "sp": "10,000",
+          "data_unit_id": "germ_s38b",
+          "selected": false,
+          "class_name": "",
+          "details": true,
+          "main_role": "Boat"
+        },
+        {
+          "type": "single",
+          "title": "S-61",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/germ_s30_s61.png",
+          "br": "1.7",
+          "rp": "9,200",
+          "sp": "16,000",
+          "data_unit_id": "germ_s30_s61",
+          "selected": false,
+          "class_name": "",
+          "details": true,
+          "main_role": "Boat"
+        },
+        {
+          "type": "single",
+          "title": "S-100",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/germ_s_100_class.png",
+          "br": "2.3",
+          "rp": "11,000",
+          "sp": "22,000",
+          "data_unit_id": "germ_s_100_class",
+          "selected": false,
+          "class_name": "",
+          "details": true,
+          "main_role": "Boat"
+        }
+      ],
+      [
+        {
+          "type": "single",
+          "title": "R-130",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/germ_rboot_r130.png",
+          "br": "2.0",
+          "rp": "9,200",
+          "sp": "16,000",
+          "data_unit_id": "germ_rboot_r130",
+          "selected": false,
+          "class_name": "",
+          "details": true,
+          "main_role": "Boat"
+        },
+        {
+          "type": "single",
+          "title": "R-301",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/germ_rboot_r301.png",
+          "br": "2.3",
+          "rp": "14,000",
+          "sp": "32,000",
+          "data_unit_id": "germ_rboot_r301",
+          "selected": false,
+          "class_name": "",
+          "details": true,
+          "main_role": "Boat"
+        }
+      ],
+      []
+    ],
+    "premium_vehicles": [
+      [],
+      []
+    ],
+    "selected": [],
+    "unlock_quantity": 0
+  },
+  {
+    "rank": "III",
+    "researchable_vehicles": [
+      [
+        {
+          "type": "single",
+          "title": "S-147",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/germ_s_100_s_174_class.png",
+          "br": "2.7",
+          "rp": "26,000",
+          "sp": "76,000",
+          "data_unit_id": "germ_s_100_s_174_class",
+          "selected": false,
+          "class_name": "",
+          "details": true,
+          "main_role": "Boat"
+        },
+        {
+          "type": "single",
+          "title": "V-990",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/germ_pr_131.png",
+          "br": "3.0",
+          "rp": "36,000",
+          "sp": "115,000",
+          "data_unit_id": "germ_pr_131",
+          "selected": false,
+          "class_name": "",
+          "details": true,
+          "main_role": "Boat"
+        }
+      ],
+      [
+        {
+          "type": "single",
+          "title": "SF40 Heavy",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/germ_sf40_schwere_flakkampffaehre.png",
+          "br": "2.7",
+          "rp": "18,000",
+          "sp": "47,000",
+          "data_unit_id": "germ_sf40_schwere_flakkampffaehre",
+          "selected": false,
+          "class_name": "",
+          "details": true,
+          "main_role": "Barge"
+        },
+        {
+          "type": "single",
+          "title": "SF40 Light",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/germ_sf40_leichte_flakkampffaehre.png",
+          "br": "2.7",
+          "rp": "48,000",
+          "sp": "180,000",
+          "data_unit_id": "germ_sf40_leichte_flakkampffaehre",
+          "selected": false,
+          "class_name": "",
+          "details": true,
+          "main_role": "Barge"
+        }
+      ],
+      []
+    ],
+    "premium_vehicles": [
+      [
+        {
+          "type": "single",
+          "title": "S-204 Lang",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/germ_s_100_s204_lang.png",
+          "br": "2.3",
+          "rp": 0,
+          "sp": 0,
+          "data_unit_id": "germ_s_100_s204_lang",
+          "selected": false,
+          "class_name": "prem",
+          "details": true,
+          "main_role": "Boat"
+        },
+        {
+          "type": "single",
+          "title": "VS-8",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/germ_vs8_hydrofoil.png",
+          "br": "2.7",
+          "rp": 0,
+          "sp": 0,
+          "data_unit_id": "germ_vs8_hydrofoil",
+          "selected": false,
+          "class_name": "prem",
+          "details": true,
+          "main_role": "Boat"
+        }
+      ],
+      [
+        {
+          "type": "single",
+          "title": "S-701",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/germ_s_700_s_701.png",
+          "br": "2.7",
+          "rp": 0,
+          "sp": 0,
+          "data_unit_id": "germ_s_700_s_701",
+          "selected": false,
+          "class_name": "prem",
+          "details": true,
+          "main_role": "Boat"
+        }
+      ]
+    ],
+    "selected": [],
+    "unlock_quantity": 0
+  },
+  {
+    "rank": "IV",
+    "researchable_vehicles": [
+      [
+        {
+          "type": "single",
+          "title": "VS-10",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/germ_vs10_hydrofoil.png",
+          "br": "3.0",
+          "rp": "75,000",
+          "sp": "250,000",
+          "data_unit_id": "germ_vs10_hydrofoil",
+          "selected": false,
+          "class_name": "",
+          "details": true,
+          "main_role": "Boat"
+        },
+        {
+          "type": "single",
+          "title": "MZ1",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/germ_mz_1.png",
+          "br": "3.0",
+          "rp": "89,000",
+          "sp": "300,000",
+          "data_unit_id": "germ_mz_1",
+          "selected": false,
+          "class_name": "",
+          "details": true,
+          "main_role": "Heavy boat"
+        },
+        {
+          "type": "single",
+          "title": "Drache",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/germ_minelayer_drache.png",
+          "br": "3.7",
+          "rp": "120,000",
+          "sp": "360,000",
+          "data_unit_id": "germ_minelayer_drache",
+          "selected": false,
+          "class_name": "",
+          "details": true,
+          "main_role": "Heavy boat"
+        }
+      ],
+      [
+        {
+          "type": "single",
+          "title": "AF D1",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/germ_artilleriefahrprahm_typ_d1.png",
+          "br": "2.7",
+          "rp": "61,000",
+          "sp": "230,000",
+          "data_unit_id": "germ_artilleriefahrprahm_typ_d1",
+          "selected": false,
+          "class_name": "",
+          "details": true,
+          "main_role": "Barge"
+        },
+        {
+          "type": "single",
+          "title": "AF D3",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/germ_artilleriefahrprahm_typ_d3.png",
+          "br": "3.3",
+          "rp": "89,000",
+          "sp": "300,000",
+          "data_unit_id": "germ_artilleriefahrprahm_typ_d3",
+          "selected": false,
+          "class_name": "",
+          "details": true,
+          "main_role": "Barge"
+        },
+        {
+          "type": "single",
+          "title": "M-17",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/germ_escort_typem1935.png",
+          "br": "4.3",
+          "rp": "120,000",
+          "sp": "360,000",
+          "data_unit_id": "germ_escort_typem1935",
+          "selected": false,
+          "class_name": "",
+          "details": true,
+          "main_role": "Heavy boat"
+        }
+      ],
+      [
+        {
+          "type": "single",
+          "title": "Krischan der Große",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/germ_rdm242.png",
+          "br": "2.7",
+          "rp": "89,000",
+          "sp": "300,000",
+          "data_unit_id": "germ_rdm242",
+          "selected": false,
+          "class_name": "",
+          "details": true,
+          "main_role": "Boat"
+        },
+        {
+          "type": "single",
+          "title": "Schütze",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/germ_schutze_class.png",
+          "br": "3.0",
+          "rp": "120,000",
+          "sp": "360,000",
+          "data_unit_id": "germ_schutze_class",
+          "selected": false,
+          "class_name": "",
+          "details": true,
+          "main_role": "Boat"
+        },
+        {
+          "type": "single",
+          "title": "Bernau",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/germ_kondor2_class.png",
+          "br": "3.3",
+          "rp": "220,000",
+          "sp": "640,000",
+          "data_unit_id": "germ_kondor2_class",
+          "selected": false,
+          "class_name": "",
+          "details": true,
+          "main_role": "Heavy boat"
+        }
+      ]
+    ],
+    "premium_vehicles": [
+      [
+        {
+          "type": "single",
+          "title": "M-802",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/germ_escort_typem1943.png",
+          "br": "4.3",
+          "rp": 0,
+          "sp": 0,
+          "data_unit_id": "germ_escort_typem1943",
+          "selected": false,
+          "class_name": "prem",
+          "details": true,
+          "main_role": "Heavy boat"
+        },
+        {
+          "type": "single",
+          "title": "Karl Marx",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/germ_skr_pr50_karl_marx.png",
+          "br": "4.0",
+          "rp": "460,000",
+          "sp": "640,000",
+          "data_unit_id": "germ_skr_pr50_karl_marx",
+          "selected": false,
+          "class_name": "squad",
+          "details": true,
+          "main_role": "Frigate"
+        }
+      ],
+      [
+        {
+          "type": "single",
+          "title": "Lübeck",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/germ_frigate_koln_lubeck.png",
+          "br": "4.7",
+          "rp": 0,
+          "sp": 0,
+          "data_unit_id": "germ_frigate_koln_lubeck",
+          "selected": false,
+          "class_name": "prem",
+          "details": true,
+          "main_role": "Frigate"
+        }
+      ]
+    ],
+    "selected": [],
+    "unlock_quantity": 0
+  },
+  {
+    "rank": "V",
+    "researchable_vehicles": [
+      [
+        {
+          "type": "single",
+          "title": "Albatros",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/germ_type143_albatros.png",
+          "br": "3.7",
+          "rp": "220,000",
+          "sp": "640,000",
+          "data_unit_id": "germ_type143_albatros",
+          "selected": false,
+          "class_name": "",
+          "details": true,
+          "main_role": "Heavy boat"
+        },
+        {
+          "type": "single",
+          "title": "Pr. 206",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/germ_pr_206.png",
+          "br": "4.3",
+          "rp": "320,000",
+          "sp": "860,000",
+          "data_unit_id": "germ_pr_206",
+          "selected": false,
+          "class_name": "",
+          "details": true,
+          "main_role": "Heavy boat"
+        }
+      ],
+      [
+        {
+          "type": "single",
+          "title": "Jaguar",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/germ_type140_jaguar.png",
+          "br": "4.0",
+          "rp": "250,000",
+          "sp": "700,000",
+          "data_unit_id": "germ_type140_jaguar",
+          "selected": false,
+          "class_name": "",
+          "details": true,
+          "main_role": "Boat"
+        },
+        {
+          "type": "single",
+          "title": "Köln",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/germ_frigate_koln.png",
+          "br": "4.7",
+          "rp": "320,000",
+          "sp": "860,000",
+          "data_unit_id": "germ_frigate_koln",
+          "selected": false,
+          "class_name": "",
+          "details": true,
+          "main_role": "Frigate"
+        }
+      ],
+      [
+        {
+          "type": "single",
+          "title": "Parchim",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/germ_pr1331.png",
+          "br": "4.0",
+          "rp": "250,000",
+          "sp": "700,000",
+          "data_unit_id": "germ_pr1331",
+          "selected": false,
+          "class_name": "",
+          "details": true,
+          "main_role": "Frigate"
+        },
+        {
+          "type": "single",
+          "title": "Hugin",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/germ_type152_hugin.png",
+          "br": "4.0",
+          "rp": "280,000",
+          "sp": "780,000",
+          "data_unit_id": "germ_type152_hugin",
+          "selected": false,
+          "class_name": "",
+          "details": true,
+          "main_role": "Boat"
+        },
+        {
+          "type": "single",
+          "title": "Pfeil",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/germ_type153_pfeil.png",
+          "br": "4.3",
+          "rp": "320,000",
+          "sp": "860,000",
+          "data_unit_id": "germ_type153_pfeil",
+          "selected": false,
+          "class_name": "",
+          "details": true,
+          "main_role": "Boat"
+        }
+      ]
+    ],
+    "premium_vehicles": [
+      [
+        {
+          "type": "single",
+          "title": "Bussard",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/germ_type143_bussard.png",
+          "br": "3.7",
+          "rp": null,
+          "sp": null,
+          "data_unit_id": "germ_type143_bussard",
+          "selected": false,
+          "class_name": "",
+          "details": true,
+          "main_role": "Heavy boat"
+        }
+      ],
+      []
+    ],
+    "selected": [],
+    "unlock_quantity": 0
+  }
+]

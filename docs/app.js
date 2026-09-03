@@ -83,14 +83,28 @@ function setStatus(text) {
   els.statusText.textContent = text;
 }
 
-async function api(path, options) {
-  const response = await fetch(path, {
-    headers: { "Content-Type": "application/json" },
-    ...options,
-  });
-  const data = await response.json();
-  if (!response.ok || data.success === false) throw new Error(data.error || "Request failed");
-  return data;
+const staticCountries = ["usa", "germany", "ussr", "britain", "japan", "china", "italy", "france", "sweden", "israel"];
+const staticTypes = ["ground", "aviation", "helicopters", "ships", "boats"];
+
+async function api(path) {
+  if (path === "/api/meta") {
+    return {
+      success: true,
+      countries: staticCountries.map((code) => ({ code, label: translateCountry(code) })),
+      types: staticTypes.map((code) => ({ code, label: translateType(code) })),
+    };
+  }
+
+  const treeMatch = path.match(/^\/api\/tree\/([^/]+)\/([^/]+)$/);
+  if (treeMatch) {
+    const [, country, type] = treeMatch;
+    const response = await fetch(`database/${country}/${country}_${type}.json`, { cache: "no-cache" });
+    if (!response.ok) throw new Error("网页数据暂不可用");
+    const raw = await response.json();
+    return { success: true, country, type, data: Array.isArray(raw) ? raw : raw.data || [] };
+  }
+
+  throw new Error("网页版使用随发布更新的科技树数据");
 }
 
 function storageKey() {
@@ -697,7 +711,7 @@ async function loadMeta() {
 async function loadTree() {
   state.country = els.countrySelect.value;
   state.type = els.typeSelect.value;
-  setStatus("正在读取本地数据库");
+  setStatus("正在读取网页数据");
   els.treeContainer.innerHTML = `<div class="loading">正在载入科技树</div>`;
 
   loadSavedState();
@@ -770,7 +784,7 @@ function wireEvents() {
     calculatePlan();
   });
 
-  els.refreshDataButton.addEventListener("click", refreshCurrentTree);
+  if (els.refreshDataButton) els.refreshDataButton.addEventListener("click", refreshCurrentTree);
 
   window.addEventListener("resize", renderTreeConnections);
 

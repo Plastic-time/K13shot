@@ -1,0 +1,148 @@
+[
+  {
+    "rank": "V",
+    "researchable_vehicles": [
+      [
+        {
+          "type": "single",
+          "title": "Tzefa A",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/ah_1g_iaf.png",
+          "br": "8.0",
+          "rp": null,
+          "sp": "390,000",
+          "data_unit_id": "ah_1g_iaf",
+          "selected": false,
+          "class_name": "",
+          "details": true,
+          "main_role": "Attack helicopter"
+        }
+      ],
+      [
+        {
+          "type": "single",
+          "title": "Lahatut",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/md_500_tow_late.png",
+          "br": "9.0",
+          "rp": "150,000",
+          "sp": "490,000",
+          "data_unit_id": "md_500_tow_late",
+          "selected": false,
+          "class_name": "",
+          "details": true,
+          "main_role": "Attack helicopter"
+        }
+      ]
+    ],
+    "premium_vehicles": [
+      []
+    ],
+    "selected": [],
+    "unlock_quantity": 0
+  },
+  {
+    "rank": "VI",
+    "researchable_vehicles": [
+      [
+        {
+          "type": "single",
+          "title": "Tzefa B",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/ah_1q_iaf.png",
+          "br": "9.0",
+          "rp": "360,000",
+          "sp": "980,000",
+          "data_unit_id": "ah_1q_iaf",
+          "selected": false,
+          "class_name": "",
+          "details": true,
+          "main_role": "Attack helicopter"
+        },
+        {
+          "type": "single",
+          "title": "Tzefa D/E",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/ah_1f_iaf.png",
+          "br": "9.7",
+          "rp": "380,000",
+          "sp": "1,000,000",
+          "data_unit_id": "ah_1f_iaf",
+          "selected": false,
+          "class_name": "",
+          "details": true,
+          "main_role": "Attack helicopter"
+        },
+        {
+          "type": "single",
+          "title": "Peten",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/ah_64a_iaf.png",
+          "br": "11.7",
+          "rp": "390,000",
+          "sp": "1,010,000",
+          "data_unit_id": "ah_64a_iaf",
+          "selected": false,
+          "class_name": "",
+          "details": true,
+          "main_role": "Attack helicopter"
+        }
+      ],
+      []
+    ],
+    "premium_vehicles": [
+      [
+        {
+          "type": "single",
+          "title": "AH-64A Peten",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/ah_64a_peten_iaf.png",
+          "br": "11.7",
+          "rp": 0,
+          "sp": 0,
+          "data_unit_id": "ah_64a_peten_iaf",
+          "selected": false,
+          "class_name": "prem",
+          "details": true,
+          "main_role": "Attack helicopter"
+        }
+      ]
+    ],
+    "selected": [],
+    "unlock_quantity": 0
+  },
+  {
+    "rank": "VII",
+    "researchable_vehicles": [
+      [
+        {
+          "type": "single",
+          "title": "Saraph",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/ah_64d_i_saraph.png",
+          "br": "12.0",
+          "rp": "400,000",
+          "sp": "1,020,000",
+          "data_unit_id": "ah_64d_i_saraph",
+          "selected": false,
+          "class_name": "",
+          "details": true,
+          "main_role": "Attack helicopter"
+        }
+      ],
+      [
+        {
+          "type": "single",
+          "title": "AH-60",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/ah_60_iaf.png",
+          "br": "13.0",
+          "rp": "400,000",
+          "sp": "1,020,000",
+          "data_unit_id": "ah_60_iaf",
+          "selected": false,
+          "class_name": "",
+          "details": true,
+          "main_role": "Attack helicopter"
+        }
+      ]
+    ],
+    "premium_vehicles": [
+      []
+    ],
+    "selected": [],
+    "unlock_quantity": 0
+  }
+]

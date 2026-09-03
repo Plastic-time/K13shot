@@ -1,0 +1,215 @@
+[
+  {
+    "rank": "V",
+    "researchable_vehicles": [
+      [
+        {
+          "type": "single",
+          "title": "Z-11WA",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/z_11wa.png",
+          "br": "8.7",
+          "rp": null,
+          "sp": "390,000",
+          "data_unit_id": "z_11wa",
+          "selected": false,
+          "class_name": "",
+          "details": true,
+          "main_role": "Attack helicopter"
+        }
+      ],
+      [
+        {
+          "type": "single",
+          "title": "SA.342L Gazelle",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/sa_342l_china.png",
+          "br": "8.7",
+          "rp": "150,000",
+          "sp": "490,000",
+          "data_unit_id": "sa_342l_china",
+          "selected": false,
+          "class_name": "",
+          "details": true,
+          "main_role": "Utility helicopter"
+        }
+      ]
+    ],
+    "premium_vehicles": [
+      []
+    ],
+    "selected": [],
+    "unlock_quantity": 0
+  },
+  {
+    "rank": "VI",
+    "researchable_vehicles": [
+      [
+        {
+          "type": "single",
+          "title": "Z-9W",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/z_9w.png",
+          "br": "10.3",
+          "rp": "360,000",
+          "sp": "980,000",
+          "data_unit_id": "z_9w",
+          "selected": false,
+          "class_name": "",
+          "details": true,
+          "main_role": "Attack helicopter"
+        },
+        {
+          "type": "single",
+          "title": "Z-9WA",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/z_9wa.png",
+          "br": "11.0",
+          "rp": "380,000",
+          "sp": "1,000,000",
+          "data_unit_id": "z_9wa",
+          "selected": false,
+          "class_name": "",
+          "details": true,
+          "main_role": "Attack helicopter"
+        },
+        {
+          "type": "single",
+          "title": "Z-19",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/z_19.png",
+          "br": "11.3",
+          "rp": "390,000",
+          "sp": "1,010,000",
+          "data_unit_id": "z_19",
+          "selected": false,
+          "class_name": "",
+          "details": true,
+          "main_role": "Attack helicopter"
+        }
+      ],
+      [
+        {
+          "type": "single",
+          "title": "␗OH-58D",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/oh_58d_china.png",
+          "br": "10.3",
+          "rp": "380,000",
+          "sp": "1,000,000",
+          "data_unit_id": "oh_58d_china",
+          "selected": false,
+          "class_name": "",
+          "details": true,
+          "main_role": "Attack helicopter"
+        },
+        {
+          "type": "single",
+          "title": "␗AH-1W",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/ah_1w_china.png",
+          "br": "11.0",
+          "rp": "390,000",
+          "sp": "1,010,000",
+          "data_unit_id": "ah_1w_china",
+          "selected": false,
+          "class_name": "",
+          "details": true,
+          "main_role": "Attack helicopter"
+        }
+      ]
+    ],
+    "premium_vehicles": [
+      [
+        {
+          "type": "single",
+          "title": "▄Mi-35M",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/mi_35m_pakistan.png",
+          "br": "10.7",
+          "rp": 0,
+          "sp": 0,
+          "data_unit_id": "mi_35m_pakistan",
+          "selected": false,
+          "class_name": "prem",
+          "details": true,
+          "main_role": "Attack helicopter"
+        },
+        {
+          "type": "single",
+          "title": "Z-19E",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/z_19e.png",
+          "br": "11.3",
+          "rp": 0,
+          "sp": 0,
+          "data_unit_id": "z_19e",
+          "selected": false,
+          "class_name": "prem",
+          "details": true,
+          "main_role": "Attack helicopter"
+        }
+      ]
+    ],
+    "selected": [],
+    "unlock_quantity": 0
+  },
+  {
+    "rank": "VII",
+    "researchable_vehicles": [
+      [
+        {
+          "type": "single",
+          "title": "Z-10",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/z_10.png",
+          "br": "11.7",
+          "rp": "400,000",
+          "sp": "1,020,000",
+          "data_unit_id": "z_10",
+          "selected": false,
+          "class_name": "",
+          "details": true,
+          "main_role": "Attack helicopter"
+        },
+        {
+          "type": "single",
+          "title": "Z-10ME",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/z_10me.png",
+          "br": "13.0",
+          "rp": "400,000",
+          "sp": "1,030,000",
+          "data_unit_id": "z_10me",
+          "selected": false,
+          "class_name": "",
+          "details": true,
+          "main_role": "Attack helicopter"
+        }
+      ],
+      [
+        {
+          "type": "single",
+          "title": "␗AH-64E",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/ah_64e_china.png",
+          "br": "13.0",
+          "rp": "400,000",
+          "sp": "1,030,000",
+          "data_unit_id": "ah_64e_china",
+          "selected": false,
+          "class_name": "",
+          "details": true,
+          "main_role": "Attack helicopter"
+        }
+      ]
+    ],
+    "premium_vehicles": [
+      [
+        {
+          "type": "single",
+          "title": "Z-10A",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/z_10a.png",
+          "br": "11.7",
+          "rp": "520,000",
+          "sp": "1,070,000",
+          "data_unit_id": "z_10a",
+          "selected": false,
+          "class_name": "squad",
+          "details": true,
+          "main_role": "Attack helicopter"
+        }
+      ]
+    ],
+    "selected": [],
+    "unlock_quantity": 0
+  }
+]

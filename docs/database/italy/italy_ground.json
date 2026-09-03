@@ -1,0 +1,1690 @@
+[
+  {
+    "rank": "I",
+    "researchable_vehicles": [
+      [
+        {
+          "type": "single",
+          "title": "AB 41",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/it_ab_41.png",
+          "br": "1.0",
+          "rp": null,
+          "sp": null,
+          "data_unit_id": "it_ab_41",
+          "selected": false,
+          "class_name": "",
+          "details": true,
+          "main_role": "Light tank"
+        },
+        {
+          "type": "single",
+          "title": "M11/39",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/it_m11_39.png",
+          "br": "1.0",
+          "rp": "2,900",
+          "sp": "700",
+          "data_unit_id": "it_m11_39",
+          "selected": false,
+          "class_name": "",
+          "details": true,
+          "main_role": "Light tank"
+        },
+        {
+          "type": "single",
+          "title": "AS 42/47",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/it_as_42_47.png",
+          "br": "2.0",
+          "rp": "4,000",
+          "sp": "2,100",
+          "data_unit_id": "it_as_42_47",
+          "selected": false,
+          "class_name": "",
+          "details": true,
+          "main_role": "Light tank"
+        }
+      ],
+      [
+        {
+          "type": "single",
+          "title": "L6/40",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/it_l6.png",
+          "br": "1.0",
+          "rp": null,
+          "sp": null,
+          "data_unit_id": "it_l6",
+          "selected": false,
+          "class_name": "",
+          "details": true,
+          "main_role": "Light tank"
+        },
+        {
+          "type": "multiple",
+          "title": "M13/40 I/III",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/it_m13_40_group.png",
+          "selected": false,
+          "br": "1.7-2.0",
+          "data_unit_id": "it_m13_40_group",
+          "class_name": "",
+          "items": [
+            {
+              "type": "single",
+              "title": "M13/40 (I)",
+              "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/it_m13_40_serie_1.png",
+              "br": "1.7",
+              "rp": "2,900",
+              "sp": "700",
+              "data_unit_id": "it_m13_40_serie_1",
+              "selected": false,
+              "class_name": "",
+              "details": true,
+              "main_role": "Medium tank"
+            },
+            {
+              "type": "single",
+              "title": "M13/40 (III)",
+              "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/it_m13_40_serie_3.png",
+              "br": "2.0",
+              "rp": "2,000",
+              "sp": "2,100",
+              "data_unit_id": "it_m13_40_serie_3",
+              "selected": false,
+              "class_name": "",
+              "details": true,
+              "main_role": "Medium tank"
+            }
+          ],
+          "details": true
+        },
+        {
+          "type": "single",
+          "title": "M14/41",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/it_m14_41.png",
+          "br": "2.0",
+          "rp": "5,900",
+          "sp": "6,300",
+          "data_unit_id": "it_m14_41",
+          "selected": false,
+          "class_name": "",
+          "details": true,
+          "main_role": "Medium tank"
+        }
+      ],
+      [
+        {
+          "type": "single",
+          "title": "AS 42",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/it_as_42_metropolitana.png",
+          "br": "1.3",
+          "rp": "2,900",
+          "sp": "700",
+          "data_unit_id": "it_as_42_metropolitana",
+          "selected": false,
+          "class_name": "",
+          "details": true,
+          "main_role": "SPAA"
+        }
+      ],
+      [
+        {
+          "type": "single",
+          "title": "L3/33 CC",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/it_l3_cc.png",
+          "br": "1.0",
+          "rp": "2,900",
+          "sp": "700",
+          "data_unit_id": "it_l3_cc",
+          "selected": false,
+          "class_name": "",
+          "details": true,
+          "main_role": "Tank destroyer"
+        },
+        {
+          "type": "single",
+          "title": "47/32 L40",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/it_semovente_l40.png",
+          "br": "1.3",
+          "rp": "4,000",
+          "sp": "2,100",
+          "data_unit_id": "it_semovente_l40",
+          "selected": false,
+          "class_name": "",
+          "details": true,
+          "main_role": "Tank destroyer"
+        },
+        {
+          "type": "single",
+          "title": "Lancia 3Ro (100/17)",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/it_lancia3ro_100.png",
+          "br": "1.7",
+          "rp": "5,900",
+          "sp": "6,300",
+          "data_unit_id": "it_lancia3ro_100",
+          "selected": false,
+          "class_name": "",
+          "details": true,
+          "main_role": "Tank destroyer"
+        }
+      ],
+      [
+        {
+          "type": "single",
+          "title": "Csaba",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/it_39m_csaba.png",
+          "br": "1.0",
+          "rp": "2,900",
+          "sp": "700",
+          "data_unit_id": "it_39m_csaba",
+          "selected": false,
+          "class_name": "",
+          "details": true,
+          "main_role": "Light tank"
+        }
+      ]
+    ],
+    "premium_vehicles": [
+      [
+        {
+          "type": "single",
+          "title": "L6/40 (31 Rgt.)",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/it_l6_leone.png",
+          "br": "1.0",
+          "rp": 0,
+          "sp": 0,
+          "data_unit_id": "it_l6_leone",
+          "selected": false,
+          "class_name": "prem",
+          "details": true,
+          "main_role": "Light tank"
+        },
+        {
+          "type": "single",
+          "title": "M13/40 (II)",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/it_m13_40_serie_2.png",
+          "br": "2.0",
+          "rp": 0,
+          "sp": 0,
+          "data_unit_id": "it_m13_40_serie_2",
+          "selected": false,
+          "class_name": "prem",
+          "details": true,
+          "main_role": "Medium tank"
+        }
+      ],
+      [
+        {
+          "type": "single",
+          "title": "Toldi IIA",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/it_toldi_ii_a.png",
+          "br": "1.3",
+          "rp": 0,
+          "sp": 0,
+          "data_unit_id": "it_toldi_ii_a",
+          "selected": false,
+          "class_name": "prem",
+          "details": true,
+          "main_role": "Light tank"
+        }
+      ]
+    ],
+    "selected": [],
+    "unlock_quantity": 0
+  },
+  {
+    "rank": "II",
+    "researchable_vehicles": [
+      [
+        {
+          "type": "single",
+          "title": "AB 43",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/it_ab_43.png",
+          "br": "2.7",
+          "rp": "7,900",
+          "sp": "10,000",
+          "data_unit_id": "it_ab_43",
+          "selected": false,
+          "class_name": "",
+          "details": true,
+          "main_role": "Light tank"
+        },
+        {
+          "type": "single",
+          "title": "▄M3A3",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/it_m3a3_stuart.png",
+          "br": "2.7",
+          "rp": "9,200",
+          "sp": "16,000",
+          "data_unit_id": "it_m3a3_stuart",
+          "selected": false,
+          "class_name": "",
+          "details": true,
+          "main_role": "Light tank"
+        }
+      ],
+      [
+        {
+          "type": "multiple",
+          "title": "M15/Pz.III",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/it_m15_pz_3_group.png",
+          "selected": false,
+          "br": "2.7-3.0",
+          "data_unit_id": "it_m15_pz_3_group",
+          "class_name": "",
+          "items": [
+            {
+              "type": "single",
+              "title": "M15/42",
+              "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/it_m15_42.png",
+              "br": "2.7",
+              "rp": "7,900",
+              "sp": "10,000",
+              "data_unit_id": "it_m15_42",
+              "selected": false,
+              "class_name": "",
+              "details": true,
+              "main_role": "Medium tank"
+            },
+            {
+              "type": "single",
+              "title": "▄Pz.III N",
+              "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/it_pzkpfw_iii_ausf_n.png",
+              "br": "3.0",
+              "rp": "4,600",
+              "sp": "16,000",
+              "data_unit_id": "it_pzkpfw_iii_ausf_n",
+              "selected": false,
+              "class_name": "",
+              "details": true,
+              "main_role": "Medium tank"
+            }
+          ],
+          "details": true
+        },
+        {
+          "type": "single",
+          "title": "P40",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/it_p_40.png",
+          "br": "3.3",
+          "rp": "14,000",
+          "sp": "32,000",
+          "data_unit_id": "it_p_40",
+          "selected": false,
+          "class_name": "",
+          "details": true,
+          "main_role": "Medium tank"
+        }
+      ],
+      [
+        {
+          "type": "single",
+          "title": "CM52",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/it_fiat_cm52.png",
+          "br": "2.3",
+          "rp": "7,900",
+          "sp": "10,000",
+          "data_unit_id": "it_fiat_cm52",
+          "selected": false,
+          "class_name": "",
+          "details": true,
+          "main_role": "SPAA"
+        }
+      ],
+      [
+        {
+          "type": "multiple",
+          "title": "M41/M42",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/it_semovente_m41_group.png",
+          "selected": false,
+          "br": "2.0-2.3",
+          "data_unit_id": "it_semovente_m41_group",
+          "class_name": "",
+          "items": [
+            {
+              "type": "single",
+              "title": "75/18 M41",
+              "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/it_semovente_m41_75_18.png",
+              "br": "2.0",
+              "rp": "7,900",
+              "sp": "10,000",
+              "data_unit_id": "it_semovente_m41_75_18",
+              "selected": false,
+              "class_name": "",
+              "details": true,
+              "main_role": "Tank destroyer"
+            },
+            {
+              "type": "single",
+              "title": "75/32 M41",
+              "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/it_semovente_m41_75_32.png",
+              "br": "2.3",
+              "rp": "4,600",
+              "sp": "16,000",
+              "data_unit_id": "it_semovente_m41_75_32",
+              "selected": false,
+              "class_name": "",
+              "details": true,
+              "main_role": "Tank destroyer"
+            },
+            {
+              "type": "single",
+              "title": "75/34 M42",
+              "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/it_semovente_m42_75_34.png",
+              "br": "2.3",
+              "rp": "5,600",
+              "sp": "22,000",
+              "data_unit_id": "it_semovente_m42_75_34",
+              "selected": false,
+              "class_name": "",
+              "details": true,
+              "main_role": "Tank destroyer"
+            }
+          ],
+          "details": true
+        },
+        {
+          "type": "multiple",
+          "title": "M43 105/75",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/it_semovente_m43_group.png",
+          "selected": false,
+          "br": "3.0-3.3",
+          "data_unit_id": "it_semovente_m43_105_75_group",
+          "class_name": "",
+          "items": [
+            {
+              "type": "single",
+              "title": "105/25 M43",
+              "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/it_semovente_m43_105.png",
+              "br": "3.0",
+              "rp": "11,000",
+              "sp": "22,000",
+              "data_unit_id": "it_semovente_m43_105",
+              "selected": false,
+              "class_name": "",
+              "details": true,
+              "main_role": "Tank destroyer"
+            },
+            {
+              "type": "single",
+              "title": "75/34 M43",
+              "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/it_semovente_m43_75_34.png",
+              "br": "3.3",
+              "rp": "6,900",
+              "sp": "32,000",
+              "data_unit_id": "it_semovente_m43_75_34",
+              "selected": false,
+              "class_name": "",
+              "details": true,
+              "main_role": "Tank destroyer"
+            }
+          ],
+          "details": true
+        }
+      ],
+      [
+        {
+          "type": "single",
+          "title": "Turan I",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/it_40m_turan_1.png",
+          "br": "2.3",
+          "rp": "7,900",
+          "sp": "10,000",
+          "data_unit_id": "it_40m_turan_1",
+          "selected": false,
+          "class_name": "",
+          "details": true,
+          "main_role": "Medium tank"
+        },
+        {
+          "type": "single",
+          "title": "Zrinyi II",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/it_40_43m_zrinyi_2.png",
+          "br": "2.7",
+          "rp": "9,200",
+          "sp": "16,000",
+          "data_unit_id": "it_40_43m_zrinyi_2",
+          "selected": false,
+          "class_name": "",
+          "details": true,
+          "main_role": "Tank destroyer"
+        }
+      ]
+    ],
+    "premium_vehicles": [
+      [
+        {
+          "type": "single",
+          "title": "M14/41 (47/40)",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/it_m14_41_47_40.png",
+          "br": "2.3",
+          "rp": 0,
+          "sp": 0,
+          "data_unit_id": "it_m14_41_47_40",
+          "selected": false,
+          "class_name": "prem",
+          "details": true,
+          "main_role": "Medium tank"
+        },
+        {
+          "type": "single",
+          "title": "Celere Sahariano",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/it_sahariano.png",
+          "br": "2.7",
+          "rp": 0,
+          "sp": 0,
+          "data_unit_id": "it_sahariano",
+          "selected": false,
+          "class_name": "prem",
+          "details": true,
+          "main_role": "Medium tank"
+        }
+      ],
+      [
+        {
+          "type": "single",
+          "title": "Turan II",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/it_41m_turan_2.png",
+          "br": "2.3",
+          "rp": 0,
+          "sp": 0,
+          "data_unit_id": "it_41m_turan_2",
+          "selected": false,
+          "class_name": "prem",
+          "details": true,
+          "main_role": "Medium tank"
+        },
+        {
+          "type": "single",
+          "title": "P40 \"G.C. Leoncello\"",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/it_p_26_40.png",
+          "br": "3.3",
+          "rp": 0,
+          "sp": 0,
+          "data_unit_id": "it_p_26_40",
+          "selected": false,
+          "class_name": "prem",
+          "details": true,
+          "main_role": "Medium tank"
+        }
+      ]
+    ],
+    "selected": [],
+    "unlock_quantity": 0
+  },
+  {
+    "rank": "III",
+    "researchable_vehicles": [
+      [
+        {
+          "type": "single",
+          "title": "▄M24",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/it_m24_chaffee.png",
+          "br": "3.7",
+          "rp": "18,000",
+          "sp": "47,000",
+          "data_unit_id": "it_m24_chaffee",
+          "selected": false,
+          "class_name": "",
+          "details": true,
+          "main_role": "Light tank"
+        },
+        {
+          "type": "single",
+          "title": "▄M44",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/it_m44.png",
+          "br": "4.0",
+          "rp": "26,000",
+          "sp": "76,000",
+          "data_unit_id": "it_m44",
+          "selected": false,
+          "class_name": "",
+          "details": true,
+          "main_role": "Tank destroyer"
+        },
+        {
+          "type": "single",
+          "title": "Breda 501",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/it_semovente_breda_501.png",
+          "br": "5.0",
+          "rp": "40,000",
+          "sp": "135,000",
+          "data_unit_id": "it_semovente_breda_501",
+          "selected": false,
+          "class_name": "",
+          "details": true,
+          "main_role": "Tank destroyer"
+        }
+      ],
+      [
+        {
+          "type": "single",
+          "title": "▄Sherman V",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/it_m4a4_sherman.png",
+          "br": "3.7",
+          "rp": "18,000",
+          "sp": "47,000",
+          "data_unit_id": "it_m4a4_sherman",
+          "selected": false,
+          "class_name": "",
+          "details": true,
+          "main_role": "Medium tank"
+        },
+        {
+          "type": "single",
+          "title": "Sherman Ic",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/it_sherman_vii.png",
+          "br": "4.7",
+          "rp": "40,000",
+          "sp": "135,000",
+          "data_unit_id": "it_sherman_vii",
+          "selected": false,
+          "class_name": "",
+          "details": true,
+          "main_role": "Medium tank"
+        }
+      ],
+      [
+        {
+          "type": "single",
+          "title": "M42 Contraereo",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/it_m15_42_contraereo.png",
+          "br": "3.7",
+          "rp": "18,000",
+          "sp": "47,000",
+          "data_unit_id": "it_m15_42_contraereo",
+          "selected": false,
+          "class_name": "",
+          "details": true,
+          "main_role": "SPAA"
+        }
+      ],
+      [
+        {
+          "type": "single",
+          "title": "▄M55",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/it_m55.png",
+          "br": "4.0",
+          "rp": "18,000",
+          "sp": "47,000",
+          "data_unit_id": "it_m55",
+          "selected": false,
+          "class_name": "",
+          "details": true,
+          "main_role": "Tank destroyer"
+        },
+        {
+          "type": "multiple",
+          "title": "M41M/StuG",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/it_semovente_stug_group.png",
+          "selected": false,
+          "br": "3.7-4.0",
+          "data_unit_id": "it_semovente_stug_group",
+          "class_name": "",
+          "items": [
+            {
+              "type": "single",
+              "title": "90/53 M41M",
+              "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/it_semovente_m41m_90.png",
+              "br": "3.7",
+              "rp": "26,000",
+              "sp": "76,000",
+              "data_unit_id": "it_semovente_m41m_90",
+              "selected": false,
+              "class_name": "",
+              "details": true,
+              "main_role": "Tank destroyer"
+            },
+            {
+              "type": "single",
+              "title": "▄StuG III G",
+              "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/it_stug_iii_ausf_g.png",
+              "br": "4.0",
+              "rp": "17,000",
+              "sp": "105,000",
+              "data_unit_id": "it_stug_iii_ausf_g",
+              "selected": false,
+              "class_name": "",
+              "details": true,
+              "main_role": "Tank destroyer"
+            }
+          ],
+          "details": true
+        },
+        {
+          "type": "single",
+          "title": "75/46 M43",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/it_semovente_m43_75_46.png",
+          "br": "4.7",
+          "rp": "40,000",
+          "sp": "135,000",
+          "data_unit_id": "it_semovente_m43_75_46",
+          "selected": false,
+          "class_name": "",
+          "details": true,
+          "main_role": "Tank destroyer"
+        }
+      ],
+      [
+        {
+          "type": "single",
+          "title": "Turan III",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/it_43m_turan_3.png",
+          "br": "4.0",
+          "rp": "18,000",
+          "sp": "47,000",
+          "data_unit_id": "it_43m_turan_3",
+          "selected": false,
+          "class_name": "",
+          "details": true,
+          "main_role": "Medium tank"
+        }
+      ]
+    ],
+    "premium_vehicles": [
+      [
+        {
+          "type": "single",
+          "title": "M43 \"G.C.Leoncello\"",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/it_semovente_m43_105_leoncello.png",
+          "br": "3.0",
+          "rp": 0,
+          "sp": 0,
+          "data_unit_id": "it_semovente_m43_105_leoncello",
+          "selected": false,
+          "class_name": "prem",
+          "details": true,
+          "main_role": "Tank destroyer"
+        },
+        {
+          "type": "single",
+          "title": "▄Sherman I Composito",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/it_sherman_75_37.png",
+          "br": "3.7",
+          "rp": 0,
+          "sp": 0,
+          "data_unit_id": "it_sherman_75_37",
+          "selected": false,
+          "class_name": "prem",
+          "details": true,
+          "main_role": "Medium tank"
+        },
+        {
+          "type": "single",
+          "title": "▄Pz.IV G",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/it_pzkpfw_iv_ausf_g.png",
+          "br": "3.7",
+          "rp": 0,
+          "sp": 0,
+          "data_unit_id": "it_pzkpfw_iv_ausf_g",
+          "selected": false,
+          "class_name": "prem",
+          "details": true,
+          "main_role": "Medium tank"
+        }
+      ],
+      [
+        {
+          "type": "single",
+          "title": "Zrinyi I",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/it_44m_zrinyi_1.png",
+          "br": "4.0",
+          "rp": 0,
+          "sp": 0,
+          "data_unit_id": "it_44m_zrinyi_1",
+          "selected": false,
+          "class_name": "prem",
+          "details": true,
+          "main_role": "Tank destroyer"
+        },
+        {
+          "type": "single",
+          "title": "Breda 90/53",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/it_breda_52_autocannone.png",
+          "br": "4.0",
+          "rp": 0,
+          "sp": 0,
+          "data_unit_id": "it_breda_52_autocannone",
+          "selected": false,
+          "class_name": "prem",
+          "details": true,
+          "main_role": "Tank destroyer"
+        }
+      ]
+    ],
+    "selected": [],
+    "unlock_quantity": 0
+  },
+  {
+    "rank": "IV",
+    "researchable_vehicles": [
+      [
+        {
+          "type": "single",
+          "title": "▄M18",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/it_m18_hellcat.png",
+          "br": "6.0",
+          "rp": "54,000",
+          "sp": "185,000",
+          "data_unit_id": "it_m18_hellcat",
+          "selected": false,
+          "class_name": "",
+          "details": true,
+          "main_role": "Light tank"
+        },
+        {
+          "type": "multiple",
+          "title": "AUBL/FIAT",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/it_fiat_group.png",
+          "selected": false,
+          "br": "6.7",
+          "data_unit_id": "it_fiat_group",
+          "class_name": "",
+          "items": [
+            {
+              "type": "single",
+              "title": "AUBL/74",
+              "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/it_fiat_6616_cockerill.png",
+              "br": "6.7",
+              "rp": "71,000",
+              "sp": "210,000",
+              "data_unit_id": "it_fiat_6616_cockerill",
+              "selected": false,
+              "class_name": "",
+              "details": true,
+              "main_role": "Light tank"
+            },
+            {
+              "type": "single",
+              "title": "FIAT 6614",
+              "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/it_fiat_6614_106sr.png",
+              "br": "6.7",
+              "rp": "35,000",
+              "sp": "210,000",
+              "data_unit_id": "it_fiat_6614_106sr",
+              "selected": false,
+              "class_name": "",
+              "details": true,
+              "main_role": "Light tank"
+            }
+          ],
+          "details": true
+        }
+      ],
+      [
+        {
+          "type": "single",
+          "title": "▄Sherman Vc",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/it_sherman_vc_firefly.png",
+          "br": "5.0",
+          "rp": "46,000",
+          "sp": "155,000",
+          "data_unit_id": "it_sherman_vc_firefly",
+          "selected": false,
+          "class_name": "",
+          "details": true,
+          "main_role": "Medium tank"
+        },
+        {
+          "type": "single",
+          "title": "M26A1",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/it_m26a1_pershing.png",
+          "br": "6.7",
+          "rp": "63,000",
+          "sp": "200,000",
+          "data_unit_id": "it_m26a1_pershing",
+          "selected": false,
+          "class_name": "",
+          "details": true,
+          "main_role": "Medium tank"
+        }
+      ],
+      [
+        {
+          "type": "single",
+          "title": "Leopard 40/70",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/it_leopard_bofors.png",
+          "br": "6.0",
+          "rp": "46,000",
+          "sp": "155,000",
+          "data_unit_id": "it_leopard_bofors",
+          "selected": false,
+          "class_name": "",
+          "details": true,
+          "main_role": "SPAA"
+        },
+        {
+          "type": "single",
+          "title": "R3 T20 FA-HS",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/it_oto_r3_t20_fa.png",
+          "br": "6.0",
+          "rp": "54,000",
+          "sp": "185,000",
+          "data_unit_id": "it_oto_r3_t20_fa",
+          "selected": false,
+          "class_name": "",
+          "details": true,
+          "main_role": "SPAA"
+        }
+      ],
+      [
+        {
+          "type": "single",
+          "title": "M36B1",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/it_m36b1.png",
+          "br": "5.7",
+          "rp": "54,000",
+          "sp": "185,000",
+          "data_unit_id": "it_m36b1",
+          "selected": false,
+          "class_name": "",
+          "details": true,
+          "main_role": "Tank destroyer"
+        },
+        {
+          "type": "single",
+          "title": "▄M109G",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/it_m109g.png",
+          "br": "6.0",
+          "rp": "63,000",
+          "sp": "200,000",
+          "data_unit_id": "it_m109g",
+          "selected": false,
+          "class_name": "",
+          "details": true,
+          "main_role": "Tank destroyer"
+        }
+      ],
+      [
+        {
+          "type": "single",
+          "title": "◔2S1",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/it_2s1.png",
+          "br": "6.0",
+          "rp": "54,000",
+          "sp": "185,000",
+          "data_unit_id": "it_2s1",
+          "selected": false,
+          "class_name": "",
+          "details": true,
+          "main_role": "Tank destroyer"
+        }
+      ]
+    ],
+    "premium_vehicles": [
+      [
+        {
+          "type": "single",
+          "title": "Tigris",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/it_pzkpfw_vi_ausf_e_tiger.png",
+          "br": "6.0",
+          "rp": 0,
+          "sp": 0,
+          "data_unit_id": "it_pzkpfw_vi_ausf_e_tiger",
+          "selected": false,
+          "class_name": "prem",
+          "details": true,
+          "main_role": "Heavy tank"
+        },
+        {
+          "type": "single",
+          "title": "M26 \"D.C.Ariete\"",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/it_m26_ariete.png",
+          "br": "6.7",
+          "rp": 0,
+          "sp": 0,
+          "data_unit_id": "it_m26_ariete",
+          "selected": false,
+          "class_name": "prem",
+          "details": true,
+          "main_role": "Medium tank"
+        }
+      ],
+      []
+    ],
+    "selected": [],
+    "unlock_quantity": 0
+  },
+  {
+    "rank": "V",
+    "researchable_vehicles": [
+      [
+        {
+          "type": "single",
+          "title": "C13 T90",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/it_c13_t90.png",
+          "br": "7.0",
+          "rp": "82,000",
+          "sp": "240,000",
+          "data_unit_id": "it_c13_t90",
+          "selected": false,
+          "class_name": "",
+          "details": true,
+          "main_role": "Light tank"
+        },
+        {
+          "type": "single",
+          "title": "R3 T106 FA",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/it_oto_r3_106sr.png",
+          "br": "8.0",
+          "rp": "120,000",
+          "sp": "340,000",
+          "data_unit_id": "it_oto_r3_106sr",
+          "selected": false,
+          "class_name": "",
+          "details": true,
+          "main_role": "Light tank"
+        }
+      ],
+      [
+        {
+          "type": "single",
+          "title": "M47 (105/55)",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/it_m47_105.png",
+          "br": "7.7",
+          "rp": "105,000",
+          "sp": "300,000",
+          "data_unit_id": "it_m47_105",
+          "selected": false,
+          "class_name": "",
+          "details": true,
+          "main_role": "Medium tank"
+        },
+        {
+          "type": "multiple",
+          "title": "OF/Leopard",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/it_of_leo_group.png",
+          "selected": false,
+          "br": "8.0",
+          "data_unit_id": "it_of_leo_group",
+          "class_name": "",
+          "items": [
+            {
+              "type": "single",
+              "title": "OF-40",
+              "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/it_of_40_mk_1.png",
+              "br": "8.0",
+              "rp": "135,000",
+              "sp": "380,000",
+              "data_unit_id": "it_of_40_mk_1",
+              "selected": false,
+              "class_name": "",
+              "details": true,
+              "main_role": "Medium tank"
+            },
+            {
+              "type": "single",
+              "title": "▄Leopard 1A2",
+              "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/it_leopard_1a2.png",
+              "br": "8.0",
+              "rp": "81,000",
+              "sp": "450,000",
+              "data_unit_id": "it_leopard_1a2",
+              "selected": false,
+              "class_name": "",
+              "details": true,
+              "main_role": "Medium tank"
+            }
+          ],
+          "details": true
+        }
+      ],
+      [
+        {
+          "type": "single",
+          "title": "◔ZSU-57-2",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/it_zsu_57_2.png",
+          "br": "7.0",
+          "rp": "82,000",
+          "sp": "240,000",
+          "data_unit_id": "it_zsu_57_2",
+          "selected": false,
+          "class_name": "",
+          "details": true,
+          "main_role": "SPAA"
+        },
+        {
+          "type": "single",
+          "title": "◔ZSU-23-4V",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/it_zsu_23_4.png",
+          "br": "8.0",
+          "rp": "135,000",
+          "sp": "380,000",
+          "data_unit_id": "it_zsu_23_4",
+          "selected": false,
+          "class_name": "",
+          "details": true,
+          "main_role": "SPAA"
+        }
+      ],
+      [],
+      [
+        {
+          "type": "single",
+          "title": "◔BTR-80A",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/it_btr_80a_hungary.png",
+          "br": "7.3",
+          "rp": "95,000",
+          "sp": "270,000",
+          "data_unit_id": "it_btr_80a_hungary",
+          "selected": false,
+          "class_name": "",
+          "details": true,
+          "main_role": "Light tank"
+        }
+      ]
+    ],
+    "premium_vehicles": [
+      [
+        {
+          "type": "single",
+          "title": "PzH 2000HU",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/it_pzh_2000_hu.png",
+          "br": "7.7",
+          "rp": 0,
+          "sp": 0,
+          "data_unit_id": "it_pzh_2000_hu",
+          "selected": false,
+          "class_name": "prem",
+          "details": true,
+          "main_role": "Tank destroyer"
+        },
+        {
+          "type": "single",
+          "title": "M60A1 \"D.C.Ariete\"",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/it_m60a1_ariete.png",
+          "br": "8.0",
+          "rp": 0,
+          "sp": 0,
+          "data_unit_id": "it_m60a1_ariete",
+          "selected": false,
+          "class_name": "prem",
+          "details": true,
+          "main_role": "Medium tank"
+        }
+      ],
+      [
+        {
+          "type": "single",
+          "title": "FIROS 6",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/it_fiat_6614_firos.png",
+          "br": "7.7",
+          "rp": null,
+          "sp": null,
+          "data_unit_id": "it_fiat_6614_firos",
+          "selected": false,
+          "class_name": "",
+          "details": true,
+          "main_role": "Light tank"
+        },
+        {
+          "type": "single",
+          "title": "AUBL/74 HVG",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/it_aubl_74_60_70m.png",
+          "br": "8.0",
+          "rp": 0,
+          "sp": 0,
+          "data_unit_id": "it_aubl_74_60_70m",
+          "selected": false,
+          "class_name": "prem",
+          "details": true,
+          "main_role": "Light tank"
+        }
+      ]
+    ],
+    "selected": [],
+    "unlock_quantity": 0
+  },
+  {
+    "rank": "VI",
+    "researchable_vehicles": [
+      [
+        {
+          "type": "single",
+          "title": "VCC-80/60",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/it_vcc_80_hitfist_60.png",
+          "br": "9.3",
+          "rp": "160,000",
+          "sp": "450,000",
+          "data_unit_id": "it_vcc_80_hitfist_60",
+          "selected": false,
+          "class_name": "",
+          "details": true,
+          "main_role": "Light tank"
+        },
+        {
+          "type": "multiple",
+          "title": "Centauro 105/105R",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/it_centauro_105_group.png",
+          "selected": false,
+          "br": "9.3-9.7",
+          "data_unit_id": "it_centauro_105_group",
+          "class_name": "",
+          "items": [
+            {
+              "type": "single",
+              "title": "Centauro I 105",
+              "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/it_b1_centauro.png",
+              "br": "9.3",
+              "rp": "190,000",
+              "sp": "520,000",
+              "data_unit_id": "it_b1_centauro",
+              "selected": false,
+              "class_name": "",
+              "details": true,
+              "main_role": "Light tank"
+            },
+            {
+              "type": "single",
+              "title": "Centauro I 105 R",
+              "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/it_b1_centauro_romor.png",
+              "br": "9.7",
+              "rp": "110,000",
+              "sp": "620,000",
+              "data_unit_id": "it_b1_centauro_romor",
+              "selected": false,
+              "class_name": "",
+              "details": true,
+              "main_role": "Light tank"
+            }
+          ],
+          "details": true
+        }
+      ],
+      [
+        {
+          "type": "single",
+          "title": "OF-40 Mk.2A",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/it_of_40_mk_2a.png",
+          "br": "9.0",
+          "rp": "190,000",
+          "sp": "520,000",
+          "data_unit_id": "it_of_40_mk_2a",
+          "selected": false,
+          "class_name": "",
+          "details": true,
+          "main_role": "Medium tank"
+        },
+        {
+          "type": "single",
+          "title": "▄Leopard 1A5",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/it_leopard_1a5.png",
+          "br": "9.3",
+          "rp": "220,000",
+          "sp": "620,000",
+          "data_unit_id": "it_leopard_1a5",
+          "selected": false,
+          "class_name": "",
+          "details": true,
+          "main_role": "Medium tank"
+        }
+      ],
+      [
+        {
+          "type": "single",
+          "title": "SIDAM 25",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/it_otobreda_sidam_25.png",
+          "br": "8.3",
+          "rp": "160,000",
+          "sp": "450,000",
+          "data_unit_id": "it_otobreda_sidam_25",
+          "selected": false,
+          "class_name": "",
+          "details": true,
+          "main_role": "SPAA"
+        },
+        {
+          "type": "single",
+          "title": "SIDAM 25 (Mistral)",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/it_otobreda_sidam_25_mistral.png",
+          "br": "9.7",
+          "rp": "220,000",
+          "sp": "620,000",
+          "data_unit_id": "it_otobreda_sidam_25_mistral",
+          "selected": false,
+          "class_name": "",
+          "details": true,
+          "main_role": "SPAA"
+        }
+      ],
+      [
+        {
+          "type": "single",
+          "title": "M113A1 (TOW)",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/it_m113a1_tow.png",
+          "br": "8.3",
+          "rp": "135,000",
+          "sp": "380,000",
+          "data_unit_id": "it_m113a1_tow",
+          "selected": false,
+          "class_name": "",
+          "details": true,
+          "main_role": "Tank destroyer"
+        },
+        {
+          "type": "single",
+          "title": "VBC (PT2)",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/it_vbc_pt2.png",
+          "br": "9.7",
+          "rp": "190,000",
+          "sp": "520,000",
+          "data_unit_id": "it_vbc_pt2",
+          "selected": false,
+          "class_name": "",
+          "details": true,
+          "main_role": "Light tank"
+        }
+      ],
+      [
+        {
+          "type": "single",
+          "title": "◔T-72M1",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/it_t_72m1.png",
+          "br": "9.3",
+          "rp": "220,000",
+          "sp": "620,000",
+          "data_unit_id": "it_t_72m1",
+          "selected": false,
+          "class_name": "",
+          "details": true,
+          "main_role": "Medium tank"
+        }
+      ]
+    ],
+    "premium_vehicles": [
+      [
+        {
+          "type": "single",
+          "title": "OF-40 (MTCA)",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/it_of_40_mtca.png",
+          "br": "9.3",
+          "rp": 0,
+          "sp": 0,
+          "data_unit_id": "it_of_40_mtca",
+          "selected": false,
+          "class_name": "prem",
+          "details": true,
+          "main_role": "Medium tank"
+        },
+        {
+          "type": "single",
+          "title": "VRCC",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/it_vrcc_centauro.png",
+          "br": "9.7",
+          "rp": 0,
+          "sp": 0,
+          "data_unit_id": "it_vrcc_centauro",
+          "selected": false,
+          "class_name": "prem",
+          "details": true,
+          "main_role": "Light tank"
+        }
+      ],
+      [
+        {
+          "type": "single",
+          "title": "C13/TUA",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/it_c13_tua.png",
+          "br": "8.3",
+          "rp": "400,000",
+          "sp": "470,000",
+          "data_unit_id": "it_c13_tua",
+          "selected": false,
+          "class_name": "squad",
+          "details": true,
+          "main_role": "Tank destroyer"
+        }
+      ]
+    ],
+    "selected": [],
+    "unlock_quantity": 0
+  },
+  {
+    "rank": "VII",
+    "researchable_vehicles": [
+      [
+        {
+          "type": "single",
+          "title": "Centauro I 120",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/it_centauro_mgs_120.png",
+          "br": "11.7",
+          "rp": "350,000",
+          "sp": "950,000",
+          "data_unit_id": "it_centauro_mgs_120",
+          "selected": false,
+          "class_name": "",
+          "details": true,
+          "main_role": "Light tank"
+        }
+      ],
+      [
+        {
+          "type": "single",
+          "title": "Ariete (P)",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/it_c1_ariete_preserie.png",
+          "br": "10.7",
+          "rp": "260,000",
+          "sp": "710,000",
+          "data_unit_id": "it_c1_ariete_preserie",
+          "selected": false,
+          "class_name": "",
+          "details": true,
+          "main_role": "Medium tank"
+        },
+        {
+          "type": "multiple",
+          "title": "Ariete PSO/WAR",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/it_ariete_group.png",
+          "selected": false,
+          "br": "11.7",
+          "data_unit_id": "it_ariete_group",
+          "class_name": "",
+          "items": [
+            {
+              "type": "single",
+              "title": "Ariete PSO",
+              "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/it_c1_ariete_pso.png",
+              "br": "11.7",
+              "rp": "350,000",
+              "sp": "950,000",
+              "data_unit_id": "it_c1_ariete_pso",
+              "selected": false,
+              "class_name": "",
+              "details": true,
+              "main_role": "Medium tank"
+            },
+            {
+              "type": "single",
+              "title": "Ariete",
+              "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/it_c1_ariete.png",
+              "br": "11.7",
+              "rp": "175,000",
+              "sp": "950,000",
+              "data_unit_id": "it_c1_ariete",
+              "selected": false,
+              "class_name": "",
+              "details": true,
+              "main_role": "Medium tank"
+            }
+          ],
+          "details": true
+        }
+      ],
+      [
+        {
+          "type": "multiple",
+          "title": "Osa/Strela",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/it_9a33_35_group.png",
+          "selected": false,
+          "br": "10.3",
+          "data_unit_id": "it_9a33_35_group",
+          "class_name": "",
+          "items": [
+            {
+              "type": "single",
+              "title": "▄Osa-AKM",
+              "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/it_9a33bm3.png",
+              "br": "10.3",
+              "rp": "300,000",
+              "sp": "830,000",
+              "data_unit_id": "it_9a33bm3",
+              "selected": false,
+              "class_name": "",
+              "details": true,
+              "main_role": "SPAA"
+            },
+            {
+              "type": "single",
+              "title": "◔Strela-10M",
+              "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/it_9a35_m.png",
+              "br": "10.3",
+              "rp": "175,000",
+              "sp": "950,000",
+              "data_unit_id": "it_9a35_m",
+              "selected": false,
+              "class_name": "",
+              "details": true,
+              "main_role": "SPAA"
+            }
+          ],
+          "details": true
+        },
+        {
+          "type": "single",
+          "title": "OTOMATIC",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/it_otomatic.png",
+          "br": "11.3",
+          "rp": "350,000",
+          "sp": "950,000",
+          "data_unit_id": "it_otomatic",
+          "selected": false,
+          "class_name": "",
+          "details": true,
+          "main_role": "SPAA"
+        }
+      ],
+      [
+        {
+          "type": "multiple",
+          "title": "Dardo/VCC",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/it_dardo_group.png",
+          "selected": false,
+          "br": "10.0",
+          "data_unit_id": "it_dardo_group",
+          "class_name": "",
+          "items": [
+            {
+              "type": "single",
+              "title": "Dardo",
+              "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/it_dardo_vcc.png",
+              "br": "10.0",
+              "rp": "260,000",
+              "sp": "710,000",
+              "data_unit_id": "it_dardo_vcc",
+              "selected": false,
+              "class_name": "",
+              "details": true,
+              "main_role": "Light tank"
+            },
+            {
+              "type": "single",
+              "title": "VCC-80/30",
+              "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/it_vcc_80_hitfist_30.png",
+              "br": "10.0",
+              "rp": "150,000",
+              "sp": "830,000",
+              "data_unit_id": "it_vcc_80_hitfist_30",
+              "selected": false,
+              "class_name": "",
+              "details": true,
+              "main_role": "Light tank"
+            }
+          ],
+          "details": true
+        },
+        {
+          "type": "single",
+          "title": "Freccia",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/it_freccia.png",
+          "br": "10.7",
+          "rp": "300,000",
+          "sp": "830,000",
+          "data_unit_id": "it_freccia",
+          "selected": false,
+          "class_name": "",
+          "details": true,
+          "main_role": "Light tank"
+        }
+      ],
+      [
+        {
+          "type": "single",
+          "title": "◔Leopard 2A4",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/it_leopard_2a4.png",
+          "br": "10.7",
+          "rp": "260,000",
+          "sp": "710,000",
+          "data_unit_id": "it_leopard_2a4",
+          "selected": false,
+          "class_name": "",
+          "details": true,
+          "main_role": "Medium tank"
+        },
+        {
+          "type": "single",
+          "title": "KF41",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/it_kf_41.png",
+          "br": "11.0",
+          "rp": "300,000",
+          "sp": "830,000",
+          "data_unit_id": "it_kf_41",
+          "selected": false,
+          "class_name": "",
+          "details": true,
+          "main_role": "Light tank"
+        }
+      ]
+    ],
+    "premium_vehicles": [
+      [
+        {
+          "type": "single",
+          "title": "Centauro RGO",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/it_centauro_rgo_120.png",
+          "br": "11.7",
+          "rp": 0,
+          "sp": 0,
+          "data_unit_id": "it_centauro_rgo_120",
+          "selected": false,
+          "class_name": "prem",
+          "details": true,
+          "main_role": "Light tank"
+        },
+        {
+          "type": "single",
+          "title": "Ariete Certezza",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/it_c1_ariete_certezza.png",
+          "br": "11.7",
+          "rp": 0,
+          "sp": 0,
+          "data_unit_id": "it_c1_ariete_certezza",
+          "selected": false,
+          "class_name": "prem",
+          "details": true,
+          "main_role": "Medium tank"
+        }
+      ],
+      [
+        {
+          "type": "single",
+          "title": "Freccia OWS 30",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/it_freccia_hitfist_ows.png",
+          "br": "10.7",
+          "rp": "540,000",
+          "sp": "870,000",
+          "data_unit_id": "it_freccia_hitfist_ows",
+          "selected": false,
+          "class_name": "squad",
+          "details": true,
+          "main_role": "Light tank"
+        }
+      ]
+    ],
+    "selected": [],
+    "unlock_quantity": 0
+  },
+  {
+    "rank": "VIII",
+    "researchable_vehicles": [
+      [
+        {
+          "type": "single",
+          "title": "Centauro II (P)",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/it_centauro_2.png",
+          "br": "12.0",
+          "rp": "400,000",
+          "sp": "1,080,000",
+          "data_unit_id": "it_centauro_2",
+          "selected": false,
+          "class_name": "",
+          "details": true,
+          "main_role": "Light tank"
+        }
+      ],
+      [
+        {
+          "type": "single",
+          "title": "Ariete AMV",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/it_ariete_amv_pt1.png",
+          "br": "12.3",
+          "rp": "400,000",
+          "sp": "1,080,000",
+          "data_unit_id": "it_ariete_amv_pt1",
+          "selected": false,
+          "class_name": "",
+          "details": true,
+          "main_role": "Medium tank"
+        }
+      ],
+      [
+        {
+          "type": "multiple",
+          "title": "FSAF SAMP/T",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/it_samp_t_fcs.png",
+          "selected": false,
+          "br": "12.7",
+          "data_unit_id": "it_samp_t_fcs",
+          "class_name": "",
+          "items": [
+            {
+              "type": "single",
+              "title": "FSAF SAMP/T (TADS)",
+              "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/it_samp_t_fcs.png",
+              "br": "12.7",
+              "rp": "410,000",
+              "sp": "1,100,000",
+              "data_unit_id": "it_samp_t_fcs",
+              "selected": false,
+              "class_name": "",
+              "details": true,
+              "main_role": "SPAA"
+            },
+            {
+              "type": "single",
+              "title": "FSAF SAMP/T (TEL)",
+              "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/it_samp_t_launcher.png",
+              "br": null,
+              "rp": null,
+              "sp": null,
+              "data_unit_id": "it_samp_t_launcher",
+              "selected": false,
+              "class_name": "",
+              "details": true,
+              "main_role": "SPAA"
+            }
+          ],
+          "details": true
+        }
+      ],
+      [],
+      [
+        {
+          "type": "single",
+          "title": "Leopard 2A7HU",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/it_leopard_2a7_hungary.png",
+          "br": "12.7",
+          "rp": "420,000",
+          "sp": "1,120,000",
+          "data_unit_id": "it_leopard_2a7_hungary",
+          "selected": false,
+          "class_name": "",
+          "details": true,
+          "main_role": "Medium tank"
+        }
+      ]
+    ],
+    "premium_vehicles": [
+      [],
+      []
+    ],
+    "selected": [],
+    "unlock_quantity": 0
+  }
+]

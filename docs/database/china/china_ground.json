@@ -1,0 +1,1568 @@
+[
+  {
+    "rank": "I",
+    "researchable_vehicles": [
+      [
+        {
+          "type": "single",
+          "title": "␗M8 LAC",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/cn_m8_greyhound.png",
+          "br": "1.0",
+          "rp": null,
+          "sp": null,
+          "data_unit_id": "cn_m8_greyhound",
+          "selected": false,
+          "class_name": "",
+          "details": true,
+          "main_role": "Light tank"
+        }
+      ],
+      [
+        {
+          "type": "single",
+          "title": "␗T-26",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/cn_t_26_1940.png",
+          "br": "1.0",
+          "rp": null,
+          "sp": null,
+          "data_unit_id": "cn_t_26_1940",
+          "selected": false,
+          "class_name": "",
+          "details": true,
+          "main_role": "Light tank"
+        },
+        {
+          "type": "single",
+          "title": "␗Chi-Ha",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/cn_type_97_chi_ha.png",
+          "br": "1.3",
+          "rp": "2,900",
+          "sp": "700",
+          "data_unit_id": "cn_type_97_chi_ha",
+          "selected": false,
+          "class_name": "",
+          "details": true,
+          "main_role": "Medium tank"
+        }
+      ],
+      [
+        {
+          "type": "single",
+          "title": "␗Sd.Kfz.222",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/cn_sdkfz_222_early.png",
+          "br": "1.3",
+          "rp": "2,900",
+          "sp": "700",
+          "data_unit_id": "cn_sdkfz_222_early",
+          "selected": false,
+          "class_name": "",
+          "details": true,
+          "main_role": "SPAA"
+        }
+      ],
+      [
+        {
+          "type": "single",
+          "title": "␗M8 HMC",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/cn_m8_scott.png",
+          "br": "1.3",
+          "rp": "2,900",
+          "sp": "700",
+          "data_unit_id": "cn_m8_scott",
+          "selected": false,
+          "class_name": "",
+          "details": true,
+          "main_role": "Tank destroyer"
+        },
+        {
+          "type": "single",
+          "title": "␗SU-76M",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/cn_su_76m_1943.png",
+          "br": "2.0",
+          "rp": "5,900",
+          "sp": "6,300",
+          "data_unit_id": "cn_su_76m_1943",
+          "selected": false,
+          "class_name": "",
+          "details": true,
+          "main_role": "Tank destroyer"
+        }
+      ]
+    ],
+    "premium_vehicles": [
+      [
+        {
+          "type": "single",
+          "title": "T-26 No.531",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/cn_t_26_no531.png",
+          "br": "1.0",
+          "rp": 0,
+          "sp": 0,
+          "data_unit_id": "cn_t_26_no531",
+          "selected": false,
+          "class_name": "prem",
+          "details": true,
+          "main_role": "Light tank"
+        }
+      ],
+      []
+    ],
+    "selected": [],
+    "unlock_quantity": 0
+  },
+  {
+    "rank": "II",
+    "researchable_vehicles": [
+      [
+        {
+          "type": "multiple",
+          "title": "␗M3/M5",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/cn_m3_m5_stuart_group.png",
+          "selected": false,
+          "br": "2.7",
+          "data_unit_id": "cn_m3_m5_stuart_group",
+          "class_name": "",
+          "items": [
+            {
+              "type": "single",
+              "title": "␗M3A3 Stuart",
+              "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/cn_m3a3_stuart.png",
+              "br": "2.7",
+              "rp": "9,200",
+              "sp": "16,000",
+              "data_unit_id": "cn_m3a3_stuart",
+              "selected": false,
+              "class_name": "",
+              "details": true,
+              "main_role": "Light tank"
+            },
+            {
+              "type": "single",
+              "title": "␗M5A1",
+              "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/cn_m5a1_stuart.png",
+              "br": "2.7",
+              "rp": "5,600",
+              "sp": "22,000",
+              "data_unit_id": "cn_m5a1_stuart",
+              "selected": false,
+              "class_name": "",
+              "details": true,
+              "main_role": "Light tank"
+            }
+          ],
+          "details": true
+        },
+        {
+          "type": "single",
+          "title": "␗M24",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/cn_m24_chaffee.png",
+          "br": "3.7",
+          "rp": "14,000",
+          "sp": "32,000",
+          "data_unit_id": "cn_m24_chaffee",
+          "selected": false,
+          "class_name": "",
+          "details": true,
+          "main_role": "Light tank"
+        }
+      ],
+      [
+        {
+          "type": "single",
+          "title": "␗Chi-Ha Kai",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/cn_type_97_kai.png",
+          "br": "2.3",
+          "rp": "7,900",
+          "sp": "10,000",
+          "data_unit_id": "cn_type_97_kai",
+          "selected": false,
+          "class_name": "",
+          "details": true,
+          "main_role": "Medium tank"
+        },
+        {
+          "type": "single",
+          "title": "␗M4A4",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/cn_m4a4_sherman.png",
+          "br": "3.7",
+          "rp": "14,000",
+          "sp": "32,000",
+          "data_unit_id": "cn_m4a4_sherman",
+          "selected": false,
+          "class_name": "",
+          "details": true,
+          "main_role": "Medium tank"
+        }
+      ],
+      [
+        {
+          "type": "single",
+          "title": "CCKW 353 (M45)",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/cn_gmc_cckw_353_m45_quad.png",
+          "br": "2.3",
+          "rp": "7,900",
+          "sp": "10,000",
+          "data_unit_id": "cn_gmc_cckw_353_m45_quad",
+          "selected": false,
+          "class_name": "",
+          "details": true,
+          "main_role": "SPAA"
+        }
+      ],
+      [
+        {
+          "type": "single",
+          "title": "LVT(A)(4) (ZiS-2)",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/cn_lvt_4_zis_2.png",
+          "br": "2.3",
+          "rp": "7,900",
+          "sp": "10,000",
+          "data_unit_id": "cn_lvt_4_zis_2",
+          "selected": false,
+          "class_name": "",
+          "details": true,
+          "main_role": "Tank destroyer"
+        },
+        {
+          "type": "single",
+          "title": "␗M10 GMC",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/cn_m10.png",
+          "br": "3.3",
+          "rp": "11,000",
+          "sp": "22,000",
+          "data_unit_id": "cn_m10",
+          "selected": false,
+          "class_name": "",
+          "details": true,
+          "main_role": "Tank destroyer"
+        }
+      ]
+    ],
+    "premium_vehicles": [
+      [
+        {
+          "type": "single",
+          "title": "␗M3A3 (1st PTG)",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/cn_m3a3_stuart_1st_ptg.png",
+          "br": "2.7",
+          "rp": 0,
+          "sp": 0,
+          "data_unit_id": "cn_m3a3_stuart_1st_ptg",
+          "selected": false,
+          "class_name": "prem",
+          "details": true,
+          "main_role": "Light tank"
+        },
+        {
+          "type": "single",
+          "title": "␗M4A4 (1st PTG)",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/cn_m4a4_sherman_1st_ptg.png",
+          "br": "3.7",
+          "rp": 0,
+          "sp": 0,
+          "data_unit_id": "cn_m4a4_sherman_1st_ptg",
+          "selected": false,
+          "class_name": "prem",
+          "details": true,
+          "main_role": "Medium tank"
+        }
+      ],
+      []
+    ],
+    "selected": [],
+    "unlock_quantity": 0
+  },
+  {
+    "rank": "III",
+    "researchable_vehicles": [
+      [
+        {
+          "type": "multiple",
+          "title": "Object 211",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/cn_76_211_group.png",
+          "selected": false,
+          "br": "5.0",
+          "data_unit_id": "cn_76_211_group",
+          "class_name": "",
+          "items": [
+            {
+              "type": "single",
+              "title": "Object 211",
+              "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/cn_object_211.png",
+              "br": "5.0",
+              "rp": "33,000",
+              "sp": "105,000",
+              "data_unit_id": "cn_object_211",
+              "selected": false,
+              "class_name": "",
+              "details": true,
+              "main_role": "Light tank"
+            },
+            {
+              "type": "single",
+              "title": "␗PT-76",
+              "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/cn_pt_76.png",
+              "br": "5.0",
+              "rp": null,
+              "sp": null,
+              "data_unit_id": "cn_pt_76",
+              "selected": false,
+              "class_name": "",
+              "details": true,
+              "main_role": "Light tank"
+            }
+          ],
+          "details": true
+        }
+      ],
+      [
+        {
+          "type": "multiple",
+          "title": "T-34/M4A1",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/cn_t_34_m4_group.png",
+          "selected": false,
+          "br": "4.0",
+          "data_unit_id": "cn_t_34_m4_group",
+          "class_name": "",
+          "items": [
+            {
+              "type": "single",
+              "title": "␗T-34 (1943)",
+              "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/cn_t_34_1942.png",
+              "br": "4.0",
+              "rp": "18,000",
+              "sp": "47,000",
+              "data_unit_id": "cn_t_34_1942",
+              "selected": false,
+              "class_name": "",
+              "details": true,
+              "main_role": "Medium tank"
+            },
+            {
+              "type": "single",
+              "title": "␗M4A1 (75) W",
+              "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/cn_m4a1_76w_sherman.png",
+              "br": "4.0",
+              "rp": "13,000",
+              "sp": "76,000",
+              "data_unit_id": "cn_m4a1_76w_sherman",
+              "selected": false,
+              "class_name": "",
+              "details": true,
+              "main_role": "Medium tank"
+            }
+          ],
+          "details": true
+        },
+        {
+          "type": "multiple",
+          "title": "T-34-85/85Gai",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/cn_t_34_85_group.png",
+          "selected": false,
+          "br": "5.7",
+          "data_unit_id": "cn_t_34_85_group",
+          "class_name": "",
+          "items": [
+            {
+              "type": "single",
+              "title": "␗T-34-85 (S-53)",
+              "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/cn_t_34_85_d_5t.png",
+              "br": "5.7",
+              "rp": "33,000",
+              "sp": "105,000",
+              "data_unit_id": "cn_t_34_85_d_5t",
+              "selected": false,
+              "class_name": "",
+              "details": true,
+              "main_role": "Medium tank"
+            },
+            {
+              "type": "single",
+              "title": "T-34-85 Gai",
+              "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/cn_type_58.png",
+              "br": "5.7",
+              "rp": "20,000",
+              "sp": "135,000",
+              "data_unit_id": "cn_type_58",
+              "selected": false,
+              "class_name": "",
+              "details": true,
+              "main_role": "Medium tank"
+            }
+          ],
+          "details": true
+        }
+      ],
+      [
+        {
+          "type": "single",
+          "title": "␗M42",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/cn_m42_duster.png",
+          "br": "4.0",
+          "rp": "18,000",
+          "sp": "47,000",
+          "data_unit_id": "cn_m42_duster",
+          "selected": false,
+          "class_name": "",
+          "details": true,
+          "main_role": "SPAA"
+        },
+        {
+          "type": "single",
+          "title": "Phòng không T-34",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/cn_type_65_aa.png",
+          "br": "5.0",
+          "rp": "40,000",
+          "sp": "135,000",
+          "data_unit_id": "cn_type_65_aa",
+          "selected": false,
+          "class_name": "",
+          "details": true,
+          "main_role": "SPAA"
+        }
+      ],
+      [
+        {
+          "type": "single",
+          "title": "␗M55",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/cn_m55.png",
+          "br": "4.0",
+          "rp": "18,000",
+          "sp": "47,000",
+          "data_unit_id": "cn_m55",
+          "selected": false,
+          "class_name": "",
+          "details": true,
+          "main_role": "Tank destroyer"
+        },
+        {
+          "type": "single",
+          "title": "␗ISU-152",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/cn_isu_152.png",
+          "br": "4.7",
+          "rp": "26,000",
+          "sp": "76,000",
+          "data_unit_id": "cn_isu_152",
+          "selected": false,
+          "class_name": "",
+          "details": true,
+          "main_role": "Tank destroyer"
+        },
+        {
+          "type": "multiple",
+          "title": "M36/ISU-122",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/cn_m36_isu_group.png",
+          "selected": false,
+          "br": "5.3",
+          "data_unit_id": "cn_m36_isu_group",
+          "class_name": "",
+          "items": [
+            {
+              "type": "single",
+              "title": "␗M36 GMC",
+              "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/cn_m36.png",
+              "br": "5.3",
+              "rp": "33,000",
+              "sp": "105,000",
+              "data_unit_id": "cn_m36",
+              "selected": false,
+              "class_name": "",
+              "details": true,
+              "main_role": "Tank destroyer"
+            },
+            {
+              "type": "single",
+              "title": "␗ISU-122",
+              "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/cn_isu_122.png",
+              "br": "5.3",
+              "rp": "20,000",
+              "sp": "135,000",
+              "data_unit_id": "cn_isu_122",
+              "selected": false,
+              "class_name": "",
+              "details": true,
+              "main_role": "Tank destroyer"
+            }
+          ],
+          "details": true
+        }
+      ]
+    ],
+    "premium_vehicles": [
+      [
+        {
+          "type": "single",
+          "title": "␗M41A3",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/cn_m41_a3_walker_bulldog.png",
+          "br": "5.7",
+          "rp": 0,
+          "sp": 0,
+          "data_unit_id": "cn_m41_a3_walker_bulldog",
+          "selected": false,
+          "class_name": "prem",
+          "details": true,
+          "main_role": "Light tank"
+        }
+      ],
+      []
+    ],
+    "selected": [],
+    "unlock_quantity": 0
+  },
+  {
+    "rank": "IV",
+    "researchable_vehicles": [
+      [
+        {
+          "type": "single",
+          "title": "␗M18 GMC",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/cn_m18_hellcat.png",
+          "br": "6.0",
+          "rp": "54,000",
+          "sp": "185,000",
+          "data_unit_id": "cn_m18_hellcat",
+          "selected": false,
+          "class_name": "",
+          "details": true,
+          "main_role": "Light tank"
+        },
+        {
+          "type": "multiple",
+          "title": "Type 63/62",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/cn_type_63_62_group.png",
+          "selected": false,
+          "br": "6.3-6.7",
+          "data_unit_id": "cn_type_63_62_group",
+          "class_name": "",
+          "items": [
+            {
+              "type": "single",
+              "title": "Type 63",
+              "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/cn_type_63_i.png",
+              "br": "6.3",
+              "rp": "63,000",
+              "sp": "200,000",
+              "data_unit_id": "cn_type_63_i",
+              "selected": false,
+              "class_name": "",
+              "details": true,
+              "main_role": "Light tank"
+            },
+            {
+              "type": "single",
+              "title": "Type 62",
+              "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/cn_type_62.png",
+              "br": "6.7",
+              "rp": "35,000",
+              "sp": "210,000",
+              "data_unit_id": "cn_type_62",
+              "selected": false,
+              "class_name": "",
+              "details": true,
+              "main_role": "Light tank"
+            }
+          ],
+          "details": true
+        }
+      ],
+      [
+        {
+          "type": "multiple",
+          "title": "IS-2 1943/1944",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/cn_is_2_group.png",
+          "selected": false,
+          "br": "6.3-6.7",
+          "data_unit_id": "cn_is_2_group",
+          "class_name": "",
+          "items": [
+            {
+              "type": "single",
+              "title": "␗IS-2",
+              "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/cn_is_2_1943.png",
+              "br": "6.3",
+              "rp": "63,000",
+              "sp": "200,000",
+              "data_unit_id": "cn_is_2_1943",
+              "selected": false,
+              "class_name": "",
+              "details": true,
+              "main_role": "Heavy tank"
+            },
+            {
+              "type": "single",
+              "title": "␗IS-2 (1944)",
+              "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/cn_is_2_1944.png",
+              "br": "6.7",
+              "rp": "35,000",
+              "sp": "210,000",
+              "data_unit_id": "cn_is_2_1944",
+              "selected": false,
+              "class_name": "",
+              "details": true,
+              "main_role": "Heavy tank"
+            }
+          ],
+          "details": true
+        }
+      ],
+      [
+        {
+          "type": "single",
+          "title": "ZSD63/PG87",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/cn_zsd63_pg87.png",
+          "br": "5.7",
+          "rp": "46,000",
+          "sp": "155,000",
+          "data_unit_id": "cn_zsd63_pg87",
+          "selected": false,
+          "class_name": "",
+          "details": true,
+          "main_role": "SPAA"
+        },
+        {
+          "type": "single",
+          "title": "ZSL92",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/cn_zsl_92.png",
+          "br": "6.3",
+          "rp": "82,000",
+          "sp": "240,000",
+          "data_unit_id": "cn_zsl_92",
+          "selected": false,
+          "class_name": "",
+          "details": true,
+          "main_role": "SPAA"
+        }
+      ],
+      [
+        {
+          "type": "single",
+          "title": "␗SU-100",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/cn_su_100_1945.png",
+          "br": "6.0",
+          "rp": "63,000",
+          "sp": "200,000",
+          "data_unit_id": "cn_su_100_1945",
+          "selected": false,
+          "class_name": "",
+          "details": true,
+          "main_role": "Tank destroyer"
+        },
+        {
+          "type": "single",
+          "title": "PLZ83",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/cn_plz_83.png",
+          "br": "6.3",
+          "rp": "71,000",
+          "sp": "210,000",
+          "data_unit_id": "cn_plz_83",
+          "selected": false,
+          "class_name": "",
+          "details": true,
+          "main_role": "Tank destroyer"
+        }
+      ]
+    ],
+    "premium_vehicles": [
+      [
+        {
+          "type": "single",
+          "title": "M64",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/cn_type_64.png",
+          "br": "6.0",
+          "rp": 0,
+          "sp": 0,
+          "data_unit_id": "cn_type_64",
+          "selected": false,
+          "class_name": "prem",
+          "details": true,
+          "main_role": "Light tank"
+        },
+        {
+          "type": "single",
+          "title": "T-34-85 No.215",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/cn_t_34_85_zis_53_no215.png",
+          "br": "5.7",
+          "rp": 0,
+          "sp": 0,
+          "data_unit_id": "cn_t_34_85_zis_53_no215",
+          "selected": false,
+          "class_name": "prem",
+          "details": true,
+          "main_role": "Medium tank"
+        },
+        {
+          "type": "single",
+          "title": "IS-2 No.402",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/cn_is_2_1943_no402.png",
+          "br": "6.3",
+          "rp": 0,
+          "sp": 0,
+          "data_unit_id": "cn_is_2_1943_no402",
+          "selected": false,
+          "class_name": "prem",
+          "details": true,
+          "main_role": "Heavy tank"
+        }
+      ],
+      [
+        {
+          "type": "single",
+          "title": "WZ141-1",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/cn_wz_141.png",
+          "br": "6.7",
+          "rp": 0,
+          "sp": 0,
+          "data_unit_id": "cn_wz_141",
+          "selected": false,
+          "class_name": "prem",
+          "details": true,
+          "main_role": "Light tank"
+        }
+      ]
+    ],
+    "selected": [],
+    "unlock_quantity": 0
+  },
+  {
+    "rank": "V",
+    "researchable_vehicles": [
+      [
+        {
+          "type": "multiple",
+          "title": "ZTS/ZBD",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/cn_zts_type_group.png",
+          "selected": false,
+          "br": "7.7-8.0",
+          "data_unit_id": "cn_zts_type_group",
+          "class_name": "",
+          "items": [
+            {
+              "type": "single",
+              "title": "ZTS63",
+              "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/cn_zts_63_1980.png",
+              "br": "7.7",
+              "rp": "95,000",
+              "sp": "270,000",
+              "data_unit_id": "cn_zts_63_1980",
+              "selected": false,
+              "class_name": "",
+              "details": true,
+              "main_role": "Light tank"
+            },
+            {
+              "type": "single",
+              "title": "ZBD86",
+              "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/cn_type_86.png",
+              "br": "8.0",
+              "rp": "53,000",
+              "sp": "300,000",
+              "data_unit_id": "cn_type_86",
+              "selected": false,
+              "class_name": "",
+              "details": true,
+              "main_role": "Light tank"
+            }
+          ],
+          "details": true
+        }
+      ],
+      [
+        {
+          "type": "single",
+          "title": "␗M48A1",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/cn_m48a1_patton_iii.png",
+          "br": "7.7",
+          "rp": "95,000",
+          "sp": "270,000",
+          "data_unit_id": "cn_m48a1_patton_iii",
+          "selected": false,
+          "class_name": "",
+          "details": true,
+          "main_role": "Medium tank"
+        },
+        {
+          "type": "multiple",
+          "title": "Type 59/69",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/cn_type_59_69_group.png",
+          "selected": false,
+          "br": "8.0",
+          "data_unit_id": "cn_type_59_69_group",
+          "class_name": "",
+          "items": [
+            {
+              "type": "single",
+              "title": "Type 59",
+              "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/cn_type_59.png",
+              "br": "8.0",
+              "rp": "105,000",
+              "sp": "300,000",
+              "data_unit_id": "cn_type_59",
+              "selected": false,
+              "class_name": "",
+              "details": true,
+              "main_role": "Medium tank"
+            },
+            {
+              "type": "single",
+              "title": "Type 69",
+              "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/cn_type_69.png",
+              "br": "8.0",
+              "rp": "61,000",
+              "sp": "340,000",
+              "data_unit_id": "cn_type_69",
+              "selected": false,
+              "class_name": "",
+              "details": true,
+              "main_role": "Medium tank"
+            }
+          ],
+          "details": true
+        }
+      ],
+      [
+        {
+          "type": "single",
+          "title": "WZ305",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/cn_wz_305.png",
+          "br": "8.0",
+          "rp": "105,000",
+          "sp": "300,000",
+          "data_unit_id": "cn_wz_305",
+          "selected": false,
+          "class_name": "",
+          "details": true,
+          "main_role": "SPAA"
+        }
+      ],
+      [
+        {
+          "type": "single",
+          "title": "PLZ05",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/cn_plz_05.png",
+          "br": "7.7",
+          "rp": "95,000",
+          "sp": "270,000",
+          "data_unit_id": "cn_plz_05",
+          "selected": false,
+          "class_name": "",
+          "details": true,
+          "main_role": "Tank destroyer"
+        },
+        {
+          "type": "single",
+          "title": "␗M113A1 (TOW)",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/cn_m113a1_tow.png",
+          "br": "8.3",
+          "rp": "120,000",
+          "sp": "340,000",
+          "data_unit_id": "cn_m113a1_tow",
+          "selected": false,
+          "class_name": "",
+          "details": true,
+          "main_role": "Tank destroyer"
+        }
+      ]
+    ],
+    "premium_vehicles": [
+      [
+        {
+          "type": "single",
+          "title": "ZTZ59A",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/cn_ztz_59a.png",
+          "br": "8.0",
+          "rp": 0,
+          "sp": 0,
+          "data_unit_id": "cn_ztz_59a",
+          "selected": false,
+          "class_name": "prem",
+          "details": true,
+          "main_role": "Medium tank"
+        },
+        {
+          "type": "single",
+          "title": "Type 69-IIa",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/cn_type_69_2a.png",
+          "br": "8.3",
+          "rp": 0,
+          "sp": 0,
+          "data_unit_id": "cn_type_69_2a",
+          "selected": false,
+          "class_name": "prem",
+          "details": true,
+          "main_role": "Medium tank"
+        }
+      ],
+      [
+        {
+          "type": "single",
+          "title": "PLZ83-130",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/cn_plz_83_130.png",
+          "br": "7.3",
+          "rp": null,
+          "sp": null,
+          "data_unit_id": "cn_plz_83_130",
+          "selected": false,
+          "class_name": "",
+          "details": true,
+          "main_role": "Tank destroyer"
+        }
+      ]
+    ],
+    "selected": [],
+    "unlock_quantity": 0
+  },
+  {
+    "rank": "VI",
+    "researchable_vehicles": [
+      [
+        {
+          "type": "single",
+          "title": "M41D",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/cn_m_41d.png",
+          "br": "8.0",
+          "rp": "135,000",
+          "sp": "380,000",
+          "data_unit_id": "cn_m_41d",
+          "selected": false,
+          "class_name": "",
+          "details": true,
+          "main_role": "Light tank"
+        },
+        {
+          "type": "single",
+          "title": "␗M60A3 TTS",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/cn_m60a3_tts.png",
+          "br": "9.0",
+          "rp": "190,000",
+          "sp": "520,000",
+          "data_unit_id": "cn_m60a3_tts",
+          "selected": false,
+          "class_name": "",
+          "details": true,
+          "main_role": "Medium tank"
+        },
+        {
+          "type": "single",
+          "title": "CM11",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/cn_cm11.png",
+          "br": "9.3",
+          "rp": "220,000",
+          "sp": "620,000",
+          "data_unit_id": "cn_cm11",
+          "selected": false,
+          "class_name": "",
+          "details": true,
+          "main_role": "Medium tank"
+        }
+      ],
+      [
+        {
+          "type": "single",
+          "title": "ZTZ59D1",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/cn_type_59d.png",
+          "br": "8.3",
+          "rp": "135,000",
+          "sp": "380,000",
+          "data_unit_id": "cn_type_59d",
+          "selected": false,
+          "class_name": "",
+          "details": true,
+          "main_role": "Medium tank"
+        },
+        {
+          "type": "multiple",
+          "title": "ZTZ88 B/A",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/cn_ztz_88_group.png",
+          "selected": false,
+          "br": "9.0",
+          "data_unit_id": "cn_ztz_88_group",
+          "class_name": "",
+          "items": [
+            {
+              "type": "single",
+              "title": "ZTZ88B",
+              "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/cn_ztz_88b.png",
+              "br": "9.0",
+              "rp": "160,000",
+              "sp": "450,000",
+              "data_unit_id": "cn_ztz_88b",
+              "selected": false,
+              "class_name": "",
+              "details": true,
+              "main_role": "Medium tank"
+            },
+            {
+              "type": "single",
+              "title": "ZTZ88A",
+              "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/cn_ztz_88a.png",
+              "br": "9.0",
+              "rp": "94,000",
+              "sp": "520,000",
+              "data_unit_id": "cn_ztz_88a",
+              "selected": false,
+              "class_name": "",
+              "details": true,
+              "main_role": "Medium tank"
+            }
+          ],
+          "details": true
+        },
+        {
+          "type": "single",
+          "title": "ZTZ96",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/cn_ztz_96.png",
+          "br": "9.3",
+          "rp": "220,000",
+          "sp": "620,000",
+          "data_unit_id": "cn_ztz_96",
+          "selected": false,
+          "class_name": "",
+          "details": true,
+          "main_role": "Medium tank"
+        }
+      ],
+      [
+        {
+          "type": "single",
+          "title": "PGZ09",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/cn_pgz_09.png",
+          "br": "9.0",
+          "rp": "160,000",
+          "sp": "450,000",
+          "data_unit_id": "cn_pgz_09",
+          "selected": false,
+          "class_name": "",
+          "details": true,
+          "main_role": "SPAA"
+        },
+        {
+          "type": "single",
+          "title": "PGZ04A",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/cn_pgz_04a.png",
+          "br": "9.3",
+          "rp": "190,000",
+          "sp": "520,000",
+          "data_unit_id": "cn_pgz_04a",
+          "selected": false,
+          "class_name": "",
+          "details": true,
+          "main_role": "SPAA"
+        }
+      ],
+      [
+        {
+          "type": "multiple",
+          "title": "CM25/PTZ89",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/cn_cm_ptz_group.png",
+          "selected": false,
+          "br": "8.7-9.0",
+          "data_unit_id": "cn_cm_ptz_group",
+          "class_name": "",
+          "items": [
+            {
+              "type": "single",
+              "title": "CM25",
+              "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/cn_cm_25.png",
+              "br": "8.7",
+              "rp": "160,000",
+              "sp": "450,000",
+              "data_unit_id": "cn_cm_25",
+              "selected": false,
+              "class_name": "",
+              "details": true,
+              "main_role": "Tank destroyer"
+            },
+            {
+              "type": "single",
+              "title": "PTZ89",
+              "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/cn_ptz_89.png",
+              "br": "9.0",
+              "rp": "94,000",
+              "sp": "520,000",
+              "data_unit_id": "cn_ptz_89",
+              "selected": false,
+              "class_name": "",
+              "details": true,
+              "main_role": "Tank destroyer"
+            }
+          ],
+          "details": true
+        },
+        {
+          "type": "multiple",
+          "title": "PTL02/AFT09",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/cn_ptl_aft_group.png",
+          "selected": false,
+          "br": "9.0",
+          "data_unit_id": "cn_ptl_aft_group",
+          "class_name": "",
+          "items": [
+            {
+              "type": "single",
+              "title": "PTL02",
+              "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/cn_ptl_02.png",
+              "br": "9.0",
+              "rp": "190,000",
+              "sp": "520,000",
+              "data_unit_id": "cn_ptl_02",
+              "selected": false,
+              "class_name": "",
+              "details": true,
+              "main_role": "Light tank"
+            },
+            {
+              "type": "single",
+              "title": "AFT09",
+              "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/cn_hj_9.png",
+              "br": "9.0",
+              "rp": "110,000",
+              "sp": "620,000",
+              "data_unit_id": "cn_hj_9",
+              "selected": false,
+              "class_name": "",
+              "details": true,
+              "main_role": "Tank destroyer"
+            }
+          ],
+          "details": true
+        },
+        {
+          "type": "single",
+          "title": "CM34",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/cn_cm_34.png",
+          "br": "9.3",
+          "rp": "220,000",
+          "sp": "620,000",
+          "data_unit_id": "cn_cm_34",
+          "selected": false,
+          "class_name": "",
+          "details": true,
+          "main_role": "Light tank"
+        }
+      ]
+    ],
+    "premium_vehicles": [
+      [
+        {
+          "type": "single",
+          "title": "Object 122MT \"MC\"",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/cn_object_122tm.png",
+          "br": "8.7",
+          "rp": "400,000",
+          "sp": "450,000",
+          "data_unit_id": "cn_object_122tm",
+          "selected": false,
+          "class_name": "squad",
+          "details": true,
+          "main_role": "Medium tank"
+        },
+        {
+          "type": "single",
+          "title": "WMA301",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/cn_wma_301.png",
+          "br": "9.0",
+          "rp": 0,
+          "sp": 0,
+          "data_unit_id": "cn_wma_301",
+          "selected": false,
+          "class_name": "prem",
+          "details": true,
+          "main_role": "Light tank"
+        },
+        {
+          "type": "single",
+          "title": "T-69 II G",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/cn_type_69_2g.png",
+          "br": "9.0",
+          "rp": 0,
+          "sp": 0,
+          "data_unit_id": "cn_type_69_2g",
+          "selected": false,
+          "class_name": "prem",
+          "details": true,
+          "main_role": "Medium tank"
+        }
+      ],
+      [
+        {
+          "type": "single",
+          "title": "T-62 N545",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/cn_t_62.png",
+          "br": "8.7",
+          "rp": 0,
+          "sp": 0,
+          "data_unit_id": "cn_t_62",
+          "selected": false,
+          "class_name": "prem",
+          "details": true,
+          "main_role": "Medium tank"
+        }
+      ]
+    ],
+    "selected": [],
+    "unlock_quantity": 0
+  },
+  {
+    "rank": "VII",
+    "researchable_vehicles": [
+      [
+        {
+          "type": "single",
+          "title": "MBT-2000",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/cn_mbt2000.png",
+          "br": "11.7",
+          "rp": "300,000",
+          "sp": "830,000",
+          "data_unit_id": "cn_mbt2000",
+          "selected": false,
+          "class_name": "",
+          "details": true,
+          "main_role": "Medium tank"
+        }
+      ],
+      [
+        {
+          "type": "single",
+          "title": "ZTZ96A",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/cn_ztz_96a.png",
+          "br": "10.3",
+          "rp": "260,000",
+          "sp": "710,000",
+          "data_unit_id": "cn_ztz_96a",
+          "selected": false,
+          "class_name": "",
+          "details": true,
+          "main_role": "Medium tank"
+        },
+        {
+          "type": "multiple",
+          "title": "ZTZ99-II/III",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/cn_ztz_99_group.png",
+          "selected": false,
+          "br": "11.0",
+          "data_unit_id": "cn_ztz_99_group",
+          "class_name": "",
+          "items": [
+            {
+              "type": "single",
+              "title": "ZTZ99-II",
+              "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/cn_ztz_99.png",
+              "br": "11.0",
+              "rp": "300,000",
+              "sp": "830,000",
+              "data_unit_id": "cn_ztz_99",
+              "selected": false,
+              "class_name": "",
+              "details": true,
+              "main_role": "Medium tank"
+            },
+            {
+              "type": "single",
+              "title": "ZTZ99-III",
+              "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/cn_ztz_99_w.png",
+              "br": "11.0",
+              "rp": "175,000",
+              "sp": "950,000",
+              "data_unit_id": "cn_ztz_99_w",
+              "selected": false,
+              "class_name": "",
+              "details": true,
+              "main_role": "Medium tank"
+            }
+          ],
+          "details": true
+        }
+      ],
+      [
+        {
+          "type": "single",
+          "title": "Antelope",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/cn_antelope_tc_1l_ads.png",
+          "br": "10.0",
+          "rp": "300,000",
+          "sp": "830,000",
+          "data_unit_id": "cn_antelope_tc_1l_ads",
+          "selected": false,
+          "class_name": "",
+          "details": true,
+          "main_role": "SPAA"
+        }
+      ],
+      [
+        {
+          "type": "single",
+          "title": "ZLT11",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/cn_ztl_11.png",
+          "br": "9.7",
+          "rp": "260,000",
+          "sp": "710,000",
+          "data_unit_id": "cn_ztl_11",
+          "selected": false,
+          "class_name": "",
+          "details": true,
+          "main_role": "Light tank"
+        },
+        {
+          "type": "single",
+          "title": "ZBD04A",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/cn_zbd_04a.png",
+          "br": "10.0",
+          "rp": "300,000",
+          "sp": "830,000",
+          "data_unit_id": "cn_zbd_04a",
+          "selected": false,
+          "class_name": "",
+          "details": true,
+          "main_role": "Light tank"
+        }
+      ]
+    ],
+    "premium_vehicles": [
+      [
+        {
+          "type": "single",
+          "title": "ZTZ96A (P)",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/cn_ztz_96a_prot.png",
+          "br": "10.3",
+          "rp": 0,
+          "sp": 0,
+          "data_unit_id": "cn_ztz_96a_prot",
+          "selected": false,
+          "class_name": "prem",
+          "details": true,
+          "main_role": "Medium tank"
+        },
+        {
+          "type": "single",
+          "title": "QN506",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/cn_qn506.png",
+          "br": "10.0",
+          "rp": null,
+          "sp": null,
+          "data_unit_id": "cn_qn506",
+          "selected": false,
+          "class_name": "",
+          "details": true,
+          "main_role": "Light tank"
+        },
+        {
+          "type": "single",
+          "title": "VT5",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/cn_vt_5.png",
+          "br": "11.7",
+          "rp": "540,000",
+          "sp": "870,000",
+          "data_unit_id": "cn_vt_5",
+          "selected": false,
+          "class_name": "squad",
+          "details": true,
+          "main_role": "Light tank"
+        },
+        {
+          "type": "single",
+          "title": "ZTZ96B",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/cn_ztz_96b.png",
+          "br": "11.7",
+          "rp": 0,
+          "sp": 0,
+          "data_unit_id": "cn_ztz_96b",
+          "selected": false,
+          "class_name": "prem",
+          "details": true,
+          "main_role": "Medium tank"
+        }
+      ],
+      [
+        {
+          "type": "single",
+          "title": "T-80UD/BE",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/cn_t_80ud_478be.png",
+          "br": "11.0",
+          "rp": null,
+          "sp": null,
+          "data_unit_id": "cn_t_80ud_478be",
+          "selected": false,
+          "class_name": "",
+          "details": true,
+          "main_role": "Medium tank"
+        },
+        {
+          "type": "single",
+          "title": "Al-Khalid-I",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/cn_al_khalid_1.png",
+          "br": "11.7",
+          "rp": 0,
+          "sp": 0,
+          "data_unit_id": "cn_al_khalid_1",
+          "selected": false,
+          "class_name": "prem",
+          "details": true,
+          "main_role": "Medium tank"
+        }
+      ]
+    ],
+    "selected": [],
+    "unlock_quantity": 0
+  },
+  {
+    "rank": "VIII",
+    "researchable_vehicles": [
+      [
+        {
+          "type": "single",
+          "title": "VT4",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/cn_vt_4.png",
+          "br": "12.3",
+          "rp": "400,000",
+          "sp": "1,080,000",
+          "data_unit_id": "cn_vt_4",
+          "selected": false,
+          "class_name": "",
+          "details": true,
+          "main_role": "Medium tank"
+        },
+        {
+          "type": "single",
+          "title": "VT4A1",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/cn_vt_4b.png",
+          "br": "12.7",
+          "rp": "410,000",
+          "sp": "1,100,000",
+          "data_unit_id": "cn_vt_4b",
+          "selected": false,
+          "class_name": "",
+          "details": true,
+          "main_role": "Medium tank"
+        },
+        {
+          "type": "single",
+          "title": "M1A2T",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/cn_m1a2t.png",
+          "br": "12.7",
+          "rp": "420,000",
+          "sp": "1,120,000",
+          "data_unit_id": "cn_m1a2t",
+          "selected": false,
+          "class_name": "",
+          "details": true,
+          "main_role": "Medium tank"
+        }
+      ],
+      [
+        {
+          "type": "single",
+          "title": "WZ1001(E) LCT",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/cn_wz_1001.png",
+          "br": "12.3",
+          "rp": "400,000",
+          "sp": "1,080,000",
+          "data_unit_id": "cn_wz_1001",
+          "selected": false,
+          "class_name": "",
+          "details": true,
+          "main_role": "Medium tank"
+        },
+        {
+          "type": "single",
+          "title": "ZTZ99A",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/cn_ztz_99a.png",
+          "br": "12.3",
+          "rp": "410,000",
+          "sp": "1,100,000",
+          "data_unit_id": "cn_ztz_99a",
+          "selected": false,
+          "class_name": "",
+          "details": true,
+          "main_role": "Medium tank"
+        }
+      ],
+      [
+        {
+          "type": "multiple",
+          "title": "Tor/HQ",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/cn_tor_hq_group.png",
+          "selected": false,
+          "br": "11.3-11.7",
+          "data_unit_id": "cn_tor_hq_group",
+          "class_name": "",
+          "items": [
+            {
+              "type": "single",
+              "title": "Tor-M1",
+              "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/cn_tor_m1.png",
+              "br": "11.3",
+              "rp": "400,000",
+              "sp": "1,080,000",
+              "data_unit_id": "cn_tor_m1",
+              "selected": false,
+              "class_name": "",
+              "details": true,
+              "main_role": "SPAA"
+            },
+            {
+              "type": "single",
+              "title": "HQ17",
+              "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/cn_hq_17.png",
+              "br": "11.7",
+              "rp": "200,000",
+              "sp": "1,100,000",
+              "data_unit_id": "cn_hq_17",
+              "selected": false,
+              "class_name": "",
+              "details": true,
+              "main_role": "SPAA"
+            }
+          ],
+          "details": true
+        },
+        {
+          "type": "single",
+          "title": "CS/SA5",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/cn_pgz_625_fb10.png",
+          "br": "12.0",
+          "rp": "410,000",
+          "sp": "1,100,000",
+          "data_unit_id": "cn_pgz_625_fb10",
+          "selected": false,
+          "class_name": "",
+          "details": true,
+          "main_role": "SPAA"
+        },
+        {
+          "type": "single",
+          "title": "HQ11",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/cn_hq_11.png",
+          "br": "12.7",
+          "rp": "420,000",
+          "sp": "1,120,000",
+          "data_unit_id": "cn_hq_11",
+          "selected": false,
+          "class_name": "",
+          "details": true,
+          "main_role": "SPAA"
+        }
+      ],
+      []
+    ],
+    "premium_vehicles": [
+      [
+        {
+          "type": "single",
+          "title": "Oplot-M",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/cn_oplot_t.png",
+          "br": "12.3",
+          "rp": "570,000",
+          "sp": "1,140,000",
+          "data_unit_id": "cn_oplot_t",
+          "selected": false,
+          "class_name": "squad",
+          "details": true,
+          "main_role": "Medium tank"
+        }
+      ],
+      []
+    ],
+    "selected": [],
+    "unlock_quantity": 0
+  }
+]

@@ -1,0 +1,627 @@
+[
+  {
+    "rank": "IV",
+    "researchable_vehicles": [
+      [
+        {
+          "type": "single",
+          "title": "Spitfire Mk IXc",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/spitfire_mk9c_iaf.png",
+          "br": "4.3",
+          "rp": "54,000",
+          "sp": "185,000",
+          "data_unit_id": "spitfire_mk9c_iaf",
+          "selected": false,
+          "class_name": "",
+          "details": true,
+          "main_role": "Fighter"
+        },
+        {
+          "type": "single",
+          "title": "Spitfire Mk.IX (CW)",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/spitfire_lf_mk9e_iaf.png",
+          "br": "5.7",
+          "rp": "71,000",
+          "sp": "210,000",
+          "data_unit_id": "spitfire_lf_mk9e_iaf",
+          "selected": false,
+          "class_name": "",
+          "details": true,
+          "main_role": "Fighter"
+        }
+      ],
+      [
+        {
+          "type": "single",
+          "title": "Sakeen",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/s_199.png",
+          "br": "3.3",
+          "rp": null,
+          "sp": "155,000",
+          "data_unit_id": "s_199",
+          "selected": false,
+          "class_name": "",
+          "details": true,
+          "main_role": "Fighter"
+        },
+        {
+          "type": "single",
+          "title": "P-51D-20-NA",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/p-51d-20-na_iaf.png",
+          "br": "4.0",
+          "rp": "54,000",
+          "sp": "185,000",
+          "data_unit_id": "p-51d-20-na_iaf",
+          "selected": false,
+          "class_name": "",
+          "details": true,
+          "main_role": "Fighter"
+        }
+      ],
+      [
+        {
+          "type": "single",
+          "title": "B-17G",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/b-17g_iaf.png",
+          "br": "5.0",
+          "rp": "63,000",
+          "sp": "200,000",
+          "data_unit_id": "b-17g_iaf",
+          "selected": false,
+          "class_name": "",
+          "details": true,
+          "main_role": "Bomber"
+        }
+      ]
+    ],
+    "premium_vehicles": [
+      [
+        {
+          "type": "single",
+          "title": "Weizman's Spitfire LF Mk.IXe",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/spitfire_lf_mk9e_weisman.png",
+          "br": "5.7",
+          "rp": 0,
+          "sp": 0,
+          "data_unit_id": "spitfire_lf_mk9e_weisman",
+          "selected": false,
+          "class_name": "prem",
+          "details": true,
+          "main_role": "Fighter"
+        }
+      ]
+    ],
+    "selected": [],
+    "unlock_quantity": 0
+  },
+  {
+    "rank": "V",
+    "researchable_vehicles": [
+      [
+        {
+          "type": "single",
+          "title": "Meteor NF.13",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/meteor_nfmk13.png",
+          "br": "7.7",
+          "rp": "95,000",
+          "sp": "270,000",
+          "data_unit_id": "meteor_nfmk13",
+          "selected": false,
+          "class_name": "",
+          "details": true,
+          "main_role": "Fighter"
+        },
+        {
+          "type": "single",
+          "title": "Meteor F.8",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/meteor_fmk8_iaf.png",
+          "br": "8.0",
+          "rp": "105,000",
+          "sp": "300,000",
+          "data_unit_id": "meteor_fmk8_iaf",
+          "selected": false,
+          "class_name": "",
+          "details": true,
+          "main_role": "Fighter"
+        }
+      ],
+      [
+        {
+          "type": "single",
+          "title": "M.D.450B Ouragan",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/md_450b_ouragan_iaf.png",
+          "br": "7.7",
+          "rp": "95,000",
+          "sp": "270,000",
+          "data_unit_id": "md_450b_ouragan_iaf",
+          "selected": false,
+          "class_name": "",
+          "details": true,
+          "main_role": "Fighter"
+        }
+      ],
+      []
+    ],
+    "premium_vehicles": [
+      [
+        {
+          "type": "single",
+          "title": "M.D.450B (29)",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/md_450b_ouragan_iaf_29.png",
+          "br": "7.7",
+          "rp": 0,
+          "sp": 0,
+          "data_unit_id": "md_450b_ouragan_iaf_29",
+          "selected": false,
+          "class_name": "prem",
+          "details": true,
+          "main_role": "Fighter"
+        },
+        {
+          "type": "single",
+          "title": "Meteor FR.9",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/meteor_frmk9_iaf.png",
+          "br": "8.0",
+          "rp": null,
+          "sp": null,
+          "data_unit_id": "meteor_frmk9_iaf",
+          "selected": false,
+          "class_name": "",
+          "details": true,
+          "main_role": "Fighter"
+        }
+      ]
+    ],
+    "selected": [],
+    "unlock_quantity": 0
+  },
+  {
+    "rank": "VI",
+    "researchable_vehicles": [
+      [
+        {
+          "type": "single",
+          "title": "Mystere IVA",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/md_454_mystere_4a_iaf.png",
+          "br": "8.7",
+          "rp": "150,000",
+          "sp": "420,000",
+          "data_unit_id": "md_454_mystere_4a_iaf",
+          "selected": false,
+          "class_name": "",
+          "details": true,
+          "main_role": "Fighter"
+        },
+        {
+          "type": "multiple",
+          "title": "Super Mystere B2",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/md_460_iaf_group.png",
+          "selected": false,
+          "br": "9.0",
+          "data_unit_id": "md_460_iaf_group",
+          "class_name": "",
+          "items": [
+            {
+              "type": "single",
+              "title": "Sambad",
+              "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/md_460_sambad.png",
+              "br": "9.0",
+              "rp": "170,000",
+              "sp": "480,000",
+              "data_unit_id": "md_460_sambad",
+              "selected": false,
+              "class_name": "",
+              "details": true,
+              "main_role": "Fighter"
+            },
+            {
+              "type": "single",
+              "title": "Sa'ar",
+              "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/md_460_saar.png",
+              "br": "9.0",
+              "rp": "96,000",
+              "sp": "530,000",
+              "data_unit_id": "md_460_saar",
+              "selected": false,
+              "class_name": "",
+              "details": true,
+              "main_role": "Fighter"
+            }
+          ],
+          "details": true
+        }
+      ],
+      [
+        {
+          "type": "multiple",
+          "title": "A-4",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/a_4_iaf_group.png",
+          "selected": false,
+          "br": "8.3-8.7",
+          "data_unit_id": "a_4_iaf_group",
+          "class_name": "",
+          "items": [
+            {
+              "type": "single",
+              "title": "A-4H",
+              "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/a_4h.png",
+              "br": "8.3",
+              "rp": "135,000",
+              "sp": "380,000",
+              "data_unit_id": "a_4h",
+              "selected": false,
+              "class_name": "",
+              "details": true,
+              "main_role": "Strike aircraft"
+            },
+            {
+              "type": "single",
+              "title": "A-4E Early (M)",
+              "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/a_4e_early_iaf.png",
+              "br": "8.7",
+              "rp": "86,000",
+              "sp": "480,000",
+              "data_unit_id": "a_4e_early_iaf",
+              "selected": false,
+              "class_name": "",
+              "details": true,
+              "main_role": "Strike aircraft"
+            }
+          ],
+          "details": true
+        },
+        {
+          "type": "single",
+          "title": "Ayit",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/a_4n.png",
+          "br": "9.7",
+          "rp": "190,000",
+          "sp": "530,000",
+          "data_unit_id": "a_4n",
+          "selected": false,
+          "class_name": "",
+          "details": true,
+          "main_role": "Strike aircraft"
+        }
+      ],
+      [
+        {
+          "type": "multiple",
+          "title": "S.O.4050 Vautour II",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/so_4050_vautour_iaf_group.png",
+          "selected": false,
+          "br": "9.0",
+          "data_unit_id": "so_4050_vautour_iaf_group",
+          "class_name": "",
+          "items": [
+            {
+              "type": "single",
+              "title": "Vautour IIA",
+              "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/so_4050_vautour_2a_israel_iaf.png",
+              "br": "9.0",
+              "rp": "150,000",
+              "sp": "420,000",
+              "data_unit_id": "so_4050_vautour_2a_israel_iaf",
+              "selected": false,
+              "class_name": "",
+              "details": true,
+              "main_role": "Bomber"
+            },
+            {
+              "type": "single",
+              "title": "Vautour IIN",
+              "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/so_4050_vautour_2n_iaf.png",
+              "br": "9.0",
+              "rp": "86,000",
+              "sp": "480,000",
+              "data_unit_id": "so_4050_vautour_2n_iaf",
+              "selected": false,
+              "class_name": "",
+              "details": true,
+              "main_role": "Bomber"
+            }
+          ],
+          "details": true
+        }
+      ]
+    ],
+    "premium_vehicles": [
+      [
+        {
+          "type": "single",
+          "title": "F-84F",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/f-84f_israel_iaf.png",
+          "br": "8.3",
+          "rp": 0,
+          "sp": 0,
+          "data_unit_id": "f-84f_israel_iaf",
+          "selected": false,
+          "class_name": "prem",
+          "details": true,
+          "main_role": "Strike aircraft"
+        },
+        {
+          "type": "single",
+          "title": "A-4E",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/a_4e_late_iaf.png",
+          "br": "8.7",
+          "rp": 0,
+          "sp": 0,
+          "data_unit_id": "a_4e_late_iaf",
+          "selected": false,
+          "class_name": "prem",
+          "details": true,
+          "main_role": "Strike aircraft"
+        }
+      ]
+    ],
+    "selected": [],
+    "unlock_quantity": 0
+  },
+  {
+    "rank": "VII",
+    "researchable_vehicles": [
+      [
+        {
+          "type": "single",
+          "title": "Shahak",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/mirage_3cj.png",
+          "br": "10.0",
+          "rp": "210,000",
+          "sp": "580,000",
+          "data_unit_id": "mirage_3cj",
+          "selected": false,
+          "class_name": "",
+          "details": true,
+          "main_role": "Fighter"
+        },
+        {
+          "type": "single",
+          "title": "Kfir C.7",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/kfir_c7.png",
+          "br": "12.0",
+          "rp": "260,000",
+          "sp": "720,000",
+          "data_unit_id": "kfir_c7",
+          "selected": false,
+          "class_name": "",
+          "details": true,
+          "main_role": "Fighter"
+        }
+      ],
+      [
+        {
+          "type": "single",
+          "title": "Kurnass",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/f-4e_iaf.png",
+          "br": "11.3",
+          "rp": "230,000",
+          "sp": "630,000",
+          "data_unit_id": "f-4e_iaf",
+          "selected": false,
+          "class_name": "",
+          "details": true,
+          "main_role": "Fighter"
+        }
+      ],
+      [
+        {
+          "type": "single",
+          "title": "Nesher",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/nesher.png",
+          "br": "10.0",
+          "rp": "210,000",
+          "sp": "580,000",
+          "data_unit_id": "nesher",
+          "selected": false,
+          "class_name": "",
+          "details": true,
+          "main_role": "Fighter"
+        }
+      ]
+    ],
+    "premium_vehicles": [
+      [
+        {
+          "type": "single",
+          "title": "Kfir Canard",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/kfir_canard.png",
+          "br": "11.0",
+          "rp": 0,
+          "sp": 0,
+          "data_unit_id": "kfir_canard",
+          "selected": false,
+          "class_name": "prem",
+          "details": true,
+          "main_role": "Fighter"
+        },
+        {
+          "type": "single",
+          "title": "Kfir C.2",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/kfir_c2.png",
+          "br": "11.7",
+          "rp": null,
+          "sp": null,
+          "data_unit_id": "kfir_c2",
+          "selected": false,
+          "class_name": "",
+          "details": true,
+          "main_role": "Fighter"
+        }
+      ]
+    ],
+    "selected": [],
+    "unlock_quantity": 0
+  },
+  {
+    "rank": "VIII",
+    "researchable_vehicles": [
+      [
+        {
+          "type": "single",
+          "title": "Netz",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/f_16a_block_10_iaf.png",
+          "br": "12.3",
+          "rp": "290,000",
+          "sp": "780,000",
+          "data_unit_id": "f_16a_block_10_iaf",
+          "selected": false,
+          "class_name": "",
+          "details": true,
+          "main_role": "Fighter"
+        },
+        {
+          "type": "single",
+          "title": "F-16C Barak II",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/f_16c_block_40_barak_2.png",
+          "br": "13.7",
+          "rp": "350,000",
+          "sp": "940,000",
+          "data_unit_id": "f_16c_block_40_barak_2",
+          "selected": false,
+          "class_name": "",
+          "details": true,
+          "main_role": "Fighter"
+        }
+      ],
+      [
+        {
+          "type": "multiple",
+          "title": "Kurnass/Baz",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/f_4e_f_15_iaf_group.png",
+          "selected": false,
+          "br": "12.3-12.7",
+          "data_unit_id": "f_4e_f_15_iaf_group",
+          "class_name": "",
+          "items": [
+            {
+              "type": "single",
+              "title": "Kurnass 2000",
+              "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/f-4e_kurnass_2000.png",
+              "br": "12.3",
+              "rp": "290,000",
+              "sp": "780,000",
+              "data_unit_id": "f-4e_kurnass_2000",
+              "selected": false,
+              "class_name": "",
+              "details": true,
+              "main_role": "Fighter"
+            },
+            {
+              "type": "single",
+              "title": "Baz",
+              "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/f_15a_iaf.png",
+              "br": "12.7",
+              "rp": "160,000",
+              "sp": "860,000",
+              "data_unit_id": "f_15a_iaf",
+              "selected": false,
+              "class_name": "",
+              "details": true,
+              "main_role": "Fighter"
+            }
+          ],
+          "details": true
+        },
+        {
+          "type": "single",
+          "title": "Baz Meshupar",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/f_15c_baz_msip.png",
+          "br": "13.7",
+          "rp": "350,000",
+          "sp": "940,000",
+          "data_unit_id": "f_15c_baz_msip",
+          "selected": false,
+          "class_name": "",
+          "details": true,
+          "main_role": "Fighter"
+        }
+      ],
+      [
+        {
+          "type": "multiple",
+          "title": "Barak II/Sufa",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/f_16d_iaf_group.png",
+          "selected": false,
+          "br": "13.3-14.0",
+          "data_unit_id": "f_16d_iaf_group",
+          "class_name": "",
+          "items": [
+            {
+              "type": "single",
+              "title": "F-16D Barak II",
+              "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/f_16d_block_40_barak_2.png",
+              "br": "13.3",
+              "rp": "320,000",
+              "sp": "860,000",
+              "data_unit_id": "f_16d_block_40_barak_2",
+              "selected": false,
+              "class_name": "",
+              "details": true,
+              "main_role": "Fighter"
+            },
+            {
+              "type": "single",
+              "title": "F-16I Sufa",
+              "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/f_16i_sufa.png",
+              "br": "14.0",
+              "rp": "175,000",
+              "sp": "940,000",
+              "data_unit_id": "f_16i_sufa",
+              "selected": false,
+              "class_name": "",
+              "details": true,
+              "main_role": "Fighter"
+            }
+          ],
+          "details": true
+        },
+        {
+          "type": "single",
+          "title": "F-15I Ra’am",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/f_15i_raam.png",
+          "br": "14.0",
+          "rp": "350,000",
+          "sp": "940,000",
+          "data_unit_id": "f_15i_raam",
+          "selected": false,
+          "class_name": "",
+          "details": true,
+          "main_role": "Strike aircraft"
+        }
+      ]
+    ],
+    "premium_vehicles": [
+      [
+        {
+          "type": "single",
+          "title": "Netz (Mod)",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/f_16a_block_10_netz_mod.png",
+          "br": "12.3",
+          "rp": 0,
+          "sp": 0,
+          "data_unit_id": "f_16a_block_10_netz_mod",
+          "selected": false,
+          "class_name": "prem",
+          "details": true,
+          "main_role": "Fighter"
+        },
+        {
+          "type": "single",
+          "title": "◡Kfir C.10",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/kfir_c10_colombia.png",
+          "br": "13.0",
+          "rp": null,
+          "sp": null,
+          "data_unit_id": "kfir_c10_colombia",
+          "selected": false,
+          "class_name": "",
+          "details": true,
+          "main_role": "Fighter"
+        }
+      ]
+    ],
+    "selected": [],
+    "unlock_quantity": 0
+  }
+]

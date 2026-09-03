@@ -1,0 +1,839 @@
+[
+  {
+    "rank": "I",
+    "researchable_vehicles": [
+      [
+        {
+          "type": "single",
+          "title": "USS Litchfield",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/us_destroyer_clemson_litchfield.png",
+          "br": "3.3",
+          "rp": null,
+          "sp": null,
+          "data_unit_id": "us_destroyer_clemson_litchfield",
+          "selected": false,
+          "class_name": "",
+          "details": true,
+          "main_role": "Destroyer"
+        },
+        {
+          "type": "single",
+          "title": "USS Aylwin",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/us_destroyer_farragut_1942.png",
+          "br": "3.7",
+          "rp": "5,300",
+          "sp": "5,000",
+          "data_unit_id": "us_destroyer_farragut_1942",
+          "selected": false,
+          "class_name": "",
+          "details": true,
+          "main_role": "Destroyer"
+        }
+      ],
+      [
+        {
+          "type": "single",
+          "title": "USS Barker",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/us_destroyer_clemson_barker.png",
+          "br": "3.3",
+          "rp": "2,900",
+          "sp": "700",
+          "data_unit_id": "us_destroyer_clemson_barker",
+          "selected": false,
+          "class_name": "",
+          "details": true,
+          "main_role": "Destroyer"
+        }
+      ],
+      []
+    ],
+    "premium_vehicles": [
+      [
+        {
+          "type": "single",
+          "title": "USS Welborn C. Wood",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/us_destroyer_clemson_welborn_c_wood.png",
+          "br": "3.3",
+          "rp": 0,
+          "sp": 0,
+          "data_unit_id": "us_destroyer_clemson_welborn_c_wood",
+          "selected": false,
+          "class_name": "prem",
+          "details": true,
+          "main_role": "Destroyer"
+        }
+      ],
+      []
+    ],
+    "selected": [],
+    "unlock_quantity": 0
+  },
+  {
+    "rank": "II",
+    "researchable_vehicles": [
+      [
+        {
+          "type": "single",
+          "title": "USS Fletcher",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/us_destroyer_fletcher.png",
+          "br": "4.7",
+          "rp": "11,000",
+          "sp": "22,000",
+          "data_unit_id": "us_destroyer_fletcher",
+          "selected": false,
+          "class_name": "",
+          "details": true,
+          "main_role": "Destroyer"
+        }
+      ],
+      [
+        {
+          "type": "single",
+          "title": "USS Bagley",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/us_destroyer_bagley_class_bagley.png",
+          "br": "4.0",
+          "rp": "7,000",
+          "sp": "8,700",
+          "data_unit_id": "us_destroyer_bagley_class_bagley",
+          "selected": false,
+          "class_name": "",
+          "details": true,
+          "main_role": "Destroyer"
+        },
+        {
+          "type": "single",
+          "title": "USS Mitscher",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/us_destroyer_mitscher.png",
+          "br": "4.7",
+          "rp": "13,000",
+          "sp": "31,000",
+          "data_unit_id": "us_destroyer_mitscher",
+          "selected": false,
+          "class_name": "",
+          "details": true,
+          "main_role": "Destroyer"
+        }
+      ],
+      []
+    ],
+    "premium_vehicles": [
+      [
+        {
+          "type": "single",
+          "title": "USS Helm",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/us_destroyer_bagley_class_helm.png",
+          "br": "4.0",
+          "rp": 0,
+          "sp": 0,
+          "data_unit_id": "us_destroyer_bagley_class_helm",
+          "selected": false,
+          "class_name": "prem",
+          "details": true,
+          "main_role": "Destroyer"
+        },
+        {
+          "type": "single",
+          "title": "USS Wilkinson",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/us_destroyer_mitscher_wilkinson.png",
+          "br": "4.7",
+          "rp": 0,
+          "sp": 0,
+          "data_unit_id": "us_destroyer_mitscher_wilkinson",
+          "selected": false,
+          "class_name": "prem",
+          "details": true,
+          "main_role": "Destroyer"
+        }
+      ],
+      []
+    ],
+    "selected": [],
+    "unlock_quantity": 0
+  },
+  {
+    "rank": "III",
+    "researchable_vehicles": [
+      [
+        {
+          "type": "single",
+          "title": "USS Porter",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/us_destroyer_porter_1941.png",
+          "br": "5.3",
+          "rp": "21,000",
+          "sp": "70,000",
+          "data_unit_id": "us_destroyer_porter_1941",
+          "selected": false,
+          "class_name": "",
+          "details": true,
+          "main_role": "Destroyer"
+        },
+        {
+          "type": "single",
+          "title": "USS Somers",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/us_destroyer_somers.png",
+          "br": "5.3",
+          "rp": "25,000",
+          "sp": "87,000",
+          "data_unit_id": "us_destroyer_somers",
+          "selected": false,
+          "class_name": "",
+          "details": true,
+          "main_role": "Destroyer"
+        }
+      ],
+      [
+        {
+          "type": "single",
+          "title": "USS Trenton",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/us_cruiser_omaha_class_trenton.png",
+          "br": "5.0",
+          "rp": "18,000",
+          "sp": "55,000",
+          "data_unit_id": "us_cruiser_omaha_class_trenton",
+          "selected": false,
+          "class_name": "",
+          "details": true,
+          "main_role": "Light cruiser"
+        },
+        {
+          "type": "single",
+          "title": "USS Raleigh",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/us_cruiser_omaha_class_raleigh.png",
+          "br": "5.0",
+          "rp": "21,000",
+          "sp": "70,000",
+          "data_unit_id": "us_cruiser_omaha_class_raleigh",
+          "selected": false,
+          "class_name": "",
+          "details": true,
+          "main_role": "Light cruiser"
+        }
+      ],
+      [
+        {
+          "type": "single",
+          "title": "USS Sumner",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/us_destroyer_sumner.png",
+          "br": "5.0",
+          "rp": "15,000",
+          "sp": "38,000",
+          "data_unit_id": "us_destroyer_sumner",
+          "selected": false,
+          "class_name": "",
+          "details": true,
+          "main_role": "Destroyer"
+        },
+        {
+          "type": "single",
+          "title": "USS Gearing",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/us_destroyer_gearing.png",
+          "br": "5.0",
+          "rp": "18,000",
+          "sp": "55,000",
+          "data_unit_id": "us_destroyer_gearing",
+          "selected": false,
+          "class_name": "",
+          "details": true,
+          "main_role": "Destroyer"
+        }
+      ]
+    ],
+    "premium_vehicles": [
+      [
+        {
+          "type": "single",
+          "title": "USS Frank Knox",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/us_destroyer_gearing_frank_knox.png",
+          "br": "5.0",
+          "rp": 0,
+          "sp": 0,
+          "data_unit_id": "us_destroyer_gearing_frank_knox",
+          "selected": false,
+          "class_name": "prem",
+          "details": true,
+          "main_role": "Destroyer"
+        },
+        {
+          "type": "single",
+          "title": "USS Cowell",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/us_destroyer_fletcher_cowell.png",
+          "br": "4.7",
+          "rp": 0,
+          "sp": 0,
+          "data_unit_id": "us_destroyer_fletcher_cowell",
+          "selected": false,
+          "class_name": "prem",
+          "details": true,
+          "main_role": "Destroyer"
+        },
+        {
+          "type": "single",
+          "title": "USS Moffett",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/us_destroyer_porter_1942.png",
+          "br": "5.3",
+          "rp": 0,
+          "sp": 0,
+          "data_unit_id": "us_destroyer_porter_1942",
+          "selected": false,
+          "class_name": "prem",
+          "details": true,
+          "main_role": "Destroyer"
+        },
+        {
+          "type": "single",
+          "title": "USS Bennion",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/us_destroyer_fletcher_bennion.png",
+          "br": "4.7",
+          "rp": 0,
+          "sp": 0,
+          "data_unit_id": "us_destroyer_fletcher_bennion",
+          "selected": false,
+          "class_name": "prem",
+          "details": true,
+          "main_role": "Destroyer"
+        }
+      ],
+      [
+        {
+          "type": "single",
+          "title": "USS Davis",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/us_destroyer_somers_davis.png",
+          "br": "5.3",
+          "rp": 0,
+          "sp": 0,
+          "data_unit_id": "us_destroyer_somers_davis",
+          "selected": false,
+          "class_name": "prem",
+          "details": true,
+          "main_role": "Destroyer"
+        },
+        {
+          "type": "single",
+          "title": "USS Phelps",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/us_destroyer_porter_1944.png",
+          "br": "5.0",
+          "rp": 0,
+          "sp": 0,
+          "data_unit_id": "us_destroyer_porter_1944",
+          "selected": false,
+          "class_name": "prem",
+          "details": true,
+          "main_role": "Destroyer"
+        },
+        {
+          "type": "single",
+          "title": "USS Detroit",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/us_cruiser_omaha_class_detroit.png",
+          "br": "5.0",
+          "rp": 0,
+          "sp": 0,
+          "data_unit_id": "us_cruiser_omaha_class_detroit",
+          "selected": false,
+          "class_name": "prem",
+          "details": true,
+          "main_role": "Light cruiser"
+        }
+      ]
+    ],
+    "selected": [],
+    "unlock_quantity": 0
+  },
+  {
+    "rank": "IV",
+    "researchable_vehicles": [
+      [
+        {
+          "type": "single",
+          "title": "USS Charles F. Adams",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/us_destroyer_cf_adams_class_cf_adams.png",
+          "br": "5.3",
+          "rp": "33,000",
+          "sp": "115,000",
+          "data_unit_id": "us_destroyer_cf_adams_class_cf_adams",
+          "selected": false,
+          "class_name": "",
+          "details": true,
+          "main_role": "Destroyer"
+        },
+        {
+          "type": "single",
+          "title": "USS Forrest Sherman",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/us_destroyer_forrestsherman_class.png",
+          "br": "5.3",
+          "rp": "46,000",
+          "sp": "150,000",
+          "data_unit_id": "us_destroyer_forrestsherman_class",
+          "selected": false,
+          "class_name": "",
+          "details": true,
+          "main_role": "Destroyer"
+        },
+        {
+          "type": "single",
+          "title": "USS Atlanta",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/us_cruiser_atlanta_class_atlanta.png",
+          "br": "5.7",
+          "rp": "59,000",
+          "sp": "185,000",
+          "data_unit_id": "us_cruiser_atlanta_class_atlanta",
+          "selected": false,
+          "class_name": "",
+          "details": true,
+          "main_role": "Light cruiser"
+        }
+      ],
+      [
+        {
+          "type": "single",
+          "title": "USS Cleveland",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/us_cruiser_cleveland_class_cleveland.png",
+          "br": "6.0",
+          "rp": "46,000",
+          "sp": "150,000",
+          "data_unit_id": "us_cruiser_cleveland_class_cleveland",
+          "selected": false,
+          "class_name": "",
+          "details": true,
+          "main_role": "Light cruiser"
+        },
+        {
+          "type": "multiple",
+          "title": "USS Fargo/USS Brooklyn",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/us_cruiser_fargo_brooklyn_group.png",
+          "selected": false,
+          "br": "6.0-6.3",
+          "data_unit_id": "us_cruiser_fargo_brooklyn_group",
+          "class_name": "",
+          "items": [
+            {
+              "type": "single",
+              "title": "USS Fargo",
+              "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/us_cruiser_fargo_class.png",
+              "br": "6.0",
+              "rp": "59,000",
+              "sp": "185,000",
+              "data_unit_id": "us_cruiser_fargo_class",
+              "selected": false,
+              "class_name": "",
+              "details": true,
+              "main_role": "Light cruiser"
+            },
+            {
+              "type": "single",
+              "title": "USS Brooklyn",
+              "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/us_cruiser_brooklyn_class_brooklyn.png",
+              "br": "6.3",
+              "rp": "36,000",
+              "sp": "230,000",
+              "data_unit_id": "us_cruiser_brooklyn_class_brooklyn",
+              "selected": false,
+              "class_name": "",
+              "details": true,
+              "main_role": "Light cruiser"
+            }
+          ],
+          "details": true
+        }
+      ],
+      [
+        {
+          "type": "multiple",
+          "title": "USS Northampton/Portland/Pensacola",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/us_cruiser_northampton_pensacola_group.png",
+          "selected": false,
+          "br": "5.7",
+          "data_unit_id": "us_cruiser_northampton_pensacola_group",
+          "class_name": "",
+          "items": [
+            {
+              "type": "single",
+              "title": "USS Northampton",
+              "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/us_cruiser_northampton_class.png",
+              "br": "5.7",
+              "rp": "33,000",
+              "sp": "115,000",
+              "data_unit_id": "us_cruiser_northampton_class",
+              "selected": false,
+              "class_name": "",
+              "details": true,
+              "main_role": "Heavy cruiser"
+            },
+            {
+              "type": "single",
+              "title": "USS Portland",
+              "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/us_cruiser_portland_class.png",
+              "br": "5.7",
+              "rp": "23,000",
+              "sp": "150,000",
+              "data_unit_id": "us_cruiser_portland_class",
+              "selected": false,
+              "class_name": "",
+              "details": true,
+              "main_role": "Heavy cruiser"
+            },
+            {
+              "type": "single",
+              "title": "USS Pensacola",
+              "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/us_cruiser_pensacola_class.png",
+              "br": "5.7",
+              "rp": "30,000",
+              "sp": "185,000",
+              "data_unit_id": "us_cruiser_pensacola_class",
+              "selected": false,
+              "class_name": "",
+              "details": true,
+              "main_role": "Heavy cruiser"
+            }
+          ],
+          "details": true
+        },
+        {
+          "type": "single",
+          "title": "USS New Orleans",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/us_cruiser_new_orleans_class.png",
+          "br": "6.0",
+          "rp": "73,000",
+          "sp": "230,000",
+          "data_unit_id": "us_cruiser_new_orleans_class",
+          "selected": false,
+          "class_name": "",
+          "details": true,
+          "main_role": "Heavy cruiser"
+        }
+      ]
+    ],
+    "premium_vehicles": [
+      [
+        {
+          "type": "single",
+          "title": "USS Helena",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/us_cruiser_brooklyn_class_helena.png",
+          "br": "6.3",
+          "rp": 0,
+          "sp": 0,
+          "data_unit_id": "us_cruiser_brooklyn_class_helena",
+          "selected": false,
+          "class_name": "prem",
+          "details": true,
+          "main_role": "Light cruiser"
+        }
+      ],
+      []
+    ],
+    "selected": [],
+    "unlock_quantity": 0
+  },
+  {
+    "rank": "V",
+    "researchable_vehicles": [
+      [
+        {
+          "type": "single",
+          "title": "USS Roanoke",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/us_cruiser_worcester_class_roanoke.png",
+          "br": "6.3",
+          "rp": "90,000",
+          "sp": "280,000",
+          "data_unit_id": "us_cruiser_worcester_class_roanoke",
+          "selected": false,
+          "class_name": "",
+          "details": true,
+          "main_role": "Light cruiser"
+        },
+        {
+          "type": "single",
+          "title": "USS Texas",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/us_battleship_texas.png",
+          "br": "6.7",
+          "rp": "180,000",
+          "sp": "540,000",
+          "data_unit_id": "us_battleship_texas",
+          "selected": false,
+          "class_name": "",
+          "details": true,
+          "main_role": "Battleship"
+        }
+      ],
+      [
+        {
+          "type": "single",
+          "title": "USS North Dakota",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/us_battleship_north_dakota.png",
+          "br": "6.3",
+          "rp": "110,000",
+          "sp": "340,000",
+          "data_unit_id": "us_battleship_north_dakota",
+          "selected": false,
+          "class_name": "",
+          "details": true,
+          "main_role": "Battleship"
+        },
+        {
+          "type": "single",
+          "title": "USS Wyoming",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/us_battleship_wyoming_class.png",
+          "br": "6.7",
+          "rp": "145,000",
+          "sp": "440,000",
+          "data_unit_id": "us_battleship_wyoming_class",
+          "selected": false,
+          "class_name": "",
+          "details": true,
+          "main_role": "Battleship"
+        }
+      ],
+      [
+        {
+          "type": "single",
+          "title": "USS Pittsburgh",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/us_cruiser_baltimore_class_pittsburgh.png",
+          "br": "6.3",
+          "rp": "110,000",
+          "sp": "340,000",
+          "data_unit_id": "us_cruiser_baltimore_class_pittsburgh",
+          "selected": false,
+          "class_name": "",
+          "details": true,
+          "main_role": "Heavy cruiser"
+        },
+        {
+          "type": "single",
+          "title": "USS Oregon City",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/us_cruiser_oregon_class.png",
+          "br": "6.3",
+          "rp": "145,000",
+          "sp": "440,000",
+          "data_unit_id": "us_cruiser_oregon_class",
+          "selected": false,
+          "class_name": "",
+          "details": true,
+          "main_role": "Heavy cruiser"
+        }
+      ]
+    ],
+    "premium_vehicles": [
+      [
+        {
+          "type": "single",
+          "title": "USS Baltimore",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/us_cruiser_baltimore_class.png",
+          "br": "6.3",
+          "rp": null,
+          "sp": null,
+          "data_unit_id": "us_cruiser_baltimore_class",
+          "selected": false,
+          "class_name": "",
+          "details": true,
+          "main_role": "Heavy cruiser"
+        },
+        {
+          "type": "single",
+          "title": "USS Arkansas",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/us_battleship_arkansas.png",
+          "br": "6.7",
+          "rp": 0,
+          "sp": 0,
+          "data_unit_id": "us_battleship_arkansas",
+          "selected": false,
+          "class_name": "prem",
+          "details": true,
+          "main_role": "Battleship"
+        }
+      ],
+      [
+        {
+          "type": "single",
+          "title": "USS Newport News",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/us_cruiser_des_moines_class_newport_news.png",
+          "br": "6.7",
+          "rp": null,
+          "sp": null,
+          "data_unit_id": "us_cruiser_des_moines_class_newport_news",
+          "selected": false,
+          "class_name": "",
+          "details": true,
+          "main_role": "Heavy cruiser"
+        },
+        {
+          "type": "single",
+          "title": "USS Des Moines",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/us_cruiser_des_moines_class.png",
+          "br": "6.7",
+          "rp": 0,
+          "sp": 0,
+          "data_unit_id": "us_cruiser_des_moines_class",
+          "selected": false,
+          "class_name": "prem",
+          "details": true,
+          "main_role": "Heavy cruiser"
+        }
+      ]
+    ],
+    "selected": [],
+    "unlock_quantity": 0
+  },
+  {
+    "rank": "VI",
+    "researchable_vehicles": [
+      [
+        {
+          "type": "single",
+          "title": "USS Arizona",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/us_battleship_arizona_1931.png",
+          "br": "7.3",
+          "rp": "300,000",
+          "sp": "900,000",
+          "data_unit_id": "us_battleship_arizona_1931",
+          "selected": false,
+          "class_name": "",
+          "details": true,
+          "main_role": "Battleship"
+        },
+        {
+          "type": "single",
+          "title": "USS Colorado",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/us_battleship_colorado_class_colorado.png",
+          "br": "7.7",
+          "rp": "350,000",
+          "sp": "1,050,000",
+          "data_unit_id": "us_battleship_colorado_class_colorado",
+          "selected": false,
+          "class_name": "",
+          "details": true,
+          "main_role": "Battleship"
+        }
+      ],
+      [
+        {
+          "type": "single",
+          "title": "USS Nevada",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/us_battleship_nevada.png",
+          "br": "7.3",
+          "rp": "260,000",
+          "sp": "780,000",
+          "data_unit_id": "us_battleship_nevada",
+          "selected": false,
+          "class_name": "",
+          "details": true,
+          "main_role": "Battleship"
+        },
+        {
+          "type": "single",
+          "title": "USS Tennessee",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/us_battleship_tennessee.png",
+          "br": "7.7",
+          "rp": "300,000",
+          "sp": "900,000",
+          "data_unit_id": "us_battleship_tennessee",
+          "selected": false,
+          "class_name": "",
+          "details": true,
+          "main_role": "Battleship"
+        }
+      ],
+      [
+        {
+          "type": "single",
+          "title": "USS Alaska",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/us_battlecruiser_alaska_class.png",
+          "br": "7.3",
+          "rp": "220,000",
+          "sp": "660,000",
+          "data_unit_id": "us_battlecruiser_alaska_class",
+          "selected": false,
+          "class_name": "",
+          "details": true,
+          "main_role": "Battlecruiser"
+        }
+      ]
+    ],
+    "premium_vehicles": [
+      [
+        {
+          "type": "single",
+          "title": "USS Mississippi",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/us_battleship_mississippi.png",
+          "br": "7.7",
+          "rp": null,
+          "sp": null,
+          "data_unit_id": "us_battleship_mississippi",
+          "selected": false,
+          "class_name": "",
+          "details": true,
+          "main_role": "Battleship"
+        },
+        {
+          "type": "single",
+          "title": "USS Maryland",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/us_battleship_colorado_class_maryland.png",
+          "br": "7.7",
+          "rp": 0,
+          "sp": 0,
+          "data_unit_id": "us_battleship_colorado_class_maryland",
+          "selected": false,
+          "class_name": "prem",
+          "details": true,
+          "main_role": "Battleship"
+        }
+      ],
+      [
+        {
+          "type": "single",
+          "title": "USS Oklahoma",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/us_battleship_oklahoma.png",
+          "br": "7.0",
+          "rp": null,
+          "sp": null,
+          "data_unit_id": "us_battleship_oklahoma",
+          "selected": false,
+          "class_name": "",
+          "details": true,
+          "main_role": "Battleship"
+        }
+      ]
+    ],
+    "selected": [],
+    "unlock_quantity": 0
+  },
+  {
+    "rank": "VII",
+    "researchable_vehicles": [
+      [],
+      [
+        {
+          "type": "single",
+          "title": "USS South Dakota",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/us_battleship_south_dakota.png",
+          "br": "8.3",
+          "rp": "400,000",
+          "sp": "1,150,000",
+          "data_unit_id": "us_battleship_south_dakota",
+          "selected": false,
+          "class_name": "",
+          "details": true,
+          "main_role": "Battleship"
+        },
+        {
+          "type": "single",
+          "title": "USS Iowa",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/us_battleship_iowa_class_iowa.png",
+          "br": "8.7",
+          "rp": "410,000",
+          "sp": "1,190,000",
+          "data_unit_id": "us_battleship_iowa_class_iowa",
+          "selected": false,
+          "class_name": "",
+          "details": true,
+          "main_role": "Battleship"
+        }
+      ],
+      []
+    ],
+    "premium_vehicles": [
+      [],
+      []
+    ],
+    "selected": [],
+    "unlock_quantity": 0
+  }
+]

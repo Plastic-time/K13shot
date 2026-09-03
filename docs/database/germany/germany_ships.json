@@ -1,0 +1,710 @@
+[
+  {
+    "rank": "I",
+    "researchable_vehicles": [
+      [
+        {
+          "type": "single",
+          "title": "Leopard",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/germ_destroyer_class1924_leopard1932.png",
+          "br": "3.7",
+          "rp": null,
+          "sp": null,
+          "data_unit_id": "germ_destroyer_class1924_leopard1932",
+          "selected": false,
+          "class_name": "",
+          "details": true,
+          "main_role": "Destroyer"
+        },
+        {
+          "type": "single",
+          "title": "Z15 Erich Steinbrinck",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/germ_destroyer_class1934a_1944.png",
+          "br": "4.0",
+          "rp": "4,000",
+          "sp": "2,100",
+          "data_unit_id": "germ_destroyer_class1934a_1944",
+          "selected": false,
+          "class_name": "",
+          "details": true,
+          "main_role": "Destroyer"
+        }
+      ],
+      [
+        {
+          "type": "single",
+          "title": "T22",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/germ_destroyer_class1939_t22.png",
+          "br": "3.7",
+          "rp": "2,900",
+          "sp": "700",
+          "data_unit_id": "germ_destroyer_class1939_t22",
+          "selected": false,
+          "class_name": "",
+          "details": true,
+          "main_role": "Destroyer"
+        },
+        {
+          "type": "single",
+          "title": "K2",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/germ_kanonenboot_k2.png",
+          "br": "4.3",
+          "rp": "5,300",
+          "sp": "5,000",
+          "data_unit_id": "germ_kanonenboot_k2",
+          "selected": false,
+          "class_name": "",
+          "details": true,
+          "main_role": "Destroyer"
+        }
+      ]
+    ],
+    "premium_vehicles": [
+      [
+        {
+          "type": "single",
+          "title": "Luchs",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/germ_destroyer_class1924_iltis.png",
+          "br": "3.7",
+          "rp": 0,
+          "sp": 0,
+          "data_unit_id": "germ_destroyer_class1924_iltis",
+          "selected": false,
+          "class_name": "prem",
+          "details": true,
+          "main_role": "Destroyer"
+        }
+      ],
+      []
+    ],
+    "selected": [],
+    "unlock_quantity": 0
+  },
+  {
+    "rank": "II",
+    "researchable_vehicles": [
+      [
+        {
+          "type": "single",
+          "title": "Z12 Erich Giese",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/germ_destroyer_class1934a_1940.png",
+          "br": "4.3",
+          "rp": "7,000",
+          "sp": "8,700",
+          "data_unit_id": "germ_destroyer_class1934a_1940",
+          "selected": false,
+          "class_name": "",
+          "details": true,
+          "main_role": "Destroyer"
+        },
+        {
+          "type": "single",
+          "title": "Z32",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/germ_destroyer_class1936a_mob_z32.png",
+          "br": "4.7",
+          "rp": "13,000",
+          "sp": "31,000",
+          "data_unit_id": "germ_destroyer_class1936a_mob_z32",
+          "selected": false,
+          "class_name": "",
+          "details": true,
+          "main_role": "Destroyer"
+        }
+      ],
+      [
+        {
+          "type": "single",
+          "title": "Z22 Anton Schmitt",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/germ_destroyer_class1936_z20.png",
+          "br": "4.3",
+          "rp": "9,000",
+          "sp": "16,000",
+          "data_unit_id": "germ_destroyer_class1936_z20",
+          "selected": false,
+          "class_name": "",
+          "details": true,
+          "main_role": "Destroyer"
+        },
+        {
+          "type": "single",
+          "title": "Z43",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/germ_destroyer_class1936b.png",
+          "br": "4.7",
+          "rp": "11,000",
+          "sp": "22,000",
+          "data_unit_id": "germ_destroyer_class1936b",
+          "selected": false,
+          "class_name": "",
+          "details": true,
+          "main_role": "Destroyer"
+        }
+      ]
+    ],
+    "premium_vehicles": [
+      [
+        {
+          "type": "single",
+          "title": "Z4 Zerstörer",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/germ_destroyer_fletcher_zerstorer4.png",
+          "br": "4.7",
+          "rp": 0,
+          "sp": 0,
+          "data_unit_id": "germ_destroyer_fletcher_zerstorer4",
+          "selected": false,
+          "class_name": "prem",
+          "details": true,
+          "main_role": "Destroyer"
+        },
+        {
+          "type": "single",
+          "title": "Jaguar",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/germ_destroyer_class1924_jaguar1941.png",
+          "br": "3.7",
+          "rp": 0,
+          "sp": 0,
+          "data_unit_id": "germ_destroyer_class1924_jaguar1941",
+          "selected": false,
+          "class_name": "prem",
+          "details": true,
+          "main_role": "Destroyer"
+        }
+      ],
+      []
+    ],
+    "selected": [],
+    "unlock_quantity": 0
+  },
+  {
+    "rank": "III",
+    "researchable_vehicles": [
+      [
+        {
+          "type": "single",
+          "title": "Z51",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/germ_destroyer_class1942_z51.png",
+          "br": "4.7",
+          "rp": "15,000",
+          "sp": "38,000",
+          "data_unit_id": "germ_destroyer_class1942_z51",
+          "selected": false,
+          "class_name": "",
+          "details": true,
+          "main_role": "Destroyer"
+        },
+        {
+          "type": "single",
+          "title": "Z46",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/germ_destroyer_class1936c_z46.png",
+          "br": "5.0",
+          "rp": "18,000",
+          "sp": "55,000",
+          "data_unit_id": "germ_destroyer_class1936c_z46",
+          "selected": false,
+          "class_name": "",
+          "details": true,
+          "main_role": "Destroyer"
+        },
+        {
+          "type": "single",
+          "title": "Z52",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/germ_destroyer_class1944_z52.png",
+          "br": "5.0",
+          "rp": "21,000",
+          "sp": "70,000",
+          "data_unit_id": "germ_destroyer_class1944_z52",
+          "selected": false,
+          "class_name": "",
+          "details": true,
+          "main_role": "Destroyer"
+        }
+      ],
+      [
+        {
+          "type": "single",
+          "title": "SMS Elbing",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/germ_cruiser_elbing.png",
+          "br": "4.7",
+          "rp": "21,000",
+          "sp": "70,000",
+          "data_unit_id": "germ_cruiser_elbing",
+          "selected": false,
+          "class_name": "",
+          "details": true,
+          "main_role": "Light cruiser"
+        },
+        {
+          "type": "single",
+          "title": "Emden",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/germ_cruiser_emden_1944.png",
+          "br": "5.0",
+          "rp": "25,000",
+          "sp": "87,000",
+          "data_unit_id": "germ_cruiser_emden_1944",
+          "selected": false,
+          "class_name": "",
+          "details": true,
+          "main_role": "Light cruiser"
+        }
+      ]
+    ],
+    "premium_vehicles": [
+      [
+        {
+          "type": "single",
+          "title": "Z47",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/germ_destroyer_class1936c_z47.png",
+          "br": "5.0",
+          "rp": 0,
+          "sp": 0,
+          "data_unit_id": "germ_destroyer_class1936c_z47",
+          "selected": false,
+          "class_name": "prem",
+          "details": true,
+          "main_role": "Destroyer"
+        },
+        {
+          "type": "single",
+          "title": "Z20 Karl Galster",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/germ_destroyer_class1936_z20_karlgalster.png",
+          "br": "4.7",
+          "rp": 0,
+          "sp": 0,
+          "data_unit_id": "germ_destroyer_class1936_z20_karlgalster",
+          "selected": false,
+          "class_name": "prem",
+          "details": true,
+          "main_role": "Destroyer"
+        }
+      ],
+      [
+        {
+          "type": "single",
+          "title": "T31",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/germ_destroyer_class1939_t31.png",
+          "br": "4.0",
+          "rp": 0,
+          "sp": 0,
+          "data_unit_id": "germ_destroyer_class1939_t31",
+          "selected": false,
+          "class_name": "prem",
+          "details": true,
+          "main_role": "Destroyer"
+        },
+        {
+          "type": "single",
+          "title": "Z25",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/germ_destroyer_class1936a_z25.png",
+          "br": "4.3",
+          "rp": 0,
+          "sp": 0,
+          "data_unit_id": "germ_destroyer_class1936a_z25",
+          "selected": false,
+          "class_name": "prem",
+          "details": true,
+          "main_role": "Destroyer"
+        }
+      ]
+    ],
+    "selected": [],
+    "unlock_quantity": 0
+  },
+  {
+    "rank": "IV",
+    "researchable_vehicles": [
+      [
+        {
+          "type": "single",
+          "title": "Lütjens",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/germ_destroyer_lutjens_class_lutjens.png",
+          "br": "5.3",
+          "rp": "33,000",
+          "sp": "115,000",
+          "data_unit_id": "germ_destroyer_lutjens_class_lutjens",
+          "selected": false,
+          "class_name": "",
+          "details": true,
+          "main_role": "Destroyer"
+        },
+        {
+          "type": "multiple",
+          "title": "Leipzig/Nurnberg",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/germ_cruiser_leipzig_nurnberg_group.png",
+          "selected": false,
+          "br": "5.3-5.7",
+          "data_unit_id": "germ_cruiser_leipzig_nurnberg_group",
+          "class_name": "",
+          "items": [
+            {
+              "type": "single",
+              "title": "Leipzig",
+              "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/germ_cruiser_leipzig.png",
+              "br": "5.3",
+              "rp": "46,000",
+              "sp": "150,000",
+              "data_unit_id": "germ_cruiser_leipzig",
+              "selected": false,
+              "class_name": "",
+              "details": true,
+              "main_role": "Light cruiser"
+            },
+            {
+              "type": "single",
+              "title": "Nürnberg",
+              "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/germ_cruiser_nurnberg.png",
+              "br": "5.7",
+              "rp": "30,000",
+              "sp": "185,000",
+              "data_unit_id": "germ_cruiser_nurnberg",
+              "selected": false,
+              "class_name": "",
+              "details": true,
+              "main_role": "Light cruiser"
+            }
+          ],
+          "details": true
+        },
+        {
+          "type": "single",
+          "title": "Admiral Hipper",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/germ_cruiser_admiral_hipper.png",
+          "br": "6.0",
+          "rp": "59,000",
+          "sp": "185,000",
+          "data_unit_id": "germ_cruiser_admiral_hipper",
+          "selected": false,
+          "class_name": "",
+          "details": true,
+          "main_role": "Heavy cruiser"
+        }
+      ],
+      [
+        {
+          "type": "single",
+          "title": "Köln",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/germ_cruiser_koln.png",
+          "br": "5.3",
+          "rp": "46,000",
+          "sp": "150,000",
+          "data_unit_id": "germ_cruiser_koln",
+          "selected": false,
+          "class_name": "",
+          "details": true,
+          "main_role": "Light cruiser"
+        },
+        {
+          "type": "single",
+          "title": "Admiral Graf Spee",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/germ_cruiser_admiral_graf_spee.png",
+          "br": "6.0",
+          "rp": "73,000",
+          "sp": "230,000",
+          "data_unit_id": "germ_cruiser_admiral_graf_spee",
+          "selected": false,
+          "class_name": "",
+          "details": true,
+          "main_role": "Heavy cruiser"
+        }
+      ]
+    ],
+    "premium_vehicles": [
+      [
+        {
+          "type": "single",
+          "title": "Karlsruhe",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/germ_cruiser_karlsruhe.png",
+          "br": "5.7",
+          "rp": 0,
+          "sp": 0,
+          "data_unit_id": "germ_cruiser_karlsruhe",
+          "selected": false,
+          "class_name": "prem",
+          "details": true,
+          "main_role": "Light cruiser"
+        },
+        {
+          "type": "single",
+          "title": "Prinz Eugen",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/germ_cruiser_prinz_eugen.png",
+          "br": "6.0",
+          "rp": 0,
+          "sp": 0,
+          "data_unit_id": "germ_cruiser_prinz_eugen",
+          "selected": false,
+          "class_name": "prem",
+          "details": true,
+          "main_role": "Heavy cruiser"
+        }
+      ],
+      []
+    ],
+    "selected": [],
+    "unlock_quantity": 0
+  },
+  {
+    "rank": "V",
+    "researchable_vehicles": [
+      [
+        {
+          "type": "multiple",
+          "title": "SMS Westfalen/Helgoland",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/germ_westfalen_helgoland_group.png",
+          "selected": false,
+          "br": "6.0-6.7",
+          "data_unit_id": "germ_westfalen_helgoland_group",
+          "class_name": "",
+          "items": [
+            {
+              "type": "single",
+              "title": "SMS Westfalen",
+              "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/germ_battleship_westfalen.png",
+              "br": "6.0",
+              "rp": "110,000",
+              "sp": "340,000",
+              "data_unit_id": "germ_battleship_westfalen",
+              "selected": false,
+              "class_name": "",
+              "details": true,
+              "main_role": "Battleship"
+            },
+            {
+              "type": "single",
+              "title": "SMS Helgoland",
+              "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/germ_battleship_helgoland.png",
+              "br": "6.7",
+              "rp": "73,000",
+              "sp": "440,000",
+              "data_unit_id": "germ_battleship_helgoland",
+              "selected": false,
+              "class_name": "",
+              "details": true,
+              "main_role": "Battleship"
+            }
+          ],
+          "details": true
+        },
+        {
+          "type": "single",
+          "title": "SMS Kaiser",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/germ_battleship_kaiser.png",
+          "br": "6.7",
+          "rp": "145,000",
+          "sp": "440,000",
+          "data_unit_id": "germ_battleship_kaiser",
+          "selected": false,
+          "class_name": "",
+          "details": true,
+          "main_role": "Battleship"
+        },
+        {
+          "type": "single",
+          "title": "SMS König",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/germ_battleship_konig.png",
+          "br": "6.7",
+          "rp": "180,000",
+          "sp": "540,000",
+          "data_unit_id": "germ_battleship_konig",
+          "selected": false,
+          "class_name": "",
+          "details": true,
+          "main_role": "Battleship"
+        }
+      ],
+      [
+        {
+          "type": "single",
+          "title": "SMS Von der Tann",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/germ_battlecruiser_von_der_tann.png",
+          "br": "6.0",
+          "rp": "90,000",
+          "sp": "280,000",
+          "data_unit_id": "germ_battlecruiser_von_der_tann",
+          "selected": false,
+          "class_name": "",
+          "details": true,
+          "main_role": "Battlecruiser"
+        },
+        {
+          "type": "single",
+          "title": "SMS Derfflinger",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/germ_battlecruiser_derfflinger.png",
+          "br": "6.7",
+          "rp": "145,000",
+          "sp": "440,000",
+          "data_unit_id": "germ_battlecruiser_derfflinger",
+          "selected": false,
+          "class_name": "",
+          "details": true,
+          "main_role": "Battlecruiser"
+        }
+      ]
+    ],
+    "premium_vehicles": [
+      [
+        {
+          "type": "single",
+          "title": "SMS Nassau",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/germ_battleship_nassau.png",
+          "br": "6.0",
+          "rp": 0,
+          "sp": 0,
+          "data_unit_id": "germ_battleship_nassau",
+          "selected": false,
+          "class_name": "prem",
+          "details": true,
+          "main_role": "Battleship"
+        },
+        {
+          "type": "single",
+          "title": "SMS Ostfriesland",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/germ_battleship_ostfriesland.png",
+          "br": "6.7",
+          "rp": null,
+          "sp": null,
+          "data_unit_id": "germ_battleship_ostfriesland",
+          "selected": false,
+          "class_name": "",
+          "details": true,
+          "main_role": "Battleship"
+        }
+      ],
+      []
+    ],
+    "selected": [],
+    "unlock_quantity": 0
+  },
+  {
+    "rank": "VI",
+    "researchable_vehicles": [
+      [
+        {
+          "type": "single",
+          "title": "SMS Bayern",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/germ_battleship_bayern.png",
+          "br": "7.0",
+          "rp": "260,000",
+          "sp": "780,000",
+          "data_unit_id": "germ_battleship_bayern",
+          "selected": false,
+          "class_name": "",
+          "details": true,
+          "main_role": "Battleship"
+        },
+        {
+          "type": "single",
+          "title": "SMS Sachsen",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/germ_battleship_sachsen.png",
+          "br": "7.0",
+          "rp": "300,000",
+          "sp": "900,000",
+          "data_unit_id": "germ_battleship_sachsen",
+          "selected": false,
+          "class_name": "",
+          "details": true,
+          "main_role": "Battleship"
+        }
+      ],
+      [
+        {
+          "type": "single",
+          "title": "Ersatz Yorck",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/germ_battlecruiser_ersatz_yorck.png",
+          "br": "7.0",
+          "rp": "220,000",
+          "sp": "660,000",
+          "data_unit_id": "germ_battlecruiser_ersatz_yorck",
+          "selected": false,
+          "class_name": "",
+          "details": true,
+          "main_role": "Battlecruiser"
+        },
+        {
+          "type": "single",
+          "title": "Scharnhorst",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/germ_battleship_scharnhorst.png",
+          "br": "7.3",
+          "rp": "350,000",
+          "sp": "1,050,000",
+          "data_unit_id": "germ_battleship_scharnhorst",
+          "selected": false,
+          "class_name": "",
+          "details": true,
+          "main_role": "Battlecruiser"
+        }
+      ]
+    ],
+    "premium_vehicles": [
+      [
+        {
+          "type": "single",
+          "title": "Gneisenau",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/germ_battleship_gneisenau_380mm.png",
+          "br": "7.7",
+          "rp": 0,
+          "sp": 0,
+          "data_unit_id": "germ_battleship_gneisenau_380mm",
+          "selected": false,
+          "class_name": "prem",
+          "details": true,
+          "main_role": "Battlecruiser"
+        },
+        {
+          "type": "single",
+          "title": "SMS Baden",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/germ_battleship_baden.png",
+          "br": "7.0",
+          "rp": null,
+          "sp": null,
+          "data_unit_id": "germ_battleship_baden",
+          "selected": false,
+          "class_name": "",
+          "details": true,
+          "main_role": "Battleship"
+        }
+      ],
+      [
+        {
+          "type": "single",
+          "title": "Mackensen",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/germ_battlecruiser_mackensen_class.png",
+          "br": "7.0",
+          "rp": null,
+          "sp": null,
+          "data_unit_id": "germ_battlecruiser_mackensen_class",
+          "selected": false,
+          "class_name": "",
+          "details": true,
+          "main_role": "Battlecruiser"
+        }
+      ]
+    ],
+    "selected": [],
+    "unlock_quantity": 0
+  },
+  {
+    "rank": "VII",
+    "researchable_vehicles": [
+      [
+        {
+          "type": "single",
+          "title": "Bismarck",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/germ_battleship_bismarck.png",
+          "br": "8.3",
+          "rp": "400,000",
+          "sp": "1,150,000",
+          "data_unit_id": "germ_battleship_bismarck",
+          "selected": false,
+          "class_name": "",
+          "details": true,
+          "main_role": "Battleship"
+        }
+      ],
+      []
+    ],
+    "premium_vehicles": [
+      [],
+      []
+    ],
+    "selected": [],
+    "unlock_quantity": 0
+  }
+]

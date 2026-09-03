@@ -1,0 +1,2300 @@
+[
+  {
+    "rank": "I",
+    "researchable_vehicles": [
+      [
+        {
+          "type": "single",
+          "title": "A13 Mk I",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/uk_a_13_mk1.png",
+          "br": "1.0",
+          "rp": null,
+          "sp": null,
+          "data_unit_id": "uk_a_13_mk1",
+          "selected": false,
+          "class_name": "",
+          "details": true,
+          "main_role": "Light tank"
+        },
+        {
+          "type": "single",
+          "title": "A13 Mk II",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/uk_a_13_mk2.png",
+          "br": "1.3",
+          "rp": "2,900",
+          "sp": "700",
+          "data_unit_id": "uk_a_13_mk2",
+          "selected": false,
+          "class_name": "",
+          "details": true,
+          "main_role": "Light tank"
+        }
+      ],
+      [
+        {
+          "type": "single",
+          "title": "Stuart I",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/uk_m3_stuart.png",
+          "br": "2.0",
+          "rp": "2,900",
+          "sp": "700",
+          "data_unit_id": "uk_m3_stuart",
+          "selected": false,
+          "class_name": "",
+          "details": true,
+          "main_role": "Light tank"
+        },
+        {
+          "type": "single",
+          "title": "Stuart III",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/uk_m3a1_stuart.png",
+          "br": "2.3",
+          "rp": "5,900",
+          "sp": "6,300",
+          "data_unit_id": "uk_m3a1_stuart",
+          "selected": false,
+          "class_name": "",
+          "details": true,
+          "main_role": "Light tank"
+        }
+      ],
+      [
+        {
+          "type": "single",
+          "title": "Tetrarch I",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/uk_a17_mk_1_tetrarch.png",
+          "br": "1.0",
+          "rp": null,
+          "sp": null,
+          "data_unit_id": "uk_a17_mk_1_tetrarch",
+          "selected": false,
+          "class_name": "",
+          "details": true,
+          "main_role": "Light tank"
+        },
+        {
+          "type": "single",
+          "title": "Daimler Mk II",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/uk_daimler_mk_2.png",
+          "br": "1.3",
+          "rp": "2,900",
+          "sp": "700",
+          "data_unit_id": "uk_daimler_mk_2",
+          "selected": false,
+          "class_name": "",
+          "details": true,
+          "main_role": "Light tank"
+        }
+      ],
+      [
+        {
+          "type": "single",
+          "title": "Light AA Mk I",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/uk_vickers_mk_6_aa_mk_1.png",
+          "br": "1.0",
+          "rp": "4,000",
+          "sp": "2,100",
+          "data_unit_id": "uk_vickers_mk_6_aa_mk_1",
+          "selected": false,
+          "class_name": "",
+          "details": true,
+          "main_role": "SPAA"
+        },
+        {
+          "type": "single",
+          "title": "Staghound AA",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/uk_t17e2.png",
+          "br": "2.0",
+          "rp": "5,900",
+          "sp": "6,300",
+          "data_unit_id": "uk_t17e2",
+          "selected": false,
+          "class_name": "",
+          "details": true,
+          "main_role": "SPAA"
+        }
+      ],
+      [
+        {
+          "type": "single",
+          "title": "Mark V",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/uk_mark_v.png",
+          "br": "1.0",
+          "rp": null,
+          "sp": null,
+          "data_unit_id": "uk_mark_v",
+          "selected": false,
+          "class_name": "",
+          "details": true,
+          "main_role": "Medium tank"
+        },
+        {
+          "type": "single",
+          "title": "SARC MkIVa",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/uk_sarc_mk4_a.png",
+          "br": "1.3",
+          "rp": "2,900",
+          "sp": "700",
+          "data_unit_id": "uk_sarc_mk4_a",
+          "selected": false,
+          "class_name": "",
+          "details": true,
+          "main_role": "Light tank"
+        }
+      ]
+    ],
+    "premium_vehicles": [
+      [
+        {
+          "type": "single",
+          "title": "A13 Mk I (3rd R.T.R.)",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/uk_a_13_mk1_3rd_rtr.png",
+          "br": "1.0",
+          "rp": 0,
+          "sp": 0,
+          "data_unit_id": "uk_a_13_mk1_3rd_rtr",
+          "selected": false,
+          "class_name": "prem",
+          "details": true,
+          "main_role": "Light tank"
+        },
+        {
+          "type": "single",
+          "title": "Independent",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/uk_a1e1_independent.png",
+          "br": "1.3",
+          "rp": 0,
+          "sp": 0,
+          "data_unit_id": "uk_a1e1_independent",
+          "selected": false,
+          "class_name": "prem",
+          "details": true,
+          "main_role": "Heavy tank"
+        }
+      ],
+      [
+        {
+          "type": "single",
+          "title": "A13 Mk II 1939",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/uk_a_13_mk2_1939.png",
+          "br": "1.3",
+          "rp": 0,
+          "sp": 0,
+          "data_unit_id": "uk_a_13_mk2_1939",
+          "selected": false,
+          "class_name": "prem",
+          "details": true,
+          "main_role": "Light tank"
+        },
+        {
+          "type": "single",
+          "title": "Alecto I",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/uk_alecto_mk_1.png",
+          "br": "1.7",
+          "rp": 0,
+          "sp": 0,
+          "data_unit_id": "uk_alecto_mk_1",
+          "selected": false,
+          "class_name": "prem",
+          "details": true,
+          "main_role": "Tank destroyer"
+        }
+      ]
+    ],
+    "selected": [],
+    "unlock_quantity": 0
+  },
+  {
+    "rank": "II",
+    "researchable_vehicles": [
+      [
+        {
+          "type": "multiple",
+          "title": "Crusader II/III",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/uk_crusader_group.png",
+          "selected": false,
+          "br": "2.7-3.0",
+          "data_unit_id": "uk_crusader_group",
+          "class_name": "",
+          "items": [
+            {
+              "type": "single",
+              "title": "Crusader II",
+              "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/uk_crusader_mk_2.png",
+              "br": "2.7",
+              "rp": "7,900",
+              "sp": "10,000",
+              "data_unit_id": "uk_crusader_mk_2",
+              "selected": false,
+              "class_name": "",
+              "details": true,
+              "main_role": "Light tank"
+            },
+            {
+              "type": "single",
+              "title": "Crusader III",
+              "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/uk_crusader_mk_3.png",
+              "br": "3.0",
+              "rp": "4,600",
+              "sp": "16,000",
+              "data_unit_id": "uk_crusader_mk_3",
+              "selected": false,
+              "class_name": "",
+              "details": true,
+              "main_role": "Light tank"
+            }
+          ],
+          "details": true
+        },
+        {
+          "type": "single",
+          "title": "Ram I",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/uk_cruiser_ram_1.png",
+          "br": "3.0",
+          "rp": "9,200",
+          "sp": "16,000",
+          "data_unit_id": "uk_cruiser_ram_1",
+          "selected": false,
+          "class_name": "",
+          "details": true,
+          "main_role": "Medium tank"
+        },
+        {
+          "type": "multiple",
+          "title": "Cromwell/Sherman",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/uk_cromwell_sherman_group.png",
+          "selected": false,
+          "br": "3.3-3.7",
+          "data_unit_id": "uk_cromwell_sherman_group",
+          "class_name": "",
+          "items": [
+            {
+              "type": "single",
+              "title": "Cromwell V",
+              "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/uk_a27m_cromwell_5.png",
+              "br": "3.3",
+              "rp": "11,000",
+              "sp": "22,000",
+              "data_unit_id": "uk_a27m_cromwell_5",
+              "selected": false,
+              "class_name": "",
+              "details": true,
+              "main_role": "Medium tank"
+            },
+            {
+              "type": "single",
+              "title": "Cromwell I",
+              "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/uk_a27m_cromwell_1.png",
+              "br": "3.7",
+              "rp": "6,900",
+              "sp": "32,000",
+              "data_unit_id": "uk_a27m_cromwell_1",
+              "selected": false,
+              "class_name": "",
+              "details": true,
+              "main_role": "Medium tank"
+            },
+            {
+              "type": "single",
+              "title": "Sherman II",
+              "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/uk_sherman_ii.png",
+              "br": "3.7",
+              "rp": "6,900",
+              "sp": "32,000",
+              "data_unit_id": "uk_sherman_ii",
+              "selected": false,
+              "class_name": "",
+              "details": true,
+              "main_role": "Medium tank"
+            }
+          ],
+          "details": true
+        }
+      ],
+      [
+        {
+          "type": "multiple",
+          "title": "Valentine I/XI/IX",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/uk_valentine_mk_11_9_group.png",
+          "selected": false,
+          "br": "2.7-3.0",
+          "data_unit_id": "uk_valentine_group",
+          "class_name": "",
+          "items": [
+            {
+              "type": "single",
+              "title": "Valentine I",
+              "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/uk_valentine_mk_1.png",
+              "br": "2.7",
+              "rp": "7,900",
+              "sp": "10,000",
+              "data_unit_id": "uk_valentine_mk_1",
+              "selected": false,
+              "class_name": "",
+              "details": true,
+              "main_role": "Medium tank"
+            },
+            {
+              "type": "single",
+              "title": "Valentine XI",
+              "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/uk_valentine_mk_11.png",
+              "br": "2.7",
+              "rp": "4,600",
+              "sp": "16,000",
+              "data_unit_id": "uk_valentine_mk_11",
+              "selected": false,
+              "class_name": "",
+              "details": true,
+              "main_role": "Medium tank"
+            },
+            {
+              "type": "single",
+              "title": "Valentine IX",
+              "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/uk_valentine_mk_9.png",
+              "br": "3.0",
+              "rp": "5,600",
+              "sp": "22,000",
+              "data_unit_id": "uk_valentine_mk_9",
+              "selected": false,
+              "class_name": "",
+              "details": true,
+              "main_role": "Medium tank"
+            }
+          ],
+          "details": true
+        },
+        {
+          "type": "single",
+          "title": "Matilda III",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/uk_a_12_mk_2_matilda_2.png",
+          "br": "2.7",
+          "rp": "9,200",
+          "sp": "16,000",
+          "data_unit_id": "uk_a_12_mk_2_matilda_2",
+          "selected": false,
+          "class_name": "",
+          "details": true,
+          "main_role": "Heavy tank"
+        },
+        {
+          "type": "single",
+          "title": "Churchill I",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/uk_a_22_mk_1_churchill_1941.png",
+          "br": "3.3",
+          "rp": "11,000",
+          "sp": "22,000",
+          "data_unit_id": "uk_a_22_mk_1_churchill_1941",
+          "selected": false,
+          "class_name": "",
+          "details": true,
+          "main_role": "Heavy tank"
+        }
+      ],
+      [
+        {
+          "type": "single",
+          "title": "Archer",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/uk_sp_17_pdr_valentine.png",
+          "br": "2.7",
+          "rp": "7,900",
+          "sp": "10,000",
+          "data_unit_id": "uk_sp_17_pdr_valentine",
+          "selected": false,
+          "class_name": "",
+          "details": true,
+          "main_role": "Tank destroyer"
+        },
+        {
+          "type": "single",
+          "title": "Gun Carrier (3-in)",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/uk_3_inch_gun_carrier.png",
+          "br": "3.0",
+          "rp": "9,200",
+          "sp": "16,000",
+          "data_unit_id": "uk_3_inch_gun_carrier",
+          "selected": false,
+          "class_name": "",
+          "details": true,
+          "main_role": "Tank destroyer"
+        },
+        {
+          "type": "single",
+          "title": "Achilles",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/uk_17_pdr_m10_achilles.png",
+          "br": "3.3",
+          "rp": "11,000",
+          "sp": "22,000",
+          "data_unit_id": "uk_17_pdr_m10_achilles",
+          "selected": false,
+          "class_name": "",
+          "details": true,
+          "main_role": "Tank destroyer"
+        }
+      ],
+      [
+        {
+          "type": "single",
+          "title": "Crusader AA Mk I",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/uk_crusader_aa_mk_1.png",
+          "br": "3.0",
+          "rp": "7,900",
+          "sp": "10,000",
+          "data_unit_id": "uk_crusader_aa_mk_1",
+          "selected": false,
+          "class_name": "",
+          "details": true,
+          "main_role": "SPAA"
+        },
+        {
+          "type": "single",
+          "title": "AEC AA",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/uk_armored_car_mk_2_aa.png",
+          "br": "3.7",
+          "rp": "9,200",
+          "sp": "16,000",
+          "data_unit_id": "uk_armored_car_mk_2_aa",
+          "selected": false,
+          "class_name": "",
+          "details": true,
+          "main_role": "SPAA"
+        }
+      ],
+      [
+        {
+          "type": "single",
+          "title": "SARC MkVI (2pdr)",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/uk_marmon_herrington_mk_6_2pdr.png",
+          "br": "2.3",
+          "rp": "7,900",
+          "sp": "10,000",
+          "data_unit_id": "uk_marmon_herrington_mk_6_2pdr",
+          "selected": false,
+          "class_name": "",
+          "details": true,
+          "main_role": "Light tank"
+        },
+        {
+          "type": "single",
+          "title": "Harry Hopkins I",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/uk_a25_mk_8.png",
+          "br": "2.3",
+          "rp": "9,200",
+          "sp": "16,000",
+          "data_unit_id": "uk_a25_mk_8",
+          "selected": false,
+          "class_name": "",
+          "details": true,
+          "main_role": "Light tank"
+        },
+        {
+          "type": "single",
+          "title": "SARC MkVI (6pdr)",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/uk_marmon_herrington_mk_6_6pdr.png",
+          "br": "3.7",
+          "rp": "11,000",
+          "sp": "22,000",
+          "data_unit_id": "uk_marmon_herrington_mk_6_6pdr",
+          "selected": false,
+          "class_name": "",
+          "details": true,
+          "main_role": "Light tank"
+        }
+      ]
+    ],
+    "premium_vehicles": [
+      [
+        {
+          "type": "single",
+          "title": "Crusader \"The Saint\"",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/uk_crusader_mk_2_the_saint.png",
+          "br": "2.7",
+          "rp": 0,
+          "sp": 0,
+          "data_unit_id": "uk_crusader_mk_2_the_saint",
+          "selected": false,
+          "class_name": "prem",
+          "details": true,
+          "main_role": "Light tank"
+        },
+        {
+          "type": "single",
+          "title": "AEC Mk II",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/uk_armored_car_aec_mk_2.png",
+          "br": "3.3",
+          "rp": 0,
+          "sp": 0,
+          "data_unit_id": "uk_armored_car_aec_mk_2",
+          "selected": false,
+          "class_name": "prem",
+          "details": true,
+          "main_role": "Light tank"
+        },
+        {
+          "type": "single",
+          "title": "Cromwell V (RP-3)",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/uk_a27m_cromwell_5_rp3.png",
+          "br": "3.3",
+          "rp": 0,
+          "sp": 0,
+          "data_unit_id": "uk_a27m_cromwell_5_rp3",
+          "selected": false,
+          "class_name": "prem",
+          "details": true,
+          "main_role": "Medium tank"
+        },
+        {
+          "type": "single",
+          "title": "Ram II",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/uk_m4a5_ram_2.png",
+          "br": "3.7",
+          "rp": 0,
+          "sp": 0,
+          "data_unit_id": "uk_m4a5_ram_2",
+          "selected": false,
+          "class_name": "prem",
+          "details": true,
+          "main_role": "Medium tank"
+        }
+      ],
+      [
+        {
+          "type": "single",
+          "title": "Grant I",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/uk_mk1_grant.png",
+          "br": "2.7",
+          "rp": 0,
+          "sp": 0,
+          "data_unit_id": "uk_mk1_grant",
+          "selected": false,
+          "class_name": "prem",
+          "details": true,
+          "main_role": "Medium tank"
+        },
+        {
+          "type": "single",
+          "title": "Matilda Hedgehog",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/uk_matilda_hedgehog.png",
+          "br": "2.7",
+          "rp": 0,
+          "sp": 0,
+          "data_unit_id": "uk_matilda_hedgehog",
+          "selected": false,
+          "class_name": "prem",
+          "details": true,
+          "main_role": "Heavy tank"
+        },
+        {
+          "type": "single",
+          "title": "Churchill AVRE Petard",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/uk_churchill_avre.png",
+          "br": "2.7",
+          "rp": 0,
+          "sp": 0,
+          "data_unit_id": "uk_churchill_avre",
+          "selected": false,
+          "class_name": "prem",
+          "details": true,
+          "main_role": "Heavy tank"
+        },
+        {
+          "type": "single",
+          "title": "A.C.I",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/uk_ac1_sentinel.png",
+          "br": "3.0",
+          "rp": 0,
+          "sp": 0,
+          "data_unit_id": "uk_ac1_sentinel",
+          "selected": false,
+          "class_name": "prem",
+          "details": true,
+          "main_role": "Medium tank"
+        }
+      ]
+    ],
+    "selected": [],
+    "unlock_quantity": 0
+  },
+  {
+    "rank": "III",
+    "researchable_vehicles": [
+      [
+        {
+          "type": "single",
+          "title": "Sherman Firefly",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/uk_sherman_vc_firefly.png",
+          "br": "4.7",
+          "rp": "26,000",
+          "sp": "76,000",
+          "data_unit_id": "uk_sherman_vc_firefly",
+          "selected": false,
+          "class_name": "",
+          "details": true,
+          "main_role": "Medium tank"
+        },
+        {
+          "type": "multiple",
+          "title": "Challenger/Comet",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/uk_a30_challenger.png",
+          "selected": false,
+          "br": "5.3",
+          "data_unit_id": "uk_challenger_comet_group",
+          "class_name": "",
+          "items": [
+            {
+              "type": "single",
+              "title": "Challenger",
+              "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/uk_a30_challenger.png",
+              "br": "5.3",
+              "rp": "33,000",
+              "sp": "105,000",
+              "data_unit_id": "uk_a30_challenger",
+              "selected": false,
+              "class_name": "",
+              "details": true,
+              "main_role": "Medium tank"
+            },
+            {
+              "type": "single",
+              "title": "Comet I",
+              "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/uk_a_34_comet.png",
+              "br": "5.3",
+              "rp": "20,000",
+              "sp": "135,000",
+              "data_unit_id": "uk_a_34_comet",
+              "selected": false,
+              "class_name": "",
+              "details": true,
+              "main_role": "Medium tank"
+            }
+          ],
+          "details": true
+        }
+      ],
+      [
+        {
+          "type": "multiple",
+          "title": "Churchill III/NA75",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/uk_a_22b_mk_3_churchill_1942.png",
+          "selected": false,
+          "br": "4.0-4.3",
+          "data_unit_id": "uk_churchill_group",
+          "class_name": "",
+          "items": [
+            {
+              "type": "single",
+              "title": "Churchill III",
+              "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/uk_a_22b_mk_3_churchill_1942.png",
+              "br": "4.0",
+              "rp": "18,000",
+              "sp": "47,000",
+              "data_unit_id": "uk_a_22b_mk_3_churchill_1942",
+              "selected": false,
+              "class_name": "",
+              "details": true,
+              "main_role": "Heavy tank"
+            },
+            {
+              "type": "single",
+              "title": "Churchill NA75",
+              "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/uk_churchill_na75.png",
+              "br": "4.3",
+              "rp": "13,000",
+              "sp": "76,000",
+              "data_unit_id": "uk_churchill_na75",
+              "selected": false,
+              "class_name": "",
+              "details": true,
+              "main_role": "Heavy tank"
+            }
+          ],
+          "details": true
+        },
+        {
+          "type": "single",
+          "title": "Churchill VII",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/uk_a_22f_mk_7_churchill_1944.png",
+          "br": "4.7",
+          "rp": "33,000",
+          "sp": "105,000",
+          "data_unit_id": "uk_a_22f_mk_7_churchill_1944",
+          "selected": false,
+          "class_name": "",
+          "details": true,
+          "main_role": "Heavy tank"
+        }
+      ],
+      [
+        {
+          "type": "single",
+          "title": "▄M44",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/uk_m44.png",
+          "br": "4.0",
+          "rp": "18,000",
+          "sp": "47,000",
+          "data_unit_id": "uk_m44",
+          "selected": false,
+          "class_name": "",
+          "details": true,
+          "main_role": "Tank destroyer"
+        },
+        {
+          "type": "single",
+          "title": "Avenger",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/uk_a30_sp_avenger.png",
+          "br": "4.7",
+          "rp": "26,000",
+          "sp": "76,000",
+          "data_unit_id": "uk_a30_sp_avenger",
+          "selected": false,
+          "class_name": "",
+          "details": true,
+          "main_role": "Medium tank"
+        }
+      ],
+      [
+        {
+          "type": "multiple",
+          "title": "Ystervark/Crusader AA",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/uk_ystervark_spaa.png",
+          "selected": false,
+          "br": "4.0",
+          "data_unit_id": "uk_ystervark_crusader_group",
+          "class_name": "",
+          "items": [
+            {
+              "type": "single",
+              "title": "Ystervark",
+              "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/uk_ystervark_spaa.png",
+              "br": "4.0",
+              "rp": "18,000",
+              "sp": "47,000",
+              "data_unit_id": "uk_ystervark_spaa",
+              "selected": false,
+              "class_name": "",
+              "details": true,
+              "main_role": "SPAA"
+            },
+            {
+              "type": "single",
+              "title": "Crusader AA Mk II",
+              "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/uk_crusader_aa_mk_2.png",
+              "br": "4.0",
+              "rp": "13,000",
+              "sp": "76,000",
+              "data_unit_id": "uk_crusader_aa_mk_2",
+              "selected": false,
+              "class_name": "",
+              "details": true,
+              "main_role": "SPAA"
+            }
+          ],
+          "details": true
+        },
+        {
+          "type": "single",
+          "title": "Bosvark",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/uk_bosvark.png",
+          "br": "5.3",
+          "rp": "33,000",
+          "sp": "105,000",
+          "data_unit_id": "uk_bosvark",
+          "selected": false,
+          "class_name": "",
+          "details": true,
+          "main_role": "SPAA"
+        }
+      ],
+      [
+        {
+          "type": "single",
+          "title": "Concept 3",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/uk_concept3_ngac.png",
+          "br": "4.7",
+          "rp": "18,000",
+          "sp": "47,000",
+          "data_unit_id": "uk_concept3_ngac",
+          "selected": false,
+          "class_name": "",
+          "details": true,
+          "main_role": "Light tank"
+        }
+      ]
+    ],
+    "premium_vehicles": [
+      [
+        {
+          "type": "single",
+          "title": "Achilles (65 Rg.)",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/uk_17_pdr_m10_achilles_norfolk_yeomanry.png",
+          "br": "3.3",
+          "rp": 0,
+          "sp": 0,
+          "data_unit_id": "uk_17_pdr_m10_achilles_norfolk_yeomanry",
+          "selected": false,
+          "class_name": "prem",
+          "details": true,
+          "main_role": "Tank destroyer"
+        },
+        {
+          "type": "multiple",
+          "title": "Echoes of Overlord",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/uk_kit_3rank_group.png",
+          "selected": false,
+          "br": "4.0-4.7",
+          "data_unit_id": "uk_kit_3rank_group",
+          "class_name": "prem",
+          "items": [
+            {
+              "type": "single",
+              "title": "Firefly (Overlord)",
+              "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/uk_sherman_vc_firefly_kit_3rank.png",
+              "br": "4.7",
+              "rp": 0,
+              "sp": 0,
+              "data_unit_id": "uk_sherman_vc_firefly_kit_3rank",
+              "selected": false,
+              "class_name": "prem",
+              "details": true,
+              "main_role": "Medium tank"
+            },
+            {
+              "type": "single",
+              "title": "Avenger (Overlord)",
+              "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/uk_a30_sp_avenger_kit_3rank.png",
+              "br": "4.7",
+              "rp": 0,
+              "sp": 0,
+              "data_unit_id": "uk_a30_sp_avenger_kit_3rank",
+              "selected": false,
+              "class_name": "prem",
+              "details": true,
+              "main_role": "Medium tank"
+            },
+            {
+              "type": "single",
+              "title": "Crusader AA (Overlord)",
+              "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/uk_crusader_aa_mk_2_kit_3rank.png",
+              "br": "4.0",
+              "rp": 0,
+              "sp": 0,
+              "data_unit_id": "uk_crusader_aa_mk_2_kit_3rank",
+              "selected": false,
+              "class_name": "prem",
+              "details": true,
+              "main_role": "SPAA"
+            }
+          ],
+          "details": true
+        },
+        {
+          "type": "single",
+          "title": "Sherman IC \"Trzyniec\"",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/uk_sherman_ic_firefly.png",
+          "br": "4.7",
+          "rp": 0,
+          "sp": 0,
+          "data_unit_id": "uk_sherman_ic_firefly",
+          "selected": false,
+          "class_name": "prem",
+          "details": true,
+          "main_role": "Medium tank"
+        },
+        {
+          "type": "single",
+          "title": "A.C.IV",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/uk_ac4_thunderbolt.png",
+          "br": "5.3",
+          "rp": 0,
+          "sp": 0,
+          "data_unit_id": "uk_ac4_thunderbolt",
+          "selected": false,
+          "class_name": "prem",
+          "details": true,
+          "main_role": "Medium tank"
+        },
+        {
+          "type": "single",
+          "title": "QF 3.7 Ram",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/uk_ram_90mm_aa.png",
+          "br": "5.3",
+          "rp": 0,
+          "sp": 0,
+          "data_unit_id": "uk_ram_90mm_aa",
+          "selected": false,
+          "class_name": "prem",
+          "details": true,
+          "main_role": "Tank destroyer"
+        }
+      ],
+      [
+        {
+          "type": "single",
+          "title": "Excelsior",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/uk_a_33_excelsior.png",
+          "br": "4.0",
+          "rp": 0,
+          "sp": 0,
+          "data_unit_id": "uk_a_33_excelsior",
+          "selected": false,
+          "class_name": "prem",
+          "details": true,
+          "main_role": "Heavy tank"
+        },
+        {
+          "type": "single",
+          "title": "Churchill Crocodile",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/uk_a_22f_mk_7_churchill_crocodile.png",
+          "br": "4.7",
+          "rp": 0,
+          "sp": 0,
+          "data_unit_id": "uk_a_22f_mk_7_churchill_crocodile",
+          "selected": false,
+          "class_name": "prem",
+          "details": true,
+          "main_role": "Heavy tank"
+        },
+        {
+          "type": "single",
+          "title": "Comet I \"Iron Duke IV\"",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/uk_a_34_comet_iron_duke.png",
+          "br": "5.3",
+          "rp": 0,
+          "sp": 0,
+          "data_unit_id": "uk_a_34_comet_iron_duke",
+          "selected": false,
+          "class_name": "prem",
+          "details": true,
+          "main_role": "Medium tank"
+        },
+        {
+          "type": "single",
+          "title": "TOG II",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/uk_tog_2.png",
+          "br": "5.3",
+          "rp": 0,
+          "sp": 0,
+          "data_unit_id": "uk_tog_2",
+          "selected": false,
+          "class_name": "prem",
+          "details": true,
+          "main_role": "Heavy tank"
+        }
+      ]
+    ],
+    "selected": [],
+    "unlock_quantity": 0
+  },
+  {
+    "rank": "IV",
+    "researchable_vehicles": [
+      [
+        {
+          "type": "single",
+          "title": "Centurion Mk 1",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/uk_centurion_mk_1.png",
+          "br": "6.0",
+          "rp": "46,000",
+          "sp": "155,000",
+          "data_unit_id": "uk_centurion_mk_1",
+          "selected": false,
+          "class_name": "",
+          "details": true,
+          "main_role": "Medium tank"
+        },
+        {
+          "type": "single",
+          "title": "Conway",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/uk_fv4004_conway.png",
+          "br": "7.0",
+          "rp": "63,000",
+          "sp": "200,000",
+          "data_unit_id": "uk_fv4004_conway",
+          "selected": false,
+          "class_name": "",
+          "details": true,
+          "main_role": "Medium tank"
+        },
+        {
+          "type": "single",
+          "title": "Centurion Mk 3",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/uk_centurion_mk_3.png",
+          "br": "7.7",
+          "rp": "71,000",
+          "sp": "210,000",
+          "data_unit_id": "uk_centurion_mk_3",
+          "selected": false,
+          "class_name": "",
+          "details": true,
+          "main_role": "Medium tank"
+        }
+      ],
+      [
+        {
+          "type": "single",
+          "title": "Charioteer Mk VII",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/uk_charioteer_mk_7.png",
+          "br": "6.3",
+          "rp": "54,000",
+          "sp": "185,000",
+          "data_unit_id": "uk_charioteer_mk_7",
+          "selected": false,
+          "class_name": "",
+          "details": true,
+          "main_role": "Medium tank"
+        },
+        {
+          "type": "single",
+          "title": "FV4202",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/uk_fv4202.png",
+          "br": "7.3",
+          "rp": "63,000",
+          "sp": "200,000",
+          "data_unit_id": "uk_fv4202",
+          "selected": false,
+          "class_name": "",
+          "details": true,
+          "main_role": "Medium tank"
+        }
+      ],
+      [
+        {
+          "type": "multiple",
+          "title": "FV/M109",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/uk_fv4005_m109_group.png",
+          "selected": false,
+          "br": "6.3",
+          "data_unit_id": "uk_fv_m109_group",
+          "class_name": "",
+          "items": [
+            {
+              "type": "single",
+              "title": "FV4005",
+              "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/uk_fv4005.png",
+              "br": "6.3",
+              "rp": "46,000",
+              "sp": "155,000",
+              "data_unit_id": "uk_fv4005",
+              "selected": false,
+              "class_name": "",
+              "details": true,
+              "main_role": "Tank destroyer"
+            },
+            {
+              "type": "single",
+              "title": "▄M109A1",
+              "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/uk_m109a1.png",
+              "br": "6.3",
+              "rp": "27,000",
+              "sp": "185,000",
+              "data_unit_id": "uk_m109a1",
+              "selected": false,
+              "class_name": "",
+              "details": true,
+              "main_role": "Tank destroyer"
+            }
+          ],
+          "details": true
+        },
+        {
+          "type": "multiple",
+          "title": "G6/Tortoise",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/uk_g6_tortoise_group.png",
+          "selected": false,
+          "br": "6.7",
+          "data_unit_id": "uk_g6_tortoise_group",
+          "class_name": "",
+          "items": [
+            {
+              "type": "single",
+              "title": "G6",
+              "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/uk_g6_spg.png",
+              "br": "6.7",
+              "rp": "54,000",
+              "sp": "185,000",
+              "data_unit_id": "uk_g6_spg",
+              "selected": false,
+              "class_name": "",
+              "details": true,
+              "main_role": "Tank destroyer"
+            },
+            {
+              "type": "single",
+              "title": "Tortoise",
+              "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/uk_a39_tortoise.png",
+              "br": "6.7",
+              "rp": "31,000",
+              "sp": "200,000",
+              "data_unit_id": "uk_a39_tortoise",
+              "selected": false,
+              "class_name": "",
+              "details": true,
+              "main_role": "Tank destroyer"
+            }
+          ],
+          "details": true
+        },
+        {
+          "type": "single",
+          "title": "AS90",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/uk_as_90_mk_2.png",
+          "br": "7.0",
+          "rp": "63,000",
+          "sp": "200,000",
+          "data_unit_id": "uk_as_90_mk_2",
+          "selected": false,
+          "class_name": "",
+          "details": true,
+          "main_role": "Tank destroyer"
+        }
+      ],
+      [
+        {
+          "type": "single",
+          "title": "Skink",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/uk_skink_aa.png",
+          "br": "5.3",
+          "rp": "46,000",
+          "sp": "155,000",
+          "data_unit_id": "uk_skink_aa",
+          "selected": false,
+          "class_name": "",
+          "details": true,
+          "main_role": "SPAA"
+        }
+      ],
+      [
+        {
+          "type": "multiple",
+          "title": "Ratel 90/20",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/uk_ratel_90.png",
+          "selected": false,
+          "br": "6.7",
+          "data_unit_id": "uk_ratel_group",
+          "class_name": "",
+          "items": [
+            {
+              "type": "single",
+              "title": "Ratel 90",
+              "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/uk_ratel_90.png",
+              "br": "6.7",
+              "rp": "46,000",
+              "sp": "155,000",
+              "data_unit_id": "uk_ratel_90",
+              "selected": false,
+              "class_name": "",
+              "details": true,
+              "main_role": "Light tank"
+            },
+            {
+              "type": "single",
+              "title": "Ratel 20",
+              "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/uk_ratel_20.png",
+              "br": "6.7",
+              "rp": "27,000",
+              "sp": "185,000",
+              "data_unit_id": "uk_ratel_20",
+              "selected": false,
+              "class_name": "",
+              "details": true,
+              "main_role": "Light tank"
+            }
+          ],
+          "details": true
+        },
+        {
+          "type": "single",
+          "title": "Eland 90 Mk.7",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/uk_eland_90_mk_7.png",
+          "br": "7.7",
+          "rp": "63,000",
+          "sp": "200,000",
+          "data_unit_id": "uk_eland_90_mk_7",
+          "selected": false,
+          "class_name": "",
+          "details": true,
+          "main_role": "Light tank"
+        }
+      ]
+    ],
+    "premium_vehicles": [
+      [
+        {
+          "type": "single",
+          "title": "GBT 155",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/uk_vickers_gbt_155.png",
+          "br": "7.0",
+          "rp": 0,
+          "sp": 0,
+          "data_unit_id": "uk_vickers_gbt_155",
+          "selected": false,
+          "class_name": "prem",
+          "details": true,
+          "main_role": "Tank destroyer"
+        },
+        {
+          "type": "single",
+          "title": "▄Strv 81 (RB 52)",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/uk_centurion_mk_3_ss11.png",
+          "br": "7.7",
+          "rp": 0,
+          "sp": 0,
+          "data_unit_id": "uk_centurion_mk_3_ss11",
+          "selected": false,
+          "class_name": "prem",
+          "details": true,
+          "main_role": "Medium tank"
+        },
+        {
+          "type": "single",
+          "title": "Centurion Action X",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/uk_centurion_action_x.png",
+          "br": "7.7",
+          "rp": 0,
+          "sp": 0,
+          "data_unit_id": "uk_centurion_action_x",
+          "selected": false,
+          "class_name": "prem",
+          "details": true,
+          "main_role": "Medium tank"
+        }
+      ],
+      [
+        {
+          "type": "single",
+          "title": "Black Prince",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/uk_a_43_black_prince.png",
+          "br": "6.0",
+          "rp": 0,
+          "sp": 0,
+          "data_unit_id": "uk_a_43_black_prince",
+          "selected": false,
+          "class_name": "prem",
+          "details": true,
+          "main_role": "Heavy tank"
+        },
+        {
+          "type": "single",
+          "title": "Centurion Mk.2",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/uk_centurion_mk_2.png",
+          "br": "6.7",
+          "rp": 0,
+          "sp": 0,
+          "data_unit_id": "uk_centurion_mk_2",
+          "selected": false,
+          "class_name": "prem",
+          "details": true,
+          "main_role": "Medium tank"
+        }
+      ]
+    ],
+    "selected": [],
+    "unlock_quantity": 0
+  },
+  {
+    "rank": "V",
+    "researchable_vehicles": [
+      [
+        {
+          "type": "multiple",
+          "title": "Caernarvon/Conqueror",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/uk_fv221_caernarvon.png",
+          "selected": false,
+          "br": "7.7",
+          "data_unit_id": "uk_caernarvon_conqueror_group",
+          "class_name": "",
+          "items": [
+            {
+              "type": "single",
+              "title": "Caernarvon",
+              "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/uk_fv221_caernarvon.png",
+              "br": "7.7",
+              "rp": "82,000",
+              "sp": "240,000",
+              "data_unit_id": "uk_fv221_caernarvon",
+              "selected": false,
+              "class_name": "",
+              "details": true,
+              "main_role": "Heavy tank"
+            },
+            {
+              "type": "single",
+              "title": "Conqueror",
+              "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/uk_conqueror_mk_2.png",
+              "br": "7.7",
+              "rp": "48,000",
+              "sp": "270,000",
+              "data_unit_id": "uk_conqueror_mk_2",
+              "selected": false,
+              "class_name": "",
+              "details": true,
+              "main_role": "Heavy tank"
+            }
+          ],
+          "details": true
+        },
+        {
+          "type": "single",
+          "title": "Centurion Mk 10",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/uk_centurion_mk_10.png",
+          "br": "8.0",
+          "rp": "105,000",
+          "sp": "300,000",
+          "data_unit_id": "uk_centurion_mk_10",
+          "selected": false,
+          "class_name": "",
+          "details": true,
+          "main_role": "Medium tank"
+        }
+      ],
+      [
+        {
+          "type": "single",
+          "title": "Vickers Mk.1",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/uk_vickers_mbt_mk_1.png",
+          "br": "8.0",
+          "rp": "105,000",
+          "sp": "300,000",
+          "data_unit_id": "uk_vickers_mbt_mk_1",
+          "selected": false,
+          "class_name": "",
+          "details": true,
+          "main_role": "Medium tank"
+        }
+      ],
+      [
+        {
+          "type": "single",
+          "title": "Swingfire",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/uk_fv438_swingfire.png",
+          "br": "8.0",
+          "rp": "105,000",
+          "sp": "300,000",
+          "data_unit_id": "uk_fv438_swingfire",
+          "selected": false,
+          "class_name": "",
+          "details": true,
+          "main_role": "Tank destroyer"
+        }
+      ],
+      [
+        {
+          "type": "single",
+          "title": "Falcon",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/uk_falcon.png",
+          "br": "8.3",
+          "rp": "105,000",
+          "sp": "300,000",
+          "data_unit_id": "uk_falcon",
+          "selected": false,
+          "class_name": "",
+          "details": true,
+          "main_role": "SPAA"
+        }
+      ],
+      [
+        {
+          "type": "multiple",
+          "title": "Scimitar/Fox",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/uk_scimitar_fox_group.png",
+          "selected": false,
+          "br": "7.7-8.0",
+          "data_unit_id": "uk_scimitar_fox_group",
+          "class_name": "",
+          "items": [
+            {
+              "type": "single",
+              "title": "Scimitar",
+              "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/uk_fv107_scimitar.png",
+              "br": "7.7",
+              "rp": "82,000",
+              "sp": "240,000",
+              "data_unit_id": "uk_fv107_scimitar",
+              "selected": false,
+              "class_name": "",
+              "details": true,
+              "main_role": "Light tank"
+            },
+            {
+              "type": "single",
+              "title": "Fox",
+              "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/uk_fv721_fox.png",
+              "br": "8.0",
+              "rp": "48,000",
+              "sp": "270,000",
+              "data_unit_id": "uk_fv721_fox",
+              "selected": false,
+              "class_name": "",
+              "details": true,
+              "main_role": "Light tank"
+            }
+          ],
+          "details": true
+        }
+      ]
+    ],
+    "premium_vehicles": [
+      [
+        {
+          "type": "single",
+          "title": "Centurion Mk.5 AVRE",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/uk_centurion_mk_5_avre_era.png",
+          "br": "7.0",
+          "rp": 0,
+          "sp": 0,
+          "data_unit_id": "uk_centurion_mk_5_avre_era",
+          "selected": false,
+          "class_name": "prem",
+          "details": true,
+          "main_role": "Medium tank"
+        },
+        {
+          "type": "single",
+          "title": "Centurion Mk.5/1",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/uk_centurion_mk_5_raac.png",
+          "br": "7.7",
+          "rp": 0,
+          "sp": 0,
+          "data_unit_id": "uk_centurion_mk_5_raac",
+          "selected": false,
+          "class_name": "prem",
+          "details": true,
+          "main_role": "Medium tank"
+        }
+      ],
+      []
+    ],
+    "selected": [],
+    "unlock_quantity": 0
+  },
+  {
+    "rank": "VI",
+    "researchable_vehicles": [
+      [
+        {
+          "type": "multiple",
+          "title": "Chieftain 3/5",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/uk_chieftain_mk_3_5_group.png",
+          "selected": false,
+          "br": "8.7",
+          "data_unit_id": "uk_chieftain_mk_3_5_group",
+          "class_name": "",
+          "items": [
+            {
+              "type": "single",
+              "title": "Chieftain Mk 3",
+              "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/uk_chieftain_mk_3.png",
+              "br": "8.7",
+              "rp": "135,000",
+              "sp": "380,000",
+              "data_unit_id": "uk_chieftain_mk_3",
+              "selected": false,
+              "class_name": "",
+              "details": true,
+              "main_role": "Medium tank"
+            },
+            {
+              "type": "single",
+              "title": "Chieftain Mk 5",
+              "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/uk_chieftain_mk_5.png",
+              "br": "8.7",
+              "rp": "81,000",
+              "sp": "450,000",
+              "data_unit_id": "uk_chieftain_mk_5",
+              "selected": false,
+              "class_name": "",
+              "details": true,
+              "main_role": "Medium tank"
+            }
+          ],
+          "details": true
+        },
+        {
+          "type": "multiple",
+          "title": "Chieftain 10/900",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/uk_chieftain_mk_10_900_group.png",
+          "selected": false,
+          "br": "9.3",
+          "data_unit_id": "uk_chieftain_mk_10_900_group",
+          "class_name": "",
+          "items": [
+            {
+              "type": "single",
+              "title": "Chieftain Mk 10",
+              "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/uk_chieftain_mk_10.png",
+              "br": "9.3",
+              "rp": "190,000",
+              "sp": "520,000",
+              "data_unit_id": "uk_chieftain_mk_10",
+              "selected": false,
+              "class_name": "",
+              "details": true,
+              "main_role": "Medium tank"
+            },
+            {
+              "type": "single",
+              "title": "Chieftain 900",
+              "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/uk_chieftain_900.png",
+              "br": "9.3",
+              "rp": "110,000",
+              "sp": "620,000",
+              "data_unit_id": "uk_chieftain_900",
+              "selected": false,
+              "class_name": "",
+              "details": true,
+              "main_role": "Medium tank"
+            }
+          ],
+          "details": true
+        }
+      ],
+      [
+        {
+          "type": "multiple",
+          "title": "Vickers/Olifant",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/uk_vickers_olifant_group.png",
+          "selected": false,
+          "br": "8.3",
+          "data_unit_id": "uk_vickers_olifant_group",
+          "class_name": "",
+          "items": [
+            {
+              "type": "single",
+              "title": "Vickers Mk.3",
+              "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/uk_vickers_mbt_mk_3.png",
+              "br": "8.3",
+              "rp": "135,000",
+              "sp": "380,000",
+              "data_unit_id": "uk_vickers_mbt_mk_3",
+              "selected": false,
+              "class_name": "",
+              "details": true,
+              "main_role": "Medium tank"
+            },
+            {
+              "type": "single",
+              "title": "Olifant Mk.1A",
+              "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/uk_olifant_mk_1a.png",
+              "br": "8.3",
+              "rp": "81,000",
+              "sp": "450,000",
+              "data_unit_id": "uk_olifant_mk_1a",
+              "selected": false,
+              "class_name": "",
+              "details": true,
+              "main_role": "Medium tank"
+            }
+          ],
+          "details": true
+        },
+        {
+          "type": "single",
+          "title": "Olifant Mk.2",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/uk_olifant_mk_2.png",
+          "br": "9.3",
+          "rp": "220,000",
+          "sp": "620,000",
+          "data_unit_id": "uk_olifant_mk_2",
+          "selected": false,
+          "class_name": "",
+          "details": true,
+          "main_role": "Medium tank"
+        }
+      ],
+      [
+        {
+          "type": "multiple",
+          "title": "Warrior/ZT3A2",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/uk_fv510_isv.png",
+          "selected": false,
+          "br": "8.3",
+          "data_unit_id": "uk_fv510_zt3_group",
+          "class_name": "",
+          "items": [
+            {
+              "type": "single",
+              "title": "Warrior",
+              "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/uk_fv510_isv.png",
+              "br": "8.3",
+              "rp": "135,000",
+              "sp": "380,000",
+              "data_unit_id": "uk_fv510_isv",
+              "selected": false,
+              "class_name": "",
+              "details": true,
+              "main_role": "Light tank"
+            },
+            {
+              "type": "single",
+              "title": "ZT3A2",
+              "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/uk_ratel_zt3.png",
+              "br": "8.3",
+              "rp": "81,000",
+              "sp": "450,000",
+              "data_unit_id": "uk_ratel_zt3",
+              "selected": false,
+              "class_name": "",
+              "details": true,
+              "main_role": "Tank destroyer"
+            }
+          ],
+          "details": true
+        },
+        {
+          "type": "single",
+          "title": "Striker",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/uk_fv102_striker.png",
+          "br": "8.3",
+          "rp": "160,000",
+          "sp": "450,000",
+          "data_unit_id": "uk_fv102_striker",
+          "selected": false,
+          "class_name": "",
+          "details": true,
+          "main_role": "Tank destroyer"
+        }
+      ],
+      [
+        {
+          "type": "multiple",
+          "title": "Marksman/ZA-35",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/uk_chieftain_marksman.png",
+          "selected": false,
+          "br": "8.3-8.7",
+          "data_unit_id": "uk_marksman_za_group",
+          "class_name": "",
+          "items": [
+            {
+              "type": "single",
+              "title": "Chieftain Marksman",
+              "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/uk_chieftain_marksman.png",
+              "br": "8.3",
+              "rp": "135,000",
+              "sp": "380,000",
+              "data_unit_id": "uk_chieftain_marksman",
+              "selected": false,
+              "class_name": "",
+              "details": true,
+              "main_role": "SPAA"
+            },
+            {
+              "type": "single",
+              "title": "ZA-35",
+              "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/uk_rooikat_za_35.png",
+              "br": "8.7",
+              "rp": "81,000",
+              "sp": "450,000",
+              "data_unit_id": "uk_rooikat_za_35",
+              "selected": false,
+              "class_name": "",
+              "details": true,
+              "main_role": "SPAA"
+            }
+          ],
+          "details": true
+        },
+        {
+          "type": "single",
+          "title": "Rapier",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/uk_tracked_rapier.png",
+          "br": "9.7",
+          "rp": "220,000",
+          "sp": "620,000",
+          "data_unit_id": "uk_tracked_rapier",
+          "selected": false,
+          "class_name": "",
+          "details": true,
+          "main_role": "SPAA"
+        }
+      ],
+      [
+        {
+          "type": "multiple",
+          "title": "Vickers/Rooikat",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/uk_vickers_rooikat_group.png",
+          "selected": false,
+          "br": "8.7",
+          "data_unit_id": "uk_vickers_rooikat_group",
+          "class_name": "",
+          "items": [
+            {
+              "type": "single",
+              "title": "Vickers Mk.11",
+              "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/uk_vickers_mk_11.png",
+              "br": "8.7",
+              "rp": "135,000",
+              "sp": "380,000",
+              "data_unit_id": "uk_vickers_mk_11",
+              "selected": false,
+              "class_name": "",
+              "details": true,
+              "main_role": "Light tank"
+            },
+            {
+              "type": "single",
+              "title": "Rooikat Mk.1D",
+              "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/uk_rooikat_76.png",
+              "br": "8.7",
+              "rp": "81,000",
+              "sp": "450,000",
+              "data_unit_id": "uk_rooikat_76",
+              "selected": false,
+              "class_name": "",
+              "details": true,
+              "main_role": "Light tank"
+            }
+          ],
+          "details": true
+        },
+        {
+          "type": "single",
+          "title": "Badger",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/uk_badger.png",
+          "br": "9.0",
+          "rp": "160,000",
+          "sp": "450,000",
+          "data_unit_id": "uk_badger",
+          "selected": false,
+          "class_name": "",
+          "details": true,
+          "main_role": "Light tank"
+        },
+        {
+          "type": "multiple",
+          "title": "VFM/MTTD",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/uk_vfm_rooikat_group.png",
+          "selected": false,
+          "br": "9.3",
+          "data_unit_id": "uk_vfm_mttd_group",
+          "class_name": "",
+          "items": [
+            {
+              "type": "single",
+              "title": "VFM5",
+              "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/uk_vfm_5.png",
+              "br": "9.3",
+              "rp": "190,000",
+              "sp": "520,000",
+              "data_unit_id": "uk_vfm_5",
+              "selected": false,
+              "class_name": "",
+              "details": true,
+              "main_role": "Light tank"
+            },
+            {
+              "type": "single",
+              "title": "Rooikat MTTD",
+              "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/uk_rooikat_mttd.png",
+              "br": "9.3",
+              "rp": "110,000",
+              "sp": "620,000",
+              "data_unit_id": "uk_rooikat_mttd",
+              "selected": false,
+              "class_name": "",
+              "details": true,
+              "main_role": "Light tank"
+            }
+          ],
+          "details": true
+        }
+      ]
+    ],
+    "premium_vehicles": [
+      [
+        {
+          "type": "single",
+          "title": "Vijayanta",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/uk_vijayanta.png",
+          "br": "8.3",
+          "rp": 0,
+          "sp": 0,
+          "data_unit_id": "uk_vijayanta",
+          "selected": false,
+          "class_name": "prem",
+          "details": true,
+          "main_role": "Medium tank"
+        },
+        {
+          "type": "single",
+          "title": "Khalid",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/uk_khalid.png",
+          "br": "9.3",
+          "rp": 0,
+          "sp": 0,
+          "data_unit_id": "uk_khalid",
+          "selected": false,
+          "class_name": "prem",
+          "details": true,
+          "main_role": "Medium tank"
+        },
+        {
+          "type": "single",
+          "title": "Rooikat 105",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/uk_rooikat_105_td.png",
+          "br": "9.7",
+          "rp": 0,
+          "sp": 0,
+          "data_unit_id": "uk_rooikat_105_td",
+          "selected": false,
+          "class_name": "prem",
+          "details": true,
+          "main_role": "Light tank"
+        }
+      ],
+      [
+        {
+          "type": "single",
+          "title": "▄Sho't Kal Dalet",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/uk_centurion_shot_kal_d.png",
+          "br": "9.0",
+          "rp": 0,
+          "sp": 0,
+          "data_unit_id": "uk_centurion_shot_kal_d",
+          "selected": false,
+          "class_name": "prem",
+          "details": true,
+          "main_role": "Medium tank"
+        },
+        {
+          "type": "single",
+          "title": "FV4030/3",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/uk_shir_2.png",
+          "br": "10.0",
+          "rp": null,
+          "sp": null,
+          "data_unit_id": "uk_shir_2",
+          "selected": false,
+          "class_name": "",
+          "details": true,
+          "main_role": "Medium tank"
+        }
+      ]
+    ],
+    "selected": [],
+    "unlock_quantity": 0
+  },
+  {
+    "rank": "VII",
+    "researchable_vehicles": [
+      [
+        {
+          "type": "multiple",
+          "title": "Challenger Mk.2/Mk.3",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/uk_challenger_1.png",
+          "selected": false,
+          "br": "10.3-10.7",
+          "data_unit_id": "uk_challenger_group",
+          "class_name": "",
+          "items": [
+            {
+              "type": "single",
+              "title": "Challenger Mk.2",
+              "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/uk_challenger_1.png",
+              "br": "10.3",
+              "rp": "260,000",
+              "sp": "710,000",
+              "data_unit_id": "uk_challenger_1",
+              "selected": false,
+              "class_name": "",
+              "details": true,
+              "main_role": "Medium tank"
+            },
+            {
+              "type": "single",
+              "title": "Challenger Mk.3",
+              "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/uk_challenger_mk_3.png",
+              "br": "10.7",
+              "rp": "150,000",
+              "sp": "830,000",
+              "data_unit_id": "uk_challenger_mk_3",
+              "selected": false,
+              "class_name": "",
+              "details": true,
+              "main_role": "Medium tank"
+            }
+          ],
+          "details": true
+        },
+        {
+          "type": "multiple",
+          "title": "Challenger 2/2F/TES",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/uk_challenger_ii.png",
+          "selected": false,
+          "br": "11.7",
+          "data_unit_id": "uk_challenger_2_group",
+          "class_name": "",
+          "items": [
+            {
+              "type": "single",
+              "title": "Challenger 2",
+              "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/uk_challenger_ii.png",
+              "br": "11.7",
+              "rp": "350,000",
+              "sp": "950,000",
+              "data_unit_id": "uk_challenger_ii",
+              "selected": false,
+              "class_name": "",
+              "details": true,
+              "main_role": "Medium tank"
+            },
+            {
+              "type": "single",
+              "title": "Challenger 2 (2F)",
+              "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/uk_challenger_2_dorchester.png",
+              "br": "11.7",
+              "rp": "175,000",
+              "sp": "950,000",
+              "data_unit_id": "uk_challenger_2_dorchester",
+              "selected": false,
+              "class_name": "",
+              "details": true,
+              "main_role": "Medium tank"
+            },
+            {
+              "type": "single",
+              "title": "Challenger 2 TES",
+              "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/uk_challenger_2_tes.png",
+              "br": "11.7",
+              "rp": "175,000",
+              "sp": "950,000",
+              "data_unit_id": "uk_challenger_2_tes",
+              "selected": false,
+              "class_name": "",
+              "details": true,
+              "main_role": "Medium tank"
+            }
+          ],
+          "details": true
+        }
+      ],
+      [
+        {
+          "type": "single",
+          "title": "TTD",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/uk_ttd.png",
+          "br": "10.0",
+          "rp": "260,000",
+          "sp": "710,000",
+          "data_unit_id": "uk_ttd",
+          "selected": false,
+          "class_name": "",
+          "details": true,
+          "main_role": "Medium tank"
+        },
+        {
+          "type": "single",
+          "title": "Vickers Mk.7",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/uk_vickers_mk7.png",
+          "br": "10.7",
+          "rp": "300,000",
+          "sp": "830,000",
+          "data_unit_id": "uk_vickers_mk7",
+          "selected": false,
+          "class_name": "",
+          "details": true,
+          "main_role": "Medium tank"
+        }
+      ],
+      [
+        {
+          "type": "single",
+          "title": "Desert Warrior",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/uk_desert_warrior.png",
+          "br": "9.7",
+          "rp": "260,000",
+          "sp": "710,000",
+          "data_unit_id": "uk_desert_warrior",
+          "selected": false,
+          "class_name": "",
+          "details": true,
+          "main_role": "Light tank"
+        }
+      ],
+      [
+        {
+          "type": "multiple",
+          "title": "Stormer/Osa",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/uk_stormer_9a33_group.png",
+          "selected": false,
+          "br": "10.0-10.3",
+          "data_unit_id": "uk_stormer_9a33_group",
+          "class_name": "",
+          "items": [
+            {
+              "type": "single",
+              "title": "Stormer AD",
+              "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/uk_stormer_air_defence.png",
+              "br": "10.0",
+              "rp": "260,000",
+              "sp": "710,000",
+              "data_unit_id": "uk_stormer_air_defence",
+              "selected": false,
+              "class_name": "",
+              "details": true,
+              "main_role": "SPAA"
+            },
+            {
+              "type": "single",
+              "title": "▄Osa-AK",
+              "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/uk_9a33bm2.png",
+              "br": "10.3",
+              "rp": "150,000",
+              "sp": "830,000",
+              "data_unit_id": "uk_9a33bm2",
+              "selected": false,
+              "class_name": "",
+              "details": true,
+              "main_role": "SPAA"
+            }
+          ],
+          "details": true
+        },
+        {
+          "type": "multiple",
+          "title": "Stormer/Strela",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/uk_stormer_9a35_group.png",
+          "selected": false,
+          "br": "10.3",
+          "data_unit_id": "uk_stormer_9a35_group",
+          "class_name": "",
+          "items": [
+            {
+              "type": "single",
+              "title": "Stormer HVM",
+              "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/uk_stormer_hvm.png",
+              "br": "10.3",
+              "rp": "300,000",
+              "sp": "830,000",
+              "data_unit_id": "uk_stormer_hvm",
+              "selected": false,
+              "class_name": "",
+              "details": true,
+              "main_role": "SPAA"
+            },
+            {
+              "type": "single",
+              "title": "▄Strela-10M",
+              "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/uk_9a35_m.png",
+              "br": "10.3",
+              "rp": "175,000",
+              "sp": "950,000",
+              "data_unit_id": "uk_9a35_m",
+              "selected": false,
+              "class_name": "",
+              "details": true,
+              "main_role": "SPAA"
+            }
+          ],
+          "details": true
+        }
+      ],
+      [
+        {
+          "type": "single",
+          "title": "Ajax",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/uk_ajax.png",
+          "br": "10.3",
+          "rp": "260,000",
+          "sp": "710,000",
+          "data_unit_id": "uk_ajax",
+          "selected": false,
+          "class_name": "",
+          "details": true,
+          "main_role": "Light tank"
+        }
+      ]
+    ],
+    "premium_vehicles": [
+      [
+        {
+          "type": "single",
+          "title": "Challenger DS",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/uk_challenger_1_mk_3_gulf.png",
+          "br": "10.7",
+          "rp": 0,
+          "sp": 0,
+          "data_unit_id": "uk_challenger_1_mk_3_gulf",
+          "selected": false,
+          "class_name": "prem",
+          "details": true,
+          "main_role": "Medium tank"
+        },
+        {
+          "type": "single",
+          "title": "Challenger 2 OES",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/uk_challenger_2_megatron.png",
+          "br": "11.7",
+          "rp": 0,
+          "sp": 0,
+          "data_unit_id": "uk_challenger_2_megatron",
+          "selected": false,
+          "class_name": "prem",
+          "details": true,
+          "main_role": "Medium tank"
+        }
+      ],
+      [
+        {
+          "type": "single",
+          "title": "Bhishma TWMP",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/uk_t_90s_bheeshma.png",
+          "br": "10.7",
+          "rp": "520,000",
+          "sp": "760,000",
+          "data_unit_id": "uk_t_90s_bheeshma",
+          "selected": false,
+          "class_name": "squad",
+          "details": true,
+          "main_role": "Medium tank"
+        },
+        {
+          "type": "single",
+          "title": "CRV Block 2",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/uk_boxer_crv_block2.png",
+          "br": "10.7",
+          "rp": null,
+          "sp": null,
+          "data_unit_id": "uk_boxer_crv_block2",
+          "selected": false,
+          "class_name": "",
+          "details": true,
+          "main_role": "Light tank"
+        },
+        {
+          "type": "single",
+          "title": "␙Challenger 2",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/uk_challenger_ii.png",
+          "br": "11.7",
+          "rp": null,
+          "sp": null,
+          "data_unit_id": "uk_challenger_ii_yt_cup_2019",
+          "selected": false,
+          "class_name": "",
+          "details": true,
+          "main_role": "Medium tank"
+        }
+      ]
+    ],
+    "selected": [],
+    "unlock_quantity": 0
+  },
+  {
+    "rank": "VIII",
+    "researchable_vehicles": [
+      [
+        {
+          "type": "single",
+          "title": "Challenger 3 TD",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/uk_challenger_2_lep.png",
+          "br": "12.0",
+          "rp": "400,000",
+          "sp": "1,080,000",
+          "data_unit_id": "uk_challenger_2_lep",
+          "selected": false,
+          "class_name": "",
+          "details": true,
+          "main_role": "Medium tank"
+        },
+        {
+          "type": "multiple",
+          "title": "Challenger 2BN/2E",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/uk_challenger_2_bn.png",
+          "selected": false,
+          "br": "12.7",
+          "data_unit_id": "uk_challenger_bn_e_group",
+          "class_name": "",
+          "items": [
+            {
+              "type": "single",
+              "title": "Black Night",
+              "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/uk_challenger_2_bn.png",
+              "br": "12.7",
+              "rp": "410,000",
+              "sp": "1,100,000",
+              "data_unit_id": "uk_challenger_2_bn",
+              "selected": false,
+              "class_name": "",
+              "details": true,
+              "main_role": "Medium tank"
+            },
+            {
+              "type": "single",
+              "title": "Challenger 2E",
+              "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/uk_challenger_2e.png",
+              "br": "12.7",
+              "rp": "210,000",
+              "sp": "1,120,000",
+              "data_unit_id": "uk_challenger_2e",
+              "selected": false,
+              "class_name": "",
+              "details": true,
+              "main_role": "Medium tank"
+            }
+          ],
+          "details": true
+        }
+      ],
+      [],
+      [],
+      [
+        {
+          "type": "single",
+          "title": "ADATS (M113)",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/uk_adats_m113a3.png",
+          "br": "11.7",
+          "rp": "400,000",
+          "sp": "1,080,000",
+          "data_unit_id": "uk_adats_m113a3",
+          "selected": false,
+          "class_name": "",
+          "details": true,
+          "main_role": "SPAA"
+        },
+        {
+          "type": "multiple",
+          "title": "Sky Sabre",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/uk_sky_sabre_fcs.png",
+          "selected": false,
+          "br": "12.7",
+          "data_unit_id": "uk_sky_sabre_fcs",
+          "class_name": "",
+          "items": [
+            {
+              "type": "single",
+              "title": "Sky Sabre (TADS)",
+              "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/uk_sky_sabre_fcs.png",
+              "br": "12.7",
+              "rp": "410,000",
+              "sp": "1,100,000",
+              "data_unit_id": "uk_sky_sabre_fcs",
+              "selected": false,
+              "class_name": "",
+              "details": true,
+              "main_role": "SPAA"
+            },
+            {
+              "type": "single",
+              "title": "Sky Sabre (TEL)",
+              "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/uk_sky_sabre_launcher.png",
+              "br": null,
+              "rp": null,
+              "sp": null,
+              "data_unit_id": "uk_sky_sabre_launcher",
+              "selected": false,
+              "class_name": "",
+              "details": true,
+              "main_role": "SPAA"
+            }
+          ],
+          "details": true
+        }
+      ],
+      []
+    ],
+    "premium_vehicles": [
+      [],
+      []
+    ],
+    "selected": [],
+    "unlock_quantity": 0
+  }
+]

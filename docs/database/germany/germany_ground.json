@@ -1,0 +1,2853 @@
+[
+  {
+    "rank": "I",
+    "researchable_vehicles": [
+      [
+        {
+          "type": "single",
+          "title": "Garford-Beute",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/germ_garford_putilov.png",
+          "br": "1.0",
+          "rp": null,
+          "sp": null,
+          "data_unit_id": "germ_garford_putilov",
+          "selected": false,
+          "class_name": "",
+          "details": true,
+          "main_role": "Light tank"
+        },
+        {
+          "type": "single",
+          "title": "Pz.35(t)",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/germ_pzkpfw_35t.png",
+          "br": "1.0",
+          "rp": null,
+          "sp": null,
+          "data_unit_id": "germ_pzkpfw_35t",
+          "selected": false,
+          "class_name": "",
+          "details": true,
+          "main_role": "Light tank"
+        },
+        {
+          "type": "single",
+          "title": "Pz.38(t) A",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/germ_pzkpfw_38t_ausf_a.png",
+          "br": "1.3",
+          "rp": "2,900",
+          "sp": "700",
+          "data_unit_id": "germ_pzkpfw_38t_ausf_a",
+          "selected": false,
+          "class_name": "",
+          "details": true,
+          "main_role": "Light tank"
+        },
+        {
+          "type": "multiple",
+          "title": "Pz.38(t) F/n.A.",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/germ_pzkpfw_38t_group.png",
+          "selected": false,
+          "br": "2.3",
+          "data_unit_id": "germ_pzkpfw_38t_group",
+          "class_name": "",
+          "items": [
+            {
+              "type": "single",
+              "title": "Pz.38(t) F",
+              "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/germ_pzkpfw_38t_ausf_f.png",
+              "br": "2.3",
+              "rp": "4,000",
+              "sp": "2,100",
+              "data_unit_id": "germ_pzkpfw_38t_ausf_f",
+              "selected": false,
+              "class_name": "",
+              "details": true,
+              "main_role": "Light tank"
+            },
+            {
+              "type": "single",
+              "title": "Pz.38(t) n.A.",
+              "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/germ_pzkpfw_38t_na.png",
+              "br": "2.3",
+              "rp": "3,000",
+              "sp": "6,300",
+              "data_unit_id": "germ_pzkpfw_38t_na",
+              "selected": false,
+              "class_name": "",
+              "details": true,
+              "main_role": "Light tank"
+            }
+          ],
+          "details": true
+        }
+      ],
+      [
+        {
+          "type": "single",
+          "title": "Beutepanzer IV",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/germ_beutepanzer_mk_iv.png",
+          "br": "1.0",
+          "rp": null,
+          "sp": null,
+          "data_unit_id": "germ_beutepanzer_mk_iv",
+          "selected": false,
+          "class_name": "",
+          "details": true,
+          "main_role": "Medium tank"
+        },
+        {
+          "type": "multiple",
+          "title": "Pz.III B/E",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/germ_prewar_pz_iii_group.png",
+          "selected": false,
+          "br": "1.0",
+          "data_unit_id": "germ_prewar_pz_iii_group",
+          "class_name": "",
+          "items": [
+            {
+              "type": "single",
+              "title": "Pz.III E",
+              "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/germ_pzkpfw_iii_ausf_e.png",
+              "br": "1.0",
+              "rp": null,
+              "sp": null,
+              "data_unit_id": "germ_pzkpfw_iii_ausf_e",
+              "selected": false,
+              "class_name": "",
+              "details": true,
+              "main_role": "Medium tank"
+            },
+            {
+              "type": "single",
+              "title": "Pz.III B",
+              "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/germ_pzkpfw_iii_ausf_b.png",
+              "br": "1.0",
+              "rp": null,
+              "sp": null,
+              "data_unit_id": "germ_pzkpfw_iii_ausf_b",
+              "selected": false,
+              "class_name": "",
+              "details": true,
+              "main_role": "Medium tank"
+            }
+          ],
+          "details": true
+        },
+        {
+          "type": "single",
+          "title": "Pz.III F",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/germ_pzkpfw_iii_ausf_f.png",
+          "br": "1.3",
+          "rp": "4,000",
+          "sp": "2,100",
+          "data_unit_id": "germ_pzkpfw_iii_ausf_f",
+          "selected": false,
+          "class_name": "",
+          "details": true,
+          "main_role": "Medium tank"
+        },
+        {
+          "type": "single",
+          "title": "Pz.III J",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/germ_pzkpfw_iii_ausf_j_l42.png",
+          "br": "2.3",
+          "rp": "5,900",
+          "sp": "6,300",
+          "data_unit_id": "germ_pzkpfw_iii_ausf_j_l42",
+          "selected": false,
+          "class_name": "",
+          "details": true,
+          "main_role": "Medium tank"
+        }
+      ],
+      [
+        {
+          "type": "single",
+          "title": "A7V",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/germ_a7v.png",
+          "br": "1.0",
+          "rp": null,
+          "sp": null,
+          "data_unit_id": "germ_a7v",
+          "selected": false,
+          "class_name": "",
+          "details": true,
+          "main_role": "Medium tank"
+        },
+        {
+          "type": "single",
+          "title": "Pz.IV C",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/germ_pzkpfw_iv_ausf_c.png",
+          "br": "1.3",
+          "rp": "2,900",
+          "sp": "700",
+          "data_unit_id": "germ_pzkpfw_iv_ausf_c",
+          "selected": false,
+          "class_name": "",
+          "details": true,
+          "main_role": "Medium tank"
+        },
+        {
+          "type": "multiple",
+          "title": "Pz.II C/F",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/germ_pzkpfw_ii_early_group.png",
+          "selected": false,
+          "br": "1.3-1.7",
+          "data_unit_id": "germ_pzkpfw_ii_early_group",
+          "class_name": "",
+          "items": [
+            {
+              "type": "single",
+              "title": "Pz.II C",
+              "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/germ_pzkpfw_ii_ausf_c.png",
+              "br": "1.3",
+              "rp": "4,000",
+              "sp": "2,100",
+              "data_unit_id": "germ_pzkpfw_ii_ausf_c",
+              "selected": false,
+              "class_name": "",
+              "details": true,
+              "main_role": "Light tank"
+            },
+            {
+              "type": "single",
+              "title": "Pz.II F",
+              "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/germ_pzkpfw_ii_ausf_f.png",
+              "br": "1.7",
+              "rp": "3,000",
+              "sp": "6,300",
+              "data_unit_id": "germ_pzkpfw_ii_ausf_f",
+              "selected": false,
+              "class_name": "",
+              "details": true,
+              "main_role": "Light tank"
+            }
+          ],
+          "details": true
+        },
+        {
+          "type": "multiple",
+          "title": "Pz.IV E/F",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/germ_pzkpfw_4_early_group.png",
+          "selected": false,
+          "br": "2.0",
+          "data_unit_id": "germ_pzkpfw_4_early_group",
+          "class_name": "",
+          "items": [
+            {
+              "type": "single",
+              "title": "Pz.IV E",
+              "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/germ_pzkpfw_iv_ausf_e.png",
+              "br": "2.0",
+              "rp": "5,900",
+              "sp": "6,300",
+              "data_unit_id": "germ_pzkpfw_iv_ausf_e",
+              "selected": false,
+              "class_name": "",
+              "details": true,
+              "main_role": "Medium tank"
+            },
+            {
+              "type": "single",
+              "title": "Pz.IV F1",
+              "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/germ_pzkpfw_iv_ausf_f.png",
+              "br": "2.0",
+              "rp": "3,000",
+              "sp": "6,300",
+              "data_unit_id": "germ_pzkpfw_iv_ausf_f",
+              "selected": false,
+              "class_name": "",
+              "details": true,
+              "main_role": "Medium tank"
+            }
+          ],
+          "details": true
+        }
+      ],
+      [
+        {
+          "type": "multiple",
+          "title": "FlakPz I/38(t)",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/germ_flakpanzer_1_group.png",
+          "selected": false,
+          "br": "1.3-1.7",
+          "data_unit_id": "germ_flakpanzer_1_group",
+          "class_name": "",
+          "items": [
+            {
+              "type": "single",
+              "title": "Flakpanzer I",
+              "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/germ_flakpanzer_i_ausf_a.png",
+              "br": "1.3",
+              "rp": "2,900",
+              "sp": "700",
+              "data_unit_id": "germ_flakpanzer_i_ausf_a",
+              "selected": false,
+              "class_name": "",
+              "details": true,
+              "main_role": "SPAA"
+            },
+            {
+              "type": "single",
+              "title": "Flakpanzer 38",
+              "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/germ_flakpanzer_38t_gepard.png",
+              "br": "1.7",
+              "rp": "2,000",
+              "sp": "2,100",
+              "data_unit_id": "germ_flakpanzer_38t_gepard",
+              "selected": false,
+              "class_name": "",
+              "details": true,
+              "main_role": "SPAA"
+            }
+          ],
+          "details": true
+        },
+        {
+          "type": "single",
+          "title": "Sd.Kfz.222",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/germ_sdkfz_222.png",
+          "br": "2.0",
+          "rp": "4,000",
+          "sp": "2,100",
+          "data_unit_id": "germ_sdkfz_222",
+          "selected": false,
+          "class_name": "",
+          "details": true,
+          "main_role": "SPAA"
+        },
+        {
+          "type": "single",
+          "title": "Sd.Kfz. 6/2",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/germ_sdkfz_6_2_flak36.png",
+          "br": "2.3",
+          "rp": "5,900",
+          "sp": "6,300",
+          "data_unit_id": "germ_sdkfz_6_2_flak36",
+          "selected": false,
+          "class_name": "",
+          "details": true,
+          "main_role": "SPAA"
+        }
+      ],
+      [
+        {
+          "type": "multiple",
+          "title": "sIG Sfl./Sd.Kfz.221",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/germ_sturmpanzer_221_group.png",
+          "selected": false,
+          "br": "1.0",
+          "data_unit_id": "germ_sturmpanzer_221_group",
+          "class_name": "",
+          "items": [
+            {
+              "type": "single",
+              "title": "15cm sIG 33 B Sfl",
+              "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/germ_sturmpanzer_ii.png",
+              "br": "1.0",
+              "rp": "2,900",
+              "sp": "700",
+              "data_unit_id": "germ_sturmpanzer_ii",
+              "selected": false,
+              "class_name": "",
+              "details": true,
+              "main_role": "Tank destroyer"
+            },
+            {
+              "type": "single",
+              "title": "Sd.Kfz.221 (s.Pz.B.41)",
+              "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/germ_sdkfz_221_s_pz_b_41.png",
+              "br": "1.0",
+              "rp": "2,000",
+              "sp": "2,100",
+              "data_unit_id": "germ_sdkfz_221_s_pz_b_41",
+              "selected": false,
+              "class_name": "",
+              "details": true,
+              "main_role": "Light tank"
+            }
+          ],
+          "details": true
+        },
+        {
+          "type": "multiple",
+          "title": "Panzerjager I/Sd.Kfz.251/9",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/germ_panzerjager_251_group.png",
+          "selected": false,
+          "br": "1.3",
+          "data_unit_id": "germ_panzerjager_251_group",
+          "class_name": "",
+          "items": [
+            {
+              "type": "single",
+              "title": "Panzerjäger I",
+              "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/germ_panzerjager_1.png",
+              "br": "1.3",
+              "rp": "4,000",
+              "sp": "2,100",
+              "data_unit_id": "germ_panzerjager_1",
+              "selected": false,
+              "class_name": "",
+              "details": true,
+              "main_role": "Tank destroyer"
+            },
+            {
+              "type": "single",
+              "title": "Sd.Kfz.251/9",
+              "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/germ_sdkfz_251_9.png",
+              "br": "1.3",
+              "rp": "3,000",
+              "sp": "6,300",
+              "data_unit_id": "germ_sdkfz_251_9",
+              "selected": false,
+              "class_name": "",
+              "details": true,
+              "main_role": "Tank destroyer"
+            }
+          ],
+          "details": true
+        },
+        {
+          "type": "multiple",
+          "title": "Marder III/StuG III",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/germ_marder_stug_a_group.png",
+          "selected": false,
+          "br": "2.3",
+          "data_unit_id": "germ_marder_stug_a_group",
+          "class_name": "",
+          "items": [
+            {
+              "type": "single",
+              "title": "Marder III",
+              "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/germ_pzkpfw_38t_marder_iii.png",
+              "br": "2.3",
+              "rp": "5,900",
+              "sp": "6,300",
+              "data_unit_id": "germ_pzkpfw_38t_marder_iii",
+              "selected": false,
+              "class_name": "",
+              "details": true,
+              "main_role": "Tank destroyer"
+            },
+            {
+              "type": "single",
+              "title": "StuG III A",
+              "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/germ_stug_iii_ausf_a.png",
+              "br": "2.3",
+              "rp": "3,000",
+              "sp": "6,300",
+              "data_unit_id": "germ_stug_iii_ausf_a",
+              "selected": false,
+              "class_name": "",
+              "details": true,
+              "main_role": "Tank destroyer"
+            }
+          ],
+          "details": true
+        }
+      ]
+    ],
+    "premium_vehicles": [
+      [
+        {
+          "type": "single",
+          "title": "Pz.II C TD",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/germ_pzkpfw_ii_ausf_c_td.png",
+          "br": "1.3",
+          "rp": null,
+          "sp": null,
+          "data_unit_id": "germ_pzkpfw_ii_ausf_c_td",
+          "selected": false,
+          "class_name": "",
+          "details": true,
+          "main_role": "Light tank"
+        },
+        {
+          "type": "single",
+          "title": "Pz.II C (DAK)",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/germ_pzkpfw_ii_ausf_c_dak.png",
+          "br": "1.3",
+          "rp": 0,
+          "sp": 0,
+          "data_unit_id": "germ_pzkpfw_ii_ausf_c_dak",
+          "selected": false,
+          "class_name": "prem",
+          "details": true,
+          "main_role": "Light tank"
+        },
+        {
+          "type": "single",
+          "title": "Nb.Fz.",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/germ_nbfz_vi.png",
+          "br": "1.3",
+          "rp": 0,
+          "sp": 0,
+          "data_unit_id": "germ_nbfz_vi",
+          "selected": false,
+          "class_name": "prem",
+          "details": true,
+          "main_role": "Medium tank"
+        },
+        {
+          "type": "single",
+          "title": "Sd.Kfz. 140/1",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/germ_pzkpfw_38t_aufklarungspanzer.png",
+          "br": "2.0",
+          "rp": 0,
+          "sp": 0,
+          "data_unit_id": "germ_pzkpfw_38t_aufklarungspanzer",
+          "selected": false,
+          "class_name": "prem",
+          "details": true,
+          "main_role": "Light tank"
+        }
+      ],
+      [
+        {
+          "type": "single",
+          "title": "Sd.Kfz.251/10",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/germ_sdkfz_251_10.png",
+          "br": "1.0",
+          "rp": 0,
+          "sp": 0,
+          "data_unit_id": "germ_sdkfz_251_10",
+          "selected": false,
+          "class_name": "prem",
+          "details": true,
+          "main_role": "Tank destroyer"
+        },
+        {
+          "type": "single",
+          "title": "Sd.Kfz.234/1",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/germ_sdkfz_234_1.png",
+          "br": "2.0",
+          "rp": 0,
+          "sp": 0,
+          "data_unit_id": "germ_sdkfz_234_1",
+          "selected": false,
+          "class_name": "prem",
+          "details": true,
+          "main_role": "Light tank"
+        },
+        {
+          "type": "single",
+          "title": "Sd.Kfz.234/3",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/germ_sdkfz_234_3.png",
+          "br": "2.0",
+          "rp": 0,
+          "sp": 0,
+          "data_unit_id": "germ_sdkfz_234_3",
+          "selected": false,
+          "class_name": "prem",
+          "details": true,
+          "main_role": "Tank destroyer"
+        },
+        {
+          "type": "single",
+          "title": "Pz.Sp.Wg.P204(f) KwK 38",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/germ_amd_35_kwk.png",
+          "br": "2.0",
+          "rp": 0,
+          "sp": 0,
+          "data_unit_id": "germ_amd_35_kwk",
+          "selected": false,
+          "class_name": "prem",
+          "details": true,
+          "main_role": "Light tank"
+        }
+      ]
+    ],
+    "selected": [],
+    "unlock_quantity": 0
+  },
+  {
+    "rank": "II",
+    "researchable_vehicles": [
+      [
+        {
+          "type": "single",
+          "title": "Pz.Sp.Wg.P204(f) KwK 39/1",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/germ_amd_35_kwk39.png",
+          "br": "2.7",
+          "rp": "7,900",
+          "sp": "10,000",
+          "data_unit_id": "germ_amd_35_kwk39",
+          "selected": false,
+          "class_name": "",
+          "details": true,
+          "main_role": "Light tank"
+        },
+        {
+          "type": "single",
+          "title": "Sd.Kfz.234/2",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/germ_sdkfz_234_2.png",
+          "br": "3.7",
+          "rp": "11,000",
+          "sp": "22,000",
+          "data_unit_id": "germ_sdkfz_234_2",
+          "selected": false,
+          "class_name": "",
+          "details": true,
+          "main_role": "Light tank"
+        },
+        {
+          "type": "multiple",
+          "title": "Max/Emil",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/germ_dicker_sturer_group.png",
+          "selected": false,
+          "br": "3.7-4.0",
+          "data_unit_id": "germ_dicker_sturer_group",
+          "class_name": "",
+          "items": [
+            {
+              "type": "single",
+              "title": "Dicker Max",
+              "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/germ_pzsfl_iva_dickermax.png",
+              "br": "3.7",
+              "rp": "14,000",
+              "sp": "32,000",
+              "data_unit_id": "germ_pzsfl_iva_dickermax",
+              "selected": false,
+              "class_name": "",
+              "details": true,
+              "main_role": "Tank destroyer"
+            },
+            {
+              "type": "single",
+              "title": "Sturer Emil",
+              "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/germ_pzsflk40_sturer_emil.png",
+              "br": "4.0",
+              "rp": "9,200",
+              "sp": "47,000",
+              "data_unit_id": "germ_pzsflk40_sturer_emil",
+              "selected": false,
+              "class_name": "",
+              "details": true,
+              "main_role": "Tank destroyer"
+            }
+          ],
+          "details": true
+        }
+      ],
+      [
+        {
+          "type": "single",
+          "title": "Pz.III J1",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/germ_pzkpfw_iii_ausf_j.png",
+          "br": "2.7",
+          "rp": "7,900",
+          "sp": "10,000",
+          "data_unit_id": "germ_pzkpfw_iii_ausf_j",
+          "selected": false,
+          "class_name": "",
+          "details": true,
+          "main_role": "Medium tank"
+        },
+        {
+          "type": "multiple",
+          "title": "Pz.III L/M",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/germ_pzkpfw_iii_group.png",
+          "selected": false,
+          "br": "3.0-3.3",
+          "data_unit_id": "germ_pzkpfw_iii_late_group",
+          "class_name": "",
+          "items": [
+            {
+              "type": "single",
+              "title": "Pz.III L",
+              "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/germ_pzkpfw_iii_ausf_l.png",
+              "br": "3.0",
+              "rp": "11,000",
+              "sp": "22,000",
+              "data_unit_id": "germ_pzkpfw_iii_ausf_l",
+              "selected": false,
+              "class_name": "",
+              "details": true,
+              "main_role": "Medium tank"
+            },
+            {
+              "type": "single",
+              "title": "Pz.III M",
+              "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/germ_pzkpfw_iii_ausf_m.png",
+              "br": "3.3",
+              "rp": "6,900",
+              "sp": "32,000",
+              "data_unit_id": "germ_pzkpfw_iii_ausf_m",
+              "selected": false,
+              "class_name": "",
+              "details": true,
+              "main_role": "Medium tank"
+            }
+          ],
+          "details": true
+        }
+      ],
+      [
+        {
+          "type": "multiple",
+          "title": "Pz.IV F2/G",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/pzkpfw_iv_fg_group.png",
+          "selected": false,
+          "br": "3.3",
+          "data_unit_id": "germ_pz_4_fg_group",
+          "class_name": "",
+          "items": [
+            {
+              "type": "single",
+              "title": "Pz.IV F2",
+              "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/germ_pzkpfw_iv_ausf_f2.png",
+              "br": "3.3",
+              "rp": "9,200",
+              "sp": "16,000",
+              "data_unit_id": "germ_pzkpfw_iv_ausf_f2",
+              "selected": false,
+              "class_name": "",
+              "details": true,
+              "main_role": "Medium tank"
+            },
+            {
+              "type": "single",
+              "title": "Pz.IV G",
+              "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/germ_pzkpfw_iv_ausf_g.png",
+              "br": "3.3",
+              "rp": "5,600",
+              "sp": "22,000",
+              "data_unit_id": "germ_pzkpfw_iv_ausf_g",
+              "selected": false,
+              "class_name": "",
+              "details": true,
+              "main_role": "Medium tank"
+            }
+          ],
+          "details": true
+        },
+        {
+          "type": "multiple",
+          "title": "Pz.IV H/J",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/germ_pzkpfw_iv_late_group.png",
+          "selected": false,
+          "br": "3.7",
+          "data_unit_id": "germ_pz_4_late_group",
+          "class_name": "",
+          "items": [
+            {
+              "type": "single",
+              "title": "Pz.IV H",
+              "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/germ_pzkpfw_iv_ausf_h.png",
+              "br": "3.7",
+              "rp": "11,000",
+              "sp": "22,000",
+              "data_unit_id": "germ_pzkpfw_iv_ausf_h",
+              "selected": false,
+              "class_name": "",
+              "details": true,
+              "main_role": "Medium tank"
+            },
+            {
+              "type": "single",
+              "title": "Pz.IV J",
+              "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/germ_pzkpfw_iv_ausf_j.png",
+              "br": "3.7",
+              "rp": "6,900",
+              "sp": "32,000",
+              "data_unit_id": "germ_pzkpfw_iv_ausf_j",
+              "selected": false,
+              "class_name": "",
+              "details": true,
+              "main_role": "Medium tank"
+            }
+          ],
+          "details": true
+        }
+      ],
+      [
+        {
+          "type": "single",
+          "title": "Sd.Kfz.251/21",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/germ_sdkfz_251_21.png",
+          "br": "3.3",
+          "rp": "14,000",
+          "sp": "32,000",
+          "data_unit_id": "germ_sdkfz_251_21",
+          "selected": false,
+          "class_name": "",
+          "details": true,
+          "main_role": "SPAA"
+        }
+      ],
+      [
+        {
+          "type": "multiple",
+          "title": "Marder/StuH/StuG",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/germ_marder_stuh_group.png",
+          "selected": false,
+          "br": "3.0-3.3",
+          "data_unit_id": "germ_marder_stuh_group",
+          "class_name": "",
+          "items": [
+            {
+              "type": "single",
+              "title": "Marder III H",
+              "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/germ_pzkpfw_38t_marder_iii_ausf_h.png",
+              "br": "3.0",
+              "rp": "7,900",
+              "sp": "10,000",
+              "data_unit_id": "germ_pzkpfw_38t_marder_iii_ausf_h",
+              "selected": false,
+              "class_name": "",
+              "details": true,
+              "main_role": "Tank destroyer"
+            },
+            {
+              "type": "single",
+              "title": "StuH 42 G",
+              "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/germ_stuh_iii_ausf_g.png",
+              "br": "3.0",
+              "rp": "4,600",
+              "sp": "16,000",
+              "data_unit_id": "germ_stuh_iii_ausf_g",
+              "selected": false,
+              "class_name": "",
+              "details": true,
+              "main_role": "Tank destroyer"
+            },
+            {
+              "type": "single",
+              "title": "StuG III F",
+              "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/germ_stug_iii_ausf_f.png",
+              "br": "3.3",
+              "rp": "5,600",
+              "sp": "22,000",
+              "data_unit_id": "germ_stug_iii_ausf_f",
+              "selected": false,
+              "class_name": "",
+              "details": true,
+              "main_role": "Tank destroyer"
+            }
+          ],
+          "details": true
+        },
+        {
+          "type": "single",
+          "title": "StuG III G",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/germ_stug_iii_ausf_g.png",
+          "br": "4.0",
+          "rp": "14,000",
+          "sp": "32,000",
+          "data_unit_id": "germ_stug_iii_ausf_g",
+          "selected": false,
+          "class_name": "",
+          "details": true,
+          "main_role": "Tank destroyer"
+        }
+      ]
+    ],
+    "premium_vehicles": [
+      [
+        {
+          "type": "single",
+          "title": "15 cm Pz.W.42",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/germ_panzerwerfer_42.png",
+          "br": "2.3",
+          "rp": 0,
+          "sp": 0,
+          "data_unit_id": "germ_panzerwerfer_42",
+          "selected": false,
+          "class_name": "prem",
+          "details": true,
+          "main_role": "Tank destroyer"
+        },
+        {
+          "type": "single",
+          "title": "Pz.III J1 TD",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/germ_pzkpfw_iii_ausf_j_td.png",
+          "br": "2.7",
+          "rp": null,
+          "sp": null,
+          "data_unit_id": "germ_pzkpfw_iii_ausf_j_td",
+          "selected": false,
+          "class_name": "",
+          "details": true,
+          "main_role": "Medium tank"
+        },
+        {
+          "type": "single",
+          "title": "Pz.III N",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/germ_pzkpfw_iii_ausf_n.png",
+          "br": "3.0",
+          "rp": 0,
+          "sp": 0,
+          "data_unit_id": "germ_pzkpfw_iii_ausf_n",
+          "selected": false,
+          "class_name": "prem",
+          "details": true,
+          "main_role": "Medium tank"
+        },
+        {
+          "type": "single",
+          "title": "Sd.Kfz.234/2 \"Biene\"",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/germ_sdkfz_234_2_mod.png",
+          "br": "3.7",
+          "rp": 0,
+          "sp": 0,
+          "data_unit_id": "germ_sdkfz_234_2_mod",
+          "selected": false,
+          "class_name": "prem",
+          "details": true,
+          "main_role": "Light tank"
+        }
+      ],
+      [
+        {
+          "type": "single",
+          "title": "Pz.Sfl.Ic",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/germ_pzkpfw_ii_ausf_h.png",
+          "br": "2.7",
+          "rp": 0,
+          "sp": 0,
+          "data_unit_id": "germ_pzkpfw_ii_ausf_h",
+          "selected": false,
+          "class_name": "prem",
+          "details": true,
+          "main_role": "Light tank"
+        },
+        {
+          "type": "single",
+          "title": "Sd.Kfz.251/22",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/germ_sdkfz_251_22.png",
+          "br": "3.0",
+          "rp": 0,
+          "sp": 0,
+          "data_unit_id": "germ_sdkfz_251_22",
+          "selected": false,
+          "class_name": "prem",
+          "details": true,
+          "main_role": "Tank destroyer"
+        },
+        {
+          "type": "single",
+          "title": "Sd.Kfz.234/2 TD",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/germ_sdkfz_234_2_td.png",
+          "br": "3.7",
+          "rp": null,
+          "sp": null,
+          "data_unit_id": "germ_sdkfz_234_2_td",
+          "selected": false,
+          "class_name": "",
+          "details": true,
+          "main_role": "Light tank"
+        }
+      ]
+    ],
+    "selected": [],
+    "unlock_quantity": 0
+  },
+  {
+    "rank": "III",
+    "researchable_vehicles": [
+      [
+        {
+          "type": "multiple",
+          "title": "Flak Sfl./M44",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/germ_flak_m44_group.png",
+          "selected": false,
+          "br": "4.0",
+          "data_unit_id": "germ_flak_m44_group",
+          "class_name": "",
+          "items": [
+            {
+              "type": "single",
+              "title": "8,8 cm Flak 37 Sfl.",
+              "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/germ_sdkfz_9_flak37.png",
+              "br": "4.0",
+              "rp": "18,000",
+              "sp": "47,000",
+              "data_unit_id": "germ_sdkfz_9_flak37",
+              "selected": false,
+              "class_name": "",
+              "details": true,
+              "main_role": "Tank destroyer"
+            },
+            {
+              "type": "single",
+              "title": "M44",
+              "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/germ_m44.png",
+              "br": "4.0",
+              "rp": "13,000",
+              "sp": "76,000",
+              "data_unit_id": "germ_m44",
+              "selected": false,
+              "class_name": "",
+              "details": true,
+              "main_role": "Tank destroyer"
+            }
+          ],
+          "details": true
+        },
+        {
+          "type": "multiple",
+          "title": "Nashorn/Waffenträger",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/germ_waffentrager_group.png",
+          "selected": false,
+          "br": "5.3-5.7",
+          "data_unit_id": "germ_waffentrager_group",
+          "class_name": "",
+          "items": [
+            {
+              "type": "single",
+              "title": "Nashorn",
+              "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/germ_panzerjager_nashorn.png",
+              "br": "5.3",
+              "rp": "33,000",
+              "sp": "105,000",
+              "data_unit_id": "germ_panzerjager_nashorn",
+              "selected": false,
+              "class_name": "",
+              "details": true,
+              "main_role": "Tank destroyer"
+            },
+            {
+              "type": "single",
+              "title": "Waffenträger",
+              "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/germ_waffentrager_krupp_steyr.png",
+              "br": "5.7",
+              "rp": "20,000",
+              "sp": "135,000",
+              "data_unit_id": "germ_waffentrager_krupp_steyr",
+              "selected": false,
+              "class_name": "",
+              "details": true,
+              "main_role": "Tank destroyer"
+            }
+          ],
+          "details": true
+        }
+      ],
+      [
+        {
+          "type": "single",
+          "title": "Tiger H1",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/germ_pzkpfw_vi_ausf_h1_tiger.png",
+          "br": "5.7",
+          "rp": "33,000",
+          "sp": "105,000",
+          "data_unit_id": "germ_pzkpfw_vi_ausf_h1_tiger",
+          "selected": false,
+          "class_name": "",
+          "details": true,
+          "main_role": "Heavy tank"
+        },
+        {
+          "type": "single",
+          "title": "Tiger E",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/germ_pzkpfw_vi_ausf_e_tiger.png",
+          "br": "6.0",
+          "rp": "40,000",
+          "sp": "135,000",
+          "data_unit_id": "germ_pzkpfw_vi_ausf_e_tiger",
+          "selected": false,
+          "class_name": "",
+          "details": true,
+          "main_role": "Heavy tank"
+        }
+      ],
+      [
+        {
+          "type": "single",
+          "title": "VK 3002 (M)",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/germ_vk_3002m.png",
+          "br": "5.0",
+          "rp": "26,000",
+          "sp": "76,000",
+          "data_unit_id": "germ_vk_3002m",
+          "selected": false,
+          "class_name": "",
+          "details": true,
+          "main_role": "Medium tank"
+        },
+        {
+          "type": "single",
+          "title": "Panther D",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/germ_pzkpfw_v_ausf_d_panther.png",
+          "br": "5.3",
+          "rp": "33,000",
+          "sp": "105,000",
+          "data_unit_id": "germ_pzkpfw_v_ausf_d_panther",
+          "selected": false,
+          "class_name": "",
+          "details": true,
+          "main_role": "Medium tank"
+        }
+      ],
+      [
+        {
+          "type": "multiple",
+          "title": "Ostwind/Wirbelwind",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/germ_flakpanzer_4_group.png",
+          "selected": false,
+          "br": "3.3-3.7",
+          "data_unit_id": "germ_flakpanzer_4_group",
+          "class_name": "",
+          "items": [
+            {
+              "type": "single",
+              "title": "Ostwind",
+              "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/germ_flakpanzer_iv_ostwind.png",
+              "br": "3.3",
+              "rp": "18,000",
+              "sp": "47,000",
+              "data_unit_id": "germ_flakpanzer_iv_ostwind",
+              "selected": false,
+              "class_name": "",
+              "details": true,
+              "main_role": "SPAA"
+            },
+            {
+              "type": "single",
+              "title": "Wirbelwind",
+              "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/germ_flakpanzer_iv_wirbelwind.png",
+              "br": "3.7",
+              "rp": "13,000",
+              "sp": "76,000",
+              "data_unit_id": "germ_flakpanzer_iv_wirbelwind",
+              "selected": false,
+              "class_name": "",
+              "details": true,
+              "main_role": "SPAA"
+            }
+          ],
+          "details": true
+        },
+        {
+          "type": "single",
+          "title": "Ostwind II",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/germ_flakpanzer_iv_ostwind_2.png",
+          "br": "5.3",
+          "rp": "40,000",
+          "sp": "135,000",
+          "data_unit_id": "germ_flakpanzer_iv_ostwind_2",
+          "selected": false,
+          "class_name": "",
+          "details": true,
+          "main_role": "SPAA"
+        }
+      ],
+      [
+        {
+          "type": "single",
+          "title": "◄M55",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/germ_m55.png",
+          "br": "4.0",
+          "rp": "18,000",
+          "sp": "47,000",
+          "data_unit_id": "germ_m55",
+          "selected": false,
+          "class_name": "",
+          "details": true,
+          "main_role": "Tank destroyer"
+        },
+        {
+          "type": "multiple",
+          "title": "Jagdpanzer IV/38(t)",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/germ_jagdpanzer_group.png",
+          "selected": false,
+          "br": "4.3",
+          "data_unit_id": "germ_jagdpanzer_group",
+          "class_name": "",
+          "items": [
+            {
+              "type": "single",
+              "title": "Jagdpanzer IV",
+              "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/germ_jgdpz_iv_l48.png",
+              "br": "4.3",
+              "rp": "26,000",
+              "sp": "76,000",
+              "data_unit_id": "germ_jgdpz_iv_l48",
+              "selected": false,
+              "class_name": "",
+              "details": true,
+              "main_role": "Tank destroyer"
+            },
+            {
+              "type": "single",
+              "title": "Jagdpanzer 38(t)",
+              "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/germ_jgdpz_38t.png",
+              "br": "4.3",
+              "rp": "17,000",
+              "sp": "105,000",
+              "data_unit_id": "germ_jgdpz_38t",
+              "selected": false,
+              "class_name": "",
+              "details": true,
+              "main_role": "Tank destroyer"
+            }
+          ],
+          "details": true
+        },
+        {
+          "type": "single",
+          "title": "Panzer IV/70(V)",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/germ_pz_iv_l70.png",
+          "br": "5.7",
+          "rp": "33,000",
+          "sp": "105,000",
+          "data_unit_id": "germ_pz_iv_l70",
+          "selected": false,
+          "class_name": "",
+          "details": true,
+          "main_role": "Tank destroyer"
+        }
+      ]
+    ],
+    "premium_vehicles": [
+      [
+        {
+          "type": "single",
+          "title": "▀KW II 754 (r)",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/germ_kv_2_754r.png",
+          "br": "3.7",
+          "rp": 0,
+          "sp": 0,
+          "data_unit_id": "germ_kv_2_754r",
+          "selected": false,
+          "class_name": "prem",
+          "details": true,
+          "main_role": "Heavy tank"
+        },
+        {
+          "type": "single",
+          "title": "Pz.Bef.Wg.IV J",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/germ_panzerbefelhswagen_iv_ausf_j.png",
+          "br": "3.7",
+          "rp": 0,
+          "sp": 0,
+          "data_unit_id": "germ_panzerbefelhswagen_iv_ausf_j",
+          "selected": false,
+          "class_name": "prem",
+          "details": true,
+          "main_role": "Medium tank"
+        },
+        {
+          "type": "single",
+          "title": "▀Pz.Kpfw. Churchill",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/germ_infanterie_kampfpanzer_churchill.png",
+          "br": "4.0",
+          "rp": 0,
+          "sp": 0,
+          "data_unit_id": "germ_infanterie_kampfpanzer_churchill",
+          "selected": false,
+          "class_name": "prem",
+          "details": true,
+          "main_role": "Heavy tank"
+        },
+        {
+          "type": "single",
+          "title": "▀T 34 747 (r)",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/germ_t_34_747.png",
+          "br": "4.3",
+          "rp": 0,
+          "sp": 0,
+          "data_unit_id": "germ_t_34_747",
+          "selected": false,
+          "class_name": "prem",
+          "details": true,
+          "main_role": "Medium tank"
+        },
+        {
+          "type": "single",
+          "title": "Brummbär",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/germ_sturmpanzer_iv_brummbar.png",
+          "br": "4.3",
+          "rp": 0,
+          "sp": 0,
+          "data_unit_id": "germ_sturmpanzer_iv_brummbar",
+          "selected": false,
+          "class_name": "prem",
+          "details": true,
+          "main_role": "Tank destroyer"
+        },
+        {
+          "type": "single",
+          "title": "Panzer IV/70(A)",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/germ_pz_iv_l70_a.png",
+          "br": "4.3",
+          "rp": 0,
+          "sp": 0,
+          "data_unit_id": "germ_pz_iv_l70_a",
+          "selected": false,
+          "class_name": "prem",
+          "details": true,
+          "main_role": "Tank destroyer"
+        },
+        {
+          "type": "single",
+          "title": "▀KW I C 756 (r)",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/germ_kv_1_kwk_40.png",
+          "br": "5.0",
+          "rp": 0,
+          "sp": 0,
+          "data_unit_id": "germ_kv_1_kwk_40",
+          "selected": false,
+          "class_name": "prem",
+          "details": true,
+          "main_role": "Heavy tank"
+        }
+      ],
+      [
+        {
+          "type": "single",
+          "title": "▀M4 748 (a)",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/us_m4a2_1944_germ.png",
+          "br": "4.0",
+          "rp": 0,
+          "sp": 0,
+          "data_unit_id": "us_m4a2_1944_germ",
+          "selected": false,
+          "class_name": "prem",
+          "details": true,
+          "main_role": "Medium tank"
+        },
+        {
+          "type": "single",
+          "title": "▀KV-IB",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/germ_kv_1b_finland.png",
+          "br": "4.3",
+          "rp": 0,
+          "sp": 0,
+          "data_unit_id": "germ_kv_1b_finland",
+          "selected": false,
+          "class_name": "prem",
+          "details": true,
+          "main_role": "Heavy tank"
+        },
+        {
+          "type": "single",
+          "title": "Sd.Kfz.234/4",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/germ_sdkfz_234_4.png",
+          "br": "4.7",
+          "rp": 0,
+          "sp": 0,
+          "data_unit_id": "germ_sdkfz_234_4",
+          "selected": false,
+          "class_name": "prem",
+          "details": true,
+          "main_role": "Tank destroyer"
+        },
+        {
+          "type": "single",
+          "title": "VK 45.01 (P)",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/germ_pzkpfw_vi_tiger_p.png",
+          "br": "5.3",
+          "rp": 0,
+          "sp": 0,
+          "data_unit_id": "germ_pzkpfw_vi_tiger_p",
+          "selected": false,
+          "class_name": "prem",
+          "details": true,
+          "main_role": "Heavy tank"
+        },
+        {
+          "type": "single",
+          "title": "VFW",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/germ_vsw_flak_41.png",
+          "br": "5.7",
+          "rp": 0,
+          "sp": 0,
+          "data_unit_id": "germ_vsw_flak_41",
+          "selected": false,
+          "class_name": "prem",
+          "details": true,
+          "main_role": "Tank destroyer"
+        },
+        {
+          "type": "multiple",
+          "title": "Two Fronts",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/germ_tiger_east_west_group.png",
+          "selected": false,
+          "br": "5.3-5.7",
+          "data_unit_id": "germ_tiger_east_west_group",
+          "class_name": "prem",
+          "items": [
+            {
+              "type": "single",
+              "title": "Tiger Ost",
+              "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/germ_pzkpfw_vi_ausf_h1_tiger_east.png",
+              "br": "5.7",
+              "rp": 0,
+              "sp": 0,
+              "data_unit_id": "germ_pzkpfw_vi_ausf_h1_tiger_east",
+              "selected": false,
+              "class_name": "prem",
+              "details": true,
+              "main_role": "Heavy tank"
+            },
+            {
+              "type": "single",
+              "title": "Tiger West",
+              "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/germ_pzkpfw_vi_ausf_h1_tiger_west.png",
+              "br": "5.7",
+              "rp": 0,
+              "sp": 0,
+              "data_unit_id": "germ_pzkpfw_vi_ausf_h1_tiger_west",
+              "selected": false,
+              "class_name": "prem",
+              "details": true,
+              "main_role": "Heavy tank"
+            },
+            {
+              "type": "single",
+              "title": "Ostwind Ost",
+              "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/germ_flakpanzer_iv_ostwind_2_net.png",
+              "br": "5.3",
+              "rp": 0,
+              "sp": 0,
+              "data_unit_id": "germ_flakpanzer_iv_ostwind_2_net",
+              "selected": false,
+              "class_name": "prem",
+              "details": true,
+              "main_role": "SPAA"
+            }
+          ],
+          "details": true
+        },
+        {
+          "type": "single",
+          "title": "␠Tiger",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/germ_pzkpfw_vi_ausf_h1_tiger_animal_version.png",
+          "br": "5.7",
+          "rp": 0,
+          "sp": 0,
+          "data_unit_id": "germ_pzkpfw_vi_ausf_h1_tiger_animal_version",
+          "selected": false,
+          "class_name": "prem",
+          "details": true,
+          "main_role": "Heavy tank"
+        }
+      ]
+    ],
+    "selected": [],
+    "unlock_quantity": 0
+  },
+  {
+    "rank": "IV",
+    "researchable_vehicles": [
+      [
+        {
+          "type": "single",
+          "title": "M109G",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/germ_m109g.png",
+          "br": "6.0",
+          "rp": "46,000",
+          "sp": "155,000",
+          "data_unit_id": "germ_m109g",
+          "selected": false,
+          "class_name": "",
+          "details": true,
+          "main_role": "Tank destroyer"
+        },
+        {
+          "type": "single",
+          "title": "leKPz M41",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/germ_le_kpz_m41.png",
+          "br": "6.7",
+          "rp": "63,000",
+          "sp": "200,000",
+          "data_unit_id": "germ_le_kpz_m41",
+          "selected": false,
+          "class_name": "",
+          "details": true,
+          "main_role": "Light tank"
+        }
+      ],
+      [
+        {
+          "type": "single",
+          "title": "Tiger II (Nr.1-50)",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/germ_pzkpfw_vi_ausf_b_tiger_iip.png",
+          "br": "6.7",
+          "rp": "63,000",
+          "sp": "200,000",
+          "data_unit_id": "germ_pzkpfw_vi_ausf_b_tiger_iip",
+          "selected": false,
+          "class_name": "",
+          "details": true,
+          "main_role": "Heavy tank"
+        },
+        {
+          "type": "single",
+          "title": "Tiger II",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/germ_pzkpfw_vi_ausf_b_tiger_iih.png",
+          "br": "6.7",
+          "rp": "71,000",
+          "sp": "210,000",
+          "data_unit_id": "germ_pzkpfw_vi_ausf_b_tiger_iih",
+          "selected": false,
+          "class_name": "",
+          "details": true,
+          "main_role": "Heavy tank"
+        }
+      ],
+      [
+        {
+          "type": "multiple",
+          "title": "Panther A/G/F",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/germ_pzkpfw_v_a_f_group.png",
+          "selected": false,
+          "br": "6.0",
+          "data_unit_id": "germ_pzkpfw_v_a_f_group",
+          "class_name": "",
+          "items": [
+            {
+              "type": "single",
+              "title": "Panther A",
+              "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/germ_pzkpfw_v_ausf_a_panther.png",
+              "br": "6.0",
+              "rp": "46,000",
+              "sp": "155,000",
+              "data_unit_id": "germ_pzkpfw_v_ausf_a_panther",
+              "selected": false,
+              "class_name": "",
+              "details": true,
+              "main_role": "Medium tank"
+            },
+            {
+              "type": "single",
+              "title": "Panther G",
+              "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/germ_pzkpfw_v_ausf_g_panther.png",
+              "br": "6.0",
+              "rp": "27,000",
+              "sp": "185,000",
+              "data_unit_id": "germ_pzkpfw_v_ausf_g_panther",
+              "selected": false,
+              "class_name": "",
+              "details": true,
+              "main_role": "Medium tank"
+            },
+            {
+              "type": "single",
+              "title": "Panther F",
+              "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/germ_pzkpfw_v_ausf_f_panther.png",
+              "br": "6.0",
+              "rp": "31,000",
+              "sp": "200,000",
+              "data_unit_id": "germ_pzkpfw_v_ausf_f_panther",
+              "selected": false,
+              "class_name": "",
+              "details": true,
+              "main_role": "Medium tank"
+            }
+          ],
+          "details": true
+        }
+      ],
+      [
+        {
+          "type": "single",
+          "title": "Zerstörer 45",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/germ_flakpanzer_zerstorer_45.png",
+          "br": "6.0",
+          "rp": "63,000",
+          "sp": "200,000",
+          "data_unit_id": "germ_flakpanzer_zerstorer_45",
+          "selected": false,
+          "class_name": "",
+          "details": true,
+          "main_role": "SPAA"
+        },
+        {
+          "type": "single",
+          "title": "Kugelblitz",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/germ_flakpanzer_iv_kugelblitz.png",
+          "br": "6.7",
+          "rp": "71,000",
+          "sp": "210,000",
+          "data_unit_id": "germ_flakpanzer_iv_kugelblitz",
+          "selected": false,
+          "class_name": "",
+          "details": true,
+          "main_role": "SPAA"
+        }
+      ],
+      [
+        {
+          "type": "multiple",
+          "title": "Jagdpanther/JPz 4-5",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/germ_jagdpanther_group.png",
+          "selected": false,
+          "br": "6.3",
+          "data_unit_id": "germ_jagdpanther_group",
+          "class_name": "",
+          "items": [
+            {
+              "type": "single",
+              "title": "Jagdpanther G1",
+              "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/germ_panzerjager_panther.png",
+              "br": "6.3",
+              "rp": "46,000",
+              "sp": "155,000",
+              "data_unit_id": "germ_panzerjager_panther",
+              "selected": false,
+              "class_name": "",
+              "details": true,
+              "main_role": "Tank destroyer"
+            },
+            {
+              "type": "single",
+              "title": "JPz 4-5",
+              "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/germ_kanonenjagdpanzer.png",
+              "br": "6.3",
+              "rp": "27,000",
+              "sp": "185,000",
+              "data_unit_id": "germ_kanonenjagdpanzer",
+              "selected": false,
+              "class_name": "",
+              "details": true,
+              "main_role": "Tank destroyer"
+            }
+          ],
+          "details": true
+        },
+        {
+          "type": "multiple",
+          "title": "Ferdinand/Jagdtiger",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/germ_panzerjager_tiger_group.png",
+          "selected": false,
+          "br": "6.7",
+          "data_unit_id": "germ_panzerjager_tiger_group",
+          "class_name": "",
+          "items": [
+            {
+              "type": "single",
+              "title": "Ferdinand",
+              "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/germ_panzerjager_tiger_p_ferdinand.png",
+              "br": "6.7",
+              "rp": "63,000",
+              "sp": "200,000",
+              "data_unit_id": "germ_panzerjager_tiger_p_ferdinand",
+              "selected": false,
+              "class_name": "",
+              "details": true,
+              "main_role": "Tank destroyer"
+            },
+            {
+              "type": "single",
+              "title": "Jagdtiger",
+              "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/germ_panzerjager_tiger.png",
+              "br": "6.7",
+              "rp": "35,000",
+              "sp": "210,000",
+              "data_unit_id": "germ_panzerjager_tiger",
+              "selected": false,
+              "class_name": "",
+              "details": true,
+              "main_role": "Tank destroyer"
+            }
+          ],
+          "details": true
+        }
+      ]
+    ],
+    "premium_vehicles": [
+      [
+        {
+          "type": "single",
+          "title": "Pz.Bef.Wg.VI P",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/germ_panzerbefelhswagen_vi_p.png",
+          "br": "5.7",
+          "rp": 0,
+          "sp": 0,
+          "data_unit_id": "germ_panzerbefelhswagen_vi_p",
+          "selected": false,
+          "class_name": "prem",
+          "details": true,
+          "main_role": "Heavy tank"
+        },
+        {
+          "type": "single",
+          "title": "38 cm Sturmmörser",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/germ_sturmmorser_sturmtiger.png",
+          "br": "5.7",
+          "rp": 0,
+          "sp": 0,
+          "data_unit_id": "germ_sturmmorser_sturmtiger",
+          "selected": false,
+          "class_name": "prem",
+          "details": true,
+          "main_role": "Tank destroyer"
+        },
+        {
+          "type": "single",
+          "title": "Bfw. Jagdpanther G1",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/germ_panzerbefelhswagen_jagdpanther.png",
+          "br": "6.3",
+          "rp": 0,
+          "sp": 0,
+          "data_unit_id": "germ_panzerbefelhswagen_jagdpanther",
+          "selected": false,
+          "class_name": "prem",
+          "details": true,
+          "main_role": "Tank destroyer"
+        },
+        {
+          "type": "single",
+          "title": "Elefant",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/germ_panzerjager_tiger_p_elefant.png",
+          "br": "6.7",
+          "rp": 0,
+          "sp": 0,
+          "data_unit_id": "germ_panzerjager_tiger_p_elefant",
+          "selected": false,
+          "class_name": "prem",
+          "details": true,
+          "main_role": "Tank destroyer"
+        },
+        {
+          "type": "single",
+          "title": "Panther II",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/germ_panther_ii.png",
+          "br": "7.0",
+          "rp": null,
+          "sp": null,
+          "data_unit_id": "germ_panther_ii",
+          "selected": false,
+          "class_name": "",
+          "details": true,
+          "main_role": "Medium tank"
+        }
+      ],
+      [
+        {
+          "type": "single",
+          "title": "Ersatz M10",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/germ_pzkpfw_v_ersatz_m10.png",
+          "br": "6.0",
+          "rp": 0,
+          "sp": 0,
+          "data_unit_id": "germ_pzkpfw_v_ersatz_m10",
+          "selected": false,
+          "class_name": "prem",
+          "details": true,
+          "main_role": "Medium tank"
+        },
+        {
+          "type": "single",
+          "title": "Flakpanzer 341",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/germ_flakpanzer_v_coelian.png",
+          "br": "7.0",
+          "rp": null,
+          "sp": null,
+          "data_unit_id": "germ_flakpanzer_v_coelian",
+          "selected": false,
+          "class_name": "",
+          "details": true,
+          "main_role": "SPAA"
+        },
+        {
+          "type": "single",
+          "title": "SPz 12-3 LGS",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/germ_spz_12_3.png",
+          "br": "7.0",
+          "rp": 0,
+          "sp": 0,
+          "data_unit_id": "germ_spz_12_3",
+          "selected": false,
+          "class_name": "prem",
+          "details": true,
+          "main_role": "Light tank"
+        },
+        {
+          "type": "single",
+          "title": "Tiger II (Sla.16)",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/germ_pzkpfw_vi_ausf_b_tiger_iih_sla.png",
+          "br": "6.7",
+          "rp": 0,
+          "sp": 0,
+          "data_unit_id": "germ_pzkpfw_vi_ausf_b_tiger_iih_sla",
+          "selected": false,
+          "class_name": "prem",
+          "details": true,
+          "main_role": "Heavy tank"
+        },
+        {
+          "type": "single",
+          "title": "Tiger II (10.5 cm Kw.K)",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/germ_pzkpfw_vi_ausf_b_tiger_iih_kwk46.png",
+          "br": "7.0",
+          "rp": null,
+          "sp": null,
+          "data_unit_id": "germ_pzkpfw_vi_ausf_b_tiger_iih_kwk46",
+          "selected": false,
+          "class_name": "",
+          "details": true,
+          "main_role": "Heavy tank"
+        },
+        {
+          "type": "single",
+          "title": "Ru 251",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/germ_ru251.png",
+          "br": "7.3",
+          "rp": 0,
+          "sp": 0,
+          "data_unit_id": "germ_ru251",
+          "selected": false,
+          "class_name": "prem",
+          "details": true,
+          "main_role": "Light tank"
+        }
+      ]
+    ],
+    "selected": [],
+    "unlock_quantity": 0
+  },
+  {
+    "rank": "V",
+    "researchable_vehicles": [
+      [
+        {
+          "type": "multiple",
+          "title": "Marder A1/BMP-1",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/germ_marder_bmp_group.png",
+          "selected": false,
+          "br": "7.7-8.0",
+          "data_unit_id": "germ_marder_bmp_group",
+          "class_name": "",
+          "items": [
+            {
+              "type": "single",
+              "title": "Marder A1-",
+              "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/germ_marder_1a1.png",
+              "br": "7.7",
+              "rp": "95,000",
+              "sp": "270,000",
+              "data_unit_id": "germ_marder_1a1",
+              "selected": false,
+              "class_name": "",
+              "details": true,
+              "main_role": "Light tank"
+            },
+            {
+              "type": "single",
+              "title": "SPz BMP-1",
+              "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/germ_bmp_1_ddr.png",
+              "br": "8.0",
+              "rp": "53,000",
+              "sp": "300,000",
+              "data_unit_id": "germ_bmp_1_ddr",
+              "selected": false,
+              "class_name": "",
+              "details": true,
+              "main_role": "Light tank"
+            }
+          ],
+          "details": true
+        },
+        {
+          "type": "multiple",
+          "title": "Marder A3/DF105",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/germ_marder_group.png",
+          "selected": false,
+          "br": "8.0",
+          "data_unit_id": "germ_marder_group",
+          "class_name": "",
+          "items": [
+            {
+              "type": "single",
+              "title": "Marder 1A3",
+              "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/germ_marder_1a3.png",
+              "br": "8.0",
+              "rp": "105,000",
+              "sp": "300,000",
+              "data_unit_id": "germ_marder_1a3",
+              "selected": false,
+              "class_name": "",
+              "details": true,
+              "main_role": "Light tank"
+            },
+            {
+              "type": "single",
+              "title": "DF105",
+              "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/germ_marder_df_105.png",
+              "br": "8.0",
+              "rp": "61,000",
+              "sp": "340,000",
+              "data_unit_id": "germ_marder_df_105",
+              "selected": false,
+              "class_name": "",
+              "details": true,
+              "main_role": "Light tank"
+            }
+          ],
+          "details": true
+        }
+      ],
+      [
+        {
+          "type": "single",
+          "title": "M48A2 C",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/germ_mkpz_m48a2c.png",
+          "br": "7.7",
+          "rp": "95,000",
+          "sp": "270,000",
+          "data_unit_id": "germ_mkpz_m48a2c",
+          "selected": false,
+          "class_name": "",
+          "details": true,
+          "main_role": "Medium tank"
+        }
+      ],
+      [
+        {
+          "type": "single",
+          "title": "Leopard I",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/germ_leopard_i.png",
+          "br": "8.0",
+          "rp": "120,000",
+          "sp": "340,000",
+          "data_unit_id": "germ_leopard_i",
+          "selected": false,
+          "class_name": "",
+          "details": true,
+          "main_role": "Medium tank"
+        }
+      ],
+      [
+        {
+          "type": "single",
+          "title": "Wiesel 1A4",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/germ_wiesel_1_mk20.png",
+          "br": "7.3",
+          "rp": "82,000",
+          "sp": "240,000",
+          "data_unit_id": "germ_wiesel_1_mk20",
+          "selected": false,
+          "class_name": "",
+          "details": true,
+          "main_role": "SPAA"
+        },
+        {
+          "type": "single",
+          "title": "Luchs A2",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/germ_sppz2_luchs_a2.png",
+          "br": "7.3",
+          "rp": "95,000",
+          "sp": "270,000",
+          "data_unit_id": "germ_sppz2_luchs_a2",
+          "selected": false,
+          "class_name": "",
+          "details": true,
+          "main_role": "Light tank"
+        }
+      ],
+      [
+        {
+          "type": "single",
+          "title": "PzH 2000",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/germ_pzh_2000.png",
+          "br": "7.7",
+          "rp": "95,000",
+          "sp": "270,000",
+          "data_unit_id": "germ_pzh_2000",
+          "selected": false,
+          "class_name": "",
+          "details": true,
+          "main_role": "Tank destroyer"
+        },
+        {
+          "type": "multiple",
+          "title": "Raketenautomat/RakJPz",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/germ_raketen_group.png",
+          "selected": false,
+          "br": "8.0",
+          "data_unit_id": "germ_raketen_group",
+          "class_name": "",
+          "items": [
+            {
+              "type": "single",
+              "title": "Raketenautomat",
+              "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/germ_spz_oerlikon_raketenautomat.png",
+              "br": "8.0",
+              "rp": "105,000",
+              "sp": "300,000",
+              "data_unit_id": "germ_spz_oerlikon_raketenautomat",
+              "selected": false,
+              "class_name": "",
+              "details": true,
+              "main_role": "Tank destroyer"
+            },
+            {
+              "type": "single",
+              "title": "RakJPz 2",
+              "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/germ_raketenjagdpanzer_2.png",
+              "br": "8.0",
+              "rp": "61,000",
+              "sp": "340,000",
+              "data_unit_id": "germ_raketenjagdpanzer_2",
+              "selected": false,
+              "class_name": "",
+              "details": true,
+              "main_role": "Tank destroyer"
+            }
+          ],
+          "details": true
+        }
+      ]
+    ],
+    "premium_vehicles": [
+      [
+        {
+          "type": "single",
+          "title": "mKPz M47 G",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/germ_mkpz_m47.png",
+          "br": "7.3",
+          "rp": 0,
+          "sp": 0,
+          "data_unit_id": "germ_mkpz_m47",
+          "selected": false,
+          "class_name": "prem",
+          "details": true,
+          "main_role": "Medium tank"
+        },
+        {
+          "type": "single",
+          "title": "CLOVIS",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/germ_marder_clovis.png",
+          "br": "8.0",
+          "rp": 0,
+          "sp": 0,
+          "data_unit_id": "germ_marder_clovis",
+          "selected": false,
+          "class_name": "prem",
+          "details": true,
+          "main_role": "Light tank"
+        },
+        {
+          "type": "single",
+          "title": "Turm III",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/germ_erprobungstrager_3_achs_turm.png",
+          "br": "8.3",
+          "rp": 0,
+          "sp": 0,
+          "data_unit_id": "germ_erprobungstrager_3_achs_turm",
+          "selected": false,
+          "class_name": "prem",
+          "details": true,
+          "main_role": "Medium tank"
+        }
+      ],
+      [
+        {
+          "type": "single",
+          "title": "E-100",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/germ_pzkpfw_e_100.png",
+          "br": "7.7",
+          "rp": null,
+          "sp": null,
+          "data_unit_id": "germ_pzkpfw_e_100",
+          "selected": false,
+          "class_name": "",
+          "details": true,
+          "main_role": "Heavy tank"
+        },
+        {
+          "type": "single",
+          "title": "Maus",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/germ_pzkpfw_maus.png",
+          "br": "7.7",
+          "rp": null,
+          "sp": null,
+          "data_unit_id": "germ_pzkpfw_maus",
+          "selected": false,
+          "class_name": "",
+          "details": true,
+          "main_role": "Heavy tank"
+        }
+      ]
+    ],
+    "selected": [],
+    "unlock_quantity": 0
+  },
+  {
+    "rank": "VI",
+    "researchable_vehicles": [
+      [
+        {
+          "type": "multiple",
+          "title": "TAM/JaPz.K",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/germ_tam_sk_group.png",
+          "selected": false,
+          "br": "8.7-9.0",
+          "data_unit_id": "germ_tam_sk_group",
+          "class_name": "",
+          "items": [
+            {
+              "type": "single",
+              "title": "TAM",
+              "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/germ_thyssen_henschel_tam.png",
+              "br": "9.0",
+              "rp": "160,000",
+              "sp": "450,000",
+              "data_unit_id": "germ_thyssen_henschel_tam",
+              "selected": false,
+              "class_name": "",
+              "details": true,
+              "main_role": "Light tank"
+            },
+            {
+              "type": "single",
+              "title": "JaPz.K A2",
+              "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/germ_sk105_a2.png",
+              "br": "8.7",
+              "rp": "94,000",
+              "sp": "520,000",
+              "data_unit_id": "germ_sk105_a2",
+              "selected": false,
+              "class_name": "",
+              "details": true,
+              "main_role": "Light tank"
+            }
+          ],
+          "details": true
+        },
+        {
+          "type": "single",
+          "title": "Begleitpanzer 57",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/germ_begleitpanzer_57.png",
+          "br": "9.7",
+          "rp": "190,000",
+          "sp": "520,000",
+          "data_unit_id": "germ_begleitpanzer_57",
+          "selected": false,
+          "class_name": "",
+          "details": true,
+          "main_role": "Light tank"
+        }
+      ],
+      [
+        {
+          "type": "single",
+          "title": "M48A2 G A2",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/germ_mkpz_m48a2ga2.png",
+          "br": "8.3",
+          "rp": "135,000",
+          "sp": "380,000",
+          "data_unit_id": "germ_mkpz_m48a2ga2",
+          "selected": false,
+          "class_name": "",
+          "details": true,
+          "main_role": "Medium tank"
+        },
+        {
+          "type": "multiple",
+          "title": "KPz-70/M48 Super",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/germ_kpz_super_group.png",
+          "selected": false,
+          "br": "9.3",
+          "data_unit_id": "germ_kpz_super_group",
+          "class_name": "",
+          "items": [
+            {
+              "type": "single",
+              "title": "KPz-70",
+              "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/germ_kpz_70.png",
+              "br": "9.3",
+              "rp": "190,000",
+              "sp": "520,000",
+              "data_unit_id": "germ_kpz_70",
+              "selected": false,
+              "class_name": "",
+              "details": true,
+              "main_role": "Medium tank"
+            },
+            {
+              "type": "single",
+              "title": "M48 Super",
+              "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/germ_mkpz_super_m48.png",
+              "br": "9.3",
+              "rp": "110,000",
+              "sp": "620,000",
+              "data_unit_id": "germ_mkpz_super_m48",
+              "selected": false,
+              "class_name": "",
+              "details": true,
+              "main_role": "Medium tank"
+            }
+          ],
+          "details": true
+        },
+        {
+          "type": "single",
+          "title": "◊T-72M1",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/germ_kpz_t72m1.png",
+          "br": "9.3",
+          "rp": "220,000",
+          "sp": "620,000",
+          "data_unit_id": "germ_kpz_t72m1",
+          "selected": false,
+          "class_name": "",
+          "details": true,
+          "main_role": "Medium tank"
+        }
+      ],
+      [
+        {
+          "type": "multiple",
+          "title": "Leopard A1A1/1A5",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/germ_leopard_1_late_group.png",
+          "selected": false,
+          "br": "9.0-9.3",
+          "data_unit_id": "germ_leopard_1_late_group",
+          "class_name": "",
+          "items": [
+            {
+              "type": "single",
+              "title": "Leopard A1A1",
+              "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/germ_leopard_i_a1.png",
+              "br": "9.0",
+              "rp": "160,000",
+              "sp": "450,000",
+              "data_unit_id": "germ_leopard_i_a1",
+              "selected": false,
+              "class_name": "",
+              "details": true,
+              "main_role": "Medium tank"
+            },
+            {
+              "type": "single",
+              "title": "Leopard 1A5",
+              "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/germ_leopard_1a5.png",
+              "br": "9.3",
+              "rp": "94,000",
+              "sp": "520,000",
+              "data_unit_id": "germ_leopard_1a5",
+              "selected": false,
+              "class_name": "",
+              "details": true,
+              "main_role": "Medium tank"
+            }
+          ],
+          "details": true
+        }
+      ],
+      [
+        {
+          "type": "single",
+          "title": "Gepard",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/germ_flakpz_i_gepard.png",
+          "br": "8.3",
+          "rp": "135,000",
+          "sp": "380,000",
+          "data_unit_id": "germ_flakpz_i_gepard",
+          "selected": false,
+          "class_name": "",
+          "details": true,
+          "main_role": "SPAA"
+        },
+        {
+          "type": "multiple",
+          "title": "Ozelot/Gepard 1A2",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/germ_wiesel_gepard_group.png",
+          "selected": false,
+          "br": "9.7",
+          "data_unit_id": "germ_wiesel_gepard_group",
+          "class_name": "",
+          "items": [
+            {
+              "type": "single",
+              "title": "Ozelot",
+              "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/germ_wiesel_2_adwc.png",
+              "br": "9.7",
+              "rp": "190,000",
+              "sp": "520,000",
+              "data_unit_id": "germ_wiesel_2_adwc",
+              "selected": false,
+              "class_name": "",
+              "details": true,
+              "main_role": "SPAA"
+            },
+            {
+              "type": "single",
+              "title": "Gepard 1A2",
+              "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/germ_flakpz_1a2_gepard.png",
+              "br": "9.7",
+              "rp": "110,000",
+              "sp": "620,000",
+              "data_unit_id": "germ_flakpz_1a2_gepard",
+              "selected": false,
+              "class_name": "",
+              "details": true,
+              "main_role": "SPAA"
+            }
+          ],
+          "details": true
+        }
+      ],
+      [
+        {
+          "type": "single",
+          "title": "RakJPz 2 (HOT)",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/germ_raketenjagdpanzer_2_hot.png",
+          "br": "8.3",
+          "rp": "135,000",
+          "sp": "380,000",
+          "data_unit_id": "germ_raketenjagdpanzer_2_hot",
+          "selected": false,
+          "class_name": "",
+          "details": true,
+          "main_role": "Tank destroyer"
+        },
+        {
+          "type": "single",
+          "title": "Jaguar 2",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/germ_jaguar_2.png",
+          "br": "9.0",
+          "rp": "160,000",
+          "sp": "450,000",
+          "data_unit_id": "germ_jaguar_2",
+          "selected": false,
+          "class_name": "",
+          "details": true,
+          "main_role": "Tank destroyer"
+        }
+      ]
+    ],
+    "premium_vehicles": [
+      [
+        {
+          "type": "single",
+          "title": "TAM 2IP",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/germ_thyssen_henschel_tam_2ip.png",
+          "br": "9.3",
+          "rp": 0,
+          "sp": 0,
+          "data_unit_id": "germ_thyssen_henschel_tam_2ip",
+          "selected": false,
+          "class_name": "prem",
+          "details": true,
+          "main_role": "Light tank"
+        },
+        {
+          "type": "single",
+          "title": "Leopard A1A1 (L/44)",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/germ_leopard_a1a1_120.png",
+          "br": "9.3",
+          "rp": 0,
+          "sp": 0,
+          "data_unit_id": "germ_leopard_a1a1_120",
+          "selected": false,
+          "class_name": "prem",
+          "details": true,
+          "main_role": "Medium tank"
+        },
+        {
+          "type": "single",
+          "title": "C2A1",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/germ_leopard_c2_mexas.png",
+          "br": "9.3",
+          "rp": null,
+          "sp": null,
+          "data_unit_id": "germ_leopard_c2_mexas",
+          "selected": false,
+          "class_name": "",
+          "details": true,
+          "main_role": "Medium tank"
+        }
+      ],
+      [
+        {
+          "type": "single",
+          "title": "VT1-2",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/germ_vt_1_2.png",
+          "br": "8.7",
+          "rp": null,
+          "sp": null,
+          "data_unit_id": "germ_vt_1_2",
+          "selected": false,
+          "class_name": "",
+          "details": true,
+          "main_role": "Tank destroyer"
+        },
+        {
+          "type": "single",
+          "title": "Class 3 (P)",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/germ_th_800_bismark.png",
+          "br": "9.0",
+          "rp": null,
+          "sp": null,
+          "data_unit_id": "germ_th_800_bismark",
+          "selected": false,
+          "class_name": "",
+          "details": true,
+          "main_role": "Light tank"
+        },
+        {
+          "type": "single",
+          "title": "R400",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/germ_th_400.png",
+          "br": "9.7",
+          "rp": null,
+          "sp": null,
+          "data_unit_id": "germ_th_400",
+          "selected": false,
+          "class_name": "",
+          "details": true,
+          "main_role": "Light tank"
+        }
+      ]
+    ],
+    "selected": [],
+    "unlock_quantity": 0
+  },
+  {
+    "rank": "VII",
+    "researchable_vehicles": [
+      [
+        {
+          "type": "multiple",
+          "title": "R.Kpfw.90/TAM 2C",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/germ_radpanzer_tam_group.png",
+          "selected": false,
+          "br": "10.0-10.3",
+          "data_unit_id": "germ_radpanzer_tam_group",
+          "class_name": "",
+          "items": [
+            {
+              "type": "single",
+              "title": "Radkampfwagen 90",
+              "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/germ_radpanzer_90.png",
+              "br": "10.0",
+              "rp": "260,000",
+              "sp": "710,000",
+              "data_unit_id": "germ_radpanzer_90",
+              "selected": false,
+              "class_name": "",
+              "details": true,
+              "main_role": "Light tank"
+            },
+            {
+              "type": "single",
+              "title": "TAM 2C",
+              "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/germ_thyssen_henschel_tam_2c.png",
+              "br": "10.3",
+              "rp": "150,000",
+              "sp": "830,000",
+              "data_unit_id": "germ_thyssen_henschel_tam_2c",
+              "selected": false,
+              "class_name": "",
+              "details": true,
+              "main_role": "Light tank"
+            }
+          ],
+          "details": true
+        },
+        {
+          "type": "multiple",
+          "title": "Puma/Puma VJTF",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/germ_puma_group.png",
+          "selected": false,
+          "br": "10.3-11.0",
+          "data_unit_id": "germ_puma_group",
+          "class_name": "",
+          "items": [
+            {
+              "type": "single",
+              "title": "PUMA",
+              "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/germ_schutzenpanzer_puma.png",
+              "br": "10.3",
+              "rp": "300,000",
+              "sp": "830,000",
+              "data_unit_id": "germ_schutzenpanzer_puma",
+              "selected": false,
+              "class_name": "",
+              "details": true,
+              "main_role": "Light tank"
+            },
+            {
+              "type": "single",
+              "title": "PUMA VJTF",
+              "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/germ_schutzenpanzer_puma_vjtf.png",
+              "br": "11.0",
+              "rp": "175,000",
+              "sp": "950,000",
+              "data_unit_id": "germ_schutzenpanzer_puma_vjtf",
+              "selected": false,
+              "class_name": "",
+              "details": true,
+              "main_role": "Light tank"
+            }
+          ],
+          "details": true
+        }
+      ],
+      [
+        {
+          "type": "single",
+          "title": "Leopard 2K",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/germ_leopard_2k.png",
+          "br": "10.0",
+          "rp": "260,000",
+          "sp": "710,000",
+          "data_unit_id": "germ_leopard_2k",
+          "selected": false,
+          "class_name": "",
+          "details": true,
+          "main_role": "Medium tank"
+        }
+      ],
+      [
+        {
+          "type": "single",
+          "title": "Leopard 2A4",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/germ_leopard_2a4.png",
+          "br": "10.7",
+          "rp": "300,000",
+          "sp": "830,000",
+          "data_unit_id": "germ_leopard_2a4",
+          "selected": false,
+          "class_name": "",
+          "details": true,
+          "main_role": "Medium tank"
+        }
+      ],
+      [
+        {
+          "type": "multiple",
+          "title": "Roland/Osa",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/germ_roland_osa_group.png",
+          "selected": false,
+          "br": "10.0-10.3",
+          "data_unit_id": "germ_roland_osa_group",
+          "class_name": "",
+          "items": [
+            {
+              "type": "single",
+              "title": "FlaRakPz 1",
+              "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/germ_flarakpz_1.png",
+              "br": "10.0",
+              "rp": "300,000",
+              "sp": "830,000",
+              "data_unit_id": "germ_flarakpz_1",
+              "selected": false,
+              "class_name": "",
+              "details": true,
+              "main_role": "SPAA"
+            },
+            {
+              "type": "single",
+              "title": "◊Osa-AK",
+              "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/germ_9a33bm3.png",
+              "br": "10.3",
+              "rp": "175,000",
+              "sp": "950,000",
+              "data_unit_id": "germ_9a33bm3",
+              "selected": false,
+              "class_name": "",
+              "details": true,
+              "main_role": "SPAA"
+            }
+          ],
+          "details": true
+        },
+        {
+          "type": "single",
+          "title": "◊Strela-10M",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/germ_9a35_m.png",
+          "br": "10.3",
+          "rp": "350,000",
+          "sp": "950,000",
+          "data_unit_id": "germ_9a35_m",
+          "selected": false,
+          "class_name": "",
+          "details": true,
+          "main_role": "SPAA"
+        }
+      ],
+      [
+        {
+          "type": "single",
+          "title": "Wiesel 1A2",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/germ_wiesel_1_tow.png",
+          "br": "9.7",
+          "rp": "260,000",
+          "sp": "710,000",
+          "data_unit_id": "germ_wiesel_1_tow",
+          "selected": false,
+          "class_name": "",
+          "details": true,
+          "main_role": "Tank destroyer"
+        },
+        {
+          "type": "single",
+          "title": "sWaTrgInf",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/germ_boxer_swatrinf.png",
+          "br": "10.7",
+          "rp": "300,000",
+          "sp": "830,000",
+          "data_unit_id": "germ_boxer_swatrinf",
+          "selected": false,
+          "class_name": "",
+          "details": true,
+          "main_role": "Light tank"
+        }
+      ]
+    ],
+    "premium_vehicles": [
+      [
+        {
+          "type": "single",
+          "title": "Boxer MGS",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/germ_boxer_3105.png",
+          "br": "10.3",
+          "rp": null,
+          "sp": null,
+          "data_unit_id": "germ_boxer_3105",
+          "selected": false,
+          "class_name": "",
+          "details": true,
+          "main_role": "Light tank"
+        },
+        {
+          "type": "single",
+          "title": "Vilkas",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/germ_vilkas.png",
+          "br": "10.7",
+          "rp": null,
+          "sp": null,
+          "data_unit_id": "germ_vilkas",
+          "selected": false,
+          "class_name": "",
+          "details": true,
+          "main_role": "Light tank"
+        },
+        {
+          "type": "single",
+          "title": "Leopard 2A4M",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/germ_leopard_2a4m_can.png",
+          "br": "12.0",
+          "rp": 0,
+          "sp": 0,
+          "data_unit_id": "germ_leopard_2a4m_can",
+          "selected": false,
+          "class_name": "prem",
+          "details": true,
+          "main_role": "Medium tank"
+        },
+        {
+          "type": "single",
+          "title": "◍Leopard 2A4M",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/germ_leopard_2a4m_can_sm.png",
+          "br": "12.0",
+          "rp": 0,
+          "sp": 0,
+          "data_unit_id": "germ_leopard_2a4m_can_sm",
+          "selected": false,
+          "class_name": "prem",
+          "details": true,
+          "main_role": "Medium tank"
+        }
+      ],
+      [
+        {
+          "type": "single",
+          "title": "Leopard 2AV",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/germ_leopard_2av.png",
+          "br": "10.3",
+          "rp": null,
+          "sp": null,
+          "data_unit_id": "germ_leopard_2av",
+          "selected": false,
+          "class_name": "",
+          "details": true,
+          "main_role": "Medium tank"
+        },
+        {
+          "type": "single",
+          "title": "PT-16/T14 mod.",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/germ_leopard_2_pt14.png",
+          "br": "11.0",
+          "rp": null,
+          "sp": null,
+          "data_unit_id": "germ_leopard_2_pt14",
+          "selected": false,
+          "class_name": "",
+          "details": true,
+          "main_role": "Medium tank"
+        },
+        {
+          "type": "single",
+          "title": "Leopard 2 (PzBtl 123)",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/germ_leopard_2a4_pzbtl_123.png",
+          "br": "10.7",
+          "rp": 0,
+          "sp": 0,
+          "data_unit_id": "germ_leopard_2a4_pzbtl_123",
+          "selected": false,
+          "class_name": "prem",
+          "details": true,
+          "main_role": "Medium tank"
+        }
+      ]
+    ],
+    "selected": [],
+    "unlock_quantity": 0
+  },
+  {
+    "rank": "VIII",
+    "researchable_vehicles": [
+      [],
+      [],
+      [
+        {
+          "type": "multiple",
+          "title": "Leopard 2 A5/A6",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/germ_leopard_2_group.png",
+          "selected": false,
+          "br": "12.3-12.7",
+          "data_unit_id": "germ_leopard_2_group",
+          "class_name": "",
+          "items": [
+            {
+              "type": "single",
+              "title": "Leopard 2A5",
+              "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/germ_leopard_2a5.png",
+              "br": "12.3",
+              "rp": "400,000",
+              "sp": "1,080,000",
+              "data_unit_id": "germ_leopard_2a5",
+              "selected": false,
+              "class_name": "",
+              "details": true,
+              "main_role": "Medium tank"
+            },
+            {
+              "type": "single",
+              "title": "Leopard 2A6",
+              "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/germ_leopard_2a6.png",
+              "br": "12.7",
+              "rp": "200,000",
+              "sp": "1,100,000",
+              "data_unit_id": "germ_leopard_2a6",
+              "selected": false,
+              "class_name": "",
+              "details": true,
+              "main_role": "Medium tank"
+            }
+          ],
+          "details": true
+        },
+        {
+          "type": "single",
+          "title": "Leopard 2 PSO",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/germ_leopard_2a5_pso.png",
+          "br": "12.7",
+          "rp": "410,000",
+          "sp": "1,100,000",
+          "data_unit_id": "germ_leopard_2a5_pso",
+          "selected": false,
+          "class_name": "",
+          "details": true,
+          "main_role": "Medium tank"
+        },
+        {
+          "type": "single",
+          "title": "Leopard 2A7V",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/germ_leopard_2a7v.png",
+          "br": "12.7",
+          "rp": "420,000",
+          "sp": "1,120,000",
+          "data_unit_id": "germ_leopard_2a7v",
+          "selected": false,
+          "class_name": "",
+          "details": true,
+          "main_role": "Medium tank"
+        }
+      ],
+      [
+        {
+          "type": "single",
+          "title": "FlaRakRad",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/germ_flarakrad.png",
+          "br": "11.7",
+          "rp": "400,000",
+          "sp": "1,080,000",
+          "data_unit_id": "germ_flarakrad",
+          "selected": false,
+          "class_name": "",
+          "details": true,
+          "main_role": "SPAA"
+        },
+        {
+          "type": "multiple",
+          "title": "IRIS-T SLM",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/germ_iris_slm_fcs.png",
+          "selected": false,
+          "br": "12.7",
+          "data_unit_id": "germ_iris_slm_fcs",
+          "class_name": "",
+          "items": [
+            {
+              "type": "single",
+              "title": "IRIS-T SLM (TADS)",
+              "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/germ_iris_slm_fcs.png",
+              "br": "12.7",
+              "rp": "410,000",
+              "sp": "1,100,000",
+              "data_unit_id": "germ_iris_slm_fcs",
+              "selected": false,
+              "class_name": "",
+              "details": true,
+              "main_role": "SPAA"
+            },
+            {
+              "type": "single",
+              "title": "IRIS-T SLM (TEL)",
+              "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/germ_iris_slm_launcher.png",
+              "br": null,
+              "rp": null,
+              "sp": null,
+              "data_unit_id": "germ_iris_slm_launcher",
+              "selected": false,
+              "class_name": "",
+              "details": true,
+              "main_role": "SPAA"
+            }
+          ],
+          "details": true
+        }
+      ],
+      []
+    ],
+    "premium_vehicles": [
+      [
+        {
+          "type": "single",
+          "title": "Leopard 2PL",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/germ_leopard_2pl.png",
+          "br": "12.3",
+          "rp": "570,000",
+          "sp": "1,140,000",
+          "data_unit_id": "germ_leopard_2pl",
+          "selected": false,
+          "class_name": "squad",
+          "details": true,
+          "main_role": "Medium tank"
+        },
+        {
+          "type": "single",
+          "title": "␙Leopard 2A5",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/germ_leopard_2a5.png",
+          "br": "12.3",
+          "rp": null,
+          "sp": null,
+          "data_unit_id": "germ_leopard_2a5_yt_cup_2019",
+          "selected": false,
+          "class_name": "",
+          "details": true,
+          "main_role": "Medium tank"
+        }
+      ],
+      []
+    ],
+    "selected": [],
+    "unlock_quantity": 0
+  }
+]
