@@ -371,6 +371,10 @@ app.get("/api/meta", (req, res) => {
   });
 });
 
+app.get("/healthz", (req, res) => {
+  res.json({ success: true, service: "war-thunder-research-calculator" });
+});
+
 app.get("/api/tree/:country/:type", (req, res) => {
   const country = req.params.country?.toLowerCase();
   const type = req.params.type?.toLowerCase();
@@ -467,7 +471,7 @@ app.use((req, res) => {
 });
 
 if (require.main === module) {
-  app.listen(PORT, () => {
+  app.listen(PORT, "0.0.0.0", () => {
     console.log(`War Thunder research calculator: http://localhost:${PORT}`);
   });
 }
