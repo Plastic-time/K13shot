@@ -316,6 +316,8 @@ function flattenTree(tree) {
                 ...subItem,
                 class_name: subItem.class_name || (squadronGroup ? "squad" : ""),
                 is_squadron: squadronGroup || subItem.is_squadron === true,
+                rp: squadronGroup ? 0 : subItem.rp,
+                sp: squadronGroup ? 0 : subItem.sp,
                 required_unit_id: subReqId,
                 rank: rank.rank,
                 section: sectionType,
@@ -332,7 +334,18 @@ function flattenTree(tree) {
             }
           } else if (item.type === "single") {
             const reqId = item.required_unit_id || inferredReqId;
-            units.push({ ...item, required_unit_id: reqId, rank: rank.rank, section: sectionType, columnIndex, rowIndex });
+            const squadron = isSquadronUnit(item);
+            units.push({
+              ...item,
+              is_squadron: squadron,
+              rp: squadron ? 0 : item.rp,
+              sp: squadron ? 0 : item.sp,
+              required_unit_id: reqId,
+              rank: rank.rank,
+              section: sectionType,
+              columnIndex,
+              rowIndex,
+            });
             if (sectionType === "researchable") {
               previousDependencyId = item.data_unit_id || previousDependencyId;
               previousByColumn[sectionType][columnIndex] = previousDependencyId;
@@ -711,7 +724,7 @@ async function loadMeta() {
 async function loadTree() {
   state.country = els.countrySelect.value;
   state.type = els.typeSelect.value;
-  setStatus("正在读取网页数据");
+  setStatus("正在读取静态科技树数据");
   els.treeContainer.innerHTML = `<div class="loading">正在载入科技树</div>`;
 
   loadSavedState();
