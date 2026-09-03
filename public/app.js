@@ -336,7 +336,6 @@ function flattenTree(tree) {
   state.groupMap = new Map(groups.map((group) => [group.data_unit_id, group]));
   state.initialUnlocked = new Set(units.filter(isInitialUnlockedUnit).map((unit) => unit.data_unit_id));
   state.initialUnlocked.forEach((id) => state.planned.delete(id));
-  units.filter(isSquadronUnit).forEach((unit) => state.planned.delete(unit.data_unit_id));
 }
 
 function getDependencyIds(unitId, visited = new Set()) {
@@ -377,7 +376,7 @@ function calculatePlan() {
 
   state.missing = orderedIds
     .map((id) => state.unitMap.get(id))
-    .filter((unit) => unit && !isInitialUnlockedUnit(unit) && !isSquadronUnit(unit))
+    .filter((unit) => unit && !isInitialUnlockedUnit(unit))
     .filter(Boolean)
     .sort(compareUnitsByProgression);
 
@@ -445,7 +444,7 @@ function renderUnit(unit) {
   const unlocked = isInitialUnlockedUnit(unit);
 
   return `
-    <button class="${classes.join(" ")}" type="button" ${squadron ? "disabled" : `data-unit-id="${escapeHtml(id)}"`} title="${escapeHtml(id)}">
+    <button class="${classes.join(" ")}" type="button" data-unit-id="${escapeHtml(id)}" title="${escapeHtml(id)}">
       ${unit.vehicle_icon ? `<img src="${escapeHtml(unit.vehicle_icon)}" alt="">` : `<span></span>`}
       <span>
         <span class="unit-title">${escapeHtml(displayTitle(unit))}</span>
@@ -721,7 +720,7 @@ async function loadTree() {
 }
 
 function toggleUnit(id) {
-  if (state.initialUnlocked.has(id) || isSquadronUnit(state.unitMap.get(id))) return;
+  if (state.initialUnlocked.has(id)) return;
   if (state.planned.has(id)) state.planned.delete(id);
   else state.planned.add(id);
   saveState();
