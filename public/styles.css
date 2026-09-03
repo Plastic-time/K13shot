@@ -665,17 +665,17 @@ button:focus-visible {
 }
 
 .unit-tile.squadron {
-  cursor: not-allowed;
-  border-color: rgba(91, 98, 111, 0.74);
-  background: #eef0f3;
-  box-shadow: inset 4px 0 0 #6c7280;
+  cursor: pointer;
+  border-color: rgba(45, 135, 84, 0.78);
+  background: #eaf7ee;
+  box-shadow: inset 4px 0 0 var(--green), 0 5px 14px rgba(33, 31, 27, 0.08);
   outline: none;
-  opacity: 0.82;
+  opacity: 1;
 }
 
 .unit-tile.squadron:hover {
-  transform: none;
-  border-color: rgba(91, 98, 111, 0.74);
+  transform: translateY(-1px);
+  border-color: var(--green-strong);
 }
 
 .pill.squadron-label {
