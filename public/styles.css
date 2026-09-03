@@ -664,6 +664,24 @@ button:focus-visible {
   outline-offset: -2px;
 }
 
+.unit-tile.squadron {
+  cursor: not-allowed;
+  border-color: rgba(91, 98, 111, 0.74);
+  background: #eef0f3;
+  box-shadow: inset 4px 0 0 #6c7280;
+  outline: none;
+  opacity: 0.82;
+}
+
+.unit-tile.squadron:hover {
+  transform: none;
+  border-color: rgba(91, 98, 111, 0.74);
+}
+
+.pill.squadron-label {
+  color: #4c5564;
+}
+
 .unit-tile.event,
 .unit-tile.gift {
   border-color: rgba(58, 116, 184, 0.78);
@@ -783,3 +801,4 @@ button:focus-visible {
     grid-template-columns: 1fr !important;
   }
 }
+
