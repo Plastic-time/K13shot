@@ -11,7 +11,7 @@
       <header class="topbar">
         <div class="brand-block">
           <h1>War Thunder 研发计算器</h1>
-          <p id="statusText">正在载入网页数据</p>
+          <p id="statusText">正在载入静态科技树数据</p>
           <div class="creator-watermark" aria-label="作者水印">
             bilibili关注：扑街的靓仔 <span>游戏ID：如日方中</span>
           </div>
@@ -42,6 +42,24 @@
           </select>
         </label>
       </section>
+
+      <details class="page-notice" open>
+        <summary>GitHub Pages 静态版说明</summary>
+        <dl class="page-notice-grid">
+          <div>
+            <dt>数据来源</dt>
+            <dd>页面读取本仓库 <code>docs/database</code> 内的科技树快照。数据仅会随仓库发布更新，不会在浏览器中连接或更新 War Thunder Wiki。</dd>
+          </div>
+          <div>
+            <dt>本次修正</dt>
+            <dd>联队载具会标记为“联队载具”，其 RP 与 SL 均按 0 计算，不计入合计。叠加载具按实际前置关系计算；Rank I 初始载具自动视为已解锁，Rank I 到 Rank II 按所需解锁数量判定。</dd>
+          </div>
+          <div>
+            <dt>本机保存</dt>
+            <dd>所选载具和计算范围只保存在当前浏览器的本地存储中，不需要登录，也不会上传或同步到服务器。清除浏览器站点数据后，计划会被移除。</dd>
+          </div>
+        </dl>
+      </details>
 
       <main class="workspace">
         <aside class="summary-panel">
