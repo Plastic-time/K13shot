@@ -25,7 +25,13 @@ body {
 
 body {
   margin: 0;
-  background: var(--bg);
+  background-color: #edf0e8;
+  background-image:
+    linear-gradient(90deg, rgba(255, 253, 247, 0.9), rgba(255, 253, 247, 0.62) 46%, rgba(255, 253, 247, 0.42)),
+    url("assets/background.png");
+  background-position: center top;
+  background-repeat: no-repeat;
+  background-size: 100% 900px, auto 900px;
   color: var(--ink);
   font-family:
     Inter, "Segoe UI", "Microsoft YaHei", system-ui, -apple-system, BlinkMacSystemFont,
@@ -34,24 +40,11 @@ body {
 }
 
 body::before {
-  content: "";
-  position: fixed;
-  inset: 0;
-  z-index: -2;
-  background-image: url("assets/background.png");
-  background-position: center 47%;
-  background-repeat: no-repeat;
-  background-size: auto 132%;
+  content: none;
 }
 
 body::after {
-  content: "";
-  position: fixed;
-  inset: 0;
-  z-index: -1;
-  background:
-    linear-gradient(90deg, rgba(255, 253, 247, 0.78), rgba(255, 253, 247, 0.46) 46%, rgba(255, 253, 247, 0.22)),
-    rgba(244, 241, 232, 0.2);
+  content: none;
 }
 
 button,
@@ -77,8 +70,7 @@ button {
   gap: 18px;
   padding: 20px 24px 14px;
   border-bottom: 1px solid var(--line);
-  background: rgba(255, 253, 247, 0.86);
-  backdrop-filter: blur(14px);
+  background: rgba(255, 253, 247, 0.97);
 }
 
 .brand-block {
@@ -118,8 +110,7 @@ button {
   align-items: end;
   padding: 14px 24px;
   border-bottom: 1px solid var(--line);
-  background: rgba(255, 253, 247, 0.84);
-  backdrop-filter: blur(14px);
+  background: rgba(255, 253, 247, 0.97);
 }
 
 .page-notice {
@@ -249,8 +240,7 @@ button:focus-visible {
 
 .summary-panel {
   border-right: 1px solid var(--line);
-  background: rgba(255, 253, 247, 0.82);
-  backdrop-filter: blur(14px);
+  background: rgba(255, 253, 247, 0.97);
   padding: 18px;
   overflow: auto;
 }
@@ -370,6 +360,10 @@ button:focus-visible {
   padding: 0;
   overflow: auto;
   background: rgba(236, 240, 237, 0.72);
+  overscroll-behavior: contain;
+  touch-action: pan-x pan-y;
+  -webkit-overflow-scrolling: touch;
+  will-change: scroll-position;
 }
 
 .tree-canvas {
@@ -389,6 +383,7 @@ button:focus-visible {
   z-index: 1;
   pointer-events: none;
   overflow: visible;
+  contain: paint;
 }
 
 .tree-links path {
@@ -586,7 +581,7 @@ button:focus-visible {
   color: var(--ink);
   padding: 6px;
   text-align: left;
-  box-shadow: 0 5px 14px rgba(33, 31, 27, 0.08);
+  box-shadow: 0 1px 2px rgba(33, 31, 27, 0.1);
   transition:
     transform 120ms ease,
     border-color 120ms ease,
@@ -695,7 +690,7 @@ button:focus-visible {
 .unit-tile.unlocked {
   border-color: rgba(45, 135, 84, 0.78);
   background: #eaf7ee;
-  box-shadow: inset 4px 0 0 var(--green), 0 5px 14px rgba(33, 31, 27, 0.08);
+  box-shadow: inset 4px 0 0 var(--green), 0 1px 2px rgba(33, 31, 27, 0.1);
 }
 
 .unit-tile.premium {
@@ -716,7 +711,7 @@ button:focus-visible {
   cursor: pointer;
   border-color: rgba(45, 135, 84, 0.78);
   background: #eaf7ee;
-  box-shadow: inset 4px 0 0 var(--green), 0 5px 14px rgba(33, 31, 27, 0.08);
+  box-shadow: inset 4px 0 0 var(--green), 0 1px 2px rgba(33, 31, 27, 0.1);
   outline: none;
   opacity: 1;
 }
@@ -816,6 +811,10 @@ button:focus-visible {
 }
 
 @media (max-width: 720px) {
+  body {
+    background-size: 100% 620px, auto 620px;
+  }
+
   .topbar {
     align-items: stretch;
     flex-direction: column;
@@ -856,6 +855,12 @@ button:focus-visible {
 
   .column-grid {
     grid-template-columns: 1fr !important;
+  }
+}
+
+@media (max-width: 959px), (pointer: coarse) {
+  .tree-links {
+    display: none;
   }
 }
 
