@@ -312,10 +312,9 @@ button:focus-visible {
   padding: 0;
   overflow: auto;
   background: rgba(236, 240, 237, 0.72);
-  overscroll-behavior: contain;
-  touch-action: pan-x pan-y;
-  -webkit-overflow-scrolling: touch;
-  will-change: scroll-position;
+  /* Let vertical wheel gestures continue to the page from this horizontal scroller. */
+  overscroll-behavior: auto;
+  touch-action: auto;
 }
 
 .tree-canvas {
