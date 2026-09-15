@@ -33,6 +33,9 @@ const state = {
   search: "",
 };
 
+const connectionMediaQuery = window.matchMedia("(min-width: 960px) and (pointer: fine)");
+let connectionTaskId = null;
+
 const zh = {
   countries: {
     usa: "美国",
@@ -622,6 +625,12 @@ function renderTreeConnections() {
   const canvas = els.treeContainer.querySelector(".tree-canvas");
   if (!svg || !canvas) return;
 
+  // SVG path layout is useful on desktop but costly while touch devices are scrolling.
+  if (!connectionMediaQuery.matches) {
+    svg.replaceChildren();
+    return;
+  }
+
   svg.innerHTML = "";
   svg.setAttribute("width", canvas.scrollWidth);
   svg.setAttribute("height", canvas.scrollHeight);
@@ -645,6 +654,24 @@ function renderTreeConnections() {
   }
 
   svg.innerHTML = segments.join("");
+}
+
+function scheduleTreeConnections() {
+  if (connectionTaskId !== null) {
+    if (typeof window.cancelIdleCallback === "function") window.cancelIdleCallback(connectionTaskId);
+    else window.clearTimeout(connectionTaskId);
+  }
+
+  const render = () => {
+    connectionTaskId = null;
+    renderTreeConnections();
+  };
+
+  if (typeof window.requestIdleCallback === "function") {
+    connectionTaskId = window.requestIdleCallback(render, { timeout: 500 });
+  } else {
+    connectionTaskId = window.setTimeout(render, 40);
+  }
 }
 
 function renderRankUnlockGate(rank, nextRank) {
@@ -706,7 +733,7 @@ function renderTree() {
   els.treeContainer.innerHTML = html
     ? `<div class="tree-canvas"><svg class="tree-links" aria-hidden="true"></svg><div class="tree-content">${html}</div></div>`
     : `<div class="loading">没有匹配项</div>`;
-  window.requestAnimationFrame(renderTreeConnections);
+  scheduleTreeConnections();
 }
 
 async function loadMeta() {
@@ -799,7 +826,12 @@ function wireEvents() {
 
   if (els.refreshDataButton) els.refreshDataButton.addEventListener("click", refreshCurrentTree);
 
-  window.addEventListener("resize", renderTreeConnections);
+  window.addEventListener("resize", scheduleTreeConnections, { passive: true });
+  if (typeof connectionMediaQuery.addEventListener === "function") {
+    connectionMediaQuery.addEventListener("change", scheduleTreeConnections);
+  } else {
+    connectionMediaQuery.addListener(scheduleTreeConnections);
+  }
 
   els.treeContainer.addEventListener("click", (event) => {
     const button = event.target.closest("[data-unit-id]");
