@@ -5,44 +5,128 @@
       [
         {
           "type": "single",
-          "title": "USS Litchfield",
+          "title": "USS Litchfield",
           "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/us_destroyer_clemson_litchfield.png",
           "br": "3.3",
-          "rp": null,
-          "sp": null,
+          "rp": 0,
+          "sp": 0,
           "data_unit_id": "us_destroyer_clemson_litchfield",
+          "required_unit_id": "",
           "selected": false,
           "class_name": "",
           "details": true,
-          "main_role": "Destroyer"
+          "rank": "I",
+          "research_country": "USA",
+          "main_role": "Destroyer",
+          "is_component": false,
+          "component_of": null,
+          "is_premium": false,
+          "is_squadron": false,
+          "wiki": {
+            "url": "https://wiki.warthunder.com/unit/us_destroyer_clemson_litchfield",
+            "rank": "I",
+            "battle_rating_context": "default",
+            "battle_ratings": {
+              "AB": "3.3",
+              "RB": "3.3"
+            },
+            "battle_ratings_by_battle": {
+              "default": {
+                "AB": "3.3",
+                "RB": "3.3"
+              }
+            },
+            "research": "Free",
+            "purchase": "Free",
+            "purchase_currency": "SL",
+            "status": null,
+            "fetched_at": "2026-09-19T06:32:12.842Z",
+            "sha256": "5d9d27fe97518006bfbc3af7349033eeb6259ddb6fd9d5a52cc52aa646fac2a2"
+          }
         },
         {
           "type": "single",
-          "title": "USS Aylwin",
+          "title": "USS Aylwin",
           "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/us_destroyer_farragut_1942.png",
           "br": "3.7",
-          "rp": "5,300",
-          "sp": "5,000",
+          "rp": 5300,
+          "sp": 5000,
           "data_unit_id": "us_destroyer_farragut_1942",
+          "required_unit_id": "us_destroyer_clemson_litchfield",
           "selected": false,
           "class_name": "",
           "details": true,
-          "main_role": "Destroyer"
+          "rank": "I",
+          "research_country": "USA",
+          "main_role": "Destroyer",
+          "is_component": false,
+          "component_of": null,
+          "is_premium": false,
+          "is_squadron": false,
+          "wiki": {
+            "url": "https://wiki.warthunder.com/unit/us_destroyer_farragut_1942",
+            "rank": "I",
+            "battle_rating_context": "default",
+            "battle_ratings": {
+              "AB": "3.7",
+              "RB": "3.7"
+            },
+            "battle_ratings_by_battle": {
+              "default": {
+                "AB": "3.7",
+                "RB": "3.7"
+              }
+            },
+            "research": "5,300",
+            "purchase": "5,000",
+            "purchase_currency": "SL",
+            "status": null,
+            "fetched_at": "2026-09-19T06:32:13.167Z",
+            "sha256": "09d28434cfb70b501030c28137dbf16ec0e50c4ae8aa31312b2d6c9d58ec121a"
+          }
         }
       ],
       [
         {
           "type": "single",
-          "title": "USS Barker",
+          "title": "USS Barker",
           "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/us_destroyer_clemson_barker.png",
           "br": "3.3",
-          "rp": "2,900",
-          "sp": "700",
+          "rp": 2900,
+          "sp": 700,
           "data_unit_id": "us_destroyer_clemson_barker",
+          "required_unit_id": "",
           "selected": false,
           "class_name": "",
           "details": true,
-          "main_role": "Destroyer"
+          "rank": "I",
+          "research_country": "USA",
+          "main_role": "Destroyer",
+          "is_component": false,
+          "component_of": null,
+          "is_premium": false,
+          "is_squadron": false,
+          "wiki": {
+            "url": "https://wiki.warthunder.com/unit/us_destroyer_clemson_barker",
+            "rank": "I",
+            "battle_rating_context": "default",
+            "battle_ratings": {
+              "AB": "3.3",
+              "RB": "3.3"
+            },
+            "battle_ratings_by_battle": {
+              "default": {
+                "AB": "3.3",
+                "RB": "3.3"
+              }
+            },
+            "research": "2,900",
+            "purchase": "700",
+            "purchase_currency": "SL",
+            "status": null,
+            "fetched_at": "2026-09-19T06:32:12.679Z",
+            "sha256": "1eecdaea1c6da4405af55316d96942d2894883d28b1f9964ec76b54b53c08ef1"
+          }
         }
       ],
       []
@@ -51,22 +135,51 @@
       [
         {
           "type": "single",
-          "title": "USS Welborn C. Wood",
+          "title": "USS Welborn C. Wood",
           "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/us_destroyer_clemson_welborn_c_wood.png",
           "br": "3.3",
           "rp": 0,
           "sp": 0,
           "data_unit_id": "us_destroyer_clemson_welborn_c_wood",
+          "required_unit_id": "",
           "selected": false,
           "class_name": "prem",
           "details": true,
-          "main_role": "Destroyer"
+          "rank": "I",
+          "research_country": "USA",
+          "main_role": "Destroyer",
+          "is_component": false,
+          "component_of": null,
+          "is_premium": true,
+          "is_squadron": false,
+          "wiki": {
+            "url": "https://wiki.warthunder.com/unit/us_destroyer_clemson_welborn_c_wood",
+            "rank": "I",
+            "battle_rating_context": "default",
+            "battle_ratings": {
+              "AB": "3.3",
+              "RB": "3.3"
+            },
+            "battle_ratings_by_battle": {
+              "default": {
+                "AB": "3.3",
+                "RB": "3.3"
+              }
+            },
+            "research": null,
+            "purchase": "250",
+            "purchase_currency": "GE",
+            "status": "Premium vehicle",
+            "fetched_at": "2026-09-19T06:32:12.943Z",
+            "sha256": "97e4e7c795cfb206a761f4fb2674990295612542a2bc4b5f6a832ca9f186bd2b"
+          }
         }
       ],
       []
     ],
     "selected": [],
-    "unlock_quantity": 0
+    "unlock_quantity": null,
+    "source": "wiki"
   },
   {
     "rank": "II",
@@ -74,44 +187,210 @@
       [
         {
           "type": "single",
-          "title": "USS Fletcher",
-          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/us_destroyer_fletcher.png",
-          "br": "4.7",
-          "rp": "11,000",
-          "sp": "22,000",
-          "data_unit_id": "us_destroyer_fletcher",
+          "title": "USS Mahan",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/us_destroyer_mahan_class.png",
+          "br": "4.3",
+          "rp": 7000,
+          "sp": 8700,
+          "data_unit_id": "us_destroyer_mahan_class",
+          "required_unit_id": "us_destroyer_farragut_1942",
           "selected": false,
           "class_name": "",
           "details": true,
-          "main_role": "Destroyer"
+          "rank": "II",
+          "research_country": "USA",
+          "main_role": "Destroyer",
+          "is_component": false,
+          "component_of": null,
+          "is_premium": false,
+          "is_squadron": false,
+          "wiki": {
+            "url": "https://wiki.warthunder.com/unit/us_destroyer_mahan_class",
+            "rank": "II",
+            "battle_rating_context": "default",
+            "battle_ratings": {
+              "AB": "4.3",
+              "RB": "4.3"
+            },
+            "battle_ratings_by_battle": {
+              "default": {
+                "AB": "4.3",
+                "RB": "4.3"
+              }
+            },
+            "research": "7,000",
+            "purchase": "8,700",
+            "purchase_currency": "SL",
+            "status": null,
+            "fetched_at": "2026-09-19T06:32:13.765Z",
+            "sha256": "0753359fa333f88b3f8a6a9534ec368af8304b7b78e5c2a07f57c4a2b0a1bf59"
+          }
+        },
+        {
+          "type": "single",
+          "title": "USS Fletcher",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/us_destroyer_fletcher.png",
+          "br": "4.7",
+          "rp": 11000,
+          "sp": 22000,
+          "data_unit_id": "us_destroyer_fletcher",
+          "required_unit_id": "us_destroyer_mahan_class",
+          "selected": false,
+          "class_name": "",
+          "details": true,
+          "rank": "II",
+          "research_country": "USA",
+          "main_role": "Destroyer",
+          "is_component": false,
+          "component_of": null,
+          "is_premium": false,
+          "is_squadron": false,
+          "wiki": {
+            "url": "https://wiki.warthunder.com/unit/us_destroyer_fletcher",
+            "rank": "II",
+            "battle_rating_context": "default",
+            "battle_ratings": {
+              "AB": "4.7",
+              "RB": "4.7"
+            },
+            "battle_ratings_by_battle": {
+              "default": {
+                "AB": "4.7",
+                "RB": "4.7"
+              }
+            },
+            "research": "11,000",
+            "purchase": "22,000",
+            "purchase_currency": "SL",
+            "status": null,
+            "fetched_at": "2026-09-19T06:32:13.181Z",
+            "sha256": "ec2d52bfa05bb954725da62faec079c29db05f93ba201ab19231a271691cb1b7"
+          }
         }
       ],
       [
         {
           "type": "single",
-          "title": "USS Bagley",
-          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/us_destroyer_bagley_class_bagley.png",
+          "title": "USS Gridley",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/us_destroyer_gridley.png",
           "br": "4.0",
-          "rp": "7,000",
-          "sp": "8,700",
-          "data_unit_id": "us_destroyer_bagley_class_bagley",
+          "rp": 7000,
+          "sp": 8700,
+          "data_unit_id": "us_destroyer_gridley",
+          "required_unit_id": "us_destroyer_clemson_barker",
           "selected": false,
           "class_name": "",
           "details": true,
-          "main_role": "Destroyer"
+          "rank": "II",
+          "research_country": "USA",
+          "main_role": "Destroyer",
+          "is_component": false,
+          "component_of": null,
+          "is_premium": false,
+          "is_squadron": false,
+          "wiki": {
+            "url": "https://wiki.warthunder.com/unit/us_destroyer_gridley",
+            "rank": "II",
+            "battle_rating_context": "default",
+            "battle_ratings": {
+              "AB": "4.0",
+              "RB": "4.0"
+            },
+            "battle_ratings_by_battle": {
+              "default": {
+                "AB": "4.0",
+                "RB": "4.0"
+              }
+            },
+            "research": "7,000",
+            "purchase": "8,700",
+            "purchase_currency": "SL",
+            "status": null,
+            "fetched_at": "2026-09-19T06:32:13.857Z",
+            "sha256": "772aa52c60471fbeda7dae5e65c7f96c14767d854b4a2ee4252d83934d2c96ce"
+          }
         },
         {
           "type": "single",
-          "title": "USS Mitscher",
-          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/us_destroyer_mitscher.png",
-          "br": "4.7",
-          "rp": "13,000",
-          "sp": "31,000",
-          "data_unit_id": "us_destroyer_mitscher",
+          "title": "USS Bagley",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/us_destroyer_bagley_class_bagley.png",
+          "br": "4.0",
+          "rp": 9000,
+          "sp": 16000,
+          "data_unit_id": "us_destroyer_bagley_class_bagley",
+          "required_unit_id": "us_destroyer_gridley",
           "selected": false,
           "class_name": "",
           "details": true,
-          "main_role": "Destroyer"
+          "rank": "II",
+          "research_country": "USA",
+          "main_role": "Destroyer",
+          "is_component": false,
+          "component_of": null,
+          "is_premium": false,
+          "is_squadron": false,
+          "wiki": {
+            "url": "https://wiki.warthunder.com/unit/us_destroyer_bagley_class_bagley",
+            "rank": "II",
+            "battle_rating_context": "default",
+            "battle_ratings": {
+              "AB": "4.0",
+              "RB": "4.0"
+            },
+            "battle_ratings_by_battle": {
+              "default": {
+                "AB": "4.0",
+                "RB": "4.0"
+              }
+            },
+            "research": "9,000",
+            "purchase": "16,000",
+            "purchase_currency": "SL",
+            "status": null,
+            "fetched_at": "2026-09-19T06:32:12.650Z",
+            "sha256": "27eb176bf463bed88d269a8d372c10e49a07cb0c0aec076c4f06ae19f51b4c84"
+          }
+        },
+        {
+          "type": "single",
+          "title": "USS Mitscher",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/us_destroyer_mitscher.png",
+          "br": "4.7",
+          "rp": 13000,
+          "sp": 31000,
+          "data_unit_id": "us_destroyer_mitscher",
+          "required_unit_id": "us_destroyer_bagley_class_bagley",
+          "selected": false,
+          "class_name": "",
+          "details": true,
+          "rank": "II",
+          "research_country": "USA",
+          "main_role": "Destroyer",
+          "is_component": false,
+          "component_of": null,
+          "is_premium": false,
+          "is_squadron": false,
+          "wiki": {
+            "url": "https://wiki.warthunder.com/unit/us_destroyer_mitscher",
+            "rank": "II",
+            "battle_rating_context": "default",
+            "battle_ratings": {
+              "AB": "4.7",
+              "RB": "4.7"
+            },
+            "battle_ratings_by_battle": {
+              "default": {
+                "AB": "4.7",
+                "RB": "4.7"
+              }
+            },
+            "research": "13,000",
+            "purchase": "31,000",
+            "purchase_currency": "SL",
+            "status": null,
+            "fetched_at": "2026-09-19T06:32:13.992Z",
+            "sha256": "ae9f06c337c13f6c8a96384c8eb0f0782a02f1aec556b7a89be7f2d5f3db1e58"
+          }
         }
       ],
       []
@@ -120,35 +399,92 @@
       [
         {
           "type": "single",
-          "title": "USS Helm",
+          "title": "USS Helm",
           "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/us_destroyer_bagley_class_helm.png",
           "br": "4.0",
           "rp": 0,
           "sp": 0,
           "data_unit_id": "us_destroyer_bagley_class_helm",
+          "required_unit_id": "",
           "selected": false,
           "class_name": "prem",
           "details": true,
-          "main_role": "Destroyer"
+          "rank": "II",
+          "research_country": "USA",
+          "main_role": "Destroyer",
+          "is_component": false,
+          "component_of": null,
+          "is_premium": true,
+          "is_squadron": false,
+          "wiki": {
+            "url": "https://wiki.warthunder.com/unit/us_destroyer_bagley_class_helm",
+            "rank": "II",
+            "battle_rating_context": "default",
+            "battle_ratings": {
+              "AB": "4.0",
+              "RB": "4.0"
+            },
+            "battle_ratings_by_battle": {
+              "default": {
+                "AB": "4.0",
+                "RB": "4.0"
+              }
+            },
+            "research": null,
+            "purchase": "850",
+            "purchase_currency": "GE",
+            "status": "Premium vehicle",
+            "fetched_at": "2026-09-19T06:32:12.580Z",
+            "sha256": "70b0de594755bb53bca7dcf6df89b25bba316d62b8ba10f4755116123272d6d9"
+          }
         },
         {
           "type": "single",
-          "title": "USS Wilkinson",
+          "title": "USS Wilkinson",
           "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/us_destroyer_mitscher_wilkinson.png",
           "br": "4.7",
           "rp": 0,
           "sp": 0,
           "data_unit_id": "us_destroyer_mitscher_wilkinson",
+          "required_unit_id": "",
           "selected": false,
           "class_name": "prem",
           "details": true,
-          "main_role": "Destroyer"
+          "rank": "II",
+          "research_country": "USA",
+          "main_role": "Destroyer",
+          "is_component": false,
+          "component_of": null,
+          "is_premium": true,
+          "is_squadron": false,
+          "wiki": {
+            "url": "https://wiki.warthunder.com/unit/us_destroyer_mitscher_wilkinson",
+            "rank": "II",
+            "battle_rating_context": "default",
+            "battle_ratings": {
+              "AB": "4.7",
+              "RB": "4.7"
+            },
+            "battle_ratings_by_battle": {
+              "default": {
+                "AB": "4.7",
+                "RB": "4.7"
+              }
+            },
+            "research": null,
+            "purchase": "1,150",
+            "purchase_currency": "GE",
+            "status": "Premium vehicle",
+            "fetched_at": "2026-09-19T06:32:14.181Z",
+            "sha256": "55aff5bc9a5db1bb987e5d3325122de06eda1f1dd6cd5d6a326eb308999708be"
+          }
         }
       ],
       []
     ],
     "selected": [],
-    "unlock_quantity": 0
+    "unlock_quantity": null,
+    "source": "wiki"
   },
   {
     "rank": "III",
@@ -156,85 +492,253 @@
       [
         {
           "type": "single",
-          "title": "USS Porter",
+          "title": "USS Porter",
           "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/us_destroyer_porter_1941.png",
           "br": "5.3",
-          "rp": "21,000",
-          "sp": "70,000",
+          "rp": 21000,
+          "sp": 70000,
           "data_unit_id": "us_destroyer_porter_1941",
+          "required_unit_id": "us_destroyer_fletcher",
           "selected": false,
           "class_name": "",
           "details": true,
-          "main_role": "Destroyer"
+          "rank": "III",
+          "research_country": "USA",
+          "main_role": "Destroyer",
+          "is_component": false,
+          "component_of": null,
+          "is_premium": false,
+          "is_squadron": false,
+          "wiki": {
+            "url": "https://wiki.warthunder.com/unit/us_destroyer_porter_1941",
+            "rank": "III",
+            "battle_rating_context": "default",
+            "battle_ratings": {
+              "AB": "5.3",
+              "RB": "5.3"
+            },
+            "battle_ratings_by_battle": {
+              "default": {
+                "AB": "5.3",
+                "RB": "5.3"
+              }
+            },
+            "research": "21,000",
+            "purchase": "70,000",
+            "purchase_currency": "SL",
+            "status": null,
+            "fetched_at": "2026-09-19T06:32:14.213Z",
+            "sha256": "cfc6e277968e8beff5a433deba1ae5d98ebfc3ad748c526aa1d882e683ffcebb"
+          }
         },
         {
           "type": "single",
-          "title": "USS Somers",
+          "title": "USS Somers",
           "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/us_destroyer_somers.png",
           "br": "5.3",
-          "rp": "25,000",
-          "sp": "87,000",
+          "rp": 25000,
+          "sp": 87000,
           "data_unit_id": "us_destroyer_somers",
+          "required_unit_id": "us_destroyer_porter_1941",
           "selected": false,
           "class_name": "",
           "details": true,
-          "main_role": "Destroyer"
+          "rank": "III",
+          "research_country": "USA",
+          "main_role": "Destroyer",
+          "is_component": false,
+          "component_of": null,
+          "is_premium": false,
+          "is_squadron": false,
+          "wiki": {
+            "url": "https://wiki.warthunder.com/unit/us_destroyer_somers",
+            "rank": "III",
+            "battle_rating_context": "default",
+            "battle_ratings": {
+              "AB": "5.3",
+              "RB": "5.3"
+            },
+            "battle_ratings_by_battle": {
+              "default": {
+                "AB": "5.3",
+                "RB": "5.3"
+              }
+            },
+            "research": "25,000",
+            "purchase": "87,000",
+            "purchase_currency": "SL",
+            "status": null,
+            "fetched_at": "2026-09-19T06:32:14.561Z",
+            "sha256": "72a3bb27ea3034bea3f6bfc2011a6d3db68e1cf17e00fe4966478df4e1bc719e"
+          }
         }
       ],
       [
         {
           "type": "single",
-          "title": "USS Trenton",
+          "title": "USS Trenton",
           "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/us_cruiser_omaha_class_trenton.png",
           "br": "5.0",
-          "rp": "18,000",
-          "sp": "55,000",
+          "rp": 18000,
+          "sp": 55000,
           "data_unit_id": "us_cruiser_omaha_class_trenton",
+          "required_unit_id": "us_destroyer_mitscher",
           "selected": false,
           "class_name": "",
           "details": true,
-          "main_role": "Light cruiser"
+          "rank": "III",
+          "research_country": "USA",
+          "main_role": "Light cruiser",
+          "is_component": false,
+          "component_of": null,
+          "is_premium": false,
+          "is_squadron": false,
+          "wiki": {
+            "url": "https://wiki.warthunder.com/unit/us_cruiser_omaha_class_trenton",
+            "rank": "III",
+            "battle_rating_context": "default",
+            "battle_ratings": {
+              "AB": "5.0",
+              "RB": "5.0"
+            },
+            "battle_ratings_by_battle": {
+              "default": {
+                "AB": "5.0",
+                "RB": "5.0"
+              }
+            },
+            "research": "18,000",
+            "purchase": "55,000",
+            "purchase_currency": "SL",
+            "status": null,
+            "fetched_at": "2026-09-19T06:32:12.175Z",
+            "sha256": "11ebd3f9bae211622abb1bfe1eea3a16abc9fed154a35beb357bce9d10a6ea95"
+          }
         },
         {
           "type": "single",
-          "title": "USS Raleigh",
+          "title": "USS Raleigh",
           "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/us_cruiser_omaha_class_raleigh.png",
           "br": "5.0",
-          "rp": "21,000",
-          "sp": "70,000",
+          "rp": 21000,
+          "sp": 70000,
           "data_unit_id": "us_cruiser_omaha_class_raleigh",
+          "required_unit_id": "us_cruiser_omaha_class_trenton",
           "selected": false,
           "class_name": "",
           "details": true,
-          "main_role": "Light cruiser"
+          "rank": "III",
+          "research_country": "USA",
+          "main_role": "Light cruiser",
+          "is_component": false,
+          "component_of": null,
+          "is_premium": false,
+          "is_squadron": false,
+          "wiki": {
+            "url": "https://wiki.warthunder.com/unit/us_cruiser_omaha_class_raleigh",
+            "rank": "III",
+            "battle_rating_context": "default",
+            "battle_ratings": {
+              "AB": "5.0",
+              "RB": "5.0"
+            },
+            "battle_ratings_by_battle": {
+              "default": {
+                "AB": "5.0",
+                "RB": "5.0"
+              }
+            },
+            "research": "21,000",
+            "purchase": "70,000",
+            "purchase_currency": "SL",
+            "status": null,
+            "fetched_at": "2026-09-19T06:32:11.846Z",
+            "sha256": "dc59c5fe7fa1706bddc6561f3b6e9b93eeb112ae91e6d43a65626f937dd18d37"
+          }
         }
       ],
       [
         {
           "type": "single",
-          "title": "USS Sumner",
+          "title": "USS Sumner",
           "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/us_destroyer_sumner.png",
           "br": "5.0",
-          "rp": "15,000",
-          "sp": "38,000",
+          "rp": 15000,
+          "sp": 38000,
           "data_unit_id": "us_destroyer_sumner",
+          "required_unit_id": "",
           "selected": false,
           "class_name": "",
           "details": true,
-          "main_role": "Destroyer"
+          "rank": "III",
+          "research_country": "USA",
+          "main_role": "Destroyer",
+          "is_component": false,
+          "component_of": null,
+          "is_premium": false,
+          "is_squadron": false,
+          "wiki": {
+            "url": "https://wiki.warthunder.com/unit/us_destroyer_sumner",
+            "rank": "III",
+            "battle_rating_context": "default",
+            "battle_ratings": {
+              "AB": "5.0",
+              "RB": "5.0"
+            },
+            "battle_ratings_by_battle": {
+              "default": {
+                "AB": "5.0",
+                "RB": "5.0"
+              }
+            },
+            "research": "15,000",
+            "purchase": "38,000",
+            "purchase_currency": "SL",
+            "status": null,
+            "fetched_at": "2026-09-19T06:32:14.802Z",
+            "sha256": "54a6e780181dcd00f4593f69c95668ced630fd4c7bdebc75071d4d6bc0882cee"
+          }
         },
         {
           "type": "single",
-          "title": "USS Gearing",
+          "title": "USS Gearing",
           "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/us_destroyer_gearing.png",
           "br": "5.0",
-          "rp": "18,000",
-          "sp": "55,000",
+          "rp": 18000,
+          "sp": 55000,
           "data_unit_id": "us_destroyer_gearing",
+          "required_unit_id": "us_destroyer_sumner",
           "selected": false,
           "class_name": "",
           "details": true,
-          "main_role": "Destroyer"
+          "rank": "III",
+          "research_country": "USA",
+          "main_role": "Destroyer",
+          "is_component": false,
+          "component_of": null,
+          "is_premium": false,
+          "is_squadron": false,
+          "wiki": {
+            "url": "https://wiki.warthunder.com/unit/us_destroyer_gearing",
+            "rank": "III",
+            "battle_rating_context": "default",
+            "battle_ratings": {
+              "AB": "5.0",
+              "RB": "5.0"
+            },
+            "battle_ratings_by_battle": {
+              "default": {
+                "AB": "5.0",
+                "RB": "5.0"
+              }
+            },
+            "research": "18,000",
+            "purchase": "55,000",
+            "purchase_currency": "SL",
+            "status": null,
+            "fetched_at": "2026-09-19T06:32:13.464Z",
+            "sha256": "b174f1e14a5c2a37337b5696cf01ca011110408188e86f00900181b0b742212b"
+          }
         }
       ]
     ],
@@ -242,101 +746,298 @@
       [
         {
           "type": "single",
-          "title": "USS Frank Knox",
+          "title": "USS Frank Knox",
           "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/us_destroyer_gearing_frank_knox.png",
           "br": "5.0",
           "rp": 0,
           "sp": 0,
           "data_unit_id": "us_destroyer_gearing_frank_knox",
+          "required_unit_id": "",
           "selected": false,
           "class_name": "prem",
           "details": true,
-          "main_role": "Destroyer"
+          "rank": "III",
+          "research_country": "USA",
+          "main_role": "Destroyer",
+          "is_component": false,
+          "component_of": null,
+          "is_premium": true,
+          "is_squadron": false,
+          "wiki": {
+            "url": "https://wiki.warthunder.com/unit/us_destroyer_gearing_frank_knox",
+            "rank": "III",
+            "battle_rating_context": "default",
+            "battle_ratings": {
+              "AB": "5.0",
+              "RB": "5.0"
+            },
+            "battle_ratings_by_battle": {
+              "default": {
+                "AB": "5.0",
+                "RB": "5.0"
+              }
+            },
+            "research": null,
+            "purchase": "1,600",
+            "purchase_currency": "GE",
+            "status": "Premium vehicle",
+            "fetched_at": "2026-09-19T06:32:13.630Z",
+            "sha256": "acd495ddb98aa9cb64e0744c678c5b9c7fb34b4a5f630e6549a635d504cd5a94"
+          }
         },
         {
           "type": "single",
-          "title": "USS Cowell",
+          "title": "USS Cowell",
           "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/us_destroyer_fletcher_cowell.png",
           "br": "4.7",
           "rp": 0,
           "sp": 0,
           "data_unit_id": "us_destroyer_fletcher_cowell",
+          "required_unit_id": "",
           "selected": false,
           "class_name": "prem",
           "details": true,
-          "main_role": "Destroyer"
+          "rank": "III",
+          "research_country": "USA",
+          "main_role": "Destroyer",
+          "is_component": false,
+          "component_of": null,
+          "is_premium": true,
+          "is_squadron": false,
+          "wiki": {
+            "url": "https://wiki.warthunder.com/unit/us_destroyer_fletcher_cowell",
+            "rank": "III",
+            "battle_rating_context": "default",
+            "battle_ratings": {
+              "AB": "4.7",
+              "RB": "4.7"
+            },
+            "battle_ratings_by_battle": {
+              "default": {
+                "AB": "4.7",
+                "RB": "4.7"
+              }
+            },
+            "research": null,
+            "purchase": null,
+            "purchase_currency": null,
+            "status": "Premium vehicle",
+            "fetched_at": "2026-09-19T06:32:13.420Z",
+            "sha256": "a7a085e83fab97414106d06328b9cce7b964c40b1760998bdab1b5efeb220b01"
+          }
         },
         {
           "type": "single",
-          "title": "USS Moffett",
+          "title": "USS Moffett",
           "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/us_destroyer_porter_1942.png",
           "br": "5.3",
           "rp": 0,
           "sp": 0,
           "data_unit_id": "us_destroyer_porter_1942",
+          "required_unit_id": "",
           "selected": false,
           "class_name": "prem",
           "details": true,
-          "main_role": "Destroyer"
+          "rank": "III",
+          "research_country": "USA",
+          "main_role": "Destroyer",
+          "is_component": false,
+          "component_of": null,
+          "is_premium": true,
+          "is_squadron": false,
+          "wiki": {
+            "url": "https://wiki.warthunder.com/unit/us_destroyer_porter_1942",
+            "rank": "III",
+            "battle_rating_context": "default",
+            "battle_ratings": {
+              "AB": "5.3",
+              "RB": "5.3"
+            },
+            "battle_ratings_by_battle": {
+              "default": {
+                "AB": "5.3",
+                "RB": "5.3"
+              }
+            },
+            "research": null,
+            "purchase": "1,750",
+            "purchase_currency": "GE",
+            "status": "Premium vehicle",
+            "fetched_at": "2026-09-19T06:32:14.115Z",
+            "sha256": "07dac32bec283962de2b6973f6194bf5464ea7f92680fcdbc8bb851d15794c82"
+          }
         },
         {
           "type": "single",
-          "title": "USS Bennion",
+          "title": "USS Bennion",
           "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/us_destroyer_fletcher_bennion.png",
           "br": "4.7",
           "rp": 0,
           "sp": 0,
           "data_unit_id": "us_destroyer_fletcher_bennion",
+          "required_unit_id": "",
           "selected": false,
           "class_name": "prem",
           "details": true,
-          "main_role": "Destroyer"
+          "rank": "III",
+          "research_country": "USA",
+          "main_role": "Destroyer",
+          "is_component": false,
+          "component_of": null,
+          "is_premium": true,
+          "is_squadron": false,
+          "wiki": {
+            "url": "https://wiki.warthunder.com/unit/us_destroyer_fletcher_bennion",
+            "rank": "III",
+            "battle_rating_context": "default",
+            "battle_ratings": {
+              "AB": "4.7",
+              "RB": "4.7"
+            },
+            "battle_ratings_by_battle": {
+              "default": {
+                "AB": "4.7",
+                "RB": "4.7"
+              }
+            },
+            "research": null,
+            "purchase": null,
+            "purchase_currency": null,
+            "status": "Premium vehicle",
+            "fetched_at": "2026-09-19T06:32:13.158Z",
+            "sha256": "77c6ee5bdebdc40f91872b1dbc42c14882138088a3fb2d6e89770d87277f6a58"
+          }
         }
       ],
       [
         {
           "type": "single",
-          "title": "USS Davis",
+          "title": "USS Davis",
           "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/us_destroyer_somers_davis.png",
           "br": "5.3",
           "rp": 0,
           "sp": 0,
           "data_unit_id": "us_destroyer_somers_davis",
+          "required_unit_id": "",
           "selected": false,
           "class_name": "prem",
           "details": true,
-          "main_role": "Destroyer"
+          "rank": "III",
+          "research_country": "USA",
+          "main_role": "Destroyer",
+          "is_component": false,
+          "component_of": null,
+          "is_premium": true,
+          "is_squadron": false,
+          "wiki": {
+            "url": "https://wiki.warthunder.com/unit/us_destroyer_somers_davis",
+            "rank": "III",
+            "battle_rating_context": "default",
+            "battle_ratings": {
+              "AB": "5.3",
+              "RB": "5.3"
+            },
+            "battle_ratings_by_battle": {
+              "default": {
+                "AB": "5.3",
+                "RB": "5.3"
+              }
+            },
+            "research": null,
+            "purchase": null,
+            "purchase_currency": null,
+            "status": "Premium vehicle",
+            "fetched_at": "2026-09-19T06:32:14.658Z",
+            "sha256": "a861c9c0c587a8d89244c6fbefda7c28188ca37b433717af917ce32bd5868a83"
+          }
         },
         {
           "type": "single",
-          "title": "USS Phelps",
+          "title": "USS Phelps",
           "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/us_destroyer_porter_1944.png",
           "br": "5.0",
           "rp": 0,
           "sp": 0,
           "data_unit_id": "us_destroyer_porter_1944",
+          "required_unit_id": "",
           "selected": false,
           "class_name": "prem",
           "details": true,
-          "main_role": "Destroyer"
+          "rank": "III",
+          "research_country": "USA",
+          "main_role": "Destroyer",
+          "is_component": false,
+          "component_of": null,
+          "is_premium": true,
+          "is_squadron": false,
+          "wiki": {
+            "url": "https://wiki.warthunder.com/unit/us_destroyer_porter_1944",
+            "rank": "III",
+            "battle_rating_context": "default",
+            "battle_ratings": {
+              "AB": "5.0",
+              "RB": "5.0"
+            },
+            "battle_ratings_by_battle": {
+              "default": {
+                "AB": "5.0",
+                "RB": "5.0"
+              }
+            },
+            "research": null,
+            "purchase": null,
+            "purchase_currency": null,
+            "status": "Premium vehicle",
+            "fetched_at": "2026-09-19T06:32:14.484Z",
+            "sha256": "cbfef2a9ca974841745fff379123961d1b6dde9ce6256044c4cf993b048d900e"
+          }
         },
         {
           "type": "single",
-          "title": "USS Detroit",
+          "title": "USS Detroit",
           "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/us_cruiser_omaha_class_detroit.png",
           "br": "5.0",
           "rp": 0,
           "sp": 0,
           "data_unit_id": "us_cruiser_omaha_class_detroit",
+          "required_unit_id": "",
           "selected": false,
           "class_name": "prem",
           "details": true,
-          "main_role": "Light cruiser"
+          "rank": "III",
+          "research_country": "USA",
+          "main_role": "Light cruiser",
+          "is_component": false,
+          "component_of": null,
+          "is_premium": true,
+          "is_squadron": false,
+          "wiki": {
+            "url": "https://wiki.warthunder.com/unit/us_cruiser_omaha_class_detroit",
+            "rank": "III",
+            "battle_rating_context": "default",
+            "battle_ratings": {
+              "AB": "5.0",
+              "RB": "5.0"
+            },
+            "battle_ratings_by_battle": {
+              "default": {
+                "AB": "5.0",
+                "RB": "5.0"
+              }
+            },
+            "research": null,
+            "purchase": null,
+            "purchase_currency": null,
+            "status": "Premium vehicle",
+            "fetched_at": "2026-09-19T06:32:11.833Z",
+            "sha256": "5ebdea1acdcec6398abecbdf93e53711b9f41b084ef2b0986a841d63330407e6"
+          }
         }
       ]
     ],
     "selected": [],
-    "unlock_quantity": 0
+    "unlock_quantity": null,
+    "source": "wiki"
   },
   {
     "rank": "IV",
@@ -344,57 +1045,169 @@
       [
         {
           "type": "single",
-          "title": "USS Charles F. Adams",
+          "title": "USS Charles F. Adams",
           "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/us_destroyer_cf_adams_class_cf_adams.png",
           "br": "5.3",
-          "rp": "33,000",
-          "sp": "115,000",
+          "rp": 33000,
+          "sp": 115000,
           "data_unit_id": "us_destroyer_cf_adams_class_cf_adams",
+          "required_unit_id": "us_destroyer_somers",
           "selected": false,
           "class_name": "",
           "details": true,
-          "main_role": "Destroyer"
+          "rank": "IV",
+          "research_country": "USA",
+          "main_role": "Destroyer",
+          "is_component": false,
+          "component_of": null,
+          "is_premium": false,
+          "is_squadron": false,
+          "wiki": {
+            "url": "https://wiki.warthunder.com/unit/us_destroyer_cf_adams_class_cf_adams",
+            "rank": "IV",
+            "battle_rating_context": "default",
+            "battle_ratings": {
+              "AB": "5.3",
+              "RB": "5.3"
+            },
+            "battle_ratings_by_battle": {
+              "default": {
+                "AB": "5.3",
+                "RB": "5.3"
+              }
+            },
+            "research": "33,000",
+            "purchase": "115,000",
+            "purchase_currency": "SL",
+            "status": null,
+            "fetched_at": "2026-09-19T06:32:12.880Z",
+            "sha256": "cdd657f64dafc3fcbb2d530a87652050693cba5b0d181b5dc426720435bdb357"
+          }
         },
         {
           "type": "single",
-          "title": "USS Forrest Sherman",
+          "title": "USS Forrest Sherman",
           "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/us_destroyer_forrestsherman_class.png",
           "br": "5.3",
-          "rp": "46,000",
-          "sp": "150,000",
+          "rp": 46000,
+          "sp": 150000,
           "data_unit_id": "us_destroyer_forrestsherman_class",
+          "required_unit_id": "us_destroyer_cf_adams_class_cf_adams",
           "selected": false,
           "class_name": "",
           "details": true,
-          "main_role": "Destroyer"
+          "rank": "IV",
+          "research_country": "USA",
+          "main_role": "Destroyer",
+          "is_component": false,
+          "component_of": null,
+          "is_premium": false,
+          "is_squadron": false,
+          "wiki": {
+            "url": "https://wiki.warthunder.com/unit/us_destroyer_forrestsherman_class",
+            "rank": "IV",
+            "battle_rating_context": "default",
+            "battle_ratings": {
+              "AB": "5.3",
+              "RB": "5.3"
+            },
+            "battle_ratings_by_battle": {
+              "default": {
+                "AB": "5.3",
+                "RB": "5.3"
+              }
+            },
+            "research": "46,000",
+            "purchase": "150,000",
+            "purchase_currency": "SL",
+            "status": null,
+            "fetched_at": "2026-09-19T06:32:13.556Z",
+            "sha256": "c78ff65f86f99286507f614bf56c52ed536e3c99c140b864a22f5660465e03bb"
+          }
         },
         {
           "type": "single",
-          "title": "USS Atlanta",
+          "title": "USS Atlanta",
           "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/us_cruiser_atlanta_class_atlanta.png",
           "br": "5.7",
-          "rp": "59,000",
-          "sp": "185,000",
+          "rp": 59000,
+          "sp": 185000,
           "data_unit_id": "us_cruiser_atlanta_class_atlanta",
+          "required_unit_id": "us_destroyer_forrestsherman_class",
           "selected": false,
           "class_name": "",
           "details": true,
-          "main_role": "Light cruiser"
+          "rank": "IV",
+          "research_country": "USA",
+          "main_role": "Light cruiser",
+          "is_component": false,
+          "component_of": null,
+          "is_premium": false,
+          "is_squadron": false,
+          "wiki": {
+            "url": "https://wiki.warthunder.com/unit/us_cruiser_atlanta_class_atlanta",
+            "rank": "IV",
+            "battle_rating_context": "default",
+            "battle_ratings": {
+              "AB": "5.7",
+              "RB": "5.7"
+            },
+            "battle_ratings_by_battle": {
+              "default": {
+                "AB": "5.7",
+                "RB": "5.7"
+              }
+            },
+            "research": "59,000",
+            "purchase": "185,000",
+            "purchase_currency": "SL",
+            "status": null,
+            "fetched_at": "2026-09-19T06:32:10.473Z",
+            "sha256": "e24551e7f23e8282a753627dfb5d94653a55f34026ab0a6009c2d051b233eefb"
+          }
         }
       ],
       [
         {
           "type": "single",
-          "title": "USS Cleveland",
+          "title": "USS Cleveland",
           "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/us_cruiser_cleveland_class_cleveland.png",
           "br": "6.0",
-          "rp": "46,000",
-          "sp": "150,000",
+          "rp": 46000,
+          "sp": 150000,
           "data_unit_id": "us_cruiser_cleveland_class_cleveland",
+          "required_unit_id": "us_cruiser_omaha_class_raleigh",
           "selected": false,
           "class_name": "",
           "details": true,
-          "main_role": "Light cruiser"
+          "rank": "IV",
+          "research_country": "USA",
+          "main_role": "Light cruiser",
+          "is_component": false,
+          "component_of": null,
+          "is_premium": false,
+          "is_squadron": false,
+          "wiki": {
+            "url": "https://wiki.warthunder.com/unit/us_cruiser_cleveland_class_cleveland",
+            "rank": "IV",
+            "battle_rating_context": "default",
+            "battle_ratings": {
+              "AB": "6.0",
+              "RB": "6.0"
+            },
+            "battle_ratings_by_battle": {
+              "default": {
+                "AB": "6.0",
+                "RB": "6.0"
+              }
+            },
+            "research": "46,000",
+            "purchase": "150,000",
+            "purchase_currency": "SL",
+            "status": null,
+            "fetched_at": "2026-09-19T06:32:10.978Z",
+            "sha256": "2e8265542c6e54a0128c9400bd688b8ad190bec9c04505244a5b970fd8e58337"
+          }
         },
         {
           "type": "multiple",
@@ -403,36 +1216,95 @@
           "selected": false,
           "br": "6.0-6.3",
           "data_unit_id": "us_cruiser_fargo_brooklyn_group",
+          "required_unit_id": "us_cruiser_cleveland_class_cleveland",
           "class_name": "",
           "items": [
             {
               "type": "single",
-              "title": "USS Fargo",
+              "title": "USS Fargo",
               "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/us_cruiser_fargo_class.png",
               "br": "6.0",
-              "rp": "59,000",
-              "sp": "185,000",
+              "rp": 59000,
+              "sp": 185000,
               "data_unit_id": "us_cruiser_fargo_class",
+              "required_unit_id": "",
               "selected": false,
               "class_name": "",
               "details": true,
-              "main_role": "Light cruiser"
+              "rank": "IV",
+              "research_country": "USA",
+              "main_role": "Light cruiser",
+              "is_component": false,
+              "component_of": null,
+              "is_premium": false,
+              "is_squadron": false,
+              "wiki": {
+                "url": "https://wiki.warthunder.com/unit/us_cruiser_fargo_class",
+                "rank": "IV",
+                "battle_rating_context": "default",
+                "battle_ratings": {
+                  "AB": "6.0",
+                  "RB": "6.0"
+                },
+                "battle_ratings_by_battle": {
+                  "default": {
+                    "AB": "6.0",
+                    "RB": "6.0"
+                  }
+                },
+                "research": "59,000",
+                "purchase": "185,000",
+                "purchase_currency": "SL",
+                "status": null,
+                "fetched_at": "2026-09-19T06:32:11.435Z",
+                "sha256": "a1cbf929adbb0b6077391d4a7dc78c61010a0aa3ae52184b8117911968060ea0"
+              }
             },
             {
               "type": "single",
-              "title": "USS Brooklyn",
+              "title": "USS Brooklyn",
               "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/us_cruiser_brooklyn_class_brooklyn.png",
               "br": "6.3",
-              "rp": "36,000",
-              "sp": "230,000",
+              "rp": 36000,
+              "sp": 230000,
               "data_unit_id": "us_cruiser_brooklyn_class_brooklyn",
+              "required_unit_id": "us_cruiser_fargo_class",
               "selected": false,
               "class_name": "",
               "details": true,
-              "main_role": "Light cruiser"
+              "rank": "IV",
+              "research_country": "USA",
+              "main_role": "Light cruiser",
+              "is_component": false,
+              "component_of": null,
+              "is_premium": false,
+              "is_squadron": false,
+              "wiki": {
+                "url": "https://wiki.warthunder.com/unit/us_cruiser_brooklyn_class_brooklyn",
+                "rank": "IV",
+                "battle_rating_context": "default",
+                "battle_ratings": {
+                  "AB": "6.3",
+                  "RB": "6.3"
+                },
+                "battle_ratings_by_battle": {
+                  "default": {
+                    "AB": "6.3",
+                    "RB": "6.3"
+                  }
+                },
+                "research": "36,000",
+                "purchase": "230,000",
+                "purchase_currency": "SL",
+                "status": null,
+                "fetched_at": "2026-09-19T06:32:10.814Z",
+                "sha256": "d5039a603e79e6e494ce43d2922dd02e038a01b927fd069b353756f68e4cc6c2"
+              }
             }
           ],
-          "details": true
+          "details": true,
+          "rp": 95000,
+          "sp": 415000
         }
       ],
       [
@@ -443,62 +1315,177 @@
           "selected": false,
           "br": "5.7",
           "data_unit_id": "us_cruiser_northampton_pensacola_group",
+          "required_unit_id": "us_destroyer_gearing",
           "class_name": "",
           "items": [
             {
               "type": "single",
-              "title": "USS Northampton",
+              "title": "USS Northampton",
               "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/us_cruiser_northampton_class.png",
               "br": "5.7",
-              "rp": "33,000",
-              "sp": "115,000",
+              "rp": 33000,
+              "sp": 115000,
               "data_unit_id": "us_cruiser_northampton_class",
+              "required_unit_id": "",
               "selected": false,
               "class_name": "",
               "details": true,
-              "main_role": "Heavy cruiser"
+              "rank": "IV",
+              "research_country": "USA",
+              "main_role": "Heavy cruiser",
+              "is_component": false,
+              "component_of": null,
+              "is_premium": false,
+              "is_squadron": false,
+              "wiki": {
+                "url": "https://wiki.warthunder.com/unit/us_cruiser_northampton_class",
+                "rank": "IV",
+                "battle_rating_context": "default",
+                "battle_ratings": {
+                  "AB": "5.7",
+                  "RB": "5.7"
+                },
+                "battle_ratings_by_battle": {
+                  "default": {
+                    "AB": "5.7",
+                    "RB": "5.7"
+                  }
+                },
+                "research": "33,000",
+                "purchase": "115,000",
+                "purchase_currency": "SL",
+                "status": null,
+                "fetched_at": "2026-09-19T06:32:11.422Z",
+                "sha256": "4b356f06c24599364b8e68ef2b9e88644e3ca70b3385187f83a8409d37dbbd3b"
+              }
             },
             {
               "type": "single",
-              "title": "USS Portland",
+              "title": "USS Portland",
               "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/us_cruiser_portland_class.png",
               "br": "5.7",
-              "rp": "23,000",
-              "sp": "150,000",
+              "rp": 23000,
+              "sp": 150000,
               "data_unit_id": "us_cruiser_portland_class",
+              "required_unit_id": "us_cruiser_northampton_class",
               "selected": false,
               "class_name": "",
               "details": true,
-              "main_role": "Heavy cruiser"
+              "rank": "IV",
+              "research_country": "USA",
+              "main_role": "Heavy cruiser",
+              "is_component": false,
+              "component_of": null,
+              "is_premium": false,
+              "is_squadron": false,
+              "wiki": {
+                "url": "https://wiki.warthunder.com/unit/us_cruiser_portland_class",
+                "rank": "IV",
+                "battle_rating_context": "default",
+                "battle_ratings": {
+                  "AB": "5.7",
+                  "RB": "5.7"
+                },
+                "battle_ratings_by_battle": {
+                  "default": {
+                    "AB": "5.7",
+                    "RB": "5.7"
+                  }
+                },
+                "research": "23,000",
+                "purchase": "150,000",
+                "purchase_currency": "SL",
+                "status": null,
+                "fetched_at": "2026-09-19T06:32:12.355Z",
+                "sha256": "6b017b03e9d1e76ba3a769e2cb8d21aade0f7c91878e41af7aaf58691615edef"
+              }
             },
             {
               "type": "single",
-              "title": "USS Pensacola",
+              "title": "USS Pensacola",
               "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/us_cruiser_pensacola_class.png",
               "br": "5.7",
-              "rp": "30,000",
-              "sp": "185,000",
+              "rp": 30000,
+              "sp": 185000,
               "data_unit_id": "us_cruiser_pensacola_class",
+              "required_unit_id": "us_cruiser_portland_class",
               "selected": false,
               "class_name": "",
               "details": true,
-              "main_role": "Heavy cruiser"
+              "rank": "IV",
+              "research_country": "USA",
+              "main_role": "Heavy cruiser",
+              "is_component": false,
+              "component_of": null,
+              "is_premium": false,
+              "is_squadron": false,
+              "wiki": {
+                "url": "https://wiki.warthunder.com/unit/us_cruiser_pensacola_class",
+                "rank": "IV",
+                "battle_rating_context": "default",
+                "battle_ratings": {
+                  "AB": "5.7",
+                  "RB": "5.7"
+                },
+                "battle_ratings_by_battle": {
+                  "default": {
+                    "AB": "5.7",
+                    "RB": "5.7"
+                  }
+                },
+                "research": "30,000",
+                "purchase": "185,000",
+                "purchase_currency": "SL",
+                "status": null,
+                "fetched_at": "2026-09-19T06:32:12.252Z",
+                "sha256": "d7806226c13b80d524e517e53aef07bbf5324d34e20dce5e2340b82301a3e005"
+              }
             }
           ],
-          "details": true
+          "details": true,
+          "rp": 86000,
+          "sp": 450000
         },
         {
           "type": "single",
-          "title": "USS New Orleans",
+          "title": "USS New Orleans",
           "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/us_cruiser_new_orleans_class.png",
           "br": "6.0",
-          "rp": "73,000",
-          "sp": "230,000",
+          "rp": 73000,
+          "sp": 230000,
           "data_unit_id": "us_cruiser_new_orleans_class",
+          "required_unit_id": "us_cruiser_northampton_pensacola_group",
           "selected": false,
           "class_name": "",
           "details": true,
-          "main_role": "Heavy cruiser"
+          "rank": "IV",
+          "research_country": "USA",
+          "main_role": "Heavy cruiser",
+          "is_component": false,
+          "component_of": null,
+          "is_premium": false,
+          "is_squadron": false,
+          "wiki": {
+            "url": "https://wiki.warthunder.com/unit/us_cruiser_new_orleans_class",
+            "rank": "IV",
+            "battle_rating_context": "default",
+            "battle_ratings": {
+              "AB": "6.0",
+              "RB": "6.0"
+            },
+            "battle_ratings_by_battle": {
+              "default": {
+                "AB": "6.0",
+                "RB": "6.0"
+              }
+            },
+            "research": "73,000",
+            "purchase": "230,000",
+            "purchase_currency": "SL",
+            "status": null,
+            "fetched_at": "2026-09-19T06:32:11.253Z",
+            "sha256": "853ecf7e76291cb6e8d31ce976b32aa6a86be73c867ff9c3cc4e13ebdbcc5b94"
+          }
         }
       ]
     ],
@@ -506,22 +1493,51 @@
       [
         {
           "type": "single",
-          "title": "USS Helena",
+          "title": "USS Helena",
           "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/us_cruiser_brooklyn_class_helena.png",
           "br": "6.3",
           "rp": 0,
           "sp": 0,
           "data_unit_id": "us_cruiser_brooklyn_class_helena",
+          "required_unit_id": "",
           "selected": false,
           "class_name": "prem",
           "details": true,
-          "main_role": "Light cruiser"
+          "rank": "IV",
+          "research_country": "USA",
+          "main_role": "Light cruiser",
+          "is_component": false,
+          "component_of": null,
+          "is_premium": true,
+          "is_squadron": false,
+          "wiki": {
+            "url": "https://wiki.warthunder.com/unit/us_cruiser_brooklyn_class_helena",
+            "rank": "IV",
+            "battle_rating_context": "default",
+            "battle_ratings": {
+              "AB": "6.3",
+              "RB": "6.3"
+            },
+            "battle_ratings_by_battle": {
+              "default": {
+                "AB": "6.3",
+                "RB": "6.3"
+              }
+            },
+            "research": null,
+            "purchase": "8,020",
+            "purchase_currency": "GE",
+            "status": "Premium vehicle",
+            "fetched_at": "2026-09-19T06:32:10.998Z",
+            "sha256": "1dd391168edbfbada623f323f6acb70379d79b72e8f1e17687aaa61032927d17"
+          }
         }
       ],
       []
     ],
     "selected": [],
-    "unlock_quantity": 0
+    "unlock_quantity": null,
+    "source": "wiki"
   },
   {
     "rank": "V",
@@ -529,85 +1545,253 @@
       [
         {
           "type": "single",
-          "title": "USS Roanoke",
+          "title": "USS Roanoke",
           "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/us_cruiser_worcester_class_roanoke.png",
           "br": "6.3",
-          "rp": "90,000",
-          "sp": "280,000",
+          "rp": 90000,
+          "sp": 280000,
           "data_unit_id": "us_cruiser_worcester_class_roanoke",
+          "required_unit_id": "us_cruiser_atlanta_class_atlanta",
           "selected": false,
           "class_name": "",
           "details": true,
-          "main_role": "Light cruiser"
+          "rank": "V",
+          "research_country": "USA",
+          "main_role": "Light cruiser",
+          "is_component": false,
+          "component_of": null,
+          "is_premium": false,
+          "is_squadron": false,
+          "wiki": {
+            "url": "https://wiki.warthunder.com/unit/us_cruiser_worcester_class_roanoke",
+            "rank": "V",
+            "battle_rating_context": "default",
+            "battle_ratings": {
+              "AB": "6.3",
+              "RB": "6.3"
+            },
+            "battle_ratings_by_battle": {
+              "default": {
+                "AB": "6.3",
+                "RB": "6.3"
+              }
+            },
+            "research": "90,000",
+            "purchase": "280,000",
+            "purchase_currency": "SL",
+            "status": null,
+            "fetched_at": "2026-09-19T06:32:12.370Z",
+            "sha256": "85f2a6fd65580bac40e8e20d549f5fdade5b43ac1e95b5dd8bb591500c0e2e88"
+          }
         },
         {
           "type": "single",
-          "title": "USS Texas",
+          "title": "USS Texas",
           "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/us_battleship_texas.png",
           "br": "6.7",
-          "rp": "180,000",
-          "sp": "540,000",
+          "rp": 180000,
+          "sp": 540000,
           "data_unit_id": "us_battleship_texas",
+          "required_unit_id": "us_cruiser_worcester_class_roanoke",
           "selected": false,
           "class_name": "",
           "details": true,
-          "main_role": "Battleship"
+          "rank": "V",
+          "research_country": "USA",
+          "main_role": "Battleship",
+          "is_component": false,
+          "component_of": null,
+          "is_premium": false,
+          "is_squadron": false,
+          "wiki": {
+            "url": "https://wiki.warthunder.com/unit/us_battleship_texas",
+            "rank": "V",
+            "battle_rating_context": "default",
+            "battle_ratings": {
+              "AB": "6.7",
+              "RB": "6.7"
+            },
+            "battle_ratings_by_battle": {
+              "default": {
+                "AB": "6.7",
+                "RB": "6.7"
+              }
+            },
+            "research": "180,000",
+            "purchase": "540,000",
+            "purchase_currency": "SL",
+            "status": null,
+            "fetched_at": "2026-09-19T06:32:10.338Z",
+            "sha256": "6e265c0518516572da76fffe494d95c6f51f1912955f4ca5354d6d9f5a08d288"
+          }
         }
       ],
       [
         {
           "type": "single",
-          "title": "USS North Dakota",
+          "title": "USS North Dakota",
           "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/us_battleship_north_dakota.png",
           "br": "6.3",
-          "rp": "110,000",
-          "sp": "340,000",
+          "rp": 110000,
+          "sp": 340000,
           "data_unit_id": "us_battleship_north_dakota",
+          "required_unit_id": "us_cruiser_fargo_brooklyn_group",
           "selected": false,
           "class_name": "",
           "details": true,
-          "main_role": "Battleship"
+          "rank": "V",
+          "research_country": "USA",
+          "main_role": "Battleship",
+          "is_component": false,
+          "component_of": null,
+          "is_premium": false,
+          "is_squadron": false,
+          "wiki": {
+            "url": "https://wiki.warthunder.com/unit/us_battleship_north_dakota",
+            "rank": "V",
+            "battle_rating_context": "default",
+            "battle_ratings": {
+              "AB": "6.3",
+              "RB": "6.3"
+            },
+            "battle_ratings_by_battle": {
+              "default": {
+                "AB": "6.3",
+                "RB": "6.3"
+              }
+            },
+            "research": "110,000",
+            "purchase": "340,000",
+            "purchase_currency": "SL",
+            "status": null,
+            "fetched_at": "2026-09-19T06:32:09.718Z",
+            "sha256": "d4a06abc53afc8c87f09f81a2d9422396961744d76504cade142a95d54937d0c"
+          }
         },
         {
           "type": "single",
-          "title": "USS Wyoming",
+          "title": "USS Wyoming",
           "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/us_battleship_wyoming_class.png",
           "br": "6.7",
-          "rp": "145,000",
-          "sp": "440,000",
+          "rp": 145000,
+          "sp": 440000,
           "data_unit_id": "us_battleship_wyoming_class",
+          "required_unit_id": "us_battleship_north_dakota",
           "selected": false,
           "class_name": "",
           "details": true,
-          "main_role": "Battleship"
+          "rank": "V",
+          "research_country": "USA",
+          "main_role": "Battleship",
+          "is_component": false,
+          "component_of": null,
+          "is_premium": false,
+          "is_squadron": false,
+          "wiki": {
+            "url": "https://wiki.warthunder.com/unit/us_battleship_wyoming_class",
+            "rank": "V",
+            "battle_rating_context": "default",
+            "battle_ratings": {
+              "AB": "6.7",
+              "RB": "6.7"
+            },
+            "battle_ratings_by_battle": {
+              "default": {
+                "AB": "6.7",
+                "RB": "6.7"
+              }
+            },
+            "research": "145,000",
+            "purchase": "440,000",
+            "purchase_currency": "SL",
+            "status": null,
+            "fetched_at": "2026-09-19T06:32:10.233Z",
+            "sha256": "89fa5dd0337dbced5ac13b7f05503ec64d3b3732f9efb91cc52cbad7e8cbc69a"
+          }
         }
       ],
       [
         {
           "type": "single",
-          "title": "USS Pittsburgh",
+          "title": "USS Pittsburgh",
           "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/us_cruiser_baltimore_class_pittsburgh.png",
           "br": "6.3",
-          "rp": "110,000",
-          "sp": "340,000",
+          "rp": 110000,
+          "sp": 340000,
           "data_unit_id": "us_cruiser_baltimore_class_pittsburgh",
+          "required_unit_id": "us_cruiser_new_orleans_class",
           "selected": false,
           "class_name": "",
           "details": true,
-          "main_role": "Heavy cruiser"
+          "rank": "V",
+          "research_country": "USA",
+          "main_role": "Heavy cruiser",
+          "is_component": false,
+          "component_of": null,
+          "is_premium": false,
+          "is_squadron": false,
+          "wiki": {
+            "url": "https://wiki.warthunder.com/unit/us_cruiser_baltimore_class_pittsburgh",
+            "rank": "V",
+            "battle_rating_context": "default",
+            "battle_ratings": {
+              "AB": "6.3",
+              "RB": "6.3"
+            },
+            "battle_ratings_by_battle": {
+              "default": {
+                "AB": "6.3",
+                "RB": "6.3"
+              }
+            },
+            "research": "110,000",
+            "purchase": "340,000",
+            "purchase_currency": "SL",
+            "status": null,
+            "fetched_at": "2026-09-19T06:32:10.749Z",
+            "sha256": "e51bfa0034e506e0e1bc2fbd4d3f4f232137afb360462bdcc4954d4e8b03cf07"
+          }
         },
         {
           "type": "single",
-          "title": "USS Oregon City",
+          "title": "USS Oregon City",
           "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/us_cruiser_oregon_class.png",
           "br": "6.3",
-          "rp": "145,000",
-          "sp": "440,000",
+          "rp": 145000,
+          "sp": 440000,
           "data_unit_id": "us_cruiser_oregon_class",
+          "required_unit_id": "us_cruiser_baltimore_class_pittsburgh",
           "selected": false,
           "class_name": "",
           "details": true,
-          "main_role": "Heavy cruiser"
+          "rank": "V",
+          "research_country": "USA",
+          "main_role": "Heavy cruiser",
+          "is_component": false,
+          "component_of": null,
+          "is_premium": false,
+          "is_squadron": false,
+          "wiki": {
+            "url": "https://wiki.warthunder.com/unit/us_cruiser_oregon_class",
+            "rank": "V",
+            "battle_rating_context": "default",
+            "battle_ratings": {
+              "AB": "6.3",
+              "RB": "6.3"
+            },
+            "battle_ratings_by_battle": {
+              "default": {
+                "AB": "6.3",
+                "RB": "6.3"
+              }
+            },
+            "research": "145,000",
+            "purchase": "440,000",
+            "purchase_currency": "SL",
+            "status": null,
+            "fetched_at": "2026-09-19T06:32:11.718Z",
+            "sha256": "4d46f827887ce1ee76da2f6f89e990040e304dd23571feae6e849aef220150ee"
+          }
         }
       ]
     ],
@@ -615,62 +1799,175 @@
       [
         {
           "type": "single",
-          "title": "USS Baltimore",
+          "title": "USS Baltimore",
           "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/us_cruiser_baltimore_class.png",
           "br": "6.3",
           "rp": null,
           "sp": null,
           "data_unit_id": "us_cruiser_baltimore_class",
+          "required_unit_id": "",
           "selected": false,
           "class_name": "",
           "details": true,
-          "main_role": "Heavy cruiser"
+          "rank": "V",
+          "research_country": "USA",
+          "main_role": "Heavy cruiser",
+          "is_component": false,
+          "component_of": null,
+          "is_premium": false,
+          "is_squadron": false,
+          "wiki": {
+            "url": "https://wiki.warthunder.com/unit/us_cruiser_baltimore_class",
+            "rank": "V",
+            "battle_rating_context": "default",
+            "battle_ratings": {
+              "AB": "6.3",
+              "RB": "6.3"
+            },
+            "battle_ratings_by_battle": {
+              "default": {
+                "AB": "6.3",
+                "RB": "6.3"
+              }
+            },
+            "research": null,
+            "purchase": null,
+            "purchase_currency": null,
+            "status": null,
+            "fetched_at": "2026-09-19T06:32:10.612Z",
+            "sha256": "7bc0741b962b21ed06c5d5bddd81a856e666291d67cffefaef8dbbb777e82a04"
+          }
         },
         {
           "type": "single",
-          "title": "USS Arkansas",
+          "title": "USS Arkansas",
           "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/us_battleship_arkansas.png",
           "br": "6.7",
           "rp": 0,
           "sp": 0,
           "data_unit_id": "us_battleship_arkansas",
+          "required_unit_id": "",
           "selected": false,
           "class_name": "prem",
           "details": true,
-          "main_role": "Battleship"
+          "rank": "V",
+          "research_country": "USA",
+          "main_role": "Battleship",
+          "is_component": false,
+          "component_of": null,
+          "is_premium": true,
+          "is_squadron": false,
+          "wiki": {
+            "url": "https://wiki.warthunder.com/unit/us_battleship_arkansas",
+            "rank": "V",
+            "battle_rating_context": "default",
+            "battle_ratings": {
+              "AB": "6.7",
+              "RB": "6.7"
+            },
+            "battle_ratings_by_battle": {
+              "default": {
+                "AB": "6.7",
+                "RB": "6.7"
+              }
+            },
+            "research": null,
+            "purchase": null,
+            "purchase_currency": null,
+            "status": "Premium vehicle",
+            "fetched_at": "2026-09-19T06:32:09.216Z",
+            "sha256": "b0ba6b94146869791d655534dcfb009ba58940330c42acf776a2f414d613d57f"
+          }
         }
       ],
       [
         {
           "type": "single",
-          "title": "USS Newport News",
+          "title": "USS Newport News",
           "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/us_cruiser_des_moines_class_newport_news.png",
           "br": "6.7",
           "rp": null,
           "sp": null,
           "data_unit_id": "us_cruiser_des_moines_class_newport_news",
+          "required_unit_id": "",
           "selected": false,
           "class_name": "",
           "details": true,
-          "main_role": "Heavy cruiser"
+          "rank": "V",
+          "research_country": "USA",
+          "main_role": "Heavy cruiser",
+          "is_component": false,
+          "component_of": null,
+          "is_premium": false,
+          "is_squadron": false,
+          "wiki": {
+            "url": "https://wiki.warthunder.com/unit/us_cruiser_des_moines_class_newport_news",
+            "rank": "V",
+            "battle_rating_context": "default",
+            "battle_ratings": {
+              "AB": "6.7",
+              "RB": "6.7"
+            },
+            "battle_ratings_by_battle": {
+              "default": {
+                "AB": "6.7",
+                "RB": "6.7"
+              }
+            },
+            "research": null,
+            "purchase": null,
+            "purchase_currency": null,
+            "status": null,
+            "fetched_at": "2026-09-19T06:32:11.326Z",
+            "sha256": "bb37428c241e7ab8f9f6d2b15921c47ab8ebaec4aca59f1a460d607e7d157595"
+          }
         },
         {
           "type": "single",
-          "title": "USS Des Moines",
+          "title": "USS Des Moines",
           "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/us_cruiser_des_moines_class.png",
           "br": "6.7",
           "rp": 0,
           "sp": 0,
           "data_unit_id": "us_cruiser_des_moines_class",
+          "required_unit_id": "",
           "selected": false,
           "class_name": "prem",
           "details": true,
-          "main_role": "Heavy cruiser"
+          "rank": "V",
+          "research_country": "USA",
+          "main_role": "Heavy cruiser",
+          "is_component": false,
+          "component_of": null,
+          "is_premium": true,
+          "is_squadron": false,
+          "wiki": {
+            "url": "https://wiki.warthunder.com/unit/us_cruiser_des_moines_class",
+            "rank": "V",
+            "battle_rating_context": "default",
+            "battle_ratings": {
+              "AB": "6.7",
+              "RB": "6.7"
+            },
+            "battle_ratings_by_battle": {
+              "default": {
+                "AB": "6.7",
+                "RB": "6.7"
+              }
+            },
+            "research": null,
+            "purchase": "8,020",
+            "purchase_currency": "GE",
+            "status": "Premium vehicle",
+            "fetched_at": "2026-09-19T06:32:11.057Z",
+            "sha256": "640d2d9be5364602333e0566bab30ba541d20678f86ac4443bd72165a01d1021"
+          }
         }
       ]
     ],
     "selected": [],
-    "unlock_quantity": 0
+    "unlock_quantity": null,
+    "source": "wiki"
   },
   {
     "rank": "VI",
@@ -678,72 +1975,212 @@
       [
         {
           "type": "single",
-          "title": "USS Arizona",
+          "title": "USS Arizona",
           "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/us_battleship_arizona_1931.png",
           "br": "7.3",
-          "rp": "300,000",
-          "sp": "900,000",
+          "rp": 300000,
+          "sp": 900000,
           "data_unit_id": "us_battleship_arizona_1931",
+          "required_unit_id": "us_battleship_texas",
           "selected": false,
           "class_name": "",
           "details": true,
-          "main_role": "Battleship"
+          "rank": "VI",
+          "research_country": "USA",
+          "main_role": "Battleship",
+          "is_component": false,
+          "component_of": null,
+          "is_premium": false,
+          "is_squadron": false,
+          "wiki": {
+            "url": "https://wiki.warthunder.com/unit/us_battleship_arizona_1931",
+            "rank": "VI",
+            "battle_rating_context": "default",
+            "battle_ratings": {
+              "AB": "7.3",
+              "RB": "7.3"
+            },
+            "battle_ratings_by_battle": {
+              "default": {
+                "AB": "7.3",
+                "RB": "7.3"
+              }
+            },
+            "research": "300,000",
+            "purchase": "900,000",
+            "purchase_currency": "SL",
+            "status": null,
+            "fetched_at": "2026-09-19T06:32:09.190Z",
+            "sha256": "cf281cf96129257b07f5801853de14e5ae6865be2df031c255d57a045b6785f1"
+          }
         },
         {
           "type": "single",
-          "title": "USS Colorado",
+          "title": "USS Colorado",
           "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/us_battleship_colorado_class_colorado.png",
           "br": "7.7",
-          "rp": "350,000",
-          "sp": "1,050,000",
+          "rp": 350000,
+          "sp": 1050000,
           "data_unit_id": "us_battleship_colorado_class_colorado",
+          "required_unit_id": "us_battleship_arizona_1931",
           "selected": false,
           "class_name": "",
           "details": true,
-          "main_role": "Battleship"
+          "rank": "VI",
+          "research_country": "USA",
+          "main_role": "Battleship",
+          "is_component": false,
+          "component_of": null,
+          "is_premium": false,
+          "is_squadron": false,
+          "wiki": {
+            "url": "https://wiki.warthunder.com/unit/us_battleship_colorado_class_colorado",
+            "rank": "VI",
+            "battle_rating_context": "default",
+            "battle_ratings": {
+              "AB": "7.7",
+              "RB": "7.7"
+            },
+            "battle_ratings_by_battle": {
+              "default": {
+                "AB": "7.7",
+                "RB": "7.7"
+              }
+            },
+            "research": "350,000",
+            "purchase": "1,050,000",
+            "purchase_currency": "SL",
+            "status": null,
+            "fetched_at": "2026-09-19T06:32:09.432Z",
+            "sha256": "a309e5d7f039d8e2823b8d7c56f9beda9dcef9157b69cbe4c270635a5c5b9ac1"
+          }
         }
       ],
       [
         {
           "type": "single",
-          "title": "USS Nevada",
+          "title": "USS Nevada",
           "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/us_battleship_nevada.png",
           "br": "7.3",
-          "rp": "260,000",
-          "sp": "780,000",
+          "rp": 260000,
+          "sp": 780000,
           "data_unit_id": "us_battleship_nevada",
+          "required_unit_id": "us_battleship_wyoming_class",
           "selected": false,
           "class_name": "",
           "details": true,
-          "main_role": "Battleship"
+          "rank": "VI",
+          "research_country": "USA",
+          "main_role": "Battleship",
+          "is_component": false,
+          "component_of": null,
+          "is_premium": false,
+          "is_squadron": false,
+          "wiki": {
+            "url": "https://wiki.warthunder.com/unit/us_battleship_nevada",
+            "rank": "VI",
+            "battle_rating_context": "default",
+            "battle_ratings": {
+              "AB": "7.3",
+              "RB": "7.3"
+            },
+            "battle_ratings_by_battle": {
+              "default": {
+                "AB": "7.3",
+                "RB": "7.3"
+              }
+            },
+            "research": "260,000",
+            "purchase": "780,000",
+            "purchase_currency": "SL",
+            "status": null,
+            "fetched_at": "2026-09-19T06:32:09.821Z",
+            "sha256": "60ec1f0e495ee19f96cc20ecbaa3a24caca4c84a11dd0b247c9c1b516ec7a810"
+          }
         },
         {
           "type": "single",
-          "title": "USS Tennessee",
+          "title": "USS Tennessee",
           "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/us_battleship_tennessee.png",
           "br": "7.7",
-          "rp": "300,000",
-          "sp": "900,000",
+          "rp": 300000,
+          "sp": 900000,
           "data_unit_id": "us_battleship_tennessee",
+          "required_unit_id": "us_battleship_nevada",
           "selected": false,
           "class_name": "",
           "details": true,
-          "main_role": "Battleship"
+          "rank": "VI",
+          "research_country": "USA",
+          "main_role": "Battleship",
+          "is_component": false,
+          "component_of": null,
+          "is_premium": false,
+          "is_squadron": false,
+          "wiki": {
+            "url": "https://wiki.warthunder.com/unit/us_battleship_tennessee",
+            "rank": "VI",
+            "battle_rating_context": "default",
+            "battle_ratings": {
+              "AB": "7.7",
+              "RB": "7.7"
+            },
+            "battle_ratings_by_battle": {
+              "default": {
+                "AB": "7.7",
+                "RB": "7.7"
+              }
+            },
+            "research": "300,000",
+            "purchase": "900,000",
+            "purchase_currency": "SL",
+            "status": null,
+            "fetched_at": "2026-09-19T06:32:10.200Z",
+            "sha256": "923d36c06be929853fcba8e5ec9068b3d8a616014660f08a36328e1f2b732a15"
+          }
         }
       ],
       [
         {
           "type": "single",
-          "title": "USS Alaska",
+          "title": "USS Alaska",
           "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/us_battlecruiser_alaska_class.png",
           "br": "7.3",
-          "rp": "220,000",
-          "sp": "660,000",
+          "rp": 220000,
+          "sp": 660000,
           "data_unit_id": "us_battlecruiser_alaska_class",
+          "required_unit_id": "us_cruiser_oregon_class",
           "selected": false,
           "class_name": "",
           "details": true,
-          "main_role": "Battlecruiser"
+          "rank": "VI",
+          "research_country": "USA",
+          "main_role": "Battlecruiser",
+          "is_component": false,
+          "component_of": null,
+          "is_premium": false,
+          "is_squadron": false,
+          "wiki": {
+            "url": "https://wiki.warthunder.com/unit/us_battlecruiser_alaska_class",
+            "rank": "VI",
+            "battle_rating_context": "default",
+            "battle_ratings": {
+              "AB": "7.3",
+              "RB": "7.3"
+            },
+            "battle_ratings_by_battle": {
+              "default": {
+                "AB": "7.3",
+                "RB": "7.3"
+              }
+            },
+            "research": "220,000",
+            "purchase": "660,000",
+            "purchase_currency": "SL",
+            "status": null,
+            "fetched_at": "2026-09-19T06:32:08.931Z",
+            "sha256": "b6a066b7562d3b8c42dcfe3c72ecb04a6177fa2a0299d4dd98764d7616b6d812"
+          }
         }
       ]
     ],
@@ -751,80 +2188,263 @@
       [
         {
           "type": "single",
-          "title": "USS Mississippi",
+          "title": "USS Mississippi",
           "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/us_battleship_mississippi.png",
           "br": "7.7",
           "rp": null,
           "sp": null,
           "data_unit_id": "us_battleship_mississippi",
+          "required_unit_id": "",
           "selected": false,
           "class_name": "",
           "details": true,
-          "main_role": "Battleship"
+          "rank": "VI",
+          "research_country": "USA",
+          "main_role": "Battleship",
+          "is_component": false,
+          "component_of": null,
+          "is_premium": false,
+          "is_squadron": false,
+          "wiki": {
+            "url": "https://wiki.warthunder.com/unit/us_battleship_mississippi",
+            "rank": "VI",
+            "battle_rating_context": "default",
+            "battle_ratings": {
+              "AB": "7.7",
+              "RB": "7.7"
+            },
+            "battle_ratings_by_battle": {
+              "default": {
+                "AB": "7.7",
+                "RB": "7.7"
+              }
+            },
+            "research": null,
+            "purchase": null,
+            "purchase_currency": null,
+            "status": null,
+            "fetched_at": "2026-09-19T06:32:09.466Z",
+            "sha256": "074e6185a208858d4c66203cab19f04f44d2ca4f613620327bbb8331675ce3eb"
+          }
         },
         {
           "type": "single",
-          "title": "USS Maryland",
+          "title": "USS Maryland",
           "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/us_battleship_colorado_class_maryland.png",
           "br": "7.7",
           "rp": 0,
           "sp": 0,
           "data_unit_id": "us_battleship_colorado_class_maryland",
+          "required_unit_id": "",
           "selected": false,
           "class_name": "prem",
           "details": true,
-          "main_role": "Battleship"
+          "rank": "VI",
+          "research_country": "USA",
+          "main_role": "Battleship",
+          "is_component": false,
+          "component_of": null,
+          "is_premium": true,
+          "is_squadron": false,
+          "wiki": {
+            "url": "https://wiki.warthunder.com/unit/us_battleship_colorado_class_maryland",
+            "rank": "VI",
+            "battle_rating_context": "default",
+            "battle_ratings": {
+              "AB": "7.7",
+              "RB": "7.7"
+            },
+            "battle_ratings_by_battle": {
+              "default": {
+                "AB": "7.7",
+                "RB": "7.7"
+              }
+            },
+            "research": null,
+            "purchase": null,
+            "purchase_currency": null,
+            "status": "Premium vehicle",
+            "fetched_at": "2026-09-19T06:32:09.310Z",
+            "sha256": "361c9d2460d77da705e51131f58e572fe7529160eec548d036c9336704f3096b"
+          }
         }
       ],
       [
         {
           "type": "single",
-          "title": "USS Oklahoma",
+          "title": "USS Oklahoma",
           "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/us_battleship_oklahoma.png",
           "br": "7.0",
           "rp": null,
           "sp": null,
           "data_unit_id": "us_battleship_oklahoma",
+          "required_unit_id": "",
           "selected": false,
           "class_name": "",
           "details": true,
-          "main_role": "Battleship"
+          "rank": "VI",
+          "research_country": "USA",
+          "main_role": "Battleship",
+          "is_component": false,
+          "component_of": null,
+          "is_premium": false,
+          "is_squadron": false,
+          "wiki": {
+            "url": "https://wiki.warthunder.com/unit/us_battleship_oklahoma",
+            "rank": "VI",
+            "battle_rating_context": "default",
+            "battle_ratings": {
+              "AB": "7.0",
+              "RB": "7.0"
+            },
+            "battle_ratings_by_battle": {
+              "default": {
+                "AB": "7.0",
+                "RB": "7.0"
+              }
+            },
+            "research": null,
+            "purchase": null,
+            "purchase_currency": null,
+            "status": null,
+            "fetched_at": "2026-09-19T06:32:09.978Z",
+            "sha256": "88180c062a75c828761bd33c7b4193b75dcd2b019f1f02d1461481e8062e2e57"
+          }
         }
       ]
     ],
     "selected": [],
-    "unlock_quantity": 0
+    "unlock_quantity": null,
+    "source": "wiki"
   },
   {
     "rank": "VII",
     "researchable_vehicles": [
-      [],
       [
         {
           "type": "single",
-          "title": "USS South Dakota",
-          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/us_battleship_south_dakota.png",
+          "title": "USS North Carolina",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/us_battleship_north_carolina_class.png",
           "br": "8.3",
-          "rp": "400,000",
-          "sp": "1,150,000",
-          "data_unit_id": "us_battleship_south_dakota",
+          "rp": 400000,
+          "sp": 1150000,
+          "data_unit_id": "us_battleship_north_carolina_class",
+          "required_unit_id": "us_battleship_colorado_class_colorado",
           "selected": false,
           "class_name": "",
           "details": true,
-          "main_role": "Battleship"
+          "rank": "VII",
+          "research_country": "USA",
+          "main_role": "Battleship",
+          "is_component": false,
+          "component_of": null,
+          "is_premium": false,
+          "is_squadron": false,
+          "wiki": {
+            "url": "https://wiki.warthunder.com/unit/us_battleship_north_carolina_class",
+            "rank": "VII",
+            "battle_rating_context": "default",
+            "battle_ratings": {
+              "AB": "8.3",
+              "RB": "8.3"
+            },
+            "battle_ratings_by_battle": {
+              "default": {
+                "AB": "8.3",
+                "RB": "8.3"
+              }
+            },
+            "research": "400,000",
+            "purchase": "1,150,000",
+            "purchase_currency": "SL",
+            "status": null,
+            "fetched_at": "2026-09-19T06:32:10.031Z",
+            "sha256": "53bdeebb8392c50c8e4a0fabdc5190b412100c0ba175be42780e98ce888c8baa"
+          }
+        }
+      ],
+      [
+        {
+          "type": "single",
+          "title": "USS South Dakota",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/us_battleship_south_dakota.png",
+          "br": "8.3",
+          "rp": 400000,
+          "sp": 1150000,
+          "data_unit_id": "us_battleship_south_dakota",
+          "required_unit_id": "us_battleship_tennessee",
+          "selected": false,
+          "class_name": "",
+          "details": true,
+          "rank": "VII",
+          "research_country": "USA",
+          "main_role": "Battleship",
+          "is_component": false,
+          "component_of": null,
+          "is_premium": false,
+          "is_squadron": false,
+          "wiki": {
+            "url": "https://wiki.warthunder.com/unit/us_battleship_south_dakota",
+            "rank": "VII",
+            "battle_rating_context": "default",
+            "battle_ratings": {
+              "AB": "8.3",
+              "RB": "8.3"
+            },
+            "battle_ratings_by_battle": {
+              "default": {
+                "AB": "8.3",
+                "RB": "8.3"
+              }
+            },
+            "research": "400,000",
+            "purchase": "1,150,000",
+            "purchase_currency": "SL",
+            "status": null,
+            "fetched_at": "2026-09-19T06:32:09.968Z",
+            "sha256": "2957fdf3d5d8b37517261b3e9ed31ece5e548449b51324e39229c4711e6b2bab"
+          }
         },
         {
           "type": "single",
-          "title": "USS Iowa",
+          "title": "USS Iowa",
           "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/us_battleship_iowa_class_iowa.png",
           "br": "8.7",
-          "rp": "410,000",
-          "sp": "1,190,000",
+          "rp": 410000,
+          "sp": 1190000,
           "data_unit_id": "us_battleship_iowa_class_iowa",
+          "required_unit_id": "us_battleship_south_dakota",
           "selected": false,
           "class_name": "",
           "details": true,
-          "main_role": "Battleship"
+          "rank": "VII",
+          "research_country": "USA",
+          "main_role": "Battleship",
+          "is_component": false,
+          "component_of": null,
+          "is_premium": false,
+          "is_squadron": false,
+          "wiki": {
+            "url": "https://wiki.warthunder.com/unit/us_battleship_iowa_class_iowa",
+            "rank": "VII",
+            "battle_rating_context": "default",
+            "battle_ratings": {
+              "AB": "8.7",
+              "RB": "8.7"
+            },
+            "battle_ratings_by_battle": {
+              "default": {
+                "AB": "8.7",
+                "RB": "8.7"
+              }
+            },
+            "research": "410,000",
+            "purchase": "1,190,000",
+            "purchase_currency": "SL",
+            "status": null,
+            "fetched_at": "2026-09-19T06:32:09.573Z",
+            "sha256": "85e2cd0e03d02e069ac953d5f94cc8d047eebbacbc71f05b6fe732e25cb95c88"
+          }
         }
       ],
       []
@@ -834,6 +2454,7 @@
       []
     ],
     "selected": [],
-    "unlock_quantity": 0
+    "unlock_quantity": null,
+    "source": "wiki"
   }
 ]

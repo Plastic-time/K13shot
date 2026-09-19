@@ -1,10 +1,10 @@
-<!doctype html>
+﻿<!doctype html>
 <html lang="zh-CN">
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <title>War Thunder 研发计算器</title>
-    <link rel="stylesheet" href="styles.css" />
+    <link rel="stylesheet" href="styles.css?v=wiki-20260919" />
   </head>
   <body>
     <div class="app-shell">
@@ -48,11 +48,11 @@
         <dl class="page-notice-grid">
           <div>
             <dt>数据来源</dt>
-            <dd>页面读取本仓库 <code>docs/database</code> 内的科技树快照。数据仅会随仓库发布更新，不会在浏览器中连接或更新 War Thunder Wiki。</dd>
+            <dd>数据来自 War Thunder Wiki 的科技树与载具详情页，快照日期显示在页首。分房权重采用 Wiki 默认战斗类型的 RB 数值，飞机采用空战 RB。<a href="database/manifest.json" target="_blank" rel="noopener">数据核验清单</a></dd>
           </div>
           <div>
-            <dt>本次修正</dt>
-            <dd>联队载具会标记为“联队载具”，其 RP 与 SL 均按 0 计算，不计入合计。叠加载具按实际前置关系计算；Rank I 初始载具自动视为已解锁，Rank I 到 Rank II 按所需解锁数量判定。</dd>
+            <dt>计算口径</dt>
+            <dd>前置路线采用 Wiki 明确列出的关系。金币与联队载具不计入普通研发合计，不代表游戏内免费；数据保留原始费用。组合系统的附属载具关联主车。Wiki 未提供的费用显示“未提供”，合计保留“未知”；跨等级解锁数量未提供，仍需在游戏内确认。</dd>
           </div>
           <div>
             <dt>本机保存</dt>
@@ -98,7 +98,6 @@
 
     </div>
 
-    <script src="app.js"></script>
+    <script src="app.js?v=wiki-20260919"></script>
   </body>
 </html>
-

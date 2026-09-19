@@ -10,6 +10,7 @@
           "selected": false,
           "br": "1.0",
           "data_unit_id": "gladiator_j8a_group",
+          "required_unit_id": "",
           "class_name": "",
           "items": [
             {
@@ -17,42 +18,134 @@
               "title": "J8A",
               "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/gladiator_j8a.png",
               "br": "1.0",
-              "rp": null,
-              "sp": null,
+              "rp": 0,
+              "sp": 0,
               "data_unit_id": "gladiator_j8a",
+              "required_unit_id": "",
               "selected": false,
               "class_name": "",
               "details": true,
-              "main_role": "Fighter"
+              "rank": "I",
+              "research_country": "Sweden",
+              "main_role": "Fighter",
+              "is_component": false,
+              "component_of": null,
+              "is_premium": false,
+              "is_squadron": false,
+              "wiki": {
+                "url": "https://wiki.warthunder.com/unit/gladiator_j8a",
+                "rank": "I",
+                "battle_rating_context": "default",
+                "battle_ratings": {
+                  "AB": "1.0",
+                  "RB": "1.0",
+                  "SB": "1.0"
+                },
+                "battle_ratings_by_battle": {
+                  "default": {
+                    "AB": "1.0",
+                    "RB": "1.0",
+                    "SB": "1.0"
+                  }
+                },
+                "research": "Free",
+                "purchase": "Free",
+                "purchase_currency": "SL",
+                "status": null,
+                "fetched_at": "2026-09-19T06:31:46.662Z",
+                "sha256": "49f661d30d33a67d479876088d95c915f719a7e2d86247bd8c51545191b620b2"
+              }
             },
             {
               "type": "single",
               "title": "J6B",
               "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/j6b.png",
               "br": "1.0",
-              "rp": null,
-              "sp": null,
+              "rp": 0,
+              "sp": 0,
               "data_unit_id": "j6b",
+              "required_unit_id": "gladiator_j8a",
               "selected": false,
               "class_name": "",
               "details": true,
-              "main_role": "Fighter"
+              "rank": "I",
+              "research_country": "Sweden",
+              "main_role": "Fighter",
+              "is_component": false,
+              "component_of": null,
+              "is_premium": false,
+              "is_squadron": false,
+              "wiki": {
+                "url": "https://wiki.warthunder.com/unit/j6b",
+                "rank": "I",
+                "battle_rating_context": "default",
+                "battle_ratings": {
+                  "AB": "1.0",
+                  "RB": "1.0",
+                  "SB": "1.0"
+                },
+                "battle_ratings_by_battle": {
+                  "default": {
+                    "AB": "1.0",
+                    "RB": "1.0",
+                    "SB": "1.0"
+                  }
+                },
+                "research": "Free",
+                "purchase": "Free",
+                "purchase_currency": "SL",
+                "status": null,
+                "fetched_at": "2026-09-19T06:31:47.065Z",
+                "sha256": "0d26f3c0be8024aaa7788286b627e6f3197a018e742568441a4b17b0c8fbce6b"
+              }
             }
           ],
-          "details": true
+          "details": true,
+          "rp": 0,
+          "sp": 0
         },
         {
           "type": "single",
           "title": "J11",
           "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/fiat_cr42_j11.png",
           "br": "1.3",
-          "rp": "2,900",
-          "sp": "700",
+          "rp": 2900,
+          "sp": 700,
           "data_unit_id": "fiat_cr42_j11",
+          "required_unit_id": "gladiator_j8a_group",
           "selected": false,
           "class_name": "",
           "details": true,
-          "main_role": "Fighter"
+          "rank": "I",
+          "research_country": "Sweden",
+          "main_role": "Fighter",
+          "is_component": false,
+          "component_of": null,
+          "is_premium": false,
+          "is_squadron": false,
+          "wiki": {
+            "url": "https://wiki.warthunder.com/unit/fiat_cr42_j11",
+            "rank": "I",
+            "battle_rating_context": "default",
+            "battle_ratings": {
+              "AB": "1.7",
+              "RB": "1.3",
+              "SB": "1.3"
+            },
+            "battle_ratings_by_battle": {
+              "default": {
+                "AB": "1.7",
+                "RB": "1.3",
+                "SB": "1.3"
+              }
+            },
+            "research": "2,900",
+            "purchase": "700",
+            "purchase_currency": "SL",
+            "status": null,
+            "fetched_at": "2026-09-19T06:31:46.305Z",
+            "sha256": "2d52f37a014539de59a47eccad50c3065616eba2e78a8122bbb43aed606fb368"
+          }
         }
       ],
       [
@@ -61,13 +154,43 @@
           "title": "S17BS",
           "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/saab_b17bs.png",
           "br": "1.0",
-          "rp": "2,900",
-          "sp": "700",
+          "rp": 2900,
+          "sp": 700,
           "data_unit_id": "saab_b17bs",
+          "required_unit_id": "",
           "selected": false,
           "class_name": "",
           "details": true,
-          "main_role": "Bomber"
+          "rank": "I",
+          "research_country": "Sweden",
+          "main_role": "Bomber",
+          "is_component": false,
+          "component_of": null,
+          "is_premium": false,
+          "is_squadron": false,
+          "wiki": {
+            "url": "https://wiki.warthunder.com/unit/saab_b17bs",
+            "rank": "I",
+            "battle_rating_context": "default",
+            "battle_ratings": {
+              "AB": "1.3",
+              "RB": "1.0",
+              "SB": "1.3"
+            },
+            "battle_ratings_by_battle": {
+              "default": {
+                "AB": "1.3",
+                "RB": "1.0",
+                "SB": "1.3"
+              }
+            },
+            "research": "2,900",
+            "purchase": "700",
+            "purchase_currency": "SL",
+            "status": null,
+            "fetched_at": "2026-09-19T06:31:49.421Z",
+            "sha256": "9b1fb56dcd276f62a732b011e5afbed61d86f01d70f120e05dcd3c50397c761d"
+          }
         },
         {
           "type": "multiple",
@@ -76,6 +199,7 @@
           "selected": false,
           "br": "1.3-1.7",
           "data_unit_id": "saab_b17a_group",
+          "required_unit_id": "saab_b17bs",
           "class_name": "",
           "items": [
             {
@@ -83,72 +207,224 @@
               "title": "B17B",
               "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/saab_b17b.png",
               "br": "1.3",
-              "rp": "4,000",
-              "sp": "2,100",
+              "rp": 4000,
+              "sp": 2100,
               "data_unit_id": "saab_b17b",
+              "required_unit_id": "",
               "selected": false,
               "class_name": "",
               "details": true,
-              "main_role": "Bomber"
+              "rank": "I",
+              "research_country": "Sweden",
+              "main_role": "Bomber",
+              "is_component": false,
+              "component_of": null,
+              "is_premium": false,
+              "is_squadron": false,
+              "wiki": {
+                "url": "https://wiki.warthunder.com/unit/saab_b17b",
+                "rank": "I",
+                "battle_rating_context": "default",
+                "battle_ratings": {
+                  "AB": "1.3",
+                  "RB": "1.3",
+                  "SB": "1.3"
+                },
+                "battle_ratings_by_battle": {
+                  "default": {
+                    "AB": "1.3",
+                    "RB": "1.3",
+                    "SB": "1.3"
+                  }
+                },
+                "research": "4,000",
+                "purchase": "2,100",
+                "purchase_currency": "SL",
+                "status": null,
+                "fetched_at": "2026-09-19T06:31:49.512Z",
+                "sha256": "1ffe4329633cfab14a5caee09d4ccaa359ba9b29017f0cf10e82745fc7a87a6a"
+              }
             },
             {
               "type": "single",
               "title": "B17A",
               "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/saab_b17a.png",
               "br": "1.7",
-              "rp": "3,000",
-              "sp": "6,300",
+              "rp": 3000,
+              "sp": 6300,
               "data_unit_id": "saab_b17a",
+              "required_unit_id": "saab_b17b",
               "selected": false,
               "class_name": "",
               "details": true,
-              "main_role": "Bomber"
+              "rank": "I",
+              "research_country": "Sweden",
+              "main_role": "Bomber",
+              "is_component": false,
+              "component_of": null,
+              "is_premium": false,
+              "is_squadron": false,
+              "wiki": {
+                "url": "https://wiki.warthunder.com/unit/saab_b17a",
+                "rank": "I",
+                "battle_rating_context": "default",
+                "battle_ratings": {
+                  "AB": "1.7",
+                  "RB": "1.7",
+                  "SB": "2.0"
+                },
+                "battle_ratings_by_battle": {
+                  "default": {
+                    "AB": "1.7",
+                    "RB": "1.7",
+                    "SB": "2.0"
+                  }
+                },
+                "research": "3,000",
+                "purchase": "6,300",
+                "purchase_currency": "SL",
+                "status": null,
+                "fetched_at": "2026-09-19T06:31:49.170Z",
+                "sha256": "01d0eedf6bd881466a36988df7b0f6423d4187eeacaaf8cd9633480f944d6d06"
+              }
             }
           ],
-          "details": true
+          "details": true,
+          "rp": 7000,
+          "sp": 8400
         }
       ],
       [
         {
           "type": "single",
-          "title": "T 2",
+          "title": "T 2",
           "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/he_115a_2_sweden.png",
           "br": "1.0",
-          "rp": "2,900",
-          "sp": "700",
+          "rp": 2900,
+          "sp": 700,
           "data_unit_id": "he_115a_2_sweden",
+          "required_unit_id": "",
           "selected": false,
           "class_name": "",
           "details": true,
-          "main_role": "Bomber"
+          "rank": "I",
+          "research_country": "Sweden",
+          "main_role": "Bomber",
+          "is_component": false,
+          "component_of": null,
+          "is_premium": false,
+          "is_squadron": false,
+          "wiki": {
+            "url": "https://wiki.warthunder.com/unit/he_115a_2_sweden",
+            "rank": "I",
+            "battle_rating_context": "default",
+            "battle_ratings": {
+              "AB": "1.0",
+              "RB": "1.0",
+              "SB": "1.0"
+            },
+            "battle_ratings_by_battle": {
+              "default": {
+                "AB": "1.0",
+                "RB": "1.0",
+                "SB": "1.0"
+              }
+            },
+            "research": "2,900",
+            "purchase": "700",
+            "purchase_currency": "SL",
+            "status": null,
+            "fetched_at": "2026-09-19T06:31:46.786Z",
+            "sha256": "440399cd156b95232de85765757260fa853f9056fbb7b9baad76da1decac4710"
+          }
         },
         {
           "type": "single",
           "title": "B3C",
           "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/saab_b3c.png",
           "br": "1.3",
-          "rp": "4,000",
-          "sp": "2,100",
+          "rp": 4000,
+          "sp": 2100,
           "data_unit_id": "saab_b3c",
+          "required_unit_id": "he_115a_2_sweden",
           "selected": false,
           "class_name": "",
           "details": true,
-          "main_role": "Bomber"
+          "rank": "I",
+          "research_country": "Sweden",
+          "main_role": "Bomber",
+          "is_component": false,
+          "component_of": null,
+          "is_premium": false,
+          "is_squadron": false,
+          "wiki": {
+            "url": "https://wiki.warthunder.com/unit/saab_b3c",
+            "rank": "I",
+            "battle_rating_context": "default",
+            "battle_ratings": {
+              "AB": "1.0",
+              "RB": "1.3",
+              "SB": "1.3"
+            },
+            "battle_ratings_by_battle": {
+              "default": {
+                "AB": "1.0",
+                "RB": "1.3",
+                "SB": "1.3"
+              }
+            },
+            "research": "4,000",
+            "purchase": "2,100",
+            "purchase_currency": "SL",
+            "status": null,
+            "fetched_at": "2026-09-19T06:31:49.730Z",
+            "sha256": "cfb271972327e0f28ff4d4100346873c49ce888f9b6832623c37aaa5d6672144"
+          }
         }
       ],
       [
         {
           "type": "single",
-          "title": "▄Fokker D.XXI-3",
+          "title": "▄Fokker D.XXI-3",
           "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/fokker_d21_serie3_finland.png",
           "br": "1.7",
-          "rp": "4,000",
-          "sp": "2,100",
+          "rp": 4000,
+          "sp": 2100,
           "data_unit_id": "fokker_d21_serie3_finland",
+          "required_unit_id": "",
           "selected": false,
           "class_name": "",
           "details": true,
-          "main_role": "Fighter"
+          "rank": "I",
+          "research_country": "Sweden",
+          "main_role": "Fighter",
+          "is_component": false,
+          "component_of": null,
+          "is_premium": false,
+          "is_squadron": false,
+          "wiki": {
+            "url": "https://wiki.warthunder.com/unit/fokker_d21_serie3_finland",
+            "rank": "I",
+            "battle_rating_context": "default",
+            "battle_ratings": {
+              "AB": "1.7",
+              "RB": "1.7",
+              "SB": "1.7"
+            },
+            "battle_ratings_by_battle": {
+              "default": {
+                "AB": "1.7",
+                "RB": "1.7",
+                "SB": "1.7"
+              }
+            },
+            "research": "4,000",
+            "purchase": "2,100",
+            "purchase_currency": "SL",
+            "status": null,
+            "fetched_at": "2026-09-19T06:31:46.426Z",
+            "sha256": "709948d1178c7b151065d4755c7ac412a8c74c2804a0f188e127d176f5a6ebcd"
+          }
         }
       ]
     ],
@@ -156,35 +432,96 @@
       [
         {
           "type": "single",
-          "title": "Iacobi's J8A",
+          "title": "Iacobi's J8A",
           "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/gladiator_j8a_iacobi.png",
           "br": "1.0",
           "rp": 0,
           "sp": 0,
           "data_unit_id": "gladiator_j8a_iacobi",
+          "required_unit_id": "",
           "selected": false,
           "class_name": "prem",
           "details": true,
-          "main_role": "Fighter"
+          "rank": "I",
+          "research_country": "Sweden",
+          "main_role": "Fighter",
+          "is_component": false,
+          "component_of": null,
+          "is_premium": true,
+          "is_squadron": false,
+          "wiki": {
+            "url": "https://wiki.warthunder.com/unit/gladiator_j8a_iacobi",
+            "rank": "I",
+            "battle_rating_context": "default",
+            "battle_ratings": {
+              "AB": "1.0",
+              "RB": "1.0",
+              "SB": "1.0"
+            },
+            "battle_ratings_by_battle": {
+              "default": {
+                "AB": "1.0",
+                "RB": "1.0",
+                "SB": "1.0"
+              }
+            },
+            "research": null,
+            "purchase": "250",
+            "purchase_currency": "GE",
+            "status": "Premium vehicle",
+            "fetched_at": "2026-09-19T06:31:46.528Z",
+            "sha256": "2da4893faf0b7e860531ebe2b2cf97d164e8fff396c6cd562db14b6e9f61cd46"
+          }
         },
         {
           "type": "single",
-          "title": "▄Ar 196 A-5",
+          "title": "▄Ar 196 A-5",
           "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/arado-196a-5.png",
           "br": "1.3",
           "rp": 0,
           "sp": 0,
           "data_unit_id": "arado-196a-5",
+          "required_unit_id": "",
           "selected": false,
           "class_name": "prem",
           "details": true,
-          "main_role": "Bomber"
+          "rank": "I",
+          "research_country": "Sweden",
+          "main_role": "Bomber",
+          "is_component": false,
+          "component_of": null,
+          "is_premium": true,
+          "is_squadron": false,
+          "wiki": {
+            "url": "https://wiki.warthunder.com/unit/arado-196a-5",
+            "rank": "I",
+            "battle_rating_context": "default",
+            "battle_ratings": {
+              "AB": "1.7",
+              "RB": "1.3",
+              "SB": "1.7"
+            },
+            "battle_ratings_by_battle": {
+              "default": {
+                "AB": "1.7",
+                "RB": "1.3",
+                "SB": "1.7"
+              }
+            },
+            "research": null,
+            "purchase": "400",
+            "purchase_currency": "GE",
+            "status": "Premium vehicle",
+            "fetched_at": "2026-09-19T06:31:44.883Z",
+            "sha256": "3ff5ec9d825d78b5fbd4577b5c147265c67d4013214a4571b3d1768688fd1e7b"
+          }
         }
       ],
       []
     ],
     "selected": [],
-    "unlock_quantity": 0
+    "unlock_quantity": null,
+    "source": "wiki"
   },
   {
     "rank": "II",
@@ -195,26 +532,86 @@
           "title": "J20",
           "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/re_2000_j20.png",
           "br": "2.0",
-          "rp": "7,900",
-          "sp": "10,000",
+          "rp": 7900,
+          "sp": 10000,
           "data_unit_id": "re_2000_j20",
+          "required_unit_id": "",
           "selected": false,
           "class_name": "",
           "details": true,
-          "main_role": "Fighter"
+          "rank": "II",
+          "research_country": "Sweden",
+          "main_role": "Fighter",
+          "is_component": false,
+          "component_of": null,
+          "is_premium": false,
+          "is_squadron": false,
+          "wiki": {
+            "url": "https://wiki.warthunder.com/unit/re_2000_j20",
+            "rank": "II",
+            "battle_rating_context": "default",
+            "battle_ratings": {
+              "AB": "2.0",
+              "RB": "2.0",
+              "SB": "1.7"
+            },
+            "battle_ratings_by_battle": {
+              "default": {
+                "AB": "2.0",
+                "RB": "2.0",
+                "SB": "1.7"
+              }
+            },
+            "research": "7,900",
+            "purchase": "10,000",
+            "purchase_currency": "SL",
+            "status": null,
+            "fetched_at": "2026-09-19T06:31:48.308Z",
+            "sha256": "17e57e5db14872383c8a047d61e5b34356b34028e66c9337c8fbf42856793caa"
+          }
         },
         {
           "type": "single",
           "title": "J22-A",
           "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/ffvs_j22_a.png",
           "br": "3.0",
-          "rp": "9,200",
-          "sp": "16,000",
+          "rp": 9200,
+          "sp": 16000,
           "data_unit_id": "ffvs_j22_a",
+          "required_unit_id": "re_2000_j20",
           "selected": false,
           "class_name": "",
           "details": true,
-          "main_role": "Fighter"
+          "rank": "II",
+          "research_country": "Sweden",
+          "main_role": "Fighter",
+          "is_component": false,
+          "component_of": null,
+          "is_premium": false,
+          "is_squadron": false,
+          "wiki": {
+            "url": "https://wiki.warthunder.com/unit/ffvs_j22_a",
+            "rank": "II",
+            "battle_rating_context": "default",
+            "battle_ratings": {
+              "AB": "3.0",
+              "RB": "3.0",
+              "SB": "2.0"
+            },
+            "battle_ratings_by_battle": {
+              "default": {
+                "AB": "3.0",
+                "RB": "3.0",
+                "SB": "2.0"
+              }
+            },
+            "research": "9,200",
+            "purchase": "16,000",
+            "purchase_currency": "SL",
+            "status": null,
+            "fetched_at": "2026-09-19T06:31:46.039Z",
+            "sha256": "a468b5f75f8859753f752b6659cf12626e79997df8174397522dca7e00efb394"
+          }
         }
       ],
       [],
@@ -224,26 +621,96 @@
           "title": "B18A",
           "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/saab_b18a.png",
           "br": "2.7",
-          "rp": "7,900",
-          "sp": "10,000",
+          "rp": 7900,
+          "sp": 10000,
           "data_unit_id": "saab_b18a",
+          "required_unit_id": "",
           "selected": false,
           "class_name": "",
           "details": true,
-          "main_role": "Bomber"
+          "rank": "II",
+          "research_country": "Sweden",
+          "main_role": "Bomber",
+          "is_component": false,
+          "component_of": null,
+          "is_premium": false,
+          "is_squadron": false,
+          "wiki": {
+            "url": "https://wiki.warthunder.com/unit/saab_b18a",
+            "rank": "II",
+            "battle_rating_context": "air",
+            "battle_ratings": {
+              "AB": "2.3",
+              "RB": "2.7",
+              "SB": "2.3"
+            },
+            "battle_ratings_by_battle": {
+              "air": {
+                "AB": "2.3",
+                "RB": "2.7",
+                "SB": "2.3"
+              },
+              "tank": {
+                "AB": "—",
+                "RB": "2.3",
+                "SB": "2.3"
+              },
+              "ship": {
+                "AB": "2.3",
+                "RB": "2.7",
+                "SB": "—"
+              }
+            },
+            "research": "7,900",
+            "purchase": "10,000",
+            "purchase_currency": "SL",
+            "status": null,
+            "fetched_at": "2026-09-19T06:31:49.414Z",
+            "sha256": "8c19d2c9796025b364488f8b9b403c233f00018eca9e9e8710cab27f5e1bab12"
+          }
         },
         {
           "type": "single",
-          "title": "▄Ju 88 A-4",
+          "title": "▄Ju 88 A-4",
           "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/ju-88a-4_finland.png",
           "br": "3.0",
-          "rp": "9,200",
-          "sp": "16,000",
+          "rp": 9200,
+          "sp": 16000,
           "data_unit_id": "ju-88a-4_finland",
+          "required_unit_id": "saab_b18a",
           "selected": false,
           "class_name": "",
           "details": true,
-          "main_role": "Bomber"
+          "rank": "II",
+          "research_country": "Sweden",
+          "main_role": "Bomber",
+          "is_component": false,
+          "component_of": null,
+          "is_premium": false,
+          "is_squadron": false,
+          "wiki": {
+            "url": "https://wiki.warthunder.com/unit/ju-88a-4_finland",
+            "rank": "II",
+            "battle_rating_context": "default",
+            "battle_ratings": {
+              "AB": "3.3",
+              "RB": "3.0",
+              "SB": "2.7"
+            },
+            "battle_ratings_by_battle": {
+              "default": {
+                "AB": "3.3",
+                "RB": "3.0",
+                "SB": "2.7"
+              }
+            },
+            "research": "9,200",
+            "purchase": "16,000",
+            "purchase_currency": "SL",
+            "status": null,
+            "fetched_at": "2026-09-19T06:31:47.359Z",
+            "sha256": "02d2fc24a7094e868f0567f0212a97337a860fa1f1297f13f028f336387ddb2c"
+          }
         }
       ],
       [
@@ -251,27 +718,87 @@
           "type": "single",
           "title": "▄B-239",
           "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/b_239_finland.png",
-          "br": "2.7",
-          "rp": "7,900",
-          "sp": "10,000",
+          "br": "3.0",
+          "rp": 7900,
+          "sp": 10000,
           "data_unit_id": "b_239_finland",
+          "required_unit_id": "",
           "selected": false,
           "class_name": "",
           "details": true,
-          "main_role": "Fighter"
+          "rank": "II",
+          "research_country": "Sweden",
+          "main_role": "Fighter",
+          "is_component": false,
+          "component_of": null,
+          "is_premium": false,
+          "is_squadron": false,
+          "wiki": {
+            "url": "https://wiki.warthunder.com/unit/b_239_finland",
+            "rank": "II",
+            "battle_rating_context": "default",
+            "battle_ratings": {
+              "AB": "2.7",
+              "RB": "3.0",
+              "SB": "2.3"
+            },
+            "battle_ratings_by_battle": {
+              "default": {
+                "AB": "2.7",
+                "RB": "3.0",
+                "SB": "2.3"
+              }
+            },
+            "research": "7,900",
+            "purchase": "10,000",
+            "purchase_currency": "SL",
+            "status": null,
+            "fetched_at": "2026-09-19T06:31:44.842Z",
+            "sha256": "4a8c13d5a0d881ffe5c6824f152006dbc113c865e65ff2559f9acca9191ea1c1"
+          }
         },
         {
           "type": "single",
-          "title": "▄Hurricane Mk I/L",
+          "title": "▄Hurricane Mk I/L",
           "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/hurricane_mk1_late_finland.png",
           "br": "2.3",
-          "rp": "9,200",
-          "sp": "16,000",
+          "rp": 9200,
+          "sp": 16000,
           "data_unit_id": "hurricane_mk1_late_finland",
+          "required_unit_id": "b_239_finland",
           "selected": false,
           "class_name": "",
           "details": true,
-          "main_role": "Fighter"
+          "rank": "II",
+          "research_country": "Sweden",
+          "main_role": "Fighter",
+          "is_component": false,
+          "component_of": null,
+          "is_premium": false,
+          "is_squadron": false,
+          "wiki": {
+            "url": "https://wiki.warthunder.com/unit/hurricane_mk1_late_finland",
+            "rank": "II",
+            "battle_rating_context": "default",
+            "battle_ratings": {
+              "AB": "2.7",
+              "RB": "2.3",
+              "SB": "2.0"
+            },
+            "battle_ratings_by_battle": {
+              "default": {
+                "AB": "2.7",
+                "RB": "2.3",
+                "SB": "2.0"
+              }
+            },
+            "research": "9,200",
+            "purchase": "16,000",
+            "purchase_currency": "SL",
+            "status": null,
+            "fetched_at": "2026-09-19T06:31:46.837Z",
+            "sha256": "a4be6242aa7c1c64efe33782827d9d29bf7e2c7d6dfd3b4739fc9cb945e78070"
+          }
         }
       ]
     ],
@@ -279,16 +806,46 @@
       [
         {
           "type": "single",
-          "title": "▄Fokker D.XXI",
+          "title": "▄Fokker D.XXI",
           "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/fokker_d21_mod20.png",
           "br": "2.0",
           "rp": 0,
           "sp": 0,
           "data_unit_id": "fokker_d21_mod20",
+          "required_unit_id": "",
           "selected": false,
           "class_name": "prem",
           "details": true,
-          "main_role": "Fighter"
+          "rank": "II",
+          "research_country": "Sweden",
+          "main_role": "Fighter",
+          "is_component": false,
+          "component_of": null,
+          "is_premium": true,
+          "is_squadron": false,
+          "wiki": {
+            "url": "https://wiki.warthunder.com/unit/fokker_d21_mod20",
+            "rank": "II",
+            "battle_rating_context": "default",
+            "battle_ratings": {
+              "AB": "2.3",
+              "RB": "2.0",
+              "SB": "1.7"
+            },
+            "battle_ratings_by_battle": {
+              "default": {
+                "AB": "2.3",
+                "RB": "2.0",
+                "SB": "1.7"
+              }
+            },
+            "research": null,
+            "purchase": "700",
+            "purchase_currency": "GE",
+            "status": "Premium vehicle",
+            "fetched_at": "2026-09-19T06:31:46.228Z",
+            "sha256": "b4a037499b0f199a3ea2faaae1b0fb7e164e01157e360d8632899628906bc01c"
+          }
         },
         {
           "type": "single",
@@ -298,43 +855,134 @@
           "rp": 0,
           "sp": 0,
           "data_unit_id": "morko_morane",
+          "required_unit_id": "",
           "selected": false,
           "class_name": "prem",
           "details": true,
-          "main_role": "Fighter"
+          "rank": "II",
+          "research_country": "Sweden",
+          "main_role": "Fighter",
+          "is_component": false,
+          "component_of": null,
+          "is_premium": true,
+          "is_squadron": false,
+          "wiki": {
+            "url": "https://wiki.warthunder.com/unit/morko_morane",
+            "rank": "II",
+            "battle_rating_context": "default",
+            "battle_ratings": {
+              "AB": "2.3",
+              "RB": "2.3",
+              "SB": "1.7"
+            },
+            "battle_ratings_by_battle": {
+              "default": {
+                "AB": "2.3",
+                "RB": "2.3",
+                "SB": "1.7"
+              }
+            },
+            "research": null,
+            "purchase": "700",
+            "purchase_currency": "GE",
+            "status": "Premium vehicle",
+            "fetched_at": "2026-09-19T06:31:47.654Z",
+            "sha256": "e88522508c4e8141c0b710c0d74b38b63c61a87b6b7b566d284618d67aed4ff2"
+          }
         }
       ],
       [
         {
           "type": "single",
-          "title": "J9 Early",
+          "title": "J9 Early",
           "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/j9_early.png",
           "br": "2.3",
           "rp": 0,
           "sp": 0,
           "data_unit_id": "j9_early",
+          "required_unit_id": "",
           "selected": false,
           "class_name": "prem",
           "details": true,
-          "main_role": "Fighter"
+          "rank": "II",
+          "research_country": "Sweden",
+          "main_role": "Fighter",
+          "is_component": false,
+          "component_of": null,
+          "is_premium": true,
+          "is_squadron": false,
+          "wiki": {
+            "url": "https://wiki.warthunder.com/unit/j9_early",
+            "rank": "II",
+            "battle_rating_context": "default",
+            "battle_ratings": {
+              "AB": "2.3",
+              "RB": "2.3",
+              "SB": "2.0"
+            },
+            "battle_ratings_by_battle": {
+              "default": {
+                "AB": "2.3",
+                "RB": "2.3",
+                "SB": "2.0"
+              }
+            },
+            "research": null,
+            "purchase": null,
+            "purchase_currency": null,
+            "status": "Premium vehicle",
+            "fetched_at": "2026-09-19T06:31:47.113Z",
+            "sha256": "a08d70177a0d8b1b6349031a9f1f43d7b3e0dc3143a7626b3f573924eb144ea5"
+          }
         },
         {
           "type": "single",
-          "title": "VL Myrsky II",
+          "title": "VL Myrsky II",
           "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/vl_myrsky_2_late.png",
           "br": "2.3",
           "rp": 0,
           "sp": 0,
           "data_unit_id": "vl_myrsky_2_late",
+          "required_unit_id": "",
           "selected": false,
           "class_name": "prem",
           "details": true,
-          "main_role": "Fighter"
+          "rank": "II",
+          "research_country": "Sweden",
+          "main_role": "Fighter",
+          "is_component": false,
+          "component_of": null,
+          "is_premium": true,
+          "is_squadron": false,
+          "wiki": {
+            "url": "https://wiki.warthunder.com/unit/vl_myrsky_2_late",
+            "rank": "II",
+            "battle_rating_context": "default",
+            "battle_ratings": {
+              "AB": "2.7",
+              "RB": "2.3",
+              "SB": "2.3"
+            },
+            "battle_ratings_by_battle": {
+              "default": {
+                "AB": "2.7",
+                "RB": "2.3",
+                "SB": "2.3"
+              }
+            },
+            "research": null,
+            "purchase": null,
+            "purchase_currency": null,
+            "status": "Premium vehicle",
+            "fetched_at": "2026-09-19T06:31:52.483Z",
+            "sha256": "3c2d26e0f5f8049bfc38b1bd15626a5d763d2c4f592e6e56489d05a4ad6fcc29"
+          }
         }
       ]
     ],
     "selected": [],
-    "unlock_quantity": 0
+    "unlock_quantity": null,
+    "source": "wiki"
   },
   {
     "rank": "III",
@@ -345,28 +993,88 @@
           "title": "J22-B",
           "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/ffvs_j22_b.png",
           "br": "3.7",
-          "rp": "18,000",
-          "sp": "47,000",
+          "rp": 18000,
+          "sp": 47000,
           "data_unit_id": "ffvs_j22_b",
+          "required_unit_id": "ffvs_j22_a",
           "selected": false,
           "class_name": "",
           "details": true,
-          "main_role": "Fighter"
+          "rank": "III",
+          "research_country": "Sweden",
+          "main_role": "Fighter",
+          "is_component": false,
+          "component_of": null,
+          "is_premium": false,
+          "is_squadron": false,
+          "wiki": {
+            "url": "https://wiki.warthunder.com/unit/ffvs_j22_b",
+            "rank": "III",
+            "battle_rating_context": "default",
+            "battle_ratings": {
+              "AB": "4.0",
+              "RB": "3.7",
+              "SB": "2.3"
+            },
+            "battle_ratings_by_battle": {
+              "default": {
+                "AB": "4.0",
+                "RB": "3.7",
+                "SB": "2.3"
+              }
+            },
+            "research": "18,000",
+            "purchase": "47,000",
+            "purchase_currency": "SL",
+            "status": null,
+            "fetched_at": "2026-09-19T06:31:46.225Z",
+            "sha256": "e9e86109a77f03a21293c095659d47969a6f5a974c40c7aa153535072c99ebe8"
+          }
         }
       ],
       [
         {
           "type": "single",
-          "title": "◢Mosquito F.Mk.II",
+          "title": "◢Mosquito F.Mk.II",
           "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/mosquito_f_mk2_norway.png",
           "br": "3.7",
-          "rp": "18,000",
-          "sp": "47,000",
+          "rp": 18000,
+          "sp": 47000,
           "data_unit_id": "mosquito_f_mk2_norway",
+          "required_unit_id": "",
           "selected": false,
           "class_name": "",
           "details": true,
-          "main_role": "Fighter"
+          "rank": "III",
+          "research_country": "Sweden",
+          "main_role": "Fighter",
+          "is_component": false,
+          "component_of": null,
+          "is_premium": false,
+          "is_squadron": false,
+          "wiki": {
+            "url": "https://wiki.warthunder.com/unit/mosquito_f_mk2_norway",
+            "rank": "III",
+            "battle_rating_context": "default",
+            "battle_ratings": {
+              "AB": "3.7",
+              "RB": "3.7",
+              "SB": "3.7"
+            },
+            "battle_ratings_by_battle": {
+              "default": {
+                "AB": "3.7",
+                "RB": "3.7",
+                "SB": "3.7"
+              }
+            },
+            "research": "18,000",
+            "purchase": "47,000",
+            "purchase_currency": "SL",
+            "status": null,
+            "fetched_at": "2026-09-19T06:31:47.513Z",
+            "sha256": "e2e018861234cdc10d83e3b184fe749363739b3b2ba5e724009a8dc23c12cf19"
+          }
         },
         {
           "type": "multiple",
@@ -375,36 +1083,119 @@
           "selected": false,
           "br": "3.7",
           "data_unit_id": "mosquito_norway_group",
+          "required_unit_id": "mosquito_f_mk2_norway",
           "class_name": "",
           "items": [
             {
               "type": "single",
-              "title": "◢Mosquito FB Mk VI",
+              "title": "◢Mosquito FB Mk VI",
               "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/mosquito_fb_mk6_norway.png",
               "br": "3.7",
-              "rp": "26,000",
-              "sp": "76,000",
+              "rp": 26000,
+              "sp": 76000,
               "data_unit_id": "mosquito_fb_mk6_norway",
+              "required_unit_id": "",
               "selected": false,
               "class_name": "",
               "details": true,
-              "main_role": "Strike aircraft"
+              "rank": "III",
+              "research_country": "Sweden",
+              "main_role": "Strike aircraft",
+              "is_component": false,
+              "component_of": null,
+              "is_premium": false,
+              "is_squadron": false,
+              "wiki": {
+                "url": "https://wiki.warthunder.com/unit/mosquito_fb_mk6_norway",
+                "rank": "III",
+                "battle_rating_context": "air",
+                "battle_ratings": {
+                  "AB": "3.7",
+                  "RB": "3.7",
+                  "SB": "3.7"
+                },
+                "battle_ratings_by_battle": {
+                  "air": {
+                    "AB": "3.7",
+                    "RB": "3.7",
+                    "SB": "3.7"
+                  },
+                  "tank": {
+                    "AB": "—",
+                    "RB": "3.3",
+                    "SB": "3.3"
+                  },
+                  "ship": {
+                    "AB": "3.7",
+                    "RB": "3.7",
+                    "SB": "—"
+                  }
+                },
+                "research": "26,000",
+                "purchase": "76,000",
+                "purchase_currency": "SL",
+                "status": null,
+                "fetched_at": "2026-09-19T06:31:47.854Z",
+                "sha256": "6bd6351b91095793a82b2cd7e8af351b89090acecbe471695a1544a835830f92"
+              }
             },
             {
               "type": "single",
-              "title": "◢Mosquito FB Mk VI ASH",
+              "title": "◢Mosquito FB Mk VI ASH",
               "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/mosquito_fb_mk6_ash_norway.png",
               "br": "3.7",
-              "rp": "17,000",
-              "sp": "105,000",
+              "rp": 17000,
+              "sp": 105000,
               "data_unit_id": "mosquito_fb_mk6_ash_norway",
+              "required_unit_id": "mosquito_fb_mk6_norway",
               "selected": false,
               "class_name": "",
               "details": true,
-              "main_role": "Strike aircraft"
+              "rank": "III",
+              "research_country": "Sweden",
+              "main_role": "Strike aircraft",
+              "is_component": false,
+              "component_of": null,
+              "is_premium": false,
+              "is_squadron": false,
+              "wiki": {
+                "url": "https://wiki.warthunder.com/unit/mosquito_fb_mk6_ash_norway",
+                "rank": "III",
+                "battle_rating_context": "air",
+                "battle_ratings": {
+                  "AB": "3.7",
+                  "RB": "3.7",
+                  "SB": "3.7"
+                },
+                "battle_ratings_by_battle": {
+                  "air": {
+                    "AB": "3.7",
+                    "RB": "3.7",
+                    "SB": "3.7"
+                  },
+                  "tank": {
+                    "AB": "—",
+                    "RB": "3.3",
+                    "SB": "3.3"
+                  },
+                  "ship": {
+                    "AB": "3.7",
+                    "RB": "3.7",
+                    "SB": "—"
+                  }
+                },
+                "research": "17,000",
+                "purchase": "105,000",
+                "purchase_currency": "SL",
+                "status": null,
+                "fetched_at": "2026-09-19T06:31:47.510Z",
+                "sha256": "55c68ac989e1091605be5799a30bb1a5958a6a61a2e46059d9f0e31ca03e383c"
+              }
             }
           ],
-          "details": true
+          "details": true,
+          "rp": 43000,
+          "sp": 181000
         }
       ],
       [
@@ -413,13 +1204,43 @@
           "title": "B18B",
           "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/saab_b18b.png",
           "br": "4.0",
-          "rp": "18,000",
-          "sp": "47,000",
+          "rp": 18000,
+          "sp": 47000,
           "data_unit_id": "saab_b18b",
+          "required_unit_id": "ju-88a-4_finland",
           "selected": false,
           "class_name": "",
           "details": true,
-          "main_role": "Bomber"
+          "rank": "III",
+          "research_country": "Sweden",
+          "main_role": "Bomber",
+          "is_component": false,
+          "component_of": null,
+          "is_premium": false,
+          "is_squadron": false,
+          "wiki": {
+            "url": "https://wiki.warthunder.com/unit/saab_b18b",
+            "rank": "III",
+            "battle_rating_context": "default",
+            "battle_ratings": {
+              "AB": "3.7",
+              "RB": "4.0",
+              "SB": "3.0"
+            },
+            "battle_ratings_by_battle": {
+              "default": {
+                "AB": "3.7",
+                "RB": "4.0",
+                "SB": "3.0"
+              }
+            },
+            "research": "18,000",
+            "purchase": "47,000",
+            "purchase_currency": "SL",
+            "status": null,
+            "fetched_at": "2026-09-19T06:31:49.637Z",
+            "sha256": "b61678d1be7462812e00a2e32da9073c8b1cb93aa42fe6bf1050d109da30c97c"
+          }
         },
         {
           "type": "multiple",
@@ -428,6 +1249,7 @@
           "selected": false,
           "br": "4.3",
           "data_unit_id": "saab_t18b_group",
+          "required_unit_id": "saab_b18b",
           "class_name": "",
           "items": [
             {
@@ -435,29 +1257,111 @@
               "title": "T18B",
               "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/saab_t18b_1.png",
               "br": "4.3",
-              "rp": "26,000",
-              "sp": "76,000",
+              "rp": 26000,
+              "sp": 76000,
               "data_unit_id": "saab_t18b_1",
+              "required_unit_id": "",
               "selected": false,
               "class_name": "",
               "details": true,
-              "main_role": "Bomber"
+              "rank": "III",
+              "research_country": "Sweden",
+              "main_role": "Bomber",
+              "is_component": false,
+              "component_of": null,
+              "is_premium": false,
+              "is_squadron": false,
+              "wiki": {
+                "url": "https://wiki.warthunder.com/unit/saab_t18b_1",
+                "rank": "III",
+                "battle_rating_context": "air",
+                "battle_ratings": {
+                  "AB": "4.0",
+                  "RB": "4.3",
+                  "SB": "4.0"
+                },
+                "battle_ratings_by_battle": {
+                  "air": {
+                    "AB": "4.0",
+                    "RB": "4.3",
+                    "SB": "4.0"
+                  },
+                  "tank": {
+                    "AB": "—",
+                    "RB": "4.0",
+                    "SB": "4.0"
+                  },
+                  "ship": {
+                    "AB": "4.0",
+                    "RB": "4.3",
+                    "SB": "—"
+                  }
+                },
+                "research": "26,000",
+                "purchase": "76,000",
+                "purchase_currency": "SL",
+                "status": null,
+                "fetched_at": "2026-09-19T06:31:52.313Z",
+                "sha256": "a8e053d4990e14623b2ec192131536fbf463d829c318c3c28a88e8ae27dbbdf5"
+              }
             },
             {
               "type": "single",
-              "title": "T18B (57)",
+              "title": "T18B (57)",
               "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/saab_t18b_2.png",
               "br": "4.3",
-              "rp": "17,000",
-              "sp": "105,000",
+              "rp": 17000,
+              "sp": 105000,
               "data_unit_id": "saab_t18b_2",
+              "required_unit_id": "saab_t18b_1",
               "selected": false,
               "class_name": "",
               "details": true,
-              "main_role": "Bomber"
+              "rank": "III",
+              "research_country": "Sweden",
+              "main_role": "Bomber",
+              "is_component": false,
+              "component_of": null,
+              "is_premium": false,
+              "is_squadron": false,
+              "wiki": {
+                "url": "https://wiki.warthunder.com/unit/saab_t18b_2",
+                "rank": "III",
+                "battle_rating_context": "air",
+                "battle_ratings": {
+                  "AB": "3.7",
+                  "RB": "4.3",
+                  "SB": "4.0"
+                },
+                "battle_ratings_by_battle": {
+                  "air": {
+                    "AB": "3.7",
+                    "RB": "4.3",
+                    "SB": "4.0"
+                  },
+                  "tank": {
+                    "AB": "—",
+                    "RB": "4.0",
+                    "SB": "4.0"
+                  },
+                  "ship": {
+                    "AB": "3.7",
+                    "RB": "4.3",
+                    "SB": "—"
+                  }
+                },
+                "research": "17,000",
+                "purchase": "105,000",
+                "purchase_currency": "SL",
+                "status": null,
+                "fetched_at": "2026-09-19T06:31:52.218Z",
+                "sha256": "2d4902ba344b17a0e8b4e38ab6c8ed040456d76ef29e553760a9bed349eb8d02"
+              }
             }
           ],
-          "details": true
+          "details": true,
+          "rp": 43000,
+          "sp": 181000
         }
       ],
       [
@@ -466,13 +1370,43 @@
           "title": "J26",
           "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/p-51d-20-na_j26.png",
           "br": "4.0",
-          "rp": "18,000",
-          "sp": "47,000",
+          "rp": 18000,
+          "sp": 47000,
           "data_unit_id": "p-51d-20-na_j26",
+          "required_unit_id": "hurricane_mk1_late_finland",
           "selected": false,
           "class_name": "",
           "details": true,
-          "main_role": "Fighter"
+          "rank": "III",
+          "research_country": "Sweden",
+          "main_role": "Fighter",
+          "is_component": false,
+          "component_of": null,
+          "is_premium": false,
+          "is_squadron": false,
+          "wiki": {
+            "url": "https://wiki.warthunder.com/unit/p-51d-20-na_j26",
+            "rank": "III",
+            "battle_rating_context": "default",
+            "battle_ratings": {
+              "AB": "3.7",
+              "RB": "4.0",
+              "SB": "5.0"
+            },
+            "battle_ratings_by_battle": {
+              "default": {
+                "AB": "3.7",
+                "RB": "4.0",
+                "SB": "5.0"
+              }
+            },
+            "research": "18,000",
+            "purchase": "47,000",
+            "purchase_currency": "SL",
+            "status": null,
+            "fetched_at": "2026-09-19T06:31:48.170Z",
+            "sha256": "05dfeda8f58f0aa1249f8c604574f2366d00da655a1a2e6c9f3218eeccacba3e"
+          }
         }
       ]
     ],
@@ -480,49 +1414,150 @@
       [
         {
           "type": "single",
-          "title": "J26 David",
+          "title": "J26 David",
           "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/p-51b_7_sweden.png",
           "br": "3.7",
           "rp": 0,
           "sp": 0,
           "data_unit_id": "p-51b_7_sweden",
+          "required_unit_id": "",
           "selected": false,
           "class_name": "prem",
           "details": true,
-          "main_role": "Fighter"
+          "rank": "III",
+          "research_country": "Sweden",
+          "main_role": "Fighter",
+          "is_component": false,
+          "component_of": null,
+          "is_premium": true,
+          "is_squadron": false,
+          "wiki": {
+            "url": "https://wiki.warthunder.com/unit/p-51b_7_sweden",
+            "rank": "III",
+            "battle_rating_context": "default",
+            "battle_ratings": {
+              "AB": "3.7",
+              "RB": "3.7",
+              "SB": "4.0"
+            },
+            "battle_ratings_by_battle": {
+              "default": {
+                "AB": "3.7",
+                "RB": "3.7",
+                "SB": "4.0"
+              }
+            },
+            "research": null,
+            "purchase": null,
+            "purchase_currency": null,
+            "status": "Premium vehicle",
+            "fetched_at": "2026-09-19T06:31:47.833Z",
+            "sha256": "218c6b83fc35ed7ce72014b2311aa9292fd214d6306e40c69a10b6ce4e83d4c2"
+          }
         },
         {
           "type": "single",
-          "title": "VL Pyörremyrsky",
+          "title": "VL Pyörremyrsky",
           "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/pyorremyrsky.png",
-          "br": "4.3",
+          "br": "4.7",
           "rp": 0,
           "sp": 0,
           "data_unit_id": "pyorremyrsky",
+          "required_unit_id": "",
           "selected": false,
           "class_name": "prem",
           "details": true,
-          "main_role": "Fighter"
+          "rank": "III",
+          "research_country": "Sweden",
+          "main_role": "Fighter",
+          "is_component": false,
+          "component_of": null,
+          "is_premium": true,
+          "is_squadron": false,
+          "wiki": {
+            "url": "https://wiki.warthunder.com/unit/pyorremyrsky",
+            "rank": "III",
+            "battle_rating_context": "air",
+            "battle_ratings": {
+              "AB": "5.0",
+              "RB": "4.7",
+              "SB": "4.0"
+            },
+            "battle_ratings_by_battle": {
+              "air": {
+                "AB": "5.0",
+                "RB": "4.7",
+                "SB": "4.0"
+              },
+              "tank": {
+                "AB": "—",
+                "RB": "4.3",
+                "SB": "4.3"
+              },
+              "ship": {
+                "AB": "5.0",
+                "RB": "4.7",
+                "SB": "—"
+              }
+            },
+            "research": null,
+            "purchase": "1,600",
+            "purchase_currency": "GE",
+            "status": "Premium vehicle",
+            "fetched_at": "2026-09-19T06:31:48.318Z",
+            "sha256": "b0900337c082cf80049522ff2612159216dc0745349253bc2e1ea0ad1375c4d0"
+          }
         }
       ],
       [
         {
           "type": "single",
-          "title": "Mosquito J30",
+          "title": "Mosquito J30",
           "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/mosquito_j30_sweden.png",
           "br": "3.7",
           "rp": 0,
           "sp": 0,
           "data_unit_id": "mosquito_j30_sweden",
+          "required_unit_id": "",
           "selected": false,
           "class_name": "prem",
           "details": true,
-          "main_role": "Fighter"
+          "rank": "III",
+          "research_country": "Sweden",
+          "main_role": "Fighter",
+          "is_component": false,
+          "component_of": null,
+          "is_premium": true,
+          "is_squadron": false,
+          "wiki": {
+            "url": "https://wiki.warthunder.com/unit/mosquito_j30_sweden",
+            "rank": "III",
+            "battle_rating_context": "default",
+            "battle_ratings": {
+              "AB": "3.7",
+              "RB": "3.7",
+              "SB": "3.7"
+            },
+            "battle_ratings_by_battle": {
+              "default": {
+                "AB": "3.7",
+                "RB": "3.7",
+                "SB": "3.7"
+              }
+            },
+            "research": null,
+            "purchase": null,
+            "purchase_currency": null,
+            "status": "Premium vehicle",
+            "fetched_at": "2026-09-19T06:31:48.029Z",
+            "sha256": "5eba417cb8b0661b887423cb8842b2bbd958a5c45829c62b5127eaca51fe2beb"
+          }
         }
       ]
     ],
     "selected": [],
-    "unlock_quantity": 0
+    "unlock_quantity": null,
+    "source": "wiki"
   },
   {
     "rank": "IV",
@@ -535,6 +1570,7 @@
           "selected": false,
           "br": "4.3",
           "data_unit_id": "saab_j21a_group",
+          "required_unit_id": "ffvs_j22_b",
           "class_name": "",
           "items": [
             {
@@ -542,29 +1578,91 @@
               "title": "J21A-1",
               "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/saab_j21a_1.png",
               "br": "4.3",
-              "rp": "46,000",
-              "sp": "155,000",
+              "rp": 46000,
+              "sp": 155000,
               "data_unit_id": "saab_j21a_1",
+              "required_unit_id": "",
               "selected": false,
               "class_name": "",
               "details": true,
-              "main_role": "Fighter"
+              "rank": "IV",
+              "research_country": "Sweden",
+              "main_role": "Fighter",
+              "is_component": false,
+              "component_of": null,
+              "is_premium": false,
+              "is_squadron": false,
+              "wiki": {
+                "url": "https://wiki.warthunder.com/unit/saab_j21a_1",
+                "rank": "IV",
+                "battle_rating_context": "default",
+                "battle_ratings": {
+                  "AB": "5.3",
+                  "RB": "4.3",
+                  "SB": "3.3"
+                },
+                "battle_ratings_by_battle": {
+                  "default": {
+                    "AB": "5.3",
+                    "RB": "4.3",
+                    "SB": "3.3"
+                  }
+                },
+                "research": "46,000",
+                "purchase": "155,000",
+                "purchase_currency": "SL",
+                "status": null,
+                "fetched_at": "2026-09-19T06:31:50.021Z",
+                "sha256": "120a2712ddd70c1f85a66a47277db3df0a1ef1a733c9aefe8a81f6e10a842b66"
+              }
             },
             {
               "type": "single",
               "title": "J21A-2",
               "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/saab_j21a_2.png",
               "br": "4.3",
-              "rp": "27,000",
-              "sp": "185,000",
+              "rp": 27000,
+              "sp": 185000,
               "data_unit_id": "saab_j21a_2",
+              "required_unit_id": "saab_j21a_1",
               "selected": false,
               "class_name": "",
               "details": true,
-              "main_role": "Fighter"
+              "rank": "IV",
+              "research_country": "Sweden",
+              "main_role": "Fighter",
+              "is_component": false,
+              "component_of": null,
+              "is_premium": false,
+              "is_squadron": false,
+              "wiki": {
+                "url": "https://wiki.warthunder.com/unit/saab_j21a_2",
+                "rank": "IV",
+                "battle_rating_context": "default",
+                "battle_ratings": {
+                  "AB": "5.3",
+                  "RB": "4.3",
+                  "SB": "3.7"
+                },
+                "battle_ratings_by_battle": {
+                  "default": {
+                    "AB": "5.3",
+                    "RB": "4.3",
+                    "SB": "3.7"
+                  }
+                },
+                "research": "27,000",
+                "purchase": "185,000",
+                "purchase_currency": "SL",
+                "status": null,
+                "fetched_at": "2026-09-19T06:31:50.079Z",
+                "sha256": "e1db51c9434f7f84bdeb60ed5d073b721c6ad6ec37681ea116521ce81132f4ac"
+              }
             }
           ],
-          "details": true
+          "details": true,
+          "rp": 73000,
+          "sp": 340000
         }
       ],
       [
@@ -573,13 +1671,43 @@
           "title": "A21A-3",
           "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/saab_a21a_3.png",
           "br": "4.3",
-          "rp": "46,000",
-          "sp": "155,000",
+          "rp": 46000,
+          "sp": 155000,
           "data_unit_id": "saab_a21a_3",
+          "required_unit_id": "mosquito_norway_group",
           "selected": false,
           "class_name": "",
           "details": true,
-          "main_role": "Fighter"
+          "rank": "IV",
+          "research_country": "Sweden",
+          "main_role": "Fighter",
+          "is_component": false,
+          "component_of": null,
+          "is_premium": false,
+          "is_squadron": false,
+          "wiki": {
+            "url": "https://wiki.warthunder.com/unit/saab_a21a_3",
+            "rank": "IV",
+            "battle_rating_context": "default",
+            "battle_ratings": {
+              "AB": "5.3",
+              "RB": "4.3",
+              "SB": "3.7"
+            },
+            "battle_ratings_by_battle": {
+              "default": {
+                "AB": "5.3",
+                "RB": "4.3",
+                "SB": "3.7"
+              }
+            },
+            "research": "46,000",
+            "purchase": "155,000",
+            "purchase_currency": "SL",
+            "status": null,
+            "fetched_at": "2026-09-19T06:31:48.696Z",
+            "sha256": "b96bfaba1115d15ac42a3c2dd65e67e73461b9a5e4268807703f9ad1a51bc86d"
+          }
         }
       ],
       [],
@@ -591,36 +1719,109 @@
           "selected": false,
           "br": "4.3-4.7",
           "data_unit_id": "bf_109g_sweden_group",
+          "required_unit_id": "p-51d-20-na_j26",
           "class_name": "",
           "items": [
             {
               "type": "single",
-              "title": "▄Bf 109 G-2",
+              "title": "▄Bf 109 G-2",
               "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/bf-109g-2_finland.png",
               "br": "4.3",
-              "rp": "46,000",
-              "sp": "155,000",
+              "rp": 46000,
+              "sp": 155000,
               "data_unit_id": "bf-109g-2_finland",
+              "required_unit_id": "",
               "selected": false,
               "class_name": "",
               "details": true,
-              "main_role": "Fighter"
+              "rank": "IV",
+              "research_country": "Sweden",
+              "main_role": "Fighter",
+              "is_component": false,
+              "component_of": null,
+              "is_premium": false,
+              "is_squadron": false,
+              "wiki": {
+                "url": "https://wiki.warthunder.com/unit/bf-109g-2_finland",
+                "rank": "IV",
+                "battle_rating_context": "air",
+                "battle_ratings": {
+                  "AB": "5.3",
+                  "RB": "4.3",
+                  "SB": "4.3"
+                },
+                "battle_ratings_by_battle": {
+                  "air": {
+                    "AB": "5.3",
+                    "RB": "4.3",
+                    "SB": "4.3"
+                  },
+                  "tank": {
+                    "AB": "—",
+                    "RB": "4.7",
+                    "SB": "4.7"
+                  },
+                  "ship": {
+                    "AB": "5.3",
+                    "RB": "4.3",
+                    "SB": "—"
+                  }
+                },
+                "research": "46,000",
+                "purchase": "155,000",
+                "purchase_currency": "SL",
+                "status": null,
+                "fetched_at": "2026-09-19T06:31:45.053Z",
+                "sha256": "9814c331a14f743d4d0cb949bf0e83b214303d72a845a4b9d8e964bef83080bb"
+              }
             },
             {
               "type": "single",
-              "title": "▄Bf 109 G-6 Erla",
+              "title": "▄Bf 109 G-6 Erla",
               "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/bf-109g-6_erla_finland.png",
               "br": "4.7",
-              "rp": "27,000",
-              "sp": "185,000",
+              "rp": 27000,
+              "sp": 185000,
               "data_unit_id": "bf-109g-6_erla_finland",
+              "required_unit_id": "bf-109g-2_finland",
               "selected": false,
               "class_name": "",
               "details": true,
-              "main_role": "Fighter"
+              "rank": "IV",
+              "research_country": "Sweden",
+              "main_role": "Fighter",
+              "is_component": false,
+              "component_of": null,
+              "is_premium": false,
+              "is_squadron": false,
+              "wiki": {
+                "url": "https://wiki.warthunder.com/unit/bf-109g-6_erla_finland",
+                "rank": "IV",
+                "battle_rating_context": "default",
+                "battle_ratings": {
+                  "AB": "5.3",
+                  "RB": "4.7",
+                  "SB": "4.7"
+                },
+                "battle_ratings_by_battle": {
+                  "default": {
+                    "AB": "5.3",
+                    "RB": "4.7",
+                    "SB": "4.7"
+                  }
+                },
+                "research": "27,000",
+                "purchase": "185,000",
+                "purchase_currency": "SL",
+                "status": null,
+                "fetched_at": "2026-09-19T06:31:45.395Z",
+                "sha256": "57e26dba868b16062b585091320b8bd1ab7f413d124a614e8391d28238f89834"
+              }
             }
           ],
-          "details": true
+          "details": true,
+          "rp": 73000,
+          "sp": 340000
         }
       ]
     ],
@@ -628,22 +1829,53 @@
       [
         {
           "type": "single",
-          "title": "▄Bf 109 G-6",
+          "title": "▄Bf 109 G-6",
           "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/bf-109g-6_finland.png",
           "br": "4.7",
           "rp": 0,
           "sp": 0,
           "data_unit_id": "bf-109g-6_finland",
+          "required_unit_id": "",
           "selected": false,
           "class_name": "prem",
           "details": true,
-          "main_role": "Fighter"
+          "rank": "IV",
+          "research_country": "Sweden",
+          "main_role": "Fighter",
+          "is_component": false,
+          "component_of": null,
+          "is_premium": true,
+          "is_squadron": false,
+          "wiki": {
+            "url": "https://wiki.warthunder.com/unit/bf-109g-6_finland",
+            "rank": "IV",
+            "battle_rating_context": "default",
+            "battle_ratings": {
+              "AB": "5.3",
+              "RB": "4.7",
+              "SB": "4.7"
+            },
+            "battle_ratings_by_battle": {
+              "default": {
+                "AB": "5.3",
+                "RB": "4.7",
+                "SB": "4.7"
+              }
+            },
+            "research": null,
+            "purchase": "4,880",
+            "purchase_currency": "GE",
+            "status": "Premium vehicle",
+            "fetched_at": "2026-09-19T06:31:45.449Z",
+            "sha256": "f22aa7d827ca91543037c3abe87a5db8ca7a0b510b80a291f5fda576052edc3c"
+          }
         }
       ],
       []
     ],
     "selected": [],
-    "unlock_quantity": 0
+    "unlock_quantity": null,
+    "source": "wiki"
   },
   {
     "rank": "V",
@@ -654,26 +1886,86 @@
           "title": "J21RA",
           "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/saab_j21ra.png",
           "br": "6.7",
-          "rp": "82,000",
-          "sp": "240,000",
+          "rp": 82000,
+          "sp": 240000,
           "data_unit_id": "saab_j21ra",
+          "required_unit_id": "saab_j21a_group",
           "selected": false,
           "class_name": "",
           "details": true,
-          "main_role": "Fighter"
+          "rank": "V",
+          "research_country": "Sweden",
+          "main_role": "Fighter",
+          "is_component": false,
+          "component_of": null,
+          "is_premium": false,
+          "is_squadron": false,
+          "wiki": {
+            "url": "https://wiki.warthunder.com/unit/saab_j21ra",
+            "rank": "V",
+            "battle_rating_context": "default",
+            "battle_ratings": {
+              "AB": "6.7",
+              "RB": "6.7",
+              "SB": "6.7"
+            },
+            "battle_ratings_by_battle": {
+              "default": {
+                "AB": "6.7",
+                "RB": "6.7",
+                "SB": "6.7"
+              }
+            },
+            "research": "82,000",
+            "purchase": "240,000",
+            "purchase_currency": "SL",
+            "status": null,
+            "fetched_at": "2026-09-19T06:31:50.180Z",
+            "sha256": "bf8e498f7965474c3127218973f55ccbc3dcd5792d0cd6d34a5f833cdec6df4d"
+          }
         },
         {
           "type": "single",
           "title": "J29A",
           "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/saab_j29a.png",
           "br": "7.7",
-          "rp": "105,000",
-          "sp": "300,000",
+          "rp": 105000,
+          "sp": 300000,
           "data_unit_id": "saab_j29a",
+          "required_unit_id": "saab_j21ra",
           "selected": false,
           "class_name": "",
           "details": true,
-          "main_role": "Fighter"
+          "rank": "V",
+          "research_country": "Sweden",
+          "main_role": "Fighter",
+          "is_component": false,
+          "component_of": null,
+          "is_premium": false,
+          "is_squadron": false,
+          "wiki": {
+            "url": "https://wiki.warthunder.com/unit/saab_j29a",
+            "rank": "V",
+            "battle_rating_context": "default",
+            "battle_ratings": {
+              "AB": "8.0",
+              "RB": "7.7",
+              "SB": "8.0"
+            },
+            "battle_ratings_by_battle": {
+              "default": {
+                "AB": "8.0",
+                "RB": "7.7",
+                "SB": "8.0"
+              }
+            },
+            "research": "105,000",
+            "purchase": "300,000",
+            "purchase_currency": "SL",
+            "status": null,
+            "fetched_at": "2026-09-19T06:31:50.177Z",
+            "sha256": "ccb200618e4815e2514480a4ab7d1394ae30adecdfd9e708c71f96fbb71cf692"
+          }
         }
       ],
       [
@@ -682,26 +1974,86 @@
           "title": "A21RB",
           "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/saab_a21rb.png",
           "br": "6.7",
-          "rp": "82,000",
-          "sp": "240,000",
+          "rp": 82000,
+          "sp": 240000,
           "data_unit_id": "saab_a21rb",
+          "required_unit_id": "saab_a21a_3",
           "selected": false,
           "class_name": "",
           "details": true,
-          "main_role": "Fighter"
+          "rank": "V",
+          "research_country": "Sweden",
+          "main_role": "Fighter",
+          "is_component": false,
+          "component_of": null,
+          "is_premium": false,
+          "is_squadron": false,
+          "wiki": {
+            "url": "https://wiki.warthunder.com/unit/saab_a21rb",
+            "rank": "V",
+            "battle_rating_context": "default",
+            "battle_ratings": {
+              "AB": "6.7",
+              "RB": "6.7",
+              "SB": "7.0"
+            },
+            "battle_ratings_by_battle": {
+              "default": {
+                "AB": "6.7",
+                "RB": "6.7",
+                "SB": "7.0"
+              }
+            },
+            "research": "82,000",
+            "purchase": "240,000",
+            "purchase_currency": "SL",
+            "status": null,
+            "fetched_at": "2026-09-19T06:31:48.577Z",
+            "sha256": "bd4dc6a47568e324e71c46941b5e41324d33028306051195a27cb4039c04d0e1"
+          }
         },
         {
           "type": "single",
           "title": "A29B",
           "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/saab_j29b.png",
           "br": "7.7",
-          "rp": "105,000",
-          "sp": "300,000",
+          "rp": 105000,
+          "sp": 300000,
           "data_unit_id": "saab_j29b",
+          "required_unit_id": "saab_a21rb",
           "selected": false,
           "class_name": "",
           "details": true,
-          "main_role": "Fighter"
+          "rank": "V",
+          "research_country": "Sweden",
+          "main_role": "Fighter",
+          "is_component": false,
+          "component_of": null,
+          "is_premium": false,
+          "is_squadron": false,
+          "wiki": {
+            "url": "https://wiki.warthunder.com/unit/saab_j29b",
+            "rank": "V",
+            "battle_rating_context": "default",
+            "battle_ratings": {
+              "AB": "8.3",
+              "RB": "7.7",
+              "SB": "8.3"
+            },
+            "battle_ratings_by_battle": {
+              "default": {
+                "AB": "8.3",
+                "RB": "7.7",
+                "SB": "8.3"
+              }
+            },
+            "research": "105,000",
+            "purchase": "300,000",
+            "purchase_currency": "SL",
+            "status": null,
+            "fetched_at": "2026-09-19T06:31:50.344Z",
+            "sha256": "54d778924c44d162c645439b1300e4dff4a79cfa72e732ca7ae05926cc1d46f0"
+          }
         }
       ],
       [
@@ -710,26 +2062,96 @@
           "title": "SK60B",
           "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/saab_sk60b.png",
           "br": "7.0",
-          "rp": "95,000",
-          "sp": "270,000",
+          "rp": 95000,
+          "sp": 270000,
           "data_unit_id": "saab_sk60b",
+          "required_unit_id": "saab_t18b_group",
           "selected": false,
           "class_name": "",
           "details": true,
-          "main_role": "Strike aircraft"
+          "rank": "V",
+          "research_country": "Sweden",
+          "main_role": "Strike aircraft",
+          "is_component": false,
+          "component_of": null,
+          "is_premium": false,
+          "is_squadron": false,
+          "wiki": {
+            "url": "https://wiki.warthunder.com/unit/saab_sk60b",
+            "rank": "V",
+            "battle_rating_context": "default",
+            "battle_ratings": {
+              "AB": "7.3",
+              "RB": "7.0",
+              "SB": "7.3"
+            },
+            "battle_ratings_by_battle": {
+              "default": {
+                "AB": "7.3",
+                "RB": "7.0",
+                "SB": "7.3"
+              }
+            },
+            "research": "95,000",
+            "purchase": "270,000",
+            "purchase_currency": "SL",
+            "status": null,
+            "fetched_at": "2026-09-19T06:31:52.032Z",
+            "sha256": "0841b4294438b87495b8d547e824d5746c1b414110d2b3c21d7afc1837bc733a"
+          }
         },
         {
           "type": "single",
           "title": "SAAB-105G",
           "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/saab_105g.png",
           "br": "8.3",
-          "rp": "120,000",
-          "sp": "340,000",
+          "rp": 120000,
+          "sp": 340000,
           "data_unit_id": "saab_105g",
+          "required_unit_id": "saab_sk60b",
           "selected": false,
           "class_name": "",
           "details": true,
-          "main_role": "Strike aircraft"
+          "rank": "V",
+          "research_country": "Sweden",
+          "main_role": "Strike aircraft",
+          "is_component": false,
+          "component_of": null,
+          "is_premium": false,
+          "is_squadron": false,
+          "wiki": {
+            "url": "https://wiki.warthunder.com/unit/saab_105g",
+            "rank": "V",
+            "battle_rating_context": "air",
+            "battle_ratings": {
+              "AB": "8.7",
+              "RB": "8.3",
+              "SB": "8.3"
+            },
+            "battle_ratings_by_battle": {
+              "air": {
+                "AB": "8.7",
+                "RB": "8.3",
+                "SB": "8.3"
+              },
+              "tank": {
+                "AB": "—",
+                "RB": "8.7",
+                "SB": "8.7"
+              },
+              "ship": {
+                "AB": "8.7",
+                "RB": "8.3",
+                "SB": "—"
+              }
+            },
+            "research": "120,000",
+            "purchase": "340,000",
+            "purchase_currency": "SL",
+            "status": null,
+            "fetched_at": "2026-09-19T06:31:48.467Z",
+            "sha256": "54d5bd25044433436d06746a8fefc30f447e622ed1573cd6f769be3a4d854be8"
+          }
         }
       ],
       [
@@ -740,6 +2162,7 @@
           "selected": false,
           "br": "8.0",
           "data_unit_id": "vampire_fb_group",
+          "required_unit_id": "bf_109g_sweden_group",
           "class_name": "",
           "items": [
             {
@@ -747,29 +2170,91 @@
               "title": "A28B",
               "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/vampire_fb5_j28b.png",
               "br": "8.0",
-              "rp": "95,000",
-              "sp": "270,000",
+              "rp": 95000,
+              "sp": 270000,
               "data_unit_id": "vampire_fb5_j28b",
+              "required_unit_id": "",
               "selected": false,
               "class_name": "",
               "details": true,
-              "main_role": "Fighter"
+              "rank": "V",
+              "research_country": "Sweden",
+              "main_role": "Fighter",
+              "is_component": false,
+              "component_of": null,
+              "is_premium": false,
+              "is_squadron": false,
+              "wiki": {
+                "url": "https://wiki.warthunder.com/unit/vampire_fb5_j28b",
+                "rank": "V",
+                "battle_rating_context": "default",
+                "battle_ratings": {
+                  "AB": "7.7",
+                  "RB": "8.0",
+                  "SB": "7.7"
+                },
+                "battle_ratings_by_battle": {
+                  "default": {
+                    "AB": "7.7",
+                    "RB": "8.0",
+                    "SB": "7.7"
+                  }
+                },
+                "research": "95,000",
+                "purchase": "270,000",
+                "purchase_currency": "SL",
+                "status": null,
+                "fetched_at": "2026-09-19T06:31:52.367Z",
+                "sha256": "18bd3b1d9579a7ea5700718a4619ba21d83c9ee9c74048d62047018410b2d6ea"
+              }
             },
             {
               "type": "single",
-              "title": "▄Vampire FB 52A",
+              "title": "▄Vampire FB 52A",
               "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/vampire_fb52_finland.png",
               "br": "8.0",
-              "rp": "53,000",
-              "sp": "300,000",
+              "rp": 53000,
+              "sp": 300000,
               "data_unit_id": "vampire_fb52_finland",
+              "required_unit_id": "vampire_fb5_j28b",
               "selected": false,
               "class_name": "",
               "details": true,
-              "main_role": "Fighter"
+              "rank": "V",
+              "research_country": "Sweden",
+              "main_role": "Fighter",
+              "is_component": false,
+              "component_of": null,
+              "is_premium": false,
+              "is_squadron": false,
+              "wiki": {
+                "url": "https://wiki.warthunder.com/unit/vampire_fb52_finland",
+                "rank": "V",
+                "battle_rating_context": "default",
+                "battle_ratings": {
+                  "AB": "7.7",
+                  "RB": "8.0",
+                  "SB": "7.7"
+                },
+                "battle_ratings_by_battle": {
+                  "default": {
+                    "AB": "7.7",
+                    "RB": "8.0",
+                    "SB": "7.7"
+                  }
+                },
+                "research": "53,000",
+                "purchase": "300,000",
+                "purchase_currency": "SL",
+                "status": null,
+                "fetched_at": "2026-09-19T06:31:52.456Z",
+                "sha256": "9f7f36a0feb980950b0b3a589572486a616e9c6c92385c0ecdfcbb5712e91ff3"
+              }
             }
           ],
-          "details": true
+          "details": true,
+          "rp": 148000,
+          "sp": 570000
         }
       ]
     ],
@@ -783,10 +2268,40 @@
           "rp": 0,
           "sp": 0,
           "data_unit_id": "saab_105oe",
+          "required_unit_id": "",
           "selected": false,
           "class_name": "prem",
           "details": true,
-          "main_role": "Strike aircraft"
+          "rank": "V",
+          "research_country": "Sweden",
+          "main_role": "Strike aircraft",
+          "is_component": false,
+          "component_of": null,
+          "is_premium": true,
+          "is_squadron": false,
+          "wiki": {
+            "url": "https://wiki.warthunder.com/unit/saab_105oe",
+            "rank": "V",
+            "battle_rating_context": "default",
+            "battle_ratings": {
+              "AB": "8.3",
+              "RB": "8.3",
+              "SB": "8.3"
+            },
+            "battle_ratings_by_battle": {
+              "default": {
+                "AB": "8.3",
+                "RB": "8.3",
+                "SB": "8.3"
+              }
+            },
+            "research": null,
+            "purchase": "8,560",
+            "purchase_currency": "GE",
+            "status": "Premium vehicle",
+            "fetched_at": "2026-09-19T06:31:48.427Z",
+            "sha256": "5005f318092ba61792e9d87abf1bb5202fa7b020c8aaabed4c1e73f9d359903e"
+          }
         },
         {
           "type": "single",
@@ -796,16 +2311,57 @@
           "rp": 0,
           "sp": 0,
           "data_unit_id": "saab_j29d",
+          "required_unit_id": "",
           "selected": false,
           "class_name": "prem",
           "details": true,
-          "main_role": "Fighter"
+          "rank": "V",
+          "research_country": "Sweden",
+          "main_role": "Fighter",
+          "is_component": false,
+          "component_of": null,
+          "is_premium": true,
+          "is_squadron": false,
+          "wiki": {
+            "url": "https://wiki.warthunder.com/unit/saab_j29d",
+            "rank": "V",
+            "battle_rating_context": "air",
+            "battle_ratings": {
+              "AB": "9.0",
+              "RB": "8.3",
+              "SB": "8.3"
+            },
+            "battle_ratings_by_battle": {
+              "air": {
+                "AB": "9.0",
+                "RB": "8.3",
+                "SB": "8.3"
+              },
+              "tank": {
+                "AB": "—",
+                "RB": "8.0",
+                "SB": "8.0"
+              },
+              "ship": {
+                "AB": "9.0",
+                "RB": "8.3",
+                "SB": "—"
+              }
+            },
+            "research": null,
+            "purchase": null,
+            "purchase_currency": null,
+            "status": "Premium vehicle",
+            "fetched_at": "2026-09-19T06:31:50.456Z",
+            "sha256": "144c0d83fc73d59cb893b0c2a1428dcd3e17315ea0debcd5e45d09d5da486b06"
+          }
         }
       ],
       []
     ],
     "selected": [],
-    "unlock_quantity": 0
+    "unlock_quantity": null,
+    "source": "wiki"
   },
   {
     "rank": "VI",
@@ -816,26 +2372,106 @@
           "title": "J29F",
           "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/saab_j29f.png",
           "br": "9.0",
-          "rp": "150,000",
-          "sp": "420,000",
+          "rp": 150000,
+          "sp": 420000,
           "data_unit_id": "saab_j29f",
+          "required_unit_id": "saab_j29a",
           "selected": false,
           "class_name": "",
           "details": true,
-          "main_role": "Fighter"
+          "rank": "VI",
+          "research_country": "Sweden",
+          "main_role": "Fighter",
+          "is_component": false,
+          "component_of": null,
+          "is_premium": false,
+          "is_squadron": false,
+          "wiki": {
+            "url": "https://wiki.warthunder.com/unit/saab_j29f",
+            "rank": "VI",
+            "battle_rating_context": "air",
+            "battle_ratings": {
+              "AB": "9.0",
+              "RB": "9.0",
+              "SB": "8.7"
+            },
+            "battle_ratings_by_battle": {
+              "air": {
+                "AB": "9.0",
+                "RB": "9.0",
+                "SB": "8.7"
+              },
+              "tank": {
+                "AB": "—",
+                "RB": "8.7",
+                "SB": "8.7"
+              },
+              "ship": {
+                "AB": "9.0",
+                "RB": "9.0",
+                "SB": "—"
+              }
+            },
+            "research": "150,000",
+            "purchase": "420,000",
+            "purchase_currency": "SL",
+            "status": null,
+            "fetched_at": "2026-09-19T06:31:50.590Z",
+            "sha256": "ba1f952bec529faf65bb3c796a8b711852ad333d7c2dee584743b9a5271a9592"
+          }
         },
         {
           "type": "single",
           "title": "J32B",
           "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/saab_j32b.png",
           "br": "9.3",
-          "rp": "190,000",
-          "sp": "530,000",
+          "rp": 190000,
+          "sp": 530000,
           "data_unit_id": "saab_j32b",
+          "required_unit_id": "saab_j29f",
           "selected": false,
           "class_name": "",
           "details": true,
-          "main_role": "Fighter"
+          "rank": "VI",
+          "research_country": "Sweden",
+          "main_role": "Fighter",
+          "is_component": false,
+          "component_of": null,
+          "is_premium": false,
+          "is_squadron": false,
+          "wiki": {
+            "url": "https://wiki.warthunder.com/unit/saab_j32b",
+            "rank": "VI",
+            "battle_rating_context": "air",
+            "battle_ratings": {
+              "AB": "9.7",
+              "RB": "9.3",
+              "SB": "9.7"
+            },
+            "battle_ratings_by_battle": {
+              "air": {
+                "AB": "9.7",
+                "RB": "9.3",
+                "SB": "9.7"
+              },
+              "tank": {
+                "AB": "—",
+                "RB": "9.0",
+                "SB": "9.0"
+              },
+              "ship": {
+                "AB": "9.7",
+                "RB": "9.3",
+                "SB": "—"
+              }
+            },
+            "research": "190,000",
+            "purchase": "530,000",
+            "purchase_currency": "SL",
+            "status": null,
+            "fetched_at": "2026-09-19T06:31:50.561Z",
+            "sha256": "a8a3ccb00788400fba6d3382f3c6421458b027868fc72e1d2cbd0d828049cfe9"
+          }
         }
       ],
       [
@@ -844,13 +2480,43 @@
           "title": "A32A",
           "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/saab_a32a.png",
           "br": "9.0",
-          "rp": "170,000",
-          "sp": "480,000",
+          "rp": 170000,
+          "sp": 480000,
           "data_unit_id": "saab_a32a",
+          "required_unit_id": "saab_j29b",
           "selected": false,
           "class_name": "",
           "details": true,
-          "main_role": "Strike aircraft"
+          "rank": "VI",
+          "research_country": "Sweden",
+          "main_role": "Strike aircraft",
+          "is_component": false,
+          "component_of": null,
+          "is_premium": false,
+          "is_squadron": false,
+          "wiki": {
+            "url": "https://wiki.warthunder.com/unit/saab_a32a",
+            "rank": "VI",
+            "battle_rating_context": "default",
+            "battle_ratings": {
+              "AB": "9.0",
+              "RB": "9.0",
+              "SB": "9.0"
+            },
+            "battle_ratings_by_battle": {
+              "default": {
+                "AB": "9.0",
+                "RB": "9.0",
+                "SB": "9.0"
+              }
+            },
+            "research": "170,000",
+            "purchase": "480,000",
+            "purchase_currency": "SL",
+            "status": null,
+            "fetched_at": "2026-09-19T06:31:48.851Z",
+            "sha256": "8c94a1762d5afd57dd5f5c71d9e59d89b2df7f94a18e4b3e761343e56e6318ba"
+          }
         }
       ],
       [],
@@ -860,13 +2526,53 @@
           "title": "J34",
           "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/hunter_f50_sweden.png",
           "br": "9.0",
-          "rp": "150,000",
-          "sp": "420,000",
+          "rp": 150000,
+          "sp": 420000,
           "data_unit_id": "hunter_f50_sweden",
+          "required_unit_id": "vampire_fb_group",
           "selected": false,
           "class_name": "",
           "details": true,
-          "main_role": "Fighter"
+          "rank": "VI",
+          "research_country": "Sweden",
+          "main_role": "Fighter",
+          "is_component": false,
+          "component_of": null,
+          "is_premium": false,
+          "is_squadron": false,
+          "wiki": {
+            "url": "https://wiki.warthunder.com/unit/hunter_f50_sweden",
+            "rank": "VI",
+            "battle_rating_context": "air",
+            "battle_ratings": {
+              "AB": "9.3",
+              "RB": "9.0",
+              "SB": "9.3"
+            },
+            "battle_ratings_by_battle": {
+              "air": {
+                "AB": "9.3",
+                "RB": "9.0",
+                "SB": "9.3"
+              },
+              "tank": {
+                "AB": "—",
+                "RB": "8.7",
+                "SB": "8.7"
+              },
+              "ship": {
+                "AB": "9.3",
+                "RB": "9.0",
+                "SB": "—"
+              }
+            },
+            "research": "150,000",
+            "purchase": "420,000",
+            "purchase_currency": "SL",
+            "status": null,
+            "fetched_at": "2026-09-19T06:31:46.843Z",
+            "sha256": "271155a8f000cd8ca8781a1b3012bbac92d0cc62ef479511444910786b2144e2"
+          }
         }
       ]
     ],
@@ -874,16 +2580,46 @@
       [
         {
           "type": "single",
-          "title": "A32A Röd Adam",
+          "title": "A32A Röd Adam",
           "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/saab_a32a_red_adam.png",
           "br": "9.0",
           "rp": 0,
           "sp": 0,
           "data_unit_id": "saab_a32a_red_adam",
+          "required_unit_id": "",
           "selected": false,
           "class_name": "prem",
           "details": true,
-          "main_role": "Strike aircraft"
+          "rank": "VI",
+          "research_country": "Sweden",
+          "main_role": "Strike aircraft",
+          "is_component": false,
+          "component_of": null,
+          "is_premium": true,
+          "is_squadron": false,
+          "wiki": {
+            "url": "https://wiki.warthunder.com/unit/saab_a32a_red_adam",
+            "rank": "VI",
+            "battle_rating_context": "default",
+            "battle_ratings": {
+              "AB": "9.0",
+              "RB": "9.0",
+              "SB": "9.0"
+            },
+            "battle_ratings_by_battle": {
+              "default": {
+                "AB": "9.0",
+                "RB": "9.0",
+                "SB": "9.0"
+              }
+            },
+            "research": null,
+            "purchase": "9,090",
+            "purchase_currency": "GE",
+            "status": "Premium vehicle",
+            "fetched_at": "2026-09-19T06:31:48.864Z",
+            "sha256": "9faae93e13becb1fda59b80196fd4d0fbcdf4a30e8cdbb868e6bd45755a5ecc0"
+          }
         },
         {
           "type": "single",
@@ -893,46 +2629,225 @@
           "rp": 0,
           "sp": 0,
           "data_unit_id": "saab_j35a",
+          "required_unit_id": "",
           "selected": false,
           "class_name": "prem",
           "details": true,
-          "main_role": "Fighter"
+          "rank": "VI",
+          "research_country": "Sweden",
+          "main_role": "Fighter",
+          "is_component": false,
+          "component_of": null,
+          "is_premium": true,
+          "is_squadron": false,
+          "wiki": {
+            "url": "https://wiki.warthunder.com/unit/saab_j35a",
+            "rank": "VI",
+            "battle_rating_context": "default",
+            "battle_ratings": {
+              "AB": "9.0",
+              "RB": "9.3",
+              "SB": "9.3"
+            },
+            "battle_ratings_by_battle": {
+              "default": {
+                "AB": "9.0",
+                "RB": "9.3",
+                "SB": "9.3"
+              }
+            },
+            "research": null,
+            "purchase": null,
+            "purchase_currency": null,
+            "status": "Premium vehicle",
+            "fetched_at": "2026-09-19T06:31:50.857Z",
+            "sha256": "18d4ddb44a94dae1f4c281c56edcca330aeb185569344b50d58b32133fc7a10f"
+          }
         }
       ],
       []
     ],
     "selected": [],
-    "unlock_quantity": 0
+    "unlock_quantity": null,
+    "source": "wiki"
   },
   {
     "rank": "VII",
     "researchable_vehicles": [
       [
         {
-          "type": "single",
-          "title": "J35D",
-          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/saab_j35d.png",
-          "br": "10.0",
-          "rp": "210,000",
-          "sp": "580,000",
-          "data_unit_id": "saab_j35d",
+          "type": "multiple",
+          "title": "J35",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/saab_j35_group.png",
           "selected": false,
+          "br": "10.0-10.3",
+          "data_unit_id": "saab_j35_group",
+          "required_unit_id": "saab_j32b",
           "class_name": "",
+          "items": [
+            {
+              "type": "single",
+              "title": "J35D",
+              "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/saab_j35d.png",
+              "br": "10.0",
+              "rp": 210000,
+              "sp": 580000,
+              "data_unit_id": "saab_j35d",
+              "required_unit_id": "",
+              "selected": false,
+              "class_name": "",
+              "details": true,
+              "rank": "VII",
+              "research_country": "Sweden",
+              "main_role": "Fighter",
+              "is_component": false,
+              "component_of": null,
+              "is_premium": false,
+              "is_squadron": false,
+              "wiki": {
+                "url": "https://wiki.warthunder.com/unit/saab_j35d",
+                "rank": "VII",
+                "battle_rating_context": "air",
+                "battle_ratings": {
+                  "AB": "10.0",
+                  "RB": "10.0",
+                  "SB": "10.3"
+                },
+                "battle_ratings_by_battle": {
+                  "air": {
+                    "AB": "10.0",
+                    "RB": "10.0",
+                    "SB": "10.3"
+                  },
+                  "tank": {
+                    "AB": "—",
+                    "RB": "10.0",
+                    "SB": "10.0"
+                  },
+                  "ship": {
+                    "AB": "10.0",
+                    "RB": "10.0",
+                    "SB": "—"
+                  }
+                },
+                "research": "210,000",
+                "purchase": "580,000",
+                "purchase_currency": "SL",
+                "status": null,
+                "fetched_at": "2026-09-19T06:31:50.870Z",
+                "sha256": "0a4c3da31df5c7e51e7588326f81fbbe42631a6140401244d966a8a33f437c0b"
+              }
+            },
+            {
+              "type": "single",
+              "title": "J35J",
+              "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/saab_j35j.png",
+              "br": "10.3",
+              "rp": 115000,
+              "sp": 630000,
+              "data_unit_id": "saab_j35j",
+              "required_unit_id": "saab_j35d",
+              "selected": false,
+              "class_name": "",
+              "details": true,
+              "rank": "VII",
+              "research_country": "Sweden",
+              "main_role": "Fighter",
+              "is_component": false,
+              "component_of": null,
+              "is_premium": false,
+              "is_squadron": false,
+              "wiki": {
+                "url": "https://wiki.warthunder.com/unit/saab_j35j",
+                "rank": "VII",
+                "battle_rating_context": "air",
+                "battle_ratings": {
+                  "AB": "10.3",
+                  "RB": "10.3",
+                  "SB": "10.7"
+                },
+                "battle_ratings_by_battle": {
+                  "air": {
+                    "AB": "10.3",
+                    "RB": "10.3",
+                    "SB": "10.7"
+                  },
+                  "tank": {
+                    "AB": "—",
+                    "RB": "10.0",
+                    "SB": "10.0"
+                  },
+                  "ship": {
+                    "AB": "10.3",
+                    "RB": "10.3",
+                    "SB": "—"
+                  }
+                },
+                "research": "115,000",
+                "purchase": "630,000",
+                "purchase_currency": "SL",
+                "status": null,
+                "fetched_at": "2026-09-19T06:31:50.846Z",
+                "sha256": "a53a436558a0ce6a3ce786f40d6ffbfdcebc20742c03e325feef62a7fe3f311a"
+              }
+            }
+          ],
           "details": true,
-          "main_role": "Fighter"
+          "rp": 325000,
+          "sp": 1210000
         },
         {
           "type": "single",
           "title": "JA37C",
           "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/saab_ja37.png",
           "br": "11.3",
-          "rp": "260,000",
-          "sp": "720,000",
+          "rp": 260000,
+          "sp": 720000,
           "data_unit_id": "saab_ja37",
+          "required_unit_id": "saab_j35_group",
           "selected": false,
           "class_name": "",
           "details": true,
-          "main_role": "Fighter"
+          "rank": "VII",
+          "research_country": "Sweden",
+          "main_role": "Fighter",
+          "is_component": false,
+          "component_of": null,
+          "is_premium": false,
+          "is_squadron": false,
+          "wiki": {
+            "url": "https://wiki.warthunder.com/unit/saab_ja37",
+            "rank": "VII",
+            "battle_rating_context": "air",
+            "battle_ratings": {
+              "AB": "11.0",
+              "RB": "11.3",
+              "SB": "11.3"
+            },
+            "battle_ratings_by_battle": {
+              "air": {
+                "AB": "11.0",
+                "RB": "11.3",
+                "SB": "11.3"
+              },
+              "tank": {
+                "AB": "—",
+                "RB": "11.0",
+                "SB": "11.0"
+              },
+              "ship": {
+                "AB": "11.0",
+                "RB": "11.3",
+                "SB": "—"
+              }
+            },
+            "research": "260,000",
+            "purchase": "720,000",
+            "purchase_currency": "SL",
+            "status": null,
+            "fetched_at": "2026-09-19T06:31:51.278Z",
+            "sha256": "95707ad6684e92956d28bf489e85a1dd65468003e757357a3829873fb84c3511"
+          }
         }
       ],
       [
@@ -941,26 +2856,106 @@
           "title": "AJ37",
           "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/saab_aj37.png",
           "br": "10.3",
-          "rp": "210,000",
-          "sp": "580,000",
+          "rp": 210000,
+          "sp": 580000,
           "data_unit_id": "saab_aj37",
+          "required_unit_id": "saab_a32a",
           "selected": false,
           "class_name": "",
           "details": true,
-          "main_role": "Strike aircraft"
+          "rank": "VII",
+          "research_country": "Sweden",
+          "main_role": "Strike aircraft",
+          "is_component": false,
+          "component_of": null,
+          "is_premium": false,
+          "is_squadron": false,
+          "wiki": {
+            "url": "https://wiki.warthunder.com/unit/saab_aj37",
+            "rank": "VII",
+            "battle_rating_context": "air",
+            "battle_ratings": {
+              "AB": "10.3",
+              "RB": "10.3",
+              "SB": "11.0"
+            },
+            "battle_ratings_by_battle": {
+              "air": {
+                "AB": "10.3",
+                "RB": "10.3",
+                "SB": "11.0"
+              },
+              "tank": {
+                "AB": "—",
+                "RB": "10.3",
+                "SB": "10.3"
+              },
+              "ship": {
+                "AB": "10.3",
+                "RB": "10.3",
+                "SB": "—"
+              }
+            },
+            "research": "210,000",
+            "purchase": "580,000",
+            "purchase_currency": "SL",
+            "status": null,
+            "fetched_at": "2026-09-19T06:31:49.036Z",
+            "sha256": "d2e4728af1d482a243302f9bf0669cce865ec032b70f2f5f3d39ab0764c29367"
+          }
         },
         {
           "type": "single",
           "title": "AJS37",
           "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/saab_ajs37.png",
           "br": "11.0",
-          "rp": "260,000",
-          "sp": "720,000",
+          "rp": 260000,
+          "sp": 720000,
           "data_unit_id": "saab_ajs37",
+          "required_unit_id": "saab_aj37",
           "selected": false,
           "class_name": "",
           "details": true,
-          "main_role": "Strike aircraft"
+          "rank": "VII",
+          "research_country": "Sweden",
+          "main_role": "Strike aircraft",
+          "is_component": false,
+          "component_of": null,
+          "is_premium": false,
+          "is_squadron": false,
+          "wiki": {
+            "url": "https://wiki.warthunder.com/unit/saab_ajs37",
+            "rank": "VII",
+            "battle_rating_context": "air",
+            "battle_ratings": {
+              "AB": "11.0",
+              "RB": "11.0",
+              "SB": "11.3"
+            },
+            "battle_ratings_by_battle": {
+              "air": {
+                "AB": "11.0",
+                "RB": "11.0",
+                "SB": "11.3"
+              },
+              "tank": {
+                "AB": "—",
+                "RB": "10.7",
+                "SB": "10.7"
+              },
+              "ship": {
+                "AB": "11.0",
+                "RB": "11.0",
+                "SB": "—"
+              }
+            },
+            "research": "260,000",
+            "purchase": "720,000",
+            "purchase_currency": "SL",
+            "status": null,
+            "fetched_at": "2026-09-19T06:31:48.990Z",
+            "sha256": "f4fae0fa69395ca075408424d25e4fc355ce1d19bac5d259b90788121a7a82af"
+          }
         }
       ],
       [],
@@ -970,13 +2965,53 @@
           "title": "▄MiG-21bis",
           "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/mig_21_bis_finland.png",
           "br": "11.0",
-          "rp": "230,000",
-          "sp": "630,000",
+          "rp": 230000,
+          "sp": 630000,
           "data_unit_id": "mig_21_bis_finland",
+          "required_unit_id": "hunter_f50_sweden",
           "selected": false,
           "class_name": "",
           "details": true,
-          "main_role": "Fighter"
+          "rank": "VII",
+          "research_country": "Sweden",
+          "main_role": "Fighter",
+          "is_component": false,
+          "component_of": null,
+          "is_premium": false,
+          "is_squadron": false,
+          "wiki": {
+            "url": "https://wiki.warthunder.com/unit/mig_21_bis_finland",
+            "rank": "VII",
+            "battle_rating_context": "air",
+            "battle_ratings": {
+              "AB": "11.0",
+              "RB": "11.0",
+              "SB": "11.0"
+            },
+            "battle_ratings_by_battle": {
+              "air": {
+                "AB": "11.0",
+                "RB": "11.0",
+                "SB": "11.0"
+              },
+              "tank": {
+                "AB": "—",
+                "RB": "10.3",
+                "SB": "10.3"
+              },
+              "ship": {
+                "AB": "11.0",
+                "RB": "11.0",
+                "SB": "—"
+              }
+            },
+            "research": "230,000",
+            "purchase": "630,000",
+            "purchase_currency": "SL",
+            "status": null,
+            "fetched_at": "2026-09-19T06:31:47.165Z",
+            "sha256": "27470deb41a0fbd250ceaa8bbd37746c7c2a0f21dc259924c7c1aacecc306c73"
+          }
         }
       ]
     ],
@@ -984,29 +3019,154 @@
       [
         {
           "type": "single",
-          "title": "Saab J35XS",
+          "title": "Saab J35XS",
           "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/saab_j35xs.png",
           "br": "10.3",
           "rp": 0,
           "sp": 0,
           "data_unit_id": "saab_j35xs",
+          "required_unit_id": "",
           "selected": false,
           "class_name": "prem",
           "details": true,
-          "main_role": "Fighter"
+          "rank": "VII",
+          "research_country": "Sweden",
+          "main_role": "Fighter",
+          "is_component": false,
+          "component_of": null,
+          "is_premium": true,
+          "is_squadron": false,
+          "wiki": {
+            "url": "https://wiki.warthunder.com/unit/saab_j35xs",
+            "rank": "VII",
+            "battle_rating_context": "air",
+            "battle_ratings": {
+              "AB": "10.3",
+              "RB": "10.3",
+              "SB": "10.3"
+            },
+            "battle_ratings_by_battle": {
+              "air": {
+                "AB": "10.3",
+                "RB": "10.3",
+                "SB": "10.3"
+              },
+              "tank": {
+                "AB": "—",
+                "RB": "10.0",
+                "SB": "10.0"
+              },
+              "ship": {
+                "AB": "10.3",
+                "RB": "10.3",
+                "SB": "—"
+              }
+            },
+            "research": null,
+            "purchase": "9,270",
+            "purchase_currency": "GE",
+            "status": "Premium vehicle",
+            "fetched_at": "2026-09-19T06:31:51.098Z",
+            "sha256": "45917206cb5a1c7fea59d981a172a957d0c1b7b5c1223a97d2abdd4752ef005b"
+          }
         },
         {
           "type": "single",
-          "title": "Saab F-35",
+          "title": "Saab F-35",
           "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/saab_f35_wdns.png",
           "br": "10.3",
-          "rp": "520,000",
-          "sp": "610,000",
+          "rp": 0,
+          "sp": 0,
           "data_unit_id": "saab_f35_wdns",
+          "required_unit_id": "",
           "selected": false,
           "class_name": "squad",
           "details": true,
-          "main_role": "Strike aircraft"
+          "rank": "VII",
+          "research_country": "Sweden",
+          "main_role": "Strike aircraft",
+          "is_component": false,
+          "component_of": null,
+          "is_premium": false,
+          "is_squadron": true,
+          "wiki": {
+            "url": "https://wiki.warthunder.com/unit/saab_f35_wdns",
+            "rank": "VII",
+            "battle_rating_context": "default",
+            "battle_ratings": {
+              "AB": "10.3",
+              "RB": "10.3",
+              "SB": "10.3"
+            },
+            "battle_ratings_by_battle": {
+              "default": {
+                "AB": "10.3",
+                "RB": "10.3",
+                "SB": "10.3"
+              }
+            },
+            "research": "520,000",
+            "purchase": "610,000",
+            "purchase_currency": "SL",
+            "status": "Squadron vehicle",
+            "fetched_at": "2026-09-19T06:31:49.689Z",
+            "sha256": "fc4042871dae231915fe69aa79e23cd84440358178af9a4a2feae5b750428fc5"
+          }
+        }
+      ],
+      [
+        {
+          "type": "single",
+          "title": "AJS37 (Early)",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/saab_ajs37_early.png",
+          "br": "11.0",
+          "rp": 0,
+          "sp": 0,
+          "data_unit_id": "saab_ajs37_early",
+          "required_unit_id": "",
+          "selected": false,
+          "class_name": "prem",
+          "details": true,
+          "rank": "VII",
+          "research_country": "Sweden",
+          "main_role": "Strike aircraft",
+          "is_component": false,
+          "component_of": null,
+          "is_premium": true,
+          "is_squadron": false,
+          "wiki": {
+            "url": "https://wiki.warthunder.com/unit/saab_ajs37_early",
+            "rank": "VII",
+            "battle_rating_context": "air",
+            "battle_ratings": {
+              "AB": "11.0",
+              "RB": "11.0",
+              "SB": "11.3"
+            },
+            "battle_ratings_by_battle": {
+              "air": {
+                "AB": "11.0",
+                "RB": "11.0",
+                "SB": "11.3"
+              },
+              "tank": {
+                "AB": "—",
+                "RB": "10.7",
+                "SB": "10.7"
+              },
+              "ship": {
+                "AB": "11.0",
+                "RB": "11.0",
+                "SB": "—"
+              }
+            },
+            "research": null,
+            "purchase": null,
+            "purchase_currency": null,
+            "status": "Premium vehicle",
+            "fetched_at": "2026-09-19T06:31:49.118Z",
+            "sha256": "bd23b6fb083f4e155392738a8ec39ec47d0cb05f4cdd6ecd2c739ac265e91af3"
+          }
         },
         {
           "type": "single",
@@ -1016,16 +3176,56 @@
           "rp": null,
           "sp": null,
           "data_unit_id": "f-5ag_norway",
+          "required_unit_id": "",
           "selected": false,
           "class_name": "",
           "details": true,
-          "main_role": "Fighter"
+          "rank": "VII",
+          "research_country": "Sweden",
+          "main_role": "Fighter",
+          "is_component": false,
+          "component_of": null,
+          "is_premium": false,
+          "is_squadron": false,
+          "wiki": {
+            "url": "https://wiki.warthunder.com/unit/f-5ag_norway",
+            "rank": "VII",
+            "battle_rating_context": "air",
+            "battle_ratings": {
+              "AB": "11.0",
+              "RB": "11.0",
+              "SB": "11.0"
+            },
+            "battle_ratings_by_battle": {
+              "air": {
+                "AB": "11.0",
+                "RB": "11.0",
+                "SB": "11.0"
+              },
+              "tank": {
+                "AB": "—",
+                "RB": "10.7",
+                "SB": "10.7"
+              },
+              "ship": {
+                "AB": "11.0",
+                "RB": "11.0",
+                "SB": "—"
+              }
+            },
+            "research": null,
+            "purchase": null,
+            "purchase_currency": null,
+            "status": null,
+            "fetched_at": "2026-09-19T06:31:45.267Z",
+            "sha256": "c4ce6692c298e3687da1bde4dbe01fa215da7a0b1189102a49202d8b42ceb065"
+          }
         }
-      ],
-      []
+      ]
     ],
     "selected": [],
-    "unlock_quantity": 0
+    "unlock_quantity": null,
+    "source": "wiki"
   },
   {
     "rank": "VIII",
@@ -1038,6 +3238,7 @@
           "selected": false,
           "br": "12.0-13.0",
           "data_unit_id": "saab_ja37d_group",
+          "required_unit_id": "saab_ja37",
           "class_name": "",
           "items": [
             {
@@ -1045,29 +3246,111 @@
               "title": "JA37D",
               "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/saab_ja37d.png",
               "br": "12.0",
-              "rp": "290,000",
-              "sp": "780,000",
+              "rp": 290000,
+              "sp": 780000,
               "data_unit_id": "saab_ja37d",
+              "required_unit_id": "",
               "selected": false,
               "class_name": "",
               "details": true,
-              "main_role": "Fighter"
+              "rank": "VIII",
+              "research_country": "Sweden",
+              "main_role": "Fighter",
+              "is_component": false,
+              "component_of": null,
+              "is_premium": false,
+              "is_squadron": false,
+              "wiki": {
+                "url": "https://wiki.warthunder.com/unit/saab_ja37d",
+                "rank": "VIII",
+                "battle_rating_context": "air",
+                "battle_ratings": {
+                  "AB": "12.3",
+                  "RB": "12.0",
+                  "SB": "11.7"
+                },
+                "battle_ratings_by_battle": {
+                  "air": {
+                    "AB": "12.3",
+                    "RB": "12.0",
+                    "SB": "11.7"
+                  },
+                  "tank": {
+                    "AB": "—",
+                    "RB": "11.0",
+                    "SB": "11.0"
+                  },
+                  "ship": {
+                    "AB": "12.3",
+                    "RB": "12.0",
+                    "SB": "—"
+                  }
+                },
+                "research": "290,000",
+                "purchase": "780,000",
+                "purchase_currency": "SL",
+                "status": null,
+                "fetched_at": "2026-09-19T06:31:51.317Z",
+                "sha256": "b244ffb02ab1abe1ea17383653b708018439405bb8239e6958a51683480e1c51"
+              }
             },
             {
               "type": "single",
               "title": "JA37DI",
               "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/saab_ja37di.png",
               "br": "13.0",
-              "rp": "160,000",
-              "sp": "860,000",
+              "rp": 160000,
+              "sp": 860000,
               "data_unit_id": "saab_ja37di",
+              "required_unit_id": "saab_ja37d",
               "selected": false,
               "class_name": "",
               "details": true,
-              "main_role": "Fighter"
+              "rank": "VIII",
+              "research_country": "Sweden",
+              "main_role": "Fighter",
+              "is_component": false,
+              "component_of": null,
+              "is_premium": false,
+              "is_squadron": false,
+              "wiki": {
+                "url": "https://wiki.warthunder.com/unit/saab_ja37di",
+                "rank": "VIII",
+                "battle_rating_context": "air",
+                "battle_ratings": {
+                  "AB": "13.3",
+                  "RB": "13.0",
+                  "SB": "13.0"
+                },
+                "battle_ratings_by_battle": {
+                  "air": {
+                    "AB": "13.3",
+                    "RB": "13.0",
+                    "SB": "13.0"
+                  },
+                  "tank": {
+                    "AB": "—",
+                    "RB": "11.7",
+                    "SB": "11.7"
+                  },
+                  "ship": {
+                    "AB": "13.3",
+                    "RB": "13.0",
+                    "SB": "—"
+                  }
+                },
+                "research": "160,000",
+                "purchase": "860,000",
+                "purchase_currency": "SL",
+                "status": null,
+                "fetched_at": "2026-09-19T06:31:51.250Z",
+                "sha256": "3978f90920764f0d5b74d727d40d381c005471948092dcca2abe7d94c870af49"
+              }
             }
           ],
-          "details": true
+          "details": true,
+          "rp": 450000,
+          "sp": 1640000
         },
         {
           "type": "multiple",
@@ -1076,6 +3359,7 @@
           "selected": false,
           "br": "13.0-13.7",
           "data_unit_id": "saab_jas39_group",
+          "required_unit_id": "saab_ja37d_group",
           "class_name": "",
           "items": [
             {
@@ -1083,29 +3367,111 @@
               "title": "JAS39A",
               "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/saab_jas39a.png",
               "br": "13.0",
-              "rp": "320,000",
-              "sp": "860,000",
+              "rp": 320000,
+              "sp": 860000,
               "data_unit_id": "saab_jas39a",
+              "required_unit_id": "",
               "selected": false,
               "class_name": "",
               "details": true,
-              "main_role": "Fighter"
+              "rank": "VIII",
+              "research_country": "Sweden",
+              "main_role": "Fighter",
+              "is_component": false,
+              "component_of": null,
+              "is_premium": false,
+              "is_squadron": false,
+              "wiki": {
+                "url": "https://wiki.warthunder.com/unit/saab_jas39a",
+                "rank": "VIII",
+                "battle_rating_context": "air",
+                "battle_ratings": {
+                  "AB": "13.0",
+                  "RB": "13.0",
+                  "SB": "13.0"
+                },
+                "battle_ratings_by_battle": {
+                  "air": {
+                    "AB": "13.0",
+                    "RB": "13.0",
+                    "SB": "13.0"
+                  },
+                  "tank": {
+                    "AB": "—",
+                    "RB": "12.0",
+                    "SB": "12.0"
+                  },
+                  "ship": {
+                    "AB": "13.0",
+                    "RB": "13.0",
+                    "SB": "—"
+                  }
+                },
+                "research": "320,000",
+                "purchase": "860,000",
+                "purchase_currency": "SL",
+                "status": null,
+                "fetched_at": "2026-09-19T06:31:51.783Z",
+                "sha256": "037deac3d9ebce8f0379e222163223b517657b6d300f17dd9d92352c791154ee"
+              }
             },
             {
               "type": "single",
               "title": "JAS39C",
               "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/saab_jas39c.png",
               "br": "13.7",
-              "rp": "175,000",
-              "sp": "940,000",
+              "rp": 175000,
+              "sp": 940000,
               "data_unit_id": "saab_jas39c",
+              "required_unit_id": "saab_jas39a",
               "selected": false,
               "class_name": "",
               "details": true,
-              "main_role": "Fighter"
+              "rank": "VIII",
+              "research_country": "Sweden",
+              "main_role": "Fighter",
+              "is_component": false,
+              "component_of": null,
+              "is_premium": false,
+              "is_squadron": false,
+              "wiki": {
+                "url": "https://wiki.warthunder.com/unit/saab_jas39c",
+                "rank": "VIII",
+                "battle_rating_context": "air",
+                "battle_ratings": {
+                  "AB": "13.7",
+                  "RB": "13.7",
+                  "SB": "13.7"
+                },
+                "battle_ratings_by_battle": {
+                  "air": {
+                    "AB": "13.7",
+                    "RB": "13.7",
+                    "SB": "13.7"
+                  },
+                  "tank": {
+                    "AB": "—",
+                    "RB": "12.7",
+                    "SB": "12.7"
+                  },
+                  "ship": {
+                    "AB": "13.7",
+                    "RB": "13.7",
+                    "SB": "—"
+                  }
+                },
+                "research": "175,000",
+                "purchase": "940,000",
+                "purchase_currency": "SL",
+                "status": null,
+                "fetched_at": "2026-09-19T06:31:51.793Z",
+                "sha256": "399307a8ff6f0be4bfcca1fc16675b15639adf3c237edeec54d129b669f5f8ac"
+              }
             }
           ],
-          "details": true
+          "details": true,
+          "rp": 495000,
+          "sp": 1800000
         }
       ],
       [
@@ -1114,26 +3480,106 @@
           "title": "◢F-16A",
           "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/f_16a_block_10_norway.png",
           "br": "12.3",
-          "rp": "290,000",
-          "sp": "780,000",
+          "rp": 290000,
+          "sp": 780000,
           "data_unit_id": "f_16a_block_10_norway",
+          "required_unit_id": "saab_ajs37",
           "selected": false,
           "class_name": "",
           "details": true,
-          "main_role": "Fighter"
+          "rank": "VIII",
+          "research_country": "Sweden",
+          "main_role": "Fighter",
+          "is_component": false,
+          "component_of": null,
+          "is_premium": false,
+          "is_squadron": false,
+          "wiki": {
+            "url": "https://wiki.warthunder.com/unit/f_16a_block_10_norway",
+            "rank": "VIII",
+            "battle_rating_context": "air",
+            "battle_ratings": {
+              "AB": "12.3",
+              "RB": "12.3",
+              "SB": "12.7"
+            },
+            "battle_ratings_by_battle": {
+              "air": {
+                "AB": "12.3",
+                "RB": "12.3",
+                "SB": "12.7"
+              },
+              "tank": {
+                "AB": "—",
+                "RB": "12.0",
+                "SB": "12.0"
+              },
+              "ship": {
+                "AB": "12.3",
+                "RB": "12.3",
+                "SB": "—"
+              }
+            },
+            "research": "290,000",
+            "purchase": "780,000",
+            "purchase_currency": "SL",
+            "status": null,
+            "fetched_at": "2026-09-19T06:31:45.530Z",
+            "sha256": "79b3fdcef3786461485e47491ba592f84c3cc5cdeb785cb584cea3bbba7c7420"
+          }
         },
         {
           "type": "single",
           "title": "◢F-16AM",
           "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/f_16am_block_20_mlu_norway.png",
           "br": "13.7",
-          "rp": "320,000",
-          "sp": "860,000",
+          "rp": 320000,
+          "sp": 860000,
           "data_unit_id": "f_16am_block_20_mlu_norway",
+          "required_unit_id": "f_16a_block_10_norway",
           "selected": false,
           "class_name": "",
           "details": true,
-          "main_role": "Fighter"
+          "rank": "VIII",
+          "research_country": "Sweden",
+          "main_role": "Fighter",
+          "is_component": false,
+          "component_of": null,
+          "is_premium": false,
+          "is_squadron": false,
+          "wiki": {
+            "url": "https://wiki.warthunder.com/unit/f_16am_block_20_mlu_norway",
+            "rank": "VIII",
+            "battle_rating_context": "air",
+            "battle_ratings": {
+              "AB": "13.7",
+              "RB": "13.7",
+              "SB": "13.7"
+            },
+            "battle_ratings_by_battle": {
+              "air": {
+                "AB": "13.7",
+                "RB": "13.7",
+                "SB": "13.7"
+              },
+              "tank": {
+                "AB": "—",
+                "RB": "12.7",
+                "SB": "12.7"
+              },
+              "ship": {
+                "AB": "13.7",
+                "RB": "13.7",
+                "SB": "—"
+              }
+            },
+            "research": "320,000",
+            "purchase": "860,000",
+            "purchase_currency": "SL",
+            "status": null,
+            "fetched_at": "2026-09-19T06:31:45.775Z",
+            "sha256": "d14e5c5e2040dbe0bd980ae31f4078beb40d2ee0d5b13ce56e86ca010f2dfcdb"
+          }
         }
       ],
       [],
@@ -1143,26 +3589,106 @@
           "title": "▄F-18C",
           "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/fa_18c_finland.png",
           "br": "14.0",
-          "rp": "320,000",
-          "sp": "860,000",
+          "rp": 320000,
+          "sp": 860000,
           "data_unit_id": "fa_18c_finland",
+          "required_unit_id": "mig_21_bis_finland",
           "selected": false,
           "class_name": "",
           "details": true,
-          "main_role": "Fighter"
+          "rank": "VIII",
+          "research_country": "Sweden",
+          "main_role": "Fighter",
+          "is_component": false,
+          "component_of": null,
+          "is_premium": false,
+          "is_squadron": false,
+          "wiki": {
+            "url": "https://wiki.warthunder.com/unit/fa_18c_finland",
+            "rank": "VIII",
+            "battle_rating_context": "air",
+            "battle_ratings": {
+              "AB": "14.0",
+              "RB": "14.0",
+              "SB": "14.0"
+            },
+            "battle_ratings_by_battle": {
+              "air": {
+                "AB": "14.0",
+                "RB": "14.0",
+                "SB": "14.0"
+              },
+              "tank": {
+                "AB": "—",
+                "RB": "12.7",
+                "SB": "12.7"
+              },
+              "ship": {
+                "AB": "14.0",
+                "RB": "14.0",
+                "SB": "—"
+              }
+            },
+            "research": "320,000",
+            "purchase": "860,000",
+            "purchase_currency": "SL",
+            "status": null,
+            "fetched_at": "2026-09-19T06:31:45.845Z",
+            "sha256": "be24484e7ba59339c093abe291aa62a4745dabc1db85cb6f4b37600337c9d1a7"
+          }
         },
         {
           "type": "single",
-          "title": "▄F/A-18C MLU 2",
+          "title": "▄F/A-18C MLU 2",
           "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/fa_18c_mlu_2_finland.png",
           "br": "14.0",
-          "rp": "350,000",
-          "sp": "940,000",
+          "rp": 350000,
+          "sp": 940000,
           "data_unit_id": "fa_18c_mlu_2_finland",
+          "required_unit_id": "fa_18c_finland",
           "selected": false,
           "class_name": "",
           "details": true,
-          "main_role": "Fighter"
+          "rank": "VIII",
+          "research_country": "Sweden",
+          "main_role": "Fighter",
+          "is_component": false,
+          "component_of": null,
+          "is_premium": false,
+          "is_squadron": false,
+          "wiki": {
+            "url": "https://wiki.warthunder.com/unit/fa_18c_mlu_2_finland",
+            "rank": "VIII",
+            "battle_rating_context": "air",
+            "battle_ratings": {
+              "AB": "14.0",
+              "RB": "14.0",
+              "SB": "14.0"
+            },
+            "battle_ratings_by_battle": {
+              "air": {
+                "AB": "14.0",
+                "RB": "14.0",
+                "SB": "14.0"
+              },
+              "tank": {
+                "AB": "—",
+                "RB": "12.7",
+                "SB": "12.7"
+              },
+              "ship": {
+                "AB": "14.0",
+                "RB": "14.0",
+                "SB": "—"
+              }
+            },
+            "research": "350,000",
+            "purchase": "940,000",
+            "purchase_currency": "SL",
+            "status": null,
+            "fetched_at": "2026-09-19T06:31:45.957Z",
+            "sha256": "1d7deef3a4a3e55a553ffa801b2f781c812200b1bd078e6d0fd16d0ef88d4fc7"
+          }
         }
       ]
     ],
@@ -1170,35 +3696,116 @@
       [
         {
           "type": "single",
-          "title": "JA37DI F21",
+          "title": "JA37DI F21",
           "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/saab_ja37di_f21.png",
           "br": "13.0",
           "rp": 0,
           "sp": 0,
           "data_unit_id": "saab_ja37di_f21",
+          "required_unit_id": "",
           "selected": false,
           "class_name": "prem",
           "details": true,
-          "main_role": "Fighter"
+          "rank": "VIII",
+          "research_country": "Sweden",
+          "main_role": "Fighter",
+          "is_component": false,
+          "component_of": null,
+          "is_premium": true,
+          "is_squadron": false,
+          "wiki": {
+            "url": "https://wiki.warthunder.com/unit/saab_ja37di_f21",
+            "rank": "VIII",
+            "battle_rating_context": "air",
+            "battle_ratings": {
+              "AB": "13.3",
+              "RB": "13.0",
+              "SB": "13.0"
+            },
+            "battle_ratings_by_battle": {
+              "air": {
+                "AB": "13.3",
+                "RB": "13.0",
+                "SB": "13.0"
+              },
+              "tank": {
+                "AB": "—",
+                "RB": "11.7",
+                "SB": "11.7"
+              },
+              "ship": {
+                "AB": "13.3",
+                "RB": "13.0",
+                "SB": "—"
+              }
+            },
+            "research": null,
+            "purchase": null,
+            "purchase_currency": null,
+            "status": "Premium vehicle",
+            "fetched_at": "2026-09-19T06:31:51.545Z",
+            "sha256": "6db661f869d9cb10e6440d1654197683f262232915b37988e1b24ceb7b4c64b9"
+          }
         },
         {
           "type": "single",
           "title": "JAS39D",
           "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/saab_jas39d.png",
           "br": "13.7",
-          "rp": "600,000",
-          "sp": "990,000",
+          "rp": 0,
+          "sp": 0,
           "data_unit_id": "saab_jas39d",
+          "required_unit_id": "",
           "selected": false,
           "class_name": "squad",
           "details": true,
-          "main_role": "Fighter"
+          "rank": "VIII",
+          "research_country": "Sweden",
+          "main_role": "Fighter",
+          "is_component": false,
+          "component_of": null,
+          "is_premium": false,
+          "is_squadron": true,
+          "wiki": {
+            "url": "https://wiki.warthunder.com/unit/saab_jas39d",
+            "rank": "VIII",
+            "battle_rating_context": "air",
+            "battle_ratings": {
+              "AB": "13.7",
+              "RB": "13.7",
+              "SB": "13.7"
+            },
+            "battle_ratings_by_battle": {
+              "air": {
+                "AB": "13.7",
+                "RB": "13.7",
+                "SB": "13.7"
+              },
+              "tank": {
+                "AB": "—",
+                "RB": "12.7",
+                "SB": "12.7"
+              },
+              "ship": {
+                "AB": "13.7",
+                "RB": "13.7",
+                "SB": "—"
+              }
+            },
+            "research": "600,000",
+            "purchase": "990,000",
+            "purchase_currency": "SL",
+            "status": "Squadron vehicle",
+            "fetched_at": "2026-09-19T06:31:51.832Z",
+            "sha256": "fa06537226b3540660e8501c3241876a51af2644fc646c4ffcd42dca5d778c19"
+          }
         }
       ],
       []
     ],
     "selected": [],
-    "unlock_quantity": 0
+    "unlock_quantity": null,
+    "source": "wiki"
   },
   {
     "rank": "IX",
@@ -1209,13 +3816,53 @@
           "title": "JAS39E",
           "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/saab_jas39e.png",
           "br": "14.3",
-          "rp": "400,000",
-          "sp": "1,080,000",
+          "rp": 400000,
+          "sp": 1080000,
           "data_unit_id": "saab_jas39e",
+          "required_unit_id": "saab_jas39_group",
           "selected": false,
           "class_name": "",
           "details": true,
-          "main_role": "Fighter"
+          "rank": "IX",
+          "research_country": "Sweden",
+          "main_role": "Fighter",
+          "is_component": false,
+          "component_of": null,
+          "is_premium": false,
+          "is_squadron": false,
+          "wiki": {
+            "url": "https://wiki.warthunder.com/unit/saab_jas39e",
+            "rank": "IX",
+            "battle_rating_context": "air",
+            "battle_ratings": {
+              "AB": "14.3",
+              "RB": "14.3",
+              "SB": "14.3"
+            },
+            "battle_ratings_by_battle": {
+              "air": {
+                "AB": "14.3",
+                "RB": "14.3",
+                "SB": "14.3"
+              },
+              "tank": {
+                "AB": "—",
+                "RB": "13.0",
+                "SB": "13.0"
+              },
+              "ship": {
+                "AB": "14.3",
+                "RB": "14.3",
+                "SB": "—"
+              }
+            },
+            "research": "400,000",
+            "purchase": "1,080,000",
+            "purchase_currency": "SL",
+            "status": null,
+            "fetched_at": "2026-09-19T06:31:51.968Z",
+            "sha256": "398eb3bad8bd6fda6a1d0df702b56311ca0646f578a722274772b21f756dc1ff"
+          }
         }
       ],
       [],
@@ -1227,6 +3874,7 @@
       []
     ],
     "selected": [],
-    "unlock_quantity": 0
+    "unlock_quantity": null,
+    "source": "wiki"
   }
 ]

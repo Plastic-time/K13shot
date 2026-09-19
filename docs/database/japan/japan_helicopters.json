@@ -8,13 +8,43 @@
           "title": "▅UH-1B",
           "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/uh_1b_japan.png",
           "br": "7.7",
-          "rp": null,
-          "sp": "390,000",
+          "rp": 0,
+          "sp": 390000,
           "data_unit_id": "uh_1b_japan",
+          "required_unit_id": "",
           "selected": false,
           "class_name": "",
           "details": true,
-          "main_role": "Utility helicopter"
+          "rank": "V",
+          "research_country": "Japan",
+          "main_role": "Utility helicopter",
+          "is_component": false,
+          "component_of": null,
+          "is_premium": false,
+          "is_squadron": false,
+          "wiki": {
+            "url": "https://wiki.warthunder.com/unit/uh_1b_japan",
+            "rank": "V",
+            "battle_rating_context": "default",
+            "battle_ratings": {
+              "AB": "8.3",
+              "RB": "7.7",
+              "SB": "8.0"
+            },
+            "battle_ratings_by_battle": {
+              "default": {
+                "AB": "8.3",
+                "RB": "7.7",
+                "SB": "8.0"
+              }
+            },
+            "research": "Free",
+            "purchase": "390,000",
+            "purchase_currency": "SL",
+            "status": null,
+            "fetched_at": "2026-09-19T06:32:04.181Z",
+            "sha256": "9cc4436c949792f4fc197f6b90da32bb91a24ecc8c9ac7af421fe85a8f599016"
+          }
         }
       ],
       []
@@ -23,7 +53,8 @@
       []
     ],
     "selected": [],
-    "unlock_quantity": 0
+    "unlock_quantity": null,
+    "source": "wiki"
   },
   {
     "rank": "VI",
@@ -34,26 +65,86 @@
           "title": "▅AH-1E",
           "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/ah_1s_early.png",
           "br": "9.3",
-          "rp": "360,000",
-          "sp": "980,000",
+          "rp": 360000,
+          "sp": 980000,
           "data_unit_id": "ah_1s_early",
+          "required_unit_id": "uh_1b_japan",
           "selected": false,
           "class_name": "",
           "details": true,
-          "main_role": "Attack helicopter"
+          "rank": "VI",
+          "research_country": "Japan",
+          "main_role": "Attack helicopter",
+          "is_component": false,
+          "component_of": null,
+          "is_premium": false,
+          "is_squadron": false,
+          "wiki": {
+            "url": "https://wiki.warthunder.com/unit/ah_1s_early",
+            "rank": "VI",
+            "battle_rating_context": "default",
+            "battle_ratings": {
+              "AB": "9.7",
+              "RB": "9.3",
+              "SB": "9.3"
+            },
+            "battle_ratings_by_battle": {
+              "default": {
+                "AB": "9.7",
+                "RB": "9.3",
+                "SB": "9.3"
+              }
+            },
+            "research": "360,000",
+            "purchase": "980,000",
+            "purchase_currency": "SL",
+            "status": null,
+            "fetched_at": "2026-09-19T06:32:03.744Z",
+            "sha256": "147709e36ce83245928f896a90317ce6f9bc0f8db039af106985ae33be3b3287"
+          }
         },
         {
           "type": "single",
           "title": "AH-1S",
           "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/ah_1s_late.png",
           "br": "9.7",
-          "rp": "380,000",
-          "sp": "1,000,000",
+          "rp": 380000,
+          "sp": 1000000,
           "data_unit_id": "ah_1s_late",
+          "required_unit_id": "ah_1s_early",
           "selected": false,
           "class_name": "",
           "details": true,
-          "main_role": "Attack helicopter"
+          "rank": "VI",
+          "research_country": "Japan",
+          "main_role": "Attack helicopter",
+          "is_component": false,
+          "component_of": null,
+          "is_premium": false,
+          "is_squadron": false,
+          "wiki": {
+            "url": "https://wiki.warthunder.com/unit/ah_1s_late",
+            "rank": "VI",
+            "battle_rating_context": "default",
+            "battle_ratings": {
+              "AB": "9.7",
+              "RB": "9.7",
+              "SB": "9.7"
+            },
+            "battle_ratings_by_battle": {
+              "default": {
+                "AB": "9.7",
+                "RB": "9.7",
+                "SB": "9.7"
+              }
+            },
+            "research": "380,000",
+            "purchase": "1,000,000",
+            "purchase_currency": "SL",
+            "status": null,
+            "fetched_at": "2026-09-19T06:32:03.920Z",
+            "sha256": "a8b52fdf4f652cf4478a26462cb3aac4c3a09de9c0535d2f3c0aa50c929a07f0"
+          }
         }
       ],
       [
@@ -62,13 +153,43 @@
           "title": "◥Mi-35",
           "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/mi_35p_indonesia.png",
           "br": "9.7",
-          "rp": "370,000",
-          "sp": "990,000",
+          "rp": 370000,
+          "sp": 990000,
           "data_unit_id": "mi_35p_indonesia",
+          "required_unit_id": "ah_1s_early",
           "selected": false,
           "class_name": "",
           "details": true,
-          "main_role": "Attack helicopter"
+          "rank": "VI",
+          "research_country": "Japan",
+          "main_role": "Attack helicopter",
+          "is_component": false,
+          "component_of": null,
+          "is_premium": false,
+          "is_squadron": false,
+          "wiki": {
+            "url": "https://wiki.warthunder.com/unit/mi_35p_indonesia",
+            "rank": "VI",
+            "battle_rating_context": "default",
+            "battle_ratings": {
+              "AB": "10.0",
+              "RB": "9.7",
+              "SB": "9.7"
+            },
+            "battle_ratings_by_battle": {
+              "default": {
+                "AB": "10.0",
+                "RB": "9.7",
+                "SB": "9.7"
+              }
+            },
+            "research": "370,000",
+            "purchase": "990,000",
+            "purchase_currency": "SL",
+            "status": null,
+            "fetched_at": "2026-09-19T06:32:04.446Z",
+            "sha256": "302caa232194c6e22b66ad17de823fecb83060df0d040018de87f547a2aa9f0b"
+          }
         }
       ]
     ],
@@ -76,21 +197,52 @@
       [
         {
           "type": "single",
-          "title": "AH-1S Kisarazu",
+          "title": "AH-1S Kisarazu",
           "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/ah_1s.png",
           "br": "9.7",
           "rp": 0,
           "sp": 0,
           "data_unit_id": "ah_1s",
+          "required_unit_id": "",
           "selected": false,
           "class_name": "prem",
           "details": true,
-          "main_role": "Attack helicopter"
+          "rank": "VI",
+          "research_country": "Japan",
+          "main_role": "Attack helicopter",
+          "is_component": false,
+          "component_of": null,
+          "is_premium": true,
+          "is_squadron": false,
+          "wiki": {
+            "url": "https://wiki.warthunder.com/unit/ah_1s",
+            "rank": "VI",
+            "battle_rating_context": "default",
+            "battle_ratings": {
+              "AB": "9.7",
+              "RB": "9.7",
+              "SB": "9.7"
+            },
+            "battle_ratings_by_battle": {
+              "default": {
+                "AB": "9.7",
+                "RB": "9.7",
+                "SB": "9.7"
+              }
+            },
+            "research": null,
+            "purchase": null,
+            "purchase_currency": null,
+            "status": "Premium vehicle",
+            "fetched_at": "2026-09-19T06:32:03.664Z",
+            "sha256": "fceb45ae6be3ecbfe61bad3ee23b820b0d2e4738c083f608da0f77c5deba4885"
+          }
         }
       ]
     ],
     "selected": [],
-    "unlock_quantity": 0
+    "unlock_quantity": null,
+    "source": "wiki"
   },
   {
     "rank": "VII",
@@ -100,27 +252,87 @@
           "type": "single",
           "title": "AH-64DJP",
           "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/ah_64d_japan.png",
-          "br": "11.7",
-          "rp": "400,000",
-          "sp": "1,020,000",
+          "br": "11.3",
+          "rp": 400000,
+          "sp": 1020000,
           "data_unit_id": "ah_64d_japan",
+          "required_unit_id": "ah_1s_late",
           "selected": false,
           "class_name": "",
           "details": true,
-          "main_role": "Attack helicopter"
+          "rank": "VII",
+          "research_country": "Japan",
+          "main_role": "Attack helicopter",
+          "is_component": false,
+          "component_of": null,
+          "is_premium": false,
+          "is_squadron": false,
+          "wiki": {
+            "url": "https://wiki.warthunder.com/unit/ah_64d_japan",
+            "rank": "VII",
+            "battle_rating_context": "default",
+            "battle_ratings": {
+              "AB": "10.7",
+              "RB": "11.3",
+              "SB": "10.3"
+            },
+            "battle_ratings_by_battle": {
+              "default": {
+                "AB": "10.7",
+                "RB": "11.3",
+                "SB": "10.3"
+              }
+            },
+            "research": "400,000",
+            "purchase": "1,020,000",
+            "purchase_currency": "SL",
+            "status": null,
+            "fetched_at": "2026-09-19T06:32:03.927Z",
+            "sha256": "c82e8995aad77f73f334424eeb817d1022f65e36db741a6b7e7521190b8ec41b"
+          }
         },
         {
           "type": "single",
           "title": "◥AH-64E",
           "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/ah_64e_indonesia.png",
           "br": "13.0",
-          "rp": "400,000",
-          "sp": "1,030,000",
+          "rp": 400000,
+          "sp": 1030000,
           "data_unit_id": "ah_64e_indonesia",
+          "required_unit_id": "ah_64d_japan",
           "selected": false,
           "class_name": "",
           "details": true,
-          "main_role": "Attack helicopter"
+          "rank": "VII",
+          "research_country": "Japan",
+          "main_role": "Attack helicopter",
+          "is_component": false,
+          "component_of": null,
+          "is_premium": false,
+          "is_squadron": false,
+          "wiki": {
+            "url": "https://wiki.warthunder.com/unit/ah_64e_indonesia",
+            "rank": "VII",
+            "battle_rating_context": "default",
+            "battle_ratings": {
+              "AB": "11.0",
+              "RB": "13.0",
+              "SB": "11.0"
+            },
+            "battle_ratings_by_battle": {
+              "default": {
+                "AB": "11.0",
+                "RB": "13.0",
+                "SB": "11.0"
+              }
+            },
+            "research": "400,000",
+            "purchase": "1,030,000",
+            "purchase_currency": "SL",
+            "status": null,
+            "fetched_at": "2026-09-19T06:32:04.252Z",
+            "sha256": "269f28820c4dcb30d5ac600c3cf4c1e2b6ace6cd11cfb53f2632b2376c9314c5"
+          }
         }
       ],
       []
@@ -129,20 +341,51 @@
       [
         {
           "type": "single",
-          "title": "AH-64DJP (AT)",
+          "title": "AH-64DJP (AT)",
           "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/ah_64d_lightweight_japan.png",
-          "br": "11.7",
+          "br": "11.3",
           "rp": 0,
           "sp": 0,
           "data_unit_id": "ah_64d_lightweight_japan",
+          "required_unit_id": "",
           "selected": false,
           "class_name": "prem",
           "details": true,
-          "main_role": "Attack helicopter"
+          "rank": "VII",
+          "research_country": "Japan",
+          "main_role": "Attack helicopter",
+          "is_component": false,
+          "component_of": null,
+          "is_premium": true,
+          "is_squadron": false,
+          "wiki": {
+            "url": "https://wiki.warthunder.com/unit/ah_64d_lightweight_japan",
+            "rank": "VII",
+            "battle_rating_context": "default",
+            "battle_ratings": {
+              "AB": "10.7",
+              "RB": "11.3",
+              "SB": "10.3"
+            },
+            "battle_ratings_by_battle": {
+              "default": {
+                "AB": "10.7",
+                "RB": "11.3",
+                "SB": "10.3"
+              }
+            },
+            "research": null,
+            "purchase": null,
+            "purchase_currency": null,
+            "status": "Premium vehicle",
+            "fetched_at": "2026-09-19T06:32:04.125Z",
+            "sha256": "a6aadf64b437caf4a62200317c30ee53e6abdbd4c2779558a90f145c6cc71769"
+          }
         }
       ]
     ],
     "selected": [],
-    "unlock_quantity": 0
+    "unlock_quantity": null,
+    "source": "wiki"
   }
 ]

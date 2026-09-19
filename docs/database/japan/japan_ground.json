@@ -8,51 +8,129 @@
           "title": "Ha-Go",
           "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/jp_type_95_ha_go.png",
           "br": "1.0",
-          "rp": null,
-          "sp": null,
+          "rp": 0,
+          "sp": 0,
           "data_unit_id": "jp_type_95_ha_go",
           "required_unit_id": "",
           "selected": false,
           "class_name": "",
           "details": true,
-          "main_role": "Light tank",
           "rank": "I",
           "research_country": "Japan",
-          "is_premium": false
+          "main_role": "Light tank",
+          "is_component": false,
+          "component_of": null,
+          "is_premium": false,
+          "is_squadron": false,
+          "wiki": {
+            "url": "https://wiki.warthunder.com/unit/jp_type_95_ha_go",
+            "rank": "I",
+            "battle_rating_context": "default",
+            "battle_ratings": {
+              "AB": "1.0",
+              "RB": "1.0",
+              "SB": "1.0"
+            },
+            "battle_ratings_by_battle": {
+              "default": {
+                "AB": "1.0",
+                "RB": "1.0",
+                "SB": "1.0"
+              }
+            },
+            "research": "Free",
+            "purchase": "Free",
+            "purchase_currency": "SL",
+            "status": null,
+            "fetched_at": "2026-09-19T06:28:51.331Z",
+            "sha256": "5fd4c3f93ee1dda0e9658287071eaf80ffd9d39495aec98f108bb7b239ecee42"
+          }
         },
         {
           "type": "single",
           "title": "Ke-Ni",
           "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/jp_type_98_ke_ni.png",
           "br": "1.0",
-          "rp": null,
-          "sp": null,
+          "rp": 0,
+          "sp": 0,
           "data_unit_id": "jp_type_98_ke_ni",
           "required_unit_id": "",
           "selected": false,
           "class_name": "",
           "details": true,
-          "main_role": "Light tank",
           "rank": "I",
           "research_country": "Japan",
-          "is_premium": false
+          "main_role": "Light tank",
+          "is_component": false,
+          "component_of": null,
+          "is_premium": false,
+          "is_squadron": false,
+          "wiki": {
+            "url": "https://wiki.warthunder.com/unit/jp_type_98_ke_ni",
+            "rank": "I",
+            "battle_rating_context": "default",
+            "battle_ratings": {
+              "AB": "1.0",
+              "RB": "1.0",
+              "SB": "1.0"
+            },
+            "battle_ratings_by_battle": {
+              "default": {
+                "AB": "1.0",
+                "RB": "1.0",
+                "SB": "1.0"
+              }
+            },
+            "research": "Free",
+            "purchase": "Free",
+            "purchase_currency": "SL",
+            "status": null,
+            "fetched_at": "2026-09-19T06:28:52.388Z",
+            "sha256": "d4cb85ae0525cfdc55d782084c71fe15bef1ba73352b7e45b11110b5b0791dc3"
+          }
         },
         {
           "type": "single",
           "title": "Ka-Mi",
           "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/jp_type_2_ka_mi.png",
           "br": "1.0",
-          "rp": "2,900",
-          "sp": "700",
+          "rp": 2900,
+          "sp": 700,
           "data_unit_id": "jp_type_2_ka_mi",
           "required_unit_id": "jp_type_98_ke_ni",
           "selected": false,
           "class_name": "",
           "details": true,
-          "main_role": "Light tank",
           "rank": "I",
           "research_country": "Japan",
-          "is_premium": false
+          "main_role": "Light tank",
+          "is_component": false,
+          "component_of": null,
+          "is_premium": false,
+          "is_squadron": false,
+          "wiki": {
+            "url": "https://wiki.warthunder.com/unit/jp_type_2_ka_mi",
+            "rank": "I",
+            "battle_rating_context": "default",
+            "battle_ratings": {
+              "AB": "1.0",
+              "RB": "1.0",
+              "SB": "1.0"
+            },
+            "battle_ratings_by_battle": {
+              "default": {
+                "AB": "1.0",
+                "RB": "1.0",
+                "SB": "1.0"
+              }
+            },
+            "research": "2,900",
+            "purchase": "700",
+            "purchase_currency": "SL",
+            "status": null,
+            "fetched_at": "2026-09-19T06:28:47.714Z",
+            "sha256": "91ec00d2f16c17b02c2eed9b1ad2590749924046ead6d78a9790c3e873633958"
+          }
         }
       ],
       [
@@ -61,51 +139,129 @@
           "title": "I-Go Ko",
           "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/jp_type_89b_i_go_otsu.png",
           "br": "1.0",
-          "rp": null,
-          "sp": null,
+          "rp": 0,
+          "sp": 0,
           "data_unit_id": "jp_type_89b_i_go_otsu",
           "required_unit_id": "",
           "selected": false,
           "class_name": "",
           "details": true,
-          "main_role": "Light tank",
           "rank": "I",
           "research_country": "Japan",
-          "is_premium": false
+          "main_role": "Light tank",
+          "is_component": false,
+          "component_of": null,
+          "is_premium": false,
+          "is_squadron": false,
+          "wiki": {
+            "url": "https://wiki.warthunder.com/unit/jp_type_89b_i_go_otsu",
+            "rank": "I",
+            "battle_rating_context": "default",
+            "battle_ratings": {
+              "AB": "1.0",
+              "RB": "1.0",
+              "SB": "1.0"
+            },
+            "battle_ratings_by_battle": {
+              "default": {
+                "AB": "1.0",
+                "RB": "1.0",
+                "SB": "1.0"
+              }
+            },
+            "research": "Free",
+            "purchase": "Free",
+            "purchase_currency": "SL",
+            "status": null,
+            "fetched_at": "2026-09-19T06:28:50.766Z",
+            "sha256": "075a60fae23f7964f9ddaa5878c6dab308406ba2512e2950d90e3e873ac77aef"
+          }
         },
         {
           "type": "single",
           "title": "Chi-Ha",
           "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/jp_type_97_chi_ha.png",
           "br": "1.3",
-          "rp": "2,900",
-          "sp": "700",
+          "rp": 2900,
+          "sp": 700,
           "data_unit_id": "jp_type_97_chi_ha",
           "required_unit_id": "jp_type_89b_i_go_otsu",
           "selected": false,
           "class_name": "",
           "details": true,
-          "main_role": "Medium tank",
           "rank": "I",
           "research_country": "Japan",
-          "is_premium": false
+          "main_role": "Medium tank",
+          "is_component": false,
+          "component_of": null,
+          "is_premium": false,
+          "is_squadron": false,
+          "wiki": {
+            "url": "https://wiki.warthunder.com/unit/jp_type_97_chi_ha",
+            "rank": "I",
+            "battle_rating_context": "default",
+            "battle_ratings": {
+              "AB": "1.3",
+              "RB": "1.3",
+              "SB": "1.3"
+            },
+            "battle_ratings_by_battle": {
+              "default": {
+                "AB": "1.3",
+                "RB": "1.3",
+                "SB": "1.3"
+              }
+            },
+            "research": "2,900",
+            "purchase": "700",
+            "purchase_currency": "SL",
+            "status": null,
+            "fetched_at": "2026-09-19T06:28:51.936Z",
+            "sha256": "e579fbfc0a2f7506308087d6115ca3ce343c15eb3cda0183a3a663d045b92103"
+          }
         },
         {
           "type": "single",
           "title": "Ho-I",
           "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/jp_type_2_ho_i.png",
           "br": "2.0",
-          "rp": "5,900",
-          "sp": "6,300",
+          "rp": 5900,
+          "sp": 6300,
           "data_unit_id": "jp_type_2_ho_i",
           "required_unit_id": "jp_type_97_chi_ha",
           "selected": false,
           "class_name": "",
           "details": true,
-          "main_role": "Medium tank",
           "rank": "I",
           "research_country": "Japan",
-          "is_premium": false
+          "main_role": "Medium tank",
+          "is_component": false,
+          "component_of": null,
+          "is_premium": false,
+          "is_squadron": false,
+          "wiki": {
+            "url": "https://wiki.warthunder.com/unit/jp_type_2_ho_i",
+            "rank": "I",
+            "battle_rating_context": "default",
+            "battle_ratings": {
+              "AB": "2.3",
+              "RB": "2.0",
+              "SB": "2.0"
+            },
+            "battle_ratings_by_battle": {
+              "default": {
+                "AB": "2.3",
+                "RB": "2.0",
+                "SB": "2.0"
+              }
+            },
+            "research": "5,900",
+            "purchase": "6,300",
+            "purchase_currency": "SL",
+            "status": null,
+            "fetched_at": "2026-09-19T06:28:47.579Z",
+            "sha256": "7fd62774d299389c4ac855564c8289d22f9834a9dd8a94823fc2ba53ba8409b2"
+          }
         }
       ],
       [
@@ -114,51 +270,129 @@
           "title": "Ho-Ro",
           "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/jp_type_4_ho_ro.png",
           "br": "1.3",
-          "rp": "2,900",
-          "sp": "700",
+          "rp": 2900,
+          "sp": 700,
           "data_unit_id": "jp_type_4_ho_ro",
           "required_unit_id": "",
           "selected": false,
           "class_name": "",
           "details": true,
-          "main_role": "Tank destroyer",
           "rank": "I",
           "research_country": "Japan",
-          "is_premium": false
-        },
-        {
-          "type": "single",
-          "title": "Ho-Ni II",
-          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/jp_type_2_ho_ni_2.png",
-          "br": "2.0",
-          "rp": "4,000",
-          "sp": "2,100",
-          "data_unit_id": "jp_type_2_ho_ni_2",
-          "required_unit_id": "jp_type_4_ho_ro",
-          "selected": false,
-          "class_name": "",
-          "details": true,
           "main_role": "Tank destroyer",
-          "rank": "I",
-          "research_country": "Japan",
-          "is_premium": false
+          "is_component": false,
+          "component_of": null,
+          "is_premium": false,
+          "is_squadron": false,
+          "wiki": {
+            "url": "https://wiki.warthunder.com/unit/jp_type_4_ho_ro",
+            "rank": "I",
+            "battle_rating_context": "default",
+            "battle_ratings": {
+              "AB": "1.3",
+              "RB": "1.3",
+              "SB": "1.3"
+            },
+            "battle_ratings_by_battle": {
+              "default": {
+                "AB": "1.3",
+                "RB": "1.3",
+                "SB": "1.3"
+              }
+            },
+            "research": "2,900",
+            "purchase": "700",
+            "purchase_currency": "SL",
+            "status": null,
+            "fetched_at": "2026-09-19T06:28:48.494Z",
+            "sha256": "2f0e786c6f362dfd2ca1bc7919788e83ab877c2f7e0bae90a0a8465a8aa66bb0"
+          }
         },
         {
           "type": "single",
           "title": "Ro-Go Exp.",
           "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/jp_hiro_sha.png",
           "br": "1.7",
-          "rp": "5,900",
-          "sp": "6,300",
+          "rp": 4000,
+          "sp": 2100,
           "data_unit_id": "jp_hiro_sha",
-          "required_unit_id": "jp_type_2_ho_ni_2",
+          "required_unit_id": "jp_type_4_ho_ro",
           "selected": false,
           "class_name": "",
           "details": true,
-          "main_role": "Tank destroyer",
           "rank": "I",
           "research_country": "Japan",
-          "is_premium": false
+          "main_role": "Tank destroyer",
+          "is_component": false,
+          "component_of": null,
+          "is_premium": false,
+          "is_squadron": false,
+          "wiki": {
+            "url": "https://wiki.warthunder.com/unit/jp_hiro_sha",
+            "rank": "I",
+            "battle_rating_context": "default",
+            "battle_ratings": {
+              "AB": "1.7",
+              "RB": "1.7",
+              "SB": "1.7"
+            },
+            "battle_ratings_by_battle": {
+              "default": {
+                "AB": "1.7",
+                "RB": "1.7",
+                "SB": "1.7"
+              }
+            },
+            "research": "4,000",
+            "purchase": "2,100",
+            "purchase_currency": "SL",
+            "status": null,
+            "fetched_at": "2026-09-19T06:28:44.345Z",
+            "sha256": "be0f8be816889e305dc86e93b34528a6440563728ac58c6bb4b0c99758b5fa1c"
+          }
+        },
+        {
+          "type": "single",
+          "title": "Ho-Ni II",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/jp_type_2_ho_ni_2.png",
+          "br": "2.0",
+          "rp": 5900,
+          "sp": 6300,
+          "data_unit_id": "jp_type_2_ho_ni_2",
+          "required_unit_id": "jp_hiro_sha",
+          "selected": false,
+          "class_name": "",
+          "details": true,
+          "rank": "I",
+          "research_country": "Japan",
+          "main_role": "Tank destroyer",
+          "is_component": false,
+          "component_of": null,
+          "is_premium": false,
+          "is_squadron": false,
+          "wiki": {
+            "url": "https://wiki.warthunder.com/unit/jp_type_2_ho_ni_2",
+            "rank": "I",
+            "battle_rating_context": "default",
+            "battle_ratings": {
+              "AB": "2.0",
+              "RB": "2.0",
+              "SB": "2.0"
+            },
+            "battle_ratings_by_battle": {
+              "default": {
+                "AB": "2.0",
+                "RB": "2.0",
+                "SB": "2.0"
+              }
+            },
+            "research": "5,900",
+            "purchase": "6,300",
+            "purchase_currency": "SL",
+            "status": null,
+            "fetched_at": "2026-09-19T06:28:47.654Z",
+            "sha256": "276e7e53162ac9edf03b341da712be4374844b44339fec7902af64864cf3b201"
+          }
         }
       ],
       [
@@ -167,34 +401,86 @@
           "title": "Type 94",
           "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/jp_type_94.png",
           "br": "1.3",
-          "rp": "2,900",
-          "sp": "700",
+          "rp": 2900,
+          "sp": 700,
           "data_unit_id": "jp_type_94",
           "required_unit_id": "",
           "selected": false,
           "class_name": "",
           "details": true,
-          "main_role": "SPAA",
           "rank": "I",
           "research_country": "Japan",
-          "is_premium": false
+          "main_role": "SPAA",
+          "is_component": false,
+          "component_of": null,
+          "is_premium": false,
+          "is_squadron": false,
+          "wiki": {
+            "url": "https://wiki.warthunder.com/unit/jp_type_94",
+            "rank": "I",
+            "battle_rating_context": "default",
+            "battle_ratings": {
+              "AB": "1.3",
+              "RB": "1.3",
+              "SB": "1.3"
+            },
+            "battle_ratings_by_battle": {
+              "default": {
+                "AB": "1.3",
+                "RB": "1.3",
+                "SB": "1.3"
+              }
+            },
+            "research": "2,900",
+            "purchase": "700",
+            "purchase_currency": "SL",
+            "status": null,
+            "fetched_at": "2026-09-19T06:28:51.488Z",
+            "sha256": "9edc3685ea247da04f8a31a3f4b15430226399dfae10cd2be34b19c72934f060"
+          }
         },
         {
           "type": "single",
           "title": "Ta-Se",
           "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/jp_type_98_ta_se.png",
           "br": "1.7",
-          "rp": "4,000",
-          "sp": "2,100",
+          "rp": 4000,
+          "sp": 2100,
           "data_unit_id": "jp_type_98_ta_se",
           "required_unit_id": "jp_type_94",
           "selected": false,
           "class_name": "",
           "details": true,
-          "main_role": "SPAA",
           "rank": "I",
           "research_country": "Japan",
-          "is_premium": false
+          "main_role": "SPAA",
+          "is_component": false,
+          "component_of": null,
+          "is_premium": false,
+          "is_squadron": false,
+          "wiki": {
+            "url": "https://wiki.warthunder.com/unit/jp_type_98_ta_se",
+            "rank": "I",
+            "battle_rating_context": "default",
+            "battle_ratings": {
+              "AB": "1.7",
+              "RB": "1.7",
+              "SB": "1.7"
+            },
+            "battle_ratings_by_battle": {
+              "default": {
+                "AB": "1.7",
+                "RB": "1.7",
+                "SB": "1.7"
+              }
+            },
+            "research": "4,000",
+            "purchase": "2,100",
+            "purchase_currency": "SL",
+            "status": null,
+            "fetched_at": "2026-09-19T06:28:52.353Z",
+            "sha256": "f3ebf6c1b003c9df0453b86ccea0a9eab627da3b65032e6f50a7bc358aa4bafd"
+          }
         }
       ],
       []
@@ -213,10 +499,36 @@
           "selected": false,
           "class_name": "prem",
           "details": true,
-          "main_role": "Light tank",
           "rank": "I",
           "research_country": "Japan",
-          "is_premium": true
+          "main_role": "Light tank",
+          "is_component": false,
+          "component_of": null,
+          "is_premium": true,
+          "is_squadron": false,
+          "wiki": {
+            "url": "https://wiki.warthunder.com/unit/jp_type_95_ha_go_commander",
+            "rank": "I",
+            "battle_rating_context": "default",
+            "battle_ratings": {
+              "AB": "1.0",
+              "RB": "1.0",
+              "SB": "1.0"
+            },
+            "battle_ratings_by_battle": {
+              "default": {
+                "AB": "1.0",
+                "RB": "1.0",
+                "SB": "1.0"
+              }
+            },
+            "research": null,
+            "purchase": "250",
+            "purchase_currency": "GE",
+            "status": "Premium vehicle",
+            "fetched_at": "2026-09-19T06:28:51.669Z",
+            "sha256": "ff31150666dc822e6cf093854b1a3e7df6b1bf567ea7a7c136d4bb2479343a1b"
+          }
         },
         {
           "type": "single",
@@ -230,10 +542,36 @@
           "selected": false,
           "class_name": "prem",
           "details": true,
-          "main_role": "Heavy tank",
           "rank": "I",
           "research_country": "Japan",
-          "is_premium": true
+          "main_role": "Heavy tank",
+          "is_component": false,
+          "component_of": null,
+          "is_premium": true,
+          "is_squadron": false,
+          "wiki": {
+            "url": "https://wiki.warthunder.com/unit/jp_type_95_heavy",
+            "rank": "I",
+            "battle_rating_context": "default",
+            "battle_ratings": {
+              "AB": "1.3",
+              "RB": "1.3",
+              "SB": "1.3"
+            },
+            "battle_ratings_by_battle": {
+              "default": {
+                "AB": "1.3",
+                "RB": "1.3",
+                "SB": "1.3"
+              }
+            },
+            "research": null,
+            "purchase": "1,370",
+            "purchase_currency": "GE",
+            "status": "Premium vehicle",
+            "fetched_at": "2026-09-19T06:28:51.794Z",
+            "sha256": "5ff7c8b776087622bf2ef1b86ed0b281f4bc202f6c2e826907b9fb318b48f67e"
+          }
         }
       ],
       [
@@ -249,15 +587,42 @@
           "selected": false,
           "class_name": "prem",
           "details": true,
-          "main_role": "Medium tank",
           "rank": "I",
           "research_country": "Japan",
-          "is_premium": true
+          "main_role": "Medium tank",
+          "is_component": false,
+          "component_of": null,
+          "is_premium": true,
+          "is_squadron": false,
+          "wiki": {
+            "url": "https://wiki.warthunder.com/unit/jp_type_3_ka_chi",
+            "rank": "I",
+            "battle_rating_context": "default",
+            "battle_ratings": {
+              "AB": "2.0",
+              "RB": "2.0",
+              "SB": "2.0"
+            },
+            "battle_ratings_by_battle": {
+              "default": {
+                "AB": "2.0",
+                "RB": "2.0",
+                "SB": "2.0"
+              }
+            },
+            "research": null,
+            "purchase": null,
+            "purchase_currency": null,
+            "status": "Premium vehicle",
+            "fetched_at": "2026-09-19T06:28:48.066Z",
+            "sha256": "cd66dd528b7ebc64077509f2bc559ace565d812db0bc44672511172d4c28dd1d"
+          }
         }
       ]
     ],
     "selected": [],
-    "unlock_quantity": 0
+    "unlock_quantity": null,
+    "source": "wiki"
   },
   {
     "rank": "II",
@@ -269,34 +634,86 @@
           "title": "Chi-Ha Kai",
           "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/jp_type_97_kai.png",
           "br": "2.3",
-          "rp": "7,900",
-          "sp": "10,000",
+          "rp": 7900,
+          "sp": 10000,
           "data_unit_id": "jp_type_97_kai",
           "required_unit_id": "",
           "selected": false,
           "class_name": "",
           "details": true,
-          "main_role": "Medium tank",
           "rank": "II",
           "research_country": "Japan",
-          "is_premium": false
+          "main_role": "Medium tank",
+          "is_component": false,
+          "component_of": null,
+          "is_premium": false,
+          "is_squadron": false,
+          "wiki": {
+            "url": "https://wiki.warthunder.com/unit/jp_type_97_kai",
+            "rank": "II",
+            "battle_rating_context": "default",
+            "battle_ratings": {
+              "AB": "2.3",
+              "RB": "2.3",
+              "SB": "2.3"
+            },
+            "battle_ratings_by_battle": {
+              "default": {
+                "AB": "2.3",
+                "RB": "2.3",
+                "SB": "2.3"
+              }
+            },
+            "research": "7,900",
+            "purchase": "10,000",
+            "purchase_currency": "SL",
+            "status": null,
+            "fetched_at": "2026-09-19T06:28:52.258Z",
+            "sha256": "b89b2b0aa3d54d8385f983ac082e54f5872918b07863aaa9991aa2b98f716c38"
+          }
         },
         {
           "type": "single",
           "title": "Chi-He",
           "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/jp_type_1_chi_he.png",
           "br": "2.7",
-          "rp": "9,200",
-          "sp": "16,000",
+          "rp": 9200,
+          "sp": 16000,
           "data_unit_id": "jp_type_1_chi_he",
           "required_unit_id": "jp_type_97_kai",
           "selected": false,
           "class_name": "",
           "details": true,
-          "main_role": "Medium tank",
           "rank": "II",
           "research_country": "Japan",
-          "is_premium": false
+          "main_role": "Medium tank",
+          "is_component": false,
+          "component_of": null,
+          "is_premium": false,
+          "is_squadron": false,
+          "wiki": {
+            "url": "https://wiki.warthunder.com/unit/jp_type_1_chi_he",
+            "rank": "II",
+            "battle_rating_context": "default",
+            "battle_ratings": {
+              "AB": "2.7",
+              "RB": "2.7",
+              "SB": "2.7"
+            },
+            "battle_ratings_by_battle": {
+              "default": {
+                "AB": "2.7",
+                "RB": "2.7",
+                "SB": "2.7"
+              }
+            },
+            "research": "9,200",
+            "purchase": "16,000",
+            "purchase_currency": "SL",
+            "status": null,
+            "fetched_at": "2026-09-19T06:28:47.438Z",
+            "sha256": "bf3c76c7f26aa12ddc72abee856688d850f0dfe9852da7bba3f8c314b99a9f28"
+          }
         }
       ],
       [
@@ -315,34 +732,86 @@
               "title": "Ho-Ni I",
               "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/jp_type_3_ho_ni_i.png",
               "br": "2.0",
-              "rp": "7,900",
-              "sp": "10,000",
+              "rp": 7900,
+              "sp": 10000,
               "data_unit_id": "jp_type_3_ho_ni_i",
               "required_unit_id": "",
               "selected": false,
               "class_name": "",
               "details": true,
-              "main_role": "Tank destroyer",
               "rank": "II",
               "research_country": "Japan",
-              "is_premium": false
+              "main_role": "Tank destroyer",
+              "is_component": false,
+              "component_of": null,
+              "is_premium": false,
+              "is_squadron": false,
+              "wiki": {
+                "url": "https://wiki.warthunder.com/unit/jp_type_3_ho_ni_I",
+                "rank": "II",
+                "battle_rating_context": "default",
+                "battle_ratings": {
+                  "AB": "2.0",
+                  "RB": "2.0",
+                  "SB": "2.0"
+                },
+                "battle_ratings_by_battle": {
+                  "default": {
+                    "AB": "2.0",
+                    "RB": "2.0",
+                    "SB": "2.0"
+                  }
+                },
+                "research": "7,900",
+                "purchase": "10,000",
+                "purchase_currency": "SL",
+                "status": null,
+                "fetched_at": "2026-09-19T06:28:48.121Z",
+                "sha256": "b227af9921b03c474436739f6e5fe7adc5549f526cf8765515ec89e0a6fbb0b6"
+              }
             },
             {
               "type": "single",
               "title": "Ho-Ni III",
               "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/jp_type_3_ho_ni_iii.png",
               "br": "2.3",
-              "rp": "4,600",
-              "sp": "16,000",
+              "rp": 4600,
+              "sp": 16000,
               "data_unit_id": "jp_type_3_ho_ni_iii",
               "required_unit_id": "jp_type_3_ho_ni_i",
               "selected": false,
               "class_name": "",
               "details": true,
-              "main_role": "Tank destroyer",
               "rank": "II",
               "research_country": "Japan",
-              "is_premium": false
+              "main_role": "Tank destroyer",
+              "is_component": false,
+              "component_of": null,
+              "is_premium": false,
+              "is_squadron": false,
+              "wiki": {
+                "url": "https://wiki.warthunder.com/unit/jp_type_3_ho_ni_III",
+                "rank": "II",
+                "battle_rating_context": "default",
+                "battle_ratings": {
+                  "AB": "2.3",
+                  "RB": "2.3",
+                  "SB": "2.3"
+                },
+                "battle_ratings_by_battle": {
+                  "default": {
+                    "AB": "2.3",
+                    "RB": "2.3",
+                    "SB": "2.3"
+                  }
+                },
+                "research": "4,600",
+                "purchase": "16,000",
+                "purchase_currency": "SL",
+                "status": null,
+                "fetched_at": "2026-09-19T06:28:48.213Z",
+                "sha256": "b4fb415f08b53e2f1b726532c92299f537fd330519fea04174d498dfe9a60146"
+              }
             }
           ],
           "details": true,
@@ -354,17 +823,43 @@
           "title": "Chi-Ha LG",
           "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/jp_navy_120mm_spg.png",
           "br": "3.0",
-          "rp": "9,200",
-          "sp": "16,000",
+          "rp": 9200,
+          "sp": 16000,
           "data_unit_id": "jp_navy_120mm_spg",
           "required_unit_id": "jp_ho_ni_group",
           "selected": false,
           "class_name": "",
           "details": true,
-          "main_role": "Tank destroyer",
           "rank": "II",
           "research_country": "Japan",
-          "is_premium": false
+          "main_role": "Tank destroyer",
+          "is_component": false,
+          "component_of": null,
+          "is_premium": false,
+          "is_squadron": false,
+          "wiki": {
+            "url": "https://wiki.warthunder.com/unit/jp_navy_120mm_spg",
+            "rank": "II",
+            "battle_rating_context": "default",
+            "battle_ratings": {
+              "AB": "3.0",
+              "RB": "3.0",
+              "SB": "3.0"
+            },
+            "battle_ratings_by_battle": {
+              "default": {
+                "AB": "3.0",
+                "RB": "3.0",
+                "SB": "3.0"
+              }
+            },
+            "research": "9,200",
+            "purchase": "16,000",
+            "purchase_currency": "SL",
+            "status": null,
+            "fetched_at": "2026-09-19T06:28:45.506Z",
+            "sha256": "cd4ae9b9c86f4cda69df3695f97401583153e61577d290b237e11614d8afabf6"
+          }
         }
       ],
       [
@@ -373,34 +868,86 @@
           "title": "▅M16 MGMC",
           "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/jp_halftrack_m16.png",
           "br": "2.7",
-          "rp": "9,200",
-          "sp": "16,000",
+          "rp": 9200,
+          "sp": 16000,
           "data_unit_id": "jp_halftrack_m16",
           "required_unit_id": "",
           "selected": false,
           "class_name": "",
           "details": true,
-          "main_role": "SPAA",
           "rank": "II",
           "research_country": "Japan",
-          "is_premium": false
+          "main_role": "SPAA",
+          "is_component": false,
+          "component_of": null,
+          "is_premium": false,
+          "is_squadron": false,
+          "wiki": {
+            "url": "https://wiki.warthunder.com/unit/jp_halftrack_m16",
+            "rank": "II",
+            "battle_rating_context": "default",
+            "battle_ratings": {
+              "AB": "2.7",
+              "RB": "2.7",
+              "SB": "2.7"
+            },
+            "battle_ratings_by_battle": {
+              "default": {
+                "AB": "2.7",
+                "RB": "2.7",
+                "SB": "2.7"
+              }
+            },
+            "research": "9,200",
+            "purchase": "16,000",
+            "purchase_currency": "SL",
+            "status": null,
+            "fetched_at": "2026-09-19T06:28:44.200Z",
+            "sha256": "a2366ffa8eab01dad0ba5e70530ed0a78d18cc4156cb9c06a93939a864907fb6"
+          }
         },
         {
           "type": "single",
           "title": "So-Ki",
           "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/jp_type_95_so_ki.png",
           "br": "3.0",
-          "rp": "14,000",
-          "sp": "32,000",
+          "rp": 14000,
+          "sp": 32000,
           "data_unit_id": "jp_type_95_so_ki",
           "required_unit_id": "jp_halftrack_m16",
           "selected": false,
           "class_name": "",
           "details": true,
-          "main_role": "SPAA",
           "rank": "II",
           "research_country": "Japan",
-          "is_premium": false
+          "main_role": "SPAA",
+          "is_component": false,
+          "component_of": null,
+          "is_premium": false,
+          "is_squadron": false,
+          "wiki": {
+            "url": "https://wiki.warthunder.com/unit/jp_type_95_so_ki",
+            "rank": "II",
+            "battle_rating_context": "default",
+            "battle_ratings": {
+              "AB": "3.0",
+              "RB": "3.0",
+              "SB": "3.0"
+            },
+            "battle_ratings_by_battle": {
+              "default": {
+                "AB": "3.0",
+                "RB": "3.0",
+                "SB": "3.0"
+              }
+            },
+            "research": "14,000",
+            "purchase": "32,000",
+            "purchase_currency": "SL",
+            "status": null,
+            "fetched_at": "2026-09-19T06:28:51.777Z",
+            "sha256": "795821f318a97c7037195afc162da979c85672e9cc224f78d19043d345e8789e"
+          }
         }
       ],
       []
@@ -419,10 +966,36 @@
           "selected": false,
           "class_name": "prem",
           "details": true,
-          "main_role": "Medium tank",
           "rank": "II",
           "research_country": "Japan",
-          "is_premium": true
+          "main_role": "Medium tank",
+          "is_component": false,
+          "component_of": null,
+          "is_premium": true,
+          "is_squadron": false,
+          "wiki": {
+            "url": "https://wiki.warthunder.com/unit/jp_type_97_chi_ha_12cm",
+            "rank": "II",
+            "battle_rating_context": "default",
+            "battle_ratings": {
+              "AB": "2.0",
+              "RB": "1.7",
+              "SB": "1.7"
+            },
+            "battle_ratings_by_battle": {
+              "default": {
+                "AB": "2.0",
+                "RB": "1.7",
+                "SB": "1.7"
+              }
+            },
+            "research": null,
+            "purchase": "1,000",
+            "purchase_currency": "GE",
+            "status": "Premium vehicle",
+            "fetched_at": "2026-09-19T06:28:52.113Z",
+            "sha256": "c6e8335d6113678074b90987b02ef6929919df353e7db255224e593365f04d05"
+          }
         },
         {
           "type": "single",
@@ -436,10 +1009,36 @@
           "selected": false,
           "class_name": "prem",
           "details": true,
-          "main_role": "Medium tank",
           "rank": "II",
           "research_country": "Japan",
-          "is_premium": true
+          "main_role": "Medium tank",
+          "is_component": false,
+          "component_of": null,
+          "is_premium": true,
+          "is_squadron": false,
+          "wiki": {
+            "url": "https://wiki.warthunder.com/unit/jp_type_1_chi_he_5th_regiment",
+            "rank": "II",
+            "battle_rating_context": "default",
+            "battle_ratings": {
+              "AB": "2.7",
+              "RB": "2.7",
+              "SB": "2.7"
+            },
+            "battle_ratings_by_battle": {
+              "default": {
+                "AB": "2.7",
+                "RB": "2.7",
+                "SB": "2.7"
+              }
+            },
+            "research": null,
+            "purchase": "850",
+            "purchase_currency": "GE",
+            "status": "Premium vehicle",
+            "fetched_at": "2026-09-19T06:28:47.498Z",
+            "sha256": "91d5d8023694dd7bd938ca4035af68b2b6f924f362fe438b354b0974909a9811"
+          }
         }
       ],
       [
@@ -453,16 +1052,44 @@
           "data_unit_id": "jp_type_97_kai_td",
           "required_unit_id": "",
           "selected": false,
-          "class_name": "prem",
+          "class_name": "",
           "details": true,
-          "main_role": "Medium tank",
           "rank": "II",
-          "research_country": "Japan"
+          "research_country": "Japan",
+          "main_role": "Medium tank",
+          "is_component": false,
+          "component_of": null,
+          "is_premium": false,
+          "is_squadron": false,
+          "wiki": {
+            "url": "https://wiki.warthunder.com/unit/jp_type_97_kai_td",
+            "rank": "II",
+            "battle_rating_context": "default",
+            "battle_ratings": {
+              "AB": "2.3",
+              "RB": "2.3",
+              "SB": "2.3"
+            },
+            "battle_ratings_by_battle": {
+              "default": {
+                "AB": "2.3",
+                "RB": "2.3",
+                "SB": "2.3"
+              }
+            },
+            "research": null,
+            "purchase": null,
+            "purchase_currency": null,
+            "status": null,
+            "fetched_at": "2026-09-19T06:28:52.102Z",
+            "sha256": "57997cc2c75ea83ce6c9573d3b7d36c7c68cc31740103b5704fbf1990268aa73"
+          }
         }
       ]
     ],
     "selected": [],
-    "unlock_quantity": 0
+    "unlock_quantity": null,
+    "source": "wiki"
   },
   {
     "rank": "III",
@@ -473,17 +1100,43 @@
           "title": "▅M24",
           "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/jp_m24_chaffee.png",
           "br": "4.0",
-          "rp": "18,000",
-          "sp": "47,000",
+          "rp": 18000,
+          "sp": 47000,
           "data_unit_id": "jp_m24_chaffee",
           "required_unit_id": "",
           "selected": false,
           "class_name": "",
           "details": true,
-          "main_role": "Light tank",
           "rank": "III",
           "research_country": "Japan",
-          "is_premium": false
+          "main_role": "Light tank",
+          "is_component": false,
+          "component_of": null,
+          "is_premium": false,
+          "is_squadron": false,
+          "wiki": {
+            "url": "https://wiki.warthunder.com/unit/jp_m24_chaffee",
+            "rank": "III",
+            "battle_rating_context": "default",
+            "battle_ratings": {
+              "AB": "3.7",
+              "RB": "4.0",
+              "SB": "4.0"
+            },
+            "battle_ratings_by_battle": {
+              "default": {
+                "AB": "3.7",
+                "RB": "4.0",
+                "SB": "4.0"
+              }
+            },
+            "research": "18,000",
+            "purchase": "47,000",
+            "purchase_currency": "SL",
+            "status": null,
+            "fetched_at": "2026-09-19T06:28:44.995Z",
+            "sha256": "df80e4cd0bd36f99214cfd011ee3f78c26fd04c53a4b719baacd3ca9eda2183a"
+          }
         }
       ],
       [
@@ -492,17 +1145,43 @@
           "title": "Chi-Nu",
           "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/jp_type_3_chi_nu.png",
           "br": "3.3",
-          "rp": "18,000",
-          "sp": "47,000",
+          "rp": 18000,
+          "sp": 47000,
           "data_unit_id": "jp_type_3_chi_nu",
           "required_unit_id": "jp_type_1_chi_he",
           "selected": false,
           "class_name": "",
           "details": true,
-          "main_role": "Medium tank",
           "rank": "III",
           "research_country": "Japan",
-          "is_premium": false
+          "main_role": "Medium tank",
+          "is_component": false,
+          "component_of": null,
+          "is_premium": false,
+          "is_squadron": false,
+          "wiki": {
+            "url": "https://wiki.warthunder.com/unit/jp_type_3_chi_nu",
+            "rank": "III",
+            "battle_rating_context": "default",
+            "battle_ratings": {
+              "AB": "3.3",
+              "RB": "3.3",
+              "SB": "3.3"
+            },
+            "battle_ratings_by_battle": {
+              "default": {
+                "AB": "3.3",
+                "RB": "3.3",
+                "SB": "3.3"
+              }
+            },
+            "research": "18,000",
+            "purchase": "47,000",
+            "purchase_currency": "SL",
+            "status": null,
+            "fetched_at": "2026-09-19T06:28:47.805Z",
+            "sha256": "3a2b9a4267cda373596e05c4a7660a56bfe9274759b49f4dcc819066b85d7743"
+          }
         },
         {
           "type": "multiple",
@@ -519,34 +1198,86 @@
               "title": "Chi-To",
               "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/jp_type_4_chi_to.png",
               "br": "4.7",
-              "rp": "33,000",
-              "sp": "105,000",
+              "rp": 33000,
+              "sp": 105000,
               "data_unit_id": "jp_type_4_chi_to",
               "required_unit_id": "",
               "selected": false,
               "class_name": "",
               "details": true,
-              "main_role": "Medium tank",
               "rank": "III",
               "research_country": "Japan",
-              "is_premium": false
+              "main_role": "Medium tank",
+              "is_component": false,
+              "component_of": null,
+              "is_premium": false,
+              "is_squadron": false,
+              "wiki": {
+                "url": "https://wiki.warthunder.com/unit/jp_type_4_chi_to",
+                "rank": "III",
+                "battle_rating_context": "default",
+                "battle_ratings": {
+                  "AB": "4.7",
+                  "RB": "4.7",
+                  "SB": "4.7"
+                },
+                "battle_ratings_by_battle": {
+                  "default": {
+                    "AB": "4.7",
+                    "RB": "4.7",
+                    "SB": "4.7"
+                  }
+                },
+                "research": "33,000",
+                "purchase": "105,000",
+                "purchase_currency": "SL",
+                "status": null,
+                "fetched_at": "2026-09-19T06:28:48.283Z",
+                "sha256": "cc4f2e574b20b282d3a1f25856a050934c54b2bd7bd31c37ecb1c834f72e7f59"
+              }
             },
             {
               "type": "single",
               "title": "Chi-To Late",
               "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/jp_type_4_chi_to_late.png",
               "br": "4.7",
-              "rp": "20,000",
-              "sp": "135,000",
+              "rp": 20000,
+              "sp": 135000,
               "data_unit_id": "jp_type_4_chi_to_late",
               "required_unit_id": "jp_type_4_chi_to",
               "selected": false,
               "class_name": "",
               "details": true,
-              "main_role": "Medium tank",
               "rank": "III",
               "research_country": "Japan",
-              "is_premium": false
+              "main_role": "Medium tank",
+              "is_component": false,
+              "component_of": null,
+              "is_premium": false,
+              "is_squadron": false,
+              "wiki": {
+                "url": "https://wiki.warthunder.com/unit/jp_type_4_chi_to_late",
+                "rank": "III",
+                "battle_rating_context": "default",
+                "battle_ratings": {
+                  "AB": "4.7",
+                  "RB": "4.7",
+                  "SB": "4.7"
+                },
+                "battle_ratings_by_battle": {
+                  "default": {
+                    "AB": "4.7",
+                    "RB": "4.7",
+                    "SB": "4.7"
+                  }
+                },
+                "research": "20,000",
+                "purchase": "135,000",
+                "purchase_currency": "SL",
+                "status": null,
+                "fetched_at": "2026-09-19T06:28:48.537Z",
+                "sha256": "5f1a9b86e5df3c2551b78722516edf89aac84b0891e4eb59400e8dba369dba19"
+              }
             }
           ],
           "details": true,
@@ -560,34 +1291,86 @@
           "title": "Na-To",
           "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/jp_type_5_na_to.png",
           "br": "3.3",
-          "rp": "18,000",
-          "sp": "47,000",
+          "rp": 18000,
+          "sp": 47000,
           "data_unit_id": "jp_type_5_na_to",
           "required_unit_id": "jp_navy_120mm_spg",
           "selected": false,
           "class_name": "",
           "details": true,
-          "main_role": "Tank destroyer",
           "rank": "III",
           "research_country": "Japan",
-          "is_premium": false
+          "main_role": "Tank destroyer",
+          "is_component": false,
+          "component_of": null,
+          "is_premium": false,
+          "is_squadron": false,
+          "wiki": {
+            "url": "https://wiki.warthunder.com/unit/jp_type_5_na_to",
+            "rank": "III",
+            "battle_rating_context": "default",
+            "battle_ratings": {
+              "AB": "3.3",
+              "RB": "3.3",
+              "SB": "3.3"
+            },
+            "battle_ratings_by_battle": {
+              "default": {
+                "AB": "3.3",
+                "RB": "3.3",
+                "SB": "3.3"
+              }
+            },
+            "research": "18,000",
+            "purchase": "47,000",
+            "purchase_currency": "SL",
+            "status": null,
+            "fetched_at": "2026-09-19T06:28:48.842Z",
+            "sha256": "c02388183cbe8f4a19094e1a87a9a5fd0c1b267a738ec5b20f55a1cd793895de"
+          }
         },
         {
           "type": "single",
           "title": "▅M44",
           "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/jp_m44.png",
-          "br": "4.0",
-          "rp": "26,000",
-          "sp": "76,000",
+          "br": "3.7",
+          "rp": 26000,
+          "sp": 76000,
           "data_unit_id": "jp_m44",
           "required_unit_id": "jp_type_5_na_to",
           "selected": false,
           "class_name": "",
           "details": true,
-          "main_role": "Tank destroyer",
           "rank": "III",
           "research_country": "Japan",
-          "is_premium": false
+          "main_role": "Tank destroyer",
+          "is_component": false,
+          "component_of": null,
+          "is_premium": false,
+          "is_squadron": false,
+          "wiki": {
+            "url": "https://wiki.warthunder.com/unit/jp_m44",
+            "rank": "III",
+            "battle_rating_context": "default",
+            "battle_ratings": {
+              "AB": "3.7",
+              "RB": "3.7",
+              "SB": "3.7"
+            },
+            "battle_ratings_by_battle": {
+              "default": {
+                "AB": "3.7",
+                "RB": "3.7",
+                "SB": "3.7"
+              }
+            },
+            "research": "26,000",
+            "purchase": "76,000",
+            "purchase_currency": "SL",
+            "status": null,
+            "fetched_at": "2026-09-19T06:28:45.254Z",
+            "sha256": "47db1669e3de49e064c800d0d456e54d7c8738ae3da9a7fdce0010899afaf0d9"
+          }
         }
       ],
       [
@@ -596,34 +1379,86 @@
           "title": "▅M19A1",
           "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/jp_m19.png",
           "br": "4.0",
-          "rp": "18,000",
-          "sp": "47,000",
+          "rp": 18000,
+          "sp": 47000,
           "data_unit_id": "jp_m19",
           "required_unit_id": "jp_type_95_so_ki",
           "selected": false,
           "class_name": "",
           "details": true,
-          "main_role": "SPAA",
           "rank": "III",
           "research_country": "Japan",
-          "is_premium": false
+          "main_role": "SPAA",
+          "is_component": false,
+          "component_of": null,
+          "is_premium": false,
+          "is_squadron": false,
+          "wiki": {
+            "url": "https://wiki.warthunder.com/unit/jp_m19",
+            "rank": "III",
+            "battle_rating_context": "default",
+            "battle_ratings": {
+              "AB": "4.3",
+              "RB": "4.0",
+              "SB": "4.0"
+            },
+            "battle_ratings_by_battle": {
+              "default": {
+                "AB": "4.3",
+                "RB": "4.0",
+                "SB": "4.0"
+              }
+            },
+            "research": "18,000",
+            "purchase": "47,000",
+            "purchase_currency": "SL",
+            "status": null,
+            "fetched_at": "2026-09-19T06:28:44.758Z",
+            "sha256": "55179ab3db8b9c9211ce1c4ebd88b4442919083bd815b7b8bbe01f04e90b5256"
+          }
         },
         {
           "type": "single",
           "title": "▅M42",
           "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/jp_m42_duster.png",
           "br": "4.0",
-          "rp": "26,000",
-          "sp": "76,000",
+          "rp": 26000,
+          "sp": 76000,
           "data_unit_id": "jp_m42_duster",
           "required_unit_id": "jp_m19",
           "selected": false,
           "class_name": "",
           "details": true,
-          "main_role": "SPAA",
           "rank": "III",
           "research_country": "Japan",
-          "is_premium": false
+          "main_role": "SPAA",
+          "is_component": false,
+          "component_of": null,
+          "is_premium": false,
+          "is_squadron": false,
+          "wiki": {
+            "url": "https://wiki.warthunder.com/unit/jp_m42_duster",
+            "rank": "III",
+            "battle_rating_context": "default",
+            "battle_ratings": {
+              "AB": "4.3",
+              "RB": "4.0",
+              "SB": "4.0"
+            },
+            "battle_ratings_by_battle": {
+              "default": {
+                "AB": "4.3",
+                "RB": "4.0",
+                "SB": "4.0"
+              }
+            },
+            "research": "26,000",
+            "purchase": "76,000",
+            "purchase_currency": "SL",
+            "status": null,
+            "fetched_at": "2026-09-19T06:28:45.114Z",
+            "sha256": "2596c2f8e1062809191ae42d3a6e43e291e4166734d8122ec597e12d99f64e1a"
+          }
         }
       ],
       []
@@ -642,16 +1477,43 @@
           "selected": false,
           "class_name": "prem",
           "details": true,
-          "main_role": "Medium tank",
           "rank": "III",
           "research_country": "Japan",
-          "is_premium": true
+          "main_role": "Medium tank",
+          "is_component": false,
+          "component_of": null,
+          "is_premium": true,
+          "is_squadron": false,
+          "wiki": {
+            "url": "https://wiki.warthunder.com/unit/jp_type_3_chi_nu_75cm_type_5",
+            "rank": "III",
+            "battle_rating_context": "default",
+            "battle_ratings": {
+              "AB": "4.3",
+              "RB": "4.3",
+              "SB": "4.3"
+            },
+            "battle_ratings_by_battle": {
+              "default": {
+                "AB": "4.3",
+                "RB": "4.3",
+                "SB": "4.3"
+              }
+            },
+            "research": null,
+            "purchase": "1,600",
+            "purchase_currency": "GE",
+            "status": "Premium vehicle",
+            "fetched_at": "2026-09-19T06:28:47.888Z",
+            "sha256": "1fd825e54dc38e0278a76688411596f170b11e3b8ad003066a6e4ddd79f9353d"
+          }
         }
       ],
       []
     ],
     "selected": [],
-    "unlock_quantity": 0
+    "unlock_quantity": null,
+    "source": "wiki"
   },
   {
     "rank": "IV",
@@ -662,34 +1524,86 @@
           "title": "▅M4A3 (76) W",
           "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/jp_m4a3e8_76w_sherman.png",
           "br": "5.7",
-          "rp": "46,000",
-          "sp": "155,000",
+          "rp": 46000,
+          "sp": 155000,
           "data_unit_id": "jp_m4a3e8_76w_sherman",
           "required_unit_id": "jp_m24_chaffee",
           "selected": false,
           "class_name": "",
           "details": true,
-          "main_role": "Medium tank",
           "rank": "IV",
           "research_country": "Japan",
-          "is_premium": false
+          "main_role": "Medium tank",
+          "is_component": false,
+          "component_of": null,
+          "is_premium": false,
+          "is_squadron": false,
+          "wiki": {
+            "url": "https://wiki.warthunder.com/unit/jp_m4a3e8_76w_sherman",
+            "rank": "IV",
+            "battle_rating_context": "default",
+            "battle_ratings": {
+              "AB": "5.3",
+              "RB": "5.7",
+              "SB": "5.7"
+            },
+            "battle_ratings_by_battle": {
+              "default": {
+                "AB": "5.3",
+                "RB": "5.7",
+                "SB": "5.7"
+              }
+            },
+            "research": "46,000",
+            "purchase": "155,000",
+            "purchase_currency": "SL",
+            "status": null,
+            "fetched_at": "2026-09-19T06:28:45.413Z",
+            "sha256": "0f9acb710b2efaa9a5ae6be5208456578297fdd907179105d154aa4c2c11526b"
+          }
         },
         {
           "type": "single",
           "title": "▅M41A1",
           "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/jp_m41_walker_bulldog.png",
           "br": "6.3",
-          "rp": "54,000",
-          "sp": "185,000",
+          "rp": 54000,
+          "sp": 185000,
           "data_unit_id": "jp_m41_walker_bulldog",
           "required_unit_id": "jp_m4a3e8_76w_sherman",
           "selected": false,
           "class_name": "",
           "details": true,
-          "main_role": "Light tank",
           "rank": "IV",
           "research_country": "Japan",
-          "is_premium": false
+          "main_role": "Light tank",
+          "is_component": false,
+          "component_of": null,
+          "is_premium": false,
+          "is_squadron": false,
+          "wiki": {
+            "url": "https://wiki.warthunder.com/unit/jp_m41_walker_bulldog",
+            "rank": "IV",
+            "battle_rating_context": "default",
+            "battle_ratings": {
+              "AB": "6.0",
+              "RB": "6.3",
+              "SB": "6.3"
+            },
+            "battle_ratings_by_battle": {
+              "default": {
+                "AB": "6.0",
+                "RB": "6.3",
+                "SB": "6.3"
+              }
+            },
+            "research": "54,000",
+            "purchase": "185,000",
+            "purchase_currency": "SL",
+            "status": null,
+            "fetched_at": "2026-09-19T06:28:45.179Z",
+            "sha256": "18ae2db3fc68dbde29526bc63d0538bc511825e6ec3f24fc49293b77aa27ba2d"
+          }
         },
         {
           "type": "multiple",
@@ -706,34 +1620,86 @@
               "title": "Type 60 SPRG (C)",
               "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/jp_type_60_sprg.png",
               "br": "6.7",
-              "rp": "63,000",
-              "sp": "200,000",
+              "rp": 63000,
+              "sp": 200000,
               "data_unit_id": "jp_type_60_sprg",
               "required_unit_id": "",
               "selected": false,
               "class_name": "",
               "details": true,
-              "main_role": "Tank destroyer",
               "rank": "IV",
               "research_country": "Japan",
-              "is_premium": false
+              "main_role": "Tank destroyer",
+              "is_component": false,
+              "component_of": null,
+              "is_premium": false,
+              "is_squadron": false,
+              "wiki": {
+                "url": "https://wiki.warthunder.com/unit/jp_type_60_sprg",
+                "rank": "IV",
+                "battle_rating_context": "default",
+                "battle_ratings": {
+                  "AB": "6.7",
+                  "RB": "6.7",
+                  "SB": "6.7"
+                },
+                "battle_ratings_by_battle": {
+                  "default": {
+                    "AB": "6.7",
+                    "RB": "6.7",
+                    "SB": "6.7"
+                  }
+                },
+                "research": "63,000",
+                "purchase": "200,000",
+                "purchase_currency": "SL",
+                "status": null,
+                "fetched_at": "2026-09-19T06:28:49.072Z",
+                "sha256": "faf070d92546ec4c3239956f777369275663a53aff3f590edbbefeace4be7a80"
+              }
             },
             {
               "type": "single",
               "title": "Type 60 ATM",
               "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/jp_type_60_atm.png",
               "br": "6.7",
-              "rp": "35,000",
-              "sp": "210,000",
+              "rp": 35000,
+              "sp": 210000,
               "data_unit_id": "jp_type_60_atm",
               "required_unit_id": "jp_type_60_sprg",
               "selected": false,
               "class_name": "",
               "details": true,
-              "main_role": "Tank destroyer",
               "rank": "IV",
               "research_country": "Japan",
-              "is_premium": false
+              "main_role": "Tank destroyer",
+              "is_component": false,
+              "component_of": null,
+              "is_premium": false,
+              "is_squadron": false,
+              "wiki": {
+                "url": "https://wiki.warthunder.com/unit/jp_type_60_atm",
+                "rank": "IV",
+                "battle_rating_context": "default",
+                "battle_ratings": {
+                  "AB": "6.7",
+                  "RB": "6.7",
+                  "SB": "6.7"
+                },
+                "battle_ratings_by_battle": {
+                  "default": {
+                    "AB": "6.7",
+                    "RB": "6.7",
+                    "SB": "6.7"
+                  }
+                },
+                "research": "35,000",
+                "purchase": "210,000",
+                "purchase_currency": "SL",
+                "status": null,
+                "fetched_at": "2026-09-19T06:28:48.994Z",
+                "sha256": "b695a83c9b9162b3fc06d3cd349e9fa046661e1a53d59f278780815b24fc823b"
+              }
             }
           ],
           "details": true,
@@ -747,17 +1713,43 @@
           "title": "Chi-Ri",
           "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/jp_type_5_chi_ri.png",
           "br": "5.7",
-          "rp": "46,000",
-          "sp": "155,000",
+          "rp": 46000,
+          "sp": 155000,
           "data_unit_id": "jp_type_5_chi_ri",
           "required_unit_id": "jp_chi_to_group",
           "selected": false,
           "class_name": "",
           "details": true,
-          "main_role": "Medium tank",
           "rank": "IV",
           "research_country": "Japan",
-          "is_premium": false
+          "main_role": "Medium tank",
+          "is_component": false,
+          "component_of": null,
+          "is_premium": false,
+          "is_squadron": false,
+          "wiki": {
+            "url": "https://wiki.warthunder.com/unit/jp_type_5_chi_ri",
+            "rank": "IV",
+            "battle_rating_context": "default",
+            "battle_ratings": {
+              "AB": "5.7",
+              "RB": "5.7",
+              "SB": "5.7"
+            },
+            "battle_ratings_by_battle": {
+              "default": {
+                "AB": "5.7",
+                "RB": "5.7",
+                "SB": "5.7"
+              }
+            },
+            "research": "46,000",
+            "purchase": "155,000",
+            "purchase_currency": "SL",
+            "status": null,
+            "fetched_at": "2026-09-19T06:28:48.541Z",
+            "sha256": "b5bb6909c778740d65b127d12fad06d9f8b342e5d4c4bb0eca07c6be5e6dd997"
+          }
         },
         {
           "type": "multiple",
@@ -774,34 +1766,86 @@
               "title": "ST-A1",
               "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/jp_st_a1.png",
               "br": "6.3",
-              "rp": "54,000",
-              "sp": "185,000",
+              "rp": 54000,
+              "sp": 185000,
               "data_unit_id": "jp_st_a1",
               "required_unit_id": "",
               "selected": false,
               "class_name": "",
               "details": true,
-              "main_role": "Medium tank",
               "rank": "IV",
               "research_country": "Japan",
-              "is_premium": false
+              "main_role": "Medium tank",
+              "is_component": false,
+              "component_of": null,
+              "is_premium": false,
+              "is_squadron": false,
+              "wiki": {
+                "url": "https://wiki.warthunder.com/unit/jp_st_a1",
+                "rank": "IV",
+                "battle_rating_context": "default",
+                "battle_ratings": {
+                  "AB": "6.3",
+                  "RB": "6.3",
+                  "SB": "6.3"
+                },
+                "battle_ratings_by_battle": {
+                  "default": {
+                    "AB": "6.3",
+                    "RB": "6.3",
+                    "SB": "6.3"
+                  }
+                },
+                "research": "54,000",
+                "purchase": "185,000",
+                "purchase_currency": "SL",
+                "status": null,
+                "fetched_at": "2026-09-19T06:28:46.244Z",
+                "sha256": "ef4365d01b148532ca5dc44d0dd9f27eb9e61da986d865f41e39deaa4f56385f"
+              }
             },
             {
               "type": "single",
               "title": "ST-A2",
               "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/jp_st_a2.png",
               "br": "6.3",
-              "rp": "31,000",
-              "sp": "200,000",
+              "rp": 31000,
+              "sp": 200000,
               "data_unit_id": "jp_st_a2",
               "required_unit_id": "jp_st_a1",
               "selected": false,
               "class_name": "",
               "details": true,
-              "main_role": "Medium tank",
               "rank": "IV",
               "research_country": "Japan",
-              "is_premium": false
+              "main_role": "Medium tank",
+              "is_component": false,
+              "component_of": null,
+              "is_premium": false,
+              "is_squadron": false,
+              "wiki": {
+                "url": "https://wiki.warthunder.com/unit/jp_st_a2",
+                "rank": "IV",
+                "battle_rating_context": "default",
+                "battle_ratings": {
+                  "AB": "6.3",
+                  "RB": "6.3",
+                  "SB": "6.3"
+                },
+                "battle_ratings_by_battle": {
+                  "default": {
+                    "AB": "6.3",
+                    "RB": "6.3",
+                    "SB": "6.3"
+                  }
+                },
+                "research": "31,000",
+                "purchase": "200,000",
+                "purchase_currency": "SL",
+                "status": null,
+                "fetched_at": "2026-09-19T06:28:46.083Z",
+                "sha256": "b6c0d5dd09cc2a5215aabb5a9ff63309f8f5126916808316c02a0dbc06152d57"
+              }
             }
           ],
           "details": true,
@@ -823,34 +1867,86 @@
               "title": "Type 61",
               "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/jp_type_61.png",
               "br": "6.7",
-              "rp": "63,000",
-              "sp": "200,000",
+              "rp": 63000,
+              "sp": 200000,
               "data_unit_id": "jp_type_61",
               "required_unit_id": "",
               "selected": false,
               "class_name": "",
               "details": true,
-              "main_role": "Medium tank",
               "rank": "IV",
               "research_country": "Japan",
-              "is_premium": false
+              "main_role": "Medium tank",
+              "is_component": false,
+              "component_of": null,
+              "is_premium": false,
+              "is_squadron": false,
+              "wiki": {
+                "url": "https://wiki.warthunder.com/unit/jp_type_61",
+                "rank": "IV",
+                "battle_rating_context": "default",
+                "battle_ratings": {
+                  "AB": "6.3",
+                  "RB": "6.7",
+                  "SB": "6.7"
+                },
+                "battle_ratings_by_battle": {
+                  "default": {
+                    "AB": "6.3",
+                    "RB": "6.7",
+                    "SB": "6.7"
+                  }
+                },
+                "research": "63,000",
+                "purchase": "200,000",
+                "purchase_currency": "SL",
+                "status": null,
+                "fetched_at": "2026-09-19T06:28:49.155Z",
+                "sha256": "67409f25d4b057074b7ad595bceaac9bf74a955460b4f1853fff4e411826335b"
+              }
             },
             {
               "type": "single",
               "title": "ST-A3",
               "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/jp_st_a3.png",
               "br": "6.7",
-              "rp": "35,000",
-              "sp": "210,000",
+              "rp": 35000,
+              "sp": 210000,
               "data_unit_id": "jp_st_a3",
               "required_unit_id": "jp_type_61",
               "selected": false,
               "class_name": "",
               "details": true,
-              "main_role": "Medium tank",
               "rank": "IV",
               "research_country": "Japan",
-              "is_premium": false
+              "main_role": "Medium tank",
+              "is_component": false,
+              "component_of": null,
+              "is_premium": false,
+              "is_squadron": false,
+              "wiki": {
+                "url": "https://wiki.warthunder.com/unit/jp_st_a3",
+                "rank": "IV",
+                "battle_rating_context": "default",
+                "battle_ratings": {
+                  "AB": "6.7",
+                  "RB": "6.7",
+                  "SB": "6.7"
+                },
+                "battle_ratings_by_battle": {
+                  "default": {
+                    "AB": "6.7",
+                    "RB": "6.7",
+                    "SB": "6.7"
+                  }
+                },
+                "research": "35,000",
+                "purchase": "210,000",
+                "purchase_currency": "SL",
+                "status": null,
+                "fetched_at": "2026-09-19T06:28:46.249Z",
+                "sha256": "26cce67f449bba7dee19f92f7b12efa2094c47ac88730cb49c4031e32a670fcf"
+              }
             }
           ],
           "details": true,
@@ -864,34 +1960,86 @@
           "title": "▅M36",
           "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/jp_m36b2_jgsdf.png",
           "br": "5.7",
-          "rp": "46,000",
-          "sp": "155,000",
+          "rp": 46000,
+          "sp": 155000,
           "data_unit_id": "jp_m36b2_jgsdf",
           "required_unit_id": "jp_m44",
           "selected": false,
           "class_name": "",
           "details": true,
-          "main_role": "Tank destroyer",
           "rank": "IV",
           "research_country": "Japan",
-          "is_premium": false
+          "main_role": "Tank destroyer",
+          "is_component": false,
+          "component_of": null,
+          "is_premium": false,
+          "is_squadron": false,
+          "wiki": {
+            "url": "https://wiki.warthunder.com/unit/jp_m36b2_jgsdf",
+            "rank": "IV",
+            "battle_rating_context": "default",
+            "battle_ratings": {
+              "AB": "5.7",
+              "RB": "5.7",
+              "SB": "5.7"
+            },
+            "battle_ratings_by_battle": {
+              "default": {
+                "AB": "5.7",
+                "RB": "5.7",
+                "SB": "5.7"
+              }
+            },
+            "research": "46,000",
+            "purchase": "155,000",
+            "purchase_currency": "SL",
+            "status": null,
+            "fetched_at": "2026-09-19T06:28:45.133Z",
+            "sha256": "f0d6c4f777147770fedb2db1574c261fc79c25e4053117578e370a72ada4344e"
+          }
         },
         {
           "type": "single",
           "title": "Type 75 SPH",
           "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/jp_type_75.png",
           "br": "6.3",
-          "rp": "63,000",
-          "sp": "200,000",
+          "rp": 63000,
+          "sp": 200000,
           "data_unit_id": "jp_type_75",
           "required_unit_id": "jp_m36b2_jgsdf",
           "selected": false,
           "class_name": "",
           "details": true,
-          "main_role": "Tank destroyer",
           "rank": "IV",
           "research_country": "Japan",
-          "is_premium": false
+          "main_role": "Tank destroyer",
+          "is_component": false,
+          "component_of": null,
+          "is_premium": false,
+          "is_squadron": false,
+          "wiki": {
+            "url": "https://wiki.warthunder.com/unit/jp_type_75",
+            "rank": "IV",
+            "battle_rating_context": "default",
+            "battle_ratings": {
+              "AB": "6.7",
+              "RB": "6.3",
+              "SB": "6.3"
+            },
+            "battle_ratings_by_battle": {
+              "default": {
+                "AB": "6.7",
+                "RB": "6.3",
+                "SB": "6.3"
+              }
+            },
+            "research": "63,000",
+            "purchase": "200,000",
+            "purchase_currency": "SL",
+            "status": null,
+            "fetched_at": "2026-09-19T06:28:49.828Z",
+            "sha256": "0d0ddb9e2705365b85cc6e2e9924eb33b8b111fec4cfd1d5de3dd5cd1e429de9"
+          }
         }
       ],
       [
@@ -900,17 +2048,43 @@
           "title": "SUB-I-II",
           "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/jp_sub_i_ii_20mm.png",
           "br": "5.3",
-          "rp": "46,000",
-          "sp": "155,000",
+          "rp": 46000,
+          "sp": 155000,
           "data_unit_id": "jp_sub_i_ii_20mm",
           "required_unit_id": "jp_m42_duster",
           "selected": false,
           "class_name": "",
           "details": true,
-          "main_role": "SPAA",
           "rank": "IV",
           "research_country": "Japan",
-          "is_premium": false
+          "main_role": "SPAA",
+          "is_component": false,
+          "component_of": null,
+          "is_premium": false,
+          "is_squadron": false,
+          "wiki": {
+            "url": "https://wiki.warthunder.com/unit/jp_sub_i_ii_20mm",
+            "rank": "IV",
+            "battle_rating_context": "default",
+            "battle_ratings": {
+              "AB": "5.3",
+              "RB": "5.3",
+              "SB": "5.3"
+            },
+            "battle_ratings_by_battle": {
+              "default": {
+                "AB": "5.3",
+                "RB": "5.3",
+                "SB": "5.3"
+              }
+            },
+            "research": "46,000",
+            "purchase": "155,000",
+            "purchase_currency": "SL",
+            "status": null,
+            "fetched_at": "2026-09-19T06:28:46.689Z",
+            "sha256": "cafb80d6b96cbb5edfccc0e6c0266ea5cde461f9e49ad5ea82254b82acb3febd"
+          }
         }
       ],
       []
@@ -929,10 +2103,36 @@
           "selected": false,
           "class_name": "prem",
           "details": true,
-          "main_role": "Heavy tank",
           "rank": "IV",
           "research_country": "Japan",
-          "is_premium": true
+          "main_role": "Heavy tank",
+          "is_component": false,
+          "component_of": null,
+          "is_premium": true,
+          "is_squadron": false,
+          "wiki": {
+            "url": "https://wiki.warthunder.com/unit/jp_pzkpfw_VI_ausf_e_tiger",
+            "rank": "IV",
+            "battle_rating_context": "default",
+            "battle_ratings": {
+              "AB": "6.0",
+              "RB": "6.0",
+              "SB": "6.0"
+            },
+            "battle_ratings_by_battle": {
+              "default": {
+                "AB": "6.0",
+                "RB": "6.0",
+                "SB": "6.0"
+              }
+            },
+            "research": null,
+            "purchase": null,
+            "purchase_currency": null,
+            "status": "Premium vehicle",
+            "fetched_at": "2026-09-19T06:28:46.215Z",
+            "sha256": "04f47141e7d75301004ec34e5f1798670564fc9fe45cb7c951320b35579e242a"
+          }
         },
         {
           "type": "single",
@@ -946,10 +2146,36 @@
           "selected": false,
           "class_name": "prem",
           "details": true,
-          "main_role": "Medium tank",
           "rank": "IV",
           "research_country": "Japan",
-          "is_premium": true
+          "main_role": "Medium tank",
+          "is_component": false,
+          "component_of": null,
+          "is_premium": true,
+          "is_squadron": false,
+          "wiki": {
+            "url": "https://wiki.warthunder.com/unit/jp_type_61_mod",
+            "rank": "IV",
+            "battle_rating_context": "default",
+            "battle_ratings": {
+              "AB": "6.3",
+              "RB": "6.7",
+              "SB": "6.7"
+            },
+            "battle_ratings_by_battle": {
+              "default": {
+                "AB": "6.3",
+                "RB": "6.7",
+                "SB": "6.7"
+              }
+            },
+            "research": null,
+            "purchase": null,
+            "purchase_currency": null,
+            "status": "Premium vehicle",
+            "fetched_at": "2026-09-19T06:28:49.287Z",
+            "sha256": "d4452d4ffb694dc4afd9542331f640d5685a10196742bc77ef8a380d54d30a79"
+          }
         },
         {
           "type": "single",
@@ -963,16 +2189,43 @@
           "selected": false,
           "class_name": "prem",
           "details": true,
-          "main_role": "Tank destroyer",
           "rank": "IV",
           "research_country": "Japan",
-          "is_premium": true
+          "main_role": "Tank destroyer",
+          "is_component": false,
+          "component_of": null,
+          "is_premium": true,
+          "is_squadron": false,
+          "wiki": {
+            "url": "https://wiki.warthunder.com/unit/jp_type_5_ho_ri_prototype",
+            "rank": "IV",
+            "battle_rating_context": "default",
+            "battle_ratings": {
+              "AB": "7.0",
+              "RB": "6.7",
+              "SB": "6.7"
+            },
+            "battle_ratings_by_battle": {
+              "default": {
+                "AB": "7.0",
+                "RB": "6.7",
+                "SB": "6.7"
+              }
+            },
+            "research": null,
+            "purchase": "6,090",
+            "purchase_currency": "GE",
+            "status": "Premium vehicle",
+            "fetched_at": "2026-09-19T06:28:48.754Z",
+            "sha256": "9f87436062d39bf2662e716577bba5ff0bb2e44238a5962c6080f61524467a4e"
+          }
         }
       ],
       []
     ],
     "selected": [],
-    "unlock_quantity": 0
+    "unlock_quantity": null,
+    "source": "wiki"
   },
   {
     "rank": "V",
@@ -983,17 +2236,43 @@
           "title": "Type 87 RCV (P)",
           "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/jp_type_87_rcv_prot.png",
           "br": "7.7",
-          "rp": "105,000",
-          "sp": "300,000",
+          "rp": 105000,
+          "sp": 300000,
           "data_unit_id": "jp_type_87_rcv_prot",
           "required_unit_id": "jp_type_60_group",
           "selected": false,
           "class_name": "",
           "details": true,
-          "main_role": "Light tank",
           "rank": "V",
           "research_country": "Japan",
-          "is_premium": false
+          "main_role": "Light tank",
+          "is_component": false,
+          "component_of": null,
+          "is_premium": false,
+          "is_squadron": false,
+          "wiki": {
+            "url": "https://wiki.warthunder.com/unit/jp_type_87_rcv_prot",
+            "rank": "V",
+            "battle_rating_context": "default",
+            "battle_ratings": {
+              "AB": "7.7",
+              "RB": "7.7",
+              "SB": "7.7"
+            },
+            "battle_ratings_by_battle": {
+              "default": {
+                "AB": "7.7",
+                "RB": "7.7",
+                "SB": "7.7"
+              }
+            },
+            "research": "105,000",
+            "purchase": "300,000",
+            "purchase_currency": "SL",
+            "status": null,
+            "fetched_at": "2026-09-19T06:28:50.644Z",
+            "sha256": "aa86096451e4474ec96138400b39b22a49b71380c35891a1d63b682eeac4a13b"
+          }
         }
       ],
       [
@@ -1002,17 +2281,43 @@
           "title": "▅M47",
           "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/jp_m47_patton_ii.png",
           "br": "7.3",
-          "rp": "95,000",
-          "sp": "270,000",
+          "rp": 95000,
+          "sp": 270000,
           "data_unit_id": "jp_m47_patton_ii",
           "required_unit_id": "jp_type_61_sta_group",
           "selected": false,
           "class_name": "",
           "details": true,
-          "main_role": "Medium tank",
           "rank": "V",
           "research_country": "Japan",
-          "is_premium": false
+          "main_role": "Medium tank",
+          "is_component": false,
+          "component_of": null,
+          "is_premium": false,
+          "is_squadron": false,
+          "wiki": {
+            "url": "https://wiki.warthunder.com/unit/jp_m47_patton_II",
+            "rank": "V",
+            "battle_rating_context": "default",
+            "battle_ratings": {
+              "AB": "7.3",
+              "RB": "7.3",
+              "SB": "7.3"
+            },
+            "battle_ratings_by_battle": {
+              "default": {
+                "AB": "7.3",
+                "RB": "7.3",
+                "SB": "7.3"
+              }
+            },
+            "research": "95,000",
+            "purchase": "270,000",
+            "purchase_currency": "SL",
+            "status": null,
+            "fetched_at": "2026-09-19T06:28:45.719Z",
+            "sha256": "4d417ed27a00d1670b95e96296a948555b0a8e70a0d4aa3c7f1b78d71feea1be"
+          }
         },
         {
           "type": "multiple",
@@ -1029,34 +2334,86 @@
               "title": "STB-2",
               "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/jp_st_b1.png",
               "br": "8.3",
-              "rp": "105,000",
-              "sp": "300,000",
+              "rp": 105000,
+              "sp": 300000,
               "data_unit_id": "jp_st_b1",
               "required_unit_id": "",
               "selected": false,
               "class_name": "",
               "details": true,
-              "main_role": "Medium tank",
               "rank": "V",
               "research_country": "Japan",
-              "is_premium": false
+              "main_role": "Medium tank",
+              "is_component": false,
+              "component_of": null,
+              "is_premium": false,
+              "is_squadron": false,
+              "wiki": {
+                "url": "https://wiki.warthunder.com/unit/jp_st_b1",
+                "rank": "V",
+                "battle_rating_context": "default",
+                "battle_ratings": {
+                  "AB": "8.3",
+                  "RB": "8.3",
+                  "SB": "8.3"
+                },
+                "battle_ratings_by_battle": {
+                  "default": {
+                    "AB": "8.3",
+                    "RB": "8.3",
+                    "SB": "8.3"
+                  }
+                },
+                "research": "105,000",
+                "purchase": "300,000",
+                "purchase_currency": "SL",
+                "status": null,
+                "fetched_at": "2026-09-19T06:28:46.371Z",
+                "sha256": "8308e2c5b0f7eba982d90a36c271f1b151b727601877997505f064c06e3b8c29"
+              }
             },
             {
               "type": "single",
               "title": "Type 74 (C)",
               "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/jp_type_74_c.png",
               "br": "8.3",
-              "rp": "61,000",
-              "sp": "340,000",
+              "rp": 61000,
+              "sp": 340000,
               "data_unit_id": "jp_type_74_c",
               "required_unit_id": "jp_st_b1",
               "selected": false,
               "class_name": "",
               "details": true,
-              "main_role": "Medium tank",
               "rank": "V",
               "research_country": "Japan",
-              "is_premium": false
+              "main_role": "Medium tank",
+              "is_component": false,
+              "component_of": null,
+              "is_premium": false,
+              "is_squadron": false,
+              "wiki": {
+                "url": "https://wiki.warthunder.com/unit/jp_type_74_c",
+                "rank": "V",
+                "battle_rating_context": "default",
+                "battle_ratings": {
+                  "AB": "8.3",
+                  "RB": "8.3",
+                  "SB": "8.3"
+                },
+                "battle_ratings_by_battle": {
+                  "default": {
+                    "AB": "8.3",
+                    "RB": "8.3",
+                    "SB": "8.3"
+                  }
+                },
+                "research": "61,000",
+                "purchase": "340,000",
+                "purchase_currency": "SL",
+                "status": null,
+                "fetched_at": "2026-09-19T06:28:49.575Z",
+                "sha256": "7bb203e4aa48628a24ea5e550be786106f0ddcfd6b1de9df1287fa3e93868e8d"
+              }
             }
           ],
           "details": true,
@@ -1070,34 +2427,43 @@
           "title": "Type 99",
           "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/jp_type_99.png",
           "br": "7.3",
-          "rp": "82,000",
-          "sp": "240,000",
+          "rp": 82000,
+          "sp": 240000,
           "data_unit_id": "jp_type_99",
           "required_unit_id": "jp_type_75",
           "selected": false,
           "class_name": "",
           "details": true,
-          "main_role": "Tank destroyer",
           "rank": "V",
           "research_country": "Japan",
-          "is_premium": false
-        },
-        {
-          "type": "single",
-          "title": "Ho-Ri Production",
-          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/jp_type_5_ho_ri_production.png",
-          "br": "7.3",
-          "rp": "95,000",
-          "sp": "270,000",
-          "data_unit_id": "jp_type_5_ho_ri_production",
-          "required_unit_id": "jp_type_99",
-          "selected": false,
-          "class_name": "",
-          "details": true,
           "main_role": "Tank destroyer",
-          "rank": "V",
-          "research_country": "Japan",
-          "is_premium": false
+          "is_component": false,
+          "component_of": null,
+          "is_premium": false,
+          "is_squadron": false,
+          "wiki": {
+            "url": "https://wiki.warthunder.com/unit/jp_type_99",
+            "rank": "V",
+            "battle_rating_context": "default",
+            "battle_ratings": {
+              "AB": "7.3",
+              "RB": "7.3",
+              "SB": "7.3"
+            },
+            "battle_ratings_by_battle": {
+              "default": {
+                "AB": "7.3",
+                "RB": "7.3",
+                "SB": "7.3"
+              }
+            },
+            "research": "82,000",
+            "purchase": "240,000",
+            "purchase_currency": "SL",
+            "status": null,
+            "fetched_at": "2026-09-19T06:28:52.564Z",
+            "sha256": "23ac581fb05ea039673bd8bd41251577b5cbc4b9fc9c7faeaf6d0facfba6cbcf"
+          }
         }
       ],
       [
@@ -1106,17 +2472,43 @@
           "title": "▄M163",
           "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/jp_m163_vulcan.png",
           "br": "7.3",
-          "rp": "95,000",
-          "sp": "270,000",
+          "rp": 95000,
+          "sp": 270000,
           "data_unit_id": "jp_m163_vulcan",
           "required_unit_id": "jp_sub_i_ii_20mm",
           "selected": false,
           "class_name": "",
           "details": true,
-          "main_role": "SPAA",
           "rank": "V",
           "research_country": "Japan",
-          "is_premium": false
+          "main_role": "SPAA",
+          "is_component": false,
+          "component_of": null,
+          "is_premium": false,
+          "is_squadron": false,
+          "wiki": {
+            "url": "https://wiki.warthunder.com/unit/jp_m163_vulcan",
+            "rank": "V",
+            "battle_rating_context": "default",
+            "battle_ratings": {
+              "AB": "7.7",
+              "RB": "7.3",
+              "SB": "7.3"
+            },
+            "battle_ratings_by_battle": {
+              "default": {
+                "AB": "7.7",
+                "RB": "7.3",
+                "SB": "7.3"
+              }
+            },
+            "research": "95,000",
+            "purchase": "270,000",
+            "purchase_currency": "SL",
+            "status": null,
+            "fetched_at": "2026-09-19T06:28:44.794Z",
+            "sha256": "add7447854160eb827654b59384141c90e891e1e27370ed9f8ff6afe58a130e8"
+          }
         }
       ],
       []
@@ -1135,10 +2527,36 @@
           "selected": false,
           "class_name": "prem",
           "details": true,
-          "main_role": "Tank destroyer",
           "rank": "V",
           "research_country": "Japan",
-          "is_premium": true
+          "main_role": "Tank destroyer",
+          "is_component": false,
+          "component_of": null,
+          "is_premium": true,
+          "is_squadron": false,
+          "wiki": {
+            "url": "https://wiki.warthunder.com/unit/jp_type_75_mlrs",
+            "rank": "V",
+            "battle_rating_context": "default",
+            "battle_ratings": {
+              "AB": "7.0",
+              "RB": "7.0",
+              "SB": "7.0"
+            },
+            "battle_ratings_by_battle": {
+              "default": {
+                "AB": "7.0",
+                "RB": "7.0",
+                "SB": "7.0"
+              }
+            },
+            "research": null,
+            "purchase": "8,200",
+            "purchase_currency": "GE",
+            "status": "Premium vehicle",
+            "fetched_at": "2026-09-19T06:28:49.940Z",
+            "sha256": "18db3cd7fe0596f481c786e10bd669ef9297c5e548d0d679793cb39bc2af1337"
+          }
         },
         {
           "type": "single",
@@ -1152,16 +2570,87 @@
           "selected": false,
           "class_name": "prem",
           "details": true,
-          "main_role": "Medium tank",
           "rank": "V",
           "research_country": "Japan",
-          "is_premium": true
+          "main_role": "Medium tank",
+          "is_component": false,
+          "component_of": null,
+          "is_premium": true,
+          "is_squadron": false,
+          "wiki": {
+            "url": "https://wiki.warthunder.com/unit/jp_type_74_red_star",
+            "rank": "V",
+            "battle_rating_context": "default",
+            "battle_ratings": {
+              "AB": "8.3",
+              "RB": "8.3",
+              "SB": "8.3"
+            },
+            "battle_ratings_by_battle": {
+              "default": {
+                "AB": "8.3",
+                "RB": "8.3",
+                "SB": "8.3"
+              }
+            },
+            "research": null,
+            "purchase": "8,380",
+            "purchase_currency": "GE",
+            "status": "Premium vehicle",
+            "fetched_at": "2026-09-19T06:28:49.699Z",
+            "sha256": "d10444bc47e28796650268b8e19281b3097f5f22e15319bb4b1d7545d5647ed5"
+          }
         }
       ],
-      []
+      [
+        {
+          "type": "single",
+          "title": "Ho-Ri Production",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/jp_type_5_ho_ri_production.png",
+          "br": "7.3",
+          "rp": null,
+          "sp": null,
+          "data_unit_id": "jp_type_5_ho_ri_production",
+          "required_unit_id": "",
+          "selected": false,
+          "class_name": "",
+          "details": true,
+          "rank": "V",
+          "research_country": "Japan",
+          "main_role": "Tank destroyer",
+          "is_component": false,
+          "component_of": null,
+          "is_premium": false,
+          "is_squadron": false,
+          "wiki": {
+            "url": "https://wiki.warthunder.com/unit/jp_type_5_ho_ri_production",
+            "rank": "V",
+            "battle_rating_context": "default",
+            "battle_ratings": {
+              "AB": "7.3",
+              "RB": "7.3",
+              "SB": "7.3"
+            },
+            "battle_ratings_by_battle": {
+              "default": {
+                "AB": "7.3",
+                "RB": "7.3",
+                "SB": "7.3"
+              }
+            },
+            "research": null,
+            "purchase": null,
+            "purchase_currency": null,
+            "status": null,
+            "fetched_at": "2026-09-19T06:28:48.591Z",
+            "sha256": "dfefefd13df1fbd685d70f6b21bc3aaa4bfa7dd700f17e5b0ce5911776bdd4ab"
+          }
+        }
+      ]
     ],
     "selected": [],
-    "unlock_quantity": 0
+    "unlock_quantity": null,
+    "source": "wiki"
   },
   {
     "rank": "VI",
@@ -1182,34 +2671,86 @@
               "title": "Type 87 RCV",
               "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/jp_type_87_rcv.png",
               "br": "9.0",
-              "rp": "160,000",
-              "sp": "450,000",
+              "rp": 160000,
+              "sp": 450000,
               "data_unit_id": "jp_type_87_rcv",
               "required_unit_id": "",
               "selected": false,
               "class_name": "",
               "details": true,
-              "main_role": "Light tank",
               "rank": "VI",
               "research_country": "Japan",
-              "is_premium": false
+              "main_role": "Light tank",
+              "is_component": false,
+              "component_of": null,
+              "is_premium": false,
+              "is_squadron": false,
+              "wiki": {
+                "url": "https://wiki.warthunder.com/unit/jp_type_87_rcv",
+                "rank": "VI",
+                "battle_rating_context": "default",
+                "battle_ratings": {
+                  "AB": "9.0",
+                  "RB": "9.0",
+                  "SB": "9.0"
+                },
+                "battle_ratings_by_battle": {
+                  "default": {
+                    "AB": "9.0",
+                    "RB": "9.0",
+                    "SB": "9.0"
+                  }
+                },
+                "research": "160,000",
+                "purchase": "450,000",
+                "purchase_currency": "SL",
+                "status": null,
+                "fetched_at": "2026-09-19T06:28:50.631Z",
+                "sha256": "27b1537a0ff87480b2a829139db988c7cc6c0024a0dcec5021e4615691930673"
+              }
             },
             {
               "type": "single",
               "title": "Type 89",
               "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/jp_type_89.png",
               "br": "9.0",
-              "rp": "94,000",
-              "sp": "520,000",
+              "rp": 94000,
+              "sp": 520000,
               "data_unit_id": "jp_type_89",
               "required_unit_id": "jp_type_87_rcv",
               "selected": false,
               "class_name": "",
               "details": true,
-              "main_role": "Light tank",
               "rank": "VI",
               "research_country": "Japan",
-              "is_premium": false
+              "main_role": "Light tank",
+              "is_component": false,
+              "component_of": null,
+              "is_premium": false,
+              "is_squadron": false,
+              "wiki": {
+                "url": "https://wiki.warthunder.com/unit/jp_type_89",
+                "rank": "VI",
+                "battle_rating_context": "default",
+                "battle_ratings": {
+                  "AB": "9.0",
+                  "RB": "9.0",
+                  "SB": "9.0"
+                },
+                "battle_ratings_by_battle": {
+                  "default": {
+                    "AB": "9.0",
+                    "RB": "9.0",
+                    "SB": "9.0"
+                  }
+                },
+                "research": "94,000",
+                "purchase": "520,000",
+                "purchase_currency": "SL",
+                "status": null,
+                "fetched_at": "2026-09-19T06:28:50.719Z",
+                "sha256": "118688553d9570a1a7425d0b73360b91dd8d4c252f38e243fad685c763de0255"
+              }
             }
           ],
           "details": true,
@@ -1233,34 +2774,86 @@
               "title": "Type 74 (E)",
               "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/jp_type_74.png",
               "br": "9.0",
-              "rp": "190,000",
-              "sp": "520,000",
+              "rp": 190000,
+              "sp": 520000,
               "data_unit_id": "jp_type_74",
               "required_unit_id": "",
               "selected": false,
               "class_name": "",
               "details": true,
-              "main_role": "Medium tank",
               "rank": "VI",
               "research_country": "Japan",
-              "is_premium": false
+              "main_role": "Medium tank",
+              "is_component": false,
+              "component_of": null,
+              "is_premium": false,
+              "is_squadron": false,
+              "wiki": {
+                "url": "https://wiki.warthunder.com/unit/jp_type_74",
+                "rank": "VI",
+                "battle_rating_context": "default",
+                "battle_ratings": {
+                  "AB": "9.0",
+                  "RB": "9.0",
+                  "SB": "9.0"
+                },
+                "battle_ratings_by_battle": {
+                  "default": {
+                    "AB": "9.0",
+                    "RB": "9.0",
+                    "SB": "9.0"
+                  }
+                },
+                "research": "190,000",
+                "purchase": "520,000",
+                "purchase_currency": "SL",
+                "status": null,
+                "fetched_at": "2026-09-19T06:28:49.312Z",
+                "sha256": "4d891eb2c869113e4d3b59eba1a1080949ab95d348fe7e625c035efd18beb808"
+              }
             },
             {
               "type": "single",
               "title": "Type 74 (F)",
               "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/jp_type_74_f.png",
               "br": "9.0",
-              "rp": "110,000",
-              "sp": "620,000",
+              "rp": 110000,
+              "sp": 620000,
               "data_unit_id": "jp_type_74_f",
               "required_unit_id": "jp_type_74",
               "selected": false,
               "class_name": "",
               "details": true,
-              "main_role": "Medium tank",
               "rank": "VI",
               "research_country": "Japan",
-              "is_premium": false
+              "main_role": "Medium tank",
+              "is_component": false,
+              "component_of": null,
+              "is_premium": false,
+              "is_squadron": false,
+              "wiki": {
+                "url": "https://wiki.warthunder.com/unit/jp_type_74_f",
+                "rank": "VI",
+                "battle_rating_context": "default",
+                "battle_ratings": {
+                  "AB": "9.0",
+                  "RB": "9.0",
+                  "SB": "9.0"
+                },
+                "battle_ratings_by_battle": {
+                  "default": {
+                    "AB": "9.0",
+                    "RB": "9.0",
+                    "SB": "9.0"
+                  }
+                },
+                "research": "110,000",
+                "purchase": "620,000",
+                "purchase_currency": "SL",
+                "status": null,
+                "fetched_at": "2026-09-19T06:28:49.696Z",
+                "sha256": "5b81cfdd618d655d879e8ed954fa2396e96ee9098dec4512bb885433867ee952"
+              }
             }
           ],
           "details": true,
@@ -1274,17 +2867,43 @@
           "title": "Type 16 (P)",
           "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/jp_type_16_mcv_prot.png",
           "br": "9.3",
-          "rp": "190,000",
-          "sp": "520,000",
+          "rp": 190000,
+          "sp": 520000,
           "data_unit_id": "jp_type_16_mcv_prot",
-          "required_unit_id": "jp_type_5_ho_ri_production",
+          "required_unit_id": "jp_type_99",
           "selected": false,
           "class_name": "",
           "details": true,
-          "main_role": "Light tank",
           "rank": "VI",
           "research_country": "Japan",
-          "is_premium": false
+          "main_role": "Light tank",
+          "is_component": false,
+          "component_of": null,
+          "is_premium": false,
+          "is_squadron": false,
+          "wiki": {
+            "url": "https://wiki.warthunder.com/unit/jp_type_16_mcv_prot",
+            "rank": "VI",
+            "battle_rating_context": "default",
+            "battle_ratings": {
+              "AB": "9.3",
+              "RB": "9.3",
+              "SB": "9.3"
+            },
+            "battle_ratings_by_battle": {
+              "default": {
+                "AB": "9.3",
+                "RB": "9.3",
+                "SB": "9.3"
+              }
+            },
+            "research": "190,000",
+            "purchase": "520,000",
+            "purchase_currency": "SL",
+            "status": null,
+            "fetched_at": "2026-09-19T06:28:47.143Z",
+            "sha256": "7c3340aa39e195bb8e5eb3cc9123f1a608b96755e2f3982f662b83b5105be390"
+          }
         }
       ],
       [
@@ -1293,17 +2912,43 @@
           "title": "Type 87",
           "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/jp_type_87.png",
           "br": "8.3",
-          "rp": "135,000",
-          "sp": "380,000",
+          "rp": 135000,
+          "sp": 380000,
           "data_unit_id": "jp_type_87",
           "required_unit_id": "jp_m163_vulcan",
           "selected": false,
           "class_name": "",
           "details": true,
-          "main_role": "SPAA",
           "rank": "VI",
           "research_country": "Japan",
-          "is_premium": false
+          "main_role": "SPAA",
+          "is_component": false,
+          "component_of": null,
+          "is_premium": false,
+          "is_squadron": false,
+          "wiki": {
+            "url": "https://wiki.warthunder.com/unit/jp_type_87",
+            "rank": "VI",
+            "battle_rating_context": "default",
+            "battle_ratings": {
+              "AB": "8.3",
+              "RB": "8.3",
+              "SB": "8.3"
+            },
+            "battle_ratings_by_battle": {
+              "default": {
+                "AB": "8.3",
+                "RB": "8.3",
+                "SB": "8.3"
+              }
+            },
+            "research": "135,000",
+            "purchase": "380,000",
+            "purchase_currency": "SL",
+            "status": null,
+            "fetched_at": "2026-09-19T06:28:50.291Z",
+            "sha256": "fe57430d9d0227911d541dcbb1d41061ae74d6299bfb0c961ac60946874d1e61"
+          }
         }
       ],
       [
@@ -1312,51 +2957,129 @@
           "title": "BTR-3E1",
           "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/jp_btr_3e1.png",
           "br": "9.0",
-          "rp": "160,000",
-          "sp": "450,000",
+          "rp": 160000,
+          "sp": 450000,
           "data_unit_id": "jp_btr_3e1",
           "required_unit_id": "",
           "selected": false,
           "class_name": "",
           "details": true,
-          "main_role": "Light tank",
           "rank": "VI",
           "research_country": "Japan",
-          "is_premium": false
+          "main_role": "Light tank",
+          "is_component": false,
+          "component_of": null,
+          "is_premium": false,
+          "is_squadron": false,
+          "wiki": {
+            "url": "https://wiki.warthunder.com/unit/jp_btr_3e1",
+            "rank": "VI",
+            "battle_rating_context": "default",
+            "battle_ratings": {
+              "AB": "9.0",
+              "RB": "9.0",
+              "SB": "9.0"
+            },
+            "battle_ratings_by_battle": {
+              "default": {
+                "AB": "9.0",
+                "RB": "9.0",
+                "SB": "9.0"
+              }
+            },
+            "research": "160,000",
+            "purchase": "450,000",
+            "purchase_currency": "SL",
+            "status": null,
+            "fetched_at": "2026-09-19T06:28:44.110Z",
+            "sha256": "30cf95b6dc86bada38dd8bd8f3649519e1a77301cd20882dd94e183006b9a298"
+          }
         },
         {
           "type": "single",
           "title": "▄M60A3 TTS",
           "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/jp_m60a3_tts.png",
           "br": "9.0",
-          "rp": "190,000",
-          "sp": "520,000",
+          "rp": 190000,
+          "sp": 520000,
           "data_unit_id": "jp_m60a3_tts",
           "required_unit_id": "jp_btr_3e1",
           "selected": false,
           "class_name": "",
           "details": true,
-          "main_role": "Medium tank",
           "rank": "VI",
           "research_country": "Japan",
-          "is_premium": false
+          "main_role": "Medium tank",
+          "is_component": false,
+          "component_of": null,
+          "is_premium": false,
+          "is_squadron": false,
+          "wiki": {
+            "url": "https://wiki.warthunder.com/unit/jp_m60a3_tts",
+            "rank": "VI",
+            "battle_rating_context": "default",
+            "battle_ratings": {
+              "AB": "9.0",
+              "RB": "9.0",
+              "SB": "9.0"
+            },
+            "battle_ratings_by_battle": {
+              "default": {
+                "AB": "9.0",
+                "RB": "9.0",
+                "SB": "9.0"
+              }
+            },
+            "research": "190,000",
+            "purchase": "520,000",
+            "purchase_currency": "SL",
+            "status": null,
+            "fetched_at": "2026-09-19T06:28:45.717Z",
+            "sha256": "00fdec3b8166bed4b598105532813e9d26a6c4d24d6c126e46ac73b3ee404770"
+          }
         },
         {
           "type": "single",
           "title": "▄Stingray",
           "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/jp_stingray.png",
           "br": "9.3",
-          "rp": "220,000",
-          "sp": "620,000",
+          "rp": 220000,
+          "sp": 620000,
           "data_unit_id": "jp_stingray",
           "required_unit_id": "jp_m60a3_tts",
           "selected": false,
           "class_name": "",
           "details": true,
-          "main_role": "Light tank",
           "rank": "VI",
           "research_country": "Japan",
-          "is_premium": false
+          "main_role": "Light tank",
+          "is_component": false,
+          "component_of": null,
+          "is_premium": false,
+          "is_squadron": false,
+          "wiki": {
+            "url": "https://wiki.warthunder.com/unit/jp_stingray",
+            "rank": "VI",
+            "battle_rating_context": "default",
+            "battle_ratings": {
+              "AB": "9.3",
+              "RB": "9.3",
+              "SB": "9.3"
+            },
+            "battle_ratings_by_battle": {
+              "default": {
+                "AB": "9.3",
+                "RB": "9.3",
+                "SB": "9.3"
+              }
+            },
+            "research": "220,000",
+            "purchase": "620,000",
+            "purchase_currency": "SL",
+            "status": null,
+            "fetched_at": "2026-09-19T06:28:46.755Z",
+            "sha256": "e31ab07b9ee08b17dde00fb3f59adc5d59d7ce25100d5b1967b45b3f213f0c70"
+          }
         }
       ]
     ],
@@ -1374,10 +3097,36 @@
           "selected": false,
           "class_name": "prem",
           "details": true,
-          "main_role": "Medium tank",
           "rank": "VI",
           "research_country": "Japan",
-          "is_premium": true
+          "main_role": "Medium tank",
+          "is_component": false,
+          "component_of": null,
+          "is_premium": true,
+          "is_squadron": false,
+          "wiki": {
+            "url": "https://wiki.warthunder.com/unit/jp_type_74_mod_g_kai",
+            "rank": "VI",
+            "battle_rating_context": "default",
+            "battle_ratings": {
+              "AB": "9.3",
+              "RB": "9.3",
+              "SB": "9.3"
+            },
+            "battle_ratings_by_battle": {
+              "default": {
+                "AB": "9.3",
+                "RB": "9.3",
+                "SB": "9.3"
+              }
+            },
+            "research": null,
+            "purchase": "8,730",
+            "purchase_currency": "GE",
+            "status": "Premium vehicle",
+            "fetched_at": "2026-09-19T06:28:49.806Z",
+            "sha256": "09c0fae841878bfe4d246cb3024fd566a9cf6744e01084a63b464180572eb3dd"
+          }
         },
         {
           "type": "single",
@@ -1391,16 +3140,43 @@
           "selected": false,
           "class_name": "prem",
           "details": true,
-          "main_role": "Light tank",
           "rank": "VI",
           "research_country": "Japan",
-          "is_premium": true
+          "main_role": "Light tank",
+          "is_component": false,
+          "component_of": null,
+          "is_premium": true,
+          "is_squadron": false,
+          "wiki": {
+            "url": "https://wiki.warthunder.com/unit/jp_type_16_mod",
+            "rank": "VI",
+            "battle_rating_context": "default",
+            "battle_ratings": {
+              "AB": "9.3",
+              "RB": "9.3",
+              "SB": "9.3"
+            },
+            "battle_ratings_by_battle": {
+              "default": {
+                "AB": "9.3",
+                "RB": "9.3",
+                "SB": "9.3"
+              }
+            },
+            "research": null,
+            "purchase": null,
+            "purchase_currency": null,
+            "status": "Premium vehicle",
+            "fetched_at": "2026-09-19T06:28:47.340Z",
+            "sha256": "8ab4163defdd04df3c4a6a220b3bb84e3eba54c53ef2af3c08885f2853a1e7f5"
+          }
         }
       ],
       []
     ],
     "selected": [],
-    "unlock_quantity": 0
+    "unlock_quantity": null,
+    "source": "wiki"
   },
   {
     "rank": "VII",
@@ -1411,34 +3187,86 @@
           "title": "Type 24 ICV (P)",
           "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/jp_icv_ifv_prototype.png",
           "br": "9.7",
-          "rp": "260,000",
-          "sp": "710,000",
+          "rp": 260000,
+          "sp": 710000,
           "data_unit_id": "jp_icv_ifv_prototype",
           "required_unit_id": "jp_type_87_89_group",
           "selected": false,
           "class_name": "",
           "details": true,
-          "main_role": "Light tank",
           "rank": "VII",
           "research_country": "Japan",
-          "is_premium": false
+          "main_role": "Light tank",
+          "is_component": false,
+          "component_of": null,
+          "is_premium": false,
+          "is_squadron": false,
+          "wiki": {
+            "url": "https://wiki.warthunder.com/unit/jp_icv_ifv_prototype",
+            "rank": "VII",
+            "battle_rating_context": "default",
+            "battle_ratings": {
+              "AB": "9.7",
+              "RB": "9.7",
+              "SB": "9.7"
+            },
+            "battle_ratings_by_battle": {
+              "default": {
+                "AB": "9.7",
+                "RB": "9.7",
+                "SB": "9.7"
+              }
+            },
+            "research": "260,000",
+            "purchase": "710,000",
+            "purchase_currency": "SL",
+            "status": null,
+            "fetched_at": "2026-09-19T06:28:44.668Z",
+            "sha256": "297587b261269e09b66761144c99f3167a2269ea2b2dbbbe3469e27ce1ae22d2"
+          }
         },
         {
           "type": "single",
           "title": "TKX (P)",
           "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/jp_type_10_prototype.png",
           "br": "12.0",
-          "rp": "300,000",
-          "sp": "830,000",
+          "rp": 300000,
+          "sp": 830000,
           "data_unit_id": "jp_type_10_prototype",
           "required_unit_id": "jp_icv_ifv_prototype",
           "selected": false,
           "class_name": "",
           "details": true,
-          "main_role": "Medium tank",
           "rank": "VII",
           "research_country": "Japan",
-          "is_premium": false
+          "main_role": "Medium tank",
+          "is_component": false,
+          "component_of": null,
+          "is_premium": false,
+          "is_squadron": false,
+          "wiki": {
+            "url": "https://wiki.warthunder.com/unit/jp_type_10_prototype",
+            "rank": "VII",
+            "battle_rating_context": "default",
+            "battle_ratings": {
+              "AB": "12.0",
+              "RB": "12.0",
+              "SB": "12.0"
+            },
+            "battle_ratings_by_battle": {
+              "default": {
+                "AB": "12.0",
+                "RB": "12.0",
+                "SB": "12.0"
+              }
+            },
+            "research": "300,000",
+            "purchase": "830,000",
+            "purchase_currency": "SL",
+            "status": null,
+            "fetched_at": "2026-09-19T06:28:47.068Z",
+            "sha256": "94f3722d3c714df450d70f5d4c0f3c6480894982666b977cbcd4e28fa0682cfb"
+          }
         }
       ],
       [
@@ -1457,34 +3285,86 @@
               "title": "Type 90",
               "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/jp_type_90.png",
               "br": "11.7",
-              "rp": "300,000",
-              "sp": "830,000",
+              "rp": 300000,
+              "sp": 830000,
               "data_unit_id": "jp_type_90",
               "required_unit_id": "",
               "selected": false,
               "class_name": "",
               "details": true,
-              "main_role": "Medium tank",
               "rank": "VII",
               "research_country": "Japan",
-              "is_premium": false
+              "main_role": "Medium tank",
+              "is_component": false,
+              "component_of": null,
+              "is_premium": false,
+              "is_squadron": false,
+              "wiki": {
+                "url": "https://wiki.warthunder.com/unit/jp_type_90",
+                "rank": "VII",
+                "battle_rating_context": "default",
+                "battle_ratings": {
+                  "AB": "11.7",
+                  "RB": "11.7",
+                  "SB": "11.7"
+                },
+                "battle_ratings_by_battle": {
+                  "default": {
+                    "AB": "11.7",
+                    "RB": "11.7",
+                    "SB": "11.7"
+                  }
+                },
+                "research": "300,000",
+                "purchase": "830,000",
+                "purchase_currency": "SL",
+                "status": null,
+                "fetched_at": "2026-09-19T06:28:51.020Z",
+                "sha256": "f521678299bd667004cab7f7ddb868b239ee3677db9b1f6a23e7018d84b56668"
+              }
             },
             {
               "type": "single",
               "title": "Type 90 (B)",
               "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/jp_type_90b.png",
               "br": "11.7",
-              "rp": "175,000",
-              "sp": "950,000",
+              "rp": 175000,
+              "sp": 950000,
               "data_unit_id": "jp_type_90b",
               "required_unit_id": "jp_type_90",
               "selected": false,
               "class_name": "",
               "details": true,
-              "main_role": "Medium tank",
               "rank": "VII",
               "research_country": "Japan",
-              "is_premium": false
+              "main_role": "Medium tank",
+              "is_component": false,
+              "component_of": null,
+              "is_premium": false,
+              "is_squadron": false,
+              "wiki": {
+                "url": "https://wiki.warthunder.com/unit/jp_type_90b",
+                "rank": "VII",
+                "battle_rating_context": "default",
+                "battle_ratings": {
+                  "AB": "11.7",
+                  "RB": "11.7",
+                  "SB": "11.7"
+                },
+                "battle_ratings_by_battle": {
+                  "default": {
+                    "AB": "11.7",
+                    "RB": "11.7",
+                    "SB": "11.7"
+                  }
+                },
+                "research": "175,000",
+                "purchase": "950,000",
+                "purchase_currency": "SL",
+                "status": null,
+                "fetched_at": "2026-09-19T06:28:50.996Z",
+                "sha256": "df17c57443cc799865b50537cdcbbcb407fc5792a4484af06e6da7f472f19b5c"
+              }
             }
           ],
           "details": true,
@@ -1498,17 +3378,86 @@
           "title": "Type 16",
           "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/jp_type_16.png",
           "br": "9.7",
-          "rp": "260,000",
-          "sp": "710,000",
+          "rp": 260000,
+          "sp": 710000,
           "data_unit_id": "jp_type_16",
           "required_unit_id": "jp_type_16_mcv_prot",
           "selected": false,
           "class_name": "",
           "details": true,
-          "main_role": "Light tank",
           "rank": "VII",
           "research_country": "Japan",
-          "is_premium": false
+          "main_role": "Light tank",
+          "is_component": false,
+          "component_of": null,
+          "is_premium": false,
+          "is_squadron": false,
+          "wiki": {
+            "url": "https://wiki.warthunder.com/unit/jp_type_16",
+            "rank": "VII",
+            "battle_rating_context": "default",
+            "battle_ratings": {
+              "AB": "9.7",
+              "RB": "9.7",
+              "SB": "9.7"
+            },
+            "battle_ratings_by_battle": {
+              "default": {
+                "AB": "9.7",
+                "RB": "9.7",
+                "SB": "9.7"
+              }
+            },
+            "research": "260,000",
+            "purchase": "710,000",
+            "purchase_currency": "SL",
+            "status": null,
+            "fetched_at": "2026-09-19T06:28:47.173Z",
+            "sha256": "c7fa01f2181b54b300cdc9a59e7be1d50455353b11ef005d652784c9fe30997d"
+          }
+        },
+        {
+          "type": "single",
+          "title": "Harimau",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/jp_harimau.png",
+          "br": "10.3",
+          "rp": 300000,
+          "sp": 830000,
+          "data_unit_id": "jp_harimau",
+          "required_unit_id": "jp_type_16",
+          "selected": false,
+          "class_name": "",
+          "details": true,
+          "rank": "VII",
+          "research_country": "Japan",
+          "main_role": "Light tank",
+          "is_component": false,
+          "component_of": null,
+          "is_premium": false,
+          "is_squadron": false,
+          "wiki": {
+            "url": "https://wiki.warthunder.com/unit/jp_harimau",
+            "rank": "VII",
+            "battle_rating_context": "default",
+            "battle_ratings": {
+              "AB": "10.3",
+              "RB": "10.3",
+              "SB": "10.3"
+            },
+            "battle_ratings_by_battle": {
+              "default": {
+                "AB": "10.3",
+                "RB": "10.3",
+                "SB": "10.3"
+              }
+            },
+            "research": "300,000",
+            "purchase": "830,000",
+            "purchase_currency": "SL",
+            "status": null,
+            "fetched_at": "2026-09-19T06:28:44.226Z",
+            "sha256": "595107c8d6a775621b671967e6775679d699c94f533cf465e10bde30ea5bf886"
+          }
         }
       ],
       [
@@ -1517,34 +3466,86 @@
           "title": "Type 93",
           "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/jp_type_93.png",
           "br": "9.3",
-          "rp": "260,000",
-          "sp": "710,000",
+          "rp": 260000,
+          "sp": 710000,
           "data_unit_id": "jp_type_93",
           "required_unit_id": "jp_type_87",
           "selected": false,
           "class_name": "",
           "details": true,
-          "main_role": "SPAA",
           "rank": "VII",
           "research_country": "Japan",
-          "is_premium": false
+          "main_role": "SPAA",
+          "is_component": false,
+          "component_of": null,
+          "is_premium": false,
+          "is_squadron": false,
+          "wiki": {
+            "url": "https://wiki.warthunder.com/unit/jp_type_93",
+            "rank": "VII",
+            "battle_rating_context": "default",
+            "battle_ratings": {
+              "AB": "9.3",
+              "RB": "9.3",
+              "SB": "9.3"
+            },
+            "battle_ratings_by_battle": {
+              "default": {
+                "AB": "9.3",
+                "RB": "9.3",
+                "SB": "9.3"
+              }
+            },
+            "research": "260,000",
+            "purchase": "710,000",
+            "purchase_currency": "SL",
+            "status": null,
+            "fetched_at": "2026-09-19T06:28:51.342Z",
+            "sha256": "dbc4247c38b83acf5b9f37d52f0cf88e16fa130457fa2970a3afd376ed1eb01f"
+          }
         },
         {
           "type": "single",
           "title": "Type 81 (C)",
           "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/jp_type_81_tansam.png",
           "br": "11.7",
-          "rp": "300,000",
-          "sp": "830,000",
+          "rp": 300000,
+          "sp": 830000,
           "data_unit_id": "jp_type_81_tansam",
           "required_unit_id": "jp_type_93",
           "selected": false,
           "class_name": "",
           "details": true,
-          "main_role": "SPAA",
           "rank": "VII",
           "research_country": "Japan",
-          "is_premium": false
+          "main_role": "SPAA",
+          "is_component": false,
+          "component_of": null,
+          "is_premium": false,
+          "is_squadron": false,
+          "wiki": {
+            "url": "https://wiki.warthunder.com/unit/jp_type_81_tansam",
+            "rank": "VII",
+            "battle_rating_context": "default",
+            "battle_ratings": {
+              "AB": "11.7",
+              "RB": "11.7",
+              "SB": "11.7"
+            },
+            "battle_ratings_by_battle": {
+              "default": {
+                "AB": "11.7",
+                "RB": "11.7",
+                "SB": "11.7"
+              }
+            },
+            "research": "300,000",
+            "purchase": "830,000",
+            "purchase_currency": "SL",
+            "status": null,
+            "fetched_at": "2026-09-19T06:28:50.175Z",
+            "sha256": "59e80c7e82bb2d17d339ed7673f2859fc594b10cc511a86cca1ebc40d63da7ab"
+          }
         }
       ],
       []
@@ -1556,17 +3557,43 @@
           "title": "Type 25 RCV (P)",
           "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/jp_icv_prototype.png",
           "br": "9.7",
-          "rp": "520,000",
-          "sp": "750,000",
+          "rp": 0,
+          "sp": 0,
           "data_unit_id": "jp_icv_prototype",
           "required_unit_id": "",
           "selected": false,
           "class_name": "squad",
           "details": true,
-          "main_role": "Light tank",
           "rank": "VII",
           "research_country": "Japan",
-          "is_premium": false
+          "main_role": "Light tank",
+          "is_component": false,
+          "component_of": null,
+          "is_premium": false,
+          "is_squadron": true,
+          "wiki": {
+            "url": "https://wiki.warthunder.com/unit/jp_icv_prototype",
+            "rank": "VII",
+            "battle_rating_context": "default",
+            "battle_ratings": {
+              "AB": "9.7",
+              "RB": "9.7",
+              "SB": "9.7"
+            },
+            "battle_ratings_by_battle": {
+              "default": {
+                "AB": "9.7",
+                "RB": "9.7",
+                "SB": "9.7"
+              }
+            },
+            "research": "520,000",
+            "purchase": "750,000",
+            "purchase_currency": "SL",
+            "status": "Squadron vehicle",
+            "fetched_at": "2026-09-19T06:28:44.532Z",
+            "sha256": "ef3e241f27a900bcc4a9631a5354e12547b27dd0732fbad7da0dc8255e7fba67"
+          }
         },
         {
           "type": "single",
@@ -1580,21 +3607,135 @@
           "selected": false,
           "class_name": "prem",
           "details": true,
-          "main_role": "Medium tank",
           "rank": "VII",
           "research_country": "Japan",
-          "is_premium": true
+          "main_role": "Medium tank",
+          "is_component": false,
+          "component_of": null,
+          "is_premium": true,
+          "is_squadron": false,
+          "wiki": {
+            "url": "https://wiki.warthunder.com/unit/jp_type_90b_camo",
+            "rank": "VII",
+            "battle_rating_context": "default",
+            "battle_ratings": {
+              "AB": "11.7",
+              "RB": "11.7",
+              "SB": "11.7"
+            },
+            "battle_ratings_by_battle": {
+              "default": {
+                "AB": "11.7",
+                "RB": "11.7",
+                "SB": "11.7"
+              }
+            },
+            "research": null,
+            "purchase": null,
+            "purchase_currency": null,
+            "status": "Premium vehicle",
+            "fetched_at": "2026-09-19T06:28:51.009Z",
+            "sha256": "384e462a17b8a0fdf970ecbf946cd551df13204a3986944aff33305e38987a90"
+          }
+        },
+        {
+          "type": "single",
+          "title": "◍Type 90 (B)",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/jp_type_90b_sm.png",
+          "br": "11.7",
+          "rp": 0,
+          "sp": 0,
+          "data_unit_id": "jp_type_90b_sm",
+          "required_unit_id": "",
+          "selected": false,
+          "class_name": "prem",
+          "details": true,
+          "rank": "VII",
+          "research_country": "Japan",
+          "main_role": "Medium tank",
+          "is_component": false,
+          "component_of": null,
+          "is_premium": true,
+          "is_squadron": false,
+          "wiki": {
+            "url": "https://wiki.warthunder.com/unit/jp_type_90b_sm",
+            "rank": "VII",
+            "battle_rating_context": "default",
+            "battle_ratings": {
+              "AB": "11.7",
+              "RB": "11.7",
+              "SB": "11.7"
+            },
+            "battle_ratings_by_battle": {
+              "default": {
+                "AB": "11.7",
+                "RB": "11.7",
+                "SB": "11.7"
+              }
+            },
+            "research": null,
+            "purchase": null,
+            "purchase_currency": null,
+            "status": "Premium vehicle",
+            "fetched_at": "2026-09-19T06:28:51.229Z",
+            "sha256": "aa7be6e39357b574b27186785ae9cdd5d57774d174519099d3f0dcdae9408fc3"
+          }
         }
       ],
       []
     ],
     "selected": [],
-    "unlock_quantity": 0
+    "unlock_quantity": null,
+    "source": "wiki"
   },
   {
     "rank": "VIII",
     "researchable_vehicles": [
-      [],
+      [
+        {
+          "type": "single",
+          "title": "Leopard 2RI",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/jp_leopard_2ri.png",
+          "br": "12.7",
+          "rp": 400000,
+          "sp": 1080000,
+          "data_unit_id": "jp_leopard_2ri",
+          "required_unit_id": "jp_type_10_prototype",
+          "selected": false,
+          "class_name": "",
+          "details": true,
+          "rank": "VIII",
+          "research_country": "Japan",
+          "main_role": "Medium tank",
+          "is_component": false,
+          "component_of": null,
+          "is_premium": false,
+          "is_squadron": false,
+          "wiki": {
+            "url": "https://wiki.warthunder.com/unit/jp_leopard_2ri",
+            "rank": "VIII",
+            "battle_rating_context": "default",
+            "battle_ratings": {
+              "AB": "12.7",
+              "RB": "12.7",
+              "SB": "12.7"
+            },
+            "battle_ratings_by_battle": {
+              "default": {
+                "AB": "12.7",
+                "RB": "12.7",
+                "SB": "12.7"
+              }
+            },
+            "research": "400,000",
+            "purchase": "1,080,000",
+            "purchase_currency": "SL",
+            "status": null,
+            "fetched_at": "2026-09-19T06:28:44.488Z",
+            "sha256": "cc0113637747b142ec0e89d5bbbf434b6f43b2c195319a872f31d27361739c30"
+          }
+        }
+      ],
       [
         {
           "type": "multiple",
@@ -1611,34 +3752,86 @@
               "title": "Type 10",
               "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/jp_type_10.png",
               "br": "12.7",
-              "rp": "400,000",
-              "sp": "1,080,000",
+              "rp": 400000,
+              "sp": 1080000,
               "data_unit_id": "jp_type_10",
               "required_unit_id": "",
               "selected": false,
               "class_name": "",
               "details": true,
-              "main_role": "Medium tank",
               "rank": "VIII",
               "research_country": "Japan",
-              "is_premium": false
+              "main_role": "Medium tank",
+              "is_component": false,
+              "component_of": null,
+              "is_premium": false,
+              "is_squadron": false,
+              "wiki": {
+                "url": "https://wiki.warthunder.com/unit/jp_type_10",
+                "rank": "VIII",
+                "battle_rating_context": "default",
+                "battle_ratings": {
+                  "AB": "12.7",
+                  "RB": "12.7",
+                  "SB": "12.7"
+                },
+                "battle_ratings_by_battle": {
+                  "default": {
+                    "AB": "12.7",
+                    "RB": "12.7",
+                    "SB": "12.7"
+                  }
+                },
+                "research": "400,000",
+                "purchase": "1,080,000",
+                "purchase_currency": "SL",
+                "status": null,
+                "fetched_at": "2026-09-19T06:28:47.017Z",
+                "sha256": "508fc63bb405308d874703c3812d1d4e96bac4ea904f01fe71a2035f9624a1a5"
+              }
             },
             {
               "type": "single",
               "title": "TKX",
               "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/jp_tkx_prot.png",
               "br": "12.7",
-              "rp": "200,000",
-              "sp": "1,100,000",
+              "rp": 200000,
+              "sp": 1100000,
               "data_unit_id": "jp_tkx_prot",
               "required_unit_id": "jp_type_10",
               "selected": false,
               "class_name": "",
               "details": true,
-              "main_role": "Medium tank",
               "rank": "VIII",
               "research_country": "Japan",
-              "is_premium": false
+              "main_role": "Medium tank",
+              "is_component": false,
+              "component_of": null,
+              "is_premium": false,
+              "is_squadron": false,
+              "wiki": {
+                "url": "https://wiki.warthunder.com/unit/jp_tkx_prot",
+                "rank": "VIII",
+                "battle_rating_context": "default",
+                "battle_ratings": {
+                  "AB": "12.7",
+                  "RB": "12.7",
+                  "SB": "12.7"
+                },
+                "battle_ratings_by_battle": {
+                  "default": {
+                    "AB": "12.7",
+                    "RB": "12.7",
+                    "SB": "12.7"
+                  }
+                },
+                "research": "200,000",
+                "purchase": "1,100,000",
+                "purchase_currency": "SL",
+                "status": null,
+                "fetched_at": "2026-09-19T06:28:46.561Z",
+                "sha256": "8142139991c16b2a9ef656b244dbcd54b63ee6fb27cce5fb9cda857be6487c6f"
+              }
             }
           ],
           "details": true,
@@ -1663,33 +3856,76 @@
               "title": "Tan-SAM Kai (TADS)",
               "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/jp_type_81_tansam_fcs.png",
               "br": "12.0",
-              "rp": "400,000",
-              "sp": "1,080,000",
+              "rp": 400000,
+              "sp": 1080000,
               "data_unit_id": "jp_type_81_tansam_fcs",
               "required_unit_id": "",
               "selected": false,
               "class_name": "",
               "details": true,
-              "main_role": "SPAA",
               "rank": "VIII",
               "research_country": "Japan",
-              "is_premium": false
+              "main_role": "SPAA",
+              "is_component": false,
+              "component_of": null,
+              "is_premium": false,
+              "is_squadron": false,
+              "wiki": {
+                "url": "https://wiki.warthunder.com/unit/jp_type_81_tansam_fcs",
+                "rank": "VIII",
+                "battle_rating_context": "default",
+                "battle_ratings": {
+                  "AB": "12.0",
+                  "RB": "12.0",
+                  "SB": "12.0"
+                },
+                "battle_ratings_by_battle": {
+                  "default": {
+                    "AB": "12.0",
+                    "RB": "12.0",
+                    "SB": "12.0"
+                  }
+                },
+                "research": "400,000",
+                "purchase": "1,080,000",
+                "purchase_currency": "SL",
+                "status": null,
+                "fetched_at": "2026-09-19T06:28:50.280Z",
+                "sha256": "c1223ff140e67b4c36437678bc3431981ec1c4e64d6210565f0169da7c3254c3"
+              }
             },
             {
               "type": "single",
               "title": "Tan-SAM Kai (TEL)",
               "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/jp_type_81_tansam_launcher.png",
               "br": null,
-              "rp": null,
-              "sp": null,
+              "rp": 0,
+              "sp": 0,
               "data_unit_id": "jp_type_81_tansam_launcher",
               "required_unit_id": "",
               "selected": false,
               "class_name": "",
               "details": true,
+              "rank": "VIII",
+              "research_country": "Japan",
               "main_role": "SPAA",
-              "rank": null,
-              "research_country": "Japan"
+              "is_component": true,
+              "component_of": "jp_type_81_tansam_fcs",
+              "is_premium": false,
+              "is_squadron": false,
+              "wiki": {
+                "url": "https://wiki.warthunder.com/unit/jp_type_81_tansam_launcher",
+                "rank": null,
+                "battle_rating_context": "default",
+                "battle_ratings": {},
+                "battle_ratings_by_battle": {},
+                "research": null,
+                "purchase": null,
+                "purchase_currency": null,
+                "status": null,
+                "fetched_at": "2026-09-19T06:28:50.269Z",
+                "sha256": "8bafb0aea8c3478bee53513897fdcfd544ea6a73733495f266f184b2b102dde6"
+              }
             }
           ],
           "details": true,
@@ -1711,33 +3947,76 @@
               "title": "Type 03 (TADS)",
               "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/jp_type_03_chusam_fcs.png",
               "br": "12.7",
-              "rp": "410,000",
-              "sp": "1,100,000",
+              "rp": 410000,
+              "sp": 1100000,
               "data_unit_id": "jp_type_03_chusam_fcs",
               "required_unit_id": "",
               "selected": false,
               "class_name": "",
               "details": true,
-              "main_role": "SPAA",
               "rank": "VIII",
               "research_country": "Japan",
-              "is_premium": false
+              "main_role": "SPAA",
+              "is_component": false,
+              "component_of": null,
+              "is_premium": false,
+              "is_squadron": false,
+              "wiki": {
+                "url": "https://wiki.warthunder.com/unit/jp_type_03_chusam_fcs",
+                "rank": "VIII",
+                "battle_rating_context": "default",
+                "battle_ratings": {
+                  "AB": "12.7",
+                  "RB": "12.7",
+                  "SB": "12.7"
+                },
+                "battle_ratings_by_battle": {
+                  "default": {
+                    "AB": "12.7",
+                    "RB": "12.7",
+                    "SB": "12.7"
+                  }
+                },
+                "research": "410,000",
+                "purchase": "1,100,000",
+                "purchase_currency": "SL",
+                "status": null,
+                "fetched_at": "2026-09-19T06:28:46.837Z",
+                "sha256": "d01763a2e8fae63d3e26724cfaf6634eb6646d2f16d20b77a508f4f0f464b52e"
+              }
             },
             {
               "type": "single",
               "title": "Type 03 (TEL)",
               "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/jp_type_03_chusam_launcher.png",
               "br": null,
-              "rp": null,
-              "sp": null,
+              "rp": 0,
+              "sp": 0,
               "data_unit_id": "jp_type_03_chusam_launcher",
               "required_unit_id": "",
               "selected": false,
               "class_name": "",
               "details": true,
+              "rank": "VIII",
+              "research_country": "Japan",
               "main_role": "SPAA",
-              "rank": null,
-              "research_country": "Japan"
+              "is_component": true,
+              "component_of": "jp_type_03_chusam_fcs",
+              "is_premium": false,
+              "is_squadron": false,
+              "wiki": {
+                "url": "https://wiki.warthunder.com/unit/jp_type_03_chusam_launcher",
+                "rank": null,
+                "battle_rating_context": "default",
+                "battle_ratings": {},
+                "battle_ratings_by_battle": {},
+                "research": null,
+                "purchase": null,
+                "purchase_currency": null,
+                "status": null,
+                "fetched_at": "2026-09-19T06:28:46.820Z",
+                "sha256": "18ef186bb8d824ca9e116d67e929edb284c029466ebba438a1a830575b4a4cdf"
+              }
             }
           ],
           "details": true,
@@ -1751,17 +4030,43 @@
           "title": "BM Oplot-T",
           "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/jp_oplot_t.png",
           "br": "12.3",
-          "rp": "400,000",
-          "sp": "1,080,000",
+          "rp": 400000,
+          "sp": 1080000,
           "data_unit_id": "jp_oplot_t",
           "required_unit_id": "jp_stingray",
           "selected": false,
           "class_name": "",
           "details": true,
-          "main_role": "Medium tank",
           "rank": "VIII",
           "research_country": "Japan",
-          "is_premium": false
+          "main_role": "Medium tank",
+          "is_component": false,
+          "component_of": null,
+          "is_premium": false,
+          "is_squadron": false,
+          "wiki": {
+            "url": "https://wiki.warthunder.com/unit/jp_oplot_t",
+            "rank": "VIII",
+            "battle_rating_context": "default",
+            "battle_ratings": {
+              "AB": "12.3",
+              "RB": "12.3",
+              "SB": "12.3"
+            },
+            "battle_ratings_by_battle": {
+              "default": {
+                "AB": "12.3",
+                "RB": "12.3",
+                "SB": "12.3"
+              }
+            },
+            "research": "400,000",
+            "purchase": "1,080,000",
+            "purchase_currency": "SL",
+            "status": null,
+            "fetched_at": "2026-09-19T06:28:45.990Z",
+            "sha256": "6cc0060e4a2f28cc70d8f1dfafd1260e6c0351aaaa9a3d78762906f087aefb05"
+          }
         }
       ]
     ],
@@ -1770,6 +4075,7 @@
       []
     ],
     "selected": [],
-    "unlock_quantity": 0
+    "unlock_quantity": null,
+    "source": "wiki"
   }
 ]

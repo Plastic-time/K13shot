@@ -268,6 +268,7 @@ button:focus-visible {
 
 .metric strong {
   display: block;
+  overflow-wrap: anywhere;
   margin-top: 4px;
   font-size: 28px;
   line-height: 1.1;
@@ -852,9 +853,6 @@ button:focus-visible {
     grid-template-columns: 1fr;
   }
 
-  .column-grid {
-    grid-template-columns: 1fr !important;
-  }
 }
 
 @media (max-width: 959px), (pointer: coarse) {
@@ -862,4 +860,3 @@ button:focus-visible {
     display: none;
   }
 }
-

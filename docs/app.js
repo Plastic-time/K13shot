@@ -18,6 +18,7 @@ const els = {
 
 const state = {
   meta: null,
+  snapshot: null,
   tree: [],
   units: [],
   groups: [],
@@ -101,10 +102,18 @@ async function api(path) {
   const treeMatch = path.match(/^\/api\/tree\/([^/]+)\/([^/]+)$/);
   if (treeMatch) {
     const [, country, type] = treeMatch;
-    const response = await fetch(`database/${country}/${country}_${type}.json`, { cache: "no-cache" });
+    const file = `database/${country}/${country}_${type}.json`;
+    const expected = state.snapshot.files.find(entry => entry.path === file);
+    if (!expected) throw new Error("科技树不在核验清单中");
+    const response = await fetch(`${file}?v=${expected.sha256.slice(0, 16)}`, { cache: "no-cache" });
     if (!response.ok) throw new Error("网页数据暂不可用");
-    const raw = await response.json();
-    return { success: true, country, type, data: Array.isArray(raw) ? raw : raw.data || [] };
+    const content = await response.text();
+    const digest = await crypto.subtle.digest("SHA-256", new TextEncoder().encode(content));
+    const hash = [...new Uint8Array(digest)].map(byte => byte.toString(16).padStart(2, "0")).join("");
+    if (hash !== expected.sha256) throw new Error("科技树版本校验失败，请刷新页面后重试");
+    const raw = JSON.parse(content);
+    if (!Array.isArray(raw)) throw new Error("科技树数据格式错误");
+    return { success: true, country, type, data: raw };
   }
 
   throw new Error("网页版使用随发布更新的科技树数据");
@@ -144,7 +153,7 @@ function sectionLabel(section) {
 }
 
 function getRankUnlockQuantity(rank) {
-  return parseNumber(rank.unlock_quantity);
+  return rank.unlock_quantity == null ? null : parseNumber(rank.unlock_quantity);
 }
 
 function getUnlockCountVehicleIds() {
@@ -188,6 +197,7 @@ function formatNumber(value) {
 }
 
 function formatCost(value) {
+  if (value == null) return "未提供";
   const number = parseNumber(value);
   return number ? formatNumber(number) : "0";
 }
@@ -236,14 +246,6 @@ function getIndexedItem(id) {
   return state.unitMap.get(id) || state.groupMap.get(id);
 }
 
-function shouldIgnoreRequirement(unit, reqId) {
-  if (!unit || !reqId) return false;
-  if (isFirstRankValue(unit.rank)) return true;
-
-  const requiredItem = getIndexedItem(reqId);
-  return requiredItem ? isFirstRankValue(requiredItem.rank) : false;
-}
-
 function isInitialUnlockedUnit(unit) {
   if (!unit) return false;
   const className = cleanText(unit.class_name).toLowerCase();
@@ -251,6 +253,7 @@ function isInitialUnlockedUnit(unit) {
     unit.section === "researchable" &&
     isFirstRankValue(unit.rank) &&
     !["prem", "premium", "squad", "event", "gift"].includes(className) &&
+    unit.rp != null && unit.sp != null &&
     parseNumber(unit.rp) === 0 &&
     parseNumber(unit.sp) === 0
   );
@@ -283,25 +286,14 @@ function saveState() {
 function flattenTree(tree) {
   const units = [];
   const groups = [];
-  const previousByColumn = {
-    researchable: [],
-    premium: [],
-  };
-  let rankIndex = 0;
-
   for (const rank of tree) {
-    if (rankIndex === 1) previousByColumn.researchable = [];
-
     for (const section of ["researchable_vehicles", "premium_vehicles"]) {
       const sectionType = section === "premium_vehicles" ? "premium" : "researchable";
       const columns = rank[section] || [];
       columns.forEach((column, columnIndex) => {
-        let previousDependencyId = previousByColumn[sectionType][columnIndex] || "";
         column.forEach((item, rowIndex) => {
-          const inferredReqId = sectionType === "researchable" ? previousDependencyId : "";
           if (item.type === "multiple") {
-            const groupReqId = item.required_unit_id || inferredReqId;
-            const groupMainChildId = getGroupMainChildId(item);
+            const groupReqId = item.required_unit_id || "";
             const squadronGroup = isSquadronUnit(item);
             const group = {
               ...item,
@@ -314,13 +306,13 @@ function flattenTree(tree) {
             };
             groups.push(group);
             (item.items || []).forEach((subItem, subIndex) => {
-              const subReqId = subItem.required_unit_id || groupReqId;
+              const subReqId = subItem.component_of || subItem.required_unit_id || groupReqId;
               units.push({
                 ...subItem,
                 class_name: subItem.class_name || (squadronGroup ? "squad" : ""),
                 is_squadron: squadronGroup || subItem.is_squadron === true,
-                rp: squadronGroup ? 0 : subItem.rp,
-                sp: squadronGroup ? 0 : subItem.sp,
+                rp: squadronGroup || isSquadronUnit(subItem) ? 0 : subItem.rp,
+                sp: squadronGroup || isSquadronUnit(subItem) ? 0 : subItem.sp,
                 required_unit_id: subReqId,
                 rank: rank.rank,
                 section: sectionType,
@@ -331,12 +323,8 @@ function flattenTree(tree) {
                 rowIndex: rowIndex + subIndex / 10,
               });
             });
-            if (sectionType === "researchable") {
-              previousDependencyId = groupMainChildId || item.data_unit_id || previousDependencyId;
-              previousByColumn[sectionType][columnIndex] = previousDependencyId;
-            }
           } else if (item.type === "single") {
-            const reqId = item.required_unit_id || inferredReqId;
+            const reqId = item.component_of || item.required_unit_id || "";
             const squadron = isSquadronUnit(item);
             units.push({
               ...item,
@@ -349,15 +337,10 @@ function flattenTree(tree) {
               columnIndex,
               rowIndex,
             });
-            if (sectionType === "researchable") {
-              previousDependencyId = item.data_unit_id || previousDependencyId;
-              previousByColumn[sectionType][columnIndex] = previousDependencyId;
-            }
           }
         });
       });
     }
-    rankIndex += 1;
   }
 
   state.units = units;
@@ -366,6 +349,7 @@ function flattenTree(tree) {
   state.groupMap = new Map(groups.map((group) => [group.data_unit_id, group]));
   state.initialUnlocked = new Set(units.filter(isInitialUnlockedUnit).map((unit) => unit.data_unit_id));
   state.initialUnlocked.forEach((id) => state.planned.delete(id));
+  state.planned = new Set([...state.planned].filter(id => state.unitMap.has(id)));
 }
 
 function getDependencyIds(unitId, visited = new Set()) {
@@ -386,7 +370,7 @@ function getDependencyIds(unitId, visited = new Set()) {
 
   const parentReq = unit.parent_required_unit_id && !unit.required_unit_id ? unit.parent_required_unit_id : "";
   const reqId = unit.required_unit_id || parentReq;
-  const dependencyIds = shouldIgnoreRequirement(unit, reqId) ? [] : getDependencyIds(reqId, visited);
+  const dependencyIds = getDependencyIds(reqId, visited);
   return [...dependencyIds, unitId];
 }
 
@@ -419,8 +403,8 @@ function renderSummary() {
   const rawRp = state.missing.reduce((sum, unit) => sum + parseNumber(unit.rp), 0);
   const totalSp = state.missing.reduce((sum, unit) => sum + parseNumber(unit.sp), 0);
 
-  els.totalRp.textContent = formatNumber(rawRp);
-  els.totalSp.textContent = formatNumber(totalSp);
+  els.totalRp.textContent = formatNumber(rawRp) + (state.missing.some(unit => unit.rp == null) ? " + 未知" : "");
+  els.totalSp.textContent = formatNumber(totalSp) + (state.missing.some(unit => unit.sp == null) ? " + 未知" : "");
   els.missingCount.textContent = state.missing.length;
   els.plannedCount.textContent = plannedUnits.length;
   els.pathCount.textContent = state.missing.length;
@@ -445,7 +429,7 @@ function renderListItem(unit, removable) {
       ${unit.vehicle_icon ? `<img src="${escapeHtml(unit.vehicle_icon)}" alt="">` : `<span></span>`}
       <div>
         <div class="list-title">${escapeHtml(displayTitle(unit))}</div>
-        <div class="list-meta">BR ${escapeHtml(unit.br || "-")} · RP ${formatCost(unit.rp)} · SL ${formatCost(unit.sp)}${role ? ` · ${escapeHtml(role)}` : ""}</div>
+        <div class="list-meta">BR ${escapeHtml(unit.br || "-")} · ${isSquadronUnit(unit) || unit.is_premium ? "特殊载具费用不计入" : unit.is_component ? "附属载具" : `RP ${formatCost(unit.rp)} · SL ${formatCost(unit.sp)}`}${role ? ` · ${escapeHtml(role)}` : ""}</div>
       </div>
       ${removeButton}
     </div>
@@ -472,15 +456,16 @@ function renderUnit(unit) {
   if (unit.section === "premium" || className === "prem" || className === "premium") classes.push("premium");
   const role = translateRole(unit.main_role);
   const unlocked = isInitialUnlockedUnit(unit);
+  const sourceTitle = unit.wiki ? `${id} | Wiki Research: ${unit.wiki.research ?? "未提供"} | Purchase: ${unit.wiki.purchase ?? "未提供"} ${unit.wiki.purchase_currency || ""}` : id;
 
   return `
-    <button class="${classes.join(" ")}" type="button" data-unit-id="${escapeHtml(id)}" title="${escapeHtml(id)}">
+    <button class="${classes.join(" ")}" type="button" data-unit-id="${escapeHtml(id)}" title="${escapeHtml(sourceTitle)}">
       ${unit.vehicle_icon ? `<img src="${escapeHtml(unit.vehicle_icon)}" alt="">` : `<span></span>`}
       <span>
         <span class="unit-title">${escapeHtml(displayTitle(unit))}</span>
         <span class="unit-meta">
           <span class="pill">BR ${escapeHtml(unit.br || "-")}</span>
-          ${squadron ? `<span class="pill squadron-label">联队载具</span>` : `<span class="pill rp">RP ${formatCost(unit.rp)}</span><span class="pill sp">SL ${formatCost(unit.sp)}</span>`}
+          ${squadron ? `<span class="pill squadron-label">联队载具</span>` : unit.is_component ? `<span class="pill">附属载具</span>` : unit.is_premium ? `<span class="pill">金币载具</span>` : `<span class="pill rp">RP ${formatCost(unit.rp)}</span><span class="pill sp">SL ${formatCost(unit.sp)}</span>`}
           ${unlocked ? `<span class="pill unlocked">已解锁</span>` : ""}
           ${role ? `<span class="pill role">${escapeHtml(role)}</span>` : ""}
         </span>
@@ -676,6 +661,7 @@ function scheduleTreeConnections() {
 
 function renderRankUnlockGate(rank, nextRank) {
   const quantity = getRankUnlockQuantity(rank);
+  if (quantity === null) return nextRank ? `<div class="rank-unlock-line"><span>解锁数量：Wiki 未提供</span></div>` : "";
   const selected = getSelectedVehicleCount(rank.rank);
   const complete = quantity > 0 && selected >= quantity;
   const targetLabel = nextRank ? `解锁${displayRank(nextRank.rank)}` : "后续等级要求";
@@ -695,14 +681,14 @@ function renderRankRail(rank) {
   return `
     <div class="rank-rail ${complete ? "is-complete" : ""}">
       <span class="rank-name">${escapeHtml(displayRank(rank.rank))}</span>
-      <span class="rank-unlock-count">${escapeHtml(quantity)}</span>
+      <span class="rank-unlock-count">${quantity === null ? "?" : escapeHtml(quantity)}</span>
     </div>
   `;
 }
 
 function renderTree() {
   if (!state.tree.length) {
-    els.treeContainer.innerHTML = `<div class="loading">没有本地数据</div>`;
+    els.treeContainer.innerHTML = `<div class="loading">Wiki 暂无该国家的此类科技树</div>`;
     return;
   }
 
@@ -738,6 +724,9 @@ function renderTree() {
 
 async function loadMeta() {
   state.meta = await api("/api/meta");
+  const response = await fetch("database/manifest.json", { cache: "no-cache" });
+  if (!response.ok) throw new Error("数据核验清单暂不可用");
+  state.snapshot = await response.json();
   els.countrySelect.innerHTML = state.meta.countries
     .map((country) => `<option value="${country.code}">${escapeHtml(translateCountry(country.code, country.label))}</option>`)
     .join("");
@@ -748,7 +737,9 @@ async function loadMeta() {
   els.typeSelect.value = state.type;
 }
 
+let treeRequestId = 0;
 async function loadTree() {
+  const requestId = ++treeRequestId;
   state.country = els.countrySelect.value;
   state.type = els.typeSelect.value;
   setStatus("正在读取静态科技树数据");
@@ -758,11 +749,13 @@ async function loadTree() {
 
   try {
     const result = await api(`/api/tree/${state.country}/${state.type}`);
+    if (requestId !== treeRequestId) return;
     state.tree = result.data || [];
     flattenTree(state.tree);
-    setStatus(`${translateCountry(state.country)} · ${translateType(state.type)} · ${state.units.length} 个载具`);
+    setStatus(`${translateCountry(state.country)} · ${translateType(state.type)} · ${state.units.length} 个载具 · Wiki ${state.snapshot.fetched_to.slice(0, 10)} · BR: RB`);
     calculatePlan();
   } catch (err) {
+    if (requestId !== treeRequestId) return;
     state.tree = [];
     state.units = [];
     state.groups = [];
@@ -859,4 +852,3 @@ async function init() {
 }
 
 init();
-

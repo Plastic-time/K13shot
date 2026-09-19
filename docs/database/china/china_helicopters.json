@@ -7,29 +7,89 @@
           "type": "single",
           "title": "Z-11WA",
           "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/z_11wa.png",
-          "br": "8.7",
-          "rp": null,
-          "sp": "390,000",
+          "br": "9.0",
+          "rp": 0,
+          "sp": 390000,
           "data_unit_id": "z_11wa",
+          "required_unit_id": "",
           "selected": false,
           "class_name": "",
           "details": true,
-          "main_role": "Attack helicopter"
+          "rank": "V",
+          "research_country": "China",
+          "main_role": "Attack helicopter",
+          "is_component": false,
+          "component_of": null,
+          "is_premium": false,
+          "is_squadron": false,
+          "wiki": {
+            "url": "https://wiki.warthunder.com/unit/z_11wa",
+            "rank": "V",
+            "battle_rating_context": "default",
+            "battle_ratings": {
+              "AB": "8.7",
+              "RB": "9.0",
+              "SB": "8.7"
+            },
+            "battle_ratings_by_battle": {
+              "default": {
+                "AB": "8.7",
+                "RB": "9.0",
+                "SB": "8.7"
+              }
+            },
+            "research": "Free",
+            "purchase": "390,000",
+            "purchase_currency": "SL",
+            "status": null,
+            "fetched_at": "2026-09-19T06:32:05.201Z",
+            "sha256": "4bc0969fca7f508e1965b1230bd82a130739bae3e786d2285d08ccbf28abb799"
+          }
         }
       ],
       [
         {
           "type": "single",
-          "title": "SA.342L Gazelle",
+          "title": "SA.342L Gazelle",
           "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/sa_342l_china.png",
-          "br": "8.7",
-          "rp": "150,000",
-          "sp": "490,000",
+          "br": "9.3",
+          "rp": 150000,
+          "sp": 490000,
           "data_unit_id": "sa_342l_china",
+          "required_unit_id": "z_11wa",
           "selected": false,
           "class_name": "",
           "details": true,
-          "main_role": "Utility helicopter"
+          "rank": "V",
+          "research_country": "China",
+          "main_role": "Utility helicopter",
+          "is_component": false,
+          "component_of": null,
+          "is_premium": false,
+          "is_squadron": false,
+          "wiki": {
+            "url": "https://wiki.warthunder.com/unit/sa_342l_china",
+            "rank": "V",
+            "battle_rating_context": "default",
+            "battle_ratings": {
+              "AB": "8.7",
+              "RB": "9.3",
+              "SB": "8.7"
+            },
+            "battle_ratings_by_battle": {
+              "default": {
+                "AB": "8.7",
+                "RB": "9.3",
+                "SB": "8.7"
+              }
+            },
+            "research": "150,000",
+            "purchase": "490,000",
+            "purchase_currency": "SL",
+            "status": null,
+            "fetched_at": "2026-09-19T06:32:04.903Z",
+            "sha256": "9ef24258c3dcd284a112aa2f38c48c3a4bca3e0b91a41c0f829e274594d27947"
+          }
         }
       ]
     ],
@@ -37,7 +97,8 @@
       []
     ],
     "selected": [],
-    "unlock_quantity": 0
+    "unlock_quantity": null,
+    "source": "wiki"
   },
   {
     "rank": "VI",
@@ -48,39 +109,129 @@
           "title": "Z-9W",
           "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/z_9w.png",
           "br": "10.3",
-          "rp": "360,000",
-          "sp": "980,000",
+          "rp": 360000,
+          "sp": 980000,
           "data_unit_id": "z_9w",
+          "required_unit_id": "z_11wa",
           "selected": false,
           "class_name": "",
           "details": true,
-          "main_role": "Attack helicopter"
+          "rank": "VI",
+          "research_country": "China",
+          "main_role": "Attack helicopter",
+          "is_component": false,
+          "component_of": null,
+          "is_premium": false,
+          "is_squadron": false,
+          "wiki": {
+            "url": "https://wiki.warthunder.com/unit/z_9w",
+            "rank": "VI",
+            "battle_rating_context": "default",
+            "battle_ratings": {
+              "AB": "9.3",
+              "RB": "10.3",
+              "SB": "9.3"
+            },
+            "battle_ratings_by_battle": {
+              "default": {
+                "AB": "9.3",
+                "RB": "10.3",
+                "SB": "9.3"
+              }
+            },
+            "research": "360,000",
+            "purchase": "980,000",
+            "purchase_currency": "SL",
+            "status": null,
+            "fetched_at": "2026-09-19T06:32:05.331Z",
+            "sha256": "89cfafc763eb4f342e878d2b5eacfe06a0eeb02959d8068ebf21c9fa6d4cd6c9"
+          }
         },
         {
           "type": "single",
           "title": "Z-9WA",
           "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/z_9wa.png",
           "br": "11.0",
-          "rp": "380,000",
-          "sp": "1,000,000",
+          "rp": 380000,
+          "sp": 1000000,
           "data_unit_id": "z_9wa",
+          "required_unit_id": "z_9w",
           "selected": false,
           "class_name": "",
           "details": true,
-          "main_role": "Attack helicopter"
+          "rank": "VI",
+          "research_country": "China",
+          "main_role": "Attack helicopter",
+          "is_component": false,
+          "component_of": null,
+          "is_premium": false,
+          "is_squadron": false,
+          "wiki": {
+            "url": "https://wiki.warthunder.com/unit/z_9wa",
+            "rank": "VI",
+            "battle_rating_context": "default",
+            "battle_ratings": {
+              "AB": "9.7",
+              "RB": "11.0",
+              "SB": "9.7"
+            },
+            "battle_ratings_by_battle": {
+              "default": {
+                "AB": "9.7",
+                "RB": "11.0",
+                "SB": "9.7"
+              }
+            },
+            "research": "380,000",
+            "purchase": "1,000,000",
+            "purchase_currency": "SL",
+            "status": null,
+            "fetched_at": "2026-09-19T06:32:05.583Z",
+            "sha256": "395f110f535cabca8417d204edd515462214f5b4162abf699731c34b275e961a"
+          }
         },
         {
           "type": "single",
           "title": "Z-19",
           "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/z_19.png",
-          "br": "11.3",
-          "rp": "390,000",
-          "sp": "1,010,000",
+          "br": "11.7",
+          "rp": 390000,
+          "sp": 1010000,
           "data_unit_id": "z_19",
+          "required_unit_id": "z_9wa",
           "selected": false,
           "class_name": "",
           "details": true,
-          "main_role": "Attack helicopter"
+          "rank": "VI",
+          "research_country": "China",
+          "main_role": "Attack helicopter",
+          "is_component": false,
+          "component_of": null,
+          "is_premium": false,
+          "is_squadron": false,
+          "wiki": {
+            "url": "https://wiki.warthunder.com/unit/z_19",
+            "rank": "VI",
+            "battle_rating_context": "default",
+            "battle_ratings": {
+              "AB": "10.3",
+              "RB": "11.7",
+              "SB": "10.3"
+            },
+            "battle_ratings_by_battle": {
+              "default": {
+                "AB": "10.3",
+                "RB": "11.7",
+                "SB": "10.3"
+              }
+            },
+            "research": "390,000",
+            "purchase": "1,010,000",
+            "purchase_currency": "SL",
+            "status": null,
+            "fetched_at": "2026-09-19T06:32:05.458Z",
+            "sha256": "6c373f35c07c51706e89e3764218ba744e6ca4fadee5367c19c3541540f536ef"
+          }
         }
       ],
       [
@@ -89,26 +240,86 @@
           "title": "␗OH-58D",
           "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/oh_58d_china.png",
           "br": "10.3",
-          "rp": "380,000",
-          "sp": "1,000,000",
+          "rp": 380000,
+          "sp": 1000000,
           "data_unit_id": "oh_58d_china",
+          "required_unit_id": "sa_342l_china",
           "selected": false,
           "class_name": "",
           "details": true,
-          "main_role": "Attack helicopter"
+          "rank": "VI",
+          "research_country": "China",
+          "main_role": "Attack helicopter",
+          "is_component": false,
+          "component_of": null,
+          "is_premium": false,
+          "is_squadron": false,
+          "wiki": {
+            "url": "https://wiki.warthunder.com/unit/oh_58d_china",
+            "rank": "VI",
+            "battle_rating_context": "default",
+            "battle_ratings": {
+              "AB": "9.7",
+              "RB": "10.3",
+              "SB": "10.3"
+            },
+            "battle_ratings_by_battle": {
+              "default": {
+                "AB": "9.7",
+                "RB": "10.3",
+                "SB": "10.3"
+              }
+            },
+            "research": "380,000",
+            "purchase": "1,000,000",
+            "purchase_currency": "SL",
+            "status": null,
+            "fetched_at": "2026-09-19T06:32:04.731Z",
+            "sha256": "d395150ba206f5292be113c1f6f109f25f1bb30c473f29ff88f0e60a19303fc8"
+          }
         },
         {
           "type": "single",
           "title": "␗AH-1W",
           "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/ah_1w_china.png",
           "br": "11.0",
-          "rp": "390,000",
-          "sp": "1,010,000",
+          "rp": 390000,
+          "sp": 1010000,
           "data_unit_id": "ah_1w_china",
+          "required_unit_id": "oh_58d_china",
           "selected": false,
           "class_name": "",
           "details": true,
-          "main_role": "Attack helicopter"
+          "rank": "VI",
+          "research_country": "China",
+          "main_role": "Attack helicopter",
+          "is_component": false,
+          "component_of": null,
+          "is_premium": false,
+          "is_squadron": false,
+          "wiki": {
+            "url": "https://wiki.warthunder.com/unit/ah_1w_china",
+            "rank": "VI",
+            "battle_rating_context": "default",
+            "battle_ratings": {
+              "AB": "10.0",
+              "RB": "11.0",
+              "SB": "10.7"
+            },
+            "battle_ratings_by_battle": {
+              "default": {
+                "AB": "10.0",
+                "RB": "11.0",
+                "SB": "10.7"
+              }
+            },
+            "research": "390,000",
+            "purchase": "1,010,000",
+            "purchase_currency": "SL",
+            "status": null,
+            "fetched_at": "2026-09-19T06:32:04.668Z",
+            "sha256": "b898c3e776f628016d437ccf06f4cb7520a164e05727804af674240b6a723fa9"
+          }
         }
       ]
     ],
@@ -122,28 +333,89 @@
           "rp": 0,
           "sp": 0,
           "data_unit_id": "mi_35m_pakistan",
+          "required_unit_id": "",
           "selected": false,
           "class_name": "prem",
           "details": true,
-          "main_role": "Attack helicopter"
+          "rank": "VI",
+          "research_country": "China",
+          "main_role": "Attack helicopter",
+          "is_component": false,
+          "component_of": null,
+          "is_premium": true,
+          "is_squadron": false,
+          "wiki": {
+            "url": "https://wiki.warthunder.com/unit/mi_35m_pakistan",
+            "rank": "VI",
+            "battle_rating_context": "default",
+            "battle_ratings": {
+              "AB": "10.7",
+              "RB": "10.7",
+              "SB": "10.3"
+            },
+            "battle_ratings_by_battle": {
+              "default": {
+                "AB": "10.7",
+                "RB": "10.7",
+                "SB": "10.3"
+              }
+            },
+            "research": null,
+            "purchase": "9,090",
+            "purchase_currency": "GE",
+            "status": "Premium vehicle",
+            "fetched_at": "2026-09-19T06:32:04.535Z",
+            "sha256": "b8649faa6228ed36e866bbe2a1bff97ccebb435b40bf96994b9e7fe54a31834e"
+          }
         },
         {
           "type": "single",
           "title": "Z-19E",
           "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/z_19e.png",
-          "br": "11.3",
+          "br": "11.7",
           "rp": 0,
           "sp": 0,
           "data_unit_id": "z_19e",
+          "required_unit_id": "",
           "selected": false,
           "class_name": "prem",
           "details": true,
-          "main_role": "Attack helicopter"
+          "rank": "VI",
+          "research_country": "China",
+          "main_role": "Attack helicopter",
+          "is_component": false,
+          "component_of": null,
+          "is_premium": true,
+          "is_squadron": false,
+          "wiki": {
+            "url": "https://wiki.warthunder.com/unit/z_19e",
+            "rank": "VI",
+            "battle_rating_context": "default",
+            "battle_ratings": {
+              "AB": "10.3",
+              "RB": "11.7",
+              "SB": "10.3"
+            },
+            "battle_ratings_by_battle": {
+              "default": {
+                "AB": "10.3",
+                "RB": "11.7",
+                "SB": "10.3"
+              }
+            },
+            "research": null,
+            "purchase": "8,560",
+            "purchase_currency": "GE",
+            "status": "Premium vehicle",
+            "fetched_at": "2026-09-19T06:32:05.403Z",
+            "sha256": "716a2e0d122fdc51218ffa027fe46edba6856ce9e1274a9c2294d068d4f241f8"
+          }
         }
       ]
     ],
     "selected": [],
-    "unlock_quantity": 0
+    "unlock_quantity": null,
+    "source": "wiki"
   },
   {
     "rank": "VII",
@@ -154,26 +426,86 @@
           "title": "Z-10",
           "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/z_10.png",
           "br": "11.7",
-          "rp": "400,000",
-          "sp": "1,020,000",
+          "rp": 400000,
+          "sp": 1020000,
           "data_unit_id": "z_10",
+          "required_unit_id": "z_19",
           "selected": false,
           "class_name": "",
           "details": true,
-          "main_role": "Attack helicopter"
+          "rank": "VII",
+          "research_country": "China",
+          "main_role": "Attack helicopter",
+          "is_component": false,
+          "component_of": null,
+          "is_premium": false,
+          "is_squadron": false,
+          "wiki": {
+            "url": "https://wiki.warthunder.com/unit/z_10",
+            "rank": "VII",
+            "battle_rating_context": "default",
+            "battle_ratings": {
+              "AB": "10.7",
+              "RB": "11.7",
+              "SB": "10.7"
+            },
+            "battle_ratings_by_battle": {
+              "default": {
+                "AB": "10.7",
+                "RB": "11.7",
+                "SB": "10.7"
+              }
+            },
+            "research": "400,000",
+            "purchase": "1,020,000",
+            "purchase_currency": "SL",
+            "status": null,
+            "fetched_at": "2026-09-19T06:32:04.933Z",
+            "sha256": "67ca9b661f0442a27e40aea06457a539cd617b68fcf9ba173a7d97d859434860"
+          }
         },
         {
           "type": "single",
           "title": "Z-10ME",
           "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/z_10me.png",
           "br": "13.0",
-          "rp": "400,000",
-          "sp": "1,030,000",
+          "rp": 400000,
+          "sp": 1030000,
           "data_unit_id": "z_10me",
+          "required_unit_id": "z_10",
           "selected": false,
           "class_name": "",
           "details": true,
-          "main_role": "Attack helicopter"
+          "rank": "VII",
+          "research_country": "China",
+          "main_role": "Attack helicopter",
+          "is_component": false,
+          "component_of": null,
+          "is_premium": false,
+          "is_squadron": false,
+          "wiki": {
+            "url": "https://wiki.warthunder.com/unit/z_10me",
+            "rank": "VII",
+            "battle_rating_context": "default",
+            "battle_ratings": {
+              "AB": "11.0",
+              "RB": "13.0",
+              "SB": "11.0"
+            },
+            "battle_ratings_by_battle": {
+              "default": {
+                "AB": "11.0",
+                "RB": "13.0",
+                "SB": "11.0"
+              }
+            },
+            "research": "400,000",
+            "purchase": "1,030,000",
+            "purchase_currency": "SL",
+            "status": null,
+            "fetched_at": "2026-09-19T06:32:05.026Z",
+            "sha256": "a3be051927bb320541e9a00c20714d99a26ec925c5927e7390f543d65bcaf1eb"
+          }
         }
       ],
       [
@@ -182,13 +514,43 @@
           "title": "␗AH-64E",
           "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/ah_64e_china.png",
           "br": "13.0",
-          "rp": "400,000",
-          "sp": "1,030,000",
+          "rp": 400000,
+          "sp": 1030000,
           "data_unit_id": "ah_64e_china",
+          "required_unit_id": "ah_1w_china",
           "selected": false,
           "class_name": "",
           "details": true,
-          "main_role": "Attack helicopter"
+          "rank": "VII",
+          "research_country": "China",
+          "main_role": "Attack helicopter",
+          "is_component": false,
+          "component_of": null,
+          "is_premium": false,
+          "is_squadron": false,
+          "wiki": {
+            "url": "https://wiki.warthunder.com/unit/ah_64e_china",
+            "rank": "VII",
+            "battle_rating_context": "default",
+            "battle_ratings": {
+              "AB": "11.0",
+              "RB": "13.0",
+              "SB": "11.0"
+            },
+            "battle_ratings_by_battle": {
+              "default": {
+                "AB": "11.0",
+                "RB": "13.0",
+                "SB": "11.0"
+              }
+            },
+            "research": "400,000",
+            "purchase": "1,030,000",
+            "purchase_currency": "SL",
+            "status": null,
+            "fetched_at": "2026-09-19T06:32:04.499Z",
+            "sha256": "6eef82cae42a0d315910d5658b27dbb7ae6d43952008fa89ddf0e677026aa180"
+          }
         }
       ]
     ],
@@ -199,17 +561,48 @@
           "title": "Z-10A",
           "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/z_10a.png",
           "br": "11.7",
-          "rp": "520,000",
-          "sp": "1,070,000",
+          "rp": 0,
+          "sp": 0,
           "data_unit_id": "z_10a",
+          "required_unit_id": "",
           "selected": false,
           "class_name": "squad",
           "details": true,
-          "main_role": "Attack helicopter"
+          "rank": "VII",
+          "research_country": "China",
+          "main_role": "Attack helicopter",
+          "is_component": false,
+          "component_of": null,
+          "is_premium": false,
+          "is_squadron": true,
+          "wiki": {
+            "url": "https://wiki.warthunder.com/unit/z_10a",
+            "rank": "VII",
+            "battle_rating_context": "default",
+            "battle_ratings": {
+              "AB": "10.7",
+              "RB": "11.7",
+              "SB": "10.7"
+            },
+            "battle_ratings_by_battle": {
+              "default": {
+                "AB": "10.7",
+                "RB": "11.7",
+                "SB": "10.7"
+              }
+            },
+            "research": "520,000",
+            "purchase": "1,070,000",
+            "purchase_currency": "SL",
+            "status": "Squadron vehicle",
+            "fetched_at": "2026-09-19T06:32:05.066Z",
+            "sha256": "6ebd4dd9367c3a560756a057434c65254aa6fee2a983640e5f4d6746fcd6cab8"
+          }
         }
       ]
     ],
     "selected": [],
-    "unlock_quantity": 0
+    "unlock_quantity": null,
+    "source": "wiki"
   }
 ]

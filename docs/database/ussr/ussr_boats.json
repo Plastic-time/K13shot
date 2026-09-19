@@ -8,39 +8,123 @@
           "title": "G-5",
           "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/ussr_g5_mtb.png",
           "br": "1.0",
-          "rp": null,
-          "sp": null,
+          "rp": 0,
+          "sp": 0,
           "data_unit_id": "ussr_g5_mtb",
+          "required_unit_id": "",
           "selected": false,
           "class_name": "",
           "details": true,
-          "main_role": "Boat"
+          "rank": "I",
+          "research_country": "USSR",
+          "main_role": "Boat",
+          "is_component": false,
+          "component_of": null,
+          "is_premium": false,
+          "is_squadron": false,
+          "wiki": {
+            "url": "https://wiki.warthunder.com/unit/ussr_g5_mtb",
+            "rank": "I",
+            "battle_rating_context": "default",
+            "battle_ratings": {
+              "AB": "1.0",
+              "RB": "1.0"
+            },
+            "battle_ratings_by_battle": {
+              "default": {
+                "AB": "1.0",
+                "RB": "1.0"
+              }
+            },
+            "research": "Free",
+            "purchase": "Free",
+            "purchase_currency": "SL",
+            "status": null,
+            "fetched_at": "2026-09-19T06:32:51.454Z",
+            "sha256": "cfead93621b56e2c7e0c1b702713685fa443de9e138674aece1dbf614c142b2f"
+          }
         },
         {
           "type": "single",
           "title": "D-3",
           "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/ussr_d3.png",
           "br": "1.0",
-          "rp": null,
-          "sp": null,
+          "rp": 0,
+          "sp": 0,
           "data_unit_id": "ussr_d3",
+          "required_unit_id": "",
           "selected": false,
           "class_name": "",
           "details": true,
-          "main_role": "Boat"
+          "rank": "I",
+          "research_country": "USSR",
+          "main_role": "Boat",
+          "is_component": false,
+          "component_of": null,
+          "is_premium": false,
+          "is_squadron": false,
+          "wiki": {
+            "url": "https://wiki.warthunder.com/unit/ussr_d3",
+            "rank": "I",
+            "battle_rating_context": "default",
+            "battle_ratings": {
+              "AB": "1.0",
+              "RB": "1.0"
+            },
+            "battle_ratings_by_battle": {
+              "default": {
+                "AB": "1.0",
+                "RB": "1.0"
+              }
+            },
+            "research": "Free",
+            "purchase": "Free",
+            "purchase_currency": "SL",
+            "status": null,
+            "fetched_at": "2026-09-19T06:32:51.220Z",
+            "sha256": "9b76a52c2dd03f55a0728577658257c11627c544d544d2b8a450044f6b0620a4"
+          }
         },
         {
           "type": "single",
           "title": "SM-4",
           "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/ussr_pr_103_sm4.png",
           "br": "1.3",
-          "rp": "2,900",
-          "sp": "700",
+          "rp": 2900,
+          "sp": 700,
           "data_unit_id": "ussr_pr_103_sm4",
+          "required_unit_id": "ussr_d3",
           "selected": false,
           "class_name": "",
           "details": true,
-          "main_role": "Boat"
+          "rank": "I",
+          "research_country": "USSR",
+          "main_role": "Boat",
+          "is_component": false,
+          "component_of": null,
+          "is_premium": false,
+          "is_squadron": false,
+          "wiki": {
+            "url": "https://wiki.warthunder.com/unit/ussr_pr_103_sm4",
+            "rank": "I",
+            "battle_rating_context": "default",
+            "battle_ratings": {
+              "AB": "1.3",
+              "RB": "1.3"
+            },
+            "battle_ratings_by_battle": {
+              "default": {
+                "AB": "1.3",
+                "RB": "1.3"
+              }
+            },
+            "research": "2,900",
+            "purchase": "700",
+            "purchase_currency": "SL",
+            "status": null,
+            "fetched_at": "2026-09-19T06:32:53.627Z",
+            "sha256": "b166823c67ded2d0d245f91790e310707e81037ac780b680432ce226d8992a79"
+          }
         }
       ],
       [
@@ -49,26 +133,82 @@
           "title": "MO-4",
           "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/ussr_mo_4.png",
           "br": "1.0",
-          "rp": "2,900",
-          "sp": "700",
+          "rp": 2900,
+          "sp": 700,
           "data_unit_id": "ussr_mo_4",
+          "required_unit_id": "",
           "selected": false,
           "class_name": "",
           "details": true,
-          "main_role": "Boat"
+          "rank": "I",
+          "research_country": "USSR",
+          "main_role": "Boat",
+          "is_component": false,
+          "component_of": null,
+          "is_premium": false,
+          "is_squadron": false,
+          "wiki": {
+            "url": "https://wiki.warthunder.com/unit/ussr_mo_4",
+            "rank": "I",
+            "battle_rating_context": "default",
+            "battle_ratings": {
+              "AB": "1.0",
+              "RB": "1.0"
+            },
+            "battle_ratings_by_battle": {
+              "default": {
+                "AB": "1.0",
+                "RB": "1.0"
+              }
+            },
+            "research": "2,900",
+            "purchase": "700",
+            "purchase_currency": "SL",
+            "status": null,
+            "fetched_at": "2026-09-19T06:32:52.071Z",
+            "sha256": "99d71517d30a2b726cf6b9ce92cf1267088ecac9d5b67ebb9df95329d1bfe166"
+          }
         },
         {
           "type": "single",
           "title": "OD-200",
           "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/ussr_od_200.png",
           "br": "1.7",
-          "rp": "5,900",
-          "sp": "6,300",
+          "rp": 5900,
+          "sp": 6300,
           "data_unit_id": "ussr_od_200",
+          "required_unit_id": "ussr_mo_4",
           "selected": false,
           "class_name": "",
           "details": true,
-          "main_role": "Boat"
+          "rank": "I",
+          "research_country": "USSR",
+          "main_role": "Boat",
+          "is_component": false,
+          "component_of": null,
+          "is_premium": false,
+          "is_squadron": false,
+          "wiki": {
+            "url": "https://wiki.warthunder.com/unit/ussr_od_200",
+            "rank": "I",
+            "battle_rating_context": "default",
+            "battle_ratings": {
+              "AB": "1.7",
+              "RB": "1.7"
+            },
+            "battle_ratings_by_battle": {
+              "default": {
+                "AB": "1.7",
+                "RB": "1.7"
+              }
+            },
+            "research": "5,900",
+            "purchase": "6,300",
+            "purchase_currency": "SL",
+            "status": null,
+            "fetched_at": "2026-09-19T06:32:53.326Z",
+            "sha256": "484e3c71e9abc7de0b8cea07ab4b2efe2004e76aa0227a4a5354f6022fcc8b51"
+          }
         }
       ],
       [
@@ -77,13 +217,41 @@
           "title": "TK-126",
           "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/ussr_d3_tk126.png",
           "br": "1.3",
-          "rp": "2,900",
-          "sp": "700",
+          "rp": 2900,
+          "sp": 700,
           "data_unit_id": "ussr_d3_tk126",
+          "required_unit_id": "",
           "selected": false,
           "class_name": "",
           "details": true,
-          "main_role": "Boat"
+          "rank": "I",
+          "research_country": "USSR",
+          "main_role": "Boat",
+          "is_component": false,
+          "component_of": null,
+          "is_premium": false,
+          "is_squadron": false,
+          "wiki": {
+            "url": "https://wiki.warthunder.com/unit/ussr_d3_tk126",
+            "rank": "I",
+            "battle_rating_context": "default",
+            "battle_ratings": {
+              "AB": "1.3",
+              "RB": "1.3"
+            },
+            "battle_ratings_by_battle": {
+              "default": {
+                "AB": "1.3",
+                "RB": "1.3"
+              }
+            },
+            "research": "2,900",
+            "purchase": "700",
+            "purchase_currency": "SL",
+            "status": null,
+            "fetched_at": "2026-09-19T06:32:51.364Z",
+            "sha256": "bc1f274b6166ec5e2c9e806bb225fb86810df313bab69b85187bc04424e37b34"
+          }
         }
       ]
     ],
@@ -91,16 +259,44 @@
       [
         {
           "type": "single",
-          "title": "G-5 (ShVAK)",
+          "title": "G-5 (ShVAK)",
           "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/ussr_g5_mtb_shvak.png",
           "br": "1.0",
           "rp": 0,
           "sp": 0,
           "data_unit_id": "ussr_g5_mtb_shvak",
+          "required_unit_id": "",
           "selected": false,
           "class_name": "prem",
           "details": true,
-          "main_role": "Boat"
+          "rank": "I",
+          "research_country": "USSR",
+          "main_role": "Boat",
+          "is_component": false,
+          "component_of": null,
+          "is_premium": true,
+          "is_squadron": false,
+          "wiki": {
+            "url": "https://wiki.warthunder.com/unit/ussr_g5_mtb_shvak",
+            "rank": "I",
+            "battle_rating_context": "default",
+            "battle_ratings": {
+              "AB": "1.0",
+              "RB": "1.0"
+            },
+            "battle_ratings_by_battle": {
+              "default": {
+                "AB": "1.0",
+                "RB": "1.0"
+              }
+            },
+            "research": null,
+            "purchase": "250",
+            "purchase_currency": "GE",
+            "status": "Premium vehicle",
+            "fetched_at": "2026-09-19T06:32:51.466Z",
+            "sha256": "baa4835966089b76f81ab80e134cf1064734262591ff9547c5d713968241e58b"
+          }
         },
         {
           "type": "single",
@@ -110,10 +306,38 @@
           "rp": 0,
           "sp": 0,
           "data_unit_id": "ussr_ya_5m",
+          "required_unit_id": "",
           "selected": false,
           "class_name": "prem",
           "details": true,
-          "main_role": "Boat"
+          "rank": "I",
+          "research_country": "USSR",
+          "main_role": "Boat",
+          "is_component": false,
+          "component_of": null,
+          "is_premium": true,
+          "is_squadron": false,
+          "wiki": {
+            "url": "https://wiki.warthunder.com/unit/ussr_ya_5m",
+            "rank": "I",
+            "battle_rating_context": "default",
+            "battle_ratings": {
+              "AB": "1.3",
+              "RB": "1.3"
+            },
+            "battle_ratings_by_battle": {
+              "default": {
+                "AB": "1.3",
+                "RB": "1.3"
+              }
+            },
+            "research": null,
+            "purchase": null,
+            "purchase_currency": null,
+            "status": "Premium vehicle",
+            "fetched_at": "2026-09-19T06:32:55.350Z",
+            "sha256": "f747b77b02fa7850e839c523bde905a05e460c426ca9d87964888e71e075dbfe"
+          }
         }
       ],
       [
@@ -125,15 +349,44 @@
           "rp": 0,
           "sp": 0,
           "data_unit_id": "ussr_g5_rct",
+          "required_unit_id": "",
           "selected": false,
           "class_name": "prem",
           "details": true,
-          "main_role": "Boat"
+          "rank": "I",
+          "research_country": "USSR",
+          "main_role": "Boat",
+          "is_component": false,
+          "component_of": null,
+          "is_premium": true,
+          "is_squadron": false,
+          "wiki": {
+            "url": "https://wiki.warthunder.com/unit/ussr_g5_rct",
+            "rank": "I",
+            "battle_rating_context": "default",
+            "battle_ratings": {
+              "AB": "1.7",
+              "RB": "1.7"
+            },
+            "battle_ratings_by_battle": {
+              "default": {
+                "AB": "1.7",
+                "RB": "1.7"
+              }
+            },
+            "research": null,
+            "purchase": null,
+            "purchase_currency": null,
+            "status": "Premium vehicle",
+            "fetched_at": "2026-09-19T06:32:51.646Z",
+            "sha256": "7f2bd08eda5330f7b7ad91091b6acd8b21648f9475ce643e1de9b09bad3e72a1"
+          }
         }
       ]
     ],
     "selected": [],
-    "unlock_quantity": 0
+    "unlock_quantity": null,
+    "source": "wiki"
   },
   {
     "rank": "II",
@@ -144,54 +397,207 @@
           "title": "MPK-163",
           "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/ussr_mpk_163.png",
           "br": "2.0",
-          "rp": "7,900",
-          "sp": "10,000",
+          "rp": 7900,
+          "sp": 10000,
           "data_unit_id": "ussr_mpk_163",
+          "required_unit_id": "ussr_pr_103_sm4",
           "selected": false,
           "class_name": "",
           "details": true,
-          "main_role": "Heavy boat"
+          "rank": "II",
+          "research_country": "USSR",
+          "main_role": "Heavy boat",
+          "is_component": false,
+          "component_of": null,
+          "is_premium": false,
+          "is_squadron": false,
+          "wiki": {
+            "url": "https://wiki.warthunder.com/unit/ussr_mpk_163",
+            "rank": "II",
+            "battle_rating_context": "default",
+            "battle_ratings": {
+              "AB": "2.0",
+              "RB": "2.0"
+            },
+            "battle_ratings_by_battle": {
+              "default": {
+                "AB": "2.0",
+                "RB": "2.0"
+              }
+            },
+            "research": "7,900",
+            "purchase": "10,000",
+            "purchase_currency": "SL",
+            "status": null,
+            "fetched_at": "2026-09-19T06:32:52.415Z",
+            "sha256": "67e6b5e6fda0ac7a2f825b91df3db74a9c841cd797fafbc2c6b13edabc3d9dcd"
+          }
         },
         {
           "type": "single",
           "title": "Pr.123-bis",
           "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/ussr_pr_123bis.png",
-          "br": "2.3",
-          "rp": "14,000",
-          "sp": "32,000",
+          "br": "2.0",
+          "rp": 14000,
+          "sp": 32000,
           "data_unit_id": "ussr_pr_123bis",
+          "required_unit_id": "ussr_mpk_163",
           "selected": false,
           "class_name": "",
           "details": true,
-          "main_role": "Boat"
+          "rank": "II",
+          "research_country": "USSR",
+          "main_role": "Boat",
+          "is_component": false,
+          "component_of": null,
+          "is_premium": false,
+          "is_squadron": false,
+          "wiki": {
+            "url": "https://wiki.warthunder.com/unit/ussr_pr_123bis",
+            "rank": "II",
+            "battle_rating_context": "default",
+            "battle_ratings": {
+              "AB": "2.0",
+              "RB": "2.0"
+            },
+            "battle_ratings_by_battle": {
+              "default": {
+                "AB": "2.0",
+                "RB": "2.0"
+              }
+            },
+            "research": "14,000",
+            "purchase": "32,000",
+            "purchase_currency": "SL",
+            "status": null,
+            "fetched_at": "2026-09-19T06:32:53.787Z",
+            "sha256": "4c13e7956fdcb2108a88c96ac88805dab0c4430044e71315837186453104eff1"
+          }
+        },
+        {
+          "type": "single",
+          "title": "Pr.123K",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/ussr_pr_123k.png",
+          "br": "2.0",
+          "rp": 26000,
+          "sp": 76000,
+          "data_unit_id": "ussr_pr_123k",
+          "required_unit_id": "ussr_pr_123bis",
+          "selected": false,
+          "class_name": "",
+          "details": true,
+          "rank": "II",
+          "research_country": "USSR",
+          "main_role": "Boat",
+          "is_component": false,
+          "component_of": null,
+          "is_premium": false,
+          "is_squadron": false,
+          "wiki": {
+            "url": "https://wiki.warthunder.com/unit/ussr_pr_123k",
+            "rank": "II",
+            "battle_rating_context": "default",
+            "battle_ratings": {
+              "AB": "2.0",
+              "RB": "2.0"
+            },
+            "battle_ratings_by_battle": {
+              "default": {
+                "AB": "2.0",
+                "RB": "2.0"
+              }
+            },
+            "research": "26,000",
+            "purchase": "76,000",
+            "purchase_currency": "SL",
+            "status": null,
+            "fetched_at": "2026-09-19T06:32:54.156Z",
+            "sha256": "739ba3b79a8e57eb174b92a182ce12028e830fca5d03681c60a9e6d85a764669"
+          }
         }
       ],
       [
         {
           "type": "single",
-          "title": "MPK pr.122A",
+          "title": "MPK pr.122A",
           "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/ussr_mpk_122a.png",
           "br": "2.3",
-          "rp": "9,200",
-          "sp": "16,000",
+          "rp": 9200,
+          "sp": 16000,
           "data_unit_id": "ussr_mpk_122a",
+          "required_unit_id": "ussr_od_200",
           "selected": false,
           "class_name": "",
           "details": true,
-          "main_role": "Heavy boat"
+          "rank": "II",
+          "research_country": "USSR",
+          "main_role": "Heavy boat",
+          "is_component": false,
+          "component_of": null,
+          "is_premium": false,
+          "is_squadron": false,
+          "wiki": {
+            "url": "https://wiki.warthunder.com/unit/ussr_mpk_122a",
+            "rank": "II",
+            "battle_rating_context": "default",
+            "battle_ratings": {
+              "AB": "2.3",
+              "RB": "2.3"
+            },
+            "battle_ratings_by_battle": {
+              "default": {
+                "AB": "2.3",
+                "RB": "2.3"
+              }
+            },
+            "research": "9,200",
+            "purchase": "16,000",
+            "purchase_currency": "SL",
+            "status": null,
+            "fetched_at": "2026-09-19T06:32:52.296Z",
+            "sha256": "40a7acacf1a9f239c772a2b131ab7deda50211251dd0578d41ad619762496d90"
+          }
         },
         {
           "type": "single",
-          "title": "Pr.1124 early",
+          "title": "Pr.1124 early",
           "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/ussr_1124_art.png",
           "br": "2.3",
-          "rp": "11,000",
-          "sp": "22,000",
+          "rp": 11000,
+          "sp": 22000,
           "data_unit_id": "ussr_1124_art",
+          "required_unit_id": "ussr_mpk_122a",
           "selected": false,
           "class_name": "",
           "details": true,
-          "main_role": "Heavy boat"
+          "rank": "II",
+          "research_country": "USSR",
+          "main_role": "Heavy boat",
+          "is_component": false,
+          "component_of": null,
+          "is_premium": false,
+          "is_squadron": false,
+          "wiki": {
+            "url": "https://wiki.warthunder.com/unit/ussr_1124_art",
+            "rank": "II",
+            "battle_rating_context": "default",
+            "battle_ratings": {
+              "AB": "2.3",
+              "RB": "2.3"
+            },
+            "battle_ratings_by_battle": {
+              "default": {
+                "AB": "2.3",
+                "RB": "2.3"
+              }
+            },
+            "research": "11,000",
+            "purchase": "22,000",
+            "purchase_currency": "SL",
+            "status": null,
+            "fetched_at": "2026-09-19T06:32:50.834Z",
+            "sha256": "4839b00890e2399f89d9679b07ff70b9cc41ff770462c740d8a33a41d341f941"
+          }
         }
       ],
       [
@@ -200,13 +606,41 @@
           "title": "Pr.253L",
           "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/ussr_pr253l.png",
           "br": "1.7",
-          "rp": "9,200",
-          "sp": "16,000",
+          "rp": 9200,
+          "sp": 16000,
           "data_unit_id": "ussr_pr253l",
+          "required_unit_id": "ussr_d3_tk126",
           "selected": false,
           "class_name": "",
           "details": true,
-          "main_role": "Boat"
+          "rank": "II",
+          "research_country": "USSR",
+          "main_role": "Boat",
+          "is_component": false,
+          "component_of": null,
+          "is_premium": false,
+          "is_squadron": false,
+          "wiki": {
+            "url": "https://wiki.warthunder.com/unit/ussr_pr253l",
+            "rank": "II",
+            "battle_rating_context": "default",
+            "battle_ratings": {
+              "AB": "1.7",
+              "RB": "1.7"
+            },
+            "battle_ratings_by_battle": {
+              "default": {
+                "AB": "1.7",
+                "RB": "1.7"
+              }
+            },
+            "research": "9,200",
+            "purchase": "16,000",
+            "purchase_currency": "SL",
+            "status": null,
+            "fetched_at": "2026-09-19T06:32:53.515Z",
+            "sha256": "ee5ae367436a5d06136dd68f70e13860333f4aa0921939c25f8fe7f0463e9af1"
+          }
         }
       ]
     ],
@@ -214,16 +648,44 @@
       [
         {
           "type": "single",
-          "title": "Pr.123K (A-10bis)",
+          "title": "Pr.123K (A-10bis)",
           "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/ussr_pr_123k_hydrofoils.png",
-          "br": "2.3",
+          "br": "2.0",
           "rp": 0,
           "sp": 0,
           "data_unit_id": "ussr_pr_123k_hydrofoils",
+          "required_unit_id": "",
           "selected": false,
           "class_name": "prem",
           "details": true,
-          "main_role": "Boat"
+          "rank": "II",
+          "research_country": "USSR",
+          "main_role": "Boat",
+          "is_component": false,
+          "component_of": null,
+          "is_premium": true,
+          "is_squadron": false,
+          "wiki": {
+            "url": "https://wiki.warthunder.com/unit/ussr_pr_123k_hydrofoils",
+            "rank": "II",
+            "battle_rating_context": "default",
+            "battle_ratings": {
+              "AB": "2.0",
+              "RB": "2.0"
+            },
+            "battle_ratings_by_battle": {
+              "default": {
+                "AB": "2.0",
+                "RB": "2.0"
+              }
+            },
+            "research": null,
+            "purchase": "1,000",
+            "purchase_currency": "GE",
+            "status": "Premium vehicle",
+            "fetched_at": "2026-09-19T06:32:54.102Z",
+            "sha256": "accf20d6d79b07522e5d4d96f9fb068be6a2474fd398c916c91a1451b974b125"
+          }
         },
         {
           "type": "single",
@@ -233,43 +695,128 @@
           "rp": 0,
           "sp": 0,
           "data_unit_id": "ussr_pr_1204",
+          "required_unit_id": "",
           "selected": false,
           "class_name": "prem",
           "details": true,
-          "main_role": "Heavy boat"
+          "rank": "II",
+          "research_country": "USSR",
+          "main_role": "Heavy boat",
+          "is_component": false,
+          "component_of": null,
+          "is_premium": true,
+          "is_squadron": false,
+          "wiki": {
+            "url": "https://wiki.warthunder.com/unit/ussr_pr_1204",
+            "rank": "II",
+            "battle_rating_context": "default",
+            "battle_ratings": {
+              "AB": "2.3",
+              "RB": "2.3"
+            },
+            "battle_ratings_by_battle": {
+              "default": {
+                "AB": "2.3",
+                "RB": "2.3"
+              }
+            },
+            "research": null,
+            "purchase": "1,150",
+            "purchase_currency": "GE",
+            "status": "Premium vehicle",
+            "fetched_at": "2026-09-19T06:32:53.704Z",
+            "sha256": "63f6be913e937e3d607c582d8df73f7d184613f01f4583f7d4dc2dcbba3096a6"
+          }
         }
       ],
       [
         {
           "type": "single",
-          "title": "Pr.1124 MLRS",
+          "title": "Pr.1124 MLRS",
           "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/ussr_1124_rct.png",
           "br": "2.0",
           "rp": 0,
           "sp": 0,
           "data_unit_id": "ussr_1124_rct",
+          "required_unit_id": "",
           "selected": false,
           "class_name": "prem",
           "details": true,
-          "main_role": "Heavy boat"
+          "rank": "II",
+          "research_country": "USSR",
+          "main_role": "Heavy boat",
+          "is_component": false,
+          "component_of": null,
+          "is_premium": true,
+          "is_squadron": false,
+          "wiki": {
+            "url": "https://wiki.warthunder.com/unit/ussr_1124_rct",
+            "rank": "II",
+            "battle_rating_context": "default",
+            "battle_ratings": {
+              "AB": "2.0",
+              "RB": "2.0"
+            },
+            "battle_ratings_by_battle": {
+              "default": {
+                "AB": "2.0",
+                "RB": "2.0"
+              }
+            },
+            "research": null,
+            "purchase": null,
+            "purchase_currency": null,
+            "status": "Premium vehicle",
+            "fetched_at": "2026-09-19T06:32:51.131Z",
+            "sha256": "a4205b18d28b7cc964213492a7068d86afbd188ba5fb68ac7b8c53a2ebded25b"
+          }
         },
         {
           "type": "single",
-          "title": "MPK Pr.122bis",
+          "title": "MPK Pr.122bis",
           "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/ussr_mpk_122bis.png",
           "br": "2.3",
           "rp": 0,
           "sp": 0,
           "data_unit_id": "ussr_mpk_122bis",
+          "required_unit_id": "",
           "selected": false,
           "class_name": "prem",
           "details": true,
-          "main_role": "Heavy boat"
+          "rank": "II",
+          "research_country": "USSR",
+          "main_role": "Heavy boat",
+          "is_component": false,
+          "component_of": null,
+          "is_premium": true,
+          "is_squadron": false,
+          "wiki": {
+            "url": "https://wiki.warthunder.com/unit/ussr_mpk_122bis",
+            "rank": "II",
+            "battle_rating_context": "default",
+            "battle_ratings": {
+              "AB": "2.3",
+              "RB": "2.3"
+            },
+            "battle_ratings_by_battle": {
+              "default": {
+                "AB": "2.3",
+                "RB": "2.3"
+              }
+            },
+            "research": null,
+            "purchase": null,
+            "purchase_currency": null,
+            "status": "Premium vehicle",
+            "fetched_at": "2026-09-19T06:32:52.217Z",
+            "sha256": "a676ff367688d2db79e1a26acbf88caa573160044b8d227eea884f559b5044fa"
+          }
         }
       ]
     ],
     "selected": [],
-    "unlock_quantity": 0
+    "unlock_quantity": null,
+    "source": "wiki"
   },
   {
     "rank": "III",
@@ -277,44 +824,128 @@
       [
         {
           "type": "single",
-          "title": "Pr.123K",
-          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/ussr_pr_123k.png",
-          "br": "2.3",
-          "rp": "26,000",
-          "sp": "76,000",
-          "data_unit_id": "ussr_pr_123k",
-          "selected": false,
-          "class_name": "",
-          "details": true,
-          "main_role": "Boat"
-        },
-        {
-          "type": "single",
-          "title": "Pr.1204 late",
+          "title": "Pr.1204 late",
           "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/ussr_pr_1204_late.png",
           "br": "2.7",
-          "rp": "36,000",
-          "sp": "115,000",
+          "rp": 36000,
+          "sp": 115000,
           "data_unit_id": "ussr_pr_1204_late",
+          "required_unit_id": "ussr_pr_123k",
           "selected": false,
           "class_name": "",
           "details": true,
-          "main_role": "Heavy boat"
+          "rank": "III",
+          "research_country": "USSR",
+          "main_role": "Heavy boat",
+          "is_component": false,
+          "component_of": null,
+          "is_premium": false,
+          "is_squadron": false,
+          "wiki": {
+            "url": "https://wiki.warthunder.com/unit/ussr_pr_1204_late",
+            "rank": "III",
+            "battle_rating_context": "default",
+            "battle_ratings": {
+              "AB": "2.7",
+              "RB": "2.7"
+            },
+            "battle_ratings_by_battle": {
+              "default": {
+                "AB": "2.7",
+                "RB": "2.7"
+              }
+            },
+            "research": "36,000",
+            "purchase": "115,000",
+            "purchase_currency": "SL",
+            "status": null,
+            "fetched_at": "2026-09-19T06:32:53.866Z",
+            "sha256": "bd3848e5e7598068517243724825263f8e429435a33457933f2bbaae781d1cf5"
+          }
         }
       ],
       [
         {
           "type": "single",
-          "title": "Pr.1124 late",
+          "title": "Pr.1124 late",
           "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/ussr_1124_ack.png",
           "br": "2.3",
-          "rp": "18,000",
-          "sp": "47,000",
+          "rp": 18000,
+          "sp": 47000,
           "data_unit_id": "ussr_1124_ack",
+          "required_unit_id": "ussr_1124_art",
           "selected": false,
           "class_name": "",
           "details": true,
-          "main_role": "Heavy boat"
+          "rank": "III",
+          "research_country": "USSR",
+          "main_role": "Heavy boat",
+          "is_component": false,
+          "component_of": null,
+          "is_premium": false,
+          "is_squadron": false,
+          "wiki": {
+            "url": "https://wiki.warthunder.com/unit/ussr_1124_ack",
+            "rank": "III",
+            "battle_rating_context": "default",
+            "battle_ratings": {
+              "AB": "2.3",
+              "RB": "2.3"
+            },
+            "battle_ratings_by_battle": {
+              "default": {
+                "AB": "2.3",
+                "RB": "2.3"
+              }
+            },
+            "research": "18,000",
+            "purchase": "47,000",
+            "purchase_currency": "SL",
+            "status": null,
+            "fetched_at": "2026-09-19T06:32:50.891Z",
+            "sha256": "4b85c03c6cf9976c2b0547a36b54f5af05dfa939ec7acc09eb6841b7adbe7569"
+          }
+        },
+        {
+          "type": "single",
+          "title": "Strela",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/ussr_fugas_t1_strela.png",
+          "br": "2.7",
+          "rp": 26000,
+          "sp": 76000,
+          "data_unit_id": "ussr_fugas_t1_strela",
+          "required_unit_id": "ussr_1124_ack",
+          "selected": false,
+          "class_name": "",
+          "details": true,
+          "rank": "III",
+          "research_country": "USSR",
+          "main_role": "Heavy boat",
+          "is_component": false,
+          "component_of": null,
+          "is_premium": false,
+          "is_squadron": false,
+          "wiki": {
+            "url": "https://wiki.warthunder.com/unit/ussr_fugas_t1_strela",
+            "rank": "III",
+            "battle_rating_context": "default",
+            "battle_ratings": {
+              "AB": "2.7",
+              "RB": "2.7"
+            },
+            "battle_ratings_by_battle": {
+              "default": {
+                "AB": "2.7",
+                "RB": "2.7"
+              }
+            },
+            "research": "26,000",
+            "purchase": "76,000",
+            "purchase_currency": "SL",
+            "status": null,
+            "fetched_at": "2026-09-19T06:32:51.388Z",
+            "sha256": "0dc215b5289edb8871aaf31b5a275551f5e6c72d3c5c2c3cc37c735c730cf9c1"
+          }
         }
       ],
       [
@@ -323,26 +954,82 @@
           "title": "Pr.191",
           "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/ussr_pr_191.png",
           "br": "2.7",
-          "rp": "26,000",
-          "sp": "76,000",
+          "rp": 26000,
+          "sp": 76000,
           "data_unit_id": "ussr_pr_191",
+          "required_unit_id": "ussr_pr253l",
           "selected": false,
           "class_name": "",
           "details": true,
-          "main_role": "Heavy boat"
+          "rank": "III",
+          "research_country": "USSR",
+          "main_role": "Heavy boat",
+          "is_component": false,
+          "component_of": null,
+          "is_premium": false,
+          "is_squadron": false,
+          "wiki": {
+            "url": "https://wiki.warthunder.com/unit/ussr_pr_191",
+            "rank": "III",
+            "battle_rating_context": "default",
+            "battle_ratings": {
+              "AB": "2.7",
+              "RB": "2.7"
+            },
+            "battle_ratings_by_battle": {
+              "default": {
+                "AB": "2.7",
+                "RB": "2.7"
+              }
+            },
+            "research": "26,000",
+            "purchase": "76,000",
+            "purchase_currency": "SL",
+            "status": null,
+            "fetched_at": "2026-09-19T06:32:54.552Z",
+            "sha256": "b6b814a8ea66d9f74eb5b0174de56df5df856ec9f0350c3f5946529e7f829a7c"
+          }
         },
         {
           "type": "single",
           "title": "Pr.191M",
           "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/ussr_pr_191m.png",
           "br": "3.0",
-          "rp": "48,000",
-          "sp": "180,000",
+          "rp": 48000,
+          "sp": 180000,
           "data_unit_id": "ussr_pr_191m",
+          "required_unit_id": "ussr_pr_191",
           "selected": false,
           "class_name": "",
           "details": true,
-          "main_role": "Heavy boat"
+          "rank": "III",
+          "research_country": "USSR",
+          "main_role": "Heavy boat",
+          "is_component": false,
+          "component_of": null,
+          "is_premium": false,
+          "is_squadron": false,
+          "wiki": {
+            "url": "https://wiki.warthunder.com/unit/ussr_pr_191m",
+            "rank": "III",
+            "battle_rating_context": "default",
+            "battle_ratings": {
+              "AB": "3.0",
+              "RB": "3.0"
+            },
+            "battle_ratings_by_battle": {
+              "default": {
+                "AB": "3.0",
+                "RB": "3.0"
+              }
+            },
+            "research": "48,000",
+            "purchase": "180,000",
+            "purchase_currency": "SL",
+            "status": null,
+            "fetched_at": "2026-09-19T06:32:54.455Z",
+            "sha256": "88ad5a04e52784189b947b54e16cab92f9f7cfccb28ec83601bb7d217cb5c36c"
+          }
         }
       ]
     ],
@@ -350,35 +1037,92 @@
       [
         {
           "type": "single",
-          "title": "Pr.183 BM-21",
+          "title": "Pr.183 BM-21",
           "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/ussr_pr_183_egypt_bm_21.png",
           "br": "3.0",
           "rp": 0,
           "sp": 0,
           "data_unit_id": "ussr_pr_183_egypt_bm_21",
+          "required_unit_id": "",
           "selected": false,
           "class_name": "prem",
           "details": true,
-          "main_role": "Boat"
+          "rank": "III",
+          "research_country": "USSR",
+          "main_role": "Boat",
+          "is_component": false,
+          "component_of": null,
+          "is_premium": true,
+          "is_squadron": false,
+          "wiki": {
+            "url": "https://wiki.warthunder.com/unit/ussr_pr_183_egypt_bm_21",
+            "rank": "III",
+            "battle_rating_context": "default",
+            "battle_ratings": {
+              "AB": "3.0",
+              "RB": "3.0"
+            },
+            "battle_ratings_by_battle": {
+              "default": {
+                "AB": "3.0",
+                "RB": "3.0"
+              }
+            },
+            "research": null,
+            "purchase": null,
+            "purchase_currency": null,
+            "status": "Premium vehicle",
+            "fetched_at": "2026-09-19T06:32:54.147Z",
+            "sha256": "6765e2f23a296ffd1290836c3ba53a7417c37c5189a58edc0f5e0e728e040c54"
+          }
         },
         {
           "type": "single",
-          "title": "MBK-161 early",
+          "title": "MBK-161 early",
           "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/ussr_mbk_161_1943.png",
           "br": "3.3",
           "rp": 0,
           "sp": 0,
           "data_unit_id": "ussr_mbk_161_1943",
+          "required_unit_id": "",
           "selected": false,
           "class_name": "prem",
           "details": true,
-          "main_role": "Heavy boat"
+          "rank": "III",
+          "research_country": "USSR",
+          "main_role": "Heavy boat",
+          "is_component": false,
+          "component_of": null,
+          "is_premium": true,
+          "is_squadron": false,
+          "wiki": {
+            "url": "https://wiki.warthunder.com/unit/ussr_mbk_161_1943",
+            "rank": "III",
+            "battle_rating_context": "default",
+            "battle_ratings": {
+              "AB": "3.3",
+              "RB": "3.3"
+            },
+            "battle_ratings_by_battle": {
+              "default": {
+                "AB": "3.3",
+                "RB": "3.3"
+              }
+            },
+            "research": null,
+            "purchase": null,
+            "purchase_currency": null,
+            "status": "Premium vehicle",
+            "fetched_at": "2026-09-19T06:32:51.926Z",
+            "sha256": "502836b728a8f7365d1407ede3e49bd0d5a4a714c510ba6ca76968392482f263"
+          }
         }
       ],
       []
     ],
     "selected": [],
-    "unlock_quantity": 0
+    "unlock_quantity": null,
+    "source": "wiki"
   },
   {
     "rank": "IV",
@@ -389,26 +1133,82 @@
           "title": "BMO",
           "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/ussr_bmo.png",
           "br": "3.0",
-          "rp": "61,000",
-          "sp": "230,000",
+          "rp": 61000,
+          "sp": 230000,
           "data_unit_id": "ussr_bmo",
+          "required_unit_id": "ussr_pr_1204_late",
           "selected": false,
           "class_name": "",
           "details": true,
-          "main_role": "Heavy boat"
+          "rank": "IV",
+          "research_country": "USSR",
+          "main_role": "Heavy boat",
+          "is_component": false,
+          "component_of": null,
+          "is_premium": false,
+          "is_squadron": false,
+          "wiki": {
+            "url": "https://wiki.warthunder.com/unit/ussr_bmo",
+            "rank": "IV",
+            "battle_rating_context": "default",
+            "battle_ratings": {
+              "AB": "3.0",
+              "RB": "3.0"
+            },
+            "battle_ratings_by_battle": {
+              "default": {
+                "AB": "3.0",
+                "RB": "3.0"
+              }
+            },
+            "research": "61,000",
+            "purchase": "230,000",
+            "purchase_currency": "SL",
+            "status": null,
+            "fetched_at": "2026-09-19T06:32:51.188Z",
+            "sha256": "60bb3012c80763afddfb74afab1346151da78837aafa82f8a262b5d33b1e2b1a"
+          }
         },
         {
           "type": "single",
           "title": "Pr.183",
           "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/ussr_pr_183.png",
           "br": "3.3",
-          "rp": "120,000",
-          "sp": "360,000",
+          "rp": 120000,
+          "sp": 360000,
           "data_unit_id": "ussr_pr_183",
+          "required_unit_id": "ussr_bmo",
           "selected": false,
           "class_name": "",
           "details": true,
-          "main_role": "Boat"
+          "rank": "IV",
+          "research_country": "USSR",
+          "main_role": "Boat",
+          "is_component": false,
+          "component_of": null,
+          "is_premium": false,
+          "is_squadron": false,
+          "wiki": {
+            "url": "https://wiki.warthunder.com/unit/ussr_pr_183",
+            "rank": "IV",
+            "battle_rating_context": "default",
+            "battle_ratings": {
+              "AB": "3.3",
+              "RB": "3.3"
+            },
+            "battle_ratings_by_battle": {
+              "default": {
+                "AB": "3.3",
+                "RB": "3.3"
+              }
+            },
+            "research": "120,000",
+            "purchase": "360,000",
+            "purchase_currency": "SL",
+            "status": null,
+            "fetched_at": "2026-09-19T06:32:54.272Z",
+            "sha256": "28f382660ee4ed8d06a0dcc6de87af162ce331d1189b2d90d1f350ecdb990391"
+          }
         }
       ],
       [
@@ -417,67 +1217,207 @@
           "title": "Groza",
           "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/ussr_skr_groza_1943.png",
           "br": "3.0",
-          "rp": "75,000",
-          "sp": "250,000",
+          "rp": 75000,
+          "sp": 250000,
           "data_unit_id": "ussr_skr_groza_1943",
+          "required_unit_id": "ussr_fugas_t1_strela",
           "selected": false,
           "class_name": "",
           "details": true,
-          "main_role": "Frigate"
+          "rank": "IV",
+          "research_country": "USSR",
+          "main_role": "Frigate",
+          "is_component": false,
+          "component_of": null,
+          "is_premium": false,
+          "is_squadron": false,
+          "wiki": {
+            "url": "https://wiki.warthunder.com/unit/ussr_skr_groza_1943",
+            "rank": "IV",
+            "battle_rating_context": "default",
+            "battle_ratings": {
+              "AB": "3.0",
+              "RB": "3.0"
+            },
+            "battle_ratings_by_battle": {
+              "default": {
+                "AB": "3.0",
+                "RB": "3.0"
+              }
+            },
+            "research": "75,000",
+            "purchase": "250,000",
+            "purchase_currency": "SL",
+            "status": null,
+            "fetched_at": "2026-09-19T06:32:54.891Z",
+            "sha256": "2342dad5cd1d77db1107a1e54090de430cdcab8bce4bb9d3f2e23e4abb96c031"
+          }
         },
         {
           "type": "single",
-          "title": "MPK Pr.201M",
+          "title": "MPK Pr.201M",
           "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/ussr_mpk_201m.png",
           "br": "3.7",
-          "rp": "89,000",
-          "sp": "300,000",
+          "rp": 89000,
+          "sp": 300000,
           "data_unit_id": "ussr_mpk_201m",
+          "required_unit_id": "ussr_skr_groza_1943",
           "selected": false,
           "class_name": "",
           "details": true,
-          "main_role": "Heavy boat"
+          "rank": "IV",
+          "research_country": "USSR",
+          "main_role": "Heavy boat",
+          "is_component": false,
+          "component_of": null,
+          "is_premium": false,
+          "is_squadron": false,
+          "wiki": {
+            "url": "https://wiki.warthunder.com/unit/ussr_mpk_201m",
+            "rank": "IV",
+            "battle_rating_context": "default",
+            "battle_ratings": {
+              "AB": "3.7",
+              "RB": "3.7"
+            },
+            "battle_ratings_by_battle": {
+              "default": {
+                "AB": "3.7",
+                "RB": "3.7"
+              }
+            },
+            "research": "89,000",
+            "purchase": "300,000",
+            "purchase_currency": "SL",
+            "status": null,
+            "fetched_at": "2026-09-19T06:32:52.699Z",
+            "sha256": "1e3d4fe0efbc18e1216dc30c8a822cc5fafc8adfce56494c077cff52ea7eda26"
+          }
         },
         {
           "type": "single",
-          "title": "MPK Pr.204",
+          "title": "MPK Pr.204",
           "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/ussr_mpk_204.png",
           "br": "3.7",
-          "rp": "120,000",
-          "sp": "360,000",
+          "rp": 120000,
+          "sp": 360000,
           "data_unit_id": "ussr_mpk_204",
+          "required_unit_id": "ussr_mpk_201m",
           "selected": false,
           "class_name": "",
           "details": true,
-          "main_role": "Heavy boat"
+          "rank": "IV",
+          "research_country": "USSR",
+          "main_role": "Heavy boat",
+          "is_component": false,
+          "component_of": null,
+          "is_premium": false,
+          "is_squadron": false,
+          "wiki": {
+            "url": "https://wiki.warthunder.com/unit/ussr_mpk_204",
+            "rank": "IV",
+            "battle_rating_context": "default",
+            "battle_ratings": {
+              "AB": "3.7",
+              "RB": "3.7"
+            },
+            "battle_ratings_by_battle": {
+              "default": {
+                "AB": "3.7",
+                "RB": "3.7"
+              }
+            },
+            "research": "120,000",
+            "purchase": "360,000",
+            "purchase_currency": "SL",
+            "status": null,
+            "fetched_at": "2026-09-19T06:32:52.668Z",
+            "sha256": "4be365396e1b67a94e5596abd5a20b6258dbf48e17c30d45fc1cb14336c30076"
+          }
         }
       ],
       [
         {
           "type": "single",
-          "title": "MBK pr.186",
+          "title": "MBK pr.186",
           "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/ussr_mkl_186.png",
           "br": "3.3",
-          "rp": "75,000",
-          "sp": "250,000",
+          "rp": 75000,
+          "sp": 250000,
           "data_unit_id": "ussr_mkl_186",
+          "required_unit_id": "ussr_pr_191m",
           "selected": false,
           "class_name": "",
           "details": true,
-          "main_role": "Heavy boat"
+          "rank": "IV",
+          "research_country": "USSR",
+          "main_role": "Heavy boat",
+          "is_component": false,
+          "component_of": null,
+          "is_premium": false,
+          "is_squadron": false,
+          "wiki": {
+            "url": "https://wiki.warthunder.com/unit/ussr_mkl_186",
+            "rank": "IV",
+            "battle_rating_context": "default",
+            "battle_ratings": {
+              "AB": "3.3",
+              "RB": "3.3"
+            },
+            "battle_ratings_by_battle": {
+              "default": {
+                "AB": "3.3",
+                "RB": "3.3"
+              }
+            },
+            "research": "75,000",
+            "purchase": "250,000",
+            "purchase_currency": "SL",
+            "status": null,
+            "fetched_at": "2026-09-19T06:32:51.939Z",
+            "sha256": "54507542b4ff9677efffd90037342632ac737fd2143d21d84a4f945d9f547b47"
+          }
         },
         {
           "type": "single",
-          "title": "MBK-161 late",
+          "title": "MBK-161 late",
           "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/ussr_mbk_161_1944.png",
           "br": "3.7",
-          "rp": "120,000",
-          "sp": "360,000",
+          "rp": 120000,
+          "sp": 360000,
           "data_unit_id": "ussr_mbk_161_1944",
+          "required_unit_id": "ussr_mkl_186",
           "selected": false,
           "class_name": "",
           "details": true,
-          "main_role": "Heavy boat"
+          "rank": "IV",
+          "research_country": "USSR",
+          "main_role": "Heavy boat",
+          "is_component": false,
+          "component_of": null,
+          "is_premium": false,
+          "is_squadron": false,
+          "wiki": {
+            "url": "https://wiki.warthunder.com/unit/ussr_mbk_161_1944",
+            "rank": "IV",
+            "battle_rating_context": "default",
+            "battle_ratings": {
+              "AB": "3.7",
+              "RB": "3.7"
+            },
+            "battle_ratings_by_battle": {
+              "default": {
+                "AB": "3.7",
+                "RB": "3.7"
+              }
+            },
+            "research": "120,000",
+            "purchase": "360,000",
+            "purchase_currency": "SL",
+            "status": null,
+            "fetched_at": "2026-09-19T06:32:51.723Z",
+            "sha256": "7aa746712be08e77700a6ce503a7ad7a7d9b23de77f86573c984cf4dd9b57fce"
+          }
         }
       ]
     ],
@@ -485,16 +1425,44 @@
       [
         {
           "type": "single",
-          "title": "MBK pr.186 (MK 85)",
+          "title": "MBK pr.186 (MK 85)",
           "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/ussr_mkl_186_mk85.png",
           "br": "3.3",
           "rp": 0,
           "sp": 0,
           "data_unit_id": "ussr_mkl_186_mk85",
+          "required_unit_id": "",
           "selected": false,
           "class_name": "prem",
           "details": true,
-          "main_role": "Heavy boat"
+          "rank": "IV",
+          "research_country": "USSR",
+          "main_role": "Heavy boat",
+          "is_component": false,
+          "component_of": null,
+          "is_premium": true,
+          "is_squadron": false,
+          "wiki": {
+            "url": "https://wiki.warthunder.com/unit/ussr_mkl_186_mk85",
+            "rank": "IV",
+            "battle_rating_context": "default",
+            "battle_ratings": {
+              "AB": "3.3",
+              "RB": "3.3"
+            },
+            "battle_ratings_by_battle": {
+              "default": {
+                "AB": "3.3",
+                "RB": "3.3"
+              }
+            },
+            "research": null,
+            "purchase": "3,850",
+            "purchase_currency": "GE",
+            "status": "Premium vehicle",
+            "fetched_at": "2026-09-19T06:32:52.137Z",
+            "sha256": "185edc60b334faa6eb9f44f5bfe71795b539c153f50e2547aa59b22a23e8456e"
+          }
         },
         {
           "type": "single",
@@ -504,43 +1472,128 @@
           "rp": 0,
           "sp": 0,
           "data_unit_id": "ussr_skr_pr50plo_rosomacha",
+          "required_unit_id": "",
           "selected": false,
           "class_name": "prem",
           "details": true,
-          "main_role": "Frigate"
+          "rank": "IV",
+          "research_country": "USSR",
+          "main_role": "Frigate",
+          "is_component": false,
+          "component_of": null,
+          "is_premium": true,
+          "is_squadron": false,
+          "wiki": {
+            "url": "https://wiki.warthunder.com/unit/ussr_skr_pr50plo_rosomacha",
+            "rank": "IV",
+            "battle_rating_context": "default",
+            "battle_ratings": {
+              "AB": "4.0",
+              "RB": "4.0"
+            },
+            "battle_ratings_by_battle": {
+              "default": {
+                "AB": "4.0",
+                "RB": "4.0"
+              }
+            },
+            "research": null,
+            "purchase": "6,090",
+            "purchase_currency": "GE",
+            "status": "Premium vehicle",
+            "fetched_at": "2026-09-19T06:32:55.368Z",
+            "sha256": "4d3fafaa0be1eb755b48bf382afa2826e828c958a430986229ec7a5159703f22"
+          }
         }
       ],
       [
         {
           "type": "single",
-          "title": "MPK Pr.201K",
+          "title": "MPK Pr.201K",
           "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/ussr_mpk_201k.png",
           "br": "3.7",
           "rp": null,
           "sp": null,
           "data_unit_id": "ussr_mpk_201k",
+          "required_unit_id": "",
           "selected": false,
           "class_name": "",
           "details": true,
-          "main_role": "Heavy boat"
+          "rank": "IV",
+          "research_country": "USSR",
+          "main_role": "Heavy boat",
+          "is_component": false,
+          "component_of": null,
+          "is_premium": false,
+          "is_squadron": false,
+          "wiki": {
+            "url": "https://wiki.warthunder.com/unit/ussr_mpk_201k",
+            "rank": "IV",
+            "battle_rating_context": "default",
+            "battle_ratings": {
+              "AB": "3.7",
+              "RB": "3.7"
+            },
+            "battle_ratings_by_battle": {
+              "default": {
+                "AB": "3.7",
+                "RB": "3.7"
+              }
+            },
+            "research": null,
+            "purchase": null,
+            "purchase_currency": null,
+            "status": null,
+            "fetched_at": "2026-09-19T06:32:52.468Z",
+            "sha256": "97fc6083be63432804a17a7b9169125090b5c0401136f7a80995facf18ca629b"
+          }
         },
         {
           "type": "single",
-          "title": "MPK Pr.12412P",
+          "title": "MPK Pr.12412P",
           "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/ussr_mpk_pr12412p.png",
           "br": "4.3",
           "rp": 0,
           "sp": 0,
           "data_unit_id": "ussr_mpk_pr12412p",
+          "required_unit_id": "",
           "selected": false,
           "class_name": "prem",
           "details": true,
-          "main_role": "Heavy boat"
+          "rank": "IV",
+          "research_country": "USSR",
+          "main_role": "Heavy boat",
+          "is_component": false,
+          "component_of": null,
+          "is_premium": true,
+          "is_squadron": false,
+          "wiki": {
+            "url": "https://wiki.warthunder.com/unit/ussr_mpk_pr12412p",
+            "rank": "IV",
+            "battle_rating_context": "default",
+            "battle_ratings": {
+              "AB": "4.3",
+              "RB": "4.3"
+            },
+            "battle_ratings_by_battle": {
+              "default": {
+                "AB": "4.3",
+                "RB": "4.3"
+              }
+            },
+            "research": null,
+            "purchase": "6,090",
+            "purchase_currency": "GE",
+            "status": "Premium vehicle",
+            "fetched_at": "2026-09-19T06:32:53.135Z",
+            "sha256": "2f2b487d06bf54facbc00eed0b6007ca3d3157960b03ab00548e9e143207dc32"
+          }
         }
       ]
     ],
     "selected": [],
-    "unlock_quantity": 0
+    "unlock_quantity": null,
+    "source": "wiki"
   },
   {
     "rank": "V",
@@ -548,29 +1601,85 @@
       [
         {
           "type": "single",
-          "title": "Pr. 206",
+          "title": "Pr. 206",
           "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/ussr_pr_206.png",
           "br": "4.3",
-          "rp": "250,000",
-          "sp": "700,000",
+          "rp": 250000,
+          "sp": 700000,
           "data_unit_id": "ussr_pr_206",
+          "required_unit_id": "ussr_pr_183",
           "selected": false,
           "class_name": "",
           "details": true,
-          "main_role": "Heavy boat"
+          "rank": "V",
+          "research_country": "USSR",
+          "main_role": "Heavy boat",
+          "is_component": false,
+          "component_of": null,
+          "is_premium": false,
+          "is_squadron": false,
+          "wiki": {
+            "url": "https://wiki.warthunder.com/unit/ussr_pr_206",
+            "rank": "V",
+            "battle_rating_context": "default",
+            "battle_ratings": {
+              "AB": "4.3",
+              "RB": "4.3"
+            },
+            "battle_ratings_by_battle": {
+              "default": {
+                "AB": "4.3",
+                "RB": "4.3"
+              }
+            },
+            "research": "250,000",
+            "purchase": "700,000",
+            "purchase_currency": "SL",
+            "status": null,
+            "fetched_at": "2026-09-19T06:32:54.709Z",
+            "sha256": "1499081e0e36ccd49748bb65bf3550a6834b959d2bb64d7b96e43013add3aa3c"
+          }
         },
         {
           "type": "single",
           "title": "Pr.206-M",
           "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/ussr_pr_206m.png",
           "br": "4.3",
-          "rp": "280,000",
-          "sp": "780,000",
+          "rp": 280000,
+          "sp": 780000,
           "data_unit_id": "ussr_pr_206m",
+          "required_unit_id": "ussr_pr_206",
           "selected": false,
           "class_name": "",
           "details": true,
-          "main_role": "Heavy boat"
+          "rank": "V",
+          "research_country": "USSR",
+          "main_role": "Heavy boat",
+          "is_component": false,
+          "component_of": null,
+          "is_premium": false,
+          "is_squadron": false,
+          "wiki": {
+            "url": "https://wiki.warthunder.com/unit/ussr_pr_206m",
+            "rank": "V",
+            "battle_rating_context": "default",
+            "battle_ratings": {
+              "AB": "4.3",
+              "RB": "4.3"
+            },
+            "battle_ratings_by_battle": {
+              "default": {
+                "AB": "4.3",
+                "RB": "4.3"
+              }
+            },
+            "research": "280,000",
+            "purchase": "780,000",
+            "purchase_currency": "SL",
+            "status": null,
+            "fetched_at": "2026-09-19T06:32:54.896Z",
+            "sha256": "52533195bf3195e75a680089ac06c1da3b37609b789a1a300230de8864df608e"
+          }
         }
       ],
       [
@@ -579,80 +1688,248 @@
           "title": "Yenot",
           "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/ussr_skr_pr50_jenot.png",
           "br": "4.0",
-          "rp": "220,000",
-          "sp": "640,000",
+          "rp": 220000,
+          "sp": 640000,
           "data_unit_id": "ussr_skr_pr50_jenot",
+          "required_unit_id": "ussr_mpk_204",
           "selected": false,
           "class_name": "",
           "details": true,
-          "main_role": "Frigate"
+          "rank": "V",
+          "research_country": "USSR",
+          "main_role": "Frigate",
+          "is_component": false,
+          "component_of": null,
+          "is_premium": false,
+          "is_squadron": false,
+          "wiki": {
+            "url": "https://wiki.warthunder.com/unit/ussr_skr_pr50_jenot",
+            "rank": "V",
+            "battle_rating_context": "default",
+            "battle_ratings": {
+              "AB": "4.0",
+              "RB": "4.0"
+            },
+            "battle_ratings_by_battle": {
+              "default": {
+                "AB": "4.0",
+                "RB": "4.0"
+              }
+            },
+            "research": "220,000",
+            "purchase": "640,000",
+            "purchase_currency": "SL",
+            "status": null,
+            "fetched_at": "2026-09-19T06:32:55.101Z",
+            "sha256": "0d867123dd774d46024ad8b639e1bbe54d4ad3e086610021d0f79c25a65d54b1"
+          }
         },
         {
           "type": "single",
-          "title": "MPK Pr.1331M",
+          "title": "MPK Pr.1331M",
           "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/ussr_mpk_pr1331m.png",
           "br": "4.0",
-          "rp": "280,000",
-          "sp": "780,000",
+          "rp": 280000,
+          "sp": 780000,
           "data_unit_id": "ussr_mpk_pr1331m",
+          "required_unit_id": "ussr_skr_pr50_jenot",
           "selected": false,
           "class_name": "",
           "details": true,
-          "main_role": "Frigate"
+          "rank": "V",
+          "research_country": "USSR",
+          "main_role": "Frigate",
+          "is_component": false,
+          "component_of": null,
+          "is_premium": false,
+          "is_squadron": false,
+          "wiki": {
+            "url": "https://wiki.warthunder.com/unit/ussr_mpk_pr1331m",
+            "rank": "V",
+            "battle_rating_context": "default",
+            "battle_ratings": {
+              "AB": "4.0",
+              "RB": "4.0"
+            },
+            "battle_ratings_by_battle": {
+              "default": {
+                "AB": "4.0",
+                "RB": "4.0"
+              }
+            },
+            "research": "280,000",
+            "purchase": "780,000",
+            "purchase_currency": "SL",
+            "status": null,
+            "fetched_at": "2026-09-19T06:32:53.174Z",
+            "sha256": "9fcc4ab9c8767b705cca871981128b2b65eaf1ddd0898a0ca86e5fefa224cb2c"
+          }
         },
         {
           "type": "single",
           "title": "SKR-1",
           "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/ussr_skr_pr159.png",
           "br": "4.3",
-          "rp": "320,000",
-          "sp": "860,000",
+          "rp": 320000,
+          "sp": 860000,
           "data_unit_id": "ussr_skr_pr159",
+          "required_unit_id": "ussr_mpk_pr1331m",
           "selected": false,
           "class_name": "",
           "details": true,
-          "main_role": "Frigate"
+          "rank": "V",
+          "research_country": "USSR",
+          "main_role": "Frigate",
+          "is_component": false,
+          "component_of": null,
+          "is_premium": false,
+          "is_squadron": false,
+          "wiki": {
+            "url": "https://wiki.warthunder.com/unit/ussr_skr_pr159",
+            "rank": "V",
+            "battle_rating_context": "default",
+            "battle_ratings": {
+              "AB": "4.3",
+              "RB": "4.3"
+            },
+            "battle_ratings_by_battle": {
+              "default": {
+                "AB": "4.3",
+                "RB": "4.3"
+              }
+            },
+            "research": "320,000",
+            "purchase": "860,000",
+            "purchase_currency": "SL",
+            "status": null,
+            "fetched_at": "2026-09-19T06:32:54.839Z",
+            "sha256": "d10f6eea99dd8867393e4ca81b57cf7e83a34b314a2b96fae1d470fcbf06a48f"
+          }
         }
       ],
       [
         {
           "type": "single",
-          "title": "MPK Pr.12412",
+          "title": "MPK Pr.12412",
           "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/ussr_mpk_pr12412.png",
           "br": "4.3",
-          "rp": "250,000",
-          "sp": "700,000",
+          "rp": 250000,
+          "sp": 700000,
           "data_unit_id": "ussr_mpk_pr12412",
+          "required_unit_id": "ussr_mbk_161_1944",
           "selected": false,
           "class_name": "",
           "details": true,
-          "main_role": "Heavy boat"
+          "rank": "V",
+          "research_country": "USSR",
+          "main_role": "Heavy boat",
+          "is_component": false,
+          "component_of": null,
+          "is_premium": false,
+          "is_squadron": false,
+          "wiki": {
+            "url": "https://wiki.warthunder.com/unit/ussr_mpk_pr12412",
+            "rank": "V",
+            "battle_rating_context": "default",
+            "battle_ratings": {
+              "AB": "4.3",
+              "RB": "4.3"
+            },
+            "battle_ratings_by_battle": {
+              "default": {
+                "AB": "4.3",
+                "RB": "4.3"
+              }
+            },
+            "research": "250,000",
+            "purchase": "700,000",
+            "purchase_currency": "SL",
+            "status": null,
+            "fetched_at": "2026-09-19T06:32:52.874Z",
+            "sha256": "1052e2eea8463d807ef35b668bf6537e88b208362d6b6285cc6fbecb634d7399"
+          }
         },
         {
           "type": "single",
-          "title": "MPK Pr.11451",
+          "title": "MPK Pr.11451",
           "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/ussr_mpk_pr11451.png",
           "br": "4.7",
-          "rp": "280,000",
-          "sp": "780,000",
+          "rp": 280000,
+          "sp": 780000,
           "data_unit_id": "ussr_mpk_pr11451",
+          "required_unit_id": "ussr_mpk_pr12412",
           "selected": false,
           "class_name": "",
           "details": true,
-          "main_role": "Heavy boat"
+          "rank": "V",
+          "research_country": "USSR",
+          "main_role": "Heavy boat",
+          "is_component": false,
+          "component_of": null,
+          "is_premium": false,
+          "is_squadron": false,
+          "wiki": {
+            "url": "https://wiki.warthunder.com/unit/ussr_mpk_pr11451",
+            "rank": "V",
+            "battle_rating_context": "default",
+            "battle_ratings": {
+              "AB": "4.7",
+              "RB": "4.7"
+            },
+            "battle_ratings_by_battle": {
+              "default": {
+                "AB": "4.7",
+                "RB": "4.7"
+              }
+            },
+            "research": "280,000",
+            "purchase": "780,000",
+            "purchase_currency": "SL",
+            "status": null,
+            "fetched_at": "2026-09-19T06:32:52.690Z",
+            "sha256": "4cab786b7d67d3781deaea2afeaa316ed6e4949938364676f82cc2025fa9fe0f"
+          }
         },
         {
           "type": "single",
           "title": "MPK-33",
           "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/ussr_mpk_pr_1124.png",
           "br": "4.7",
-          "rp": "320,000",
-          "sp": "860,000",
+          "rp": 320000,
+          "sp": 860000,
           "data_unit_id": "ussr_mpk_pr_1124",
+          "required_unit_id": "ussr_mpk_pr11451",
           "selected": false,
           "class_name": "",
           "details": true,
-          "main_role": "Frigate"
+          "rank": "V",
+          "research_country": "USSR",
+          "main_role": "Frigate",
+          "is_component": false,
+          "component_of": null,
+          "is_premium": false,
+          "is_squadron": false,
+          "wiki": {
+            "url": "https://wiki.warthunder.com/unit/ussr_mpk_pr_1124",
+            "rank": "V",
+            "battle_rating_context": "default",
+            "battle_ratings": {
+              "AB": "4.7",
+              "RB": "4.7"
+            },
+            "battle_ratings_by_battle": {
+              "default": {
+                "AB": "4.7",
+                "RB": "4.7"
+              }
+            },
+            "research": "320,000",
+            "purchase": "860,000",
+            "purchase_currency": "SL",
+            "status": null,
+            "fetched_at": "2026-09-19T06:32:53.252Z",
+            "sha256": "b943116c37efbb504dcb7480537af546ae964aed631299f15fde45edeea6c75f"
+          }
         }
       ]
     ],
@@ -663,13 +1940,41 @@
           "title": "SKR-7",
           "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/ussr_skr_pr35.png",
           "br": "4.3",
-          "rp": "520,000",
-          "sp": "700,000",
+          "rp": 0,
+          "sp": 0,
           "data_unit_id": "ussr_skr_pr35",
+          "required_unit_id": "",
           "selected": false,
           "class_name": "squad",
           "details": true,
-          "main_role": "Frigate"
+          "rank": "V",
+          "research_country": "USSR",
+          "main_role": "Frigate",
+          "is_component": false,
+          "component_of": null,
+          "is_premium": false,
+          "is_squadron": true,
+          "wiki": {
+            "url": "https://wiki.warthunder.com/unit/ussr_skr_pr35",
+            "rank": "V",
+            "battle_rating_context": "default",
+            "battle_ratings": {
+              "AB": "4.3",
+              "RB": "4.3"
+            },
+            "battle_ratings_by_battle": {
+              "default": {
+                "AB": "4.3",
+                "RB": "4.3"
+              }
+            },
+            "research": "520,000",
+            "purchase": "700,000",
+            "purchase_currency": "SL",
+            "status": "Squadron vehicle",
+            "fetched_at": "2026-09-19T06:32:55.097Z",
+            "sha256": "a93f92d23db1651576457c7079dea8e33285bbe4d4f12541ebc3eadcfe77aff2"
+          }
         }
       ],
       [
@@ -681,14 +1986,43 @@
           "rp": null,
           "sp": null,
           "data_unit_id": "ussr_pr_205pe_k225",
+          "required_unit_id": "",
           "selected": false,
           "class_name": "",
           "details": true,
-          "main_role": "Heavy boat"
+          "rank": "V",
+          "research_country": "USSR",
+          "main_role": "Heavy boat",
+          "is_component": false,
+          "component_of": null,
+          "is_premium": false,
+          "is_squadron": false,
+          "wiki": {
+            "url": "https://wiki.warthunder.com/unit/ussr_pr_205pe_k225",
+            "rank": "V",
+            "battle_rating_context": "default",
+            "battle_ratings": {
+              "AB": "4.3",
+              "RB": "4.3"
+            },
+            "battle_ratings_by_battle": {
+              "default": {
+                "AB": "4.3",
+                "RB": "4.3"
+              }
+            },
+            "research": null,
+            "purchase": null,
+            "purchase_currency": null,
+            "status": null,
+            "fetched_at": "2026-09-19T06:32:54.482Z",
+            "sha256": "282dbba9141933602eb996b00c30a25efe55ce38f05006bd549f01eddfb9248d"
+          }
         }
       ]
     ],
     "selected": [],
-    "unlock_quantity": 0
+    "unlock_quantity": null,
+    "source": "wiki"
   }
 ]

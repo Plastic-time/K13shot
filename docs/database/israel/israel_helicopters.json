@@ -5,16 +5,46 @@
       [
         {
           "type": "single",
-          "title": "Tzefa A",
+          "title": "Tzefa A",
           "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/ah_1g_iaf.png",
-          "br": "8.0",
-          "rp": null,
-          "sp": "390,000",
+          "br": "7.7",
+          "rp": 0,
+          "sp": 390000,
           "data_unit_id": "ah_1g_iaf",
+          "required_unit_id": "",
           "selected": false,
           "class_name": "",
           "details": true,
-          "main_role": "Attack helicopter"
+          "rank": "V",
+          "research_country": "Israel",
+          "main_role": "Attack helicopter",
+          "is_component": false,
+          "component_of": null,
+          "is_premium": false,
+          "is_squadron": false,
+          "wiki": {
+            "url": "https://wiki.warthunder.com/unit/ah_1g_iaf",
+            "rank": "V",
+            "battle_rating_context": "default",
+            "battle_ratings": {
+              "AB": "8.7",
+              "RB": "7.7",
+              "SB": "8.0"
+            },
+            "battle_ratings_by_battle": {
+              "default": {
+                "AB": "8.7",
+                "RB": "7.7",
+                "SB": "8.0"
+              }
+            },
+            "research": "Free",
+            "purchase": "390,000",
+            "purchase_currency": "SL",
+            "status": null,
+            "fetched_at": "2026-09-19T06:32:08.081Z",
+            "sha256": "3db0a3045874781d988f8e328db90fdd91ebad559adeb8b2a0733535041960ae"
+          }
         }
       ],
       [
@@ -23,13 +53,43 @@
           "title": "Lahatut",
           "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/md_500_tow_late.png",
           "br": "9.0",
-          "rp": "150,000",
-          "sp": "490,000",
+          "rp": 150000,
+          "sp": 490000,
           "data_unit_id": "md_500_tow_late",
+          "required_unit_id": "ah_1g_iaf",
           "selected": false,
           "class_name": "",
           "details": true,
-          "main_role": "Attack helicopter"
+          "rank": "V",
+          "research_country": "Israel",
+          "main_role": "Attack helicopter",
+          "is_component": false,
+          "component_of": null,
+          "is_premium": false,
+          "is_squadron": false,
+          "wiki": {
+            "url": "https://wiki.warthunder.com/unit/md_500_tow_late",
+            "rank": "V",
+            "battle_rating_context": "default",
+            "battle_ratings": {
+              "AB": "8.7",
+              "RB": "9.0",
+              "SB": "8.7"
+            },
+            "battle_ratings_by_battle": {
+              "default": {
+                "AB": "8.7",
+                "RB": "9.0",
+                "SB": "8.7"
+              }
+            },
+            "research": "150,000",
+            "purchase": "490,000",
+            "purchase_currency": "SL",
+            "status": null,
+            "fetched_at": "2026-09-19T06:32:08.916Z",
+            "sha256": "250ef7aa407fe96d0a887fa4eaa765dc901d70925a9e77e517c8ff6bf1f7b12c"
+          }
         }
       ]
     ],
@@ -37,7 +97,8 @@
       []
     ],
     "selected": [],
-    "unlock_quantity": 0
+    "unlock_quantity": null,
+    "source": "wiki"
   },
   {
     "rank": "VI",
@@ -45,42 +106,132 @@
       [
         {
           "type": "single",
-          "title": "Tzefa B",
+          "title": "Tzefa B",
           "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/ah_1q_iaf.png",
           "br": "9.0",
-          "rp": "360,000",
-          "sp": "980,000",
+          "rp": 360000,
+          "sp": 980000,
           "data_unit_id": "ah_1q_iaf",
+          "required_unit_id": "ah_1g_iaf",
           "selected": false,
           "class_name": "",
           "details": true,
-          "main_role": "Attack helicopter"
+          "rank": "VI",
+          "research_country": "Israel",
+          "main_role": "Attack helicopter",
+          "is_component": false,
+          "component_of": null,
+          "is_premium": false,
+          "is_squadron": false,
+          "wiki": {
+            "url": "https://wiki.warthunder.com/unit/ah_1q_iaf",
+            "rank": "VI",
+            "battle_rating_context": "default",
+            "battle_ratings": {
+              "AB": "9.0",
+              "RB": "9.0",
+              "SB": "9.0"
+            },
+            "battle_ratings_by_battle": {
+              "default": {
+                "AB": "9.0",
+                "RB": "9.0",
+                "SB": "9.0"
+              }
+            },
+            "research": "360,000",
+            "purchase": "980,000",
+            "purchase_currency": "SL",
+            "status": null,
+            "fetched_at": "2026-09-19T06:32:08.286Z",
+            "sha256": "facb8aadfaf35bff3c1b0e292b3ae107dc344797b7492ccd66aa8d984e90691b"
+          }
         },
         {
           "type": "single",
-          "title": "Tzefa D/E",
+          "title": "Tzefa D/E",
           "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/ah_1f_iaf.png",
           "br": "9.7",
-          "rp": "380,000",
-          "sp": "1,000,000",
+          "rp": 380000,
+          "sp": 1000000,
           "data_unit_id": "ah_1f_iaf",
+          "required_unit_id": "ah_1q_iaf",
           "selected": false,
           "class_name": "",
           "details": true,
-          "main_role": "Attack helicopter"
+          "rank": "VI",
+          "research_country": "Israel",
+          "main_role": "Attack helicopter",
+          "is_component": false,
+          "component_of": null,
+          "is_premium": false,
+          "is_squadron": false,
+          "wiki": {
+            "url": "https://wiki.warthunder.com/unit/ah_1f_iaf",
+            "rank": "VI",
+            "battle_rating_context": "default",
+            "battle_ratings": {
+              "AB": "9.7",
+              "RB": "9.7",
+              "SB": "9.7"
+            },
+            "battle_ratings_by_battle": {
+              "default": {
+                "AB": "9.7",
+                "RB": "9.7",
+                "SB": "9.7"
+              }
+            },
+            "research": "380,000",
+            "purchase": "1,000,000",
+            "purchase_currency": "SL",
+            "status": null,
+            "fetched_at": "2026-09-19T06:32:08.189Z",
+            "sha256": "0e304d2bd9b7211d4e45f01383f80c59cd738504cdc9a2e90e1db86e3e7e3c7e"
+          }
         },
         {
           "type": "single",
           "title": "Peten",
           "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/ah_64a_iaf.png",
-          "br": "11.7",
-          "rp": "390,000",
-          "sp": "1,010,000",
+          "br": "11.3",
+          "rp": 390000,
+          "sp": 1010000,
           "data_unit_id": "ah_64a_iaf",
+          "required_unit_id": "ah_1f_iaf",
           "selected": false,
           "class_name": "",
           "details": true,
-          "main_role": "Attack helicopter"
+          "rank": "VI",
+          "research_country": "Israel",
+          "main_role": "Attack helicopter",
+          "is_component": false,
+          "component_of": null,
+          "is_premium": false,
+          "is_squadron": false,
+          "wiki": {
+            "url": "https://wiki.warthunder.com/unit/ah_64a_iaf",
+            "rank": "VI",
+            "battle_rating_context": "default",
+            "battle_ratings": {
+              "AB": "10.3",
+              "RB": "11.3",
+              "SB": "10.3"
+            },
+            "battle_ratings_by_battle": {
+              "default": {
+                "AB": "10.3",
+                "RB": "11.3",
+                "SB": "10.3"
+              }
+            },
+            "research": "390,000",
+            "purchase": "1,010,000",
+            "purchase_currency": "SL",
+            "status": null,
+            "fetched_at": "2026-09-19T06:32:08.607Z",
+            "sha256": "8ddbeaf976ae193634e08d5f2477225a191f43575ed4cb181047b841434b2130"
+          }
         }
       ],
       []
@@ -89,21 +240,52 @@
       [
         {
           "type": "single",
-          "title": "AH-64A Peten",
+          "title": "AH-64A Peten",
           "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/ah_64a_peten_iaf.png",
-          "br": "11.7",
+          "br": "11.3",
           "rp": 0,
           "sp": 0,
           "data_unit_id": "ah_64a_peten_iaf",
+          "required_unit_id": "",
           "selected": false,
           "class_name": "prem",
           "details": true,
-          "main_role": "Attack helicopter"
+          "rank": "VI",
+          "research_country": "Israel",
+          "main_role": "Attack helicopter",
+          "is_component": false,
+          "component_of": null,
+          "is_premium": true,
+          "is_squadron": false,
+          "wiki": {
+            "url": "https://wiki.warthunder.com/unit/ah_64a_peten_iaf",
+            "rank": "VI",
+            "battle_rating_context": "default",
+            "battle_ratings": {
+              "AB": "10.3",
+              "RB": "11.3",
+              "SB": "10.3"
+            },
+            "battle_ratings_by_battle": {
+              "default": {
+                "AB": "10.3",
+                "RB": "11.3",
+                "SB": "10.3"
+              }
+            },
+            "research": null,
+            "purchase": "9,270",
+            "purchase_currency": "GE",
+            "status": "Premium vehicle",
+            "fetched_at": "2026-09-19T06:32:08.658Z",
+            "sha256": "9815800c1690dfd6416f4ed4d2a3ea6789664ea1194142b0958ce40fa466e226"
+          }
         }
       ]
     ],
     "selected": [],
-    "unlock_quantity": 0
+    "unlock_quantity": null,
+    "source": "wiki"
   },
   {
     "rank": "VII",
@@ -113,14 +295,44 @@
           "type": "single",
           "title": "Saraph",
           "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/ah_64d_i_saraph.png",
-          "br": "12.0",
-          "rp": "400,000",
-          "sp": "1,020,000",
+          "br": "12.7",
+          "rp": 400000,
+          "sp": 1020000,
           "data_unit_id": "ah_64d_i_saraph",
+          "required_unit_id": "ah_64a_iaf",
           "selected": false,
           "class_name": "",
           "details": true,
-          "main_role": "Attack helicopter"
+          "rank": "VII",
+          "research_country": "Israel",
+          "main_role": "Attack helicopter",
+          "is_component": false,
+          "component_of": null,
+          "is_premium": false,
+          "is_squadron": false,
+          "wiki": {
+            "url": "https://wiki.warthunder.com/unit/ah_64d_i_saraph",
+            "rank": "VII",
+            "battle_rating_context": "default",
+            "battle_ratings": {
+              "AB": "12.7",
+              "RB": "12.7",
+              "SB": "10.7"
+            },
+            "battle_ratings_by_battle": {
+              "default": {
+                "AB": "12.7",
+                "RB": "12.7",
+                "SB": "10.7"
+              }
+            },
+            "research": "400,000",
+            "purchase": "1,020,000",
+            "purchase_currency": "SL",
+            "status": null,
+            "fetched_at": "2026-09-19T06:32:08.905Z",
+            "sha256": "1aa47c706a75b8c05269206f2c0a7ce63a4791618c3891aa88394e665469007b"
+          }
         }
       ],
       [
@@ -128,14 +340,44 @@
           "type": "single",
           "title": "AH-60",
           "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/ah_60_iaf.png",
-          "br": "13.0",
-          "rp": "400,000",
-          "sp": "1,020,000",
+          "br": "12.7",
+          "rp": 400000,
+          "sp": 1020000,
           "data_unit_id": "ah_60_iaf",
+          "required_unit_id": "md_500_tow_late",
           "selected": false,
           "class_name": "",
           "details": true,
-          "main_role": "Attack helicopter"
+          "rank": "VII",
+          "research_country": "Israel",
+          "main_role": "Attack helicopter",
+          "is_component": false,
+          "component_of": null,
+          "is_premium": false,
+          "is_squadron": false,
+          "wiki": {
+            "url": "https://wiki.warthunder.com/unit/ah_60_iaf",
+            "rank": "VII",
+            "battle_rating_context": "default",
+            "battle_ratings": {
+              "AB": "10.7",
+              "RB": "12.7",
+              "SB": "10.7"
+            },
+            "battle_ratings_by_battle": {
+              "default": {
+                "AB": "10.7",
+                "RB": "12.7",
+                "SB": "10.7"
+              }
+            },
+            "research": "400,000",
+            "purchase": "1,020,000",
+            "purchase_currency": "SL",
+            "status": null,
+            "fetched_at": "2026-09-19T06:32:08.471Z",
+            "sha256": "c7aa9d1e78d775288d83929bf8602b4c7b9d834261037b18054f040378e9cef0"
+          }
         }
       ]
     ],
@@ -143,6 +385,7 @@
       []
     ],
     "selected": [],
-    "unlock_quantity": 0
+    "unlock_quantity": null,
+    "source": "wiki"
   }
 ]

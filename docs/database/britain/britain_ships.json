@@ -5,72 +5,212 @@
       [
         {
           "type": "single",
-          "title": "HMS Vega",
+          "title": "HMS Vega",
           "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/uk_destroyer_v_class_vega.png",
           "br": "3.7",
-          "rp": null,
-          "sp": null,
+          "rp": 0,
+          "sp": 0,
           "data_unit_id": "uk_destroyer_v_class_vega",
+          "required_unit_id": "",
           "selected": false,
           "class_name": "",
           "details": true,
-          "main_role": "Destroyer"
+          "rank": "I",
+          "research_country": "Great Britain",
+          "main_role": "Destroyer",
+          "is_component": false,
+          "component_of": null,
+          "is_premium": false,
+          "is_squadron": false,
+          "wiki": {
+            "url": "https://wiki.warthunder.com/unit/uk_destroyer_v_class_vega",
+            "rank": "I",
+            "battle_rating_context": "default",
+            "battle_ratings": {
+              "AB": "3.7",
+              "RB": "3.7"
+            },
+            "battle_ratings_by_battle": {
+              "default": {
+                "AB": "3.7",
+                "RB": "3.7"
+              }
+            },
+            "research": "Free",
+            "purchase": "Free",
+            "purchase_currency": "SL",
+            "status": null,
+            "fetched_at": "2026-09-19T06:32:29.779Z",
+            "sha256": "9e21953e0b5ec5893330a831f8f09e6291f19c972fbc741276f47ba56f509831"
+          }
         },
         {
           "type": "single",
-          "title": "HMS Calpe",
+          "title": "HMS Calpe",
           "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/uk_destroyer_hunt_2series.png",
           "br": "4.3",
-          "rp": "5,300",
-          "sp": "5,000",
+          "rp": 5300,
+          "sp": 5000,
           "data_unit_id": "uk_destroyer_hunt_2series",
+          "required_unit_id": "uk_destroyer_v_class_vega",
           "selected": false,
           "class_name": "",
           "details": true,
-          "main_role": "Destroyer"
+          "rank": "I",
+          "research_country": "Great Britain",
+          "main_role": "Destroyer",
+          "is_component": false,
+          "component_of": null,
+          "is_premium": false,
+          "is_squadron": false,
+          "wiki": {
+            "url": "https://wiki.warthunder.com/unit/uk_destroyer_hunt_2series",
+            "rank": "I",
+            "battle_rating_context": "default",
+            "battle_ratings": {
+              "AB": "4.3",
+              "RB": "4.3"
+            },
+            "battle_ratings_by_battle": {
+              "default": {
+                "AB": "4.3",
+                "RB": "4.3"
+              }
+            },
+            "research": "5,300",
+            "purchase": "5,000",
+            "purchase_currency": "SL",
+            "status": null,
+            "fetched_at": "2026-09-19T06:32:28.918Z",
+            "sha256": "17f589291644eaab599496275df82460ce7ed8e84800b0bd4c0c8e7933ada639"
+          }
         }
       ],
       [
         {
           "type": "single",
-          "title": "HMS Grafton",
+          "title": "HMS Grafton",
           "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/uk_destroyer_g_grafton.png",
           "br": "3.7",
-          "rp": "2,900",
-          "sp": "700",
+          "rp": 2900,
+          "sp": 700,
           "data_unit_id": "uk_destroyer_g_grafton",
+          "required_unit_id": "",
           "selected": false,
           "class_name": "",
           "details": true,
-          "main_role": "Destroyer"
+          "rank": "I",
+          "research_country": "Great Britain",
+          "main_role": "Destroyer",
+          "is_component": false,
+          "component_of": null,
+          "is_premium": false,
+          "is_squadron": false,
+          "wiki": {
+            "url": "https://wiki.warthunder.com/unit/uk_destroyer_g_grafton",
+            "rank": "I",
+            "battle_rating_context": "default",
+            "battle_ratings": {
+              "AB": "3.7",
+              "RB": "3.7"
+            },
+            "battle_ratings_by_battle": {
+              "default": {
+                "AB": "3.7",
+                "RB": "3.7"
+              }
+            },
+            "research": "2,900",
+            "purchase": "700",
+            "purchase_currency": "SL",
+            "status": null,
+            "fetched_at": "2026-09-19T06:32:28.639Z",
+            "sha256": "c3182ee4d76ebe54741b621bc90bbd7633d10f5e1a64bab029973a4a8ad1d6d9"
+          }
         },
         {
           "type": "single",
-          "title": "HMS Saumarez",
+          "title": "HMS Saumarez",
           "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/uk_destroyer_st_class_saumarez.png",
-          "br": "4.3",
-          "rp": "4,000",
-          "sp": "2,100",
+          "br": "4.0",
+          "rp": 4000,
+          "sp": 2100,
           "data_unit_id": "uk_destroyer_st_class_saumarez",
+          "required_unit_id": "uk_destroyer_g_grafton",
           "selected": false,
           "class_name": "",
           "details": true,
-          "main_role": "Destroyer"
+          "rank": "I",
+          "research_country": "Great Britain",
+          "main_role": "Destroyer",
+          "is_component": false,
+          "component_of": null,
+          "is_premium": false,
+          "is_squadron": false,
+          "wiki": {
+            "url": "https://wiki.warthunder.com/unit/uk_destroyer_st_class_saumarez",
+            "rank": "I",
+            "battle_rating_context": "default",
+            "battle_ratings": {
+              "AB": "4.0",
+              "RB": "4.0"
+            },
+            "battle_ratings_by_battle": {
+              "default": {
+                "AB": "4.0",
+                "RB": "4.0"
+              }
+            },
+            "research": "4,000",
+            "purchase": "2,100",
+            "purchase_currency": "SL",
+            "status": null,
+            "fetched_at": "2026-09-19T06:32:29.458Z",
+            "sha256": "2391fba316ab868d3983259e144f921cfa51a710e814ad643f545fad5d8db38e"
+          }
         }
       ],
       [
         {
           "type": "single",
-          "title": "HMS Churchill",
+          "title": "HMS Churchill",
           "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/uk_destroyer_clemson_churchill.png",
           "br": "3.3",
-          "rp": null,
-          "sp": null,
+          "rp": 0,
+          "sp": 0,
           "data_unit_id": "uk_destroyer_clemson_churchill",
+          "required_unit_id": "",
           "selected": false,
           "class_name": "",
           "details": true,
-          "main_role": "Destroyer"
+          "rank": "I",
+          "research_country": "Great Britain",
+          "main_role": "Destroyer",
+          "is_component": false,
+          "component_of": null,
+          "is_premium": false,
+          "is_squadron": false,
+          "wiki": {
+            "url": "https://wiki.warthunder.com/unit/uk_destroyer_clemson_churchill",
+            "rank": "I",
+            "battle_rating_context": "default",
+            "battle_ratings": {
+              "AB": "3.3",
+              "RB": "3.3"
+            },
+            "battle_ratings_by_battle": {
+              "default": {
+                "AB": "3.3",
+                "RB": "3.3"
+              }
+            },
+            "research": "Free",
+            "purchase": "Free",
+            "purchase_currency": "SL",
+            "status": null,
+            "fetched_at": "2026-09-19T06:32:27.968Z",
+            "sha256": "0bf57a3885fce4f67cf3345ac1fd4887e27056025987be308792980c50634ef7"
+          }
         }
       ]
     ],
@@ -78,49 +218,134 @@
       [
         {
           "type": "single",
-          "title": "HMS Verdun",
+          "title": "HMS Verdun",
           "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/uk_destroyer_v_class_verdun.png",
           "br": "3.7",
           "rp": 0,
           "sp": 0,
           "data_unit_id": "uk_destroyer_v_class_verdun",
+          "required_unit_id": "",
           "selected": false,
           "class_name": "prem",
           "details": true,
-          "main_role": "Destroyer"
+          "rank": "I",
+          "research_country": "Great Britain",
+          "main_role": "Destroyer",
+          "is_component": false,
+          "component_of": null,
+          "is_premium": true,
+          "is_squadron": false,
+          "wiki": {
+            "url": "https://wiki.warthunder.com/unit/uk_destroyer_v_class_verdun",
+            "rank": "I",
+            "battle_rating_context": "default",
+            "battle_ratings": {
+              "AB": "3.7",
+              "RB": "3.7"
+            },
+            "battle_ratings_by_battle": {
+              "default": {
+                "AB": "3.7",
+                "RB": "3.7"
+              }
+            },
+            "research": null,
+            "purchase": "250",
+            "purchase_currency": "GE",
+            "status": "Premium vehicle",
+            "fetched_at": "2026-09-19T06:32:29.803Z",
+            "sha256": "cbac46a0cd7f816d29a75b84ea8c7e0326944dc0ffd81bd9ac145f0f7a97c874"
+          }
         },
         {
           "type": "single",
-          "title": "HMS Valhalla",
+          "title": "HMS Valhalla",
           "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/uk_destroyer_v_class_valhalla.png",
           "br": "3.3",
           "rp": 0,
           "sp": 0,
           "data_unit_id": "uk_destroyer_v_class_valhalla",
+          "required_unit_id": "",
           "selected": false,
           "class_name": "prem",
           "details": true,
-          "main_role": "Destroyer"
+          "rank": "I",
+          "research_country": "Great Britain",
+          "main_role": "Destroyer",
+          "is_component": false,
+          "component_of": null,
+          "is_premium": true,
+          "is_squadron": false,
+          "wiki": {
+            "url": "https://wiki.warthunder.com/unit/uk_destroyer_v_class_valhalla",
+            "rank": "I",
+            "battle_rating_context": "default",
+            "battle_ratings": {
+              "AB": "3.3",
+              "RB": "3.3"
+            },
+            "battle_ratings_by_battle": {
+              "default": {
+                "AB": "3.3",
+                "RB": "3.3"
+              }
+            },
+            "research": null,
+            "purchase": "550",
+            "purchase_currency": "GE",
+            "status": "Premium vehicle",
+            "fetched_at": "2026-09-19T06:32:29.686Z",
+            "sha256": "4b7ab51b6e787e22859adc45d66a6505d8a6e1eaf603fd3c1840f0ea82799645"
+          }
         }
       ],
       [
         {
           "type": "single",
-          "title": "HMS Montgomery",
+          "title": "HMS Montgomery",
           "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/uk_destroyer_clemson_montgomery_g95.png",
           "br": "3.3",
           "rp": 0,
           "sp": 0,
           "data_unit_id": "uk_destroyer_clemson_montgomery_g95",
+          "required_unit_id": "",
           "selected": false,
           "class_name": "prem",
           "details": true,
-          "main_role": "Destroyer"
+          "rank": "I",
+          "research_country": "Great Britain",
+          "main_role": "Destroyer",
+          "is_component": false,
+          "component_of": null,
+          "is_premium": true,
+          "is_squadron": false,
+          "wiki": {
+            "url": "https://wiki.warthunder.com/unit/uk_destroyer_clemson_montgomery_g95",
+            "rank": "I",
+            "battle_rating_context": "default",
+            "battle_ratings": {
+              "AB": "3.3",
+              "RB": "3.3"
+            },
+            "battle_ratings_by_battle": {
+              "default": {
+                "AB": "3.3",
+                "RB": "3.3"
+              }
+            },
+            "research": null,
+            "purchase": "250",
+            "purchase_currency": "GE",
+            "status": "Premium vehicle",
+            "fetched_at": "2026-09-19T06:32:28.180Z",
+            "sha256": "b3dd591e36a57b6595cac821188d60f7b96f25bb73419e1fd4956e569ca9206e"
+          }
         }
       ]
     ],
     "selected": [],
-    "unlock_quantity": 0
+    "unlock_quantity": null,
+    "source": "wiki"
   },
   {
     "rank": "II",
@@ -128,72 +353,253 @@
       [
         {
           "type": "single",
-          "title": "HMS Eskimo",
+          "title": "HMS Eskimo",
           "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/uk_destroyer_tribal.png",
-          "br": "4.7",
-          "rp": "9,000",
-          "sp": "16,000",
+          "br": "4.3",
+          "rp": 9000,
+          "sp": 16000,
           "data_unit_id": "uk_destroyer_tribal",
+          "required_unit_id": "uk_destroyer_hunt_2series",
           "selected": false,
           "class_name": "",
           "details": true,
-          "main_role": "Destroyer"
+          "rank": "II",
+          "research_country": "Great Britain",
+          "main_role": "Destroyer",
+          "is_component": false,
+          "component_of": null,
+          "is_premium": false,
+          "is_squadron": false,
+          "wiki": {
+            "url": "https://wiki.warthunder.com/unit/uk_destroyer_tribal",
+            "rank": "II",
+            "battle_rating_context": "default",
+            "battle_ratings": {
+              "AB": "4.3",
+              "RB": "4.3"
+            },
+            "battle_ratings_by_battle": {
+              "default": {
+                "AB": "4.3",
+                "RB": "4.3"
+              }
+            },
+            "research": "9,000",
+            "purchase": "16,000",
+            "purchase_currency": "SL",
+            "status": null,
+            "fetched_at": "2026-09-19T06:32:29.697Z",
+            "sha256": "2ba65944bcaf3245baaf4c7af7c29bf9b23c503d35a5a9b51dbae5b6453552f3"
+          }
         },
         {
           "type": "single",
-          "title": "HMAS Nepal",
+          "title": "HMAS Nepal",
           "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/uk_destroyer_n_class.png",
-          "br": "4.7",
-          "rp": "13,000",
-          "sp": "31,000",
+          "br": "4.3",
+          "rp": 13000,
+          "sp": 31000,
           "data_unit_id": "uk_destroyer_n_class",
+          "required_unit_id": "uk_destroyer_tribal",
           "selected": false,
           "class_name": "",
           "details": true,
-          "main_role": "Destroyer"
+          "rank": "II",
+          "research_country": "Great Britain",
+          "main_role": "Destroyer",
+          "is_component": false,
+          "component_of": null,
+          "is_premium": false,
+          "is_squadron": false,
+          "wiki": {
+            "url": "https://wiki.warthunder.com/unit/uk_destroyer_n_class",
+            "rank": "II",
+            "battle_rating_context": "default",
+            "battle_ratings": {
+              "AB": "4.3",
+              "RB": "4.3"
+            },
+            "battle_ratings_by_battle": {
+              "default": {
+                "AB": "4.3",
+                "RB": "4.3"
+              }
+            },
+            "research": "13,000",
+            "purchase": "31,000",
+            "purchase_currency": "SL",
+            "status": null,
+            "fetched_at": "2026-09-19T06:32:29.233Z",
+            "sha256": "3b53b2ac6d6766356caecc1fbf5d94eb103c4d5c382a29df6e20bb7e11a6f7d6"
+          }
         }
       ],
       [
         {
           "type": "single",
-          "title": "HMS Brissenden",
+          "title": "HMS Brissenden",
           "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/uk_destroyer_hunt_4series.png",
           "br": "4.3",
-          "rp": "7,000",
-          "sp": "8,700",
+          "rp": 7000,
+          "sp": 8700,
           "data_unit_id": "uk_destroyer_hunt_4series",
+          "required_unit_id": "uk_destroyer_st_class_saumarez",
           "selected": false,
           "class_name": "",
           "details": true,
-          "main_role": "Destroyer"
+          "rank": "II",
+          "research_country": "Great Britain",
+          "main_role": "Destroyer",
+          "is_component": false,
+          "component_of": null,
+          "is_premium": false,
+          "is_squadron": false,
+          "wiki": {
+            "url": "https://wiki.warthunder.com/unit/uk_destroyer_hunt_4series",
+            "rank": "II",
+            "battle_rating_context": "default",
+            "battle_ratings": {
+              "AB": "4.3",
+              "RB": "4.3"
+            },
+            "battle_ratings_by_battle": {
+              "default": {
+                "AB": "4.3",
+                "RB": "4.3"
+              }
+            },
+            "research": "7,000",
+            "purchase": "8,700",
+            "purchase_currency": "SL",
+            "status": null,
+            "fetched_at": "2026-09-19T06:32:29.101Z",
+            "sha256": "dcafadc3904e46bc6334bf5533d34ac17bcb68f126793e16812ee85a880f5d75"
+          }
         },
         {
           "type": "single",
-          "title": "HMS Kelvin",
+          "title": "HMS Kelvin",
           "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/uk_destroyer_k_class.png",
-          "br": "4.7",
-          "rp": "11,000",
-          "sp": "22,000",
+          "br": "4.3",
+          "rp": 11000,
+          "sp": 22000,
           "data_unit_id": "uk_destroyer_k_class",
+          "required_unit_id": "uk_destroyer_hunt_4series",
           "selected": false,
           "class_name": "",
           "details": true,
-          "main_role": "Destroyer"
+          "rank": "II",
+          "research_country": "Great Britain",
+          "main_role": "Destroyer",
+          "is_component": false,
+          "component_of": null,
+          "is_premium": false,
+          "is_squadron": false,
+          "wiki": {
+            "url": "https://wiki.warthunder.com/unit/uk_destroyer_k_class",
+            "rank": "II",
+            "battle_rating_context": "default",
+            "battle_ratings": {
+              "AB": "4.3",
+              "RB": "4.3"
+            },
+            "battle_ratings_by_battle": {
+              "default": {
+                "AB": "4.3",
+                "RB": "4.3"
+              }
+            },
+            "research": "11,000",
+            "purchase": "22,000",
+            "purchase_currency": "SL",
+            "status": null,
+            "fetched_at": "2026-09-19T06:32:29.188Z",
+            "sha256": "e774f4cd8512900c450675814fb04448bd52df295d4ae3a3f5387eaf2ee72169"
+          }
         }
       ],
       [
         {
           "type": "single",
-          "title": "HMS Abdiel",
-          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/uk_minelayer_abdiel_class_abdiel.png",
-          "br": "4.7",
-          "rp": "11,000",
-          "sp": "22,000",
-          "data_unit_id": "uk_minelayer_abdiel_class_abdiel",
+          "title": "HMS Egret",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/uk_egret_class.png",
+          "br": "4.3",
+          "rp": 9000,
+          "sp": 16000,
+          "data_unit_id": "uk_egret_class",
+          "required_unit_id": "",
           "selected": false,
           "class_name": "",
           "details": true,
-          "main_role": "Light cruiser"
+          "rank": "II",
+          "research_country": "Great Britain",
+          "main_role": "Destroyer",
+          "is_component": false,
+          "component_of": null,
+          "is_premium": false,
+          "is_squadron": false,
+          "wiki": {
+            "url": "https://wiki.warthunder.com/unit/uk_egret_class",
+            "rank": "II",
+            "battle_rating_context": "default",
+            "battle_ratings": {
+              "AB": "4.3",
+              "RB": "4.3"
+            },
+            "battle_ratings_by_battle": {
+              "default": {
+                "AB": "4.3",
+                "RB": "4.3"
+              }
+            },
+            "research": "9,000",
+            "purchase": "16,000",
+            "purchase_currency": "SL",
+            "status": null,
+            "fetched_at": "2026-09-19T06:32:30.142Z",
+            "sha256": "655a0e771fe690859a00a9cdd7a4eb0454e444b6a01e91a6d12a827b3818e5b1"
+          }
+        },
+        {
+          "type": "single",
+          "title": "HMS Abdiel",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/uk_minelayer_abdiel_class_abdiel.png",
+          "br": "4.7",
+          "rp": 11000,
+          "sp": 22000,
+          "data_unit_id": "uk_minelayer_abdiel_class_abdiel",
+          "required_unit_id": "uk_egret_class",
+          "selected": false,
+          "class_name": "",
+          "details": true,
+          "rank": "II",
+          "research_country": "Great Britain",
+          "main_role": "Light cruiser",
+          "is_component": false,
+          "component_of": null,
+          "is_premium": false,
+          "is_squadron": false,
+          "wiki": {
+            "url": "https://wiki.warthunder.com/unit/uk_minelayer_abdiel_class_abdiel",
+            "rank": "II",
+            "battle_rating_context": "default",
+            "battle_ratings": {
+              "AB": "4.7",
+              "RB": "4.7"
+            },
+            "battle_ratings_by_battle": {
+              "default": {
+                "AB": "4.7",
+                "RB": "4.7"
+              }
+            },
+            "research": "11,000",
+            "purchase": "22,000",
+            "purchase_currency": "SL",
+            "status": null,
+            "fetched_at": "2026-09-19T06:32:30.022Z",
+            "sha256": "b5591a1d1af7a34b8bec882e4dd67e165fe7a011d1e4f7a4e03c58bca8342812"
+          }
         }
       ]
     ],
@@ -201,49 +607,134 @@
       [
         {
           "type": "single",
-          "title": "HMS Jervis",
+          "title": "HMS Jervis",
           "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/uk_destroyer_j_class.png",
-          "br": "4.7",
+          "br": "4.3",
           "rp": 0,
           "sp": 0,
           "data_unit_id": "uk_destroyer_j_class",
+          "required_unit_id": "",
           "selected": false,
           "class_name": "prem",
           "details": true,
-          "main_role": "Destroyer"
+          "rank": "II",
+          "research_country": "Great Britain",
+          "main_role": "Destroyer",
+          "is_component": false,
+          "component_of": null,
+          "is_premium": true,
+          "is_squadron": false,
+          "wiki": {
+            "url": "https://wiki.warthunder.com/unit/uk_destroyer_j_class",
+            "rank": "II",
+            "battle_rating_context": "default",
+            "battle_ratings": {
+              "AB": "4.3",
+              "RB": "4.3"
+            },
+            "battle_ratings_by_battle": {
+              "default": {
+                "AB": "4.3",
+                "RB": "4.3"
+              }
+            },
+            "research": null,
+            "purchase": "1,000",
+            "purchase_currency": "GE",
+            "status": "Premium vehicle",
+            "fetched_at": "2026-09-19T06:32:28.999Z",
+            "sha256": "723d93b2a5fe46869014f825e7df9e9bf37cfe83a2e61847a001ea150336634e"
+          }
         },
         {
           "type": "single",
-          "title": "HMS Mohawk",
+          "title": "HMS Mohawk",
           "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/uk_destroyer_tribal_mohawk.png",
-          "br": "4.7",
+          "br": "4.3",
           "rp": 0,
           "sp": 0,
           "data_unit_id": "uk_destroyer_tribal_mohawk",
+          "required_unit_id": "",
           "selected": false,
           "class_name": "prem",
           "details": true,
-          "main_role": "Destroyer"
+          "rank": "II",
+          "research_country": "Great Britain",
+          "main_role": "Destroyer",
+          "is_component": false,
+          "component_of": null,
+          "is_premium": true,
+          "is_squadron": false,
+          "wiki": {
+            "url": "https://wiki.warthunder.com/unit/uk_destroyer_tribal_mohawk",
+            "rank": "II",
+            "battle_rating_context": "default",
+            "battle_ratings": {
+              "AB": "4.3",
+              "RB": "4.3"
+            },
+            "battle_ratings_by_battle": {
+              "default": {
+                "AB": "4.3",
+                "RB": "4.3"
+              }
+            },
+            "research": null,
+            "purchase": null,
+            "purchase_currency": null,
+            "status": "Premium vehicle",
+            "fetched_at": "2026-09-19T06:32:29.549Z",
+            "sha256": "1b6838042275be5b4bf222916f15e9a7237a82e153981426cc416bc5e5052151"
+          }
         }
       ],
       [
         {
           "type": "single",
-          "title": "ORP Garland",
+          "title": "ORP Garland",
           "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/uk_destroyer_g_garland.png",
           "br": "3.7",
           "rp": 0,
           "sp": 0,
           "data_unit_id": "uk_destroyer_g_garland",
+          "required_unit_id": "",
           "selected": false,
           "class_name": "prem",
           "details": true,
-          "main_role": "Destroyer"
+          "rank": "II",
+          "research_country": "Great Britain",
+          "main_role": "Destroyer",
+          "is_component": false,
+          "component_of": null,
+          "is_premium": true,
+          "is_squadron": false,
+          "wiki": {
+            "url": "https://wiki.warthunder.com/unit/uk_destroyer_g_garland",
+            "rank": "II",
+            "battle_rating_context": "default",
+            "battle_ratings": {
+              "AB": "3.7",
+              "RB": "3.7"
+            },
+            "battle_ratings_by_battle": {
+              "default": {
+                "AB": "3.7",
+                "RB": "3.7"
+              }
+            },
+            "research": null,
+            "purchase": null,
+            "purchase_currency": null,
+            "status": "Premium vehicle",
+            "fetched_at": "2026-09-19T06:32:28.643Z",
+            "sha256": "f3b185c4f827dc30dab28ac4340ad36dafa050d474dc2d8bd2d3d12d5f16d432"
+          }
         }
       ]
     ],
     "selected": [],
-    "unlock_quantity": 0
+    "unlock_quantity": null,
+    "source": "wiki"
   },
   {
     "rank": "III",
@@ -256,49 +747,136 @@
           "selected": false,
           "br": "4.7",
           "data_unit_id": "uk_destroyer_battle_group",
+          "required_unit_id": "uk_destroyer_n_class",
           "class_name": "",
           "items": [
             {
               "type": "single",
-              "title": "HMS Armada",
+              "title": "HMS Armada",
               "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/uk_destroyer_battle_2series.png",
               "br": "4.7",
-              "rp": "15,000",
-              "sp": "38,000",
+              "rp": 15000,
+              "sp": 38000,
               "data_unit_id": "uk_destroyer_battle_2series",
+              "required_unit_id": "",
               "selected": false,
               "class_name": "",
               "details": true,
-              "main_role": "Destroyer"
+              "rank": "III",
+              "research_country": "Great Britain",
+              "main_role": "Destroyer",
+              "is_component": false,
+              "component_of": null,
+              "is_premium": false,
+              "is_squadron": false,
+              "wiki": {
+                "url": "https://wiki.warthunder.com/unit/uk_destroyer_battle_2series",
+                "rank": "III",
+                "battle_rating_context": "default",
+                "battle_ratings": {
+                  "AB": "4.7",
+                  "RB": "4.7"
+                },
+                "battle_ratings_by_battle": {
+                  "default": {
+                    "AB": "4.7",
+                    "RB": "4.7"
+                  }
+                },
+                "research": "15,000",
+                "purchase": "38,000",
+                "purchase_currency": "SL",
+                "status": null,
+                "fetched_at": "2026-09-19T06:32:28.000Z",
+                "sha256": "d63c17b56345068f203bfdfb43490c2fab78a8dbe9a2442964b026e73b647411"
+              }
             },
             {
               "type": "single",
-              "title": "HMAS Tobruk",
+              "title": "HMAS Tobruk",
               "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/uk_destroyer_battle_tobruk.png",
               "br": "4.7",
-              "rp": "9,200",
-              "sp": "55,000",
+              "rp": 9200,
+              "sp": 55000,
               "data_unit_id": "uk_destroyer_battle_tobruk",
+              "required_unit_id": "uk_destroyer_battle_2series",
               "selected": false,
               "class_name": "",
               "details": true,
-              "main_role": "Destroyer"
+              "rank": "III",
+              "research_country": "Great Britain",
+              "main_role": "Destroyer",
+              "is_component": false,
+              "component_of": null,
+              "is_premium": false,
+              "is_squadron": false,
+              "wiki": {
+                "url": "https://wiki.warthunder.com/unit/uk_destroyer_battle_tobruk",
+                "rank": "III",
+                "battle_rating_context": "default",
+                "battle_ratings": {
+                  "AB": "4.7",
+                  "RB": "4.7"
+                },
+                "battle_ratings_by_battle": {
+                  "default": {
+                    "AB": "4.7",
+                    "RB": "4.7"
+                  }
+                },
+                "research": "9,200",
+                "purchase": "55,000",
+                "purchase_currency": "SL",
+                "status": null,
+                "fetched_at": "2026-09-19T06:32:27.928Z",
+                "sha256": "8eba162f6734c262330ed21ce85cabb84e7b7d05388815a547bb10a8781f0ca7"
+              }
             }
           ],
-          "details": true
+          "details": true,
+          "rp": 24200,
+          "sp": 93000
         },
         {
           "type": "single",
-          "title": "HMS Arethusa",
+          "title": "HMS Arethusa",
           "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/uk_cruiser_arethusa.png",
           "br": "5.3",
-          "rp": "21,000",
-          "sp": "70,000",
+          "rp": 21000,
+          "sp": 70000,
           "data_unit_id": "uk_cruiser_arethusa",
+          "required_unit_id": "uk_destroyer_battle_group",
           "selected": false,
           "class_name": "",
           "details": true,
-          "main_role": "Light cruiser"
+          "rank": "III",
+          "research_country": "Great Britain",
+          "main_role": "Light cruiser",
+          "is_component": false,
+          "component_of": null,
+          "is_premium": false,
+          "is_squadron": false,
+          "wiki": {
+            "url": "https://wiki.warthunder.com/unit/uk_cruiser_arethusa",
+            "rank": "III",
+            "battle_rating_context": "default",
+            "battle_ratings": {
+              "AB": "5.0",
+              "RB": "5.3"
+            },
+            "battle_ratings_by_battle": {
+              "default": {
+                "AB": "5.0",
+                "RB": "5.3"
+              }
+            },
+            "research": "21,000",
+            "purchase": "70,000",
+            "purchase_currency": "SL",
+            "status": null,
+            "fetched_at": "2026-09-19T06:32:26.144Z",
+            "sha256": "5b0d048a370221fe2536cfb4ec35757cf908fdb741d51b6b367d71a09ed5ef3e"
+          }
         }
       ],
       [
@@ -309,64 +887,179 @@
           "selected": false,
           "br": "5.0",
           "data_unit_id": "uk_destroyer_daring_group",
+          "required_unit_id": "uk_destroyer_k_class",
           "class_name": "",
           "items": [
             {
               "type": "single",
-              "title": "HMS Diana",
+              "title": "HMS Diana",
               "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/uk_destroyer_daring_class_diana.png",
               "br": "5.0",
-              "rp": "18,000",
-              "sp": "55,000",
+              "rp": 18000,
+              "sp": 55000,
               "data_unit_id": "uk_destroyer_daring_class_diana",
+              "required_unit_id": "",
               "selected": false,
               "class_name": "",
               "details": true,
-              "main_role": "Destroyer"
+              "rank": "III",
+              "research_country": "Great Britain",
+              "main_role": "Destroyer",
+              "is_component": false,
+              "component_of": null,
+              "is_premium": false,
+              "is_squadron": false,
+              "wiki": {
+                "url": "https://wiki.warthunder.com/unit/uk_destroyer_daring_class_diana",
+                "rank": "III",
+                "battle_rating_context": "default",
+                "battle_ratings": {
+                  "AB": "5.0",
+                  "RB": "5.0"
+                },
+                "battle_ratings_by_battle": {
+                  "default": {
+                    "AB": "5.0",
+                    "RB": "5.0"
+                  }
+                },
+                "research": "18,000",
+                "purchase": "55,000",
+                "purchase_currency": "SL",
+                "status": null,
+                "fetched_at": "2026-09-19T06:32:28.422Z",
+                "sha256": "b550aaca94e8c29e6fbcb775bb2a1d7376296b668664d03199acad37a7f9b3b2"
+              }
             },
             {
               "type": "single",
-              "title": "HMS Daring",
+              "title": "HMS Daring",
               "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/uk_destroyer_daring_class_daring.png",
               "br": "5.0",
-              "rp": "11,000",
-              "sp": "70,000",
+              "rp": 11000,
+              "sp": 70000,
               "data_unit_id": "uk_destroyer_daring_class_daring",
+              "required_unit_id": "uk_destroyer_daring_class_diana",
               "selected": false,
               "class_name": "",
               "details": true,
-              "main_role": "Destroyer"
+              "rank": "III",
+              "research_country": "Great Britain",
+              "main_role": "Destroyer",
+              "is_component": false,
+              "component_of": null,
+              "is_premium": false,
+              "is_squadron": false,
+              "wiki": {
+                "url": "https://wiki.warthunder.com/unit/uk_destroyer_daring_class_daring",
+                "rank": "III",
+                "battle_rating_context": "default",
+                "battle_ratings": {
+                  "AB": "5.0",
+                  "RB": "5.0"
+                },
+                "battle_ratings_by_battle": {
+                  "default": {
+                    "AB": "5.0",
+                    "RB": "5.0"
+                  }
+                },
+                "research": "11,000",
+                "purchase": "70,000",
+                "purchase_currency": "SL",
+                "status": null,
+                "fetched_at": "2026-09-19T06:32:28.494Z",
+                "sha256": "e54a76c1f23bdafc3726dff79dd1d64de3f0434da191398c435dc3d5c8de45c5"
+              }
             }
           ],
-          "details": true
+          "details": true,
+          "rp": 29000,
+          "sp": 125000
         }
       ],
       [
         {
           "type": "single",
-          "title": "HMS Enterprise",
+          "title": "HMS Enterprise",
           "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/uk_cruiser_enterprise_d52.png",
           "br": "5.0",
-          "rp": "21,000",
-          "sp": "70,000",
+          "rp": 21000,
+          "sp": 70000,
           "data_unit_id": "uk_cruiser_enterprise_d52",
+          "required_unit_id": "uk_minelayer_abdiel_class_abdiel",
           "selected": false,
           "class_name": "",
           "details": true,
-          "main_role": "Light cruiser"
+          "rank": "III",
+          "research_country": "Great Britain",
+          "main_role": "Light cruiser",
+          "is_component": false,
+          "component_of": null,
+          "is_premium": false,
+          "is_squadron": false,
+          "wiki": {
+            "url": "https://wiki.warthunder.com/unit/uk_cruiser_enterprise_d52",
+            "rank": "III",
+            "battle_rating_context": "default",
+            "battle_ratings": {
+              "AB": "5.0",
+              "RB": "5.0"
+            },
+            "battle_ratings_by_battle": {
+              "default": {
+                "AB": "5.0",
+                "RB": "5.0"
+              }
+            },
+            "research": "21,000",
+            "purchase": "70,000",
+            "purchase_currency": "SL",
+            "status": null,
+            "fetched_at": "2026-09-19T06:32:26.560Z",
+            "sha256": "71887f2b395b2879a3232d7872864c9344773473760cff8d5f6e6055a6c3591f"
+          }
         },
         {
           "type": "single",
-          "title": "HMS Hawkins",
+          "title": "HMS Hawkins",
           "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/uk_cruiser_hawkins.png",
           "br": "5.3",
-          "rp": "25,000",
-          "sp": "87,000",
+          "rp": 25000,
+          "sp": 87000,
           "data_unit_id": "uk_cruiser_hawkins",
+          "required_unit_id": "uk_cruiser_enterprise_d52",
           "selected": false,
           "class_name": "",
           "details": true,
-          "main_role": "Heavy cruiser"
+          "rank": "III",
+          "research_country": "Great Britain",
+          "main_role": "Heavy cruiser",
+          "is_component": false,
+          "component_of": null,
+          "is_premium": false,
+          "is_squadron": false,
+          "wiki": {
+            "url": "https://wiki.warthunder.com/unit/uk_cruiser_hawkins",
+            "rank": "III",
+            "battle_rating_context": "default",
+            "battle_ratings": {
+              "AB": "5.0",
+              "RB": "5.3"
+            },
+            "battle_ratings_by_battle": {
+              "default": {
+                "AB": "5.0",
+                "RB": "5.3"
+              }
+            },
+            "research": "25,000",
+            "purchase": "87,000",
+            "purchase_currency": "SL",
+            "status": null,
+            "fetched_at": "2026-09-19T06:32:26.836Z",
+            "sha256": "01573679d2443e051dad0df9b5a802a8148451004dd31bbf71dc374a4de6f464"
+          }
         }
       ]
     ],
@@ -374,49 +1067,134 @@
       [
         {
           "type": "single",
-          "title": "HMCS Haida",
+          "title": "HMCS Haida",
           "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/uk_destroyer_haida.png",
-          "br": "4.7",
+          "br": "4.3",
           "rp": 0,
           "sp": 0,
           "data_unit_id": "uk_destroyer_haida",
+          "required_unit_id": "",
           "selected": false,
           "class_name": "prem",
           "details": true,
-          "main_role": "Destroyer"
+          "rank": "III",
+          "research_country": "Great Britain",
+          "main_role": "Destroyer",
+          "is_component": false,
+          "component_of": null,
+          "is_premium": true,
+          "is_squadron": false,
+          "wiki": {
+            "url": "https://wiki.warthunder.com/unit/uk_destroyer_haida",
+            "rank": "III",
+            "battle_rating_context": "default",
+            "battle_ratings": {
+              "AB": "4.3",
+              "RB": "4.3"
+            },
+            "battle_ratings_by_battle": {
+              "default": {
+                "AB": "4.3",
+                "RB": "4.3"
+              }
+            },
+            "research": null,
+            "purchase": null,
+            "purchase_currency": null,
+            "status": "Premium vehicle",
+            "fetched_at": "2026-09-19T06:32:28.845Z",
+            "sha256": "a2e3b3cc5e44ece9d4867f45f6bad5546d1f894331f64aa295eb06a60c3ab65f"
+          }
         },
         {
           "type": "single",
-          "title": "HMS Diamond",
+          "title": "HMS Diamond",
           "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/uk_destroyer_daring_class_diamond.png",
           "br": "5.0",
           "rp": 0,
           "sp": 0,
           "data_unit_id": "uk_destroyer_daring_class_diamond",
+          "required_unit_id": "",
           "selected": false,
           "class_name": "prem",
           "details": true,
-          "main_role": "Destroyer"
+          "rank": "III",
+          "research_country": "Great Britain",
+          "main_role": "Destroyer",
+          "is_component": false,
+          "component_of": null,
+          "is_premium": true,
+          "is_squadron": false,
+          "wiki": {
+            "url": "https://wiki.warthunder.com/unit/uk_destroyer_daring_class_diamond",
+            "rank": "III",
+            "battle_rating_context": "default",
+            "battle_ratings": {
+              "AB": "5.0",
+              "RB": "5.0"
+            },
+            "battle_ratings_by_battle": {
+              "default": {
+                "AB": "5.0",
+                "RB": "5.0"
+              }
+            },
+            "research": null,
+            "purchase": "2,980",
+            "purchase_currency": "GE",
+            "status": "Premium vehicle",
+            "fetched_at": "2026-09-19T06:32:28.222Z",
+            "sha256": "859742fc649e80a9f742f196a11b744323ad17ecc867025fbe908cbea1ed9c05"
+          }
         }
       ],
       [
         {
           "type": "single",
-          "title": "HMS Cadiz",
+          "title": "HMS Cadiz",
           "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/uk_destroyer_battle_cadiz.png",
           "br": "4.7",
           "rp": 0,
           "sp": 0,
           "data_unit_id": "uk_destroyer_battle_cadiz",
+          "required_unit_id": "",
           "selected": false,
           "class_name": "prem",
           "details": true,
-          "main_role": "Destroyer"
+          "rank": "III",
+          "research_country": "Great Britain",
+          "main_role": "Destroyer",
+          "is_component": false,
+          "component_of": null,
+          "is_premium": true,
+          "is_squadron": false,
+          "wiki": {
+            "url": "https://wiki.warthunder.com/unit/uk_destroyer_battle_cadiz",
+            "rank": "III",
+            "battle_rating_context": "default",
+            "battle_ratings": {
+              "AB": "4.7",
+              "RB": "4.7"
+            },
+            "battle_ratings_by_battle": {
+              "default": {
+                "AB": "4.7",
+                "RB": "4.7"
+              }
+            },
+            "research": null,
+            "purchase": null,
+            "purchase_currency": null,
+            "status": "Premium vehicle",
+            "fetched_at": "2026-09-19T06:32:27.705Z",
+            "sha256": "2cb0b2c5cd60aaafa4ba2b1dad650a2f15c1d977d5fc0b94f34ee122b0b88bbc"
+          }
         }
       ]
     ],
     "selected": [],
-    "unlock_quantity": 0
+    "unlock_quantity": null,
+    "source": "wiki"
   },
   {
     "rank": "IV",
@@ -424,70 +1202,210 @@
       [
         {
           "type": "single",
-          "title": "HMNZS Leander",
+          "title": "HMNZS Leander",
           "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/uk_cruiser_leander.png",
           "br": "5.3",
-          "rp": "33,000",
-          "sp": "115,000",
+          "rp": 33000,
+          "sp": 115000,
           "data_unit_id": "uk_cruiser_leander",
+          "required_unit_id": "uk_cruiser_arethusa",
           "selected": false,
           "class_name": "",
           "details": true,
-          "main_role": "Light cruiser"
+          "rank": "IV",
+          "research_country": "Great Britain",
+          "main_role": "Light cruiser",
+          "is_component": false,
+          "component_of": null,
+          "is_premium": false,
+          "is_squadron": false,
+          "wiki": {
+            "url": "https://wiki.warthunder.com/unit/uk_cruiser_leander",
+            "rank": "IV",
+            "battle_rating_context": "default",
+            "battle_ratings": {
+              "AB": "5.3",
+              "RB": "5.3"
+            },
+            "battle_ratings_by_battle": {
+              "default": {
+                "AB": "5.3",
+                "RB": "5.3"
+              }
+            },
+            "research": "33,000",
+            "purchase": "115,000",
+            "purchase_currency": "SL",
+            "status": null,
+            "fetched_at": "2026-09-19T06:32:26.837Z",
+            "sha256": "694e409e898baaae9aed38ef6890991b8fb42a85131eb337ace30c95e13f120c"
+          }
         },
         {
           "type": "single",
-          "title": "HMS Fiji",
+          "title": "HMS Fiji",
           "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/uk_cruiser_fiji_class_fiji.png",
           "br": "5.7",
-          "rp": "59,000",
-          "sp": "185,000",
+          "rp": 59000,
+          "sp": 185000,
           "data_unit_id": "uk_cruiser_fiji_class_fiji",
+          "required_unit_id": "uk_cruiser_leander",
           "selected": false,
           "class_name": "",
           "details": true,
-          "main_role": "Light cruiser"
+          "rank": "IV",
+          "research_country": "Great Britain",
+          "main_role": "Light cruiser",
+          "is_component": false,
+          "component_of": null,
+          "is_premium": false,
+          "is_squadron": false,
+          "wiki": {
+            "url": "https://wiki.warthunder.com/unit/uk_cruiser_fiji_class_fiji",
+            "rank": "IV",
+            "battle_rating_context": "default",
+            "battle_ratings": {
+              "AB": "5.7",
+              "RB": "5.7"
+            },
+            "battle_ratings_by_battle": {
+              "default": {
+                "AB": "5.7",
+                "RB": "5.7"
+              }
+            },
+            "research": "59,000",
+            "purchase": "185,000",
+            "purchase_currency": "SL",
+            "status": null,
+            "fetched_at": "2026-09-19T06:32:26.487Z",
+            "sha256": "8fe41fbc480448e007c8583df689b5001a6f2f621f1d40fb5fdb8f59d5c3ebfc"
+          }
         },
         {
           "type": "single",
-          "title": "HMS Southampton",
+          "title": "HMS Southampton",
           "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/uk_cruiser_southampton.png",
           "br": "6.0",
-          "rp": "73,000",
-          "sp": "230,000",
+          "rp": 73000,
+          "sp": 230000,
           "data_unit_id": "uk_cruiser_southampton",
+          "required_unit_id": "uk_cruiser_fiji_class_fiji",
           "selected": false,
           "class_name": "",
           "details": true,
-          "main_role": "Light cruiser"
+          "rank": "IV",
+          "research_country": "Great Britain",
+          "main_role": "Light cruiser",
+          "is_component": false,
+          "component_of": null,
+          "is_premium": false,
+          "is_squadron": false,
+          "wiki": {
+            "url": "https://wiki.warthunder.com/unit/uk_cruiser_southampton",
+            "rank": "IV",
+            "battle_rating_context": "default",
+            "battle_ratings": {
+              "AB": "6.0",
+              "RB": "6.0"
+            },
+            "battle_ratings_by_battle": {
+              "default": {
+                "AB": "6.0",
+                "RB": "6.0"
+              }
+            },
+            "research": "73,000",
+            "purchase": "230,000",
+            "purchase_currency": "SL",
+            "status": null,
+            "fetched_at": "2026-09-19T06:32:27.387Z",
+            "sha256": "8bcfb460517e654a2e57f7cf56400b7020337a7e163eb60e8b3950c86374ad5b"
+          }
         }
       ],
       [
         {
           "type": "single",
-          "title": "HMS Dido",
+          "title": "HMS Dido",
           "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/uk_cruiser_dido.png",
           "br": "5.3",
-          "rp": "46,000",
-          "sp": "150,000",
+          "rp": 46000,
+          "sp": 150000,
           "data_unit_id": "uk_cruiser_dido",
+          "required_unit_id": "uk_destroyer_daring_group",
           "selected": false,
           "class_name": "",
           "details": true,
-          "main_role": "Light cruiser"
+          "rank": "IV",
+          "research_country": "Great Britain",
+          "main_role": "Light cruiser",
+          "is_component": false,
+          "component_of": null,
+          "is_premium": false,
+          "is_squadron": false,
+          "wiki": {
+            "url": "https://wiki.warthunder.com/unit/uk_cruiser_dido",
+            "rank": "IV",
+            "battle_rating_context": "default",
+            "battle_ratings": {
+              "AB": "5.3",
+              "RB": "5.3"
+            },
+            "battle_ratings_by_battle": {
+              "default": {
+                "AB": "5.3",
+                "RB": "5.3"
+              }
+            },
+            "research": "46,000",
+            "purchase": "150,000",
+            "purchase_currency": "SL",
+            "status": null,
+            "fetched_at": "2026-09-19T06:32:26.453Z",
+            "sha256": "f36def69288cc66951d7b6b69f1ec83ebc96aacc8e6d128c24092b713baa0bae"
+          }
         },
         {
           "type": "single",
-          "title": "HMS York",
+          "title": "HMS York",
           "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/uk_cruiser_york.png",
           "br": "5.3",
-          "rp": "59,000",
-          "sp": "185,000",
+          "rp": 59000,
+          "sp": 185000,
           "data_unit_id": "uk_cruiser_york",
+          "required_unit_id": "uk_cruiser_dido",
           "selected": false,
           "class_name": "",
           "details": true,
-          "main_role": "Heavy cruiser"
+          "rank": "IV",
+          "research_country": "Great Britain",
+          "main_role": "Heavy cruiser",
+          "is_component": false,
+          "component_of": null,
+          "is_premium": false,
+          "is_squadron": false,
+          "wiki": {
+            "url": "https://wiki.warthunder.com/unit/uk_cruiser_york",
+            "rank": "IV",
+            "battle_rating_context": "default",
+            "battle_ratings": {
+              "AB": "5.3",
+              "RB": "5.3"
+            },
+            "battle_ratings_by_battle": {
+              "default": {
+                "AB": "5.3",
+                "RB": "5.3"
+              }
+            },
+            "research": "59,000",
+            "purchase": "185,000",
+            "purchase_currency": "SL",
+            "status": null,
+            "fetched_at": "2026-09-19T06:32:27.542Z",
+            "sha256": "603f2cad9095efe8ffb28590f210144ae15940a1dbac057c13905d3c0b2a22f2"
+          }
         }
       ],
       [
@@ -498,62 +1416,177 @@
           "selected": false,
           "br": "5.7",
           "data_unit_id": "uk_cruiser_kent_norfolk_group",
+          "required_unit_id": "uk_cruiser_hawkins",
           "class_name": "",
           "items": [
             {
               "type": "single",
-              "title": "HMS Kent",
+              "title": "HMS Kent",
               "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/uk_cruiser_kent.png",
               "br": "5.7",
-              "rp": "33,000",
-              "sp": "115,000",
+              "rp": 33000,
+              "sp": 115000,
               "data_unit_id": "uk_cruiser_kent",
+              "required_unit_id": "",
               "selected": false,
               "class_name": "",
               "details": true,
-              "main_role": "Heavy cruiser"
+              "rank": "IV",
+              "research_country": "Great Britain",
+              "main_role": "Heavy cruiser",
+              "is_component": false,
+              "component_of": null,
+              "is_premium": false,
+              "is_squadron": false,
+              "wiki": {
+                "url": "https://wiki.warthunder.com/unit/uk_cruiser_kent",
+                "rank": "IV",
+                "battle_rating_context": "default",
+                "battle_ratings": {
+                  "AB": "5.7",
+                  "RB": "5.7"
+                },
+                "battle_ratings_by_battle": {
+                  "default": {
+                    "AB": "5.7",
+                    "RB": "5.7"
+                  }
+                },
+                "research": "33,000",
+                "purchase": "115,000",
+                "purchase_currency": "SL",
+                "status": null,
+                "fetched_at": "2026-09-19T06:32:26.795Z",
+                "sha256": "58876ef331cb4e8277aa559cd3d5d6584e7431c08d4c6810fe174d9bd59d6d29"
+              }
             },
             {
               "type": "single",
-              "title": "HMS Norfolk",
+              "title": "HMS Norfolk",
               "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/uk_cruiser_norfolk.png",
               "br": "5.7",
-              "rp": "23,000",
-              "sp": "150,000",
+              "rp": 23000,
+              "sp": 150000,
               "data_unit_id": "uk_cruiser_norfolk",
+              "required_unit_id": "uk_cruiser_kent",
               "selected": false,
               "class_name": "",
               "details": true,
-              "main_role": "Heavy cruiser"
+              "rank": "IV",
+              "research_country": "Great Britain",
+              "main_role": "Heavy cruiser",
+              "is_component": false,
+              "component_of": null,
+              "is_premium": false,
+              "is_squadron": false,
+              "wiki": {
+                "url": "https://wiki.warthunder.com/unit/uk_cruiser_norfolk",
+                "rank": "IV",
+                "battle_rating_context": "default",
+                "battle_ratings": {
+                  "AB": "5.7",
+                  "RB": "5.7"
+                },
+                "battle_ratings_by_battle": {
+                  "default": {
+                    "AB": "5.7",
+                    "RB": "5.7"
+                  }
+                },
+                "research": "23,000",
+                "purchase": "150,000",
+                "purchase_currency": "SL",
+                "status": null,
+                "fetched_at": "2026-09-19T06:32:27.347Z",
+                "sha256": "c177f47a1e2b5f0af7f3f1756b1bd8ac76bb307f46c57c1dab262249ab1fc9d5"
+              }
             },
             {
               "type": "single",
-              "title": "HMS London",
+              "title": "HMS London",
               "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/uk_cruiser_london.png",
               "br": "5.7",
-              "rp": "30,000",
-              "sp": "185,000",
+              "rp": 30000,
+              "sp": 185000,
               "data_unit_id": "uk_cruiser_london",
+              "required_unit_id": "uk_cruiser_norfolk",
               "selected": false,
               "class_name": "",
               "details": true,
-              "main_role": "Heavy cruiser"
+              "rank": "IV",
+              "research_country": "Great Britain",
+              "main_role": "Heavy cruiser",
+              "is_component": false,
+              "component_of": null,
+              "is_premium": false,
+              "is_squadron": false,
+              "wiki": {
+                "url": "https://wiki.warthunder.com/unit/uk_cruiser_london",
+                "rank": "IV",
+                "battle_rating_context": "default",
+                "battle_ratings": {
+                  "AB": "5.7",
+                  "RB": "5.7"
+                },
+                "battle_ratings_by_battle": {
+                  "default": {
+                    "AB": "5.7",
+                    "RB": "5.7"
+                  }
+                },
+                "research": "30,000",
+                "purchase": "185,000",
+                "purchase_currency": "SL",
+                "status": null,
+                "fetched_at": "2026-09-19T06:32:27.179Z",
+                "sha256": "e19ea2ce2fb19164d074420e2d89608cd64569be54b9fa384e844c5e1340e96e"
+              }
             }
           ],
-          "details": true
+          "details": true,
+          "rp": 86000,
+          "sp": 450000
         },
         {
           "type": "single",
-          "title": "HMS Invincible",
+          "title": "HMS Invincible",
           "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/uk_battlecruiser_invincible.png",
           "br": "5.7",
-          "rp": "73,000",
-          "sp": "230,000",
+          "rp": 73000,
+          "sp": 230000,
           "data_unit_id": "uk_battlecruiser_invincible",
+          "required_unit_id": "uk_cruiser_kent_norfolk_group",
           "selected": false,
           "class_name": "",
           "details": true,
-          "main_role": "Battlecruiser"
+          "rank": "IV",
+          "research_country": "Great Britain",
+          "main_role": "Battlecruiser",
+          "is_component": false,
+          "component_of": null,
+          "is_premium": false,
+          "is_squadron": false,
+          "wiki": {
+            "url": "https://wiki.warthunder.com/unit/uk_battlecruiser_invincible",
+            "rank": "IV",
+            "battle_rating_context": "default",
+            "battle_ratings": {
+              "AB": "5.7",
+              "RB": "5.7"
+            },
+            "battle_ratings_by_battle": {
+              "default": {
+                "AB": "5.7",
+                "RB": "5.7"
+              }
+            },
+            "research": "73,000",
+            "purchase": "230,000",
+            "purchase_currency": "SL",
+            "status": null,
+            "fetched_at": "2026-09-19T06:32:24.412Z",
+            "sha256": "ede201a05e5c9ce69095578712a7fc67e2e42c35e63e24b1e33dc1b25e8f04e6"
+          }
         }
       ]
     ],
@@ -561,35 +1594,92 @@
       [
         {
           "type": "single",
-          "title": "HMS Liverpool",
+          "title": "HMS Liverpool",
           "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/uk_cruiser_liverpool.png",
           "br": "5.7",
-          "rp": "390,000",
-          "sp": "230,000",
+          "rp": 0,
+          "sp": 0,
           "data_unit_id": "uk_cruiser_liverpool",
+          "required_unit_id": "",
           "selected": false,
           "class_name": "squad",
           "details": true,
-          "main_role": "Light cruiser"
+          "rank": "IV",
+          "research_country": "Great Britain",
+          "main_role": "Light cruiser",
+          "is_component": false,
+          "component_of": null,
+          "is_premium": false,
+          "is_squadron": true,
+          "wiki": {
+            "url": "https://wiki.warthunder.com/unit/uk_cruiser_liverpool",
+            "rank": "IV",
+            "battle_rating_context": "default",
+            "battle_ratings": {
+              "AB": "5.7",
+              "RB": "5.7"
+            },
+            "battle_ratings_by_battle": {
+              "default": {
+                "AB": "5.7",
+                "RB": "5.7"
+              }
+            },
+            "research": "390,000",
+            "purchase": "230,000",
+            "purchase_currency": "SL",
+            "status": "Squadron vehicle",
+            "fetched_at": "2026-09-19T06:32:27.144Z",
+            "sha256": "d6060e1d89d8c16ef23118d594e1e2e4e57f128a9d009cda2df171bcc74a8ab3"
+          }
         },
         {
           "type": "single",
-          "title": "HMS Belfast",
+          "title": "HMS Belfast",
           "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/uk_cruiser_belfast.png",
           "br": "6.0",
           "rp": 0,
           "sp": 0,
           "data_unit_id": "uk_cruiser_belfast",
+          "required_unit_id": "",
           "selected": false,
           "class_name": "prem",
           "details": true,
-          "main_role": "Light cruiser"
+          "rank": "IV",
+          "research_country": "Great Britain",
+          "main_role": "Light cruiser",
+          "is_component": false,
+          "component_of": null,
+          "is_premium": true,
+          "is_squadron": false,
+          "wiki": {
+            "url": "https://wiki.warthunder.com/unit/uk_cruiser_belfast",
+            "rank": "IV",
+            "battle_rating_context": "default",
+            "battle_ratings": {
+              "AB": "6.0",
+              "RB": "6.0"
+            },
+            "battle_ratings_by_battle": {
+              "default": {
+                "AB": "6.0",
+                "RB": "6.0"
+              }
+            },
+            "research": null,
+            "purchase": "8,020",
+            "purchase_currency": "GE",
+            "status": "Premium vehicle",
+            "fetched_at": "2026-09-19T06:32:26.366Z",
+            "sha256": "0e04c3921d711c1ee133ba5bfac3158d3f673fd1699e9a7ee06a5ab1dcc58435"
+          }
         }
       ],
       []
     ],
     "selected": [],
-    "unlock_quantity": 0
+    "unlock_quantity": null,
+    "source": "wiki"
   },
   {
     "rank": "V",
@@ -597,85 +1687,253 @@
       [
         {
           "type": "single",
-          "title": "HMS Dreadnought",
+          "title": "HMS Dreadnought",
           "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/uk_battleship_dreadnought.png",
           "br": "6.0",
-          "rp": "110,000",
-          "sp": "340,000",
+          "rp": 110000,
+          "sp": 340000,
           "data_unit_id": "uk_battleship_dreadnought",
+          "required_unit_id": "uk_cruiser_southampton",
           "selected": false,
           "class_name": "",
           "details": true,
-          "main_role": "Battleship"
+          "rank": "V",
+          "research_country": "Great Britain",
+          "main_role": "Battleship",
+          "is_component": false,
+          "component_of": null,
+          "is_premium": false,
+          "is_squadron": false,
+          "wiki": {
+            "url": "https://wiki.warthunder.com/unit/uk_battleship_dreadnought",
+            "rank": "V",
+            "battle_rating_context": "default",
+            "battle_ratings": {
+              "AB": "6.0",
+              "RB": "6.0"
+            },
+            "battle_ratings_by_battle": {
+              "default": {
+                "AB": "6.0",
+                "RB": "6.0"
+              }
+            },
+            "research": "110,000",
+            "purchase": "340,000",
+            "purchase_currency": "SL",
+            "status": null,
+            "fetched_at": "2026-09-19T06:32:25.139Z",
+            "sha256": "bc707adf457d4bcd8b3b81999ffb1d9250b56a653d792e56ff69848ba9531f83"
+          }
         },
         {
           "type": "single",
-          "title": "HMS Orion",
+          "title": "HMS Orion",
           "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/uk_battleship_orion.png",
           "br": "6.7",
-          "rp": "180,000",
-          "sp": "540,000",
+          "rp": 180000,
+          "sp": 540000,
           "data_unit_id": "uk_battleship_orion",
+          "required_unit_id": "uk_battleship_dreadnought",
           "selected": false,
           "class_name": "",
           "details": true,
-          "main_role": "Battleship"
+          "rank": "V",
+          "research_country": "Great Britain",
+          "main_role": "Battleship",
+          "is_component": false,
+          "component_of": null,
+          "is_premium": false,
+          "is_squadron": false,
+          "wiki": {
+            "url": "https://wiki.warthunder.com/unit/uk_battleship_orion",
+            "rank": "V",
+            "battle_rating_context": "default",
+            "battle_ratings": {
+              "AB": "6.7",
+              "RB": "6.7"
+            },
+            "battle_ratings_by_battle": {
+              "default": {
+                "AB": "6.7",
+                "RB": "6.7"
+              }
+            },
+            "research": "180,000",
+            "purchase": "540,000",
+            "purchase_currency": "SL",
+            "status": null,
+            "fetched_at": "2026-09-19T06:32:25.760Z",
+            "sha256": "62b445a92ba94ac49ecbfc8c1bf3e6c1b81cf6cdacd1d9be9459b5a084f9fcff"
+          }
         }
       ],
       [
         {
           "type": "single",
-          "title": "HMS Colossus",
+          "title": "HMS Colossus",
           "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/uk_battleship_colossus.png",
           "br": "6.3",
-          "rp": "145,000",
-          "sp": "440,000",
+          "rp": 145000,
+          "sp": 440000,
           "data_unit_id": "uk_battleship_colossus",
+          "required_unit_id": "uk_cruiser_york",
           "selected": false,
           "class_name": "",
           "details": true,
-          "main_role": "Battleship"
+          "rank": "V",
+          "research_country": "Great Britain",
+          "main_role": "Battleship",
+          "is_component": false,
+          "component_of": null,
+          "is_premium": false,
+          "is_squadron": false,
+          "wiki": {
+            "url": "https://wiki.warthunder.com/unit/uk_battleship_colossus",
+            "rank": "V",
+            "battle_rating_context": "default",
+            "battle_ratings": {
+              "AB": "6.3",
+              "RB": "6.3"
+            },
+            "battle_ratings_by_battle": {
+              "default": {
+                "AB": "6.3",
+                "RB": "6.3"
+              }
+            },
+            "research": "145,000",
+            "purchase": "440,000",
+            "purchase_currency": "SL",
+            "status": null,
+            "fetched_at": "2026-09-19T06:32:24.975Z",
+            "sha256": "8cb772e634bdb6a4407a1c06d98e493d626a06a07bc3dde5af2c5740a86192b9"
+          }
         },
         {
           "type": "single",
-          "title": "HMS Centurion",
+          "title": "HMS Centurion",
           "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/uk_battleship_centurion.png",
           "br": "6.7",
-          "rp": "180,000",
-          "sp": "540,000",
+          "rp": 180000,
+          "sp": 540000,
           "data_unit_id": "uk_battleship_centurion",
+          "required_unit_id": "uk_battleship_colossus",
           "selected": false,
           "class_name": "",
           "details": true,
-          "main_role": "Battleship"
+          "rank": "V",
+          "research_country": "Great Britain",
+          "main_role": "Battleship",
+          "is_component": false,
+          "component_of": null,
+          "is_premium": false,
+          "is_squadron": false,
+          "wiki": {
+            "url": "https://wiki.warthunder.com/unit/uk_battleship_centurion",
+            "rank": "V",
+            "battle_rating_context": "default",
+            "battle_ratings": {
+              "AB": "6.7",
+              "RB": "6.7"
+            },
+            "battle_ratings_by_battle": {
+              "default": {
+                "AB": "6.7",
+                "RB": "6.7"
+              }
+            },
+            "research": "180,000",
+            "purchase": "540,000",
+            "purchase_currency": "SL",
+            "status": null,
+            "fetched_at": "2026-09-19T06:32:24.897Z",
+            "sha256": "4c67626f858cb914c820ff833f0469d33de1a61a43f35582509c31dfb9392a2a"
+          }
         }
       ],
       [
         {
           "type": "single",
-          "title": "HMS Glorious",
+          "title": "HMS Glorious",
           "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/uk_battlecruiser_glorious.png",
           "br": "5.7",
-          "rp": "90,000",
-          "sp": "280,000",
+          "rp": 90000,
+          "sp": 280000,
           "data_unit_id": "uk_battlecruiser_glorious",
+          "required_unit_id": "uk_battlecruiser_invincible",
           "selected": false,
           "class_name": "",
           "details": true,
-          "main_role": "Battlecruiser"
+          "rank": "V",
+          "research_country": "Great Britain",
+          "main_role": "Battlecruiser",
+          "is_component": false,
+          "component_of": null,
+          "is_premium": false,
+          "is_squadron": false,
+          "wiki": {
+            "url": "https://wiki.warthunder.com/unit/uk_battlecruiser_glorious",
+            "rank": "V",
+            "battle_rating_context": "default",
+            "battle_ratings": {
+              "AB": "5.7",
+              "RB": "5.7"
+            },
+            "battle_ratings_by_battle": {
+              "default": {
+                "AB": "5.7",
+                "RB": "5.7"
+              }
+            },
+            "research": "90,000",
+            "purchase": "280,000",
+            "purchase_currency": "SL",
+            "status": null,
+            "fetched_at": "2026-09-19T06:32:24.411Z",
+            "sha256": "718c14baf5136a9d63f71f556f43d9820600858329b16ed0339357262a9ece5a"
+          }
         },
         {
           "type": "single",
-          "title": "HMS Queen Mary",
+          "title": "HMS Queen Mary",
           "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/uk_battlecruiser_queen_mary.png",
           "br": "6.3",
-          "rp": "145,000",
-          "sp": "440,000",
+          "rp": 145000,
+          "sp": 440000,
           "data_unit_id": "uk_battlecruiser_queen_mary",
+          "required_unit_id": "uk_battlecruiser_glorious",
           "selected": false,
           "class_name": "",
           "details": true,
-          "main_role": "Battlecruiser"
+          "rank": "V",
+          "research_country": "Great Britain",
+          "main_role": "Battlecruiser",
+          "is_component": false,
+          "component_of": null,
+          "is_premium": false,
+          "is_squadron": false,
+          "wiki": {
+            "url": "https://wiki.warthunder.com/unit/uk_battlecruiser_queen_mary",
+            "rank": "V",
+            "battle_rating_context": "default",
+            "battle_ratings": {
+              "AB": "6.3",
+              "RB": "6.3"
+            },
+            "battle_ratings_by_battle": {
+              "default": {
+                "AB": "6.3",
+                "RB": "6.3"
+              }
+            },
+            "research": "145,000",
+            "purchase": "440,000",
+            "purchase_currency": "SL",
+            "status": null,
+            "fetched_at": "2026-09-19T06:32:24.684Z",
+            "sha256": "7d83744ca49b7b7d397a6deb8af3ae676101b2f4fb1498a838133e20a7808b69"
+          }
         }
       ]
     ],
@@ -683,49 +1941,134 @@
       [
         {
           "type": "single",
-          "title": "HMS Iron Duke",
+          "title": "HMS Iron Duke",
           "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/uk_battleship_iron_duke.png",
           "br": "7.0",
           "rp": 0,
           "sp": 0,
           "data_unit_id": "uk_battleship_iron_duke",
+          "required_unit_id": "",
           "selected": false,
           "class_name": "prem",
           "details": true,
-          "main_role": "Battleship"
+          "rank": "V",
+          "research_country": "Great Britain",
+          "main_role": "Battleship",
+          "is_component": false,
+          "component_of": null,
+          "is_premium": true,
+          "is_squadron": false,
+          "wiki": {
+            "url": "https://wiki.warthunder.com/unit/uk_battleship_iron_duke",
+            "rank": "V",
+            "battle_rating_context": "default",
+            "battle_ratings": {
+              "AB": "7.0",
+              "RB": "7.0"
+            },
+            "battle_ratings_by_battle": {
+              "default": {
+                "AB": "7.0",
+                "RB": "7.0"
+              }
+            },
+            "research": null,
+            "purchase": "8,380",
+            "purchase_currency": "GE",
+            "status": "Premium vehicle",
+            "fetched_at": "2026-09-19T06:32:25.349Z",
+            "sha256": "4710869694b4ab624e78f7028b2bf8378be2073d1bc1d8c082e8889b0edf9d18"
+          }
         },
         {
           "type": "single",
-          "title": "HMS Renown",
+          "title": "HMS Renown",
           "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/uk_battlecruiser_renown.png",
           "br": "7.0",
           "rp": null,
           "sp": null,
           "data_unit_id": "uk_battlecruiser_renown",
+          "required_unit_id": "",
           "selected": false,
           "class_name": "",
           "details": true,
-          "main_role": "Battlecruiser"
+          "rank": "V",
+          "research_country": "Great Britain",
+          "main_role": "Battlecruiser",
+          "is_component": false,
+          "component_of": null,
+          "is_premium": false,
+          "is_squadron": false,
+          "wiki": {
+            "url": "https://wiki.warthunder.com/unit/uk_battlecruiser_renown",
+            "rank": "V",
+            "battle_rating_context": "default",
+            "battle_ratings": {
+              "AB": "7.0",
+              "RB": "7.0"
+            },
+            "battle_ratings_by_battle": {
+              "default": {
+                "AB": "7.0",
+                "RB": "7.0"
+              }
+            },
+            "research": null,
+            "purchase": null,
+            "purchase_currency": null,
+            "status": null,
+            "fetched_at": "2026-09-19T06:32:25.003Z",
+            "sha256": "c9cf8d7638f8b72ca32f6be4201640b6deee0115ff5979a19027d2fba87d4c0a"
+          }
         }
       ],
       [
         {
           "type": "single",
-          "title": "HMS Tiger",
+          "title": "HMS Tiger",
           "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/uk_cruiser_tiger.png",
           "br": "6.0",
           "rp": null,
           "sp": null,
           "data_unit_id": "uk_cruiser_tiger",
+          "required_unit_id": "",
           "selected": false,
           "class_name": "",
           "details": true,
-          "main_role": "Light cruiser"
+          "rank": "V",
+          "research_country": "Great Britain",
+          "main_role": "Light cruiser",
+          "is_component": false,
+          "component_of": null,
+          "is_premium": false,
+          "is_squadron": false,
+          "wiki": {
+            "url": "https://wiki.warthunder.com/unit/uk_cruiser_tiger",
+            "rank": "V",
+            "battle_rating_context": "default",
+            "battle_ratings": {
+              "AB": "6.0",
+              "RB": "6.0"
+            },
+            "battle_ratings_by_battle": {
+              "default": {
+                "AB": "6.0",
+                "RB": "6.0"
+              }
+            },
+            "research": null,
+            "purchase": null,
+            "purchase_currency": null,
+            "status": null,
+            "fetched_at": "2026-09-19T06:32:27.420Z",
+            "sha256": "9c06efad1bcea06874d795709f13bd82ffd314733ecd0064e3347285df011ec7"
+          }
         }
       ]
     ],
     "selected": [],
-    "unlock_quantity": 0
+    "unlock_quantity": null,
+    "source": "wiki"
   },
   {
     "rank": "VI",
@@ -733,85 +2076,253 @@
       [
         {
           "type": "single",
-          "title": "HMS Marlborough",
+          "title": "HMS Marlborough",
           "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/uk_battleship_marlborough.png",
           "br": "7.0",
-          "rp": "260,000",
-          "sp": "780,000",
+          "rp": 260000,
+          "sp": 780000,
           "data_unit_id": "uk_battleship_marlborough",
+          "required_unit_id": "uk_battleship_orion",
           "selected": false,
           "class_name": "",
           "details": true,
-          "main_role": "Battleship"
+          "rank": "VI",
+          "research_country": "Great Britain",
+          "main_role": "Battleship",
+          "is_component": false,
+          "component_of": null,
+          "is_premium": false,
+          "is_squadron": false,
+          "wiki": {
+            "url": "https://wiki.warthunder.com/unit/uk_battleship_marlborough",
+            "rank": "VI",
+            "battle_rating_context": "default",
+            "battle_ratings": {
+              "AB": "7.0",
+              "RB": "7.0"
+            },
+            "battle_ratings_by_battle": {
+              "default": {
+                "AB": "7.0",
+                "RB": "7.0"
+              }
+            },
+            "research": "260,000",
+            "purchase": "780,000",
+            "purchase_currency": "SL",
+            "status": null,
+            "fetched_at": "2026-09-19T06:32:25.314Z",
+            "sha256": "567d9ed1277a05a52298339031b250498a6ca4619f27773e9d65af79fcf7bc6c"
+          }
         },
         {
           "type": "single",
-          "title": "HMS Warspite",
+          "title": "HMS Warspite",
           "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/uk_battleship_q_elizabet_class_warspite.png",
           "br": "7.7",
-          "rp": "300,000",
-          "sp": "900,000",
+          "rp": 300000,
+          "sp": 900000,
           "data_unit_id": "uk_battleship_q_elizabet_class_warspite",
+          "required_unit_id": "uk_battleship_marlborough",
           "selected": false,
           "class_name": "",
           "details": true,
-          "main_role": "Battleship"
+          "rank": "VI",
+          "research_country": "Great Britain",
+          "main_role": "Battleship",
+          "is_component": false,
+          "component_of": null,
+          "is_premium": false,
+          "is_squadron": false,
+          "wiki": {
+            "url": "https://wiki.warthunder.com/unit/uk_battleship_q_elizabet_class_warspite",
+            "rank": "VI",
+            "battle_rating_context": "default",
+            "battle_ratings": {
+              "AB": "7.7",
+              "RB": "7.7"
+            },
+            "battle_ratings_by_battle": {
+              "default": {
+                "AB": "7.7",
+                "RB": "7.7"
+              }
+            },
+            "research": "300,000",
+            "purchase": "900,000",
+            "purchase_currency": "SL",
+            "status": null,
+            "fetched_at": "2026-09-19T06:32:25.975Z",
+            "sha256": "b3b04a26bee62fb02024e5e19b20d43e8389f392bfb7388c7b7b9cbc97b0a56b"
+          }
         }
       ],
       [
         {
           "type": "single",
-          "title": "HMS Rodney",
+          "title": "HMS Rodney",
           "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/uk_battleship_rodney.png",
           "br": "7.7",
-          "rp": "300,000",
-          "sp": "900,000",
+          "rp": 300000,
+          "sp": 900000,
           "data_unit_id": "uk_battleship_rodney",
+          "required_unit_id": "uk_battleship_centurion",
           "selected": false,
           "class_name": "",
           "details": true,
-          "main_role": "Battleship"
+          "rank": "VI",
+          "research_country": "Great Britain",
+          "main_role": "Battleship",
+          "is_component": false,
+          "component_of": null,
+          "is_premium": false,
+          "is_squadron": false,
+          "wiki": {
+            "url": "https://wiki.warthunder.com/unit/uk_battleship_rodney",
+            "rank": "VI",
+            "battle_rating_context": "default",
+            "battle_ratings": {
+              "AB": "7.7",
+              "RB": "7.7"
+            },
+            "battle_ratings_by_battle": {
+              "default": {
+                "AB": "7.7",
+                "RB": "7.7"
+              }
+            },
+            "research": "300,000",
+            "purchase": "900,000",
+            "purchase_currency": "SL",
+            "status": null,
+            "fetched_at": "2026-09-19T06:32:26.087Z",
+            "sha256": "bf7c0a9993fcebed1b833007bfaf94821483d9836fb14b80d5df49224ea01de9"
+          }
         },
         {
           "type": "single",
-          "title": "HMS Prince of Wales",
+          "title": "HMS Prince of Wales",
           "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/uk_battleship_prince_of_wales.png",
           "br": "8.0",
-          "rp": "350,000",
-          "sp": "1,050,000",
+          "rp": 350000,
+          "sp": 1050000,
           "data_unit_id": "uk_battleship_prince_of_wales",
+          "required_unit_id": "uk_battleship_rodney",
           "selected": false,
           "class_name": "",
           "details": true,
-          "main_role": "Battleship"
+          "rank": "VI",
+          "research_country": "Great Britain",
+          "main_role": "Battleship",
+          "is_component": false,
+          "component_of": null,
+          "is_premium": false,
+          "is_squadron": false,
+          "wiki": {
+            "url": "https://wiki.warthunder.com/unit/uk_battleship_prince_of_wales",
+            "rank": "VI",
+            "battle_rating_context": "default",
+            "battle_ratings": {
+              "AB": "8.0",
+              "RB": "8.0"
+            },
+            "battle_ratings_by_battle": {
+              "default": {
+                "AB": "8.0",
+                "RB": "8.0"
+              }
+            },
+            "research": "350,000",
+            "purchase": "1,050,000",
+            "purchase_currency": "SL",
+            "status": null,
+            "fetched_at": "2026-09-19T06:32:25.802Z",
+            "sha256": "c184bb026247b263221ee92b6ca04df9d93ed851e22649804f44c0d0625e6713"
+          }
         }
       ],
       [
         {
           "type": "single",
-          "title": "HMS Repulse",
+          "title": "HMS Repulse",
           "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/uk_battlecruiser_repulse.png",
           "br": "7.0",
-          "rp": "220,000",
-          "sp": "660,000",
+          "rp": 220000,
+          "sp": 660000,
           "data_unit_id": "uk_battlecruiser_repulse",
+          "required_unit_id": "uk_battlecruiser_queen_mary",
           "selected": false,
           "class_name": "",
           "details": true,
-          "main_role": "Battlecruiser"
+          "rank": "VI",
+          "research_country": "Great Britain",
+          "main_role": "Battlecruiser",
+          "is_component": false,
+          "component_of": null,
+          "is_premium": false,
+          "is_squadron": false,
+          "wiki": {
+            "url": "https://wiki.warthunder.com/unit/uk_battlecruiser_repulse",
+            "rank": "VI",
+            "battle_rating_context": "default",
+            "battle_ratings": {
+              "AB": "7.0",
+              "RB": "7.0"
+            },
+            "battle_ratings_by_battle": {
+              "default": {
+                "AB": "7.0",
+                "RB": "7.0"
+              }
+            },
+            "research": "220,000",
+            "purchase": "660,000",
+            "purchase_currency": "SL",
+            "status": null,
+            "fetched_at": "2026-09-19T06:32:24.806Z",
+            "sha256": "e67f1a7135eb42c901e7c6037082dba34372184046b51e3fe90116603e3b6cc2"
+          }
         },
         {
           "type": "single",
-          "title": "HMS Hood",
+          "title": "HMS Hood",
           "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/uk_battlecruiser_hood.png",
           "br": "7.7",
-          "rp": "350,000",
-          "sp": "1,050,000",
+          "rp": 350000,
+          "sp": 1050000,
           "data_unit_id": "uk_battlecruiser_hood",
+          "required_unit_id": "uk_battlecruiser_repulse",
           "selected": false,
           "class_name": "",
           "details": true,
-          "main_role": "Battlecruiser"
+          "rank": "VI",
+          "research_country": "Great Britain",
+          "main_role": "Battlecruiser",
+          "is_component": false,
+          "component_of": null,
+          "is_premium": false,
+          "is_squadron": false,
+          "wiki": {
+            "url": "https://wiki.warthunder.com/unit/uk_battlecruiser_hood",
+            "rank": "VI",
+            "battle_rating_context": "default",
+            "battle_ratings": {
+              "AB": "7.7",
+              "RB": "7.7"
+            },
+            "battle_ratings_by_battle": {
+              "default": {
+                "AB": "7.7",
+                "RB": "7.7"
+              }
+            },
+            "research": "350,000",
+            "purchase": "1,050,000",
+            "purchase_currency": "SL",
+            "status": null,
+            "fetched_at": "2026-09-19T06:32:24.434Z",
+            "sha256": "c5c05bf91d94f6c847f12d92fb47f0e9e5e42016fbb0cd7ba11477e0c4e6d832"
+          }
         }
       ]
     ],
@@ -819,35 +2330,92 @@
       [
         {
           "type": "single",
-          "title": "HMS Barham",
+          "title": "HMS Barham",
           "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/uk_battleship_q_elizabet_class_barham.png",
           "br": "7.3",
           "rp": null,
           "sp": null,
           "data_unit_id": "uk_battleship_q_elizabet_class_barham",
+          "required_unit_id": "",
           "selected": false,
           "class_name": "",
           "details": true,
-          "main_role": "Battleship"
+          "rank": "VI",
+          "research_country": "Great Britain",
+          "main_role": "Battleship",
+          "is_component": false,
+          "component_of": null,
+          "is_premium": false,
+          "is_squadron": false,
+          "wiki": {
+            "url": "https://wiki.warthunder.com/unit/uk_battleship_q_elizabet_class_barham",
+            "rank": "VI",
+            "battle_rating_context": "default",
+            "battle_ratings": {
+              "AB": "7.3",
+              "RB": "7.3"
+            },
+            "battle_ratings_by_battle": {
+              "default": {
+                "AB": "7.3",
+                "RB": "7.3"
+              }
+            },
+            "research": null,
+            "purchase": null,
+            "purchase_currency": null,
+            "status": null,
+            "fetched_at": "2026-09-19T06:32:25.809Z",
+            "sha256": "857b43218fa4e8a1251d4d72d4eb4a9e0c4ef2c5c5582f5165ca1cc3f6e64e01"
+          }
         },
         {
           "type": "single",
-          "title": "HMS Nelson",
+          "title": "HMS Nelson",
           "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/uk_battleship_nelson.png",
           "br": "7.7",
           "rp": 0,
           "sp": 0,
           "data_unit_id": "uk_battleship_nelson",
+          "required_unit_id": "",
           "selected": false,
           "class_name": "prem",
           "details": true,
-          "main_role": "Battleship"
+          "rank": "VI",
+          "research_country": "Great Britain",
+          "main_role": "Battleship",
+          "is_component": false,
+          "component_of": null,
+          "is_premium": true,
+          "is_squadron": false,
+          "wiki": {
+            "url": "https://wiki.warthunder.com/unit/uk_battleship_nelson",
+            "rank": "VI",
+            "battle_rating_context": "default",
+            "battle_ratings": {
+              "AB": "7.7",
+              "RB": "7.7"
+            },
+            "battle_ratings_by_battle": {
+              "default": {
+                "AB": "7.7",
+                "RB": "7.7"
+              }
+            },
+            "research": null,
+            "purchase": null,
+            "purchase_currency": null,
+            "status": "Premium vehicle",
+            "fetched_at": "2026-09-19T06:32:25.453Z",
+            "sha256": "bd28e286f2fbb628b7844f3f395d5de82afa588e53d3f02d5a30aeaf43e3ff99"
+          }
         }
       ],
       []
     ],
     "selected": [],
-    "unlock_quantity": 0
+    "unlock_quantity": null,
+    "source": "wiki"
   },
   {
     "rank": "VII",
@@ -855,19 +2423,89 @@
       [
         {
           "type": "single",
-          "title": "HMS Vanguard",
+          "title": "HMS Vanguard",
           "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/uk_battleship_vanguard.png",
           "br": "8.3",
-          "rp": "400,000",
-          "sp": "1,150,000",
+          "rp": 400000,
+          "sp": 1150000,
           "data_unit_id": "uk_battleship_vanguard",
+          "required_unit_id": "uk_battleship_q_elizabet_class_warspite",
           "selected": false,
           "class_name": "",
           "details": true,
-          "main_role": "Battleship"
+          "rank": "VII",
+          "research_country": "Great Britain",
+          "main_role": "Battleship",
+          "is_component": false,
+          "component_of": null,
+          "is_premium": false,
+          "is_squadron": false,
+          "wiki": {
+            "url": "https://wiki.warthunder.com/unit/uk_battleship_vanguard",
+            "rank": "VII",
+            "battle_rating_context": "default",
+            "battle_ratings": {
+              "AB": "8.3",
+              "RB": "8.3"
+            },
+            "battle_ratings_by_battle": {
+              "default": {
+                "AB": "8.3",
+                "RB": "8.3"
+              }
+            },
+            "research": "400,000",
+            "purchase": "1,150,000",
+            "purchase_currency": "SL",
+            "status": null,
+            "fetched_at": "2026-09-19T06:32:26.138Z",
+            "sha256": "2adbf1d6aabbde8c56b6a9194d9ff8114c7c109b15053dbd4449711eede683af"
+          }
         }
       ],
-      [],
+      [
+        {
+          "type": "single",
+          "title": "HMS Lion",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/uk_battleship_lion_class.png",
+          "br": "8.7",
+          "rp": 410000,
+          "sp": 1190000,
+          "data_unit_id": "uk_battleship_lion_class",
+          "required_unit_id": "uk_battleship_prince_of_wales",
+          "selected": false,
+          "class_name": "",
+          "details": true,
+          "rank": "VII",
+          "research_country": "Great Britain",
+          "main_role": "Battleship",
+          "is_component": false,
+          "component_of": null,
+          "is_premium": false,
+          "is_squadron": false,
+          "wiki": {
+            "url": "https://wiki.warthunder.com/unit/uk_battleship_lion_class",
+            "rank": "VII",
+            "battle_rating_context": "default",
+            "battle_ratings": {
+              "AB": "8.7",
+              "RB": "8.7"
+            },
+            "battle_ratings_by_battle": {
+              "default": {
+                "AB": "8.7",
+                "RB": "8.7"
+              }
+            },
+            "research": "410,000",
+            "purchase": "1,190,000",
+            "purchase_currency": "SL",
+            "status": null,
+            "fetched_at": "2026-09-19T06:32:25.362Z",
+            "sha256": "1d4d6f0d0d00e7f1ef9f552429a7e04a7c536c7e40e6bb2427f5d4d24a8bd649"
+          }
+        }
+      ],
       []
     ],
     "premium_vehicles": [
@@ -875,6 +2513,7 @@
       []
     ],
     "selected": [],
-    "unlock_quantity": 0
+    "unlock_quantity": null,
+    "source": "wiki"
   }
 ]

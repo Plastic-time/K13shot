@@ -5,16 +5,46 @@
       [
         {
           "type": "single",
-          "title": "␗M8 LAC",
+          "title": "␗M8 LAC",
           "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/cn_m8_greyhound.png",
           "br": "1.0",
-          "rp": null,
-          "sp": null,
+          "rp": 0,
+          "sp": 0,
           "data_unit_id": "cn_m8_greyhound",
+          "required_unit_id": "",
           "selected": false,
           "class_name": "",
           "details": true,
-          "main_role": "Light tank"
+          "rank": "I",
+          "research_country": "China",
+          "main_role": "Light tank",
+          "is_component": false,
+          "component_of": null,
+          "is_premium": false,
+          "is_squadron": false,
+          "wiki": {
+            "url": "https://wiki.warthunder.com/unit/cn_m8_greyhound",
+            "rank": "I",
+            "battle_rating_context": "default",
+            "battle_ratings": {
+              "AB": "1.0",
+              "RB": "1.0",
+              "SB": "1.0"
+            },
+            "battle_ratings_by_battle": {
+              "default": {
+                "AB": "1.0",
+                "RB": "1.0",
+                "SB": "1.0"
+              }
+            },
+            "research": "Free",
+            "purchase": "Free",
+            "purchase_currency": "SL",
+            "status": null,
+            "fetched_at": "2026-09-19T06:28:55.738Z",
+            "sha256": "1e5c6b312b08ee40c9f45719fbbd2b5bcd5bf63008efdcc7ce955f7916e8061b"
+          }
         }
       ],
       [
@@ -23,26 +53,86 @@
           "title": "␗T-26",
           "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/cn_t_26_1940.png",
           "br": "1.0",
-          "rp": null,
-          "sp": null,
+          "rp": 0,
+          "sp": 0,
           "data_unit_id": "cn_t_26_1940",
+          "required_unit_id": "",
           "selected": false,
           "class_name": "",
           "details": true,
-          "main_role": "Light tank"
+          "rank": "I",
+          "research_country": "China",
+          "main_role": "Light tank",
+          "is_component": false,
+          "component_of": null,
+          "is_premium": false,
+          "is_squadron": false,
+          "wiki": {
+            "url": "https://wiki.warthunder.com/unit/cn_t_26_1940",
+            "rank": "I",
+            "battle_rating_context": "default",
+            "battle_ratings": {
+              "AB": "1.0",
+              "RB": "1.0",
+              "SB": "1.0"
+            },
+            "battle_ratings_by_battle": {
+              "default": {
+                "AB": "1.0",
+                "RB": "1.0",
+                "SB": "1.0"
+              }
+            },
+            "research": "Free",
+            "purchase": "Free",
+            "purchase_currency": "SL",
+            "status": null,
+            "fetched_at": "2026-09-19T06:28:58.451Z",
+            "sha256": "ad93e791e2d56da612742ccef5518562ebdc493519bd598301b85398a12089c5"
+          }
         },
         {
           "type": "single",
           "title": "␗Chi-Ha",
           "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/cn_type_97_chi_ha.png",
           "br": "1.3",
-          "rp": "2,900",
-          "sp": "700",
+          "rp": 2900,
+          "sp": 700,
           "data_unit_id": "cn_type_97_chi_ha",
+          "required_unit_id": "cn_t_26_1940",
           "selected": false,
           "class_name": "",
           "details": true,
-          "main_role": "Medium tank"
+          "rank": "I",
+          "research_country": "China",
+          "main_role": "Medium tank",
+          "is_component": false,
+          "component_of": null,
+          "is_premium": false,
+          "is_squadron": false,
+          "wiki": {
+            "url": "https://wiki.warthunder.com/unit/cn_type_97_chi_ha",
+            "rank": "I",
+            "battle_rating_context": "default",
+            "battle_ratings": {
+              "AB": "1.3",
+              "RB": "1.3",
+              "SB": "1.3"
+            },
+            "battle_ratings_by_battle": {
+              "default": {
+                "AB": "1.3",
+                "RB": "1.3",
+                "SB": "1.3"
+              }
+            },
+            "research": "2,900",
+            "purchase": "700",
+            "purchase_currency": "SL",
+            "status": null,
+            "fetched_at": "2026-09-19T06:29:00.545Z",
+            "sha256": "d12dc3236734aaca9e2e812957eb56787c0ac8140b0499f0d5fc087a2c0f2efe"
+          }
         }
       ],
       [
@@ -51,41 +141,131 @@
           "title": "␗Sd.Kfz.222",
           "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/cn_sdkfz_222_early.png",
           "br": "1.3",
-          "rp": "2,900",
-          "sp": "700",
+          "rp": 2900,
+          "sp": 700,
           "data_unit_id": "cn_sdkfz_222_early",
+          "required_unit_id": "",
           "selected": false,
           "class_name": "",
           "details": true,
-          "main_role": "SPAA"
+          "rank": "I",
+          "research_country": "China",
+          "main_role": "SPAA",
+          "is_component": false,
+          "component_of": null,
+          "is_premium": false,
+          "is_squadron": false,
+          "wiki": {
+            "url": "https://wiki.warthunder.com/unit/cn_sdkfz_222_early",
+            "rank": "I",
+            "battle_rating_context": "default",
+            "battle_ratings": {
+              "AB": "1.3",
+              "RB": "1.3",
+              "SB": "1.3"
+            },
+            "battle_ratings_by_battle": {
+              "default": {
+                "AB": "1.3",
+                "RB": "1.3",
+                "SB": "1.3"
+              }
+            },
+            "research": "2,900",
+            "purchase": "700",
+            "purchase_currency": "SL",
+            "status": null,
+            "fetched_at": "2026-09-19T06:28:58.056Z",
+            "sha256": "ca8c804f88baec32f32e490826562d372e050212e118c2a1e629abd6b56e85b4"
+          }
         }
       ],
       [
         {
           "type": "single",
-          "title": "␗M8 HMC",
+          "title": "␗M8 HMC",
           "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/cn_m8_scott.png",
           "br": "1.3",
-          "rp": "2,900",
-          "sp": "700",
+          "rp": 2900,
+          "sp": 700,
           "data_unit_id": "cn_m8_scott",
+          "required_unit_id": "",
           "selected": false,
           "class_name": "",
           "details": true,
-          "main_role": "Tank destroyer"
+          "rank": "I",
+          "research_country": "China",
+          "main_role": "Tank destroyer",
+          "is_component": false,
+          "component_of": null,
+          "is_premium": false,
+          "is_squadron": false,
+          "wiki": {
+            "url": "https://wiki.warthunder.com/unit/cn_m8_scott",
+            "rank": "I",
+            "battle_rating_context": "default",
+            "battle_ratings": {
+              "AB": "1.3",
+              "RB": "1.3",
+              "SB": "1.3"
+            },
+            "battle_ratings_by_battle": {
+              "default": {
+                "AB": "1.3",
+                "RB": "1.3",
+                "SB": "1.3"
+              }
+            },
+            "research": "2,900",
+            "purchase": "700",
+            "purchase_currency": "SL",
+            "status": null,
+            "fetched_at": "2026-09-19T06:28:56.079Z",
+            "sha256": "212ec3bfdfc01d5ec4ac9a7a73f7fd92f2de068fab149275d0baf217475f89bc"
+          }
         },
         {
           "type": "single",
           "title": "␗SU-76M",
           "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/cn_su_76m_1943.png",
           "br": "2.0",
-          "rp": "5,900",
-          "sp": "6,300",
+          "rp": 5900,
+          "sp": 6300,
           "data_unit_id": "cn_su_76m_1943",
+          "required_unit_id": "cn_m8_scott",
           "selected": false,
           "class_name": "",
           "details": true,
-          "main_role": "Tank destroyer"
+          "rank": "I",
+          "research_country": "China",
+          "main_role": "Tank destroyer",
+          "is_component": false,
+          "component_of": null,
+          "is_premium": false,
+          "is_squadron": false,
+          "wiki": {
+            "url": "https://wiki.warthunder.com/unit/cn_su_76m_1943",
+            "rank": "I",
+            "battle_rating_context": "default",
+            "battle_ratings": {
+              "AB": "2.0",
+              "RB": "2.0",
+              "SB": "2.0"
+            },
+            "battle_ratings_by_battle": {
+              "default": {
+                "AB": "2.0",
+                "RB": "2.0",
+                "SB": "2.0"
+              }
+            },
+            "research": "5,900",
+            "purchase": "6,300",
+            "purchase_currency": "SL",
+            "status": null,
+            "fetched_at": "2026-09-19T06:28:58.326Z",
+            "sha256": "fe1ba4f663bce9a54b807c3fefc1d81e039929818b5fb89ea4bb12e403ae1b30"
+          }
         }
       ]
     ],
@@ -93,22 +273,53 @@
       [
         {
           "type": "single",
-          "title": "T-26 No.531",
+          "title": "T-26 No.531",
           "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/cn_t_26_no531.png",
           "br": "1.0",
           "rp": 0,
           "sp": 0,
           "data_unit_id": "cn_t_26_no531",
+          "required_unit_id": "",
           "selected": false,
           "class_name": "prem",
           "details": true,
-          "main_role": "Light tank"
+          "rank": "I",
+          "research_country": "China",
+          "main_role": "Light tank",
+          "is_component": false,
+          "component_of": null,
+          "is_premium": true,
+          "is_squadron": false,
+          "wiki": {
+            "url": "https://wiki.warthunder.com/unit/cn_t_26_no531",
+            "rank": "I",
+            "battle_rating_context": "default",
+            "battle_ratings": {
+              "AB": "1.0",
+              "RB": "1.0",
+              "SB": "1.0"
+            },
+            "battle_ratings_by_battle": {
+              "default": {
+                "AB": "1.0",
+                "RB": "1.0",
+                "SB": "1.0"
+              }
+            },
+            "research": null,
+            "purchase": "250",
+            "purchase_currency": "GE",
+            "status": "Premium vehicle",
+            "fetched_at": "2026-09-19T06:28:58.538Z",
+            "sha256": "83c28f58141008e47d2051381820dc1c1821a9bf7209f5c369dd54a963458809"
+          }
         }
       ],
       []
     ],
     "selected": [],
-    "unlock_quantity": 0
+    "unlock_quantity": null,
+    "source": "wiki"
   },
   {
     "rank": "II",
@@ -121,120 +332,320 @@
           "selected": false,
           "br": "2.7",
           "data_unit_id": "cn_m3_m5_stuart_group",
+          "required_unit_id": "",
           "class_name": "",
           "items": [
             {
               "type": "single",
-              "title": "␗M3A3 Stuart",
+              "title": "␗M3A3 Stuart",
               "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/cn_m3a3_stuart.png",
               "br": "2.7",
-              "rp": "9,200",
-              "sp": "16,000",
+              "rp": 9200,
+              "sp": 16000,
               "data_unit_id": "cn_m3a3_stuart",
+              "required_unit_id": "",
               "selected": false,
               "class_name": "",
               "details": true,
-              "main_role": "Light tank"
+              "rank": "II",
+              "research_country": "China",
+              "main_role": "Light tank",
+              "is_component": false,
+              "component_of": null,
+              "is_premium": false,
+              "is_squadron": false,
+              "wiki": {
+                "url": "https://wiki.warthunder.com/unit/cn_m3a3_stuart",
+                "rank": "II",
+                "battle_rating_context": "default",
+                "battle_ratings": {
+                  "AB": "2.7",
+                  "RB": "2.7",
+                  "SB": "2.7"
+                },
+                "battle_ratings_by_battle": {
+                  "default": {
+                    "AB": "2.7",
+                    "RB": "2.7",
+                    "SB": "2.7"
+                  }
+                },
+                "research": "9,200",
+                "purchase": "16,000",
+                "purchase_currency": "SL",
+                "status": null,
+                "fetched_at": "2026-09-19T06:28:54.862Z",
+                "sha256": "0d305b957a9ca008d734294917bd684889a379ff7605f64e0bc31d55cf908198"
+              }
             },
             {
               "type": "single",
               "title": "␗M5A1",
               "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/cn_m5a1_stuart.png",
               "br": "2.7",
-              "rp": "5,600",
-              "sp": "22,000",
+              "rp": 5600,
+              "sp": 22000,
               "data_unit_id": "cn_m5a1_stuart",
+              "required_unit_id": "cn_m3a3_stuart",
               "selected": false,
               "class_name": "",
               "details": true,
-              "main_role": "Light tank"
+              "rank": "II",
+              "research_country": "China",
+              "main_role": "Light tank",
+              "is_component": false,
+              "component_of": null,
+              "is_premium": false,
+              "is_squadron": false,
+              "wiki": {
+                "url": "https://wiki.warthunder.com/unit/cn_m5a1_stuart",
+                "rank": "II",
+                "battle_rating_context": "default",
+                "battle_ratings": {
+                  "AB": "2.7",
+                  "RB": "2.7",
+                  "SB": "2.7"
+                },
+                "battle_ratings_by_battle": {
+                  "default": {
+                    "AB": "2.7",
+                    "RB": "2.7",
+                    "SB": "2.7"
+                  }
+                },
+                "research": "5,600",
+                "purchase": "22,000",
+                "purchase_currency": "SL",
+                "status": null,
+                "fetched_at": "2026-09-19T06:28:55.692Z",
+                "sha256": "9d38773c69bfb9ea94568ba55ee32f7572686b69ff4b0590e3c79270ae50748d"
+              }
             }
           ],
-          "details": true
-        },
-        {
-          "type": "single",
-          "title": "␗M24",
-          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/cn_m24_chaffee.png",
-          "br": "3.7",
-          "rp": "14,000",
-          "sp": "32,000",
-          "data_unit_id": "cn_m24_chaffee",
-          "selected": false,
-          "class_name": "",
           "details": true,
-          "main_role": "Light tank"
+          "rp": 14800,
+          "sp": 38000
         }
       ],
       [
         {
           "type": "single",
-          "title": "␗Chi-Ha Kai",
+          "title": "␗Chi-Ha Kai",
           "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/cn_type_97_kai.png",
           "br": "2.3",
-          "rp": "7,900",
-          "sp": "10,000",
+          "rp": 7900,
+          "sp": 10000,
           "data_unit_id": "cn_type_97_kai",
+          "required_unit_id": "",
           "selected": false,
           "class_name": "",
           "details": true,
-          "main_role": "Medium tank"
+          "rank": "II",
+          "research_country": "China",
+          "main_role": "Medium tank",
+          "is_component": false,
+          "component_of": null,
+          "is_premium": false,
+          "is_squadron": false,
+          "wiki": {
+            "url": "https://wiki.warthunder.com/unit/cn_type_97_kai",
+            "rank": "II",
+            "battle_rating_context": "default",
+            "battle_ratings": {
+              "AB": "2.3",
+              "RB": "2.3",
+              "SB": "2.3"
+            },
+            "battle_ratings_by_battle": {
+              "default": {
+                "AB": "2.3",
+                "RB": "2.3",
+                "SB": "2.3"
+              }
+            },
+            "research": "7,900",
+            "purchase": "10,000",
+            "purchase_currency": "SL",
+            "status": null,
+            "fetched_at": "2026-09-19T06:29:00.488Z",
+            "sha256": "f3deeb3dde8b02da4a8c3f9727560ca8fe45219f8311ac4b255088b5c2987c42"
+          }
         },
         {
           "type": "single",
           "title": "␗M4A4",
           "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/cn_m4a4_sherman.png",
           "br": "3.7",
-          "rp": "14,000",
-          "sp": "32,000",
+          "rp": 14000,
+          "sp": 32000,
           "data_unit_id": "cn_m4a4_sherman",
+          "required_unit_id": "cn_type_97_kai",
           "selected": false,
           "class_name": "",
           "details": true,
-          "main_role": "Medium tank"
+          "rank": "II",
+          "research_country": "China",
+          "main_role": "Medium tank",
+          "is_component": false,
+          "component_of": null,
+          "is_premium": false,
+          "is_squadron": false,
+          "wiki": {
+            "url": "https://wiki.warthunder.com/unit/cn_m4a4_sherman",
+            "rank": "II",
+            "battle_rating_context": "default",
+            "battle_ratings": {
+              "AB": "3.7",
+              "RB": "3.7",
+              "SB": "3.7"
+            },
+            "battle_ratings_by_battle": {
+              "default": {
+                "AB": "3.7",
+                "RB": "3.7",
+                "SB": "3.7"
+              }
+            },
+            "research": "14,000",
+            "purchase": "32,000",
+            "purchase_currency": "SL",
+            "status": null,
+            "fetched_at": "2026-09-19T06:28:55.366Z",
+            "sha256": "0f356763e7087ab6615389c81a25e907fbf1f7b164080531593436dbf6e7e2f0"
+          }
         }
       ],
       [
         {
           "type": "single",
-          "title": "CCKW 353 (M45)",
+          "title": "CCKW 353 (M45)",
           "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/cn_gmc_cckw_353_m45_quad.png",
           "br": "2.3",
-          "rp": "7,900",
-          "sp": "10,000",
+          "rp": 7900,
+          "sp": 10000,
           "data_unit_id": "cn_gmc_cckw_353_m45_quad",
+          "required_unit_id": "",
           "selected": false,
           "class_name": "",
           "details": true,
-          "main_role": "SPAA"
+          "rank": "II",
+          "research_country": "China",
+          "main_role": "SPAA",
+          "is_component": false,
+          "component_of": null,
+          "is_premium": false,
+          "is_squadron": false,
+          "wiki": {
+            "url": "https://wiki.warthunder.com/unit/cn_gmc_cckw_353_m45_quad",
+            "rank": "II",
+            "battle_rating_context": "default",
+            "battle_ratings": {
+              "AB": "2.3",
+              "RB": "2.3",
+              "SB": "2.3"
+            },
+            "battle_ratings_by_battle": {
+              "default": {
+                "AB": "2.3",
+                "RB": "2.3",
+                "SB": "2.3"
+              }
+            },
+            "research": "7,900",
+            "purchase": "10,000",
+            "purchase_currency": "SL",
+            "status": null,
+            "fetched_at": "2026-09-19T06:28:53.291Z",
+            "sha256": "8251885dc4c685dbb28780781b2971640b3afcea8f238f922c7bf19e6175ddfe"
+          }
         }
       ],
       [
         {
           "type": "single",
-          "title": "LVT(A)(4) (ZiS-2)",
+          "title": "LVT(A)(4) (ZiS-2)",
           "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/cn_lvt_4_zis_2.png",
           "br": "2.3",
-          "rp": "7,900",
-          "sp": "10,000",
+          "rp": 7900,
+          "sp": 10000,
           "data_unit_id": "cn_lvt_4_zis_2",
+          "required_unit_id": "",
           "selected": false,
           "class_name": "",
           "details": true,
-          "main_role": "Tank destroyer"
+          "rank": "II",
+          "research_country": "China",
+          "main_role": "Tank destroyer",
+          "is_component": false,
+          "component_of": null,
+          "is_premium": false,
+          "is_squadron": false,
+          "wiki": {
+            "url": "https://wiki.warthunder.com/unit/cn_lvt_4_zis_2",
+            "rank": "II",
+            "battle_rating_context": "default",
+            "battle_ratings": {
+              "AB": "2.3",
+              "RB": "2.3",
+              "SB": "2.3"
+            },
+            "battle_ratings_by_battle": {
+              "default": {
+                "AB": "2.3",
+                "RB": "2.3",
+                "SB": "2.3"
+              }
+            },
+            "research": "7,900",
+            "purchase": "10,000",
+            "purchase_currency": "SL",
+            "status": null,
+            "fetched_at": "2026-09-19T06:28:53.981Z",
+            "sha256": "712f155e2873efa8fd40df3062138cc7836df067ec7e95c334f5230147762a2d"
+          }
         },
         {
           "type": "single",
-          "title": "␗M10 GMC",
+          "title": "␗M10 GMC",
           "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/cn_m10.png",
           "br": "3.3",
-          "rp": "11,000",
-          "sp": "22,000",
+          "rp": 11000,
+          "sp": 22000,
           "data_unit_id": "cn_m10",
+          "required_unit_id": "cn_lvt_4_zis_2",
           "selected": false,
           "class_name": "",
           "details": true,
-          "main_role": "Tank destroyer"
+          "rank": "II",
+          "research_country": "China",
+          "main_role": "Tank destroyer",
+          "is_component": false,
+          "component_of": null,
+          "is_premium": false,
+          "is_squadron": false,
+          "wiki": {
+            "url": "https://wiki.warthunder.com/unit/cn_m10",
+            "rank": "II",
+            "battle_rating_context": "default",
+            "battle_ratings": {
+              "AB": "3.7",
+              "RB": "3.3",
+              "SB": "3.3"
+            },
+            "battle_ratings_by_battle": {
+              "default": {
+                "AB": "3.7",
+                "RB": "3.3",
+                "SB": "3.3"
+              }
+            },
+            "research": "11,000",
+            "purchase": "22,000",
+            "purchase_currency": "SL",
+            "status": null,
+            "fetched_at": "2026-09-19T06:28:54.276Z",
+            "sha256": "cb4a83de1d45a8f4c35ffb31129046cbcca802237c7edda47fe90416b25336d6"
+          }
         }
       ]
     ],
@@ -242,40 +653,144 @@
       [
         {
           "type": "single",
-          "title": "␗M3A3 (1st PTG)",
+          "title": "␗M3A3 (1st PTG)",
           "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/cn_m3a3_stuart_1st_ptg.png",
           "br": "2.7",
           "rp": 0,
           "sp": 0,
           "data_unit_id": "cn_m3a3_stuart_1st_ptg",
+          "required_unit_id": "",
           "selected": false,
           "class_name": "prem",
           "details": true,
-          "main_role": "Light tank"
+          "rank": "II",
+          "research_country": "China",
+          "main_role": "Light tank",
+          "is_component": false,
+          "component_of": null,
+          "is_premium": true,
+          "is_squadron": false,
+          "wiki": {
+            "url": "https://wiki.warthunder.com/unit/cn_m3a3_stuart_1st_ptg",
+            "rank": "II",
+            "battle_rating_context": "default",
+            "battle_ratings": {
+              "AB": "2.7",
+              "RB": "2.7",
+              "SB": "2.7"
+            },
+            "battle_ratings_by_battle": {
+              "default": {
+                "AB": "2.7",
+                "RB": "2.7",
+                "SB": "2.7"
+              }
+            },
+            "research": null,
+            "purchase": "700",
+            "purchase_currency": "GE",
+            "status": "Premium vehicle",
+            "fetched_at": "2026-09-19T06:28:54.703Z",
+            "sha256": "6cadc2e49eafc9c76b105770dadf636350312cf36da3a7be7986fdb391ade734"
+          }
         },
         {
           "type": "single",
-          "title": "␗M4A4 (1st PTG)",
+          "title": "␗M4A4 (1st PTG)",
           "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/cn_m4a4_sherman_1st_ptg.png",
           "br": "3.7",
           "rp": 0,
           "sp": 0,
           "data_unit_id": "cn_m4a4_sherman_1st_ptg",
+          "required_unit_id": "",
           "selected": false,
           "class_name": "prem",
           "details": true,
-          "main_role": "Medium tank"
+          "rank": "II",
+          "research_country": "China",
+          "main_role": "Medium tank",
+          "is_component": false,
+          "component_of": null,
+          "is_premium": true,
+          "is_squadron": false,
+          "wiki": {
+            "url": "https://wiki.warthunder.com/unit/cn_m4a4_sherman_1st_ptg",
+            "rank": "II",
+            "battle_rating_context": "default",
+            "battle_ratings": {
+              "AB": "3.7",
+              "RB": "3.7",
+              "SB": "3.7"
+            },
+            "battle_ratings_by_battle": {
+              "default": {
+                "AB": "3.7",
+                "RB": "3.7",
+                "SB": "3.7"
+              }
+            },
+            "research": null,
+            "purchase": "1,300",
+            "purchase_currency": "GE",
+            "status": "Premium vehicle",
+            "fetched_at": "2026-09-19T06:28:55.428Z",
+            "sha256": "1a37a733e31146601f0a0d2111fbe300ffa9089ac7f0f2acac2eff3e1c9936eb"
+          }
         }
       ],
       []
     ],
     "selected": [],
-    "unlock_quantity": 0
+    "unlock_quantity": null,
+    "source": "wiki"
   },
   {
     "rank": "III",
     "researchable_vehicles": [
       [
+        {
+          "type": "single",
+          "title": "␗M24",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/cn_m24_chaffee.png",
+          "br": "4.0",
+          "rp": 18000,
+          "sp": 47000,
+          "data_unit_id": "cn_m24_chaffee",
+          "required_unit_id": "cn_m3_m5_stuart_group",
+          "selected": false,
+          "class_name": "",
+          "details": true,
+          "rank": "III",
+          "research_country": "China",
+          "main_role": "Light tank",
+          "is_component": false,
+          "component_of": null,
+          "is_premium": false,
+          "is_squadron": false,
+          "wiki": {
+            "url": "https://wiki.warthunder.com/unit/cn_m24_chaffee",
+            "rank": "III",
+            "battle_rating_context": "default",
+            "battle_ratings": {
+              "AB": "3.7",
+              "RB": "4.0",
+              "SB": "4.0"
+            },
+            "battle_ratings_by_battle": {
+              "default": {
+                "AB": "3.7",
+                "RB": "4.0",
+                "SB": "4.0"
+              }
+            },
+            "research": "18,000",
+            "purchase": "47,000",
+            "purchase_currency": "SL",
+            "status": null,
+            "fetched_at": "2026-09-19T06:28:54.523Z",
+            "sha256": "1785d24f19d1941814b9720f37e0874e5fd39f596d8875bd8221eb35c9645114"
+          }
+        },
         {
           "type": "multiple",
           "title": "Object 211",
@@ -283,20 +798,51 @@
           "selected": false,
           "br": "5.0",
           "data_unit_id": "cn_76_211_group",
+          "required_unit_id": "cn_m24_chaffee",
           "class_name": "",
           "items": [
             {
               "type": "single",
-              "title": "Object 211",
+              "title": "Object 211",
               "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/cn_object_211.png",
               "br": "5.0",
-              "rp": "33,000",
-              "sp": "105,000",
+              "rp": 33000,
+              "sp": 105000,
               "data_unit_id": "cn_object_211",
+              "required_unit_id": "",
               "selected": false,
               "class_name": "",
               "details": true,
-              "main_role": "Light tank"
+              "rank": "III",
+              "research_country": "China",
+              "main_role": "Light tank",
+              "is_component": false,
+              "component_of": null,
+              "is_premium": false,
+              "is_squadron": false,
+              "wiki": {
+                "url": "https://wiki.warthunder.com/unit/cn_object_211",
+                "rank": "III",
+                "battle_rating_context": "default",
+                "battle_ratings": {
+                  "AB": "5.0",
+                  "RB": "5.0",
+                  "SB": "5.0"
+                },
+                "battle_ratings_by_battle": {
+                  "default": {
+                    "AB": "5.0",
+                    "RB": "5.0",
+                    "SB": "5.0"
+                  }
+                },
+                "research": "33,000",
+                "purchase": "105,000",
+                "purchase_currency": "SL",
+                "status": null,
+                "fetched_at": "2026-09-19T06:28:56.339Z",
+                "sha256": "0837dfae49573a2aad4c9e923c5d576a20615f251cae41f31eebde75a0bb1250"
+              }
             },
             {
               "type": "single",
@@ -306,13 +852,45 @@
               "rp": null,
               "sp": null,
               "data_unit_id": "cn_pt_76",
+              "required_unit_id": "",
               "selected": false,
               "class_name": "",
               "details": true,
-              "main_role": "Light tank"
+              "rank": "III",
+              "research_country": "China",
+              "main_role": "Light tank",
+              "is_component": false,
+              "component_of": null,
+              "is_premium": false,
+              "is_squadron": false,
+              "wiki": {
+                "url": "https://wiki.warthunder.com/unit/cn_pt_76",
+                "rank": "III",
+                "battle_rating_context": "default",
+                "battle_ratings": {
+                  "AB": "5.0",
+                  "RB": "5.0",
+                  "SB": "5.0"
+                },
+                "battle_ratings_by_battle": {
+                  "default": {
+                    "AB": "5.0",
+                    "RB": "5.0",
+                    "SB": "5.0"
+                  }
+                },
+                "research": null,
+                "purchase": null,
+                "purchase_currency": null,
+                "status": null,
+                "fetched_at": "2026-09-19T06:28:57.630Z",
+                "sha256": "256d2cc19e4863d28ecb70b5539a381cd9dd7a3993375dc6d1bf92ce87e42d85"
+              }
             }
           ],
-          "details": true
+          "details": true,
+          "rp": null,
+          "sp": null
         }
       ],
       [
@@ -323,36 +901,99 @@
           "selected": false,
           "br": "4.0",
           "data_unit_id": "cn_t_34_m4_group",
+          "required_unit_id": "cn_m4a4_sherman",
           "class_name": "",
           "items": [
             {
               "type": "single",
-              "title": "␗T-34 (1943)",
+              "title": "␗T-34 (1943)",
               "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/cn_t_34_1942.png",
               "br": "4.0",
-              "rp": "18,000",
-              "sp": "47,000",
+              "rp": 18000,
+              "sp": 47000,
               "data_unit_id": "cn_t_34_1942",
+              "required_unit_id": "",
               "selected": false,
               "class_name": "",
               "details": true,
-              "main_role": "Medium tank"
+              "rank": "III",
+              "research_country": "China",
+              "main_role": "Medium tank",
+              "is_component": false,
+              "component_of": null,
+              "is_premium": false,
+              "is_squadron": false,
+              "wiki": {
+                "url": "https://wiki.warthunder.com/unit/cn_t_34_1942",
+                "rank": "III",
+                "battle_rating_context": "default",
+                "battle_ratings": {
+                  "AB": "4.0",
+                  "RB": "4.0",
+                  "SB": "4.0"
+                },
+                "battle_ratings_by_battle": {
+                  "default": {
+                    "AB": "4.0",
+                    "RB": "4.0",
+                    "SB": "4.0"
+                  }
+                },
+                "research": "18,000",
+                "purchase": "47,000",
+                "purchase_currency": "SL",
+                "status": null,
+                "fetched_at": "2026-09-19T06:28:58.584Z",
+                "sha256": "b41a8348b9978611c8e2065f7c9e1338792c5ff363830224bc8c0f9ba70e3da3"
+              }
             },
             {
               "type": "single",
-              "title": "␗M4A1 (75) W",
+              "title": "␗M4A1 (75) W",
               "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/cn_m4a1_76w_sherman.png",
               "br": "4.0",
-              "rp": "13,000",
-              "sp": "76,000",
+              "rp": 13000,
+              "sp": 76000,
               "data_unit_id": "cn_m4a1_76w_sherman",
+              "required_unit_id": "cn_t_34_1942",
               "selected": false,
               "class_name": "",
               "details": true,
-              "main_role": "Medium tank"
+              "rank": "III",
+              "research_country": "China",
+              "main_role": "Medium tank",
+              "is_component": false,
+              "component_of": null,
+              "is_premium": false,
+              "is_squadron": false,
+              "wiki": {
+                "url": "https://wiki.warthunder.com/unit/cn_m4a1_76w_sherman",
+                "rank": "III",
+                "battle_rating_context": "default",
+                "battle_ratings": {
+                  "AB": "4.0",
+                  "RB": "4.0",
+                  "SB": "4.0"
+                },
+                "battle_ratings_by_battle": {
+                  "default": {
+                    "AB": "4.0",
+                    "RB": "4.0",
+                    "SB": "4.0"
+                  }
+                },
+                "research": "13,000",
+                "purchase": "76,000",
+                "purchase_currency": "SL",
+                "status": null,
+                "fetched_at": "2026-09-19T06:28:55.325Z",
+                "sha256": "ebee2d7ef6e9c695d47b17d1246bbc7d0c498a11fecc1d7263c29d38eefcbe5b"
+              }
             }
           ],
-          "details": true
+          "details": true,
+          "rp": 31000,
+          "sp": 123000
         },
         {
           "type": "multiple",
@@ -361,36 +1002,99 @@
           "selected": false,
           "br": "5.7",
           "data_unit_id": "cn_t_34_85_group",
+          "required_unit_id": "cn_t_34_m4_group",
           "class_name": "",
           "items": [
             {
               "type": "single",
-              "title": "␗T-34-85 (S-53)",
+              "title": "␗T-34-85 (S-53)",
               "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/cn_t_34_85_d_5t.png",
               "br": "5.7",
-              "rp": "33,000",
-              "sp": "105,000",
+              "rp": 33000,
+              "sp": 105000,
               "data_unit_id": "cn_t_34_85_d_5t",
+              "required_unit_id": "",
               "selected": false,
               "class_name": "",
               "details": true,
-              "main_role": "Medium tank"
+              "rank": "III",
+              "research_country": "China",
+              "main_role": "Medium tank",
+              "is_component": false,
+              "component_of": null,
+              "is_premium": false,
+              "is_squadron": false,
+              "wiki": {
+                "url": "https://wiki.warthunder.com/unit/cn_t_34_85_d_5t",
+                "rank": "III",
+                "battle_rating_context": "default",
+                "battle_ratings": {
+                  "AB": "5.7",
+                  "RB": "5.7",
+                  "SB": "5.7"
+                },
+                "battle_ratings_by_battle": {
+                  "default": {
+                    "AB": "5.7",
+                    "RB": "5.7",
+                    "SB": "5.7"
+                  }
+                },
+                "research": "33,000",
+                "purchase": "105,000",
+                "purchase_currency": "SL",
+                "status": null,
+                "fetched_at": "2026-09-19T06:28:58.570Z",
+                "sha256": "460b245f83b56107dee8edaed480c5374adff1178b15d278c4cafa8b3c87931c"
+              }
             },
             {
               "type": "single",
-              "title": "T-34-85 Gai",
+              "title": "T-34-85 Gai",
               "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/cn_type_58.png",
               "br": "5.7",
-              "rp": "20,000",
-              "sp": "135,000",
+              "rp": 20000,
+              "sp": 135000,
               "data_unit_id": "cn_type_58",
+              "required_unit_id": "cn_t_34_85_d_5t",
               "selected": false,
               "class_name": "",
               "details": true,
-              "main_role": "Medium tank"
+              "rank": "III",
+              "research_country": "China",
+              "main_role": "Medium tank",
+              "is_component": false,
+              "component_of": null,
+              "is_premium": false,
+              "is_squadron": false,
+              "wiki": {
+                "url": "https://wiki.warthunder.com/unit/cn_type_58",
+                "rank": "III",
+                "battle_rating_context": "default",
+                "battle_ratings": {
+                  "AB": "5.7",
+                  "RB": "5.7",
+                  "SB": "5.7"
+                },
+                "battle_ratings_by_battle": {
+                  "default": {
+                    "AB": "5.7",
+                    "RB": "5.7",
+                    "SB": "5.7"
+                  }
+                },
+                "research": "20,000",
+                "purchase": "135,000",
+                "purchase_currency": "SL",
+                "status": null,
+                "fetched_at": "2026-09-19T06:28:59.258Z",
+                "sha256": "20757a8ec83aa81f388e98baa62b694c57ee6c9f75bc64ef48a140ea0c22a27b"
+              }
             }
           ],
-          "details": true
+          "details": true,
+          "rp": 53000,
+          "sp": 240000
         }
       ],
       [
@@ -399,26 +1103,86 @@
           "title": "␗M42",
           "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/cn_m42_duster.png",
           "br": "4.0",
-          "rp": "18,000",
-          "sp": "47,000",
+          "rp": 18000,
+          "sp": 47000,
           "data_unit_id": "cn_m42_duster",
+          "required_unit_id": "cn_gmc_cckw_353_m45_quad",
           "selected": false,
           "class_name": "",
           "details": true,
-          "main_role": "SPAA"
+          "rank": "III",
+          "research_country": "China",
+          "main_role": "SPAA",
+          "is_component": false,
+          "component_of": null,
+          "is_premium": false,
+          "is_squadron": false,
+          "wiki": {
+            "url": "https://wiki.warthunder.com/unit/cn_m42_duster",
+            "rank": "III",
+            "battle_rating_context": "default",
+            "battle_ratings": {
+              "AB": "4.3",
+              "RB": "4.0",
+              "SB": "4.0"
+            },
+            "battle_ratings_by_battle": {
+              "default": {
+                "AB": "4.3",
+                "RB": "4.0",
+                "SB": "4.0"
+              }
+            },
+            "research": "18,000",
+            "purchase": "47,000",
+            "purchase_currency": "SL",
+            "status": null,
+            "fetched_at": "2026-09-19T06:28:54.903Z",
+            "sha256": "c81494db2f6c102edf470c5eba35d44fa030b736fda7f06dd2d61edd95e2ab94"
+          }
         },
         {
           "type": "single",
-          "title": "Phòng không T-34",
+          "title": "Phòng không T-34",
           "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/cn_type_65_aa.png",
           "br": "5.0",
-          "rp": "40,000",
-          "sp": "135,000",
+          "rp": 40000,
+          "sp": 135000,
           "data_unit_id": "cn_type_65_aa",
+          "required_unit_id": "cn_m42_duster",
           "selected": false,
           "class_name": "",
           "details": true,
-          "main_role": "SPAA"
+          "rank": "III",
+          "research_country": "China",
+          "main_role": "SPAA",
+          "is_component": false,
+          "component_of": null,
+          "is_premium": false,
+          "is_squadron": false,
+          "wiki": {
+            "url": "https://wiki.warthunder.com/unit/cn_type_65_aa",
+            "rank": "III",
+            "battle_rating_context": "default",
+            "battle_ratings": {
+              "AB": "5.7",
+              "RB": "5.0",
+              "SB": "5.0"
+            },
+            "battle_ratings_by_battle": {
+              "default": {
+                "AB": "5.7",
+                "RB": "5.0",
+                "SB": "5.0"
+              }
+            },
+            "research": "40,000",
+            "purchase": "135,000",
+            "purchase_currency": "SL",
+            "status": null,
+            "fetched_at": "2026-09-19T06:28:59.853Z",
+            "sha256": "e949ccce66e766b0730caf1bb6dec06d973b92ac82b250b5861c2af269f8c655"
+          }
         }
       ],
       [
@@ -426,27 +1190,87 @@
           "type": "single",
           "title": "␗M55",
           "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/cn_m55.png",
-          "br": "4.0",
-          "rp": "18,000",
-          "sp": "47,000",
+          "br": "3.7",
+          "rp": 18000,
+          "sp": 47000,
           "data_unit_id": "cn_m55",
+          "required_unit_id": "cn_m10",
           "selected": false,
           "class_name": "",
           "details": true,
-          "main_role": "Tank destroyer"
+          "rank": "III",
+          "research_country": "China",
+          "main_role": "Tank destroyer",
+          "is_component": false,
+          "component_of": null,
+          "is_premium": false,
+          "is_squadron": false,
+          "wiki": {
+            "url": "https://wiki.warthunder.com/unit/cn_m55",
+            "rank": "III",
+            "battle_rating_context": "default",
+            "battle_ratings": {
+              "AB": "3.7",
+              "RB": "3.7",
+              "SB": "3.7"
+            },
+            "battle_ratings_by_battle": {
+              "default": {
+                "AB": "3.7",
+                "RB": "3.7",
+                "SB": "3.7"
+              }
+            },
+            "research": "18,000",
+            "purchase": "47,000",
+            "purchase_currency": "SL",
+            "status": null,
+            "fetched_at": "2026-09-19T06:28:55.629Z",
+            "sha256": "fae4dcb632eb5f40608ad37a97b45f3f27ad2f1ebefa0adc812c832ba0f8c224"
+          }
         },
         {
           "type": "single",
           "title": "␗ISU-152",
           "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/cn_isu_152.png",
           "br": "4.7",
-          "rp": "26,000",
-          "sp": "76,000",
+          "rp": 26000,
+          "sp": 76000,
           "data_unit_id": "cn_isu_152",
+          "required_unit_id": "cn_m55",
           "selected": false,
           "class_name": "",
           "details": true,
-          "main_role": "Tank destroyer"
+          "rank": "III",
+          "research_country": "China",
+          "main_role": "Tank destroyer",
+          "is_component": false,
+          "component_of": null,
+          "is_premium": false,
+          "is_squadron": false,
+          "wiki": {
+            "url": "https://wiki.warthunder.com/unit/cn_isu_152",
+            "rank": "III",
+            "battle_rating_context": "default",
+            "battle_ratings": {
+              "AB": "4.7",
+              "RB": "4.7",
+              "SB": "4.7"
+            },
+            "battle_ratings_by_battle": {
+              "default": {
+                "AB": "4.7",
+                "RB": "4.7",
+                "SB": "4.7"
+              }
+            },
+            "research": "26,000",
+            "purchase": "76,000",
+            "purchase_currency": "SL",
+            "status": null,
+            "fetched_at": "2026-09-19T06:28:53.954Z",
+            "sha256": "2ca7bc29e441a0422eed3f1924e93b2cd826ab41d3bc0526355c2c6d47f3cc16"
+          }
         },
         {
           "type": "multiple",
@@ -455,36 +1279,99 @@
           "selected": false,
           "br": "5.3",
           "data_unit_id": "cn_m36_isu_group",
+          "required_unit_id": "cn_isu_152",
           "class_name": "",
           "items": [
             {
               "type": "single",
-              "title": "␗M36 GMC",
+              "title": "␗M36 GMC",
               "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/cn_m36.png",
               "br": "5.3",
-              "rp": "33,000",
-              "sp": "105,000",
+              "rp": 33000,
+              "sp": 105000,
               "data_unit_id": "cn_m36",
+              "required_unit_id": "",
               "selected": false,
               "class_name": "",
               "details": true,
-              "main_role": "Tank destroyer"
+              "rank": "III",
+              "research_country": "China",
+              "main_role": "Tank destroyer",
+              "is_component": false,
+              "component_of": null,
+              "is_premium": false,
+              "is_squadron": false,
+              "wiki": {
+                "url": "https://wiki.warthunder.com/unit/cn_m36",
+                "rank": "III",
+                "battle_rating_context": "default",
+                "battle_ratings": {
+                  "AB": "5.3",
+                  "RB": "5.3",
+                  "SB": "5.3"
+                },
+                "battle_ratings_by_battle": {
+                  "default": {
+                    "AB": "5.3",
+                    "RB": "5.3",
+                    "SB": "5.3"
+                  }
+                },
+                "research": "33,000",
+                "purchase": "105,000",
+                "purchase_currency": "SL",
+                "status": null,
+                "fetched_at": "2026-09-19T06:28:54.644Z",
+                "sha256": "d2a829d84bc7514e12d3b3bf071ddeca769b95e734f71daa1c684b4cf7b18cfb"
+              }
             },
             {
               "type": "single",
               "title": "␗ISU-122",
               "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/cn_isu_122.png",
               "br": "5.3",
-              "rp": "20,000",
-              "sp": "135,000",
+              "rp": 20000,
+              "sp": 135000,
               "data_unit_id": "cn_isu_122",
+              "required_unit_id": "cn_m36",
               "selected": false,
               "class_name": "",
               "details": true,
-              "main_role": "Tank destroyer"
+              "rank": "III",
+              "research_country": "China",
+              "main_role": "Tank destroyer",
+              "is_component": false,
+              "component_of": null,
+              "is_premium": false,
+              "is_squadron": false,
+              "wiki": {
+                "url": "https://wiki.warthunder.com/unit/cn_isu_122",
+                "rank": "III",
+                "battle_rating_context": "default",
+                "battle_ratings": {
+                  "AB": "5.3",
+                  "RB": "5.3",
+                  "SB": "5.3"
+                },
+                "battle_ratings_by_battle": {
+                  "default": {
+                    "AB": "5.3",
+                    "RB": "5.3",
+                    "SB": "5.3"
+                  }
+                },
+                "research": "20,000",
+                "purchase": "135,000",
+                "purchase_currency": "SL",
+                "status": null,
+                "fetched_at": "2026-09-19T06:28:53.835Z",
+                "sha256": "3b47f020689fe969544b7251f4735067de1a0ed7dc882ad96b903dabb7a6b6db"
+              }
             }
           ],
-          "details": true
+          "details": true,
+          "rp": 53000,
+          "sp": 240000
         }
       ]
     ],
@@ -498,16 +1385,47 @@
           "rp": 0,
           "sp": 0,
           "data_unit_id": "cn_m41_a3_walker_bulldog",
+          "required_unit_id": "",
           "selected": false,
           "class_name": "prem",
           "details": true,
-          "main_role": "Light tank"
+          "rank": "III",
+          "research_country": "China",
+          "main_role": "Light tank",
+          "is_component": false,
+          "component_of": null,
+          "is_premium": true,
+          "is_squadron": false,
+          "wiki": {
+            "url": "https://wiki.warthunder.com/unit/cn_m41_a3_walker_bulldog",
+            "rank": "III",
+            "battle_rating_context": "default",
+            "battle_ratings": {
+              "AB": "5.7",
+              "RB": "5.7",
+              "SB": "5.7"
+            },
+            "battle_ratings_by_battle": {
+              "default": {
+                "AB": "5.7",
+                "RB": "5.7",
+                "SB": "5.7"
+              }
+            },
+            "research": null,
+            "purchase": "2,980",
+            "purchase_currency": "GE",
+            "status": "Premium vehicle",
+            "fetched_at": "2026-09-19T06:28:54.983Z",
+            "sha256": "0099e867f3f95526c7a0b0a4f2f8b1f9b6197230e45c112b700e99bc550718d3"
+          }
         }
       ],
       []
     ],
     "selected": [],
-    "unlock_quantity": 0
+    "unlock_quantity": null,
+    "source": "wiki"
   },
   {
     "rank": "IV",
@@ -515,16 +1433,46 @@
       [
         {
           "type": "single",
-          "title": "␗M18 GMC",
+          "title": "␗M18 GMC",
           "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/cn_m18_hellcat.png",
           "br": "6.0",
-          "rp": "54,000",
-          "sp": "185,000",
+          "rp": 54000,
+          "sp": 185000,
           "data_unit_id": "cn_m18_hellcat",
+          "required_unit_id": "cn_76_211_group",
           "selected": false,
           "class_name": "",
           "details": true,
-          "main_role": "Light tank"
+          "rank": "IV",
+          "research_country": "China",
+          "main_role": "Light tank",
+          "is_component": false,
+          "component_of": null,
+          "is_premium": false,
+          "is_squadron": false,
+          "wiki": {
+            "url": "https://wiki.warthunder.com/unit/cn_m18_hellcat",
+            "rank": "IV",
+            "battle_rating_context": "default",
+            "battle_ratings": {
+              "AB": "5.3",
+              "RB": "6.0",
+              "SB": "6.0"
+            },
+            "battle_ratings_by_battle": {
+              "default": {
+                "AB": "5.3",
+                "RB": "6.0",
+                "SB": "6.0"
+              }
+            },
+            "research": "54,000",
+            "purchase": "185,000",
+            "purchase_currency": "SL",
+            "status": null,
+            "fetched_at": "2026-09-19T06:28:54.415Z",
+            "sha256": "a590706283c927167bba0967882fded1e99ee560b5ac28384e8cea727f300bfb"
+          }
         },
         {
           "type": "multiple",
@@ -533,36 +1481,99 @@
           "selected": false,
           "br": "6.3-6.7",
           "data_unit_id": "cn_type_63_62_group",
+          "required_unit_id": "cn_m18_hellcat",
           "class_name": "",
           "items": [
             {
               "type": "single",
-              "title": "Type 63",
+              "title": "Type 63",
               "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/cn_type_63_i.png",
               "br": "6.3",
-              "rp": "63,000",
-              "sp": "200,000",
+              "rp": 63000,
+              "sp": 200000,
               "data_unit_id": "cn_type_63_i",
+              "required_unit_id": "",
               "selected": false,
               "class_name": "",
               "details": true,
-              "main_role": "Light tank"
+              "rank": "IV",
+              "research_country": "China",
+              "main_role": "Light tank",
+              "is_component": false,
+              "component_of": null,
+              "is_premium": false,
+              "is_squadron": false,
+              "wiki": {
+                "url": "https://wiki.warthunder.com/unit/cn_type_63_I",
+                "rank": "IV",
+                "battle_rating_context": "default",
+                "battle_ratings": {
+                  "AB": "6.3",
+                  "RB": "6.3",
+                  "SB": "6.3"
+                },
+                "battle_ratings_by_battle": {
+                  "default": {
+                    "AB": "6.3",
+                    "RB": "6.3",
+                    "SB": "6.3"
+                  }
+                },
+                "research": "63,000",
+                "purchase": "200,000",
+                "purchase_currency": "SL",
+                "status": null,
+                "fetched_at": "2026-09-19T06:28:59.643Z",
+                "sha256": "8729b8c2c2729bb91264788c8cd828c8aa80f635bd79c2fc86e551ad7c718231"
+              }
             },
             {
               "type": "single",
-              "title": "Type 62",
+              "title": "Type 62",
               "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/cn_type_62.png",
               "br": "6.7",
-              "rp": "35,000",
-              "sp": "210,000",
+              "rp": 35000,
+              "sp": 210000,
               "data_unit_id": "cn_type_62",
+              "required_unit_id": "cn_type_63_i",
               "selected": false,
               "class_name": "",
               "details": true,
-              "main_role": "Light tank"
+              "rank": "IV",
+              "research_country": "China",
+              "main_role": "Light tank",
+              "is_component": false,
+              "component_of": null,
+              "is_premium": false,
+              "is_squadron": false,
+              "wiki": {
+                "url": "https://wiki.warthunder.com/unit/cn_type_62",
+                "rank": "IV",
+                "battle_rating_context": "default",
+                "battle_ratings": {
+                  "AB": "6.7",
+                  "RB": "6.7",
+                  "SB": "6.7"
+                },
+                "battle_ratings_by_battle": {
+                  "default": {
+                    "AB": "6.7",
+                    "RB": "6.7",
+                    "SB": "6.7"
+                  }
+                },
+                "research": "35,000",
+                "purchase": "210,000",
+                "purchase_currency": "SL",
+                "status": null,
+                "fetched_at": "2026-09-19T06:28:59.411Z",
+                "sha256": "74e7ba519ca0b4ded47f9b1861328bcac78a7fcfd6959cd7caad75466a9f9dab"
+              }
             }
           ],
-          "details": true
+          "details": true,
+          "rp": 98000,
+          "sp": 410000
         }
       ],
       [
@@ -571,38 +1582,101 @@
           "title": "IS-2 1943/1944",
           "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/cn_is_2_group.png",
           "selected": false,
-          "br": "6.3-6.7",
+          "br": "6.0-6.3",
           "data_unit_id": "cn_is_2_group",
+          "required_unit_id": "cn_t_34_85_group",
           "class_name": "",
           "items": [
             {
               "type": "single",
               "title": "␗IS-2",
               "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/cn_is_2_1943.png",
-              "br": "6.3",
-              "rp": "63,000",
-              "sp": "200,000",
+              "br": "6.0",
+              "rp": 63000,
+              "sp": 200000,
               "data_unit_id": "cn_is_2_1943",
+              "required_unit_id": "",
               "selected": false,
               "class_name": "",
               "details": true,
-              "main_role": "Heavy tank"
+              "rank": "IV",
+              "research_country": "China",
+              "main_role": "Heavy tank",
+              "is_component": false,
+              "component_of": null,
+              "is_premium": false,
+              "is_squadron": false,
+              "wiki": {
+                "url": "https://wiki.warthunder.com/unit/cn_is_2_1943",
+                "rank": "IV",
+                "battle_rating_context": "default",
+                "battle_ratings": {
+                  "AB": "6.0",
+                  "RB": "6.0",
+                  "SB": "6.0"
+                },
+                "battle_ratings_by_battle": {
+                  "default": {
+                    "AB": "6.0",
+                    "RB": "6.0",
+                    "SB": "6.0"
+                  }
+                },
+                "research": "63,000",
+                "purchase": "200,000",
+                "purchase_currency": "SL",
+                "status": null,
+                "fetched_at": "2026-09-19T06:28:53.665Z",
+                "sha256": "104c9d42a067829212dce562eb0296a780a61299eef604c6d42b54b65132d19e"
+              }
             },
             {
               "type": "single",
-              "title": "␗IS-2 (1944)",
+              "title": "␗IS-2 (1944)",
               "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/cn_is_2_1944.png",
-              "br": "6.7",
-              "rp": "35,000",
-              "sp": "210,000",
+              "br": "6.3",
+              "rp": 35000,
+              "sp": 210000,
               "data_unit_id": "cn_is_2_1944",
+              "required_unit_id": "cn_is_2_1943",
               "selected": false,
               "class_name": "",
               "details": true,
-              "main_role": "Heavy tank"
+              "rank": "IV",
+              "research_country": "China",
+              "main_role": "Heavy tank",
+              "is_component": false,
+              "component_of": null,
+              "is_premium": false,
+              "is_squadron": false,
+              "wiki": {
+                "url": "https://wiki.warthunder.com/unit/cn_is_2_1944",
+                "rank": "IV",
+                "battle_rating_context": "default",
+                "battle_ratings": {
+                  "AB": "6.3",
+                  "RB": "6.3",
+                  "SB": "6.3"
+                },
+                "battle_ratings_by_battle": {
+                  "default": {
+                    "AB": "6.3",
+                    "RB": "6.3",
+                    "SB": "6.3"
+                  }
+                },
+                "research": "35,000",
+                "purchase": "210,000",
+                "purchase_currency": "SL",
+                "status": null,
+                "fetched_at": "2026-09-19T06:28:53.864Z",
+                "sha256": "7cf03dd0206d55dcd54537e9f80726f6664e938986c62c1bf4aea188f72e0e47"
+              }
             }
           ],
-          "details": true
+          "details": true,
+          "rp": 98000,
+          "sp": 410000
         }
       ],
       [
@@ -611,26 +1685,86 @@
           "title": "ZSD63/PG87",
           "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/cn_zsd63_pg87.png",
           "br": "5.7",
-          "rp": "46,000",
-          "sp": "155,000",
+          "rp": 46000,
+          "sp": 155000,
           "data_unit_id": "cn_zsd63_pg87",
+          "required_unit_id": "cn_type_65_aa",
           "selected": false,
           "class_name": "",
           "details": true,
-          "main_role": "SPAA"
+          "rank": "IV",
+          "research_country": "China",
+          "main_role": "SPAA",
+          "is_component": false,
+          "component_of": null,
+          "is_premium": false,
+          "is_squadron": false,
+          "wiki": {
+            "url": "https://wiki.warthunder.com/unit/cn_zsd63_pg87",
+            "rank": "IV",
+            "battle_rating_context": "default",
+            "battle_ratings": {
+              "AB": "5.7",
+              "RB": "5.7",
+              "SB": "5.7"
+            },
+            "battle_ratings_by_battle": {
+              "default": {
+                "AB": "5.7",
+                "RB": "5.7",
+                "SB": "5.7"
+              }
+            },
+            "research": "46,000",
+            "purchase": "155,000",
+            "purchase_currency": "SL",
+            "status": null,
+            "fetched_at": "2026-09-19T06:29:01.692Z",
+            "sha256": "9152b5edcd47c3b5d082a99d2ea1a58ee03a06c501d643ce16a5626f8f7b18cf"
+          }
         },
         {
           "type": "single",
           "title": "ZSL92",
           "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/cn_zsl_92.png",
           "br": "6.3",
-          "rp": "82,000",
-          "sp": "240,000",
+          "rp": 82000,
+          "sp": 240000,
           "data_unit_id": "cn_zsl_92",
+          "required_unit_id": "cn_zsd63_pg87",
           "selected": false,
           "class_name": "",
           "details": true,
-          "main_role": "SPAA"
+          "rank": "IV",
+          "research_country": "China",
+          "main_role": "SPAA",
+          "is_component": false,
+          "component_of": null,
+          "is_premium": false,
+          "is_squadron": false,
+          "wiki": {
+            "url": "https://wiki.warthunder.com/unit/cn_zsl_92",
+            "rank": "IV",
+            "battle_rating_context": "default",
+            "battle_ratings": {
+              "AB": "6.3",
+              "RB": "6.3",
+              "SB": "6.3"
+            },
+            "battle_ratings_by_battle": {
+              "default": {
+                "AB": "6.3",
+                "RB": "6.3",
+                "SB": "6.3"
+              }
+            },
+            "research": "82,000",
+            "purchase": "240,000",
+            "purchase_currency": "SL",
+            "status": null,
+            "fetched_at": "2026-09-19T06:29:01.728Z",
+            "sha256": "7adae9e1225ca8f474431f1ef75ff8128052517b58a43d0390e6b0c3d2f6be74"
+          }
         }
       ],
       [
@@ -639,26 +1773,86 @@
           "title": "␗SU-100",
           "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/cn_su_100_1945.png",
           "br": "6.0",
-          "rp": "63,000",
-          "sp": "200,000",
+          "rp": 63000,
+          "sp": 200000,
           "data_unit_id": "cn_su_100_1945",
+          "required_unit_id": "cn_m36_isu_group",
           "selected": false,
           "class_name": "",
           "details": true,
-          "main_role": "Tank destroyer"
+          "rank": "IV",
+          "research_country": "China",
+          "main_role": "Tank destroyer",
+          "is_component": false,
+          "component_of": null,
+          "is_premium": false,
+          "is_squadron": false,
+          "wiki": {
+            "url": "https://wiki.warthunder.com/unit/cn_su_100_1945",
+            "rank": "IV",
+            "battle_rating_context": "default",
+            "battle_ratings": {
+              "AB": "6.0",
+              "RB": "6.0",
+              "SB": "6.0"
+            },
+            "battle_ratings_by_battle": {
+              "default": {
+                "AB": "6.0",
+                "RB": "6.0",
+                "SB": "6.0"
+              }
+            },
+            "research": "63,000",
+            "purchase": "200,000",
+            "purchase_currency": "SL",
+            "status": null,
+            "fetched_at": "2026-09-19T06:28:58.127Z",
+            "sha256": "fb4fcc62cdb2736f78bb26183a62256e2d40798922f27cc47c9138b871b7832d"
+          }
         },
         {
           "type": "single",
           "title": "PLZ83",
           "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/cn_plz_83.png",
-          "br": "6.3",
-          "rp": "71,000",
-          "sp": "210,000",
+          "br": "6.0",
+          "rp": 71000,
+          "sp": 210000,
           "data_unit_id": "cn_plz_83",
+          "required_unit_id": "cn_su_100_1945",
           "selected": false,
           "class_name": "",
           "details": true,
-          "main_role": "Tank destroyer"
+          "rank": "IV",
+          "research_country": "China",
+          "main_role": "Tank destroyer",
+          "is_component": false,
+          "component_of": null,
+          "is_premium": false,
+          "is_squadron": false,
+          "wiki": {
+            "url": "https://wiki.warthunder.com/unit/cn_plz_83",
+            "rank": "IV",
+            "battle_rating_context": "default",
+            "battle_ratings": {
+              "AB": "6.0",
+              "RB": "6.0",
+              "SB": "6.0"
+            },
+            "battle_ratings_by_battle": {
+              "default": {
+                "AB": "6.0",
+                "RB": "6.0",
+                "SB": "6.0"
+              }
+            },
+            "research": "71,000",
+            "purchase": "210,000",
+            "purchase_currency": "SL",
+            "status": null,
+            "fetched_at": "2026-09-19T06:28:57.334Z",
+            "sha256": "50c00d91f29e7879dc46df3511fc76088cbaf1e57a6bf953bf84348c4ed10cb8"
+          }
         }
       ]
     ],
@@ -672,39 +1866,172 @@
           "rp": 0,
           "sp": 0,
           "data_unit_id": "cn_type_64",
+          "required_unit_id": "",
           "selected": false,
           "class_name": "prem",
           "details": true,
-          "main_role": "Light tank"
+          "rank": "IV",
+          "research_country": "China",
+          "main_role": "Light tank",
+          "is_component": false,
+          "component_of": null,
+          "is_premium": true,
+          "is_squadron": false,
+          "wiki": {
+            "url": "https://wiki.warthunder.com/unit/cn_type_64",
+            "rank": "IV",
+            "battle_rating_context": "default",
+            "battle_ratings": {
+              "AB": "5.3",
+              "RB": "6.0",
+              "SB": "6.0"
+            },
+            "battle_ratings_by_battle": {
+              "default": {
+                "AB": "5.3",
+                "RB": "6.0",
+                "SB": "6.0"
+              }
+            },
+            "research": null,
+            "purchase": null,
+            "purchase_currency": null,
+            "status": "Premium vehicle",
+            "fetched_at": "2026-09-19T06:28:59.742Z",
+            "sha256": "aca92ca7fb1183ebdf05e9356846b358b958f18dbfefbba19bcc2ea7b34d9a00"
+          }
         },
         {
           "type": "single",
-          "title": "T-34-85 No.215",
+          "title": "T-34-85 No.215",
           "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/cn_t_34_85_zis_53_no215.png",
           "br": "5.7",
           "rp": 0,
           "sp": 0,
           "data_unit_id": "cn_t_34_85_zis_53_no215",
+          "required_unit_id": "",
           "selected": false,
           "class_name": "prem",
           "details": true,
-          "main_role": "Medium tank"
+          "rank": "IV",
+          "research_country": "China",
+          "main_role": "Medium tank",
+          "is_component": false,
+          "component_of": null,
+          "is_premium": true,
+          "is_squadron": false,
+          "wiki": {
+            "url": "https://wiki.warthunder.com/unit/cn_t_34_85_zis_53_no215",
+            "rank": "IV",
+            "battle_rating_context": "default",
+            "battle_ratings": {
+              "AB": "5.7",
+              "RB": "5.7",
+              "SB": "5.7"
+            },
+            "battle_ratings_by_battle": {
+              "default": {
+                "AB": "5.7",
+                "RB": "5.7",
+                "SB": "5.7"
+              }
+            },
+            "research": null,
+            "purchase": "4,880",
+            "purchase_currency": "GE",
+            "status": "Premium vehicle",
+            "fetched_at": "2026-09-19T06:28:58.735Z",
+            "sha256": "3c7fecc20e7f84e5096c8e2b3978fb573536ae2c8f8aca0c627dfa703ca6f2d7"
+          }
         },
         {
           "type": "single",
-          "title": "IS-2 No.402",
+          "title": "IS-2 No.402",
           "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/cn_is_2_1943_no402.png",
-          "br": "6.3",
+          "br": "6.0",
           "rp": 0,
           "sp": 0,
           "data_unit_id": "cn_is_2_1943_no402",
+          "required_unit_id": "",
           "selected": false,
           "class_name": "prem",
           "details": true,
-          "main_role": "Heavy tank"
+          "rank": "IV",
+          "research_country": "China",
+          "main_role": "Heavy tank",
+          "is_component": false,
+          "component_of": null,
+          "is_premium": true,
+          "is_squadron": false,
+          "wiki": {
+            "url": "https://wiki.warthunder.com/unit/cn_is_2_1943_no402",
+            "rank": "IV",
+            "battle_rating_context": "default",
+            "battle_ratings": {
+              "AB": "6.0",
+              "RB": "6.0",
+              "SB": "6.0"
+            },
+            "battle_ratings_by_battle": {
+              "default": {
+                "AB": "6.0",
+                "RB": "6.0",
+                "SB": "6.0"
+              }
+            },
+            "research": null,
+            "purchase": "6,090",
+            "purchase_currency": "GE",
+            "status": "Premium vehicle",
+            "fetched_at": "2026-09-19T06:28:53.725Z",
+            "sha256": "71cd9e54059765c50aeca8bbdb0d488e736ec624911a67cf111b119068b88891"
+          }
         }
       ],
       [
+        {
+          "type": "single",
+          "title": "PLZ45",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/cn_plz_45.png",
+          "br": "6.3",
+          "rp": 0,
+          "sp": 0,
+          "data_unit_id": "cn_plz_45",
+          "required_unit_id": "",
+          "selected": false,
+          "class_name": "prem",
+          "details": true,
+          "rank": "IV",
+          "research_country": "China",
+          "main_role": "Tank destroyer",
+          "is_component": false,
+          "component_of": null,
+          "is_premium": true,
+          "is_squadron": false,
+          "wiki": {
+            "url": "https://wiki.warthunder.com/unit/cn_plz_45",
+            "rank": "IV",
+            "battle_rating_context": "default",
+            "battle_ratings": {
+              "AB": "6.3",
+              "RB": "6.3",
+              "SB": "6.3"
+            },
+            "battle_ratings_by_battle": {
+              "default": {
+                "AB": "6.3",
+                "RB": "6.3",
+                "SB": "6.3"
+              }
+            },
+            "research": null,
+            "purchase": null,
+            "purchase_currency": null,
+            "status": "Premium vehicle",
+            "fetched_at": "2026-09-19T06:28:57.270Z",
+            "sha256": "58d03274a23773867ac095daff563a65b66cc6b1307d67b302efda42c5682c63"
+          }
+        },
         {
           "type": "single",
           "title": "WZ141-1",
@@ -713,15 +2040,46 @@
           "rp": 0,
           "sp": 0,
           "data_unit_id": "cn_wz_141",
+          "required_unit_id": "",
           "selected": false,
           "class_name": "prem",
           "details": true,
-          "main_role": "Light tank"
+          "rank": "IV",
+          "research_country": "China",
+          "main_role": "Light tank",
+          "is_component": false,
+          "component_of": null,
+          "is_premium": true,
+          "is_squadron": false,
+          "wiki": {
+            "url": "https://wiki.warthunder.com/unit/cn_wz_141",
+            "rank": "IV",
+            "battle_rating_context": "default",
+            "battle_ratings": {
+              "AB": "6.7",
+              "RB": "6.7",
+              "SB": "6.7"
+            },
+            "battle_ratings_by_battle": {
+              "default": {
+                "AB": "6.7",
+                "RB": "6.7",
+                "SB": "6.7"
+              }
+            },
+            "research": null,
+            "purchase": null,
+            "purchase_currency": null,
+            "status": "Premium vehicle",
+            "fetched_at": "2026-09-19T06:29:01.278Z",
+            "sha256": "3292449437890cb777be33a59db7518cc610bad97bcc2a589f5c680f2b02d10c"
+          }
         }
       ]
     ],
     "selected": [],
-    "unlock_quantity": 0
+    "unlock_quantity": null,
+    "source": "wiki"
   },
   {
     "rank": "V",
@@ -734,6 +2092,7 @@
           "selected": false,
           "br": "7.7-8.0",
           "data_unit_id": "cn_zts_type_group",
+          "required_unit_id": "cn_type_63_62_group",
           "class_name": "",
           "items": [
             {
@@ -741,29 +2100,91 @@
               "title": "ZTS63",
               "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/cn_zts_63_1980.png",
               "br": "7.7",
-              "rp": "95,000",
-              "sp": "270,000",
+              "rp": 95000,
+              "sp": 270000,
               "data_unit_id": "cn_zts_63_1980",
+              "required_unit_id": "",
               "selected": false,
               "class_name": "",
               "details": true,
-              "main_role": "Light tank"
+              "rank": "V",
+              "research_country": "China",
+              "main_role": "Light tank",
+              "is_component": false,
+              "component_of": null,
+              "is_premium": false,
+              "is_squadron": false,
+              "wiki": {
+                "url": "https://wiki.warthunder.com/unit/cn_zts_63_1980",
+                "rank": "V",
+                "battle_rating_context": "default",
+                "battle_ratings": {
+                  "AB": "7.7",
+                  "RB": "7.7",
+                  "SB": "7.7"
+                },
+                "battle_ratings_by_battle": {
+                  "default": {
+                    "AB": "7.7",
+                    "RB": "7.7",
+                    "SB": "7.7"
+                  }
+                },
+                "research": "95,000",
+                "purchase": "270,000",
+                "purchase_currency": "SL",
+                "status": null,
+                "fetched_at": "2026-09-19T06:29:01.948Z",
+                "sha256": "2fc56ad9e21c33d57da3f8d5ae4e3c6b90e898f517c19e056eb663e00bad5c7e"
+              }
             },
             {
               "type": "single",
               "title": "ZBD86",
               "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/cn_type_86.png",
               "br": "8.0",
-              "rp": "53,000",
-              "sp": "300,000",
+              "rp": 53000,
+              "sp": 300000,
               "data_unit_id": "cn_type_86",
+              "required_unit_id": "cn_zts_63_1980",
               "selected": false,
               "class_name": "",
               "details": true,
-              "main_role": "Light tank"
+              "rank": "V",
+              "research_country": "China",
+              "main_role": "Light tank",
+              "is_component": false,
+              "component_of": null,
+              "is_premium": false,
+              "is_squadron": false,
+              "wiki": {
+                "url": "https://wiki.warthunder.com/unit/cn_type_86",
+                "rank": "V",
+                "battle_rating_context": "default",
+                "battle_ratings": {
+                  "AB": "8.0",
+                  "RB": "8.0",
+                  "SB": "8.0"
+                },
+                "battle_ratings_by_battle": {
+                  "default": {
+                    "AB": "8.0",
+                    "RB": "8.0",
+                    "SB": "8.0"
+                  }
+                },
+                "research": "53,000",
+                "purchase": "300,000",
+                "purchase_currency": "SL",
+                "status": null,
+                "fetched_at": "2026-09-19T06:29:00.589Z",
+                "sha256": "e6273e6e51674a5ce75040390015d6ff819abc30df2ded199a34153c88449975"
+              }
             }
           ],
-          "details": true
+          "details": true,
+          "rp": 148000,
+          "sp": 570000
         }
       ],
       [
@@ -772,13 +2193,43 @@
           "title": "␗M48A1",
           "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/cn_m48a1_patton_iii.png",
           "br": "7.7",
-          "rp": "95,000",
-          "sp": "270,000",
+          "rp": 95000,
+          "sp": 270000,
           "data_unit_id": "cn_m48a1_patton_iii",
+          "required_unit_id": "cn_is_2_group",
           "selected": false,
           "class_name": "",
           "details": true,
-          "main_role": "Medium tank"
+          "rank": "V",
+          "research_country": "China",
+          "main_role": "Medium tank",
+          "is_component": false,
+          "component_of": null,
+          "is_premium": false,
+          "is_squadron": false,
+          "wiki": {
+            "url": "https://wiki.warthunder.com/unit/cn_m48a1_patton_III",
+            "rank": "V",
+            "battle_rating_context": "default",
+            "battle_ratings": {
+              "AB": "7.7",
+              "RB": "7.7",
+              "SB": "7.7"
+            },
+            "battle_ratings_by_battle": {
+              "default": {
+                "AB": "7.7",
+                "RB": "7.7",
+                "SB": "7.7"
+              }
+            },
+            "research": "95,000",
+            "purchase": "270,000",
+            "purchase_currency": "SL",
+            "status": null,
+            "fetched_at": "2026-09-19T06:28:55.161Z",
+            "sha256": "a6d758dc7dc863b39e326d6b42163b6977bbfdd1aef3d51d32732c0467b37c7e"
+          }
         },
         {
           "type": "multiple",
@@ -787,51 +2238,187 @@
           "selected": false,
           "br": "8.0",
           "data_unit_id": "cn_type_59_69_group",
+          "required_unit_id": "cn_m48a1_patton_iii",
           "class_name": "",
           "items": [
             {
               "type": "single",
-              "title": "Type 59",
+              "title": "Type 59",
               "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/cn_type_59.png",
               "br": "8.0",
-              "rp": "105,000",
-              "sp": "300,000",
+              "rp": 105000,
+              "sp": 300000,
               "data_unit_id": "cn_type_59",
+              "required_unit_id": "",
               "selected": false,
               "class_name": "",
               "details": true,
-              "main_role": "Medium tank"
+              "rank": "V",
+              "research_country": "China",
+              "main_role": "Medium tank",
+              "is_component": false,
+              "component_of": null,
+              "is_premium": false,
+              "is_squadron": false,
+              "wiki": {
+                "url": "https://wiki.warthunder.com/unit/cn_type_59",
+                "rank": "V",
+                "battle_rating_context": "default",
+                "battle_ratings": {
+                  "AB": "8.0",
+                  "RB": "8.0",
+                  "SB": "8.0"
+                },
+                "battle_ratings_by_battle": {
+                  "default": {
+                    "AB": "8.0",
+                    "RB": "8.0",
+                    "SB": "8.0"
+                  }
+                },
+                "research": "105,000",
+                "purchase": "300,000",
+                "purchase_currency": "SL",
+                "status": null,
+                "fetched_at": "2026-09-19T06:28:59.367Z",
+                "sha256": "40377b21813fbe22d933cba80cbbe07d3a08ada890a975afe03cd0d531e9e595"
+              }
             },
             {
               "type": "single",
-              "title": "Type 69",
+              "title": "Type 69",
               "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/cn_type_69.png",
               "br": "8.0",
-              "rp": "61,000",
-              "sp": "340,000",
+              "rp": 61000,
+              "sp": 340000,
               "data_unit_id": "cn_type_69",
+              "required_unit_id": "cn_type_59",
               "selected": false,
               "class_name": "",
               "details": true,
-              "main_role": "Medium tank"
+              "rank": "V",
+              "research_country": "China",
+              "main_role": "Medium tank",
+              "is_component": false,
+              "component_of": null,
+              "is_premium": false,
+              "is_squadron": false,
+              "wiki": {
+                "url": "https://wiki.warthunder.com/unit/cn_type_69",
+                "rank": "V",
+                "battle_rating_context": "default",
+                "battle_ratings": {
+                  "AB": "8.0",
+                  "RB": "8.0",
+                  "SB": "8.0"
+                },
+                "battle_ratings_by_battle": {
+                  "default": {
+                    "AB": "8.0",
+                    "RB": "8.0",
+                    "SB": "8.0"
+                  }
+                },
+                "research": "61,000",
+                "purchase": "340,000",
+                "purchase_currency": "SL",
+                "status": null,
+                "fetched_at": "2026-09-19T06:29:00.056Z",
+                "sha256": "fa47801808d4946c748195dd5a3d6821f9b1748efd9911d2ad82571545dd1150"
+              }
             }
           ],
-          "details": true
+          "details": true,
+          "rp": 166000,
+          "sp": 640000
         }
       ],
       [
         {
           "type": "single",
-          "title": "WZ305",
-          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/cn_wz_305.png",
+          "title": "PGZ88",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/cn_pgz_88.png",
           "br": "8.0",
-          "rp": "105,000",
-          "sp": "300,000",
-          "data_unit_id": "cn_wz_305",
+          "rp": 95000,
+          "sp": 270000,
+          "data_unit_id": "cn_pgz_88",
+          "required_unit_id": "cn_zsl_92",
           "selected": false,
           "class_name": "",
           "details": true,
-          "main_role": "SPAA"
+          "rank": "V",
+          "research_country": "China",
+          "main_role": "SPAA",
+          "is_component": false,
+          "component_of": null,
+          "is_premium": false,
+          "is_squadron": false,
+          "wiki": {
+            "url": "https://wiki.warthunder.com/unit/cn_pgz_88",
+            "rank": "V",
+            "battle_rating_context": "default",
+            "battle_ratings": {
+              "AB": "8.0",
+              "RB": "8.0",
+              "SB": "8.0"
+            },
+            "battle_ratings_by_battle": {
+              "default": {
+                "AB": "8.0",
+                "RB": "8.0",
+                "SB": "8.0"
+              }
+            },
+            "research": "95,000",
+            "purchase": "270,000",
+            "purchase_currency": "SL",
+            "status": null,
+            "fetched_at": "2026-09-19T06:28:56.931Z",
+            "sha256": "72c89a605eb74d118c102209885e282619f60cdff2f0d10b09e9312ce1cb89c9"
+          }
+        },
+        {
+          "type": "single",
+          "title": "WZ305",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/cn_wz_305.png",
+          "br": "8.0",
+          "rp": 105000,
+          "sp": 300000,
+          "data_unit_id": "cn_wz_305",
+          "required_unit_id": "cn_pgz_88",
+          "selected": false,
+          "class_name": "",
+          "details": true,
+          "rank": "V",
+          "research_country": "China",
+          "main_role": "SPAA",
+          "is_component": false,
+          "component_of": null,
+          "is_premium": false,
+          "is_squadron": false,
+          "wiki": {
+            "url": "https://wiki.warthunder.com/unit/cn_wz_305",
+            "rank": "V",
+            "battle_rating_context": "default",
+            "battle_ratings": {
+              "AB": "8.7",
+              "RB": "8.0",
+              "SB": "8.0"
+            },
+            "battle_ratings_by_battle": {
+              "default": {
+                "AB": "8.7",
+                "RB": "8.0",
+                "SB": "8.0"
+              }
+            },
+            "research": "105,000",
+            "purchase": "300,000",
+            "purchase_currency": "SL",
+            "status": null,
+            "fetched_at": "2026-09-19T06:29:01.286Z",
+            "sha256": "91d49991c2154b6d086406c2cd1cedb38b3ce439b7d777009d2b61d76c92890e"
+          }
         }
       ],
       [
@@ -840,26 +2427,86 @@
           "title": "PLZ05",
           "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/cn_plz_05.png",
           "br": "7.7",
-          "rp": "95,000",
-          "sp": "270,000",
+          "rp": 95000,
+          "sp": 270000,
           "data_unit_id": "cn_plz_05",
+          "required_unit_id": "cn_plz_83",
           "selected": false,
           "class_name": "",
           "details": true,
-          "main_role": "Tank destroyer"
+          "rank": "V",
+          "research_country": "China",
+          "main_role": "Tank destroyer",
+          "is_component": false,
+          "component_of": null,
+          "is_premium": false,
+          "is_squadron": false,
+          "wiki": {
+            "url": "https://wiki.warthunder.com/unit/cn_plz_05",
+            "rank": "V",
+            "battle_rating_context": "default",
+            "battle_ratings": {
+              "AB": "7.7",
+              "RB": "7.7",
+              "SB": "7.7"
+            },
+            "battle_ratings_by_battle": {
+              "default": {
+                "AB": "7.7",
+                "RB": "7.7",
+                "SB": "7.7"
+              }
+            },
+            "research": "95,000",
+            "purchase": "270,000",
+            "purchase_currency": "SL",
+            "status": null,
+            "fetched_at": "2026-09-19T06:28:57.129Z",
+            "sha256": "52d390d4faf9052fb6bb57cc62e08dd7a0489b76bf8df6788c3e9c198eaf0a15"
+          }
         },
         {
           "type": "single",
-          "title": "␗M113A1 (TOW)",
+          "title": "␗M113A1 (TOW)",
           "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/cn_m113a1_tow.png",
           "br": "8.3",
-          "rp": "120,000",
-          "sp": "340,000",
+          "rp": 120000,
+          "sp": 340000,
           "data_unit_id": "cn_m113a1_tow",
+          "required_unit_id": "cn_plz_05",
           "selected": false,
           "class_name": "",
           "details": true,
-          "main_role": "Tank destroyer"
+          "rank": "V",
+          "research_country": "China",
+          "main_role": "Tank destroyer",
+          "is_component": false,
+          "component_of": null,
+          "is_premium": false,
+          "is_squadron": false,
+          "wiki": {
+            "url": "https://wiki.warthunder.com/unit/cn_m113a1_tow",
+            "rank": "V",
+            "battle_rating_context": "default",
+            "battle_ratings": {
+              "AB": "8.3",
+              "RB": "8.3",
+              "SB": "8.3"
+            },
+            "battle_ratings_by_battle": {
+              "default": {
+                "AB": "8.3",
+                "RB": "8.3",
+                "SB": "8.3"
+              }
+            },
+            "research": "120,000",
+            "purchase": "340,000",
+            "purchase_currency": "SL",
+            "status": null,
+            "fetched_at": "2026-09-19T06:28:54.317Z",
+            "sha256": "90f15399890ebd986d8606fb16b1731883c267b2a12125957a0829bf384b68e9"
+          }
         }
       ]
     ],
@@ -873,23 +2520,83 @@
           "rp": 0,
           "sp": 0,
           "data_unit_id": "cn_ztz_59a",
+          "required_unit_id": "",
           "selected": false,
           "class_name": "prem",
           "details": true,
-          "main_role": "Medium tank"
+          "rank": "V",
+          "research_country": "China",
+          "main_role": "Medium tank",
+          "is_component": false,
+          "component_of": null,
+          "is_premium": true,
+          "is_squadron": false,
+          "wiki": {
+            "url": "https://wiki.warthunder.com/unit/cn_ztz_59a",
+            "rank": "V",
+            "battle_rating_context": "default",
+            "battle_ratings": {
+              "AB": "8.0",
+              "RB": "8.0",
+              "SB": "8.0"
+            },
+            "battle_ratings_by_battle": {
+              "default": {
+                "AB": "8.0",
+                "RB": "8.0",
+                "SB": "8.0"
+              }
+            },
+            "research": null,
+            "purchase": "8,200",
+            "purchase_currency": "GE",
+            "status": "Premium vehicle",
+            "fetched_at": "2026-09-19T06:29:02.175Z",
+            "sha256": "4ae88489c51dfdfdc494e4a53009cb1c697a072028522160ecdb5fde3086b60d"
+          }
         },
         {
           "type": "single",
-          "title": "Type 69-IIa",
+          "title": "Type 69-IIa",
           "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/cn_type_69_2a.png",
           "br": "8.3",
           "rp": 0,
           "sp": 0,
           "data_unit_id": "cn_type_69_2a",
+          "required_unit_id": "",
           "selected": false,
           "class_name": "prem",
           "details": true,
-          "main_role": "Medium tank"
+          "rank": "V",
+          "research_country": "China",
+          "main_role": "Medium tank",
+          "is_component": false,
+          "component_of": null,
+          "is_premium": true,
+          "is_squadron": false,
+          "wiki": {
+            "url": "https://wiki.warthunder.com/unit/cn_type_69_2a",
+            "rank": "V",
+            "battle_rating_context": "default",
+            "battle_ratings": {
+              "AB": "8.3",
+              "RB": "8.3",
+              "SB": "8.3"
+            },
+            "battle_ratings_by_battle": {
+              "default": {
+                "AB": "8.3",
+                "RB": "8.3",
+                "SB": "8.3"
+              }
+            },
+            "research": null,
+            "purchase": null,
+            "purchase_currency": null,
+            "status": "Premium vehicle",
+            "fetched_at": "2026-09-19T06:29:00.166Z",
+            "sha256": "997eefce5c90e2e0705aa1f5cefa08e3fb65469dbe3d4144ac2e0a9be57a2a3f"
+          }
         }
       ],
       [
@@ -901,15 +2608,46 @@
           "rp": null,
           "sp": null,
           "data_unit_id": "cn_plz_83_130",
+          "required_unit_id": "",
           "selected": false,
           "class_name": "",
           "details": true,
-          "main_role": "Tank destroyer"
+          "rank": "V",
+          "research_country": "China",
+          "main_role": "Tank destroyer",
+          "is_component": false,
+          "component_of": null,
+          "is_premium": false,
+          "is_squadron": false,
+          "wiki": {
+            "url": "https://wiki.warthunder.com/unit/cn_plz_83_130",
+            "rank": "V",
+            "battle_rating_context": "default",
+            "battle_ratings": {
+              "AB": "7.3",
+              "RB": "7.3",
+              "SB": "7.3"
+            },
+            "battle_ratings_by_battle": {
+              "default": {
+                "AB": "7.3",
+                "RB": "7.3",
+                "SB": "7.3"
+              }
+            },
+            "research": null,
+            "purchase": null,
+            "purchase_currency": null,
+            "status": null,
+            "fetched_at": "2026-09-19T06:28:57.322Z",
+            "sha256": "8adde2d7444e01c8bc6f97c1675945939a9b789792e2e2aea98f13e2ef2d6ef7"
+          }
         }
       ]
     ],
     "selected": [],
-    "unlock_quantity": 0
+    "unlock_quantity": null,
+    "source": "wiki"
   },
   {
     "rank": "VI",
@@ -919,40 +2657,130 @@
           "type": "single",
           "title": "M41D",
           "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/cn_m_41d.png",
-          "br": "8.0",
-          "rp": "135,000",
-          "sp": "380,000",
+          "br": "8.3",
+          "rp": 135000,
+          "sp": 380000,
           "data_unit_id": "cn_m_41d",
+          "required_unit_id": "cn_zts_type_group",
           "selected": false,
           "class_name": "",
           "details": true,
-          "main_role": "Light tank"
+          "rank": "VI",
+          "research_country": "China",
+          "main_role": "Light tank",
+          "is_component": false,
+          "component_of": null,
+          "is_premium": false,
+          "is_squadron": false,
+          "wiki": {
+            "url": "https://wiki.warthunder.com/unit/cn_m_41d",
+            "rank": "VI",
+            "battle_rating_context": "default",
+            "battle_ratings": {
+              "AB": "8.0",
+              "RB": "8.3",
+              "SB": "8.3"
+            },
+            "battle_ratings_by_battle": {
+              "default": {
+                "AB": "8.0",
+                "RB": "8.3",
+                "SB": "8.3"
+              }
+            },
+            "research": "135,000",
+            "purchase": "380,000",
+            "purchase_currency": "SL",
+            "status": null,
+            "fetched_at": "2026-09-19T06:28:56.228Z",
+            "sha256": "3785d83cd4e7e464c2ccdb9a9ccc874fc1e96c44ee7983737f19ee9691350632"
+          }
         },
         {
           "type": "single",
-          "title": "␗M60A3 TTS",
+          "title": "␗M60A3 TTS",
           "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/cn_m60a3_tts.png",
           "br": "9.0",
-          "rp": "190,000",
-          "sp": "520,000",
+          "rp": 190000,
+          "sp": 520000,
           "data_unit_id": "cn_m60a3_tts",
+          "required_unit_id": "cn_m_41d",
           "selected": false,
           "class_name": "",
           "details": true,
-          "main_role": "Medium tank"
+          "rank": "VI",
+          "research_country": "China",
+          "main_role": "Medium tank",
+          "is_component": false,
+          "component_of": null,
+          "is_premium": false,
+          "is_squadron": false,
+          "wiki": {
+            "url": "https://wiki.warthunder.com/unit/cn_m60a3_tts",
+            "rank": "VI",
+            "battle_rating_context": "default",
+            "battle_ratings": {
+              "AB": "9.0",
+              "RB": "9.0",
+              "SB": "9.0"
+            },
+            "battle_ratings_by_battle": {
+              "default": {
+                "AB": "9.0",
+                "RB": "9.0",
+                "SB": "9.0"
+              }
+            },
+            "research": "190,000",
+            "purchase": "520,000",
+            "purchase_currency": "SL",
+            "status": null,
+            "fetched_at": "2026-09-19T06:28:55.953Z",
+            "sha256": "95a377f1162df04a8455e2ad31f20b5c7b275c2431ffd294ea34f0a22b04ef3a"
+          }
         },
         {
           "type": "single",
           "title": "CM11",
           "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/cn_cm11.png",
           "br": "9.3",
-          "rp": "220,000",
-          "sp": "620,000",
+          "rp": 220000,
+          "sp": 620000,
           "data_unit_id": "cn_cm11",
+          "required_unit_id": "cn_m60a3_tts",
           "selected": false,
           "class_name": "",
           "details": true,
-          "main_role": "Medium tank"
+          "rank": "VI",
+          "research_country": "China",
+          "main_role": "Medium tank",
+          "is_component": false,
+          "component_of": null,
+          "is_premium": false,
+          "is_squadron": false,
+          "wiki": {
+            "url": "https://wiki.warthunder.com/unit/cn_cm11",
+            "rank": "VI",
+            "battle_rating_context": "default",
+            "battle_ratings": {
+              "AB": "9.3",
+              "RB": "9.3",
+              "SB": "9.3"
+            },
+            "battle_ratings_by_battle": {
+              "default": {
+                "AB": "9.3",
+                "RB": "9.3",
+                "SB": "9.3"
+              }
+            },
+            "research": "220,000",
+            "purchase": "620,000",
+            "purchase_currency": "SL",
+            "status": null,
+            "fetched_at": "2026-09-19T06:28:52.847Z",
+            "sha256": "1a20a82e6571d250cdb959ce6a6fd8902c3e269bb61af30db11a1579ae5076ff"
+          }
         }
       ],
       [
@@ -961,13 +2789,43 @@
           "title": "ZTZ59D1",
           "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/cn_type_59d.png",
           "br": "8.3",
-          "rp": "135,000",
-          "sp": "380,000",
+          "rp": 135000,
+          "sp": 380000,
           "data_unit_id": "cn_type_59d",
+          "required_unit_id": "cn_type_59_69_group",
           "selected": false,
           "class_name": "",
           "details": true,
-          "main_role": "Medium tank"
+          "rank": "VI",
+          "research_country": "China",
+          "main_role": "Medium tank",
+          "is_component": false,
+          "component_of": null,
+          "is_premium": false,
+          "is_squadron": false,
+          "wiki": {
+            "url": "https://wiki.warthunder.com/unit/cn_type_59d",
+            "rank": "VI",
+            "battle_rating_context": "default",
+            "battle_ratings": {
+              "AB": "8.3",
+              "RB": "8.3",
+              "SB": "8.3"
+            },
+            "battle_ratings_by_battle": {
+              "default": {
+                "AB": "8.3",
+                "RB": "8.3",
+                "SB": "8.3"
+              }
+            },
+            "research": "135,000",
+            "purchase": "380,000",
+            "purchase_currency": "SL",
+            "status": null,
+            "fetched_at": "2026-09-19T06:28:59.503Z",
+            "sha256": "a44c2c7c031b8cb86e4b3c7bfe6a3de20709792d8ce4c2060f0e5d29167171f9"
+          }
         },
         {
           "type": "multiple",
@@ -976,6 +2834,7 @@
           "selected": false,
           "br": "9.0",
           "data_unit_id": "cn_ztz_88_group",
+          "required_unit_id": "cn_type_59d",
           "class_name": "",
           "items": [
             {
@@ -983,42 +2842,134 @@
               "title": "ZTZ88B",
               "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/cn_ztz_88b.png",
               "br": "9.0",
-              "rp": "160,000",
-              "sp": "450,000",
+              "rp": 160000,
+              "sp": 450000,
               "data_unit_id": "cn_ztz_88b",
+              "required_unit_id": "",
               "selected": false,
               "class_name": "",
               "details": true,
-              "main_role": "Medium tank"
+              "rank": "VI",
+              "research_country": "China",
+              "main_role": "Medium tank",
+              "is_component": false,
+              "component_of": null,
+              "is_premium": false,
+              "is_squadron": false,
+              "wiki": {
+                "url": "https://wiki.warthunder.com/unit/cn_ztz_88b",
+                "rank": "VI",
+                "battle_rating_context": "default",
+                "battle_ratings": {
+                  "AB": "9.0",
+                  "RB": "9.0",
+                  "SB": "9.0"
+                },
+                "battle_ratings_by_battle": {
+                  "default": {
+                    "AB": "9.0",
+                    "RB": "9.0",
+                    "SB": "9.0"
+                  }
+                },
+                "research": "160,000",
+                "purchase": "450,000",
+                "purchase_currency": "SL",
+                "status": null,
+                "fetched_at": "2026-09-19T06:29:02.354Z",
+                "sha256": "24e28aa140f529f8c821c23a8c55abeeb7a1955baa724304144437f76472a40b"
+              }
             },
             {
               "type": "single",
               "title": "ZTZ88A",
               "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/cn_ztz_88a.png",
               "br": "9.0",
-              "rp": "94,000",
-              "sp": "520,000",
+              "rp": 94000,
+              "sp": 520000,
               "data_unit_id": "cn_ztz_88a",
+              "required_unit_id": "cn_ztz_88b",
               "selected": false,
               "class_name": "",
               "details": true,
-              "main_role": "Medium tank"
+              "rank": "VI",
+              "research_country": "China",
+              "main_role": "Medium tank",
+              "is_component": false,
+              "component_of": null,
+              "is_premium": false,
+              "is_squadron": false,
+              "wiki": {
+                "url": "https://wiki.warthunder.com/unit/cn_ztz_88a",
+                "rank": "VI",
+                "battle_rating_context": "default",
+                "battle_ratings": {
+                  "AB": "9.0",
+                  "RB": "9.0",
+                  "SB": "9.0"
+                },
+                "battle_ratings_by_battle": {
+                  "default": {
+                    "AB": "9.0",
+                    "RB": "9.0",
+                    "SB": "9.0"
+                  }
+                },
+                "research": "94,000",
+                "purchase": "520,000",
+                "purchase_currency": "SL",
+                "status": null,
+                "fetched_at": "2026-09-19T06:29:02.185Z",
+                "sha256": "41913a6c82ca7a8dab9489d5814569a9dce29b191e47d44d16d796f549118f25"
+              }
             }
           ],
-          "details": true
+          "details": true,
+          "rp": 254000,
+          "sp": 970000
         },
         {
           "type": "single",
           "title": "ZTZ96",
           "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/cn_ztz_96.png",
           "br": "9.3",
-          "rp": "220,000",
-          "sp": "620,000",
+          "rp": 220000,
+          "sp": 620000,
           "data_unit_id": "cn_ztz_96",
+          "required_unit_id": "cn_ztz_88_group",
           "selected": false,
           "class_name": "",
           "details": true,
-          "main_role": "Medium tank"
+          "rank": "VI",
+          "research_country": "China",
+          "main_role": "Medium tank",
+          "is_component": false,
+          "component_of": null,
+          "is_premium": false,
+          "is_squadron": false,
+          "wiki": {
+            "url": "https://wiki.warthunder.com/unit/cn_ztz_96",
+            "rank": "VI",
+            "battle_rating_context": "default",
+            "battle_ratings": {
+              "AB": "9.3",
+              "RB": "9.3",
+              "SB": "9.3"
+            },
+            "battle_ratings_by_battle": {
+              "default": {
+                "AB": "9.3",
+                "RB": "9.3",
+                "SB": "9.3"
+              }
+            },
+            "research": "220,000",
+            "purchase": "620,000",
+            "purchase_currency": "SL",
+            "status": null,
+            "fetched_at": "2026-09-19T06:29:02.306Z",
+            "sha256": "c8af01128db50eba80c9731e81c9a80b896e493c551c65907491e07c2ebe7167"
+          }
         }
       ],
       [
@@ -1026,27 +2977,87 @@
           "type": "single",
           "title": "PGZ09",
           "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/cn_pgz_09.png",
-          "br": "9.0",
-          "rp": "160,000",
-          "sp": "450,000",
+          "br": "9.3",
+          "rp": 160000,
+          "sp": 450000,
           "data_unit_id": "cn_pgz_09",
+          "required_unit_id": "cn_wz_305",
           "selected": false,
           "class_name": "",
           "details": true,
-          "main_role": "SPAA"
+          "rank": "VI",
+          "research_country": "China",
+          "main_role": "SPAA",
+          "is_component": false,
+          "component_of": null,
+          "is_premium": false,
+          "is_squadron": false,
+          "wiki": {
+            "url": "https://wiki.warthunder.com/unit/cn_pgz_09",
+            "rank": "VI",
+            "battle_rating_context": "default",
+            "battle_ratings": {
+              "AB": "9.3",
+              "RB": "9.3",
+              "SB": "9.3"
+            },
+            "battle_ratings_by_battle": {
+              "default": {
+                "AB": "9.3",
+                "RB": "9.3",
+                "SB": "9.3"
+              }
+            },
+            "research": "160,000",
+            "purchase": "450,000",
+            "purchase_currency": "SL",
+            "status": null,
+            "fetched_at": "2026-09-19T06:28:56.866Z",
+            "sha256": "306c661d420fdd79fe581a492e1411ee754b2a01b0e4610aaf4bf7d8fb5f076b"
+          }
         },
         {
           "type": "single",
           "title": "PGZ04A",
           "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/cn_pgz_04a.png",
           "br": "9.3",
-          "rp": "190,000",
-          "sp": "520,000",
+          "rp": 190000,
+          "sp": 520000,
           "data_unit_id": "cn_pgz_04a",
+          "required_unit_id": "cn_pgz_09",
           "selected": false,
           "class_name": "",
           "details": true,
-          "main_role": "SPAA"
+          "rank": "VI",
+          "research_country": "China",
+          "main_role": "SPAA",
+          "is_component": false,
+          "component_of": null,
+          "is_premium": false,
+          "is_squadron": false,
+          "wiki": {
+            "url": "https://wiki.warthunder.com/unit/cn_pgz_04a",
+            "rank": "VI",
+            "battle_rating_context": "default",
+            "battle_ratings": {
+              "AB": "9.3",
+              "RB": "9.3",
+              "SB": "9.3"
+            },
+            "battle_ratings_by_battle": {
+              "default": {
+                "AB": "9.3",
+                "RB": "9.3",
+                "SB": "9.3"
+              }
+            },
+            "research": "190,000",
+            "purchase": "520,000",
+            "purchase_currency": "SL",
+            "status": null,
+            "fetched_at": "2026-09-19T06:28:56.606Z",
+            "sha256": "a1eea70c91d16a012eb42d4d09d26ae5a03d08c84ed57f7dfd2ca023d2b10478"
+          }
         }
       ],
       [
@@ -1057,6 +3068,7 @@
           "selected": false,
           "br": "8.7-9.0",
           "data_unit_id": "cn_cm_ptz_group",
+          "required_unit_id": "cn_m113a1_tow",
           "class_name": "",
           "items": [
             {
@@ -1064,29 +3076,91 @@
               "title": "CM25",
               "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/cn_cm_25.png",
               "br": "8.7",
-              "rp": "160,000",
-              "sp": "450,000",
+              "rp": 160000,
+              "sp": 450000,
               "data_unit_id": "cn_cm_25",
+              "required_unit_id": "",
               "selected": false,
               "class_name": "",
               "details": true,
-              "main_role": "Tank destroyer"
+              "rank": "VI",
+              "research_country": "China",
+              "main_role": "Tank destroyer",
+              "is_component": false,
+              "component_of": null,
+              "is_premium": false,
+              "is_squadron": false,
+              "wiki": {
+                "url": "https://wiki.warthunder.com/unit/cn_cm_25",
+                "rank": "VI",
+                "battle_rating_context": "default",
+                "battle_ratings": {
+                  "AB": "8.7",
+                  "RB": "8.7",
+                  "SB": "8.7"
+                },
+                "battle_ratings_by_battle": {
+                  "default": {
+                    "AB": "8.7",
+                    "RB": "8.7",
+                    "SB": "8.7"
+                  }
+                },
+                "research": "160,000",
+                "purchase": "450,000",
+                "purchase_currency": "SL",
+                "status": null,
+                "fetched_at": "2026-09-19T06:28:53.021Z",
+                "sha256": "e42c7ea9fc858f7380f3e3c604287450140499647fadb107fde0b30e731cd211"
+              }
             },
             {
               "type": "single",
               "title": "PTZ89",
               "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/cn_ptz_89.png",
               "br": "9.0",
-              "rp": "94,000",
-              "sp": "520,000",
+              "rp": 94000,
+              "sp": 520000,
               "data_unit_id": "cn_ptz_89",
+              "required_unit_id": "cn_cm_25",
               "selected": false,
               "class_name": "",
               "details": true,
-              "main_role": "Tank destroyer"
+              "rank": "VI",
+              "research_country": "China",
+              "main_role": "Tank destroyer",
+              "is_component": false,
+              "component_of": null,
+              "is_premium": false,
+              "is_squadron": false,
+              "wiki": {
+                "url": "https://wiki.warthunder.com/unit/cn_ptz_89",
+                "rank": "VI",
+                "battle_rating_context": "default",
+                "battle_ratings": {
+                  "AB": "9.0",
+                  "RB": "9.0",
+                  "SB": "9.0"
+                },
+                "battle_ratings_by_battle": {
+                  "default": {
+                    "AB": "9.0",
+                    "RB": "9.0",
+                    "SB": "9.0"
+                  }
+                },
+                "research": "94,000",
+                "purchase": "520,000",
+                "purchase_currency": "SL",
+                "status": null,
+                "fetched_at": "2026-09-19T06:28:57.855Z",
+                "sha256": "7ca59738a9fa67e338fa3dd70e6f1ea6cdc3c837edf3c784572263dfe3f4a8f7"
+              }
             }
           ],
-          "details": true
+          "details": true,
+          "rp": 254000,
+          "sp": 970000
         },
         {
           "type": "multiple",
@@ -1095,6 +3169,7 @@
           "selected": false,
           "br": "9.0",
           "data_unit_id": "cn_ptl_aft_group",
+          "required_unit_id": "cn_cm_ptz_group",
           "class_name": "",
           "items": [
             {
@@ -1102,42 +3177,134 @@
               "title": "PTL02",
               "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/cn_ptl_02.png",
               "br": "9.0",
-              "rp": "190,000",
-              "sp": "520,000",
+              "rp": 190000,
+              "sp": 520000,
               "data_unit_id": "cn_ptl_02",
+              "required_unit_id": "",
               "selected": false,
               "class_name": "",
               "details": true,
-              "main_role": "Light tank"
+              "rank": "VI",
+              "research_country": "China",
+              "main_role": "Light tank",
+              "is_component": false,
+              "component_of": null,
+              "is_premium": false,
+              "is_squadron": false,
+              "wiki": {
+                "url": "https://wiki.warthunder.com/unit/cn_ptl_02",
+                "rank": "VI",
+                "battle_rating_context": "default",
+                "battle_ratings": {
+                  "AB": "9.0",
+                  "RB": "9.0",
+                  "SB": "9.0"
+                },
+                "battle_ratings_by_battle": {
+                  "default": {
+                    "AB": "9.0",
+                    "RB": "9.0",
+                    "SB": "9.0"
+                  }
+                },
+                "research": "190,000",
+                "purchase": "520,000",
+                "purchase_currency": "SL",
+                "status": null,
+                "fetched_at": "2026-09-19T06:28:58.077Z",
+                "sha256": "99b4d23c233b4533cd4c4282ba8dd53cbd3d9ed2aaf76f91e319458a3a02b16b"
+              }
             },
             {
               "type": "single",
               "title": "AFT09",
               "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/cn_hj_9.png",
               "br": "9.0",
-              "rp": "110,000",
-              "sp": "620,000",
+              "rp": 110000,
+              "sp": 620000,
               "data_unit_id": "cn_hj_9",
+              "required_unit_id": "cn_ptl_02",
               "selected": false,
               "class_name": "",
               "details": true,
-              "main_role": "Tank destroyer"
+              "rank": "VI",
+              "research_country": "China",
+              "main_role": "Tank destroyer",
+              "is_component": false,
+              "component_of": null,
+              "is_premium": false,
+              "is_squadron": false,
+              "wiki": {
+                "url": "https://wiki.warthunder.com/unit/cn_hj_9",
+                "rank": "VI",
+                "battle_rating_context": "default",
+                "battle_ratings": {
+                  "AB": "9.0",
+                  "RB": "9.0",
+                  "SB": "9.0"
+                },
+                "battle_ratings_by_battle": {
+                  "default": {
+                    "AB": "9.0",
+                    "RB": "9.0",
+                    "SB": "9.0"
+                  }
+                },
+                "research": "110,000",
+                "purchase": "620,000",
+                "purchase_currency": "SL",
+                "status": null,
+                "fetched_at": "2026-09-19T06:28:53.471Z",
+                "sha256": "12ea563a71f2142427480cbc6103cdaded63971a669fdfae855d72df848ac2a3"
+              }
             }
           ],
-          "details": true
+          "details": true,
+          "rp": 300000,
+          "sp": 1140000
         },
         {
           "type": "single",
           "title": "CM34",
           "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/cn_cm_34.png",
           "br": "9.3",
-          "rp": "220,000",
-          "sp": "620,000",
+          "rp": 220000,
+          "sp": 620000,
           "data_unit_id": "cn_cm_34",
+          "required_unit_id": "cn_ptl_aft_group",
           "selected": false,
           "class_name": "",
           "details": true,
-          "main_role": "Light tank"
+          "rank": "VI",
+          "research_country": "China",
+          "main_role": "Light tank",
+          "is_component": false,
+          "component_of": null,
+          "is_premium": false,
+          "is_squadron": false,
+          "wiki": {
+            "url": "https://wiki.warthunder.com/unit/cn_cm_34",
+            "rank": "VI",
+            "battle_rating_context": "default",
+            "battle_ratings": {
+              "AB": "9.3",
+              "RB": "9.3",
+              "SB": "9.3"
+            },
+            "battle_ratings_by_battle": {
+              "default": {
+                "AB": "9.3",
+                "RB": "9.3",
+                "SB": "9.3"
+              }
+            },
+            "research": "220,000",
+            "purchase": "620,000",
+            "purchase_currency": "SL",
+            "status": null,
+            "fetched_at": "2026-09-19T06:28:53.152Z",
+            "sha256": "71f16d92d4ea3505ffe22005612008130b15f158f63fc86b28ccbb3147bcaf1d"
+          }
         }
       ]
     ],
@@ -1145,16 +3312,46 @@
       [
         {
           "type": "single",
-          "title": "Object 122MT \"MC\"",
+          "title": "Object 122MT \"MC\"",
           "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/cn_object_122tm.png",
           "br": "8.7",
-          "rp": "400,000",
-          "sp": "450,000",
+          "rp": 0,
+          "sp": 0,
           "data_unit_id": "cn_object_122tm",
+          "required_unit_id": "",
           "selected": false,
           "class_name": "squad",
           "details": true,
-          "main_role": "Medium tank"
+          "rank": "VI",
+          "research_country": "China",
+          "main_role": "Medium tank",
+          "is_component": false,
+          "component_of": null,
+          "is_premium": false,
+          "is_squadron": true,
+          "wiki": {
+            "url": "https://wiki.warthunder.com/unit/cn_object_122tm",
+            "rank": "VI",
+            "battle_rating_context": "default",
+            "battle_ratings": {
+              "AB": "8.7",
+              "RB": "8.7",
+              "SB": "8.7"
+            },
+            "battle_ratings_by_battle": {
+              "default": {
+                "AB": "8.7",
+                "RB": "8.7",
+                "SB": "8.7"
+              }
+            },
+            "research": "400,000",
+            "purchase": "450,000",
+            "purchase_currency": "SL",
+            "status": "Squadron vehicle",
+            "fetched_at": "2026-09-19T06:28:56.534Z",
+            "sha256": "427226193c783a172d9f242af8eebc76ef2e45d984caa119014ba8a50ecf36a5"
+          }
         },
         {
           "type": "single",
@@ -1164,43 +3361,134 @@
           "rp": 0,
           "sp": 0,
           "data_unit_id": "cn_wma_301",
+          "required_unit_id": "",
           "selected": false,
           "class_name": "prem",
           "details": true,
-          "main_role": "Light tank"
+          "rank": "VI",
+          "research_country": "China",
+          "main_role": "Light tank",
+          "is_component": false,
+          "component_of": null,
+          "is_premium": true,
+          "is_squadron": false,
+          "wiki": {
+            "url": "https://wiki.warthunder.com/unit/cn_wma_301",
+            "rank": "VI",
+            "battle_rating_context": "default",
+            "battle_ratings": {
+              "AB": "9.0",
+              "RB": "9.0",
+              "SB": "9.0"
+            },
+            "battle_ratings_by_battle": {
+              "default": {
+                "AB": "9.0",
+                "RB": "9.0",
+                "SB": "9.0"
+              }
+            },
+            "research": null,
+            "purchase": "8,730",
+            "purchase_currency": "GE",
+            "status": "Premium vehicle",
+            "fetched_at": "2026-09-19T06:29:01.135Z",
+            "sha256": "c88012fe8ce5077cef5368c831320a781c533fd914167738ddb87b82a99f0855"
+          }
         },
         {
           "type": "single",
-          "title": "T-69 II G",
+          "title": "T-69 II G",
           "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/cn_type_69_2g.png",
           "br": "9.0",
           "rp": 0,
           "sp": 0,
           "data_unit_id": "cn_type_69_2g",
+          "required_unit_id": "",
           "selected": false,
           "class_name": "prem",
           "details": true,
-          "main_role": "Medium tank"
+          "rank": "VI",
+          "research_country": "China",
+          "main_role": "Medium tank",
+          "is_component": false,
+          "component_of": null,
+          "is_premium": true,
+          "is_squadron": false,
+          "wiki": {
+            "url": "https://wiki.warthunder.com/unit/cn_type_69_2g",
+            "rank": "VI",
+            "battle_rating_context": "default",
+            "battle_ratings": {
+              "AB": "9.0",
+              "RB": "9.0",
+              "SB": "9.0"
+            },
+            "battle_ratings_by_battle": {
+              "default": {
+                "AB": "9.0",
+                "RB": "9.0",
+                "SB": "9.0"
+              }
+            },
+            "research": null,
+            "purchase": "9,090",
+            "purchase_currency": "GE",
+            "status": "Premium vehicle",
+            "fetched_at": "2026-09-19T06:29:00.251Z",
+            "sha256": "8735e6e49cae1f4a3bf8c4bcfd5ae2a2feb0826ef76284dde619a0273606b64b"
+          }
         }
       ],
       [
         {
           "type": "single",
-          "title": "T-62 N545",
+          "title": "T-62 N545",
           "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/cn_t_62.png",
           "br": "8.7",
           "rp": 0,
           "sp": 0,
           "data_unit_id": "cn_t_62",
+          "required_unit_id": "",
           "selected": false,
           "class_name": "prem",
           "details": true,
-          "main_role": "Medium tank"
+          "rank": "VI",
+          "research_country": "China",
+          "main_role": "Medium tank",
+          "is_component": false,
+          "component_of": null,
+          "is_premium": true,
+          "is_squadron": false,
+          "wiki": {
+            "url": "https://wiki.warthunder.com/unit/cn_t_62",
+            "rank": "VI",
+            "battle_rating_context": "default",
+            "battle_ratings": {
+              "AB": "8.7",
+              "RB": "8.7",
+              "SB": "8.7"
+            },
+            "battle_ratings_by_battle": {
+              "default": {
+                "AB": "8.7",
+                "RB": "8.7",
+                "SB": "8.7"
+              }
+            },
+            "research": null,
+            "purchase": null,
+            "purchase_currency": null,
+            "status": "Premium vehicle",
+            "fetched_at": "2026-09-19T06:28:58.988Z",
+            "sha256": "9a3b2a1c7a71a3f6bfef84d597e5e7b39e25fc11210c2b66dd87e882d696b9c1"
+          }
         }
       ]
     ],
     "selected": [],
-    "unlock_quantity": 0
+    "unlock_quantity": null,
+    "source": "wiki"
   },
   {
     "rank": "VII",
@@ -1211,13 +3499,43 @@
           "title": "MBT-2000",
           "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/cn_mbt2000.png",
           "br": "11.7",
-          "rp": "300,000",
-          "sp": "830,000",
+          "rp": 300000,
+          "sp": 830000,
           "data_unit_id": "cn_mbt2000",
+          "required_unit_id": "cn_cm11",
           "selected": false,
           "class_name": "",
           "details": true,
-          "main_role": "Medium tank"
+          "rank": "VII",
+          "research_country": "China",
+          "main_role": "Medium tank",
+          "is_component": false,
+          "component_of": null,
+          "is_premium": false,
+          "is_squadron": false,
+          "wiki": {
+            "url": "https://wiki.warthunder.com/unit/cn_mbt2000",
+            "rank": "VII",
+            "battle_rating_context": "default",
+            "battle_ratings": {
+              "AB": "11.7",
+              "RB": "11.7",
+              "SB": "11.7"
+            },
+            "battle_ratings_by_battle": {
+              "default": {
+                "AB": "11.7",
+                "RB": "11.7",
+                "SB": "11.7"
+              }
+            },
+            "research": "300,000",
+            "purchase": "830,000",
+            "purchase_currency": "SL",
+            "status": null,
+            "fetched_at": "2026-09-19T06:28:56.077Z",
+            "sha256": "df31a97293adf8bd2d616ab5def8c1dca9d8a824e5411ac38bb4d34f3d9b0d06"
+          }
         }
       ],
       [
@@ -1226,13 +3544,43 @@
           "title": "ZTZ96A",
           "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/cn_ztz_96a.png",
           "br": "10.3",
-          "rp": "260,000",
-          "sp": "710,000",
+          "rp": 260000,
+          "sp": 710000,
           "data_unit_id": "cn_ztz_96a",
+          "required_unit_id": "cn_ztz_96",
           "selected": false,
           "class_name": "",
           "details": true,
-          "main_role": "Medium tank"
+          "rank": "VII",
+          "research_country": "China",
+          "main_role": "Medium tank",
+          "is_component": false,
+          "component_of": null,
+          "is_premium": false,
+          "is_squadron": false,
+          "wiki": {
+            "url": "https://wiki.warthunder.com/unit/cn_ztz_96a",
+            "rank": "VII",
+            "battle_rating_context": "default",
+            "battle_ratings": {
+              "AB": "10.3",
+              "RB": "10.3",
+              "SB": "10.3"
+            },
+            "battle_ratings_by_battle": {
+              "default": {
+                "AB": "10.3",
+                "RB": "10.3",
+                "SB": "10.3"
+              }
+            },
+            "research": "260,000",
+            "purchase": "710,000",
+            "purchase_currency": "SL",
+            "status": null,
+            "fetched_at": "2026-09-19T06:29:02.688Z",
+            "sha256": "2c39d54281c7a7411e66e16b767b61bbd07c8a9605c7b1e92e813147434bdb08"
+          }
         },
         {
           "type": "multiple",
@@ -1241,6 +3589,7 @@
           "selected": false,
           "br": "11.0",
           "data_unit_id": "cn_ztz_99_group",
+          "required_unit_id": "cn_ztz_96a",
           "class_name": "",
           "items": [
             {
@@ -1248,29 +3597,91 @@
               "title": "ZTZ99-II",
               "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/cn_ztz_99.png",
               "br": "11.0",
-              "rp": "300,000",
-              "sp": "830,000",
+              "rp": 300000,
+              "sp": 830000,
               "data_unit_id": "cn_ztz_99",
+              "required_unit_id": "",
               "selected": false,
               "class_name": "",
               "details": true,
-              "main_role": "Medium tank"
+              "rank": "VII",
+              "research_country": "China",
+              "main_role": "Medium tank",
+              "is_component": false,
+              "component_of": null,
+              "is_premium": false,
+              "is_squadron": false,
+              "wiki": {
+                "url": "https://wiki.warthunder.com/unit/cn_ztz_99",
+                "rank": "VII",
+                "battle_rating_context": "default",
+                "battle_ratings": {
+                  "AB": "11.0",
+                  "RB": "11.0",
+                  "SB": "11.0"
+                },
+                "battle_ratings_by_battle": {
+                  "default": {
+                    "AB": "11.0",
+                    "RB": "11.0",
+                    "SB": "11.0"
+                  }
+                },
+                "research": "300,000",
+                "purchase": "830,000",
+                "purchase_currency": "SL",
+                "status": null,
+                "fetched_at": "2026-09-19T06:29:02.861Z",
+                "sha256": "ba7873e51c76a4ac9f588504d77d96957ba6904f3042818df13ddf7c166b38c9"
+              }
             },
             {
               "type": "single",
               "title": "ZTZ99-III",
               "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/cn_ztz_99_w.png",
               "br": "11.0",
-              "rp": "175,000",
-              "sp": "950,000",
+              "rp": 175000,
+              "sp": 950000,
               "data_unit_id": "cn_ztz_99_w",
+              "required_unit_id": "cn_ztz_99",
               "selected": false,
               "class_name": "",
               "details": true,
-              "main_role": "Medium tank"
+              "rank": "VII",
+              "research_country": "China",
+              "main_role": "Medium tank",
+              "is_component": false,
+              "component_of": null,
+              "is_premium": false,
+              "is_squadron": false,
+              "wiki": {
+                "url": "https://wiki.warthunder.com/unit/cn_ztz_99_w",
+                "rank": "VII",
+                "battle_rating_context": "default",
+                "battle_ratings": {
+                  "AB": "11.0",
+                  "RB": "11.0",
+                  "SB": "11.0"
+                },
+                "battle_ratings_by_battle": {
+                  "default": {
+                    "AB": "11.0",
+                    "RB": "11.0",
+                    "SB": "11.0"
+                  }
+                },
+                "research": "175,000",
+                "purchase": "950,000",
+                "purchase_currency": "SL",
+                "status": null,
+                "fetched_at": "2026-09-19T06:29:03.023Z",
+                "sha256": "77051edb548ecae2552b0947079dd11fcadeec9becc1ebafdee14fcc0dc21f63"
+              }
             }
           ],
-          "details": true
+          "details": true,
+          "rp": 475000,
+          "sp": 1780000
         }
       ],
       [
@@ -1279,13 +3690,144 @@
           "title": "Antelope",
           "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/cn_antelope_tc_1l_ads.png",
           "br": "10.0",
-          "rp": "300,000",
-          "sp": "830,000",
+          "rp": 260000,
+          "sp": 710000,
           "data_unit_id": "cn_antelope_tc_1l_ads",
+          "required_unit_id": "cn_pgz_04a",
           "selected": false,
           "class_name": "",
           "details": true,
-          "main_role": "SPAA"
+          "rank": "VII",
+          "research_country": "China",
+          "main_role": "SPAA",
+          "is_component": false,
+          "component_of": null,
+          "is_premium": false,
+          "is_squadron": false,
+          "wiki": {
+            "url": "https://wiki.warthunder.com/unit/cn_antelope_tc_1l_ads",
+            "rank": "VII",
+            "battle_rating_context": "default",
+            "battle_ratings": {
+              "AB": "10.3",
+              "RB": "10.0",
+              "SB": "10.0"
+            },
+            "battle_ratings_by_battle": {
+              "default": {
+                "AB": "10.3",
+                "RB": "10.0",
+                "SB": "10.0"
+              }
+            },
+            "research": "260,000",
+            "purchase": "710,000",
+            "purchase_currency": "SL",
+            "status": null,
+            "fetched_at": "2026-09-19T06:28:52.623Z",
+            "sha256": "9459df13e0a15b9a0ff77336c948382527ea1819dfc75bead22a6db4d7fe8a6f"
+          }
+        },
+        {
+          "type": "multiple",
+          "title": "Tor/HQ",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/cn_tor_hq_group.png",
+          "selected": false,
+          "br": "11.3-11.7",
+          "data_unit_id": "cn_tor_hq_group",
+          "required_unit_id": "cn_antelope_tc_1l_ads",
+          "class_name": "",
+          "items": [
+            {
+              "type": "single",
+              "title": "Tor-M1",
+              "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/cn_tor_m1.png",
+              "br": "11.3",
+              "rp": 300000,
+              "sp": 830000,
+              "data_unit_id": "cn_tor_m1",
+              "required_unit_id": "",
+              "selected": false,
+              "class_name": "",
+              "details": true,
+              "rank": "VII",
+              "research_country": "China",
+              "main_role": "SPAA",
+              "is_component": false,
+              "component_of": null,
+              "is_premium": false,
+              "is_squadron": false,
+              "wiki": {
+                "url": "https://wiki.warthunder.com/unit/cn_tor_m1",
+                "rank": "VII",
+                "battle_rating_context": "default",
+                "battle_ratings": {
+                  "AB": "11.3",
+                  "RB": "11.3",
+                  "SB": "11.3"
+                },
+                "battle_ratings_by_battle": {
+                  "default": {
+                    "AB": "11.3",
+                    "RB": "11.3",
+                    "SB": "11.3"
+                  }
+                },
+                "research": "300,000",
+                "purchase": "830,000",
+                "purchase_currency": "SL",
+                "status": null,
+                "fetched_at": "2026-09-19T06:28:58.832Z",
+                "sha256": "cec4b473c2d831498961d00ebe83bc530a969d9101c88e5127b75735762303ef"
+              }
+            },
+            {
+              "type": "single",
+              "title": "HQ17",
+              "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/cn_hq_17.png",
+              "br": "11.7",
+              "rp": 175000,
+              "sp": 950000,
+              "data_unit_id": "cn_hq_17",
+              "required_unit_id": "cn_tor_m1",
+              "selected": false,
+              "class_name": "",
+              "details": true,
+              "rank": "VII",
+              "research_country": "China",
+              "main_role": "SPAA",
+              "is_component": false,
+              "component_of": null,
+              "is_premium": false,
+              "is_squadron": false,
+              "wiki": {
+                "url": "https://wiki.warthunder.com/unit/cn_hq_17",
+                "rank": "VII",
+                "battle_rating_context": "default",
+                "battle_ratings": {
+                  "AB": "11.7",
+                  "RB": "11.7",
+                  "SB": "11.7"
+                },
+                "battle_ratings_by_battle": {
+                  "default": {
+                    "AB": "11.7",
+                    "RB": "11.7",
+                    "SB": "11.7"
+                  }
+                },
+                "research": "175,000",
+                "purchase": "950,000",
+                "purchase_currency": "SL",
+                "status": null,
+                "fetched_at": "2026-09-19T06:28:53.529Z",
+                "sha256": "18f634706f322c8eea96b0b53b311957185b0000e56692566baca1527d79772f"
+              }
+            }
+          ],
+          "details": true,
+          "rp": 475000,
+          "sp": 1780000
         }
       ],
       [
@@ -1294,26 +3836,86 @@
           "title": "ZLT11",
           "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/cn_ztl_11.png",
           "br": "9.7",
-          "rp": "260,000",
-          "sp": "710,000",
+          "rp": 260000,
+          "sp": 710000,
           "data_unit_id": "cn_ztl_11",
+          "required_unit_id": "cn_cm_34",
           "selected": false,
           "class_name": "",
           "details": true,
-          "main_role": "Light tank"
+          "rank": "VII",
+          "research_country": "China",
+          "main_role": "Light tank",
+          "is_component": false,
+          "component_of": null,
+          "is_premium": false,
+          "is_squadron": false,
+          "wiki": {
+            "url": "https://wiki.warthunder.com/unit/cn_ztl_11",
+            "rank": "VII",
+            "battle_rating_context": "default",
+            "battle_ratings": {
+              "AB": "9.7",
+              "RB": "9.7",
+              "SB": "9.7"
+            },
+            "battle_ratings_by_battle": {
+              "default": {
+                "AB": "9.7",
+                "RB": "9.7",
+                "SB": "9.7"
+              }
+            },
+            "research": "260,000",
+            "purchase": "710,000",
+            "purchase_currency": "SL",
+            "status": null,
+            "fetched_at": "2026-09-19T06:29:01.841Z",
+            "sha256": "4d4b104ac3facb9a794830fa76eb156aaa474e03029898f903f534a6ac68cae4"
+          }
         },
         {
           "type": "single",
           "title": "ZBD04A",
           "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/cn_zbd_04a.png",
           "br": "10.0",
-          "rp": "300,000",
-          "sp": "830,000",
+          "rp": 300000,
+          "sp": 830000,
           "data_unit_id": "cn_zbd_04a",
+          "required_unit_id": "cn_ztl_11",
           "selected": false,
           "class_name": "",
           "details": true,
-          "main_role": "Light tank"
+          "rank": "VII",
+          "research_country": "China",
+          "main_role": "Light tank",
+          "is_component": false,
+          "component_of": null,
+          "is_premium": false,
+          "is_squadron": false,
+          "wiki": {
+            "url": "https://wiki.warthunder.com/unit/cn_zbd_04a",
+            "rank": "VII",
+            "battle_rating_context": "default",
+            "battle_ratings": {
+              "AB": "10.0",
+              "RB": "10.0",
+              "SB": "10.0"
+            },
+            "battle_ratings_by_battle": {
+              "default": {
+                "AB": "10.0",
+                "RB": "10.0",
+                "SB": "10.0"
+              }
+            },
+            "research": "300,000",
+            "purchase": "830,000",
+            "purchase_currency": "SL",
+            "status": null,
+            "fetched_at": "2026-09-19T06:29:01.470Z",
+            "sha256": "e2e95c122f35b84812610a06187d8567454504b2347953aa4b9e77838633a3ce"
+          }
         }
       ]
     ],
@@ -1321,16 +3923,46 @@
       [
         {
           "type": "single",
-          "title": "ZTZ96A (P)",
+          "title": "ZTZ96A (P)",
           "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/cn_ztz_96a_prot.png",
           "br": "10.3",
           "rp": 0,
           "sp": 0,
           "data_unit_id": "cn_ztz_96a_prot",
+          "required_unit_id": "",
           "selected": false,
           "class_name": "prem",
           "details": true,
-          "main_role": "Medium tank"
+          "rank": "VII",
+          "research_country": "China",
+          "main_role": "Medium tank",
+          "is_component": false,
+          "component_of": null,
+          "is_premium": true,
+          "is_squadron": false,
+          "wiki": {
+            "url": "https://wiki.warthunder.com/unit/cn_ztz_96a_prot",
+            "rank": "VII",
+            "battle_rating_context": "default",
+            "battle_ratings": {
+              "AB": "10.3",
+              "RB": "10.3",
+              "SB": "10.3"
+            },
+            "battle_ratings_by_battle": {
+              "default": {
+                "AB": "10.3",
+                "RB": "10.3",
+                "SB": "10.3"
+              }
+            },
+            "research": null,
+            "purchase": "9,270",
+            "purchase_currency": "GE",
+            "status": "Premium vehicle",
+            "fetched_at": "2026-09-19T06:29:02.502Z",
+            "sha256": "6e16803cb16cd95335cb32468d977bcbc75c50a09d1065faadf33a11500540cb"
+          }
         },
         {
           "type": "single",
@@ -1340,23 +3972,83 @@
           "rp": null,
           "sp": null,
           "data_unit_id": "cn_qn506",
+          "required_unit_id": "",
           "selected": false,
           "class_name": "",
           "details": true,
-          "main_role": "Light tank"
+          "rank": "VII",
+          "research_country": "China",
+          "main_role": "Light tank",
+          "is_component": false,
+          "component_of": null,
+          "is_premium": false,
+          "is_squadron": false,
+          "wiki": {
+            "url": "https://wiki.warthunder.com/unit/cn_qn506",
+            "rank": "VII",
+            "battle_rating_context": "default",
+            "battle_ratings": {
+              "AB": "10.0",
+              "RB": "10.0",
+              "SB": "10.0"
+            },
+            "battle_ratings_by_battle": {
+              "default": {
+                "AB": "10.0",
+                "RB": "10.0",
+                "SB": "10.0"
+              }
+            },
+            "research": null,
+            "purchase": null,
+            "purchase_currency": null,
+            "status": null,
+            "fetched_at": "2026-09-19T06:28:57.806Z",
+            "sha256": "996621af609d82152cfe204ad4c18673c94ea8711704d637896fd057df46e54d"
+          }
         },
         {
           "type": "single",
           "title": "VT5",
           "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/cn_vt_5.png",
           "br": "11.7",
-          "rp": "540,000",
-          "sp": "870,000",
+          "rp": 0,
+          "sp": 0,
           "data_unit_id": "cn_vt_5",
+          "required_unit_id": "",
           "selected": false,
           "class_name": "squad",
           "details": true,
-          "main_role": "Light tank"
+          "rank": "VII",
+          "research_country": "China",
+          "main_role": "Light tank",
+          "is_component": false,
+          "component_of": null,
+          "is_premium": false,
+          "is_squadron": true,
+          "wiki": {
+            "url": "https://wiki.warthunder.com/unit/cn_vt_5",
+            "rank": "VII",
+            "battle_rating_context": "default",
+            "battle_ratings": {
+              "AB": "11.3",
+              "RB": "11.7",
+              "SB": "11.7"
+            },
+            "battle_ratings_by_battle": {
+              "default": {
+                "AB": "11.3",
+                "RB": "11.7",
+                "SB": "11.7"
+              }
+            },
+            "research": "540,000",
+            "purchase": "870,000",
+            "purchase_currency": "SL",
+            "status": "Squadron vehicle",
+            "fetched_at": "2026-09-19T06:29:00.915Z",
+            "sha256": "f5531f2a6e6346a1ec5dda1f6d5d8687056118422033bdf092a003bcc3ac13e3"
+          }
         },
         {
           "type": "single",
@@ -1366,10 +4058,40 @@
           "rp": 0,
           "sp": 0,
           "data_unit_id": "cn_ztz_96b",
+          "required_unit_id": "",
           "selected": false,
           "class_name": "prem",
           "details": true,
-          "main_role": "Medium tank"
+          "rank": "VII",
+          "research_country": "China",
+          "main_role": "Medium tank",
+          "is_component": false,
+          "component_of": null,
+          "is_premium": true,
+          "is_squadron": false,
+          "wiki": {
+            "url": "https://wiki.warthunder.com/unit/cn_ztz_96b",
+            "rank": "VII",
+            "battle_rating_context": "default",
+            "battle_ratings": {
+              "AB": "11.7",
+              "RB": "11.7",
+              "SB": "11.7"
+            },
+            "battle_ratings_by_battle": {
+              "default": {
+                "AB": "11.7",
+                "RB": "11.7",
+                "SB": "11.7"
+              }
+            },
+            "research": null,
+            "purchase": null,
+            "purchase_currency": null,
+            "status": "Premium vehicle",
+            "fetched_at": "2026-09-19T06:29:02.908Z",
+            "sha256": "1bde337d77f368ff7a51f6dbae2bde5191535324e7be0234a7be385c061cffb1"
+          }
         }
       ],
       [
@@ -1381,10 +4103,40 @@
           "rp": null,
           "sp": null,
           "data_unit_id": "cn_t_80ud_478be",
+          "required_unit_id": "",
           "selected": false,
           "class_name": "",
           "details": true,
-          "main_role": "Medium tank"
+          "rank": "VII",
+          "research_country": "China",
+          "main_role": "Medium tank",
+          "is_component": false,
+          "component_of": null,
+          "is_premium": false,
+          "is_squadron": false,
+          "wiki": {
+            "url": "https://wiki.warthunder.com/unit/cn_t_80ud_478be",
+            "rank": "VII",
+            "battle_rating_context": "default",
+            "battle_ratings": {
+              "AB": "11.0",
+              "RB": "11.0",
+              "SB": "11.0"
+            },
+            "battle_ratings_by_battle": {
+              "default": {
+                "AB": "11.0",
+                "RB": "11.0",
+                "SB": "11.0"
+              }
+            },
+            "research": null,
+            "purchase": null,
+            "purchase_currency": null,
+            "status": null,
+            "fetched_at": "2026-09-19T06:28:59.094Z",
+            "sha256": "42a882df0a1119e59b2381a84f17045aaf7333da6cbc2777869f3a1585cd1b6d"
+          }
         },
         {
           "type": "single",
@@ -1394,15 +4146,89 @@
           "rp": 0,
           "sp": 0,
           "data_unit_id": "cn_al_khalid_1",
+          "required_unit_id": "",
           "selected": false,
           "class_name": "prem",
           "details": true,
-          "main_role": "Medium tank"
+          "rank": "VII",
+          "research_country": "China",
+          "main_role": "Medium tank",
+          "is_component": false,
+          "component_of": null,
+          "is_premium": true,
+          "is_squadron": false,
+          "wiki": {
+            "url": "https://wiki.warthunder.com/unit/cn_al_khalid_1",
+            "rank": "VII",
+            "battle_rating_context": "default",
+            "battle_ratings": {
+              "AB": "11.7",
+              "RB": "11.7",
+              "SB": "11.7"
+            },
+            "battle_ratings_by_battle": {
+              "default": {
+                "AB": "11.7",
+                "RB": "11.7",
+                "SB": "11.7"
+              }
+            },
+            "research": null,
+            "purchase": null,
+            "purchase_currency": null,
+            "status": "Premium vehicle",
+            "fetched_at": "2026-09-19T06:28:52.683Z",
+            "sha256": "e035c8ab368b65e771f3e320a770d336a007ec44a6c9c3b7e5e8c95e4be3155e"
+          }
+        },
+        {
+          "type": "single",
+          "title": "◍MBT-2000",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/cn_mbt2000_sm.png",
+          "br": "11.7",
+          "rp": 0,
+          "sp": 0,
+          "data_unit_id": "cn_mbt2000_sm",
+          "required_unit_id": "",
+          "selected": false,
+          "class_name": "prem",
+          "details": true,
+          "rank": "VII",
+          "research_country": "China",
+          "main_role": "Medium tank",
+          "is_component": false,
+          "component_of": null,
+          "is_premium": true,
+          "is_squadron": false,
+          "wiki": {
+            "url": "https://wiki.warthunder.com/unit/cn_mbt2000_sm",
+            "rank": "VII",
+            "battle_rating_context": "default",
+            "battle_ratings": {
+              "AB": "11.7",
+              "RB": "11.7",
+              "SB": "11.7"
+            },
+            "battle_ratings_by_battle": {
+              "default": {
+                "AB": "11.7",
+                "RB": "11.7",
+                "SB": "11.7"
+              }
+            },
+            "research": null,
+            "purchase": null,
+            "purchase_currency": null,
+            "status": "Premium vehicle",
+            "fetched_at": "2026-09-19T06:28:56.281Z",
+            "sha256": "c061a47d493379fb80aed8e456082001f4cb3865e55a8ccb1ec796ec2ff95cdb"
+          }
         }
       ]
     ],
     "selected": [],
-    "unlock_quantity": 0
+    "unlock_quantity": null,
+    "source": "wiki"
   },
   {
     "rank": "VIII",
@@ -1413,133 +4239,348 @@
           "title": "VT4",
           "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/cn_vt_4.png",
           "br": "12.3",
-          "rp": "400,000",
-          "sp": "1,080,000",
+          "rp": 400000,
+          "sp": 1080000,
           "data_unit_id": "cn_vt_4",
+          "required_unit_id": "cn_mbt2000",
           "selected": false,
           "class_name": "",
           "details": true,
-          "main_role": "Medium tank"
+          "rank": "VIII",
+          "research_country": "China",
+          "main_role": "Medium tank",
+          "is_component": false,
+          "component_of": null,
+          "is_premium": false,
+          "is_squadron": false,
+          "wiki": {
+            "url": "https://wiki.warthunder.com/unit/cn_vt_4",
+            "rank": "VIII",
+            "battle_rating_context": "default",
+            "battle_ratings": {
+              "AB": "12.3",
+              "RB": "12.3",
+              "SB": "12.3"
+            },
+            "battle_ratings_by_battle": {
+              "default": {
+                "AB": "12.3",
+                "RB": "12.3",
+                "SB": "12.3"
+              }
+            },
+            "research": "400,000",
+            "purchase": "1,080,000",
+            "purchase_currency": "SL",
+            "status": null,
+            "fetched_at": "2026-09-19T06:29:00.650Z",
+            "sha256": "912ba2a0d276118d24a524874c3d6fdd6be41479ffb30c20221b61b3fd058da2"
+          }
         },
         {
           "type": "single",
           "title": "VT4A1",
           "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/cn_vt_4b.png",
           "br": "12.7",
-          "rp": "410,000",
-          "sp": "1,100,000",
+          "rp": 410000,
+          "sp": 1100000,
           "data_unit_id": "cn_vt_4b",
+          "required_unit_id": "cn_vt_4",
           "selected": false,
           "class_name": "",
           "details": true,
-          "main_role": "Medium tank"
+          "rank": "VIII",
+          "research_country": "China",
+          "main_role": "Medium tank",
+          "is_component": false,
+          "component_of": null,
+          "is_premium": false,
+          "is_squadron": false,
+          "wiki": {
+            "url": "https://wiki.warthunder.com/unit/cn_vt_4b",
+            "rank": "VIII",
+            "battle_rating_context": "default",
+            "battle_ratings": {
+              "AB": "12.7",
+              "RB": "12.7",
+              "SB": "12.7"
+            },
+            "battle_ratings_by_battle": {
+              "default": {
+                "AB": "12.7",
+                "RB": "12.7",
+                "SB": "12.7"
+              }
+            },
+            "research": "410,000",
+            "purchase": "1,100,000",
+            "purchase_currency": "SL",
+            "status": null,
+            "fetched_at": "2026-09-19T06:29:01.024Z",
+            "sha256": "003c9bb577ab107b913b0d42fa5c5053c7a0ebaed1477672d0223d2ab27ca8e0"
+          }
         },
         {
           "type": "single",
           "title": "M1A2T",
           "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/cn_m1a2t.png",
           "br": "12.7",
-          "rp": "420,000",
-          "sp": "1,120,000",
+          "rp": 420000,
+          "sp": 1120000,
           "data_unit_id": "cn_m1a2t",
+          "required_unit_id": "cn_vt_4b",
           "selected": false,
           "class_name": "",
           "details": true,
-          "main_role": "Medium tank"
+          "rank": "VIII",
+          "research_country": "China",
+          "main_role": "Medium tank",
+          "is_component": false,
+          "component_of": null,
+          "is_premium": false,
+          "is_squadron": false,
+          "wiki": {
+            "url": "https://wiki.warthunder.com/unit/cn_m1a2t",
+            "rank": "VIII",
+            "battle_rating_context": "default",
+            "battle_ratings": {
+              "AB": "12.7",
+              "RB": "12.7",
+              "SB": "12.7"
+            },
+            "battle_ratings_by_battle": {
+              "default": {
+                "AB": "12.7",
+                "RB": "12.7",
+                "SB": "12.7"
+              }
+            },
+            "research": "420,000",
+            "purchase": "1,120,000",
+            "purchase_currency": "SL",
+            "status": null,
+            "fetched_at": "2026-09-19T06:28:54.437Z",
+            "sha256": "4b7542594972c8de194838b3e5fc9365ea29e5a593cde464a31fe12dc4f5a518"
+          }
         }
       ],
       [
         {
           "type": "single",
-          "title": "WZ1001(E) LCT",
+          "title": "WZ1001(E) LCT",
           "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/cn_wz_1001.png",
           "br": "12.3",
-          "rp": "400,000",
-          "sp": "1,080,000",
+          "rp": 400000,
+          "sp": 1080000,
           "data_unit_id": "cn_wz_1001",
+          "required_unit_id": "cn_ztz_99_group",
           "selected": false,
           "class_name": "",
           "details": true,
-          "main_role": "Medium tank"
+          "rank": "VIII",
+          "research_country": "China",
+          "main_role": "Medium tank",
+          "is_component": false,
+          "component_of": null,
+          "is_premium": false,
+          "is_squadron": false,
+          "wiki": {
+            "url": "https://wiki.warthunder.com/unit/cn_wz_1001",
+            "rank": "VIII",
+            "battle_rating_context": "default",
+            "battle_ratings": {
+              "AB": "12.3",
+              "RB": "12.3",
+              "SB": "12.3"
+            },
+            "battle_ratings_by_battle": {
+              "default": {
+                "AB": "12.3",
+                "RB": "12.3",
+                "SB": "12.3"
+              }
+            },
+            "research": "400,000",
+            "purchase": "1,080,000",
+            "purchase_currency": "SL",
+            "status": null,
+            "fetched_at": "2026-09-19T06:29:01.251Z",
+            "sha256": "8ada028f0fb7a3dd98395db9e6e87577e4a591223cbc85ad6e0a0d4593e27c4c"
+          }
         },
         {
           "type": "single",
           "title": "ZTZ99A",
           "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/cn_ztz_99a.png",
           "br": "12.3",
-          "rp": "410,000",
-          "sp": "1,100,000",
+          "rp": 410000,
+          "sp": 1100000,
           "data_unit_id": "cn_ztz_99a",
+          "required_unit_id": "cn_wz_1001",
           "selected": false,
           "class_name": "",
           "details": true,
-          "main_role": "Medium tank"
+          "rank": "VIII",
+          "research_country": "China",
+          "main_role": "Medium tank",
+          "is_component": false,
+          "component_of": null,
+          "is_premium": false,
+          "is_squadron": false,
+          "wiki": {
+            "url": "https://wiki.warthunder.com/unit/cn_ztz_99a",
+            "rank": "VIII",
+            "battle_rating_context": "default",
+            "battle_ratings": {
+              "AB": "12.3",
+              "RB": "12.3",
+              "SB": "12.3"
+            },
+            "battle_ratings_by_battle": {
+              "default": {
+                "AB": "12.3",
+                "RB": "12.3",
+                "SB": "12.3"
+              }
+            },
+            "research": "410,000",
+            "purchase": "1,100,000",
+            "purchase_currency": "SL",
+            "status": null,
+            "fetched_at": "2026-09-19T06:29:03.206Z",
+            "sha256": "c182e65f80967be25f125a7ce12bf89f62291d987bc47ebe68fb6bafc39763f7"
+          }
         }
       ],
       [
-        {
-          "type": "multiple",
-          "title": "Tor/HQ",
-          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/cn_tor_hq_group.png",
-          "selected": false,
-          "br": "11.3-11.7",
-          "data_unit_id": "cn_tor_hq_group",
-          "class_name": "",
-          "items": [
-            {
-              "type": "single",
-              "title": "Tor-M1",
-              "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/cn_tor_m1.png",
-              "br": "11.3",
-              "rp": "400,000",
-              "sp": "1,080,000",
-              "data_unit_id": "cn_tor_m1",
-              "selected": false,
-              "class_name": "",
-              "details": true,
-              "main_role": "SPAA"
-            },
-            {
-              "type": "single",
-              "title": "HQ17",
-              "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/cn_hq_17.png",
-              "br": "11.7",
-              "rp": "200,000",
-              "sp": "1,100,000",
-              "data_unit_id": "cn_hq_17",
-              "selected": false,
-              "class_name": "",
-              "details": true,
-              "main_role": "SPAA"
-            }
-          ],
-          "details": true
-        },
         {
           "type": "single",
           "title": "CS/SA5",
           "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/cn_pgz_625_fb10.png",
           "br": "12.0",
-          "rp": "410,000",
-          "sp": "1,100,000",
+          "rp": 400000,
+          "sp": 1080000,
           "data_unit_id": "cn_pgz_625_fb10",
+          "required_unit_id": "cn_tor_hq_group",
           "selected": false,
           "class_name": "",
           "details": true,
-          "main_role": "SPAA"
+          "rank": "VIII",
+          "research_country": "China",
+          "main_role": "SPAA",
+          "is_component": false,
+          "component_of": null,
+          "is_premium": false,
+          "is_squadron": false,
+          "wiki": {
+            "url": "https://wiki.warthunder.com/unit/cn_pgz_625_fb10",
+            "rank": "VIII",
+            "battle_rating_context": "default",
+            "battle_ratings": {
+              "AB": "12.0",
+              "RB": "12.0",
+              "SB": "12.0"
+            },
+            "battle_ratings_by_battle": {
+              "default": {
+                "AB": "12.0",
+                "RB": "12.0",
+                "SB": "12.0"
+              }
+            },
+            "research": "400,000",
+            "purchase": "1,080,000",
+            "purchase_currency": "SL",
+            "status": null,
+            "fetched_at": "2026-09-19T06:28:56.814Z",
+            "sha256": "cd037a676532090889102b13ea6c7c205e17eb899b56c6096a032a8ec47e1121"
+          }
+        },
+        {
+          "type": "single",
+          "title": "FK-2000",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/cn_fk_2000.png",
+          "br": "12.0",
+          "rp": 410000,
+          "sp": 1100000,
+          "data_unit_id": "cn_fk_2000",
+          "required_unit_id": "cn_pgz_625_fb10",
+          "selected": false,
+          "class_name": "",
+          "details": true,
+          "rank": "VIII",
+          "research_country": "China",
+          "main_role": "SPAA",
+          "is_component": false,
+          "component_of": null,
+          "is_premium": false,
+          "is_squadron": false,
+          "wiki": {
+            "url": "https://wiki.warthunder.com/unit/cn_fk_2000",
+            "rank": "VIII",
+            "battle_rating_context": "default",
+            "battle_ratings": {
+              "AB": "12.0",
+              "RB": "12.0",
+              "SB": "12.0"
+            },
+            "battle_ratings_by_battle": {
+              "default": {
+                "AB": "12.0",
+                "RB": "12.0",
+                "SB": "12.0"
+              }
+            },
+            "research": "410,000",
+            "purchase": "1,100,000",
+            "purchase_currency": "SL",
+            "status": null,
+            "fetched_at": "2026-09-19T06:28:53.201Z",
+            "sha256": "ff693d9d03d37ebe59248f93b9b15de5bba6b0d65fa97c009cca6fec67c23b68"
+          }
         },
         {
           "type": "single",
           "title": "HQ11",
           "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/cn_hq_11.png",
           "br": "12.7",
-          "rp": "420,000",
-          "sp": "1,120,000",
+          "rp": 420000,
+          "sp": 1120000,
           "data_unit_id": "cn_hq_11",
+          "required_unit_id": "cn_fk_2000",
           "selected": false,
           "class_name": "",
           "details": true,
-          "main_role": "SPAA"
+          "rank": "VIII",
+          "research_country": "China",
+          "main_role": "SPAA",
+          "is_component": false,
+          "component_of": null,
+          "is_premium": false,
+          "is_squadron": false,
+          "wiki": {
+            "url": "https://wiki.warthunder.com/unit/cn_hq_11",
+            "rank": "VIII",
+            "battle_rating_context": "default",
+            "battle_ratings": {
+              "AB": "12.7",
+              "RB": "12.7",
+              "SB": "12.7"
+            },
+            "battle_ratings_by_battle": {
+              "default": {
+                "AB": "12.7",
+                "RB": "12.7",
+                "SB": "12.7"
+              }
+            },
+            "research": "420,000",
+            "purchase": "1,120,000",
+            "purchase_currency": "SL",
+            "status": null,
+            "fetched_at": "2026-09-19T06:28:53.470Z",
+            "sha256": "8c8585c83acb5a57c9ddc75639885b602114b2c40c42b8d57ca3c16ee8717d4f"
+          }
         }
       ],
       []
@@ -1551,18 +4592,49 @@
           "title": "Oplot-M",
           "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/cn_oplot_t.png",
           "br": "12.3",
-          "rp": "570,000",
-          "sp": "1,140,000",
+          "rp": 0,
+          "sp": 0,
           "data_unit_id": "cn_oplot_t",
+          "required_unit_id": "",
           "selected": false,
           "class_name": "squad",
           "details": true,
-          "main_role": "Medium tank"
+          "rank": "VIII",
+          "research_country": "China",
+          "main_role": "Medium tank",
+          "is_component": false,
+          "component_of": null,
+          "is_premium": false,
+          "is_squadron": true,
+          "wiki": {
+            "url": "https://wiki.warthunder.com/unit/cn_oplot_t",
+            "rank": "VIII",
+            "battle_rating_context": "default",
+            "battle_ratings": {
+              "AB": "12.3",
+              "RB": "12.3",
+              "SB": "12.3"
+            },
+            "battle_ratings_by_battle": {
+              "default": {
+                "AB": "12.3",
+                "RB": "12.3",
+                "SB": "12.3"
+              }
+            },
+            "research": "570,000",
+            "purchase": "1,140,000",
+            "purchase_currency": "SL",
+            "status": "Squadron vehicle",
+            "fetched_at": "2026-09-19T06:28:56.496Z",
+            "sha256": "bfd1a602eafb232b8591afef90919c6849493d00b0262f004d98bda2891debcf"
+          }
         }
       ],
       []
     ],
     "selected": [],
-    "unlock_quantity": 0
+    "unlock_quantity": null,
+    "source": "wiki"
   }
 ]
