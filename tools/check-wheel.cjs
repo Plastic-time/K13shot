@@ -22,11 +22,13 @@ async function main() {
   let sequence = 0;
   let buffer = '';
   const pending = new Map();
+  const pageErrors = [];
   browser.stdio[4].on('data', chunk => {
     buffer += chunk.toString();
     let end;
     while ((end = buffer.indexOf('\0')) !== -1) {
       const message = JSON.parse(buffer.slice(0, end));
+      if (message.method === 'Runtime.exceptionThrown') pageErrors.push(message.params.exceptionDetails);
       buffer = buffer.slice(end + 1);
       const entry = pending.get(message.id);
       if (entry) {
@@ -56,6 +58,7 @@ async function main() {
       return result.result.value;
     }
     await call('Page.enable');
+    await call('Runtime.enable');
     for (const width of [1440, 390]) {
       await call('Emulation.setDeviceMetricsOverride', { width, height: 900, deviceScaleFactor: 1, mobile: false });
       for (const route of ['/pages/', '/']) {
@@ -85,13 +88,23 @@ async function main() {
             els.dependencyModeSelect.value = 'dependencies';
             els.dependencyModeSelect.dispatchEvent(new Event('change'));
             const dependent = {rp: els.totalRp.textContent, sl: els.totalSp.textContent};
+            const firstRank = state.tree[0];
+            const quantity = getRankUnlockQuantity(firstRank);
+            const candidates = state.units.filter(unit => unit.rank === firstRank.rank && unit.section === 'researchable' && !state.initialUnlocked.has(unit.data_unit_id));
+            for (const unit of candidates) {
+              if (getSelectedVehicleCount(firstRank.rank) >= quantity) break;
+              if (!state.planned.has(unit.data_unit_id)) document.querySelector('[data-unit-id="' + unit.data_unit_id + '"]').click();
+            }
+            const gate = document.querySelector('.rank-unlock-line');
+            const gateComplete = quantity === 6 && gate.classList.contains('is-complete') && gate.textContent.includes('6 / 6');
             els.clearButton.click();
-            return {trees:report.length, units:report.reduce((a,b)=>a+b,0), selected, dependent};
+            return {trees:report.length, units:report.reduce((a,b)=>a+b,0), selected, dependent, gateComplete};
           })()`);
           assert.equal(smoke.trees, 50);
           assert.equal(smoke.units, 3235);
           assert.deepEqual(smoke.selected, {rp:'2,900',sl:'700'});
           assert.deepEqual(smoke.dependent, smoke.selected);
+          assert.equal(smoke.gateComplete, true, 'Restore rank unlock count and completed gate');
           console.log(JSON.stringify({label:`pages-data-${width}`, ...smoke, pass:true}));
         }
         await pause(600);
@@ -156,6 +169,7 @@ async function main() {
         }
       }
     }
+    assert.deepEqual(pageErrors, [], 'No browser JavaScript exceptions');
   } finally {
     await send('Browser.close').catch(() => browser.kill());
     if (browser.exitCode === null) await Promise.race([once(browser, 'exit'), pause(3000)]);

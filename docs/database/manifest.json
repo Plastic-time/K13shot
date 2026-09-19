@@ -8,7 +8,7 @@
   "unique_units": 3235,
   "failures": [],
   "limitations": [
-    "Wiki tree pages do not expose rank unlock counts; unknown counts are null, not zero.",
+    "Wiki rank unlock counts are unavailable; the calculator retains the existing dict/unlock_quantity.js rules separately from this source snapshot.",
     "Squadron and premium costs are excluded from ordinary research totals; unmodified source values remain in each wiki field.",
     "This is a dated Wiki snapshot, not a live game-data or future accuracy guarantee."
   ],

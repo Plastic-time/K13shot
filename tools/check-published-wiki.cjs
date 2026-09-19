@@ -17,7 +17,7 @@ async function check() {
       assert.equal(sha(await get(entry.path)),entry.sha256,`Published hash mismatch: ${entry.path}`);
     }
   }));
-  for(const file of ['index.html','app.js','styles.css']) assert.equal(sha(await get(file)),sha(fs.readFileSync(path.join(root,'docs',file))),`Stale frontend: ${file}`);
-  console.log(JSON.stringify({url:base,publishedSnapshot:manifest.fetched_to,trees:manifest.files.length,units:manifest.unit_count,staticFiles:3,hashMismatches:0}));
+  for(const file of ['index.html','app.js','styles.css','unlock-quantity.js']) assert.equal(sha(await get(file)),sha(fs.readFileSync(path.join(root,'docs',file))),`Stale frontend: ${file}`);
+  console.log(JSON.stringify({url:base,publishedSnapshot:manifest.fetched_to,trees:manifest.files.length,units:manifest.unit_count,staticFiles:4,hashMismatches:0}));
 }
 check().catch(error=>{console.error(error);process.exitCode=1;});

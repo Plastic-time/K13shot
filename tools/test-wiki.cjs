@@ -26,7 +26,12 @@ assert.throws(()=>parseWikiDetail(fixture({rp:'broken value'}),'test'));
 
 const context=vm.createContext({document:{getElementById:()=>({})},window:{matchMedia:()=>({matches:false})},console});
 const app=fs.readFileSync(path.join(root,'docs/app.js'),'utf8').replace(/\binit\(\);\s*$/,'');
-vm.runInContext(app+'\nrenderTree=()=>{};renderSummary=()=>{};globalThis.calc={state,flattenTree,getDependencyIds,calculatePlan,isInitialUnlockedUnit,formatCost};',context);
+const rules=fs.readFileSync(path.join(root,'docs/unlock-quantity.js'),'utf8');
+assert.equal(rules,fs.readFileSync(path.join(root,'dict/unlock_quantity.js'),'utf8'));
+const expose='\nrenderTree=()=>{};renderSummary=()=>{};globalThis.calc={state,flattenTree,getDependencyIds,calculatePlan,isInitialUnlockedUnit,formatCost,getRankUnlockQuantity,renderRankUnlockGate};';
+vm.runInContext(rules+'\n'+app+expose,context);
+const legacy=vm.createContext({document:{getElementById:()=>({})},window:{matchMedia:()=>({matches:false})},console});
+vm.runInContext(rules+'\n'+app+'\n'+fs.readFileSync(path.join(root,'tools/fixtures/legacy-planning.js'),'utf8')+expose,legacy);
 const {calc}=context;
 const manifest=JSON.parse(fs.readFileSync(path.join(root,'docs/database/manifest.json'),'utf8'));
 let total=0,components=0,unknown=0;
@@ -35,29 +40,28 @@ for (const entry of manifest.files) {
   assert.equal(sha(content),entry.sha256,entry.path);
   const tree=JSON.parse(content);
   calc.state.planned=new Set(); calc.flattenTree(tree);
+  legacy.calc.state.planned=new Set(); legacy.calc.flattenTree(tree);
+  assert.equal(JSON.stringify(calc.state.units),JSON.stringify(legacy.calc.state.units),'Previous vehicle handling must be preserved');
   assert.equal(calc.state.units.length,entry.units);
-  const graph=new Map();
-  for(const group of calc.state.groups) graph.set(group.data_unit_id,group.items[0]?.data_unit_id||group.required_unit_id);
-  for(const unit of calc.state.units) graph.set(unit.data_unit_id,unit.required_unit_id);
-  for(const id of graph.keys()) {
-    const visited=new Set(); let cursor=id;
-    while(cursor) {assert(!visited.has(cursor),`${entry.path}: cyclic prerequisite ${cursor}`);visited.add(cursor); assert(graph.has(cursor),`${id}: missing dependency ${cursor}`);cursor=graph.get(cursor);}
-  }
+  const country=entry.path.split('/')[1];
+  const type=entry.path.split('/')[2].slice(country.length+1,-5);
+  calc.state.country=country;calc.state.type=type;
+  for(const rank of tree) assert.equal(calc.getRankUnlockQuantity(rank),require('../dict/unlock_quantity').get_unlock_quantity(country,type,rank.rank));
   for(const unit of calc.state.units) {
     total++;
     assert.equal(unit.br,unit.wiki.battle_ratings.RB||null);
-    if(unit.is_component) {components++;assert.equal(unit.required_unit_id,unit.component_of);assert.equal(unit.rp,0);}
+    if(unit.is_component) {components++;assert.equal(unit.rp,0);}
     if(unit.rp===null||unit.sp===null) {unknown++;assert(!calc.isInitialUnlockedUnit(unit));}
     if(unit.is_squadron||unit.is_premium) {assert.equal(unit.rp,0);assert.equal(unit.sp,0);}
-    const actual=new Set(calc.getDependencyIds(unit.data_unit_id));
-    const expected=new Set(); let cursor=unit.data_unit_id;
-    while(cursor) {if(calc.state.unitMap.has(cursor)) expected.add(cursor);cursor=graph.get(cursor);}
-    assert.deepEqual([...actual].sort(),[...expected].sort());
+    assert.deepEqual([...calc.getDependencyIds(unit.data_unit_id)],[...legacy.calc.getDependencyIds(unit.data_unit_id)],`${unit.data_unit_id}: previous prerequisite rules`);
   }
 }
 assert.equal(total,manifest.unit_count);
 calc.flattenTree([{rank:'I',researchable_vehicles:[[{type:'single',data_unit_id:'a',rp:0,sp:0,required_unit_id:''},{type:'single',data_unit_id:'b',rp:100,sp:200,required_unit_id:''},{type:'single',data_unit_id:'c',rp:100,sp:200,required_unit_id:'b'}]],premium_vehicles:[]}]);
-assert.deepEqual([...calc.getDependencyIds('b')],['b'],'No invented column predecessor');
-assert.deepEqual([...calc.getDependencyIds('c')],['b','c'],'Rank I requirements preserved');
+assert.equal(calc.state.unitMap.get('b').required_unit_id,'a','Restore column fallback');
+assert.deepEqual([...calc.getDependencyIds('c')],['c'],'Restore Rank I handling');
+calc.state.country='usa';calc.state.type='ground';
+assert.equal(calc.getRankUnlockQuantity({rank:'I',unlock_quantity:null}),6);
+assert(calc.renderRankUnlockGate({rank:'I',unlock_quantity:null},{rank:'II'}).includes('/ 6'));
 assert.equal(calc.formatCost(null),'未提供');
 console.log(JSON.stringify({pass:true,trees:manifest.files.length,units:total,components,unknownCosts:unknown,parserCases:11}));

@@ -153,7 +153,7 @@ function sectionLabel(section) {
 }
 
 function getRankUnlockQuantity(rank) {
-  return rank.unlock_quantity == null ? null : parseNumber(rank.unlock_quantity);
+  return parseNumber(rank.unlock_quantity) || get_unlock_quantity(state.country, state.type, rank.rank);
 }
 
 function getUnlockCountVehicleIds() {
@@ -246,6 +246,14 @@ function getIndexedItem(id) {
   return state.unitMap.get(id) || state.groupMap.get(id);
 }
 
+function shouldIgnoreRequirement(unit, reqId) {
+  if (!unit || !reqId) return false;
+  if (isFirstRankValue(unit.rank)) return true;
+
+  const requiredItem = getIndexedItem(reqId);
+  return requiredItem ? isFirstRankValue(requiredItem.rank) : false;
+}
+
 function isInitialUnlockedUnit(unit) {
   if (!unit) return false;
   const className = cleanText(unit.class_name).toLowerCase();
@@ -286,14 +294,25 @@ function saveState() {
 function flattenTree(tree) {
   const units = [];
   const groups = [];
+  const previousByColumn = {
+    researchable: [],
+    premium: [],
+  };
+  let rankIndex = 0;
+
   for (const rank of tree) {
+    if (rankIndex === 1) previousByColumn.researchable = [];
+
     for (const section of ["researchable_vehicles", "premium_vehicles"]) {
       const sectionType = section === "premium_vehicles" ? "premium" : "researchable";
       const columns = rank[section] || [];
       columns.forEach((column, columnIndex) => {
+        let previousDependencyId = previousByColumn[sectionType][columnIndex] || "";
         column.forEach((item, rowIndex) => {
+          const inferredReqId = sectionType === "researchable" ? previousDependencyId : "";
           if (item.type === "multiple") {
-            const groupReqId = item.required_unit_id || "";
+            const groupReqId = item.required_unit_id || inferredReqId;
+            const groupMainChildId = getGroupMainChildId(item);
             const squadronGroup = isSquadronUnit(item);
             const group = {
               ...item,
@@ -306,13 +325,13 @@ function flattenTree(tree) {
             };
             groups.push(group);
             (item.items || []).forEach((subItem, subIndex) => {
-              const subReqId = subItem.component_of || subItem.required_unit_id || groupReqId;
+              const subReqId = subItem.required_unit_id || groupReqId;
               units.push({
                 ...subItem,
                 class_name: subItem.class_name || (squadronGroup ? "squad" : ""),
                 is_squadron: squadronGroup || subItem.is_squadron === true,
-                rp: squadronGroup || isSquadronUnit(subItem) ? 0 : subItem.rp,
-                sp: squadronGroup || isSquadronUnit(subItem) ? 0 : subItem.sp,
+                rp: squadronGroup ? 0 : subItem.rp,
+                sp: squadronGroup ? 0 : subItem.sp,
                 required_unit_id: subReqId,
                 rank: rank.rank,
                 section: sectionType,
@@ -323,8 +342,12 @@ function flattenTree(tree) {
                 rowIndex: rowIndex + subIndex / 10,
               });
             });
+            if (sectionType === "researchable") {
+              previousDependencyId = groupMainChildId || item.data_unit_id || previousDependencyId;
+              previousByColumn[sectionType][columnIndex] = previousDependencyId;
+            }
           } else if (item.type === "single") {
-            const reqId = item.component_of || item.required_unit_id || "";
+            const reqId = item.required_unit_id || inferredReqId;
             const squadron = isSquadronUnit(item);
             units.push({
               ...item,
@@ -337,10 +360,15 @@ function flattenTree(tree) {
               columnIndex,
               rowIndex,
             });
+            if (sectionType === "researchable") {
+              previousDependencyId = item.data_unit_id || previousDependencyId;
+              previousByColumn[sectionType][columnIndex] = previousDependencyId;
+            }
           }
         });
       });
     }
+    rankIndex += 1;
   }
 
   state.units = units;
@@ -349,7 +377,6 @@ function flattenTree(tree) {
   state.groupMap = new Map(groups.map((group) => [group.data_unit_id, group]));
   state.initialUnlocked = new Set(units.filter(isInitialUnlockedUnit).map((unit) => unit.data_unit_id));
   state.initialUnlocked.forEach((id) => state.planned.delete(id));
-  state.planned = new Set([...state.planned].filter(id => state.unitMap.has(id)));
 }
 
 function getDependencyIds(unitId, visited = new Set()) {
@@ -370,7 +397,7 @@ function getDependencyIds(unitId, visited = new Set()) {
 
   const parentReq = unit.parent_required_unit_id && !unit.required_unit_id ? unit.parent_required_unit_id : "";
   const reqId = unit.required_unit_id || parentReq;
-  const dependencyIds = getDependencyIds(reqId, visited);
+  const dependencyIds = shouldIgnoreRequirement(unit, reqId) ? [] : getDependencyIds(reqId, visited);
   return [...dependencyIds, unitId];
 }
 
@@ -429,7 +456,7 @@ function renderListItem(unit, removable) {
       ${unit.vehicle_icon ? `<img src="${escapeHtml(unit.vehicle_icon)}" alt="">` : `<span></span>`}
       <div>
         <div class="list-title">${escapeHtml(displayTitle(unit))}</div>
-        <div class="list-meta">BR ${escapeHtml(unit.br || "-")} · ${isSquadronUnit(unit) || unit.is_premium ? "特殊载具费用不计入" : unit.is_component ? "附属载具" : `RP ${formatCost(unit.rp)} · SL ${formatCost(unit.sp)}`}${role ? ` · ${escapeHtml(role)}` : ""}</div>
+        <div class="list-meta">BR ${escapeHtml(unit.br || "-")} · RP ${formatCost(unit.rp)} · SL ${formatCost(unit.sp)}${role ? ` · ${escapeHtml(role)}` : ""}</div>
       </div>
       ${removeButton}
     </div>
@@ -456,16 +483,15 @@ function renderUnit(unit) {
   if (unit.section === "premium" || className === "prem" || className === "premium") classes.push("premium");
   const role = translateRole(unit.main_role);
   const unlocked = isInitialUnlockedUnit(unit);
-  const sourceTitle = unit.wiki ? `${id} | Wiki Research: ${unit.wiki.research ?? "未提供"} | Purchase: ${unit.wiki.purchase ?? "未提供"} ${unit.wiki.purchase_currency || ""}` : id;
 
   return `
-    <button class="${classes.join(" ")}" type="button" data-unit-id="${escapeHtml(id)}" title="${escapeHtml(sourceTitle)}">
+    <button class="${classes.join(" ")}" type="button" data-unit-id="${escapeHtml(id)}" title="${escapeHtml(id)}">
       ${unit.vehicle_icon ? `<img src="${escapeHtml(unit.vehicle_icon)}" alt="">` : `<span></span>`}
       <span>
         <span class="unit-title">${escapeHtml(displayTitle(unit))}</span>
         <span class="unit-meta">
           <span class="pill">BR ${escapeHtml(unit.br || "-")}</span>
-          ${squadron ? `<span class="pill squadron-label">联队载具</span>` : unit.is_component ? `<span class="pill">附属载具</span>` : unit.is_premium ? `<span class="pill">金币载具</span>` : `<span class="pill rp">RP ${formatCost(unit.rp)}</span><span class="pill sp">SL ${formatCost(unit.sp)}</span>`}
+          ${squadron ? `<span class="pill squadron-label">联队载具</span>` : `<span class="pill rp">RP ${formatCost(unit.rp)}</span><span class="pill sp">SL ${formatCost(unit.sp)}</span>`}
           ${unlocked ? `<span class="pill unlocked">已解锁</span>` : ""}
           ${role ? `<span class="pill role">${escapeHtml(role)}</span>` : ""}
         </span>
@@ -661,7 +687,6 @@ function scheduleTreeConnections() {
 
 function renderRankUnlockGate(rank, nextRank) {
   const quantity = getRankUnlockQuantity(rank);
-  if (quantity === null) return nextRank ? `<div class="rank-unlock-line"><span>解锁数量：Wiki 未提供</span></div>` : "";
   const selected = getSelectedVehicleCount(rank.rank);
   const complete = quantity > 0 && selected >= quantity;
   const targetLabel = nextRank ? `解锁${displayRank(nextRank.rank)}` : "后续等级要求";
@@ -681,7 +706,7 @@ function renderRankRail(rank) {
   return `
     <div class="rank-rail ${complete ? "is-complete" : ""}">
       <span class="rank-name">${escapeHtml(displayRank(rank.rank))}</span>
-      <span class="rank-unlock-count">${quantity === null ? "?" : escapeHtml(quantity)}</span>
+      <span class="rank-unlock-count">${escapeHtml(quantity)}</span>
     </div>
   `;
 }

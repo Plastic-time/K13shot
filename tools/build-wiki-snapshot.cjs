@@ -4,6 +4,7 @@ const assert = require('node:assert/strict');
 const cheerio = require('cheerio');
 const {root,cache,sha,readTrees} = require('./refresh-wiki.cjs');
 const {parseWikiDetail} = require('../src/wiki-snapshot');
+const {syncRankUnlocks} = require('./sync-rank-unlocks.cjs');
 
 // Deliberately read raw DOM fields separately from the production detail parser.
 function verifyDetail(html, item) {
@@ -43,6 +44,7 @@ function build(apply=false) {
   const trees=readTrees();
   const manifest={schema_version:1, source:'https://wiki.warthunder.com/', verified_at:new Date().toISOString(), battle_rating_mode:'RB', tree_count:trees.length, unit_count:0, unique_units:0, failures:[], limitations:['Wiki tree pages do not expose rank unlock counts; unknown counts are null, not zero.', 'Squadron and premium costs are excluded from ordinary research totals; unmodified source values remain in each wiki field.', 'This is a dated Wiki snapshot, not a live game-data or future accuracy guarantee.'], files:[]};
   const unique=new Set();
+  manifest.limitations[0]='Wiki rank unlock counts are unavailable; the calculator retains the existing dict/unlock_quantity.js rules separately from this source snapshot.';
   manifest.source_missing_costs=[];
   const oldManifestPath=path.join(root,'docs/database/manifest.json');
   const oldManifest=fs.existsSync(oldManifestPath)?JSON.parse(fs.readFileSync(oldManifestPath,'utf8')):null;
@@ -130,6 +132,7 @@ function build(apply=false) {
   if (apply) {
     for (const {file,content} of outputs) fs.writeFileSync(path.join(root,'docs',file),content);
     fs.copyFileSync(path.join(cache,'staged/database/manifest.json'),path.join(root,'docs/database/manifest.json'));
+    syncRankUnlocks();
   }
   console.log(JSON.stringify({applied:apply,trees:trees.length,units:manifest.unit_count,uniqueUnits:unique.size,failures:0,fetchedFrom:manifest.fetched_from,fetchedTo:manifest.fetched_to}));
   return manifest;
