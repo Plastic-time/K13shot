@@ -6,14 +6,22 @@
 
 如果你只是想直接使用，下载：
 
-**`WarThunderResearchCalculator-v1.0.1-portable.zip`**
+**[WarThunderResearchCalculator-v1.0.2-portable.zip](https://github.com/Plastic-time/K13shot/releases/download/v1.0.2/WarThunderResearchCalculator-v1.0.2-portable.zip)**
 
 这是推荐给大多数玩家的便携版。解压后双击 `WarThunderResearchCalculator.exe` 即可运行，不需要安装 Node.js，也不需要执行 `npm install`。
 
 | 文件 | 推荐人群 | 是否需要安装 Node.js | 使用方式 |
 | --- | --- | --- | --- |
-| `WarThunderResearchCalculator-v1.0.1-portable.zip` | 普通玩家，推荐下载 | 不需要 | 解压后双击 exe |
-| `WarThunderResearchCalculator-v1.0.1.zip` | 开发者或已安装 Node.js 的用户 | 需要 | 解压后运行 `npm install` |
+| `WarThunderResearchCalculator-v1.0.2-portable.zip` | 普通玩家，推荐下载 | 不需要 | 解压后双击 exe |
+| `WarThunderResearchCalculator-v1.0.2.zip` | 开发者或已安装 Node.js 的用户 | 需要 | 解压后运行 `npm install` |
+
+## v1.0.2 更新内容
+
+- 修复鼠标停在科技树区域时无法上下滚轮的问题，恢复滚动向页面传递，保留科技树横向滚动。
+- 移除大面积毛玻璃和固定背景图层，减轻载具卡片阴影。
+- 桌面研发连线改为空闲时绘制；窄屏或触控设备隐藏连线并跳过计算。
+- Pages 说明默认收起。本地版与静态版同步滚动修复。
+- 本次没有重新抓取全部 Wiki 数据，内置科技树仍使用已有数据快照。
 
 ## GitHub Pages 静态版
 
@@ -39,7 +47,7 @@ GitHub Pages 可直接在浏览器中使用，无需安装或登录。它读取�
 
 ### 便携版，推荐
 
-1. 下载 `WarThunderResearchCalculator-v1.0.1-portable.zip`。
+1. 下载 `WarThunderResearchCalculator-v1.0.2-portable.zip`。
 2. 解压到任意文件夹。
 3. 双击 `WarThunderResearchCalculator.exe`。
 4. 浏览器会自动打开计算器页面。
@@ -113,14 +121,14 @@ A local research planning tool for War Thunder tech trees. It displays tech tree
 
 If you simply want to use the calculator, download:
 
-**`WarThunderResearchCalculator-v1.0.1-portable.zip`**
+**[WarThunderResearchCalculator-v1.0.2-portable.zip](https://github.com/Plastic-time/K13shot/releases/download/v1.0.2/WarThunderResearchCalculator-v1.0.2-portable.zip)**
 
 This is the recommended portable package for most players. Extract it and double-click `WarThunderResearchCalculator.exe`. No Node.js installation or `npm install` is required.
 
 | File | Recommended For | Requires Node.js | How to Use |
 | --- | --- | --- | --- |
-| `WarThunderResearchCalculator-v1.0.1-portable.zip` | Most players | No | Extract and double-click the exe |
-| `WarThunderResearchCalculator-v1.0.1.zip` | Developers or users with Node.js installed | Yes | Extract and run `npm install` |
+| `WarThunderResearchCalculator-v1.0.2-portable.zip` | Most players | No | Extract and double-click the exe |
+| `WarThunderResearchCalculator-v1.0.2.zip` | Developers or users with Node.js installed | Yes | Extract and run `npm install` |
 
 ## Features
 
@@ -138,4 +146,3 @@ This is the recommended portable package for most players. Extract it and double
 
 bilibili: 扑街的靓仔  
 In-game ID: 如日方中
-
