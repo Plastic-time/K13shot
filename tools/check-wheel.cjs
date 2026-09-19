@@ -70,6 +70,24 @@ async function main() {
           await pause(100);
         }
         assert(ready, `Tree failed to load: ${route}`);
+        const fontCheck = await evaluate(`(async () => {
+          const symbols = [8928,9239,9241,9248,9600,9602,9603,9604,9605,9668,9674,9675,9676,9677,9680,9684,9687,9688,9697,9698,9701,61529].map(code => String.fromCodePoint(code));
+          const faces = await document.fonts.load('48px WTSymbols', symbols.join(''));
+          const canvas = document.createElement('canvas'); canvas.width = 160; canvas.height = 100;
+          const ctx = canvas.getContext('2d', {willReadFrequently:true});
+          const raster = (symbol, family) => {
+            ctx.clearRect(0, 0, 160, 100); ctx.font = '48px ' + family; ctx.fillText(symbol, 8, 65);
+            return [...ctx.getImageData(0, 0, 160, 100).data];
+          };
+          return {
+            loaded: faces.some(face => face.status === 'loaded'),
+            titleUsesFont: getComputedStyle(document.querySelector('.unit-title')).fontFamily.includes('WTSymbols'),
+            rendered: symbols.filter(symbol => raster(symbol, 'WTSymbols').some(value => value !== 0)).length,
+            distinct: symbols.filter(symbol => raster(symbol, 'WTSymbols').join(',') !== raster(symbol, 'sans-serif').join(',')).length,
+          };
+        })()`);
+        assert.deepEqual(fontCheck, {loaded:true,titleUsesFont:true,rendered:22,distinct:22});
+        console.log(JSON.stringify({label:`symbols-${route}-${width}`, ...fontCheck, pass:true}));
         if (route === '/pages/') {
           const smoke = await evaluate(`(async () => {
             const report = [];
@@ -166,6 +184,23 @@ async function main() {
           })()`);
           assert.deepEqual(extra, {unknown:true,notFree:true,noOverflow:true,airBr:'2.0'});
           console.log(JSON.stringify({label:`pages-cases-${width}`, ...extra, pass:true}));
+          const rafale = await evaluate(`(async () => {
+            els.countrySelect.value = 'israel'; els.typeSelect.value = 'aviation'; await loadTree();
+            els.clearButton.click();
+            els.searchInput.value = 'rafale'; els.searchInput.dispatchEvent(new Event('input'));
+            document.querySelector('[data-unit-id="rafale_eg_greece"]').click();
+            await document.fonts.ready;
+            const title = document.querySelector('.unit-title');
+            const list = document.querySelector('.list-title');
+            title.scrollIntoView({block:'center', inline:'center'});
+            return {title:title.textContent, tileFont:getComputedStyle(title).fontFamily.includes('WTSymbols'), listFont:getComputedStyle(list).fontFamily.includes('WTSymbols')};
+          })()`);
+          assert.equal(rafale.title, '\u2584Rafale EG');
+          assert(rafale.tileFont && rafale.listFont);
+          await pause(500);
+          const rafaleImage = await call('Page.captureScreenshot', {format:'png'});
+          fs.writeFileSync(path.join(artifacts, `rafale-symbol-${width}.png`), Buffer.from(rafaleImage.data, 'base64'));
+          console.log(JSON.stringify({label:`rafale-symbol-${width}`, ...rafale, pass:true}));
         }
       }
     }
