@@ -380,7 +380,7 @@ const unlock_quantity = {
       V: 3,
       VI: 5,
       VII: 4,
-      VIII: 0,
+      VIII: 3,
     },
     helicopters: {
       V: 1,

@@ -63,5 +63,15 @@ assert.deepEqual([...calc.getDependencyIds('c')],['c'],'Restore Rank I handling'
 calc.state.country='usa';calc.state.type='ground';
 assert.equal(calc.getRankUnlockQuantity({rank:'I',unlock_quantity:null}),6);
 assert(calc.renderRankUnlockGate({rank:'I',unlock_quantity:null},{rank:'II'}).includes('/ 6'));
+calc.state.country='israel';calc.state.type='aviation';calc.state.dependencyMode='selected';
+calc.flattenTree(JSON.parse(fs.readFileSync(path.join(root,'docs/database/israel/israel_aviation.json'),'utf8')));
+const israelRankEight=calc.state.units.filter(unit=>unit.rank==='VIII' && unit.section==='researchable').slice(0,3);
+assert.equal(israelRankEight.length,3);
+assert.equal(calc.getRankUnlockQuantity({rank:'VIII',unlock_quantity:null}),3);
+calc.state.planned=new Set(israelRankEight.slice(0,2).map(unit=>unit.data_unit_id));
+assert(!calc.renderRankUnlockGate({rank:'VIII',unlock_quantity:null},{rank:'IX'}).includes('is-complete'));
+calc.state.planned=new Set(israelRankEight.map(unit=>unit.data_unit_id));
+assert(calc.renderRankUnlockGate({rank:'VIII',unlock_quantity:null},{rank:'IX'}).includes('is-complete'));
+assert(calc.renderRankUnlockGate({rank:'VIII',unlock_quantity:null},{rank:'IX'}).includes('3 / 3'));
 assert.equal(calc.formatCost(null),'未提供');
 console.log(JSON.stringify({pass:true,trees:manifest.files.length,units:total,components,unknownCosts:unknown,parserCases:11}));
