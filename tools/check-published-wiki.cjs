@@ -7,7 +7,7 @@ const {root,sha}=require('./refresh-wiki.cjs');
 async function check() {
   const base='https://plastic-time.github.io/K13shot/';
   const stamp=Date.now();
-  const get=async file=>(await axios.get(`${base}${file}?verify=${stamp}`,{timeout:30000,responseType:'text',transformResponse:value=>value})).data;
+  const get=async file=>(await axios.get(`${base}${file}?verify=${stamp}`,{timeout:30000,responseType:'arraybuffer'})).data;
   const manifest=JSON.parse(await get('database/manifest.json'));
   assert.deepEqual(manifest,JSON.parse(fs.readFileSync(path.join(root,'docs/database/manifest.json'),'utf8')),'Published manifest differs');
   let index=0;
