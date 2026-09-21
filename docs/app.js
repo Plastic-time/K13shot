@@ -15,8 +15,7 @@ const els = {
   budgetSlLabel: document.getElementById("budgetSlLabel"),
   usageGuideDialog: document.getElementById("usageGuideDialog"),
   planButton: document.getElementById("planButton"),
-  floatingPlanButton: document.getElementById("floatingPlanButton"),
-  floatingPlanner: document.getElementById("floatingPlanner"),
+
   floatingPlanCount: document.getElementById("floatingPlanCount"),
   unitContextMenu: document.getElementById("unitContextMenu"),
   unitContextTitle: document.getElementById("unitContextTitle"),
@@ -65,7 +64,7 @@ const connectionMediaQuery = window.matchMedia("(min-width: 960px) and (pointer:
 let connectionTaskId = null;
 let connectionMarkerSequence = 0;
 const connectionMarkerIds = new WeakMap();
-let floatingPlannerFrame = null;
+
 
 const zh = {
   countries: {
@@ -602,38 +601,10 @@ function runExactPlan() {
 }
 
 function setPlanButtonsDisabled(disabled) {
-  [els.planButton, els.floatingPlanButton].forEach((button) => {
-    if (!button) return;
-    button.disabled = disabled;
-    const compactLabel = button.querySelector("[data-plan-button-label]");
-    if (compactLabel) compactLabel.textContent = disabled ? "计算" : "规划";
-    else button.textContent = disabled ? "规划中" : "精确规划";
-  });
+  els.planButton.disabled = disabled;
+  els.planButton.querySelector("[data-plan-button-label]").textContent = disabled ? "规划中" : "精确规划";
 }
 
-function updateFloatingPlannerPosition() {
-  floatingPlannerFrame = null;
-  if (!els.floatingPlanner || !els.treeContainer) return;
-  const treeRect = els.treeContainer.getBoundingClientRect();
-  const scrollBar = document.getElementById("treeScrollBar");
-  const bottomInset = scrollBar && !scrollBar.hidden ? scrollBar.getBoundingClientRect().height + 10 : 12;
-  const visibleTop = Math.max(treeRect.top, 72);
-  const visibleBottom = Math.min(treeRect.bottom, window.innerHeight - bottomInset);
-  const visible = state.tree.length > 0 && visibleBottom - visibleTop >= 120;
-  els.floatingPlanner.classList.toggle("is-visible", visible);
-  if (!visible) return;
-  const buttonWidth = els.floatingPlanButton?.getBoundingClientRect().width || 64;
-  const viewportWidth = document.documentElement.clientWidth;
-  const buttonLeft = Math.min(viewportWidth - buttonWidth - 8, treeRect.right + 8);
-  const rightInset = Math.max(8, viewportWidth - buttonLeft - buttonWidth);
-  els.floatingPlanner.style.setProperty("--floating-planner-top", `${Math.round((visibleTop + visibleBottom) / 2)}px`);
-  els.floatingPlanner.style.setProperty("--floating-planner-right", `${Math.round(rightInset)}px`);
-}
-
-function scheduleFloatingPlannerPosition() {
-  if (floatingPlannerFrame !== null) return;
-  floatingPlannerFrame = window.requestAnimationFrame(updateFloatingPlannerPosition);
-}
 
 function renderSummary() {
   const plannedUnits = [...state.planned].map((id) => state.unitMap.get(id)).filter(Boolean).sort(compareUnitsByProgression);
@@ -804,7 +775,7 @@ function renderUnit(unit, inFolder = false) {
 
   return `
     <div class="unit-tile-shell${modificationButton ? " has-modifications" : ""}">
-    <button class="${classes.join(" ")}" type="button" data-unit-id="${escapeHtml(id)}" title="${escapeHtml(id)} · 右键设置目标、已拥有或途经点">
+    <button class="${classes.join(" ")}" type="button" data-unit-id="${escapeHtml(id)}" title="${escapeHtml(id)} · 右键或长按设置目标、已拥有或途经点">
       ${unit.vehicle_icon ? `<img src="${escapeHtml(unit.vehicle_icon)}" alt="">` : `<span></span>`}
       <span>
         <span class="unit-title">${updateBadge}${escapeHtml(displayTitle(unit))}</span>
@@ -1097,7 +1068,7 @@ function renderTree() {
     ? `<div class="tree-canvas" style="--research-width: ${columnWidth(researchColumns)}px; --premium-width: ${premiumColumns ? columnWidth(premiumColumns) + 27 : 0}px;"><svg class="tree-links" aria-hidden="true"></svg><div class="tree-content"><div class="tree-headings rank-field">${researchColumns ? `<h3 class="band-title researchable-title">${sectionLabel("researchable")}</h3>` : ""}${premiumColumns ? `<h3 class="band-title premium-title">${sectionLabel("premium")}</h3>` : ""}</div>${html}</div></div>`
     : `<div class="loading">没有匹配项</div>`;
   scheduleTreeConnections();
-  scheduleFloatingPlannerPosition();
+
   window.WTTreeScroll?.sync();
   window.VehicleFolders?.refresh();
 }
@@ -1174,6 +1145,7 @@ async function refreshCurrentTree() {
 }
 
 function wireEvents() {
+  window.VehicleLongPress?.configure({ open: openUnitContextMenu, close: closeUnitContextMenu });
   els.countrySelect.addEventListener("change", loadTree);
   els.typeSelect.addEventListener("change", loadTree);
 
@@ -1199,7 +1171,7 @@ function wireEvents() {
   });
 
   els.planButton.addEventListener("click", runExactPlan);
-  els.floatingPlanButton.addEventListener("click", runExactPlan);
+
   els.guideButton.addEventListener("click", openUsageGuide);
   els.routeExportButton.addEventListener("click", exportRouteImage);
 
@@ -1219,8 +1191,7 @@ function wireEvents() {
   if (els.refreshDataButton) els.refreshDataButton.addEventListener("click", refreshCurrentTree);
 
   window.addEventListener("resize", scheduleTreeConnections, { passive: true });
-  window.addEventListener("resize", scheduleFloatingPlannerPosition, { passive: true });
-  window.addEventListener("scroll", scheduleFloatingPlannerPosition, { passive: true });
+
   if (typeof connectionMediaQuery.addEventListener === "function") {
     connectionMediaQuery.addEventListener("change", scheduleTreeConnections);
   } else {

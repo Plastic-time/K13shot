@@ -97,10 +97,3 @@
 }
 .tree-scroll-range::-moz-range-thumb:hover { background: var(--tree-scroll-hover); }
 .tree-scroll-range:focus-visible { outline: 2px solid #187963; outline-offset: 1px; }
-
-@media (max-width: 720px) {
-  .floating-planner {
-    right: max(var(--floating-planner-right, 12px), calc(var(--tree-scroll-size) + 8px));
-    transform: translate(0, -50%);
-  }
-}

@@ -4,6 +4,8 @@ const path = require('node:path');
 const { spawn } = require('node:child_process');
 const { once } = require('node:events');
 const express = require('express');
+const { checkBudgetPlanner } = require('./check-budget-planner.cjs');
+const { checkMobileLongPress } = require('./check-mobile-long-press.cjs');
 
 async function main() {
   const root = path.resolve(__dirname, '..');
@@ -53,7 +55,7 @@ async function main() {
   const pause = (ms) => new Promise((resolve) => setTimeout(resolve, ms));
   try {
     const { targetId } = await send('Target.createTarget', { url: 'about:blank' });
-    const { sessionId } = await send('Target.attachToTarget', { targetId, flatten: true });
+    let { sessionId } = await send('Target.attachToTarget', { targetId, flatten: true });
     const call = (method, params) => send(method, params, sessionId);
     const evaluate = async (expression) => {
       const result = await call('Runtime.evaluate', { expression, returnByValue: true, awaitPromise: true });
@@ -63,7 +65,7 @@ async function main() {
     await call('Page.enable');
     await call('Runtime.enable');
 
-    for (const width of [1440, 900, 390]) {
+    for (const width of (process.env.WT_CHECK_LOCAL_ONLY ? [] : [1440, 900, 390, 320])) {
       await call('Emulation.setDeviceMetricsOverride', { width, height: 900, deviceScaleFactor: 1, mobile: false });
       await call('Page.navigate', { url: `http://127.0.0.1:${server.address().port}/pages/` });
       for (let attempt = 0; attempt < 100; attempt += 1) {
@@ -71,6 +73,8 @@ async function main() {
         await pause(100);
       }
 
+      if (width === 390 || width === 320) await checkMobileLongPress({ evaluate, call, artifacts, suffix: `pages-${width}` });
+      await checkBudgetPlanner({ evaluate, call, artifacts, suffix: `pages-${width}` });
       const layout = await evaluate(`(() => {
         const summary = document.querySelector('.summary-panel');
         const workspace = document.querySelector('.workspace').getBoundingClientRect();
@@ -192,12 +196,19 @@ async function main() {
       assert.deepEqual(cleared, ['0', '0', '0', false], 'Clearing updates floating totals; an empty plan can still export the tree');
     }
 
+    // A fresh renderer avoids Chromium retaining emulated pointer suppression across navigation.
+    const { targetId: localTarget } = await send('Target.createTarget', { url: 'about:blank' });
+    ({ sessionId } = await send('Target.attachToTarget', { targetId: localTarget, flatten: true }));
+    await call('Page.enable');
+    await call('Runtime.enable');
     await call('Emulation.setDeviceMetricsOverride', { width: 1440, height: 900, deviceScaleFactor: 1, mobile: false });
     await call('Page.navigate', { url: `http://127.0.0.1:${server.address().port}/` });
     for (let attempt = 0; attempt < 100; attempt += 1) {
       if (await evaluate('document.querySelectorAll(".unit-tile").length > 0')) break;
       await pause(100);
     }
+    await checkMobileLongPress({ evaluate, call, artifacts, suffix: 'local-1440', country: 'china' });
+    await checkBudgetPlanner({ evaluate, call, artifacts, suffix: 'local-1440' });
     const localApp = await evaluate(`(async () => {
       state.planned.clear(); state.owned.clear(); state.waypoints.clear(); invalidateExactPlan(); calculatePlan();
       const tile = [...document.querySelectorAll('.unit-tile')].find(node => !node.classList.contains('unlocked'));

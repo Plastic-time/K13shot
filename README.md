@@ -2,7 +2,7 @@
 
 想知道开到目标载具还需要走哪条线、花多少研发点和银狮？这款《战争雷霆》研发计算器将**自动路线规划**与**可视化配件研发**放在同一个科技树界面中：选择想开的载具，标记已经拥有的载具，再计算路线；进入配件窗口，还能为单辆载具定制配件研发计划。
 
-**[直接打开网页版，无需下载](https://plastic-time.github.io/K13shot/)** · [下载便携版](https://github.com/Plastic-time/K13shot/releases/tag/v1.0.5)
+**[直接打开网页版，无需下载](https://plastic-time.github.io/K13shot/)** · [下载便携版](https://github.com/Plastic-time/K13shot/releases/tag/v1.0.6)
 
 无需登录游戏账号，规划计算在当前浏览器中完成。以下介绍以当前网页版为准，已发布的下载包保留其发布时的功能，不会自动获得后续网页更新。
 
@@ -10,10 +10,10 @@
 
 **不只合计你点选的载具，还会根据项目当前的前置规则和等级解锁数量，搜索通往目标的低 RP 路线。**
 
-1. **选目标**：左键点击想研发的载具，可同时选择多个目标。
-2. **标记已有进度**：右键将账号已有载具标记为“已拥有”，它们参与等级数量计算，但不重复计入待研发费用。
-3. **指定必走路线**：有特别想开的载具时，右键设为“途经点”。
-4. **开始自动计算**：点击顶部或科技树右侧浮动按钮“精确规划”，查看需要研发的载具、RP 和银狮预算。
+1. **选目标**：左键点击或手机轻点想研发的载具，可同时选择多个目标。
+2. **标记已有进度**：右键或手机长按约半秒，将账号已有载具标记为“已拥有”，它们参与等级数量计算，但不重复计入待研发费用。
+3. **指定必走路线**：有特别想开的载具时，右键或长按设为“途经点”。
+4. **开始自动计算**：点击底部研发总计右侧带“测试”标签的“精确规划”，查看需要研发的载具、RP 和银狮预算。
 
 计算后，科技树会区分目标、途经点与自动加入的等级补足载具。折叠组下方显示已选数量，展开后也能看到自动选择的载具及其用途。底部浮动预算方便边看路线边核对花费，“导出科技树截图”可将当前完整科技树和预算保存为图片，便于分享规划结果。
 
@@ -33,6 +33,8 @@
 3. **即时看预算**：手动选择后立即更新 RP、银狮与等级数量；此时只统计实际选中的配件。
 4. **自动补齐条件**：点击“计算配件研发”，按该载具的配件前置和等级门槛补齐所需项目，并区分“目标”“必经配件”“等级补足”“已研发”。
 
+RP 和银狮均明确为 0 的配件直接显示“已解锁”，无需点击，自动计入配件等级数量；未知费用不视为 0。
+
 窗口底部单独显示配件预算，**不会与科技树的载具研发费用混在一起**。支持“全部配件”“清空目标”和“清除已研发”，便于比较不同配件方案。
 
 当前配件快照覆盖 **3,225 辆载具、52,430 个配件**。拥有配件表的载具才显示入口；不具备独立配件表的组件不会强行添加按钮。费用、等级和前置优先使用固定版本游戏配置，名称、图标和布局结合 Wiki 快照，具体数据来源与已知例外见下文。
@@ -41,14 +43,22 @@
 
 如果你只是想直接使用，下载：
 
-**[WarThunderResearchCalculator-v1.0.5-portable.zip](https://github.com/Plastic-time/K13shot/releases/download/v1.0.5/WarThunderResearchCalculator-v1.0.5-portable.zip)**
+**[WarThunderResearchCalculator-v1.0.6-portable.zip](https://github.com/Plastic-time/K13shot/releases/download/v1.0.6/WarThunderResearchCalculator-v1.0.6-portable.zip)**
 
 这是推荐给大多数玩家的便携版。解压后双击 `WarThunderResearchCalculator.exe` 即可运行，不需要安装 Node.js，也不需要执行 `npm install`。
 
 | 文件 | 推荐人群 | 是否需要安装 Node.js | 使用方式 |
 | --- | --- | --- | --- |
-| `WarThunderResearchCalculator-v1.0.5-portable.zip` | 普通玩家，推荐下载 | 不需要 | 解压后双击 exe |
-| `WarThunderResearchCalculator-v1.0.5.zip` | 开发者或已安装 Node.js 的用户 | 需要 | 解压后运行 `npm install` |
+| `WarThunderResearchCalculator-v1.0.6-portable.zip` | 普通玩家，推荐下载 | 不需要 | 解压后双击 exe |
+| `WarThunderResearchCalculator-v1.0.6.zip` | 开发者或已安装 Node.js 的用户 | 需要 | 解压后运行 `npm install` |
+
+## v1.0.6 交互更新
+
+- 规划按钮合并到半透明底栏右侧，移除顶部和右侧重复入口。
+- 手机长按载具约半秒打开目标、已拥有、途经点菜单，折叠载具同样支持；轻点和滑动保持正常。
+- 零 RP 且零银狮的配件直接标记“已解锁”，计入配件等级数量；未知费用不会误判为零。
+- 桌面版恢复金鹰、礼包等分类标签；与已核对的网页数据保持一致。
+- 载具规划算法、价格快照、等级门槛和前置规则未改。详情见 [v1.0.6 更新说明](doc/release-v1.0.6.md)。
 
 ## v1.0.5 数据同步
 
@@ -154,7 +164,7 @@ node tools/test-wiki.cjs
 
 ### 便携版，推荐
 
-1. 下载 `WarThunderResearchCalculator-v1.0.5-portable.zip`。
+1. 下载 `WarThunderResearchCalculator-v1.0.6-portable.zip`。
 2. 解压到任意文件夹。
 3. 双击 `WarThunderResearchCalculator.exe`。
 4. 浏览器会自动打开计算器页面。
@@ -228,7 +238,7 @@ A War Thunder calculator focused on **automatic vehicle research planning** and 
 
 ### Automatic Research Planning
 
-Set targets, owned vehicles, and optional waypoints, then run **Exact Planning** from the header or floating tree button. The browser searches for a minimum-RP route using the project's current prerequisite and rank-unlock rules, excludes owned vehicles from pending costs, and identifies automatic rank fillers. You can avoid foldered fillers, inspect selected vehicles inside folders, and export the full tech tree as an image with its budget.
+Right-click a vehicle on desktop or press and hold it for about half a second on mobile to set targets, owned vehicles, and optional waypoints, then run **Exact Planning** from the button on the right of the bottom budget bar. The browser searches for a minimum-RP route using the project's current prerequisite and rank-unlock rules, excludes owned vehicles from pending costs, and identifies automatic rank fillers. You can avoid foldered fillers, inspect selected vehicles inside folders, and export the full tech tree as an image with its budget.
 
 Planning is experimental. A search that reaches its computation limit reports the best route found, not a guaranteed global optimum. Check the result against the game before committing to a research route.
 
@@ -242,14 +252,14 @@ The current snapshot contains 3,225 vehicles with modification tables and 52,430
 
 If you simply want to use the calculator, download:
 
-**[WarThunderResearchCalculator-v1.0.5-portable.zip](https://github.com/Plastic-time/K13shot/releases/download/v1.0.5/WarThunderResearchCalculator-v1.0.5-portable.zip)**
+**[WarThunderResearchCalculator-v1.0.6-portable.zip](https://github.com/Plastic-time/K13shot/releases/download/v1.0.6/WarThunderResearchCalculator-v1.0.6-portable.zip)**
 
 This is the recommended portable package for most players. Extract it and double-click `WarThunderResearchCalculator.exe`. No Node.js installation or `npm install` is required.
 
 | File | Recommended For | Requires Node.js | How to Use |
 | --- | --- | --- | --- |
-| `WarThunderResearchCalculator-v1.0.5-portable.zip` | Most players | No | Extract and double-click the exe |
-| `WarThunderResearchCalculator-v1.0.5.zip` | Developers or users with Node.js installed | Yes | Extract and run `npm install` |
+| `WarThunderResearchCalculator-v1.0.6-portable.zip` | Most players | No | Extract and double-click the exe |
+| `WarThunderResearchCalculator-v1.0.6.zip` | Developers or users with Node.js installed | Yes | Extract and run `npm install` |
 
 ## Features
 

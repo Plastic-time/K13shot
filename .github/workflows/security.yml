@@ -25,4 +25,5 @@ jobs:
       - run: node tools/test-desktop-snapshot.cjs
       - run: node tools/test-planner.cjs
       - run: node tools/test-modifications.cjs
+      - run: node tools/test-ui-entrypoints.cjs
       - run: node tools/check-publish-privacy.cjs

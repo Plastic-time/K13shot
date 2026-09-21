@@ -5,7 +5,7 @@
     <meta name="referrer" content="no-referrer" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <title>War Thunder 研发计算器</title>
-    <link rel="stylesheet" href="/styles.css?v=data-version-1.0.5" />
+    <link rel="stylesheet" href="/styles.css?v=touch-menu-20260921" />
     <link rel="stylesheet" href="/modifications.css?v=auto-unlocked-20260921" />
   </head>
   <body>
@@ -25,7 +25,6 @@
           <button id="refreshDataButton" class="secondary-button" type="button">更新当前树</button>
           <button id="guideButton" class="secondary-button" type="button">使用指南</button>
           <button id="routeExportButton" class="secondary-button" type="button" disabled>导出科技树截图</button>
-          <button id="planButton" class="primary-button" type="button">精确规划</button>
           <button id="clearButton" class="danger-button" type="button">清空计划</button>
         </div>
       </header>
@@ -161,17 +160,17 @@
       <div class="usage-guide-body">
         <div class="usage-guide-version">
           <strong>快速上手</strong>
-          <time datetime="2026-09-20">2026.09.20</time>
+          <time datetime="2026-09-21">2026.09.21</time>
         </div>
         <p class="usage-guide-intro">从选择目标到生成路线，只需要完成下面几步。所有标记仅保存在当前浏览器中。</p>
         <ol class="usage-guide-steps">
           <li>
             <span class="usage-guide-number">01</span>
-            <div><strong>选择目标</strong><p>左键点击载具可选择或取消目标。也可以右键载具，再选择“设为目标”。</p></div>
+            <div><strong>选择目标</strong><p>电脑左键点击或手机轻点载具，可选择或取消目标。电脑右键点击、手机按住载具约半秒，都能打开操作菜单，再选择“设为目标”。折叠窗口内的载具同样支持。</p></div>
           </li>
           <li>
             <span class="usage-guide-number">02</span>
-            <div><strong>补充账号状态</strong><p>右键载具可标记“已拥有”或设为“途经点”。再次选择相同状态即可取消。</p></div>
+            <div><strong>补充账号状态</strong><p>右键或长按载具后，可标记“已拥有”，表示账号已经拥有该载具；也可设为“途经点”，让规划路线包含这辆载具。再次选择相同状态即可取消。滑动浏览不会触发长按菜单。</p></div>
           </li>
           <li>
             <span class="usage-guide-number">03</span>
@@ -179,7 +178,7 @@
           </li>
           <li>
             <span class="usage-guide-number">04</span>
-            <div><strong>开始精确规划</strong><p>点击页首或科技树右侧的“精确规划”。下滑查看科技树时，右侧按钮会一直跟随可见区域。</p></div>
+            <div><strong>开始精确规划</strong><p>点击底部研发总计右侧的“精确规划”。下滑查看科技树时，底栏仍保持可见。</p></div>
           </li>
           <li>
             <span class="usage-guide-number">05</span>
@@ -191,9 +190,9 @@
           </li>
         </ol>
         <section class="usage-guide-update" aria-labelledby="usageGuideUpdateTitle">
-          <div class="usage-guide-update-meta"><span>本次交互更新</span><time datetime="2026-09-20">09 / 20</time></div>
-          <h3 id="usageGuideUpdateTitle">右键操作取代顶部模式切换</h3>
-          <p>顶部“点击操作”已移除。左键始终用于选择目标，已拥有和途经点直接通过载具右键菜单设置。</p>
+          <div class="usage-guide-update-meta"><span>本次交互更新</span><time datetime="2026-09-21">09 / 21</time></div>
+          <h3 id="usageGuideUpdateTitle">电脑右键，手机长按</h3>
+          <p>目标、已拥有和途经点统一在载具菜单中设置。长按只打开菜单，不会自动改变载具状态；松手后再轻点需要的选项，轻点菜单外即可关闭。</p>
         </section>
         <p class="usage-guide-warning"><strong>测试提醒：</strong>精确规划结果仅供参考。开始实际研发前，请在游戏内手动核对载具前置关系、等级数量和费用。</p>
       </div>
@@ -202,22 +201,22 @@
       </footer>
     </dialog>
 
-    <aside id="floatingBudget" class="floating-budget" aria-label="当前研发预算" aria-live="polite" aria-atomic="true">
-      <span class="budget-count">待研发 <b id="budgetCount">0</b> 辆</span>
-      <span class="budget-cost"><span id="budgetRpLabel">RP</span> <strong id="budgetRp">0</strong></span>
-      <span class="budget-cost budget-sl"><span id="budgetSlLabel">SL</span> <strong id="budgetSl">0</strong></span>
-    </aside>
-
-    <aside id="floatingPlanner" class="floating-planner" aria-label="精确规划浮动操作">
-      <div class="floating-planner-copy">
-        <span class="floating-planner-label">测试功能</span>
-        <strong id="floatingPlanCount">目标 0 · 途经点 0</strong>
-        <small>结果仅供参考，请在游戏内自行手动核对</small>
+    <aside id="floatingBudget" class="floating-budget" aria-label="研发预算与规划">
+      <div class="budget-summary" aria-live="polite" aria-atomic="true">
+        <span class="budget-count">待研发 <b id="budgetCount">0</b> 辆</span>
+        <span class="budget-cost"><span id="budgetRpLabel">RP</span> <strong id="budgetRp">0</strong></span>
+        <span class="budget-cost budget-sl"><span id="budgetSlLabel">SL</span> <strong id="budgetSl">0</strong></span>
       </div>
-      <button id="floatingPlanButton" class="primary-button floating-plan-button" type="button" aria-label="精确规划，测试功能" title="精确规划（测试功能）">
-        <span class="floating-plan-test">测试</span>
-        <span data-plan-button-label>规划</span>
-      </button>
+      <div id="floatingPlanner" class="floating-planner">
+        <button id="planButton" class="primary-button floating-plan-button" type="button" aria-label="精确规划，测试功能" aria-describedby="floatingPlanHelp">
+          <span data-plan-button-label>精确规划</span>
+          <span class="floating-plan-test">测试</span>
+        </button>
+        <div id="floatingPlanHelp" class="floating-planner-copy" role="tooltip">
+          <strong id="floatingPlanCount">目标 0 · 途经点 0</strong>
+          <small>测试功能，结果请在游戏内手动核对</small>
+        </div>
+      </div>
     </aside>
 
     <div id="treeScrollBar" class="tree-scroll-bar" hidden>
@@ -227,7 +226,7 @@
       <input id="treeVerticalScrollRange" class="tree-scroll-range" type="range" min="0" max="0" value="0" step="1" aria-label="科技树纵向滚动" aria-orientation="vertical" title="科技树纵向滚动">
     </div>
     <div id="treeScrollCorner" class="tree-scroll-corner" aria-hidden="true" hidden></div>
-    <link rel="stylesheet" href="/tree-scroll.css?v=matching-axes-20260921">
+    <link rel="stylesheet" href="/tree-scroll.css?v=budget-planner-20260921">
     <script src="/tree-scroll.js?v=matching-axes-20260921"></script>
     <script src="/planner.js?v=local-exact-20260920"></script>
     <script src="/modification-planner.js?v=auto-unlocked-20260921"></script>
@@ -240,6 +239,7 @@
     <script src="/vehicle-folders.js?v=focused-popup-20260921"></script>
     <link rel="stylesheet" href="/roster.css?v=restore-labels-20260921">
     <script src="/roster.js?v=restore-labels-20260921"></script>
-    <script src="/app.js?v=restore-labels-20260921"></script>
+    <script src="/vehicle-long-press.js?v=touch-menu-20260921"></script>
+    <script src="/app.js?v=touch-menu-20260921"></script>
   </body>
 </html>

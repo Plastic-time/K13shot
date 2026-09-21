@@ -227,7 +227,7 @@ async function main() {
             const dockedOutsideTree = floatRect.left >= treeRect.right - 1;
             const copyFitsViewport = copyRect.left >= 0 && copyRect.right <= innerWidth;
             const warningVisible = document.querySelector('.floating-planner').textContent.includes('测试功能') && document.querySelector('.floating-planner').textContent.includes('自行手动核对');
-            els.floatingPlanButton.click();
+            els.planButton.click();
             for (let i = 0; i < 100 && els.planButton.disabled; i++) await new Promise(resolve => setTimeout(resolve, 30));
             const result = state.planResult;
             const status = els.plannerStatus.textContent;

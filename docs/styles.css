@@ -356,6 +356,18 @@ button:focus-visible {
   display: none;
 }
 
+.unit-tile,
+.unit-tile img {
+  -webkit-tap-highlight-color: transparent;
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  user-select: none;
+}
+
+@media (pointer: coarse) {
+  .unit-context-menu > button[data-context-action] { min-height: 44px; }
+}
+
 .unit-context-heading {
   display: grid;
   gap: 2px;
@@ -569,40 +581,31 @@ button:focus-visible {
 }
 
 .floating-planner {
-  position: fixed;
-  top: var(--floating-planner-top, 50vh);
-  right: var(--floating-planner-right, 12px);
-  z-index: 40;
-  width: 64px;
-  height: 64px;
-  opacity: 0;
-  pointer-events: none;
-  transform: translate(18px, -50%);
-  transition: opacity 160ms ease, transform 160ms ease;
-}
-
-.floating-planner.is-visible {
-  opacity: 1;
+  position: relative;
+  display: flex;
+  align-items: center;
+  padding-left: 14px;
+  border-left: 1px solid rgba(214, 235, 222, 0.24);
   pointer-events: auto;
-  transform: translate(0, -50%);
 }
 
 .floating-planner-copy {
   position: absolute;
-  top: 50%;
-  right: 72px;
-  width: min(270px, calc(100vw - 96px));
+  bottom: calc(100% + 18px);
+  right: 0;
+  width: min(246px, calc(100vw - 40px));
   display: grid;
-  gap: 3px;
-  border: 1px solid rgba(39, 118, 91, 0.38);
-  border-radius: 8px;
-  background: rgba(255, 255, 255, 0.98);
-  padding: 10px 11px;
-  box-shadow: 0 10px 26px rgba(24, 40, 34, 0.18);
+  gap: 5px;
+  border: 1px solid #bccbc1;
+  border-radius: 6px;
+  background: #f6faf7;
+  color: #263e32;
+  padding: 10px 12px;
+  box-shadow: 0 6px 20px rgba(24, 40, 34, 0.15);
   opacity: 0;
   visibility: hidden;
   pointer-events: none;
-  transform: translate(10px, -50%);
+  transform: translateY(4px);
   transition: opacity 140ms ease, transform 140ms ease, visibility 140ms ease;
 }
 
@@ -610,50 +613,43 @@ button:focus-visible {
 .floating-planner:focus-within .floating-planner-copy {
   opacity: 1;
   visibility: visible;
-  transform: translate(0, -50%);
+  transform: translateY(0);
 }
 
-.floating-planner-label {
-  width: max-content;
-  border-radius: 4px;
-  background: #fff0c8;
-  color: #75500e;
-  padding: 2px 5px;
-  font-size: 10px;
-  font-weight: 900;
-}
-
-.floating-planner-copy strong {
-  overflow-wrap: anywhere;
-  font-size: 13px;
-  line-height: 1.3;
-}
-
-.floating-planner-copy small {
-  color: #6e4b0d;
-  font-size: 11px;
-  line-height: 1.35;
-}
+.floating-planner-copy strong { font-size: 13px; line-height: 1.4; }
+.floating-planner-copy small { color: #52675b; font-size: 11px; line-height: 1.5; }
 
 .floating-plan-button {
-  width: 64px;
-  min-width: 64px;
-  height: 64px;
-  min-height: 64px;
-  display: grid;
-  place-content: center;
-  gap: 3px;
-  border-radius: 8px;
-  padding: 7px;
-  box-shadow: 0 8px 22px rgba(21, 92, 69, 0.28);
-  line-height: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  width: 134px;
+  height: 44px;
+  min-height: 44px;
+  padding: 8px 10px;
+  border: 1px solid rgba(207, 234, 216, 0.28);
+  border-radius: 6px;
+  background: rgba(164, 209, 181, 0.14);
+  color: #ffffff;
+  box-shadow: none;
+  font-size: 14px;
+  line-height: 1.2;
   white-space: nowrap;
 }
 
+.floating-plan-button:hover { background: rgba(164, 209, 181, 0.26); }
+.floating-plan-button:focus-visible { outline: 2px solid #f2d890; outline-offset: 3px; }
+.floating-plan-button:disabled { cursor: wait; }
+
 .floating-plan-test {
-  color: #ffe19a;
-  font-size: 9px;
-  font-weight: 900;
+  border: 1px solid rgba(240, 208, 134, 0.35);
+  border-radius: 3px;
+  background: rgba(240, 208, 134, 0.12);
+  color: #ffe5a8;
+  padding: 2px 4px;
+  font-size: 10px;
+  font-weight: 700;
 }
 
 .planner-status > div:first-child {
@@ -801,7 +797,7 @@ button:focus-visible {
 
 .tree-container {
   padding: 0;
-  margin-right: 76px;
+  margin-right: 0;
   overflow: auto;
   background: rgba(236, 240, 237, 0.72);
   /* Let vertical wheel gestures continue to the page from this horizontal scroller. */
@@ -1337,26 +1333,7 @@ button:focus-visible {
     grid-template-columns: repeat(2, minmax(0, 1fr));
   }
 
-  .floating-planner-copy small {
-    font-size: 10px;
-  }
 
-  .floating-plan-button {
-    width: 58px;
-    min-width: 58px;
-    height: 58px;
-    min-height: 58px;
-  }
-
-  .floating-planner {
-    width: 58px;
-    height: 58px;
-  }
-
-  .floating-planner-copy {
-    right: 66px;
-    width: min(260px, calc(100vw - 86px));
-  }
 
   .toolbar {
     grid-template-columns: 1fr;
@@ -1394,7 +1371,7 @@ button:focus-visible {
   }
 
   .tree-container {
-    margin-right: 66px;
+    margin-right: 0;
   }
 
   .metric-grid {
@@ -1407,30 +1384,37 @@ button:focus-visible {
   position: fixed;
   z-index: 35;
   left: 50%;
-  bottom: 28px;
+  bottom: calc(28px + env(safe-area-inset-bottom, 0px));
   transform: translateX(-50%);
-  display: flex;
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) auto;
   align-items: center;
-  justify-content: center;
-  flex-wrap: wrap;
-  gap: 10px 20px;
+  gap: 16px;
   width: max-content;
-  max-width: calc(100% - 28px);
-  padding: 12px 22px;
-  border: 1px solid #5b786a;
+  max-width: calc(100% - 40px);
+  padding: 10px 12px 10px 18px;
+  border: 1px solid rgba(184, 213, 195, 0.46);
   border-radius: 8px;
-  background: #213b30;
+  background: rgba(25, 54, 41, 0.94);
   color: #ffffff;
-  box-shadow: 0 6px 20px rgba(20, 37, 28, 0.2);
+  box-shadow: 0 8px 24px rgba(20, 37, 28, 0.15), inset 0 1px rgba(234, 249, 239, 0.1);
   font-size: 14px;
   pointer-events: none;
 }
-.budget-count { color: #c9ddd1; white-space: nowrap; }
+@supports ((backdrop-filter: blur(10px)) or (-webkit-backdrop-filter: blur(10px))) {
+  .floating-budget {
+    background: rgba(25, 54, 41, 0.82);
+    -webkit-backdrop-filter: blur(10px);
+    backdrop-filter: blur(10px);
+  }
+}
+.budget-summary { display: flex; align-items: center; gap: 20px; min-width: 0; }
+.budget-count { color: #dfede3; white-space: nowrap; }
 .budget-cost { display: flex; align-items: baseline; gap: 8px; white-space: nowrap; }
-.budget-cost > span { color: #b8ded5; font-size: 12px; }
+.budget-cost > span { color: #d2eee4; font-size: 12px; }
 .budget-cost strong { font-size: 20px; font-variant-numeric: tabular-nums; }
-.budget-sl > span { color: #f1ce87; }
-.tree-container { padding-bottom: 104px; }
+.budget-sl > span { color: #f7d998; }
+.tree-container { padding-bottom: calc(144px + env(safe-area-inset-bottom, 0px)); }
 .tree-screenshot {
   width: max-content;
   background: #edf0ed;
@@ -1450,9 +1434,13 @@ button:focus-visible {
 .tree-screenshot .rank-rail { position: relative; left: auto; }
 .tree-screenshot * { animation: none !important; transition: none !important; }
 @media (max-width: 720px) {
-  .floating-budget { gap: 6px 12px; padding: 10px 12px; }
-  .budget-count { flex-basis: 100%; text-align: center; font-size: 12px; }
-  .budget-cost strong { font-size: 18px; }
+  .floating-budget { gap: 10px; padding: 10px 12px; }
+  .budget-summary { display: grid; gap: 3px; }
+  .budget-count { font-size: 12px; }
+  .budget-cost { justify-content: space-between; gap: 8px; }
+  .budget-cost strong { font-size: 14px; }
+  .floating-planner { padding-left: 10px; }
+  .floating-plan-button { width: 80px; height: 66px; flex-direction: column; gap: 5px; padding: 8px 6px; }
 }
 
 /* Full-canvas planner layout: controls stay compact while the tree owns the viewport. */
@@ -1577,7 +1565,7 @@ body {
   min-width: 0;
   min-height: 0;
   height: 100%;
-  margin-right: 76px;
+  margin-right: 0;
   overflow-x: auto;
   overflow-y: scroll;
   overscroll-behavior: contain;
