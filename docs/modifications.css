@@ -457,17 +457,29 @@
   background: #896a2c;
 }
 
-@media (max-width: 720px) {
+@media (max-width: 720px), (max-height: 540px) and (pointer: coarse) {
   .modification-dialog {
-    width: calc(100vw - 8px);
+    position: fixed;
+    inset: calc(4px + env(safe-area-inset-top, 0px)) calc(4px + env(safe-area-inset-right, 0px)) auto calc(4px + env(safe-area-inset-left, 0px));
+    width: auto;
     height: calc(100vh - 8px);
+    height: calc(100dvh - 8px - env(safe-area-inset-top, 0px) - env(safe-area-inset-bottom, 0px));
+    margin: 0;
+    overflow: clip;
   }
 
-  .modification-titlebar { min-height: 58px; padding-left: 10px; }
-  .modification-vehicle img { width: 58px; height: 42px; }
-  .modification-vehicle h2 { font-size: 17px; }
+  .modification-titlebar,
+  .modification-toolbar,
+  .modification-footer { flex: 0 0 auto; }
+  .modification-titlebar { min-height: 60px; gap: 8px; padding: 7px 8px; }
+  .modification-vehicle { flex: 1; gap: 8px; }
+  .modification-vehicle > div { min-width: 0; }
+  .modification-vehicle img { flex: 0 0 58px; width: 58px; height: 42px; }
+  .modification-vehicle h2 { font-size: 17px; line-height: 1.3; overflow-wrap: anywhere; }
+  .modification-close { flex: 0 0 44px; width: 44px; height: 44px; }
   .modification-toolbar { align-items: flex-start; flex-direction: column; gap: 6px; padding: 7px 10px; }
   .modification-toolbar p { white-space: normal; }
+  .modification-viewport { min-width: 0; overscroll-behavior: contain; }
   .modification-tree { padding: 8px 10px 14px; }
   .modification-footer { align-items: stretch; flex-direction: column; gap: 8px; padding: 8px; }
   .modification-actions { display: grid; grid-template-columns: repeat(4, minmax(0, 1fr)); }
