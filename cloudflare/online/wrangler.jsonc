@@ -1,0 +1,32 @@
+{
+  "$schema": "node_modules/wrangler/config-schema.json",
+  "name": "k13shot-online",
+  "main": "src/worker.mjs",
+  "compatibility_date": "2026-09-21",
+  "workers_dev": true,
+  "preview_urls": false,
+  "observability": { "enabled": false },
+  "vars": {
+    "ALLOWED_ORIGIN": "https://plastic-time.github.io"
+  },
+  "durable_objects": {
+    "bindings": [
+      { "name": "ONLINE", "class_name": "OnlinePresence" }
+    ]
+  },
+  "migrations": [
+    { "tag": "v1", "new_sqlite_classes": ["OnlinePresence"] }
+  ],
+  "ratelimits": [
+    {
+      "name": "IP_LIMITER",
+      "namespace_id": "131301",
+      "simple": { "limit": 120, "period": 60 }
+    },
+    {
+      "name": "VISITOR_LIMITER",
+      "namespace_id": "131302",
+      "simple": { "limit": 6, "period": 60 }
+    }
+  ]
+}

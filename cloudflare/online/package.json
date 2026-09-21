@@ -1,0 +1,18 @@
+{
+  "name": "k13shot-online",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "wrangler dev --local",
+    "deploy": "wrangler deploy",
+    "test": "node --test test/*.test.mjs",
+    "test:runtime": "node test/runtime.mjs",
+    "check:deploy": "wrangler deploy --dry-run --outdir dist"
+  },
+  "engines": { "node": ">=22.0.0" },
+  "devDependencies": {
+    "miniflare": "5.20260921.0-alpha",
+    "wrangler": "4.136.1"
+  }
+}
