@@ -1,0 +1,129 @@
+{
+  "vehicles": 2974,
+  "shells": 2676,
+  "belts": 1096,
+  "beltGroups": 2126,
+  "unresolved": [
+    {
+      "vehicle": "us_lav_ad",
+      "mod": "lav_ad_hydra_70",
+      "name": "Hydra 70"
+    },
+    {
+      "vehicle": "us_nasams_fcs",
+      "mod": "254mm_amraam_er_aam_ammo_pack",
+      "name": "AMRAAM-ER"
+    },
+    {
+      "vehicle": "germ_bmp_1_ddr",
+      "mod": "bmp_1p_turret_improvement",
+      "name": "BMP-1P"
+    },
+    {
+      "vehicle": "ussr_bmp_1",
+      "mod": "bmp_1p_turret_improvement",
+      "name": "BMP-1P"
+    },
+    {
+      "vehicle": "uk_fv510_isv",
+      "mod": "fv510_MILAN_2",
+      "name": "MILAN 2"
+    },
+    {
+      "vehicle": "uk_sky_sabre_fcs",
+      "mod": "166mm_camm_er_aam_ammo_pack",
+      "name": "CAMM-ER"
+    },
+    {
+      "vehicle": "cn_type_86",
+      "mod": "type_86_turret_improvement",
+      "name": "ZBD86 Late"
+    },
+    {
+      "vehicle": "cn_m113a1_tow",
+      "mod": "begleitpanzer_57_improvement_TOW",
+      "name": "I-TOW"
+    },
+    {
+      "vehicle": "it_m113a1_tow",
+      "mod": "begleitpanzer_57_improvement_TOW",
+      "name": "I-TOW"
+    },
+    {
+      "vehicle": "sw_nasams_fcs",
+      "mod": "254mm_amraam_er_aam_ammo_pack",
+      "name": "AMRAAM-ER"
+    },
+    {
+      "vehicle": "il_m113a1_tow",
+      "mod": "begleitpanzer_57_improvement_TOW",
+      "name": "I-TOW"
+    }
+  ],
+  "assets": [
+    "ac_shell_tank.png",
+    "ap_tank.png",
+    "apbc_tank.png",
+    "apc_tank.png",
+    "apcbc_tank.png",
+    "apcr_tank.png",
+    "apds_belt.png",
+    "apds_tank.png",
+    "apdsfs_tank.png",
+    "aphe_tank.png",
+    "aphebc_tank.png",
+    "armor_big.png",
+    "armor_middle.png",
+    "armor_small.png",
+    "armor_vsmall.png",
+    "atgm.png",
+    "atgm_he.png",
+    "atgm_tandem.png",
+    "atgm_vt_fuze.png",
+    "bullet_cannon_black.png",
+    "bullet_cannon_black_green.png",
+    "bullet_cannon_blue.png",
+    "bullet_cannon_blue_green.png",
+    "bullet_cannon_blue_yellow.png",
+    "bullet_cannon_blue_yellow_green.png",
+    "bullet_cannon_brown.png",
+    "bullet_cannon_green.png",
+    "bullet_cannon_red.png",
+    "bullet_cannon_red_blue.png",
+    "bullet_cannon_red_blue_green.png",
+    "bullet_cannon_red_green.png",
+    "bullet_cannon_yellow.png",
+    "bullet_cannon_yellow_green.png",
+    "bullet_dist_fuze_cannon_yellow.png",
+    "bullet_gun_black_blue.png",
+    "bullet_gun_blue.png",
+    "bullet_gun_blue_green.png",
+    "bullet_gun_brown.png",
+    "bullet_gun_green.png",
+    "bullet_gun_red.png",
+    "bullet_gun_red_blue.png",
+    "bullet_gun_red_blue_green.png",
+    "bullet_gun_red_green.png",
+    "bullet_gun_yellow.png",
+    "bullet_gun_yellow_green.png",
+    "bullet_gun_yellow_red.png",
+    "bullet_proxi_fuze_cannon_yellow.png",
+    "damage.png",
+    "damage_small.png",
+    "explosion_big.png",
+    "explosion_middle.png",
+    "explosion_small.png",
+    "he_frag_base_fuse_tank.png",
+    "he_frag_dist_fuse_ship.png",
+    "he_frag_proxi_fuze_ship.png",
+    "he_frag_tank.png",
+    "heat_fs_tank.png",
+    "heat_tank.png",
+    "hesh_tank.png",
+    "sam.png",
+    "sap_tank.png",
+    "sapbc_tank.png",
+    "shrapnel_dist_fuse_tank.png",
+    "smoke_tank.png"
+  ]
+}

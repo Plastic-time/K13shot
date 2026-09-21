@@ -2,7 +2,7 @@ const fs = require("node:fs");
 const path = require("node:path");
 const crypto = require("node:crypto");
 const cheerio = require("cheerio");
-const { modificationIcon } = require("./modification-icons.cjs");
+const { modificationIcon, ammunitionArt } = require("./modification-icons.cjs");
 
 const root = path.resolve(__dirname, "..");
 const datamineRoot = path.join(root, "logs", "datamine");
@@ -104,6 +104,7 @@ function parseVehicle(vehicleId, meta, modificationNames, report) {
     return null;
   }
   const html = fs.readFileSync(wikiPath, "utf8");
+  const artwork = ammunitionArt(html, vehicleId);
   const tableMatches = html.match(/<table class="game-unit_mods-table">[\s\S]*?<\/table>/g) || [];
   if (!tableMatches.length) {
     report.withoutTables.push(vehicleId);
@@ -187,6 +188,7 @@ function parseVehicle(vehicleId, meta, modificationNames, report) {
       wikiMod.id, wikiMod.categoryIndex, tier, wikiMod.column, wikiMod.zh, wikiMod.en,
       wikiMod.icon, rp, sl, wikiMod.ge, [...new Set(requirements)], order,
     ]);
+    if (artwork.has(wikiMod.id)) mods.at(-1).push(artwork.get(wikiMod.id));
   }
   if (!mods.length) return null;
 

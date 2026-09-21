@@ -1,0 +1,389 @@
+{
+  "source": "War Thunder Wiki / Gaijin original GUI artwork",
+  "assets": [
+    {
+      "file": "ac_shell_tank.png",
+      "url": "https://static.encyclopedia.warthunder.com/gui_skin/ac_shell_tank.png",
+      "bytes": 10755,
+      "sha256": "53a90c24311e31b53b1badbc640be0d90233b607ac082d9c1ca80ebc510214ce"
+    },
+    {
+      "file": "ap_tank.png",
+      "url": "https://static.encyclopedia.warthunder.com/gui_skin/ap_tank.png",
+      "bytes": 9149,
+      "sha256": "234afe025955d0aac024f2451d969b92ec3a9d243dc9a2140eea5fb86a2c7a1c"
+    },
+    {
+      "file": "apbc_tank.png",
+      "url": "https://static.encyclopedia.warthunder.com/gui_skin/apbc_tank.png",
+      "bytes": 10154,
+      "sha256": "b1be5ff736289053d62cf1e8f19f6e5b3896e77661d30f0b3bd115f090a754da"
+    },
+    {
+      "file": "apc_tank.png",
+      "url": "https://static.encyclopedia.warthunder.com/gui_skin/apc_tank.png",
+      "bytes": 8517,
+      "sha256": "98ac1afff04a4cfce67b2fa05e49727e0717639a205d4a345a0a606624fc27c1"
+    },
+    {
+      "file": "apcbc_tank.png",
+      "url": "https://static.encyclopedia.warthunder.com/gui_skin/apcbc_tank.png",
+      "bytes": 10356,
+      "sha256": "2a3c6d374510ef338e8cf0b8ee929ef90da1861a6c419f17024b25f9dc4848fc"
+    },
+    {
+      "file": "apcr_tank.png",
+      "url": "https://static.encyclopedia.warthunder.com/gui_skin/apcr_tank.png",
+      "bytes": 10192,
+      "sha256": "9f98a3ab644ef5034ba1b757b51d6f08824f8915b0f6ed824f151d5294ec3334"
+    },
+    {
+      "file": "apds_belt.png",
+      "url": "https://static.encyclopedia.warthunder.com/gui_skin/apds_belt.png",
+      "bytes": 5532,
+      "sha256": "5b68580a2d420a828e8e46f94b366bfdc314db388ea2a1f6bcb70f4ae1aadb8c"
+    },
+    {
+      "file": "apds_tank.png",
+      "url": "https://static.encyclopedia.warthunder.com/gui_skin/apds_tank.png",
+      "bytes": 10118,
+      "sha256": "a290767b363d59f3ed75888cc8566483d7febfc297c216fc8aa14d621e05b401"
+    },
+    {
+      "file": "apdsfs_tank.png",
+      "url": "https://static.encyclopedia.warthunder.com/gui_skin/apdsfs_tank.png",
+      "bytes": 5759,
+      "sha256": "35cd60eafdbfa5be2562b16c33d962ade065a218d03976703bc874bcb9fb24e3"
+    },
+    {
+      "file": "aphe_tank.png",
+      "url": "https://static.encyclopedia.warthunder.com/gui_skin/aphe_tank.png",
+      "bytes": 10755,
+      "sha256": "53a90c24311e31b53b1badbc640be0d90233b607ac082d9c1ca80ebc510214ce"
+    },
+    {
+      "file": "aphebc_tank.png",
+      "url": "https://static.encyclopedia.warthunder.com/gui_skin/aphebc_tank.png",
+      "bytes": 11446,
+      "sha256": "fefec2457b24102084144f2c0f71c481401738231b92f5c9e7df4026b409112d"
+    },
+    {
+      "file": "armor_big.png",
+      "url": "https://static.encyclopedia.warthunder.com/gui_skin/armor_big.png",
+      "bytes": 13765,
+      "sha256": "d111fc7bd491b0f39d56a892a107f5169097071736f45ecbe78007de41f4ec47"
+    },
+    {
+      "file": "armor_middle.png",
+      "url": "https://static.encyclopedia.warthunder.com/gui_skin/armor_middle.png",
+      "bytes": 11883,
+      "sha256": "a36252fbb96db5edcd5218207b2a382500341f66da77c1cba9f37c964da46c0c"
+    },
+    {
+      "file": "armor_small.png",
+      "url": "https://static.encyclopedia.warthunder.com/gui_skin/armor_small.png",
+      "bytes": 8313,
+      "sha256": "64a43dda6e025ee9248742b8744a1bc0da7604626fc4c92731f7260d79153650"
+    },
+    {
+      "file": "armor_vsmall.png",
+      "url": "https://static.encyclopedia.warthunder.com/gui_skin/armor_vsmall.png",
+      "bytes": 5455,
+      "sha256": "1c28eb2f8dba155d1319069d3cf000194f01726b2b0a58b7f6b5de8be630c7a3"
+    },
+    {
+      "file": "atgm.png",
+      "url": "https://static.encyclopedia.warthunder.com/gui_skin/atgm.png",
+      "bytes": 13723,
+      "sha256": "70d406fa21bbca6cb9ecc93fa6b858c6efe96e601b3a4fcfac752ce3d186b995"
+    },
+    {
+      "file": "atgm_he.png",
+      "url": "https://static.encyclopedia.warthunder.com/gui_skin/atgm_he.png",
+      "bytes": 13903,
+      "sha256": "6946a9ed78603c01ca4282bf38cdb0bf0e320552dceeb00f42b39d22825fcd22"
+    },
+    {
+      "file": "atgm_tandem.png",
+      "url": "https://static.encyclopedia.warthunder.com/gui_skin/atgm_tandem.png",
+      "bytes": 10017,
+      "sha256": "260c128fcf769d583a0e69ff9dd58105f89e04f6bea89ba53163047203a7e2fc"
+    },
+    {
+      "file": "atgm_vt_fuze.png",
+      "url": "https://static.encyclopedia.warthunder.com/gui_skin/atgm_vt_fuze.png",
+      "bytes": 20879,
+      "sha256": "0819289f8c76a99f1c0cf88e5fed161728aecea05069ffd3f1bec6fe11397324"
+    },
+    {
+      "file": "bullet_cannon_black.png",
+      "url": "https://static.encyclopedia.warthunder.com/gui_skin/bullet_cannon_black.png",
+      "bytes": 4074,
+      "sha256": "0e475496e55624b165ea4d07ed49cd4e107029df477cc65dbac8197952ad4181"
+    },
+    {
+      "file": "bullet_cannon_black_green.png",
+      "url": "https://static.encyclopedia.warthunder.com/gui_skin/bullet_cannon_black_green.png",
+      "bytes": 3365,
+      "sha256": "931afee8b5659f4a5e79d201bc1d45636f8a978906362f0ba8fd5fcff0660dad"
+    },
+    {
+      "file": "bullet_cannon_blue.png",
+      "url": "https://static.encyclopedia.warthunder.com/gui_skin/bullet_cannon_blue.png",
+      "bytes": 4814,
+      "sha256": "6cf01cbd44491ba8b6584cf0559ce262df071d1729ae70c28738fb2e99b7a94b"
+    },
+    {
+      "file": "bullet_cannon_blue_green.png",
+      "url": "https://static.encyclopedia.warthunder.com/gui_skin/bullet_cannon_blue_green.png",
+      "bytes": 5069,
+      "sha256": "f7329f3ff3ddcc200a3672cb2ac45f55ee918c04baf419e5f5de76d4f110cf1c"
+    },
+    {
+      "file": "bullet_cannon_blue_yellow.png",
+      "url": "https://static.encyclopedia.warthunder.com/gui_skin/bullet_cannon_blue_yellow.png",
+      "bytes": 5315,
+      "sha256": "4df7715435ffb982daad2cc7cb1b83009d57e2502c4b4daa07092fb018374fa2"
+    },
+    {
+      "file": "bullet_cannon_blue_yellow_green.png",
+      "url": "https://static.encyclopedia.warthunder.com/gui_skin/bullet_cannon_blue_yellow_green.png",
+      "bytes": 5489,
+      "sha256": "81f1b60d318f972381bdc8f5996d312f35e1ddc09541b7fec00a0bac3098242f"
+    },
+    {
+      "file": "bullet_cannon_brown.png",
+      "url": "https://static.encyclopedia.warthunder.com/gui_skin/bullet_cannon_brown.png",
+      "bytes": 4912,
+      "sha256": "f9e5e47e566d48d08d6cb3335acfd8fe5d5c448fd4d249c15854a79ab7b4b1a7"
+    },
+    {
+      "file": "bullet_cannon_green.png",
+      "url": "https://static.encyclopedia.warthunder.com/gui_skin/bullet_cannon_green.png",
+      "bytes": 4835,
+      "sha256": "24c5d1b5c22327fe1fc596338b42676875aa3af1a6835cbab640ac15f3f3d83f"
+    },
+    {
+      "file": "bullet_cannon_red.png",
+      "url": "https://static.encyclopedia.warthunder.com/gui_skin/bullet_cannon_red.png",
+      "bytes": 5116,
+      "sha256": "5f58be92b3ca1ccdb7ec6fbeffe3c4fe5f3cc335ef4c5ba8b5f2d2ea390339fa"
+    },
+    {
+      "file": "bullet_cannon_red_blue.png",
+      "url": "https://static.encyclopedia.warthunder.com/gui_skin/bullet_cannon_red_blue.png",
+      "bytes": 5104,
+      "sha256": "2b2e60b8b9e352d99df30f90c4dfbff51affa61c5972c5aa84fd819b49c01ef1"
+    },
+    {
+      "file": "bullet_cannon_red_blue_green.png",
+      "url": "https://static.encyclopedia.warthunder.com/gui_skin/bullet_cannon_red_blue_green.png",
+      "bytes": 5254,
+      "sha256": "8cc8384fb7a302d211c2f06b158a59f4b95df4ce0341ee238d331a3baa2da89a"
+    },
+    {
+      "file": "bullet_cannon_red_green.png",
+      "url": "https://static.encyclopedia.warthunder.com/gui_skin/bullet_cannon_red_green.png",
+      "bytes": 5239,
+      "sha256": "53afddd423d5fd53d22ace4b70325692791ac73bde3270ba2ba91b3cb820ead6"
+    },
+    {
+      "file": "bullet_cannon_yellow.png",
+      "url": "https://static.encyclopedia.warthunder.com/gui_skin/bullet_cannon_yellow.png",
+      "bytes": 4842,
+      "sha256": "832cafb7f39f37378f4d248eef014edc997b5526bf3435f42620866ea3184c5f"
+    },
+    {
+      "file": "bullet_cannon_yellow_green.png",
+      "url": "https://static.encyclopedia.warthunder.com/gui_skin/bullet_cannon_yellow_green.png",
+      "bytes": 5363,
+      "sha256": "7e2d8e4f2bf9b20934fce5801a1b8bb39be59182ff9f33a81f56776ed81c4605"
+    },
+    {
+      "file": "bullet_dist_fuze_cannon_yellow.png",
+      "url": "https://static.encyclopedia.warthunder.com/gui_skin/bullet_dist_fuze_cannon_yellow.png",
+      "bytes": 14709,
+      "sha256": "c9aac430a94a790644a1e872a8a9c0dad185f090927587aba3e57c67f7c86649"
+    },
+    {
+      "file": "bullet_gun_black_blue.png",
+      "url": "https://static.encyclopedia.warthunder.com/gui_skin/bullet_gun_black_blue.png",
+      "bytes": 3124,
+      "sha256": "5e2c60054f3b6bde866bc9d4cf6cd455aaf04001b916cc3375886526bc8b3c6d"
+    },
+    {
+      "file": "bullet_gun_blue.png",
+      "url": "https://static.encyclopedia.warthunder.com/gui_skin/bullet_gun_blue.png",
+      "bytes": 4415,
+      "sha256": "e926dad7a0bd66392a2a4c20200630330a5aadea1ab5fe4488392c478e5e88a7"
+    },
+    {
+      "file": "bullet_gun_blue_green.png",
+      "url": "https://static.encyclopedia.warthunder.com/gui_skin/bullet_gun_blue_green.png",
+      "bytes": 4650,
+      "sha256": "b3bf9eb6d2b2aa392b5626128cdbab0fb960103737ea4a65bd779c3bd65b4a71"
+    },
+    {
+      "file": "bullet_gun_brown.png",
+      "url": "https://static.encyclopedia.warthunder.com/gui_skin/bullet_gun_brown.png",
+      "bytes": 4546,
+      "sha256": "ed48785b837994a43e41072b1ffb5101e3cb54ae78f1878b669b9fe62788abe4"
+    },
+    {
+      "file": "bullet_gun_green.png",
+      "url": "https://static.encyclopedia.warthunder.com/gui_skin/bullet_gun_green.png",
+      "bytes": 4597,
+      "sha256": "3e2c9a50b740c815bda9f601a75fdf6a02d86c8cecf0245927203f4f85488188"
+    },
+    {
+      "file": "bullet_gun_red.png",
+      "url": "https://static.encyclopedia.warthunder.com/gui_skin/bullet_gun_red.png",
+      "bytes": 4697,
+      "sha256": "c2ee193206381f7538157d61cd47425abb91155a5a080e3e5f33915dba8d14e8"
+    },
+    {
+      "file": "bullet_gun_red_blue.png",
+      "url": "https://static.encyclopedia.warthunder.com/gui_skin/bullet_gun_red_blue.png",
+      "bytes": 4151,
+      "sha256": "cbfbd6b5358c9847590584fbca7051e04f31f1a21a091cef4a41533cad719b8d"
+    },
+    {
+      "file": "bullet_gun_red_blue_green.png",
+      "url": "https://static.encyclopedia.warthunder.com/gui_skin/bullet_gun_red_blue_green.png",
+      "bytes": 4580,
+      "sha256": "6581d6464c68bfd97b58e9a7dba60ca96dca8494789274ffcf9bee9a8672e1f9"
+    },
+    {
+      "file": "bullet_gun_red_green.png",
+      "url": "https://static.encyclopedia.warthunder.com/gui_skin/bullet_gun_red_green.png",
+      "bytes": 4733,
+      "sha256": "0db49584caec79a83b23f1a4e601bc653e1e82f6d5f622ec2119056b1cbd97a6"
+    },
+    {
+      "file": "bullet_gun_yellow.png",
+      "url": "https://static.encyclopedia.warthunder.com/gui_skin/bullet_gun_yellow.png",
+      "bytes": 4498,
+      "sha256": "6b854dd8fb7c691f3a490197f792fc9a22c82263f6e2227cb75b245ad0496ac3"
+    },
+    {
+      "file": "bullet_gun_yellow_green.png",
+      "url": "https://static.encyclopedia.warthunder.com/gui_skin/bullet_gun_yellow_green.png",
+      "bytes": 4690,
+      "sha256": "e0e525fe086ec343cbca5134eb7b4584a67b230029e277057561b49d5653886a"
+    },
+    {
+      "file": "bullet_gun_yellow_red.png",
+      "url": "https://static.encyclopedia.warthunder.com/gui_skin/bullet_gun_yellow_red.png",
+      "bytes": 4564,
+      "sha256": "4e8d05871c261572522122cfacf25939218a60d71e74fbc14183f0b7dcba6974"
+    },
+    {
+      "file": "bullet_proxi_fuze_cannon_yellow.png",
+      "url": "https://static.encyclopedia.warthunder.com/gui_skin/bullet_proxi_fuze_cannon_yellow.png",
+      "bytes": 19372,
+      "sha256": "9b935c7916094f6e38d916fe331381d0877d64a5d4beb8189580680789961b00"
+    },
+    {
+      "file": "damage.png",
+      "url": "https://static.encyclopedia.warthunder.com/gui_skin/damage.png",
+      "bytes": 13501,
+      "sha256": "2c5399bc889d46a1bd67c2d5d8204f78cccfaa12f2345d57b42dfd5449bddce7"
+    },
+    {
+      "file": "damage_small.png",
+      "url": "https://static.encyclopedia.warthunder.com/gui_skin/damage_small.png",
+      "bytes": 9893,
+      "sha256": "0bb63699c17ffd283151ccedeaa2e4c7705e1e1decf4a293257b82b81f31afac"
+    },
+    {
+      "file": "explosion_big.png",
+      "url": "https://static.encyclopedia.warthunder.com/gui_skin/explosion_big.png",
+      "bytes": 32056,
+      "sha256": "f8ef3530e9e18933f86b09a5908d9e8d64e5c1732d91d0a233f7b9a158dab5cb"
+    },
+    {
+      "file": "explosion_middle.png",
+      "url": "https://static.encyclopedia.warthunder.com/gui_skin/explosion_middle.png",
+      "bytes": 18062,
+      "sha256": "e5e490c0ee91ede49cff85fdd33ed2e5e7d50be7d9dc3e8bb271dd51c8937ab3"
+    },
+    {
+      "file": "explosion_small.png",
+      "url": "https://static.encyclopedia.warthunder.com/gui_skin/explosion_small.png",
+      "bytes": 12088,
+      "sha256": "b4d85400aa1b171dceaea7dce34941b207ebf4d453250989c1e7913d0c4b977c"
+    },
+    {
+      "file": "he_frag_base_fuse_tank.png",
+      "url": "https://static.encyclopedia.warthunder.com/gui_skin/he_frag_base_fuse_tank.png",
+      "bytes": 10835,
+      "sha256": "7b033cdb4c68a8c1d68e3a2da494f5455f4cbf85276a092c342f2851ad13e824"
+    },
+    {
+      "file": "he_frag_dist_fuse_ship.png",
+      "url": "https://static.encyclopedia.warthunder.com/gui_skin/he_frag_dist_fuse_ship.png",
+      "bytes": 11795,
+      "sha256": "d15d5a1cb0d44d17bd317c4fa5db96715504f5ed7ab981275a723b5042da6631"
+    },
+    {
+      "file": "he_frag_proxi_fuze_ship.png",
+      "url": "https://static.encyclopedia.warthunder.com/gui_skin/he_frag_proxi_fuze_ship.png",
+      "bytes": 16143,
+      "sha256": "6409d2c64e9c0490fb6d14f86bda1a808ce48a38bbdee812b70a4b1c72dfdd96"
+    },
+    {
+      "file": "he_frag_tank.png",
+      "url": "https://static.encyclopedia.warthunder.com/gui_skin/he_frag_tank.png",
+      "bytes": 9818,
+      "sha256": "de83e35a68ddaf9dcb9d6ce1840ee6d1ba557b51c43bf3a8ab64955f39c79a54"
+    },
+    {
+      "file": "heat_fs_tank.png",
+      "url": "https://static.encyclopedia.warthunder.com/gui_skin/heat_fs_tank.png",
+      "bytes": 9113,
+      "sha256": "384a5fb990977a42c0e29d2ed462a647f421736b3d14ac9c92bca31321c8a777"
+    },
+    {
+      "file": "heat_tank.png",
+      "url": "https://static.encyclopedia.warthunder.com/gui_skin/heat_tank.png",
+      "bytes": 17685,
+      "sha256": "afb6682375fa8657db5be8b755abbdc9574bf039c462f39151f8ae9bc2d85081"
+    },
+    {
+      "file": "hesh_tank.png",
+      "url": "https://static.encyclopedia.warthunder.com/gui_skin/hesh_tank.png",
+      "bytes": 9790,
+      "sha256": "6527eb7e12e10857c20e71bf177d44213a5b8180303dcb1709ddedd73cc1865e"
+    },
+    {
+      "file": "sam.png",
+      "url": "https://static.encyclopedia.warthunder.com/gui_skin/sam.png",
+      "bytes": 7051,
+      "sha256": "5ecb43c54e3fee63f89f628d8e9f5a323212625cc0da3c90d62ac15360383ee2"
+    },
+    {
+      "file": "sap_tank.png",
+      "url": "https://static.encyclopedia.warthunder.com/gui_skin/sap_tank.png",
+      "bytes": 9280,
+      "sha256": "0990c4493ab8541d23ad3a11cbb68b7be624ce8b752cda09f6a499a61feae0f4"
+    },
+    {
+      "file": "sapbc_tank.png",
+      "url": "https://static.encyclopedia.warthunder.com/gui_skin/sapbc_tank.png",
+      "bytes": 10488,
+      "sha256": "6cf84a7b285f084ab3b370ac2e30a1655942b55d0b96da3df8bd5f0d8f1e4330"
+    },
+    {
+      "file": "shrapnel_dist_fuse_tank.png",
+      "url": "https://static.encyclopedia.warthunder.com/gui_skin/shrapnel_dist_fuse_tank.png",
+      "bytes": 10725,
+      "sha256": "f51fc2d89ab2cb8be2bb0ba055964eda9fbc55e199b94a45ddfe00c86ef9f6b3"
+    },
+    {
+      "file": "smoke_tank.png",
+      "url": "https://static.encyclopedia.warthunder.com/gui_skin/smoke_tank.png",
+      "bytes": 21992,
+      "sha256": "6f434c234f1acd5669bc343d63cb23a9ca1502a024455668f103a23ddb41e195"
+    }
+  ]
+}

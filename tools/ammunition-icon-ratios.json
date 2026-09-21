@@ -1,0 +1,12 @@
+{
+  "ref": "510a793c2bdb01c51475118199c7b66b72935ff1",
+  "ratios": {
+    "default": 0.2,
+    "apdsfs_tank": 0.32,
+    "he_frag_tank": 0.32,
+    "bullet_proxi_fuze_cannon_yellow": 1,
+    "bullet_dist_fuze_cannon_yellow": 1,
+    "he_frag_proxi_fuze_ship_belt": 1,
+    "he_frag_dist_fuse_ship": 1
+  }
+}

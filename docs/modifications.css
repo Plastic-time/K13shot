@@ -304,6 +304,39 @@
   gap: 6px;
 }
 
+.modification-ammunition {
+  position: relative;
+  display: block;
+  width: 52px;
+  height: 52px;
+}
+
+.modification-ammunition-decor,
+.modification-ammunition-base {
+  position: absolute;
+  inset: 0;
+}
+
+.modification-ammunition-decor img {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.modification-ammunition-base {
+  display: block;
+}
+
+.modification-ammunition-base img {
+  position: absolute;
+  top: 0;
+  min-width: 0;
+  max-width: 100%;
+  width: auto;
+  height: 100%;
+}
+
 .modification-tile-copy b {
   overflow-wrap: anywhere;
   font-size: 13px;

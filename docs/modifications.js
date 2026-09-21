@@ -66,9 +66,30 @@
         id: mod[0], category: String(mod[1]), tier: mod[2], column: mod[3],
         name: { zh: mod[4], en: mod[5] },
         icon: mod[6].startsWith("http") ? mod[6] : `${iconPrefix}${mod[6]}`,
+        artwork: mod[12] || null,
         rp: mod[7], sl: mod[8], ge: mod[9], requires: mod[10], order: mod[11],
       })),
     };
+  }
+
+  function renderIcon(mod) {
+    const art = mod.artwork;
+    const valid = files => Array.isArray(files) && files.every(file => /^[a-z0-9_-]+\.png$/i.test(file));
+    if (!art || !valid(art.b) || !art.b.length || !valid(art.d)) {
+      return `<img src="${escape(mod.icon)}" alt="" loading="eager">`;
+    }
+    const hint = art.v ? `${language() === "en" ? "Belt group preview" : "弹链组图示"}: ${art.n} (${art.v.map(item => item.w ? `${item.w}: ${item.n}` : item.n).join(" / ")})` : art.n;
+    const images = files => files.map(file => `<img src="images/ammunition/${escape(file)}" alt="" loading="eager">`).join("");
+    const ratio = Number.isFinite(art.r) && art.r > 0 && art.r <= 1 ? art.r : 1 / art.b.length;
+    const width = ratio * 100;
+    const space = 100 - width * art.b.length;
+    const gap = space > 0 ? space / (art.b.length + 1) : space / Math.max(1, art.b.length - 1);
+    const start = space > 0 ? gap : 0;
+    const rounds = art.b.map((file, index) => `<img src="images/ammunition/${escape(file)}" alt="" loading="eager" style="left:${start + (width + gap) * index}%;width:${width}%">`).join("");
+    return `<span class="modification-ammunition" title="${escape(hint)}" data-fallback="${escape(mod.icon)}">
+      <span class="modification-ammunition-decor">${images(art.d)}</span>
+      <span class="modification-ammunition-base">${rounds}</span>
+    </span>`;
   }
 
   async function loadVehicle(vehicleId) {
@@ -181,7 +202,7 @@
       return `
         <button class="modification-tile ${stateName}${isPlanned ? " is-planned" : ""}" type="button"
           data-mod-id="${escape(mod.id)}" style="grid-column:${column};grid-row:${mod.tier + 1}" title="${escape(titleText)}"${unlocked ? " disabled" : ""}>
-          <img src="${escape(mod.icon)}" alt="" loading="eager">
+          ${renderIcon(mod)}
           <span class="modification-tile-copy"><b>${escape(name)}</b><small>${unlocked ? "✓ 已解锁" : `${format(mod.rp)} RP · ${format(mod.sl)} SL`}</small></span>
           ${stateName && !unlocked ? `<span class="modification-state">${stateName === "researched" ? "✓ " : ""}${stateLabel(mod)}</span>` : ""}
         </button>`;
@@ -289,6 +310,15 @@
     save();
     render();
   });
+
+  tree.addEventListener("error", event => {
+    const artwork = event.target.closest?.(".modification-ammunition");
+    if (!artwork || !tree.contains(artwork)) return;
+    const fallback = document.createElement("img");
+    fallback.alt = "";
+    fallback.src = artwork.dataset.fallback;
+    artwork.replaceWith(fallback);
+  }, true);
 
   tree.addEventListener("contextmenu", event => {
     const tile = event.target.closest("[data-mod-id]");
