@@ -45,6 +45,9 @@ foreach ($item in $portableItems) {
   Copy-Item -LiteralPath (Join-Path $root $item) -Destination $portableRoot -Recurse -Force
 }
 Copy-Item -LiteralPath (Join-Path $launcherOutput "WarThunderResearchCalculator.exe") -Destination $portableRoot -Force
+# Axios release notes contain illustrative URL credentials and are not runtime files.
+$axiosChangelog = Join-Path $portableRoot "node_modules\\axios\\CHANGELOG.md"
+if (Test-Path -LiteralPath $axiosChangelog) { Remove-Item -LiteralPath $axiosChangelog }
 
 $sourceItems = @("config", "database", "dict", "doc", "docs", "public", "src", ".github", ".githooks", ".gitattributes", ".gitignore", "AGENTS.md", "main.js", "package.json", "package-lock.json", "README.md")
 foreach ($item in $sourceItems) {
@@ -54,6 +57,7 @@ foreach ($item in $sourceItems) {
 $sourceLauncherRoot = Join-Path $sourceRoot "tools\\launcher"
 New-Item -ItemType Directory -Path $sourceLauncherRoot -Force | Out-Null
 Copy-Item -LiteralPath (Join-Path $root "tools\\package-release.ps1") -Destination (Join-Path $sourceRoot "tools") -Force
+Copy-Item -LiteralPath (Join-Path $root "tools\\check-release-privacy.ps1") -Destination (Join-Path $sourceRoot "tools") -Force
 Copy-Item -LiteralPath (Join-Path $root "tools\\launcher\\WarThunderResearchLauncher.csproj") -Destination $sourceLauncherRoot -Force
 Copy-Item -LiteralPath (Join-Path $root "tools\\launcher\\Program.cs") -Destination $sourceLauncherRoot -Force
 Copy-Item -LiteralPath (Join-Path $root "tools\\launcher\\app.manifest") -Destination $sourceLauncherRoot -Force
