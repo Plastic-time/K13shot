@@ -1,0 +1,3122 @@
+[
+  {
+    "rank": "I",
+    "researchable_vehicles": [
+      [
+        {
+          "type": "single",
+          "title": "P-26A-34 M2",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/p-26a_34_m2.png",
+          "br": "1.0",
+          "rp": null,
+          "sp": null,
+          "data_unit_id": "p-26a_34_m2",
+          "selected": false,
+          "class_name": "",
+          "details": true,
+          "main_role": "Fighter"
+        },
+        {
+          "type": "multiple",
+          "title": "P-26",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/p26_group.png",
+          "selected": false,
+          "br": "1.0",
+          "data_unit_id": "p-26_group",
+          "class_name": "",
+          "items": [
+            {
+              "type": "single",
+              "title": "P-26A-33",
+              "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/p-26a_33.png",
+              "br": "1.0",
+              "rp": "2,900",
+              "sp": "700",
+              "data_unit_id": "p-26a_33",
+              "selected": false,
+              "class_name": "",
+              "details": true,
+              "main_role": "Fighter"
+            },
+            {
+              "type": "single",
+              "title": "P-26B-35",
+              "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/p-26b_35.png",
+              "br": "1.0",
+              "rp": "2,000",
+              "sp": "2,100",
+              "data_unit_id": "p-26b_35",
+              "selected": false,
+              "class_name": "",
+              "details": true,
+              "main_role": "Fighter"
+            }
+          ],
+          "details": true
+        }
+      ],
+      [
+        {
+          "type": "single",
+          "title": "P-36A",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/p-36a.png",
+          "br": "1.3",
+          "rp": "2,900",
+          "sp": "700",
+          "data_unit_id": "p-36a",
+          "selected": false,
+          "class_name": "",
+          "details": true,
+          "main_role": "Fighter"
+        },
+        {
+          "type": "single",
+          "title": "P-36C",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/p-36c.png",
+          "br": "1.7",
+          "rp": "4,000",
+          "sp": "2,100",
+          "data_unit_id": "p-36c",
+          "selected": false,
+          "class_name": "",
+          "details": true,
+          "main_role": "Fighter"
+        }
+      ],
+      [
+        {
+          "type": "single",
+          "title": "BF2C-1",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/bf2c_1.png",
+          "br": "1.0",
+          "rp": null,
+          "sp": null,
+          "data_unit_id": "bf2c_1",
+          "selected": false,
+          "class_name": "",
+          "details": true,
+          "main_role": "Fighter"
+        },
+        {
+          "type": "single",
+          "title": "F3F-2",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/f3f-2.png",
+          "br": "1.3",
+          "rp": "2,900",
+          "sp": "700",
+          "data_unit_id": "f3f-2",
+          "selected": false,
+          "class_name": "",
+          "details": true,
+          "main_role": "Fighter"
+        },
+        {
+          "type": "single",
+          "title": "F2A-1",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/f2a-1.png",
+          "br": "2.0",
+          "rp": "4,000",
+          "sp": "2,100",
+          "data_unit_id": "f2a-1",
+          "selected": false,
+          "class_name": "",
+          "details": true,
+          "main_role": "Fighter"
+        }
+      ],
+      [
+        {
+          "type": "multiple",
+          "title": "OS2U",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/os2u_group.png",
+          "selected": false,
+          "br": "1.0",
+          "data_unit_id": "os2u_group",
+          "class_name": "",
+          "items": [
+            {
+              "type": "single",
+              "title": "OS2U-1",
+              "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/os2u_1.png",
+              "br": "1.0",
+              "rp": null,
+              "sp": null,
+              "data_unit_id": "os2u_1",
+              "selected": false,
+              "class_name": "",
+              "details": true,
+              "main_role": "Bomber"
+            },
+            {
+              "type": "single",
+              "title": "OS2U-3",
+              "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/os2u_3.png",
+              "br": "1.0",
+              "rp": null,
+              "sp": null,
+              "data_unit_id": "os2u_3",
+              "selected": false,
+              "class_name": "",
+              "details": true,
+              "main_role": "Bomber"
+            }
+          ],
+          "details": true
+        },
+        {
+          "type": "multiple",
+          "title": "SB2U",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/sb2u_group.png",
+          "selected": false,
+          "br": "1.0-1.7",
+          "data_unit_id": "sb2u_group",
+          "class_name": "",
+          "items": [
+            {
+              "type": "single",
+              "title": "SB2U-2",
+              "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/sb2u-2.png",
+              "br": "1.0",
+              "rp": "2,900",
+              "sp": "700",
+              "data_unit_id": "sb2u-2",
+              "selected": false,
+              "class_name": "",
+              "details": true,
+              "main_role": "Bomber"
+            },
+            {
+              "type": "single",
+              "title": "SB2U-3",
+              "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/sb2u-3.png",
+              "br": "1.7",
+              "rp": "2,000",
+              "sp": "2,100",
+              "data_unit_id": "sb2u-3",
+              "selected": false,
+              "class_name": "",
+              "details": true,
+              "main_role": "Bomber"
+            }
+          ],
+          "details": true
+        },
+        {
+          "type": "multiple",
+          "title": "TBF/SBD",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/tbf_group.png",
+          "selected": false,
+          "br": "1.7-2.0",
+          "data_unit_id": "tbf_group",
+          "class_name": "",
+          "items": [
+            {
+              "type": "single",
+              "title": "TBF-1C",
+              "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/tbf-1c.png",
+              "br": "1.7",
+              "rp": "4,000",
+              "sp": "2,100",
+              "data_unit_id": "tbf-1c",
+              "selected": false,
+              "class_name": "",
+              "details": true,
+              "main_role": "Bomber"
+            },
+            {
+              "type": "single",
+              "title": "SBD-3",
+              "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/sbd-3.png",
+              "br": "2.0",
+              "rp": "3,000",
+              "sp": "6,300",
+              "data_unit_id": "sbd-3",
+              "selected": false,
+              "class_name": "",
+              "details": true,
+              "main_role": "Bomber"
+            }
+          ],
+          "details": true
+        }
+      ],
+      [
+        {
+          "type": "multiple",
+          "title": "TBD/B-18",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/tbd_group.png",
+          "selected": false,
+          "br": "1.0-1.3",
+          "data_unit_id": "tbd_group",
+          "class_name": "",
+          "items": [
+            {
+              "type": "single",
+              "title": "TBD-1",
+              "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/tbd-1_1938.png",
+              "br": "1.0",
+              "rp": "2,900",
+              "sp": "700",
+              "data_unit_id": "tbd-1_1938",
+              "selected": false,
+              "class_name": "",
+              "details": true,
+              "main_role": "Bomber"
+            },
+            {
+              "type": "single",
+              "title": "B-18A",
+              "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/b_18a.png",
+              "br": "1.3",
+              "rp": "2,000",
+              "sp": "2,100",
+              "data_unit_id": "b_18a",
+              "selected": false,
+              "class_name": "",
+              "details": true,
+              "main_role": "Bomber"
+            }
+          ],
+          "details": true
+        },
+        {
+          "type": "multiple",
+          "title": "PBY-5",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/pby_group.png",
+          "selected": false,
+          "br": "1.3-1.7",
+          "data_unit_id": "pby_group",
+          "class_name": "",
+          "items": [
+            {
+              "type": "single",
+              "title": "PBY-5 Catalina",
+              "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/pby-5.png",
+              "br": "1.3",
+              "rp": "4,000",
+              "sp": "2,100",
+              "data_unit_id": "pby-5",
+              "selected": false,
+              "class_name": "",
+              "details": true,
+              "main_role": "Bomber"
+            },
+            {
+              "type": "single",
+              "title": "PBY-5A Catalina",
+              "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/pby-5a.png",
+              "br": "1.7",
+              "rp": "3,000",
+              "sp": "6,300",
+              "data_unit_id": "pby-5a",
+              "selected": false,
+              "class_name": "",
+              "details": true,
+              "main_role": "Bomber"
+            }
+          ],
+          "details": true
+        },
+        {
+          "type": "single",
+          "title": "PBM-1 \"Mariner\"",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/pbm_1.png",
+          "br": "2.0",
+          "rp": "5,900",
+          "sp": "6,300",
+          "data_unit_id": "pbm_1",
+          "selected": false,
+          "class_name": "",
+          "details": true,
+          "main_role": "Bomber"
+        }
+      ]
+    ],
+    "premium_vehicles": [
+      [
+        {
+          "type": "single",
+          "title": "Galer's F3F-2",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/f3f-2_galer.png",
+          "br": "1.3",
+          "rp": 0,
+          "sp": 0,
+          "data_unit_id": "f3f-2_galer",
+          "selected": false,
+          "class_name": "prem",
+          "details": true,
+          "main_role": "Fighter"
+        },
+        {
+          "type": "single",
+          "title": "○P-36C",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/p-36c_rb.png",
+          "br": "1.7",
+          "rp": null,
+          "sp": null,
+          "data_unit_id": "p-36c_rb",
+          "selected": false,
+          "class_name": "",
+          "details": true,
+          "main_role": "Fighter"
+        },
+        {
+          "type": "single",
+          "title": "Thach's F2A-1",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/f2a-1_thach.png",
+          "br": "2.0",
+          "rp": 0,
+          "sp": 0,
+          "data_unit_id": "f2a-1_thach",
+          "selected": false,
+          "class_name": "prem",
+          "details": true,
+          "main_role": "Fighter"
+        }
+      ],
+      [
+        {
+          "type": "single",
+          "title": "P-26A-34",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/p-26a_34.png",
+          "br": "1.0",
+          "rp": 0,
+          "sp": 0,
+          "data_unit_id": "p-26a_34",
+          "selected": false,
+          "class_name": "prem",
+          "details": true,
+          "main_role": "Fighter"
+        },
+        {
+          "type": "single",
+          "title": "Rasmussen's P-36A",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/p-36a_rasmussen.png",
+          "br": "1.3",
+          "rp": 0,
+          "sp": 0,
+          "data_unit_id": "p-36a_rasmussen",
+          "selected": false,
+          "class_name": "prem",
+          "details": true,
+          "main_role": "Fighter"
+        },
+        {
+          "type": "single",
+          "title": "B-10B",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/b_10b.png",
+          "br": "1.3",
+          "rp": 0,
+          "sp": 0,
+          "data_unit_id": "b_10b",
+          "selected": false,
+          "class_name": "prem",
+          "details": true,
+          "main_role": "Bomber"
+        }
+      ]
+    ],
+    "selected": [],
+    "unlock_quantity": 0
+  },
+  {
+    "rank": "II",
+    "researchable_vehicles": [
+      [
+        {
+          "type": "single",
+          "title": "P-400",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/p-400.png",
+          "br": "2.0",
+          "rp": "7,900",
+          "sp": "10,000",
+          "data_unit_id": "p-400",
+          "selected": false,
+          "class_name": "",
+          "details": true,
+          "main_role": "Fighter"
+        },
+        {
+          "type": "multiple",
+          "title": "P-38 (e)",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/p-38_group.png",
+          "selected": false,
+          "br": "3.0-3.3",
+          "data_unit_id": "p-38_group",
+          "class_name": "",
+          "items": [
+            {
+              "type": "single",
+              "title": "P-38E",
+              "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/p-38e.png",
+              "br": "3.0",
+              "rp": "9,200",
+              "sp": "16,000",
+              "data_unit_id": "p-38e",
+              "selected": false,
+              "class_name": "",
+              "details": true,
+              "main_role": "Fighter"
+            },
+            {
+              "type": "single",
+              "title": "P-38G-1",
+              "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/p-38g.png",
+              "br": "3.3",
+              "rp": "5,600",
+              "sp": "22,000",
+              "data_unit_id": "p-38g",
+              "selected": false,
+              "class_name": "",
+              "details": true,
+              "main_role": "Fighter"
+            }
+          ],
+          "details": true
+        },
+        {
+          "type": "multiple",
+          "title": "P-39",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/p-39_group.png",
+          "selected": false,
+          "br": "2.7",
+          "data_unit_id": "p-39_group",
+          "class_name": "",
+          "items": [
+            {
+              "type": "single",
+              "title": "P-39N-0",
+              "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/p-39n.png",
+              "br": "2.7",
+              "rp": "11,000",
+              "sp": "22,000",
+              "data_unit_id": "p-39n",
+              "selected": false,
+              "class_name": "",
+              "details": true,
+              "main_role": "Fighter"
+            },
+            {
+              "type": "single",
+              "title": "P-39Q-5",
+              "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/p-39q_5.png",
+              "br": "2.7",
+              "rp": "6,900",
+              "sp": "32,000",
+              "data_unit_id": "p-39q_5",
+              "selected": false,
+              "class_name": "",
+              "details": true,
+              "main_role": "Fighter"
+            }
+          ],
+          "details": true
+        }
+      ],
+      [
+        {
+          "type": "single",
+          "title": "P-36G",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/p-36g.png",
+          "br": "2.7",
+          "rp": "7,900",
+          "sp": "10,000",
+          "data_unit_id": "p-36g",
+          "selected": false,
+          "class_name": "",
+          "details": true,
+          "main_role": "Fighter"
+        },
+        {
+          "type": "multiple",
+          "title": "P-40",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/p-40_group.png",
+          "selected": false,
+          "br": "2.7",
+          "data_unit_id": "p-40_group",
+          "class_name": "",
+          "items": [
+            {
+              "type": "single",
+              "title": "P-40E-1",
+              "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/p-40e.png",
+              "br": "2.7",
+              "rp": "9,200",
+              "sp": "16,000",
+              "data_unit_id": "p-40e",
+              "selected": false,
+              "class_name": "",
+              "details": true,
+              "main_role": "Fighter"
+            },
+            {
+              "type": "single",
+              "title": "P-40F-10",
+              "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/p-40f_10.png",
+              "br": "2.7",
+              "rp": "5,600",
+              "sp": "22,000",
+              "data_unit_id": "p-40f_10",
+              "selected": false,
+              "class_name": "",
+              "details": true,
+              "main_role": "Fighter"
+            }
+          ],
+          "details": true
+        },
+        {
+          "type": "single",
+          "title": "P-51C-10",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/p-51c-10-nt.png",
+          "br": "3.7",
+          "rp": "11,000",
+          "sp": "22,000",
+          "data_unit_id": "p-51c-10-nt",
+          "selected": false,
+          "class_name": "",
+          "details": true,
+          "main_role": "Fighter"
+        }
+      ],
+      [
+        {
+          "type": "single",
+          "title": "F2A-3",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/f2a-3.png",
+          "br": "2.3",
+          "rp": "7,900",
+          "sp": "10,000",
+          "data_unit_id": "f2a-3",
+          "selected": false,
+          "class_name": "",
+          "details": true,
+          "main_role": "Fighter"
+        },
+        {
+          "type": "multiple",
+          "title": "F4F/F6F",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/f4f_group.png",
+          "selected": false,
+          "br": "2.3-3.3",
+          "data_unit_id": "f4f_group",
+          "class_name": "",
+          "items": [
+            {
+              "type": "single",
+              "title": "F4F-3",
+              "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/f4f-3.png",
+              "br": "2.3",
+              "rp": "9,200",
+              "sp": "16,000",
+              "data_unit_id": "f4f-3",
+              "selected": false,
+              "class_name": "",
+              "details": true,
+              "main_role": "Fighter"
+            },
+            {
+              "type": "single",
+              "title": "F4F-4",
+              "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/f4f-4.png",
+              "br": "3.0",
+              "rp": "5,600",
+              "sp": "22,000",
+              "data_unit_id": "f4f-4",
+              "selected": false,
+              "class_name": "",
+              "details": true,
+              "main_role": "Fighter"
+            },
+            {
+              "type": "single",
+              "title": "F6F-5",
+              "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/f6f-3.png",
+              "br": "3.3",
+              "rp": "6,900",
+              "sp": "32,000",
+              "data_unit_id": "f6f-3",
+              "selected": false,
+              "class_name": "",
+              "details": true,
+              "main_role": "Fighter"
+            }
+          ],
+          "details": true
+        },
+        {
+          "type": "multiple",
+          "title": "F4U",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/f4u_group.png",
+          "selected": false,
+          "br": "2.7-3.0",
+          "data_unit_id": "f4u_group",
+          "class_name": "",
+          "items": [
+            {
+              "type": "single",
+              "title": "F4U-1A",
+              "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/f4u-1a.png",
+              "br": "2.7",
+              "rp": "11,000",
+              "sp": "22,000",
+              "data_unit_id": "f4u-1a",
+              "selected": false,
+              "class_name": "",
+              "details": true,
+              "main_role": "Fighter"
+            },
+            {
+              "type": "single",
+              "title": "F4U-1A (USMC)",
+              "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/f4u-1a_usmc.png",
+              "br": "3.0",
+              "rp": "6,900",
+              "sp": "32,000",
+              "data_unit_id": "f4u-1a_usmc",
+              "selected": false,
+              "class_name": "",
+              "details": true,
+              "main_role": "Fighter"
+            },
+            {
+              "type": "single",
+              "title": "F4U-1D",
+              "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/f4u-1d.png",
+              "br": "3.0",
+              "rp": "9,200",
+              "sp": "47,000",
+              "data_unit_id": "f4u-1d",
+              "selected": false,
+              "class_name": "",
+              "details": true,
+              "main_role": "Fighter"
+            }
+          ],
+          "details": true
+        }
+      ],
+      [
+        {
+          "type": "single",
+          "title": "A-36",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/p-51_a-36.png",
+          "br": "2.7",
+          "rp": "7,900",
+          "sp": "10,000",
+          "data_unit_id": "p-51_a-36",
+          "selected": false,
+          "class_name": "",
+          "details": true,
+          "main_role": "Strike aircraft"
+        },
+        {
+          "type": "single",
+          "title": "A-20G-25",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/a-20g.png",
+          "br": "2.7",
+          "rp": "9,200",
+          "sp": "16,000",
+          "data_unit_id": "a-20g",
+          "selected": false,
+          "class_name": "",
+          "details": true,
+          "main_role": "Strike aircraft"
+        },
+        {
+          "type": "multiple",
+          "title": "SB2C",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/sb2c_group.png",
+          "selected": false,
+          "br": "3.0-3.7",
+          "data_unit_id": "sb2c_group",
+          "class_name": "",
+          "items": [
+            {
+              "type": "single",
+              "title": "SB2C-1C",
+              "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/sb2c_1c.png",
+              "br": "3.0",
+              "rp": "11,000",
+              "sp": "22,000",
+              "data_unit_id": "sb2c_1c",
+              "selected": false,
+              "class_name": "",
+              "details": true,
+              "main_role": "Bomber"
+            },
+            {
+              "type": "single",
+              "title": "SB2C-4",
+              "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/sb2c_4.png",
+              "br": "3.7",
+              "rp": "6,900",
+              "sp": "32,000",
+              "data_unit_id": "sb2c_4",
+              "selected": false,
+              "class_name": "",
+              "details": true,
+              "main_role": "Bomber"
+            }
+          ],
+          "details": true
+        }
+      ],
+      [
+        {
+          "type": "single",
+          "title": "B-34",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/b_34.png",
+          "br": "3.3",
+          "rp": "7,900",
+          "sp": "10,000",
+          "data_unit_id": "b_34",
+          "selected": false,
+          "class_name": "",
+          "details": true,
+          "main_role": "Bomber"
+        },
+        {
+          "type": "single",
+          "title": "B-25J-1",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/b_25j_1.png",
+          "br": "3.7",
+          "rp": "9,200",
+          "sp": "16,000",
+          "data_unit_id": "b_25j_1",
+          "selected": false,
+          "class_name": "",
+          "details": true,
+          "main_role": "Bomber"
+        },
+        {
+          "type": "single",
+          "title": "B-25J-20",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/b_25j_20.png",
+          "br": "3.7",
+          "rp": "11,000",
+          "sp": "22,000",
+          "data_unit_id": "b_25j_20",
+          "selected": false,
+          "class_name": "",
+          "details": true,
+          "main_role": "Bomber"
+        }
+      ]
+    ],
+    "premium_vehicles": [
+      [
+        {
+          "type": "single",
+          "title": "P-40E-1 TD",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/p-40e_td.png",
+          "br": "2.7",
+          "rp": null,
+          "sp": null,
+          "data_unit_id": "p-40e_td",
+          "selected": false,
+          "class_name": "",
+          "details": true,
+          "main_role": "Fighter"
+        },
+        {
+          "type": "single",
+          "title": "▃Ki-43-II",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/ki_43_2_late.png",
+          "br": "2.7",
+          "rp": 0,
+          "sp": 0,
+          "data_unit_id": "ki_43_2_late",
+          "selected": false,
+          "class_name": "prem",
+          "details": true,
+          "main_role": "Fighter"
+        },
+        {
+          "type": "single",
+          "title": "P-51A",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/p-51a_tl.png",
+          "br": "3.0",
+          "rp": 0,
+          "sp": 0,
+          "data_unit_id": "p-51a_tl",
+          "selected": false,
+          "class_name": "prem",
+          "details": true,
+          "main_role": "Fighter"
+        },
+        {
+          "type": "single",
+          "title": "XP-38G",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/p-38g_metal.png",
+          "br": "3.3",
+          "rp": 0,
+          "sp": 0,
+          "data_unit_id": "p-38g_metal",
+          "selected": false,
+          "class_name": "prem",
+          "details": true,
+          "main_role": "Fighter"
+        },
+        {
+          "type": "single",
+          "title": "▃Ki-61-Ib",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/ki_61_1a_otsu_usa.png",
+          "br": "3.7",
+          "rp": 0,
+          "sp": 0,
+          "data_unit_id": "ki_61_1a_otsu_usa",
+          "selected": false,
+          "class_name": "prem",
+          "details": true,
+          "main_role": "Fighter"
+        }
+      ],
+      [
+        {
+          "type": "single",
+          "title": "P-40C",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/p-40c.png",
+          "br": "2.3",
+          "rp": 0,
+          "sp": 0,
+          "data_unit_id": "p-40c",
+          "selected": false,
+          "class_name": "prem",
+          "details": true,
+          "main_role": "Fighter"
+        },
+        {
+          "type": "single",
+          "title": "YP-38",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/yp-38.png",
+          "br": "3.0",
+          "rp": 0,
+          "sp": 0,
+          "data_unit_id": "yp-38",
+          "selected": false,
+          "class_name": "prem",
+          "details": true,
+          "main_role": "Fighter"
+        },
+        {
+          "type": "single",
+          "title": "P-43A-1",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/p-43a-1.png",
+          "br": "2.7",
+          "rp": 0,
+          "sp": 0,
+          "data_unit_id": "p-43a-1",
+          "selected": false,
+          "class_name": "prem",
+          "details": true,
+          "main_role": "Fighter"
+        },
+        {
+          "type": "single",
+          "title": "PBM-3 \"Mariner\"",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/pbm_3.png",
+          "br": "3.0",
+          "rp": 0,
+          "sp": 0,
+          "data_unit_id": "pbm_3",
+          "selected": false,
+          "class_name": "prem",
+          "details": true,
+          "main_role": "Bomber"
+        }
+      ]
+    ],
+    "selected": [],
+    "unlock_quantity": 0
+  },
+  {
+    "rank": "III",
+    "researchable_vehicles": [
+      [
+        {
+          "type": "single",
+          "title": "P-63A-5",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/p-63a-5.png",
+          "br": "3.3",
+          "rp": "18,000",
+          "sp": "47,000",
+          "data_unit_id": "p-63a-5",
+          "selected": false,
+          "class_name": "",
+          "details": true,
+          "main_role": "Fighter"
+        },
+        {
+          "type": "multiple",
+          "title": "P-63",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/p-63_group.png",
+          "selected": false,
+          "br": "4.0",
+          "data_unit_id": "p-63_group",
+          "class_name": "",
+          "items": [
+            {
+              "type": "single",
+              "title": "P-63A-10",
+              "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/p-63a-10.png",
+              "br": "4.0",
+              "rp": "33,000",
+              "sp": "105,000",
+              "data_unit_id": "p-63a-10",
+              "selected": false,
+              "class_name": "",
+              "details": true,
+              "main_role": "Fighter"
+            },
+            {
+              "type": "single",
+              "title": "P-63C-5",
+              "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/p-63c-5.png",
+              "br": "4.0",
+              "rp": "20,000",
+              "sp": "135,000",
+              "data_unit_id": "p-63c-5",
+              "selected": false,
+              "class_name": "",
+              "details": true,
+              "main_role": "Fighter"
+            }
+          ],
+          "details": true
+        },
+        {
+          "type": "multiple",
+          "title": "P-38 (l)",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/p-38_late_group.png",
+          "selected": false,
+          "br": "4.3-4.7",
+          "data_unit_id": "p-38_late_group",
+          "class_name": "",
+          "items": [
+            {
+              "type": "single",
+              "title": "P-38J-15",
+              "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/p-38j.png",
+              "br": "4.3",
+              "rp": "46,000",
+              "sp": "155,000",
+              "data_unit_id": "p-38j",
+              "selected": false,
+              "class_name": "",
+              "details": true,
+              "main_role": "Fighter"
+            },
+            {
+              "type": "single",
+              "title": "P-38L-5-LO",
+              "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/p-38l.png",
+              "br": "4.7",
+              "rp": "27,000",
+              "sp": "185,000",
+              "data_unit_id": "p-38l",
+              "selected": false,
+              "class_name": "",
+              "details": true,
+              "main_role": "Fighter"
+            }
+          ],
+          "details": true
+        }
+      ],
+      [
+        {
+          "type": "multiple",
+          "title": "P-51 early",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/p-51_early_group.png",
+          "selected": false,
+          "br": "3.7-4.0",
+          "data_unit_id": "p-51_early_group",
+          "class_name": "",
+          "items": [
+            {
+              "type": "single",
+              "title": "P-51",
+              "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/p-51_mk1a_usaaf.png",
+              "br": "3.7",
+              "rp": "18,000",
+              "sp": "47,000",
+              "data_unit_id": "p-51_mk1a_usaaf",
+              "selected": false,
+              "class_name": "",
+              "details": true,
+              "main_role": "Fighter"
+            },
+            {
+              "type": "single",
+              "title": "P-51D-5",
+              "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/p-51d-5.png",
+              "br": "4.0",
+              "rp": "13,000",
+              "sp": "76,000",
+              "data_unit_id": "p-51d-5",
+              "selected": false,
+              "class_name": "",
+              "details": true,
+              "main_role": "Fighter"
+            }
+          ],
+          "details": true
+        },
+        {
+          "type": "multiple",
+          "title": "P-47 early",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/p-47_ealy_group.png",
+          "selected": false,
+          "br": "3.7-4.3",
+          "data_unit_id": "p-47_ealy_group",
+          "class_name": "",
+          "items": [
+            {
+              "type": "single",
+              "title": "P-47D-22-RE",
+              "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/p-47d_22_re.png",
+              "br": "3.7",
+              "rp": "26,000",
+              "sp": "76,000",
+              "data_unit_id": "p-47d_22_re",
+              "selected": false,
+              "class_name": "",
+              "details": true,
+              "main_role": "Fighter"
+            },
+            {
+              "type": "single",
+              "title": "P-47D-25",
+              "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/p-47d.png",
+              "br": "4.3",
+              "rp": "17,000",
+              "sp": "105,000",
+              "data_unit_id": "p-47d",
+              "selected": false,
+              "class_name": "",
+              "details": true,
+              "main_role": "Fighter"
+            }
+          ],
+          "details": true
+        },
+        {
+          "type": "multiple",
+          "title": "P-47",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/p-47_group.png",
+          "selected": false,
+          "br": "4.7",
+          "data_unit_id": "p-47_group",
+          "class_name": "",
+          "items": [
+            {
+              "type": "single",
+              "title": "P-47D-28",
+              "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/p-47d-28.png",
+              "br": "4.7",
+              "rp": "33,000",
+              "sp": "105,000",
+              "data_unit_id": "p-47d-28",
+              "selected": false,
+              "class_name": "",
+              "details": true,
+              "main_role": "Fighter"
+            },
+            {
+              "type": "single",
+              "title": "P-47N-15",
+              "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/p-47n-15.png",
+              "br": "4.7",
+              "rp": "20,000",
+              "sp": "135,000",
+              "data_unit_id": "p-47n-15",
+              "selected": false,
+              "class_name": "",
+              "details": true,
+              "main_role": "Fighter"
+            }
+          ],
+          "details": true
+        }
+      ],
+      [
+        {
+          "type": "single",
+          "title": "F4U-4",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/f4u-4.png",
+          "br": "4.3",
+          "rp": "18,000",
+          "sp": "47,000",
+          "data_unit_id": "f4u-4",
+          "selected": false,
+          "class_name": "",
+          "details": true,
+          "main_role": "Fighter"
+        },
+        {
+          "type": "single",
+          "title": "F8F-1",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/f8f1.png",
+          "br": "4.7",
+          "rp": "26,000",
+          "sp": "76,000",
+          "data_unit_id": "f8f1",
+          "selected": false,
+          "class_name": "",
+          "details": true,
+          "main_role": "Fighter"
+        },
+        {
+          "type": "single",
+          "title": "F6F-5N",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/f6f-5n.png",
+          "br": "4.3",
+          "rp": "33,000",
+          "sp": "105,000",
+          "data_unit_id": "f6f-5n",
+          "selected": false,
+          "class_name": "",
+          "details": true,
+          "main_role": "Fighter"
+        }
+      ],
+      [
+        {
+          "type": "multiple",
+          "title": "PBJ",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/pbj_group.png",
+          "selected": false,
+          "br": "3.7",
+          "data_unit_id": "pbj_group",
+          "class_name": "",
+          "items": [
+            {
+              "type": "single",
+              "title": "PBJ-1J",
+              "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/pbj_1j.png",
+              "br": "3.7",
+              "rp": "18,000",
+              "sp": "47,000",
+              "data_unit_id": "pbj_1j",
+              "selected": false,
+              "class_name": "",
+              "details": true,
+              "main_role": "Strike aircraft"
+            },
+            {
+              "type": "single",
+              "title": "PBJ-1H",
+              "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/pbj_1h.png",
+              "br": "3.7",
+              "rp": "13,000",
+              "sp": "76,000",
+              "data_unit_id": "pbj_1h",
+              "selected": false,
+              "class_name": "",
+              "details": true,
+              "main_role": "Strike aircraft"
+            }
+          ],
+          "details": true
+        },
+        {
+          "type": "single",
+          "title": "P-61C-1",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/p-61c_1.png",
+          "br": "4.0",
+          "rp": "26,000",
+          "sp": "76,000",
+          "data_unit_id": "p-61c_1",
+          "selected": false,
+          "class_name": "",
+          "details": true,
+          "main_role": "Fighter"
+        }
+      ],
+      [
+        {
+          "type": "single",
+          "title": "B-26B",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/b_26b_c.png",
+          "br": "4.3",
+          "rp": "18,000",
+          "sp": "47,000",
+          "data_unit_id": "b_26b_c",
+          "selected": false,
+          "class_name": "",
+          "details": true,
+          "main_role": "Bomber"
+        },
+        {
+          "type": "multiple",
+          "title": "B-17",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/b-17_group.png",
+          "selected": false,
+          "br": "4.7-5.0",
+          "data_unit_id": "b-17_group",
+          "class_name": "",
+          "items": [
+            {
+              "type": "single",
+              "title": "B-17E",
+              "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/b-17e.png",
+              "br": "4.7",
+              "rp": "26,000",
+              "sp": "76,000",
+              "data_unit_id": "b-17e",
+              "selected": false,
+              "class_name": "",
+              "details": true,
+              "main_role": "Bomber"
+            },
+            {
+              "type": "single",
+              "title": "B-17E/L",
+              "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/b-17e_late.png",
+              "br": "5.0",
+              "rp": "17,000",
+              "sp": "105,000",
+              "data_unit_id": "b-17e_late",
+              "selected": false,
+              "class_name": "",
+              "details": true,
+              "main_role": "Bomber"
+            }
+          ],
+          "details": true
+        },
+        {
+          "type": "single",
+          "title": "PB4Y-2",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/pb4y-2.png",
+          "br": "4.7",
+          "rp": "40,000",
+          "sp": "135,000",
+          "data_unit_id": "pb4y-2",
+          "selected": false,
+          "class_name": "",
+          "details": true,
+          "main_role": "Bomber"
+        }
+      ]
+    ],
+    "premium_vehicles": [
+      [
+        {
+          "type": "single",
+          "title": "▃A6M2",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/a6m2_zero_usa.png",
+          "br": "3.7",
+          "rp": 0,
+          "sp": 0,
+          "data_unit_id": "a6m2_zero_usa",
+          "selected": false,
+          "class_name": "prem",
+          "details": true,
+          "main_role": "Fighter"
+        },
+        {
+          "type": "single",
+          "title": "BTD-1",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/btd-1.png",
+          "br": "4.0",
+          "rp": 0,
+          "sp": 0,
+          "data_unit_id": "btd-1",
+          "selected": false,
+          "class_name": "prem",
+          "details": true,
+          "main_role": "Bomber"
+        },
+        {
+          "type": "single",
+          "title": "XP-55",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/xp-55.png",
+          "br": "4.3",
+          "rp": 0,
+          "sp": 0,
+          "data_unit_id": "xp-55",
+          "selected": false,
+          "class_name": "prem",
+          "details": true,
+          "main_role": "Fighter"
+        },
+        {
+          "type": "single",
+          "title": "XP-50",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/xp-50.png",
+          "br": "4.0",
+          "rp": 0,
+          "sp": 0,
+          "data_unit_id": "xp-50",
+          "selected": false,
+          "class_name": "prem",
+          "details": true,
+          "main_role": "Fighter"
+        },
+        {
+          "type": "single",
+          "title": "▃Bf 109 F-4",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/bf-109f-4_usa.png",
+          "br": "4.0",
+          "rp": 0,
+          "sp": 0,
+          "data_unit_id": "bf-109f-4_usa",
+          "selected": false,
+          "class_name": "prem",
+          "details": true,
+          "main_role": "Fighter"
+        },
+        {
+          "type": "single",
+          "title": "FR-1 Fireball",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/fr_1_fireball.png",
+          "br": "4.3",
+          "rp": 0,
+          "sp": 0,
+          "data_unit_id": "fr_1_fireball",
+          "selected": false,
+          "class_name": "prem",
+          "details": true,
+          "main_role": "Fighter"
+        }
+      ],
+      [
+        {
+          "type": "single",
+          "title": "XF5F",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/xf5f.png",
+          "br": "2.3",
+          "rp": 0,
+          "sp": 0,
+          "data_unit_id": "xf5f",
+          "selected": false,
+          "class_name": "prem",
+          "details": true,
+          "main_role": "Fighter"
+        },
+        {
+          "type": "single",
+          "title": "PBM-5A \"Mariner\"",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/pbm_5a.png",
+          "br": "3.3",
+          "rp": 0,
+          "sp": 0,
+          "data_unit_id": "pbm_5a",
+          "selected": false,
+          "class_name": "prem",
+          "details": true,
+          "main_role": "Bomber"
+        },
+        {
+          "type": "single",
+          "title": "P-61A-11",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/p-61a_1.png",
+          "br": "3.7",
+          "rp": 0,
+          "sp": 0,
+          "data_unit_id": "p-61a_1",
+          "selected": false,
+          "class_name": "prem",
+          "details": true,
+          "main_role": "Fighter"
+        },
+        {
+          "type": "single",
+          "title": "PV-2D",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/pv_2d.png",
+          "br": "3.7",
+          "rp": 0,
+          "sp": 0,
+          "data_unit_id": "pv_2d",
+          "selected": false,
+          "class_name": "prem",
+          "details": true,
+          "main_role": "Bomber"
+        },
+        {
+          "type": "single",
+          "title": "␠Kingcobra",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/p-63c-5_kingcobra_animal_version.png",
+          "br": "4.0",
+          "rp": 0,
+          "sp": 0,
+          "data_unit_id": "p-63c-5_kingcobra_animal_version",
+          "selected": false,
+          "class_name": "prem",
+          "details": true,
+          "main_role": "Fighter"
+        }
+      ]
+    ],
+    "selected": [],
+    "unlock_quantity": 0
+  },
+  {
+    "rank": "IV",
+    "researchable_vehicles": [
+      [
+        {
+          "type": "single",
+          "title": "F-82E",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/f-82e.png",
+          "br": "5.3",
+          "rp": "71,000",
+          "sp": "210,000",
+          "data_unit_id": "f-82e",
+          "selected": false,
+          "class_name": "",
+          "details": true,
+          "main_role": "Fighter"
+        }
+      ],
+      [
+        {
+          "type": "single",
+          "title": "P-51D-30",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/p-51d-30_usaaf_korea.png",
+          "br": "5.0",
+          "rp": "46,000",
+          "sp": "155,000",
+          "data_unit_id": "p-51d-30_usaaf_korea",
+          "selected": false,
+          "class_name": "",
+          "details": true,
+          "main_role": "Fighter"
+        },
+        {
+          "type": "single",
+          "title": "P-51H-5-NA",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/p-51h-5_na.png",
+          "br": "6.3",
+          "rp": "54,000",
+          "sp": "185,000",
+          "data_unit_id": "p-51h-5_na",
+          "selected": false,
+          "class_name": "",
+          "details": true,
+          "main_role": "Fighter"
+        }
+      ],
+      [
+        {
+          "type": "multiple",
+          "title": "F4U late",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/f4u_late_group.png",
+          "selected": false,
+          "br": "4.7-5.7",
+          "data_unit_id": "f4u_late_group",
+          "class_name": "",
+          "items": [
+            {
+              "type": "single",
+              "title": "F4U-1C",
+              "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/f4u-1c.png",
+              "br": "4.7",
+              "rp": "46,000",
+              "sp": "155,000",
+              "data_unit_id": "f4u-1c",
+              "selected": false,
+              "class_name": "",
+              "details": true,
+              "main_role": "Fighter"
+            },
+            {
+              "type": "single",
+              "title": "F4U-4B",
+              "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/f4u-4b.png",
+              "br": "5.7",
+              "rp": "27,000",
+              "sp": "185,000",
+              "data_unit_id": "f4u-4b",
+              "selected": false,
+              "class_name": "",
+              "details": true,
+              "main_role": "Fighter"
+            }
+          ],
+          "details": true
+        },
+        {
+          "type": "multiple",
+          "title": "F8F/F7F",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/f8f1_group.png",
+          "selected": false,
+          "br": "6.3",
+          "data_unit_id": "f8f1_group",
+          "class_name": "",
+          "items": [
+            {
+              "type": "single",
+              "title": "F8F-1B",
+              "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/f8f1b.png",
+              "br": "6.3",
+              "rp": "54,000",
+              "sp": "185,000",
+              "data_unit_id": "f8f1b",
+              "selected": false,
+              "class_name": "",
+              "details": true,
+              "main_role": "Fighter"
+            },
+            {
+              "type": "single",
+              "title": "F7F-1",
+              "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/f7f1.png",
+              "br": "6.3",
+              "rp": "31,000",
+              "sp": "200,000",
+              "data_unit_id": "f7f1",
+              "selected": false,
+              "class_name": "",
+              "details": true,
+              "main_role": "Fighter"
+            }
+          ],
+          "details": true
+        }
+      ],
+      [
+        {
+          "type": "multiple",
+          "title": "A-26B",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/a-26_group.png",
+          "selected": false,
+          "br": "5.0-5.3",
+          "data_unit_id": "a-26b_group",
+          "class_name": "",
+          "items": [
+            {
+              "type": "single",
+              "title": "A-26B-10",
+              "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/a-26b_10.png",
+              "br": "5.0",
+              "rp": "46,000",
+              "sp": "155,000",
+              "data_unit_id": "a-26b_10",
+              "selected": false,
+              "class_name": "",
+              "details": true,
+              "main_role": "Strike aircraft"
+            },
+            {
+              "type": "single",
+              "title": "A-26B-50",
+              "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/a-26b.png",
+              "br": "5.3",
+              "rp": "27,000",
+              "sp": "185,000",
+              "data_unit_id": "a-26b",
+              "selected": false,
+              "class_name": "",
+              "details": true,
+              "main_role": "Strike aircraft"
+            }
+          ],
+          "details": true
+        },
+        {
+          "type": "multiple",
+          "title": "AD/AM-1",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/douglas_ad_group.png",
+          "selected": false,
+          "br": "5.7-6.0",
+          "data_unit_id": "douglas_ad_group",
+          "class_name": "",
+          "items": [
+            {
+              "type": "single",
+              "title": "AD-2",
+              "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/douglas_ad_2.png",
+              "br": "5.7",
+              "rp": "54,000",
+              "sp": "185,000",
+              "data_unit_id": "douglas_ad_2",
+              "selected": false,
+              "class_name": "",
+              "details": true,
+              "main_role": "Strike aircraft"
+            },
+            {
+              "type": "single",
+              "title": "AD-4",
+              "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/douglas_ad_4.png",
+              "br": "6.0",
+              "rp": "31,000",
+              "sp": "200,000",
+              "data_unit_id": "douglas_ad_4",
+              "selected": false,
+              "class_name": "",
+              "details": true,
+              "main_role": "Strike aircraft"
+            },
+            {
+              "type": "single",
+              "title": "AM-1",
+              "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/am_1_mauler.png",
+              "br": "5.7",
+              "rp": "35,000",
+              "sp": "210,000",
+              "data_unit_id": "am_1_mauler",
+              "selected": false,
+              "class_name": "",
+              "details": true,
+              "main_role": "Strike aircraft"
+            }
+          ],
+          "details": true
+        }
+      ],
+      [
+        {
+          "type": "multiple",
+          "title": "B-17/B-24",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/b-17_late_group.png",
+          "selected": false,
+          "br": "5.0-5.7",
+          "data_unit_id": "b-17_late_group",
+          "class_name": "",
+          "items": [
+            {
+              "type": "single",
+              "title": "B-17G-60-VE",
+              "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/b-17g.png",
+              "br": "5.0",
+              "rp": "46,000",
+              "sp": "155,000",
+              "data_unit_id": "b-17g",
+              "selected": false,
+              "class_name": "",
+              "details": true,
+              "main_role": "Bomber"
+            },
+            {
+              "type": "single",
+              "title": "B-24D-25-CO",
+              "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/b_24d.png",
+              "br": "5.7",
+              "rp": "27,000",
+              "sp": "185,000",
+              "data_unit_id": "b_24d",
+              "selected": false,
+              "class_name": "",
+              "details": true,
+              "main_role": "Bomber"
+            }
+          ],
+          "details": true
+        },
+        {
+          "type": "single",
+          "title": "B-29A-BN",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/b-29.png",
+          "br": "7.0",
+          "rp": "63,000",
+          "sp": "200,000",
+          "data_unit_id": "b-29",
+          "selected": false,
+          "class_name": "",
+          "details": true,
+          "main_role": "Bomber"
+        }
+      ]
+    ],
+    "premium_vehicles": [
+      [
+        {
+          "type": "single",
+          "title": "XA-38",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/xa_38.png",
+          "br": "3.7",
+          "rp": 0,
+          "sp": 0,
+          "data_unit_id": "xa_38",
+          "selected": false,
+          "class_name": "prem",
+          "details": true,
+          "main_role": "Strike aircraft"
+        },
+        {
+          "type": "single",
+          "title": "P-51D-20-NA",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/p-51d-20-na.png",
+          "br": "4.0",
+          "rp": 0,
+          "sp": 0,
+          "data_unit_id": "p-51d-20-na",
+          "selected": false,
+          "class_name": "prem",
+          "details": true,
+          "main_role": "Fighter"
+        },
+        {
+          "type": "single",
+          "title": "P-51D-10",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/p-51d-10.png",
+          "br": "4.3",
+          "rp": 0,
+          "sp": 0,
+          "data_unit_id": "p-51d-10",
+          "selected": false,
+          "class_name": "prem",
+          "details": true,
+          "main_role": "Fighter"
+        },
+        {
+          "type": "single",
+          "title": "P-47M-1-RE",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/p-47m-1-re.png",
+          "br": "5.7",
+          "rp": 0,
+          "sp": 0,
+          "data_unit_id": "p-47m-1-re",
+          "selected": false,
+          "class_name": "prem",
+          "details": true,
+          "main_role": "Fighter"
+        },
+        {
+          "type": "single",
+          "title": "⋠P-47M-1-RE",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/p-47m-1-re_boxted.png",
+          "br": "5.7",
+          "rp": 0,
+          "sp": 0,
+          "data_unit_id": "p-47m-1-re_boxted",
+          "selected": false,
+          "class_name": "prem",
+          "details": true,
+          "main_role": "Fighter"
+        },
+        {
+          "type": "single",
+          "title": "▃Fw 190 A-8",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/fw-190a-8_usa.png",
+          "br": "5.0",
+          "rp": 0,
+          "sp": 0,
+          "data_unit_id": "fw-190a-8_usa",
+          "selected": false,
+          "class_name": "prem",
+          "details": true,
+          "main_role": "Fighter"
+        },
+        {
+          "type": "single",
+          "title": "▃Spitfire LF Mk IXc",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/spitfire_ix_usa.png",
+          "br": "5.7",
+          "rp": 0,
+          "sp": 0,
+          "data_unit_id": "spitfire_ix_usa",
+          "selected": false,
+          "class_name": "prem",
+          "details": true,
+          "main_role": "Fighter"
+        },
+        {
+          "type": "single",
+          "title": "A-1H",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/douglas_a_1h.png",
+          "br": "6.3",
+          "rp": 0,
+          "sp": 0,
+          "data_unit_id": "douglas_a_1h",
+          "selected": false,
+          "class_name": "prem",
+          "details": true,
+          "main_role": "Strike aircraft"
+        }
+      ],
+      [
+        {
+          "type": "single",
+          "title": "Bong's P-38J-15",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/p-38j_marge.png",
+          "br": "4.3",
+          "rp": 0,
+          "sp": 0,
+          "data_unit_id": "p-38j_marge",
+          "selected": false,
+          "class_name": "prem",
+          "details": true,
+          "main_role": "Fighter"
+        },
+        {
+          "type": "single",
+          "title": "P-38K",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/p-38k.png",
+          "br": "5.3",
+          "rp": 0,
+          "sp": 0,
+          "data_unit_id": "p-38k",
+          "selected": false,
+          "class_name": "prem",
+          "details": true,
+          "main_role": "Fighter"
+        },
+        {
+          "type": "single",
+          "title": "A-26C-45",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/a-26c.png",
+          "br": "5.3",
+          "rp": null,
+          "sp": null,
+          "data_unit_id": "a-26c",
+          "selected": false,
+          "class_name": "",
+          "details": true,
+          "main_role": "Bomber"
+        },
+        {
+          "type": "single",
+          "title": "A-26C-45DT",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/a-26c-45-dt.png",
+          "br": "5.3",
+          "rp": 0,
+          "sp": 0,
+          "data_unit_id": "a-26c-45-dt",
+          "selected": false,
+          "class_name": "prem",
+          "details": true,
+          "main_role": "Bomber"
+        },
+        {
+          "type": "single",
+          "title": "XF5U-1",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/xf5u_1.png",
+          "br": "5.3",
+          "rp": 0,
+          "sp": 0,
+          "data_unit_id": "xf5u_1",
+          "selected": false,
+          "class_name": "prem",
+          "details": true,
+          "main_role": "Fighter"
+        },
+        {
+          "type": "single",
+          "title": "P-59A",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/p-59a.png",
+          "br": "5.7",
+          "rp": 0,
+          "sp": 0,
+          "data_unit_id": "p-59a",
+          "selected": false,
+          "class_name": "prem",
+          "details": true,
+          "main_role": "Fighter"
+        },
+        {
+          "type": "single",
+          "title": "F4U-4B VMF-214",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/f4u-4b_vmf_214.png",
+          "br": "5.7",
+          "rp": 0,
+          "sp": 0,
+          "data_unit_id": "f4u-4b_vmf_214",
+          "selected": false,
+          "class_name": "prem",
+          "details": true,
+          "main_role": "Fighter"
+        },
+        {
+          "type": "single",
+          "title": "AU-1",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/f4u-6_au-1.png",
+          "br": "5.7",
+          "rp": 0,
+          "sp": 0,
+          "data_unit_id": "f4u-6_au-1",
+          "selected": false,
+          "class_name": "prem",
+          "details": true,
+          "main_role": "Strike aircraft"
+        },
+        {
+          "type": "single",
+          "title": "F2G-1",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/f2g-1.png",
+          "br": "6.0",
+          "rp": 0,
+          "sp": 0,
+          "data_unit_id": "f2g-1",
+          "selected": false,
+          "class_name": "prem",
+          "details": true,
+          "main_role": "Fighter"
+        },
+        {
+          "type": "single",
+          "title": "F7F-3",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/f7f3.png",
+          "br": "6.3",
+          "rp": 0,
+          "sp": 0,
+          "data_unit_id": "f7f3",
+          "selected": false,
+          "class_name": "prem",
+          "details": true,
+          "main_role": "Fighter"
+        }
+      ]
+    ],
+    "selected": [],
+    "unlock_quantity": 0
+  },
+  {
+    "rank": "V",
+    "researchable_vehicles": [
+      [
+        {
+          "type": "single",
+          "title": "F-80A-5",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/f-80a.png",
+          "br": "7.0",
+          "rp": "82,000",
+          "sp": "240,000",
+          "data_unit_id": "f-80a",
+          "selected": false,
+          "class_name": "",
+          "details": true,
+          "main_role": "Fighter"
+        },
+        {
+          "type": "single",
+          "title": "F-80C-10",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/f-80.png",
+          "br": "7.7",
+          "rp": "105,000",
+          "sp": "300,000",
+          "data_unit_id": "f-80",
+          "selected": false,
+          "class_name": "",
+          "details": true,
+          "main_role": "Fighter"
+        }
+      ],
+      [
+        {
+          "type": "multiple",
+          "title": "F-84",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/f-84_group.png",
+          "selected": false,
+          "br": "7.0-7.7",
+          "data_unit_id": "f-84_group",
+          "class_name": "",
+          "items": [
+            {
+              "type": "single",
+              "title": "F-84B-26",
+              "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/f-84b.png",
+              "br": "7.0",
+              "rp": "82,000",
+              "sp": "240,000",
+              "data_unit_id": "f-84b",
+              "selected": false,
+              "class_name": "",
+              "details": true,
+              "main_role": "Strike aircraft"
+            },
+            {
+              "type": "single",
+              "title": "F-84G-21-RE",
+              "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/f-84g.png",
+              "br": "7.7",
+              "rp": "48,000",
+              "sp": "270,000",
+              "data_unit_id": "f-84g",
+              "selected": false,
+              "class_name": "",
+              "details": true,
+              "main_role": "Strike aircraft"
+            }
+          ],
+          "details": true
+        },
+        {
+          "type": "multiple",
+          "title": "F-86",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/f-86_group.png",
+          "selected": false,
+          "br": "8.0-8.3",
+          "data_unit_id": "f_86_group",
+          "class_name": "",
+          "items": [
+            {
+              "type": "single",
+              "title": "F-86A-5",
+              "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/f-86a-5.png",
+              "br": "8.0",
+              "rp": "105,000",
+              "sp": "300,000",
+              "data_unit_id": "f-86a-5",
+              "selected": false,
+              "class_name": "",
+              "details": true,
+              "main_role": "Fighter"
+            },
+            {
+              "type": "single",
+              "title": "F-86F-25",
+              "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/f-86f-25.png",
+              "br": "8.3",
+              "rp": "61,000",
+              "sp": "340,000",
+              "data_unit_id": "f-86f-25",
+              "selected": false,
+              "class_name": "",
+              "details": true,
+              "main_role": "Fighter"
+            }
+          ],
+          "details": true
+        }
+      ],
+      [
+        {
+          "type": "single",
+          "title": "F2H-2",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/f2h-2.png",
+          "br": "7.3",
+          "rp": "82,000",
+          "sp": "240,000",
+          "data_unit_id": "f2h-2",
+          "selected": false,
+          "class_name": "",
+          "details": true,
+          "main_role": "Fighter"
+        },
+        {
+          "type": "multiple",
+          "title": "F9F",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/f9f_group.png",
+          "selected": false,
+          "br": "8.0-8.3",
+          "data_unit_id": "f9f_group",
+          "class_name": "",
+          "items": [
+            {
+              "type": "single",
+              "title": "F9F-2",
+              "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/f9f-2.png",
+              "br": "8.0",
+              "rp": "95,000",
+              "sp": "270,000",
+              "data_unit_id": "f9f-2",
+              "selected": false,
+              "class_name": "",
+              "details": true,
+              "main_role": "Fighter"
+            },
+            {
+              "type": "single",
+              "title": "F9F-5",
+              "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/f9f-5.png",
+              "br": "8.0",
+              "rp": "53,000",
+              "sp": "300,000",
+              "data_unit_id": "f9f-5",
+              "selected": false,
+              "class_name": "",
+              "details": true,
+              "main_role": "Fighter"
+            },
+            {
+              "type": "single",
+              "title": "F9F-8",
+              "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/f9f-8.png",
+              "br": "8.3",
+              "rp": "61,000",
+              "sp": "340,000",
+              "data_unit_id": "f9f-8",
+              "selected": false,
+              "class_name": "",
+              "details": true,
+              "main_role": "Fighter"
+            }
+          ],
+          "details": true
+        }
+      ],
+      [
+        {
+          "type": "single",
+          "title": "F3D-1",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/f3d_1.png",
+          "br": "7.0",
+          "rp": "82,000",
+          "sp": "240,000",
+          "data_unit_id": "f3d_1",
+          "selected": false,
+          "class_name": "",
+          "details": true,
+          "main_role": "Strike aircraft"
+        },
+        {
+          "type": "single",
+          "title": "F-84F",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/f-84f.png",
+          "br": "8.3",
+          "rp": "120,000",
+          "sp": "340,000",
+          "data_unit_id": "f-84f",
+          "selected": false,
+          "class_name": "",
+          "details": true,
+          "main_role": "Strike aircraft"
+        }
+      ],
+      [
+        {
+          "type": "multiple",
+          "title": "B-57",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/b_57_group.png",
+          "selected": false,
+          "br": "8.3",
+          "data_unit_id": "b_57_group",
+          "class_name": "",
+          "items": [
+            {
+              "type": "single",
+              "title": "B-57A",
+              "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/b-57.png",
+              "br": "8.3",
+              "rp": "105,000",
+              "sp": "300,000",
+              "data_unit_id": "b-57",
+              "selected": false,
+              "class_name": "",
+              "details": true,
+              "main_role": "Bomber"
+            },
+            {
+              "type": "single",
+              "title": "B-57B",
+              "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/b-57b.png",
+              "br": "8.3",
+              "rp": "61,000",
+              "sp": "340,000",
+              "data_unit_id": "b-57b",
+              "selected": false,
+              "class_name": "",
+              "details": true,
+              "main_role": "Bomber"
+            }
+          ],
+          "details": true
+        }
+      ]
+    ],
+    "premium_vehicles": [
+      [
+        {
+          "type": "single",
+          "title": "F-89B",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/f-89b.png",
+          "br": "7.0",
+          "rp": 0,
+          "sp": 0,
+          "data_unit_id": "f-89b",
+          "selected": false,
+          "class_name": "prem",
+          "details": true,
+          "main_role": "Fighter"
+        },
+        {
+          "type": "single",
+          "title": "F-89D",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/f-89d.png",
+          "br": "7.0",
+          "rp": 0,
+          "sp": 0,
+          "data_unit_id": "f-89d",
+          "selected": false,
+          "class_name": "prem",
+          "details": true,
+          "main_role": "Fighter"
+        }
+      ],
+      [
+        {
+          "type": "single",
+          "title": "A2D-1",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/a2d.png",
+          "br": "7.0",
+          "rp": 0,
+          "sp": 0,
+          "data_unit_id": "a2d",
+          "selected": false,
+          "class_name": "prem",
+          "details": true,
+          "main_role": "Strike aircraft"
+        },
+        {
+          "type": "single",
+          "title": "F-86F-35",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/f-86f-35.png",
+          "br": "8.3",
+          "rp": 0,
+          "sp": 0,
+          "data_unit_id": "f-86f-35",
+          "selected": false,
+          "class_name": "prem",
+          "details": true,
+          "main_role": "Fighter"
+        }
+      ]
+    ],
+    "selected": [],
+    "unlock_quantity": 0
+  },
+  {
+    "rank": "VI",
+    "researchable_vehicles": [
+      [
+        {
+          "type": "multiple",
+          "title": "F-104",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/f-104_group.png",
+          "selected": false,
+          "br": "9.3",
+          "data_unit_id": "f-104_group",
+          "class_name": "",
+          "items": [
+            {
+              "type": "single",
+              "title": "F-104A",
+              "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/f-104a.png",
+              "br": "9.3",
+              "rp": "150,000",
+              "sp": "420,000",
+              "data_unit_id": "f-104a",
+              "selected": false,
+              "class_name": "",
+              "details": true,
+              "main_role": "Fighter"
+            },
+            {
+              "type": "single",
+              "title": "F-104C",
+              "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/f-104c.png",
+              "br": "9.3",
+              "rp": "86,000",
+              "sp": "480,000",
+              "data_unit_id": "f-104c",
+              "selected": false,
+              "class_name": "",
+              "details": true,
+              "main_role": "Fighter"
+            }
+          ],
+          "details": true
+        }
+      ],
+      [
+        {
+          "type": "single",
+          "title": "F-86F-2",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/f-86f-2.png",
+          "br": "8.7",
+          "rp": "135,000",
+          "sp": "380,000",
+          "data_unit_id": "f-86f-2",
+          "selected": false,
+          "class_name": "",
+          "details": true,
+          "main_role": "Fighter"
+        },
+        {
+          "type": "single",
+          "title": "F-100D",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/f-100d.png",
+          "br": "9.3",
+          "rp": "170,000",
+          "sp": "480,000",
+          "data_unit_id": "f-100d",
+          "selected": false,
+          "class_name": "",
+          "details": true,
+          "main_role": "Fighter"
+        }
+      ],
+      [
+        {
+          "type": "single",
+          "title": "F3H-2",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/f3h-2.png",
+          "br": "9.0",
+          "rp": "150,000",
+          "sp": "420,000",
+          "data_unit_id": "f3h-2",
+          "selected": false,
+          "class_name": "",
+          "details": true,
+          "main_role": "Fighter"
+        },
+        {
+          "type": "single",
+          "title": "F8U-2",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/f8u-2.png",
+          "br": "10.3",
+          "rp": "190,000",
+          "sp": "530,000",
+          "data_unit_id": "f8u-2",
+          "selected": false,
+          "class_name": "",
+          "details": true,
+          "main_role": "Fighter"
+        }
+      ],
+      [
+        {
+          "type": "multiple",
+          "title": "A-4B/FJ-4B",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/a_4b_group.png",
+          "selected": false,
+          "br": "8.7",
+          "data_unit_id": "a_4b_group",
+          "class_name": "",
+          "items": [
+            {
+              "type": "single",
+              "title": "A-4B",
+              "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/a_4b.png",
+              "br": "8.7",
+              "rp": "135,000",
+              "sp": "380,000",
+              "data_unit_id": "a_4b",
+              "selected": false,
+              "class_name": "",
+              "details": true,
+              "main_role": "Strike aircraft"
+            },
+            {
+              "type": "single",
+              "title": "FJ-4B",
+              "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/fj_4b.png",
+              "br": "8.7",
+              "rp": "76,000",
+              "sp": "420,000",
+              "data_unit_id": "fj_4b",
+              "selected": false,
+              "class_name": "",
+              "details": true,
+              "main_role": "Strike aircraft"
+            }
+          ],
+          "details": true
+        },
+        {
+          "type": "single",
+          "title": "AV-8C",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/av_8c.png",
+          "br": "9.7",
+          "rp": "190,000",
+          "sp": "530,000",
+          "data_unit_id": "av_8c",
+          "selected": false,
+          "class_name": "",
+          "details": true,
+          "main_role": "Strike aircraft"
+        }
+      ],
+      [
+        {
+          "type": "single",
+          "title": "B-66B",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/b_66b.png",
+          "br": "9.0",
+          "rp": "170,000",
+          "sp": "480,000",
+          "data_unit_id": "b_66b",
+          "selected": false,
+          "class_name": "",
+          "details": true,
+          "main_role": "Bomber"
+        }
+      ]
+    ],
+    "premium_vehicles": [
+      [
+        {
+          "type": "single",
+          "title": "A-4E Early",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/a_4e_early.png",
+          "br": "8.7",
+          "rp": "400,000",
+          "sp": "420,000",
+          "data_unit_id": "a_4e_early",
+          "selected": false,
+          "class_name": "squad",
+          "details": true,
+          "main_role": "Strike aircraft"
+        },
+        {
+          "type": "single",
+          "title": "F-117",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/f_117.png",
+          "br": "8.7",
+          "rp": "400,000",
+          "sp": "440,000",
+          "data_unit_id": "f_117",
+          "selected": false,
+          "class_name": "squad",
+          "details": true,
+          "main_role": "Strike aircraft"
+        },
+        {
+          "type": "single",
+          "title": "AV-8A",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/av_8a.png",
+          "br": "9.7",
+          "rp": 0,
+          "sp": 0,
+          "data_unit_id": "av_8a",
+          "selected": false,
+          "class_name": "prem",
+          "details": true,
+          "main_role": "Strike aircraft"
+        },
+        {
+          "type": "single",
+          "title": "A-10A",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/a_10a_early.png",
+          "br": "10.3",
+          "rp": 0,
+          "sp": 0,
+          "data_unit_id": "a_10a_early",
+          "selected": false,
+          "class_name": "prem",
+          "details": true,
+          "main_role": "Strike aircraft"
+        }
+      ],
+      [
+        {
+          "type": "single",
+          "title": "FJ-4B VMF-232",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/fj_4b_agm_12b.png",
+          "br": "8.7",
+          "rp": null,
+          "sp": null,
+          "data_unit_id": "fj_4b_agm_12b",
+          "selected": false,
+          "class_name": "",
+          "details": true,
+          "main_role": "Strike aircraft"
+        },
+        {
+          "type": "single",
+          "title": "F11F-1",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/f11f_1_late.png",
+          "br": "9.0",
+          "rp": null,
+          "sp": null,
+          "data_unit_id": "f11f_1_late",
+          "selected": false,
+          "class_name": "",
+          "details": true,
+          "main_role": "Fighter"
+        },
+        {
+          "type": "single",
+          "title": "F4D-1",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/f4d_1.png",
+          "br": "9.0",
+          "rp": null,
+          "sp": null,
+          "data_unit_id": "f4d_1",
+          "selected": false,
+          "class_name": "",
+          "details": true,
+          "main_role": "Fighter"
+        },
+        {
+          "type": "single",
+          "title": "F-106A",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/f_106a_1972.png",
+          "br": "9.3",
+          "rp": null,
+          "sp": null,
+          "data_unit_id": "f_106a_1972",
+          "selected": false,
+          "class_name": "",
+          "details": true,
+          "main_role": "Fighter"
+        }
+      ]
+    ],
+    "selected": [],
+    "unlock_quantity": 0
+  },
+  {
+    "rank": "VII",
+    "researchable_vehicles": [
+      [
+        {
+          "type": "single",
+          "title": "F-5E",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/f-5e.png",
+          "br": "11.0",
+          "rp": "230,000",
+          "sp": "630,000",
+          "data_unit_id": "f-5e",
+          "selected": false,
+          "class_name": "",
+          "details": true,
+          "main_role": "Fighter"
+        }
+      ],
+      [
+        {
+          "type": "single",
+          "title": "F-4C Phantom II",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/f-4c.png",
+          "br": "10.0",
+          "rp": "210,000",
+          "sp": "580,000",
+          "data_unit_id": "f-4c",
+          "selected": false,
+          "class_name": "",
+          "details": true,
+          "main_role": "Fighter"
+        },
+        {
+          "type": "single",
+          "title": "F-4E Phantom II",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/f-4e.png",
+          "br": "11.3",
+          "rp": "260,000",
+          "sp": "720,000",
+          "data_unit_id": "f-4e",
+          "selected": false,
+          "class_name": "",
+          "details": true,
+          "main_role": "Fighter"
+        }
+      ],
+      [
+        {
+          "type": "single",
+          "title": "F-8E",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/f-8e.png",
+          "br": "10.7",
+          "rp": "210,000",
+          "sp": "580,000",
+          "data_unit_id": "f-8e",
+          "selected": false,
+          "class_name": "",
+          "details": true,
+          "main_role": "Fighter"
+        },
+        {
+          "type": "single",
+          "title": "F-4J Phantom II",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/f-4j.png",
+          "br": "12.0",
+          "rp": "260,000",
+          "sp": "720,000",
+          "data_unit_id": "f-4j",
+          "selected": false,
+          "class_name": "",
+          "details": true,
+          "main_role": "Fighter"
+        }
+      ],
+      [
+        {
+          "type": "single",
+          "title": "A-10A Late",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/a_10a_late.png",
+          "br": "10.7",
+          "rp": "210,000",
+          "sp": "580,000",
+          "data_unit_id": "a_10a_late",
+          "selected": false,
+          "class_name": "",
+          "details": true,
+          "main_role": "Strike aircraft"
+        },
+        {
+          "type": "multiple",
+          "title": "A-7",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/a_7_group.png",
+          "selected": false,
+          "br": "10.3",
+          "data_unit_id": "a_7_group",
+          "class_name": "",
+          "items": [
+            {
+              "type": "single",
+              "title": "A-7D",
+              "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/a_7d.png",
+              "br": "10.3",
+              "rp": "230,000",
+              "sp": "630,000",
+              "data_unit_id": "a_7d",
+              "selected": false,
+              "class_name": "",
+              "details": true,
+              "main_role": "Strike aircraft"
+            },
+            {
+              "type": "single",
+              "title": "A-7E",
+              "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/a_7e.png",
+              "br": "10.3",
+              "rp": "130,000",
+              "sp": "720,000",
+              "data_unit_id": "a_7e",
+              "selected": false,
+              "class_name": "",
+              "details": true,
+              "main_role": "Strike aircraft"
+            }
+          ],
+          "details": true
+        },
+        {
+          "type": "single",
+          "title": "A-10C",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/a_10c.png",
+          "br": "11.7",
+          "rp": "260,000",
+          "sp": "720,000",
+          "data_unit_id": "a_10c",
+          "selected": false,
+          "class_name": "",
+          "details": true,
+          "main_role": "Strike aircraft"
+        }
+      ],
+      [
+        {
+          "type": "single",
+          "title": "F-105D",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/f-105d.png",
+          "br": "10.0",
+          "rp": "210,000",
+          "sp": "580,000",
+          "data_unit_id": "f-105d",
+          "selected": false,
+          "class_name": "",
+          "details": true,
+          "main_role": "Strike aircraft"
+        },
+        {
+          "type": "single",
+          "title": "F-111A",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/f_111a.png",
+          "br": "10.7",
+          "rp": "230,000",
+          "sp": "630,000",
+          "data_unit_id": "f_111a",
+          "selected": false,
+          "class_name": "",
+          "details": true,
+          "main_role": "Strike aircraft"
+        },
+        {
+          "type": "single",
+          "title": "F-111F",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/f_111f.png",
+          "br": "11.7",
+          "rp": "260,000",
+          "sp": "720,000",
+          "data_unit_id": "f_111f",
+          "selected": false,
+          "class_name": "",
+          "details": true,
+          "main_role": "Strike aircraft"
+        }
+      ]
+    ],
+    "premium_vehicles": [
+      [
+        {
+          "type": "single",
+          "title": "F-5C",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/f-5c.png",
+          "br": "10.7",
+          "rp": 0,
+          "sp": 0,
+          "data_unit_id": "f-5c",
+          "selected": false,
+          "class_name": "prem",
+          "details": true,
+          "main_role": "Fighter"
+        },
+        {
+          "type": "single",
+          "title": "AV-8B (NA)",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/av_8b_na.png",
+          "br": "11.3",
+          "rp": 0,
+          "sp": 0,
+          "data_unit_id": "av_8b_na",
+          "selected": false,
+          "class_name": "prem",
+          "details": true,
+          "main_role": "Strike aircraft"
+        },
+        {
+          "type": "single",
+          "title": "F-4S Phantom II",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/f-4s.png",
+          "br": "12.0",
+          "rp": 0,
+          "sp": 0,
+          "data_unit_id": "f-4s",
+          "selected": false,
+          "class_name": "prem",
+          "details": true,
+          "main_role": "Fighter"
+        }
+      ],
+      [
+        {
+          "type": "single",
+          "title": "F-5A",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/f-5a.png",
+          "br": "10.7",
+          "rp": null,
+          "sp": null,
+          "data_unit_id": "f-5a",
+          "selected": false,
+          "class_name": "",
+          "details": true,
+          "main_role": "Fighter"
+        },
+        {
+          "type": "single",
+          "title": "A-6E TRAM",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/a_6e_tram.png",
+          "br": "10.7",
+          "rp": 0,
+          "sp": 0,
+          "data_unit_id": "a_6e_tram",
+          "selected": false,
+          "class_name": "prem",
+          "details": true,
+          "main_role": "Strike aircraft"
+        },
+        {
+          "type": "single",
+          "title": "A-7K",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/a_7k.png",
+          "br": "11.0",
+          "rp": null,
+          "sp": null,
+          "data_unit_id": "a_7k",
+          "selected": false,
+          "class_name": "",
+          "details": true,
+          "main_role": "Strike aircraft"
+        }
+      ]
+    ],
+    "selected": [],
+    "unlock_quantity": 0
+  },
+  {
+    "rank": "VIII",
+    "researchable_vehicles": [
+      [
+        {
+          "type": "multiple",
+          "title": "F-16 early",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/f_16_group.png",
+          "selected": false,
+          "br": "12.3-13.3",
+          "data_unit_id": "f_16_group",
+          "class_name": "",
+          "items": [
+            {
+              "type": "single",
+              "title": "F-16A",
+              "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/f_16a_block_10.png",
+              "br": "12.3",
+              "rp": "290,000",
+              "sp": "780,000",
+              "data_unit_id": "f_16a_block_10",
+              "selected": false,
+              "class_name": "",
+              "details": true,
+              "main_role": "Fighter"
+            },
+            {
+              "type": "single",
+              "title": "F-16A ADF",
+              "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/f_16a_block_15_adf.png",
+              "br": "13.3",
+              "rp": "160,000",
+              "sp": "860,000",
+              "data_unit_id": "f_16a_block_15_adf",
+              "selected": false,
+              "class_name": "",
+              "details": true,
+              "main_role": "Fighter"
+            }
+          ],
+          "details": true
+        },
+        {
+          "type": "single",
+          "title": "F-16C",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/f_16c_block_50.png",
+          "br": "13.7",
+          "rp": "350,000",
+          "sp": "940,000",
+          "data_unit_id": "f_16c_block_50",
+          "selected": false,
+          "class_name": "",
+          "details": true,
+          "main_role": "Fighter"
+        }
+      ],
+      [
+        {
+          "type": "single",
+          "title": "F-15A",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/f_15a.png",
+          "br": "12.7",
+          "rp": "290,000",
+          "sp": "780,000",
+          "data_unit_id": "f_15a",
+          "selected": false,
+          "class_name": "",
+          "details": true,
+          "main_role": "Fighter"
+        },
+        {
+          "type": "single",
+          "title": "F-15C MSIP II",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/f_15c_msip2.png",
+          "br": "13.7",
+          "rp": "350,000",
+          "sp": "940,000",
+          "data_unit_id": "f_15c_msip2",
+          "selected": false,
+          "class_name": "",
+          "details": true,
+          "main_role": "Fighter"
+        }
+      ],
+      [
+        {
+          "type": "multiple",
+          "title": "F/A-18",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/f_18_group.png",
+          "selected": false,
+          "br": "12.3-14.0",
+          "data_unit_id": "f_18_group",
+          "class_name": "",
+          "items": [
+            {
+              "type": "single",
+              "title": "F/A-18A",
+              "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/fa_18a.png",
+              "br": "12.3",
+              "rp": "290,000",
+              "sp": "780,000",
+              "data_unit_id": "fa_18a",
+              "selected": false,
+              "class_name": "",
+              "details": true,
+              "main_role": "Fighter"
+            },
+            {
+              "type": "single",
+              "title": "F/A-18C Late",
+              "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/fa_18c_late.png",
+              "br": "14.0",
+              "rp": "175,000",
+              "sp": "940,000",
+              "data_unit_id": "fa_18c_late",
+              "selected": false,
+              "class_name": "",
+              "details": true,
+              "main_role": "Fighter"
+            }
+          ],
+          "details": true
+        },
+        {
+          "type": "multiple",
+          "title": "F-14",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/f_14_group.png",
+          "selected": false,
+          "br": "12.7-13.0",
+          "data_unit_id": "f_14_group",
+          "class_name": "",
+          "items": [
+            {
+              "type": "single",
+              "title": "F-14A Early",
+              "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/f_14a_early.png",
+              "br": "12.7",
+              "rp": "320,000",
+              "sp": "860,000",
+              "data_unit_id": "f_14a_early",
+              "selected": false,
+              "class_name": "",
+              "details": true,
+              "main_role": "Fighter"
+            },
+            {
+              "type": "single",
+              "title": "F-14B",
+              "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/f_14b.png",
+              "br": "13.0",
+              "rp": "175,000",
+              "sp": "940,000",
+              "data_unit_id": "f_14b",
+              "selected": false,
+              "class_name": "",
+              "details": true,
+              "main_role": "Fighter"
+            }
+          ],
+          "details": true
+        }
+      ],
+      [
+        {
+          "type": "single",
+          "title": "AV-8B Plus",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/av_8b_plus.png",
+          "br": "13.0",
+          "rp": "320,000",
+          "sp": "860,000",
+          "data_unit_id": "av_8b_plus",
+          "selected": false,
+          "class_name": "",
+          "details": true,
+          "main_role": "Strike aircraft"
+        }
+      ],
+      [
+        {
+          "type": "single",
+          "title": "F-15E",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/f_15e.png",
+          "br": "14.0",
+          "rp": "350,000",
+          "sp": "940,000",
+          "data_unit_id": "f_15e",
+          "selected": false,
+          "class_name": "",
+          "details": true,
+          "main_role": "Strike aircraft"
+        }
+      ]
+    ],
+    "premium_vehicles": [
+      [
+        {
+          "type": "single",
+          "title": "F-20A",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/f_20a.png",
+          "br": "12.3",
+          "rp": 0,
+          "sp": 0,
+          "data_unit_id": "f_20a",
+          "selected": false,
+          "class_name": "prem",
+          "details": true,
+          "main_role": "Fighter"
+        },
+        {
+          "type": "single",
+          "title": "F/A-18C Early",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/fa_18c_early.png",
+          "br": "12.7",
+          "rp": 0,
+          "sp": 0,
+          "data_unit_id": "fa_18c_early",
+          "selected": false,
+          "class_name": "prem",
+          "details": true,
+          "main_role": "Fighter"
+        }
+      ],
+      [
+        {
+          "type": "single",
+          "title": "▄F-14A IRIAF",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/f_14a_iriaf.png",
+          "br": "13.0",
+          "rp": null,
+          "sp": null,
+          "data_unit_id": "f_14a_iriaf",
+          "selected": false,
+          "class_name": "",
+          "details": true,
+          "main_role": "Fighter"
+        }
+      ]
+    ],
+    "selected": [],
+    "unlock_quantity": 0
+  },
+  {
+    "rank": "IX",
+    "researchable_vehicles": [
+      [
+        {
+          "type": "single",
+          "title": "F-16CM PoBIT",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/f_16c_block_52_aesa.png",
+          "br": "14.3",
+          "rp": "400,000",
+          "sp": "1,080,000",
+          "data_unit_id": "f_16c_block_52_aesa",
+          "selected": false,
+          "class_name": "",
+          "details": true,
+          "main_role": "Fighter"
+        }
+      ],
+      [
+        {
+          "type": "single",
+          "title": "F-15C Golden Eagle",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/f_15c_golden_eagle.png",
+          "br": "14.3",
+          "rp": "400,000",
+          "sp": "1,080,000",
+          "data_unit_id": "f_15c_golden_eagle",
+          "selected": false,
+          "class_name": "",
+          "details": true,
+          "main_role": "Fighter"
+        }
+      ],
+      [
+        {
+          "type": "single",
+          "title": "F/A-18E",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/fa_18e_block_2.png",
+          "br": "14.3",
+          "rp": "400,000",
+          "sp": "1,080,000",
+          "data_unit_id": "fa_18e_block_2",
+          "selected": false,
+          "class_name": "",
+          "details": true,
+          "main_role": "Fighter"
+        }
+      ],
+      [],
+      []
+    ],
+    "premium_vehicles": [
+      [],
+      []
+    ],
+    "selected": [],
+    "unlock_quantity": 0
+  }
+]

@@ -1,0 +1,176 @@
+[
+  {
+    "rank": "V",
+    "researchable_vehicles": [
+      [
+        {
+          "type": "single",
+          "title": "◄UH-1D",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/uh_1d.png",
+          "br": "8.3",
+          "rp": "150,000",
+          "sp": "490,000",
+          "data_unit_id": "uh_1d",
+          "selected": false,
+          "class_name": "",
+          "details": true,
+          "main_role": "Utility helicopter"
+        }
+      ],
+      [
+        {
+          "type": "single",
+          "title": "◄SA 313B Alouette II",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/sa_313b.png",
+          "br": "8.3",
+          "rp": null,
+          "sp": "390,000",
+          "data_unit_id": "sa_313b",
+          "selected": false,
+          "class_name": "",
+          "details": true,
+          "main_role": "Utility helicopter"
+        },
+        {
+          "type": "single",
+          "title": "◊Mi-8TB",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/mi_8tb.png",
+          "br": "8.0",
+          "rp": "150,000",
+          "sp": "490,000",
+          "data_unit_id": "mi_8tb",
+          "selected": false,
+          "class_name": "",
+          "details": true,
+          "main_role": "Attack helicopter"
+        }
+      ]
+    ],
+    "premium_vehicles": [
+      [
+        {
+          "type": "single",
+          "title": "BO 105 CB-2",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/bo_105cb2.png",
+          "br": "9.3",
+          "rp": 0,
+          "sp": 0,
+          "data_unit_id": "bo_105cb2",
+          "selected": false,
+          "class_name": "prem",
+          "details": true,
+          "main_role": "Utility helicopter"
+        }
+      ]
+    ],
+    "selected": [],
+    "unlock_quantity": 0
+  },
+  {
+    "rank": "VI",
+    "researchable_vehicles": [
+      [
+        {
+          "type": "single",
+          "title": "BO 105 PAH-1",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/bo_105pah1.png",
+          "br": "9.3",
+          "rp": "360,000",
+          "sp": "980,000",
+          "data_unit_id": "bo_105pah1",
+          "selected": false,
+          "class_name": "",
+          "details": true,
+          "main_role": "Utility helicopter"
+        },
+        {
+          "type": "single",
+          "title": "BO 105 PAH-1A1",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/bo_105pah1_a1.png",
+          "br": "9.3",
+          "rp": "370,000",
+          "sp": "990,000",
+          "data_unit_id": "bo_105pah1_a1",
+          "selected": false,
+          "class_name": "",
+          "details": true,
+          "main_role": "Utility helicopter"
+        }
+      ],
+      [
+        {
+          "type": "single",
+          "title": "◊Mi-24P",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/mi_24p_german.png",
+          "br": "9.7",
+          "rp": "380,000",
+          "sp": "1,000,000",
+          "data_unit_id": "mi_24p_german",
+          "selected": false,
+          "class_name": "",
+          "details": true,
+          "main_role": "Attack helicopter"
+        }
+      ]
+    ],
+    "premium_vehicles": [
+      [
+        {
+          "type": "single",
+          "title": "◄Mi-24P HFS 80",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/mi_24p_german_hfs80.png",
+          "br": "9.7",
+          "rp": 0,
+          "sp": 0,
+          "data_unit_id": "mi_24p_german_hfs80",
+          "selected": false,
+          "class_name": "prem",
+          "details": true,
+          "main_role": "Attack helicopter"
+        }
+      ]
+    ],
+    "selected": [],
+    "unlock_quantity": 0
+  },
+  {
+    "rank": "VII",
+    "researchable_vehicles": [
+      [
+        {
+          "type": "single",
+          "title": "EC-665 Tiger UHT",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/tiger_uht.png",
+          "br": "12.7",
+          "rp": "400,000",
+          "sp": "1,020,000",
+          "data_unit_id": "tiger_uht",
+          "selected": false,
+          "class_name": "",
+          "details": true,
+          "main_role": "Attack helicopter"
+        }
+      ],
+      []
+    ],
+    "premium_vehicles": [
+      [
+        {
+          "type": "single",
+          "title": "▄Tigre HAD-E",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/tiger_had_spain.png",
+          "br": "11.0",
+          "rp": 0,
+          "sp": 0,
+          "data_unit_id": "tiger_had_spain",
+          "selected": false,
+          "class_name": "prem",
+          "details": true,
+          "main_role": "Attack helicopter"
+        }
+      ]
+    ],
+    "selected": [],
+    "unlock_quantity": 0
+  }
+]

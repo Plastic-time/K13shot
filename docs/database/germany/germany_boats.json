@@ -1,0 +1,1655 @@
+[
+  {
+    "rank": "I",
+    "researchable_vehicles": [
+      [
+        {
+          "type": "single",
+          "title": "LS 3",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/germ_ls_class.png",
+          "br": "1.0",
+          "rp": 0,
+          "sp": 0,
+          "data_unit_id": "germ_ls_class",
+          "required_unit_id": "",
+          "selected": false,
+          "class_name": "",
+          "details": true,
+          "rank": "I",
+          "research_country": "Germany",
+          "main_role": "Boat",
+          "is_component": false,
+          "component_of": null,
+          "is_premium": false,
+          "is_squadron": false,
+          "wiki": {
+            "url": "https://wiki.warthunder.com/unit/germ_ls_class",
+            "rank": "I",
+            "battle_rating_context": "default",
+            "battle_ratings": {
+              "AB": "1.0",
+              "RB": "1.0"
+            },
+            "battle_ratings_by_battle": {
+              "default": {
+                "AB": "1.0",
+                "RB": "1.0"
+              }
+            },
+            "research": "Free",
+            "purchase": "Free",
+            "purchase_currency": "SL",
+            "status": null,
+            "fetched_at": "2026-09-19T06:32:48.009Z",
+            "sha256": "dcce634f5baf7e8f37beca885e39300c8ca2eb43e95076186b2c739738b4c1b1"
+          }
+        },
+        {
+          "type": "single",
+          "title": "S-38",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/germ_s38.png",
+          "br": "1.0",
+          "rp": 0,
+          "sp": 0,
+          "data_unit_id": "germ_s38",
+          "required_unit_id": "",
+          "selected": false,
+          "class_name": "",
+          "details": true,
+          "rank": "I",
+          "research_country": "Germany",
+          "main_role": "Boat",
+          "is_component": false,
+          "component_of": null,
+          "is_premium": false,
+          "is_squadron": false,
+          "wiki": {
+            "url": "https://wiki.warthunder.com/unit/germ_s38",
+            "rank": "I",
+            "battle_rating_context": "default",
+            "battle_ratings": {
+              "AB": "1.0",
+              "RB": "1.0"
+            },
+            "battle_ratings_by_battle": {
+              "default": {
+                "AB": "1.0",
+                "RB": "1.0"
+              }
+            },
+            "research": "Free",
+            "purchase": "Free",
+            "purchase_currency": "SL",
+            "status": null,
+            "fetched_at": "2026-09-19T06:32:49.013Z",
+            "sha256": "d612a0d55c5415aa0ab5159b91c233116407568a4aed4faaf1b76509788879e4"
+          }
+        }
+      ],
+      [
+        {
+          "type": "single",
+          "title": "R-41",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/germ_rboot_r41.png",
+          "br": "1.0",
+          "rp": 2900,
+          "sp": 700,
+          "data_unit_id": "germ_rboot_r41",
+          "required_unit_id": "",
+          "selected": false,
+          "class_name": "",
+          "details": true,
+          "rank": "I",
+          "research_country": "Germany",
+          "main_role": "Boat",
+          "is_component": false,
+          "component_of": null,
+          "is_premium": false,
+          "is_squadron": false,
+          "wiki": {
+            "url": "https://wiki.warthunder.com/unit/germ_rboot_r41",
+            "rank": "I",
+            "battle_rating_context": "default",
+            "battle_ratings": {
+              "AB": "1.0",
+              "RB": "1.0"
+            },
+            "battle_ratings_by_battle": {
+              "default": {
+                "AB": "1.0",
+                "RB": "1.0"
+              }
+            },
+            "research": "2,900",
+            "purchase": "700",
+            "purchase_currency": "SL",
+            "status": null,
+            "fetched_at": "2026-09-19T06:32:48.855Z",
+            "sha256": "2e4613eb0ee7013629e6a110f4656346af09eb8c7ce307afe96a8e3c3346ef3a"
+          }
+        }
+      ],
+      []
+    ],
+    "premium_vehicles": [
+      [
+        {
+          "type": "single",
+          "title": "LS 4 Esau",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/germ_ls4_class.png",
+          "br": "1.0",
+          "rp": 0,
+          "sp": 0,
+          "data_unit_id": "germ_ls4_class",
+          "required_unit_id": "",
+          "selected": false,
+          "class_name": "prem",
+          "details": true,
+          "rank": "I",
+          "research_country": "Germany",
+          "main_role": "Boat",
+          "is_component": false,
+          "component_of": null,
+          "is_premium": true,
+          "is_squadron": false,
+          "wiki": {
+            "url": "https://wiki.warthunder.com/unit/germ_ls4_class",
+            "rank": "I",
+            "battle_rating_context": "default",
+            "battle_ratings": {
+              "AB": "1.0",
+              "RB": "1.0"
+            },
+            "battle_ratings_by_battle": {
+              "default": {
+                "AB": "1.0",
+                "RB": "1.0"
+              }
+            },
+            "research": null,
+            "purchase": "250",
+            "purchase_currency": "GE",
+            "status": "Premium vehicle",
+            "fetched_at": "2026-09-19T06:32:47.681Z",
+            "sha256": "6678b5f4cd423e5dccfe961bce8efffd6b29ae9a5320d8abdb91a0e88af24057"
+          }
+        },
+        {
+          "type": "single",
+          "title": "KM-5",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/germ_km5.png",
+          "br": "1.7",
+          "rp": 0,
+          "sp": 0,
+          "data_unit_id": "germ_km5",
+          "required_unit_id": "",
+          "selected": false,
+          "class_name": "prem",
+          "details": true,
+          "rank": "I",
+          "research_country": "Germany",
+          "main_role": "Boat",
+          "is_component": false,
+          "component_of": null,
+          "is_premium": true,
+          "is_squadron": false,
+          "wiki": {
+            "url": "https://wiki.warthunder.com/unit/germ_km5",
+            "rank": "I",
+            "battle_rating_context": "default",
+            "battle_ratings": {
+              "AB": "1.7",
+              "RB": "1.7"
+            },
+            "battle_ratings_by_battle": {
+              "default": {
+                "AB": "1.7",
+                "RB": "1.7"
+              }
+            },
+            "research": null,
+            "purchase": "400",
+            "purchase_currency": "GE",
+            "status": "Premium vehicle",
+            "fetched_at": "2026-09-19T06:32:47.480Z",
+            "sha256": "6c17130774c6946e78df8a23b479e42c15404cecefc37b6df28ba1facb61a176"
+          }
+        }
+      ],
+      []
+    ],
+    "selected": [],
+    "unlock_quantity": null,
+    "source": "wiki"
+  },
+  {
+    "rank": "II",
+    "researchable_vehicles": [
+      [
+        {
+          "type": "single",
+          "title": "S-38b",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/germ_s38b.png",
+          "br": "1.7",
+          "rp": 7900,
+          "sp": 10000,
+          "data_unit_id": "germ_s38b",
+          "required_unit_id": "germ_s38",
+          "selected": false,
+          "class_name": "",
+          "details": true,
+          "rank": "II",
+          "research_country": "Germany",
+          "main_role": "Boat",
+          "is_component": false,
+          "component_of": null,
+          "is_premium": false,
+          "is_squadron": false,
+          "wiki": {
+            "url": "https://wiki.warthunder.com/unit/germ_s38b",
+            "rank": "II",
+            "battle_rating_context": "default",
+            "battle_ratings": {
+              "AB": "1.7",
+              "RB": "1.7"
+            },
+            "battle_ratings_by_battle": {
+              "default": {
+                "AB": "1.7",
+                "RB": "1.7"
+              }
+            },
+            "research": "7,900",
+            "purchase": "10,000",
+            "purchase_currency": "SL",
+            "status": null,
+            "fetched_at": "2026-09-19T06:32:49.307Z",
+            "sha256": "4439dc504ab7296b9d393e6af52bdc4f271f7fdcc4a20f72e95d0e87f84708dc"
+          }
+        },
+        {
+          "type": "single",
+          "title": "S-61",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/germ_s30_s61.png",
+          "br": "1.7",
+          "rp": 9200,
+          "sp": 16000,
+          "data_unit_id": "germ_s30_s61",
+          "required_unit_id": "germ_s38b",
+          "selected": false,
+          "class_name": "",
+          "details": true,
+          "rank": "II",
+          "research_country": "Germany",
+          "main_role": "Boat",
+          "is_component": false,
+          "component_of": null,
+          "is_premium": false,
+          "is_squadron": false,
+          "wiki": {
+            "url": "https://wiki.warthunder.com/unit/germ_s30_s61",
+            "rank": "II",
+            "battle_rating_context": "default",
+            "battle_ratings": {
+              "AB": "1.7",
+              "RB": "1.7"
+            },
+            "battle_ratings_by_battle": {
+              "default": {
+                "AB": "1.7",
+                "RB": "1.7"
+              }
+            },
+            "research": "9,200",
+            "purchase": "16,000",
+            "purchase_currency": "SL",
+            "status": null,
+            "fetched_at": "2026-09-19T06:32:49.141Z",
+            "sha256": "817cf5975d3cb54b4e94c8571a479974dcf0719626ff805005a2fcab5fc7d073"
+          }
+        },
+        {
+          "type": "single",
+          "title": "S-100",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/germ_s_100_class.png",
+          "br": "2.3",
+          "rp": 11000,
+          "sp": 22000,
+          "data_unit_id": "germ_s_100_class",
+          "required_unit_id": "germ_s30_s61",
+          "selected": false,
+          "class_name": "",
+          "details": true,
+          "rank": "II",
+          "research_country": "Germany",
+          "main_role": "Boat",
+          "is_component": false,
+          "component_of": null,
+          "is_premium": false,
+          "is_squadron": false,
+          "wiki": {
+            "url": "https://wiki.warthunder.com/unit/germ_s_100_class",
+            "rank": "II",
+            "battle_rating_context": "default",
+            "battle_ratings": {
+              "AB": "2.3",
+              "RB": "2.3"
+            },
+            "battle_ratings_by_battle": {
+              "default": {
+                "AB": "2.3",
+                "RB": "2.3"
+              }
+            },
+            "research": "11,000",
+            "purchase": "22,000",
+            "purchase_currency": "SL",
+            "status": null,
+            "fetched_at": "2026-09-19T06:32:49.531Z",
+            "sha256": "0661f96edb726731150851de5eccb14da9b5acabeda1bd932e102f0afbc983f6"
+          }
+        }
+      ],
+      [
+        {
+          "type": "single",
+          "title": "R-130",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/germ_rboot_r130.png",
+          "br": "2.0",
+          "rp": 9200,
+          "sp": 16000,
+          "data_unit_id": "germ_rboot_r130",
+          "required_unit_id": "germ_rboot_r41",
+          "selected": false,
+          "class_name": "",
+          "details": true,
+          "rank": "II",
+          "research_country": "Germany",
+          "main_role": "Boat",
+          "is_component": false,
+          "component_of": null,
+          "is_premium": false,
+          "is_squadron": false,
+          "wiki": {
+            "url": "https://wiki.warthunder.com/unit/germ_rboot_r130",
+            "rank": "II",
+            "battle_rating_context": "default",
+            "battle_ratings": {
+              "AB": "1.7",
+              "RB": "2.0"
+            },
+            "battle_ratings_by_battle": {
+              "default": {
+                "AB": "1.7",
+                "RB": "2.0"
+              }
+            },
+            "research": "9,200",
+            "purchase": "16,000",
+            "purchase_currency": "SL",
+            "status": null,
+            "fetched_at": "2026-09-19T06:32:48.572Z",
+            "sha256": "4f2461226418444b9a86e327825df256c0838a68014c1c5787cda5726cda4112"
+          }
+        },
+        {
+          "type": "single",
+          "title": "R-301",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/germ_rboot_r301.png",
+          "br": "2.3",
+          "rp": 14000,
+          "sp": 32000,
+          "data_unit_id": "germ_rboot_r301",
+          "required_unit_id": "germ_rboot_r130",
+          "selected": false,
+          "class_name": "",
+          "details": true,
+          "rank": "II",
+          "research_country": "Germany",
+          "main_role": "Boat",
+          "is_component": false,
+          "component_of": null,
+          "is_premium": false,
+          "is_squadron": false,
+          "wiki": {
+            "url": "https://wiki.warthunder.com/unit/germ_rboot_r301",
+            "rank": "II",
+            "battle_rating_context": "default",
+            "battle_ratings": {
+              "AB": "2.3",
+              "RB": "2.3"
+            },
+            "battle_ratings_by_battle": {
+              "default": {
+                "AB": "2.3",
+                "RB": "2.3"
+              }
+            },
+            "research": "14,000",
+            "purchase": "32,000",
+            "purchase_currency": "SL",
+            "status": null,
+            "fetched_at": "2026-09-19T06:32:48.603Z",
+            "sha256": "91af1e580bd8cef02188dcd93cc37521799788e539bd4fdaa6aa459af465ee6b"
+          }
+        }
+      ],
+      []
+    ],
+    "premium_vehicles": [
+      [
+        {
+          "type": "single",
+          "title": "R-310",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/germ_rboot_r310.png",
+          "br": "2.3",
+          "rp": 0,
+          "sp": 0,
+          "data_unit_id": "germ_rboot_r310",
+          "required_unit_id": "",
+          "selected": false,
+          "class_name": "prem",
+          "details": true,
+          "rank": "II",
+          "research_country": "Germany",
+          "main_role": "Boat",
+          "is_component": false,
+          "component_of": null,
+          "is_premium": true,
+          "is_squadron": false,
+          "wiki": {
+            "url": "https://wiki.warthunder.com/unit/germ_rboot_r310",
+            "rank": "II",
+            "battle_rating_context": "default",
+            "battle_ratings": {
+              "AB": "2.3",
+              "RB": "2.3"
+            },
+            "battle_ratings_by_battle": {
+              "default": {
+                "AB": "2.3",
+                "RB": "2.3"
+              }
+            },
+            "research": null,
+            "purchase": "1,150",
+            "purchase_currency": "GE",
+            "status": "Premium vehicle",
+            "fetched_at": "2026-09-19T06:32:48.642Z",
+            "sha256": "2c2c4a63458d068a15a95df6922e1f8a163d0fcdcd7bce0b99b4b55a4ef78ec5"
+          }
+        }
+      ],
+      []
+    ],
+    "selected": [],
+    "unlock_quantity": null,
+    "source": "wiki"
+  },
+  {
+    "rank": "III",
+    "researchable_vehicles": [
+      [
+        {
+          "type": "single",
+          "title": "S-147",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/germ_s_100_s_174_class.png",
+          "br": "2.7",
+          "rp": 26000,
+          "sp": 76000,
+          "data_unit_id": "germ_s_100_s_174_class",
+          "required_unit_id": "germ_s_100_class",
+          "selected": false,
+          "class_name": "",
+          "details": true,
+          "rank": "III",
+          "research_country": "Germany",
+          "main_role": "Boat",
+          "is_component": false,
+          "component_of": null,
+          "is_premium": false,
+          "is_squadron": false,
+          "wiki": {
+            "url": "https://wiki.warthunder.com/unit/germ_s_100_s_174_class",
+            "rank": "III",
+            "battle_rating_context": "default",
+            "battle_ratings": {
+              "AB": "2.7",
+              "RB": "2.7"
+            },
+            "battle_ratings_by_battle": {
+              "default": {
+                "AB": "2.7",
+                "RB": "2.7"
+              }
+            },
+            "research": "26,000",
+            "purchase": "76,000",
+            "purchase_currency": "SL",
+            "status": null,
+            "fetched_at": "2026-09-19T06:32:49.464Z",
+            "sha256": "0441192b608830a790fc56127f3da5aa8f56847cf80db4fbe49ce001451e003a"
+          }
+        },
+        {
+          "type": "single",
+          "title": "V-990",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/germ_pr_131.png",
+          "br": "3.0",
+          "rp": 36000,
+          "sp": 115000,
+          "data_unit_id": "germ_pr_131",
+          "required_unit_id": "germ_s_100_s_174_class",
+          "selected": false,
+          "class_name": "",
+          "details": true,
+          "rank": "III",
+          "research_country": "Germany",
+          "main_role": "Boat",
+          "is_component": false,
+          "component_of": null,
+          "is_premium": false,
+          "is_squadron": false,
+          "wiki": {
+            "url": "https://wiki.warthunder.com/unit/germ_pr_131",
+            "rank": "III",
+            "battle_rating_context": "default",
+            "battle_ratings": {
+              "AB": "3.0",
+              "RB": "3.0"
+            },
+            "battle_ratings_by_battle": {
+              "default": {
+                "AB": "3.0",
+                "RB": "3.0"
+              }
+            },
+            "research": "36,000",
+            "purchase": "115,000",
+            "purchase_currency": "SL",
+            "status": null,
+            "fetched_at": "2026-09-19T06:32:48.132Z",
+            "sha256": "9a792d53a3bdb4a3e6c558982146bbfa983451d225cb72187e04a98d60c9f8cc"
+          }
+        }
+      ],
+      [
+        {
+          "type": "single",
+          "title": "SF40 Heavy",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/germ_sf40_schwere_flakkampffaehre.png",
+          "br": "2.7",
+          "rp": 18000,
+          "sp": 47000,
+          "data_unit_id": "germ_sf40_schwere_flakkampffaehre",
+          "required_unit_id": "germ_rboot_r301",
+          "selected": false,
+          "class_name": "",
+          "details": true,
+          "rank": "III",
+          "research_country": "Germany",
+          "main_role": "Barge",
+          "is_component": false,
+          "component_of": null,
+          "is_premium": false,
+          "is_squadron": false,
+          "wiki": {
+            "url": "https://wiki.warthunder.com/unit/germ_sf40_schwere_flakkampffaehre",
+            "rank": "III",
+            "battle_rating_context": "default",
+            "battle_ratings": {
+              "AB": "2.7",
+              "RB": "2.7"
+            },
+            "battle_ratings_by_battle": {
+              "default": {
+                "AB": "2.7",
+                "RB": "2.7"
+              }
+            },
+            "research": "18,000",
+            "purchase": "47,000",
+            "purchase_currency": "SL",
+            "status": null,
+            "fetched_at": "2026-09-19T06:32:49.788Z",
+            "sha256": "67da58efade17df386fabbeff535bf09ebe88e3dfa8abcdf49d3cf2cab76313f"
+          }
+        },
+        {
+          "type": "single",
+          "title": "SF40 Light",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/germ_sf40_leichte_flakkampffaehre.png",
+          "br": "2.7",
+          "rp": 48000,
+          "sp": 180000,
+          "data_unit_id": "germ_sf40_leichte_flakkampffaehre",
+          "required_unit_id": "germ_sf40_schwere_flakkampffaehre",
+          "selected": false,
+          "class_name": "",
+          "details": true,
+          "rank": "III",
+          "research_country": "Germany",
+          "main_role": "Barge",
+          "is_component": false,
+          "component_of": null,
+          "is_premium": false,
+          "is_squadron": false,
+          "wiki": {
+            "url": "https://wiki.warthunder.com/unit/germ_sf40_leichte_flakkampffaehre",
+            "rank": "III",
+            "battle_rating_context": "default",
+            "battle_ratings": {
+              "AB": "2.7",
+              "RB": "2.7"
+            },
+            "battle_ratings_by_battle": {
+              "default": {
+                "AB": "2.7",
+                "RB": "2.7"
+              }
+            },
+            "research": "48,000",
+            "purchase": "180,000",
+            "purchase_currency": "SL",
+            "status": null,
+            "fetched_at": "2026-09-19T06:32:49.987Z",
+            "sha256": "d70914fe35141ab3d2a50d5da09c853990ca265b57e6b468564b0060b5f23130"
+          }
+        }
+      ],
+      [
+        {
+          "type": "single",
+          "title": "VS-10",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/germ_vs10_hydrofoil.png",
+          "br": "2.7",
+          "rp": 75000,
+          "sp": 250000,
+          "data_unit_id": "germ_vs10_hydrofoil",
+          "required_unit_id": "",
+          "selected": false,
+          "class_name": "",
+          "details": true,
+          "rank": "III",
+          "research_country": "Germany",
+          "main_role": "Boat",
+          "is_component": false,
+          "component_of": null,
+          "is_premium": false,
+          "is_squadron": false,
+          "wiki": {
+            "url": "https://wiki.warthunder.com/unit/germ_vs10_hydrofoil",
+            "rank": "III",
+            "battle_rating_context": "default",
+            "battle_ratings": {
+              "AB": "2.7",
+              "RB": "2.7"
+            },
+            "battle_ratings_by_battle": {
+              "default": {
+                "AB": "2.7",
+                "RB": "2.7"
+              }
+            },
+            "research": "75,000",
+            "purchase": "250,000",
+            "purchase_currency": "SL",
+            "status": null,
+            "fetched_at": "2026-09-19T06:32:50.671Z",
+            "sha256": "d9283501f30a471759bcb332c5e7069bdd7dee755b7b45d221fb40f860a8db68"
+          }
+        }
+      ]
+    ],
+    "premium_vehicles": [
+      [
+        {
+          "type": "single",
+          "title": "S-204 Lang",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/germ_s_100_s204_lang.png",
+          "br": "2.3",
+          "rp": 0,
+          "sp": 0,
+          "data_unit_id": "germ_s_100_s204_lang",
+          "required_unit_id": "",
+          "selected": false,
+          "class_name": "prem",
+          "details": true,
+          "rank": "III",
+          "research_country": "Germany",
+          "main_role": "Boat",
+          "is_component": false,
+          "component_of": null,
+          "is_premium": true,
+          "is_squadron": false,
+          "wiki": {
+            "url": "https://wiki.warthunder.com/unit/germ_s_100_s204_lang",
+            "rank": "III",
+            "battle_rating_context": "default",
+            "battle_ratings": {
+              "AB": "2.3",
+              "RB": "2.3"
+            },
+            "battle_ratings_by_battle": {
+              "default": {
+                "AB": "2.3",
+                "RB": "2.3"
+              }
+            },
+            "research": null,
+            "purchase": null,
+            "purchase_currency": null,
+            "status": "Premium vehicle",
+            "fetched_at": "2026-09-19T06:32:49.512Z",
+            "sha256": "fde41f29dae2ef8c0bf5d1ec9b1fa5b65955957b85a73f905e4ab67352111149"
+          }
+        },
+        {
+          "type": "single",
+          "title": "VS-8",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/germ_vs8_hydrofoil.png",
+          "br": "2.3",
+          "rp": 0,
+          "sp": 0,
+          "data_unit_id": "germ_vs8_hydrofoil",
+          "required_unit_id": "",
+          "selected": false,
+          "class_name": "prem",
+          "details": true,
+          "rank": "III",
+          "research_country": "Germany",
+          "main_role": "Boat",
+          "is_component": false,
+          "component_of": null,
+          "is_premium": true,
+          "is_squadron": false,
+          "wiki": {
+            "url": "https://wiki.warthunder.com/unit/germ_vs8_hydrofoil",
+            "rank": "III",
+            "battle_rating_context": "default",
+            "battle_ratings": {
+              "AB": "2.3",
+              "RB": "2.3"
+            },
+            "battle_ratings_by_battle": {
+              "default": {
+                "AB": "2.3",
+                "RB": "2.3"
+              }
+            },
+            "research": null,
+            "purchase": "1,600",
+            "purchase_currency": "GE",
+            "status": "Premium vehicle",
+            "fetched_at": "2026-09-19T06:32:50.671Z",
+            "sha256": "13eb2c26971585c767a810360290c3a52304fbe8d5f1c7be70bf27e7e6333e78"
+          }
+        }
+      ],
+      [
+        {
+          "type": "single",
+          "title": "S-701",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/germ_s_700_s_701.png",
+          "br": "2.7",
+          "rp": 0,
+          "sp": 0,
+          "data_unit_id": "germ_s_700_s_701",
+          "required_unit_id": "",
+          "selected": false,
+          "class_name": "prem",
+          "details": true,
+          "rank": "III",
+          "research_country": "Germany",
+          "main_role": "Boat",
+          "is_component": false,
+          "component_of": null,
+          "is_premium": true,
+          "is_squadron": false,
+          "wiki": {
+            "url": "https://wiki.warthunder.com/unit/germ_s_700_s_701",
+            "rank": "III",
+            "battle_rating_context": "default",
+            "battle_ratings": {
+              "AB": "2.7",
+              "RB": "2.7"
+            },
+            "battle_ratings_by_battle": {
+              "default": {
+                "AB": "2.7",
+                "RB": "2.7"
+              }
+            },
+            "research": null,
+            "purchase": null,
+            "purchase_currency": null,
+            "status": "Premium vehicle",
+            "fetched_at": "2026-09-19T06:32:49.766Z",
+            "sha256": "40064a052e8c93641a115eff59524bca7b95e2c10043e2c287994f7bff38513e"
+          }
+        }
+      ]
+    ],
+    "selected": [],
+    "unlock_quantity": null,
+    "source": "wiki"
+  },
+  {
+    "rank": "IV",
+    "researchable_vehicles": [
+      [
+        {
+          "type": "single",
+          "title": "MZ1",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/germ_mz_1.png",
+          "br": "3.0",
+          "rp": 89000,
+          "sp": 300000,
+          "data_unit_id": "germ_mz_1",
+          "required_unit_id": "germ_pr_131",
+          "selected": false,
+          "class_name": "",
+          "details": true,
+          "rank": "IV",
+          "research_country": "Germany",
+          "main_role": "Heavy boat",
+          "is_component": false,
+          "component_of": null,
+          "is_premium": false,
+          "is_squadron": false,
+          "wiki": {
+            "url": "https://wiki.warthunder.com/unit/germ_mz_1",
+            "rank": "IV",
+            "battle_rating_context": "default",
+            "battle_ratings": {
+              "AB": "3.0",
+              "RB": "3.0"
+            },
+            "battle_ratings_by_battle": {
+              "default": {
+                "AB": "3.0",
+                "RB": "3.0"
+              }
+            },
+            "research": "89,000",
+            "purchase": "300,000",
+            "purchase_currency": "SL",
+            "status": null,
+            "fetched_at": "2026-09-19T06:32:48.141Z",
+            "sha256": "be823a7c40fed2ad3ede6257d52b45621605712ea55ea49b9b2ef711ad8446f4"
+          }
+        },
+        {
+          "type": "single",
+          "title": "Drache",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/germ_minelayer_drache.png",
+          "br": "3.7",
+          "rp": 120000,
+          "sp": 360000,
+          "data_unit_id": "germ_minelayer_drache",
+          "required_unit_id": "germ_mz_1",
+          "selected": false,
+          "class_name": "",
+          "details": true,
+          "rank": "IV",
+          "research_country": "Germany",
+          "main_role": "Heavy boat",
+          "is_component": false,
+          "component_of": null,
+          "is_premium": false,
+          "is_squadron": false,
+          "wiki": {
+            "url": "https://wiki.warthunder.com/unit/germ_minelayer_drache",
+            "rank": "IV",
+            "battle_rating_context": "default",
+            "battle_ratings": {
+              "AB": "3.7",
+              "RB": "3.7"
+            },
+            "battle_ratings_by_battle": {
+              "default": {
+                "AB": "3.7",
+                "RB": "3.7"
+              }
+            },
+            "research": "120,000",
+            "purchase": "360,000",
+            "purchase_currency": "SL",
+            "status": null,
+            "fetched_at": "2026-09-19T06:32:47.869Z",
+            "sha256": "71f826e80211b95c106a2d2b6dce6f0175a7ed40ab8ff941f2c63d18e770ea5b"
+          }
+        }
+      ],
+      [
+        {
+          "type": "single",
+          "title": "AF D1",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/germ_artilleriefahrprahm_typ_d1.png",
+          "br": "2.7",
+          "rp": 61000,
+          "sp": 230000,
+          "data_unit_id": "germ_artilleriefahrprahm_typ_d1",
+          "required_unit_id": "germ_sf40_leichte_flakkampffaehre",
+          "selected": false,
+          "class_name": "",
+          "details": true,
+          "rank": "IV",
+          "research_country": "Germany",
+          "main_role": "Barge",
+          "is_component": false,
+          "component_of": null,
+          "is_premium": false,
+          "is_squadron": false,
+          "wiki": {
+            "url": "https://wiki.warthunder.com/unit/germ_artilleriefahrprahm_typ_d1",
+            "rank": "IV",
+            "battle_rating_context": "default",
+            "battle_ratings": {
+              "AB": "2.7",
+              "RB": "2.7"
+            },
+            "battle_ratings_by_battle": {
+              "default": {
+                "AB": "2.7",
+                "RB": "2.7"
+              }
+            },
+            "research": "61,000",
+            "purchase": "230,000",
+            "purchase_currency": "SL",
+            "status": null,
+            "fetched_at": "2026-09-19T06:32:47.013Z",
+            "sha256": "a079d1028630062956c507cb503ccf9ca66b85f103baffdfffd7aa928a04b332"
+          }
+        },
+        {
+          "type": "single",
+          "title": "AF D3",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/germ_artilleriefahrprahm_typ_d3.png",
+          "br": "3.3",
+          "rp": 89000,
+          "sp": 300000,
+          "data_unit_id": "germ_artilleriefahrprahm_typ_d3",
+          "required_unit_id": "germ_artilleriefahrprahm_typ_d1",
+          "selected": false,
+          "class_name": "",
+          "details": true,
+          "rank": "IV",
+          "research_country": "Germany",
+          "main_role": "Barge",
+          "is_component": false,
+          "component_of": null,
+          "is_premium": false,
+          "is_squadron": false,
+          "wiki": {
+            "url": "https://wiki.warthunder.com/unit/germ_artilleriefahrprahm_typ_d3",
+            "rank": "IV",
+            "battle_rating_context": "default",
+            "battle_ratings": {
+              "AB": "3.3",
+              "RB": "3.3"
+            },
+            "battle_ratings_by_battle": {
+              "default": {
+                "AB": "3.3",
+                "RB": "3.3"
+              }
+            },
+            "research": "89,000",
+            "purchase": "300,000",
+            "purchase_currency": "SL",
+            "status": null,
+            "fetched_at": "2026-09-19T06:32:46.901Z",
+            "sha256": "2a6ea54c01a2c854ec98223d09a2604b35bc2ec5b6c2c0f7463d71cc739806c8"
+          }
+        },
+        {
+          "type": "single",
+          "title": "M-17",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/germ_escort_typem1935.png",
+          "br": "4.3",
+          "rp": 120000,
+          "sp": 360000,
+          "data_unit_id": "germ_escort_typem1935",
+          "required_unit_id": "germ_artilleriefahrprahm_typ_d3",
+          "selected": false,
+          "class_name": "",
+          "details": true,
+          "rank": "IV",
+          "research_country": "Germany",
+          "main_role": "Heavy boat",
+          "is_component": false,
+          "component_of": null,
+          "is_premium": false,
+          "is_squadron": false,
+          "wiki": {
+            "url": "https://wiki.warthunder.com/unit/germ_escort_typem1935",
+            "rank": "IV",
+            "battle_rating_context": "default",
+            "battle_ratings": {
+              "AB": "4.3",
+              "RB": "4.3"
+            },
+            "battle_ratings_by_battle": {
+              "default": {
+                "AB": "4.3",
+                "RB": "4.3"
+              }
+            },
+            "research": "120,000",
+            "purchase": "360,000",
+            "purchase_currency": "SL",
+            "status": null,
+            "fetched_at": "2026-09-19T06:32:47.108Z",
+            "sha256": "001c26ce998cbeea6756acd1418ad4bbf3acecaff6042ea24cb01f62b7606114"
+          }
+        }
+      ],
+      [
+        {
+          "type": "single",
+          "title": "Krischan der Große",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/germ_rdm242.png",
+          "br": "2.7",
+          "rp": 89000,
+          "sp": 300000,
+          "data_unit_id": "germ_rdm242",
+          "required_unit_id": "germ_vs10_hydrofoil",
+          "selected": false,
+          "class_name": "",
+          "details": true,
+          "rank": "IV",
+          "research_country": "Germany",
+          "main_role": "Boat",
+          "is_component": false,
+          "component_of": null,
+          "is_premium": false,
+          "is_squadron": false,
+          "wiki": {
+            "url": "https://wiki.warthunder.com/unit/germ_rdm242",
+            "rank": "IV",
+            "battle_rating_context": "default",
+            "battle_ratings": {
+              "AB": "2.7",
+              "RB": "2.7"
+            },
+            "battle_ratings_by_battle": {
+              "default": {
+                "AB": "2.7",
+                "RB": "2.7"
+              }
+            },
+            "research": "89,000",
+            "purchase": "300,000",
+            "purchase_currency": "SL",
+            "status": null,
+            "fetched_at": "2026-09-19T06:32:49.050Z",
+            "sha256": "ba6e4efd91b070466557fe71277d7536e84e5b951fe2842ed09277c51d1dd52d"
+          }
+        },
+        {
+          "type": "single",
+          "title": "Schütze",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/germ_schutze_class.png",
+          "br": "3.0",
+          "rp": 120000,
+          "sp": 360000,
+          "data_unit_id": "germ_schutze_class",
+          "required_unit_id": "germ_rdm242",
+          "selected": false,
+          "class_name": "",
+          "details": true,
+          "rank": "IV",
+          "research_country": "Germany",
+          "main_role": "Boat",
+          "is_component": false,
+          "component_of": null,
+          "is_premium": false,
+          "is_squadron": false,
+          "wiki": {
+            "url": "https://wiki.warthunder.com/unit/germ_schutze_class",
+            "rank": "IV",
+            "battle_rating_context": "default",
+            "battle_ratings": {
+              "AB": "3.0",
+              "RB": "3.0"
+            },
+            "battle_ratings_by_battle": {
+              "default": {
+                "AB": "3.0",
+                "RB": "3.0"
+              }
+            },
+            "research": "120,000",
+            "purchase": "360,000",
+            "purchase_currency": "SL",
+            "status": null,
+            "fetched_at": "2026-09-19T06:32:49.727Z",
+            "sha256": "d8907e578313a24800f5aa520c0fb635e24154013c0108d650a57f48e6abdaad"
+          }
+        },
+        {
+          "type": "single",
+          "title": "Bernau",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/germ_kondor2_class.png",
+          "br": "3.3",
+          "rp": 220000,
+          "sp": 640000,
+          "data_unit_id": "germ_kondor2_class",
+          "required_unit_id": "germ_schutze_class",
+          "selected": false,
+          "class_name": "",
+          "details": true,
+          "rank": "IV",
+          "research_country": "Germany",
+          "main_role": "Heavy boat",
+          "is_component": false,
+          "component_of": null,
+          "is_premium": false,
+          "is_squadron": false,
+          "wiki": {
+            "url": "https://wiki.warthunder.com/unit/germ_kondor2_class",
+            "rank": "IV",
+            "battle_rating_context": "default",
+            "battle_ratings": {
+              "AB": "3.3",
+              "RB": "3.3"
+            },
+            "battle_ratings_by_battle": {
+              "default": {
+                "AB": "3.3",
+                "RB": "3.3"
+              }
+            },
+            "research": "220,000",
+            "purchase": "640,000",
+            "purchase_currency": "SL",
+            "status": null,
+            "fetched_at": "2026-09-19T06:32:47.648Z",
+            "sha256": "470ccdeffcb8977777ac00e54386029937c2bc4b65246a0dd66a97e1990bf09f"
+          }
+        }
+      ]
+    ],
+    "premium_vehicles": [
+      [
+        {
+          "type": "single",
+          "title": "M-802",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/germ_escort_typem1943.png",
+          "br": "4.3",
+          "rp": 0,
+          "sp": 0,
+          "data_unit_id": "germ_escort_typem1943",
+          "required_unit_id": "",
+          "selected": false,
+          "class_name": "prem",
+          "details": true,
+          "rank": "IV",
+          "research_country": "Germany",
+          "main_role": "Heavy boat",
+          "is_component": false,
+          "component_of": null,
+          "is_premium": true,
+          "is_squadron": false,
+          "wiki": {
+            "url": "https://wiki.warthunder.com/unit/germ_escort_typem1943",
+            "rank": "IV",
+            "battle_rating_context": "default",
+            "battle_ratings": {
+              "AB": "4.3",
+              "RB": "4.3"
+            },
+            "battle_ratings_by_battle": {
+              "default": {
+                "AB": "4.3",
+                "RB": "4.3"
+              }
+            },
+            "research": null,
+            "purchase": "3,850",
+            "purchase_currency": "GE",
+            "status": "Premium vehicle",
+            "fetched_at": "2026-09-19T06:32:47.131Z",
+            "sha256": "d40dbd06a1d3c33df9d25d0edf27052462b2bb9289659b1f7d8e49237d0a24c1"
+          }
+        },
+        {
+          "type": "single",
+          "title": "Karl Marx",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/germ_skr_pr50_karl_marx.png",
+          "br": "4.0",
+          "rp": 0,
+          "sp": 0,
+          "data_unit_id": "germ_skr_pr50_karl_marx",
+          "required_unit_id": "",
+          "selected": false,
+          "class_name": "squad",
+          "details": true,
+          "rank": "IV",
+          "research_country": "Germany",
+          "main_role": "Frigate",
+          "is_component": false,
+          "component_of": null,
+          "is_premium": false,
+          "is_squadron": true,
+          "wiki": {
+            "url": "https://wiki.warthunder.com/unit/germ_skr_pr50_karl_marx",
+            "rank": "IV",
+            "battle_rating_context": "default",
+            "battle_ratings": {
+              "AB": "4.0",
+              "RB": "4.0"
+            },
+            "battle_ratings_by_battle": {
+              "default": {
+                "AB": "4.0",
+                "RB": "4.0"
+              }
+            },
+            "research": "460,000",
+            "purchase": "640,000",
+            "purchase_currency": "SL",
+            "status": "Squadron vehicle",
+            "fetched_at": "2026-09-19T06:32:50.046Z",
+            "sha256": "2c2fbca54fc4c167c6ed2c18588085f686cd1661e2c7944058e9b931e8a0f50e"
+          }
+        }
+      ],
+      [
+        {
+          "type": "single",
+          "title": "Lübeck",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/germ_frigate_koln_lubeck.png",
+          "br": "4.7",
+          "rp": 0,
+          "sp": 0,
+          "data_unit_id": "germ_frigate_koln_lubeck",
+          "required_unit_id": "",
+          "selected": false,
+          "class_name": "prem",
+          "details": true,
+          "rank": "IV",
+          "research_country": "Germany",
+          "main_role": "Frigate",
+          "is_component": false,
+          "component_of": null,
+          "is_premium": true,
+          "is_squadron": false,
+          "wiki": {
+            "url": "https://wiki.warthunder.com/unit/germ_frigate_koln_lubeck",
+            "rank": "IV",
+            "battle_rating_context": "default",
+            "battle_ratings": {
+              "AB": "4.7",
+              "RB": "4.7"
+            },
+            "battle_ratings_by_battle": {
+              "default": {
+                "AB": "4.7",
+                "RB": "4.7"
+              }
+            },
+            "research": null,
+            "purchase": null,
+            "purchase_currency": null,
+            "status": "Premium vehicle",
+            "fetched_at": "2026-09-19T06:32:47.463Z",
+            "sha256": "ceaae69f39e360dd0bd11c554092b101ce597cf33f5b2d7a5b375839074eab81"
+          }
+        }
+      ]
+    ],
+    "selected": [],
+    "unlock_quantity": null,
+    "source": "wiki"
+  },
+  {
+    "rank": "V",
+    "researchable_vehicles": [
+      [
+        {
+          "type": "single",
+          "title": "Albatros",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/germ_type143_albatros.png",
+          "br": "3.7",
+          "rp": 220000,
+          "sp": 640000,
+          "data_unit_id": "germ_type143_albatros",
+          "required_unit_id": "germ_minelayer_drache",
+          "selected": false,
+          "class_name": "",
+          "details": true,
+          "rank": "V",
+          "research_country": "Germany",
+          "main_role": "Heavy boat",
+          "is_component": false,
+          "component_of": null,
+          "is_premium": false,
+          "is_squadron": false,
+          "wiki": {
+            "url": "https://wiki.warthunder.com/unit/germ_type143_albatros",
+            "rank": "V",
+            "battle_rating_context": "default",
+            "battle_ratings": {
+              "AB": "3.7",
+              "RB": "3.7"
+            },
+            "battle_ratings_by_battle": {
+              "default": {
+                "AB": "3.7",
+                "RB": "3.7"
+              }
+            },
+            "research": "220,000",
+            "purchase": "640,000",
+            "purchase_currency": "SL",
+            "status": null,
+            "fetched_at": "2026-09-19T06:32:50.141Z",
+            "sha256": "7346e672009764f7aca857edd6f418ccbe53a69cef3bf0b80520a95b04e8e1bf"
+          }
+        },
+        {
+          "type": "single",
+          "title": "Pr. 206",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/germ_pr_206.png",
+          "br": "4.3",
+          "rp": 320000,
+          "sp": 860000,
+          "data_unit_id": "germ_pr_206",
+          "required_unit_id": "germ_type143_albatros",
+          "selected": false,
+          "class_name": "",
+          "details": true,
+          "rank": "V",
+          "research_country": "Germany",
+          "main_role": "Heavy boat",
+          "is_component": false,
+          "component_of": null,
+          "is_premium": false,
+          "is_squadron": false,
+          "wiki": {
+            "url": "https://wiki.warthunder.com/unit/germ_pr_206",
+            "rank": "V",
+            "battle_rating_context": "default",
+            "battle_ratings": {
+              "AB": "4.3",
+              "RB": "4.3"
+            },
+            "battle_ratings_by_battle": {
+              "default": {
+                "AB": "4.3",
+                "RB": "4.3"
+              }
+            },
+            "research": "320,000",
+            "purchase": "860,000",
+            "purchase_currency": "SL",
+            "status": null,
+            "fetched_at": "2026-09-19T06:32:48.407Z",
+            "sha256": "e3e9df5667fe585fa40bbc60ad3f22d5507d2b8af46f66f6df4482227ac69e3f"
+          }
+        }
+      ],
+      [
+        {
+          "type": "single",
+          "title": "Jaguar",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/germ_type140_jaguar.png",
+          "br": "4.0",
+          "rp": 250000,
+          "sp": 700000,
+          "data_unit_id": "germ_type140_jaguar",
+          "required_unit_id": "germ_escort_typem1935",
+          "selected": false,
+          "class_name": "",
+          "details": true,
+          "rank": "V",
+          "research_country": "Germany",
+          "main_role": "Boat",
+          "is_component": false,
+          "component_of": null,
+          "is_premium": false,
+          "is_squadron": false,
+          "wiki": {
+            "url": "https://wiki.warthunder.com/unit/germ_type140_jaguar",
+            "rank": "V",
+            "battle_rating_context": "default",
+            "battle_ratings": {
+              "AB": "4.3",
+              "RB": "4.0"
+            },
+            "battle_ratings_by_battle": {
+              "default": {
+                "AB": "4.3",
+                "RB": "4.0"
+              }
+            },
+            "research": "250,000",
+            "purchase": "700,000",
+            "purchase_currency": "SL",
+            "status": null,
+            "fetched_at": "2026-09-19T06:32:50.220Z",
+            "sha256": "de20955fd6a13f96bae2aa0db83dffed88f41bd4d54e27d992e7c087b924a657"
+          }
+        },
+        {
+          "type": "single",
+          "title": "Köln",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/germ_frigate_koln.png",
+          "br": "4.7",
+          "rp": 320000,
+          "sp": 860000,
+          "data_unit_id": "germ_frigate_koln",
+          "required_unit_id": "germ_type140_jaguar",
+          "selected": false,
+          "class_name": "",
+          "details": true,
+          "rank": "V",
+          "research_country": "Germany",
+          "main_role": "Frigate",
+          "is_component": false,
+          "component_of": null,
+          "is_premium": false,
+          "is_squadron": false,
+          "wiki": {
+            "url": "https://wiki.warthunder.com/unit/germ_frigate_koln",
+            "rank": "V",
+            "battle_rating_context": "default",
+            "battle_ratings": {
+              "AB": "4.7",
+              "RB": "4.7"
+            },
+            "battle_ratings_by_battle": {
+              "default": {
+                "AB": "4.7",
+                "RB": "4.7"
+              }
+            },
+            "research": "320,000",
+            "purchase": "860,000",
+            "purchase_currency": "SL",
+            "status": null,
+            "fetched_at": "2026-09-19T06:32:47.413Z",
+            "sha256": "289fe5a30b88f22ac5c4ecc01b73966a2578ef7b8c04313292168b05e8472e67"
+          }
+        }
+      ],
+      [
+        {
+          "type": "single",
+          "title": "Parchim",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/germ_pr1331.png",
+          "br": "4.0",
+          "rp": 250000,
+          "sp": 700000,
+          "data_unit_id": "germ_pr1331",
+          "required_unit_id": "germ_kondor2_class",
+          "selected": false,
+          "class_name": "",
+          "details": true,
+          "rank": "V",
+          "research_country": "Germany",
+          "main_role": "Frigate",
+          "is_component": false,
+          "component_of": null,
+          "is_premium": false,
+          "is_squadron": false,
+          "wiki": {
+            "url": "https://wiki.warthunder.com/unit/germ_pr1331",
+            "rank": "V",
+            "battle_rating_context": "default",
+            "battle_ratings": {
+              "AB": "4.0",
+              "RB": "4.0"
+            },
+            "battle_ratings_by_battle": {
+              "default": {
+                "AB": "4.0",
+                "RB": "4.0"
+              }
+            },
+            "research": "250,000",
+            "purchase": "700,000",
+            "purchase_currency": "SL",
+            "status": null,
+            "fetched_at": "2026-09-19T06:32:48.081Z",
+            "sha256": "5f2b0fef6c83bd5a76c8e1a5e283da7ad963093b70993960521a2d2ecaf9db2a"
+          }
+        },
+        {
+          "type": "single",
+          "title": "Hugin",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/germ_type152_hugin.png",
+          "br": "4.0",
+          "rp": 280000,
+          "sp": 780000,
+          "data_unit_id": "germ_type152_hugin",
+          "required_unit_id": "germ_pr1331",
+          "selected": false,
+          "class_name": "",
+          "details": true,
+          "rank": "V",
+          "research_country": "Germany",
+          "main_role": "Boat",
+          "is_component": false,
+          "component_of": null,
+          "is_premium": false,
+          "is_squadron": false,
+          "wiki": {
+            "url": "https://wiki.warthunder.com/unit/germ_type152_hugin",
+            "rank": "V",
+            "battle_rating_context": "default",
+            "battle_ratings": {
+              "AB": "4.3",
+              "RB": "4.0"
+            },
+            "battle_ratings_by_battle": {
+              "default": {
+                "AB": "4.3",
+                "RB": "4.0"
+              }
+            },
+            "research": "280,000",
+            "purchase": "780,000",
+            "purchase_currency": "SL",
+            "status": null,
+            "fetched_at": "2026-09-19T06:32:50.367Z",
+            "sha256": "fc37d1fb48ff57eac5e7678327544570d34d11215e9598d6c335df50ae486b52"
+          }
+        },
+        {
+          "type": "single",
+          "title": "Pfeil",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/germ_type153_pfeil.png",
+          "br": "4.3",
+          "rp": 320000,
+          "sp": 860000,
+          "data_unit_id": "germ_type153_pfeil",
+          "required_unit_id": "germ_type152_hugin",
+          "selected": false,
+          "class_name": "",
+          "details": true,
+          "rank": "V",
+          "research_country": "Germany",
+          "main_role": "Boat",
+          "is_component": false,
+          "component_of": null,
+          "is_premium": false,
+          "is_squadron": false,
+          "wiki": {
+            "url": "https://wiki.warthunder.com/unit/germ_type153_pfeil",
+            "rank": "V",
+            "battle_rating_context": "default",
+            "battle_ratings": {
+              "AB": "4.3",
+              "RB": "4.3"
+            },
+            "battle_ratings_by_battle": {
+              "default": {
+                "AB": "4.3",
+                "RB": "4.3"
+              }
+            },
+            "research": "320,000",
+            "purchase": "860,000",
+            "purchase_currency": "SL",
+            "status": null,
+            "fetched_at": "2026-09-19T06:32:50.576Z",
+            "sha256": "1b448c2c9994ae399327ac21f845b8fb269864001e6dc530f9bb59b8ff9c5165"
+          }
+        }
+      ]
+    ],
+    "premium_vehicles": [
+      [
+        {
+          "type": "single",
+          "title": "Bussard",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/germ_type143_bussard.png",
+          "br": "3.7",
+          "rp": null,
+          "sp": null,
+          "data_unit_id": "germ_type143_bussard",
+          "required_unit_id": "",
+          "selected": false,
+          "class_name": "",
+          "details": true,
+          "rank": "V",
+          "research_country": "Germany",
+          "main_role": "Heavy boat",
+          "is_component": false,
+          "component_of": null,
+          "is_premium": false,
+          "is_squadron": false,
+          "wiki": {
+            "url": "https://wiki.warthunder.com/unit/germ_type143_bussard",
+            "rank": "V",
+            "battle_rating_context": "default",
+            "battle_ratings": {
+              "AB": "3.7",
+              "RB": "3.7"
+            },
+            "battle_ratings_by_battle": {
+              "default": {
+                "AB": "3.7",
+                "RB": "3.7"
+              }
+            },
+            "research": null,
+            "purchase": null,
+            "purchase_currency": null,
+            "status": null,
+            "fetched_at": "2026-09-19T06:32:50.492Z",
+            "sha256": "0b6606b99fc2d3e0e17d099fd5e1bee9751f3b9f26183e4cba04df402dfc20e2"
+          }
+        }
+      ],
+      []
+    ],
+    "selected": [],
+    "unlock_quantity": null,
+    "source": "wiki"
+  }
+]

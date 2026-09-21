@@ -1,0 +1,1941 @@
+[
+  {
+    "rank": "I",
+    "researchable_vehicles": [
+      [
+        {
+          "type": "single",
+          "title": "Frunze",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/ussr_destroyer_frunze.png",
+          "br": "3.3",
+          "rp": 0,
+          "sp": 0,
+          "data_unit_id": "ussr_destroyer_frunze",
+          "required_unit_id": "",
+          "selected": false,
+          "class_name": "",
+          "details": true,
+          "rank": "I",
+          "research_country": "USSR",
+          "main_role": "Destroyer",
+          "is_component": false,
+          "component_of": null,
+          "is_premium": false,
+          "is_squadron": false,
+          "wiki": {
+            "url": "https://wiki.warthunder.com/unit/ussr_destroyer_frunze",
+            "rank": "I",
+            "battle_rating_context": "default",
+            "battle_ratings": {
+              "AB": "3.3",
+              "RB": "3.3"
+            },
+            "battle_ratings_by_battle": {
+              "default": {
+                "AB": "3.3",
+                "RB": "3.3"
+              }
+            },
+            "research": "Free",
+            "purchase": "Free",
+            "purchase_currency": "SL",
+            "status": null,
+            "fetched_at": "2026-09-19T06:32:22.786Z",
+            "sha256": "35a8468e4175333d2f2cc7809e543914c14cfa85f00ea035c1b587621119003f"
+          }
+        },
+        {
+          "type": "single",
+          "title": "Besposhchadny",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/ussr_destroyer_7_besposhchadny.png",
+          "br": "4.0",
+          "rp": 5300,
+          "sp": 5000,
+          "data_unit_id": "ussr_destroyer_7_besposhchadny",
+          "required_unit_id": "ussr_destroyer_frunze",
+          "selected": false,
+          "class_name": "",
+          "details": true,
+          "rank": "I",
+          "research_country": "USSR",
+          "main_role": "Destroyer",
+          "is_component": false,
+          "component_of": null,
+          "is_premium": false,
+          "is_squadron": false,
+          "wiki": {
+            "url": "https://wiki.warthunder.com/unit/ussr_destroyer_7_besposhchadny",
+            "rank": "I",
+            "battle_rating_context": "default",
+            "battle_ratings": {
+              "AB": "4.0",
+              "RB": "4.0"
+            },
+            "battle_ratings_by_battle": {
+              "default": {
+                "AB": "4.0",
+                "RB": "4.0"
+              }
+            },
+            "research": "5,300",
+            "purchase": "5,000",
+            "purchase_currency": "SL",
+            "status": null,
+            "fetched_at": "2026-09-19T06:32:22.340Z",
+            "sha256": "e9a3d0bab329febf271f88e0b7d4b46147515816aa05b193c9eb4a0913722470"
+          }
+        }
+      ],
+      [
+        {
+          "type": "single",
+          "title": "Opytny",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/ussr_destroyer_pr45.png",
+          "br": "3.7",
+          "rp": 2900,
+          "sp": 700,
+          "data_unit_id": "ussr_destroyer_pr45",
+          "required_unit_id": "",
+          "selected": false,
+          "class_name": "",
+          "details": true,
+          "rank": "I",
+          "research_country": "USSR",
+          "main_role": "Destroyer",
+          "is_component": false,
+          "component_of": null,
+          "is_premium": false,
+          "is_squadron": false,
+          "wiki": {
+            "url": "https://wiki.warthunder.com/unit/ussr_destroyer_pr45",
+            "rank": "I",
+            "battle_rating_context": "default",
+            "battle_ratings": {
+              "AB": "3.7",
+              "RB": "3.7"
+            },
+            "battle_ratings_by_battle": {
+              "default": {
+                "AB": "3.7",
+                "RB": "3.7"
+              }
+            },
+            "research": "2,900",
+            "purchase": "700",
+            "purchase_currency": "SL",
+            "status": null,
+            "fetched_at": "2026-09-19T06:32:23.730Z",
+            "sha256": "708cb0d8ffb0d3fa5afd19e09a68858c72647252844bca2502c7763d8f9982e6"
+          }
+        },
+        {
+          "type": "single",
+          "title": "Letuchiy",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/ussr_destroyer_regele_ferdinand_class_letuchiy.png",
+          "br": "4.0",
+          "rp": 4000,
+          "sp": 2100,
+          "data_unit_id": "ussr_destroyer_regele_ferdinand_class_letuchiy",
+          "required_unit_id": "ussr_destroyer_pr45",
+          "selected": false,
+          "class_name": "",
+          "details": true,
+          "rank": "I",
+          "research_country": "USSR",
+          "main_role": "Destroyer",
+          "is_component": false,
+          "component_of": null,
+          "is_premium": false,
+          "is_squadron": false,
+          "wiki": {
+            "url": "https://wiki.warthunder.com/unit/ussr_destroyer_regele_ferdinand_class_letuchiy",
+            "rank": "I",
+            "battle_rating_context": "default",
+            "battle_ratings": {
+              "AB": "4.0",
+              "RB": "4.0"
+            },
+            "battle_ratings_by_battle": {
+              "default": {
+                "AB": "4.0",
+                "RB": "4.0"
+              }
+            },
+            "research": "4,000",
+            "purchase": "2,100",
+            "purchase_currency": "SL",
+            "status": null,
+            "fetched_at": "2026-09-19T06:32:24.247Z",
+            "sha256": "c03e9dc267f102bf182144daca207e0736be3592d5653d26bc97f0a1ef950ea8"
+          }
+        }
+      ]
+    ],
+    "premium_vehicles": [
+      [
+        {
+          "type": "single",
+          "title": "Kerch",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/ussr_destroyer_kerch.png",
+          "br": "3.3",
+          "rp": 0,
+          "sp": 0,
+          "data_unit_id": "ussr_destroyer_kerch",
+          "required_unit_id": "",
+          "selected": false,
+          "class_name": "prem",
+          "details": true,
+          "rank": "I",
+          "research_country": "USSR",
+          "main_role": "Destroyer",
+          "is_component": false,
+          "component_of": null,
+          "is_premium": true,
+          "is_squadron": false,
+          "wiki": {
+            "url": "https://wiki.warthunder.com/unit/ussr_destroyer_kerch",
+            "rank": "I",
+            "battle_rating_context": "default",
+            "battle_ratings": {
+              "AB": "3.3",
+              "RB": "3.3"
+            },
+            "battle_ratings_by_battle": {
+              "default": {
+                "AB": "3.3",
+                "RB": "3.3"
+              }
+            },
+            "research": null,
+            "purchase": "250",
+            "purchase_currency": "GE",
+            "status": "Premium vehicle",
+            "fetched_at": "2026-09-19T06:32:22.800Z",
+            "sha256": "c7586f7944ceb6495418fa7a676c4f1b2c0e6faeba42cf38ffad065316cc1a22"
+          }
+        }
+      ],
+      []
+    ],
+    "selected": [],
+    "unlock_quantity": null,
+    "source": "wiki"
+  },
+  {
+    "rank": "II",
+    "researchable_vehicles": [
+      [
+        {
+          "type": "single",
+          "title": "Moskva",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/ussr_destroyer_moskva.png",
+          "br": "4.3",
+          "rp": 7000,
+          "sp": 8700,
+          "data_unit_id": "ussr_destroyer_moskva",
+          "required_unit_id": "ussr_destroyer_7_besposhchadny",
+          "selected": false,
+          "class_name": "",
+          "details": true,
+          "rank": "II",
+          "research_country": "USSR",
+          "main_role": "Destroyer",
+          "is_component": false,
+          "component_of": null,
+          "is_premium": false,
+          "is_squadron": false,
+          "wiki": {
+            "url": "https://wiki.warthunder.com/unit/ussr_destroyer_moskva",
+            "rank": "II",
+            "battle_rating_context": "default",
+            "battle_ratings": {
+              "AB": "4.3",
+              "RB": "4.3"
+            },
+            "battle_ratings_by_battle": {
+              "default": {
+                "AB": "4.3",
+                "RB": "4.3"
+              }
+            },
+            "research": "7,000",
+            "purchase": "8,700",
+            "purchase_currency": "SL",
+            "status": null,
+            "fetched_at": "2026-09-19T06:32:23.086Z",
+            "sha256": "cd175e9be5c540da37d8836b241775c79dfa2085c3ec0064b3a9b46a04560b92"
+          }
+        },
+        {
+          "type": "single",
+          "title": "Soobrazitelny",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/ussr_destroyer_7y.png",
+          "br": "4.7",
+          "rp": 13000,
+          "sp": 31000,
+          "data_unit_id": "ussr_destroyer_7y",
+          "required_unit_id": "ussr_destroyer_moskva",
+          "selected": false,
+          "class_name": "",
+          "details": true,
+          "rank": "II",
+          "research_country": "USSR",
+          "main_role": "Destroyer",
+          "is_component": false,
+          "component_of": null,
+          "is_premium": false,
+          "is_squadron": false,
+          "wiki": {
+            "url": "https://wiki.warthunder.com/unit/ussr_destroyer_7y",
+            "rank": "II",
+            "battle_rating_context": "default",
+            "battle_ratings": {
+              "AB": "4.7",
+              "RB": "4.7"
+            },
+            "battle_ratings_by_battle": {
+              "default": {
+                "AB": "4.7",
+                "RB": "4.7"
+              }
+            },
+            "research": "13,000",
+            "purchase": "31,000",
+            "purchase_currency": "SL",
+            "status": null,
+            "fetched_at": "2026-09-19T06:32:22.618Z",
+            "sha256": "eee6b1b145b94469d20a50e199de7099078eade181e677be50c1b2ec73d0ded6"
+          }
+        }
+      ],
+      [
+        {
+          "type": "single",
+          "title": "Ognevoy",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/ussr_destroyer_pr30_ognevoy.png",
+          "br": "4.3",
+          "rp": 9000,
+          "sp": 16000,
+          "data_unit_id": "ussr_destroyer_pr30_ognevoy",
+          "required_unit_id": "ussr_destroyer_regele_ferdinand_class_letuchiy",
+          "selected": false,
+          "class_name": "",
+          "details": true,
+          "rank": "II",
+          "research_country": "USSR",
+          "main_role": "Destroyer",
+          "is_component": false,
+          "component_of": null,
+          "is_premium": false,
+          "is_squadron": false,
+          "wiki": {
+            "url": "https://wiki.warthunder.com/unit/ussr_destroyer_pr30_ognevoy",
+            "rank": "II",
+            "battle_rating_context": "default",
+            "battle_ratings": {
+              "AB": "4.3",
+              "RB": "4.3"
+            },
+            "battle_ratings_by_battle": {
+              "default": {
+                "AB": "4.3",
+                "RB": "4.3"
+              }
+            },
+            "research": "9,000",
+            "purchase": "16,000",
+            "purchase_currency": "SL",
+            "status": null,
+            "fetched_at": "2026-09-19T06:32:23.173Z",
+            "sha256": "950fa6d1331f12607924770dfcc2a9791c507b00820d1c9e9375adeb2c998990"
+          }
+        },
+        {
+          "type": "single",
+          "title": "Bezuprechny",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/ussr_destroyer_pr30bis_bezuprechnyi.png",
+          "br": "4.3",
+          "rp": 11000,
+          "sp": 22000,
+          "data_unit_id": "ussr_destroyer_pr30bis_bezuprechnyi",
+          "required_unit_id": "ussr_destroyer_pr30_ognevoy",
+          "selected": false,
+          "class_name": "",
+          "details": true,
+          "rank": "II",
+          "research_country": "USSR",
+          "main_role": "Destroyer",
+          "is_component": false,
+          "component_of": null,
+          "is_premium": false,
+          "is_squadron": false,
+          "wiki": {
+            "url": "https://wiki.warthunder.com/unit/ussr_destroyer_pr30bis_bezuprechnyi",
+            "rank": "II",
+            "battle_rating_context": "default",
+            "battle_ratings": {
+              "AB": "4.3",
+              "RB": "4.3"
+            },
+            "battle_ratings_by_battle": {
+              "default": {
+                "AB": "4.3",
+                "RB": "4.3"
+              }
+            },
+            "research": "11,000",
+            "purchase": "22,000",
+            "purchase_currency": "SL",
+            "status": null,
+            "fetched_at": "2026-09-19T06:32:23.520Z",
+            "sha256": "7a7cb32c7c0696988a4110a746caa101f6b37b69d1f27ea582dfd715ff6dcd89"
+          }
+        }
+      ]
+    ],
+    "premium_vehicles": [
+      [
+        {
+          "type": "single",
+          "title": "Ryany",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/ussr_destroyer_7_ryany.png",
+          "br": "4.3",
+          "rp": 0,
+          "sp": 0,
+          "data_unit_id": "ussr_destroyer_7_ryany",
+          "required_unit_id": "",
+          "selected": false,
+          "class_name": "prem",
+          "details": true,
+          "rank": "II",
+          "research_country": "USSR",
+          "main_role": "Destroyer",
+          "is_component": false,
+          "component_of": null,
+          "is_premium": true,
+          "is_squadron": false,
+          "wiki": {
+            "url": "https://wiki.warthunder.com/unit/ussr_destroyer_7_ryany",
+            "rank": "II",
+            "battle_rating_context": "default",
+            "battle_ratings": {
+              "AB": "4.3",
+              "RB": "4.3"
+            },
+            "battle_ratings_by_battle": {
+              "default": {
+                "AB": "4.3",
+                "RB": "4.3"
+              }
+            },
+            "research": null,
+            "purchase": "700",
+            "purchase_currency": "GE",
+            "status": "Premium vehicle",
+            "fetched_at": "2026-09-19T06:32:22.326Z",
+            "sha256": "c75c83de100f33bf212d8c3501df6192a6afdec499f76d6d6bac58bfc97b65d1"
+          }
+        },
+        {
+          "type": "single",
+          "title": "Smelyi",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/ussr_destroyer_pr30bis_smelyi.png",
+          "br": "4.3",
+          "rp": 0,
+          "sp": 0,
+          "data_unit_id": "ussr_destroyer_pr30bis_smelyi",
+          "required_unit_id": "",
+          "selected": false,
+          "class_name": "prem",
+          "details": true,
+          "rank": "II",
+          "research_country": "USSR",
+          "main_role": "Destroyer",
+          "is_component": false,
+          "component_of": null,
+          "is_premium": true,
+          "is_squadron": false,
+          "wiki": {
+            "url": "https://wiki.warthunder.com/unit/ussr_destroyer_pr30bis_smelyi",
+            "rank": "II",
+            "battle_rating_context": "default",
+            "battle_ratings": {
+              "AB": "4.3",
+              "RB": "4.3"
+            },
+            "battle_ratings_by_battle": {
+              "default": {
+                "AB": "4.3",
+                "RB": "4.3"
+              }
+            },
+            "research": null,
+            "purchase": "1,000",
+            "purchase_currency": "GE",
+            "status": "Premium vehicle",
+            "fetched_at": "2026-09-19T06:32:23.386Z",
+            "sha256": "e5864d2ca2499b20229d3471b7e973fb09e44cd1fb94c3ed13ee047638c6f046"
+          }
+        }
+      ],
+      []
+    ],
+    "selected": [],
+    "unlock_quantity": null,
+    "source": "wiki"
+  },
+  {
+    "rank": "III",
+    "researchable_vehicles": [
+      [
+        {
+          "type": "single",
+          "title": "Krasny Kavkaz",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/ussr_cruiser_krasnyi_kavkaz.png",
+          "br": "5.0",
+          "rp": 18000,
+          "sp": 55000,
+          "data_unit_id": "ussr_cruiser_krasnyi_kavkaz",
+          "required_unit_id": "ussr_destroyer_7y",
+          "selected": false,
+          "class_name": "",
+          "details": true,
+          "rank": "III",
+          "research_country": "USSR",
+          "main_role": "Light cruiser",
+          "is_component": false,
+          "component_of": null,
+          "is_premium": false,
+          "is_squadron": false,
+          "wiki": {
+            "url": "https://wiki.warthunder.com/unit/ussr_cruiser_krasnyi_kavkaz",
+            "rank": "III",
+            "battle_rating_context": "default",
+            "battle_ratings": {
+              "AB": "5.0",
+              "RB": "5.0"
+            },
+            "battle_ratings_by_battle": {
+              "default": {
+                "AB": "5.0",
+                "RB": "5.0"
+              }
+            },
+            "research": "18,000",
+            "purchase": "55,000",
+            "purchase_currency": "SL",
+            "status": null,
+            "fetched_at": "2026-09-19T06:32:21.281Z",
+            "sha256": "ab44163c1112db431828f21d2f80692b786fad549b4fb654f4b915cd3f4087c6"
+          }
+        },
+        {
+          "type": "single",
+          "title": "Krasny Krym",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/ussr_cruiser_krasnyi_krim.png",
+          "br": "5.3",
+          "rp": 21000,
+          "sp": 70000,
+          "data_unit_id": "ussr_cruiser_krasnyi_krim",
+          "required_unit_id": "ussr_cruiser_krasnyi_kavkaz",
+          "selected": false,
+          "class_name": "",
+          "details": true,
+          "rank": "III",
+          "research_country": "USSR",
+          "main_role": "Light cruiser",
+          "is_component": false,
+          "component_of": null,
+          "is_premium": false,
+          "is_squadron": false,
+          "wiki": {
+            "url": "https://wiki.warthunder.com/unit/ussr_cruiser_krasnyi_krim",
+            "rank": "III",
+            "battle_rating_context": "default",
+            "battle_ratings": {
+              "AB": "5.3",
+              "RB": "5.3"
+            },
+            "battle_ratings_by_battle": {
+              "default": {
+                "AB": "5.3",
+                "RB": "5.3"
+              }
+            },
+            "research": "21,000",
+            "purchase": "70,000",
+            "purchase_currency": "SL",
+            "status": null,
+            "fetched_at": "2026-09-19T06:32:21.474Z",
+            "sha256": "4420ab59639879dc84ceda6f578d63f2dec34f0a0b8aff74c702f1171ea95170"
+          }
+        },
+        {
+          "type": "single",
+          "title": "Chervona Ukraina",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/ussr_cruiser_chervona_ukraina.png",
+          "br": "5.3",
+          "rp": 25000,
+          "sp": 87000,
+          "data_unit_id": "ussr_cruiser_chervona_ukraina",
+          "required_unit_id": "ussr_cruiser_krasnyi_krim",
+          "selected": false,
+          "class_name": "",
+          "details": true,
+          "rank": "III",
+          "research_country": "USSR",
+          "main_role": "Light cruiser",
+          "is_component": false,
+          "component_of": null,
+          "is_premium": false,
+          "is_squadron": false,
+          "wiki": {
+            "url": "https://wiki.warthunder.com/unit/ussr_cruiser_chervona_ukraina",
+            "rank": "III",
+            "battle_rating_context": "default",
+            "battle_ratings": {
+              "AB": "5.3",
+              "RB": "5.3"
+            },
+            "battle_ratings_by_battle": {
+              "default": {
+                "AB": "5.3",
+                "RB": "5.3"
+              }
+            },
+            "research": "25,000",
+            "purchase": "87,000",
+            "purchase_currency": "SL",
+            "status": null,
+            "fetched_at": "2026-09-19T06:32:20.994Z",
+            "sha256": "22f2701d3f462acc56ffd8c47a9c88959c7cc86372ef15bd14d0f6e27cff355b"
+          }
+        }
+      ],
+      [
+        {
+          "type": "single",
+          "title": "Tashkent",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/ussr_destroyer_pr20_tashkent.png",
+          "br": "5.0",
+          "rp": 15000,
+          "sp": 38000,
+          "data_unit_id": "ussr_destroyer_pr20_tashkent",
+          "required_unit_id": "ussr_destroyer_pr30bis_bezuprechnyi",
+          "selected": false,
+          "class_name": "",
+          "details": true,
+          "rank": "III",
+          "research_country": "USSR",
+          "main_role": "Destroyer",
+          "is_component": false,
+          "component_of": null,
+          "is_premium": false,
+          "is_squadron": false,
+          "wiki": {
+            "url": "https://wiki.warthunder.com/unit/ussr_destroyer_pr20_tashkent",
+            "rank": "III",
+            "battle_rating_context": "default",
+            "battle_ratings": {
+              "AB": "5.0",
+              "RB": "5.0"
+            },
+            "battle_ratings_by_battle": {
+              "default": {
+                "AB": "5.0",
+                "RB": "5.0"
+              }
+            },
+            "research": "15,000",
+            "purchase": "38,000",
+            "purchase_currency": "SL",
+            "status": null,
+            "fetched_at": "2026-09-19T06:32:23.170Z",
+            "sha256": "d22f04afc2144f63e8671a49fda6782f696f77441d44d85e8f285b7bca075695"
+          }
+        },
+        {
+          "type": "single",
+          "title": "Erevan",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/ussr_destroyer_pr48k_erevan.png",
+          "br": "5.0",
+          "rp": 18000,
+          "sp": 55000,
+          "data_unit_id": "ussr_destroyer_pr48k_erevan",
+          "required_unit_id": "ussr_destroyer_pr20_tashkent",
+          "selected": false,
+          "class_name": "",
+          "details": true,
+          "rank": "III",
+          "research_country": "USSR",
+          "main_role": "Destroyer",
+          "is_component": false,
+          "component_of": null,
+          "is_premium": false,
+          "is_squadron": false,
+          "wiki": {
+            "url": "https://wiki.warthunder.com/unit/ussr_destroyer_pr48k_erevan",
+            "rank": "III",
+            "battle_rating_context": "default",
+            "battle_ratings": {
+              "AB": "5.0",
+              "RB": "5.0"
+            },
+            "battle_ratings_by_battle": {
+              "default": {
+                "AB": "5.0",
+                "RB": "5.0"
+              }
+            },
+            "research": "18,000",
+            "purchase": "55,000",
+            "purchase_currency": "SL",
+            "status": null,
+            "fetched_at": "2026-09-19T06:32:23.876Z",
+            "sha256": "da7043381b50ffc70e462868b58e7de159649ce3ff2764e630034997dec93292"
+          }
+        },
+        {
+          "type": "single",
+          "title": "Spokoinyy",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/ussr_destroyer_pr56_spokoinyy.png",
+          "br": "5.3",
+          "rp": 21000,
+          "sp": 70000,
+          "data_unit_id": "ussr_destroyer_pr56_spokoinyy",
+          "required_unit_id": "ussr_destroyer_pr48k_erevan",
+          "selected": false,
+          "class_name": "",
+          "details": true,
+          "rank": "III",
+          "research_country": "USSR",
+          "main_role": "Destroyer",
+          "is_component": false,
+          "component_of": null,
+          "is_premium": false,
+          "is_squadron": false,
+          "wiki": {
+            "url": "https://wiki.warthunder.com/unit/ussr_destroyer_pr56_spokoinyy",
+            "rank": "III",
+            "battle_rating_context": "default",
+            "battle_ratings": {
+              "AB": "5.3",
+              "RB": "5.3"
+            },
+            "battle_ratings_by_battle": {
+              "default": {
+                "AB": "5.3",
+                "RB": "5.3"
+              }
+            },
+            "research": "21,000",
+            "purchase": "70,000",
+            "purchase_currency": "SL",
+            "status": null,
+            "fetched_at": "2026-09-19T06:32:24.055Z",
+            "sha256": "1bdce8c551c9357ae439054c4572fb84cd912be07e2a51b531093750a07fb429"
+          }
+        }
+      ]
+    ],
+    "premium_vehicles": [
+      [
+        {
+          "type": "single",
+          "title": "Leningrad",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/ussr_destroyer_leningrad.png",
+          "br": "4.3",
+          "rp": 0,
+          "sp": 0,
+          "data_unit_id": "ussr_destroyer_leningrad",
+          "required_unit_id": "",
+          "selected": false,
+          "class_name": "prem",
+          "details": true,
+          "rank": "III",
+          "research_country": "USSR",
+          "main_role": "Destroyer",
+          "is_component": false,
+          "component_of": null,
+          "is_premium": true,
+          "is_squadron": false,
+          "wiki": {
+            "url": "https://wiki.warthunder.com/unit/ussr_destroyer_leningrad",
+            "rank": "III",
+            "battle_rating_context": "default",
+            "battle_ratings": {
+              "AB": "4.3",
+              "RB": "4.3"
+            },
+            "battle_ratings_by_battle": {
+              "default": {
+                "AB": "4.3",
+                "RB": "4.3"
+              }
+            },
+            "research": null,
+            "purchase": null,
+            "purchase_currency": null,
+            "status": "Premium vehicle",
+            "fetched_at": "2026-09-19T06:32:23.064Z",
+            "sha256": "6d423336277dcd8f02dd44e213ee49c7ef6fb73926cda27efa5c724c281aa77e"
+          }
+        },
+        {
+          "type": "single",
+          "title": "Blagorodnyy",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/ussr_destroyer_pr56_blagorodny.png",
+          "br": "5.3",
+          "rp": 0,
+          "sp": 0,
+          "data_unit_id": "ussr_destroyer_pr56_blagorodny",
+          "required_unit_id": "",
+          "selected": false,
+          "class_name": "prem",
+          "details": true,
+          "rank": "III",
+          "research_country": "USSR",
+          "main_role": "Destroyer",
+          "is_component": false,
+          "component_of": null,
+          "is_premium": true,
+          "is_squadron": false,
+          "wiki": {
+            "url": "https://wiki.warthunder.com/unit/ussr_destroyer_pr56_blagorodny",
+            "rank": "III",
+            "battle_rating_context": "default",
+            "battle_ratings": {
+              "AB": "5.3",
+              "RB": "5.3"
+            },
+            "battle_ratings_by_battle": {
+              "default": {
+                "AB": "5.3",
+                "RB": "5.3"
+              }
+            },
+            "research": null,
+            "purchase": "2,980",
+            "purchase_currency": "GE",
+            "status": "Premium vehicle",
+            "fetched_at": "2026-09-19T06:32:23.898Z",
+            "sha256": "23837a615d304b6e7f87c903b17dc94b69e9b039acfc412d6c1607e38f7a8711"
+          }
+        }
+      ],
+      [
+        {
+          "type": "single",
+          "title": "Stroyny",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/ussr_destroyer_7y_stroyny.png",
+          "br": "4.7",
+          "rp": 0,
+          "sp": 0,
+          "data_unit_id": "ussr_destroyer_7y_stroyny",
+          "required_unit_id": "",
+          "selected": false,
+          "class_name": "prem",
+          "details": true,
+          "rank": "III",
+          "research_country": "USSR",
+          "main_role": "Destroyer",
+          "is_component": false,
+          "component_of": null,
+          "is_premium": true,
+          "is_squadron": false,
+          "wiki": {
+            "url": "https://wiki.warthunder.com/unit/ussr_destroyer_7y_stroyny",
+            "rank": "III",
+            "battle_rating_context": "default",
+            "battle_ratings": {
+              "AB": "4.7",
+              "RB": "4.7"
+            },
+            "battle_ratings_by_battle": {
+              "default": {
+                "AB": "4.7",
+                "RB": "4.7"
+              }
+            },
+            "research": null,
+            "purchase": null,
+            "purchase_currency": null,
+            "status": "Premium vehicle",
+            "fetched_at": "2026-09-19T06:32:22.527Z",
+            "sha256": "737af084f6b66b2aea2aa9591339ece993d26845c6150dabdb3b52b12765a148"
+          }
+        },
+        {
+          "type": "single",
+          "title": "Murmansk",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/ussr_cruiser_omaha_class_murmansk.png",
+          "br": "5.0",
+          "rp": 0,
+          "sp": 0,
+          "data_unit_id": "ussr_cruiser_omaha_class_murmansk",
+          "required_unit_id": "",
+          "selected": false,
+          "class_name": "prem",
+          "details": true,
+          "rank": "III",
+          "research_country": "USSR",
+          "main_role": "Light cruiser",
+          "is_component": false,
+          "component_of": null,
+          "is_premium": true,
+          "is_squadron": false,
+          "wiki": {
+            "url": "https://wiki.warthunder.com/unit/ussr_cruiser_omaha_class_murmansk",
+            "rank": "III",
+            "battle_rating_context": "default",
+            "battle_ratings": {
+              "AB": "5.0",
+              "RB": "5.0"
+            },
+            "battle_ratings_by_battle": {
+              "default": {
+                "AB": "5.0",
+                "RB": "5.0"
+              }
+            },
+            "research": null,
+            "purchase": null,
+            "purchase_currency": null,
+            "status": "Premium vehicle",
+            "fetched_at": "2026-09-19T06:32:21.825Z",
+            "sha256": "5213b1871e750aa27002b29d9a65c0c43f8581387a0c51068cb23929d0f6c795"
+          }
+        },
+        {
+          "type": "single",
+          "title": "Neustrashimy",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/ussr_destroyer_pr41_neustrashimy.png",
+          "br": "5.3",
+          "rp": 0,
+          "sp": 0,
+          "data_unit_id": "ussr_destroyer_pr41_neustrashimy",
+          "required_unit_id": "",
+          "selected": false,
+          "class_name": "prem",
+          "details": true,
+          "rank": "III",
+          "research_country": "USSR",
+          "main_role": "Destroyer",
+          "is_component": false,
+          "component_of": null,
+          "is_premium": true,
+          "is_squadron": false,
+          "wiki": {
+            "url": "https://wiki.warthunder.com/unit/ussr_destroyer_pr41_neustrashimy",
+            "rank": "III",
+            "battle_rating_context": "default",
+            "battle_ratings": {
+              "AB": "5.3",
+              "RB": "5.3"
+            },
+            "battle_ratings_by_battle": {
+              "default": {
+                "AB": "5.3",
+                "RB": "5.3"
+              }
+            },
+            "research": null,
+            "purchase": null,
+            "purchase_currency": null,
+            "status": "Premium vehicle",
+            "fetched_at": "2026-09-19T06:32:23.638Z",
+            "sha256": "dbcbe80e30720dda54fd8cff63bc15bb479a8bdc326c115f845e972c68301172"
+          }
+        }
+      ]
+    ],
+    "selected": [],
+    "unlock_quantity": null,
+    "source": "wiki"
+  },
+  {
+    "rank": "IV",
+    "researchable_vehicles": [
+      [
+        {
+          "type": "single",
+          "title": "Kirov",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/ussr_cruiser_kirov.png",
+          "br": "5.7",
+          "rp": 33000,
+          "sp": 115000,
+          "data_unit_id": "ussr_cruiser_kirov",
+          "required_unit_id": "ussr_cruiser_chervona_ukraina",
+          "selected": false,
+          "class_name": "",
+          "details": true,
+          "rank": "IV",
+          "research_country": "USSR",
+          "main_role": "Light cruiser",
+          "is_component": false,
+          "component_of": null,
+          "is_premium": false,
+          "is_squadron": false,
+          "wiki": {
+            "url": "https://wiki.warthunder.com/unit/ussr_cruiser_kirov",
+            "rank": "IV",
+            "battle_rating_context": "default",
+            "battle_ratings": {
+              "AB": "5.7",
+              "RB": "5.7"
+            },
+            "battle_ratings_by_battle": {
+              "default": {
+                "AB": "5.7",
+                "RB": "5.7"
+              }
+            },
+            "research": "33,000",
+            "purchase": "115,000",
+            "purchase_currency": "SL",
+            "status": null,
+            "fetched_at": "2026-09-19T06:32:21.306Z",
+            "sha256": "920414cbd0f286d8d328f7d4613c8f09deaae7c87aea1bb78c8797b2dcc78f60"
+          }
+        },
+        {
+          "type": "multiple",
+          "title": "Project 68",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/ussr_cruiser_chapaev_kutuzov_group.png",
+          "selected": false,
+          "br": "6.0",
+          "data_unit_id": "ussr_cruiser_chapaev_kutuzov_group",
+          "required_unit_id": "ussr_cruiser_kirov",
+          "class_name": "",
+          "items": [
+            {
+              "type": "single",
+              "title": "Chapayev",
+              "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/ussr_cruiser_chapayev.png",
+              "br": "6.0",
+              "rp": 46000,
+              "sp": 150000,
+              "data_unit_id": "ussr_cruiser_chapayev",
+              "required_unit_id": "",
+              "selected": false,
+              "class_name": "",
+              "details": true,
+              "rank": "IV",
+              "research_country": "USSR",
+              "main_role": "Light cruiser",
+              "is_component": false,
+              "component_of": null,
+              "is_premium": false,
+              "is_squadron": false,
+              "wiki": {
+                "url": "https://wiki.warthunder.com/unit/ussr_cruiser_chapayev",
+                "rank": "IV",
+                "battle_rating_context": "default",
+                "battle_ratings": {
+                  "AB": "6.0",
+                  "RB": "6.0"
+                },
+                "battle_ratings_by_battle": {
+                  "default": {
+                    "AB": "6.0",
+                    "RB": "6.0"
+                  }
+                },
+                "research": "46,000",
+                "purchase": "150,000",
+                "purchase_currency": "SL",
+                "status": null,
+                "fetched_at": "2026-09-19T06:32:20.747Z",
+                "sha256": "26ac85add946bb665bada92458f79a3985896496457307c7dbbb02891cd11eb5"
+              }
+            },
+            {
+              "type": "single",
+              "title": "Sverdlov",
+              "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/ussr_cruiser_sverdlov.png",
+              "br": "6.0",
+              "rp": 30000,
+              "sp": 185000,
+              "data_unit_id": "ussr_cruiser_sverdlov",
+              "required_unit_id": "ussr_cruiser_chapayev",
+              "selected": false,
+              "class_name": "",
+              "details": true,
+              "rank": "IV",
+              "research_country": "USSR",
+              "main_role": "Light cruiser",
+              "is_component": false,
+              "component_of": null,
+              "is_premium": false,
+              "is_squadron": false,
+              "wiki": {
+                "url": "https://wiki.warthunder.com/unit/ussr_cruiser_sverdlov",
+                "rank": "IV",
+                "battle_rating_context": "default",
+                "battle_ratings": {
+                  "AB": "6.0",
+                  "RB": "6.0"
+                },
+                "battle_ratings_by_battle": {
+                  "default": {
+                    "AB": "6.0",
+                    "RB": "6.0"
+                  }
+                },
+                "research": "30,000",
+                "purchase": "185,000",
+                "purchase_currency": "SL",
+                "status": null,
+                "fetched_at": "2026-09-19T06:32:21.999Z",
+                "sha256": "f0efa8a02b5dfccf7e27443bdb722655c0e34c0ee06ed17b1debe43a5c27f6ac"
+              }
+            },
+            {
+              "type": "single",
+              "title": "Mikhail Kutuzov",
+              "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/ussr_cruiser_mikhail_kutuzov.png",
+              "br": "6.0",
+              "rp": 36000,
+              "sp": 230000,
+              "data_unit_id": "ussr_cruiser_mikhail_kutuzov",
+              "required_unit_id": "ussr_cruiser_sverdlov",
+              "selected": false,
+              "class_name": "",
+              "details": true,
+              "rank": "IV",
+              "research_country": "USSR",
+              "main_role": "Light cruiser",
+              "is_component": false,
+              "component_of": null,
+              "is_premium": false,
+              "is_squadron": false,
+              "wiki": {
+                "url": "https://wiki.warthunder.com/unit/ussr_cruiser_mikhail_kutuzov",
+                "rank": "IV",
+                "battle_rating_context": "default",
+                "battle_ratings": {
+                  "AB": "6.0",
+                  "RB": "6.0"
+                },
+                "battle_ratings_by_battle": {
+                  "default": {
+                    "AB": "6.0",
+                    "RB": "6.0"
+                  }
+                },
+                "research": "36,000",
+                "purchase": "230,000",
+                "purchase_currency": "SL",
+                "status": null,
+                "fetched_at": "2026-09-19T06:32:21.809Z",
+                "sha256": "1b6d91a222d8374fa9292c48b49de896d288d1b5bf0fe08473e085b6eba8cbbf"
+              }
+            }
+          ],
+          "details": true,
+          "rp": 112000,
+          "sp": 565000
+        }
+      ],
+      [
+        {
+          "type": "single",
+          "title": "Bravy",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/ussr_destroyer_pr56_bravy.png",
+          "br": "5.3",
+          "rp": 33000,
+          "sp": 115000,
+          "data_unit_id": "ussr_destroyer_pr56_bravy",
+          "required_unit_id": "ussr_destroyer_pr56_spokoinyy",
+          "selected": false,
+          "class_name": "",
+          "details": true,
+          "rank": "IV",
+          "research_country": "USSR",
+          "main_role": "Destroyer",
+          "is_component": false,
+          "component_of": null,
+          "is_premium": false,
+          "is_squadron": false,
+          "wiki": {
+            "url": "https://wiki.warthunder.com/unit/ussr_destroyer_pr56_bravy",
+            "rank": "IV",
+            "battle_rating_context": "default",
+            "battle_ratings": {
+              "AB": "5.3",
+              "RB": "5.3"
+            },
+            "battle_ratings_by_battle": {
+              "default": {
+                "AB": "5.3",
+                "RB": "5.3"
+              }
+            },
+            "research": "33,000",
+            "purchase": "115,000",
+            "purchase_currency": "SL",
+            "status": null,
+            "fetched_at": "2026-09-19T06:32:24.103Z",
+            "sha256": "b6ef70f264fa3148b020fd828e32839c947bca4daeadca6a59823263e2e7f9c5"
+          }
+        }
+      ]
+    ],
+    "premium_vehicles": [
+      [
+        {
+          "type": "single",
+          "title": "Kerch",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/ussr_cruiser_kerch.png",
+          "br": "5.7",
+          "rp": 0,
+          "sp": 0,
+          "data_unit_id": "ussr_cruiser_kerch",
+          "required_unit_id": "",
+          "selected": false,
+          "class_name": "prem",
+          "details": true,
+          "rank": "IV",
+          "research_country": "USSR",
+          "main_role": "Light cruiser",
+          "is_component": false,
+          "component_of": null,
+          "is_premium": true,
+          "is_squadron": false,
+          "wiki": {
+            "url": "https://wiki.warthunder.com/unit/ussr_cruiser_kerch",
+            "rank": "IV",
+            "battle_rating_context": "default",
+            "battle_ratings": {
+              "AB": "5.7",
+              "RB": "5.7"
+            },
+            "battle_ratings_by_battle": {
+              "default": {
+                "AB": "5.7",
+                "RB": "5.7"
+              }
+            },
+            "research": null,
+            "purchase": "6,090",
+            "purchase_currency": "GE",
+            "status": "Premium vehicle",
+            "fetched_at": "2026-09-19T06:32:20.910Z",
+            "sha256": "6f69d077d9ffa2db2f4eaea195ff168e85076e6d8ad51cd7c981e20520ee1eb4"
+          }
+        },
+        {
+          "type": "single",
+          "title": "Zheleznyakov",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/ussr_cruiser_zheleznyakov.png",
+          "br": "6.0",
+          "rp": 0,
+          "sp": 0,
+          "data_unit_id": "ussr_cruiser_zheleznyakov",
+          "required_unit_id": "",
+          "selected": false,
+          "class_name": "prem",
+          "details": true,
+          "rank": "IV",
+          "research_country": "USSR",
+          "main_role": "Light cruiser",
+          "is_component": false,
+          "component_of": null,
+          "is_premium": true,
+          "is_squadron": false,
+          "wiki": {
+            "url": "https://wiki.warthunder.com/unit/ussr_cruiser_zheleznyakov",
+            "rank": "IV",
+            "battle_rating_context": "default",
+            "battle_ratings": {
+              "AB": "6.0",
+              "RB": "6.0"
+            },
+            "battle_ratings_by_battle": {
+              "default": {
+                "AB": "6.0",
+                "RB": "6.0"
+              }
+            },
+            "research": null,
+            "purchase": "8,020",
+            "purchase_currency": "GE",
+            "status": "Premium vehicle",
+            "fetched_at": "2026-09-19T06:32:22.076Z",
+            "sha256": "66fd8c11f972dd830aa13585cd574b0cce89f6e421ef7cebe5f4edc958eda5b9"
+          }
+        }
+      ],
+      [
+        {
+          "type": "single",
+          "title": "Voroshilov",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/ussr_cruiser_voroshilov.png",
+          "br": "5.7",
+          "rp": null,
+          "sp": null,
+          "data_unit_id": "ussr_cruiser_voroshilov",
+          "required_unit_id": "",
+          "selected": false,
+          "class_name": "",
+          "details": true,
+          "rank": "IV",
+          "research_country": "USSR",
+          "main_role": "Light cruiser",
+          "is_component": false,
+          "component_of": null,
+          "is_premium": false,
+          "is_squadron": false,
+          "wiki": {
+            "url": "https://wiki.warthunder.com/unit/ussr_cruiser_voroshilov",
+            "rank": "IV",
+            "battle_rating_context": "default",
+            "battle_ratings": {
+              "AB": "5.7",
+              "RB": "5.7"
+            },
+            "battle_ratings_by_battle": {
+              "default": {
+                "AB": "5.7",
+                "RB": "5.7"
+              }
+            },
+            "research": null,
+            "purchase": null,
+            "purchase_currency": null,
+            "status": null,
+            "fetched_at": "2026-09-19T06:32:22.144Z",
+            "sha256": "921faa4663078120c058d08cd22fdf7f8f342f5feaf4b35851870f451f924d1c"
+          }
+        }
+      ]
+    ],
+    "selected": [],
+    "unlock_quantity": null,
+    "source": "wiki"
+  },
+  {
+    "rank": "V",
+    "researchable_vehicles": [
+      [
+        {
+          "type": "single",
+          "title": "Poltava",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/ussr_battleship_poltava.png",
+          "br": "6.3",
+          "rp": 90000,
+          "sp": 280000,
+          "data_unit_id": "ussr_battleship_poltava",
+          "required_unit_id": "ussr_cruiser_chapaev_kutuzov_group",
+          "selected": false,
+          "class_name": "",
+          "details": true,
+          "rank": "V",
+          "research_country": "USSR",
+          "main_role": "Battleship",
+          "is_component": false,
+          "component_of": null,
+          "is_premium": false,
+          "is_squadron": false,
+          "wiki": {
+            "url": "https://wiki.warthunder.com/unit/ussr_battleship_poltava",
+            "rank": "V",
+            "battle_rating_context": "default",
+            "battle_ratings": {
+              "AB": "6.3",
+              "RB": "6.3"
+            },
+            "battle_ratings_by_battle": {
+              "default": {
+                "AB": "6.3",
+                "RB": "6.3"
+              }
+            },
+            "research": "90,000",
+            "purchase": "280,000",
+            "purchase_currency": "SL",
+            "status": null,
+            "fetched_at": "2026-09-19T06:32:20.487Z",
+            "sha256": "1734155ecfabf4cdc840887677a3968e398450e4ee75857ee6970904805bae12"
+          }
+        },
+        {
+          "type": "single",
+          "title": "Parizhskaya Kommuna",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/ussr_battleship_parizhskaya_kommuna.png",
+          "br": "6.7",
+          "rp": 145000,
+          "sp": 440000,
+          "data_unit_id": "ussr_battleship_parizhskaya_kommuna",
+          "required_unit_id": "ussr_battleship_poltava",
+          "selected": false,
+          "class_name": "",
+          "details": true,
+          "rank": "V",
+          "research_country": "USSR",
+          "main_role": "Battleship",
+          "is_component": false,
+          "component_of": null,
+          "is_premium": false,
+          "is_squadron": false,
+          "wiki": {
+            "url": "https://wiki.warthunder.com/unit/ussr_battleship_parizhskaya_kommuna",
+            "rank": "V",
+            "battle_rating_context": "default",
+            "battle_ratings": {
+              "AB": "6.7",
+              "RB": "6.7"
+            },
+            "battle_ratings_by_battle": {
+              "default": {
+                "AB": "6.7",
+                "RB": "6.7"
+              }
+            },
+            "research": "145,000",
+            "purchase": "440,000",
+            "purchase_currency": "SL",
+            "status": null,
+            "fetched_at": "2026-09-19T06:32:20.660Z",
+            "sha256": "bb306c78db0f7305564982dbf5fba9cedb39f852096bffb627bd39852ecb51d1"
+          }
+        }
+      ],
+      [
+        {
+          "type": "single",
+          "title": "Imperatritsa Mariya",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/ussr_battleship_imperatritsa_mariya.png",
+          "br": "6.7",
+          "rp": 110000,
+          "sp": 340000,
+          "data_unit_id": "ussr_battleship_imperatritsa_mariya",
+          "required_unit_id": "ussr_destroyer_pr56_bravy",
+          "selected": false,
+          "class_name": "",
+          "details": true,
+          "rank": "V",
+          "research_country": "USSR",
+          "main_role": "Battleship",
+          "is_component": false,
+          "component_of": null,
+          "is_premium": false,
+          "is_squadron": false,
+          "wiki": {
+            "url": "https://wiki.warthunder.com/unit/ussr_battleship_imperatritsa_mariya",
+            "rank": "V",
+            "battle_rating_context": "default",
+            "battle_ratings": {
+              "AB": "6.7",
+              "RB": "6.7"
+            },
+            "battle_ratings_by_battle": {
+              "default": {
+                "AB": "6.7",
+                "RB": "6.7"
+              }
+            },
+            "research": "110,000",
+            "purchase": "340,000",
+            "purchase_currency": "SL",
+            "status": null,
+            "fetched_at": "2026-09-19T06:32:20.147Z",
+            "sha256": "ee87a8eadfb82c8896c0a2a04d2c22a9bf4f2d86b2a703acdad47d349bb27328"
+          }
+        },
+        {
+          "type": "single",
+          "title": "Izmail",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/ussr_battlecruiser_izmail.png",
+          "br": "7.0",
+          "rp": 180000,
+          "sp": 540000,
+          "data_unit_id": "ussr_battlecruiser_izmail",
+          "required_unit_id": "ussr_battleship_imperatritsa_mariya",
+          "selected": false,
+          "class_name": "",
+          "details": true,
+          "rank": "V",
+          "research_country": "USSR",
+          "main_role": "Battlecruiser",
+          "is_component": false,
+          "component_of": null,
+          "is_premium": false,
+          "is_squadron": false,
+          "wiki": {
+            "url": "https://wiki.warthunder.com/unit/ussr_battlecruiser_izmail",
+            "rank": "V",
+            "battle_rating_context": "default",
+            "battle_ratings": {
+              "AB": "7.0",
+              "RB": "7.0"
+            },
+            "battle_ratings_by_battle": {
+              "default": {
+                "AB": "7.0",
+                "RB": "7.0"
+              }
+            },
+            "research": "180,000",
+            "purchase": "540,000",
+            "purchase_currency": "SL",
+            "status": null,
+            "fetched_at": "2026-09-19T06:32:19.677Z",
+            "sha256": "7c74d4715f54d41c135166689cd91a28c6f644212ada7e82dae69f39859c0518"
+          }
+        }
+      ]
+    ],
+    "premium_vehicles": [
+      [
+        {
+          "type": "single",
+          "title": "Shcherbakov",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/ussr_cruiser_shcherbakov.png",
+          "br": "6.0",
+          "rp": null,
+          "sp": null,
+          "data_unit_id": "ussr_cruiser_shcherbakov",
+          "required_unit_id": "",
+          "selected": false,
+          "class_name": "",
+          "details": true,
+          "rank": "V",
+          "research_country": "USSR",
+          "main_role": "Light cruiser",
+          "is_component": false,
+          "component_of": null,
+          "is_premium": false,
+          "is_squadron": false,
+          "wiki": {
+            "url": "https://wiki.warthunder.com/unit/ussr_cruiser_shcherbakov",
+            "rank": "V",
+            "battle_rating_context": "default",
+            "battle_ratings": {
+              "AB": "6.0",
+              "RB": "6.0"
+            },
+            "battle_ratings_by_battle": {
+              "default": {
+                "AB": "6.0",
+                "RB": "6.0"
+              }
+            },
+            "research": null,
+            "purchase": null,
+            "purchase_currency": null,
+            "status": null,
+            "fetched_at": "2026-09-19T06:32:21.613Z",
+            "sha256": "9b3cd4a9ad451c4e06be6e282a62d9d7ab1dbef57691cedcc0c976cf18568349"
+          }
+        },
+        {
+          "type": "single",
+          "title": "Marat",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/ussr_battleship_marat.png",
+          "br": "6.7",
+          "rp": 0,
+          "sp": 0,
+          "data_unit_id": "ussr_battleship_marat",
+          "required_unit_id": "",
+          "selected": false,
+          "class_name": "prem",
+          "details": true,
+          "rank": "V",
+          "research_country": "USSR",
+          "main_role": "Battleship",
+          "is_component": false,
+          "component_of": null,
+          "is_premium": true,
+          "is_squadron": false,
+          "wiki": {
+            "url": "https://wiki.warthunder.com/unit/ussr_battleship_marat",
+            "rank": "V",
+            "battle_rating_context": "default",
+            "battle_ratings": {
+              "AB": "6.7",
+              "RB": "6.7"
+            },
+            "battle_ratings_by_battle": {
+              "default": {
+                "AB": "6.7",
+                "RB": "6.7"
+              }
+            },
+            "research": null,
+            "purchase": "8,380",
+            "purchase_currency": "GE",
+            "status": "Premium vehicle",
+            "fetched_at": "2026-09-19T06:32:20.399Z",
+            "sha256": "34cacff6cfdbc81d43af259075d6bbac6b7c3d71b26568bd941174080a98e272"
+          }
+        }
+      ],
+      [
+        {
+          "type": "single",
+          "title": "Maxim Gorky",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/ussr_cruiser_maxim_gorky.png",
+          "br": "5.7",
+          "rp": null,
+          "sp": null,
+          "data_unit_id": "ussr_cruiser_maxim_gorky",
+          "required_unit_id": "",
+          "selected": false,
+          "class_name": "",
+          "details": true,
+          "rank": "V",
+          "research_country": "USSR",
+          "main_role": "Light cruiser",
+          "is_component": false,
+          "component_of": null,
+          "is_premium": false,
+          "is_squadron": false,
+          "wiki": {
+            "url": "https://wiki.warthunder.com/unit/ussr_cruiser_maxim_gorky",
+            "rank": "V",
+            "battle_rating_context": "default",
+            "battle_ratings": {
+              "AB": "5.7",
+              "RB": "5.7"
+            },
+            "battle_ratings_by_battle": {
+              "default": {
+                "AB": "5.7",
+                "RB": "5.7"
+              }
+            },
+            "research": null,
+            "purchase": null,
+            "purchase_currency": null,
+            "status": null,
+            "fetched_at": "2026-09-19T06:32:21.343Z",
+            "sha256": "0d9316455ab11d51a58bef367a5594ee27052c6786a8617a6568f2e86b6c6a30"
+          }
+        },
+        {
+          "type": "single",
+          "title": "Oktyabrskaya Revolutsiya",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/ussr_battleship_oktyabrskaya_revolutsiya.png",
+          "br": "6.7",
+          "rp": null,
+          "sp": null,
+          "data_unit_id": "ussr_battleship_oktyabrskaya_revolutsiya",
+          "required_unit_id": "",
+          "selected": false,
+          "class_name": "",
+          "details": true,
+          "rank": "V",
+          "research_country": "USSR",
+          "main_role": "Battleship",
+          "is_component": false,
+          "component_of": null,
+          "is_premium": false,
+          "is_squadron": false,
+          "wiki": {
+            "url": "https://wiki.warthunder.com/unit/ussr_battleship_oktyabrskaya_revolutsiya",
+            "rank": "V",
+            "battle_rating_context": "default",
+            "battle_ratings": {
+              "AB": "6.7",
+              "RB": "6.7"
+            },
+            "battle_ratings_by_battle": {
+              "default": {
+                "AB": "6.7",
+                "RB": "6.7"
+              }
+            },
+            "research": null,
+            "purchase": null,
+            "purchase_currency": null,
+            "status": null,
+            "fetched_at": "2026-09-19T06:32:20.413Z",
+            "sha256": "3145914ac0ccf5597a9ea620ce103d4187f676cc513f57d6d6dbf613cd3ee622"
+          }
+        }
+      ]
+    ],
+    "selected": [],
+    "unlock_quantity": null,
+    "source": "wiki"
+  },
+  {
+    "rank": "VI",
+    "researchable_vehicles": [
+      [
+        {
+          "type": "single",
+          "title": "Novorossiysk",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/ussr_battleship_novorossiysk.png",
+          "br": "7.3",
+          "rp": 220000,
+          "sp": 660000,
+          "data_unit_id": "ussr_battleship_novorossiysk",
+          "required_unit_id": "ussr_battleship_parizhskaya_kommuna",
+          "selected": false,
+          "class_name": "",
+          "details": true,
+          "rank": "VI",
+          "research_country": "USSR",
+          "main_role": "Battleship",
+          "is_component": false,
+          "component_of": null,
+          "is_premium": false,
+          "is_squadron": false,
+          "wiki": {
+            "url": "https://wiki.warthunder.com/unit/ussr_battleship_novorossiysk",
+            "rank": "VI",
+            "battle_rating_context": "default",
+            "battle_ratings": {
+              "AB": "7.3",
+              "RB": "7.3"
+            },
+            "battle_ratings_by_battle": {
+              "default": {
+                "AB": "7.3",
+                "RB": "7.3"
+              }
+            },
+            "research": "220,000",
+            "purchase": "660,000",
+            "purchase_currency": "SL",
+            "status": null,
+            "fetched_at": "2026-09-19T06:32:20.226Z",
+            "sha256": "0e666b97680b8f7745ae50b366197cb50e97c025bd84ceb746defe6078e71b91"
+          }
+        },
+        {
+          "type": "single",
+          "title": "Arkhangelsk",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/ussr_battleship_arhangelsk.png",
+          "br": "7.7",
+          "rp": 350000,
+          "sp": 1050000,
+          "data_unit_id": "ussr_battleship_arhangelsk",
+          "required_unit_id": "ussr_battleship_novorossiysk",
+          "selected": false,
+          "class_name": "",
+          "details": true,
+          "rank": "VI",
+          "research_country": "USSR",
+          "main_role": "Battleship",
+          "is_component": false,
+          "component_of": null,
+          "is_premium": false,
+          "is_squadron": false,
+          "wiki": {
+            "url": "https://wiki.warthunder.com/unit/ussr_battleship_arhangelsk",
+            "rank": "VI",
+            "battle_rating_context": "default",
+            "battle_ratings": {
+              "AB": "7.7",
+              "RB": "7.7"
+            },
+            "battle_ratings_by_battle": {
+              "default": {
+                "AB": "7.7",
+                "RB": "7.7"
+              }
+            },
+            "research": "350,000",
+            "purchase": "1,050,000",
+            "purchase_currency": "SL",
+            "status": null,
+            "fetched_at": "2026-09-19T06:32:19.950Z",
+            "sha256": "e6723fe0388fb3054802b85c4822fa679da40990da705394ca6dcf47c758ce16"
+          }
+        }
+      ],
+      [
+        {
+          "type": "single",
+          "title": "Kronshtadt",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/ussr_battlecruiser_kronshtadt.png",
+          "br": "7.3",
+          "rp": 260000,
+          "sp": 780000,
+          "data_unit_id": "ussr_battlecruiser_kronshtadt",
+          "required_unit_id": "ussr_battlecruiser_izmail",
+          "selected": false,
+          "class_name": "",
+          "details": true,
+          "rank": "VI",
+          "research_country": "USSR",
+          "main_role": "Battlecruiser",
+          "is_component": false,
+          "component_of": null,
+          "is_premium": false,
+          "is_squadron": false,
+          "wiki": {
+            "url": "https://wiki.warthunder.com/unit/ussr_battlecruiser_kronshtadt",
+            "rank": "VI",
+            "battle_rating_context": "default",
+            "battle_ratings": {
+              "AB": "7.3",
+              "RB": "7.3"
+            },
+            "battle_ratings_by_battle": {
+              "default": {
+                "AB": "7.3",
+                "RB": "7.3"
+              }
+            },
+            "research": "260,000",
+            "purchase": "780,000",
+            "purchase_currency": "SL",
+            "status": null,
+            "fetched_at": "2026-09-19T06:32:19.888Z",
+            "sha256": "c942e97c68d35544ad32e774a2a014e8acc0fc74b962ddbd40abd4949b1076ec"
+          }
+        },
+        {
+          "type": "single",
+          "title": "Stalingrad",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/ussr_battlecruiser_stalingrad.png",
+          "br": "7.7",
+          "rp": 300000,
+          "sp": 900000,
+          "data_unit_id": "ussr_battlecruiser_stalingrad",
+          "required_unit_id": "ussr_battlecruiser_kronshtadt",
+          "selected": false,
+          "class_name": "",
+          "details": true,
+          "rank": "VI",
+          "research_country": "USSR",
+          "main_role": "Battlecruiser",
+          "is_component": false,
+          "component_of": null,
+          "is_premium": false,
+          "is_squadron": false,
+          "wiki": {
+            "url": "https://wiki.warthunder.com/unit/ussr_battlecruiser_stalingrad",
+            "rank": "VI",
+            "battle_rating_context": "default",
+            "battle_ratings": {
+              "AB": "7.7",
+              "RB": "7.7"
+            },
+            "battle_ratings_by_battle": {
+              "default": {
+                "AB": "7.7",
+                "RB": "7.7"
+              }
+            },
+            "research": "300,000",
+            "purchase": "900,000",
+            "purchase_currency": "SL",
+            "status": null,
+            "fetched_at": "2026-09-19T06:32:19.883Z",
+            "sha256": "ac1dc2b5350cdee82f6a16364f10a6bc2daa04bde1bfdb32b98f0217c7ae0e29"
+          }
+        }
+      ]
+    ],
+    "premium_vehicles": [
+      [
+        {
+          "type": "single",
+          "title": "Sevastopol",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/ussr_battlecruiser_sevastopol.png",
+          "br": "7.3",
+          "rp": 0,
+          "sp": 0,
+          "data_unit_id": "ussr_battlecruiser_sevastopol",
+          "required_unit_id": "",
+          "selected": false,
+          "class_name": "prem",
+          "details": true,
+          "rank": "VI",
+          "research_country": "USSR",
+          "main_role": "Battlecruiser",
+          "is_component": false,
+          "component_of": null,
+          "is_premium": true,
+          "is_squadron": false,
+          "wiki": {
+            "url": "https://wiki.warthunder.com/unit/ussr_battlecruiser_sevastopol",
+            "rank": "VI",
+            "battle_rating_context": "default",
+            "battle_ratings": {
+              "AB": "7.3",
+              "RB": "7.3"
+            },
+            "battle_ratings_by_battle": {
+              "default": {
+                "AB": "7.3",
+                "RB": "7.3"
+              }
+            },
+            "research": null,
+            "purchase": null,
+            "purchase_currency": null,
+            "status": "Premium vehicle",
+            "fetched_at": "2026-09-19T06:32:19.749Z",
+            "sha256": "86f65c2dcbc11c6668ae489eb25476b43fa0c2a10c46e296e156a9e4e712a832"
+          }
+        }
+      ],
+      []
+    ],
+    "selected": [],
+    "unlock_quantity": null,
+    "source": "wiki"
+  },
+  {
+    "rank": "VII",
+    "researchable_vehicles": [
+      [
+        {
+          "type": "single",
+          "title": "Sovetsky Soyuz",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/ussr_battleship_pr23_sovetskij_soyuz.png",
+          "br": "8.7",
+          "rp": 400000,
+          "sp": 1150000,
+          "data_unit_id": "ussr_battleship_pr23_sovetskij_soyuz",
+          "required_unit_id": "ussr_battleship_arhangelsk",
+          "selected": false,
+          "class_name": "",
+          "details": true,
+          "rank": "VII",
+          "research_country": "USSR",
+          "main_role": "Battleship",
+          "is_component": false,
+          "component_of": null,
+          "is_premium": false,
+          "is_squadron": false,
+          "wiki": {
+            "url": "https://wiki.warthunder.com/unit/ussr_battleship_pr23_sovetskij_soyuz",
+            "rank": "VII",
+            "battle_rating_context": "default",
+            "battle_ratings": {
+              "AB": "8.7",
+              "RB": "8.7"
+            },
+            "battle_ratings_by_battle": {
+              "default": {
+                "AB": "8.7",
+                "RB": "8.7"
+              }
+            },
+            "research": "400,000",
+            "purchase": "1,150,000",
+            "purchase_currency": "SL",
+            "status": null,
+            "fetched_at": "2026-09-19T06:32:20.924Z",
+            "sha256": "29f34073e3e6639a091b2b3f7d497c68a4091a7ccb0745009d48902ada118d9d"
+          }
+        }
+      ],
+      []
+    ],
+    "premium_vehicles": [
+      [],
+      []
+    ],
+    "selected": [],
+    "unlock_quantity": null,
+    "source": "wiki"
+  }
+]

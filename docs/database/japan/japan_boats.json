@@ -1,0 +1,1435 @@
+[
+  {
+    "rank": "I",
+    "researchable_vehicles": [
+      [
+        {
+          "type": "single",
+          "title": "Type T-14",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/jp_t14_class.png",
+          "br": "1.0",
+          "rp": 0,
+          "sp": 0,
+          "data_unit_id": "jp_t14_class",
+          "required_unit_id": "",
+          "selected": false,
+          "class_name": "",
+          "details": true,
+          "rank": "I",
+          "research_country": "Japan",
+          "main_role": "Boat",
+          "is_component": false,
+          "component_of": null,
+          "is_premium": false,
+          "is_squadron": false,
+          "wiki": {
+            "url": "https://wiki.warthunder.com/unit/jp_t14_class",
+            "rank": "I",
+            "battle_rating_context": "default",
+            "battle_ratings": {
+              "AB": "1.0",
+              "RB": "1.0"
+            },
+            "battle_ratings_by_battle": {
+              "default": {
+                "AB": "1.0",
+                "RB": "1.0"
+              }
+            },
+            "research": "Free",
+            "purchase": "Free",
+            "purchase_currency": "SL",
+            "status": null,
+            "fetched_at": "2026-09-19T06:33:01.836Z",
+            "sha256": "ce091cbc46df1a35b4067a93c3b06938e64ff00e8f41d963e6dd8129bb6a7421"
+          }
+        },
+        {
+          "type": "single",
+          "title": "Type T-14 (mod. 2)",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/jp_t14_class_mod02.png",
+          "br": "1.0",
+          "rp": 0,
+          "sp": 0,
+          "data_unit_id": "jp_t14_class_mod02",
+          "required_unit_id": "",
+          "selected": false,
+          "class_name": "",
+          "details": true,
+          "rank": "I",
+          "research_country": "Japan",
+          "main_role": "Boat",
+          "is_component": false,
+          "component_of": null,
+          "is_premium": false,
+          "is_squadron": false,
+          "wiki": {
+            "url": "https://wiki.warthunder.com/unit/jp_t14_class_mod02",
+            "rank": "I",
+            "battle_rating_context": "default",
+            "battle_ratings": {
+              "AB": "1.0",
+              "RB": "1.0"
+            },
+            "battle_ratings_by_battle": {
+              "default": {
+                "AB": "1.0",
+                "RB": "1.0"
+              }
+            },
+            "research": "Free",
+            "purchase": "Free",
+            "purchase_currency": "SL",
+            "status": null,
+            "fetched_at": "2026-09-19T06:33:01.891Z",
+            "sha256": "e7deef10cdbf2b9af3275e93fe6bb81619f03236533ca66277487af91b520d13"
+          }
+        },
+        {
+          "type": "single",
+          "title": "Type 5",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/jp_type5_escortboat.png",
+          "br": "1.7",
+          "rp": 5900,
+          "sp": 6300,
+          "data_unit_id": "jp_type5_escortboat",
+          "required_unit_id": "jp_t14_class_mod02",
+          "selected": false,
+          "class_name": "",
+          "details": true,
+          "rank": "I",
+          "research_country": "Japan",
+          "main_role": "Heavy boat",
+          "is_component": false,
+          "component_of": null,
+          "is_premium": false,
+          "is_squadron": false,
+          "wiki": {
+            "url": "https://wiki.warthunder.com/unit/jp_type5_escortboat",
+            "rank": "I",
+            "battle_rating_context": "default",
+            "battle_ratings": {
+              "AB": "1.7",
+              "RB": "1.7"
+            },
+            "battle_ratings_by_battle": {
+              "default": {
+                "AB": "1.7",
+                "RB": "1.7"
+              }
+            },
+            "research": "5,900",
+            "purchase": "6,300",
+            "purchase_currency": "SL",
+            "status": null,
+            "fetched_at": "2026-09-19T06:33:02.327Z",
+            "sha256": "abc8ee99aa10a70c846849226676992dba2b0408494ffeacf51e8b578a03a263"
+          }
+        }
+      ],
+      [
+        {
+          "type": "single",
+          "title": "Type T-1",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/jp_type_t1_1941.png",
+          "br": "1.0",
+          "rp": 2900,
+          "sp": 700,
+          "data_unit_id": "jp_type_t1_1941",
+          "required_unit_id": "",
+          "selected": false,
+          "class_name": "",
+          "details": true,
+          "rank": "I",
+          "research_country": "Japan",
+          "main_role": "Boat",
+          "is_component": false,
+          "component_of": null,
+          "is_premium": false,
+          "is_squadron": false,
+          "wiki": {
+            "url": "https://wiki.warthunder.com/unit/jp_type_t1_1941",
+            "rank": "I",
+            "battle_rating_context": "default",
+            "battle_ratings": {
+              "AB": "1.0",
+              "RB": "1.0"
+            },
+            "battle_ratings_by_battle": {
+              "default": {
+                "AB": "1.0",
+                "RB": "1.0"
+              }
+            },
+            "research": "2,900",
+            "purchase": "700",
+            "purchase_currency": "SL",
+            "status": null,
+            "fetched_at": "2026-09-19T06:33:02.780Z",
+            "sha256": "99fcd4f9ef35327419622cd31ab5f6dc1e0ce978976b146dadb789db235cda52"
+          }
+        },
+        {
+          "type": "single",
+          "title": "Soukou-Tei",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/jp_abtei_pr1.png",
+          "br": "1.0",
+          "rp": 4000,
+          "sp": 2100,
+          "data_unit_id": "jp_abtei_pr1",
+          "required_unit_id": "jp_type_t1_1941",
+          "selected": false,
+          "class_name": "",
+          "details": true,
+          "rank": "I",
+          "research_country": "Japan",
+          "main_role": "Heavy boat",
+          "is_component": false,
+          "component_of": null,
+          "is_premium": false,
+          "is_squadron": false,
+          "wiki": {
+            "url": "https://wiki.warthunder.com/unit/jp_abtei_pr1",
+            "rank": "I",
+            "battle_rating_context": "default",
+            "battle_ratings": {
+              "AB": "1.0",
+              "RB": "1.0"
+            },
+            "battle_ratings_by_battle": {
+              "default": {
+                "AB": "1.0",
+                "RB": "1.0"
+              }
+            },
+            "research": "4,000",
+            "purchase": "2,100",
+            "purchase_currency": "SL",
+            "status": null,
+            "fetched_at": "2026-09-19T06:32:59.365Z",
+            "sha256": "e180942c50db8607ed1004e6b1394f36a77f337143416ef2a0aa33f6cbcccad1"
+          }
+        }
+      ]
+    ],
+    "premium_vehicles": [
+      [
+        {
+          "type": "single",
+          "title": "Type T-14 (mod. 1)",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/jp_t14_class_mod01.png",
+          "br": "1.0",
+          "rp": 0,
+          "sp": 0,
+          "data_unit_id": "jp_t14_class_mod01",
+          "required_unit_id": "",
+          "selected": false,
+          "class_name": "prem",
+          "details": true,
+          "rank": "I",
+          "research_country": "Japan",
+          "main_role": "Boat",
+          "is_component": false,
+          "component_of": null,
+          "is_premium": true,
+          "is_squadron": false,
+          "wiki": {
+            "url": "https://wiki.warthunder.com/unit/jp_t14_class_mod01",
+            "rank": "I",
+            "battle_rating_context": "default",
+            "battle_ratings": {
+              "AB": "1.0",
+              "RB": "1.0"
+            },
+            "battle_ratings_by_battle": {
+              "default": {
+                "AB": "1.0",
+                "RB": "1.0"
+              }
+            },
+            "research": null,
+            "purchase": "250",
+            "purchase_currency": "GE",
+            "status": "Premium vehicle",
+            "fetched_at": "2026-09-19T06:33:01.817Z",
+            "sha256": "728c034d9dffed12037b73b86be5a3b8abf8c8faeb01624e2ca64f846d69f1f6"
+          }
+        }
+      ]
+    ],
+    "selected": [],
+    "unlock_quantity": null,
+    "source": "wiki"
+  },
+  {
+    "rank": "II",
+    "researchable_vehicles": [
+      [
+        {
+          "type": "single",
+          "title": "JDS Ujishima (MSC-655)",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/jp_ujishima_msc.png",
+          "br": "1.7",
+          "rp": 7900,
+          "sp": 10000,
+          "data_unit_id": "jp_ujishima_msc",
+          "required_unit_id": "jp_type5_escortboat",
+          "selected": false,
+          "class_name": "",
+          "details": true,
+          "rank": "II",
+          "research_country": "Japan",
+          "main_role": "Heavy boat",
+          "is_component": false,
+          "component_of": null,
+          "is_premium": false,
+          "is_squadron": false,
+          "wiki": {
+            "url": "https://wiki.warthunder.com/unit/jp_ujishima_msc",
+            "rank": "II",
+            "battle_rating_context": "default",
+            "battle_ratings": {
+              "AB": "1.7",
+              "RB": "1.7"
+            },
+            "battle_ratings_by_battle": {
+              "default": {
+                "AB": "1.7",
+                "RB": "1.7"
+              }
+            },
+            "research": "7,900",
+            "purchase": "10,000",
+            "purchase_currency": "SL",
+            "status": null,
+            "fetched_at": "2026-09-19T06:33:02.809Z",
+            "sha256": "a8c6dcf2f7cfe7d17820800d3b1677a1ecd7d70bb9996ac73e00df192d0035f2"
+          }
+        },
+        {
+          "type": "single",
+          "title": "Type 4 (mod. 2)",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/jp_karotei_type2.png",
+          "br": "1.7",
+          "rp": 9200,
+          "sp": 16000,
+          "data_unit_id": "jp_karotei_type2",
+          "required_unit_id": "jp_ujishima_msc",
+          "selected": false,
+          "class_name": "",
+          "details": true,
+          "rank": "II",
+          "research_country": "Japan",
+          "main_role": "Boat",
+          "is_component": false,
+          "component_of": null,
+          "is_premium": false,
+          "is_squadron": false,
+          "wiki": {
+            "url": "https://wiki.warthunder.com/unit/jp_karotei_type2",
+            "rank": "II",
+            "battle_rating_context": "default",
+            "battle_ratings": {
+              "AB": "1.7",
+              "RB": "1.7"
+            },
+            "battle_ratings_by_battle": {
+              "default": {
+                "AB": "1.7",
+                "RB": "1.7"
+              }
+            },
+            "research": "9,200",
+            "purchase": "16,000",
+            "purchase_currency": "SL",
+            "status": null,
+            "fetched_at": "2026-09-19T06:33:00.509Z",
+            "sha256": "de8fdc7af36f0c3e466698f611c3acd3a323d24e894ae46ede93819739f1df78"
+          }
+        },
+        {
+          "type": "single",
+          "title": "Ha-Go (mod. 1)",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/jp_sehatei_mod1.png",
+          "br": "1.7",
+          "rp": 14000,
+          "sp": 32000,
+          "data_unit_id": "jp_sehatei_mod1",
+          "required_unit_id": "jp_karotei_type2",
+          "selected": false,
+          "class_name": "",
+          "details": true,
+          "rank": "II",
+          "research_country": "Japan",
+          "main_role": "Boat",
+          "is_component": false,
+          "component_of": null,
+          "is_premium": false,
+          "is_squadron": false,
+          "wiki": {
+            "url": "https://wiki.warthunder.com/unit/jp_sehatei_mod1",
+            "rank": "II",
+            "battle_rating_context": "default",
+            "battle_ratings": {
+              "AB": "1.7",
+              "RB": "1.7"
+            },
+            "battle_ratings_by_battle": {
+              "default": {
+                "AB": "1.7",
+                "RB": "1.7"
+              }
+            },
+            "research": "14,000",
+            "purchase": "32,000",
+            "purchase_currency": "SL",
+            "status": null,
+            "fetched_at": "2026-09-19T06:33:01.625Z",
+            "sha256": "d2571e2cb2b80337f3f74a59a80370c30728e54222635c859943effd008663aa"
+          }
+        }
+      ],
+      [
+        {
+          "type": "single",
+          "title": "Soukou-Tei No.4",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/jp_abtei_pr4.png",
+          "br": "1.3",
+          "rp": 7900,
+          "sp": 10000,
+          "data_unit_id": "jp_abtei_pr4",
+          "required_unit_id": "jp_abtei_pr1",
+          "selected": false,
+          "class_name": "",
+          "details": true,
+          "rank": "II",
+          "research_country": "Japan",
+          "main_role": "Heavy boat",
+          "is_component": false,
+          "component_of": null,
+          "is_premium": false,
+          "is_squadron": false,
+          "wiki": {
+            "url": "https://wiki.warthunder.com/unit/jp_abtei_pr4",
+            "rank": "II",
+            "battle_rating_context": "default",
+            "battle_ratings": {
+              "AB": "1.3",
+              "RB": "1.3"
+            },
+            "battle_ratings_by_battle": {
+              "default": {
+                "AB": "1.3",
+                "RB": "1.3"
+              }
+            },
+            "research": "7,900",
+            "purchase": "10,000",
+            "purchase_currency": "SL",
+            "status": null,
+            "fetched_at": "2026-09-19T06:32:59.527Z",
+            "sha256": "f743167d748344bca4b2fbed5fda2ca6240fac3a0b871c93309271d960f05d13"
+          }
+        },
+        {
+          "type": "single",
+          "title": "Type T-38",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/jp_type38_1944.png",
+          "br": "1.7",
+          "rp": 11000,
+          "sp": 22000,
+          "data_unit_id": "jp_type38_1944",
+          "required_unit_id": "jp_abtei_pr4",
+          "selected": false,
+          "class_name": "",
+          "details": true,
+          "rank": "II",
+          "research_country": "Japan",
+          "main_role": "Boat",
+          "is_component": false,
+          "component_of": null,
+          "is_premium": false,
+          "is_squadron": false,
+          "wiki": {
+            "url": "https://wiki.warthunder.com/unit/jp_type38_1944",
+            "rank": "II",
+            "battle_rating_context": "default",
+            "battle_ratings": {
+              "AB": "1.7",
+              "RB": "1.7"
+            },
+            "battle_ratings_by_battle": {
+              "default": {
+                "AB": "1.7",
+                "RB": "1.7"
+              }
+            },
+            "research": "11,000",
+            "purchase": "22,000",
+            "purchase_currency": "SL",
+            "status": null,
+            "fetched_at": "2026-09-19T06:33:02.213Z",
+            "sha256": "6594ebe1b94893a95fb1dff9b2de4680fc8db778e7ec878e55fb588366e5ad30"
+          }
+        },
+        {
+          "type": "single",
+          "title": "PT-802",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/jp_type1_pt2.png",
+          "br": "2.0",
+          "rp": 14000,
+          "sp": 32000,
+          "data_unit_id": "jp_type1_pt2",
+          "required_unit_id": "jp_type38_1944",
+          "selected": false,
+          "class_name": "",
+          "details": true,
+          "rank": "II",
+          "research_country": "Japan",
+          "main_role": "Boat",
+          "is_component": false,
+          "component_of": null,
+          "is_premium": false,
+          "is_squadron": false,
+          "wiki": {
+            "url": "https://wiki.warthunder.com/unit/jp_type1_pt2",
+            "rank": "II",
+            "battle_rating_context": "default",
+            "battle_ratings": {
+              "AB": "2.0",
+              "RB": "2.0"
+            },
+            "battle_ratings_by_battle": {
+              "default": {
+                "AB": "2.0",
+                "RB": "2.0"
+              }
+            },
+            "research": "14,000",
+            "purchase": "32,000",
+            "purchase_currency": "SL",
+            "status": null,
+            "fetched_at": "2026-09-19T06:33:02.276Z",
+            "sha256": "39d2a2e92924ed3fe9028d7ee7abefa0ea0fe2716920aa2f4e85891416b91b76"
+          }
+        }
+      ]
+    ],
+    "premium_vehicles": [
+      [
+        {
+          "type": "single",
+          "title": "Type K-8 No.13",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/jp_kusen_tei_13_1942.png",
+          "br": "2.3",
+          "rp": 0,
+          "sp": 0,
+          "data_unit_id": "jp_kusen_tei_13_1942",
+          "required_unit_id": "",
+          "selected": false,
+          "class_name": "prem",
+          "details": true,
+          "rank": "II",
+          "research_country": "Japan",
+          "main_role": "Heavy boat",
+          "is_component": false,
+          "component_of": null,
+          "is_premium": true,
+          "is_squadron": false,
+          "wiki": {
+            "url": "https://wiki.warthunder.com/unit/jp_kusen_tei_13_1942",
+            "rank": "II",
+            "battle_rating_context": "default",
+            "battle_ratings": {
+              "AB": "2.3",
+              "RB": "2.3"
+            },
+            "battle_ratings_by_battle": {
+              "default": {
+                "AB": "2.3",
+                "RB": "2.3"
+              }
+            },
+            "research": null,
+            "purchase": null,
+            "purchase_currency": null,
+            "status": "Premium vehicle",
+            "fetched_at": "2026-09-19T06:33:00.911Z",
+            "sha256": "92d1d275177c9d9609c5e4e82e7d23093e67963beffcb25d20b24d7f941cf019"
+          }
+        },
+        {
+          "type": "single",
+          "title": "Type 4 (mod. 4)",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/jp_karotei_type4.png",
+          "br": "1.7",
+          "rp": 0,
+          "sp": 0,
+          "data_unit_id": "jp_karotei_type4",
+          "required_unit_id": "",
+          "selected": false,
+          "class_name": "prem",
+          "details": true,
+          "rank": "II",
+          "research_country": "Japan",
+          "main_role": "Boat",
+          "is_component": false,
+          "component_of": null,
+          "is_premium": true,
+          "is_squadron": false,
+          "wiki": {
+            "url": "https://wiki.warthunder.com/unit/jp_karotei_type4",
+            "rank": "II",
+            "battle_rating_context": "default",
+            "battle_ratings": {
+              "AB": "1.7",
+              "RB": "1.7"
+            },
+            "battle_ratings_by_battle": {
+              "default": {
+                "AB": "1.7",
+                "RB": "1.7"
+              }
+            },
+            "research": null,
+            "purchase": "850",
+            "purchase_currency": "GE",
+            "status": "Premium vehicle",
+            "fetched_at": "2026-09-19T06:33:00.909Z",
+            "sha256": "dd8e8fbc63b09fe11952fb90fd390d0ed0051df533c0d9319c63abb4074d19e9"
+          }
+        }
+      ]
+    ],
+    "selected": [],
+    "unlock_quantity": null,
+    "source": "wiki"
+  },
+  {
+    "rank": "III",
+    "researchable_vehicles": [
+      [
+        {
+          "type": "single",
+          "title": "Type K-8 No.13 late",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/jp_kusen_tei_13_1944.png",
+          "br": "2.3",
+          "rp": 18000,
+          "sp": 47000,
+          "data_unit_id": "jp_kusen_tei_13_1944",
+          "required_unit_id": "jp_sehatei_mod1",
+          "selected": false,
+          "class_name": "",
+          "details": true,
+          "rank": "III",
+          "research_country": "Japan",
+          "main_role": "Heavy boat",
+          "is_component": false,
+          "component_of": null,
+          "is_premium": false,
+          "is_squadron": false,
+          "wiki": {
+            "url": "https://wiki.warthunder.com/unit/jp_kusen_tei_13_1944",
+            "rank": "III",
+            "battle_rating_context": "default",
+            "battle_ratings": {
+              "AB": "2.3",
+              "RB": "2.3"
+            },
+            "battle_ratings_by_battle": {
+              "default": {
+                "AB": "2.3",
+                "RB": "2.3"
+              }
+            },
+            "research": "18,000",
+            "purchase": "47,000",
+            "purchase_currency": "SL",
+            "status": null,
+            "fetched_at": "2026-09-19T06:33:01.057Z",
+            "sha256": "9882bb5bb2e4918efae02a8bd94484d796746f5d4a50c0fe2cc8199870752a02"
+          }
+        },
+        {
+          "type": "single",
+          "title": "Type T-51b",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/jp_t51b.png",
+          "br": "2.3",
+          "rp": 36000,
+          "sp": 115000,
+          "data_unit_id": "jp_t51b",
+          "required_unit_id": "jp_kusen_tei_13_1944",
+          "selected": false,
+          "class_name": "",
+          "details": true,
+          "rank": "III",
+          "research_country": "Japan",
+          "main_role": "Boat",
+          "is_component": false,
+          "component_of": null,
+          "is_premium": false,
+          "is_squadron": false,
+          "wiki": {
+            "url": "https://wiki.warthunder.com/unit/jp_t51b",
+            "rank": "III",
+            "battle_rating_context": "default",
+            "battle_ratings": {
+              "AB": "2.3",
+              "RB": "2.3"
+            },
+            "battle_ratings_by_battle": {
+              "default": {
+                "AB": "2.3",
+                "RB": "2.3"
+              }
+            },
+            "research": "36,000",
+            "purchase": "115,000",
+            "purchase_currency": "SL",
+            "status": null,
+            "fetched_at": "2026-09-19T06:33:02.093Z",
+            "sha256": "20544b967cf3510233c14c5c9983d00ca7e93a1dfdb76bfc85c7c59fd571a1b5"
+          }
+        },
+        {
+          "type": "single",
+          "title": "Kari",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/jp_pc301_kari_class.png",
+          "br": "3.0",
+          "rp": 48000,
+          "sp": 180000,
+          "data_unit_id": "jp_pc301_kari_class",
+          "required_unit_id": "jp_t51b",
+          "selected": false,
+          "class_name": "",
+          "details": true,
+          "rank": "III",
+          "research_country": "Japan",
+          "main_role": "Heavy boat",
+          "is_component": false,
+          "component_of": null,
+          "is_premium": false,
+          "is_squadron": false,
+          "wiki": {
+            "url": "https://wiki.warthunder.com/unit/jp_pc301_kari_class",
+            "rank": "III",
+            "battle_rating_context": "default",
+            "battle_ratings": {
+              "AB": "3.0",
+              "RB": "3.0"
+            },
+            "battle_ratings_by_battle": {
+              "default": {
+                "AB": "3.0",
+                "RB": "3.0"
+              }
+            },
+            "research": "48,000",
+            "purchase": "180,000",
+            "purchase_currency": "SL",
+            "status": null,
+            "fetched_at": "2026-09-19T06:33:01.371Z",
+            "sha256": "ebeecdff7bf14bdcb87027875b4879ecfcbe35bcb6638d5f48d254b04fddade9"
+          }
+        }
+      ],
+      [
+        {
+          "type": "single",
+          "title": "Type K-3 No.1",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/jp_no1_ch2.png",
+          "br": "3.0",
+          "rp": 26000,
+          "sp": 76000,
+          "data_unit_id": "jp_no1_ch2",
+          "required_unit_id": "jp_type1_pt2",
+          "selected": false,
+          "class_name": "",
+          "details": true,
+          "rank": "III",
+          "research_country": "Japan",
+          "main_role": "Heavy boat",
+          "is_component": false,
+          "component_of": null,
+          "is_premium": false,
+          "is_squadron": false,
+          "wiki": {
+            "url": "https://wiki.warthunder.com/unit/jp_no1_ch2",
+            "rank": "III",
+            "battle_rating_context": "default",
+            "battle_ratings": {
+              "AB": "3.0",
+              "RB": "3.0"
+            },
+            "battle_ratings_by_battle": {
+              "default": {
+                "AB": "3.0",
+                "RB": "3.0"
+              }
+            },
+            "research": "26,000",
+            "purchase": "76,000",
+            "purchase_currency": "SL",
+            "status": null,
+            "fetched_at": "2026-09-19T06:33:01.126Z",
+            "sha256": "a0128e993b3f262514a116f9aa1e96cc33efd354f812bfa8de890f4e0315e7d8"
+          }
+        },
+        {
+          "type": "single",
+          "title": "Type K-7 No.4",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/jp_no4_ch8.png",
+          "br": "3.0",
+          "rp": 36000,
+          "sp": 115000,
+          "data_unit_id": "jp_no4_ch8",
+          "required_unit_id": "jp_no1_ch2",
+          "selected": false,
+          "class_name": "",
+          "details": true,
+          "rank": "III",
+          "research_country": "Japan",
+          "main_role": "Heavy boat",
+          "is_component": false,
+          "component_of": null,
+          "is_premium": false,
+          "is_squadron": false,
+          "wiki": {
+            "url": "https://wiki.warthunder.com/unit/jp_no4_ch8",
+            "rank": "III",
+            "battle_rating_context": "default",
+            "battle_ratings": {
+              "AB": "3.0",
+              "RB": "3.0"
+            },
+            "battle_ratings_by_battle": {
+              "default": {
+                "AB": "3.0",
+                "RB": "3.0"
+              }
+            },
+            "research": "36,000",
+            "purchase": "115,000",
+            "purchase_currency": "SL",
+            "status": null,
+            "fetched_at": "2026-09-19T06:33:01.384Z",
+            "sha256": "85cc5f67b861155aa09c0f243802abfaba07277d6cc8e44d30abf12c225f3107"
+          }
+        },
+        {
+          "type": "single",
+          "title": "PT-808",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/jp_type7_pt808.png",
+          "br": "3.3",
+          "rp": 61000,
+          "sp": 230000,
+          "data_unit_id": "jp_type7_pt808",
+          "required_unit_id": "jp_no4_ch8",
+          "selected": false,
+          "class_name": "",
+          "details": true,
+          "rank": "III",
+          "research_country": "Japan",
+          "main_role": "Boat",
+          "is_component": false,
+          "component_of": null,
+          "is_premium": false,
+          "is_squadron": false,
+          "wiki": {
+            "url": "https://wiki.warthunder.com/unit/jp_type7_pt808",
+            "rank": "III",
+            "battle_rating_context": "default",
+            "battle_ratings": {
+              "AB": "3.3",
+              "RB": "3.3"
+            },
+            "battle_ratings_by_battle": {
+              "default": {
+                "AB": "3.3",
+                "RB": "3.3"
+              }
+            },
+            "research": "61,000",
+            "purchase": "230,000",
+            "purchase_currency": "SL",
+            "status": null,
+            "fetched_at": "2026-09-19T06:33:02.355Z",
+            "sha256": "5a34239124b11a718a4554cfe7396ac1fd09f7a0d1457b939006c5052891b6eb"
+          }
+        }
+      ]
+    ],
+    "premium_vehicles": [
+      [
+        {
+          "type": "single",
+          "title": "PT-809",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/jp_type9_pt809.png",
+          "br": "2.3",
+          "rp": 0,
+          "sp": 0,
+          "data_unit_id": "jp_type9_pt809",
+          "required_unit_id": "",
+          "selected": false,
+          "class_name": "prem",
+          "details": true,
+          "rank": "III",
+          "research_country": "Japan",
+          "main_role": "Boat",
+          "is_component": false,
+          "component_of": null,
+          "is_premium": true,
+          "is_squadron": false,
+          "wiki": {
+            "url": "https://wiki.warthunder.com/unit/jp_type9_pt809",
+            "rank": "III",
+            "battle_rating_context": "default",
+            "battle_ratings": {
+              "AB": "2.3",
+              "RB": "2.3"
+            },
+            "battle_ratings_by_battle": {
+              "default": {
+                "AB": "2.3",
+                "RB": "2.3"
+              }
+            },
+            "research": null,
+            "purchase": "1,600",
+            "purchase_currency": "GE",
+            "status": "Premium vehicle",
+            "fetched_at": "2026-09-19T06:33:02.733Z",
+            "sha256": "c0015f0405f633c949feccf8d33cc66271ca9a441aecf52c1adbbf128f3810b8"
+          }
+        },
+        {
+          "type": "single",
+          "title": "Type T-51a",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/jp_t51a.png",
+          "br": "2.3",
+          "rp": 0,
+          "sp": 0,
+          "data_unit_id": "jp_t51a",
+          "required_unit_id": "",
+          "selected": false,
+          "class_name": "prem",
+          "details": true,
+          "rank": "III",
+          "research_country": "Japan",
+          "main_role": "Boat",
+          "is_component": false,
+          "component_of": null,
+          "is_premium": true,
+          "is_squadron": false,
+          "wiki": {
+            "url": "https://wiki.warthunder.com/unit/jp_t51a",
+            "rank": "III",
+            "battle_rating_context": "default",
+            "battle_ratings": {
+              "AB": "2.3",
+              "RB": "2.3"
+            },
+            "battle_ratings_by_battle": {
+              "default": {
+                "AB": "2.3",
+                "RB": "2.3"
+              }
+            },
+            "research": null,
+            "purchase": null,
+            "purchase_currency": null,
+            "status": "Premium vehicle",
+            "fetched_at": "2026-09-19T06:33:01.961Z",
+            "sha256": "83cd0e81813852cd449fe0922f812ed6850d6137388df42598258cf964cf34b6"
+          }
+        }
+      ]
+    ],
+    "selected": [],
+    "unlock_quantity": null,
+    "source": "wiki"
+  },
+  {
+    "rank": "IV",
+    "researchable_vehicles": [
+      [
+        {
+          "type": "single",
+          "title": "PT-15",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/jp_type_11_pt_15.png",
+          "br": "3.3",
+          "rp": 75000,
+          "sp": 250000,
+          "data_unit_id": "jp_type_11_pt_15",
+          "required_unit_id": "jp_pc301_kari_class",
+          "selected": false,
+          "class_name": "",
+          "details": true,
+          "rank": "IV",
+          "research_country": "Japan",
+          "main_role": "Boat",
+          "is_component": false,
+          "component_of": null,
+          "is_premium": false,
+          "is_squadron": false,
+          "wiki": {
+            "url": "https://wiki.warthunder.com/unit/jp_type_11_pt_15",
+            "rank": "IV",
+            "battle_rating_context": "default",
+            "battle_ratings": {
+              "AB": "3.3",
+              "RB": "3.3"
+            },
+            "battle_ratings_by_battle": {
+              "default": {
+                "AB": "3.3",
+                "RB": "3.3"
+              }
+            },
+            "research": "75,000",
+            "purchase": "250,000",
+            "purchase_currency": "SL",
+            "status": null,
+            "fetched_at": "2026-09-19T06:33:02.668Z",
+            "sha256": "65460b9ee7042aaaa15b4465fe7f5471b21e6d701ebe582f7bb042cf516e6ae4"
+          }
+        },
+        {
+          "type": "single",
+          "title": "Ikazuchi",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/jp_escort_ikazuchi_class.png",
+          "br": "3.3",
+          "rp": 120000,
+          "sp": 360000,
+          "data_unit_id": "jp_escort_ikazuchi_class",
+          "required_unit_id": "jp_type_11_pt_15",
+          "selected": false,
+          "class_name": "",
+          "details": true,
+          "rank": "IV",
+          "research_country": "Japan",
+          "main_role": "Frigate",
+          "is_component": false,
+          "component_of": null,
+          "is_premium": false,
+          "is_squadron": false,
+          "wiki": {
+            "url": "https://wiki.warthunder.com/unit/jp_escort_ikazuchi_class",
+            "rank": "IV",
+            "battle_rating_context": "default",
+            "battle_ratings": {
+              "AB": "3.3",
+              "RB": "3.3"
+            },
+            "battle_ratings_by_battle": {
+              "default": {
+                "AB": "3.3",
+                "RB": "3.3"
+              }
+            },
+            "research": "120,000",
+            "purchase": "360,000",
+            "purchase_currency": "SL",
+            "status": null,
+            "fetched_at": "2026-09-19T06:33:00.639Z",
+            "sha256": "9f75be0732ba3ff126f28f964d3085ecc4e4534a0989d42170692fb69409c41a"
+          }
+        }
+      ],
+      [
+        {
+          "type": "single",
+          "title": "Chikugo",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/jp_escort_chikugo_class.png",
+          "br": "3.3",
+          "rp": 120000,
+          "sp": 360000,
+          "data_unit_id": "jp_escort_chikugo_class",
+          "required_unit_id": "jp_type7_pt808",
+          "selected": false,
+          "class_name": "",
+          "details": true,
+          "rank": "IV",
+          "research_country": "Japan",
+          "main_role": "Frigate",
+          "is_component": false,
+          "component_of": null,
+          "is_premium": false,
+          "is_squadron": false,
+          "wiki": {
+            "url": "https://wiki.warthunder.com/unit/jp_escort_chikugo_class",
+            "rank": "IV",
+            "battle_rating_context": "default",
+            "battle_ratings": {
+              "AB": "3.3",
+              "RB": "3.3"
+            },
+            "battle_ratings_by_battle": {
+              "default": {
+                "AB": "3.3",
+                "RB": "3.3"
+              }
+            },
+            "research": "120,000",
+            "purchase": "360,000",
+            "purchase_currency": "SL",
+            "status": null,
+            "fetched_at": "2026-09-19T06:33:00.064Z",
+            "sha256": "225867541b3036f65428c51991ca7fb8cae50da72b2f4f01ce0277f721bbf130"
+          }
+        }
+      ]
+    ],
+    "premium_vehicles": [
+      [
+        {
+          "type": "single",
+          "title": "Akebono",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/jp_escort_akebono_class.png",
+          "br": "3.3",
+          "rp": 0,
+          "sp": 0,
+          "data_unit_id": "jp_escort_akebono_class",
+          "required_unit_id": "",
+          "selected": false,
+          "class_name": "prem",
+          "details": true,
+          "rank": "IV",
+          "research_country": "Japan",
+          "main_role": "Frigate",
+          "is_component": false,
+          "component_of": null,
+          "is_premium": true,
+          "is_squadron": false,
+          "wiki": {
+            "url": "https://wiki.warthunder.com/unit/jp_escort_akebono_class",
+            "rank": "IV",
+            "battle_rating_context": "default",
+            "battle_ratings": {
+              "AB": "3.3",
+              "RB": "3.3"
+            },
+            "battle_ratings_by_battle": {
+              "default": {
+                "AB": "3.3",
+                "RB": "3.3"
+              }
+            },
+            "research": null,
+            "purchase": "2,980",
+            "purchase_currency": "GE",
+            "status": "Premium vehicle",
+            "fetched_at": "2026-09-19T06:32:59.783Z",
+            "sha256": "6c86c1c9b18ac4a1f2c004b6b25ca2994a88eb20cf34867bf93fd0eb53064da8"
+          }
+        },
+        {
+          "type": "single",
+          "title": "PG 02",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/jp_pg02.png",
+          "br": "3.3",
+          "rp": 0,
+          "sp": 0,
+          "data_unit_id": "jp_pg02",
+          "required_unit_id": "",
+          "selected": false,
+          "class_name": "prem",
+          "details": true,
+          "rank": "IV",
+          "research_country": "Japan",
+          "main_role": "Heavy boat",
+          "is_component": false,
+          "component_of": null,
+          "is_premium": true,
+          "is_squadron": false,
+          "wiki": {
+            "url": "https://wiki.warthunder.com/unit/jp_pg02",
+            "rank": "IV",
+            "battle_rating_context": "default",
+            "battle_ratings": {
+              "AB": "3.3",
+              "RB": "3.3"
+            },
+            "battle_ratings_by_battle": {
+              "default": {
+                "AB": "3.3",
+                "RB": "3.3"
+              }
+            },
+            "research": null,
+            "purchase": "3,850",
+            "purchase_currency": "GE",
+            "status": "Premium vehicle",
+            "fetched_at": "2026-09-19T06:33:01.512Z",
+            "sha256": "f83e82da4be0379fe34189da1d3511e2ab2457020974765c95b2ce3babb22bf7"
+          }
+        }
+      ]
+    ],
+    "selected": [],
+    "unlock_quantity": null,
+    "source": "wiki"
+  },
+  {
+    "rank": "V",
+    "researchable_vehicles": [
+      [
+        {
+          "type": "single",
+          "title": "Syonan",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/jp_escort_hiburi_class_syonan.png",
+          "br": "3.3",
+          "rp": 220000,
+          "sp": 640000,
+          "data_unit_id": "jp_escort_hiburi_class_syonan",
+          "required_unit_id": "jp_escort_ikazuchi_class",
+          "selected": false,
+          "class_name": "",
+          "details": true,
+          "rank": "V",
+          "research_country": "Japan",
+          "main_role": "Frigate",
+          "is_component": false,
+          "component_of": null,
+          "is_premium": false,
+          "is_squadron": false,
+          "wiki": {
+            "url": "https://wiki.warthunder.com/unit/jp_escort_hiburi_class_syonan",
+            "rank": "V",
+            "battle_rating_context": "default",
+            "battle_ratings": {
+              "AB": "3.3",
+              "RB": "3.3"
+            },
+            "battle_ratings_by_battle": {
+              "default": {
+                "AB": "3.3",
+                "RB": "3.3"
+              }
+            },
+            "research": "220,000",
+            "purchase": "640,000",
+            "purchase_currency": "SL",
+            "status": null,
+            "fetched_at": "2026-09-19T06:33:00.647Z",
+            "sha256": "f9beaac60fa85c7546378ad02464fb6f4de90aa7a0d533038d8fc4ed21dc87ea"
+          }
+        },
+        {
+          "type": "single",
+          "title": "Asagao (YTE-01)",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/jp_yuri_class_asagao.png",
+          "br": "3.7",
+          "rp": 250000,
+          "sp": 700000,
+          "data_unit_id": "jp_yuri_class_asagao",
+          "required_unit_id": "jp_escort_hiburi_class_syonan",
+          "selected": false,
+          "class_name": "",
+          "details": true,
+          "rank": "V",
+          "research_country": "Japan",
+          "main_role": "Heavy boat",
+          "is_component": false,
+          "component_of": null,
+          "is_premium": false,
+          "is_squadron": false,
+          "wiki": {
+            "url": "https://wiki.warthunder.com/unit/jp_yuri_class_asagao",
+            "rank": "V",
+            "battle_rating_context": "default",
+            "battle_ratings": {
+              "AB": "3.7",
+              "RB": "3.7"
+            },
+            "battle_ratings_by_battle": {
+              "default": {
+                "AB": "3.7",
+                "RB": "3.7"
+              }
+            },
+            "research": "250,000",
+            "purchase": "700,000",
+            "purchase_currency": "SL",
+            "status": null,
+            "fetched_at": "2026-09-19T06:33:03.133Z",
+            "sha256": "3f16dab3e2c33909f48e941053a395c231fd989dfe06143a8609dc02d3efc365"
+          }
+        },
+        {
+          "type": "single",
+          "title": "Chidori",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/jp_destroyer_chidori.png",
+          "br": "3.7",
+          "rp": 280000,
+          "sp": 780000,
+          "data_unit_id": "jp_destroyer_chidori",
+          "required_unit_id": "jp_yuri_class_asagao",
+          "selected": false,
+          "class_name": "",
+          "details": true,
+          "rank": "V",
+          "research_country": "Japan",
+          "main_role": "Frigate",
+          "is_component": false,
+          "component_of": null,
+          "is_premium": false,
+          "is_squadron": false,
+          "wiki": {
+            "url": "https://wiki.warthunder.com/unit/jp_destroyer_chidori",
+            "rank": "V",
+            "battle_rating_context": "default",
+            "battle_ratings": {
+              "AB": "3.7",
+              "RB": "3.7"
+            },
+            "battle_ratings_by_battle": {
+              "default": {
+                "AB": "3.7",
+                "RB": "3.7"
+              }
+            },
+            "research": "280,000",
+            "purchase": "780,000",
+            "purchase_currency": "SL",
+            "status": null,
+            "fetched_at": "2026-09-19T06:32:59.607Z",
+            "sha256": "267673a49a105514d186cb79f61e1d737e3f1ed2c36649782ccef0c3584fb255"
+          }
+        }
+      ],
+      [
+        {
+          "type": "single",
+          "title": "Isuzu",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/jp_destroyer_isuzu.png",
+          "br": "3.7",
+          "rp": 280000,
+          "sp": 780000,
+          "data_unit_id": "jp_destroyer_isuzu",
+          "required_unit_id": "jp_escort_chikugo_class",
+          "selected": false,
+          "class_name": "",
+          "details": true,
+          "rank": "V",
+          "research_country": "Japan",
+          "main_role": "Frigate",
+          "is_component": false,
+          "component_of": null,
+          "is_premium": false,
+          "is_squadron": false,
+          "wiki": {
+            "url": "https://wiki.warthunder.com/unit/jp_destroyer_isuzu",
+            "rank": "V",
+            "battle_rating_context": "default",
+            "battle_ratings": {
+              "AB": "3.7",
+              "RB": "3.7"
+            },
+            "battle_ratings_by_battle": {
+              "default": {
+                "AB": "3.7",
+                "RB": "3.7"
+              }
+            },
+            "research": "280,000",
+            "purchase": "780,000",
+            "purchase_currency": "SL",
+            "status": null,
+            "fetched_at": "2026-09-19T06:32:59.784Z",
+            "sha256": "aea7518090b1ef3c0b2af1ce6cf422271b0288db3b5d4c51fba6be05d28661c2"
+          }
+        },
+        {
+          "type": "single",
+          "title": "JDS Ayanami (DD-103)",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/jp_destroyer_ayanami.png",
+          "br": "4.3",
+          "rp": 320000,
+          "sp": 860000,
+          "data_unit_id": "jp_destroyer_ayanami",
+          "required_unit_id": "jp_destroyer_isuzu",
+          "selected": false,
+          "class_name": "",
+          "details": true,
+          "rank": "V",
+          "research_country": "Japan",
+          "main_role": "Frigate",
+          "is_component": false,
+          "component_of": null,
+          "is_premium": false,
+          "is_squadron": false,
+          "wiki": {
+            "url": "https://wiki.warthunder.com/unit/jp_destroyer_ayanami",
+            "rank": "V",
+            "battle_rating_context": "default",
+            "battle_ratings": {
+              "AB": "4.3",
+              "RB": "4.3"
+            },
+            "battle_ratings_by_battle": {
+              "default": {
+                "AB": "4.3",
+                "RB": "4.3"
+              }
+            },
+            "research": "320,000",
+            "purchase": "860,000",
+            "purchase_currency": "SL",
+            "status": null,
+            "fetched_at": "2026-09-19T06:32:59.761Z",
+            "sha256": "3938b65fcb1a3b1bcd8213eeb462249504573f6b31f05205deb882309c3f4da4"
+          }
+        }
+      ]
+    ],
+    "premium_vehicles": [
+      [
+        {
+          "type": "single",
+          "title": "Shisaka",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/jp_escort_hiburi_class_shisaka.png",
+          "br": "3.3",
+          "rp": null,
+          "sp": null,
+          "data_unit_id": "jp_escort_hiburi_class_shisaka",
+          "required_unit_id": "",
+          "selected": false,
+          "class_name": "",
+          "details": true,
+          "rank": "V",
+          "research_country": "Japan",
+          "main_role": "Frigate",
+          "is_component": false,
+          "component_of": null,
+          "is_premium": false,
+          "is_squadron": false,
+          "wiki": {
+            "url": "https://wiki.warthunder.com/unit/jp_escort_hiburi_class_shisaka",
+            "rank": "V",
+            "battle_rating_context": "default",
+            "battle_ratings": {
+              "AB": "3.3",
+              "RB": "3.3"
+            },
+            "battle_ratings_by_battle": {
+              "default": {
+                "AB": "3.3",
+                "RB": "3.3"
+              }
+            },
+            "research": null,
+            "purchase": null,
+            "purchase_currency": null,
+            "status": null,
+            "fetched_at": "2026-09-19T06:33:00.649Z",
+            "sha256": "05018197386cd475f912473a7162181ed3f1f03e51501bffb867dc3ce97e73cd"
+          }
+        }
+      ]
+    ],
+    "selected": [],
+    "unlock_quantity": null,
+    "source": "wiki"
+  }
+]

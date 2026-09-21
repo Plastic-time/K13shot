@@ -1,0 +1,580 @@
+[
+  {
+    "rank": "V",
+    "researchable_vehicles": [
+      [
+        {
+          "type": "single",
+          "title": "▄H-34",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/h_34_france.png",
+          "br": "8.0",
+          "rp": 0,
+          "sp": 390000,
+          "data_unit_id": "h_34_france",
+          "required_unit_id": "",
+          "selected": false,
+          "class_name": "",
+          "details": true,
+          "rank": "V",
+          "research_country": "France",
+          "main_role": "Attack helicopter",
+          "is_component": false,
+          "component_of": null,
+          "is_premium": false,
+          "is_squadron": false,
+          "wiki": {
+            "url": "https://wiki.warthunder.com/unit/h_34_france",
+            "rank": "V",
+            "battle_rating_context": "default",
+            "battle_ratings": {
+              "AB": "8.3",
+              "RB": "8.0",
+              "SB": "8.3"
+            },
+            "battle_ratings_by_battle": {
+              "default": {
+                "AB": "8.3",
+                "RB": "8.0",
+                "SB": "8.3"
+              }
+            },
+            "research": "Free",
+            "purchase": "390,000",
+            "purchase_currency": "SL",
+            "status": null,
+            "fetched_at": "2026-09-19T06:32:06.676Z",
+            "sha256": "7a9624f1cddbf5a59af3ecd1a921aef95ede50cbe01478877cbb5aca68968575"
+          }
+        },
+        {
+          "type": "single",
+          "title": "SA 313B Alouette II",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/sa_313b_france.png",
+          "br": "8.3",
+          "rp": 150000,
+          "sp": 490000,
+          "data_unit_id": "sa_313b_france",
+          "required_unit_id": "h_34_france",
+          "selected": false,
+          "class_name": "",
+          "details": true,
+          "rank": "V",
+          "research_country": "France",
+          "main_role": "Utility helicopter",
+          "is_component": false,
+          "component_of": null,
+          "is_premium": false,
+          "is_squadron": false,
+          "wiki": {
+            "url": "https://wiki.warthunder.com/unit/sa_313b_france",
+            "rank": "V",
+            "battle_rating_context": "default",
+            "battle_ratings": {
+              "AB": "8.7",
+              "RB": "8.3",
+              "SB": "8.7"
+            },
+            "battle_ratings_by_battle": {
+              "default": {
+                "AB": "8.7",
+                "RB": "8.3",
+                "SB": "8.7"
+              }
+            },
+            "research": "150,000",
+            "purchase": "490,000",
+            "purchase_currency": "SL",
+            "status": null,
+            "fetched_at": "2026-09-19T06:32:06.795Z",
+            "sha256": "3519441e31028feacbd5fadd61d204f69d212712da5f918e625365add5e46457"
+          }
+        }
+      ],
+      [
+        {
+          "type": "single",
+          "title": "SA 316B Alouette III",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/sa_316b.png",
+          "br": "8.3",
+          "rp": 150000,
+          "sp": 490000,
+          "data_unit_id": "sa_316b",
+          "required_unit_id": "h_34_france",
+          "selected": false,
+          "class_name": "",
+          "details": true,
+          "rank": "V",
+          "research_country": "France",
+          "main_role": "Utility helicopter",
+          "is_component": false,
+          "component_of": null,
+          "is_premium": false,
+          "is_squadron": false,
+          "wiki": {
+            "url": "https://wiki.warthunder.com/unit/sa_316b",
+            "rank": "V",
+            "battle_rating_context": "default",
+            "battle_ratings": {
+              "AB": "8.7",
+              "RB": "8.3",
+              "SB": "9.0"
+            },
+            "battle_ratings_by_battle": {
+              "default": {
+                "AB": "8.7",
+                "RB": "8.3",
+                "SB": "9.0"
+              }
+            },
+            "research": "150,000",
+            "purchase": "490,000",
+            "purchase_currency": "SL",
+            "status": null,
+            "fetched_at": "2026-09-19T06:32:06.847Z",
+            "sha256": "b0c35128e76fea94984ece41041897341b7e02658280e21394fb02829bd11a88"
+          }
+        }
+      ]
+    ],
+    "premium_vehicles": [
+      [
+        {
+          "type": "single",
+          "title": "IAR 316B",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/iar_316b.png",
+          "br": "8.3",
+          "rp": 0,
+          "sp": 0,
+          "data_unit_id": "iar_316b",
+          "required_unit_id": "",
+          "selected": false,
+          "class_name": "prem",
+          "details": true,
+          "rank": "V",
+          "research_country": "France",
+          "main_role": "Utility helicopter",
+          "is_component": false,
+          "component_of": null,
+          "is_premium": true,
+          "is_squadron": false,
+          "wiki": {
+            "url": "https://wiki.warthunder.com/unit/iar_316b",
+            "rank": "V",
+            "battle_rating_context": "default",
+            "battle_ratings": {
+              "AB": "8.7",
+              "RB": "8.3",
+              "SB": "9.3"
+            },
+            "battle_ratings_by_battle": {
+              "default": {
+                "AB": "8.7",
+                "RB": "8.3",
+                "SB": "9.3"
+              }
+            },
+            "research": null,
+            "purchase": null,
+            "purchase_currency": null,
+            "status": "Premium vehicle",
+            "fetched_at": "2026-09-19T06:32:06.654Z",
+            "sha256": "dab682ce6e2e1afea4fe77eddfedfcf741e326b2d5f94828f1e1de1b4d8f292a"
+          }
+        }
+      ]
+    ],
+    "selected": [],
+    "unlock_quantity": null,
+    "source": "wiki"
+  },
+  {
+    "rank": "VI",
+    "researchable_vehicles": [
+      [],
+      [
+        {
+          "type": "single",
+          "title": "SA.341F Gazelle",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/sa_341f.png",
+          "br": "9.0",
+          "rp": 370000,
+          "sp": 990000,
+          "data_unit_id": "sa_341f",
+          "required_unit_id": "sa_316b",
+          "selected": false,
+          "class_name": "",
+          "details": true,
+          "rank": "VI",
+          "research_country": "France",
+          "main_role": "Utility helicopter",
+          "is_component": false,
+          "component_of": null,
+          "is_premium": false,
+          "is_squadron": false,
+          "wiki": {
+            "url": "https://wiki.warthunder.com/unit/sa_341f",
+            "rank": "VI",
+            "battle_rating_context": "default",
+            "battle_ratings": {
+              "AB": "9.0",
+              "RB": "9.0",
+              "SB": "9.7"
+            },
+            "battle_ratings_by_battle": {
+              "default": {
+                "AB": "9.0",
+                "RB": "9.0",
+                "SB": "9.7"
+              }
+            },
+            "research": "370,000",
+            "purchase": "990,000",
+            "purchase_currency": "SL",
+            "status": null,
+            "fetched_at": "2026-09-19T06:32:06.894Z",
+            "sha256": "eb6e11826a297f35d3fcace6c47a0c1b16acffe3aa917c93dcd7495a07444c4b"
+          }
+        },
+        {
+          "type": "single",
+          "title": "SA.342M Gazelle",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/sa_342m.png",
+          "br": "9.7",
+          "rp": 380000,
+          "sp": 1000000,
+          "data_unit_id": "sa_342m",
+          "required_unit_id": "sa_341f",
+          "selected": false,
+          "class_name": "",
+          "details": true,
+          "rank": "VI",
+          "research_country": "France",
+          "main_role": "Utility helicopter",
+          "is_component": false,
+          "component_of": null,
+          "is_premium": false,
+          "is_squadron": false,
+          "wiki": {
+            "url": "https://wiki.warthunder.com/unit/sa_342m",
+            "rank": "VI",
+            "battle_rating_context": "default",
+            "battle_ratings": {
+              "AB": "9.3",
+              "RB": "9.7",
+              "SB": "9.7"
+            },
+            "battle_ratings_by_battle": {
+              "default": {
+                "AB": "9.3",
+                "RB": "9.7",
+                "SB": "9.7"
+              }
+            },
+            "research": "380,000",
+            "purchase": "1,000,000",
+            "purchase_currency": "SL",
+            "status": null,
+            "fetched_at": "2026-09-19T06:32:06.937Z",
+            "sha256": "9cb4ff200a5b664fbaafafd86a2e32b3920e74f620dfeec33139f11c02b0bf57"
+          }
+        }
+      ]
+    ],
+    "premium_vehicles": [
+      [
+        {
+          "type": "single",
+          "title": "EC-665 Tiger HAP",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/tiger_hap_france.png",
+          "br": "10.0",
+          "rp": 0,
+          "sp": 0,
+          "data_unit_id": "tiger_hap_france",
+          "required_unit_id": "",
+          "selected": false,
+          "class_name": "prem",
+          "details": true,
+          "rank": "VI",
+          "research_country": "France",
+          "main_role": "Attack helicopter",
+          "is_component": false,
+          "component_of": null,
+          "is_premium": true,
+          "is_squadron": false,
+          "wiki": {
+            "url": "https://wiki.warthunder.com/unit/tiger_hap_france",
+            "rank": "VI",
+            "battle_rating_context": "default",
+            "battle_ratings": {
+              "AB": "10.0",
+              "RB": "10.0",
+              "SB": "10.3"
+            },
+            "battle_ratings_by_battle": {
+              "default": {
+                "AB": "10.0",
+                "RB": "10.0",
+                "SB": "10.3"
+              }
+            },
+            "research": null,
+            "purchase": "7,270",
+            "purchase_currency": "GE",
+            "status": "Premium vehicle",
+            "fetched_at": "2026-09-19T06:32:07.394Z",
+            "sha256": "9264af2c491d55f99b39c1a3a23e81a4497d242bff6d1c5b7b351499405b2e0e"
+          }
+        }
+      ]
+    ],
+    "selected": [],
+    "unlock_quantity": null,
+    "source": "wiki"
+  },
+  {
+    "rank": "VII",
+    "researchable_vehicles": [
+      [
+        {
+          "type": "single",
+          "title": "◘AH-64E",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/ah_64e_netherlands.png",
+          "br": "13.0",
+          "rp": 400000,
+          "sp": 1030000,
+          "data_unit_id": "ah_64e_netherlands",
+          "required_unit_id": "tiger_had_france",
+          "selected": false,
+          "class_name": "",
+          "details": true,
+          "rank": "VII",
+          "research_country": "France",
+          "main_role": "Attack helicopter",
+          "is_component": false,
+          "component_of": null,
+          "is_premium": false,
+          "is_squadron": false,
+          "wiki": {
+            "url": "https://wiki.warthunder.com/unit/ah_64e_netherlands",
+            "rank": "VII",
+            "battle_rating_context": "default",
+            "battle_ratings": {
+              "AB": "11.0",
+              "RB": "13.0",
+              "SB": "11.0"
+            },
+            "battle_ratings_by_battle": {
+              "default": {
+                "AB": "11.0",
+                "RB": "13.0",
+                "SB": "11.0"
+              }
+            },
+            "research": "400,000",
+            "purchase": "1,030,000",
+            "purchase_currency": "SL",
+            "status": null,
+            "fetched_at": "2026-09-19T06:32:06.478Z",
+            "sha256": "8deba9066d953c4b5f6cf40d15c4d1c35fe4f1d77f884be838024547d7693fdc"
+          }
+        }
+      ],
+      [
+        {
+          "type": "multiple",
+          "title": "Tiger HAD/Tiger HAC",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/tiger_group.png",
+          "selected": false,
+          "br": "11.0-12.7",
+          "data_unit_id": "tiger_group",
+          "required_unit_id": "sa_342m",
+          "class_name": "",
+          "items": [
+            {
+              "type": "single",
+              "title": "EC-665 Tiger HAD",
+              "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/tiger_had_france.png",
+              "br": "11.0",
+              "rp": 400000,
+              "sp": 1020000,
+              "data_unit_id": "tiger_had_france",
+              "required_unit_id": "",
+              "selected": false,
+              "class_name": "",
+              "details": true,
+              "rank": "VII",
+              "research_country": "France",
+              "main_role": "Attack helicopter",
+              "is_component": false,
+              "component_of": null,
+              "is_premium": false,
+              "is_squadron": false,
+              "wiki": {
+                "url": "https://wiki.warthunder.com/unit/tiger_had_france",
+                "rank": "VII",
+                "battle_rating_context": "default",
+                "battle_ratings": {
+                  "AB": "10.7",
+                  "RB": "11.0",
+                  "SB": "10.7"
+                },
+                "battle_ratings_by_battle": {
+                  "default": {
+                    "AB": "10.7",
+                    "RB": "11.0",
+                    "SB": "10.7"
+                  }
+                },
+                "research": "400,000",
+                "purchase": "1,020,000",
+                "purchase_currency": "SL",
+                "status": null,
+                "fetched_at": "2026-09-19T06:32:07.271Z",
+                "sha256": "9370641738c177e885a47610534cdb688c3f8fd4918a074fa3a98978bd484958"
+              }
+            },
+            {
+              "type": "single",
+              "title": "EC-665 Tiger HAC",
+              "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/tiger_hac_france.png",
+              "br": "12.7",
+              "rp": 200000,
+              "sp": 1030000,
+              "data_unit_id": "tiger_hac_france",
+              "required_unit_id": "tiger_had_france",
+              "selected": false,
+              "class_name": "",
+              "details": true,
+              "rank": "VII",
+              "research_country": "France",
+              "main_role": "Attack helicopter",
+              "is_component": false,
+              "component_of": null,
+              "is_premium": false,
+              "is_squadron": false,
+              "wiki": {
+                "url": "https://wiki.warthunder.com/unit/tiger_hac_france",
+                "rank": "VII",
+                "battle_rating_context": "default",
+                "battle_ratings": {
+                  "AB": "11.0",
+                  "RB": "12.7",
+                  "SB": "11.7"
+                },
+                "battle_ratings_by_battle": {
+                  "default": {
+                    "AB": "11.0",
+                    "RB": "12.7",
+                    "SB": "11.7"
+                  }
+                },
+                "research": "200,000",
+                "purchase": "1,030,000",
+                "purchase_currency": "SL",
+                "status": null,
+                "fetched_at": "2026-09-19T06:32:07.083Z",
+                "sha256": "03b0c8a6365e0ea7d614599376c6d406714b22fa936fd982a318a3792f7626a9"
+              }
+            }
+          ],
+          "details": true,
+          "rp": 600000,
+          "sp": 2050000
+        },
+        {
+          "type": "single",
+          "title": "Tiger HAD Block 2",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/tiger_had_block2_france.png",
+          "br": "12.7",
+          "rp": 400000,
+          "sp": 1030000,
+          "data_unit_id": "tiger_had_block2_france",
+          "required_unit_id": "tiger_group",
+          "selected": false,
+          "class_name": "",
+          "details": true,
+          "rank": "VII",
+          "research_country": "France",
+          "main_role": "Attack helicopter",
+          "is_component": false,
+          "component_of": null,
+          "is_premium": false,
+          "is_squadron": false,
+          "wiki": {
+            "url": "https://wiki.warthunder.com/unit/tiger_had_block2_france",
+            "rank": "VII",
+            "battle_rating_context": "default",
+            "battle_ratings": {
+              "AB": "11.0",
+              "RB": "12.7",
+              "SB": "11.7"
+            },
+            "battle_ratings_by_battle": {
+              "default": {
+                "AB": "11.0",
+                "RB": "12.7",
+                "SB": "11.7"
+              }
+            },
+            "research": "400,000",
+            "purchase": "1,030,000",
+            "purchase_currency": "SL",
+            "status": null,
+            "fetched_at": "2026-09-19T06:32:07.197Z",
+            "sha256": "ae2335cf3956e67360a1897ef053828c227edc0bd35b192b79845430890956f4"
+          }
+        }
+      ]
+    ],
+    "premium_vehicles": [
+      [
+        {
+          "type": "single",
+          "title": "◘AH-64D",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/ah_64d_netherlands.png",
+          "br": "11.3",
+          "rp": 0,
+          "sp": 0,
+          "data_unit_id": "ah_64d_netherlands",
+          "required_unit_id": "",
+          "selected": false,
+          "class_name": "prem",
+          "details": true,
+          "rank": "VII",
+          "research_country": "France",
+          "main_role": "Attack helicopter",
+          "is_component": false,
+          "component_of": null,
+          "is_premium": true,
+          "is_squadron": false,
+          "wiki": {
+            "url": "https://wiki.warthunder.com/unit/ah_64d_netherlands",
+            "rank": "VII",
+            "battle_rating_context": "default",
+            "battle_ratings": {
+              "AB": "10.7",
+              "RB": "11.3",
+              "SB": "10.7"
+            },
+            "battle_ratings_by_battle": {
+              "default": {
+                "AB": "10.7",
+                "RB": "11.3",
+                "SB": "10.7"
+              }
+            },
+            "research": null,
+            "purchase": "9,270",
+            "purchase_currency": "GE",
+            "status": "Premium vehicle",
+            "fetched_at": "2026-09-19T06:32:06.382Z",
+            "sha256": "c8592e2c19a9cc32b53b19a844cdd19ef2a0afd19a10e09193c03ee9b9bd78be"
+          }
+        }
+      ]
+    ],
+    "selected": [],
+    "unlock_quantity": null,
+    "source": "wiki"
+  }
+]

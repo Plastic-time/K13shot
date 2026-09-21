@@ -1,0 +1,31 @@
+const assert = require('node:assert/strict');
+const fs = require('node:fs');
+const crypto = require('node:crypto');
+const { shopUnits, wikiUnits } = require('./audit-datamine-roster.cjs');
+const report = require('../docs/roster-audit.json');
+const sample = shopUnits({ range: [{ group: { showOnlyWhenBought: true, Unit_A: { rank: 2, reqAir: '' } } }] });
+assert.equal(sample.get('unit_a').showOnlyWhenBought, true);
+assert.equal(sample.size, 1);
+assert.throws(() => shopUnits({ a: { Unit: {rank: 1} }, b: { unit: {rank: 2} } }), /Duplicate/);
+assert.equal(wikiUnits({type:'multiple', data_unit_id:'group', items:[{type:'single',data_unit_id:'Unit'}]}).size, 1);
+let units = 0, candidates = 0;
+for (const [key, tree] of Object.entries(report.trees)) {
+  const [country, type] = key.split('/');
+  const raw = fs.readFileSync(`docs/database/${country}/${country}_${type}.json`);
+  assert.equal(crypto.createHash('sha256').update(raw).digest('hex'), tree.wikiSha256);
+  assert.equal(Object.keys(tree.units).length, tree.wikiCount);
+  assert(tree.candidates.every(unit => !tree.units[unit.id.toLowerCase()]));
+  units += tree.wikiCount;
+  candidates += tree.candidates.length;
+}
+assert.equal(units, 3235);
+assert.equal(report.trees['usa/ground'].units.us_m901_itv.category, 'squadron');
+assert.equal(report.schema, 2);
+assert.equal(report.trees['usa/ground'].units.us_m2a4_1st_armor_div.category, 'premium-golden-eagles');
+assert.equal(report.trees['germany/ground'].units.germ_garford_putilov.hidden, true);
+assert.equal(report.trees['china/aviation'].units.j_7d.category, 'premium-golden-eagles');
+assert.equal(report.trees['china/aviation'].units.j_7d.acquisition.currency, 'GE');
+assert.equal(report.trees['china/aviation'].units.su_30mkk.category, 'premium-pack');
+assert.match(report.trees['china/aviation'].units.su_30mkk.acquisition.storeUrl, /^https:\/\/store\.gaijin\.net\//);
+assert.equal(Object.values(report.acquisitionCounts).reduce((sum, count) => sum + count, 0), 775);
+console.log(JSON.stringify({pass:true, units, candidates}));

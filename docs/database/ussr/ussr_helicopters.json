@@ -1,0 +1,700 @@
+[
+  {
+    "rank": "V",
+    "researchable_vehicles": [
+      [
+        {
+          "type": "single",
+          "title": "Mi-8TV",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/mi_8tv.png",
+          "br": "8.0",
+          "rp": 150000,
+          "sp": 490000,
+          "data_unit_id": "mi_8tv",
+          "required_unit_id": "mi_4av",
+          "selected": false,
+          "class_name": "",
+          "details": true,
+          "rank": "V",
+          "research_country": "USSR",
+          "main_role": "Attack helicopter",
+          "is_component": false,
+          "component_of": null,
+          "is_premium": false,
+          "is_squadron": false,
+          "wiki": {
+            "url": "https://wiki.warthunder.com/unit/mi_8tv",
+            "rank": "V",
+            "battle_rating_context": "default",
+            "battle_ratings": {
+              "AB": "9.0",
+              "RB": "8.0",
+              "SB": "8.7"
+            },
+            "battle_ratings_by_battle": {
+              "default": {
+                "AB": "9.0",
+                "RB": "8.0",
+                "SB": "8.7"
+              }
+            },
+            "research": "150,000",
+            "purchase": "490,000",
+            "purchase_currency": "SL",
+            "status": null,
+            "fetched_at": "2026-09-19T06:32:02.338Z",
+            "sha256": "1b38041429406c44e0e03dcbd6f97a8edabd15b74936e6bba52d7cb9efde5962"
+          }
+        }
+      ],
+      [
+        {
+          "type": "single",
+          "title": "Mi-4AV",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/mi_4av.png",
+          "br": "8.0",
+          "rp": 0,
+          "sp": 390000,
+          "data_unit_id": "mi_4av",
+          "required_unit_id": "",
+          "selected": false,
+          "class_name": "",
+          "details": true,
+          "rank": "V",
+          "research_country": "USSR",
+          "main_role": "Attack helicopter",
+          "is_component": false,
+          "component_of": null,
+          "is_premium": false,
+          "is_squadron": false,
+          "wiki": {
+            "url": "https://wiki.warthunder.com/unit/mi_4av",
+            "rank": "V",
+            "battle_rating_context": "default",
+            "battle_ratings": {
+              "AB": "8.7",
+              "RB": "8.0",
+              "SB": "8.3"
+            },
+            "battle_ratings_by_battle": {
+              "default": {
+                "AB": "8.7",
+                "RB": "8.0",
+                "SB": "8.3"
+              }
+            },
+            "research": "Free",
+            "purchase": "390,000",
+            "purchase_currency": "SL",
+            "status": null,
+            "fetched_at": "2026-09-19T06:32:02.097Z",
+            "sha256": "c28e76fb6b1d722758c2a8118914286f92d942cce954f1135fd5f05a776dbf86"
+          }
+        },
+        {
+          "type": "single",
+          "title": "Mi-24A",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/mi_24a.png",
+          "br": "8.7",
+          "rp": 150000,
+          "sp": 490000,
+          "data_unit_id": "mi_24a",
+          "required_unit_id": "mi_4av",
+          "selected": false,
+          "class_name": "",
+          "details": true,
+          "rank": "V",
+          "research_country": "USSR",
+          "main_role": "Attack helicopter",
+          "is_component": false,
+          "component_of": null,
+          "is_premium": false,
+          "is_squadron": false,
+          "wiki": {
+            "url": "https://wiki.warthunder.com/unit/mi_24a",
+            "rank": "V",
+            "battle_rating_context": "default",
+            "battle_ratings": {
+              "AB": "9.3",
+              "RB": "8.7",
+              "SB": "9.0"
+            },
+            "battle_ratings_by_battle": {
+              "default": {
+                "AB": "9.3",
+                "RB": "8.7",
+                "SB": "9.0"
+              }
+            },
+            "research": "150,000",
+            "purchase": "490,000",
+            "purchase_currency": "SL",
+            "status": null,
+            "fetched_at": "2026-09-19T06:32:01.255Z",
+            "sha256": "4b89d8945108c69281cee90f4d158cd3891410a5f740b9d08e6e7a96a06ceccc"
+          }
+        }
+      ],
+      []
+    ],
+    "premium_vehicles": [
+      [
+        {
+          "type": "single",
+          "title": "▂Mi-24D",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/mi_24d.png",
+          "br": "8.7",
+          "rp": 0,
+          "sp": 0,
+          "data_unit_id": "mi_24d",
+          "required_unit_id": "",
+          "selected": false,
+          "class_name": "prem",
+          "details": true,
+          "rank": "V",
+          "research_country": "USSR",
+          "main_role": "Attack helicopter",
+          "is_component": false,
+          "component_of": null,
+          "is_premium": true,
+          "is_squadron": false,
+          "wiki": {
+            "url": "https://wiki.warthunder.com/unit/mi_24d",
+            "rank": "V",
+            "battle_rating_context": "default",
+            "battle_ratings": {
+              "AB": "9.3",
+              "RB": "8.7",
+              "SB": "9.3"
+            },
+            "battle_ratings_by_battle": {
+              "default": {
+                "AB": "9.3",
+                "RB": "8.7",
+                "SB": "9.3"
+              }
+            },
+            "research": null,
+            "purchase": null,
+            "purchase_currency": null,
+            "status": "Premium vehicle",
+            "fetched_at": "2026-09-19T06:32:01.568Z",
+            "sha256": "93656a80376471e7ca9468c7e0fb679a086dadfd05c5b0ff841501836450a3e4"
+          }
+        }
+      ]
+    ],
+    "selected": [],
+    "unlock_quantity": null,
+    "source": "wiki"
+  },
+  {
+    "rank": "VI",
+    "researchable_vehicles": [
+      [
+        {
+          "type": "single",
+          "title": "Mi-8AMTSh",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/mi_8amtsh.png",
+          "br": "9.7",
+          "rp": 360000,
+          "sp": 980000,
+          "data_unit_id": "mi_8amtsh",
+          "required_unit_id": "mi_8tv",
+          "selected": false,
+          "class_name": "",
+          "details": true,
+          "rank": "VI",
+          "research_country": "USSR",
+          "main_role": "Attack helicopter",
+          "is_component": false,
+          "component_of": null,
+          "is_premium": false,
+          "is_squadron": false,
+          "wiki": {
+            "url": "https://wiki.warthunder.com/unit/mi_8amtsh",
+            "rank": "VI",
+            "battle_rating_context": "default",
+            "battle_ratings": {
+              "AB": "10.0",
+              "RB": "9.7",
+              "SB": "9.7"
+            },
+            "battle_ratings_by_battle": {
+              "default": {
+                "AB": "10.0",
+                "RB": "9.7",
+                "SB": "9.7"
+              }
+            },
+            "research": "360,000",
+            "purchase": "980,000",
+            "purchase_currency": "SL",
+            "status": null,
+            "fetched_at": "2026-09-19T06:32:02.188Z",
+            "sha256": "0b3532bafe6601bab6d659d11c3a34cff971b5eaebfa5e905b4f049f5c322c2f"
+          }
+        }
+      ],
+      [
+        {
+          "type": "single",
+          "title": "Mi-24V",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/mi_24v.png",
+          "br": "9.7",
+          "rp": 360000,
+          "sp": 980000,
+          "data_unit_id": "mi_24v",
+          "required_unit_id": "mi_24a",
+          "selected": false,
+          "class_name": "",
+          "details": true,
+          "rank": "VI",
+          "research_country": "USSR",
+          "main_role": "Attack helicopter",
+          "is_component": false,
+          "component_of": null,
+          "is_premium": false,
+          "is_squadron": false,
+          "wiki": {
+            "url": "https://wiki.warthunder.com/unit/mi_24v",
+            "rank": "VI",
+            "battle_rating_context": "default",
+            "battle_ratings": {
+              "AB": "10.0",
+              "RB": "9.7",
+              "SB": "9.7"
+            },
+            "battle_ratings_by_battle": {
+              "default": {
+                "AB": "10.0",
+                "RB": "9.7",
+                "SB": "9.7"
+              }
+            },
+            "research": "360,000",
+            "purchase": "980,000",
+            "purchase_currency": "SL",
+            "status": null,
+            "fetched_at": "2026-09-19T06:32:01.749Z",
+            "sha256": "baa37534a4f62595f4d44ab7d5190e66f1af644e6dff7a5bd43e142733e6b644"
+          }
+        },
+        {
+          "type": "single",
+          "title": "Mi-24P",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/mi_24p.png",
+          "br": "9.7",
+          "rp": 370000,
+          "sp": 990000,
+          "data_unit_id": "mi_24p",
+          "required_unit_id": "mi_24v",
+          "selected": false,
+          "class_name": "",
+          "details": true,
+          "rank": "VI",
+          "research_country": "USSR",
+          "main_role": "Attack helicopter",
+          "is_component": false,
+          "component_of": null,
+          "is_premium": false,
+          "is_squadron": false,
+          "wiki": {
+            "url": "https://wiki.warthunder.com/unit/mi_24p",
+            "rank": "VI",
+            "battle_rating_context": "default",
+            "battle_ratings": {
+              "AB": "10.0",
+              "RB": "9.7",
+              "SB": "9.7"
+            },
+            "battle_ratings_by_battle": {
+              "default": {
+                "AB": "10.0",
+                "RB": "9.7",
+                "SB": "9.7"
+              }
+            },
+            "research": "370,000",
+            "purchase": "990,000",
+            "purchase_currency": "SL",
+            "status": null,
+            "fetched_at": "2026-09-19T06:32:01.519Z",
+            "sha256": "3fcd790e05a2846a76c7a1eddec4bb47d1db91806a00aa64e474684f1ba5a161"
+          }
+        },
+        {
+          "type": "single",
+          "title": "Mi-35M",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/mi_35m.png",
+          "br": "10.7",
+          "rp": 390000,
+          "sp": 1010000,
+          "data_unit_id": "mi_35m",
+          "required_unit_id": "mi_24p",
+          "selected": false,
+          "class_name": "",
+          "details": true,
+          "rank": "VI",
+          "research_country": "USSR",
+          "main_role": "Attack helicopter",
+          "is_component": false,
+          "component_of": null,
+          "is_premium": false,
+          "is_squadron": false,
+          "wiki": {
+            "url": "https://wiki.warthunder.com/unit/mi_35m",
+            "rank": "VI",
+            "battle_rating_context": "default",
+            "battle_ratings": {
+              "AB": "10.7",
+              "RB": "10.7",
+              "SB": "10.3"
+            },
+            "battle_ratings_by_battle": {
+              "default": {
+                "AB": "10.7",
+                "RB": "10.7",
+                "SB": "10.3"
+              }
+            },
+            "research": "390,000",
+            "purchase": "1,010,000",
+            "purchase_currency": "SL",
+            "status": null,
+            "fetched_at": "2026-09-19T06:32:01.825Z",
+            "sha256": "20fec9c4d410af7b2bcf5cae3bb80b868170c5e3b0025a47677ef65bf9a91c75"
+          }
+        }
+      ],
+      [
+        {
+          "type": "single",
+          "title": "Ka-29",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/ka_29.png",
+          "br": "9.7",
+          "rp": 380000,
+          "sp": 1000000,
+          "data_unit_id": "ka_29",
+          "required_unit_id": "mi_24p",
+          "selected": false,
+          "class_name": "",
+          "details": true,
+          "rank": "VI",
+          "research_country": "USSR",
+          "main_role": "Attack helicopter",
+          "is_component": false,
+          "component_of": null,
+          "is_premium": false,
+          "is_squadron": false,
+          "wiki": {
+            "url": "https://wiki.warthunder.com/unit/ka_29",
+            "rank": "VI",
+            "battle_rating_context": "default",
+            "battle_ratings": {
+              "AB": "9.7",
+              "RB": "9.7",
+              "SB": "9.7"
+            },
+            "battle_ratings_by_battle": {
+              "default": {
+                "AB": "9.7",
+                "RB": "9.7",
+                "SB": "9.7"
+              }
+            },
+            "research": "380,000",
+            "purchase": "1,000,000",
+            "purchase_currency": "SL",
+            "status": null,
+            "fetched_at": "2026-09-19T06:32:01.110Z",
+            "sha256": "d14f7f3cef8da626474fd2872aa6595d77b2bffa9a596fe1f90a5bd2e6deed35"
+          }
+        }
+      ]
+    ],
+    "premium_vehicles": [
+      [
+        {
+          "type": "single",
+          "title": "Ka-50",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/ka_50.png",
+          "br": "11.3",
+          "rp": 0,
+          "sp": 0,
+          "data_unit_id": "ka_50",
+          "required_unit_id": "",
+          "selected": false,
+          "class_name": "prem",
+          "details": true,
+          "rank": "VI",
+          "research_country": "USSR",
+          "main_role": "Attack helicopter",
+          "is_component": false,
+          "component_of": null,
+          "is_premium": true,
+          "is_squadron": false,
+          "wiki": {
+            "url": "https://wiki.warthunder.com/unit/ka_50",
+            "rank": "VI",
+            "battle_rating_context": "default",
+            "battle_ratings": {
+              "AB": "10.7",
+              "RB": "11.3",
+              "SB": "10.3"
+            },
+            "battle_ratings_by_battle": {
+              "default": {
+                "AB": "10.7",
+                "RB": "11.3",
+                "SB": "10.3"
+              }
+            },
+            "research": null,
+            "purchase": null,
+            "purchase_currency": null,
+            "status": "Premium vehicle",
+            "fetched_at": "2026-09-19T06:32:01.365Z",
+            "sha256": "657bcb7f6fcdd191842b9087e442ac9dc2341370cb4b16fcb3d9ef7c64415b35"
+          }
+        }
+      ]
+    ],
+    "selected": [],
+    "unlock_quantity": null,
+    "source": "wiki"
+  },
+  {
+    "rank": "VII",
+    "researchable_vehicles": [
+      [
+        {
+          "type": "single",
+          "title": "Mi-8AMTSh-VN",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/mi_8amtsh_vn.png",
+          "br": "11.0",
+          "rp": 400000,
+          "sp": 1020000,
+          "data_unit_id": "mi_8amtsh_vn",
+          "required_unit_id": "mi_8amtsh",
+          "selected": false,
+          "class_name": "",
+          "details": true,
+          "rank": "VII",
+          "research_country": "USSR",
+          "main_role": "Attack helicopter",
+          "is_component": false,
+          "component_of": null,
+          "is_premium": false,
+          "is_squadron": false,
+          "wiki": {
+            "url": "https://wiki.warthunder.com/unit/mi_8amtsh_vn",
+            "rank": "VII",
+            "battle_rating_context": "default",
+            "battle_ratings": {
+              "AB": "10.7",
+              "RB": "11.0",
+              "SB": "10.7"
+            },
+            "battle_ratings_by_battle": {
+              "default": {
+                "AB": "10.7",
+                "RB": "11.0",
+                "SB": "10.7"
+              }
+            },
+            "research": "400,000",
+            "purchase": "1,020,000",
+            "purchase_currency": "SL",
+            "status": null,
+            "fetched_at": "2026-09-19T06:32:02.585Z",
+            "sha256": "e32ec491b6aaa6426ce7651853f6cc75f7779bbef6425c3941825038d1ab7306"
+          }
+        }
+      ],
+      [
+        {
+          "type": "single",
+          "title": "Mi-28N",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/mi_28n.png",
+          "br": "11.0",
+          "rp": 400000,
+          "sp": 1020000,
+          "data_unit_id": "mi_28n",
+          "required_unit_id": "mi_35m",
+          "selected": false,
+          "class_name": "",
+          "details": true,
+          "rank": "VII",
+          "research_country": "USSR",
+          "main_role": "Attack helicopter",
+          "is_component": false,
+          "component_of": null,
+          "is_premium": false,
+          "is_squadron": false,
+          "wiki": {
+            "url": "https://wiki.warthunder.com/unit/mi_28n",
+            "rank": "VII",
+            "battle_rating_context": "default",
+            "battle_ratings": {
+              "AB": "10.7",
+              "RB": "11.0",
+              "SB": "10.7"
+            },
+            "battle_ratings_by_battle": {
+              "default": {
+                "AB": "10.7",
+                "RB": "11.0",
+                "SB": "10.7"
+              }
+            },
+            "research": "400,000",
+            "purchase": "1,020,000",
+            "purchase_currency": "SL",
+            "status": null,
+            "fetched_at": "2026-09-19T06:32:01.919Z",
+            "sha256": "4ab138c830f2c72fadb63f9e2d6b382b282a47ca61d9631fd5b4f3080df14a71"
+          }
+        },
+        {
+          "type": "single",
+          "title": "Mi-28NM",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/mi_28nm.png",
+          "br": "13.0",
+          "rp": 400000,
+          "sp": 1030000,
+          "data_unit_id": "mi_28nm",
+          "required_unit_id": "mi_28n",
+          "selected": false,
+          "class_name": "",
+          "details": true,
+          "rank": "VII",
+          "research_country": "USSR",
+          "main_role": "Attack helicopter",
+          "is_component": false,
+          "component_of": null,
+          "is_premium": false,
+          "is_squadron": false,
+          "wiki": {
+            "url": "https://wiki.warthunder.com/unit/mi_28nm",
+            "rank": "VII",
+            "battle_rating_context": "default",
+            "battle_ratings": {
+              "AB": "11.0",
+              "RB": "13.0",
+              "SB": "11.0"
+            },
+            "battle_ratings_by_battle": {
+              "default": {
+                "AB": "11.0",
+                "RB": "13.0",
+                "SB": "11.0"
+              }
+            },
+            "research": "400,000",
+            "purchase": "1,030,000",
+            "purchase_currency": "SL",
+            "status": null,
+            "fetched_at": "2026-09-19T06:32:02.042Z",
+            "sha256": "8d9f2cd5c95e16a9f88bade97a534705caadb99aa74787323f5e151a6f8e0b1e"
+          }
+        }
+      ],
+      [
+        {
+          "type": "single",
+          "title": "Ka-52",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/ka_52.png",
+          "br": "12.0",
+          "rp": 400000,
+          "sp": 1030000,
+          "data_unit_id": "ka_52",
+          "required_unit_id": "ka_29",
+          "selected": false,
+          "class_name": "",
+          "details": true,
+          "rank": "VII",
+          "research_country": "USSR",
+          "main_role": "Attack helicopter",
+          "is_component": false,
+          "component_of": null,
+          "is_premium": false,
+          "is_squadron": false,
+          "wiki": {
+            "url": "https://wiki.warthunder.com/unit/ka_52",
+            "rank": "VII",
+            "battle_rating_context": "default",
+            "battle_ratings": {
+              "AB": "11.0",
+              "RB": "12.0",
+              "SB": "10.7"
+            },
+            "battle_ratings_by_battle": {
+              "default": {
+                "AB": "11.0",
+                "RB": "12.0",
+                "SB": "10.7"
+              }
+            },
+            "research": "400,000",
+            "purchase": "1,030,000",
+            "purchase_currency": "SL",
+            "status": null,
+            "fetched_at": "2026-09-19T06:32:01.455Z",
+            "sha256": "aa6421a5c79f99201518c2e06f085f135d7a524003a50fde1f56938550550d85"
+          }
+        }
+      ]
+    ],
+    "premium_vehicles": [
+      [
+        {
+          "type": "single",
+          "title": "Mi-35P",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/mi_35p.png",
+          "br": "11.7",
+          "rp": 0,
+          "sp": 0,
+          "data_unit_id": "mi_35p",
+          "required_unit_id": "",
+          "selected": false,
+          "class_name": "squad",
+          "details": true,
+          "rank": "VII",
+          "research_country": "USSR",
+          "main_role": "Attack helicopter",
+          "is_component": false,
+          "component_of": null,
+          "is_premium": false,
+          "is_squadron": true,
+          "wiki": {
+            "url": "https://wiki.warthunder.com/unit/mi_35p",
+            "rank": "VII",
+            "battle_rating_context": "default",
+            "battle_ratings": {
+              "AB": "11.0",
+              "RB": "11.7",
+              "SB": "10.7"
+            },
+            "battle_ratings_by_battle": {
+              "default": {
+                "AB": "11.0",
+                "RB": "11.7",
+                "SB": "10.7"
+              }
+            },
+            "research": "540,000",
+            "purchase": "1,080,000",
+            "purchase_currency": "SL",
+            "status": "Squadron vehicle",
+            "fetched_at": "2026-09-19T06:32:02.091Z",
+            "sha256": "613611db2267de62bb81eede49f162fda30f0f719a915220f497de17222552bc"
+          }
+        }
+      ]
+    ],
+    "selected": [],
+    "unlock_quantity": null,
+    "source": "wiki"
+  }
+]

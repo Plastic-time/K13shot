@@ -1,0 +1,2746 @@
+[
+  {
+    "rank": "IV",
+    "researchable_vehicles": [
+      [
+        {
+          "type": "single",
+          "title": "M-51",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/il_m_51.png",
+          "br": "6.3",
+          "rp": 0,
+          "sp": 155000,
+          "data_unit_id": "il_m_51",
+          "required_unit_id": "",
+          "selected": false,
+          "class_name": "",
+          "details": true,
+          "rank": "IV",
+          "research_country": "Israel",
+          "main_role": "Medium tank",
+          "is_component": false,
+          "component_of": null,
+          "is_premium": false,
+          "is_squadron": false,
+          "wiki": {
+            "url": "https://wiki.warthunder.com/unit/il_m_51",
+            "rank": "IV",
+            "battle_rating_context": "default",
+            "battle_ratings": {
+              "AB": "6.3",
+              "RB": "6.3",
+              "SB": "6.3"
+            },
+            "battle_ratings_by_battle": {
+              "default": {
+                "AB": "6.3",
+                "RB": "6.3",
+                "SB": "6.3"
+              }
+            },
+            "research": "Free",
+            "purchase": "155,000",
+            "purchase_currency": "SL",
+            "status": null,
+            "fetched_at": "2026-09-19T06:29:36.479Z",
+            "sha256": "f25779244678222811cc57656012d6cd8d9117276592170d02441838187e197c"
+          }
+        },
+        {
+          "type": "multiple",
+          "title": "Magach 1/2",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/il_magach_1_2_group.png",
+          "selected": false,
+          "br": "7.7",
+          "data_unit_id": "il_magach_1_2_group",
+          "required_unit_id": "il_m_51",
+          "class_name": "",
+          "items": [
+            {
+              "type": "single",
+              "title": "Magach 1",
+              "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/il_m48a1_patton_iii.png",
+              "br": "7.7",
+              "rp": 63000,
+              "sp": 200000,
+              "data_unit_id": "il_m48a1_patton_iii",
+              "required_unit_id": "",
+              "selected": false,
+              "class_name": "",
+              "details": true,
+              "rank": "IV",
+              "research_country": "Israel",
+              "main_role": "Medium tank",
+              "is_component": false,
+              "component_of": null,
+              "is_premium": false,
+              "is_squadron": false,
+              "wiki": {
+                "url": "https://wiki.warthunder.com/unit/il_m48a1_patton_III",
+                "rank": "IV",
+                "battle_rating_context": "default",
+                "battle_ratings": {
+                  "AB": "7.7",
+                  "RB": "7.7",
+                  "SB": "7.7"
+                },
+                "battle_ratings_by_battle": {
+                  "default": {
+                    "AB": "7.7",
+                    "RB": "7.7",
+                    "SB": "7.7"
+                  }
+                },
+                "research": "63,000",
+                "purchase": "200,000",
+                "purchase_currency": "SL",
+                "status": null,
+                "fetched_at": "2026-09-19T06:29:36.695Z",
+                "sha256": "3617956bf813609918bb13463586baf8ecb9adae7935243632d8263da7186e7e"
+              }
+            },
+            {
+              "type": "single",
+              "title": "Magach 2",
+              "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/il_magach_2.png",
+              "br": "7.7",
+              "rp": 35000,
+              "sp": 210000,
+              "data_unit_id": "il_magach_2",
+              "required_unit_id": "il_m48a1_patton_iii",
+              "selected": false,
+              "class_name": "",
+              "details": true,
+              "rank": "IV",
+              "research_country": "Israel",
+              "main_role": "Medium tank",
+              "is_component": false,
+              "component_of": null,
+              "is_premium": false,
+              "is_squadron": false,
+              "wiki": {
+                "url": "https://wiki.warthunder.com/unit/il_magach_2",
+                "rank": "IV",
+                "battle_rating_context": "default",
+                "battle_ratings": {
+                  "AB": "7.7",
+                  "RB": "7.7",
+                  "SB": "7.7"
+                },
+                "battle_ratings_by_battle": {
+                  "default": {
+                    "AB": "7.7",
+                    "RB": "7.7",
+                    "SB": "7.7"
+                  }
+                },
+                "research": "35,000",
+                "purchase": "210,000",
+                "purchase_currency": "SL",
+                "status": null,
+                "fetched_at": "2026-09-19T06:29:36.934Z",
+                "sha256": "c402f68fa0ec5a4bf9324a87ea664151bb03e6a935d44978eccb12475b0c4811"
+              }
+            }
+          ],
+          "details": true,
+          "rp": 98000,
+          "sp": 410000
+        }
+      ],
+      [
+        {
+          "type": "single",
+          "title": "AMX-13",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/il_amx_13_75.png",
+          "br": "7.0",
+          "rp": 54000,
+          "sp": 185000,
+          "data_unit_id": "il_amx_13_75",
+          "required_unit_id": "",
+          "selected": false,
+          "class_name": "",
+          "details": true,
+          "rank": "IV",
+          "research_country": "Israel",
+          "main_role": "Light tank",
+          "is_component": false,
+          "component_of": null,
+          "is_premium": false,
+          "is_squadron": false,
+          "wiki": {
+            "url": "https://wiki.warthunder.com/unit/il_amx_13_75",
+            "rank": "IV",
+            "battle_rating_context": "default",
+            "battle_ratings": {
+              "AB": "6.7",
+              "RB": "7.0",
+              "SB": "7.0"
+            },
+            "battle_ratings_by_battle": {
+              "default": {
+                "AB": "6.7",
+                "RB": "7.0",
+                "SB": "7.0"
+              }
+            },
+            "research": "54,000",
+            "purchase": "185,000",
+            "purchase_currency": "SL",
+            "status": null,
+            "fetched_at": "2026-09-19T06:29:35.128Z",
+            "sha256": "1ff2f524967a9ca99e6a3c1a18eb5edbf6d1a50720191d5b2d1fef2e08639f34"
+          }
+        },
+        {
+          "type": "single",
+          "title": "AML-90",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/il_aml_90.png",
+          "br": "7.7",
+          "rp": 63000,
+          "sp": 200000,
+          "data_unit_id": "il_aml_90",
+          "required_unit_id": "il_amx_13_75",
+          "selected": false,
+          "class_name": "",
+          "details": true,
+          "rank": "IV",
+          "research_country": "Israel",
+          "main_role": "Light tank",
+          "is_component": false,
+          "component_of": null,
+          "is_premium": false,
+          "is_squadron": false,
+          "wiki": {
+            "url": "https://wiki.warthunder.com/unit/il_aml_90",
+            "rank": "IV",
+            "battle_rating_context": "default",
+            "battle_ratings": {
+              "AB": "7.3",
+              "RB": "7.7",
+              "SB": "7.7"
+            },
+            "battle_ratings_by_battle": {
+              "default": {
+                "AB": "7.3",
+                "RB": "7.7",
+                "SB": "7.7"
+              }
+            },
+            "research": "63,000",
+            "purchase": "200,000",
+            "purchase_currency": "SL",
+            "status": null,
+            "fetched_at": "2026-09-19T06:29:35.009Z",
+            "sha256": "bf56b23ee2b9f530464cdb50db1ed7bfcbd0354f564ce350ad2274d3db10244b"
+          }
+        },
+        {
+          "type": "single",
+          "title": "Sho't",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/il_centurion_mk_5_shot.png",
+          "br": "7.7",
+          "rp": 71000,
+          "sp": 210000,
+          "data_unit_id": "il_centurion_mk_5_shot",
+          "required_unit_id": "il_aml_90",
+          "selected": false,
+          "class_name": "",
+          "details": true,
+          "rank": "IV",
+          "research_country": "Israel",
+          "main_role": "Medium tank",
+          "is_component": false,
+          "component_of": null,
+          "is_premium": false,
+          "is_squadron": false,
+          "wiki": {
+            "url": "https://wiki.warthunder.com/unit/il_centurion_mk_5_shot",
+            "rank": "IV",
+            "battle_rating_context": "default",
+            "battle_ratings": {
+              "AB": "7.7",
+              "RB": "7.7",
+              "SB": "7.7"
+            },
+            "battle_ratings_by_battle": {
+              "default": {
+                "AB": "7.7",
+                "RB": "7.7",
+                "SB": "7.7"
+              }
+            },
+            "research": "71,000",
+            "purchase": "210,000",
+            "purchase_currency": "SL",
+            "status": null,
+            "fetched_at": "2026-09-19T06:29:35.074Z",
+            "sha256": "93558f52a7398b0438a16905a32f57d87a64afaf1274f1a7660ad4cd8b984cfe"
+          }
+        }
+      ],
+      [
+        {
+          "type": "single",
+          "title": "TCM-20",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/il_tcm_20.png",
+          "br": "4.3",
+          "rp": 46000,
+          "sp": 155000,
+          "data_unit_id": "il_tcm_20",
+          "required_unit_id": "",
+          "selected": false,
+          "class_name": "",
+          "details": true,
+          "rank": "IV",
+          "research_country": "Israel",
+          "main_role": "SPAA",
+          "is_component": false,
+          "component_of": null,
+          "is_premium": false,
+          "is_squadron": false,
+          "wiki": {
+            "url": "https://wiki.warthunder.com/unit/il_tcm_20",
+            "rank": "IV",
+            "battle_rating_context": "default",
+            "battle_ratings": {
+              "AB": "4.3",
+              "RB": "4.3",
+              "SB": "4.3"
+            },
+            "battle_ratings_by_battle": {
+              "default": {
+                "AB": "4.3",
+                "RB": "4.3",
+                "SB": "4.3"
+              }
+            },
+            "research": "46,000",
+            "purchase": "155,000",
+            "purchase_currency": "SL",
+            "status": null,
+            "fetched_at": "2026-09-19T06:29:39.869Z",
+            "sha256": "2d38a6619dac968fcd35a26dc1c7f372aa2b8cc8bd61cec7fa6fad172e50f3a1"
+          }
+        },
+        {
+          "type": "single",
+          "title": "ZSU-57-2",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/il_zsu_57_2.png",
+          "br": "7.0",
+          "rp": 63000,
+          "sp": 200000,
+          "data_unit_id": "il_zsu_57_2",
+          "required_unit_id": "il_tcm_20",
+          "selected": false,
+          "class_name": "",
+          "details": true,
+          "rank": "IV",
+          "research_country": "Israel",
+          "main_role": "SPAA",
+          "is_component": false,
+          "component_of": null,
+          "is_premium": false,
+          "is_squadron": false,
+          "wiki": {
+            "url": "https://wiki.warthunder.com/unit/il_zsu_57_2",
+            "rank": "IV",
+            "battle_rating_context": "default",
+            "battle_ratings": {
+              "AB": "7.0",
+              "RB": "7.0",
+              "SB": "7.0"
+            },
+            "battle_ratings_by_battle": {
+              "default": {
+                "AB": "7.0",
+                "RB": "7.0",
+                "SB": "7.0"
+              }
+            },
+            "research": "63,000",
+            "purchase": "200,000",
+            "purchase_currency": "SL",
+            "status": null,
+            "fetched_at": "2026-09-19T06:29:40.655Z",
+            "sha256": "dfa80ad3d0cf5abc05e4f9555f5b26f335e720cab41dc4193d4ee08321e72fc5"
+          }
+        },
+        {
+          "type": "single",
+          "title": "Hovet",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/il_m163_vulcan.png",
+          "br": "7.3",
+          "rp": 82000,
+          "sp": 240000,
+          "data_unit_id": "il_m163_vulcan",
+          "required_unit_id": "il_zsu_57_2",
+          "selected": false,
+          "class_name": "",
+          "details": true,
+          "rank": "IV",
+          "research_country": "Israel",
+          "main_role": "SPAA",
+          "is_component": false,
+          "component_of": null,
+          "is_premium": false,
+          "is_squadron": false,
+          "wiki": {
+            "url": "https://wiki.warthunder.com/unit/il_m163_vulcan",
+            "rank": "IV",
+            "battle_rating_context": "default",
+            "battle_ratings": {
+              "AB": "7.7",
+              "RB": "7.3",
+              "SB": "7.3"
+            },
+            "battle_ratings_by_battle": {
+              "default": {
+                "AB": "7.7",
+                "RB": "7.3",
+                "SB": "7.3"
+              }
+            },
+            "research": "82,000",
+            "purchase": "240,000",
+            "purchase_currency": "SL",
+            "status": null,
+            "fetched_at": "2026-09-19T06:29:36.344Z",
+            "sha256": "2e4635089681aca251bdf7ffa9a11b7421ba74104622b98384b7da5180baebd8"
+          }
+        }
+      ],
+      [
+        {
+          "type": "single",
+          "title": "M109",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/il_m109.png",
+          "br": "5.7",
+          "rp": 46000,
+          "sp": 155000,
+          "data_unit_id": "il_m109",
+          "required_unit_id": "",
+          "selected": false,
+          "class_name": "",
+          "details": true,
+          "rank": "IV",
+          "research_country": "Israel",
+          "main_role": "Tank destroyer",
+          "is_component": false,
+          "component_of": null,
+          "is_premium": false,
+          "is_squadron": false,
+          "wiki": {
+            "url": "https://wiki.warthunder.com/unit/il_m109",
+            "rank": "IV",
+            "battle_rating_context": "default",
+            "battle_ratings": {
+              "AB": "5.7",
+              "RB": "5.7",
+              "SB": "5.7"
+            },
+            "battle_ratings_by_battle": {
+              "default": {
+                "AB": "5.7",
+                "RB": "5.7",
+                "SB": "5.7"
+              }
+            },
+            "research": "46,000",
+            "purchase": "155,000",
+            "purchase_currency": "SL",
+            "status": null,
+            "fetched_at": "2026-09-19T06:29:36.031Z",
+            "sha256": "a28bd1e88e39389a5f623eae5e8d165bbce1f97e46615a725ae355071540b226"
+          }
+        },
+        {
+          "type": "multiple",
+          "title": "Rochev/Tager",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/il_rochev_tager_group.png",
+          "selected": false,
+          "br": "6.0-6.7",
+          "data_unit_id": "il_rochev_tager_group",
+          "required_unit_id": "il_m109",
+          "class_name": "",
+          "items": [
+            {
+              "type": "single",
+              "title": "Rochev",
+              "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/il_m109a1.png",
+              "br": "6.0",
+              "rp": 54000,
+              "sp": 185000,
+              "data_unit_id": "il_m109a1",
+              "required_unit_id": "",
+              "selected": false,
+              "class_name": "",
+              "details": true,
+              "rank": "IV",
+              "research_country": "Israel",
+              "main_role": "Tank destroyer",
+              "is_component": false,
+              "component_of": null,
+              "is_premium": false,
+              "is_squadron": false,
+              "wiki": {
+                "url": "https://wiki.warthunder.com/unit/il_m109a1",
+                "rank": "IV",
+                "battle_rating_context": "default",
+                "battle_ratings": {
+                  "AB": "6.0",
+                  "RB": "6.0",
+                  "SB": "6.0"
+                },
+                "battle_ratings_by_battle": {
+                  "default": {
+                    "AB": "6.0",
+                    "RB": "6.0",
+                    "SB": "6.0"
+                  }
+                },
+                "research": "54,000",
+                "purchase": "185,000",
+                "purchase_currency": "SL",
+                "status": null,
+                "fetched_at": "2026-09-19T06:29:36.021Z",
+                "sha256": "907431a01a847de06651da21b52f4fd8884b586dadfea9048b9a511c872da79a"
+              }
+            },
+            {
+              "type": "single",
+              "title": "Zachlam Tager",
+              "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/il_ss_11_halftrack.png",
+              "br": "6.7",
+              "rp": 31000,
+              "sp": 200000,
+              "data_unit_id": "il_ss_11_halftrack",
+              "required_unit_id": "il_m109a1",
+              "selected": false,
+              "class_name": "",
+              "details": true,
+              "rank": "IV",
+              "research_country": "Israel",
+              "main_role": "Tank destroyer",
+              "is_component": false,
+              "component_of": null,
+              "is_premium": false,
+              "is_squadron": false,
+              "wiki": {
+                "url": "https://wiki.warthunder.com/unit/il_ss_11_halftrack",
+                "rank": "IV",
+                "battle_rating_context": "default",
+                "battle_ratings": {
+                  "AB": "6.7",
+                  "RB": "6.7",
+                  "SB": "6.7"
+                },
+                "battle_ratings_by_battle": {
+                  "default": {
+                    "AB": "6.7",
+                    "RB": "6.7",
+                    "SB": "6.7"
+                  }
+                },
+                "research": "31,000",
+                "purchase": "200,000",
+                "purchase_currency": "SL",
+                "status": null,
+                "fetched_at": "2026-09-19T06:29:39.992Z",
+                "sha256": "006c4a3d2e2ddda7e1598746b39e774b027c37b132b0007573c4c490f81054ef"
+              }
+            }
+          ],
+          "details": true,
+          "rp": 85000,
+          "sp": 385000
+        }
+      ]
+    ],
+    "premium_vehicles": [
+      [
+        {
+          "type": "single",
+          "title": "M-51 (W)",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/il_m_51_w.png",
+          "br": "6.3",
+          "rp": 0,
+          "sp": 0,
+          "data_unit_id": "il_m_51_w",
+          "required_unit_id": "",
+          "selected": false,
+          "class_name": "prem",
+          "details": true,
+          "rank": "IV",
+          "research_country": "Israel",
+          "main_role": "Medium tank",
+          "is_component": false,
+          "component_of": null,
+          "is_premium": true,
+          "is_squadron": false,
+          "wiki": {
+            "url": "https://wiki.warthunder.com/unit/il_m_51_w",
+            "rank": "IV",
+            "battle_rating_context": "default",
+            "battle_ratings": {
+              "AB": "6.3",
+              "RB": "6.3",
+              "SB": "6.3"
+            },
+            "battle_ratings_by_battle": {
+              "default": {
+                "AB": "6.3",
+                "RB": "6.3",
+                "SB": "6.3"
+              }
+            },
+            "research": null,
+            "purchase": "4,880",
+            "purchase_currency": "GE",
+            "status": "Premium vehicle",
+            "fetched_at": "2026-09-19T06:29:36.596Z",
+            "sha256": "cc2ca9dac011fbb96b76fb022a1c4fc8a795f3a32ee80ca008a30eba1ab278d4"
+          }
+        },
+        {
+          "type": "single",
+          "title": "Sholef",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/il_sholef.png",
+          "br": "7.3",
+          "rp": 0,
+          "sp": 0,
+          "data_unit_id": "il_sholef",
+          "required_unit_id": "",
+          "selected": false,
+          "class_name": "prem",
+          "details": true,
+          "rank": "IV",
+          "research_country": "Israel",
+          "main_role": "Tank destroyer",
+          "is_component": false,
+          "component_of": null,
+          "is_premium": true,
+          "is_squadron": false,
+          "wiki": {
+            "url": "https://wiki.warthunder.com/unit/il_sholef",
+            "rank": "IV",
+            "battle_rating_context": "default",
+            "battle_ratings": {
+              "AB": "7.3",
+              "RB": "7.3",
+              "SB": "7.3"
+            },
+            "battle_ratings_by_battle": {
+              "default": {
+                "AB": "7.3",
+                "RB": "7.3",
+                "SB": "7.3"
+              }
+            },
+            "research": null,
+            "purchase": null,
+            "purchase_currency": null,
+            "status": "Premium vehicle",
+            "fetched_at": "2026-09-19T06:29:39.597Z",
+            "sha256": "de5223af88988672ccd60c70db5fc2b12f40d5eb06f9c63f2b7ce55f5d40aef8"
+          }
+        }
+      ]
+    ],
+    "selected": [],
+    "unlock_quantity": null,
+    "source": "wiki"
+  },
+  {
+    "rank": "V",
+    "researchable_vehicles": [
+      [
+        {
+          "type": "multiple",
+          "title": "Magach 3/6",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/il_magach_3_6_group.png",
+          "selected": false,
+          "br": "8.0",
+          "data_unit_id": "il_magach_3_6_group",
+          "required_unit_id": "il_magach_1_2_group",
+          "class_name": "",
+          "items": [
+            {
+              "type": "single",
+              "title": "Magach 3",
+              "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/il_magach_3_idf.png",
+              "br": "8.0",
+              "rp": 82000,
+              "sp": 240000,
+              "data_unit_id": "il_magach_3_idf",
+              "required_unit_id": "",
+              "selected": false,
+              "class_name": "",
+              "details": true,
+              "rank": "V",
+              "research_country": "Israel",
+              "main_role": "Medium tank",
+              "is_component": false,
+              "component_of": null,
+              "is_premium": false,
+              "is_squadron": false,
+              "wiki": {
+                "url": "https://wiki.warthunder.com/unit/il_magach_3_idf",
+                "rank": "V",
+                "battle_rating_context": "default",
+                "battle_ratings": {
+                  "AB": "8.0",
+                  "RB": "8.0",
+                  "SB": "8.0"
+                },
+                "battle_ratings_by_battle": {
+                  "default": {
+                    "AB": "8.0",
+                    "RB": "8.0",
+                    "SB": "8.0"
+                  }
+                },
+                "research": "82,000",
+                "purchase": "240,000",
+                "purchase_currency": "SL",
+                "status": null,
+                "fetched_at": "2026-09-19T06:29:37.090Z",
+                "sha256": "570f791a4485f4fd650b1d334e6b5916f3b11926258560b2d2f8bed41175ff92"
+              }
+            },
+            {
+              "type": "single",
+              "title": "Magach 6",
+              "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/il_magach_6.png",
+              "br": "8.0",
+              "rp": 48000,
+              "sp": 270000,
+              "data_unit_id": "il_magach_6",
+              "required_unit_id": "il_magach_3_idf",
+              "selected": false,
+              "class_name": "",
+              "details": true,
+              "rank": "V",
+              "research_country": "Israel",
+              "main_role": "Medium tank",
+              "is_component": false,
+              "component_of": null,
+              "is_premium": false,
+              "is_squadron": false,
+              "wiki": {
+                "url": "https://wiki.warthunder.com/unit/il_magach_6",
+                "rank": "V",
+                "battle_rating_context": "default",
+                "battle_ratings": {
+                  "AB": "8.0",
+                  "RB": "8.0",
+                  "SB": "8.0"
+                },
+                "battle_ratings_by_battle": {
+                  "default": {
+                    "AB": "8.0",
+                    "RB": "8.0",
+                    "SB": "8.0"
+                  }
+                },
+                "research": "48,000",
+                "purchase": "270,000",
+                "purchase_currency": "SL",
+                "status": null,
+                "fetched_at": "2026-09-19T06:29:37.342Z",
+                "sha256": "a229978020c340b16197b7e900e17eb4ab3466255820192a65dace87e33ce57a"
+              }
+            }
+          ],
+          "details": true,
+          "rp": 130000,
+          "sp": 510000
+        },
+        {
+          "type": "multiple",
+          "title": "Magach 6A/5",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/il_magach_6a_5_group.png",
+          "selected": false,
+          "br": "8.0",
+          "data_unit_id": "il_magach_6a_5_group",
+          "required_unit_id": "il_magach_3_6_group",
+          "class_name": "",
+          "items": [
+            {
+              "type": "single",
+              "title": "Magach 6A",
+              "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/il_magach_6a.png",
+              "br": "8.0",
+              "rp": 95000,
+              "sp": 270000,
+              "data_unit_id": "il_magach_6a",
+              "required_unit_id": "",
+              "selected": false,
+              "class_name": "",
+              "details": true,
+              "rank": "V",
+              "research_country": "Israel",
+              "main_role": "Medium tank",
+              "is_component": false,
+              "component_of": null,
+              "is_premium": false,
+              "is_squadron": false,
+              "wiki": {
+                "url": "https://wiki.warthunder.com/unit/il_magach_6a",
+                "rank": "V",
+                "battle_rating_context": "default",
+                "battle_ratings": {
+                  "AB": "8.0",
+                  "RB": "8.0",
+                  "SB": "8.0"
+                },
+                "battle_ratings_by_battle": {
+                  "default": {
+                    "AB": "8.0",
+                    "RB": "8.0",
+                    "SB": "8.0"
+                  }
+                },
+                "research": "95,000",
+                "purchase": "270,000",
+                "purchase_currency": "SL",
+                "status": null,
+                "fetched_at": "2026-09-19T06:29:37.418Z",
+                "sha256": "f049b2f72dd14e724f85e9d18fcec156cff374037884ec2f7db2a7256aa9ec0b"
+              }
+            },
+            {
+              "type": "single",
+              "title": "Magach 5",
+              "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/il_magach_5.png",
+              "br": "8.0",
+              "rp": 53000,
+              "sp": 300000,
+              "data_unit_id": "il_magach_5",
+              "required_unit_id": "il_magach_6a",
+              "selected": false,
+              "class_name": "",
+              "details": true,
+              "rank": "V",
+              "research_country": "Israel",
+              "main_role": "Medium tank",
+              "is_component": false,
+              "component_of": null,
+              "is_premium": false,
+              "is_squadron": false,
+              "wiki": {
+                "url": "https://wiki.warthunder.com/unit/il_magach_5",
+                "rank": "V",
+                "battle_rating_context": "default",
+                "battle_ratings": {
+                  "AB": "8.0",
+                  "RB": "8.0",
+                  "SB": "8.0"
+                },
+                "battle_ratings_by_battle": {
+                  "default": {
+                    "AB": "8.0",
+                    "RB": "8.0",
+                    "SB": "8.0"
+                  }
+                },
+                "research": "53,000",
+                "purchase": "300,000",
+                "purchase_currency": "SL",
+                "status": null,
+                "fetched_at": "2026-09-19T06:29:37.047Z",
+                "sha256": "5130c1b26bbbe96703b00b19065edf3f8e619b9fbda3604650fb1211763422ab"
+              }
+            }
+          ],
+          "details": true,
+          "rp": 148000,
+          "sp": 570000
+        }
+      ],
+      [
+        {
+          "type": "multiple",
+          "title": "Tiran 4/4S",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/il_tiran_4_group.png",
+          "selected": false,
+          "br": "8.0",
+          "data_unit_id": "il_tiran_4_group",
+          "required_unit_id": "il_centurion_mk_5_shot",
+          "class_name": "",
+          "items": [
+            {
+              "type": "single",
+              "title": "Tiran 4",
+              "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/il_tiran_4.png",
+              "br": "8.0",
+              "rp": 82000,
+              "sp": 240000,
+              "data_unit_id": "il_tiran_4",
+              "required_unit_id": "",
+              "selected": false,
+              "class_name": "",
+              "details": true,
+              "rank": "V",
+              "research_country": "Israel",
+              "main_role": "Medium tank",
+              "is_component": false,
+              "component_of": null,
+              "is_premium": false,
+              "is_squadron": false,
+              "wiki": {
+                "url": "https://wiki.warthunder.com/unit/il_tiran_4",
+                "rank": "V",
+                "battle_rating_context": "default",
+                "battle_ratings": {
+                  "AB": "8.0",
+                  "RB": "8.0",
+                  "SB": "8.0"
+                },
+                "battle_ratings_by_battle": {
+                  "default": {
+                    "AB": "8.0",
+                    "RB": "8.0",
+                    "SB": "8.0"
+                  }
+                },
+                "research": "82,000",
+                "purchase": "240,000",
+                "purchase_currency": "SL",
+                "status": null,
+                "fetched_at": "2026-09-19T06:29:39.977Z",
+                "sha256": "78af8a32808728cdb2967ea0f7959483131da5e8fc17fcf4925c7c2fe024b3ab"
+              }
+            },
+            {
+              "type": "single",
+              "title": "Tiran 4S",
+              "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/il_tiran_4_sh.png",
+              "br": "8.0",
+              "rp": 48000,
+              "sp": 270000,
+              "data_unit_id": "il_tiran_4_sh",
+              "required_unit_id": "il_tiran_4",
+              "selected": false,
+              "class_name": "",
+              "details": true,
+              "rank": "V",
+              "research_country": "Israel",
+              "main_role": "Medium tank",
+              "is_component": false,
+              "component_of": null,
+              "is_premium": false,
+              "is_squadron": false,
+              "wiki": {
+                "url": "https://wiki.warthunder.com/unit/il_tiran_4_sh",
+                "rank": "V",
+                "battle_rating_context": "default",
+                "battle_ratings": {
+                  "AB": "8.0",
+                  "RB": "8.0",
+                  "SB": "8.0"
+                },
+                "battle_ratings_by_battle": {
+                  "default": {
+                    "AB": "8.0",
+                    "RB": "8.0",
+                    "SB": "8.0"
+                  }
+                },
+                "research": "48,000",
+                "purchase": "270,000",
+                "purchase_currency": "SL",
+                "status": null,
+                "fetched_at": "2026-09-19T06:29:40.297Z",
+                "sha256": "0f6043ce604327925d712cfc8aa810ed57878d110aa2d0634940a9d4c573568b"
+              }
+            }
+          ],
+          "details": true,
+          "rp": 130000,
+          "sp": 510000
+        },
+        {
+          "type": "single",
+          "title": "Sho't Kal Alef",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/il_centurion_shot_kal_alef.png",
+          "br": "8.0",
+          "rp": 105000,
+          "sp": 300000,
+          "data_unit_id": "il_centurion_shot_kal_alef",
+          "required_unit_id": "il_tiran_4_group",
+          "selected": false,
+          "class_name": "",
+          "details": true,
+          "rank": "V",
+          "research_country": "Israel",
+          "main_role": "Medium tank",
+          "is_component": false,
+          "component_of": null,
+          "is_premium": false,
+          "is_squadron": false,
+          "wiki": {
+            "url": "https://wiki.warthunder.com/unit/il_centurion_shot_kal_alef",
+            "rank": "V",
+            "battle_rating_context": "default",
+            "battle_ratings": {
+              "AB": "8.0",
+              "RB": "8.0",
+              "SB": "8.0"
+            },
+            "battle_ratings_by_battle": {
+              "default": {
+                "AB": "8.0",
+                "RB": "8.0",
+                "SB": "8.0"
+              }
+            },
+            "research": "105,000",
+            "purchase": "300,000",
+            "purchase_currency": "SL",
+            "status": null,
+            "fetched_at": "2026-09-19T06:29:35.173Z",
+            "sha256": "6e5dd7ea364810c1318a28d4fa29a25fb70e89b622df9d0789e942cd6c438e44"
+          }
+        }
+      ],
+      [
+        {
+          "type": "single",
+          "title": "ZSU-23-4V",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/il_zsu_23_4.png",
+          "br": "8.0",
+          "rp": 135000,
+          "sp": 380000,
+          "data_unit_id": "il_zsu_23_4",
+          "required_unit_id": "il_m163_vulcan",
+          "selected": false,
+          "class_name": "",
+          "details": true,
+          "rank": "V",
+          "research_country": "Israel",
+          "main_role": "SPAA",
+          "is_component": false,
+          "component_of": null,
+          "is_premium": false,
+          "is_squadron": false,
+          "wiki": {
+            "url": "https://wiki.warthunder.com/unit/il_zsu_23_4",
+            "rank": "V",
+            "battle_rating_context": "default",
+            "battle_ratings": {
+              "AB": "8.0",
+              "RB": "8.0",
+              "SB": "8.0"
+            },
+            "battle_ratings_by_battle": {
+              "default": {
+                "AB": "8.0",
+                "RB": "8.0",
+                "SB": "8.0"
+              }
+            },
+            "research": "135,000",
+            "purchase": "380,000",
+            "purchase_currency": "SL",
+            "status": null,
+            "fetched_at": "2026-09-19T06:29:40.244Z",
+            "sha256": "0f147e250f02ccf0e61453027110d1ba9a85ecc171cb306d079cad5f3c9cf7aa"
+          }
+        }
+      ],
+      [
+        {
+          "type": "single",
+          "title": "Bardelas/60mm HVMS",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/il_m113_hvms.png",
+          "br": "7.7",
+          "rp": 120000,
+          "sp": 340000,
+          "data_unit_id": "il_m113_hvms",
+          "required_unit_id": "il_rochev_tager_group",
+          "selected": false,
+          "class_name": "",
+          "details": true,
+          "rank": "V",
+          "research_country": "Israel",
+          "main_role": "Light tank",
+          "is_component": false,
+          "component_of": null,
+          "is_premium": false,
+          "is_squadron": false,
+          "wiki": {
+            "url": "https://wiki.warthunder.com/unit/il_m113_hvms",
+            "rank": "V",
+            "battle_rating_context": "default",
+            "battle_ratings": {
+              "AB": "7.7",
+              "RB": "7.7",
+              "SB": "7.7"
+            },
+            "battle_ratings_by_battle": {
+              "default": {
+                "AB": "7.7",
+                "RB": "7.7",
+                "SB": "7.7"
+              }
+            },
+            "research": "120,000",
+            "purchase": "340,000",
+            "purchase_currency": "SL",
+            "status": null,
+            "fetched_at": "2026-09-19T06:29:36.173Z",
+            "sha256": "04be1b75be96f94e90f2b910bffafc1524cd96ed637eb60765ef29b2ab78f241"
+          }
+        }
+      ]
+    ],
+    "premium_vehicles": [
+      [
+        {
+          "type": "single",
+          "title": "Magach 3 (ERA)",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/il_magach_3.png",
+          "br": "8.0",
+          "rp": 0,
+          "sp": 0,
+          "data_unit_id": "il_magach_3",
+          "required_unit_id": "",
+          "selected": false,
+          "class_name": "prem",
+          "details": true,
+          "rank": "V",
+          "research_country": "Israel",
+          "main_role": "Medium tank",
+          "is_component": false,
+          "component_of": null,
+          "is_premium": true,
+          "is_squadron": false,
+          "wiki": {
+            "url": "https://wiki.warthunder.com/unit/il_magach_3",
+            "rank": "V",
+            "battle_rating_context": "default",
+            "battle_ratings": {
+              "AB": "8.0",
+              "RB": "8.0",
+              "SB": "8.0"
+            },
+            "battle_ratings_by_battle": {
+              "default": {
+                "AB": "8.0",
+                "RB": "8.0",
+                "SB": "8.0"
+              }
+            },
+            "research": null,
+            "purchase": "8,560",
+            "purchase_currency": "GE",
+            "status": "Premium vehicle",
+            "fetched_at": "2026-09-19T06:29:37.075Z",
+            "sha256": "193abd57a6560e328efe79f0385cfbc2e41a36a03c6e35a9197e4db6ff4b60b5"
+          }
+        }
+      ]
+    ],
+    "selected": [],
+    "unlock_quantity": null,
+    "source": "wiki"
+  },
+  {
+    "rank": "VI",
+    "researchable_vehicles": [
+      [
+        {
+          "type": "multiple",
+          "title": "Magach 6 R/B/Hydra",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/il_magach_6_group.png",
+          "selected": false,
+          "br": "8.7",
+          "data_unit_id": "il_magach_6_group",
+          "required_unit_id": "il_magach_6a_5_group",
+          "class_name": "",
+          "items": [
+            {
+              "type": "single",
+              "title": "Magach 6R",
+              "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/il_magach_6r.png",
+              "br": "8.7",
+              "rp": 135000,
+              "sp": 380000,
+              "data_unit_id": "il_magach_6r",
+              "required_unit_id": "",
+              "selected": false,
+              "class_name": "",
+              "details": true,
+              "rank": "VI",
+              "research_country": "Israel",
+              "main_role": "Medium tank",
+              "is_component": false,
+              "component_of": null,
+              "is_premium": false,
+              "is_squadron": false,
+              "wiki": {
+                "url": "https://wiki.warthunder.com/unit/il_magach_6r",
+                "rank": "VI",
+                "battle_rating_context": "default",
+                "battle_ratings": {
+                  "AB": "8.7",
+                  "RB": "8.7",
+                  "SB": "8.7"
+                },
+                "battle_ratings_by_battle": {
+                  "default": {
+                    "AB": "8.7",
+                    "RB": "8.7",
+                    "SB": "8.7"
+                  }
+                },
+                "research": "135,000",
+                "purchase": "380,000",
+                "purchase_currency": "SL",
+                "status": null,
+                "fetched_at": "2026-09-19T06:29:38.059Z",
+                "sha256": "7ae8f03274a8e01f9d0dd5eb33827f74de933d32ff36aaa5f110a5045368a567"
+              }
+            },
+            {
+              "type": "single",
+              "title": "Magach 6B",
+              "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/il_magach_6b.png",
+              "br": "8.7",
+              "rp": 81000,
+              "sp": 450000,
+              "data_unit_id": "il_magach_6b",
+              "required_unit_id": "il_magach_6r",
+              "selected": false,
+              "class_name": "",
+              "details": true,
+              "rank": "VI",
+              "research_country": "Israel",
+              "main_role": "Medium tank",
+              "is_component": false,
+              "component_of": null,
+              "is_premium": false,
+              "is_squadron": false,
+              "wiki": {
+                "url": "https://wiki.warthunder.com/unit/il_magach_6b",
+                "rank": "VI",
+                "battle_rating_context": "default",
+                "battle_ratings": {
+                  "AB": "8.7",
+                  "RB": "8.7",
+                  "SB": "8.7"
+                },
+                "battle_ratings_by_battle": {
+                  "default": {
+                    "AB": "8.7",
+                    "RB": "8.7",
+                    "SB": "8.7"
+                  }
+                },
+                "research": "81,000",
+                "purchase": "450,000",
+                "purchase_currency": "SL",
+                "status": null,
+                "fetched_at": "2026-09-19T06:29:37.688Z",
+                "sha256": "5d70b19fab24508b3f9f86d8e7531be089d13a5fb330bde18404cd125a0e79f9"
+              }
+            },
+            {
+              "type": "single",
+              "title": "Magach Hydra",
+              "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/il_magach_6_rocket.png",
+              "br": "8.7",
+              "rp": 94000,
+              "sp": 520000,
+              "data_unit_id": "il_magach_6_rocket",
+              "required_unit_id": "il_magach_6b",
+              "selected": false,
+              "class_name": "",
+              "details": true,
+              "rank": "VI",
+              "research_country": "Israel",
+              "main_role": "Medium tank",
+              "is_component": false,
+              "component_of": null,
+              "is_premium": false,
+              "is_squadron": false,
+              "wiki": {
+                "url": "https://wiki.warthunder.com/unit/il_magach_6_rocket",
+                "rank": "VI",
+                "battle_rating_context": "default",
+                "battle_ratings": {
+                  "AB": "8.7",
+                  "RB": "8.7",
+                  "SB": "8.7"
+                },
+                "battle_ratings_by_battle": {
+                  "default": {
+                    "AB": "8.7",
+                    "RB": "8.7",
+                    "SB": "8.7"
+                  }
+                },
+                "research": "94,000",
+                "purchase": "520,000",
+                "purchase_currency": "SL",
+                "status": null,
+                "fetched_at": "2026-09-19T06:29:37.340Z",
+                "sha256": "e4ad545ce7913e3c0207a1961eff65c428cfc5744ee3b0df37e7bba18e4ce4ad"
+              }
+            }
+          ],
+          "details": true,
+          "rp": 310000,
+          "sp": 1350000
+        },
+        {
+          "type": "multiple",
+          "title": "Magach 6 M/C",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/il_magach_6m_c_group.png",
+          "selected": false,
+          "br": "9.0-9.3",
+          "data_unit_id": "il_magach_6m_c_group",
+          "required_unit_id": "il_magach_6_group",
+          "class_name": "",
+          "items": [
+            {
+              "type": "single",
+              "title": "Magach 6M",
+              "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/il_magach_6m.png",
+              "br": "9.0",
+              "rp": 160000,
+              "sp": 450000,
+              "data_unit_id": "il_magach_6m",
+              "required_unit_id": "",
+              "selected": false,
+              "class_name": "",
+              "details": true,
+              "rank": "VI",
+              "research_country": "Israel",
+              "main_role": "Medium tank",
+              "is_component": false,
+              "component_of": null,
+              "is_premium": false,
+              "is_squadron": false,
+              "wiki": {
+                "url": "https://wiki.warthunder.com/unit/il_magach_6m",
+                "rank": "VI",
+                "battle_rating_context": "default",
+                "battle_ratings": {
+                  "AB": "9.0",
+                  "RB": "9.0",
+                  "SB": "9.0"
+                },
+                "battle_ratings_by_battle": {
+                  "default": {
+                    "AB": "9.0",
+                    "RB": "9.0",
+                    "SB": "9.0"
+                  }
+                },
+                "research": "160,000",
+                "purchase": "450,000",
+                "purchase_currency": "SL",
+                "status": null,
+                "fetched_at": "2026-09-19T06:29:37.988Z",
+                "sha256": "b0a5100bf1965a3436ec547ea2996d6a243162067d858d678507a7930c98a6a8"
+              }
+            },
+            {
+              "type": "single",
+              "title": "Magach 6C",
+              "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/il_magach_6c.png",
+              "br": "9.3",
+              "rp": 94000,
+              "sp": 520000,
+              "data_unit_id": "il_magach_6c",
+              "required_unit_id": "il_magach_6m",
+              "selected": false,
+              "class_name": "",
+              "details": true,
+              "rank": "VI",
+              "research_country": "Israel",
+              "main_role": "Medium tank",
+              "is_component": false,
+              "component_of": null,
+              "is_premium": false,
+              "is_squadron": false,
+              "wiki": {
+                "url": "https://wiki.warthunder.com/unit/il_magach_6c",
+                "rank": "VI",
+                "battle_rating_context": "default",
+                "battle_ratings": {
+                  "AB": "9.3",
+                  "RB": "9.3",
+                  "SB": "9.3"
+                },
+                "battle_ratings_by_battle": {
+                  "default": {
+                    "AB": "9.3",
+                    "RB": "9.3",
+                    "SB": "9.3"
+                  }
+                },
+                "research": "94,000",
+                "purchase": "520,000",
+                "purchase_currency": "SL",
+                "status": null,
+                "fetched_at": "2026-09-19T06:29:38.011Z",
+                "sha256": "411f8a617f3e29bcd49e35886cad0c8f14142a402c55e9104b7cfd629e593b1e"
+              }
+            }
+          ],
+          "details": true,
+          "rp": 254000,
+          "sp": 970000
+        },
+        {
+          "type": "multiple",
+          "title": "Gal Batash/7C",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/il_magach_batash_7_group.png",
+          "selected": false,
+          "br": "9.3",
+          "data_unit_id": "il_magach_batash_7_group",
+          "required_unit_id": "il_magach_6m_c_group",
+          "class_name": "",
+          "items": [
+            {
+              "type": "single",
+              "title": "Gal Batash",
+              "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/il_magach_6b_gal_batash.png",
+              "br": "9.3",
+              "rp": 190000,
+              "sp": 520000,
+              "data_unit_id": "il_magach_6b_gal_batash",
+              "required_unit_id": "",
+              "selected": false,
+              "class_name": "",
+              "details": true,
+              "rank": "VI",
+              "research_country": "Israel",
+              "main_role": "Medium tank",
+              "is_component": false,
+              "component_of": null,
+              "is_premium": false,
+              "is_squadron": false,
+              "wiki": {
+                "url": "https://wiki.warthunder.com/unit/il_magach_6b_gal_batash",
+                "rank": "VI",
+                "battle_rating_context": "default",
+                "battle_ratings": {
+                  "AB": "9.3",
+                  "RB": "9.3",
+                  "SB": "9.3"
+                },
+                "battle_ratings_by_battle": {
+                  "default": {
+                    "AB": "9.3",
+                    "RB": "9.3",
+                    "SB": "9.3"
+                  }
+                },
+                "research": "190,000",
+                "purchase": "520,000",
+                "purchase_currency": "SL",
+                "status": null,
+                "fetched_at": "2026-09-19T06:29:37.890Z",
+                "sha256": "3d5bceda2c5d1e25f1513dd2e690c1fe3e54910a1e5ec059ccefd82d4bed3a91"
+              }
+            },
+            {
+              "type": "single",
+              "title": "Magach 7C",
+              "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/il_magach_7c.png",
+              "br": "9.3",
+              "rp": 110000,
+              "sp": 620000,
+              "data_unit_id": "il_magach_7c",
+              "required_unit_id": "il_magach_6b_gal_batash",
+              "selected": false,
+              "class_name": "",
+              "details": true,
+              "rank": "VI",
+              "research_country": "Israel",
+              "main_role": "Medium tank",
+              "is_component": false,
+              "component_of": null,
+              "is_premium": false,
+              "is_squadron": false,
+              "wiki": {
+                "url": "https://wiki.warthunder.com/unit/il_magach_7c",
+                "rank": "VI",
+                "battle_rating_context": "default",
+                "battle_ratings": {
+                  "AB": "9.3",
+                  "RB": "9.3",
+                  "SB": "9.3"
+                },
+                "battle_ratings_by_battle": {
+                  "default": {
+                    "AB": "9.3",
+                    "RB": "9.3",
+                    "SB": "9.3"
+                  }
+                },
+                "research": "110,000",
+                "purchase": "620,000",
+                "purchase_currency": "SL",
+                "status": null,
+                "fetched_at": "2026-09-19T06:29:38.196Z",
+                "sha256": "1229f0e9cdf71fdd148a41c10b5807d5850efa419aeb4e1529fc34a05011b0d7"
+              }
+            }
+          ],
+          "details": true,
+          "rp": 300000,
+          "sp": 1140000
+        }
+      ],
+      [
+        {
+          "type": "multiple",
+          "title": "Sho't/Tiran",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/il_gimel_tiran_group.png",
+          "selected": false,
+          "br": "8.7",
+          "data_unit_id": "il_gimel_tiran_group",
+          "required_unit_id": "il_centurion_shot_kal_alef",
+          "class_name": "",
+          "items": [
+            {
+              "type": "single",
+              "title": "Sho't Kal Gimel",
+              "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/il_centurion_shot_kal_gimel.png",
+              "br": "8.7",
+              "rp": 135000,
+              "sp": 380000,
+              "data_unit_id": "il_centurion_shot_kal_gimel",
+              "required_unit_id": "",
+              "selected": false,
+              "class_name": "",
+              "details": true,
+              "rank": "VI",
+              "research_country": "Israel",
+              "main_role": "Medium tank",
+              "is_component": false,
+              "component_of": null,
+              "is_premium": false,
+              "is_squadron": false,
+              "wiki": {
+                "url": "https://wiki.warthunder.com/unit/il_centurion_shot_kal_gimel",
+                "rank": "VI",
+                "battle_rating_context": "default",
+                "battle_ratings": {
+                  "AB": "8.7",
+                  "RB": "8.7",
+                  "SB": "8.7"
+                },
+                "battle_ratings_by_battle": {
+                  "default": {
+                    "AB": "8.7",
+                    "RB": "8.7",
+                    "SB": "8.7"
+                  }
+                },
+                "research": "135,000",
+                "purchase": "380,000",
+                "purchase_currency": "SL",
+                "status": null,
+                "fetched_at": "2026-09-19T06:29:35.322Z",
+                "sha256": "703ea679b677acb1a14686983709e77d17251cc04524aae2705618a26d45fb1e"
+              }
+            },
+            {
+              "type": "single",
+              "title": "Tiran 6",
+              "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/il_tiran_6.png",
+              "br": "8.7",
+              "rp": 81000,
+              "sp": 450000,
+              "data_unit_id": "il_tiran_6",
+              "required_unit_id": "il_centurion_shot_kal_gimel",
+              "selected": false,
+              "class_name": "",
+              "details": true,
+              "rank": "VI",
+              "research_country": "Israel",
+              "main_role": "Medium tank",
+              "is_component": false,
+              "component_of": null,
+              "is_premium": false,
+              "is_squadron": false,
+              "wiki": {
+                "url": "https://wiki.warthunder.com/unit/il_tiran_6",
+                "rank": "VI",
+                "battle_rating_context": "default",
+                "battle_ratings": {
+                  "AB": "8.7",
+                  "RB": "8.7",
+                  "SB": "8.7"
+                },
+                "battle_ratings_by_battle": {
+                  "default": {
+                    "AB": "8.7",
+                    "RB": "8.7",
+                    "SB": "8.7"
+                  }
+                },
+                "research": "81,000",
+                "purchase": "450,000",
+                "purchase_currency": "SL",
+                "status": null,
+                "fetched_at": "2026-09-19T06:29:40.204Z",
+                "sha256": "3703acaf48bfa219875e9e3c27b08ed5934dfcaffe1b4e6ec91d69f7f65285eb"
+              }
+            }
+          ],
+          "details": true,
+          "rp": 216000,
+          "sp": 830000
+        },
+        {
+          "type": "single",
+          "title": "Merkava Mk.1",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/il_merkava_mk_1.png",
+          "br": "9.3",
+          "rp": 160000,
+          "sp": 450000,
+          "data_unit_id": "il_merkava_mk_1",
+          "required_unit_id": "il_gimel_tiran_group",
+          "selected": false,
+          "class_name": "",
+          "details": true,
+          "rank": "VI",
+          "research_country": "Israel",
+          "main_role": "Medium tank",
+          "is_component": false,
+          "component_of": null,
+          "is_premium": false,
+          "is_squadron": false,
+          "wiki": {
+            "url": "https://wiki.warthunder.com/unit/il_merkava_mk_1",
+            "rank": "VI",
+            "battle_rating_context": "default",
+            "battle_ratings": {
+              "AB": "9.3",
+              "RB": "9.3",
+              "SB": "9.3"
+            },
+            "battle_ratings_by_battle": {
+              "default": {
+                "AB": "9.3",
+                "RB": "9.3",
+                "SB": "9.3"
+              }
+            },
+            "research": "160,000",
+            "purchase": "450,000",
+            "purchase_currency": "SL",
+            "status": null,
+            "fetched_at": "2026-09-19T06:29:38.513Z",
+            "sha256": "94689c21873ff1e2891a790d9368e8f42fbbff385ee3ed094e89f29fd94b4e96"
+          }
+        },
+        {
+          "type": "multiple",
+          "title": "Merkava 1B/2B",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/il_merkava_1_2_group.png",
+          "selected": false,
+          "br": "9.7",
+          "data_unit_id": "il_merkava_1_2_group",
+          "required_unit_id": "il_merkava_mk_1",
+          "class_name": "",
+          "items": [
+            {
+              "type": "single",
+              "title": "Merkava Mk.1B",
+              "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/il_merkava_mk_1b.png",
+              "br": "9.7",
+              "rp": 190000,
+              "sp": 520000,
+              "data_unit_id": "il_merkava_mk_1b",
+              "required_unit_id": "",
+              "selected": false,
+              "class_name": "",
+              "details": true,
+              "rank": "VI",
+              "research_country": "Israel",
+              "main_role": "Medium tank",
+              "is_component": false,
+              "component_of": null,
+              "is_premium": false,
+              "is_squadron": false,
+              "wiki": {
+                "url": "https://wiki.warthunder.com/unit/il_merkava_mk_1b",
+                "rank": "VI",
+                "battle_rating_context": "default",
+                "battle_ratings": {
+                  "AB": "9.7",
+                  "RB": "9.7",
+                  "SB": "9.7"
+                },
+                "battle_ratings_by_battle": {
+                  "default": {
+                    "AB": "9.7",
+                    "RB": "9.7",
+                    "SB": "9.7"
+                  }
+                },
+                "research": "190,000",
+                "purchase": "520,000",
+                "purchase_currency": "SL",
+                "status": null,
+                "fetched_at": "2026-09-19T06:29:38.535Z",
+                "sha256": "e064b1324115a88352f617a398149eebfe2969798533d83609345e55ffc4cff4"
+              }
+            },
+            {
+              "type": "single",
+              "title": "Merkava Mk.2B",
+              "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/il_merkava_mk_2b_early.png",
+              "br": "9.7",
+              "rp": 110000,
+              "sp": 620000,
+              "data_unit_id": "il_merkava_mk_2b_early",
+              "required_unit_id": "il_merkava_mk_1b",
+              "selected": false,
+              "class_name": "",
+              "details": true,
+              "rank": "VI",
+              "research_country": "Israel",
+              "main_role": "Medium tank",
+              "is_component": false,
+              "component_of": null,
+              "is_premium": false,
+              "is_squadron": false,
+              "wiki": {
+                "url": "https://wiki.warthunder.com/unit/il_merkava_mk_2b_early",
+                "rank": "VI",
+                "battle_rating_context": "default",
+                "battle_ratings": {
+                  "AB": "9.7",
+                  "RB": "9.7",
+                  "SB": "9.7"
+                },
+                "battle_ratings_by_battle": {
+                  "default": {
+                    "AB": "9.7",
+                    "RB": "9.7",
+                    "SB": "9.7"
+                  }
+                },
+                "research": "110,000",
+                "purchase": "620,000",
+                "purchase_currency": "SL",
+                "status": null,
+                "fetched_at": "2026-09-19T06:29:38.489Z",
+                "sha256": "663e060e78c8d8aeff33b9b2261d41f4129ba06878776e2ad545568ee61e6ef5"
+              }
+            }
+          ],
+          "details": true,
+          "rp": 300000,
+          "sp": 1140000
+        }
+      ],
+      [
+        {
+          "type": "single",
+          "title": "Machbet",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/il_machbet.png",
+          "br": "9.3",
+          "rp": 190000,
+          "sp": 520000,
+          "data_unit_id": "il_machbet",
+          "required_unit_id": "il_zsu_23_4",
+          "selected": false,
+          "class_name": "",
+          "details": true,
+          "rank": "VI",
+          "research_country": "Israel",
+          "main_role": "SPAA",
+          "is_component": false,
+          "component_of": null,
+          "is_premium": false,
+          "is_squadron": false,
+          "wiki": {
+            "url": "https://wiki.warthunder.com/unit/il_machbet",
+            "rank": "VI",
+            "battle_rating_context": "default",
+            "battle_ratings": {
+              "AB": "9.3",
+              "RB": "9.3",
+              "SB": "9.3"
+            },
+            "battle_ratings_by_battle": {
+              "default": {
+                "AB": "9.3",
+                "RB": "9.3",
+                "SB": "9.3"
+              }
+            },
+            "research": "190,000",
+            "purchase": "520,000",
+            "purchase_currency": "SL",
+            "status": null,
+            "fetched_at": "2026-09-19T06:29:36.712Z",
+            "sha256": "e2812d4c4d6beafa754385295d04aa7ddec5d88e220983a2b9447c7fb4a2732a"
+          }
+        },
+        {
+          "type": "single",
+          "title": "Imp.Chaparral",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/il_mim_72_chaparral.png",
+          "br": "9.3",
+          "rp": 220000,
+          "sp": 620000,
+          "data_unit_id": "il_mim_72_chaparral",
+          "required_unit_id": "il_machbet",
+          "selected": false,
+          "class_name": "",
+          "details": true,
+          "rank": "VI",
+          "research_country": "Israel",
+          "main_role": "SPAA",
+          "is_component": false,
+          "component_of": null,
+          "is_premium": false,
+          "is_squadron": false,
+          "wiki": {
+            "url": "https://wiki.warthunder.com/unit/il_mim_72_chaparral",
+            "rank": "VI",
+            "battle_rating_context": "default",
+            "battle_ratings": {
+              "AB": "9.3",
+              "RB": "9.3",
+              "SB": "9.3"
+            },
+            "battle_ratings_by_battle": {
+              "default": {
+                "AB": "9.3",
+                "RB": "9.3",
+                "SB": "9.3"
+              }
+            },
+            "research": "220,000",
+            "purchase": "620,000",
+            "purchase_currency": "SL",
+            "status": null,
+            "fetched_at": "2026-09-19T06:29:39.266Z",
+            "sha256": "0a9d68806a109c40e4982468b73648bc35c1af35b9f96db2429a6e4ef9724089"
+          }
+        }
+      ],
+      [
+        {
+          "type": "single",
+          "title": "Giraf",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/il_m113a1_tow.png",
+          "br": "8.3",
+          "rp": 160000,
+          "sp": 450000,
+          "data_unit_id": "il_m113a1_tow",
+          "required_unit_id": "il_m113_hvms",
+          "selected": false,
+          "class_name": "",
+          "details": true,
+          "rank": "VI",
+          "research_country": "Israel",
+          "main_role": "Tank destroyer",
+          "is_component": false,
+          "component_of": null,
+          "is_premium": false,
+          "is_squadron": false,
+          "wiki": {
+            "url": "https://wiki.warthunder.com/unit/il_m113a1_tow",
+            "rank": "VI",
+            "battle_rating_context": "default",
+            "battle_ratings": {
+              "AB": "8.3",
+              "RB": "8.3",
+              "SB": "8.3"
+            },
+            "battle_ratings_by_battle": {
+              "default": {
+                "AB": "8.3",
+                "RB": "8.3",
+                "SB": "8.3"
+              }
+            },
+            "research": "160,000",
+            "purchase": "450,000",
+            "purchase_currency": "SL",
+            "status": null,
+            "fetched_at": "2026-09-19T06:29:36.170Z",
+            "sha256": "59d65e1d4bd15b4464eca2df931950da4db45f8077e771d67b9d82fcde54b47a"
+          }
+        }
+      ]
+    ],
+    "premium_vehicles": [
+      [
+        {
+          "type": "single",
+          "title": "Sho't Kal Dalet",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/il_centurion_shot_kal_d.png",
+          "br": "9.0",
+          "rp": 0,
+          "sp": 0,
+          "data_unit_id": "il_centurion_shot_kal_d",
+          "required_unit_id": "",
+          "selected": false,
+          "class_name": "prem",
+          "details": true,
+          "rank": "VI",
+          "research_country": "Israel",
+          "main_role": "Medium tank",
+          "is_component": false,
+          "component_of": null,
+          "is_premium": true,
+          "is_squadron": false,
+          "wiki": {
+            "url": "https://wiki.warthunder.com/unit/il_centurion_shot_kal_d",
+            "rank": "VI",
+            "battle_rating_context": "default",
+            "battle_ratings": {
+              "AB": "9.0",
+              "RB": "9.0",
+              "SB": "9.0"
+            },
+            "battle_ratings_by_battle": {
+              "default": {
+                "AB": "9.0",
+                "RB": "9.0",
+                "SB": "9.0"
+              }
+            },
+            "research": null,
+            "purchase": "8,730",
+            "purchase_currency": "GE",
+            "status": "Premium vehicle",
+            "fetched_at": "2026-09-19T06:29:35.497Z",
+            "sha256": "21911dddcc7cef8f6c849e31fc7fd1f7314fec7ca53a9c983e1a8a63e1e7cc41"
+          }
+        },
+        {
+          "type": "single",
+          "title": "Magach 6B Gal",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/il_magach_6b_gal.png",
+          "br": "9.3",
+          "rp": 0,
+          "sp": 0,
+          "data_unit_id": "il_magach_6b_gal",
+          "required_unit_id": "",
+          "selected": false,
+          "class_name": "squad",
+          "details": true,
+          "rank": "VI",
+          "research_country": "Israel",
+          "main_role": "Medium tank",
+          "is_component": false,
+          "component_of": null,
+          "is_premium": false,
+          "is_squadron": true,
+          "wiki": {
+            "url": "https://wiki.warthunder.com/unit/il_magach_6b_gal",
+            "rank": "VI",
+            "battle_rating_context": "default",
+            "battle_ratings": {
+              "AB": "9.3",
+              "RB": "9.3",
+              "SB": "9.3"
+            },
+            "battle_ratings_by_battle": {
+              "default": {
+                "AB": "9.3",
+                "RB": "9.3",
+                "SB": "9.3"
+              }
+            },
+            "research": "440,000",
+            "purchase": "560,000",
+            "purchase_currency": "SL",
+            "status": "Squadron vehicle",
+            "fetched_at": "2026-09-19T06:29:37.701Z",
+            "sha256": "3bf99ab9ec460741ecee7e72bab61b23bad8850779f3345122a8bb04e762ac5d"
+          }
+        },
+        {
+          "type": "single",
+          "title": "Merkava Mk.2D",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/il_merkava_mk_2d.png",
+          "br": "10.0",
+          "rp": 0,
+          "sp": 0,
+          "data_unit_id": "il_merkava_mk_2d",
+          "required_unit_id": "",
+          "selected": false,
+          "class_name": "prem",
+          "details": true,
+          "rank": "VI",
+          "research_country": "Israel",
+          "main_role": "Medium tank",
+          "is_component": false,
+          "component_of": null,
+          "is_premium": true,
+          "is_squadron": false,
+          "wiki": {
+            "url": "https://wiki.warthunder.com/unit/il_merkava_mk_2d",
+            "rank": "VI",
+            "battle_rating_context": "default",
+            "battle_ratings": {
+              "AB": "10.0",
+              "RB": "10.0",
+              "SB": "10.0"
+            },
+            "battle_ratings_by_battle": {
+              "default": {
+                "AB": "10.0",
+                "RB": "10.0",
+                "SB": "10.0"
+              }
+            },
+            "research": null,
+            "purchase": "8,910",
+            "purchase_currency": "GE",
+            "status": "Premium vehicle",
+            "fetched_at": "2026-09-19T06:29:38.476Z",
+            "sha256": "9397803e6880ed4a82335502e8a48f8c7f5e74b25499589ec87316cef906259f"
+          }
+        }
+      ]
+    ],
+    "selected": [],
+    "unlock_quantity": null,
+    "source": "wiki"
+  },
+  {
+    "rank": "VII",
+    "researchable_vehicles": [
+      [
+        {
+          "type": "single",
+          "title": "Sabra Mk.I",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/il_sabra_mk1.png",
+          "br": "10.0",
+          "rp": 260000,
+          "sp": 710000,
+          "data_unit_id": "il_sabra_mk1",
+          "required_unit_id": "il_magach_batash_7_group",
+          "selected": false,
+          "class_name": "",
+          "details": true,
+          "rank": "VII",
+          "research_country": "Israel",
+          "main_role": "Medium tank",
+          "is_component": false,
+          "component_of": null,
+          "is_premium": false,
+          "is_squadron": false,
+          "wiki": {
+            "url": "https://wiki.warthunder.com/unit/il_sabra_mk1",
+            "rank": "VII",
+            "battle_rating_context": "default",
+            "battle_ratings": {
+              "AB": "10.0",
+              "RB": "10.0",
+              "SB": "10.0"
+            },
+            "battle_ratings_by_battle": {
+              "default": {
+                "AB": "10.0",
+                "RB": "10.0",
+                "SB": "10.0"
+              }
+            },
+            "research": "260,000",
+            "purchase": "710,000",
+            "purchase_currency": "SL",
+            "status": null,
+            "fetched_at": "2026-09-19T06:29:39.557Z",
+            "sha256": "18d84e681158933a48c4beeb9d059ef4f01a6f290fedfa0a672eeef821012134"
+          }
+        }
+      ],
+      [
+        {
+          "type": "multiple",
+          "title": "Merkava 3 B/C",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/il_merkava_3_group.png",
+          "selected": false,
+          "br": "11.3",
+          "data_unit_id": "il_merkava_3_group",
+          "required_unit_id": "il_merkava_1_2_group",
+          "class_name": "",
+          "items": [
+            {
+              "type": "single",
+              "title": "Merkava Mk.3B",
+              "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/il_merkava_mk_3b.png",
+              "br": "11.3",
+              "rp": 300000,
+              "sp": 830000,
+              "data_unit_id": "il_merkava_mk_3b",
+              "required_unit_id": "",
+              "selected": false,
+              "class_name": "",
+              "details": true,
+              "rank": "VII",
+              "research_country": "Israel",
+              "main_role": "Medium tank",
+              "is_component": false,
+              "component_of": null,
+              "is_premium": false,
+              "is_squadron": false,
+              "wiki": {
+                "url": "https://wiki.warthunder.com/unit/il_merkava_mk_3b",
+                "rank": "VII",
+                "battle_rating_context": "default",
+                "battle_ratings": {
+                  "AB": "11.3",
+                  "RB": "11.3",
+                  "SB": "11.3"
+                },
+                "battle_ratings_by_battle": {
+                  "default": {
+                    "AB": "11.3",
+                    "RB": "11.3",
+                    "SB": "11.3"
+                  }
+                },
+                "research": "300,000",
+                "purchase": "830,000",
+                "purchase_currency": "SL",
+                "status": null,
+                "fetched_at": "2026-09-19T06:29:39.018Z",
+                "sha256": "434f83798458ace350b32f44242672380a9e064b99bcd9c9b9d47f6fb0500f31"
+              }
+            },
+            {
+              "type": "single",
+              "title": "Merkava Mk.3C",
+              "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/il_merkava_mk_3c.png",
+              "br": "11.3",
+              "rp": 175000,
+              "sp": 950000,
+              "data_unit_id": "il_merkava_mk_3c",
+              "required_unit_id": "il_merkava_mk_3b",
+              "selected": false,
+              "class_name": "",
+              "details": true,
+              "rank": "VII",
+              "research_country": "Israel",
+              "main_role": "Medium tank",
+              "is_component": false,
+              "component_of": null,
+              "is_premium": false,
+              "is_squadron": false,
+              "wiki": {
+                "url": "https://wiki.warthunder.com/unit/il_merkava_mk_3c",
+                "rank": "VII",
+                "battle_rating_context": "default",
+                "battle_ratings": {
+                  "AB": "11.3",
+                  "RB": "11.3",
+                  "SB": "11.3"
+                },
+                "battle_ratings_by_battle": {
+                  "default": {
+                    "AB": "11.3",
+                    "RB": "11.3",
+                    "SB": "11.3"
+                  }
+                },
+                "research": "175,000",
+                "purchase": "950,000",
+                "purchase_currency": "SL",
+                "status": null,
+                "fetched_at": "2026-09-19T06:29:38.835Z",
+                "sha256": "40157905207b723cf513703eebd88fbf5746947d2e133af957bf4a00f64685be"
+              }
+            }
+          ],
+          "details": true,
+          "rp": 475000,
+          "sp": 1780000
+        }
+      ],
+      [
+        {
+          "type": "single",
+          "title": "◐Osa-AKM",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/il_9a33bm3.png",
+          "br": "10.3",
+          "rp": 300000,
+          "sp": 830000,
+          "data_unit_id": "il_9a33bm3",
+          "required_unit_id": "il_mim_72_chaparral",
+          "selected": false,
+          "class_name": "",
+          "details": true,
+          "rank": "VII",
+          "research_country": "Israel",
+          "main_role": "SPAA",
+          "is_component": false,
+          "component_of": null,
+          "is_premium": false,
+          "is_squadron": false,
+          "wiki": {
+            "url": "https://wiki.warthunder.com/unit/il_9a33bm3",
+            "rank": "VII",
+            "battle_rating_context": "default",
+            "battle_ratings": {
+              "AB": "10.3",
+              "RB": "10.3",
+              "SB": "10.3"
+            },
+            "battle_ratings_by_battle": {
+              "default": {
+                "AB": "10.3",
+                "RB": "10.3",
+                "SB": "10.3"
+              }
+            },
+            "research": "300,000",
+            "purchase": "830,000",
+            "purchase_currency": "SL",
+            "status": null,
+            "fetched_at": "2026-09-19T06:29:34.731Z",
+            "sha256": "eb6b7d92a5ee4a742211be1ed5105c83df2c57ec78de332e13e8f34b87189392"
+          }
+        },
+        {
+          "type": "single",
+          "title": "◐Tor-M1",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/il_tor_m1.png",
+          "br": "11.3",
+          "rp": 350000,
+          "sp": 950000,
+          "data_unit_id": "il_tor_m1",
+          "required_unit_id": "il_9a33bm3",
+          "selected": false,
+          "class_name": "",
+          "details": true,
+          "rank": "VII",
+          "research_country": "Israel",
+          "main_role": "SPAA",
+          "is_component": false,
+          "component_of": null,
+          "is_premium": false,
+          "is_squadron": false,
+          "wiki": {
+            "url": "https://wiki.warthunder.com/unit/il_tor_m1",
+            "rank": "VII",
+            "battle_rating_context": "default",
+            "battle_ratings": {
+              "AB": "11.3",
+              "RB": "11.3",
+              "SB": "11.3"
+            },
+            "battle_ratings_by_battle": {
+              "default": {
+                "AB": "11.3",
+                "RB": "11.3",
+                "SB": "11.3"
+              }
+            },
+            "research": "350,000",
+            "purchase": "950,000",
+            "purchase_currency": "SL",
+            "status": null,
+            "fetched_at": "2026-09-19T06:29:40.290Z",
+            "sha256": "6501bf2fcd5d35b9cf03ea6bed0eecdc3f0f7e293b515b239d1270ab04d28e10"
+          }
+        }
+      ],
+      [
+        {
+          "type": "single",
+          "title": "Hunter AFV",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/il_hunter_afv.png",
+          "br": "10.7",
+          "rp": 260000,
+          "sp": 710000,
+          "data_unit_id": "il_hunter_afv",
+          "required_unit_id": "il_m113a1_tow",
+          "selected": false,
+          "class_name": "",
+          "details": true,
+          "rank": "VII",
+          "research_country": "Israel",
+          "main_role": "Light tank",
+          "is_component": false,
+          "component_of": null,
+          "is_premium": false,
+          "is_squadron": false,
+          "wiki": {
+            "url": "https://wiki.warthunder.com/unit/il_hunter_afv",
+            "rank": "VII",
+            "battle_rating_context": "default",
+            "battle_ratings": {
+              "AB": "10.7",
+              "RB": "10.7",
+              "SB": "10.7"
+            },
+            "battle_ratings_by_battle": {
+              "default": {
+                "AB": "10.7",
+                "RB": "10.7",
+                "SB": "10.7"
+              }
+            },
+            "research": "260,000",
+            "purchase": "710,000",
+            "purchase_currency": "SL",
+            "status": null,
+            "fetched_at": "2026-09-19T06:29:35.684Z",
+            "sha256": "f16f842a586d3e35d8a44ce55da27b1c597bcf8ba66bd1f240aa5f8c310ed9ee"
+          }
+        },
+        {
+          "type": "single",
+          "title": "Eitan (P)",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/il_eitan.png",
+          "br": "11.3",
+          "rp": 300000,
+          "sp": 830000,
+          "data_unit_id": "il_eitan",
+          "required_unit_id": "il_hunter_afv",
+          "selected": false,
+          "class_name": "",
+          "details": true,
+          "rank": "VII",
+          "research_country": "Israel",
+          "main_role": "Light tank",
+          "is_component": false,
+          "component_of": null,
+          "is_premium": false,
+          "is_squadron": false,
+          "wiki": {
+            "url": "https://wiki.warthunder.com/unit/il_eitan",
+            "rank": "VII",
+            "battle_rating_context": "default",
+            "battle_ratings": {
+              "AB": "11.3",
+              "RB": "11.3",
+              "SB": "11.3"
+            },
+            "battle_ratings_by_battle": {
+              "default": {
+                "AB": "11.3",
+                "RB": "11.3",
+                "SB": "11.3"
+              }
+            },
+            "research": "300,000",
+            "purchase": "830,000",
+            "purchase_currency": "SL",
+            "status": null,
+            "fetched_at": "2026-09-19T06:29:35.640Z",
+            "sha256": "b478780aa7753f544e4d5fe4f692060aae1a96b501fd6826e8a3617d808d0a39"
+          }
+        },
+        {
+          "type": "multiple",
+          "title": "Namer",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/il_namer_group.png",
+          "selected": false,
+          "br": "11.3",
+          "data_unit_id": "il_namer_group",
+          "required_unit_id": "il_eitan",
+          "class_name": "",
+          "items": [
+            {
+              "type": "single",
+              "title": "Namer 30",
+              "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/il_namer_rcws_30.png",
+              "br": "11.3",
+              "rp": 350000,
+              "sp": 950000,
+              "data_unit_id": "il_namer_rcws_30",
+              "required_unit_id": "",
+              "selected": false,
+              "class_name": "",
+              "details": true,
+              "rank": "VII",
+              "research_country": "Israel",
+              "main_role": "Light tank",
+              "is_component": false,
+              "component_of": null,
+              "is_premium": false,
+              "is_squadron": false,
+              "wiki": {
+                "url": "https://wiki.warthunder.com/unit/il_namer_rcws_30",
+                "rank": "VII",
+                "battle_rating_context": "default",
+                "battle_ratings": {
+                  "AB": "11.3",
+                  "RB": "11.3",
+                  "SB": "11.3"
+                },
+                "battle_ratings_by_battle": {
+                  "default": {
+                    "AB": "11.3",
+                    "RB": "11.3",
+                    "SB": "11.3"
+                  }
+                },
+                "research": "350,000",
+                "purchase": "950,000",
+                "purchase_currency": "SL",
+                "status": null,
+                "fetched_at": "2026-09-19T06:29:39.560Z",
+                "sha256": "eb43b9d5bf918801492d60f09748431cd9e45715d9bfabc26757762100f1a394"
+              }
+            },
+            {
+              "type": "single",
+              "title": "Namer Tsrikhon",
+              "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/il_namer_tsrikhon.png",
+              "br": "11.3",
+              "rp": 175000,
+              "sp": 950000,
+              "data_unit_id": "il_namer_tsrikhon",
+              "required_unit_id": "il_namer_rcws_30",
+              "selected": false,
+              "class_name": "",
+              "details": true,
+              "rank": "VII",
+              "research_country": "Israel",
+              "main_role": "Light tank",
+              "is_component": false,
+              "component_of": null,
+              "is_premium": false,
+              "is_squadron": false,
+              "wiki": {
+                "url": "https://wiki.warthunder.com/unit/il_namer_tsrikhon",
+                "rank": "VII",
+                "battle_rating_context": "default",
+                "battle_ratings": {
+                  "AB": "11.3",
+                  "RB": "11.3",
+                  "SB": "11.3"
+                },
+                "battle_ratings_by_battle": {
+                  "default": {
+                    "AB": "11.3",
+                    "RB": "11.3",
+                    "SB": "11.3"
+                  }
+                },
+                "research": "175,000",
+                "purchase": "950,000",
+                "purchase_currency": "SL",
+                "status": null,
+                "fetched_at": "2026-09-19T06:29:39.726Z",
+                "sha256": "f7433b436ffc6f9bdc8b04eafd6f92f6211b13132bc8bc4a3eaef3fd2529370e"
+              }
+            }
+          ],
+          "details": true,
+          "rp": 525000,
+          "sp": 1900000
+        }
+      ]
+    ],
+    "premium_vehicles": [
+      [
+        {
+          "type": "single",
+          "title": "Ra'am Sagol",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/il_merkava_mk_3_raam_segol.png",
+          "br": "11.3",
+          "rp": 0,
+          "sp": 0,
+          "data_unit_id": "il_merkava_mk_3_raam_segol",
+          "required_unit_id": "",
+          "selected": false,
+          "class_name": "prem",
+          "details": true,
+          "rank": "VII",
+          "research_country": "Israel",
+          "main_role": "Medium tank",
+          "is_component": false,
+          "component_of": null,
+          "is_premium": true,
+          "is_squadron": false,
+          "wiki": {
+            "url": "https://wiki.warthunder.com/unit/il_merkava_mk_3_raam_segol",
+            "rank": "VII",
+            "battle_rating_context": "default",
+            "battle_ratings": {
+              "AB": "11.3",
+              "RB": "11.3",
+              "SB": "11.3"
+            },
+            "battle_ratings_by_battle": {
+              "default": {
+                "AB": "11.3",
+                "RB": "11.3",
+                "SB": "11.3"
+              }
+            },
+            "research": null,
+            "purchase": null,
+            "purchase_currency": null,
+            "status": "Premium vehicle",
+            "fetched_at": "2026-09-19T06:29:38.997Z",
+            "sha256": "9bc5f1ba3e59227b1e5392f1b3671f8a1a5d868d11d2fdc6e7f251041602affb"
+          }
+        }
+      ]
+    ],
+    "selected": [],
+    "unlock_quantity": null,
+    "source": "wiki"
+  },
+  {
+    "rank": "VIII",
+    "researchable_vehicles": [
+      [
+        {
+          "type": "single",
+          "title": "◐Leopard 2HEL",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/il_leopard_2a6_hel.png",
+          "br": "12.7",
+          "rp": 420000,
+          "sp": 1120000,
+          "data_unit_id": "il_leopard_2a6_hel",
+          "required_unit_id": "il_sabra_mk1",
+          "selected": false,
+          "class_name": "",
+          "details": true,
+          "rank": "VIII",
+          "research_country": "Israel",
+          "main_role": "Medium tank",
+          "is_component": false,
+          "component_of": null,
+          "is_premium": false,
+          "is_squadron": false,
+          "wiki": {
+            "url": "https://wiki.warthunder.com/unit/il_leopard_2a6_hel",
+            "rank": "VIII",
+            "battle_rating_context": "default",
+            "battle_ratings": {
+              "AB": "12.7",
+              "RB": "12.7",
+              "SB": "12.7"
+            },
+            "battle_ratings_by_battle": {
+              "default": {
+                "AB": "12.7",
+                "RB": "12.7",
+                "SB": "12.7"
+              }
+            },
+            "research": "420,000",
+            "purchase": "1,120,000",
+            "purchase_currency": "SL",
+            "status": null,
+            "fetched_at": "2026-09-19T06:29:35.838Z",
+            "sha256": "10bada034b769f6ed6cf59cb1d9b950ea1273e94eb133fcc60084aa313f1daf1"
+          }
+        }
+      ],
+      [
+        {
+          "type": "multiple",
+          "title": "Merkava 4 B/LIC",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/il_merkava_4_group.png",
+          "selected": false,
+          "br": "12.3",
+          "data_unit_id": "il_merkava_4_group",
+          "required_unit_id": "il_merkava_3_group",
+          "class_name": "",
+          "items": [
+            {
+              "type": "single",
+              "title": "Merkava Mk.4B",
+              "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/il_merkava_mk_4b.png",
+              "br": "12.3",
+              "rp": 400000,
+              "sp": 1080000,
+              "data_unit_id": "il_merkava_mk_4b",
+              "required_unit_id": "",
+              "selected": false,
+              "class_name": "",
+              "details": true,
+              "rank": "VIII",
+              "research_country": "Israel",
+              "main_role": "Medium tank",
+              "is_component": false,
+              "component_of": null,
+              "is_premium": false,
+              "is_squadron": false,
+              "wiki": {
+                "url": "https://wiki.warthunder.com/unit/il_merkava_mk_4b",
+                "rank": "VIII",
+                "battle_rating_context": "default",
+                "battle_ratings": {
+                  "AB": "12.3",
+                  "RB": "12.3",
+                  "SB": "12.3"
+                },
+                "battle_ratings_by_battle": {
+                  "default": {
+                    "AB": "12.3",
+                    "RB": "12.3",
+                    "SB": "12.3"
+                  }
+                },
+                "research": "400,000",
+                "purchase": "1,080,000",
+                "purchase_currency": "SL",
+                "status": null,
+                "fetched_at": "2026-09-19T06:29:39.195Z",
+                "sha256": "8e854adbc5c31a7e59917673f69418bbf41e531143a958ee69da960efb9cde69"
+              }
+            },
+            {
+              "type": "single",
+              "title": "Merkava Mk.4 LIC",
+              "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/il_merkava_mk_4_lic.png",
+              "br": "12.3",
+              "rp": 200000,
+              "sp": 1100000,
+              "data_unit_id": "il_merkava_mk_4_lic",
+              "required_unit_id": "il_merkava_mk_4b",
+              "selected": false,
+              "class_name": "",
+              "details": true,
+              "rank": "VIII",
+              "research_country": "Israel",
+              "main_role": "Medium tank",
+              "is_component": false,
+              "component_of": null,
+              "is_premium": false,
+              "is_squadron": false,
+              "wiki": {
+                "url": "https://wiki.warthunder.com/unit/il_merkava_mk_4_lic",
+                "rank": "VIII",
+                "battle_rating_context": "default",
+                "battle_ratings": {
+                  "AB": "12.3",
+                  "RB": "12.3",
+                  "SB": "12.3"
+                },
+                "battle_ratings_by_battle": {
+                  "default": {
+                    "AB": "12.3",
+                    "RB": "12.3",
+                    "SB": "12.3"
+                  }
+                },
+                "research": "200,000",
+                "purchase": "1,100,000",
+                "purchase_currency": "SL",
+                "status": null,
+                "fetched_at": "2026-09-19T06:29:38.800Z",
+                "sha256": "c762b25be2f81f3dadaccfbe37452e6d3fc6906e8b2caa364857482fd03ffbc8"
+              }
+            }
+          ],
+          "details": true,
+          "rp": 600000,
+          "sp": 2180000
+        },
+        {
+          "type": "single",
+          "title": "Merkava Mk.4M",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/il_merkava_mk_4m.png",
+          "br": "12.7",
+          "rp": 410000,
+          "sp": 1100000,
+          "data_unit_id": "il_merkava_mk_4m",
+          "required_unit_id": "il_merkava_4_group",
+          "selected": false,
+          "class_name": "",
+          "details": true,
+          "rank": "VIII",
+          "research_country": "Israel",
+          "main_role": "Medium tank",
+          "is_component": false,
+          "component_of": null,
+          "is_premium": false,
+          "is_squadron": false,
+          "wiki": {
+            "url": "https://wiki.warthunder.com/unit/il_merkava_mk_4m",
+            "rank": "VIII",
+            "battle_rating_context": "default",
+            "battle_ratings": {
+              "AB": "12.7",
+              "RB": "12.7",
+              "SB": "12.7"
+            },
+            "battle_ratings_by_battle": {
+              "default": {
+                "AB": "12.7",
+                "RB": "12.7",
+                "SB": "12.7"
+              }
+            },
+            "research": "410,000",
+            "purchase": "1,100,000",
+            "purchase_currency": "SL",
+            "status": null,
+            "fetched_at": "2026-09-19T06:29:39.218Z",
+            "sha256": "df357f18fe0d181cc4f5eba536d0454cc9784a72775d785f607f87d9a1c03441"
+          }
+        }
+      ],
+      [
+        {
+          "type": "single",
+          "title": "SPYDER",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/il_spyder_aio.png",
+          "br": "12.7",
+          "rp": 410000,
+          "sp": 1100000,
+          "data_unit_id": "il_spyder_aio",
+          "required_unit_id": "il_tor_m1",
+          "selected": false,
+          "class_name": "",
+          "details": true,
+          "rank": "VIII",
+          "research_country": "Israel",
+          "main_role": "SPAA",
+          "is_component": false,
+          "component_of": null,
+          "is_premium": false,
+          "is_squadron": false,
+          "wiki": {
+            "url": "https://wiki.warthunder.com/unit/il_spyder_aio",
+            "rank": "VIII",
+            "battle_rating_context": "default",
+            "battle_ratings": {
+              "AB": "12.7",
+              "RB": "12.7",
+              "SB": "12.7"
+            },
+            "battle_ratings_by_battle": {
+              "default": {
+                "AB": "12.7",
+                "RB": "12.7",
+                "SB": "12.7"
+              }
+            },
+            "research": "410,000",
+            "purchase": "1,100,000",
+            "purchase_currency": "SL",
+            "status": null,
+            "fetched_at": "2026-09-19T06:29:39.834Z",
+            "sha256": "2d18d513689d21f3a4657ed2d972b14a8e1bda9ccb5b572968af8299ca26de89"
+          }
+        }
+      ],
+      []
+    ],
+    "premium_vehicles": [
+      []
+    ],
+    "selected": [],
+    "unlock_quantity": null,
+    "source": "wiki"
+  }
+]

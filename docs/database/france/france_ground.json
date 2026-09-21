@@ -1,0 +1,4973 @@
+[
+  {
+    "rank": "I",
+    "researchable_vehicles": [
+      [
+        {
+          "type": "multiple",
+          "title": "AMC/H.35/FCM",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/fr_hotchkiss_fcm_group.png",
+          "selected": false,
+          "br": "1.0",
+          "data_unit_id": "fr_hotchkiss_fcm_group",
+          "required_unit_id": "",
+          "class_name": "",
+          "items": [
+            {
+              "type": "single",
+              "title": "AMC.34 YR",
+              "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/fr_amc_34.png",
+              "br": "1.0",
+              "rp": 0,
+              "sp": 0,
+              "data_unit_id": "fr_amc_34",
+              "required_unit_id": "",
+              "selected": false,
+              "class_name": "",
+              "details": true,
+              "rank": "I",
+              "research_country": "France",
+              "main_role": "Light tank",
+              "is_component": false,
+              "component_of": null,
+              "is_premium": false,
+              "is_squadron": false,
+              "wiki": {
+                "url": "https://wiki.warthunder.com/unit/fr_amc_34",
+                "rank": "I",
+                "battle_rating_context": "default",
+                "battle_ratings": {
+                  "AB": "1.0",
+                  "RB": "1.0",
+                  "SB": "1.0"
+                },
+                "battle_ratings_by_battle": {
+                  "default": {
+                    "AB": "1.0",
+                    "RB": "1.0",
+                    "SB": "1.0"
+                  }
+                },
+                "research": "Free",
+                "purchase": "Free",
+                "purchase_currency": "SL",
+                "status": null,
+                "fetched_at": "2026-09-19T06:29:14.384Z",
+                "sha256": "99e47f47d327f9aa1692a4ba5815db2b1242f1a8b65f474e7b0d5606cf988960"
+              }
+            },
+            {
+              "type": "single",
+              "title": "H.35",
+              "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/fr_hotchkiss_h35.png",
+              "br": "1.0",
+              "rp": 0,
+              "sp": 0,
+              "data_unit_id": "fr_hotchkiss_h35",
+              "required_unit_id": "",
+              "selected": false,
+              "class_name": "",
+              "details": true,
+              "rank": "I",
+              "research_country": "France",
+              "main_role": "Light tank",
+              "is_component": false,
+              "component_of": null,
+              "is_premium": false,
+              "is_squadron": false,
+              "wiki": {
+                "url": "https://wiki.warthunder.com/unit/fr_hotchkiss_h35",
+                "rank": "I",
+                "battle_rating_context": "default",
+                "battle_ratings": {
+                  "AB": "1.0",
+                  "RB": "1.0",
+                  "SB": "1.0"
+                },
+                "battle_ratings_by_battle": {
+                  "default": {
+                    "AB": "1.0",
+                    "RB": "1.0",
+                    "SB": "1.0"
+                  }
+                },
+                "research": "Free",
+                "purchase": "Free",
+                "purchase_currency": "SL",
+                "status": null,
+                "fetched_at": "2026-09-19T06:29:19.776Z",
+                "sha256": "a1cdee1115908063672cfbb3864b743e060b8c601da013f78462f9ddba27f1cb"
+              }
+            },
+            {
+              "type": "single",
+              "title": "FCM.36",
+              "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/fr_fcm_36.png",
+              "br": "1.0",
+              "rp": 0,
+              "sp": 0,
+              "data_unit_id": "fr_fcm_36",
+              "required_unit_id": "",
+              "selected": false,
+              "class_name": "",
+              "details": true,
+              "rank": "I",
+              "research_country": "France",
+              "main_role": "Light tank",
+              "is_component": false,
+              "component_of": null,
+              "is_premium": false,
+              "is_squadron": false,
+              "wiki": {
+                "url": "https://wiki.warthunder.com/unit/fr_fcm_36",
+                "rank": "I",
+                "battle_rating_context": "default",
+                "battle_ratings": {
+                  "AB": "1.0",
+                  "RB": "1.0",
+                  "SB": "1.0"
+                },
+                "battle_ratings_by_battle": {
+                  "default": {
+                    "AB": "1.0",
+                    "RB": "1.0",
+                    "SB": "1.0"
+                  }
+                },
+                "research": "Free",
+                "purchase": "Free",
+                "purchase_currency": "SL",
+                "status": null,
+                "fetched_at": "2026-09-19T06:29:19.517Z",
+                "sha256": "25f39ccbb67c466d015b1b33c1b606e3dd502f5622dcfe7fb79a565d21d4455c"
+              }
+            }
+          ],
+          "details": true,
+          "rp": 0,
+          "sp": 0
+        },
+        {
+          "type": "single",
+          "title": "AMD.35",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/fr_amd_35.png",
+          "br": "1.0",
+          "rp": 0,
+          "sp": 0,
+          "data_unit_id": "fr_amd_35",
+          "required_unit_id": "",
+          "selected": false,
+          "class_name": "",
+          "details": true,
+          "rank": "I",
+          "research_country": "France",
+          "main_role": "Light tank",
+          "is_component": false,
+          "component_of": null,
+          "is_premium": false,
+          "is_squadron": false,
+          "wiki": {
+            "url": "https://wiki.warthunder.com/unit/fr_amd_35",
+            "rank": "I",
+            "battle_rating_context": "default",
+            "battle_ratings": {
+              "AB": "1.0",
+              "RB": "1.0",
+              "SB": "1.0"
+            },
+            "battle_ratings_by_battle": {
+              "default": {
+                "AB": "1.0",
+                "RB": "1.0",
+                "SB": "1.0"
+              }
+            },
+            "research": "Free",
+            "purchase": "Free",
+            "purchase_currency": "SL",
+            "status": null,
+            "fetched_at": "2026-09-19T06:29:14.464Z",
+            "sha256": "e6f7497b5147ebad49d47e64037ab6e4c91817ff8b00fdfa7e968ae8be4df4ce"
+          }
+        },
+        {
+          "type": "single",
+          "title": "AMC.35 (ACG.1)",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/fr_amc_35.png",
+          "br": "1.3",
+          "rp": 2900,
+          "sp": 700,
+          "data_unit_id": "fr_amc_35",
+          "required_unit_id": "fr_amd_35",
+          "selected": false,
+          "class_name": "",
+          "details": true,
+          "rank": "I",
+          "research_country": "France",
+          "main_role": "Light tank",
+          "is_component": false,
+          "component_of": null,
+          "is_premium": false,
+          "is_squadron": false,
+          "wiki": {
+            "url": "https://wiki.warthunder.com/unit/fr_amc_35",
+            "rank": "I",
+            "battle_rating_context": "default",
+            "battle_ratings": {
+              "AB": "1.3",
+              "RB": "1.3",
+              "SB": "1.3"
+            },
+            "battle_ratings_by_battle": {
+              "default": {
+                "AB": "1.3",
+                "RB": "1.3",
+                "SB": "1.3"
+              }
+            },
+            "research": "2,900",
+            "purchase": "700",
+            "purchase_currency": "SL",
+            "status": null,
+            "fetched_at": "2026-09-19T06:29:14.526Z",
+            "sha256": "f6fbb3ab8aef209cde2dc89d097189dd09b0ec6e27bd2fdce0ee2ee0fb8fa620"
+          }
+        }
+      ],
+      [
+        {
+          "type": "single",
+          "title": "St-Chamond",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/fr_saint_chamond.png",
+          "br": "1.0",
+          "rp": null,
+          "sp": null,
+          "data_unit_id": "fr_saint_chamond",
+          "required_unit_id": "",
+          "selected": false,
+          "class_name": "",
+          "details": true,
+          "rank": "I",
+          "research_country": "France",
+          "main_role": "Medium tank",
+          "is_component": false,
+          "component_of": null,
+          "is_premium": false,
+          "is_squadron": false,
+          "wiki": {
+            "url": "https://wiki.warthunder.com/unit/fr_saint_chamond",
+            "rank": "I",
+            "battle_rating_context": "default",
+            "battle_ratings": {
+              "AB": "1.0",
+              "RB": "1.0",
+              "SB": "1.0"
+            },
+            "battle_ratings_by_battle": {
+              "default": {
+                "AB": "1.0",
+                "RB": "1.0",
+                "SB": "1.0"
+              }
+            },
+            "research": null,
+            "purchase": null,
+            "purchase_currency": null,
+            "status": null,
+            "fetched_at": "2026-09-19T06:29:23.320Z",
+            "sha256": "664d17a06e8f26c36979aec60e534b65ec520f4dc6e3410c278ddc51d82c1afb"
+          }
+        },
+        {
+          "type": "single",
+          "title": "H.39",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/fr_hotchkiss_h39.png",
+          "br": "1.0",
+          "rp": 0,
+          "sp": 0,
+          "data_unit_id": "fr_hotchkiss_h39",
+          "required_unit_id": "",
+          "selected": false,
+          "class_name": "",
+          "details": true,
+          "rank": "I",
+          "research_country": "France",
+          "main_role": "Light tank",
+          "is_component": false,
+          "component_of": null,
+          "is_premium": false,
+          "is_squadron": false,
+          "wiki": {
+            "url": "https://wiki.warthunder.com/unit/fr_hotchkiss_h39",
+            "rank": "I",
+            "battle_rating_context": "default",
+            "battle_ratings": {
+              "AB": "1.0",
+              "RB": "1.0",
+              "SB": "1.0"
+            },
+            "battle_ratings_by_battle": {
+              "default": {
+                "AB": "1.0",
+                "RB": "1.0",
+                "SB": "1.0"
+              }
+            },
+            "research": "Free",
+            "purchase": "Free",
+            "purchase_currency": "SL",
+            "status": null,
+            "fetched_at": "2026-09-19T06:29:19.559Z",
+            "sha256": "733b85d8b390f19ceec1dada3d45ab5d083f3717487968fe6f7ff8bf31c45e2d"
+          }
+        },
+        {
+          "type": "single",
+          "title": "S.35",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/fr_somua_s35.png",
+          "br": "1.3",
+          "rp": 2900,
+          "sp": 700,
+          "data_unit_id": "fr_somua_s35",
+          "required_unit_id": "fr_hotchkiss_h39",
+          "selected": false,
+          "class_name": "",
+          "details": true,
+          "rank": "I",
+          "research_country": "France",
+          "main_role": "Medium tank",
+          "is_component": false,
+          "component_of": null,
+          "is_premium": false,
+          "is_squadron": false,
+          "wiki": {
+            "url": "https://wiki.warthunder.com/unit/fr_somua_s35",
+            "rank": "I",
+            "battle_rating_context": "default",
+            "battle_ratings": {
+              "AB": "1.3",
+              "RB": "1.3",
+              "SB": "1.3"
+            },
+            "battle_ratings_by_battle": {
+              "default": {
+                "AB": "1.3",
+                "RB": "1.3",
+                "SB": "1.3"
+              }
+            },
+            "research": "2,900",
+            "purchase": "700",
+            "purchase_currency": "SL",
+            "status": null,
+            "fetched_at": "2026-09-19T06:29:23.984Z",
+            "sha256": "0803a897fd5a452ca9727bc5b6dcf6620d9de1db9dc7df33c2b2820859469d2c"
+          }
+        }
+      ],
+      [
+        {
+          "type": "single",
+          "title": "R.35 (SA38)",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/fr_renault_r39.png",
+          "br": "1.0",
+          "rp": 2900,
+          "sp": 700,
+          "data_unit_id": "fr_renault_r39",
+          "required_unit_id": "",
+          "selected": false,
+          "class_name": "",
+          "details": true,
+          "rank": "I",
+          "research_country": "France",
+          "main_role": "Light tank",
+          "is_component": false,
+          "component_of": null,
+          "is_premium": false,
+          "is_squadron": false,
+          "wiki": {
+            "url": "https://wiki.warthunder.com/unit/fr_renault_r39",
+            "rank": "I",
+            "battle_rating_context": "default",
+            "battle_ratings": {
+              "AB": "1.0",
+              "RB": "1.0",
+              "SB": "1.0"
+            },
+            "battle_ratings_by_battle": {
+              "default": {
+                "AB": "1.0",
+                "RB": "1.0",
+                "SB": "1.0"
+              }
+            },
+            "research": "2,900",
+            "purchase": "700",
+            "purchase_currency": "SL",
+            "status": null,
+            "fetched_at": "2026-09-19T06:29:23.222Z",
+            "sha256": "7f3285c54009c9d9c10cea39cce7bc5a68eb49f212a82192210627c1ff3f555c"
+          }
+        },
+        {
+          "type": "single",
+          "title": "D2",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/fr_renault_d2.png",
+          "br": "1.3",
+          "rp": 4000,
+          "sp": 2100,
+          "data_unit_id": "fr_renault_d2",
+          "required_unit_id": "fr_renault_r39",
+          "selected": false,
+          "class_name": "",
+          "details": true,
+          "rank": "I",
+          "research_country": "France",
+          "main_role": "Medium tank",
+          "is_component": false,
+          "component_of": null,
+          "is_premium": false,
+          "is_squadron": false,
+          "wiki": {
+            "url": "https://wiki.warthunder.com/unit/fr_renault_d2",
+            "rank": "I",
+            "battle_rating_context": "default",
+            "battle_ratings": {
+              "AB": "1.3",
+              "RB": "1.3",
+              "SB": "1.3"
+            },
+            "battle_ratings_by_battle": {
+              "default": {
+                "AB": "1.3",
+                "RB": "1.3",
+                "SB": "1.3"
+              }
+            },
+            "research": "4,000",
+            "purchase": "2,100",
+            "purchase_currency": "SL",
+            "status": null,
+            "fetched_at": "2026-09-19T06:29:23.199Z",
+            "sha256": "629e481f11101592de28f72d839194a536646f8c1ec67ea679efd1e9b29c185e"
+          }
+        }
+      ],
+      [
+        {
+          "type": "single",
+          "title": "P.7.T AA",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/fr_citroen_kegresse_p4t.png",
+          "br": "1.3",
+          "rp": 2900,
+          "sp": 700,
+          "data_unit_id": "fr_citroen_kegresse_p4t",
+          "required_unit_id": "",
+          "selected": false,
+          "class_name": "",
+          "details": true,
+          "rank": "I",
+          "research_country": "France",
+          "main_role": "SPAA",
+          "is_component": false,
+          "component_of": null,
+          "is_premium": false,
+          "is_squadron": false,
+          "wiki": {
+            "url": "https://wiki.warthunder.com/unit/fr_citroen_kegresse_p4t",
+            "rank": "I",
+            "battle_rating_context": "default",
+            "battle_ratings": {
+              "AB": "1.3",
+              "RB": "1.3",
+              "SB": "1.3"
+            },
+            "battle_ratings_by_battle": {
+              "default": {
+                "AB": "1.3",
+                "RB": "1.3",
+                "SB": "1.3"
+              }
+            },
+            "research": "2,900",
+            "purchase": "700",
+            "purchase_currency": "SL",
+            "status": null,
+            "fetched_at": "2026-09-19T06:29:19.045Z",
+            "sha256": "487bd364665039e79100eae64d52cc80ec7e1bf0f7b14292d7e6a8df0912babc"
+          }
+        }
+      ],
+      [
+        {
+          "type": "single",
+          "title": "AMR.35 ZT3",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/fr_amr_35_zt3.png",
+          "br": "1.0",
+          "rp": 2900,
+          "sp": 700,
+          "data_unit_id": "fr_amr_35_zt3",
+          "required_unit_id": "",
+          "selected": false,
+          "class_name": "",
+          "details": true,
+          "rank": "I",
+          "research_country": "France",
+          "main_role": "Tank destroyer",
+          "is_component": false,
+          "component_of": null,
+          "is_premium": false,
+          "is_squadron": false,
+          "wiki": {
+            "url": "https://wiki.warthunder.com/unit/fr_amr_35_zt3",
+            "rank": "I",
+            "battle_rating_context": "default",
+            "battle_ratings": {
+              "AB": "1.0",
+              "RB": "1.0",
+              "SB": "1.0"
+            },
+            "battle_ratings_by_battle": {
+              "default": {
+                "AB": "1.0",
+                "RB": "1.0",
+                "SB": "1.0"
+              }
+            },
+            "research": "2,900",
+            "purchase": "700",
+            "purchase_currency": "SL",
+            "status": null,
+            "fetched_at": "2026-09-19T06:29:14.929Z",
+            "sha256": "036aa68745e9c7fa5729c87cbe7fa04d2bf97ae1f199b3c6f0d7d4a070106a64"
+          }
+        },
+        {
+          "type": "single",
+          "title": "Lorraine 37L",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/fr_lorraine_37l.png",
+          "br": "1.3",
+          "rp": 4000,
+          "sp": 2100,
+          "data_unit_id": "fr_lorraine_37l",
+          "required_unit_id": "fr_amr_35_zt3",
+          "selected": false,
+          "class_name": "",
+          "details": true,
+          "rank": "I",
+          "research_country": "France",
+          "main_role": "Tank destroyer",
+          "is_component": false,
+          "component_of": null,
+          "is_premium": false,
+          "is_squadron": false,
+          "wiki": {
+            "url": "https://wiki.warthunder.com/unit/fr_lorraine_37l",
+            "rank": "I",
+            "battle_rating_context": "default",
+            "battle_ratings": {
+              "AB": "1.3",
+              "RB": "1.3",
+              "SB": "1.3"
+            },
+            "battle_ratings_by_battle": {
+              "default": {
+                "AB": "1.3",
+                "RB": "1.3",
+                "SB": "1.3"
+              }
+            },
+            "research": "4,000",
+            "purchase": "2,100",
+            "purchase_currency": "SL",
+            "status": null,
+            "fetched_at": "2026-09-19T06:29:20.811Z",
+            "sha256": "1b91a36436ec26dcd01fafa2c4a3ccf8f028719b8df3501d72326011efc70e30"
+          }
+        },
+        {
+          "type": "single",
+          "title": "SAu 40",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/fr_somua_sau40.png",
+          "br": "1.7",
+          "rp": 5900,
+          "sp": 6300,
+          "data_unit_id": "fr_somua_sau40",
+          "required_unit_id": "fr_lorraine_37l",
+          "selected": false,
+          "class_name": "",
+          "details": true,
+          "rank": "I",
+          "research_country": "France",
+          "main_role": "Tank destroyer",
+          "is_component": false,
+          "component_of": null,
+          "is_premium": false,
+          "is_squadron": false,
+          "wiki": {
+            "url": "https://wiki.warthunder.com/unit/fr_somua_sau40",
+            "rank": "I",
+            "battle_rating_context": "default",
+            "battle_ratings": {
+              "AB": "1.7",
+              "RB": "1.7",
+              "SB": "1.7"
+            },
+            "battle_ratings_by_battle": {
+              "default": {
+                "AB": "1.7",
+                "RB": "1.7",
+                "SB": "1.7"
+              }
+            },
+            "research": "5,900",
+            "purchase": "6,300",
+            "purchase_currency": "SL",
+            "status": null,
+            "fetched_at": "2026-09-19T06:29:23.776Z",
+            "sha256": "e5edbcb6d13696d85683da7d1d5dcde644f5e15f75ea7a917dd45745a1fcd80c"
+          }
+        }
+      ]
+    ],
+    "premium_vehicles": [
+      [
+        {
+          "type": "single",
+          "title": "H.39 \"Cambronne\"",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/fr_hotchkiss_h39_cambronne.png",
+          "br": "1.0",
+          "rp": 0,
+          "sp": 0,
+          "data_unit_id": "fr_hotchkiss_h39_cambronne",
+          "required_unit_id": "",
+          "selected": false,
+          "class_name": "prem",
+          "details": true,
+          "rank": "I",
+          "research_country": "France",
+          "main_role": "Light tank",
+          "is_component": false,
+          "component_of": null,
+          "is_premium": true,
+          "is_squadron": false,
+          "wiki": {
+            "url": "https://wiki.warthunder.com/unit/fr_hotchkiss_h39_cambronne",
+            "rank": "I",
+            "battle_rating_context": "default",
+            "battle_ratings": {
+              "AB": "1.0",
+              "RB": "1.0",
+              "SB": "1.0"
+            },
+            "battle_ratings_by_battle": {
+              "default": {
+                "AB": "1.0",
+                "RB": "1.0",
+                "SB": "1.0"
+              }
+            },
+            "research": null,
+            "purchase": "250",
+            "purchase_currency": "GE",
+            "status": "Premium vehicle",
+            "fetched_at": "2026-09-19T06:29:19.772Z",
+            "sha256": "d82ee068b4e4e836407040a4a9f6dec09b1d1e665da49785e65550e79b5a9f50"
+          }
+        },
+        {
+          "type": "single",
+          "title": "2C bis",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/fr_char_2c_bis.png",
+          "br": "1.7",
+          "rp": 0,
+          "sp": 0,
+          "data_unit_id": "fr_char_2c_bis",
+          "required_unit_id": "",
+          "selected": false,
+          "class_name": "prem",
+          "details": true,
+          "rank": "I",
+          "research_country": "France",
+          "main_role": "Heavy tank",
+          "is_component": false,
+          "component_of": null,
+          "is_premium": true,
+          "is_squadron": false,
+          "wiki": {
+            "url": "https://wiki.warthunder.com/unit/fr_char_2c_bis",
+            "rank": "I",
+            "battle_rating_context": "default",
+            "battle_ratings": {
+              "AB": "1.7",
+              "RB": "1.7",
+              "SB": "1.7"
+            },
+            "battle_ratings_by_battle": {
+              "default": {
+                "AB": "1.7",
+                "RB": "1.7",
+                "SB": "1.7"
+              }
+            },
+            "research": null,
+            "purchase": "2,100",
+            "purchase_currency": "GE",
+            "status": "Premium vehicle",
+            "fetched_at": "2026-09-19T06:29:18.807Z",
+            "sha256": "74ee0375468859f06d1f89ff42ac5a7de5a546ab6e892f85af5fbea1c3a2ff43"
+          }
+        }
+      ],
+      [
+        {
+          "type": "single",
+          "title": "AMD.35 (SA35)",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/fr_amd_35_sa35.png",
+          "br": "1.7",
+          "rp": 0,
+          "sp": 0,
+          "data_unit_id": "fr_amd_35_sa35",
+          "required_unit_id": "",
+          "selected": false,
+          "class_name": "prem",
+          "details": true,
+          "rank": "I",
+          "research_country": "France",
+          "main_role": "Light tank",
+          "is_component": false,
+          "component_of": null,
+          "is_premium": true,
+          "is_squadron": false,
+          "wiki": {
+            "url": "https://wiki.warthunder.com/unit/fr_amd_35_sa35",
+            "rank": "I",
+            "battle_rating_context": "default",
+            "battle_ratings": {
+              "AB": "1.7",
+              "RB": "1.7",
+              "SB": "1.7"
+            },
+            "battle_ratings_by_battle": {
+              "default": {
+                "AB": "1.7",
+                "RB": "1.7",
+                "SB": "1.7"
+              }
+            },
+            "research": null,
+            "purchase": null,
+            "purchase_currency": null,
+            "status": "Premium vehicle",
+            "fetched_at": "2026-09-19T06:29:14.829Z",
+            "sha256": "a366438f2642ef6e26a4eec322277da81f6ffe0a760ac2a0d1ba31a752c19813"
+          }
+        }
+      ]
+    ],
+    "selected": [],
+    "unlock_quantity": null,
+    "source": "wiki"
+  },
+  {
+    "rank": "II",
+    "researchable_vehicles": [
+      [
+        {
+          "type": "single",
+          "title": "AMD.35 (PaK)",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/fr_amd_35_kwk39.png",
+          "br": "2.7",
+          "rp": 7900,
+          "sp": 10000,
+          "data_unit_id": "fr_amd_35_kwk39",
+          "required_unit_id": "",
+          "selected": false,
+          "class_name": "",
+          "details": true,
+          "rank": "II",
+          "research_country": "France",
+          "main_role": "Light tank",
+          "is_component": false,
+          "component_of": null,
+          "is_premium": false,
+          "is_squadron": false,
+          "wiki": {
+            "url": "https://wiki.warthunder.com/unit/fr_amd_35_kwk39",
+            "rank": "II",
+            "battle_rating_context": "default",
+            "battle_ratings": {
+              "AB": "2.7",
+              "RB": "2.7",
+              "SB": "2.7"
+            },
+            "battle_ratings_by_battle": {
+              "default": {
+                "AB": "2.7",
+                "RB": "2.7",
+                "SB": "2.7"
+              }
+            },
+            "research": "7,900",
+            "purchase": "10,000",
+            "purchase_currency": "SL",
+            "status": null,
+            "fetched_at": "2026-09-19T06:29:14.466Z",
+            "sha256": "60de4b6bc7938afc8ffa9fa972c49312d4413bd6adafa5f8662c4e57d20b1d4f"
+          }
+        },
+        {
+          "type": "single",
+          "title": "▄Crusader Mk.II",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/fr_crusader_mk_2.png",
+          "br": "2.7",
+          "rp": 9200,
+          "sp": 16000,
+          "data_unit_id": "fr_crusader_mk_2",
+          "required_unit_id": "fr_amd_35_kwk39",
+          "selected": false,
+          "class_name": "",
+          "details": true,
+          "rank": "II",
+          "research_country": "France",
+          "main_role": "Light tank",
+          "is_component": false,
+          "component_of": null,
+          "is_premium": false,
+          "is_squadron": false,
+          "wiki": {
+            "url": "https://wiki.warthunder.com/unit/fr_crusader_mk_2",
+            "rank": "II",
+            "battle_rating_context": "default",
+            "battle_ratings": {
+              "AB": "2.7",
+              "RB": "2.7",
+              "SB": "2.7"
+            },
+            "battle_ratings_by_battle": {
+              "default": {
+                "AB": "2.7",
+                "RB": "2.7",
+                "SB": "2.7"
+              }
+            },
+            "research": "9,200",
+            "purchase": "16,000",
+            "purchase_currency": "SL",
+            "status": null,
+            "fetched_at": "2026-09-19T06:29:19.262Z",
+            "sha256": "304d9751d4e6d67b25f382ed95139374e5fb1c69ebbb95784a38427adf844f5b"
+          }
+        }
+      ],
+      [
+        {
+          "type": "single",
+          "title": "▄M3A3 Stuart",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/fr_m3a3_stuart.png",
+          "br": "2.7",
+          "rp": 9200,
+          "sp": 16000,
+          "data_unit_id": "fr_m3a3_stuart",
+          "required_unit_id": "",
+          "selected": false,
+          "class_name": "",
+          "details": true,
+          "rank": "II",
+          "research_country": "France",
+          "main_role": "Light tank",
+          "is_component": false,
+          "component_of": null,
+          "is_premium": false,
+          "is_squadron": false,
+          "wiki": {
+            "url": "https://wiki.warthunder.com/unit/fr_m3a3_stuart",
+            "rank": "II",
+            "battle_rating_context": "default",
+            "battle_ratings": {
+              "AB": "2.7",
+              "RB": "2.7",
+              "SB": "2.7"
+            },
+            "battle_ratings_by_battle": {
+              "default": {
+                "AB": "2.7",
+                "RB": "2.7",
+                "SB": "2.7"
+              }
+            },
+            "research": "9,200",
+            "purchase": "16,000",
+            "purchase_currency": "SL",
+            "status": null,
+            "fetched_at": "2026-09-19T06:29:21.380Z",
+            "sha256": "4640651164daa2b397a61c43183fb197a4b8fea7460ad16549192ba2d73c1f3e"
+          }
+        },
+        {
+          "type": "single",
+          "title": "▄M4A1",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/fr_m4a1_sherman.png",
+          "br": "3.7",
+          "rp": 14000,
+          "sp": 32000,
+          "data_unit_id": "fr_m4a1_sherman",
+          "required_unit_id": "fr_m3a3_stuart",
+          "selected": false,
+          "class_name": "",
+          "details": true,
+          "rank": "II",
+          "research_country": "France",
+          "main_role": "Medium tank",
+          "is_component": false,
+          "component_of": null,
+          "is_premium": false,
+          "is_squadron": false,
+          "wiki": {
+            "url": "https://wiki.warthunder.com/unit/fr_m4a1_sherman",
+            "rank": "II",
+            "battle_rating_context": "default",
+            "battle_ratings": {
+              "AB": "3.7",
+              "RB": "3.7",
+              "SB": "3.7"
+            },
+            "battle_ratings_by_battle": {
+              "default": {
+                "AB": "3.7",
+                "RB": "3.7",
+                "SB": "3.7"
+              }
+            },
+            "research": "14,000",
+            "purchase": "32,000",
+            "purchase_currency": "SL",
+            "status": null,
+            "fetched_at": "2026-09-19T06:29:21.643Z",
+            "sha256": "39b55bf8b15e265035aed40b3777becdc5ed1b89c8a694777aa4d19d27c8a005"
+          }
+        }
+      ],
+      [
+        {
+          "type": "multiple",
+          "title": "B1/2C",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/fr_b1_2c_group.png",
+          "selected": false,
+          "br": "2.3",
+          "data_unit_id": "fr_b1_2c_group",
+          "required_unit_id": "",
+          "class_name": "",
+          "items": [
+            {
+              "type": "single",
+              "title": "B1 bis",
+              "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/fr_b1_bis.png",
+              "br": "2.3",
+              "rp": 7900,
+              "sp": 10000,
+              "data_unit_id": "fr_b1_bis",
+              "required_unit_id": "",
+              "selected": false,
+              "class_name": "",
+              "details": true,
+              "rank": "II",
+              "research_country": "France",
+              "main_role": "Heavy tank",
+              "is_component": false,
+              "component_of": null,
+              "is_premium": false,
+              "is_squadron": false,
+              "wiki": {
+                "url": "https://wiki.warthunder.com/unit/fr_b1_bis",
+                "rank": "II",
+                "battle_rating_context": "default",
+                "battle_ratings": {
+                  "AB": "2.3",
+                  "RB": "2.3",
+                  "SB": "2.3"
+                },
+                "battle_ratings_by_battle": {
+                  "default": {
+                    "AB": "2.3",
+                    "RB": "2.3",
+                    "SB": "2.3"
+                  }
+                },
+                "research": "7,900",
+                "purchase": "10,000",
+                "purchase_currency": "SL",
+                "status": null,
+                "fetched_at": "2026-09-19T06:29:18.472Z",
+                "sha256": "1fdcb3628580dab4637e1d8fe5002624c5610ffc6f0c2cbcce93983f5089aeb1"
+              }
+            },
+            {
+              "type": "single",
+              "title": "2C",
+              "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/fr_char_2c.png",
+              "br": "2.3",
+              "rp": 4600,
+              "sp": 16000,
+              "data_unit_id": "fr_char_2c",
+              "required_unit_id": "fr_b1_bis",
+              "selected": false,
+              "class_name": "",
+              "details": true,
+              "rank": "II",
+              "research_country": "France",
+              "main_role": "Heavy tank",
+              "is_component": false,
+              "component_of": null,
+              "is_premium": false,
+              "is_squadron": false,
+              "wiki": {
+                "url": "https://wiki.warthunder.com/unit/fr_char_2c",
+                "rank": "II",
+                "battle_rating_context": "default",
+                "battle_ratings": {
+                  "AB": "2.3",
+                  "RB": "2.3",
+                  "SB": "2.3"
+                },
+                "battle_ratings_by_battle": {
+                  "default": {
+                    "AB": "2.3",
+                    "RB": "2.3",
+                    "SB": "2.3"
+                  }
+                },
+                "research": "4,600",
+                "purchase": "16,000",
+                "purchase_currency": "SL",
+                "status": null,
+                "fetched_at": "2026-09-19T06:29:18.724Z",
+                "sha256": "614e1cdc23fe51c8f26715bb12eef774367932434ca09364274e0a48647dd7aa"
+              }
+            }
+          ],
+          "details": true,
+          "rp": 12500,
+          "sp": 26000
+        }
+      ],
+      [
+        {
+          "type": "single",
+          "title": "CCKW 353 AA",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/fr_cckw_353_bofors.png",
+          "br": "2.3",
+          "rp": 7900,
+          "sp": 10000,
+          "data_unit_id": "fr_cckw_353_bofors",
+          "required_unit_id": "",
+          "selected": false,
+          "class_name": "",
+          "details": true,
+          "rank": "II",
+          "research_country": "France",
+          "main_role": "SPAA",
+          "is_component": false,
+          "component_of": null,
+          "is_premium": false,
+          "is_squadron": false,
+          "wiki": {
+            "url": "https://wiki.warthunder.com/unit/fr_cckw_353_bofors",
+            "rank": "II",
+            "battle_rating_context": "default",
+            "battle_ratings": {
+              "AB": "2.7",
+              "RB": "2.3",
+              "SB": "2.0"
+            },
+            "battle_ratings_by_battle": {
+              "default": {
+                "AB": "2.7",
+                "RB": "2.3",
+                "SB": "2.0"
+              }
+            },
+            "research": "7,900",
+            "purchase": "10,000",
+            "purchase_currency": "SL",
+            "status": null,
+            "fetched_at": "2026-09-19T06:29:18.836Z",
+            "sha256": "29e59916dc6dfcda90472fdf203f36f6ca6354aadbbc89377a2eac4867461bf0"
+          }
+        },
+        {
+          "type": "single",
+          "title": "VTT DCA",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/fr_amx_vtt_dca.png",
+          "br": "3.0",
+          "rp": 9200,
+          "sp": 16000,
+          "data_unit_id": "fr_amx_vtt_dca",
+          "required_unit_id": "fr_cckw_353_bofors",
+          "selected": false,
+          "class_name": "",
+          "details": true,
+          "rank": "II",
+          "research_country": "France",
+          "main_role": "SPAA",
+          "is_component": false,
+          "component_of": null,
+          "is_premium": false,
+          "is_squadron": false,
+          "wiki": {
+            "url": "https://wiki.warthunder.com/unit/fr_amx_vtt_dca",
+            "rank": "II",
+            "battle_rating_context": "default",
+            "battle_ratings": {
+              "AB": "3.0",
+              "RB": "3.0",
+              "SB": "3.0"
+            },
+            "battle_ratings_by_battle": {
+              "default": {
+                "AB": "3.0",
+                "RB": "3.0",
+                "SB": "3.0"
+              }
+            },
+            "research": "9,200",
+            "purchase": "16,000",
+            "purchase_currency": "SL",
+            "status": null,
+            "fetched_at": "2026-09-19T06:29:18.205Z",
+            "sha256": "ad3dd322320a527c254fd0da793f05ab91d92d39d769a0a6cfa93e660abf7cd3"
+          }
+        }
+      ],
+      [
+        {
+          "type": "single",
+          "title": "▄M4A3 (105)",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/fr_m4a3_105_sherman.png",
+          "br": "3.0",
+          "rp": 11000,
+          "sp": 22000,
+          "data_unit_id": "fr_m4a3_105_sherman",
+          "required_unit_id": "",
+          "selected": false,
+          "class_name": "",
+          "details": true,
+          "rank": "II",
+          "research_country": "France",
+          "main_role": "Medium tank",
+          "is_component": false,
+          "component_of": null,
+          "is_premium": false,
+          "is_squadron": false,
+          "wiki": {
+            "url": "https://wiki.warthunder.com/unit/fr_m4a3_105_sherman",
+            "rank": "II",
+            "battle_rating_context": "default",
+            "battle_ratings": {
+              "AB": "3.3",
+              "RB": "3.0",
+              "SB": "3.0"
+            },
+            "battle_ratings_by_battle": {
+              "default": {
+                "AB": "3.3",
+                "RB": "3.0",
+                "SB": "3.0"
+              }
+            },
+            "research": "11,000",
+            "purchase": "22,000",
+            "purchase_currency": "SL",
+            "status": null,
+            "fetched_at": "2026-09-19T06:29:22.031Z",
+            "sha256": "77d38d0cfb0ab7419d611317c09807bf06fc5c13f2f19eee623658f3c081500c"
+          }
+        },
+        {
+          "type": "single",
+          "title": "▄M10 GMC",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/fr_m10.png",
+          "br": "3.3",
+          "rp": 14000,
+          "sp": 32000,
+          "data_unit_id": "fr_m10",
+          "required_unit_id": "fr_m4a3_105_sherman",
+          "selected": false,
+          "class_name": "",
+          "details": true,
+          "rank": "II",
+          "research_country": "France",
+          "main_role": "Tank destroyer",
+          "is_component": false,
+          "component_of": null,
+          "is_premium": false,
+          "is_squadron": false,
+          "wiki": {
+            "url": "https://wiki.warthunder.com/unit/fr_m10",
+            "rank": "II",
+            "battle_rating_context": "default",
+            "battle_ratings": {
+              "AB": "3.7",
+              "RB": "3.3",
+              "SB": "3.3"
+            },
+            "battle_ratings_by_battle": {
+              "default": {
+                "AB": "3.7",
+                "RB": "3.3",
+                "SB": "3.3"
+              }
+            },
+            "research": "14,000",
+            "purchase": "32,000",
+            "purchase_currency": "SL",
+            "status": null,
+            "fetched_at": "2026-09-19T06:29:21.330Z",
+            "sha256": "fe532a7588109d4e5e063e344b16fca41f60b0a3372c314c6fdfa2be34ceaa02"
+          }
+        }
+      ]
+    ],
+    "premium_vehicles": [
+      [
+        {
+          "type": "single",
+          "title": "B1 ter",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/fr_b1_ter.png",
+          "br": "2.7",
+          "rp": 0,
+          "sp": 0,
+          "data_unit_id": "fr_b1_ter",
+          "required_unit_id": "",
+          "selected": false,
+          "class_name": "prem",
+          "details": true,
+          "rank": "II",
+          "research_country": "France",
+          "main_role": "Heavy tank",
+          "is_component": false,
+          "component_of": null,
+          "is_premium": true,
+          "is_squadron": false,
+          "wiki": {
+            "url": "https://wiki.warthunder.com/unit/fr_b1_ter",
+            "rank": "II",
+            "battle_rating_context": "default",
+            "battle_ratings": {
+              "AB": "2.7",
+              "RB": "2.7",
+              "SB": "2.7"
+            },
+            "battle_ratings_by_battle": {
+              "default": {
+                "AB": "2.7",
+                "RB": "2.7",
+                "SB": "2.7"
+              }
+            },
+            "research": null,
+            "purchase": "1,300",
+            "purchase_currency": "GE",
+            "status": "Premium vehicle",
+            "fetched_at": "2026-09-19T06:29:18.506Z",
+            "sha256": "3e083f8c86bc42d1bd7bd8c0af28a8af7f92ab87f154fa5ad529c644bc22ce5c"
+          }
+        },
+        {
+          "type": "single",
+          "title": "AMX-13-M24",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/fr_amx_13_chaffee.png",
+          "br": "4.0",
+          "rp": 0,
+          "sp": 0,
+          "data_unit_id": "fr_amx_13_chaffee",
+          "required_unit_id": "",
+          "selected": false,
+          "class_name": "prem",
+          "details": true,
+          "rank": "II",
+          "research_country": "France",
+          "main_role": "Light tank",
+          "is_component": false,
+          "component_of": null,
+          "is_premium": true,
+          "is_squadron": false,
+          "wiki": {
+            "url": "https://wiki.warthunder.com/unit/fr_amx_13_chaffee",
+            "rank": "II",
+            "battle_rating_context": "default",
+            "battle_ratings": {
+              "AB": "4.0",
+              "RB": "4.0",
+              "SB": "4.0"
+            },
+            "battle_ratings_by_battle": {
+              "default": {
+                "AB": "4.0",
+                "RB": "4.0",
+                "SB": "4.0"
+              }
+            },
+            "research": null,
+            "purchase": "1,150",
+            "purchase_currency": "GE",
+            "status": "Premium vehicle",
+            "fetched_at": "2026-09-19T06:29:15.418Z",
+            "sha256": "e05c02d4860da67115018ceb5947c07b3b9ae93586b8e7b7418f4dbc1ffb147f"
+          }
+        }
+      ],
+      [
+        {
+          "type": "single",
+          "title": "LVT-4/40",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/fr_lvt_bofors.png",
+          "br": "3.7",
+          "rp": 0,
+          "sp": 0,
+          "data_unit_id": "fr_lvt_bofors",
+          "required_unit_id": "",
+          "selected": false,
+          "class_name": "prem",
+          "details": true,
+          "rank": "II",
+          "research_country": "France",
+          "main_role": "Light tank",
+          "is_component": false,
+          "component_of": null,
+          "is_premium": true,
+          "is_squadron": false,
+          "wiki": {
+            "url": "https://wiki.warthunder.com/unit/fr_lvt_bofors",
+            "rank": "II",
+            "battle_rating_context": "default",
+            "battle_ratings": {
+              "AB": "3.7",
+              "RB": "3.7",
+              "SB": "3.7"
+            },
+            "battle_ratings_by_battle": {
+              "default": {
+                "AB": "3.7",
+                "RB": "3.7",
+                "SB": "3.7"
+              }
+            },
+            "research": null,
+            "purchase": null,
+            "purchase_currency": null,
+            "status": "Premium vehicle",
+            "fetched_at": "2026-09-19T06:29:21.213Z",
+            "sha256": "9c65fcc8dc4fb344b56cf7c094c86bfd0e93c04947f9dc3a783f566477cecc08"
+          }
+        }
+      ]
+    ],
+    "selected": [],
+    "unlock_quantity": null,
+    "source": "wiki"
+  },
+  {
+    "rank": "III",
+    "researchable_vehicles": [
+      [
+        {
+          "type": "single",
+          "title": "AMX-13 (FL11)",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/fr_amx_13_fl_11.png",
+          "br": "4.3",
+          "rp": 26000,
+          "sp": 76000,
+          "data_unit_id": "fr_amx_13_fl_11",
+          "required_unit_id": "fr_crusader_mk_2",
+          "selected": false,
+          "class_name": "",
+          "details": true,
+          "rank": "III",
+          "research_country": "France",
+          "main_role": "Light tank",
+          "is_component": false,
+          "component_of": null,
+          "is_premium": false,
+          "is_squadron": false,
+          "wiki": {
+            "url": "https://wiki.warthunder.com/unit/fr_amx_13_fl_11",
+            "rank": "III",
+            "battle_rating_context": "default",
+            "battle_ratings": {
+              "AB": "4.3",
+              "RB": "4.3",
+              "SB": "4.3"
+            },
+            "battle_ratings_by_battle": {
+              "default": {
+                "AB": "4.3",
+                "RB": "4.3",
+                "SB": "4.3"
+              }
+            },
+            "research": "26,000",
+            "purchase": "76,000",
+            "purchase_currency": "SL",
+            "status": null,
+            "fetched_at": "2026-09-19T06:29:15.854Z",
+            "sha256": "fa3de4bfab1f4c815e1fe92bdb8a839562cb8cc1637286d4aef3e6ee96175f07"
+          }
+        },
+        {
+          "type": "single",
+          "title": "E.B.R. (1951)",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/fr_panhard_ebr_1951.png",
+          "br": "5.3",
+          "rp": 40000,
+          "sp": 135000,
+          "data_unit_id": "fr_panhard_ebr_1951",
+          "required_unit_id": "fr_amx_13_fl_11",
+          "selected": false,
+          "class_name": "",
+          "details": true,
+          "rank": "III",
+          "research_country": "France",
+          "main_role": "Light tank",
+          "is_component": false,
+          "component_of": null,
+          "is_premium": false,
+          "is_squadron": false,
+          "wiki": {
+            "url": "https://wiki.warthunder.com/unit/fr_panhard_ebr_1951",
+            "rank": "III",
+            "battle_rating_context": "default",
+            "battle_ratings": {
+              "AB": "4.7",
+              "RB": "5.3",
+              "SB": "5.0"
+            },
+            "battle_ratings_by_battle": {
+              "default": {
+                "AB": "4.7",
+                "RB": "5.3",
+                "SB": "5.0"
+              }
+            },
+            "research": "40,000",
+            "purchase": "135,000",
+            "purchase_currency": "SL",
+            "status": null,
+            "fetched_at": "2026-09-19T06:29:22.918Z",
+            "sha256": "4dfe681b2b226c1078f0e769260d46606882ea9736f6a41536af56454db60183"
+          }
+        }
+      ],
+      [
+        {
+          "type": "single",
+          "title": "▄M4A4",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/fr_m4a4_sherman.png",
+          "br": "3.7",
+          "rp": 18000,
+          "sp": 47000,
+          "data_unit_id": "fr_m4a4_sherman",
+          "required_unit_id": "fr_m4a1_sherman",
+          "selected": false,
+          "class_name": "",
+          "details": true,
+          "rank": "III",
+          "research_country": "France",
+          "main_role": "Medium tank",
+          "is_component": false,
+          "component_of": null,
+          "is_premium": false,
+          "is_squadron": false,
+          "wiki": {
+            "url": "https://wiki.warthunder.com/unit/fr_m4a4_sherman",
+            "rank": "III",
+            "battle_rating_context": "default",
+            "battle_ratings": {
+              "AB": "3.7",
+              "RB": "3.7",
+              "SB": "3.7"
+            },
+            "battle_ratings_by_battle": {
+              "default": {
+                "AB": "3.7",
+                "RB": "3.7",
+                "SB": "3.7"
+              }
+            },
+            "research": "18,000",
+            "purchase": "47,000",
+            "purchase_currency": "SL",
+            "status": null,
+            "fetched_at": "2026-09-19T06:29:22.176Z",
+            "sha256": "82b9d1a072ba22f96486644717e66c4420beb67618c138f2e41efd79f1a46725"
+          }
+        },
+        {
+          "type": "single",
+          "title": "M4A4 (SA50)",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/fr_m4a4_cn_75_50.png",
+          "br": "5.0",
+          "rp": 33000,
+          "sp": 105000,
+          "data_unit_id": "fr_m4a4_cn_75_50",
+          "required_unit_id": "fr_m4a4_sherman",
+          "selected": false,
+          "class_name": "",
+          "details": true,
+          "rank": "III",
+          "research_country": "France",
+          "main_role": "Medium tank",
+          "is_component": false,
+          "component_of": null,
+          "is_premium": false,
+          "is_squadron": false,
+          "wiki": {
+            "url": "https://wiki.warthunder.com/unit/fr_m4a4_cn_75_50",
+            "rank": "III",
+            "battle_rating_context": "default",
+            "battle_ratings": {
+              "AB": "5.0",
+              "RB": "5.0",
+              "SB": "5.0"
+            },
+            "battle_ratings_by_battle": {
+              "default": {
+                "AB": "5.0",
+                "RB": "5.0",
+                "SB": "5.0"
+              }
+            },
+            "research": "33,000",
+            "purchase": "105,000",
+            "purchase_currency": "SL",
+            "status": null,
+            "fetched_at": "2026-09-19T06:29:22.153Z",
+            "sha256": "f783e8d3f98cef3961aea9e43d341ca0b97bbb073b3bc0e59f14128769bf8fae"
+          }
+        }
+      ],
+      [
+        {
+          "type": "single",
+          "title": "ARL-44 (ACL-1)",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/fr_arl_44_acl1.png",
+          "br": "3.7",
+          "rp": 18000,
+          "sp": 47000,
+          "data_unit_id": "fr_arl_44_acl1",
+          "required_unit_id": "fr_b1_2c_group",
+          "selected": false,
+          "class_name": "",
+          "details": true,
+          "rank": "III",
+          "research_country": "France",
+          "main_role": "Heavy tank",
+          "is_component": false,
+          "component_of": null,
+          "is_premium": false,
+          "is_squadron": false,
+          "wiki": {
+            "url": "https://wiki.warthunder.com/unit/fr_arl_44_acl1",
+            "rank": "III",
+            "battle_rating_context": "default",
+            "battle_ratings": {
+              "AB": "3.7",
+              "RB": "3.7",
+              "SB": "3.7"
+            },
+            "battle_ratings_by_battle": {
+              "default": {
+                "AB": "3.7",
+                "RB": "3.7",
+                "SB": "3.7"
+              }
+            },
+            "research": "18,000",
+            "purchase": "47,000",
+            "purchase_currency": "SL",
+            "status": null,
+            "fetched_at": "2026-09-19T06:29:18.303Z",
+            "sha256": "f52fbe3c0cac7fdfc4923c86882d973b6375e81d3ad771c6df22a6c783ff173a"
+          }
+        },
+        {
+          "type": "multiple",
+          "title": "ARL/M4A3E2",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/fr_arl_jumbo_group.png",
+          "selected": false,
+          "br": "5.3-5.7",
+          "data_unit_id": "fr_arl_jumbo_group",
+          "required_unit_id": "fr_arl_44_acl1",
+          "class_name": "",
+          "items": [
+            {
+              "type": "single",
+              "title": "ARL-44",
+              "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/fr_arl_44.png",
+              "br": "5.3",
+              "rp": 33000,
+              "sp": 105000,
+              "data_unit_id": "fr_arl_44",
+              "required_unit_id": "",
+              "selected": false,
+              "class_name": "",
+              "details": true,
+              "rank": "III",
+              "research_country": "France",
+              "main_role": "Heavy tank",
+              "is_component": false,
+              "component_of": null,
+              "is_premium": false,
+              "is_squadron": false,
+              "wiki": {
+                "url": "https://wiki.warthunder.com/unit/fr_arl_44",
+                "rank": "III",
+                "battle_rating_context": "default",
+                "battle_ratings": {
+                  "AB": "5.3",
+                  "RB": "5.3",
+                  "SB": "5.3"
+                },
+                "battle_ratings_by_battle": {
+                  "default": {
+                    "AB": "5.3",
+                    "RB": "5.3",
+                    "SB": "5.3"
+                  }
+                },
+                "research": "33,000",
+                "purchase": "105,000",
+                "purchase_currency": "SL",
+                "status": null,
+                "fetched_at": "2026-09-19T06:29:18.160Z",
+                "sha256": "9d7657092379034e8eae38e3cdc0545799dd15574f9fb355a00e4cce5a21497e"
+              }
+            },
+            {
+              "type": "single",
+              "title": "▄M4A3E2",
+              "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/fr_m4a3e2_sherman_jumbo.png",
+              "br": "5.7",
+              "rp": 20000,
+              "sp": 135000,
+              "data_unit_id": "fr_m4a3e2_sherman_jumbo",
+              "required_unit_id": "fr_arl_44",
+              "selected": false,
+              "class_name": "",
+              "details": true,
+              "rank": "III",
+              "research_country": "France",
+              "main_role": "Heavy tank",
+              "is_component": false,
+              "component_of": null,
+              "is_premium": false,
+              "is_squadron": false,
+              "wiki": {
+                "url": "https://wiki.warthunder.com/unit/fr_m4a3e2_sherman_jumbo",
+                "rank": "III",
+                "battle_rating_context": "default",
+                "battle_ratings": {
+                  "AB": "5.7",
+                  "RB": "5.7",
+                  "SB": "5.7"
+                },
+                "battle_ratings_by_battle": {
+                  "default": {
+                    "AB": "5.7",
+                    "RB": "5.7",
+                    "SB": "5.7"
+                  }
+                },
+                "research": "20,000",
+                "purchase": "135,000",
+                "purchase_currency": "SL",
+                "status": null,
+                "fetched_at": "2026-09-19T06:29:22.135Z",
+                "sha256": "84c92b47decf6ad1876232262ef40cc28c1140cc9dbf45298a1a43b5431e5fc7"
+              }
+            }
+          ],
+          "details": true,
+          "rp": 53000,
+          "sp": 240000
+        }
+      ],
+      [
+        {
+          "type": "single",
+          "title": "AMX-13 DCA 40",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/fr_amx_13_dca_40.png",
+          "br": "5.0",
+          "rp": 26000,
+          "sp": 76000,
+          "data_unit_id": "fr_amx_13_dca_40",
+          "required_unit_id": "fr_amx_vtt_dca",
+          "selected": false,
+          "class_name": "",
+          "details": true,
+          "rank": "III",
+          "research_country": "France",
+          "main_role": "SPAA",
+          "is_component": false,
+          "component_of": null,
+          "is_premium": false,
+          "is_squadron": false,
+          "wiki": {
+            "url": "https://wiki.warthunder.com/unit/fr_amx_13_dca_40",
+            "rank": "III",
+            "battle_rating_context": "default",
+            "battle_ratings": {
+              "AB": "5.0",
+              "RB": "5.0",
+              "SB": "5.0"
+            },
+            "battle_ratings_by_battle": {
+              "default": {
+                "AB": "5.0",
+                "RB": "5.0",
+                "SB": "5.0"
+              }
+            },
+            "research": "26,000",
+            "purchase": "76,000",
+            "purchase_currency": "SL",
+            "status": null,
+            "fetched_at": "2026-09-19T06:29:15.837Z",
+            "sha256": "1a63c10fb947eb3f552bc0094d03729e2ff0c822a804efb235581f9815dc9b6d"
+          }
+        },
+        {
+          "type": "single",
+          "title": "TPK 6.41",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/fr_tpk_641_vpc.png",
+          "br": "5.7",
+          "rp": 33000,
+          "sp": 105000,
+          "data_unit_id": "fr_tpk_641_vpc",
+          "required_unit_id": "fr_amx_13_dca_40",
+          "selected": false,
+          "class_name": "",
+          "details": true,
+          "rank": "III",
+          "research_country": "France",
+          "main_role": "SPAA",
+          "is_component": false,
+          "component_of": null,
+          "is_premium": false,
+          "is_squadron": false,
+          "wiki": {
+            "url": "https://wiki.warthunder.com/unit/fr_tpk_641_vpc",
+            "rank": "III",
+            "battle_rating_context": "default",
+            "battle_ratings": {
+              "AB": "5.7",
+              "RB": "5.7",
+              "SB": "5.7"
+            },
+            "battle_ratings_by_battle": {
+              "default": {
+                "AB": "5.7",
+                "RB": "5.7",
+                "SB": "5.7"
+              }
+            },
+            "research": "33,000",
+            "purchase": "105,000",
+            "purchase_currency": "SL",
+            "status": null,
+            "fetched_at": "2026-09-19T06:29:24.048Z",
+            "sha256": "17ee9af079b2c6a3fb3e02bc92b94dfe65a69f9e505b96796f996c8df0818fc7"
+          }
+        }
+      ],
+      [
+        {
+          "type": "multiple",
+          "title": "M44/55",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/fr_m44_55_group.png",
+          "selected": false,
+          "br": "3.7",
+          "data_unit_id": "fr_m44_55_group",
+          "required_unit_id": "fr_m10",
+          "class_name": "",
+          "items": [
+            {
+              "type": "single",
+              "title": "▄M44",
+              "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/fr_m44.png",
+              "br": "3.7",
+              "rp": 18000,
+              "sp": 47000,
+              "data_unit_id": "fr_m44",
+              "required_unit_id": "",
+              "selected": false,
+              "class_name": "",
+              "details": true,
+              "rank": "III",
+              "research_country": "France",
+              "main_role": "Tank destroyer",
+              "is_component": false,
+              "component_of": null,
+              "is_premium": false,
+              "is_squadron": false,
+              "wiki": {
+                "url": "https://wiki.warthunder.com/unit/fr_m44",
+                "rank": "III",
+                "battle_rating_context": "default",
+                "battle_ratings": {
+                  "AB": "3.7",
+                  "RB": "3.7",
+                  "SB": "3.7"
+                },
+                "battle_ratings_by_battle": {
+                  "default": {
+                    "AB": "3.7",
+                    "RB": "3.7",
+                    "SB": "3.7"
+                  }
+                },
+                "research": "18,000",
+                "purchase": "47,000",
+                "purchase_currency": "SL",
+                "status": null,
+                "fetched_at": "2026-09-19T06:29:21.694Z",
+                "sha256": "416e98f112135e4f346a86c9cff7bda8fbae60fedeae02095383faef2fa195e0"
+              }
+            },
+            {
+              "type": "single",
+              "title": "▄M55",
+              "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/fr_m55.png",
+              "br": "3.7",
+              "rp": 13000,
+              "sp": 76000,
+              "data_unit_id": "fr_m55",
+              "required_unit_id": "fr_m44",
+              "selected": false,
+              "class_name": "",
+              "details": true,
+              "rank": "III",
+              "research_country": "France",
+              "main_role": "Tank destroyer",
+              "is_component": false,
+              "component_of": null,
+              "is_premium": false,
+              "is_squadron": false,
+              "wiki": {
+                "url": "https://wiki.warthunder.com/unit/fr_m55",
+                "rank": "III",
+                "battle_rating_context": "default",
+                "battle_ratings": {
+                  "AB": "3.7",
+                  "RB": "3.7",
+                  "SB": "3.7"
+                },
+                "battle_ratings_by_battle": {
+                  "default": {
+                    "AB": "3.7",
+                    "RB": "3.7",
+                    "SB": "3.7"
+                  }
+                },
+                "research": "13,000",
+                "purchase": "76,000",
+                "purchase_currency": "SL",
+                "status": null,
+                "fetched_at": "2026-09-19T06:29:22.298Z",
+                "sha256": "6e01a60d2ef5f10b50af8b34e93f98e4a9f4350e42ce73e136a5827a9ff34776"
+              }
+            }
+          ],
+          "details": true,
+          "rp": 31000,
+          "sp": 123000
+        },
+        {
+          "type": "single",
+          "title": "▄M36B2",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/fr_m36b2_cefeo.png",
+          "br": "5.7",
+          "rp": 40000,
+          "sp": 135000,
+          "data_unit_id": "fr_m36b2_cefeo",
+          "required_unit_id": "fr_m44_55_group",
+          "selected": false,
+          "class_name": "",
+          "details": true,
+          "rank": "III",
+          "research_country": "France",
+          "main_role": "Tank destroyer",
+          "is_component": false,
+          "component_of": null,
+          "is_premium": false,
+          "is_squadron": false,
+          "wiki": {
+            "url": "https://wiki.warthunder.com/unit/fr_m36b2_cefeo",
+            "rank": "III",
+            "battle_rating_context": "default",
+            "battle_ratings": {
+              "AB": "5.7",
+              "RB": "5.7",
+              "SB": "5.7"
+            },
+            "battle_ratings_by_battle": {
+              "default": {
+                "AB": "5.7",
+                "RB": "5.7",
+                "SB": "5.7"
+              }
+            },
+            "research": "40,000",
+            "purchase": "135,000",
+            "purchase_currency": "SL",
+            "status": null,
+            "fetched_at": "2026-09-19T06:29:21.387Z",
+            "sha256": "16eadec264375f773b9b3bedf06b30ad57c3d4f1fbf45946a8f04c7a8eaf0920"
+          }
+        }
+      ]
+    ],
+    "premium_vehicles": [
+      [
+        {
+          "type": "single",
+          "title": "M4A1 (FL10)",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/fr_m4a1_sherman_fl_10.png",
+          "br": "5.0",
+          "rp": 0,
+          "sp": 0,
+          "data_unit_id": "fr_m4a1_sherman_fl_10",
+          "required_unit_id": "",
+          "selected": false,
+          "class_name": "prem",
+          "details": true,
+          "rank": "III",
+          "research_country": "France",
+          "main_role": "Medium tank",
+          "is_component": false,
+          "component_of": null,
+          "is_premium": true,
+          "is_squadron": false,
+          "wiki": {
+            "url": "https://wiki.warthunder.com/unit/fr_m4a1_sherman_fl_10",
+            "rank": "III",
+            "battle_rating_context": "default",
+            "battle_ratings": {
+              "AB": "4.7",
+              "RB": "5.0",
+              "SB": "5.0"
+            },
+            "battle_ratings_by_battle": {
+              "default": {
+                "AB": "4.7",
+                "RB": "5.0",
+                "SB": "5.0"
+              }
+            },
+            "research": null,
+            "purchase": "2,980",
+            "purchase_currency": "GE",
+            "status": "Premium vehicle",
+            "fetched_at": "2026-09-19T06:29:21.898Z",
+            "sha256": "ba0880015cfb438f3f866ecd63af97bc6241acfdbe4e63d1d86702df2d684274"
+          }
+        },
+        {
+          "type": "single",
+          "title": "ARL-44 Bayard",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/fr_arl_44_mod.png",
+          "br": "5.3",
+          "rp": 0,
+          "sp": 0,
+          "data_unit_id": "fr_arl_44_mod",
+          "required_unit_id": "",
+          "selected": false,
+          "class_name": "prem",
+          "details": true,
+          "rank": "III",
+          "research_country": "France",
+          "main_role": "Heavy tank",
+          "is_component": false,
+          "component_of": null,
+          "is_premium": true,
+          "is_squadron": false,
+          "wiki": {
+            "url": "https://wiki.warthunder.com/unit/fr_arl_44_mod",
+            "rank": "III",
+            "battle_rating_context": "default",
+            "battle_ratings": {
+              "AB": "5.3",
+              "RB": "5.3",
+              "SB": "5.3"
+            },
+            "battle_ratings_by_battle": {
+              "default": {
+                "AB": "5.3",
+                "RB": "5.3",
+                "SB": "5.3"
+              }
+            },
+            "research": null,
+            "purchase": "1,600",
+            "purchase_currency": "GE",
+            "status": "Premium vehicle",
+            "fetched_at": "2026-09-19T06:29:18.277Z",
+            "sha256": "c7a907298bc339b3a3d86f200c8a69fd3b6f589349f1cbb086bbdc1050d7499f"
+          }
+        }
+      ],
+      [
+        {
+          "type": "single",
+          "title": "Lorraine 155 Mle.50",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/fr_lorraine_155.png",
+          "br": "4.3",
+          "rp": 0,
+          "sp": 0,
+          "data_unit_id": "fr_lorraine_155",
+          "required_unit_id": "",
+          "selected": false,
+          "class_name": "prem",
+          "details": true,
+          "rank": "III",
+          "research_country": "France",
+          "main_role": "Tank destroyer",
+          "is_component": false,
+          "component_of": null,
+          "is_premium": true,
+          "is_squadron": false,
+          "wiki": {
+            "url": "https://wiki.warthunder.com/unit/fr_lorraine_155",
+            "rank": "III",
+            "battle_rating_context": "default",
+            "battle_ratings": {
+              "AB": "4.3",
+              "RB": "4.3",
+              "SB": "4.3"
+            },
+            "battle_ratings_by_battle": {
+              "default": {
+                "AB": "4.3",
+                "RB": "4.3",
+                "SB": "4.3"
+              }
+            },
+            "research": null,
+            "purchase": null,
+            "purchase_currency": null,
+            "status": "Premium vehicle",
+            "fetched_at": "2026-09-19T06:29:20.777Z",
+            "sha256": "e42031be8ec831602fcca817233fe37985de7c854bc4965ff512351d9dad3021"
+          }
+        }
+      ]
+    ],
+    "selected": [],
+    "unlock_quantity": null,
+    "source": "wiki"
+  },
+  {
+    "rank": "IV",
+    "researchable_vehicles": [
+      [
+        {
+          "type": "single",
+          "title": "ELC bis",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/fr_amx_elc_bis.png",
+          "br": "6.3",
+          "rp": 63000,
+          "sp": 200000,
+          "data_unit_id": "fr_amx_elc_bis",
+          "required_unit_id": "fr_panhard_ebr_1951",
+          "selected": false,
+          "class_name": "",
+          "details": true,
+          "rank": "IV",
+          "research_country": "France",
+          "main_role": "Light tank",
+          "is_component": false,
+          "component_of": null,
+          "is_premium": false,
+          "is_squadron": false,
+          "wiki": {
+            "url": "https://wiki.warthunder.com/unit/fr_amx_elc_bis",
+            "rank": "IV",
+            "battle_rating_context": "default",
+            "battle_ratings": {
+              "AB": "6.0",
+              "RB": "6.3",
+              "SB": "6.3"
+            },
+            "battle_ratings_by_battle": {
+              "default": {
+                "AB": "6.0",
+                "RB": "6.3",
+                "SB": "6.3"
+              }
+            },
+            "research": "63,000",
+            "purchase": "200,000",
+            "purchase_currency": "SL",
+            "status": null,
+            "fetched_at": "2026-09-19T06:29:18.022Z",
+            "sha256": "9a907566b0ad46cf572ac28390e5ddf8facdb22da65fb8a10d5dbf117758583e"
+          }
+        },
+        {
+          "type": "single",
+          "title": "AMX-13",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/fr_amx_13_75.png",
+          "br": "7.0",
+          "rp": 71000,
+          "sp": 210000,
+          "data_unit_id": "fr_amx_13_75",
+          "required_unit_id": "fr_amx_elc_bis",
+          "selected": false,
+          "class_name": "",
+          "details": true,
+          "rank": "IV",
+          "research_country": "France",
+          "main_role": "Light tank",
+          "is_component": false,
+          "component_of": null,
+          "is_premium": false,
+          "is_squadron": false,
+          "wiki": {
+            "url": "https://wiki.warthunder.com/unit/fr_amx_13_75",
+            "rank": "IV",
+            "battle_rating_context": "default",
+            "battle_ratings": {
+              "AB": "6.7",
+              "RB": "7.0",
+              "SB": "7.0"
+            },
+            "battle_ratings_by_battle": {
+              "default": {
+                "AB": "6.7",
+                "RB": "7.0",
+                "SB": "7.0"
+              }
+            },
+            "research": "71,000",
+            "purchase": "210,000",
+            "purchase_currency": "SL",
+            "status": null,
+            "fetched_at": "2026-09-19T06:29:15.145Z",
+            "sha256": "a24ac720c0e814df22fc134d9bc8ac50e2aa4ab9905d1bb3574267c8c80dd449"
+          }
+        }
+      ],
+      [
+        {
+          "type": "single",
+          "title": "▄M26",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/fr_m26_pershing.png",
+          "br": "6.7",
+          "rp": 63000,
+          "sp": 200000,
+          "data_unit_id": "fr_m26_pershing",
+          "required_unit_id": "fr_m4a4_cn_75_50",
+          "selected": false,
+          "class_name": "",
+          "details": true,
+          "rank": "IV",
+          "research_country": "France",
+          "main_role": "Medium tank",
+          "is_component": false,
+          "component_of": null,
+          "is_premium": false,
+          "is_squadron": false,
+          "wiki": {
+            "url": "https://wiki.warthunder.com/unit/fr_m26_pershing",
+            "rank": "IV",
+            "battle_rating_context": "default",
+            "battle_ratings": {
+              "AB": "6.7",
+              "RB": "6.7",
+              "SB": "6.7"
+            },
+            "battle_ratings_by_battle": {
+              "default": {
+                "AB": "6.7",
+                "RB": "6.7",
+                "SB": "6.7"
+              }
+            },
+            "research": "63,000",
+            "purchase": "200,000",
+            "purchase_currency": "SL",
+            "status": null,
+            "fetched_at": "2026-09-19T06:29:21.116Z",
+            "sha256": "09ab43c54b67e18de722c9898c6969fda5fc6c7ec21512c1127dcbaeb50330cc"
+          }
+        }
+      ],
+      [
+        {
+          "type": "single",
+          "title": "AMX M4",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/fr_amx_m4.png",
+          "br": "7.0",
+          "rp": 71000,
+          "sp": 210000,
+          "data_unit_id": "fr_amx_m4",
+          "required_unit_id": "fr_arl_jumbo_group",
+          "selected": false,
+          "class_name": "",
+          "details": true,
+          "rank": "IV",
+          "research_country": "France",
+          "main_role": "Medium tank",
+          "is_component": false,
+          "component_of": null,
+          "is_premium": false,
+          "is_squadron": false,
+          "wiki": {
+            "url": "https://wiki.warthunder.com/unit/fr_amx_m4",
+            "rank": "IV",
+            "battle_rating_context": "default",
+            "battle_ratings": {
+              "AB": "7.0",
+              "RB": "7.0",
+              "SB": "7.0"
+            },
+            "battle_ratings_by_battle": {
+              "default": {
+                "AB": "7.0",
+                "RB": "7.0",
+                "SB": "7.0"
+              }
+            },
+            "research": "71,000",
+            "purchase": "210,000",
+            "purchase_currency": "SL",
+            "status": null,
+            "fetched_at": "2026-09-19T06:29:17.818Z",
+            "sha256": "7b7dc561b35b1d91bfcbdd218535da5c2ff55a7e33804cdbbe70d620725069ef"
+          }
+        }
+      ],
+      [
+        {
+          "type": "single",
+          "title": "AMX-10P",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/fr_amx_10p.png",
+          "br": "6.3",
+          "rp": 46000,
+          "sp": 155000,
+          "data_unit_id": "fr_amx_10p",
+          "required_unit_id": "fr_tpk_641_vpc",
+          "selected": false,
+          "class_name": "",
+          "details": true,
+          "rank": "IV",
+          "research_country": "France",
+          "main_role": "SPAA",
+          "is_component": false,
+          "component_of": null,
+          "is_premium": false,
+          "is_squadron": false,
+          "wiki": {
+            "url": "https://wiki.warthunder.com/unit/fr_amx_10p",
+            "rank": "IV",
+            "battle_rating_context": "default",
+            "battle_ratings": {
+              "AB": "6.3",
+              "RB": "6.3",
+              "SB": "6.3"
+            },
+            "battle_ratings_by_battle": {
+              "default": {
+                "AB": "6.3",
+                "RB": "6.3",
+                "SB": "6.3"
+              }
+            },
+            "research": "46,000",
+            "purchase": "155,000",
+            "purchase_currency": "SL",
+            "status": null,
+            "fetched_at": "2026-09-19T06:29:15.119Z",
+            "sha256": "216db26ab8cae7ed28d70ca8fc89b2aa870aeb6c464014ba60d2d429f13cb291"
+          }
+        }
+      ],
+      [
+        {
+          "type": "single",
+          "title": "CA Lorraine",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/fr_lorraine_100.png",
+          "br": "6.0",
+          "rp": 54000,
+          "sp": 185000,
+          "data_unit_id": "fr_lorraine_100",
+          "required_unit_id": "fr_m36b2_cefeo",
+          "selected": false,
+          "class_name": "",
+          "details": true,
+          "rank": "IV",
+          "research_country": "France",
+          "main_role": "Tank destroyer",
+          "is_component": false,
+          "component_of": null,
+          "is_premium": false,
+          "is_squadron": false,
+          "wiki": {
+            "url": "https://wiki.warthunder.com/unit/fr_lorraine_100",
+            "rank": "IV",
+            "battle_rating_context": "default",
+            "battle_ratings": {
+              "AB": "5.7",
+              "RB": "6.0",
+              "SB": "6.0"
+            },
+            "battle_ratings_by_battle": {
+              "default": {
+                "AB": "5.7",
+                "RB": "6.0",
+                "SB": "6.0"
+              }
+            },
+            "research": "54,000",
+            "purchase": "185,000",
+            "purchase_currency": "SL",
+            "status": null,
+            "fetched_at": "2026-09-19T06:29:20.591Z",
+            "sha256": "aa4d61f40583b97f2650250f6f8e614d6dae6ab7c72004975e580d1868cc7389"
+          }
+        },
+        {
+          "type": "single",
+          "title": "AuF1",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/fr_amx_30_auf_1.png",
+          "br": "6.7",
+          "rp": 82000,
+          "sp": 240000,
+          "data_unit_id": "fr_amx_30_auf_1",
+          "required_unit_id": "fr_lorraine_100",
+          "selected": false,
+          "class_name": "",
+          "details": true,
+          "rank": "IV",
+          "research_country": "France",
+          "main_role": "Tank destroyer",
+          "is_component": false,
+          "component_of": null,
+          "is_premium": false,
+          "is_squadron": false,
+          "wiki": {
+            "url": "https://wiki.warthunder.com/unit/fr_amx_30_auf_1",
+            "rank": "IV",
+            "battle_rating_context": "default",
+            "battle_ratings": {
+              "AB": "6.7",
+              "RB": "6.7",
+              "SB": "6.7"
+            },
+            "battle_ratings_by_battle": {
+              "default": {
+                "AB": "6.7",
+                "RB": "6.7",
+                "SB": "6.7"
+              }
+            },
+            "research": "82,000",
+            "purchase": "240,000",
+            "purchase_currency": "SL",
+            "status": null,
+            "fetched_at": "2026-09-19T06:29:16.324Z",
+            "sha256": "d16ebce855669c3086616cf49c92c7200adf904019991a5a1b7b65fca897ef9d"
+          }
+        }
+      ]
+    ],
+    "premium_vehicles": [
+      [
+        {
+          "type": "single",
+          "title": "Panther \"Dauphiné\"",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/fr_pzkpfw_v_panther_dauphine.png",
+          "br": "6.0",
+          "rp": 0,
+          "sp": 0,
+          "data_unit_id": "fr_pzkpfw_v_panther_dauphine",
+          "required_unit_id": "",
+          "selected": false,
+          "class_name": "prem",
+          "details": true,
+          "rank": "IV",
+          "research_country": "France",
+          "main_role": "Medium tank",
+          "is_component": false,
+          "component_of": null,
+          "is_premium": true,
+          "is_squadron": false,
+          "wiki": {
+            "url": "https://wiki.warthunder.com/unit/fr_pzkpfw_V_panther_dauphine",
+            "rank": "IV",
+            "battle_rating_context": "default",
+            "battle_ratings": {
+              "AB": "6.0",
+              "RB": "6.0",
+              "SB": "6.0"
+            },
+            "battle_ratings_by_battle": {
+              "default": {
+                "AB": "6.0",
+                "RB": "6.0",
+                "SB": "6.0"
+              }
+            },
+            "research": null,
+            "purchase": "6,090",
+            "purchase_currency": "GE",
+            "status": "Premium vehicle",
+            "fetched_at": "2026-09-19T06:29:23.507Z",
+            "sha256": "4c21d9faba4314163e4cad525e9cf12400fa5e9570364cc98feff5c5141d929f"
+          }
+        },
+        {
+          "type": "single",
+          "title": "AMX-13 (SS.11)",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/fr_amx_13_75_ss11.png",
+          "br": "7.0",
+          "rp": 0,
+          "sp": 0,
+          "data_unit_id": "fr_amx_13_75_ss11",
+          "required_unit_id": "",
+          "selected": false,
+          "class_name": "prem",
+          "details": true,
+          "rank": "IV",
+          "research_country": "France",
+          "main_role": "Light tank",
+          "is_component": false,
+          "component_of": null,
+          "is_premium": true,
+          "is_squadron": false,
+          "wiki": {
+            "url": "https://wiki.warthunder.com/unit/fr_amx_13_75_ss11",
+            "rank": "IV",
+            "battle_rating_context": "default",
+            "battle_ratings": {
+              "AB": "7.0",
+              "RB": "7.0",
+              "SB": "7.0"
+            },
+            "battle_ratings_by_battle": {
+              "default": {
+                "AB": "7.0",
+                "RB": "7.0",
+                "SB": "7.0"
+              }
+            },
+            "research": null,
+            "purchase": "7,480",
+            "purchase_currency": "GE",
+            "status": "Premium vehicle",
+            "fetched_at": "2026-09-19T06:29:15.395Z",
+            "sha256": "2ca54b8e6ad31a16e4feba633297e66ebc1c4ad25f8e243d4ab80a762fc9a007"
+          }
+        }
+      ],
+      [
+        {
+          "type": "single",
+          "title": "ELC 901",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/fr_amx_elc_901.png",
+          "br": "6.3",
+          "rp": 0,
+          "sp": 0,
+          "data_unit_id": "fr_amx_elc_901",
+          "required_unit_id": "",
+          "selected": false,
+          "class_name": "prem",
+          "details": true,
+          "rank": "IV",
+          "research_country": "France",
+          "main_role": "Light tank",
+          "is_component": false,
+          "component_of": null,
+          "is_premium": true,
+          "is_squadron": false,
+          "wiki": {
+            "url": "https://wiki.warthunder.com/unit/fr_amx_elc_901",
+            "rank": "IV",
+            "battle_rating_context": "default",
+            "battle_ratings": {
+              "AB": "6.0",
+              "RB": "6.3",
+              "SB": "6.3"
+            },
+            "battle_ratings_by_battle": {
+              "default": {
+                "AB": "6.0",
+                "RB": "6.3",
+                "SB": "6.3"
+              }
+            },
+            "research": null,
+            "purchase": null,
+            "purchase_currency": null,
+            "status": "Premium vehicle",
+            "fetched_at": "2026-09-19T06:29:17.819Z",
+            "sha256": "3c86fa4ffa981ebf8c563c137b70d1b3044a5b5be4e6b54c8ec452c5b2cb8c09"
+          }
+        },
+        {
+          "type": "single",
+          "title": "E.B.R. (1954)",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/fr_panhard_ebr_1954.png",
+          "br": "7.0",
+          "rp": 0,
+          "sp": 0,
+          "data_unit_id": "fr_panhard_ebr_1954",
+          "required_unit_id": "",
+          "selected": false,
+          "class_name": "prem",
+          "details": true,
+          "rank": "IV",
+          "research_country": "France",
+          "main_role": "Light tank",
+          "is_component": false,
+          "component_of": null,
+          "is_premium": true,
+          "is_squadron": false,
+          "wiki": {
+            "url": "https://wiki.warthunder.com/unit/fr_panhard_ebr_1954",
+            "rank": "IV",
+            "battle_rating_context": "default",
+            "battle_ratings": {
+              "AB": "7.0",
+              "RB": "7.0",
+              "SB": "7.0"
+            },
+            "battle_ratings_by_battle": {
+              "default": {
+                "AB": "7.0",
+                "RB": "7.0",
+                "SB": "7.0"
+              }
+            },
+            "research": null,
+            "purchase": null,
+            "purchase_currency": null,
+            "status": "Premium vehicle",
+            "fetched_at": "2026-09-19T06:29:23.060Z",
+            "sha256": "a13a20bff6c87e939b3700fc21179ed0cb8888ca7e550ea77a9a64697ae5ee43"
+          }
+        },
+        {
+          "type": "single",
+          "title": "▄M46",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/fr_m46_patton.png",
+          "br": "7.0",
+          "rp": 0,
+          "sp": 0,
+          "data_unit_id": "fr_m46_patton",
+          "required_unit_id": "",
+          "selected": false,
+          "class_name": "prem",
+          "details": true,
+          "rank": "IV",
+          "research_country": "France",
+          "main_role": "Medium tank",
+          "is_component": false,
+          "component_of": null,
+          "is_premium": true,
+          "is_squadron": false,
+          "wiki": {
+            "url": "https://wiki.warthunder.com/unit/fr_m46_patton",
+            "rank": "IV",
+            "battle_rating_context": "default",
+            "battle_ratings": {
+              "AB": "7.0",
+              "RB": "7.0",
+              "SB": "7.0"
+            },
+            "battle_ratings_by_battle": {
+              "default": {
+                "AB": "7.0",
+                "RB": "7.0",
+                "SB": "7.0"
+              }
+            },
+            "research": null,
+            "purchase": null,
+            "purchase_currency": null,
+            "status": "Premium vehicle",
+            "fetched_at": "2026-09-19T06:29:21.670Z",
+            "sha256": "0e5856de0bb4a4ea0b2f4a61cec15b87396040fdb7f2c37aff8d23c7e0131b34"
+          }
+        }
+      ]
+    ],
+    "selected": [],
+    "unlock_quantity": null,
+    "source": "wiki"
+  },
+  {
+    "rank": "V",
+    "researchable_vehicles": [
+      [
+        {
+          "type": "multiple",
+          "title": "AML/AMX",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/fr_aml_amx_group.png",
+          "selected": false,
+          "br": "7.7",
+          "data_unit_id": "fr_aml_amx_group",
+          "required_unit_id": "fr_amx_13_75",
+          "class_name": "",
+          "items": [
+            {
+              "type": "single",
+              "title": "AML-90",
+              "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/fr_aml_90.png",
+              "br": "7.7",
+              "rp": 95000,
+              "sp": 270000,
+              "data_unit_id": "fr_aml_90",
+              "required_unit_id": "",
+              "selected": false,
+              "class_name": "",
+              "details": true,
+              "rank": "V",
+              "research_country": "France",
+              "main_role": "Light tank",
+              "is_component": false,
+              "component_of": null,
+              "is_premium": false,
+              "is_squadron": false,
+              "wiki": {
+                "url": "https://wiki.warthunder.com/unit/fr_aml_90",
+                "rank": "V",
+                "battle_rating_context": "default",
+                "battle_ratings": {
+                  "AB": "7.3",
+                  "RB": "7.7",
+                  "SB": "7.7"
+                },
+                "battle_ratings_by_battle": {
+                  "default": {
+                    "AB": "7.3",
+                    "RB": "7.7",
+                    "SB": "7.7"
+                  }
+                },
+                "research": "95,000",
+                "purchase": "270,000",
+                "purchase_currency": "SL",
+                "status": null,
+                "fetched_at": "2026-09-19T06:29:14.734Z",
+                "sha256": "1747a22681cd569a42814c6024671215c3094cc2247d82480a051fcd33025a6a"
+              }
+            },
+            {
+              "type": "single",
+              "title": "AMX-13-90",
+              "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/fr_amx_13_90.png",
+              "br": "7.7",
+              "rp": 53000,
+              "sp": 300000,
+              "data_unit_id": "fr_amx_13_90",
+              "required_unit_id": "fr_aml_90",
+              "selected": false,
+              "class_name": "",
+              "details": true,
+              "rank": "V",
+              "research_country": "France",
+              "main_role": "Light tank",
+              "is_component": false,
+              "component_of": null,
+              "is_premium": false,
+              "is_squadron": false,
+              "wiki": {
+                "url": "https://wiki.warthunder.com/unit/fr_amx_13_90",
+                "rank": "V",
+                "battle_rating_context": "default",
+                "battle_ratings": {
+                  "AB": "7.7",
+                  "RB": "7.7",
+                  "SB": "7.7"
+                },
+                "battle_ratings_by_battle": {
+                  "default": {
+                    "AB": "7.7",
+                    "RB": "7.7",
+                    "SB": "7.7"
+                  }
+                },
+                "research": "53,000",
+                "purchase": "300,000",
+                "purchase_currency": "SL",
+                "status": null,
+                "fetched_at": "2026-09-19T06:29:15.594Z",
+                "sha256": "40b1acc65aafddbd0cc2ce68b300b0908f80097c723271c61c530739df5d5bec"
+              }
+            }
+          ],
+          "details": true,
+          "rp": 148000,
+          "sp": 570000
+        },
+        {
+          "type": "single",
+          "title": "DF105",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/fr_marder_df_105.png",
+          "br": "8.0",
+          "rp": 120000,
+          "sp": 340000,
+          "data_unit_id": "fr_marder_df_105",
+          "required_unit_id": "fr_aml_amx_group",
+          "selected": false,
+          "class_name": "",
+          "details": true,
+          "rank": "V",
+          "research_country": "France",
+          "main_role": "Light tank",
+          "is_component": false,
+          "component_of": null,
+          "is_premium": false,
+          "is_squadron": false,
+          "wiki": {
+            "url": "https://wiki.warthunder.com/unit/fr_marder_df_105",
+            "rank": "V",
+            "battle_rating_context": "default",
+            "battle_ratings": {
+              "AB": "8.0",
+              "RB": "8.0",
+              "SB": "8.0"
+            },
+            "battle_ratings_by_battle": {
+              "default": {
+                "AB": "8.0",
+                "RB": "8.0",
+                "SB": "8.0"
+              }
+            },
+            "research": "120,000",
+            "purchase": "340,000",
+            "purchase_currency": "SL",
+            "status": null,
+            "fetched_at": "2026-09-19T06:29:22.472Z",
+            "sha256": "dc6b237f58b2ae9b767b0c569f52ee14f92e7f6387f2fca006b5ad8cea344d9d"
+          }
+        }
+      ],
+      [
+        {
+          "type": "multiple",
+          "title": "Lorraine/Char",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/fr_lorraine_bat_group.png",
+          "selected": false,
+          "br": "7.7-8.0",
+          "data_unit_id": "fr_lorraine_bat_group",
+          "required_unit_id": "fr_m26_pershing",
+          "class_name": "",
+          "items": [
+            {
+              "type": "single",
+              "title": "Lorraine 40t",
+              "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/fr_lorraine_40t.png",
+              "br": "7.7",
+              "rp": 95000,
+              "sp": 270000,
+              "data_unit_id": "fr_lorraine_40t",
+              "required_unit_id": "",
+              "selected": false,
+              "class_name": "",
+              "details": true,
+              "rank": "V",
+              "research_country": "France",
+              "main_role": "Medium tank",
+              "is_component": false,
+              "component_of": null,
+              "is_premium": false,
+              "is_squadron": false,
+              "wiki": {
+                "url": "https://wiki.warthunder.com/unit/fr_lorraine_40t",
+                "rank": "V",
+                "battle_rating_context": "default",
+                "battle_ratings": {
+                  "AB": "7.7",
+                  "RB": "7.7",
+                  "SB": "7.7"
+                },
+                "battle_ratings_by_battle": {
+                  "default": {
+                    "AB": "7.7",
+                    "RB": "7.7",
+                    "SB": "7.7"
+                  }
+                },
+                "research": "95,000",
+                "purchase": "270,000",
+                "purchase_currency": "SL",
+                "status": null,
+                "fetched_at": "2026-09-19T06:29:21.034Z",
+                "sha256": "2fee025e57a7f1cfa0cadd03a95ed7abbf20f024706ada822f24ae78c88c6972"
+              }
+            },
+            {
+              "type": "single",
+              "title": "Char 25t",
+              "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/fr_bat_chat_25t.png",
+              "br": "8.0",
+              "rp": 53000,
+              "sp": 300000,
+              "data_unit_id": "fr_bat_chat_25t",
+              "required_unit_id": "fr_lorraine_40t",
+              "selected": false,
+              "class_name": "",
+              "details": true,
+              "rank": "V",
+              "research_country": "France",
+              "main_role": "Light tank",
+              "is_component": false,
+              "component_of": null,
+              "is_premium": false,
+              "is_squadron": false,
+              "wiki": {
+                "url": "https://wiki.warthunder.com/unit/fr_bat_chat_25t",
+                "rank": "V",
+                "battle_rating_context": "default",
+                "battle_ratings": {
+                  "AB": "8.0",
+                  "RB": "8.0",
+                  "SB": "8.0"
+                },
+                "battle_ratings_by_battle": {
+                  "default": {
+                    "AB": "8.0",
+                    "RB": "8.0",
+                    "SB": "8.0"
+                  }
+                },
+                "research": "53,000",
+                "purchase": "300,000",
+                "purchase_currency": "SL",
+                "status": null,
+                "fetched_at": "2026-09-19T06:29:18.808Z",
+                "sha256": "c8b81e671ef3ced83472431e9e66314027e360c870010cf6b977e8fa57f025b6"
+              }
+            }
+          ],
+          "details": true,
+          "rp": 148000,
+          "sp": 570000
+        },
+        {
+          "type": "single",
+          "title": "AMX-30 (1972)",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/fr_amx_30_1972.png",
+          "br": "8.0",
+          "rp": 120000,
+          "sp": 340000,
+          "data_unit_id": "fr_amx_30_1972",
+          "required_unit_id": "fr_lorraine_bat_group",
+          "selected": false,
+          "class_name": "",
+          "details": true,
+          "rank": "V",
+          "research_country": "France",
+          "main_role": "Medium tank",
+          "is_component": false,
+          "component_of": null,
+          "is_premium": false,
+          "is_squadron": false,
+          "wiki": {
+            "url": "https://wiki.warthunder.com/unit/fr_amx_30_1972",
+            "rank": "V",
+            "battle_rating_context": "default",
+            "battle_ratings": {
+              "AB": "8.0",
+              "RB": "8.0",
+              "SB": "8.0"
+            },
+            "battle_ratings_by_battle": {
+              "default": {
+                "AB": "8.0",
+                "RB": "8.0",
+                "SB": "8.0"
+              }
+            },
+            "research": "120,000",
+            "purchase": "340,000",
+            "purchase_currency": "SL",
+            "status": null,
+            "fetched_at": "2026-09-19T06:29:16.275Z",
+            "sha256": "fd417fb21f915f31ce868b7caa754fc2e72fd72769f6d6bb22e3f6f05603f480"
+          }
+        }
+      ],
+      [
+        {
+          "type": "single",
+          "title": "AMX-50 (TOA100)",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/fr_amx_50.png",
+          "br": "7.7",
+          "rp": 105000,
+          "sp": 300000,
+          "data_unit_id": "fr_amx_50",
+          "required_unit_id": "fr_amx_m4",
+          "selected": false,
+          "class_name": "",
+          "details": true,
+          "rank": "V",
+          "research_country": "France",
+          "main_role": "Medium tank",
+          "is_component": false,
+          "component_of": null,
+          "is_premium": false,
+          "is_squadron": false,
+          "wiki": {
+            "url": "https://wiki.warthunder.com/unit/fr_amx_50",
+            "rank": "V",
+            "battle_rating_context": "default",
+            "battle_ratings": {
+              "AB": "7.7",
+              "RB": "7.7",
+              "SB": "7.7"
+            },
+            "battle_ratings_by_battle": {
+              "default": {
+                "AB": "7.7",
+                "RB": "7.7",
+                "SB": "7.7"
+              }
+            },
+            "research": "105,000",
+            "purchase": "300,000",
+            "purchase_currency": "SL",
+            "status": null,
+            "fetched_at": "2026-09-19T06:29:17.245Z",
+            "sha256": "3a7ac06d4dade8f10cef4ba16aed4c9cc696d868dfe1b408d0f0e929cc33f668"
+          }
+        },
+        {
+          "type": "single",
+          "title": "AMX-50 Surbaissé",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/fr_amx_50_surbaisse.png",
+          "br": "7.7",
+          "rp": 120000,
+          "sp": 340000,
+          "data_unit_id": "fr_amx_50_surbaisse",
+          "required_unit_id": "fr_amx_50",
+          "selected": false,
+          "class_name": "",
+          "details": true,
+          "rank": "V",
+          "research_country": "France",
+          "main_role": "Heavy tank",
+          "is_component": false,
+          "component_of": null,
+          "is_premium": false,
+          "is_squadron": false,
+          "wiki": {
+            "url": "https://wiki.warthunder.com/unit/fr_amx_50_surbaisse",
+            "rank": "V",
+            "battle_rating_context": "default",
+            "battle_ratings": {
+              "AB": "7.7",
+              "RB": "7.7",
+              "SB": "7.7"
+            },
+            "battle_ratings_by_battle": {
+              "default": {
+                "AB": "7.7",
+                "RB": "7.7",
+                "SB": "7.7"
+              }
+            },
+            "research": "120,000",
+            "purchase": "340,000",
+            "purchase_currency": "SL",
+            "status": null,
+            "fetched_at": "2026-09-19T06:29:17.525Z",
+            "sha256": "a11e65bc31f696f558f2086c691d51ab9b76ee718ae86da2c013a28def2a1763"
+          }
+        }
+      ],
+      [],
+      [
+        {
+          "type": "multiple",
+          "title": "Foch/AMX-10M",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/fr_foch_acra_group.png",
+          "selected": false,
+          "br": "7.3",
+          "data_unit_id": "fr_foch_acra_group",
+          "required_unit_id": "fr_amx_30_auf_1",
+          "class_name": "",
+          "items": [
+            {
+              "type": "single",
+              "title": "AMX-50 Foch",
+              "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/fr_amx_50_foch.png",
+              "br": "7.3",
+              "rp": 105000,
+              "sp": 300000,
+              "data_unit_id": "fr_amx_50_foch",
+              "required_unit_id": "",
+              "selected": false,
+              "class_name": "",
+              "details": true,
+              "rank": "V",
+              "research_country": "France",
+              "main_role": "Tank destroyer",
+              "is_component": false,
+              "component_of": null,
+              "is_premium": false,
+              "is_squadron": false,
+              "wiki": {
+                "url": "https://wiki.warthunder.com/unit/fr_amx_50_foch",
+                "rank": "V",
+                "battle_rating_context": "default",
+                "battle_ratings": {
+                  "AB": "7.3",
+                  "RB": "7.3",
+                  "SB": "7.3"
+                },
+                "battle_ratings_by_battle": {
+                  "default": {
+                    "AB": "7.3",
+                    "RB": "7.3",
+                    "SB": "7.3"
+                  }
+                },
+                "research": "105,000",
+                "purchase": "300,000",
+                "purchase_currency": "SL",
+                "status": null,
+                "fetched_at": "2026-09-19T06:29:17.442Z",
+                "sha256": "63bc79b6bba56b2e6b53da6bf9f8f5c5794b323256b1dbc783f368187fa92a55"
+              }
+            },
+            {
+              "type": "single",
+              "title": "AMX-10M",
+              "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/fr_amx_10m_acra.png",
+              "br": "7.3",
+              "rp": 61000,
+              "sp": 340000,
+              "data_unit_id": "fr_amx_10m_acra",
+              "required_unit_id": "fr_amx_50_foch",
+              "selected": false,
+              "class_name": "",
+              "details": true,
+              "rank": "V",
+              "research_country": "France",
+              "main_role": "Tank destroyer",
+              "is_component": false,
+              "component_of": null,
+              "is_premium": false,
+              "is_squadron": false,
+              "wiki": {
+                "url": "https://wiki.warthunder.com/unit/fr_amx_10m_acra",
+                "rank": "V",
+                "battle_rating_context": "default",
+                "battle_ratings": {
+                  "AB": "7.3",
+                  "RB": "7.3",
+                  "SB": "7.3"
+                },
+                "battle_ratings_by_battle": {
+                  "default": {
+                    "AB": "7.3",
+                    "RB": "7.3",
+                    "SB": "7.3"
+                  }
+                },
+                "research": "61,000",
+                "purchase": "340,000",
+                "purchase_currency": "SL",
+                "status": null,
+                "fetched_at": "2026-09-19T06:29:14.846Z",
+                "sha256": "7aaba18b210ab0f1004b0b7df83f6eed3f294846a73be9ae6bfa8dd3463c249b"
+              }
+            }
+          ],
+          "details": true,
+          "rp": 166000,
+          "sp": 640000
+        }
+      ]
+    ],
+    "premium_vehicles": [
+      [
+        {
+          "type": "single",
+          "title": "Somua SM",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/fr_somua_sm.png",
+          "br": "7.7",
+          "rp": 0,
+          "sp": 0,
+          "data_unit_id": "fr_somua_sm",
+          "required_unit_id": "",
+          "selected": false,
+          "class_name": "prem",
+          "details": true,
+          "rank": "V",
+          "research_country": "France",
+          "main_role": "Heavy tank",
+          "is_component": false,
+          "component_of": null,
+          "is_premium": true,
+          "is_squadron": false,
+          "wiki": {
+            "url": "https://wiki.warthunder.com/unit/fr_somua_sm",
+            "rank": "V",
+            "battle_rating_context": "default",
+            "battle_ratings": {
+              "AB": "7.7",
+              "RB": "7.7",
+              "SB": "7.7"
+            },
+            "battle_ratings_by_battle": {
+              "default": {
+                "AB": "7.7",
+                "RB": "7.7",
+                "SB": "7.7"
+              }
+            },
+            "research": null,
+            "purchase": null,
+            "purchase_currency": null,
+            "status": "Premium vehicle",
+            "fetched_at": "2026-09-19T06:29:24.037Z",
+            "sha256": "256f4a03790b58d60c5ebabd1774a78adbbe0cced71e12f0df0b2ade8d22eb22"
+          }
+        },
+        {
+          "type": "single",
+          "title": "CLOVIS",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/fr_marder_clovis.png",
+          "br": "8.0",
+          "rp": 0,
+          "sp": 0,
+          "data_unit_id": "fr_marder_clovis",
+          "required_unit_id": "",
+          "selected": false,
+          "class_name": "prem",
+          "details": true,
+          "rank": "V",
+          "research_country": "France",
+          "main_role": "Light tank",
+          "is_component": false,
+          "component_of": null,
+          "is_premium": true,
+          "is_squadron": false,
+          "wiki": {
+            "url": "https://wiki.warthunder.com/unit/fr_marder_clovis",
+            "rank": "V",
+            "battle_rating_context": "default",
+            "battle_ratings": {
+              "AB": "8.0",
+              "RB": "8.0",
+              "SB": "8.0"
+            },
+            "battle_ratings_by_battle": {
+              "default": {
+                "AB": "8.0",
+                "RB": "8.0",
+                "SB": "8.0"
+              }
+            },
+            "research": null,
+            "purchase": "8,380",
+            "purchase_currency": "GE",
+            "status": "Premium vehicle",
+            "fetched_at": "2026-09-19T06:29:22.580Z",
+            "sha256": "3cd2e50d8296ccf820df48dfc4f7fadf55c387f613cdf91ec7e5f7606ce1cc13"
+          }
+        },
+        {
+          "type": "single",
+          "title": "AMX-30",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/fr_amx_30.png",
+          "br": "8.0",
+          "rp": 0,
+          "sp": 0,
+          "data_unit_id": "fr_amx_30",
+          "required_unit_id": "",
+          "selected": false,
+          "class_name": "prem",
+          "details": true,
+          "rank": "V",
+          "research_country": "France",
+          "main_role": "Medium tank",
+          "is_component": false,
+          "component_of": null,
+          "is_premium": true,
+          "is_squadron": false,
+          "wiki": {
+            "url": "https://wiki.warthunder.com/unit/fr_amx_30",
+            "rank": "V",
+            "battle_rating_context": "default",
+            "battle_ratings": {
+              "AB": "8.0",
+              "RB": "8.0",
+              "SB": "8.0"
+            },
+            "battle_ratings_by_battle": {
+              "default": {
+                "AB": "8.0",
+                "RB": "8.0",
+                "SB": "8.0"
+              }
+            },
+            "research": null,
+            "purchase": "7,480",
+            "purchase_currency": "GE",
+            "status": "Premium vehicle",
+            "fetched_at": "2026-09-19T06:29:16.054Z",
+            "sha256": "ff155b5858eaac6ac8c2b201dd804bfb58152ce95786bad4dfdb5d75815a256d"
+          }
+        }
+      ],
+      [
+        {
+          "type": "single",
+          "title": "E.B.R. (1963)",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/fr_panhard_ebr_1963.png",
+          "br": "7.7",
+          "rp": 0,
+          "sp": 0,
+          "data_unit_id": "fr_panhard_ebr_1963",
+          "required_unit_id": "",
+          "selected": false,
+          "class_name": "prem",
+          "details": true,
+          "rank": "V",
+          "research_country": "France",
+          "main_role": "Light tank",
+          "is_component": false,
+          "component_of": null,
+          "is_premium": true,
+          "is_squadron": false,
+          "wiki": {
+            "url": "https://wiki.warthunder.com/unit/fr_panhard_ebr_1963",
+            "rank": "V",
+            "battle_rating_context": "default",
+            "battle_ratings": {
+              "AB": "7.7",
+              "RB": "7.7",
+              "SB": "7.7"
+            },
+            "battle_ratings_by_battle": {
+              "default": {
+                "AB": "7.7",
+                "RB": "7.7",
+                "SB": "7.7"
+              }
+            },
+            "research": null,
+            "purchase": null,
+            "purchase_currency": null,
+            "status": "Premium vehicle",
+            "fetched_at": "2026-09-19T06:29:22.886Z",
+            "sha256": "886972cfbd0a1fdea32324c3ad7d2cf8c025400e2cacc51ba65d4c18323a1a34"
+          }
+        },
+        {
+          "type": "single",
+          "title": "AMX-50 Surblindé",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/fr_amx_50_surblinde.png",
+          "br": "7.7",
+          "rp": null,
+          "sp": null,
+          "data_unit_id": "fr_amx_50_surblinde",
+          "required_unit_id": "",
+          "selected": false,
+          "class_name": "",
+          "details": true,
+          "rank": "V",
+          "research_country": "France",
+          "main_role": "Heavy tank",
+          "is_component": false,
+          "component_of": null,
+          "is_premium": false,
+          "is_squadron": false,
+          "wiki": {
+            "url": "https://wiki.warthunder.com/unit/fr_amx_50_surblinde",
+            "rank": "V",
+            "battle_rating_context": "default",
+            "battle_ratings": {
+              "AB": "7.7",
+              "RB": "7.7",
+              "SB": "7.7"
+            },
+            "battle_ratings_by_battle": {
+              "default": {
+                "AB": "7.7",
+                "RB": "7.7",
+                "SB": "7.7"
+              }
+            },
+            "research": null,
+            "purchase": null,
+            "purchase_currency": null,
+            "status": null,
+            "fetched_at": "2026-09-19T06:29:17.675Z",
+            "sha256": "f023152f60b438c74f1775d5819d105abf11e54c991cae4afc296deab7301c94"
+          }
+        },
+        {
+          "type": "single",
+          "title": "AMX-50 (TO90/930)",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/fr_amx_50_1950.png",
+          "br": "8.0",
+          "rp": 0,
+          "sp": 0,
+          "data_unit_id": "fr_amx_50_1950",
+          "required_unit_id": "",
+          "selected": false,
+          "class_name": "prem",
+          "details": true,
+          "rank": "V",
+          "research_country": "France",
+          "main_role": "Medium tank",
+          "is_component": false,
+          "component_of": null,
+          "is_premium": true,
+          "is_squadron": false,
+          "wiki": {
+            "url": "https://wiki.warthunder.com/unit/fr_amx_50_1950",
+            "rank": "V",
+            "battle_rating_context": "default",
+            "battle_ratings": {
+              "AB": "8.0",
+              "RB": "8.0",
+              "SB": "8.0"
+            },
+            "battle_ratings_by_battle": {
+              "default": {
+                "AB": "8.0",
+                "RB": "8.0",
+                "SB": "8.0"
+              }
+            },
+            "research": null,
+            "purchase": null,
+            "purchase_currency": null,
+            "status": "Premium vehicle",
+            "fetched_at": "2026-09-19T06:29:17.289Z",
+            "sha256": "659d1602b6e44149de2046d8b9d305ccab7472282a25de5b4fdda5d79e125c4c"
+          }
+        }
+      ]
+    ],
+    "selected": [],
+    "unlock_quantity": null,
+    "source": "wiki"
+  },
+  {
+    "rank": "VI",
+    "researchable_vehicles": [
+      [
+        {
+          "type": "multiple",
+          "title": "MARS/AMX",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/fr_mars_hot_group.png",
+          "selected": false,
+          "br": "8.3",
+          "data_unit_id": "fr_mars_hot_group",
+          "required_unit_id": "fr_marder_df_105",
+          "class_name": "",
+          "items": [
+            {
+              "type": "single",
+              "title": "MARS 15",
+              "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/fr_mars_15.png",
+              "br": "8.3",
+              "rp": 135000,
+              "sp": 380000,
+              "data_unit_id": "fr_mars_15",
+              "required_unit_id": "",
+              "selected": false,
+              "class_name": "",
+              "details": true,
+              "rank": "VI",
+              "research_country": "France",
+              "main_role": "Light tank",
+              "is_component": false,
+              "component_of": null,
+              "is_premium": false,
+              "is_squadron": false,
+              "wiki": {
+                "url": "https://wiki.warthunder.com/unit/fr_mars_15",
+                "rank": "VI",
+                "battle_rating_context": "default",
+                "battle_ratings": {
+                  "AB": "8.3",
+                  "RB": "8.3",
+                  "SB": "8.3"
+                },
+                "battle_ratings_by_battle": {
+                  "default": {
+                    "AB": "8.3",
+                    "RB": "8.3",
+                    "SB": "8.3"
+                  }
+                },
+                "research": "135,000",
+                "purchase": "380,000",
+                "purchase_currency": "SL",
+                "status": null,
+                "fetched_at": "2026-09-19T06:29:22.553Z",
+                "sha256": "5725a315a7f71e0f83b9c7086063c9e1fabb65fdc6a7a029f19e55354434eb45"
+              }
+            },
+            {
+              "type": "single",
+              "title": "AMX-13 (HOT)",
+              "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/fr_amx_13_hot.png",
+              "br": "8.3",
+              "rp": 81000,
+              "sp": 450000,
+              "data_unit_id": "fr_amx_13_hot",
+              "required_unit_id": "fr_mars_15",
+              "selected": false,
+              "class_name": "",
+              "details": true,
+              "rank": "VI",
+              "research_country": "France",
+              "main_role": "Light tank",
+              "is_component": false,
+              "component_of": null,
+              "is_premium": false,
+              "is_squadron": false,
+              "wiki": {
+                "url": "https://wiki.warthunder.com/unit/fr_amx_13_hot",
+                "rank": "VI",
+                "battle_rating_context": "default",
+                "battle_ratings": {
+                  "AB": "8.3",
+                  "RB": "8.3",
+                  "SB": "8.3"
+                },
+                "battle_ratings_by_battle": {
+                  "default": {
+                    "AB": "8.3",
+                    "RB": "8.3",
+                    "SB": "8.3"
+                  }
+                },
+                "research": "81,000",
+                "purchase": "450,000",
+                "purchase_currency": "SL",
+                "status": null,
+                "fetched_at": "2026-09-19T06:29:15.875Z",
+                "sha256": "66487720cb119bc1e4cbe094553afae388417c9fc75ac587e260d325ddabafd2"
+              }
+            }
+          ],
+          "details": true,
+          "rp": 216000,
+          "sp": 830000
+        },
+        {
+          "type": "multiple",
+          "title": "AMX/SK",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/fr_amx_sk_group.png",
+          "selected": false,
+          "br": "8.3-8.7",
+          "data_unit_id": "fr_amx_sk_group",
+          "required_unit_id": "fr_mars_hot_group",
+          "class_name": "",
+          "items": [
+            {
+              "type": "single",
+              "title": "AMX-10RC",
+              "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/fr_amx_10rc.png",
+              "br": "8.3",
+              "rp": 160000,
+              "sp": 450000,
+              "data_unit_id": "fr_amx_10rc",
+              "required_unit_id": "",
+              "selected": false,
+              "class_name": "",
+              "details": true,
+              "rank": "VI",
+              "research_country": "France",
+              "main_role": "Light tank",
+              "is_component": false,
+              "component_of": null,
+              "is_premium": false,
+              "is_squadron": false,
+              "wiki": {
+                "url": "https://wiki.warthunder.com/unit/fr_amx_10rc",
+                "rank": "VI",
+                "battle_rating_context": "default",
+                "battle_ratings": {
+                  "AB": "8.3",
+                  "RB": "8.3",
+                  "SB": "8.3"
+                },
+                "battle_ratings_by_battle": {
+                  "default": {
+                    "AB": "8.3",
+                    "RB": "8.3",
+                    "SB": "8.3"
+                  }
+                },
+                "research": "160,000",
+                "purchase": "450,000",
+                "purchase_currency": "SL",
+                "status": null,
+                "fetched_at": "2026-09-19T06:29:15.414Z",
+                "sha256": "bb6d2242423806d7093b55f856eff9efd255cd569b9f1781541108ba8a24332d"
+              }
+            },
+            {
+              "type": "single",
+              "title": "SK-105A2",
+              "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/fr_sk105_a2.png",
+              "br": "8.7",
+              "rp": 94000,
+              "sp": 520000,
+              "data_unit_id": "fr_sk105_a2",
+              "required_unit_id": "fr_amx_10rc",
+              "selected": false,
+              "class_name": "",
+              "details": true,
+              "rank": "VI",
+              "research_country": "France",
+              "main_role": "Light tank",
+              "is_component": false,
+              "component_of": null,
+              "is_premium": false,
+              "is_squadron": false,
+              "wiki": {
+                "url": "https://wiki.warthunder.com/unit/fr_sk105_a2",
+                "rank": "VI",
+                "battle_rating_context": "default",
+                "battle_ratings": {
+                  "AB": "8.7",
+                  "RB": "8.7",
+                  "SB": "8.7"
+                },
+                "battle_ratings_by_battle": {
+                  "default": {
+                    "AB": "8.7",
+                    "RB": "8.7",
+                    "SB": "8.7"
+                  }
+                },
+                "research": "94,000",
+                "purchase": "520,000",
+                "purchase_currency": "SL",
+                "status": null,
+                "fetched_at": "2026-09-19T06:29:23.588Z",
+                "sha256": "aa7fa728216f644092ca4b1503e8ca9b5cb13487eb0134625b018a0017bb63f7"
+              }
+            }
+          ],
+          "details": true,
+          "rp": 254000,
+          "sp": 970000
+        },
+        {
+          "type": "single",
+          "title": "VBCI",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/fr_vbci.png",
+          "br": "9.3",
+          "rp": 190000,
+          "sp": 520000,
+          "data_unit_id": "fr_vbci",
+          "required_unit_id": "fr_amx_sk_group",
+          "selected": false,
+          "class_name": "",
+          "details": true,
+          "rank": "VI",
+          "research_country": "France",
+          "main_role": "Light tank",
+          "is_component": false,
+          "component_of": null,
+          "is_premium": false,
+          "is_squadron": false,
+          "wiki": {
+            "url": "https://wiki.warthunder.com/unit/fr_vbci",
+            "rank": "VI",
+            "battle_rating_context": "default",
+            "battle_ratings": {
+              "AB": "9.3",
+              "RB": "9.3",
+              "SB": "9.3"
+            },
+            "battle_ratings_by_battle": {
+              "default": {
+                "AB": "9.3",
+                "RB": "9.3",
+                "SB": "9.3"
+              }
+            },
+            "research": "190,000",
+            "purchase": "520,000",
+            "purchase_currency": "SL",
+            "status": null,
+            "fetched_at": "2026-09-19T06:29:24.585Z",
+            "sha256": "24fb4ff53af65c434339e88676f27b7248d399fa53174593a1f090c0e6371e70"
+          }
+        }
+      ],
+      [
+        {
+          "type": "multiple",
+          "title": "AMX-30 B2/BRENUS",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/fr_amx_30_group.png",
+          "selected": false,
+          "br": "8.7",
+          "data_unit_id": "fr_amx_30_group",
+          "required_unit_id": "fr_amx_30_1972",
+          "class_name": "",
+          "items": [
+            {
+              "type": "single",
+              "title": "AMX-30B2",
+              "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/fr_amx_30_b2.png",
+              "br": "8.7",
+              "rp": 160000,
+              "sp": 450000,
+              "data_unit_id": "fr_amx_30_b2",
+              "required_unit_id": "",
+              "selected": false,
+              "class_name": "",
+              "details": true,
+              "rank": "VI",
+              "research_country": "France",
+              "main_role": "Medium tank",
+              "is_component": false,
+              "component_of": null,
+              "is_premium": false,
+              "is_squadron": false,
+              "wiki": {
+                "url": "https://wiki.warthunder.com/unit/fr_amx_30_b2",
+                "rank": "VI",
+                "battle_rating_context": "default",
+                "battle_ratings": {
+                  "AB": "8.7",
+                  "RB": "8.7",
+                  "SB": "8.7"
+                },
+                "battle_ratings_by_battle": {
+                  "default": {
+                    "AB": "8.7",
+                    "RB": "8.7",
+                    "SB": "8.7"
+                  }
+                },
+                "research": "160,000",
+                "purchase": "450,000",
+                "purchase_currency": "SL",
+                "status": null,
+                "fetched_at": "2026-09-19T06:29:16.400Z",
+                "sha256": "f022c6041f5d99a548b21f76fb44be38dd44b8020ace871035e4e72f4baea20e"
+              }
+            },
+            {
+              "type": "single",
+              "title": "AMX-30B2 BRENUS",
+              "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/fr_amx_30_b2_brenus.png",
+              "br": "8.7",
+              "rp": 94000,
+              "sp": 520000,
+              "data_unit_id": "fr_amx_30_b2_brenus",
+              "required_unit_id": "fr_amx_30_b2",
+              "selected": false,
+              "class_name": "",
+              "details": true,
+              "rank": "VI",
+              "research_country": "France",
+              "main_role": "Medium tank",
+              "is_component": false,
+              "component_of": null,
+              "is_premium": false,
+              "is_squadron": false,
+              "wiki": {
+                "url": "https://wiki.warthunder.com/unit/fr_amx_30_b2_brenus",
+                "rank": "VI",
+                "battle_rating_context": "default",
+                "battle_ratings": {
+                  "AB": "8.7",
+                  "RB": "8.7",
+                  "SB": "8.7"
+                },
+                "battle_ratings_by_battle": {
+                  "default": {
+                    "AB": "8.7",
+                    "RB": "8.7",
+                    "SB": "8.7"
+                  }
+                },
+                "research": "94,000",
+                "purchase": "520,000",
+                "purchase_currency": "SL",
+                "status": null,
+                "fetched_at": "2026-09-19T06:29:16.657Z",
+                "sha256": "2c9ed877f478a9b35d548c5db75f5f17ade698ac1befeb530cb00fd84af9f833"
+              }
+            }
+          ],
+          "details": true,
+          "rp": 254000,
+          "sp": 970000
+        },
+        {
+          "type": "single",
+          "title": "Leopard 1A5BE",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/fr_leopard_1a5be.png",
+          "br": "9.3",
+          "rp": 190000,
+          "sp": 520000,
+          "data_unit_id": "fr_leopard_1a5be",
+          "required_unit_id": "fr_amx_30_group",
+          "selected": false,
+          "class_name": "",
+          "details": true,
+          "rank": "VI",
+          "research_country": "France",
+          "main_role": "Medium tank",
+          "is_component": false,
+          "component_of": null,
+          "is_premium": false,
+          "is_squadron": false,
+          "wiki": {
+            "url": "https://wiki.warthunder.com/unit/fr_leopard_1a5be",
+            "rank": "VI",
+            "battle_rating_context": "default",
+            "battle_ratings": {
+              "AB": "9.3",
+              "RB": "9.3",
+              "SB": "9.3"
+            },
+            "battle_ratings_by_battle": {
+              "default": {
+                "AB": "9.3",
+                "RB": "9.3",
+                "SB": "9.3"
+              }
+            },
+            "research": "190,000",
+            "purchase": "520,000",
+            "purchase_currency": "SL",
+            "status": null,
+            "fetched_at": "2026-09-19T06:29:20.218Z",
+            "sha256": "e25eea5545c1808aceeeea184cc4b9fa54f405397b6512c8a978d41db1d58dac"
+          }
+        }
+      ],
+      [
+        {
+          "type": "multiple",
+          "title": "AMX-32 105/120",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/fr_amx_32_group.png",
+          "selected": false,
+          "br": "9.3-9.7",
+          "data_unit_id": "fr_amx_32_group",
+          "required_unit_id": "fr_amx_50_surbaisse",
+          "class_name": "",
+          "items": [
+            {
+              "type": "single",
+              "title": "AMX-32 (105)",
+              "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/fr_amx_32_105.png",
+              "br": "9.3",
+              "rp": 190000,
+              "sp": 520000,
+              "data_unit_id": "fr_amx_32_105",
+              "required_unit_id": "",
+              "selected": false,
+              "class_name": "",
+              "details": true,
+              "rank": "VI",
+              "research_country": "France",
+              "main_role": "Medium tank",
+              "is_component": false,
+              "component_of": null,
+              "is_premium": false,
+              "is_squadron": false,
+              "wiki": {
+                "url": "https://wiki.warthunder.com/unit/fr_amx_32_105",
+                "rank": "VI",
+                "battle_rating_context": "default",
+                "battle_ratings": {
+                  "AB": "9.3",
+                  "RB": "9.3",
+                  "SB": "9.3"
+                },
+                "battle_ratings_by_battle": {
+                  "default": {
+                    "AB": "9.3",
+                    "RB": "9.3",
+                    "SB": "9.3"
+                  }
+                },
+                "research": "190,000",
+                "purchase": "520,000",
+                "purchase_currency": "SL",
+                "status": null,
+                "fetched_at": "2026-09-19T06:29:16.998Z",
+                "sha256": "f3a9b47f05f188a407e1aae52b27e19770c8a9f20542a4f2a715d66459b418fe"
+              }
+            },
+            {
+              "type": "single",
+              "title": "AMX-32",
+              "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/fr_amx_32.png",
+              "br": "9.7",
+              "rp": 110000,
+              "sp": 620000,
+              "data_unit_id": "fr_amx_32",
+              "required_unit_id": "fr_amx_32_105",
+              "selected": false,
+              "class_name": "",
+              "details": true,
+              "rank": "VI",
+              "research_country": "France",
+              "main_role": "Medium tank",
+              "is_component": false,
+              "component_of": null,
+              "is_premium": false,
+              "is_squadron": false,
+              "wiki": {
+                "url": "https://wiki.warthunder.com/unit/fr_amx_32",
+                "rank": "VI",
+                "battle_rating_context": "default",
+                "battle_ratings": {
+                  "AB": "9.3",
+                  "RB": "9.7",
+                  "SB": "9.7"
+                },
+                "battle_ratings_by_battle": {
+                  "default": {
+                    "AB": "9.3",
+                    "RB": "9.7",
+                    "SB": "9.7"
+                  }
+                },
+                "research": "110,000",
+                "purchase": "620,000",
+                "purchase_currency": "SL",
+                "status": null,
+                "fetched_at": "2026-09-19T06:29:17.113Z",
+                "sha256": "b238ca9072fe9db5eb290fa0657fb6ffd9071f4217aa7544c763da3fd2c7a0b8"
+              }
+            }
+          ],
+          "details": true,
+          "rp": 300000,
+          "sp": 1140000
+        }
+      ],
+      [
+        {
+          "type": "single",
+          "title": "AMX-30 S DCA",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/fr_amx_30_dca.png",
+          "br": "8.7",
+          "rp": 135000,
+          "sp": 380000,
+          "data_unit_id": "fr_amx_30_dca",
+          "required_unit_id": "fr_amx_10p",
+          "selected": false,
+          "class_name": "",
+          "details": true,
+          "rank": "VI",
+          "research_country": "France",
+          "main_role": "SPAA",
+          "is_component": false,
+          "component_of": null,
+          "is_premium": false,
+          "is_squadron": false,
+          "wiki": {
+            "url": "https://wiki.warthunder.com/unit/fr_amx_30_dca",
+            "rank": "VI",
+            "battle_rating_context": "default",
+            "battle_ratings": {
+              "AB": "8.7",
+              "RB": "8.7",
+              "SB": "8.7"
+            },
+            "battle_ratings_by_battle": {
+              "default": {
+                "AB": "8.7",
+                "RB": "8.7",
+                "SB": "8.7"
+              }
+            },
+            "research": "135,000",
+            "purchase": "380,000",
+            "purchase_currency": "SL",
+            "status": null,
+            "fetched_at": "2026-09-19T06:29:16.730Z",
+            "sha256": "d7f11f66ad305d2757dbc250677aaebcf2e10349ffc06666004994e5794ce77c"
+          }
+        },
+        {
+          "type": "single",
+          "title": "SANTAL",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/fr_vab_santal.png",
+          "br": "9.3",
+          "rp": 220000,
+          "sp": 620000,
+          "data_unit_id": "fr_vab_santal",
+          "required_unit_id": "fr_amx_30_dca",
+          "selected": false,
+          "class_name": "",
+          "details": true,
+          "rank": "VI",
+          "research_country": "France",
+          "main_role": "SPAA",
+          "is_component": false,
+          "component_of": null,
+          "is_premium": false,
+          "is_squadron": false,
+          "wiki": {
+            "url": "https://wiki.warthunder.com/unit/fr_vab_santal",
+            "rank": "VI",
+            "battle_rating_context": "default",
+            "battle_ratings": {
+              "AB": "9.3",
+              "RB": "9.3",
+              "SB": "9.3"
+            },
+            "battle_ratings_by_battle": {
+              "default": {
+                "AB": "9.3",
+                "RB": "9.3",
+                "SB": "9.3"
+              }
+            },
+            "research": "220,000",
+            "purchase": "620,000",
+            "purchase_currency": "SL",
+            "status": null,
+            "fetched_at": "2026-09-19T06:29:24.125Z",
+            "sha256": "1beac8f72424d1dd574170292a8087b878e4b724deffc01ecea90523ecc80d60"
+          }
+        }
+      ],
+      [
+        {
+          "type": "single",
+          "title": "AMX-30 ACRA",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/fr_amx_30_acra.png",
+          "br": "8.3",
+          "rp": 135000,
+          "sp": 380000,
+          "data_unit_id": "fr_amx_30_acra",
+          "required_unit_id": "fr_foch_acra_group",
+          "selected": false,
+          "class_name": "",
+          "details": true,
+          "rank": "VI",
+          "research_country": "France",
+          "main_role": "Medium tank",
+          "is_component": false,
+          "component_of": null,
+          "is_premium": false,
+          "is_squadron": false,
+          "wiki": {
+            "url": "https://wiki.warthunder.com/unit/fr_amx_30_ACRA",
+            "rank": "VI",
+            "battle_rating_context": "default",
+            "battle_ratings": {
+              "AB": "8.3",
+              "RB": "8.3",
+              "SB": "8.3"
+            },
+            "battle_ratings_by_battle": {
+              "default": {
+                "AB": "8.3",
+                "RB": "8.3",
+                "SB": "8.3"
+              }
+            },
+            "research": "135,000",
+            "purchase": "380,000",
+            "purchase_currency": "SL",
+            "status": null,
+            "fetched_at": "2026-09-19T06:29:16.276Z",
+            "sha256": "fb32bf69f76ae7d68c90acfcb8f765a0c65a659a2ca3969b4543ea66aa52cfe5"
+          }
+        },
+        {
+          "type": "single",
+          "title": "MEPHISTO",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/fr_vcac_mephisto.png",
+          "br": "8.7",
+          "rp": 160000,
+          "sp": 450000,
+          "data_unit_id": "fr_vcac_mephisto",
+          "required_unit_id": "fr_amx_30_acra",
+          "selected": false,
+          "class_name": "",
+          "details": true,
+          "rank": "VI",
+          "research_country": "France",
+          "main_role": "Tank destroyer",
+          "is_component": false,
+          "component_of": null,
+          "is_premium": false,
+          "is_squadron": false,
+          "wiki": {
+            "url": "https://wiki.warthunder.com/unit/fr_vcac_mephisto",
+            "rank": "VI",
+            "battle_rating_context": "default",
+            "battle_ratings": {
+              "AB": "8.7",
+              "RB": "8.7",
+              "SB": "8.7"
+            },
+            "battle_ratings_by_battle": {
+              "default": {
+                "AB": "8.7",
+                "RB": "8.7",
+                "SB": "8.7"
+              }
+            },
+            "research": "160,000",
+            "purchase": "450,000",
+            "purchase_currency": "SL",
+            "status": null,
+            "fetched_at": "2026-09-19T06:29:24.502Z",
+            "sha256": "543e4799810d48b692478bc46d0679c11c7bca900dd7f36a2b2c5947ccf34cbd"
+          }
+        }
+      ]
+    ],
+    "premium_vehicles": [
+      [
+        {
+          "type": "single",
+          "title": "AMX-30 Super",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/fr_amx_30_super.png",
+          "br": "9.3",
+          "rp": 0,
+          "sp": 0,
+          "data_unit_id": "fr_amx_30_super",
+          "required_unit_id": "",
+          "selected": false,
+          "class_name": "prem",
+          "details": true,
+          "rank": "VI",
+          "research_country": "France",
+          "main_role": "Medium tank",
+          "is_component": false,
+          "component_of": null,
+          "is_premium": true,
+          "is_squadron": false,
+          "wiki": {
+            "url": "https://wiki.warthunder.com/unit/fr_amx_30_super",
+            "rank": "VI",
+            "battle_rating_context": "default",
+            "battle_ratings": {
+              "AB": "9.3",
+              "RB": "9.3",
+              "SB": "9.3"
+            },
+            "battle_ratings_by_battle": {
+              "default": {
+                "AB": "9.3",
+                "RB": "9.3",
+                "SB": "9.3"
+              }
+            },
+            "research": null,
+            "purchase": "8,910",
+            "purchase_currency": "GE",
+            "status": "Premium vehicle",
+            "fetched_at": "2026-09-19T06:29:16.781Z",
+            "sha256": "e5e6affcb178f594b884a029c1d52dc77bad3338baccd5bb8f3ef4514fcf9994"
+          }
+        },
+        {
+          "type": "single",
+          "title": "VBCI-2 (MCT30)",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/fr_vbci2_mct30.png",
+          "br": "9.7",
+          "rp": 0,
+          "sp": 0,
+          "data_unit_id": "fr_vbci2_mct30",
+          "required_unit_id": "",
+          "selected": false,
+          "class_name": "prem",
+          "details": true,
+          "rank": "VI",
+          "research_country": "France",
+          "main_role": "Light tank",
+          "is_component": false,
+          "component_of": null,
+          "is_premium": true,
+          "is_squadron": false,
+          "wiki": {
+            "url": "https://wiki.warthunder.com/unit/fr_vbci2_mct30",
+            "rank": "VI",
+            "battle_rating_context": "default",
+            "battle_ratings": {
+              "AB": "9.7",
+              "RB": "9.7",
+              "SB": "9.7"
+            },
+            "battle_ratings_by_battle": {
+              "default": {
+                "AB": "9.7",
+                "RB": "9.7",
+                "SB": "9.7"
+              }
+            },
+            "research": null,
+            "purchase": "8,910",
+            "purchase_currency": "GE",
+            "status": "Premium vehicle",
+            "fetched_at": "2026-09-19T06:29:24.377Z",
+            "sha256": "4ebc79e9c5b52b5e062c246523ea2768366c7d9cc4b7164e83cb21567fdbcce4"
+          }
+        }
+      ],
+      []
+    ],
+    "selected": [],
+    "unlock_quantity": null,
+    "source": "wiki"
+  },
+  {
+    "rank": "VII",
+    "researchable_vehicles": [
+      [
+        {
+          "type": "single",
+          "title": "Vextra 105",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/fr_vextra_105.png",
+          "br": "10.0",
+          "rp": 260000,
+          "sp": 710000,
+          "data_unit_id": "fr_vextra_105",
+          "required_unit_id": "fr_vbci",
+          "selected": false,
+          "class_name": "",
+          "details": true,
+          "rank": "VII",
+          "research_country": "France",
+          "main_role": "Light tank",
+          "is_component": false,
+          "component_of": null,
+          "is_premium": false,
+          "is_squadron": false,
+          "wiki": {
+            "url": "https://wiki.warthunder.com/unit/fr_vextra_105",
+            "rank": "VII",
+            "battle_rating_context": "default",
+            "battle_ratings": {
+              "AB": "10.0",
+              "RB": "10.0",
+              "SB": "10.0"
+            },
+            "battle_ratings_by_battle": {
+              "default": {
+                "AB": "10.0",
+                "RB": "10.0",
+                "SB": "10.0"
+              }
+            },
+            "research": "260,000",
+            "purchase": "710,000",
+            "purchase_currency": "SL",
+            "status": null,
+            "fetched_at": "2026-09-19T06:29:24.671Z",
+            "sha256": "1566d10c5953f9db3ab69d27908c88270b3c6ad6c652b8d937bf7defefb1667b"
+          }
+        }
+      ],
+      [
+        {
+          "type": "single",
+          "title": "MSC",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/fr_msc.png",
+          "br": "11.0",
+          "rp": 260000,
+          "sp": 710000,
+          "data_unit_id": "fr_msc",
+          "required_unit_id": "fr_leopard_1a5be",
+          "selected": false,
+          "class_name": "",
+          "details": true,
+          "rank": "VII",
+          "research_country": "France",
+          "main_role": "Medium tank",
+          "is_component": false,
+          "component_of": null,
+          "is_premium": false,
+          "is_squadron": false,
+          "wiki": {
+            "url": "https://wiki.warthunder.com/unit/fr_msc",
+            "rank": "VII",
+            "battle_rating_context": "default",
+            "battle_ratings": {
+              "AB": "11.0",
+              "RB": "11.0",
+              "SB": "11.0"
+            },
+            "battle_ratings_by_battle": {
+              "default": {
+                "AB": "11.0",
+                "RB": "11.0",
+                "SB": "11.0"
+              }
+            },
+            "research": "260,000",
+            "purchase": "710,000",
+            "purchase_currency": "SL",
+            "status": null,
+            "fetched_at": "2026-09-19T06:29:22.801Z",
+            "sha256": "3c2e9954946002c45315e9c2126f97cfb65bea4390d188fe12682bcb32132807"
+          }
+        }
+      ],
+      [
+        {
+          "type": "single",
+          "title": "AMX-40",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/fr_amx_40.png",
+          "br": "10.0",
+          "rp": 260000,
+          "sp": 710000,
+          "data_unit_id": "fr_amx_40",
+          "required_unit_id": "fr_amx_32_group",
+          "selected": false,
+          "class_name": "",
+          "details": true,
+          "rank": "VII",
+          "research_country": "France",
+          "main_role": "Medium tank",
+          "is_component": false,
+          "component_of": null,
+          "is_premium": false,
+          "is_squadron": false,
+          "wiki": {
+            "url": "https://wiki.warthunder.com/unit/fr_amx_40",
+            "rank": "VII",
+            "battle_rating_context": "default",
+            "battle_ratings": {
+              "AB": "10.0",
+              "RB": "10.0",
+              "SB": "10.0"
+            },
+            "battle_ratings_by_battle": {
+              "default": {
+                "AB": "10.0",
+                "RB": "10.0",
+                "SB": "10.0"
+              }
+            },
+            "research": "260,000",
+            "purchase": "710,000",
+            "purchase_currency": "SL",
+            "status": null,
+            "fetched_at": "2026-09-19T06:29:17.386Z",
+            "sha256": "0635ddc6926a290ec5f4f4972b2205d184c3ced77c97a5c3d8acdb61c5c07ab2"
+          }
+        },
+        {
+          "type": "single",
+          "title": "Leopard 2A4NL",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/fr_leopard_2a4nl.png",
+          "br": "10.7",
+          "rp": 300000,
+          "sp": 830000,
+          "data_unit_id": "fr_leopard_2a4nl",
+          "required_unit_id": "fr_amx_40",
+          "selected": false,
+          "class_name": "",
+          "details": true,
+          "rank": "VII",
+          "research_country": "France",
+          "main_role": "Medium tank",
+          "is_component": false,
+          "component_of": null,
+          "is_premium": false,
+          "is_squadron": false,
+          "wiki": {
+            "url": "https://wiki.warthunder.com/unit/fr_leopard_2a4nl",
+            "rank": "VII",
+            "battle_rating_context": "default",
+            "battle_ratings": {
+              "AB": "10.7",
+              "RB": "10.7",
+              "SB": "10.7"
+            },
+            "battle_ratings_by_battle": {
+              "default": {
+                "AB": "10.7",
+                "RB": "10.7",
+                "SB": "10.7"
+              }
+            },
+            "research": "300,000",
+            "purchase": "830,000",
+            "purchase_currency": "SL",
+            "status": null,
+            "fetched_at": "2026-09-19T06:29:20.302Z",
+            "sha256": "29e1d047e94d5ef2b76d94387e896a6afe2fbafd4a6dae2945af711dc2f88493"
+          }
+        }
+      ],
+      [
+        {
+          "type": "single",
+          "title": "Roland 1",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/fr_amx_30_roland.png",
+          "br": "9.7",
+          "rp": 260000,
+          "sp": 710000,
+          "data_unit_id": "fr_amx_30_roland",
+          "required_unit_id": "fr_vab_santal",
+          "selected": false,
+          "class_name": "",
+          "details": true,
+          "rank": "VII",
+          "research_country": "France",
+          "main_role": "SPAA",
+          "is_component": false,
+          "component_of": null,
+          "is_premium": false,
+          "is_squadron": false,
+          "wiki": {
+            "url": "https://wiki.warthunder.com/unit/fr_amx_30_roland",
+            "rank": "VII",
+            "battle_rating_context": "default",
+            "battle_ratings": {
+              "AB": "9.7",
+              "RB": "9.7",
+              "SB": "9.7"
+            },
+            "battle_ratings_by_battle": {
+              "default": {
+                "AB": "9.7",
+                "RB": "9.7",
+                "SB": "9.7"
+              }
+            },
+            "research": "260,000",
+            "purchase": "710,000",
+            "purchase_currency": "SL",
+            "status": null,
+            "fetched_at": "2026-09-19T06:29:16.792Z",
+            "sha256": "2f0b887bbc81d3baf9f04f0e0d14043d9f256cb964a1743234a79417fe8e64dd"
+          }
+        }
+      ],
+      [
+        {
+          "type": "single",
+          "title": "EBRC Jaguar",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/fr_jaguar_ebrc.png",
+          "br": "11.0",
+          "rp": 260000,
+          "sp": 710000,
+          "data_unit_id": "fr_jaguar_ebrc",
+          "required_unit_id": "fr_vcac_mephisto",
+          "selected": false,
+          "class_name": "",
+          "details": true,
+          "rank": "VII",
+          "research_country": "France",
+          "main_role": "Light tank",
+          "is_component": false,
+          "component_of": null,
+          "is_premium": false,
+          "is_squadron": false,
+          "wiki": {
+            "url": "https://wiki.warthunder.com/unit/fr_jaguar_ebrc",
+            "rank": "VII",
+            "battle_rating_context": "default",
+            "battle_ratings": {
+              "AB": "11.0",
+              "RB": "11.0",
+              "SB": "11.0"
+            },
+            "battle_ratings_by_battle": {
+              "default": {
+                "AB": "11.0",
+                "RB": "11.0",
+                "SB": "11.0"
+              }
+            },
+            "research": "260,000",
+            "purchase": "710,000",
+            "purchase_currency": "SL",
+            "status": null,
+            "fetched_at": "2026-09-19T06:29:19.892Z",
+            "sha256": "2933f80599fb77c995ad22464919e058dad8e91fbf6dbc1e582be7c7e8cf4333"
+          }
+        }
+      ]
+    ],
+    "premium_vehicles": [
+      [
+        {
+          "type": "single",
+          "title": "CV 9035NL",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/fr_cv_9035_nl.png",
+          "br": "9.7",
+          "rp": 0,
+          "sp": 0,
+          "data_unit_id": "fr_cv_9035_nl",
+          "required_unit_id": "",
+          "selected": false,
+          "class_name": "squad",
+          "details": true,
+          "rank": "VII",
+          "research_country": "France",
+          "main_role": "Light tank",
+          "is_component": false,
+          "component_of": null,
+          "is_premium": false,
+          "is_squadron": true,
+          "wiki": {
+            "url": "https://wiki.warthunder.com/unit/fr_cv_9035_nl",
+            "rank": "VII",
+            "battle_rating_context": "default",
+            "battle_ratings": {
+              "AB": "9.7",
+              "RB": "9.7",
+              "SB": "9.7"
+            },
+            "battle_ratings_by_battle": {
+              "default": {
+                "AB": "9.7",
+                "RB": "9.7",
+                "SB": "9.7"
+              }
+            },
+            "research": "540,000",
+            "purchase": "870,000",
+            "purchase_currency": "SL",
+            "status": "Squadron vehicle",
+            "fetched_at": "2026-09-19T06:29:19.294Z",
+            "sha256": "e8d0af5ff386614a3aa3d0b633d18473f85a326800515206e75304c23bbcbd36"
+          }
+        },
+        {
+          "type": "single",
+          "title": "Leopard 2 (OTCo)",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/fr_leopard_2a4nl_les.png",
+          "br": "10.7",
+          "rp": 0,
+          "sp": 0,
+          "data_unit_id": "fr_leopard_2a4nl_les",
+          "required_unit_id": "",
+          "selected": false,
+          "class_name": "prem",
+          "details": true,
+          "rank": "VII",
+          "research_country": "France",
+          "main_role": "Medium tank",
+          "is_component": false,
+          "component_of": null,
+          "is_premium": true,
+          "is_squadron": false,
+          "wiki": {
+            "url": "https://wiki.warthunder.com/unit/fr_leopard_2a4nl_les",
+            "rank": "VII",
+            "battle_rating_context": "default",
+            "battle_ratings": {
+              "AB": "10.7",
+              "RB": "10.7",
+              "SB": "10.7"
+            },
+            "battle_ratings_by_battle": {
+              "default": {
+                "AB": "10.7",
+                "RB": "10.7",
+                "SB": "10.7"
+              }
+            },
+            "research": null,
+            "purchase": null,
+            "purchase_currency": null,
+            "status": "Premium vehicle",
+            "fetched_at": "2026-09-19T06:29:20.476Z",
+            "sha256": "a779b9387f305226c5afa4cc1c3f4f5edd1375ca3309a6a62f3b6cfbde8c6a1e"
+          }
+        }
+      ],
+      []
+    ],
+    "selected": [],
+    "unlock_quantity": null,
+    "source": "wiki"
+  },
+  {
+    "rank": "VIII",
+    "researchable_vehicles": [
+      [],
+      [
+        {
+          "type": "multiple",
+          "title": "Leclerc S1/S2",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/fr_leclerc_group.png",
+          "selected": false,
+          "br": "12.7",
+          "data_unit_id": "fr_leclerc_group",
+          "required_unit_id": "fr_msc",
+          "class_name": "",
+          "items": [
+            {
+              "type": "single",
+              "title": "Leclerc",
+              "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/fr_leclerc_s1.png",
+              "br": "12.7",
+              "rp": 400000,
+              "sp": 1080000,
+              "data_unit_id": "fr_leclerc_s1",
+              "required_unit_id": "",
+              "selected": false,
+              "class_name": "",
+              "details": true,
+              "rank": "VIII",
+              "research_country": "France",
+              "main_role": "Medium tank",
+              "is_component": false,
+              "component_of": null,
+              "is_premium": false,
+              "is_squadron": false,
+              "wiki": {
+                "url": "https://wiki.warthunder.com/unit/fr_leclerc_s1",
+                "rank": "VIII",
+                "battle_rating_context": "default",
+                "battle_ratings": {
+                  "AB": "12.7",
+                  "RB": "12.7",
+                  "SB": "12.7"
+                },
+                "battle_ratings_by_battle": {
+                  "default": {
+                    "AB": "12.7",
+                    "RB": "12.7",
+                    "SB": "12.7"
+                  }
+                },
+                "research": "400,000",
+                "purchase": "1,080,000",
+                "purchase_currency": "SL",
+                "status": null,
+                "fetched_at": "2026-09-19T06:29:20.033Z",
+                "sha256": "f46225bf9c0e76f7b126977de4f6026b6b0727fe0534f19c71f32df39a5a4b94"
+              }
+            },
+            {
+              "type": "single",
+              "title": "Leclerc S2",
+              "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/fr_leclerc_s2.png",
+              "br": "12.7",
+              "rp": 200000,
+              "sp": 1100000,
+              "data_unit_id": "fr_leclerc_s2",
+              "required_unit_id": "fr_leclerc_s1",
+              "selected": false,
+              "class_name": "",
+              "details": true,
+              "rank": "VIII",
+              "research_country": "France",
+              "main_role": "Medium tank",
+              "is_component": false,
+              "component_of": null,
+              "is_premium": false,
+              "is_squadron": false,
+              "wiki": {
+                "url": "https://wiki.warthunder.com/unit/fr_leclerc_s2",
+                "rank": "VIII",
+                "battle_rating_context": "default",
+                "battle_ratings": {
+                  "AB": "12.7",
+                  "RB": "12.7",
+                  "SB": "12.7"
+                },
+                "battle_ratings_by_battle": {
+                  "default": {
+                    "AB": "12.7",
+                    "RB": "12.7",
+                    "SB": "12.7"
+                  }
+                },
+                "research": "200,000",
+                "purchase": "1,100,000",
+                "purchase_currency": "SL",
+                "status": null,
+                "fetched_at": "2026-09-19T06:29:20.256Z",
+                "sha256": "ebaffee8362f8d00142f96eaf82f322ec7c55ea64371dcc547e31792b0fc9a9f"
+              }
+            }
+          ],
+          "details": true,
+          "rp": 600000,
+          "sp": 2180000
+        },
+        {
+          "type": "single",
+          "title": "Leclerc SXXI",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/fr_leclerc_sxxi.png",
+          "br": "12.7",
+          "rp": 410000,
+          "sp": 1100000,
+          "data_unit_id": "fr_leclerc_sxxi",
+          "required_unit_id": "fr_leclerc_group",
+          "selected": false,
+          "class_name": "",
+          "details": true,
+          "rank": "VIII",
+          "research_country": "France",
+          "main_role": "Medium tank",
+          "is_component": false,
+          "component_of": null,
+          "is_premium": false,
+          "is_squadron": false,
+          "wiki": {
+            "url": "https://wiki.warthunder.com/unit/fr_leclerc_sxxi",
+            "rank": "VIII",
+            "battle_rating_context": "default",
+            "battle_ratings": {
+              "AB": "12.7",
+              "RB": "12.7",
+              "SB": "12.7"
+            },
+            "battle_ratings_by_battle": {
+              "default": {
+                "AB": "12.7",
+                "RB": "12.7",
+                "SB": "12.7"
+              }
+            },
+            "research": "410,000",
+            "purchase": "1,100,000",
+            "purchase_currency": "SL",
+            "status": null,
+            "fetched_at": "2026-09-19T06:29:20.346Z",
+            "sha256": "f7756a720cd1c1a8b0344d65296e5fe69b1728101965ae95b50ee6902c6e8ee2"
+          }
+        },
+        {
+          "type": "single",
+          "title": "Leclerc AZUR",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/fr_leclerc_azur.png",
+          "br": "12.7",
+          "rp": 420000,
+          "sp": 1120000,
+          "data_unit_id": "fr_leclerc_azur",
+          "required_unit_id": "fr_leclerc_sxxi",
+          "selected": false,
+          "class_name": "",
+          "details": true,
+          "rank": "VIII",
+          "research_country": "France",
+          "main_role": "Medium tank",
+          "is_component": false,
+          "component_of": null,
+          "is_premium": false,
+          "is_squadron": false,
+          "wiki": {
+            "url": "https://wiki.warthunder.com/unit/fr_leclerc_azur",
+            "rank": "VIII",
+            "battle_rating_context": "default",
+            "battle_ratings": {
+              "AB": "12.7",
+              "RB": "12.7",
+              "SB": "12.7"
+            },
+            "battle_ratings_by_battle": {
+              "default": {
+                "AB": "12.7",
+                "RB": "12.7",
+                "SB": "12.7"
+              }
+            },
+            "research": "420,000",
+            "purchase": "1,120,000",
+            "purchase_currency": "SL",
+            "status": null,
+            "fetched_at": "2026-09-19T06:29:19.823Z",
+            "sha256": "48316dc7f0927651a309630dd8f3bcfb3f703325c5d8afc518a7144ff6784038"
+          }
+        }
+      ],
+      [
+        {
+          "type": "single",
+          "title": "Leopard 2A5NL",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/fr_leopard_2a5nl.png",
+          "br": "12.3",
+          "rp": 400000,
+          "sp": 1080000,
+          "data_unit_id": "fr_leopard_2a5nl",
+          "required_unit_id": "fr_leopard_2a4nl",
+          "selected": false,
+          "class_name": "",
+          "details": true,
+          "rank": "VIII",
+          "research_country": "France",
+          "main_role": "Medium tank",
+          "is_component": false,
+          "component_of": null,
+          "is_premium": false,
+          "is_squadron": false,
+          "wiki": {
+            "url": "https://wiki.warthunder.com/unit/fr_leopard_2a5nl",
+            "rank": "VIII",
+            "battle_rating_context": "default",
+            "battle_ratings": {
+              "AB": "12.3",
+              "RB": "12.3",
+              "SB": "12.3"
+            },
+            "battle_ratings_by_battle": {
+              "default": {
+                "AB": "12.3",
+                "RB": "12.3",
+                "SB": "12.3"
+              }
+            },
+            "research": "400,000",
+            "purchase": "1,080,000",
+            "purchase_currency": "SL",
+            "status": null,
+            "fetched_at": "2026-09-19T06:29:20.762Z",
+            "sha256": "ba4e7f8b53c2295f0fb654c2d134e43d7e5a12cf365da8b702ad22247c1686dc"
+          }
+        },
+        {
+          "type": "single",
+          "title": "Leopard 2A6NL",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/fr_leopard_2a6nl.png",
+          "br": "12.7",
+          "rp": 410000,
+          "sp": 1100000,
+          "data_unit_id": "fr_leopard_2a6nl",
+          "required_unit_id": "fr_leopard_2a5nl",
+          "selected": false,
+          "class_name": "",
+          "details": true,
+          "rank": "VIII",
+          "research_country": "France",
+          "main_role": "Medium tank",
+          "is_component": false,
+          "component_of": null,
+          "is_premium": false,
+          "is_squadron": false,
+          "wiki": {
+            "url": "https://wiki.warthunder.com/unit/fr_leopard_2a6nl",
+            "rank": "VIII",
+            "battle_rating_context": "default",
+            "battle_ratings": {
+              "AB": "12.7",
+              "RB": "12.7",
+              "SB": "12.7"
+            },
+            "battle_ratings_by_battle": {
+              "default": {
+                "AB": "12.7",
+                "RB": "12.7",
+                "SB": "12.7"
+              }
+            },
+            "research": "410,000",
+            "purchase": "1,100,000",
+            "purchase_currency": "SL",
+            "status": null,
+            "fetched_at": "2026-09-19T06:29:20.559Z",
+            "sha256": "0b9534a9667cb75c4855a47e3451771fef224f8d180feaa8b52b9b18b86b4231"
+          }
+        },
+        {
+          "type": "single",
+          "title": "▄EMBT",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/fr_embt.png",
+          "br": "12.7",
+          "rp": 420000,
+          "sp": 1120000,
+          "data_unit_id": "fr_embt",
+          "required_unit_id": "fr_leopard_2a6nl",
+          "selected": false,
+          "class_name": "",
+          "details": true,
+          "rank": "VIII",
+          "research_country": "France",
+          "main_role": "Medium tank",
+          "is_component": false,
+          "component_of": null,
+          "is_premium": false,
+          "is_squadron": false,
+          "wiki": {
+            "url": "https://wiki.warthunder.com/unit/fr_embt",
+            "rank": "VIII",
+            "battle_rating_context": "default",
+            "battle_ratings": {
+              "AB": "12.7",
+              "RB": "12.7",
+              "SB": "12.7"
+            },
+            "battle_ratings_by_battle": {
+              "default": {
+                "AB": "12.7",
+                "RB": "12.7",
+                "SB": "12.7"
+              }
+            },
+            "research": "420,000",
+            "purchase": "1,120,000",
+            "purchase_currency": "SL",
+            "status": null,
+            "fetched_at": "2026-09-19T06:29:19.568Z",
+            "sha256": "66c476e5328811a49971fe3e535a81ae193f33a2086589232483bc9ffe9227e4"
+          }
+        }
+      ],
+      [
+        {
+          "type": "single",
+          "title": "▄ItO 90M",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/fr_crotale_ng.png",
+          "br": "12.0",
+          "rp": 400000,
+          "sp": 1080000,
+          "data_unit_id": "fr_crotale_ng",
+          "required_unit_id": "fr_amx_30_roland",
+          "selected": false,
+          "class_name": "",
+          "details": true,
+          "rank": "VIII",
+          "research_country": "France",
+          "main_role": "SPAA",
+          "is_component": false,
+          "component_of": null,
+          "is_premium": false,
+          "is_squadron": false,
+          "wiki": {
+            "url": "https://wiki.warthunder.com/unit/fr_crotale_ng",
+            "rank": "VIII",
+            "battle_rating_context": "default",
+            "battle_ratings": {
+              "AB": "12.0",
+              "RB": "12.0",
+              "SB": "12.0"
+            },
+            "battle_ratings_by_battle": {
+              "default": {
+                "AB": "12.0",
+                "RB": "12.0",
+                "SB": "12.0"
+              }
+            },
+            "research": "400,000",
+            "purchase": "1,080,000",
+            "purchase_currency": "SL",
+            "status": null,
+            "fetched_at": "2026-09-19T06:29:19.252Z",
+            "sha256": "72ad089dffe75afdd173db837c5cfe0f8e244f32ab7f89dfe51cb5a00e465830"
+          }
+        },
+        {
+          "type": "multiple",
+          "title": "FSAF SAMP/T (Mamba)",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/fr_samp_t_fcs.png",
+          "selected": false,
+          "br": "12.7",
+          "data_unit_id": "fr_samp_t_fcs",
+          "required_unit_id": "fr_crotale_ng",
+          "class_name": "",
+          "items": [
+            {
+              "type": "single",
+              "title": "FSAF SAMP/T (Mamba) (TADS)",
+              "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/fr_samp_t_fcs.png",
+              "br": "12.7",
+              "rp": 410000,
+              "sp": 1100000,
+              "data_unit_id": "fr_samp_t_fcs",
+              "required_unit_id": "",
+              "selected": false,
+              "class_name": "",
+              "details": true,
+              "rank": "VIII",
+              "research_country": "France",
+              "main_role": "SPAA",
+              "is_component": false,
+              "component_of": null,
+              "is_premium": false,
+              "is_squadron": false,
+              "wiki": {
+                "url": "https://wiki.warthunder.com/unit/fr_samp_t_fcs",
+                "rank": "VIII",
+                "battle_rating_context": "default",
+                "battle_ratings": {
+                  "AB": "12.7",
+                  "RB": "12.7",
+                  "SB": "12.7"
+                },
+                "battle_ratings_by_battle": {
+                  "default": {
+                    "AB": "12.7",
+                    "RB": "12.7",
+                    "SB": "12.7"
+                  }
+                },
+                "research": "410,000",
+                "purchase": "1,100,000",
+                "purchase_currency": "SL",
+                "status": null,
+                "fetched_at": "2026-09-19T06:29:23.449Z",
+                "sha256": "1afdcb2be3e6c9e156bdf316de40d344f229619f18abde1710f45ad1421c9d28"
+              }
+            },
+            {
+              "type": "single",
+              "title": "FSAF SAMP/T (Mamba) (TEL)",
+              "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/fr_samp_t_launcher.png",
+              "br": null,
+              "rp": 0,
+              "sp": 0,
+              "data_unit_id": "fr_samp_t_launcher",
+              "required_unit_id": "",
+              "selected": false,
+              "class_name": "",
+              "details": true,
+              "rank": "VIII",
+              "research_country": "France",
+              "main_role": "SPAA",
+              "is_component": true,
+              "component_of": "fr_samp_t_fcs",
+              "is_premium": false,
+              "is_squadron": false,
+              "wiki": {
+                "url": "https://wiki.warthunder.com/unit/fr_samp_t_launcher",
+                "rank": null,
+                "battle_rating_context": "default",
+                "battle_ratings": {},
+                "battle_ratings_by_battle": {},
+                "research": null,
+                "purchase": null,
+                "purchase_currency": null,
+                "status": null,
+                "fetched_at": "2026-09-19T06:29:23.598Z",
+                "sha256": "f60469e77cd1cbb96af117979b5794c9480ad735eb675a4a52a937a168526fdd"
+              }
+            }
+          ],
+          "details": true,
+          "rp": 410000,
+          "sp": 1100000
+        }
+      ],
+      []
+    ],
+    "premium_vehicles": [
+      [],
+      []
+    ],
+    "selected": [],
+    "unlock_quantity": null,
+    "source": "wiki"
+  }
+]

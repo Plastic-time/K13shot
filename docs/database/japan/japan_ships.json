@@ -1,0 +1,2365 @@
+[
+  {
+    "rank": "I",
+    "researchable_vehicles": [
+      [
+        {
+          "type": "single",
+          "title": "IJN Momi",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/jp_destroyer_momi.png",
+          "br": "3.3",
+          "rp": 0,
+          "sp": 0,
+          "data_unit_id": "jp_destroyer_momi",
+          "required_unit_id": "",
+          "selected": false,
+          "class_name": "",
+          "details": true,
+          "rank": "I",
+          "research_country": "Japan",
+          "main_role": "Destroyer",
+          "is_component": false,
+          "component_of": null,
+          "is_premium": false,
+          "is_squadron": false,
+          "wiki": {
+            "url": "https://wiki.warthunder.com/unit/jp_destroyer_momi",
+            "rank": "I",
+            "battle_rating_context": "default",
+            "battle_ratings": {
+              "AB": "3.3",
+              "RB": "3.3"
+            },
+            "battle_ratings_by_battle": {
+              "default": {
+                "AB": "3.3",
+                "RB": "3.3"
+              }
+            },
+            "research": "Free",
+            "purchase": "Free",
+            "purchase_currency": "SL",
+            "status": null,
+            "fetched_at": "2026-09-19T06:32:34.416Z",
+            "sha256": "2017e78143078407754f121b67b9ed84b66e20cc807aca6355045946ed561e5f"
+          }
+        },
+        {
+          "type": "single",
+          "title": "IJN Matsu",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/jp_destroyer_matsu.png",
+          "br": "3.7",
+          "rp": 4000,
+          "sp": 2100,
+          "data_unit_id": "jp_destroyer_matsu",
+          "required_unit_id": "jp_destroyer_momi",
+          "selected": false,
+          "class_name": "",
+          "details": true,
+          "rank": "I",
+          "research_country": "Japan",
+          "main_role": "Destroyer",
+          "is_component": false,
+          "component_of": null,
+          "is_premium": false,
+          "is_squadron": false,
+          "wiki": {
+            "url": "https://wiki.warthunder.com/unit/jp_destroyer_matsu",
+            "rank": "I",
+            "battle_rating_context": "default",
+            "battle_ratings": {
+              "AB": "3.7",
+              "RB": "3.7"
+            },
+            "battle_ratings_by_battle": {
+              "default": {
+                "AB": "3.7",
+                "RB": "3.7"
+              }
+            },
+            "research": "4,000",
+            "purchase": "2,100",
+            "purchase_currency": "SL",
+            "status": null,
+            "fetched_at": "2026-09-19T06:32:34.374Z",
+            "sha256": "63e50b7e0a54a0f9de06f844f8fa1f0aef5df6d2242dc35071bdc39a7e7f73fd"
+          }
+        }
+      ],
+      [
+        {
+          "type": "single",
+          "title": "IJN Mutsuki",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/jp_destroyer_mutsuki.png",
+          "br": "3.3",
+          "rp": 2900,
+          "sp": 700,
+          "data_unit_id": "jp_destroyer_mutsuki",
+          "required_unit_id": "",
+          "selected": false,
+          "class_name": "",
+          "details": true,
+          "rank": "I",
+          "research_country": "Japan",
+          "main_role": "Destroyer",
+          "is_component": false,
+          "component_of": null,
+          "is_premium": false,
+          "is_squadron": false,
+          "wiki": {
+            "url": "https://wiki.warthunder.com/unit/jp_destroyer_mutsuki",
+            "rank": "I",
+            "battle_rating_context": "default",
+            "battle_ratings": {
+              "AB": "3.3",
+              "RB": "3.3"
+            },
+            "battle_ratings_by_battle": {
+              "default": {
+                "AB": "3.3",
+                "RB": "3.3"
+              }
+            },
+            "research": "2,900",
+            "purchase": "700",
+            "purchase_currency": "SL",
+            "status": null,
+            "fetched_at": "2026-09-19T06:32:34.820Z",
+            "sha256": "020d33a918dbc2cb8bf8378cd737211a0de07c908914df6b3e98e585482e3a0a"
+          }
+        }
+      ],
+      []
+    ],
+    "premium_vehicles": [
+      [
+        {
+          "type": "single",
+          "title": "IJN Satsuki",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/jp_destroyer_satsuki.png",
+          "br": "3.3",
+          "rp": 0,
+          "sp": 0,
+          "data_unit_id": "jp_destroyer_satsuki",
+          "required_unit_id": "",
+          "selected": false,
+          "class_name": "prem",
+          "details": true,
+          "rank": "I",
+          "research_country": "Japan",
+          "main_role": "Destroyer",
+          "is_component": false,
+          "component_of": null,
+          "is_premium": true,
+          "is_squadron": false,
+          "wiki": {
+            "url": "https://wiki.warthunder.com/unit/jp_destroyer_satsuki",
+            "rank": "I",
+            "battle_rating_context": "default",
+            "battle_ratings": {
+              "AB": "3.3",
+              "RB": "3.3"
+            },
+            "battle_ratings_by_battle": {
+              "default": {
+                "AB": "3.3",
+                "RB": "3.3"
+              }
+            },
+            "research": null,
+            "purchase": "250",
+            "purchase_currency": "GE",
+            "status": "Premium vehicle",
+            "fetched_at": "2026-09-19T06:32:34.897Z",
+            "sha256": "4c8c01f8d748793948c46c0b4efc6c3c59d027739c776d807eeb842499b2d737"
+          }
+        }
+      ],
+      [
+        {
+          "type": "single",
+          "title": "IJN Tade",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/jp_destroyer_tade.png",
+          "br": "3.3",
+          "rp": 0,
+          "sp": 0,
+          "data_unit_id": "jp_destroyer_tade",
+          "required_unit_id": "",
+          "selected": false,
+          "class_name": "prem",
+          "details": true,
+          "rank": "I",
+          "research_country": "Japan",
+          "main_role": "Destroyer",
+          "is_component": false,
+          "component_of": null,
+          "is_premium": true,
+          "is_squadron": false,
+          "wiki": {
+            "url": "https://wiki.warthunder.com/unit/jp_destroyer_tade",
+            "rank": "I",
+            "battle_rating_context": "default",
+            "battle_ratings": {
+              "AB": "3.3",
+              "RB": "3.3"
+            },
+            "battle_ratings_by_battle": {
+              "default": {
+                "AB": "3.3",
+                "RB": "3.3"
+              }
+            },
+            "research": null,
+            "purchase": "400",
+            "purchase_currency": "GE",
+            "status": "Premium vehicle",
+            "fetched_at": "2026-09-19T06:32:35.142Z",
+            "sha256": "f936cece37378a4fb2d540ff6bac8fec91a3a314f75ebe2a149198bc42bb30b8"
+          }
+        }
+      ]
+    ],
+    "selected": [],
+    "unlock_quantity": null,
+    "source": "wiki"
+  },
+  {
+    "rank": "II",
+    "researchable_vehicles": [
+      [
+        {
+          "type": "single",
+          "title": "IJN Tsugaru",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/jp_minelayer_tsugaru.png",
+          "br": "4.0",
+          "rp": 7000,
+          "sp": 8700,
+          "data_unit_id": "jp_minelayer_tsugaru",
+          "required_unit_id": "jp_destroyer_matsu",
+          "selected": false,
+          "class_name": "",
+          "details": true,
+          "rank": "II",
+          "research_country": "Japan",
+          "main_role": "Destroyer",
+          "is_component": false,
+          "component_of": null,
+          "is_premium": false,
+          "is_squadron": false,
+          "wiki": {
+            "url": "https://wiki.warthunder.com/unit/jp_minelayer_tsugaru",
+            "rank": "II",
+            "battle_rating_context": "default",
+            "battle_ratings": {
+              "AB": "4.0",
+              "RB": "4.0"
+            },
+            "battle_ratings_by_battle": {
+              "default": {
+                "AB": "4.0",
+                "RB": "4.0"
+              }
+            },
+            "research": "7,000",
+            "purchase": "8,700",
+            "purchase_currency": "SL",
+            "status": null,
+            "fetched_at": "2026-09-19T06:32:35.710Z",
+            "sha256": "1c44b623340386d54cd21e72bcadac3bade73d20423ebf5ea6c1eb86dc60a490"
+          }
+        },
+        {
+          "type": "single",
+          "title": "JDS Harukaze (DD-101)",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/jp_destroyer_harukaze.png",
+          "br": "4.0",
+          "rp": 9000,
+          "sp": 16000,
+          "data_unit_id": "jp_destroyer_harukaze",
+          "required_unit_id": "jp_minelayer_tsugaru",
+          "selected": false,
+          "class_name": "",
+          "details": true,
+          "rank": "II",
+          "research_country": "Japan",
+          "main_role": "Destroyer",
+          "is_component": false,
+          "component_of": null,
+          "is_premium": false,
+          "is_squadron": false,
+          "wiki": {
+            "url": "https://wiki.warthunder.com/unit/jp_destroyer_harukaze",
+            "rank": "II",
+            "battle_rating_context": "default",
+            "battle_ratings": {
+              "AB": "4.0",
+              "RB": "4.0"
+            },
+            "battle_ratings_by_battle": {
+              "default": {
+                "AB": "4.0",
+                "RB": "4.0"
+              }
+            },
+            "research": "9,000",
+            "purchase": "16,000",
+            "purchase_currency": "SL",
+            "status": null,
+            "fetched_at": "2026-09-19T06:32:33.723Z",
+            "sha256": "269f9bedbdd795631ea4295f910f19998839a9fb6ba40269b486596ddda8e933"
+          }
+        },
+        {
+          "type": "single",
+          "title": "JDS Murasame (DD-107)",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/jp_destroyer_murasame.png",
+          "br": "4.3",
+          "rp": 11000,
+          "sp": 22000,
+          "data_unit_id": "jp_destroyer_murasame",
+          "required_unit_id": "jp_destroyer_harukaze",
+          "selected": false,
+          "class_name": "",
+          "details": true,
+          "rank": "II",
+          "research_country": "Japan",
+          "main_role": "Destroyer",
+          "is_component": false,
+          "component_of": null,
+          "is_premium": false,
+          "is_squadron": false,
+          "wiki": {
+            "url": "https://wiki.warthunder.com/unit/jp_destroyer_murasame",
+            "rank": "II",
+            "battle_rating_context": "default",
+            "battle_ratings": {
+              "AB": "4.3",
+              "RB": "4.3"
+            },
+            "battle_ratings_by_battle": {
+              "default": {
+                "AB": "4.3",
+                "RB": "4.3"
+              }
+            },
+            "research": "11,000",
+            "purchase": "22,000",
+            "purchase_currency": "SL",
+            "status": null,
+            "fetched_at": "2026-09-19T06:32:34.579Z",
+            "sha256": "dd1e3768d68441f475383ed9d84e4c77da3c8b5d815ce7a3ca6b21094c6b4d65"
+          }
+        }
+      ],
+      [
+        {
+          "type": "single",
+          "title": "IJN Hatsuharu",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/jp_destroyer_hatsuharu.png",
+          "br": "4.3",
+          "rp": 9000,
+          "sp": 16000,
+          "data_unit_id": "jp_destroyer_hatsuharu",
+          "required_unit_id": "jp_destroyer_mutsuki",
+          "selected": false,
+          "class_name": "",
+          "details": true,
+          "rank": "II",
+          "research_country": "Japan",
+          "main_role": "Destroyer",
+          "is_component": false,
+          "component_of": null,
+          "is_premium": false,
+          "is_squadron": false,
+          "wiki": {
+            "url": "https://wiki.warthunder.com/unit/jp_destroyer_hatsuharu",
+            "rank": "II",
+            "battle_rating_context": "default",
+            "battle_ratings": {
+              "AB": "4.3",
+              "RB": "4.3"
+            },
+            "battle_ratings_by_battle": {
+              "default": {
+                "AB": "4.3",
+                "RB": "4.3"
+              }
+            },
+            "research": "9,000",
+            "purchase": "16,000",
+            "purchase_currency": "SL",
+            "status": null,
+            "fetched_at": "2026-09-19T06:32:33.992Z",
+            "sha256": "30dbc8eddc775f6725bd593f97ac942c5808f630feaa01ea604380d39d64293e"
+          }
+        },
+        {
+          "type": "single",
+          "title": "IJN Ayanami",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/jp_destroyer_fubuki.png",
+          "br": "4.3",
+          "rp": 11000,
+          "sp": 22000,
+          "data_unit_id": "jp_destroyer_fubuki",
+          "required_unit_id": "jp_destroyer_hatsuharu",
+          "selected": false,
+          "class_name": "",
+          "details": true,
+          "rank": "II",
+          "research_country": "Japan",
+          "main_role": "Destroyer",
+          "is_component": false,
+          "component_of": null,
+          "is_premium": false,
+          "is_squadron": false,
+          "wiki": {
+            "url": "https://wiki.warthunder.com/unit/jp_destroyer_fubuki",
+            "rank": "II",
+            "battle_rating_context": "default",
+            "battle_ratings": {
+              "AB": "4.3",
+              "RB": "4.3"
+            },
+            "battle_ratings_by_battle": {
+              "default": {
+                "AB": "4.3",
+                "RB": "4.3"
+              }
+            },
+            "research": "11,000",
+            "purchase": "22,000",
+            "purchase_currency": "SL",
+            "status": null,
+            "fetched_at": "2026-09-19T06:32:33.802Z",
+            "sha256": "893112e000f189cf74255098a78b19c58f3e66ebabe24071854a77078367bce8"
+          }
+        },
+        {
+          "type": "single",
+          "title": "IJN Yugumo",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/jp_destroyer_yugumo.png",
+          "br": "4.7",
+          "rp": 13000,
+          "sp": 31000,
+          "data_unit_id": "jp_destroyer_yugumo",
+          "required_unit_id": "jp_destroyer_fubuki",
+          "selected": false,
+          "class_name": "",
+          "details": true,
+          "rank": "II",
+          "research_country": "Japan",
+          "main_role": "Destroyer",
+          "is_component": false,
+          "component_of": null,
+          "is_premium": false,
+          "is_squadron": false,
+          "wiki": {
+            "url": "https://wiki.warthunder.com/unit/jp_destroyer_yugumo",
+            "rank": "II",
+            "battle_rating_context": "default",
+            "battle_ratings": {
+              "AB": "4.7",
+              "RB": "4.7"
+            },
+            "battle_ratings_by_battle": {
+              "default": {
+                "AB": "4.7",
+                "RB": "4.7"
+              }
+            },
+            "research": "13,000",
+            "purchase": "31,000",
+            "purchase_currency": "SL",
+            "status": null,
+            "fetched_at": "2026-09-19T06:32:35.345Z",
+            "sha256": "d5e508ac1a16df22ccd4c1507b59655afaea4d807d22924a5629edaeda9d26c5"
+          }
+        }
+      ],
+      []
+    ],
+    "premium_vehicles": [
+      [
+        {
+          "type": "single",
+          "title": "IJN Nenohi",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/jp_destroyer_nenohi.png",
+          "br": "4.3",
+          "rp": 0,
+          "sp": 0,
+          "data_unit_id": "jp_destroyer_nenohi",
+          "required_unit_id": "",
+          "selected": false,
+          "class_name": "prem",
+          "details": true,
+          "rank": "II",
+          "research_country": "Japan",
+          "main_role": "Destroyer",
+          "is_component": false,
+          "component_of": null,
+          "is_premium": true,
+          "is_squadron": false,
+          "wiki": {
+            "url": "https://wiki.warthunder.com/unit/jp_destroyer_nenohi",
+            "rank": "II",
+            "battle_rating_context": "default",
+            "battle_ratings": {
+              "AB": "4.3",
+              "RB": "4.3"
+            },
+            "battle_ratings_by_battle": {
+              "default": {
+                "AB": "4.3",
+                "RB": "4.3"
+              }
+            },
+            "research": null,
+            "purchase": "1,000",
+            "purchase_currency": "GE",
+            "status": "Premium vehicle",
+            "fetched_at": "2026-09-19T06:32:34.775Z",
+            "sha256": "54b2cc794ffb35194063425302913e2d676a7f1b6ee07f3aa5d2d9726c5f1091"
+          }
+        },
+        {
+          "type": "single",
+          "title": "JDS Yūgure (DD-184)",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/jp_destroyer_yugure.png",
+          "br": "4.7",
+          "rp": 0,
+          "sp": 0,
+          "data_unit_id": "jp_destroyer_yugure",
+          "required_unit_id": "",
+          "selected": false,
+          "class_name": "prem",
+          "details": true,
+          "rank": "II",
+          "research_country": "Japan",
+          "main_role": "Destroyer",
+          "is_component": false,
+          "component_of": null,
+          "is_premium": true,
+          "is_squadron": false,
+          "wiki": {
+            "url": "https://wiki.warthunder.com/unit/jp_destroyer_yugure",
+            "rank": "II",
+            "battle_rating_context": "default",
+            "battle_ratings": {
+              "AB": "4.7",
+              "RB": "4.7"
+            },
+            "battle_ratings_by_battle": {
+              "default": {
+                "AB": "4.7",
+                "RB": "4.7"
+              }
+            },
+            "research": null,
+            "purchase": null,
+            "purchase_currency": null,
+            "status": "Premium vehicle",
+            "fetched_at": "2026-09-19T06:32:35.338Z",
+            "sha256": "0031cd81a136cfa7ccc7602ae0e53c4ef7dbe29bb16414e1644e01d056ebebcc"
+          }
+        }
+      ],
+      [
+        {
+          "type": "single",
+          "title": "IJN Hayanami",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/jp_destroyer_hayanami.png",
+          "br": "4.7",
+          "rp": 0,
+          "sp": 0,
+          "data_unit_id": "jp_destroyer_hayanami",
+          "required_unit_id": "",
+          "selected": false,
+          "class_name": "prem",
+          "details": true,
+          "rank": "II",
+          "research_country": "Japan",
+          "main_role": "Destroyer",
+          "is_component": false,
+          "component_of": null,
+          "is_premium": true,
+          "is_squadron": false,
+          "wiki": {
+            "url": "https://wiki.warthunder.com/unit/jp_destroyer_hayanami",
+            "rank": "II",
+            "battle_rating_context": "default",
+            "battle_ratings": {
+              "AB": "4.7",
+              "RB": "4.7"
+            },
+            "battle_ratings_by_battle": {
+              "default": {
+                "AB": "4.7",
+                "RB": "4.7"
+              }
+            },
+            "research": null,
+            "purchase": null,
+            "purchase_currency": null,
+            "status": "Premium vehicle",
+            "fetched_at": "2026-09-19T06:32:34.192Z",
+            "sha256": "3a93c9209dd0e5ee701bdc3b1b6e4be0a8cdb0d8e08c304af72ed5d8d981f22a"
+          }
+        }
+      ]
+    ],
+    "selected": [],
+    "unlock_quantity": null,
+    "source": "wiki"
+  },
+  {
+    "rank": "III",
+    "researchable_vehicles": [
+      [
+        {
+          "type": "single",
+          "title": "IJN Akizuki",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/jp_destroyer_akizuki.png",
+          "br": "4.7",
+          "rp": 15000,
+          "sp": 38000,
+          "data_unit_id": "jp_destroyer_akizuki",
+          "required_unit_id": "jp_destroyer_murasame",
+          "selected": false,
+          "class_name": "",
+          "details": true,
+          "rank": "III",
+          "research_country": "Japan",
+          "main_role": "Destroyer",
+          "is_component": false,
+          "component_of": null,
+          "is_premium": false,
+          "is_squadron": false,
+          "wiki": {
+            "url": "https://wiki.warthunder.com/unit/jp_destroyer_akizuki",
+            "rank": "III",
+            "battle_rating_context": "default",
+            "battle_ratings": {
+              "AB": "4.7",
+              "RB": "4.7"
+            },
+            "battle_ratings_by_battle": {
+              "default": {
+                "AB": "4.7",
+                "RB": "4.7"
+              }
+            },
+            "research": "15,000",
+            "purchase": "38,000",
+            "purchase_currency": "SL",
+            "status": null,
+            "fetched_at": "2026-09-19T06:32:33.612Z",
+            "sha256": "d2ae9e8ab589a12ddfc86063765262e9fc19093837b8c958a0625181ef4d61ca"
+          }
+        },
+        {
+          "type": "single",
+          "title": "IJN Kako",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/jp_cruiser_kako.png",
+          "br": "5.0",
+          "rp": 25000,
+          "sp": 87000,
+          "data_unit_id": "jp_cruiser_kako",
+          "required_unit_id": "jp_destroyer_akizuki",
+          "selected": false,
+          "class_name": "",
+          "details": true,
+          "rank": "III",
+          "research_country": "Japan",
+          "main_role": "Heavy cruiser",
+          "is_component": false,
+          "component_of": null,
+          "is_premium": false,
+          "is_squadron": false,
+          "wiki": {
+            "url": "https://wiki.warthunder.com/unit/jp_cruiser_kako",
+            "rank": "III",
+            "battle_rating_context": "default",
+            "battle_ratings": {
+              "AB": "5.0",
+              "RB": "5.0"
+            },
+            "battle_ratings_by_battle": {
+              "default": {
+                "AB": "5.0",
+                "RB": "5.0"
+              }
+            },
+            "research": "25,000",
+            "purchase": "87,000",
+            "purchase_currency": "SL",
+            "status": null,
+            "fetched_at": "2026-09-19T06:32:32.619Z",
+            "sha256": "b44fec1cb75bce4b3af8de321d3e6771b8cc1ca7ef2b4e1eb949138cc4ee356f"
+          }
+        }
+      ],
+      [
+        {
+          "type": "single",
+          "title": "IJN Isuzu",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/jp_cruiser_isuzu.png",
+          "br": "4.7",
+          "rp": 18000,
+          "sp": 55000,
+          "data_unit_id": "jp_cruiser_isuzu",
+          "required_unit_id": "jp_destroyer_yugumo",
+          "selected": false,
+          "class_name": "",
+          "details": true,
+          "rank": "III",
+          "research_country": "Japan",
+          "main_role": "Light cruiser",
+          "is_component": false,
+          "component_of": null,
+          "is_premium": false,
+          "is_squadron": false,
+          "wiki": {
+            "url": "https://wiki.warthunder.com/unit/jp_cruiser_isuzu",
+            "rank": "III",
+            "battle_rating_context": "default",
+            "battle_ratings": {
+              "AB": "4.7",
+              "RB": "4.7"
+            },
+            "battle_ratings_by_battle": {
+              "default": {
+                "AB": "4.7",
+                "RB": "4.7"
+              }
+            },
+            "research": "18,000",
+            "purchase": "55,000",
+            "purchase_currency": "SL",
+            "status": null,
+            "fetched_at": "2026-09-19T06:32:32.380Z",
+            "sha256": "1bfbe5e0a7b49286cc211730f438ae31200827c12458f0829b761135d678980f"
+          }
+        },
+        {
+          "type": "single",
+          "title": "IJN Tama",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/jp_cruiser_kuma.png",
+          "br": "5.0",
+          "rp": 21000,
+          "sp": 70000,
+          "data_unit_id": "jp_cruiser_kuma",
+          "required_unit_id": "jp_cruiser_isuzu",
+          "selected": false,
+          "class_name": "",
+          "details": true,
+          "rank": "III",
+          "research_country": "Japan",
+          "main_role": "Light cruiser",
+          "is_component": false,
+          "component_of": null,
+          "is_premium": false,
+          "is_squadron": false,
+          "wiki": {
+            "url": "https://wiki.warthunder.com/unit/jp_cruiser_kuma",
+            "rank": "III",
+            "battle_rating_context": "default",
+            "battle_ratings": {
+              "AB": "5.0",
+              "RB": "5.0"
+            },
+            "battle_ratings_by_battle": {
+              "default": {
+                "AB": "5.0",
+                "RB": "5.0"
+              }
+            },
+            "research": "21,000",
+            "purchase": "70,000",
+            "purchase_currency": "SL",
+            "status": null,
+            "fetched_at": "2026-09-19T06:32:32.531Z",
+            "sha256": "b477af3899c078249b0ac26e7e17fac89325d4fdee0a4bd6dff9d9f54b8d3f06"
+          }
+        },
+        {
+          "type": "single",
+          "title": "IJN Sendai",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/jp_cruiser_sendai.png",
+          "br": "5.0",
+          "rp": 25000,
+          "sp": 87000,
+          "data_unit_id": "jp_cruiser_sendai",
+          "required_unit_id": "jp_cruiser_kuma",
+          "selected": false,
+          "class_name": "",
+          "details": true,
+          "rank": "III",
+          "research_country": "Japan",
+          "main_role": "Light cruiser",
+          "is_component": false,
+          "component_of": null,
+          "is_premium": false,
+          "is_squadron": false,
+          "wiki": {
+            "url": "https://wiki.warthunder.com/unit/jp_cruiser_sendai",
+            "rank": "III",
+            "battle_rating_context": "default",
+            "battle_ratings": {
+              "AB": "5.0",
+              "RB": "5.0"
+            },
+            "battle_ratings_by_battle": {
+              "default": {
+                "AB": "5.0",
+                "RB": "5.0"
+              }
+            },
+            "research": "25,000",
+            "purchase": "87,000",
+            "purchase_currency": "SL",
+            "status": null,
+            "fetched_at": "2026-09-19T06:32:33.464Z",
+            "sha256": "3241a4187fdee6a5e39f20e3025759f6bf1a277b68eec2366d56acd6072db162"
+          }
+        }
+      ],
+      [
+        {
+          "type": "single",
+          "title": "IJN Kagero",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/jp_destroyer_kagero.png",
+          "br": "4.7",
+          "rp": 21000,
+          "sp": 70000,
+          "data_unit_id": "jp_destroyer_kagero",
+          "required_unit_id": "",
+          "selected": false,
+          "class_name": "",
+          "details": true,
+          "rank": "III",
+          "research_country": "Japan",
+          "main_role": "Destroyer",
+          "is_component": false,
+          "component_of": null,
+          "is_premium": false,
+          "is_squadron": false,
+          "wiki": {
+            "url": "https://wiki.warthunder.com/unit/jp_destroyer_kagero",
+            "rank": "III",
+            "battle_rating_context": "default",
+            "battle_ratings": {
+              "AB": "4.7",
+              "RB": "4.7"
+            },
+            "battle_ratings_by_battle": {
+              "default": {
+                "AB": "4.7",
+                "RB": "4.7"
+              }
+            },
+            "research": "21,000",
+            "purchase": "70,000",
+            "purchase_currency": "SL",
+            "status": null,
+            "fetched_at": "2026-09-19T06:32:34.124Z",
+            "sha256": "601c9b650cc48db6422d6a54f2b0656488d05669b0091b9fd274c2894e8a500c"
+          }
+        }
+      ]
+    ],
+    "premium_vehicles": [
+      [
+        {
+          "type": "single",
+          "title": "IJN Yukikaze",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/jp_destroyer_yukikaze.png",
+          "br": "4.3",
+          "rp": 0,
+          "sp": 0,
+          "data_unit_id": "jp_destroyer_yukikaze",
+          "required_unit_id": "",
+          "selected": false,
+          "class_name": "prem",
+          "details": true,
+          "rank": "III",
+          "research_country": "Japan",
+          "main_role": "Destroyer",
+          "is_component": false,
+          "component_of": null,
+          "is_premium": true,
+          "is_squadron": false,
+          "wiki": {
+            "url": "https://wiki.warthunder.com/unit/jp_destroyer_yukikaze",
+            "rank": "III",
+            "battle_rating_context": "default",
+            "battle_ratings": {
+              "AB": "4.3",
+              "RB": "4.3"
+            },
+            "battle_ratings_by_battle": {
+              "default": {
+                "AB": "4.3",
+                "RB": "4.3"
+              }
+            },
+            "research": null,
+            "purchase": "1,450",
+            "purchase_currency": "GE",
+            "status": "Premium vehicle",
+            "fetched_at": "2026-09-19T06:32:35.701Z",
+            "sha256": "7730f6e120678c9e61e1e67c6adb615627e24f71523c719181d61b3ca07517ca"
+          }
+        },
+        {
+          "type": "single",
+          "title": "IJN Kiyoshimo",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/jp_destroyer_kiyoshimo.png",
+          "br": "4.7",
+          "rp": 0,
+          "sp": 0,
+          "data_unit_id": "jp_destroyer_kiyoshimo",
+          "required_unit_id": "",
+          "selected": false,
+          "class_name": "prem",
+          "details": true,
+          "rank": "III",
+          "research_country": "Japan",
+          "main_role": "Destroyer",
+          "is_component": false,
+          "component_of": null,
+          "is_premium": true,
+          "is_squadron": false,
+          "wiki": {
+            "url": "https://wiki.warthunder.com/unit/jp_destroyer_kiyoshimo",
+            "rank": "III",
+            "battle_rating_context": "default",
+            "battle_ratings": {
+              "AB": "4.7",
+              "RB": "4.7"
+            },
+            "battle_ratings_by_battle": {
+              "default": {
+                "AB": "4.7",
+                "RB": "4.7"
+              }
+            },
+            "research": null,
+            "purchase": null,
+            "purchase_currency": null,
+            "status": "Premium vehicle",
+            "fetched_at": "2026-09-19T06:32:34.600Z",
+            "sha256": "292f4f5653a3be22bee3d229abf12cc64f77fccafc7b8ed5c80eb3313647a98e"
+          }
+        },
+        {
+          "type": "single",
+          "title": "IJN Yubari",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/jp_cruiser_yubari.png",
+          "br": "4.7",
+          "rp": 0,
+          "sp": 0,
+          "data_unit_id": "jp_cruiser_yubari",
+          "required_unit_id": "",
+          "selected": false,
+          "class_name": "prem",
+          "details": true,
+          "rank": "III",
+          "research_country": "Japan",
+          "main_role": "Light cruiser",
+          "is_component": false,
+          "component_of": null,
+          "is_premium": true,
+          "is_squadron": false,
+          "wiki": {
+            "url": "https://wiki.warthunder.com/unit/jp_cruiser_yubari",
+            "rank": "III",
+            "battle_rating_context": "default",
+            "battle_ratings": {
+              "AB": "4.7",
+              "RB": "4.7"
+            },
+            "battle_ratings_by_battle": {
+              "default": {
+                "AB": "4.7",
+                "RB": "4.7"
+              }
+            },
+            "research": null,
+            "purchase": "1,750",
+            "purchase_currency": "GE",
+            "status": "Premium vehicle",
+            "fetched_at": "2026-09-19T06:32:33.552Z",
+            "sha256": "87a607d9c3e3516a0c3f97247b33098ac8fbf23a0912002ab196a8e11ed90720"
+          }
+        },
+        {
+          "type": "single",
+          "title": "IJN Shimakaze",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/jp_destroyer_shimakaze.png",
+          "br": "5.0",
+          "rp": 0,
+          "sp": 0,
+          "data_unit_id": "jp_destroyer_shimakaze",
+          "required_unit_id": "",
+          "selected": false,
+          "class_name": "squad",
+          "details": true,
+          "rank": "III",
+          "research_country": "Japan",
+          "main_role": "Destroyer",
+          "is_component": false,
+          "component_of": null,
+          "is_premium": false,
+          "is_squadron": true,
+          "wiki": {
+            "url": "https://wiki.warthunder.com/unit/jp_destroyer_shimakaze",
+            "rank": "III",
+            "battle_rating_context": "default",
+            "battle_ratings": {
+              "AB": "5.0",
+              "RB": "5.0"
+            },
+            "battle_ratings_by_battle": {
+              "default": {
+                "AB": "5.0",
+                "RB": "5.0"
+              }
+            },
+            "research": "260,000",
+            "purchase": "195,000",
+            "purchase_currency": "SL",
+            "status": "Squadron vehicle",
+            "fetched_at": "2026-09-19T06:32:35.119Z",
+            "sha256": "5f8816bbebc8e8e73fb36e18f14559da6303f9e4caf963c2c92376a49f17a2e0"
+          }
+        }
+      ],
+      [
+        {
+          "type": "single",
+          "title": "IJN Hatsuzuki",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/jp_destroyer_hatsuzuki.png",
+          "br": "4.7",
+          "rp": null,
+          "sp": null,
+          "data_unit_id": "jp_destroyer_hatsuzuki",
+          "required_unit_id": "",
+          "selected": false,
+          "class_name": "",
+          "details": true,
+          "rank": "III",
+          "research_country": "Japan",
+          "main_role": "Destroyer",
+          "is_component": false,
+          "component_of": null,
+          "is_premium": false,
+          "is_squadron": false,
+          "wiki": {
+            "url": "https://wiki.warthunder.com/unit/jp_destroyer_hatsuzuki",
+            "rank": "III",
+            "battle_rating_context": "default",
+            "battle_ratings": {
+              "AB": "4.7",
+              "RB": "4.7"
+            },
+            "battle_ratings_by_battle": {
+              "default": {
+                "AB": "4.7",
+                "RB": "4.7"
+              }
+            },
+            "research": null,
+            "purchase": null,
+            "purchase_currency": null,
+            "status": null,
+            "fetched_at": "2026-09-19T06:32:34.054Z",
+            "sha256": "cc2dc7ed74fa8a42c77a44ca524989c63499ef713f583b48c2faabc6fae24025"
+          }
+        },
+        {
+          "type": "single",
+          "title": "IJN Yuudachi",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/jp_destroyer_yuudachi.png",
+          "br": "4.3",
+          "rp": 0,
+          "sp": 0,
+          "data_unit_id": "jp_destroyer_yuudachi",
+          "required_unit_id": "",
+          "selected": false,
+          "class_name": "prem",
+          "details": true,
+          "rank": "III",
+          "research_country": "Japan",
+          "main_role": "Destroyer",
+          "is_component": false,
+          "component_of": null,
+          "is_premium": true,
+          "is_squadron": false,
+          "wiki": {
+            "url": "https://wiki.warthunder.com/unit/jp_destroyer_yuudachi",
+            "rank": "III",
+            "battle_rating_context": "default",
+            "battle_ratings": {
+              "AB": "4.3",
+              "RB": "4.3"
+            },
+            "battle_ratings_by_battle": {
+              "default": {
+                "AB": "4.3",
+                "RB": "4.3"
+              }
+            },
+            "research": null,
+            "purchase": null,
+            "purchase_currency": null,
+            "status": "Premium vehicle",
+            "fetched_at": "2026-09-19T06:32:35.406Z",
+            "sha256": "36dbe41f90970fbe8c88f22c0e466da39e3aa0da4448fb64f03fc5da9cc5bbb3"
+          }
+        },
+        {
+          "type": "single",
+          "title": "IJN Suzutsuki",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/jp_destroyer_suzutsuki.png",
+          "br": "4.7",
+          "rp": 0,
+          "sp": 0,
+          "data_unit_id": "jp_destroyer_suzutsuki",
+          "required_unit_id": "",
+          "selected": false,
+          "class_name": "prem",
+          "details": true,
+          "rank": "III",
+          "research_country": "Japan",
+          "main_role": "Destroyer",
+          "is_component": false,
+          "component_of": null,
+          "is_premium": true,
+          "is_squadron": false,
+          "wiki": {
+            "url": "https://wiki.warthunder.com/unit/jp_destroyer_suzutsuki",
+            "rank": "III",
+            "battle_rating_context": "default",
+            "battle_ratings": {
+              "AB": "4.7",
+              "RB": "4.7"
+            },
+            "battle_ratings_by_battle": {
+              "default": {
+                "AB": "4.7",
+                "RB": "4.7"
+              }
+            },
+            "research": null,
+            "purchase": null,
+            "purchase_currency": null,
+            "status": "Premium vehicle",
+            "fetched_at": "2026-09-19T06:32:35.043Z",
+            "sha256": "c8713cb5a1b1d960262073bcb4d2a0cde476619f96ca079fe902afb381284d9e"
+          }
+        }
+      ]
+    ],
+    "selected": [],
+    "unlock_quantity": null,
+    "source": "wiki"
+  },
+  {
+    "rank": "IV",
+    "researchable_vehicles": [
+      [
+        {
+          "type": "multiple",
+          "title": "IJN Furutaka/Aoba",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/jp_cruiser_furutaka_aoba_group.png",
+          "selected": false,
+          "br": "5.7",
+          "data_unit_id": "jp_cruiser_furutaka_aoba_group",
+          "required_unit_id": "jp_cruiser_kako",
+          "class_name": "",
+          "items": [
+            {
+              "type": "single",
+              "title": "IJN Furutaka",
+              "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/jp_cruiser_furutaka.png",
+              "br": "5.7",
+              "rp": 46000,
+              "sp": 150000,
+              "data_unit_id": "jp_cruiser_furutaka",
+              "required_unit_id": "",
+              "selected": false,
+              "class_name": "",
+              "details": true,
+              "rank": "IV",
+              "research_country": "Japan",
+              "main_role": "Heavy cruiser",
+              "is_component": false,
+              "component_of": null,
+              "is_premium": false,
+              "is_squadron": false,
+              "wiki": {
+                "url": "https://wiki.warthunder.com/unit/jp_cruiser_furutaka",
+                "rank": "IV",
+                "battle_rating_context": "default",
+                "battle_ratings": {
+                  "AB": "5.7",
+                  "RB": "5.7"
+                },
+                "battle_ratings_by_battle": {
+                  "default": {
+                    "AB": "5.7",
+                    "RB": "5.7"
+                  }
+                },
+                "research": "46,000",
+                "purchase": "150,000",
+                "purchase_currency": "SL",
+                "status": null,
+                "fetched_at": "2026-09-19T06:32:32.266Z",
+                "sha256": "ab046777cf13354f6e0d6b75fad3f4615edea61b03f2576b17ec26593e6d7601"
+              }
+            },
+            {
+              "type": "single",
+              "title": "IJN Aoba",
+              "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/jp_cruiser_aoba.png",
+              "br": "5.7",
+              "rp": 30000,
+              "sp": 185000,
+              "data_unit_id": "jp_cruiser_aoba",
+              "required_unit_id": "jp_cruiser_furutaka",
+              "selected": false,
+              "class_name": "",
+              "details": true,
+              "rank": "IV",
+              "research_country": "Japan",
+              "main_role": "Heavy cruiser",
+              "is_component": false,
+              "component_of": null,
+              "is_premium": false,
+              "is_squadron": false,
+              "wiki": {
+                "url": "https://wiki.warthunder.com/unit/jp_cruiser_aoba",
+                "rank": "IV",
+                "battle_rating_context": "default",
+                "battle_ratings": {
+                  "AB": "5.7",
+                  "RB": "5.7"
+                },
+                "battle_ratings_by_battle": {
+                  "default": {
+                    "AB": "5.7",
+                    "RB": "5.7"
+                  }
+                },
+                "research": "30,000",
+                "purchase": "185,000",
+                "purchase_currency": "SL",
+                "status": null,
+                "fetched_at": "2026-09-19T06:32:32.267Z",
+                "sha256": "a8511ea55f3269f17a57eb7783dcc2c7886146ee5ef3573f542cd63ca3bd3e4c"
+              }
+            }
+          ],
+          "details": true,
+          "rp": 76000,
+          "sp": 335000
+        },
+        {
+          "type": "single",
+          "title": "IJN Haguro",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/jp_cruiser_haguro.png",
+          "br": "6.0",
+          "rp": 73000,
+          "sp": 230000,
+          "data_unit_id": "jp_cruiser_haguro",
+          "required_unit_id": "jp_cruiser_furutaka_aoba_group",
+          "selected": false,
+          "class_name": "",
+          "details": true,
+          "rank": "IV",
+          "research_country": "Japan",
+          "main_role": "Heavy cruiser",
+          "is_component": false,
+          "component_of": null,
+          "is_premium": false,
+          "is_squadron": false,
+          "wiki": {
+            "url": "https://wiki.warthunder.com/unit/jp_cruiser_haguro",
+            "rank": "IV",
+            "battle_rating_context": "default",
+            "battle_ratings": {
+              "AB": "6.0",
+              "RB": "6.0"
+            },
+            "battle_ratings_by_battle": {
+              "default": {
+                "AB": "6.0",
+                "RB": "6.0"
+              }
+            },
+            "research": "73,000",
+            "purchase": "230,000",
+            "purchase_currency": "SL",
+            "status": null,
+            "fetched_at": "2026-09-19T06:32:32.234Z",
+            "sha256": "dd73b564ff1f144c15f195587eb38130a6aa6dfb6f890b3dcc56d59dc65649a4"
+          }
+        }
+      ],
+      [
+        {
+          "type": "single",
+          "title": "IJN Agano",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/jp_cruiser_agano.png",
+          "br": "5.3",
+          "rp": 33000,
+          "sp": 115000,
+          "data_unit_id": "jp_cruiser_agano",
+          "required_unit_id": "jp_cruiser_sendai",
+          "selected": false,
+          "class_name": "",
+          "details": true,
+          "rank": "IV",
+          "research_country": "Japan",
+          "main_role": "Light cruiser",
+          "is_component": false,
+          "component_of": null,
+          "is_premium": false,
+          "is_squadron": false,
+          "wiki": {
+            "url": "https://wiki.warthunder.com/unit/jp_cruiser_agano",
+            "rank": "IV",
+            "battle_rating_context": "default",
+            "battle_ratings": {
+              "AB": "5.3",
+              "RB": "5.3"
+            },
+            "battle_ratings_by_battle": {
+              "default": {
+                "AB": "5.3",
+                "RB": "5.3"
+              }
+            },
+            "research": "33,000",
+            "purchase": "115,000",
+            "purchase_currency": "SL",
+            "status": null,
+            "fetched_at": "2026-09-19T06:32:31.931Z",
+            "sha256": "10f2fbc6dd80463408482a70fad12810fe52c18d8835d43dcea88309b95497af"
+          }
+        },
+        {
+          "type": "single",
+          "title": "IJN Oyodo",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/jp_cruiser_oyodo.png",
+          "br": "5.3",
+          "rp": 59000,
+          "sp": 185000,
+          "data_unit_id": "jp_cruiser_oyodo",
+          "required_unit_id": "jp_cruiser_agano",
+          "selected": false,
+          "class_name": "",
+          "details": true,
+          "rank": "IV",
+          "research_country": "Japan",
+          "main_role": "Light cruiser",
+          "is_component": false,
+          "component_of": null,
+          "is_premium": false,
+          "is_squadron": false,
+          "wiki": {
+            "url": "https://wiki.warthunder.com/unit/jp_cruiser_oyodo",
+            "rank": "IV",
+            "battle_rating_context": "default",
+            "battle_ratings": {
+              "AB": "5.3",
+              "RB": "5.3"
+            },
+            "battle_ratings_by_battle": {
+              "default": {
+                "AB": "5.3",
+                "RB": "5.3"
+              }
+            },
+            "research": "59,000",
+            "purchase": "185,000",
+            "purchase_currency": "SL",
+            "status": null,
+            "fetched_at": "2026-09-19T06:32:33.312Z",
+            "sha256": "8eda0419e4abc48a451c8908ba9843cfdbc1cfee7f2c93048c46e3157c57cb91"
+          }
+        }
+      ],
+      [
+        {
+          "type": "single",
+          "title": "IJN Ikoma",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/jp_armoredcruiser_ikoma.png",
+          "br": "5.7",
+          "rp": 59000,
+          "sp": 185000,
+          "data_unit_id": "jp_armoredcruiser_ikoma",
+          "required_unit_id": "jp_destroyer_kagero",
+          "selected": false,
+          "class_name": "",
+          "details": true,
+          "rank": "IV",
+          "research_country": "Japan",
+          "main_role": "Battlecruiser",
+          "is_component": false,
+          "component_of": null,
+          "is_premium": false,
+          "is_squadron": false,
+          "wiki": {
+            "url": "https://wiki.warthunder.com/unit/jp_armoredcruiser_ikoma",
+            "rank": "IV",
+            "battle_rating_context": "default",
+            "battle_ratings": {
+              "AB": "5.7",
+              "RB": "5.7"
+            },
+            "battle_ratings_by_battle": {
+              "default": {
+                "AB": "5.7",
+                "RB": "5.7"
+              }
+            },
+            "research": "59,000",
+            "purchase": "185,000",
+            "purchase_currency": "SL",
+            "status": null,
+            "fetched_at": "2026-09-19T06:32:30.167Z",
+            "sha256": "9c01c15c84810d2618467e718a21b91e14b86475a2a7e472bdc9e9c7d493f9d2"
+          }
+        }
+      ]
+    ],
+    "premium_vehicles": [
+      [
+        {
+          "type": "single",
+          "title": "IJN Myoko",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/jp_cruiser_myoko.png",
+          "br": "6.0",
+          "rp": 0,
+          "sp": 0,
+          "data_unit_id": "jp_cruiser_myoko",
+          "required_unit_id": "",
+          "selected": false,
+          "class_name": "prem",
+          "details": true,
+          "rank": "IV",
+          "research_country": "Japan",
+          "main_role": "Heavy cruiser",
+          "is_component": false,
+          "component_of": null,
+          "is_premium": true,
+          "is_squadron": false,
+          "wiki": {
+            "url": "https://wiki.warthunder.com/unit/jp_cruiser_myoko",
+            "rank": "IV",
+            "battle_rating_context": "default",
+            "battle_ratings": {
+              "AB": "6.0",
+              "RB": "6.0"
+            },
+            "battle_ratings_by_battle": {
+              "default": {
+                "AB": "6.0",
+                "RB": "6.0"
+              }
+            },
+            "research": null,
+            "purchase": "7,480",
+            "purchase_currency": "GE",
+            "status": "Premium vehicle",
+            "fetched_at": "2026-09-19T06:32:33.020Z",
+            "sha256": "7fdb31d3664de78ad826c96c547c31bba43da307eaab9da6ae43a48cf0ad6d23"
+          }
+        }
+      ],
+      []
+    ],
+    "selected": [],
+    "unlock_quantity": null,
+    "source": "wiki"
+  },
+  {
+    "rank": "V",
+    "researchable_vehicles": [
+      [
+        {
+          "type": "single",
+          "title": "IJN Tone",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/jp_cruiser_tone.png",
+          "br": "6.0",
+          "rp": 90000,
+          "sp": 280000,
+          "data_unit_id": "jp_cruiser_tone",
+          "required_unit_id": "jp_cruiser_haguro",
+          "selected": false,
+          "class_name": "",
+          "details": true,
+          "rank": "V",
+          "research_country": "Japan",
+          "main_role": "Heavy cruiser",
+          "is_component": false,
+          "component_of": null,
+          "is_premium": false,
+          "is_squadron": false,
+          "wiki": {
+            "url": "https://wiki.warthunder.com/unit/jp_cruiser_tone",
+            "rank": "V",
+            "battle_rating_context": "default",
+            "battle_ratings": {
+              "AB": "6.0",
+              "RB": "6.0"
+            },
+            "battle_ratings_by_battle": {
+              "default": {
+                "AB": "6.0",
+                "RB": "6.0"
+              }
+            },
+            "research": "90,000",
+            "purchase": "280,000",
+            "purchase_currency": "SL",
+            "status": null,
+            "fetched_at": "2026-09-19T06:32:33.296Z",
+            "sha256": "3c700dabe91febea52c5ca4dbb71889ae9faaede3e897323c14f44c9cebc6e2f"
+          }
+        }
+      ],
+      [
+        {
+          "type": "single",
+          "title": "IJN Suzuya",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/jp_cruiser_mogami_suzuya.png",
+          "br": "6.0",
+          "rp": 110000,
+          "sp": 340000,
+          "data_unit_id": "jp_cruiser_mogami_suzuya",
+          "required_unit_id": "jp_cruiser_oyodo",
+          "selected": false,
+          "class_name": "",
+          "details": true,
+          "rank": "V",
+          "research_country": "Japan",
+          "main_role": "Light cruiser",
+          "is_component": false,
+          "component_of": null,
+          "is_premium": false,
+          "is_squadron": false,
+          "wiki": {
+            "url": "https://wiki.warthunder.com/unit/jp_cruiser_mogami_suzuya",
+            "rank": "V",
+            "battle_rating_context": "default",
+            "battle_ratings": {
+              "AB": "6.0",
+              "RB": "6.0"
+            },
+            "battle_ratings_by_battle": {
+              "default": {
+                "AB": "6.0",
+                "RB": "6.0"
+              }
+            },
+            "research": "110,000",
+            "purchase": "340,000",
+            "purchase_currency": "SL",
+            "status": null,
+            "fetched_at": "2026-09-19T06:32:33.030Z",
+            "sha256": "e617694f1044b4a781d337023d997e444b630a75b833c026f00829deb2a9512e"
+          }
+        },
+        {
+          "type": "single",
+          "title": "IJN Mogami",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/jp_cruiser_mogami.png",
+          "br": "6.0",
+          "rp": 145000,
+          "sp": 440000,
+          "data_unit_id": "jp_cruiser_mogami",
+          "required_unit_id": "jp_cruiser_mogami_suzuya",
+          "selected": false,
+          "class_name": "",
+          "details": true,
+          "rank": "V",
+          "research_country": "Japan",
+          "main_role": "Heavy cruiser",
+          "is_component": false,
+          "component_of": null,
+          "is_premium": false,
+          "is_squadron": false,
+          "wiki": {
+            "url": "https://wiki.warthunder.com/unit/jp_cruiser_mogami",
+            "rank": "V",
+            "battle_rating_context": "default",
+            "battle_ratings": {
+              "AB": "6.0",
+              "RB": "6.0"
+            },
+            "battle_ratings_by_battle": {
+              "default": {
+                "AB": "6.0",
+                "RB": "6.0"
+              }
+            },
+            "research": "145,000",
+            "purchase": "440,000",
+            "purchase_currency": "SL",
+            "status": null,
+            "fetched_at": "2026-09-19T06:32:32.776Z",
+            "sha256": "590544f204852f7a3c647392892d58a1761ba24e42cbee20dd52d866cde1fe83"
+          }
+        },
+        {
+          "type": "single",
+          "title": "IJN Hyuga",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/jp_battleship_hyuga.png",
+          "br": "7.0",
+          "rp": 180000,
+          "sp": 540000,
+          "data_unit_id": "jp_battleship_hyuga",
+          "required_unit_id": "jp_cruiser_mogami",
+          "selected": false,
+          "class_name": "",
+          "details": true,
+          "rank": "V",
+          "research_country": "Japan",
+          "main_role": "Battleship",
+          "is_component": false,
+          "component_of": null,
+          "is_premium": false,
+          "is_squadron": false,
+          "wiki": {
+            "url": "https://wiki.warthunder.com/unit/jp_battleship_hyuga",
+            "rank": "V",
+            "battle_rating_context": "default",
+            "battle_ratings": {
+              "AB": "7.0",
+              "RB": "7.0"
+            },
+            "battle_ratings_by_battle": {
+              "default": {
+                "AB": "7.0",
+                "RB": "7.0"
+              }
+            },
+            "research": "180,000",
+            "purchase": "540,000",
+            "purchase_currency": "SL",
+            "status": null,
+            "fetched_at": "2026-09-19T06:32:31.056Z",
+            "sha256": "250d5194a4d5d684d06eecb8b933bdd9e69bf14e183b946b820c0db22eb7691c"
+          }
+        }
+      ],
+      [
+        {
+          "type": "single",
+          "title": "IJN Settsu",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/jp_battleship_settsu.png",
+          "br": "6.3",
+          "rp": 145000,
+          "sp": 440000,
+          "data_unit_id": "jp_battleship_settsu",
+          "required_unit_id": "jp_armoredcruiser_ikoma",
+          "selected": false,
+          "class_name": "",
+          "details": true,
+          "rank": "V",
+          "research_country": "Japan",
+          "main_role": "Battleship",
+          "is_component": false,
+          "component_of": null,
+          "is_premium": false,
+          "is_squadron": false,
+          "wiki": {
+            "url": "https://wiki.warthunder.com/unit/jp_battleship_settsu",
+            "rank": "V",
+            "battle_rating_context": "default",
+            "battle_ratings": {
+              "AB": "6.3",
+              "RB": "6.3"
+            },
+            "battle_ratings_by_battle": {
+              "default": {
+                "AB": "6.3",
+                "RB": "6.3"
+              }
+            },
+            "research": "145,000",
+            "purchase": "440,000",
+            "purchase_currency": "SL",
+            "status": null,
+            "fetched_at": "2026-09-19T06:32:31.675Z",
+            "sha256": "af898fbca15f1efe1a43dcf37d2b1d54e6ae1056e8cb9dc1bf0c59d17c8d2604"
+          }
+        },
+        {
+          "type": "single",
+          "title": "IJN Hiei",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/jp_battlecruiser_hiei.png",
+          "br": "6.7",
+          "rp": 180000,
+          "sp": 540000,
+          "data_unit_id": "jp_battlecruiser_hiei",
+          "required_unit_id": "jp_battleship_settsu",
+          "selected": false,
+          "class_name": "",
+          "details": true,
+          "rank": "V",
+          "research_country": "Japan",
+          "main_role": "Battlecruiser",
+          "is_component": false,
+          "component_of": null,
+          "is_premium": false,
+          "is_squadron": false,
+          "wiki": {
+            "url": "https://wiki.warthunder.com/unit/jp_battlecruiser_hiei",
+            "rank": "V",
+            "battle_rating_context": "default",
+            "battle_ratings": {
+              "AB": "6.7",
+              "RB": "6.7"
+            },
+            "battle_ratings_by_battle": {
+              "default": {
+                "AB": "6.7",
+                "RB": "6.7"
+              }
+            },
+            "research": "180,000",
+            "purchase": "540,000",
+            "purchase_currency": "SL",
+            "status": null,
+            "fetched_at": "2026-09-19T06:32:30.512Z",
+            "sha256": "0a8ef418252084ec97cdefb0e64fd1f4b685907ddd0ef08e41c39bf738590303"
+          }
+        }
+      ]
+    ],
+    "premium_vehicles": [
+      [
+        {
+          "type": "single",
+          "title": "IJN Mikuma",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/jp_cruiser_mogami_mikuma.png",
+          "br": "6.0",
+          "rp": 0,
+          "sp": 0,
+          "data_unit_id": "jp_cruiser_mogami_mikuma",
+          "required_unit_id": "",
+          "selected": false,
+          "class_name": "prem",
+          "details": true,
+          "rank": "V",
+          "research_country": "Japan",
+          "main_role": "Light cruiser",
+          "is_component": false,
+          "component_of": null,
+          "is_premium": true,
+          "is_squadron": false,
+          "wiki": {
+            "url": "https://wiki.warthunder.com/unit/jp_cruiser_mogami_mikuma",
+            "rank": "V",
+            "battle_rating_context": "default",
+            "battle_ratings": {
+              "AB": "6.0",
+              "RB": "6.0"
+            },
+            "battle_ratings_by_battle": {
+              "default": {
+                "AB": "6.0",
+                "RB": "6.0"
+              }
+            },
+            "research": null,
+            "purchase": "8,020",
+            "purchase_currency": "GE",
+            "status": "Premium vehicle",
+            "fetched_at": "2026-09-19T06:32:32.847Z",
+            "sha256": "0c79efba8dd4edab4ece81ed689b01f815c974743f66d0304598071eb3b0088a"
+          }
+        },
+        {
+          "type": "single",
+          "title": "IJN Yamashiro",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/jp_battleship_yamashiro.png",
+          "br": "7.0",
+          "rp": 0,
+          "sp": 0,
+          "data_unit_id": "jp_battleship_yamashiro",
+          "required_unit_id": "",
+          "selected": false,
+          "class_name": "prem",
+          "details": true,
+          "rank": "V",
+          "research_country": "Japan",
+          "main_role": "Battleship",
+          "is_component": false,
+          "component_of": null,
+          "is_premium": true,
+          "is_squadron": false,
+          "wiki": {
+            "url": "https://wiki.warthunder.com/unit/jp_battleship_yamashiro",
+            "rank": "V",
+            "battle_rating_context": "default",
+            "battle_ratings": {
+              "AB": "7.0",
+              "RB": "7.0"
+            },
+            "battle_ratings_by_battle": {
+              "default": {
+                "AB": "7.0",
+                "RB": "7.0"
+              }
+            },
+            "research": null,
+            "purchase": "8,380",
+            "purchase_currency": "GE",
+            "status": "Premium vehicle",
+            "fetched_at": "2026-09-19T06:32:31.762Z",
+            "sha256": "e179f1919eaa38326b64b8a79c33c14008987edb04dd33dab61d23f9cbd8d098"
+          }
+        },
+        {
+          "type": "single",
+          "title": "IJN Kirishima",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/jp_battlecruiser_kirishima.png",
+          "br": "7.3",
+          "rp": null,
+          "sp": null,
+          "data_unit_id": "jp_battlecruiser_kirishima",
+          "required_unit_id": "",
+          "selected": false,
+          "class_name": "",
+          "details": true,
+          "rank": "V",
+          "research_country": "Japan",
+          "main_role": "Battleship",
+          "is_component": false,
+          "component_of": null,
+          "is_premium": false,
+          "is_squadron": false,
+          "wiki": {
+            "url": "https://wiki.warthunder.com/unit/jp_battlecruiser_kirishima",
+            "rank": "V",
+            "battle_rating_context": "default",
+            "battle_ratings": {
+              "AB": "7.3",
+              "RB": "7.3"
+            },
+            "battle_ratings_by_battle": {
+              "default": {
+                "AB": "7.3",
+                "RB": "7.3"
+              }
+            },
+            "research": null,
+            "purchase": null,
+            "purchase_currency": null,
+            "status": null,
+            "fetched_at": "2026-09-19T06:32:30.664Z",
+            "sha256": "f08657648cbfcb1b8e6a9694b880200ce470d9d082eb70d80285725fb852fa94"
+          }
+        }
+      ],
+      [
+        {
+          "type": "single",
+          "title": "IJN Kurama",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/jp_armoredcruiser_kurama.png",
+          "br": "5.7",
+          "rp": null,
+          "sp": null,
+          "data_unit_id": "jp_armoredcruiser_kurama",
+          "required_unit_id": "",
+          "selected": false,
+          "class_name": "",
+          "details": true,
+          "rank": "V",
+          "research_country": "Japan",
+          "main_role": "Battlecruiser",
+          "is_component": false,
+          "component_of": null,
+          "is_premium": false,
+          "is_squadron": false,
+          "wiki": {
+            "url": "https://wiki.warthunder.com/unit/jp_armoredcruiser_kurama",
+            "rank": "V",
+            "battle_rating_context": "default",
+            "battle_ratings": {
+              "AB": "5.7",
+              "RB": "5.7"
+            },
+            "battle_ratings_by_battle": {
+              "default": {
+                "AB": "5.7",
+                "RB": "5.7"
+              }
+            },
+            "research": null,
+            "purchase": null,
+            "purchase_currency": null,
+            "status": null,
+            "fetched_at": "2026-09-19T06:32:30.139Z",
+            "sha256": "f1887212de2da458634b7af1d72a6dd23633a40950dcfd998e978a7919fe64ba"
+          }
+        },
+        {
+          "type": "single",
+          "title": "IJN Haruna",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/jp_battlecruiser_haruna.png",
+          "br": "7.3",
+          "rp": null,
+          "sp": null,
+          "data_unit_id": "jp_battlecruiser_haruna",
+          "required_unit_id": "",
+          "selected": false,
+          "class_name": "",
+          "details": true,
+          "rank": "V",
+          "research_country": "Japan",
+          "main_role": "Battleship",
+          "is_component": false,
+          "component_of": null,
+          "is_premium": false,
+          "is_squadron": false,
+          "wiki": {
+            "url": "https://wiki.warthunder.com/unit/jp_battlecruiser_haruna",
+            "rank": "V",
+            "battle_rating_context": "default",
+            "battle_ratings": {
+              "AB": "7.3",
+              "RB": "7.3"
+            },
+            "battle_ratings_by_battle": {
+              "default": {
+                "AB": "7.3",
+                "RB": "7.3"
+              }
+            },
+            "research": null,
+            "purchase": null,
+            "purchase_currency": null,
+            "status": null,
+            "fetched_at": "2026-09-19T06:32:30.704Z",
+            "sha256": "030686714b94328d5c81d5306027f3d4d4926aa091035bce9e19955b8bb31cac"
+          }
+        }
+      ]
+    ],
+    "selected": [],
+    "unlock_quantity": null,
+    "source": "wiki"
+  },
+  {
+    "rank": "VI",
+    "researchable_vehicles": [
+      [
+        {
+          "type": "single",
+          "title": "IJN Fuso",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/jp_battleship_fuso.png",
+          "br": "7.7",
+          "rp": 300000,
+          "sp": 900000,
+          "data_unit_id": "jp_battleship_fuso",
+          "required_unit_id": "jp_cruiser_tone",
+          "selected": false,
+          "class_name": "",
+          "details": true,
+          "rank": "VI",
+          "research_country": "Japan",
+          "main_role": "Battleship",
+          "is_component": false,
+          "component_of": null,
+          "is_premium": false,
+          "is_squadron": false,
+          "wiki": {
+            "url": "https://wiki.warthunder.com/unit/jp_battleship_fuso",
+            "rank": "VI",
+            "battle_rating_context": "default",
+            "battle_ratings": {
+              "AB": "7.7",
+              "RB": "7.7"
+            },
+            "battle_ratings_by_battle": {
+              "default": {
+                "AB": "7.7",
+                "RB": "7.7"
+              }
+            },
+            "research": "300,000",
+            "purchase": "900,000",
+            "purchase_currency": "SL",
+            "status": null,
+            "fetched_at": "2026-09-19T06:32:31.032Z",
+            "sha256": "336b6b77abea4fc384591a444345177b33572da43f28776cbdaaeb356f03e779"
+          }
+        }
+      ],
+      [
+        {
+          "type": "single",
+          "title": "IJN Ise",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/jp_battleship_ise.png",
+          "br": "7.7",
+          "rp": 260000,
+          "sp": 780000,
+          "data_unit_id": "jp_battleship_ise",
+          "required_unit_id": "jp_battleship_hyuga",
+          "selected": false,
+          "class_name": "",
+          "details": true,
+          "rank": "VI",
+          "research_country": "Japan",
+          "main_role": "Battleship",
+          "is_component": false,
+          "component_of": null,
+          "is_premium": false,
+          "is_squadron": false,
+          "wiki": {
+            "url": "https://wiki.warthunder.com/unit/jp_battleship_ise",
+            "rank": "VI",
+            "battle_rating_context": "default",
+            "battle_ratings": {
+              "AB": "7.7",
+              "RB": "7.7"
+            },
+            "battle_ratings_by_battle": {
+              "default": {
+                "AB": "7.7",
+                "RB": "7.7"
+              }
+            },
+            "research": "260,000",
+            "purchase": "780,000",
+            "purchase_currency": "SL",
+            "status": null,
+            "fetched_at": "2026-09-19T06:32:31.186Z",
+            "sha256": "b4b1659f7d6cc0442d4257f6e3ce63c663d0abce484aec57cb7d0914b3396a7a"
+          }
+        },
+        {
+          "type": "single",
+          "title": "IJN Amagi",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/jp_battlecruiser_amagi.png",
+          "br": "8.0",
+          "rp": 350000,
+          "sp": 1050000,
+          "data_unit_id": "jp_battlecruiser_amagi",
+          "required_unit_id": "jp_battleship_ise",
+          "selected": false,
+          "class_name": "",
+          "details": true,
+          "rank": "VI",
+          "research_country": "Japan",
+          "main_role": "Battlecruiser",
+          "is_component": false,
+          "component_of": null,
+          "is_premium": false,
+          "is_squadron": false,
+          "wiki": {
+            "url": "https://wiki.warthunder.com/unit/jp_battlecruiser_amagi",
+            "rank": "VI",
+            "battle_rating_context": "default",
+            "battle_ratings": {
+              "AB": "8.0",
+              "RB": "8.0"
+            },
+            "battle_ratings_by_battle": {
+              "default": {
+                "AB": "8.0",
+                "RB": "8.0"
+              }
+            },
+            "research": "350,000",
+            "purchase": "1,050,000",
+            "purchase_currency": "SL",
+            "status": null,
+            "fetched_at": "2026-09-19T06:32:30.484Z",
+            "sha256": "ed0b52d643e137d54a8a3b85b0435dd85f3086308b7e32177d33d50e277f9203"
+          }
+        }
+      ],
+      [
+        {
+          "type": "single",
+          "title": "IJN Kongo",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/jp_battlecruiser_kongo.png",
+          "br": "7.3",
+          "rp": 220000,
+          "sp": 660000,
+          "data_unit_id": "jp_battlecruiser_kongo",
+          "required_unit_id": "jp_battlecruiser_hiei",
+          "selected": false,
+          "class_name": "",
+          "details": true,
+          "rank": "VI",
+          "research_country": "Japan",
+          "main_role": "Battleship",
+          "is_component": false,
+          "component_of": null,
+          "is_premium": false,
+          "is_squadron": false,
+          "wiki": {
+            "url": "https://wiki.warthunder.com/unit/jp_battlecruiser_kongo",
+            "rank": "VI",
+            "battle_rating_context": "default",
+            "battle_ratings": {
+              "AB": "7.3",
+              "RB": "7.3"
+            },
+            "battle_ratings_by_battle": {
+              "default": {
+                "AB": "7.3",
+                "RB": "7.3"
+              }
+            },
+            "research": "220,000",
+            "purchase": "660,000",
+            "purchase_currency": "SL",
+            "status": null,
+            "fetched_at": "2026-09-19T06:32:31.012Z",
+            "sha256": "a4540e543c806e63e547fff67edfa21dedd982f3b1acb8e875446132fc35cf07"
+          }
+        },
+        {
+          "type": "single",
+          "title": "IJN Mutsu",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/jp_battleship_mutsu.png",
+          "br": "8.0",
+          "rp": 300000,
+          "sp": 900000,
+          "data_unit_id": "jp_battleship_mutsu",
+          "required_unit_id": "jp_battlecruiser_kongo",
+          "selected": false,
+          "class_name": "",
+          "details": true,
+          "rank": "VI",
+          "research_country": "Japan",
+          "main_role": "Battleship",
+          "is_component": false,
+          "component_of": null,
+          "is_premium": false,
+          "is_squadron": false,
+          "wiki": {
+            "url": "https://wiki.warthunder.com/unit/jp_battleship_mutsu",
+            "rank": "VI",
+            "battle_rating_context": "default",
+            "battle_ratings": {
+              "AB": "8.0",
+              "RB": "8.0"
+            },
+            "battle_ratings_by_battle": {
+              "default": {
+                "AB": "8.0",
+                "RB": "8.0"
+              }
+            },
+            "research": "300,000",
+            "purchase": "900,000",
+            "purchase_currency": "SL",
+            "status": null,
+            "fetched_at": "2026-09-19T06:32:31.410Z",
+            "sha256": "54cc82da1a37da493341355b3a46fd6a5e38f21f55e0d561a1a5a92b5436ce1b"
+          }
+        }
+      ]
+    ],
+    "premium_vehicles": [
+      [
+        {
+          "type": "single",
+          "title": "IJN Nagato",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/jp_battleship_nagato.png",
+          "br": "8.3",
+          "rp": 0,
+          "sp": 0,
+          "data_unit_id": "jp_battleship_nagato",
+          "required_unit_id": "",
+          "selected": false,
+          "class_name": "prem",
+          "details": true,
+          "rank": "VI",
+          "research_country": "Japan",
+          "main_role": "Battleship",
+          "is_component": false,
+          "component_of": null,
+          "is_premium": true,
+          "is_squadron": false,
+          "wiki": {
+            "url": "https://wiki.warthunder.com/unit/jp_battleship_nagato",
+            "rank": "VI",
+            "battle_rating_context": "default",
+            "battle_ratings": {
+              "AB": "8.3",
+              "RB": "8.3"
+            },
+            "battle_ratings_by_battle": {
+              "default": {
+                "AB": "8.3",
+                "RB": "8.3"
+              }
+            },
+            "research": null,
+            "purchase": null,
+            "purchase_currency": null,
+            "status": "Premium vehicle",
+            "fetched_at": "2026-09-19T06:32:31.323Z",
+            "sha256": "84f16350191153074903ebddf71efb6234ece87f3f6fbc99bd3156e3169dd9c5"
+          }
+        }
+      ],
+      [
+        {
+          "type": "single",
+          "title": "IJN Tosa",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/jp_battleship_tosa.png",
+          "br": "8.0",
+          "rp": null,
+          "sp": null,
+          "data_unit_id": "jp_battleship_tosa",
+          "required_unit_id": "",
+          "selected": false,
+          "class_name": "",
+          "details": true,
+          "rank": "VI",
+          "research_country": "Japan",
+          "main_role": "Battleship",
+          "is_component": false,
+          "component_of": null,
+          "is_premium": false,
+          "is_squadron": false,
+          "wiki": {
+            "url": "https://wiki.warthunder.com/unit/jp_battleship_tosa",
+            "rank": "VI",
+            "battle_rating_context": "default",
+            "battle_ratings": {
+              "AB": "8.0",
+              "RB": "8.0"
+            },
+            "battle_ratings_by_battle": {
+              "default": {
+                "AB": "8.0",
+                "RB": "8.0"
+              }
+            },
+            "research": null,
+            "purchase": null,
+            "purchase_currency": null,
+            "status": null,
+            "fetched_at": "2026-09-19T06:32:31.729Z",
+            "sha256": "8378124d07b67a024af54b90b311a44764ea70ea06d2a48bfff80ac0683b42da"
+          }
+        }
+      ]
+    ],
+    "selected": [],
+    "unlock_quantity": null,
+    "source": "wiki"
+  },
+  {
+    "rank": "VII",
+    "researchable_vehicles": [
+      [
+        {
+          "type": "single",
+          "title": "IJN Yamato",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/jp_battleship_yamato.png",
+          "br": "8.7",
+          "rp": 400000,
+          "sp": 1150000,
+          "data_unit_id": "jp_battleship_yamato",
+          "required_unit_id": "jp_battleship_fuso",
+          "selected": false,
+          "class_name": "",
+          "details": true,
+          "rank": "VII",
+          "research_country": "Japan",
+          "main_role": "Battleship",
+          "is_component": false,
+          "component_of": null,
+          "is_premium": false,
+          "is_squadron": false,
+          "wiki": {
+            "url": "https://wiki.warthunder.com/unit/jp_battleship_yamato",
+            "rank": "VII",
+            "battle_rating_context": "default",
+            "battle_ratings": {
+              "AB": "8.7",
+              "RB": "8.7"
+            },
+            "battle_ratings_by_battle": {
+              "default": {
+                "AB": "8.7",
+                "RB": "8.7"
+              }
+            },
+            "research": "400,000",
+            "purchase": "1,150,000",
+            "purchase_currency": "SL",
+            "status": null,
+            "fetched_at": "2026-09-19T06:32:31.909Z",
+            "sha256": "0ea7a798a0bcf95b1fdbe01fda0d7d7bf70bbd5d4d765a937d460b0378a42a22"
+          }
+        }
+      ],
+      [
+        {
+          "type": "single",
+          "title": "IJN Musashi",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/jp_battleship_musashi.png",
+          "br": "8.7",
+          "rp": 400000,
+          "sp": 1150000,
+          "data_unit_id": "jp_battleship_musashi",
+          "required_unit_id": "jp_battlecruiser_amagi",
+          "selected": false,
+          "class_name": "",
+          "details": true,
+          "rank": "VII",
+          "research_country": "Japan",
+          "main_role": "Battleship",
+          "is_component": false,
+          "component_of": null,
+          "is_premium": false,
+          "is_squadron": false,
+          "wiki": {
+            "url": "https://wiki.warthunder.com/unit/jp_battleship_musashi",
+            "rank": "VII",
+            "battle_rating_context": "default",
+            "battle_ratings": {
+              "AB": "8.7",
+              "RB": "8.7"
+            },
+            "battle_ratings_by_battle": {
+              "default": {
+                "AB": "8.7",
+                "RB": "8.7"
+              }
+            },
+            "research": "400,000",
+            "purchase": "1,150,000",
+            "purchase_currency": "SL",
+            "status": null,
+            "fetched_at": "2026-09-19T06:32:31.528Z",
+            "sha256": "795b99ba6655798adb6d8ad98a11fd16153d5cd3a6125ff6499d56508a01aa12"
+          }
+        }
+      ],
+      []
+    ],
+    "premium_vehicles": [
+      [],
+      []
+    ],
+    "selected": [],
+    "unlock_quantity": null,
+    "source": "wiki"
+  }
+]

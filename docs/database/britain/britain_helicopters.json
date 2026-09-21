@@ -1,0 +1,476 @@
+[
+  {
+    "rank": "V",
+    "researchable_vehicles": [
+      [
+        {
+          "type": "single",
+          "title": "Scout AH.Mk.1",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/scout_ah_mk1.png",
+          "br": "8.3",
+          "rp": 0,
+          "sp": 390000,
+          "data_unit_id": "scout_ah_mk1",
+          "required_unit_id": "",
+          "selected": false,
+          "class_name": "",
+          "details": true,
+          "rank": "V",
+          "research_country": "Great Britain",
+          "main_role": "Utility helicopter",
+          "is_component": false,
+          "component_of": null,
+          "is_premium": false,
+          "is_squadron": false,
+          "wiki": {
+            "url": "https://wiki.warthunder.com/unit/scout_ah_mk1",
+            "rank": "V",
+            "battle_rating_context": "default",
+            "battle_ratings": {
+              "AB": "8.7",
+              "RB": "8.3",
+              "SB": "8.7"
+            },
+            "battle_ratings_by_battle": {
+              "default": {
+                "AB": "8.7",
+                "RB": "8.3",
+                "SB": "8.7"
+              }
+            },
+            "research": "Free",
+            "purchase": "390,000",
+            "purchase_currency": "SL",
+            "status": null,
+            "fetched_at": "2026-09-19T06:32:03.211Z",
+            "sha256": "3c44fb1dd4c192081b61e3f4ef74999d6edd0129b10baab601b222027f7d241f"
+          }
+        },
+        {
+          "type": "single",
+          "title": "Wasp HAS.Mk.1",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/wasp_has_mk1.png",
+          "br": "9.0",
+          "rp": 150000,
+          "sp": 490000,
+          "data_unit_id": "wasp_has_mk1",
+          "required_unit_id": "scout_ah_mk1",
+          "selected": false,
+          "class_name": "",
+          "details": true,
+          "rank": "V",
+          "research_country": "Great Britain",
+          "main_role": "Utility helicopter",
+          "is_component": false,
+          "component_of": null,
+          "is_premium": false,
+          "is_squadron": false,
+          "wiki": {
+            "url": "https://wiki.warthunder.com/unit/wasp_has_mk1",
+            "rank": "V",
+            "battle_rating_context": "default",
+            "battle_ratings": {
+              "AB": "9.0",
+              "RB": "9.0",
+              "SB": "9.0"
+            },
+            "battle_ratings_by_battle": {
+              "default": {
+                "AB": "9.0",
+                "RB": "9.0",
+                "SB": "9.0"
+              }
+            },
+            "research": "150,000",
+            "purchase": "490,000",
+            "purchase_currency": "SL",
+            "status": null,
+            "fetched_at": "2026-09-19T06:32:03.372Z",
+            "sha256": "85bb87d7ba535f2a8dce0657a48d0abb84d3b3674f8da294b103adf3b8187a78"
+          }
+        },
+        {
+          "type": "single",
+          "title": "Wessex HU Mk.5",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/wessex_mk5.png",
+          "br": "9.0",
+          "rp": 360000,
+          "sp": 980000,
+          "data_unit_id": "wessex_mk5",
+          "required_unit_id": "wasp_has_mk1",
+          "selected": false,
+          "class_name": "",
+          "details": true,
+          "rank": "V",
+          "research_country": "Great Britain",
+          "main_role": "Utility helicopter",
+          "is_component": false,
+          "component_of": null,
+          "is_premium": false,
+          "is_squadron": false,
+          "wiki": {
+            "url": "https://wiki.warthunder.com/unit/wessex_mk5",
+            "rank": "V",
+            "battle_rating_context": "default",
+            "battle_ratings": {
+              "AB": "9.0",
+              "RB": "9.0",
+              "SB": "9.0"
+            },
+            "battle_ratings_by_battle": {
+              "default": {
+                "AB": "9.0",
+                "RB": "9.0",
+                "SB": "9.0"
+              }
+            },
+            "research": "360,000",
+            "purchase": "980,000",
+            "purchase_currency": "SL",
+            "status": null,
+            "fetched_at": "2026-09-19T06:32:03.492Z",
+            "sha256": "febbe2e6c48debde0f6d13b8d35e11659449bf746e7c449e1007b5cf03693cea"
+          }
+        }
+      ],
+      []
+    ],
+    "premium_vehicles": [
+      []
+    ],
+    "selected": [],
+    "unlock_quantity": null,
+    "source": "wiki"
+  },
+  {
+    "rank": "VI",
+    "researchable_vehicles": [
+      [
+        {
+          "type": "single",
+          "title": "Lynx AH.Mk.1",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/lynx_ah_mk1.png",
+          "br": "10.7",
+          "rp": 380000,
+          "sp": 1000000,
+          "data_unit_id": "lynx_ah_mk1",
+          "required_unit_id": "wessex_mk5",
+          "selected": false,
+          "class_name": "",
+          "details": true,
+          "rank": "VI",
+          "research_country": "Great Britain",
+          "main_role": "Utility helicopter",
+          "is_component": false,
+          "component_of": null,
+          "is_premium": false,
+          "is_squadron": false,
+          "wiki": {
+            "url": "https://wiki.warthunder.com/unit/lynx_ah_mk1",
+            "rank": "VI",
+            "battle_rating_context": "default",
+            "battle_ratings": {
+              "AB": "9.7",
+              "RB": "10.7",
+              "SB": "10.0"
+            },
+            "battle_ratings_by_battle": {
+              "default": {
+                "AB": "9.7",
+                "RB": "10.7",
+                "SB": "10.0"
+              }
+            },
+            "research": "380,000",
+            "purchase": "1,000,000",
+            "purchase_currency": "SL",
+            "status": null,
+            "fetched_at": "2026-09-19T06:32:02.972Z",
+            "sha256": "451db8b3c7c3a398b73741c0df319fe95085d9aa83988bf81e77349f947974bb"
+          }
+        }
+      ],
+      []
+    ],
+    "premium_vehicles": [
+      [
+        {
+          "type": "single",
+          "title": "Superhind",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/super_hind_mk3.png",
+          "br": "10.3",
+          "rp": 0,
+          "sp": 0,
+          "data_unit_id": "super_hind_mk3",
+          "required_unit_id": "",
+          "selected": false,
+          "class_name": "squad",
+          "details": true,
+          "rank": "VI",
+          "research_country": "Great Britain",
+          "main_role": "Attack helicopter",
+          "is_component": false,
+          "component_of": null,
+          "is_premium": false,
+          "is_squadron": true,
+          "wiki": {
+            "url": "https://wiki.warthunder.com/unit/super_hind_mk3",
+            "rank": "VI",
+            "battle_rating_context": "default",
+            "battle_ratings": {
+              "AB": "10.3",
+              "RB": "10.3",
+              "SB": "10.3"
+            },
+            "battle_ratings_by_battle": {
+              "default": {
+                "AB": "10.3",
+                "RB": "10.3",
+                "SB": "10.3"
+              }
+            },
+            "research": "360,000",
+            "purchase": "1,030,000",
+            "purchase_currency": "SL",
+            "status": "Squadron vehicle",
+            "fetched_at": "2026-09-19T06:32:03.334Z",
+            "sha256": "f9ac47385884eb42a395e2c5cd742ca83314fbb00962111e26220e16e3698b63"
+          }
+        },
+        {
+          "type": "single",
+          "title": "G-LYNX",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/g_lynx.png",
+          "br": "10.7",
+          "rp": 0,
+          "sp": 0,
+          "data_unit_id": "g_lynx",
+          "required_unit_id": "",
+          "selected": false,
+          "class_name": "prem",
+          "details": true,
+          "rank": "VI",
+          "research_country": "Great Britain",
+          "main_role": "Utility helicopter",
+          "is_component": false,
+          "component_of": null,
+          "is_premium": true,
+          "is_squadron": false,
+          "wiki": {
+            "url": "https://wiki.warthunder.com/unit/g_lynx",
+            "rank": "VI",
+            "battle_rating_context": "default",
+            "battle_ratings": {
+              "AB": "9.7",
+              "RB": "10.7",
+              "SB": "10.0"
+            },
+            "battle_ratings_by_battle": {
+              "default": {
+                "AB": "9.7",
+                "RB": "10.7",
+                "SB": "10.0"
+              }
+            },
+            "research": null,
+            "purchase": "7,860",
+            "purchase_currency": "GE",
+            "status": "Premium vehicle",
+            "fetched_at": "2026-09-19T06:32:02.850Z",
+            "sha256": "95f2bf6ddc683ed1ef48a83b57ddbb1a1175cf45999fc3a0316ae1134e670b51"
+          }
+        },
+        {
+          "type": "single",
+          "title": "Rooivalk Mk1F CSH",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/ah_2_rooivalk.png",
+          "br": "11.7",
+          "rp": 0,
+          "sp": 0,
+          "data_unit_id": "ah_2_rooivalk",
+          "required_unit_id": "",
+          "selected": false,
+          "class_name": "prem",
+          "details": true,
+          "rank": "VI",
+          "research_country": "Great Britain",
+          "main_role": "Attack helicopter",
+          "is_component": false,
+          "component_of": null,
+          "is_premium": true,
+          "is_squadron": false,
+          "wiki": {
+            "url": "https://wiki.warthunder.com/unit/ah_2_rooivalk",
+            "rank": "VI",
+            "battle_rating_context": "default",
+            "battle_ratings": {
+              "AB": "10.7",
+              "RB": "11.7",
+              "SB": "10.7"
+            },
+            "battle_ratings_by_battle": {
+              "default": {
+                "AB": "10.7",
+                "RB": "11.7",
+                "SB": "10.7"
+              }
+            },
+            "research": null,
+            "purchase": "8,560",
+            "purchase_currency": "GE",
+            "status": "Premium vehicle",
+            "fetched_at": "2026-09-19T06:32:02.420Z",
+            "sha256": "56385d28f8995171fc60d10aa6a733576d4c72d1c8e5f06fe9582c8c517f42fc"
+          }
+        }
+      ]
+    ],
+    "selected": [],
+    "unlock_quantity": null,
+    "source": "wiki"
+  },
+  {
+    "rank": "VII",
+    "researchable_vehicles": [
+      [
+        {
+          "type": "single",
+          "title": "AH Mk.1 Apache",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/ah_mk1.png",
+          "br": "11.7",
+          "rp": 400000,
+          "sp": 1020000,
+          "data_unit_id": "ah_mk1",
+          "required_unit_id": "lynx_ah_mk1",
+          "selected": false,
+          "class_name": "",
+          "details": true,
+          "rank": "VII",
+          "research_country": "Great Britain",
+          "main_role": "Attack helicopter",
+          "is_component": false,
+          "component_of": null,
+          "is_premium": false,
+          "is_squadron": false,
+          "wiki": {
+            "url": "https://wiki.warthunder.com/unit/ah_mk1",
+            "rank": "VII",
+            "battle_rating_context": "default",
+            "battle_ratings": {
+              "AB": "10.7",
+              "RB": "11.7",
+              "SB": "10.7"
+            },
+            "battle_ratings_by_battle": {
+              "default": {
+                "AB": "10.7",
+                "RB": "11.7",
+                "SB": "10.7"
+              }
+            },
+            "research": "400,000",
+            "purchase": "1,020,000",
+            "purchase_currency": "SL",
+            "status": null,
+            "fetched_at": "2026-09-19T06:32:02.817Z",
+            "sha256": "892a40cd40b2c48424d85c524e6a8e149d9d8f8c5d3151fb217f43cb1c935677"
+          }
+        },
+        {
+          "type": "single",
+          "title": "AH Mk.2 Apache",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/ah_64e_britain.png",
+          "br": "13.0",
+          "rp": 400000,
+          "sp": 1030000,
+          "data_unit_id": "ah_64e_britain",
+          "required_unit_id": "ah_mk1",
+          "selected": false,
+          "class_name": "",
+          "details": true,
+          "rank": "VII",
+          "research_country": "Great Britain",
+          "main_role": "Attack helicopter",
+          "is_component": false,
+          "component_of": null,
+          "is_premium": false,
+          "is_squadron": false,
+          "wiki": {
+            "url": "https://wiki.warthunder.com/unit/ah_64e_britain",
+            "rank": "VII",
+            "battle_rating_context": "default",
+            "battle_ratings": {
+              "AB": "11.0",
+              "RB": "13.0",
+              "SB": "11.0"
+            },
+            "battle_ratings_by_battle": {
+              "default": {
+                "AB": "11.0",
+                "RB": "13.0",
+                "SB": "11.0"
+              }
+            },
+            "research": "400,000",
+            "purchase": "1,030,000",
+            "purchase_currency": "SL",
+            "status": null,
+            "fetched_at": "2026-09-19T06:32:02.702Z",
+            "sha256": "7a0cea12945a97a05fa005526c03ad747cf6f9e99da8aa5651b143d3ff3e4e7e"
+          }
+        }
+      ],
+      [
+        {
+          "type": "single",
+          "title": "Wildcat HMA2",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/aw_159.png",
+          "br": "12.3",
+          "rp": 400000,
+          "sp": 1020000,
+          "data_unit_id": "aw_159",
+          "required_unit_id": "ah_mk1",
+          "selected": false,
+          "class_name": "",
+          "details": true,
+          "rank": "VII",
+          "research_country": "Great Britain",
+          "main_role": "Utility helicopter",
+          "is_component": false,
+          "component_of": null,
+          "is_premium": false,
+          "is_squadron": false,
+          "wiki": {
+            "url": "https://wiki.warthunder.com/unit/aw_159",
+            "rank": "VII",
+            "battle_rating_context": "default",
+            "battle_ratings": {
+              "AB": "10.7",
+              "RB": "12.3",
+              "SB": "10.7"
+            },
+            "battle_ratings_by_battle": {
+              "default": {
+                "AB": "10.7",
+                "RB": "12.3",
+                "SB": "10.7"
+              }
+            },
+            "research": "400,000",
+            "purchase": "1,020,000",
+            "purchase_currency": "SL",
+            "status": null,
+            "fetched_at": "2026-09-19T06:32:02.738Z",
+            "sha256": "69a8307352daf8117d347965f45f259ecb25ea23c80033266ccb0b98228e20ec"
+          }
+        }
+      ]
+    ],
+    "premium_vehicles": [
+      []
+    ],
+    "selected": [],
+    "unlock_quantity": null,
+    "source": "wiki"
+  }
+]

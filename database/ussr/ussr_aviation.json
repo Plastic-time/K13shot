@@ -1,0 +1,3128 @@
+[
+  {
+    "rank": "I",
+    "researchable_vehicles": [
+      [],
+      [
+        {
+          "type": "single",
+          "title": "I-16 type 5",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/i-16_type5.png",
+          "br": "1.3",
+          "rp": "2,900",
+          "sp": "700",
+          "data_unit_id": "i-16_type5",
+          "selected": false,
+          "class_name": "",
+          "details": true,
+          "main_role": "Fighter"
+        },
+        {
+          "type": "single",
+          "title": "MiG-3-15",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/mig_3_series_1_15.png",
+          "br": "2.3",
+          "rp": "4,000",
+          "sp": "2,100",
+          "data_unit_id": "mig_3_series_1_15",
+          "selected": false,
+          "class_name": "",
+          "details": true,
+          "main_role": "Fighter"
+        },
+        {
+          "type": "multiple",
+          "title": "I-16",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/i-16_group.png",
+          "selected": false,
+          "br": "2.0-2.7",
+          "data_unit_id": "i-16_group",
+          "class_name": "",
+          "items": [
+            {
+              "type": "single",
+              "title": "I-16 type 10",
+              "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/i-16_type10.png",
+              "br": "2.0",
+              "rp": "5,900",
+              "sp": "6,300",
+              "data_unit_id": "i-16_type10",
+              "selected": false,
+              "class_name": "",
+              "details": true,
+              "main_role": "Fighter"
+            },
+            {
+              "type": "single",
+              "title": "I-16 type 18",
+              "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/i-16_type18.png",
+              "br": "2.3",
+              "rp": "3,000",
+              "sp": "6,300",
+              "data_unit_id": "i-16_type18",
+              "selected": false,
+              "class_name": "",
+              "details": true,
+              "main_role": "Fighter"
+            },
+            {
+              "type": "single",
+              "title": "I-16 type 24",
+              "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/i-16_type24.png",
+              "br": "2.7",
+              "rp": "3,000",
+              "sp": "6,300",
+              "data_unit_id": "i-16_type24",
+              "selected": false,
+              "class_name": "",
+              "details": true,
+              "main_role": "Fighter"
+            }
+          ],
+          "details": true
+        }
+      ],
+      [
+        {
+          "type": "multiple",
+          "title": "I-15",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/i-15_group.png",
+          "selected": false,
+          "br": "1.0",
+          "data_unit_id": "i-15_group",
+          "class_name": "",
+          "items": [
+            {
+              "type": "single",
+              "title": "I-15 WR",
+              "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/i-15_1934.png",
+              "br": "1.0",
+              "rp": null,
+              "sp": null,
+              "data_unit_id": "i-15_1934",
+              "selected": false,
+              "class_name": "",
+              "details": true,
+              "main_role": "Fighter"
+            },
+            {
+              "type": "single",
+              "title": "I-15 M-22",
+              "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/i-15_1935.png",
+              "br": "1.0",
+              "rp": null,
+              "sp": null,
+              "data_unit_id": "i-15_1935",
+              "selected": false,
+              "class_name": "",
+              "details": true,
+              "main_role": "Fighter"
+            },
+            {
+              "type": "single",
+              "title": "I-15 M-25",
+              "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/i-15_1935_moscow.png",
+              "br": "1.0",
+              "rp": null,
+              "sp": null,
+              "data_unit_id": "i-15_1935_moscow",
+              "selected": false,
+              "class_name": "",
+              "details": true,
+              "main_role": "Fighter"
+            }
+          ],
+          "details": true
+        },
+        {
+          "type": "multiple",
+          "title": "I-15bis/I-153 M-62",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/i-153_group.png",
+          "selected": false,
+          "br": "1.0-2.3",
+          "data_unit_id": "i-153_group",
+          "class_name": "",
+          "items": [
+            {
+              "type": "single",
+              "title": "I-15bis",
+              "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/i-15bis.png",
+              "br": "1.0",
+              "rp": "2,900",
+              "sp": "700",
+              "data_unit_id": "i-15bis",
+              "selected": false,
+              "class_name": "",
+              "details": true,
+              "main_role": "Fighter"
+            },
+            {
+              "type": "single",
+              "title": "I-153 M-62",
+              "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/i-153_m62.png",
+              "br": "2.3",
+              "rp": "2,000",
+              "sp": "2,100",
+              "data_unit_id": "i-153_m62",
+              "selected": false,
+              "class_name": "",
+              "details": true,
+              "main_role": "Fighter"
+            }
+          ],
+          "details": true
+        }
+      ],
+      [
+        {
+          "type": "single",
+          "title": "Po-2",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/po-2.png",
+          "br": "1.0",
+          "rp": null,
+          "sp": null,
+          "data_unit_id": "po-2",
+          "selected": false,
+          "class_name": "",
+          "details": true,
+          "main_role": "Bomber"
+        },
+        {
+          "type": "multiple",
+          "title": "Su-2",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/su-2_group.png",
+          "selected": false,
+          "br": "1.3-2.7",
+          "data_unit_id": "su-2_group",
+          "class_name": "",
+          "items": [
+            {
+              "type": "single",
+              "title": "BB-1",
+              "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/bb-1.png",
+              "br": "1.3",
+              "rp": "2,900",
+              "sp": "700",
+              "data_unit_id": "bb-1",
+              "selected": false,
+              "class_name": "",
+              "details": true,
+              "main_role": "Strike aircraft"
+            },
+            {
+              "type": "single",
+              "title": "Su-2 MV-5",
+              "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/su-2_mv5.png",
+              "br": "1.7",
+              "rp": "2,000",
+              "sp": "2,100",
+              "data_unit_id": "su-2_mv5",
+              "selected": false,
+              "class_name": "",
+              "details": true,
+              "main_role": "Strike aircraft"
+            },
+            {
+              "type": "single",
+              "title": "Su-2 TSS-1",
+              "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/su-2_tss1.png",
+              "br": "2.0",
+              "rp": "3,000",
+              "sp": "6,300",
+              "data_unit_id": "su-2_tss1",
+              "selected": false,
+              "class_name": "",
+              "details": true,
+              "main_role": "Strike aircraft"
+            },
+            {
+              "type": "single",
+              "title": "Su-2 (M-82)",
+              "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/su-2_m82.png",
+              "br": "2.7",
+              "rp": "3,000",
+              "sp": "6,300",
+              "data_unit_id": "su-2_m82",
+              "selected": false,
+              "class_name": "",
+              "details": true,
+              "main_role": "Strike aircraft"
+            }
+          ],
+          "details": true
+        },
+        {
+          "type": "multiple",
+          "title": "Pe-3",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/pe-3_group.png",
+          "selected": false,
+          "br": "2.0",
+          "data_unit_id": "pe-3_group",
+          "class_name": "",
+          "items": [
+            {
+              "type": "single",
+              "title": "Pe-3 (e)",
+              "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/pe-3_early.png",
+              "br": "2.0",
+              "rp": "4,000",
+              "sp": "2,100",
+              "data_unit_id": "pe-3_early",
+              "selected": false,
+              "class_name": "",
+              "details": true,
+              "main_role": "Strike aircraft"
+            },
+            {
+              "type": "single",
+              "title": "Pe-3",
+              "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/pe-3.png",
+              "br": "2.0",
+              "rp": "3,000",
+              "sp": "6,300",
+              "data_unit_id": "pe-3",
+              "selected": false,
+              "class_name": "",
+              "details": true,
+              "main_role": "Strike aircraft"
+            }
+          ],
+          "details": true
+        },
+        {
+          "type": "single",
+          "title": "Yak-2 KABB",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/yak_2_kabb.png",
+          "br": "2.3",
+          "rp": "5,900",
+          "sp": "6,300",
+          "data_unit_id": "yak_2_kabb",
+          "selected": false,
+          "class_name": "",
+          "details": true,
+          "main_role": "Strike aircraft"
+        }
+      ],
+      [
+        {
+          "type": "multiple",
+          "title": "SB",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/sb_group.png",
+          "selected": false,
+          "br": "1.0-2.0",
+          "data_unit_id": "sb_group",
+          "class_name": "",
+          "items": [
+            {
+              "type": "single",
+              "title": "SB 2M-100A",
+              "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/sb_2m_100.png",
+              "br": "1.0",
+              "rp": "2,900",
+              "sp": "700",
+              "data_unit_id": "sb_2m_100",
+              "selected": false,
+              "class_name": "",
+              "details": true,
+              "main_role": "Bomber"
+            },
+            {
+              "type": "single",
+              "title": "SB 2M-103",
+              "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/sb_2m_103c.png",
+              "br": "2.0",
+              "rp": "2,000",
+              "sp": "2,100",
+              "data_unit_id": "sb_2m_103c",
+              "selected": false,
+              "class_name": "",
+              "details": true,
+              "main_role": "Bomber"
+            }
+          ],
+          "details": true
+        },
+        {
+          "type": "single",
+          "title": "Yak-4",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/yak-4.png",
+          "br": "2.0",
+          "rp": "4,000",
+          "sp": "2,100",
+          "data_unit_id": "yak-4",
+          "selected": false,
+          "class_name": "",
+          "details": true,
+          "main_role": "Bomber"
+        },
+        {
+          "type": "multiple",
+          "title": "Ar-2/SB 2",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/ar_group.png",
+          "selected": false,
+          "br": "1.7-2.7",
+          "data_unit_id": "ar_group",
+          "class_name": "",
+          "items": [
+            {
+              "type": "single",
+              "title": "Ar-2",
+              "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/ar_2.png",
+              "br": "2.3",
+              "rp": "5,900",
+              "sp": "6,300",
+              "data_unit_id": "ar_2",
+              "selected": false,
+              "class_name": "",
+              "details": true,
+              "main_role": "Bomber"
+            },
+            {
+              "type": "single",
+              "title": "SB 2M-103U MV-3",
+              "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/sb_2m_103u_mv3.png",
+              "br": "2.3",
+              "rp": "3,000",
+              "sp": "6,300",
+              "data_unit_id": "sb_2m_103u_mv3",
+              "selected": false,
+              "class_name": "",
+              "details": true,
+              "main_role": "Bomber"
+            },
+            {
+              "type": "single",
+              "title": "SB 2M-105",
+              "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/sb_2m_105.png",
+              "br": "2.7",
+              "rp": "3,000",
+              "sp": "6,300",
+              "data_unit_id": "sb_2m_105",
+              "selected": false,
+              "class_name": "",
+              "details": true,
+              "main_role": "Bomber"
+            },
+            {
+              "type": "single",
+              "title": "SB 2M-103U",
+              "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/sb_2m_103u.png",
+              "br": "2.3",
+              "rp": null,
+              "sp": null,
+              "data_unit_id": "sb_2m_103u",
+              "selected": false,
+              "class_name": "",
+              "details": true,
+              "main_role": "Bomber"
+            },
+            {
+              "type": "single",
+              "title": "SB 2M-103 MV-3",
+              "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/sb_2m_103_mv3.png",
+              "br": "1.7",
+              "rp": null,
+              "sp": null,
+              "data_unit_id": "sb_2m_103_mv3",
+              "selected": false,
+              "class_name": "",
+              "details": true,
+              "main_role": "Bomber"
+            }
+          ],
+          "details": true
+        }
+      ]
+    ],
+    "premium_vehicles": [
+      [
+        {
+          "type": "single",
+          "title": "Krasnolutsky's I-15bis",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/i-15bis_krasnolutsky.png",
+          "br": "1.0",
+          "rp": 0,
+          "sp": 0,
+          "data_unit_id": "i-15bis_krasnolutsky",
+          "selected": false,
+          "class_name": "prem",
+          "details": true,
+          "main_role": "Fighter"
+        },
+        {
+          "type": "single",
+          "title": "▂PBY-5A Catalina",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/pby-5a_ussr.png",
+          "br": "1.7",
+          "rp": 0,
+          "sp": 0,
+          "data_unit_id": "pby-5a_ussr",
+          "selected": false,
+          "class_name": "prem",
+          "details": true,
+          "main_role": "Bomber"
+        },
+        {
+          "type": "single",
+          "title": "▂Hampden TB Mk I",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/hp52_hampden_tbmk1_ussr_utk1.png",
+          "br": "1.7",
+          "rp": 0,
+          "sp": 0,
+          "data_unit_id": "hp52_hampden_tbmk1_ussr_utk1",
+          "selected": false,
+          "class_name": "prem",
+          "details": true,
+          "main_role": "Bomber"
+        },
+        {
+          "type": "single",
+          "title": "Tandem MAI",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/tandem_mai.png",
+          "br": "1.7",
+          "rp": 0,
+          "sp": 0,
+          "data_unit_id": "tandem_mai",
+          "selected": false,
+          "class_name": "prem",
+          "details": true,
+          "main_role": "Strike aircraft"
+        },
+        {
+          "type": "single",
+          "title": "DB-LK",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/db_lk.png",
+          "br": "2.0",
+          "rp": 0,
+          "sp": 0,
+          "data_unit_id": "db_lk",
+          "selected": false,
+          "class_name": "prem",
+          "details": true,
+          "main_role": "Bomber"
+        }
+      ],
+      [
+        {
+          "type": "single",
+          "title": "MBR-2-M-34",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/mbr-2.png",
+          "br": "1.0",
+          "rp": 0,
+          "sp": 0,
+          "data_unit_id": "mbr-2",
+          "selected": false,
+          "class_name": "prem",
+          "details": true,
+          "main_role": "Bomber"
+        },
+        {
+          "type": "single",
+          "title": "Po-2M",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/po-2m.png",
+          "br": "1.0",
+          "rp": 0,
+          "sp": 0,
+          "data_unit_id": "po-2m",
+          "selected": false,
+          "class_name": "prem",
+          "details": true,
+          "main_role": "Bomber"
+        },
+        {
+          "type": "single",
+          "title": "TB-3M-17-32",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/tb_3_m17_32.png",
+          "br": "1.3",
+          "rp": 0,
+          "sp": 0,
+          "data_unit_id": "tb_3_m17_32",
+          "selected": false,
+          "class_name": "prem",
+          "details": true,
+          "main_role": "Bomber"
+        },
+        {
+          "type": "single",
+          "title": "Zhukovsky's I-153-M62",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/i-153_m62_zhukovskiy.png",
+          "br": "2.3",
+          "rp": 0,
+          "sp": 0,
+          "data_unit_id": "i-153_m62_zhukovskiy",
+          "selected": false,
+          "class_name": "prem",
+          "details": true,
+          "main_role": "Fighter"
+        }
+      ]
+    ],
+    "selected": [],
+    "unlock_quantity": 0
+  },
+  {
+    "rank": "II",
+    "researchable_vehicles": [
+      [
+        {
+          "type": "multiple",
+          "title": "Yak-1",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/yak-1_group.png",
+          "selected": false,
+          "br": "2.3-3.0",
+          "data_unit_id": "yak-1_group",
+          "class_name": "",
+          "items": [
+            {
+              "type": "single",
+              "title": "Yak-1",
+              "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/yak-1_early.png",
+              "br": "2.3",
+              "rp": "7,900",
+              "sp": "10,000",
+              "data_unit_id": "yak-1_early",
+              "selected": false,
+              "class_name": "",
+              "details": true,
+              "main_role": "Fighter"
+            },
+            {
+              "type": "single",
+              "title": "Yak-1B",
+              "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/yak-1b.png",
+              "br": "3.0",
+              "rp": "4,600",
+              "sp": "16,000",
+              "data_unit_id": "yak-1b",
+              "selected": false,
+              "class_name": "",
+              "details": true,
+              "main_role": "Fighter"
+            }
+          ],
+          "details": true
+        },
+        {
+          "type": "single",
+          "title": "Yak-7B",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/yak-7b.png",
+          "br": "2.7",
+          "rp": "9,200",
+          "sp": "16,000",
+          "data_unit_id": "yak-7b",
+          "selected": false,
+          "class_name": "",
+          "details": true,
+          "main_role": "Fighter"
+        },
+        {
+          "type": "multiple",
+          "title": "Yak-9",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/yak-9_group.png",
+          "selected": false,
+          "br": "3.0",
+          "data_unit_id": "yak-9_group",
+          "class_name": "",
+          "items": [
+            {
+              "type": "single",
+              "title": "Yak-9",
+              "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/yak-9.png",
+              "br": "3.0",
+              "rp": "11,000",
+              "sp": "22,000",
+              "data_unit_id": "yak-9",
+              "selected": false,
+              "class_name": "",
+              "details": true,
+              "main_role": "Fighter"
+            },
+            {
+              "type": "single",
+              "title": "Yak-9B",
+              "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/yak-9b.png",
+              "br": "3.0",
+              "rp": "6,900",
+              "sp": "32,000",
+              "data_unit_id": "yak-9b",
+              "selected": false,
+              "class_name": "",
+              "details": true,
+              "main_role": "Fighter"
+            }
+          ],
+          "details": true
+        }
+      ],
+      [
+        {
+          "type": "multiple",
+          "title": "MiG-3",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/mig_3_series_group.png",
+          "selected": false,
+          "br": "2.3-2.7",
+          "data_unit_id": "mig-3_group",
+          "class_name": "",
+          "items": [
+            {
+              "type": "single",
+              "title": "MiG-3-15 (BK)",
+              "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/mig_3_series_1_15_bk_pod.png",
+              "br": "2.3",
+              "rp": "7,900",
+              "sp": "10,000",
+              "data_unit_id": "mig_3_series_1_15_bk_pod",
+              "selected": false,
+              "class_name": "",
+              "details": true,
+              "main_role": "Fighter"
+            },
+            {
+              "type": "single",
+              "title": "MiG-3-34",
+              "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/mig_3_series_34.png",
+              "br": "2.7",
+              "rp": "4,600",
+              "sp": "16,000",
+              "data_unit_id": "mig_3_series_34",
+              "selected": false,
+              "class_name": "",
+              "details": true,
+              "main_role": "Fighter"
+            }
+          ],
+          "details": true
+        },
+        {
+          "type": "single",
+          "title": "I-16 type 27",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/i-16_type27.png",
+          "br": "3.3",
+          "rp": "9,200",
+          "sp": "16,000",
+          "data_unit_id": "i-16_type27",
+          "selected": false,
+          "class_name": "",
+          "details": true,
+          "main_role": "Fighter"
+        }
+      ],
+      [
+        {
+          "type": "multiple",
+          "title": "LaGG-3 (e)",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/lagg-3_group.png",
+          "selected": false,
+          "br": "2.0",
+          "data_unit_id": "lagg-3_group",
+          "class_name": "",
+          "items": [
+            {
+              "type": "single",
+              "title": "LaGG-3-8",
+              "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/lagg-3-8.png",
+              "br": "2.0",
+              "rp": "7,900",
+              "sp": "10,000",
+              "data_unit_id": "lagg-3-8",
+              "selected": false,
+              "class_name": "",
+              "details": true,
+              "main_role": "Fighter"
+            },
+            {
+              "type": "single",
+              "title": "LaGG-3-11",
+              "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/lagg-3-11.png",
+              "br": "2.0",
+              "rp": "4,600",
+              "sp": "16,000",
+              "data_unit_id": "lagg-3-11",
+              "selected": false,
+              "class_name": "",
+              "details": true,
+              "main_role": "Fighter"
+            }
+          ],
+          "details": true
+        },
+        {
+          "type": "multiple",
+          "title": "LaGG-3 (l)",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/lagg-3_late_group.png",
+          "selected": false,
+          "br": "2.3-2.7",
+          "data_unit_id": "lagg-3_late_group",
+          "class_name": "",
+          "items": [
+            {
+              "type": "single",
+              "title": "LaGG-3-35",
+              "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/lagg-3-35.png",
+              "br": "2.3",
+              "rp": "9,200",
+              "sp": "16,000",
+              "data_unit_id": "lagg-3-35",
+              "selected": false,
+              "class_name": "",
+              "details": true,
+              "main_role": "Fighter"
+            },
+            {
+              "type": "single",
+              "title": "LaGG-3-66",
+              "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/lagg-3-66.png",
+              "br": "2.7",
+              "rp": "5,600",
+              "sp": "22,000",
+              "data_unit_id": "lagg-3-66",
+              "selected": false,
+              "class_name": "",
+              "details": true,
+              "main_role": "Fighter"
+            }
+          ],
+          "details": true
+        },
+        {
+          "type": "multiple",
+          "title": "La-5 (e)",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/la_5_group.png",
+          "selected": false,
+          "br": "3.0-3.3",
+          "data_unit_id": "la_5_group",
+          "class_name": "",
+          "items": [
+            {
+              "type": "single",
+              "title": "La-5",
+              "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/la-5_type37_early.png",
+              "br": "3.0",
+              "rp": "11,000",
+              "sp": "22,000",
+              "data_unit_id": "la-5_type37_early",
+              "selected": false,
+              "class_name": "",
+              "details": true,
+              "main_role": "Fighter"
+            },
+            {
+              "type": "single",
+              "title": "La-5F",
+              "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/la-5_type39.png",
+              "br": "3.3",
+              "rp": "6,900",
+              "sp": "32,000",
+              "data_unit_id": "la-5_type39",
+              "selected": false,
+              "class_name": "",
+              "details": true,
+              "main_role": "Fighter"
+            }
+          ],
+          "details": true
+        }
+      ],
+      [
+        {
+          "type": "single",
+          "title": "IL-2 (1941)",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/il_2_1941.png",
+          "br": "2.3",
+          "rp": "7,900",
+          "sp": "10,000",
+          "data_unit_id": "il_2_1941",
+          "selected": false,
+          "class_name": "",
+          "details": true,
+          "main_role": "Strike aircraft"
+        },
+        {
+          "type": "multiple",
+          "title": "IL-2",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/il-2m_group.png",
+          "selected": false,
+          "br": "2.7-3.0",
+          "data_unit_id": "il-2i_group",
+          "class_name": "",
+          "items": [
+            {
+              "type": "single",
+              "title": "IL-2 (1942)",
+              "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/il-2i.png",
+              "br": "3.0",
+              "rp": "9,200",
+              "sp": "16,000",
+              "data_unit_id": "il-2i",
+              "selected": false,
+              "class_name": "",
+              "details": true,
+              "main_role": "Strike aircraft"
+            },
+            {
+              "type": "single",
+              "title": "IL-2-37",
+              "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/il_2_37_1943.png",
+              "br": "2.7",
+              "rp": "5,600",
+              "sp": "22,000",
+              "data_unit_id": "il_2_37_1943",
+              "selected": false,
+              "class_name": "",
+              "details": true,
+              "main_role": "Strike aircraft"
+            }
+          ],
+          "details": true
+        },
+        {
+          "type": "single",
+          "title": "Pe-3bis",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/pe-3_bis.png",
+          "br": "2.7",
+          "rp": "11,000",
+          "sp": "22,000",
+          "data_unit_id": "pe-3_bis",
+          "selected": false,
+          "class_name": "",
+          "details": true,
+          "main_role": "Strike aircraft"
+        }
+      ],
+      [
+        {
+          "type": "multiple",
+          "title": "DB-3/IL-4",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/db_3_group.png",
+          "selected": false,
+          "br": "2.7",
+          "data_unit_id": "db_3_group",
+          "class_name": "",
+          "items": [
+            {
+              "type": "single",
+              "title": "DB-3B",
+              "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/db_3b.png",
+              "br": "2.7",
+              "rp": "7,900",
+              "sp": "10,000",
+              "data_unit_id": "db_3b",
+              "selected": false,
+              "class_name": "",
+              "details": true,
+              "main_role": "Bomber"
+            },
+            {
+              "type": "single",
+              "title": "IL-4",
+              "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/il-4.png",
+              "br": "2.7",
+              "rp": "4,600",
+              "sp": "16,000",
+              "data_unit_id": "il-4",
+              "selected": false,
+              "class_name": "",
+              "details": true,
+              "main_role": "Bomber"
+            }
+          ],
+          "details": true
+        },
+        {
+          "type": "multiple",
+          "title": "Pe-2 (e)",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/pe-2_group.png",
+          "selected": false,
+          "br": "3.3",
+          "data_unit_id": "pe-2_early_group",
+          "class_name": "",
+          "items": [
+            {
+              "type": "single",
+              "title": "Pe-2-1",
+              "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/pe-2-1.png",
+              "br": "3.3",
+              "rp": "9,200",
+              "sp": "16,000",
+              "data_unit_id": "pe-2-1",
+              "selected": false,
+              "class_name": "",
+              "details": true,
+              "main_role": "Bomber"
+            },
+            {
+              "type": "single",
+              "title": "Pe-2-31",
+              "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/pe-2-31.png",
+              "br": "3.3",
+              "rp": "5,600",
+              "sp": "22,000",
+              "data_unit_id": "pe-2-31",
+              "selected": false,
+              "class_name": "",
+              "details": true,
+              "main_role": "Bomber"
+            },
+            {
+              "type": "single",
+              "title": "Pe-2-83",
+              "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/pe-2-83.png",
+              "br": "3.3",
+              "rp": "6,900",
+              "sp": "32,000",
+              "data_unit_id": "pe-2-83",
+              "selected": false,
+              "class_name": "",
+              "details": true,
+              "main_role": "Bomber"
+            }
+          ],
+          "details": true
+        }
+      ]
+    ],
+    "premium_vehicles": [
+      [
+        {
+          "type": "single",
+          "title": "LaGG-3-4",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/lagg-3-4.png",
+          "br": "2.3",
+          "rp": 0,
+          "sp": 0,
+          "data_unit_id": "lagg-3-4",
+          "selected": false,
+          "class_name": "prem",
+          "details": true,
+          "main_role": "Fighter"
+        },
+        {
+          "type": "single",
+          "title": "▂P-40E-1",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/p-40e_ussr.png",
+          "br": "2.7",
+          "rp": 0,
+          "sp": 0,
+          "data_unit_id": "p-40e_ussr",
+          "selected": false,
+          "class_name": "prem",
+          "details": true,
+          "main_role": "Fighter"
+        },
+        {
+          "type": "single",
+          "title": "▂Hurricane Mk IIB",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/hurricanemkii_ussr.png",
+          "br": "3.0",
+          "rp": 0,
+          "sp": 0,
+          "data_unit_id": "hurricanemkii_ussr",
+          "selected": false,
+          "class_name": "prem",
+          "details": true,
+          "main_role": "Fighter"
+        },
+        {
+          "type": "single",
+          "title": "I-153P",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/i-153p.png",
+          "br": "2.7",
+          "rp": 0,
+          "sp": 0,
+          "data_unit_id": "i-153p",
+          "selected": false,
+          "class_name": "prem",
+          "details": true,
+          "main_role": "Fighter"
+        },
+        {
+          "type": "single",
+          "title": "I-16 type 28",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/i-16_type28.png",
+          "br": "3.3",
+          "rp": 0,
+          "sp": 0,
+          "data_unit_id": "i-16_type28",
+          "selected": false,
+          "class_name": "prem",
+          "details": true,
+          "main_role": "Fighter"
+        },
+        {
+          "type": "single",
+          "title": "▂P-39K-1",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/p-39k_1.png",
+          "br": "2.7",
+          "rp": 0,
+          "sp": 0,
+          "data_unit_id": "p-39k_1",
+          "selected": false,
+          "class_name": "prem",
+          "details": true,
+          "main_role": "Fighter"
+        }
+      ],
+      [
+        {
+          "type": "single",
+          "title": "LaGG-3-23",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/lagg-3-23.png",
+          "br": "2.3",
+          "rp": 0,
+          "sp": 0,
+          "data_unit_id": "lagg-3-23",
+          "selected": false,
+          "class_name": "prem",
+          "details": true,
+          "main_role": "Fighter"
+        },
+        {
+          "type": "single",
+          "title": "I-29",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/i_29.png",
+          "br": "3.0",
+          "rp": 0,
+          "sp": 0,
+          "data_unit_id": "i_29",
+          "selected": false,
+          "class_name": "prem",
+          "details": true,
+          "main_role": "Fighter"
+        },
+        {
+          "type": "single",
+          "title": "IL-2 M-82",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/il_2_m82.png",
+          "br": "2.7",
+          "rp": 0,
+          "sp": 0,
+          "data_unit_id": "il_2_m82",
+          "selected": false,
+          "class_name": "prem",
+          "details": true,
+          "main_role": "Strike aircraft"
+        },
+        {
+          "type": "single",
+          "title": "I-180S",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/i_180.png",
+          "br": "3.0",
+          "rp": 0,
+          "sp": 0,
+          "data_unit_id": "i_180",
+          "selected": false,
+          "class_name": "prem",
+          "details": true,
+          "main_role": "Fighter"
+        },
+        {
+          "type": "single",
+          "title": "LaGG-3-34",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/lagg-3-34.png",
+          "br": "2.3",
+          "rp": 0,
+          "sp": 0,
+          "data_unit_id": "lagg-3-34",
+          "selected": false,
+          "class_name": "prem",
+          "details": true,
+          "main_role": "Fighter"
+        },
+        {
+          "type": "single",
+          "title": "I-301",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/lagg-i-301.png",
+          "br": "3.0",
+          "rp": 0,
+          "sp": 0,
+          "data_unit_id": "lagg-i-301",
+          "selected": false,
+          "class_name": "prem",
+          "details": true,
+          "main_role": "Fighter"
+        }
+      ]
+    ],
+    "selected": [],
+    "unlock_quantity": 0
+  },
+  {
+    "rank": "III",
+    "researchable_vehicles": [
+      [
+        {
+          "type": "multiple",
+          "title": "Yak-9T/K",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/yak-9tk_group.png",
+          "selected": false,
+          "br": "4.0",
+          "data_unit_id": "yak-9tk_group",
+          "class_name": "",
+          "items": [
+            {
+              "type": "single",
+              "title": "Yak-9T",
+              "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/yak-9t.png",
+              "br": "4.0",
+              "rp": "18,000",
+              "sp": "47,000",
+              "data_unit_id": "yak-9t",
+              "selected": false,
+              "class_name": "",
+              "details": true,
+              "main_role": "Fighter"
+            },
+            {
+              "type": "single",
+              "title": "Yak-9K",
+              "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/yak-9k.png",
+              "br": "4.0",
+              "rp": "13,000",
+              "sp": "76,000",
+              "data_unit_id": "yak-9k",
+              "selected": false,
+              "class_name": "",
+              "details": true,
+              "main_role": "Fighter"
+            }
+          ],
+          "details": true
+        },
+        {
+          "type": "multiple",
+          "title": "Yak-3/9U",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/yak-3_group.png",
+          "selected": false,
+          "br": "4.3-4.7",
+          "data_unit_id": "yak-3_group",
+          "class_name": "",
+          "items": [
+            {
+              "type": "single",
+              "title": "Yak-3",
+              "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/yak-3.png",
+              "br": "4.3",
+              "rp": "26,000",
+              "sp": "76,000",
+              "data_unit_id": "yak-3",
+              "selected": false,
+              "class_name": "",
+              "details": true,
+              "main_role": "Fighter"
+            },
+            {
+              "type": "single",
+              "title": "Yak-9U",
+              "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/yak-9u.png",
+              "br": "4.7",
+              "rp": "17,000",
+              "sp": "105,000",
+              "data_unit_id": "yak-9u",
+              "selected": false,
+              "class_name": "",
+              "details": true,
+              "main_role": "Fighter"
+            }
+          ],
+          "details": true
+        }
+      ],
+      [
+        {
+          "type": "single",
+          "title": "I-185 (M-82)",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/i_185_m82.png",
+          "br": "3.7",
+          "rp": "18,000",
+          "sp": "47,000",
+          "data_unit_id": "i_185_m82",
+          "selected": false,
+          "class_name": "",
+          "details": true,
+          "main_role": "Fighter"
+        },
+        {
+          "type": "single",
+          "title": "I-185 (M-71)",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/i_185_m71_standard.png",
+          "br": "4.3",
+          "rp": "26,000",
+          "sp": "76,000",
+          "data_unit_id": "i_185_m71_standard",
+          "selected": false,
+          "class_name": "",
+          "details": true,
+          "main_role": "Fighter"
+        }
+      ],
+      [
+        {
+          "type": "single",
+          "title": "La-5FN",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/la-5fn.png",
+          "br": "3.7",
+          "rp": "18,000",
+          "sp": "47,000",
+          "data_unit_id": "la-5fn",
+          "selected": false,
+          "class_name": "",
+          "details": true,
+          "main_role": "Fighter"
+        },
+        {
+          "type": "single",
+          "title": "La-7",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/la-7.png",
+          "br": "4.7",
+          "rp": "26,000",
+          "sp": "76,000",
+          "data_unit_id": "la-7",
+          "selected": false,
+          "class_name": "",
+          "details": true,
+          "main_role": "Fighter"
+        }
+      ],
+      [
+        {
+          "type": "multiple",
+          "title": "IL-2M",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/il-2m_group.png",
+          "selected": false,
+          "br": "3.3",
+          "data_unit_id": "il-2m_group",
+          "class_name": "",
+          "items": [
+            {
+              "type": "single",
+              "title": "IL-2M (1943)",
+              "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/il_2m_1943.png",
+              "br": "3.3",
+              "rp": "18,000",
+              "sp": "47,000",
+              "data_unit_id": "il_2m_1943",
+              "selected": false,
+              "class_name": "",
+              "details": true,
+              "main_role": "Strike aircraft"
+            },
+            {
+              "type": "single",
+              "title": "IL-2M type 3",
+              "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/il-2m.png",
+              "br": "3.3",
+              "rp": "13,000",
+              "sp": "76,000",
+              "data_unit_id": "il-2m",
+              "selected": false,
+              "class_name": "",
+              "details": true,
+              "main_role": "Strike aircraft"
+            }
+          ],
+          "details": true
+        },
+        {
+          "type": "single",
+          "title": "Su-6 (M-71F)",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/su-6_m71.png",
+          "br": "4.3",
+          "rp": "33,000",
+          "sp": "105,000",
+          "data_unit_id": "su-6_m71",
+          "selected": false,
+          "class_name": "",
+          "details": true,
+          "main_role": "Strike aircraft"
+        }
+      ],
+      [
+        {
+          "type": "multiple",
+          "title": "Yer-2",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/er-2_group.png",
+          "selected": false,
+          "br": "3.3-3.7",
+          "data_unit_id": "er-2_group",
+          "class_name": "",
+          "items": [
+            {
+              "type": "single",
+              "title": "Yer-2 (M-105)",
+              "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/er-2_m105_mv3.png",
+              "br": "3.3",
+              "rp": "18,000",
+              "sp": "47,000",
+              "data_unit_id": "er-2_m105_mv3",
+              "selected": false,
+              "class_name": "",
+              "details": true,
+              "main_role": "Bomber"
+            },
+            {
+              "type": "single",
+              "title": "Yer-2 (M-105R) LU",
+              "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/er-2_m105r_lu2b.png",
+              "br": "3.7",
+              "rp": "13,000",
+              "sp": "76,000",
+              "data_unit_id": "er-2_m105r_lu2b",
+              "selected": false,
+              "class_name": "",
+              "details": true,
+              "main_role": "Bomber"
+            },
+            {
+              "type": "single",
+              "title": "Yer-2 (M-105) TAT",
+              "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/er-2_m105_tat.png",
+              "br": "3.7",
+              "rp": null,
+              "sp": null,
+              "data_unit_id": "er-2_m105_tat",
+              "selected": false,
+              "class_name": "",
+              "details": true,
+              "main_role": "Bomber"
+            },
+            {
+              "type": "single",
+              "title": "Yer-2 (M-105R) TAT",
+              "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/er-2_m105r_tat.png",
+              "br": "3.7",
+              "rp": null,
+              "sp": null,
+              "data_unit_id": "er-2_m105r_tat",
+              "selected": false,
+              "class_name": "",
+              "details": true,
+              "main_role": "Bomber"
+            }
+          ],
+          "details": true
+        },
+        {
+          "type": "multiple",
+          "title": "Pe-2 (l)",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/pe-2_late_group.png",
+          "selected": false,
+          "br": "3.7-4.3",
+          "data_unit_id": "pe-2_late_group",
+          "class_name": "",
+          "items": [
+            {
+              "type": "single",
+              "title": "Pe-2-110",
+              "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/pe-2-110.png",
+              "br": "3.7",
+              "rp": "26,000",
+              "sp": "76,000",
+              "data_unit_id": "pe-2-110",
+              "selected": false,
+              "class_name": "",
+              "details": true,
+              "main_role": "Bomber"
+            },
+            {
+              "type": "single",
+              "title": "Pe-2-359",
+              "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/pe-2-359.png",
+              "br": "4.3",
+              "rp": "17,000",
+              "sp": "105,000",
+              "data_unit_id": "pe-2-359",
+              "selected": false,
+              "class_name": "",
+              "details": true,
+              "main_role": "Bomber"
+            }
+          ],
+          "details": true
+        },
+        {
+          "type": "single",
+          "title": "Pe-8",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/pe-8_m82.png",
+          "br": "4.3",
+          "rp": "33,000",
+          "sp": "105,000",
+          "data_unit_id": "pe-8_m82",
+          "selected": false,
+          "class_name": "",
+          "details": true,
+          "main_role": "Bomber"
+        }
+      ]
+    ],
+    "premium_vehicles": [
+      [
+        {
+          "type": "single",
+          "title": "▂A-20G-30",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/a_20g_30_ussr.png",
+          "br": "3.7",
+          "rp": 0,
+          "sp": 0,
+          "data_unit_id": "a_20g_30_ussr",
+          "selected": false,
+          "class_name": "prem",
+          "details": true,
+          "main_role": "Bomber"
+        },
+        {
+          "type": "single",
+          "title": "▂Pokryshkin's P-39N-0",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/p-39n_su.png",
+          "br": "3.0",
+          "rp": 0,
+          "sp": 0,
+          "data_unit_id": "p-39n_su",
+          "selected": false,
+          "class_name": "prem",
+          "details": true,
+          "main_role": "Fighter"
+        },
+        {
+          "type": "single",
+          "title": "▂P-39Q-15",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/p-39q_15.png",
+          "br": "3.3",
+          "rp": 0,
+          "sp": 0,
+          "data_unit_id": "p-39q_15",
+          "selected": false,
+          "class_name": "prem",
+          "details": true,
+          "main_role": "Fighter"
+        },
+        {
+          "type": "single",
+          "title": "▂P-63A-5",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/p-63a-5_ussr.png",
+          "br": "3.3",
+          "rp": 0,
+          "sp": 0,
+          "data_unit_id": "p-63a-5_ussr",
+          "selected": false,
+          "class_name": "prem",
+          "details": true,
+          "main_role": "Fighter"
+        },
+        {
+          "type": "single",
+          "title": "▂P-47D-27",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/p-47d_ussr.png",
+          "br": "4.3",
+          "rp": 0,
+          "sp": 0,
+          "data_unit_id": "p-47d_ussr",
+          "selected": false,
+          "class_name": "prem",
+          "details": true,
+          "main_role": "Fighter"
+        },
+        {
+          "type": "single",
+          "title": "▂B-25J-30",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/b_25j_30_vvs_ussr.png",
+          "br": "3.7",
+          "rp": 0,
+          "sp": 0,
+          "data_unit_id": "b_25j_30_vvs_ussr",
+          "selected": false,
+          "class_name": "prem",
+          "details": true,
+          "main_role": "Bomber"
+        },
+        {
+          "type": "single",
+          "title": "Eremin's Yak-3(e)",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/yak-3_eremin.png",
+          "br": "4.0",
+          "rp": 0,
+          "sp": 0,
+          "data_unit_id": "yak-3_eremin",
+          "selected": false,
+          "class_name": "prem",
+          "details": true,
+          "main_role": "Fighter"
+        }
+      ],
+      [
+        {
+          "type": "single",
+          "title": "IL-2M \"Avenger\"",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/il-2m_mstitel.png",
+          "br": "3.3",
+          "rp": 0,
+          "sp": 0,
+          "data_unit_id": "il-2m_mstitel",
+          "selected": false,
+          "class_name": "prem",
+          "details": true,
+          "main_role": "Strike aircraft"
+        },
+        {
+          "type": "single",
+          "title": "Golovachev's Yak-9M",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/yak-9m.png",
+          "br": "3.7",
+          "rp": 0,
+          "sp": 0,
+          "data_unit_id": "yak-9m",
+          "selected": false,
+          "class_name": "prem",
+          "details": true,
+          "main_role": "Fighter"
+        },
+        {
+          "type": "single",
+          "title": "Pe-2-205",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/pe-2-205.png",
+          "br": "3.7",
+          "rp": 0,
+          "sp": 0,
+          "data_unit_id": "pe-2-205",
+          "selected": false,
+          "class_name": "prem",
+          "details": true,
+          "main_role": "Bomber"
+        },
+        {
+          "type": "single",
+          "title": "IL-8 (1944)",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/il_8_1944.png",
+          "br": "3.7",
+          "rp": 0,
+          "sp": 0,
+          "data_unit_id": "il_8_1944",
+          "selected": false,
+          "class_name": "prem",
+          "details": true,
+          "main_role": "Strike aircraft"
+        },
+        {
+          "type": "single",
+          "title": "TIS MA",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/tis_ma.png",
+          "br": "4.3",
+          "rp": 0,
+          "sp": 0,
+          "data_unit_id": "tis_ma",
+          "selected": false,
+          "class_name": "prem",
+          "details": true,
+          "main_role": "Strike aircraft"
+        },
+        {
+          "type": "single",
+          "title": "ITP (M-1)",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/itp_m1.png",
+          "br": "4.0",
+          "rp": 0,
+          "sp": 0,
+          "data_unit_id": "itp_m1",
+          "selected": false,
+          "class_name": "prem",
+          "details": true,
+          "main_role": "Fighter"
+        },
+        {
+          "type": "single",
+          "title": "Tu-2",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/tu-2_early.png",
+          "br": "4.7",
+          "rp": null,
+          "sp": null,
+          "data_unit_id": "tu-2_early",
+          "selected": false,
+          "class_name": "",
+          "details": true,
+          "main_role": "Bomber"
+        }
+      ]
+    ],
+    "selected": [],
+    "unlock_quantity": 0
+  },
+  {
+    "rank": "IV",
+    "researchable_vehicles": [
+      [
+        {
+          "type": "multiple",
+          "title": "Yak-3P/9P",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/yak-9up_group.png",
+          "selected": false,
+          "br": "5.0",
+          "data_unit_id": "yak-9up_group",
+          "class_name": "",
+          "items": [
+            {
+              "type": "single",
+              "title": "Yak-3P",
+              "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/yak-3p.png",
+              "br": "5.0",
+              "rp": "54,000",
+              "sp": "185,000",
+              "data_unit_id": "yak-3p",
+              "selected": false,
+              "class_name": "",
+              "details": true,
+              "main_role": "Fighter"
+            },
+            {
+              "type": "single",
+              "title": "Yak-9P",
+              "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/yak-9p.png",
+              "br": "5.0",
+              "rp": "31,000",
+              "sp": "200,000",
+              "data_unit_id": "yak-9p",
+              "selected": false,
+              "class_name": "",
+              "details": true,
+              "main_role": "Fighter"
+            }
+          ],
+          "details": true
+        },
+        {
+          "type": "multiple",
+          "title": "Yak-3U/9UT",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/yak-3up_group.png",
+          "selected": false,
+          "br": "5.7",
+          "data_unit_id": "yak-3up_group",
+          "class_name": "",
+          "items": [
+            {
+              "type": "single",
+              "title": "Yak-3U",
+              "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/yak-3u.png",
+              "br": "5.7",
+              "rp": "63,000",
+              "sp": "200,000",
+              "data_unit_id": "yak-3u",
+              "selected": false,
+              "class_name": "",
+              "details": true,
+              "main_role": "Fighter"
+            },
+            {
+              "type": "single",
+              "title": "Yak-9UT",
+              "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/yak-9ut.png",
+              "br": "5.7",
+              "rp": "35,000",
+              "sp": "210,000",
+              "data_unit_id": "yak-9ut",
+              "selected": false,
+              "class_name": "",
+              "details": true,
+              "main_role": "Fighter"
+            }
+          ],
+          "details": true
+        }
+      ],
+      [
+        {
+          "type": "single",
+          "title": "I-225",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/i_225.png",
+          "br": "5.0",
+          "rp": "54,000",
+          "sp": "185,000",
+          "data_unit_id": "i_225",
+          "selected": false,
+          "class_name": "",
+          "details": true,
+          "main_role": "Fighter"
+        }
+      ],
+      [
+        {
+          "type": "single",
+          "title": "La-7B-20",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/la-7b-20.png",
+          "br": "5.0",
+          "rp": "54,000",
+          "sp": "185,000",
+          "data_unit_id": "la-7b-20",
+          "selected": false,
+          "class_name": "",
+          "details": true,
+          "main_role": "Fighter"
+        },
+        {
+          "type": "single",
+          "title": "La-9",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/la-9.png",
+          "br": "6.0",
+          "rp": "71,000",
+          "sp": "210,000",
+          "data_unit_id": "la-9",
+          "selected": false,
+          "class_name": "",
+          "details": true,
+          "main_role": "Fighter"
+        }
+      ],
+      [
+        {
+          "type": "single",
+          "title": "Su-6 (AM-42)",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/su-6_am42.png",
+          "br": "4.7",
+          "rp": "46,000",
+          "sp": "155,000",
+          "data_unit_id": "su-6_am42",
+          "selected": false,
+          "class_name": "",
+          "details": true,
+          "main_role": "Strike aircraft"
+        },
+        {
+          "type": "multiple",
+          "title": "IL-10",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/il-10_group.png",
+          "selected": false,
+          "br": "5.0",
+          "data_unit_id": "il-10_group",
+          "class_name": "",
+          "items": [
+            {
+              "type": "single",
+              "title": "IL-10",
+              "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/il-10.png",
+              "br": "5.0",
+              "rp": "54,000",
+              "sp": "185,000",
+              "data_unit_id": "il-10",
+              "selected": false,
+              "class_name": "",
+              "details": true,
+              "main_role": "Strike aircraft"
+            },
+            {
+              "type": "single",
+              "title": "IL-10 (1946)",
+              "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/il-10_1946.png",
+              "br": "5.0",
+              "rp": "31,000",
+              "sp": "200,000",
+              "data_unit_id": "il-10_1946",
+              "selected": false,
+              "class_name": "",
+              "details": true,
+              "main_role": "Strike aircraft"
+            }
+          ],
+          "details": true
+        }
+      ],
+      [
+        {
+          "type": "multiple",
+          "title": "Yer-2 (l)",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/er-2_ach30b_group.png",
+          "selected": false,
+          "br": "4.3",
+          "data_unit_id": "er-2_late_group",
+          "class_name": "",
+          "items": [
+            {
+              "type": "single",
+              "title": "Yer-2 (ACh-30B) (e)",
+              "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/er-2_ach30b_early.png",
+              "br": "4.3",
+              "rp": "46,000",
+              "sp": "155,000",
+              "data_unit_id": "er-2_ach30b_early",
+              "selected": false,
+              "class_name": "",
+              "details": true,
+              "main_role": "Bomber"
+            },
+            {
+              "type": "single",
+              "title": "Yer-2 (ACh-30B) (l)",
+              "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/er-2_ach30b_late.png",
+              "br": "4.3",
+              "rp": "27,000",
+              "sp": "185,000",
+              "data_unit_id": "er-2_ach30b_late",
+              "selected": false,
+              "class_name": "",
+              "details": true,
+              "main_role": "Bomber"
+            }
+          ],
+          "details": true
+        },
+        {
+          "type": "multiple",
+          "title": "Tu-2",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/tu-2_group.png",
+          "selected": false,
+          "br": "5.3-5.7",
+          "data_unit_id": "tu-2_group",
+          "class_name": "",
+          "items": [
+            {
+              "type": "single",
+              "title": "Tu-2S",
+              "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/tu-2.png",
+              "br": "5.3",
+              "rp": "54,000",
+              "sp": "185,000",
+              "data_unit_id": "tu-2",
+              "selected": false,
+              "class_name": "",
+              "details": true,
+              "main_role": "Bomber"
+            },
+            {
+              "type": "single",
+              "title": "Tu-2S-44",
+              "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/tu-2_postwar.png",
+              "br": "5.3",
+              "rp": "31,000",
+              "sp": "200,000",
+              "data_unit_id": "tu-2_postwar",
+              "selected": false,
+              "class_name": "",
+              "details": true,
+              "main_role": "Bomber"
+            },
+            {
+              "type": "single",
+              "title": "Tu-2S-59",
+              "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/tu-2_postwar_late.png",
+              "br": "5.7",
+              "rp": "35,000",
+              "sp": "210,000",
+              "data_unit_id": "tu-2_postwar_late",
+              "selected": false,
+              "class_name": "",
+              "details": true,
+              "main_role": "Bomber"
+            }
+          ],
+          "details": true
+        }
+      ]
+    ],
+    "premium_vehicles": [
+      [
+        {
+          "type": "single",
+          "title": "Su-6",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/su_6_single.png",
+          "br": "4.0",
+          "rp": 0,
+          "sp": 0,
+          "data_unit_id": "su_6_single",
+          "selected": false,
+          "class_name": "prem",
+          "details": true,
+          "main_role": "Strike aircraft"
+        },
+        {
+          "type": "single",
+          "title": "Dolgushin's La-7",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/la-7_dolgushin.png",
+          "br": "4.7",
+          "rp": 0,
+          "sp": 0,
+          "data_unit_id": "la-7_dolgushin",
+          "selected": false,
+          "class_name": "prem",
+          "details": true,
+          "main_role": "Fighter"
+        },
+        {
+          "type": "single",
+          "title": "Be-6",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/be_6.png",
+          "br": "5.0",
+          "rp": 0,
+          "sp": 0,
+          "data_unit_id": "be_6",
+          "selected": false,
+          "class_name": "prem",
+          "details": true,
+          "main_role": "Bomber"
+        },
+        {
+          "type": "single",
+          "title": "La-11",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/la-11.png",
+          "br": "5.3",
+          "rp": 0,
+          "sp": 0,
+          "data_unit_id": "la-11",
+          "selected": false,
+          "class_name": "prem",
+          "details": true,
+          "main_role": "Fighter"
+        },
+        {
+          "type": "single",
+          "title": "▂Spitfire Mk IXc",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/spitfire_ix_ussr.png",
+          "br": "5.7",
+          "rp": 0,
+          "sp": 0,
+          "data_unit_id": "spitfire_ix_ussr",
+          "selected": false,
+          "class_name": "prem",
+          "details": true,
+          "main_role": "Fighter"
+        },
+        {
+          "type": "single",
+          "title": "Yak-3 (VK-107)",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/yak-3_vk107.png",
+          "br": "5.7",
+          "rp": 0,
+          "sp": 0,
+          "data_unit_id": "yak-3_vk107",
+          "selected": false,
+          "class_name": "prem",
+          "details": true,
+          "main_role": "Fighter"
+        }
+      ],
+      [
+        {
+          "type": "single",
+          "title": "▂P-63C-5",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/p-63c-5_ussr.png",
+          "br": "4.0",
+          "rp": 0,
+          "sp": 0,
+          "data_unit_id": "p-63c-5_ussr",
+          "selected": false,
+          "class_name": "prem",
+          "details": true,
+          "main_role": "Fighter"
+        },
+        {
+          "type": "single",
+          "title": "▂P-63A-10",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/p-63a-10_ussr.png",
+          "br": "4.0",
+          "rp": 0,
+          "sp": 0,
+          "data_unit_id": "p-63a-10_ussr",
+          "selected": false,
+          "class_name": "prem",
+          "details": true,
+          "main_role": "Fighter"
+        },
+        {
+          "type": "single",
+          "title": "Su-8",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/su-8.png",
+          "br": "4.7",
+          "rp": 0,
+          "sp": 0,
+          "data_unit_id": "su-8",
+          "selected": false,
+          "class_name": "prem",
+          "details": true,
+          "main_role": "Strike aircraft"
+        },
+        {
+          "type": "single",
+          "title": "▂Fw 190 D-9",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/fw-190d-9_ussr.png",
+          "br": "5.0",
+          "rp": 0,
+          "sp": 0,
+          "data_unit_id": "fw-190d-9_ussr",
+          "selected": false,
+          "class_name": "prem",
+          "details": true,
+          "main_role": "Fighter"
+        },
+        {
+          "type": "single",
+          "title": "Yak-3T",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/yak-3t.png",
+          "br": "5.0",
+          "rp": 0,
+          "sp": 0,
+          "data_unit_id": "yak-3t",
+          "selected": false,
+          "class_name": "prem",
+          "details": true,
+          "main_role": "Fighter"
+        },
+        {
+          "type": "single",
+          "title": "Tu-1",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/tu-1.png",
+          "br": "5.3",
+          "rp": 0,
+          "sp": 0,
+          "data_unit_id": "tu-1",
+          "selected": false,
+          "class_name": "prem",
+          "details": true,
+          "main_role": "Strike aircraft"
+        }
+      ]
+    ],
+    "selected": [],
+    "unlock_quantity": 0
+  },
+  {
+    "rank": "V",
+    "researchable_vehicles": [
+      [
+        {
+          "type": "multiple",
+          "title": "Yak-15/17",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/yak-15_group.png",
+          "selected": false,
+          "br": "6.3-6.7",
+          "data_unit_id": "yak-15_group",
+          "class_name": "",
+          "items": [
+            {
+              "type": "single",
+              "title": "Yak-15P",
+              "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/yak-15_early.png",
+              "br": "6.3",
+              "rp": "82,000",
+              "sp": "240,000",
+              "data_unit_id": "yak-15_early",
+              "selected": false,
+              "class_name": "",
+              "details": true,
+              "main_role": "Fighter"
+            },
+            {
+              "type": "single",
+              "title": "Yak-15",
+              "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/yak-15.png",
+              "br": "6.7",
+              "rp": "48,000",
+              "sp": "270,000",
+              "data_unit_id": "yak-15",
+              "selected": false,
+              "class_name": "",
+              "details": true,
+              "main_role": "Fighter"
+            },
+            {
+              "type": "single",
+              "title": "Yak-17",
+              "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/yak-17.png",
+              "br": "6.7",
+              "rp": "53,000",
+              "sp": "300,000",
+              "data_unit_id": "yak-17",
+              "selected": false,
+              "class_name": "",
+              "details": true,
+              "main_role": "Fighter"
+            }
+          ],
+          "details": true
+        },
+        {
+          "type": "single",
+          "title": "Yak-23",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/yak-23.png",
+          "br": "8.3",
+          "rp": "120,000",
+          "sp": "340,000",
+          "data_unit_id": "yak-23",
+          "selected": false,
+          "class_name": "",
+          "details": true,
+          "main_role": "Fighter"
+        }
+      ],
+      [
+        {
+          "type": "multiple",
+          "title": "MiG-9",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/mig-9_group.png",
+          "selected": false,
+          "br": "7.3",
+          "data_unit_id": "mig-9_group",
+          "class_name": "",
+          "items": [
+            {
+              "type": "single",
+              "title": "MiG-9",
+              "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/mig-9.png",
+              "br": "7.3",
+              "rp": "95,000",
+              "sp": "270,000",
+              "data_unit_id": "mig-9",
+              "selected": false,
+              "class_name": "",
+              "details": true,
+              "main_role": "Fighter"
+            },
+            {
+              "type": "single",
+              "title": "MiG-9 (l)",
+              "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/mig-9_ussr.png",
+              "br": "7.3",
+              "rp": "53,000",
+              "sp": "300,000",
+              "data_unit_id": "mig-9_ussr",
+              "selected": false,
+              "class_name": "",
+              "details": true,
+              "main_role": "Fighter"
+            }
+          ],
+          "details": true
+        },
+        {
+          "type": "multiple",
+          "title": "MiG-15",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/mig-15_group.png",
+          "selected": false,
+          "br": "8.0-8.3",
+          "data_unit_id": "mig-15_group",
+          "class_name": "",
+          "items": [
+            {
+              "type": "single",
+              "title": "MiG-15",
+              "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/mig-15_ns23.png",
+              "br": "8.0",
+              "rp": "120,000",
+              "sp": "340,000",
+              "data_unit_id": "mig-15_ns23",
+              "selected": false,
+              "class_name": "",
+              "details": true,
+              "main_role": "Fighter"
+            },
+            {
+              "type": "single",
+              "title": "MiG-15bis",
+              "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/mig-15.png",
+              "br": "8.3",
+              "rp": "61,000",
+              "sp": "340,000",
+              "data_unit_id": "mig-15",
+              "selected": false,
+              "class_name": "",
+              "details": true,
+              "main_role": "Fighter"
+            }
+          ],
+          "details": true
+        }
+      ],
+      [
+        {
+          "type": "single",
+          "title": "Su-9",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/su-9.png",
+          "br": "7.0",
+          "rp": "95,000",
+          "sp": "270,000",
+          "data_unit_id": "su-9",
+          "selected": false,
+          "class_name": "",
+          "details": true,
+          "main_role": "Fighter"
+        },
+        {
+          "type": "multiple",
+          "title": "La-200/La-15",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/la_200_group.png",
+          "selected": false,
+          "br": "7.7-8.0",
+          "data_unit_id": "la_200_group",
+          "class_name": "",
+          "items": [
+            {
+              "type": "single",
+              "title": "La-200",
+              "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/la_200_toriy.png",
+              "br": "7.7",
+              "rp": "105,000",
+              "sp": "300,000",
+              "data_unit_id": "la_200_toriy",
+              "selected": false,
+              "class_name": "",
+              "details": true,
+              "main_role": "Fighter"
+            },
+            {
+              "type": "single",
+              "title": "La-15",
+              "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/la-15.png",
+              "br": "8.0",
+              "rp": "61,000",
+              "sp": "340,000",
+              "data_unit_id": "la-15",
+              "selected": false,
+              "class_name": "",
+              "details": true,
+              "main_role": "Fighter"
+            }
+          ],
+          "details": true
+        }
+      ],
+      [
+        {
+          "type": "multiple",
+          "title": "IL-28",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/il_28_group.png",
+          "selected": false,
+          "br": "8.0",
+          "data_unit_id": "il_28_group",
+          "class_name": "",
+          "items": [
+            {
+              "type": "single",
+              "title": "IL-28",
+              "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/il_28.png",
+              "br": "8.0",
+              "rp": "105,000",
+              "sp": "300,000",
+              "data_unit_id": "il_28",
+              "selected": false,
+              "class_name": "",
+              "details": true,
+              "main_role": "Bomber"
+            },
+            {
+              "type": "single",
+              "title": "IL-28Sh",
+              "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/il_28sh.png",
+              "br": "8.0",
+              "rp": "61,000",
+              "sp": "340,000",
+              "data_unit_id": "il_28sh",
+              "selected": false,
+              "class_name": "",
+              "details": true,
+              "main_role": "Bomber"
+            }
+          ],
+          "details": true
+        }
+      ],
+      [
+        {
+          "type": "single",
+          "title": "Tu-4",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/tu_4.png",
+          "br": "8.0",
+          "rp": "105,000",
+          "sp": "300,000",
+          "data_unit_id": "tu_4",
+          "selected": false,
+          "class_name": "",
+          "details": true,
+          "main_role": "Bomber"
+        },
+        {
+          "type": "single",
+          "title": "Tu-14T",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/tu_14t.png",
+          "br": "8.0",
+          "rp": "120,000",
+          "sp": "340,000",
+          "data_unit_id": "tu_14t",
+          "selected": false,
+          "class_name": "",
+          "details": true,
+          "main_role": "Bomber"
+        }
+      ]
+    ],
+    "premium_vehicles": [
+      [
+        {
+          "type": "single",
+          "title": "▂L-39ZA Albatros",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/l_39za.png",
+          "br": "6.7",
+          "rp": 0,
+          "sp": 0,
+          "data_unit_id": "l_39za",
+          "selected": false,
+          "class_name": "prem",
+          "details": true,
+          "main_role": "Strike aircraft"
+        },
+        {
+          "type": "single",
+          "title": "Su-11",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/su-11.png",
+          "br": "7.3",
+          "rp": 0,
+          "sp": 0,
+          "data_unit_id": "su-11",
+          "selected": false,
+          "class_name": "prem",
+          "details": true,
+          "main_role": "Fighter"
+        },
+        {
+          "type": "single",
+          "title": "MiG-15bis ISh",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/mig-15bis_ish.png",
+          "br": "8.0",
+          "rp": 0,
+          "sp": 0,
+          "data_unit_id": "mig-15bis_ish",
+          "selected": false,
+          "class_name": "prem",
+          "details": true,
+          "main_role": "Fighter"
+        }
+      ],
+      [
+        {
+          "type": "single",
+          "title": "BI",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/bi.png",
+          "br": "6.7",
+          "rp": null,
+          "sp": null,
+          "data_unit_id": "bi",
+          "selected": false,
+          "class_name": "",
+          "details": true,
+          "main_role": "Fighter"
+        },
+        {
+          "type": "single",
+          "title": "La-174",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/la_174.png",
+          "br": "8.0",
+          "rp": null,
+          "sp": null,
+          "data_unit_id": "la_174",
+          "selected": false,
+          "class_name": "",
+          "details": true,
+          "main_role": "Fighter"
+        }
+      ]
+    ],
+    "selected": [],
+    "unlock_quantity": 0
+  },
+  {
+    "rank": "VI",
+    "researchable_vehicles": [
+      [
+        {
+          "type": "single",
+          "title": "Yak-30D",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/yak-30d.png",
+          "br": "8.3",
+          "rp": "135,000",
+          "sp": "380,000",
+          "data_unit_id": "yak-30d",
+          "selected": false,
+          "class_name": "",
+          "details": true,
+          "main_role": "Fighter"
+        },
+        {
+          "type": "single",
+          "title": "Yak-38M",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/yak-38m.png",
+          "br": "9.3",
+          "rp": "190,000",
+          "sp": "530,000",
+          "data_unit_id": "yak-38m",
+          "selected": false,
+          "class_name": "",
+          "details": true,
+          "main_role": "Strike aircraft"
+        }
+      ],
+      [
+        {
+          "type": "single",
+          "title": "MiG-17",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/mig-17.png",
+          "br": "8.7",
+          "rp": "150,000",
+          "sp": "420,000",
+          "data_unit_id": "mig-17",
+          "selected": false,
+          "class_name": "",
+          "details": true,
+          "main_role": "Fighter"
+        },
+        {
+          "type": "multiple",
+          "title": "MiG-19/MiG-21",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/mig-19_group.png",
+          "selected": false,
+          "br": "9.3",
+          "data_unit_id": "mig-19_group",
+          "class_name": "",
+          "items": [
+            {
+              "type": "single",
+              "title": "MiG-19PT",
+              "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/mig-19pt.png",
+              "br": "9.3",
+              "rp": "170,000",
+              "sp": "480,000",
+              "data_unit_id": "mig-19pt",
+              "selected": false,
+              "class_name": "",
+              "details": true,
+              "main_role": "Fighter"
+            },
+            {
+              "type": "single",
+              "title": "MiG-21F-13",
+              "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/mig-21_f13.png",
+              "br": "9.3",
+              "rp": "96,000",
+              "sp": "530,000",
+              "data_unit_id": "mig-21_f13",
+              "selected": false,
+              "class_name": "",
+              "details": true,
+              "main_role": "Fighter"
+            }
+          ],
+          "details": true
+        }
+      ],
+      [
+        {
+          "type": "multiple",
+          "title": "Su-7B/BKL",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/su-7_group.png",
+          "selected": false,
+          "br": "9.0",
+          "data_unit_id": "su-7_group",
+          "class_name": "",
+          "items": [
+            {
+              "type": "single",
+              "title": "Su-7B",
+              "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/su-7b.png",
+              "br": "9.0",
+              "rp": "170,000",
+              "sp": "480,000",
+              "data_unit_id": "su-7b",
+              "selected": false,
+              "class_name": "",
+              "details": true,
+              "main_role": "Strike aircraft"
+            },
+            {
+              "type": "single",
+              "title": "Su-7BKL",
+              "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/su-7bkl.png",
+              "br": "9.0",
+              "rp": "96,000",
+              "sp": "530,000",
+              "data_unit_id": "su-7bkl",
+              "selected": false,
+              "class_name": "",
+              "details": true,
+              "main_role": "Strike aircraft"
+            }
+          ],
+          "details": true
+        }
+      ],
+      [
+        {
+          "type": "single",
+          "title": "Su-25",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/su_25.png",
+          "br": "10.3",
+          "rp": "190,000",
+          "sp": "530,000",
+          "data_unit_id": "su_25",
+          "selected": false,
+          "class_name": "",
+          "details": true,
+          "main_role": "Strike aircraft"
+        }
+      ],
+      [
+        {
+          "type": "single",
+          "title": "Yak-28B",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/yak-28b.png",
+          "br": "9.0",
+          "rp": "170,000",
+          "sp": "480,000",
+          "data_unit_id": "yak-28b",
+          "selected": false,
+          "class_name": "",
+          "details": true,
+          "main_role": "Bomber"
+        }
+      ]
+    ],
+    "premium_vehicles": [
+      [
+        {
+          "type": "single",
+          "title": "MiG-17AS",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/mig-17_cuba.png",
+          "br": "9.0",
+          "rp": 0,
+          "sp": 0,
+          "data_unit_id": "mig-17_cuba",
+          "selected": false,
+          "class_name": "prem",
+          "details": true,
+          "main_role": "Fighter"
+        },
+        {
+          "type": "single",
+          "title": "Yak-38",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/yak-38.png",
+          "br": "9.3",
+          "rp": 0,
+          "sp": 0,
+          "data_unit_id": "yak-38",
+          "selected": false,
+          "class_name": "prem",
+          "details": true,
+          "main_role": "Strike aircraft"
+        },
+        {
+          "type": "single",
+          "title": "MiG-21S (R-13-300)",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/mig-21_s.png",
+          "br": "9.7",
+          "rp": 0,
+          "sp": 0,
+          "data_unit_id": "mig-21_s",
+          "selected": false,
+          "class_name": "prem",
+          "details": true,
+          "main_role": "Fighter"
+        }
+      ],
+      [
+        {
+          "type": "single",
+          "title": "MiG-21PFM",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/mig-21_pfm.png",
+          "br": "9.3",
+          "rp": null,
+          "sp": null,
+          "data_unit_id": "mig-21_pfm",
+          "selected": false,
+          "class_name": "",
+          "details": true,
+          "main_role": "Fighter"
+        },
+        {
+          "type": "single",
+          "title": "Su-7BMK",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/su-7bmk.png",
+          "br": "9.0",
+          "rp": 0,
+          "sp": 0,
+          "data_unit_id": "su-7bmk",
+          "selected": false,
+          "class_name": "prem",
+          "details": true,
+          "main_role": "Strike aircraft"
+        },
+        {
+          "type": "single",
+          "title": "Su-25K",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/su_25k.png",
+          "br": "10.3",
+          "rp": 0,
+          "sp": 0,
+          "data_unit_id": "su_25k",
+          "selected": false,
+          "class_name": "prem",
+          "details": true,
+          "main_role": "Strike aircraft"
+        }
+      ]
+    ],
+    "selected": [],
+    "unlock_quantity": 0
+  },
+  {
+    "rank": "VII",
+    "researchable_vehicles": [
+      [],
+      [
+        {
+          "type": "multiple",
+          "title": "MiG-21",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/mig-21_group.png",
+          "selected": false,
+          "br": "10.3-11.0",
+          "data_unit_id": "mig-21_group",
+          "class_name": "",
+          "items": [
+            {
+              "type": "single",
+              "title": "MiG-21SMT",
+              "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/mig-21_smt.png",
+              "br": "10.3",
+              "rp": "210,000",
+              "sp": "580,000",
+              "data_unit_id": "mig-21_smt",
+              "selected": false,
+              "class_name": "",
+              "details": true,
+              "main_role": "Fighter"
+            },
+            {
+              "type": "single",
+              "title": "MiG-21bis",
+              "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/mig-21_bis.png",
+              "br": "11.0",
+              "rp": "115,000",
+              "sp": "630,000",
+              "data_unit_id": "mig-21_bis",
+              "selected": false,
+              "class_name": "",
+              "details": true,
+              "main_role": "Fighter"
+            }
+          ],
+          "details": true
+        },
+        {
+          "type": "multiple",
+          "title": "MiG-23",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/mig-23m_group.png",
+          "selected": false,
+          "br": "11.0-11.7",
+          "data_unit_id": "mig-23m_group",
+          "class_name": "",
+          "items": [
+            {
+              "type": "single",
+              "title": "MiG-23M",
+              "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/mig_23m.png",
+              "br": "11.0",
+              "rp": "230,000",
+              "sp": "630,000",
+              "data_unit_id": "mig_23m",
+              "selected": false,
+              "class_name": "",
+              "details": true,
+              "main_role": "Fighter"
+            },
+            {
+              "type": "single",
+              "title": "MiG-23MLD",
+              "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/mig_23mld.png",
+              "br": "11.7",
+              "rp": "130,000",
+              "sp": "720,000",
+              "data_unit_id": "mig_23mld",
+              "selected": false,
+              "class_name": "",
+              "details": true,
+              "main_role": "Fighter"
+            }
+          ],
+          "details": true
+        }
+      ],
+      [
+        {
+          "type": "single",
+          "title": "Su-17M2",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/su_17m2.png",
+          "br": "10.0",
+          "rp": "210,000",
+          "sp": "580,000",
+          "data_unit_id": "su_17m2",
+          "selected": false,
+          "class_name": "",
+          "details": true,
+          "main_role": "Strike aircraft"
+        },
+        {
+          "type": "single",
+          "title": "Su-17M4",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/su_17m4.png",
+          "br": "11.0",
+          "rp": "230,000",
+          "sp": "630,000",
+          "data_unit_id": "su_17m4",
+          "selected": false,
+          "class_name": "",
+          "details": true,
+          "main_role": "Strike aircraft"
+        }
+      ],
+      [
+        {
+          "type": "single",
+          "title": "Su-25T",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/su_25t.png",
+          "br": "11.3",
+          "rp": "260,000",
+          "sp": "720,000",
+          "data_unit_id": "su_25t",
+          "selected": false,
+          "class_name": "",
+          "details": true,
+          "main_role": "Strike aircraft"
+        }
+      ],
+      [
+        {
+          "type": "multiple",
+          "title": "MiG-27",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/mig_27_group.png",
+          "selected": false,
+          "br": "11.0",
+          "data_unit_id": "mig_27_group",
+          "class_name": "",
+          "items": [
+            {
+              "type": "single",
+              "title": "MiG-27M",
+              "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/mig_27m.png",
+              "br": "11.0",
+              "rp": "230,000",
+              "sp": "630,000",
+              "data_unit_id": "mig_27m",
+              "selected": false,
+              "class_name": "",
+              "details": true,
+              "main_role": "Fighter"
+            },
+            {
+              "type": "single",
+              "title": "MiG-27K",
+              "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/mig_27k.png",
+              "br": "11.0",
+              "rp": "130,000",
+              "sp": "720,000",
+              "data_unit_id": "mig_27k",
+              "selected": false,
+              "class_name": "",
+              "details": true,
+              "main_role": "Fighter"
+            }
+          ],
+          "details": true
+        },
+        {
+          "type": "single",
+          "title": "Su-24M",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/su_24m.png",
+          "br": "11.3",
+          "rp": "260,000",
+          "sp": "720,000",
+          "data_unit_id": "su_24m",
+          "selected": false,
+          "class_name": "",
+          "details": true,
+          "main_role": "Strike aircraft"
+        }
+      ]
+    ],
+    "premium_vehicles": [
+      [
+        {
+          "type": "single",
+          "title": "Su-22M3",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/su_22m3.png",
+          "br": "11.0",
+          "rp": "520,000",
+          "sp": "580,000",
+          "data_unit_id": "su_22m3",
+          "selected": false,
+          "class_name": "squad",
+          "details": true,
+          "main_role": "Strike aircraft"
+        },
+        {
+          "type": "single",
+          "title": "MiG-25PD",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/mig_25pd.png",
+          "br": "11.0",
+          "rp": null,
+          "sp": null,
+          "data_unit_id": "mig_25pd",
+          "selected": false,
+          "class_name": "",
+          "details": true,
+          "main_role": "Fighter"
+        },
+        {
+          "type": "single",
+          "title": "MiG-23ML",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/mig_23ml.png",
+          "br": "11.7",
+          "rp": 0,
+          "sp": 0,
+          "data_unit_id": "mig_23ml",
+          "selected": false,
+          "class_name": "prem",
+          "details": true,
+          "main_role": "Fighter"
+        }
+      ],
+      [
+        {
+          "type": "single",
+          "title": "Su-25BM",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/su_25_558arz.png",
+          "br": "11.0",
+          "rp": null,
+          "sp": null,
+          "data_unit_id": "su_25_558arz",
+          "selected": false,
+          "class_name": "",
+          "details": true,
+          "main_role": "Strike aircraft"
+        },
+        {
+          "type": "single",
+          "title": "Su-39",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/su_25tm.png",
+          "br": "11.3",
+          "rp": 0,
+          "sp": 0,
+          "data_unit_id": "su_25tm",
+          "selected": false,
+          "class_name": "prem",
+          "details": true,
+          "main_role": "Strike aircraft"
+        }
+      ]
+    ],
+    "selected": [],
+    "unlock_quantity": 0
+  },
+  {
+    "rank": "VIII",
+    "researchable_vehicles": [
+      [
+        {
+          "type": "single",
+          "title": "Yak-141",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/yak_141.png",
+          "br": "12.7",
+          "rp": "290,000",
+          "sp": "780,000",
+          "data_unit_id": "yak_141",
+          "selected": false,
+          "class_name": "",
+          "details": true,
+          "main_role": "Fighter"
+        }
+      ],
+      [
+        {
+          "type": "single",
+          "title": "MiG-29 (9-12)",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/mig_29_9_12.png",
+          "br": "12.7",
+          "rp": "290,000",
+          "sp": "780,000",
+          "data_unit_id": "mig_29_9_12",
+          "selected": false,
+          "class_name": "",
+          "details": true,
+          "main_role": "Fighter"
+        },
+        {
+          "type": "single",
+          "title": "MiG-29 (9-13)",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/mig_29_9_13.png",
+          "br": "13.0",
+          "rp": "320,000",
+          "sp": "860,000",
+          "data_unit_id": "mig_29_9_13",
+          "selected": false,
+          "class_name": "",
+          "details": true,
+          "main_role": "Fighter"
+        },
+        {
+          "type": "single",
+          "title": "MiG-29SMT (9-19)",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/mig_29smt_9_19.png",
+          "br": "13.3",
+          "rp": "350,000",
+          "sp": "940,000",
+          "data_unit_id": "mig_29smt_9_19",
+          "selected": false,
+          "class_name": "",
+          "details": true,
+          "main_role": "Fighter"
+        }
+      ],
+      [
+        {
+          "type": "single",
+          "title": "Su-27",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/su_27.png",
+          "br": "13.0",
+          "rp": "320,000",
+          "sp": "860,000",
+          "data_unit_id": "su_27",
+          "selected": false,
+          "class_name": "",
+          "details": true,
+          "main_role": "Fighter"
+        },
+        {
+          "type": "single",
+          "title": "Su-27SM",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/su_27sm.png",
+          "br": "13.7",
+          "rp": "350,000",
+          "sp": "940,000",
+          "data_unit_id": "su_27sm",
+          "selected": false,
+          "class_name": "",
+          "details": true,
+          "main_role": "Fighter"
+        }
+      ],
+      [
+        {
+          "type": "single",
+          "title": "Su-25SM3",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/su_25sm3.png",
+          "br": "11.7",
+          "rp": "290,000",
+          "sp": "780,000",
+          "data_unit_id": "su_25sm3",
+          "selected": false,
+          "class_name": "",
+          "details": true,
+          "main_role": "Strike aircraft"
+        }
+      ],
+      [
+        {
+          "type": "single",
+          "title": "Su-34",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/su_34.png",
+          "br": "13.7",
+          "rp": "350,000",
+          "sp": "940,000",
+          "data_unit_id": "su_34",
+          "selected": false,
+          "class_name": "",
+          "details": true,
+          "main_role": "Strike aircraft"
+        }
+      ]
+    ],
+    "premium_vehicles": [
+      [
+        {
+          "type": "single",
+          "title": "Su-33",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/su_33.png",
+          "br": "13.0",
+          "rp": "580,000",
+          "sp": "910,000",
+          "data_unit_id": "su_33",
+          "selected": false,
+          "class_name": "squad",
+          "details": true,
+          "main_role": "Fighter"
+        },
+        {
+          "type": "single",
+          "title": "▄Su-30MK2 AMV",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/su_30mk2v_venezuela.png",
+          "br": "13.3",
+          "rp": 0,
+          "sp": 0,
+          "data_unit_id": "su_30mk2v_venezuela",
+          "selected": false,
+          "class_name": "prem",
+          "details": true,
+          "main_role": "Fighter"
+        },
+        {
+          "type": "single",
+          "title": "MiG-29M (9-15)",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/mig_29m_9_15.png",
+          "br": "13.7",
+          "rp": "620,000",
+          "sp": "1,140,000",
+          "data_unit_id": "mig_29m_9_15",
+          "selected": false,
+          "class_name": "squad",
+          "details": true,
+          "main_role": "Fighter"
+        }
+      ],
+      []
+    ],
+    "selected": [],
+    "unlock_quantity": 0
+  },
+  {
+    "rank": "IX",
+    "researchable_vehicles": [
+      [],
+      [],
+      [
+        {
+          "type": "single",
+          "title": "Su-30SM",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/su_30sm.png",
+          "br": "14.3",
+          "rp": "400,000",
+          "sp": "1,080,000",
+          "data_unit_id": "su_30sm",
+          "selected": false,
+          "class_name": "",
+          "details": true,
+          "main_role": "Fighter"
+        },
+        {
+          "type": "single",
+          "title": "Su-30SM2",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/su_30sm2.png",
+          "br": "14.7",
+          "rp": "410,000",
+          "sp": "1,100,000",
+          "data_unit_id": "su_30sm2",
+          "selected": false,
+          "class_name": "",
+          "details": true,
+          "main_role": "Fighter"
+        }
+      ],
+      [],
+      []
+    ],
+    "premium_vehicles": [
+      [],
+      []
+    ],
+    "selected": [],
+    "unlock_quantity": 0
+  }
+]

@@ -1,0 +1,1800 @@
+{
+  "schema_version": 1,
+  "source": "https://wiki.warthunder.com/",
+  "verified_at": "2026-09-19T06:41:19.929Z",
+  "battle_rating_mode": "RB",
+  "tree_count": 50,
+  "unit_count": 3235,
+  "unique_units": 3235,
+  "failures": [],
+  "limitations": [
+    "Wiki rank unlock counts are unavailable; the calculator retains the existing dict/unlock_quantity.js rules separately from this source snapshot.",
+    "Squadron and premium costs are excluded from ordinary research totals; unmodified source values remain in each wiki field.",
+    "This is a dated Wiki snapshot, not a live game-data or future accuracy guarantee."
+  ],
+  "files": [
+    {
+      "path": "database/usa/usa_ground.json",
+      "units": 154,
+      "sha256": "ed83b06323a6ac38df0ca3e195aebd1f83db8ee5c93bc56477df93bc587756ee",
+      "tree_source_sha256": "331b0c504d2bbdec6174ce12b7c83d98ce1e35464bbaec35c97730fb699bee35",
+      "added": [
+        "us_m7"
+      ],
+      "removed": []
+    },
+    {
+      "path": "database/germany/germany_ground.json",
+      "units": 178,
+      "sha256": "c45de915e95dc27dcf77e50109abb5f91ded8292c4036f5494e78fd0b810af5f",
+      "tree_source_sha256": "331b0c504d2bbdec6174ce12b7c83d98ce1e35464bbaec35c97730fb699bee35",
+      "added": [
+        "germ_hummel",
+        "germ_schutzenpanzer_puma_vjtf_mod",
+        "germ_embt"
+      ],
+      "removed": []
+    },
+    {
+      "path": "database/ussr/ussr_ground.json",
+      "units": 193,
+      "sha256": "2a2fe13a3670ca7f28f4f3d8a0f6c05c53586085db33390067f59fe1c3c9ac37",
+      "tree_source_sha256": "331b0c504d2bbdec6174ce12b7c83d98ce1e35464bbaec35c97730fb699bee35",
+      "added": [
+        "ussr_t_44_kit_4rank",
+        "ussr_is_2m_kit_4rank",
+        "ussr_m53_59_kit_4rank",
+        "ussr_object_416",
+        "ussr_t_90m_arena_m"
+      ],
+      "removed": []
+    },
+    {
+      "path": "database/britain/britain_ground.json",
+      "units": 145,
+      "sha256": "1ca8aa8536c7ed8bd319a0c01048f044861c0ff06c1d4fb7e5e3e96f77e865f9",
+      "tree_source_sha256": "331b0c504d2bbdec6174ce12b7c83d98ce1e35464bbaec35c97730fb699bee35",
+      "added": [
+        "uk_fv107_scimitar_mk2",
+        "uk_arjun_mk1",
+        "uk_challenger_2_megatron_sm",
+        "uk_m1a1_aim_abrams",
+        "uk_m1a2_sep3_abrams"
+      ],
+      "removed": []
+    },
+    {
+      "path": "database/japan/japan_ground.json",
+      "units": 87,
+      "sha256": "0d3058a06914ebbffd9c2d364f1449c45dd901472a8a24be71ce042e0e68c35a",
+      "tree_source_sha256": "331b0c504d2bbdec6174ce12b7c83d98ce1e35464bbaec35c97730fb699bee35",
+      "added": [
+        "jp_harimau",
+        "jp_type_90b_sm",
+        "jp_leopard_2ri"
+      ],
+      "removed": []
+    },
+    {
+      "path": "database/china/china_ground.json",
+      "units": 99,
+      "sha256": "4dcea28a97caf40e6c7e59e007448ac5efed6f1970c9e0272b19a31f712ba22b",
+      "tree_source_sha256": "331b0c504d2bbdec6174ce12b7c83d98ce1e35464bbaec35c97730fb699bee35",
+      "added": [
+        "cn_plz_45",
+        "cn_pgz_88",
+        "cn_mbt2000_sm",
+        "cn_fk_2000"
+      ],
+      "removed": []
+    },
+    {
+      "path": "database/italy/italy_ground.json",
+      "units": 108,
+      "sha256": "22bc5c164b62e9bbcea51ea0c27a2974fa829b05dd757f261cfeead7ba98c8eb",
+      "tree_source_sha256": "331b0c504d2bbdec6174ce12b7c83d98ce1e35464bbaec35c97730fb699bee35",
+      "added": [
+        "it_palmaria",
+        "it_fiat_6616_ub",
+        "it_pzh_2000"
+      ],
+      "removed": []
+    },
+    {
+      "path": "database/france/france_ground.json",
+      "units": 107,
+      "sha256": "522b4aac7a39301205f165bc56b4d583befc40181532cc43fe1e2fa9931524f8",
+      "tree_source_sha256": "331b0c504d2bbdec6174ce12b7c83d98ce1e35464bbaec35c97730fb699bee35",
+      "added": [
+        "fr_arl_44_mod",
+        "fr_leopard_1a5be",
+        "fr_embt"
+      ],
+      "removed": []
+    },
+    {
+      "path": "database/sweden/sweden_ground.json",
+      "units": 96,
+      "sha256": "16a631f2e75d4625a3c91699be7e9a1e4ebc1f53001b920d2a8b2c7f0762c78b",
+      "tree_source_sha256": "331b0c504d2bbdec6174ce12b7c83d98ce1e35464bbaec35c97730fb699bee35",
+      "added": [
+        "sw_nomads"
+      ],
+      "removed": []
+    },
+    {
+      "path": "database/israel/israel_ground.json",
+      "units": 57,
+      "sha256": "d7f89d91215c91897549c868c8626c5acfb6ec03bd79ce23979449fda5fd625d",
+      "tree_source_sha256": "331b0c504d2bbdec6174ce12b7c83d98ce1e35464bbaec35c97730fb699bee35",
+      "added": [
+        "il_9a33bm3",
+        "il_tor_m1",
+        "il_hunter_afv",
+        "il_leopard_2a6_hel"
+      ],
+      "removed": []
+    },
+    {
+      "path": "database/usa/usa_aviation.json",
+      "units": 199,
+      "sha256": "0860913faeb8f21bd654eb055ff029cdf0825c19dae50de4a13c672f96de8b1e",
+      "tree_source_sha256": "94a627c1d5d0aa005d0ea07c0835062db6c9a91b77f43b8dcc56eed5406f4b99",
+      "added": [
+        "f_102a_late",
+        "f_101c",
+        "b_52h",
+        "f_14d_vf_11",
+        "f_14d",
+        "f_16xl"
+      ],
+      "removed": []
+    },
+    {
+      "path": "database/germany/germany_aviation.json",
+      "units": 186,
+      "sha256": "1013b11a76c399f61823f5c14f0ee02852d90b32900820582c995396250b0f61",
+      "tree_source_sha256": "94a627c1d5d0aa005d0ea07c0835062db6c9a91b77f43b8dcc56eed5406f4b99",
+      "added": [
+        "fw_189c_0",
+        "ia_58a_pucara",
+        "arado_234b_2_mt"
+      ],
+      "removed": []
+    },
+    {
+      "path": "database/ussr/ussr_aviation.json",
+      "units": 198,
+      "sha256": "ab9c15919d6c5dca298e91555e1a51272e65b1a7314767a47dc872111d407260",
+      "tree_source_sha256": "94a627c1d5d0aa005d0ea07c0835062db6c9a91b77f43b8dcc56eed5406f4b99",
+      "added": [
+        "mig_35"
+      ],
+      "removed": []
+    },
+    {
+      "path": "database/britain/britain_aviation.json",
+      "units": 164,
+      "sha256": "eb6fcfdb483ea90517e44d104b9ecb9ebccd6d97163356e0c1baa5d996182694",
+      "tree_source_sha256": "94a627c1d5d0aa005d0ea07c0835062db6c9a91b77f43b8dcc56eed5406f4b99",
+      "added": [
+        "hawk_t1a_early",
+        "hawk_t1a",
+        "ca_27_mk32_raaf"
+      ],
+      "removed": []
+    },
+    {
+      "path": "database/japan/japan_aviation.json",
+      "units": 140,
+      "sha256": "3305c59a7aa889b407b0f5b46b4a8bef6ce6ba3e2117d20b218c8a1b18ae2862",
+      "tree_source_sha256": "94a627c1d5d0aa005d0ea07c0835062db6c9a91b77f43b8dcc56eed5406f4b99",
+      "added": [
+        "ki_93_1_ko",
+        "b_26b_indonesia_kalong",
+        "ca_27_mk32_malaysia",
+        "a_4ptm_malaysia"
+      ],
+      "removed": []
+    },
+    {
+      "path": "database/china/china_aviation.json",
+      "units": 89,
+      "sha256": "25b4199d846259601372a549ef9bd39b777a7919c40677251544f603f34387f8",
+      "tree_source_sha256": "94a627c1d5d0aa005d0ea07c0835062db6c9a91b77f43b8dcc56eed5406f4b99",
+      "added": [
+        "j_16"
+      ],
+      "removed": []
+    },
+    {
+      "path": "database/italy/italy_aviation.json",
+      "units": 111,
+      "sha256": "c5ad79802a63fb63664fe79b7a4d91d61559c3c22ee249f4b07fd5ad0c3a31cb",
+      "tree_source_sha256": "94a627c1d5d0aa005d0ea07c0835062db6c9a91b77f43b8dcc56eed5406f4b99",
+      "added": [
+        "iar_81c_db_605"
+      ],
+      "removed": []
+    },
+    {
+      "path": "database/france/france_aviation.json",
+      "units": 113,
+      "sha256": "1bcec043b5ef0e5835f920bd8b4d04d4c55aee050f6722240cb349b5887a8b60",
+      "tree_source_sha256": "94a627c1d5d0aa005d0ea07c0835062db6c9a91b77f43b8dcc56eed5406f4b99",
+      "added": [
+        "se_203"
+      ],
+      "removed": []
+    },
+    {
+      "path": "database/sweden/sweden_aviation.json",
+      "units": 75,
+      "sha256": "ae89d28e4c2f8a68dea85221d6e408fcc2a4ec74f3211771b58f404e2d5d30e7",
+      "tree_source_sha256": "94a627c1d5d0aa005d0ea07c0835062db6c9a91b77f43b8dcc56eed5406f4b99",
+      "added": [
+        "saab_j35j",
+        "saab_ajs37_early"
+      ],
+      "removed": []
+    },
+    {
+      "path": "database/israel/israel_aviation.json",
+      "units": 49,
+      "sha256": "799a63c60a45b1112c04fc94cdb1bbd0b4b25cd69c249791ca09026bbde9e934",
+      "tree_source_sha256": "94a627c1d5d0aa005d0ea07c0835062db6c9a91b77f43b8dcc56eed5406f4b99",
+      "added": [
+        "sb2c_5_greece",
+        "spitfire_lf_mk9c_cw_greece",
+        "f-84g_greece",
+        "f_102a_greece",
+        "f_86em_greece",
+        "a_7h_greece",
+        "mirage_f1cg_greece",
+        "a_7e_greece",
+        "mig_21_2000_iaf",
+        "f_4e_aup_greece",
+        "mirage_2000_5eg_mk2_greece",
+        "rafale_eg_greece"
+      ],
+      "removed": []
+    },
+    {
+      "path": "database/usa/usa_helicopters.json",
+      "units": 19,
+      "sha256": "e4cd142bf731fd02a82c4db0b9792cf87365dc2180cfd47c306e22378b549b58",
+      "tree_source_sha256": "add4e859794427b969aa615da05494132ebb9a5e1ad285e225c0cabed58f0d0d",
+      "added": [],
+      "removed": []
+    },
+    {
+      "path": "database/germany/germany_helicopters.json",
+      "units": 12,
+      "sha256": "0372345309c786f1ae750635526e743861c99253f14f6889f2b20d56cf0390be",
+      "tree_source_sha256": "add4e859794427b969aa615da05494132ebb9a5e1ad285e225c0cabed58f0d0d",
+      "added": [
+        "mi_24d_german",
+        "h145m"
+      ],
+      "removed": []
+    },
+    {
+      "path": "database/ussr/ussr_helicopters.json",
+      "units": 15,
+      "sha256": "467ee1169eed717eacea62991f9c0274bbcc41636b2cb547116d6e41e9b0f60c",
+      "tree_source_sha256": "add4e859794427b969aa615da05494132ebb9a5e1ad285e225c0cabed58f0d0d",
+      "added": [],
+      "removed": []
+    },
+    {
+      "path": "database/britain/britain_helicopters.json",
+      "units": 10,
+      "sha256": "4c57b9f1fc52150f503da5932fcfb6a4fe11b5ca686725cdc1f97ccc2d3b67a0",
+      "tree_source_sha256": "add4e859794427b969aa615da05494132ebb9a5e1ad285e225c0cabed58f0d0d",
+      "added": [
+        "aw_159"
+      ],
+      "removed": []
+    },
+    {
+      "path": "database/japan/japan_helicopters.json",
+      "units": 8,
+      "sha256": "328266a4969139cfcd12cbe705de7679546a16f869595c7bcaa2f959a8047253",
+      "tree_source_sha256": "add4e859794427b969aa615da05494132ebb9a5e1ad285e225c0cabed58f0d0d",
+      "added": [],
+      "removed": []
+    },
+    {
+      "path": "database/china/china_helicopters.json",
+      "units": 13,
+      "sha256": "8b06346e04040ec83ff28b1616b42ec8f425c084de9ed681cb0ac57062f357b9",
+      "tree_source_sha256": "add4e859794427b969aa615da05494132ebb9a5e1ad285e225c0cabed58f0d0d",
+      "added": [],
+      "removed": []
+    },
+    {
+      "path": "database/italy/italy_helicopters.json",
+      "units": 9,
+      "sha256": "f2390249f90edea529825e4f5c1486731840dec59939aa547f2650d618cdbe4e",
+      "tree_source_sha256": "add4e859794427b969aa615da05494132ebb9a5e1ad285e225c0cabed58f0d0d",
+      "added": [],
+      "removed": []
+    },
+    {
+      "path": "database/france/france_helicopters.json",
+      "units": 12,
+      "sha256": "b80798bf46667ecb1cc97d32c7a2c555c7ab395e539944ea4cc0766d5d5d3d9b",
+      "tree_source_sha256": "add4e859794427b969aa615da05494132ebb9a5e1ad285e225c0cabed58f0d0d",
+      "added": [],
+      "removed": []
+    },
+    {
+      "path": "database/sweden/sweden_helicopters.json",
+      "units": 6,
+      "sha256": "5dff62bd651c0c2ece9c20a0dfb3b33234c5efa28f3223ee2051b484436dd086",
+      "tree_source_sha256": "add4e859794427b969aa615da05494132ebb9a5e1ad285e225c0cabed58f0d0d",
+      "added": [],
+      "removed": []
+    },
+    {
+      "path": "database/israel/israel_helicopters.json",
+      "units": 8,
+      "sha256": "24e1e4594541bc2250ad1d4610d9a06f0c4842f2d4d9a9978885f7e96db36fdb",
+      "tree_source_sha256": "add4e859794427b969aa615da05494132ebb9a5e1ad285e225c0cabed58f0d0d",
+      "added": [],
+      "removed": []
+    },
+    {
+      "path": "database/usa/usa_ships.json",
+      "units": 56,
+      "sha256": "ecf5f4b75cb43139eb569f637917ecbd597cd4798b5d17ffcb9912daa85e76a7",
+      "tree_source_sha256": "68089cf4b12f9f785a5cbfb9544ccfcd6ad09ba165ee5c0ff304db363e243dda",
+      "added": [
+        "us_destroyer_mahan_class",
+        "us_destroyer_gridley",
+        "us_battleship_north_carolina_class"
+      ],
+      "removed": []
+    },
+    {
+      "path": "database/germany/germany_ships.json",
+      "units": 46,
+      "sha256": "d415abeb3f66d5273af2a9d20ff6cff33de9a8560febb162f2969c4d0d39dcc1",
+      "tree_source_sha256": "68089cf4b12f9f785a5cbfb9544ccfcd6ad09ba165ee5c0ff304db363e243dda",
+      "added": [
+        "germ_kanonenboot_k4_lorelei",
+        "germ_cruiser_admiral_scheer"
+      ],
+      "removed": []
+    },
+    {
+      "path": "database/ussr/ussr_ships.json",
+      "units": 44,
+      "sha256": "69aa3af716c78066cab37ffbbadbff1c709ea3255f921bf9dca56f14804bdff8",
+      "tree_source_sha256": "68089cf4b12f9f785a5cbfb9544ccfcd6ad09ba165ee5c0ff304db363e243dda",
+      "added": [
+        "ussr_cruiser_chervona_ukraina",
+        "ussr_battleship_oktyabrskaya_revolutsiya"
+      ],
+      "removed": []
+    },
+    {
+      "path": "database/britain/britain_ships.json",
+      "units": 57,
+      "sha256": "efb1739ede5c810e7a1bb8da0b57a7370b35fea6829834a4b22533b11e07d3af",
+      "tree_source_sha256": "68089cf4b12f9f785a5cbfb9544ccfcd6ad09ba165ee5c0ff304db363e243dda",
+      "added": [
+        "uk_egret_class",
+        "uk_battleship_lion_class"
+      ],
+      "removed": []
+    },
+    {
+      "path": "database/japan/japan_ships.json",
+      "units": 54,
+      "sha256": "9016c0a15c95ef5847e8fa575f7ef558c9093e905f683f3cbb5315d200e118e1",
+      "tree_source_sha256": "68089cf4b12f9f785a5cbfb9544ccfcd6ad09ba165ee5c0ff304db363e243dda",
+      "added": [
+        "jp_destroyer_suzutsuki"
+      ],
+      "removed": []
+    },
+    {
+      "path": "database/china/china_ships.json",
+      "units": 0,
+      "sha256": "37517e5f3dc66819f61f5a7bb8ace1921282415f10551d2defa5c3eb0985b570",
+      "tree_source_sha256": "68089cf4b12f9f785a5cbfb9544ccfcd6ad09ba165ee5c0ff304db363e243dda",
+      "added": [],
+      "removed": []
+    },
+    {
+      "path": "database/italy/italy_ships.json",
+      "units": 37,
+      "sha256": "c046f4650f6ecfcfaced500ab4c5da29dc517173159f5b52dd271c15176ea34d",
+      "tree_source_sha256": "68089cf4b12f9f785a5cbfb9544ccfcd6ad09ba165ee5c0ff304db363e243dda",
+      "added": [
+        "it_battleship_giulio_cesare"
+      ],
+      "removed": []
+    },
+    {
+      "path": "database/france/france_ships.json",
+      "units": 36,
+      "sha256": "9caf7a42ec8e4b1c254865cecb975389165442ed7f4e36081049ac7c6f127597",
+      "tree_source_sha256": "68089cf4b12f9f785a5cbfb9544ccfcd6ad09ba165ee5c0ff304db363e243dda",
+      "added": [
+        "fr_cruiser_algerie_class",
+        "fr_battleship_richelieu_class_jean_bart"
+      ],
+      "removed": []
+    },
+    {
+      "path": "database/sweden/sweden_ships.json",
+      "units": 0,
+      "sha256": "37517e5f3dc66819f61f5a7bb8ace1921282415f10551d2defa5c3eb0985b570",
+      "tree_source_sha256": "68089cf4b12f9f785a5cbfb9544ccfcd6ad09ba165ee5c0ff304db363e243dda",
+      "added": [],
+      "removed": []
+    },
+    {
+      "path": "database/israel/israel_ships.json",
+      "units": 0,
+      "sha256": "37517e5f3dc66819f61f5a7bb8ace1921282415f10551d2defa5c3eb0985b570",
+      "tree_source_sha256": "68089cf4b12f9f785a5cbfb9544ccfcd6ad09ba165ee5c0ff304db363e243dda",
+      "added": [],
+      "removed": []
+    },
+    {
+      "path": "database/usa/usa_boats.json",
+      "units": 35,
+      "sha256": "ec4b2d29362c554408b9db9f04fd45efa7e96c5e6055413854d24c604fe915cc",
+      "tree_source_sha256": "0d0d322252922211a2167e630f6b1a2fd1bc6ed84cb045b6dd93d1990afbd9fe",
+      "added": [],
+      "removed": []
+    },
+    {
+      "path": "database/germany/germany_boats.json",
+      "units": 38,
+      "sha256": "c05cf71b2807ee0ce411491a93debc8c5e9e41af86b1f20609205639d4e47476",
+      "tree_source_sha256": "0d0d322252922211a2167e630f6b1a2fd1bc6ed84cb045b6dd93d1990afbd9fe",
+      "added": [
+        "germ_rboot_r310"
+      ],
+      "removed": []
+    },
+    {
+      "path": "database/ussr/ussr_boats.json",
+      "units": 47,
+      "sha256": "501c70c088260488f6a24354876c16652c2b028d6528a88e5fe3d3aff7984fe4",
+      "tree_source_sha256": "0d0d322252922211a2167e630f6b1a2fd1bc6ed84cb045b6dd93d1990afbd9fe",
+      "added": [
+        "ussr_fugas_t1_strela"
+      ],
+      "removed": []
+    },
+    {
+      "path": "database/britain/britain_boats.json",
+      "units": 39,
+      "sha256": "ee2f089c87cc99bfc4b6529c80b2f28c2c837f6bf226c0e5a3a067929191a25a",
+      "tree_source_sha256": "0d0d322252922211a2167e630f6b1a2fd1bc6ed84cb045b6dd93d1990afbd9fe",
+      "added": [
+        "uk_73ft_vosper_type2"
+      ],
+      "removed": []
+    },
+    {
+      "path": "database/japan/japan_boats.json",
+      "units": 33,
+      "sha256": "32d310cf2582f5417adfdc4c58e3dff5d1697a53f39594afab186f88e172fae4",
+      "tree_source_sha256": "0d0d322252922211a2167e630f6b1a2fd1bc6ed84cb045b6dd93d1990afbd9fe",
+      "added": [
+        "jp_ujishima_msc",
+        "jp_type9_pt809"
+      ],
+      "removed": []
+    },
+    {
+      "path": "database/china/china_boats.json",
+      "units": 0,
+      "sha256": "37517e5f3dc66819f61f5a7bb8ace1921282415f10551d2defa5c3eb0985b570",
+      "tree_source_sha256": "0d0d322252922211a2167e630f6b1a2fd1bc6ed84cb045b6dd93d1990afbd9fe",
+      "added": [],
+      "removed": []
+    },
+    {
+      "path": "database/italy/italy_boats.json",
+      "units": 27,
+      "sha256": "b550f22140c6628f1a34d3e41f8102d9ac9ca59f3ef9ba457cce94a878979336",
+      "tree_source_sha256": "0d0d322252922211a2167e630f6b1a2fd1bc6ed84cb045b6dd93d1990afbd9fe",
+      "added": [
+        "it_mas_classe429"
+      ],
+      "removed": []
+    },
+    {
+      "path": "database/france/france_boats.json",
+      "units": 26,
+      "sha256": "50581dfd89e80e09b4bb3f5b96098f0299bbcad4be54248718f47146710eea77",
+      "tree_source_sha256": "0d0d322252922211a2167e630f6b1a2fd1bc6ed84cb045b6dd93d1990afbd9fe",
+      "added": [
+        "fr_lcm_monitor",
+        "fr_trident_class_glaive_p671"
+      ],
+      "removed": []
+    },
+    {
+      "path": "database/sweden/sweden_boats.json",
+      "units": 0,
+      "sha256": "37517e5f3dc66819f61f5a7bb8ace1921282415f10551d2defa5c3eb0985b570",
+      "tree_source_sha256": "0d0d322252922211a2167e630f6b1a2fd1bc6ed84cb045b6dd93d1990afbd9fe",
+      "added": [],
+      "removed": []
+    },
+    {
+      "path": "database/israel/israel_boats.json",
+      "units": 0,
+      "sha256": "37517e5f3dc66819f61f5a7bb8ace1921282415f10551d2defa5c3eb0985b570",
+      "tree_source_sha256": "0d0d322252922211a2167e630f6b1a2fd1bc6ed84cb045b6dd93d1990afbd9fe",
+      "added": [],
+      "removed": []
+    }
+  ],
+  "source_missing_costs": [
+    {
+      "id": "us_lvt_a_1_trb",
+      "country": "usa",
+      "type": "ground",
+      "section": "premium_vehicles",
+      "research": null,
+      "purchase": null
+    },
+    {
+      "id": "us_m4_sherman_promo",
+      "country": "usa",
+      "type": "ground",
+      "section": "premium_vehicles",
+      "research": null,
+      "purchase": null
+    },
+    {
+      "id": "us_lvt_4_zis_2",
+      "country": "usa",
+      "type": "ground",
+      "section": "premium_vehicles",
+      "research": null,
+      "purchase": null
+    },
+    {
+      "id": "us_m5a1_stuart_td",
+      "country": "usa",
+      "type": "ground",
+      "section": "premium_vehicles",
+      "research": null,
+      "purchase": null
+    },
+    {
+      "id": "us_m24_chaffee_tl",
+      "country": "usa",
+      "type": "ground",
+      "section": "premium_vehicles",
+      "research": null,
+      "purchase": null
+    },
+    {
+      "id": "us_efv_p1",
+      "country": "usa",
+      "type": "ground",
+      "section": "premium_vehicles",
+      "research": null,
+      "purchase": null
+    },
+    {
+      "id": "us_merkava_mk_1",
+      "country": "usa",
+      "type": "ground",
+      "section": "premium_vehicles",
+      "research": null,
+      "purchase": null
+    },
+    {
+      "id": "us_merkava_mk_2b_late",
+      "country": "usa",
+      "type": "ground",
+      "section": "premium_vehicles",
+      "research": null,
+      "purchase": null
+    },
+    {
+      "id": "us_xm_8",
+      "country": "usa",
+      "type": "ground",
+      "section": "premium_vehicles",
+      "research": null,
+      "purchase": null
+    },
+    {
+      "id": "us_m1a1_abrams_yt_cup_2019",
+      "country": "usa",
+      "type": "ground",
+      "section": "premium_vehicles",
+      "research": null,
+      "purchase": null
+    },
+    {
+      "id": "us_ccvl",
+      "country": "usa",
+      "type": "ground",
+      "section": "premium_vehicles",
+      "research": null,
+      "purchase": null
+    },
+    {
+      "id": "us_m60a3_slep",
+      "country": "usa",
+      "type": "ground",
+      "section": "premium_vehicles",
+      "research": null,
+      "purchase": null
+    },
+    {
+      "id": "us_losat_ccv",
+      "country": "usa",
+      "type": "ground",
+      "section": "premium_vehicles",
+      "research": null,
+      "purchase": null
+    },
+    {
+      "id": "us_ags_teledyne",
+      "country": "usa",
+      "type": "ground",
+      "section": "premium_vehicles",
+      "research": null,
+      "purchase": null
+    },
+    {
+      "id": "us_merkava_mk_3d",
+      "country": "usa",
+      "type": "ground",
+      "section": "premium_vehicles",
+      "research": null,
+      "purchase": null
+    },
+    {
+      "id": "germ_garford_putilov",
+      "country": "germany",
+      "type": "ground",
+      "section": "researchable_vehicles",
+      "research": null,
+      "purchase": null
+    },
+    {
+      "id": "germ_beutepanzer_mk_iv",
+      "country": "germany",
+      "type": "ground",
+      "section": "researchable_vehicles",
+      "research": null,
+      "purchase": null
+    },
+    {
+      "id": "germ_a7v",
+      "country": "germany",
+      "type": "ground",
+      "section": "researchable_vehicles",
+      "research": null,
+      "purchase": null
+    },
+    {
+      "id": "germ_pzkpfw_ii_ausf_c_td",
+      "country": "germany",
+      "type": "ground",
+      "section": "premium_vehicles",
+      "research": null,
+      "purchase": null
+    },
+    {
+      "id": "germ_pzkpfw_iii_ausf_j_td",
+      "country": "germany",
+      "type": "ground",
+      "section": "premium_vehicles",
+      "research": null,
+      "purchase": null
+    },
+    {
+      "id": "germ_sdkfz_234_2_td",
+      "country": "germany",
+      "type": "ground",
+      "section": "premium_vehicles",
+      "research": null,
+      "purchase": null
+    },
+    {
+      "id": "germ_panther_ii",
+      "country": "germany",
+      "type": "ground",
+      "section": "premium_vehicles",
+      "research": null,
+      "purchase": null
+    },
+    {
+      "id": "germ_flakpanzer_v_coelian",
+      "country": "germany",
+      "type": "ground",
+      "section": "premium_vehicles",
+      "research": null,
+      "purchase": null
+    },
+    {
+      "id": "germ_pzkpfw_vi_ausf_b_tiger_iih_kwk46",
+      "country": "germany",
+      "type": "ground",
+      "section": "premium_vehicles",
+      "research": null,
+      "purchase": null
+    },
+    {
+      "id": "germ_pzkpfw_e_100",
+      "country": "germany",
+      "type": "ground",
+      "section": "premium_vehicles",
+      "research": null,
+      "purchase": null
+    },
+    {
+      "id": "germ_pzkpfw_maus",
+      "country": "germany",
+      "type": "ground",
+      "section": "premium_vehicles",
+      "research": null,
+      "purchase": null
+    },
+    {
+      "id": "germ_leopard_c2_mexas",
+      "country": "germany",
+      "type": "ground",
+      "section": "premium_vehicles",
+      "research": null,
+      "purchase": null
+    },
+    {
+      "id": "germ_vt_1_2",
+      "country": "germany",
+      "type": "ground",
+      "section": "premium_vehicles",
+      "research": null,
+      "purchase": null
+    },
+    {
+      "id": "germ_th_800_bismark",
+      "country": "germany",
+      "type": "ground",
+      "section": "premium_vehicles",
+      "research": null,
+      "purchase": null
+    },
+    {
+      "id": "germ_th_400",
+      "country": "germany",
+      "type": "ground",
+      "section": "premium_vehicles",
+      "research": null,
+      "purchase": null
+    },
+    {
+      "id": "germ_boxer_3105",
+      "country": "germany",
+      "type": "ground",
+      "section": "premium_vehicles",
+      "research": null,
+      "purchase": null
+    },
+    {
+      "id": "germ_vilkas",
+      "country": "germany",
+      "type": "ground",
+      "section": "premium_vehicles",
+      "research": null,
+      "purchase": null
+    },
+    {
+      "id": "germ_leopard_2av",
+      "country": "germany",
+      "type": "ground",
+      "section": "premium_vehicles",
+      "research": null,
+      "purchase": null
+    },
+    {
+      "id": "germ_leopard_2_pt14",
+      "country": "germany",
+      "type": "ground",
+      "section": "premium_vehicles",
+      "research": null,
+      "purchase": null
+    },
+    {
+      "id": "germ_leopard_2a5_yt_cup_2019",
+      "country": "germany",
+      "type": "ground",
+      "section": "premium_vehicles",
+      "research": null,
+      "purchase": null
+    },
+    {
+      "id": "ussr_garford_putilov",
+      "country": "ussr",
+      "type": "ground",
+      "section": "researchable_vehicles",
+      "research": null,
+      "purchase": null
+    },
+    {
+      "id": "ussr_bt_7_1937_td",
+      "country": "ussr",
+      "type": "ground",
+      "section": "premium_vehicles",
+      "research": null,
+      "purchase": null
+    },
+    {
+      "id": "ussr_is_2_1944_321",
+      "country": "ussr",
+      "type": "ground",
+      "section": "researchable_vehicles",
+      "research": null,
+      "purchase": null
+    },
+    {
+      "id": "ussr_type_62",
+      "country": "ussr",
+      "type": "ground",
+      "section": "premium_vehicles",
+      "research": null,
+      "purchase": null
+    },
+    {
+      "id": "ussr_is_7",
+      "country": "ussr",
+      "type": "ground",
+      "section": "premium_vehicles",
+      "research": null,
+      "purchase": null
+    },
+    {
+      "id": "ussr_object_279",
+      "country": "ussr",
+      "type": "ground",
+      "section": "premium_vehicles",
+      "research": null,
+      "purchase": null
+    },
+    {
+      "id": "ussr_bmd_4",
+      "country": "ussr",
+      "type": "ground",
+      "section": "premium_vehicles",
+      "research": null,
+      "purchase": null
+    },
+    {
+      "id": "ussr_object_292",
+      "country": "ussr",
+      "type": "ground",
+      "section": "premium_vehicles",
+      "research": null,
+      "purchase": null
+    },
+    {
+      "id": "ussr_t_72m2_moderna",
+      "country": "ussr",
+      "type": "ground",
+      "section": "premium_vehicles",
+      "research": null,
+      "purchase": null
+    },
+    {
+      "id": "ussr_t_72b3_arena",
+      "country": "ussr",
+      "type": "ground",
+      "section": "premium_vehicles",
+      "research": null,
+      "purchase": null
+    },
+    {
+      "id": "ussr_t_80u_yt_cup_2019",
+      "country": "ussr",
+      "type": "ground",
+      "section": "premium_vehicles",
+      "research": null,
+      "purchase": null
+    },
+    {
+      "id": "ussr_t_80um2",
+      "country": "ussr",
+      "type": "ground",
+      "section": "premium_vehicles",
+      "research": null,
+      "purchase": null
+    },
+    {
+      "id": "uk_mark_v",
+      "country": "britain",
+      "type": "ground",
+      "section": "researchable_vehicles",
+      "research": null,
+      "purchase": null
+    },
+    {
+      "id": "uk_fv107_scimitar_mk2",
+      "country": "britain",
+      "type": "ground",
+      "section": "premium_vehicles",
+      "research": null,
+      "purchase": null
+    },
+    {
+      "id": "uk_shir_2",
+      "country": "britain",
+      "type": "ground",
+      "section": "premium_vehicles",
+      "research": null,
+      "purchase": null
+    },
+    {
+      "id": "uk_boxer_crv_block2",
+      "country": "britain",
+      "type": "ground",
+      "section": "premium_vehicles",
+      "research": null,
+      "purchase": null
+    },
+    {
+      "id": "uk_challenger_ii_yt_cup_2019",
+      "country": "britain",
+      "type": "ground",
+      "section": "premium_vehicles",
+      "research": null,
+      "purchase": null
+    },
+    {
+      "id": "jp_type_97_kai_td",
+      "country": "japan",
+      "type": "ground",
+      "section": "premium_vehicles",
+      "research": null,
+      "purchase": null
+    },
+    {
+      "id": "jp_type_5_ho_ri_production",
+      "country": "japan",
+      "type": "ground",
+      "section": "premium_vehicles",
+      "research": null,
+      "purchase": null
+    },
+    {
+      "id": "cn_pt_76",
+      "country": "china",
+      "type": "ground",
+      "section": "researchable_vehicles",
+      "research": null,
+      "purchase": null
+    },
+    {
+      "id": "cn_plz_83_130",
+      "country": "china",
+      "type": "ground",
+      "section": "premium_vehicles",
+      "research": null,
+      "purchase": null
+    },
+    {
+      "id": "cn_qn506",
+      "country": "china",
+      "type": "ground",
+      "section": "premium_vehicles",
+      "research": null,
+      "purchase": null
+    },
+    {
+      "id": "cn_t_80ud_478be",
+      "country": "china",
+      "type": "ground",
+      "section": "premium_vehicles",
+      "research": null,
+      "purchase": null
+    },
+    {
+      "id": "it_fiat_6614_firos",
+      "country": "italy",
+      "type": "ground",
+      "section": "premium_vehicles",
+      "research": null,
+      "purchase": null
+    },
+    {
+      "id": "fr_saint_chamond",
+      "country": "france",
+      "type": "ground",
+      "section": "researchable_vehicles",
+      "research": null,
+      "purchase": null
+    },
+    {
+      "id": "fr_amx_50_surblinde",
+      "country": "france",
+      "type": "ground",
+      "section": "premium_vehicles",
+      "research": null,
+      "purchase": null
+    },
+    {
+      "id": "sw_strv_m39_td",
+      "country": "sweden",
+      "type": "ground",
+      "section": "premium_vehicles",
+      "research": null,
+      "purchase": null
+    },
+    {
+      "id": "sw_patria_amv_ctcv_105",
+      "country": "sweden",
+      "type": "ground",
+      "section": "premium_vehicles",
+      "research": null,
+      "purchase": null
+    },
+    {
+      "id": "p-36c_rb",
+      "country": "usa",
+      "type": "aviation",
+      "section": "premium_vehicles",
+      "research": null,
+      "purchase": null
+    },
+    {
+      "id": "p-40e_td",
+      "country": "usa",
+      "type": "aviation",
+      "section": "premium_vehicles",
+      "research": null,
+      "purchase": null
+    },
+    {
+      "id": "a-26c",
+      "country": "usa",
+      "type": "aviation",
+      "section": "premium_vehicles",
+      "research": null,
+      "purchase": null
+    },
+    {
+      "id": "fj_4b_agm_12b",
+      "country": "usa",
+      "type": "aviation",
+      "section": "premium_vehicles",
+      "research": null,
+      "purchase": null
+    },
+    {
+      "id": "b_52h",
+      "country": "usa",
+      "type": "aviation",
+      "section": "premium_vehicles",
+      "research": null,
+      "purchase": null
+    },
+    {
+      "id": "f11f_1_late",
+      "country": "usa",
+      "type": "aviation",
+      "section": "premium_vehicles",
+      "research": null,
+      "purchase": null
+    },
+    {
+      "id": "f4d_1",
+      "country": "usa",
+      "type": "aviation",
+      "section": "premium_vehicles",
+      "research": null,
+      "purchase": null
+    },
+    {
+      "id": "f_106a_1972",
+      "country": "usa",
+      "type": "aviation",
+      "section": "premium_vehicles",
+      "research": null,
+      "purchase": null
+    },
+    {
+      "id": "f-5a",
+      "country": "usa",
+      "type": "aviation",
+      "section": "premium_vehicles",
+      "research": null,
+      "purchase": null
+    },
+    {
+      "id": "a_7k",
+      "country": "usa",
+      "type": "aviation",
+      "section": "premium_vehicles",
+      "research": null,
+      "purchase": null
+    },
+    {
+      "id": "f_16xl",
+      "country": "usa",
+      "type": "aviation",
+      "section": "premium_vehicles",
+      "research": null,
+      "purchase": null
+    },
+    {
+      "id": "f_14a_iriaf",
+      "country": "usa",
+      "type": "aviation",
+      "section": "premium_vehicles",
+      "research": null,
+      "purchase": null
+    },
+    {
+      "id": "he51c1_late",
+      "country": "germany",
+      "type": "aviation",
+      "section": "researchable_vehicles",
+      "research": null,
+      "purchase": null
+    },
+    {
+      "id": "fiat_cr42",
+      "country": "germany",
+      "type": "aviation",
+      "section": "premium_vehicles",
+      "research": null,
+      "purchase": null
+    },
+    {
+      "id": "fiat_g50_seria2",
+      "country": "germany",
+      "type": "aviation",
+      "section": "premium_vehicles",
+      "research": null,
+      "purchase": null
+    },
+    {
+      "id": "fiat_g50_seria7as",
+      "country": "germany",
+      "type": "aviation",
+      "section": "premium_vehicles",
+      "research": null,
+      "purchase": null
+    },
+    {
+      "id": "mc200_serie3",
+      "country": "germany",
+      "type": "aviation",
+      "section": "premium_vehicles",
+      "research": null,
+      "purchase": null
+    },
+    {
+      "id": "mc200_serie7",
+      "country": "germany",
+      "type": "aviation",
+      "section": "premium_vehicles",
+      "research": null,
+      "purchase": null
+    },
+    {
+      "id": "mc-202",
+      "country": "germany",
+      "type": "aviation",
+      "section": "premium_vehicles",
+      "research": null,
+      "purchase": null
+    },
+    {
+      "id": "bf-109c_1_promo",
+      "country": "germany",
+      "type": "aviation",
+      "section": "premium_vehicles",
+      "research": null,
+      "purchase": null
+    },
+    {
+      "id": "sm_79_1936",
+      "country": "germany",
+      "type": "aviation",
+      "section": "premium_vehicles",
+      "research": null,
+      "purchase": null
+    },
+    {
+      "id": "sm_79_1939",
+      "country": "germany",
+      "type": "aviation",
+      "section": "premium_vehicles",
+      "research": null,
+      "purchase": null
+    },
+    {
+      "id": "sm_79_1941",
+      "country": "germany",
+      "type": "aviation",
+      "section": "premium_vehicles",
+      "research": null,
+      "purchase": null
+    },
+    {
+      "id": "sm_79_1943",
+      "country": "germany",
+      "type": "aviation",
+      "section": "premium_vehicles",
+      "research": null,
+      "purchase": null
+    },
+    {
+      "id": "sm_79_iar",
+      "country": "germany",
+      "type": "aviation",
+      "section": "premium_vehicles",
+      "research": null,
+      "purchase": null
+    },
+    {
+      "id": "sm_79_1937",
+      "country": "germany",
+      "type": "aviation",
+      "section": "premium_vehicles",
+      "research": null,
+      "purchase": null
+    },
+    {
+      "id": "sm_79_1942",
+      "country": "germany",
+      "type": "aviation",
+      "section": "premium_vehicles",
+      "research": null,
+      "purchase": null
+    },
+    {
+      "id": "he-162a-1",
+      "country": "germany",
+      "type": "aviation",
+      "section": "premium_vehicles",
+      "research": null,
+      "purchase": null
+    },
+    {
+      "id": "me-262a-2a",
+      "country": "germany",
+      "type": "aviation",
+      "section": "premium_vehicles",
+      "research": null,
+      "purchase": null
+    },
+    {
+      "id": "f-4f",
+      "country": "germany",
+      "type": "aviation",
+      "section": "premium_vehicles",
+      "research": null,
+      "purchase": null
+    },
+    {
+      "id": "mig_23mf_germany",
+      "country": "germany",
+      "type": "aviation",
+      "section": "premium_vehicles",
+      "research": null,
+      "purchase": null
+    },
+    {
+      "id": "tornado_ids_de_mfg",
+      "country": "germany",
+      "type": "aviation",
+      "section": "premium_vehicles",
+      "research": null,
+      "purchase": null
+    },
+    {
+      "id": "po-2",
+      "country": "ussr",
+      "type": "aviation",
+      "section": "researchable_vehicles",
+      "research": null,
+      "purchase": null
+    },
+    {
+      "id": "sb_2m_103u",
+      "country": "ussr",
+      "type": "aviation",
+      "section": "researchable_vehicles",
+      "research": null,
+      "purchase": null
+    },
+    {
+      "id": "sb_2m_103_mv3",
+      "country": "ussr",
+      "type": "aviation",
+      "section": "researchable_vehicles",
+      "research": null,
+      "purchase": null
+    },
+    {
+      "id": "er-2_m105_tat",
+      "country": "ussr",
+      "type": "aviation",
+      "section": "researchable_vehicles",
+      "research": null,
+      "purchase": null
+    },
+    {
+      "id": "er-2_m105r_tat",
+      "country": "ussr",
+      "type": "aviation",
+      "section": "researchable_vehicles",
+      "research": null,
+      "purchase": null
+    },
+    {
+      "id": "tu-2_early",
+      "country": "ussr",
+      "type": "aviation",
+      "section": "premium_vehicles",
+      "research": null,
+      "purchase": null
+    },
+    {
+      "id": "bi",
+      "country": "ussr",
+      "type": "aviation",
+      "section": "premium_vehicles",
+      "research": null,
+      "purchase": null
+    },
+    {
+      "id": "la_174",
+      "country": "ussr",
+      "type": "aviation",
+      "section": "premium_vehicles",
+      "research": null,
+      "purchase": null
+    },
+    {
+      "id": "tu_95m",
+      "country": "ussr",
+      "type": "aviation",
+      "section": "premium_vehicles",
+      "research": null,
+      "purchase": null
+    },
+    {
+      "id": "mig-21_pfm",
+      "country": "ussr",
+      "type": "aviation",
+      "section": "premium_vehicles",
+      "research": null,
+      "purchase": null
+    },
+    {
+      "id": "mig_25pd",
+      "country": "ussr",
+      "type": "aviation",
+      "section": "premium_vehicles",
+      "research": null,
+      "purchase": null
+    },
+    {
+      "id": "su_25_558arz",
+      "country": "ussr",
+      "type": "aviation",
+      "section": "premium_vehicles",
+      "research": null,
+      "purchase": null
+    },
+    {
+      "id": "gladiator_mk2_france",
+      "country": "britain",
+      "type": "aviation",
+      "section": "researchable_vehicles",
+      "research": null,
+      "purchase": null
+    },
+    {
+      "id": "gladiator_mk2_silver",
+      "country": "britain",
+      "type": "aviation",
+      "section": "researchable_vehicles",
+      "research": null,
+      "purchase": null
+    },
+    {
+      "id": "hp_12",
+      "country": "britain",
+      "type": "aviation",
+      "section": "researchable_vehicles",
+      "research": null,
+      "purchase": null
+    },
+    {
+      "id": "d_521",
+      "country": "britain",
+      "type": "aviation",
+      "section": "premium_vehicles",
+      "research": null,
+      "purchase": null
+    },
+    {
+      "id": "marut_mk1",
+      "country": "britain",
+      "type": "aviation",
+      "section": "premium_vehicles",
+      "research": null,
+      "purchase": null
+    },
+    {
+      "id": "buccaneer_s1",
+      "country": "britain",
+      "type": "aviation",
+      "section": "premium_vehicles",
+      "research": null,
+      "purchase": null
+    },
+    {
+      "id": "jaguar_is",
+      "country": "britain",
+      "type": "aviation",
+      "section": "premium_vehicles",
+      "research": null,
+      "purchase": null
+    },
+    {
+      "id": "ki_10_2_commander",
+      "country": "japan",
+      "type": "aviation",
+      "section": "researchable_vehicles",
+      "research": null,
+      "purchase": null
+    },
+    {
+      "id": "ki_94_2",
+      "country": "japan",
+      "type": "aviation",
+      "section": "premium_vehicles",
+      "research": null,
+      "purchase": null
+    },
+    {
+      "id": "r2y2_v1",
+      "country": "japan",
+      "type": "aviation",
+      "section": "premium_vehicles",
+      "research": null,
+      "purchase": null
+    },
+    {
+      "id": "r2y2_v2",
+      "country": "japan",
+      "type": "aviation",
+      "section": "premium_vehicles",
+      "research": null,
+      "purchase": null
+    },
+    {
+      "id": "r2y2_kai",
+      "country": "japan",
+      "type": "aviation",
+      "section": "premium_vehicles",
+      "research": null,
+      "purchase": null
+    },
+    {
+      "id": "f_6c_pakistan",
+      "country": "china",
+      "type": "aviation",
+      "section": "premium_vehicles",
+      "research": null,
+      "purchase": null
+    },
+    {
+      "id": "f_100f_china",
+      "country": "china",
+      "type": "aviation",
+      "section": "premium_vehicles",
+      "research": null,
+      "purchase": null
+    },
+    {
+      "id": "iar_93b",
+      "country": "italy",
+      "type": "aviation",
+      "section": "premium_vehicles",
+      "research": null,
+      "purchase": null
+    },
+    {
+      "id": "md_460_yt_cup_2019",
+      "country": "france",
+      "type": "aviation",
+      "section": "premium_vehicles",
+      "research": null,
+      "purchase": null
+    },
+    {
+      "id": "jaguar_e",
+      "country": "france",
+      "type": "aviation",
+      "section": "premium_vehicles",
+      "research": null,
+      "purchase": null
+    },
+    {
+      "id": "f_16a_block_5_netherlands",
+      "country": "france",
+      "type": "aviation",
+      "section": "premium_vehicles",
+      "research": null,
+      "purchase": null
+    },
+    {
+      "id": "mirage_2000c_s4",
+      "country": "france",
+      "type": "aviation",
+      "section": "premium_vehicles",
+      "research": null,
+      "purchase": null
+    },
+    {
+      "id": "f-5ag_norway",
+      "country": "sweden",
+      "type": "aviation",
+      "section": "premium_vehicles",
+      "research": null,
+      "purchase": null
+    },
+    {
+      "id": "meteor_frmk9_iaf",
+      "country": "israel",
+      "type": "aviation",
+      "section": "premium_vehicles",
+      "research": null,
+      "purchase": null
+    },
+    {
+      "id": "kfir_c2",
+      "country": "israel",
+      "type": "aviation",
+      "section": "premium_vehicles",
+      "research": null,
+      "purchase": null
+    },
+    {
+      "id": "kfir_c10_colombia",
+      "country": "israel",
+      "type": "aviation",
+      "section": "premium_vehicles",
+      "research": null,
+      "purchase": null
+    },
+    {
+      "id": "us_cruiser_baltimore_class",
+      "country": "usa",
+      "type": "ships",
+      "section": "premium_vehicles",
+      "research": null,
+      "purchase": null
+    },
+    {
+      "id": "us_cruiser_des_moines_class_newport_news",
+      "country": "usa",
+      "type": "ships",
+      "section": "premium_vehicles",
+      "research": null,
+      "purchase": null
+    },
+    {
+      "id": "us_battleship_mississippi",
+      "country": "usa",
+      "type": "ships",
+      "section": "premium_vehicles",
+      "research": null,
+      "purchase": null
+    },
+    {
+      "id": "us_battleship_oklahoma",
+      "country": "usa",
+      "type": "ships",
+      "section": "premium_vehicles",
+      "research": null,
+      "purchase": null
+    },
+    {
+      "id": "germ_battleship_ostfriesland",
+      "country": "germany",
+      "type": "ships",
+      "section": "premium_vehicles",
+      "research": null,
+      "purchase": null
+    },
+    {
+      "id": "germ_battleship_baden",
+      "country": "germany",
+      "type": "ships",
+      "section": "premium_vehicles",
+      "research": null,
+      "purchase": null
+    },
+    {
+      "id": "germ_battlecruiser_mackensen_class",
+      "country": "germany",
+      "type": "ships",
+      "section": "premium_vehicles",
+      "research": null,
+      "purchase": null
+    },
+    {
+      "id": "ussr_cruiser_voroshilov",
+      "country": "ussr",
+      "type": "ships",
+      "section": "premium_vehicles",
+      "research": null,
+      "purchase": null
+    },
+    {
+      "id": "ussr_cruiser_shcherbakov",
+      "country": "ussr",
+      "type": "ships",
+      "section": "premium_vehicles",
+      "research": null,
+      "purchase": null
+    },
+    {
+      "id": "ussr_cruiser_maxim_gorky",
+      "country": "ussr",
+      "type": "ships",
+      "section": "premium_vehicles",
+      "research": null,
+      "purchase": null
+    },
+    {
+      "id": "ussr_battleship_oktyabrskaya_revolutsiya",
+      "country": "ussr",
+      "type": "ships",
+      "section": "premium_vehicles",
+      "research": null,
+      "purchase": null
+    },
+    {
+      "id": "uk_battlecruiser_renown",
+      "country": "britain",
+      "type": "ships",
+      "section": "premium_vehicles",
+      "research": null,
+      "purchase": null
+    },
+    {
+      "id": "uk_cruiser_tiger",
+      "country": "britain",
+      "type": "ships",
+      "section": "premium_vehicles",
+      "research": null,
+      "purchase": null
+    },
+    {
+      "id": "uk_battleship_q_elizabet_class_barham",
+      "country": "britain",
+      "type": "ships",
+      "section": "premium_vehicles",
+      "research": null,
+      "purchase": null
+    },
+    {
+      "id": "jp_destroyer_hatsuzuki",
+      "country": "japan",
+      "type": "ships",
+      "section": "premium_vehicles",
+      "research": null,
+      "purchase": null
+    },
+    {
+      "id": "jp_battlecruiser_kirishima",
+      "country": "japan",
+      "type": "ships",
+      "section": "premium_vehicles",
+      "research": null,
+      "purchase": null
+    },
+    {
+      "id": "jp_armoredcruiser_kurama",
+      "country": "japan",
+      "type": "ships",
+      "section": "premium_vehicles",
+      "research": null,
+      "purchase": null
+    },
+    {
+      "id": "jp_battlecruiser_haruna",
+      "country": "japan",
+      "type": "ships",
+      "section": "premium_vehicles",
+      "research": null,
+      "purchase": null
+    },
+    {
+      "id": "jp_battleship_tosa",
+      "country": "japan",
+      "type": "ships",
+      "section": "premium_vehicles",
+      "research": null,
+      "purchase": null
+    },
+    {
+      "id": "fr_battleship_strasbourg",
+      "country": "france",
+      "type": "ships",
+      "section": "premium_vehicles",
+      "research": null,
+      "purchase": null
+    },
+    {
+      "id": "germ_type143_bussard",
+      "country": "germany",
+      "type": "boats",
+      "section": "premium_vehicles",
+      "research": null,
+      "purchase": null
+    },
+    {
+      "id": "ussr_mpk_201k",
+      "country": "ussr",
+      "type": "boats",
+      "section": "premium_vehicles",
+      "research": null,
+      "purchase": null
+    },
+    {
+      "id": "ussr_pr_205pe_k225",
+      "country": "ussr",
+      "type": "boats",
+      "section": "premium_vehicles",
+      "research": null,
+      "purchase": null
+    },
+    {
+      "id": "uk_dark_class_mtb_td",
+      "country": "britain",
+      "type": "boats",
+      "section": "premium_vehicles",
+      "research": null,
+      "purchase": null
+    },
+    {
+      "id": "jp_escort_hiburi_class_shisaka",
+      "country": "japan",
+      "type": "boats",
+      "section": "premium_vehicles",
+      "research": null,
+      "purchase": null
+    },
+    {
+      "id": "it_albatros_class_f544",
+      "country": "italy",
+      "type": "boats",
+      "section": "premium_vehicles",
+      "research": null,
+      "purchase": null
+    }
+  ],
+  "fetched_from": "2026-09-19T06:25:06.034Z",
+  "fetched_to": "2026-09-19T06:33:08.375Z",
+  "live_recheck": {
+    "verified_at": "2026-09-19T06:38:11.796Z",
+    "tree_pages": 5,
+    "unit_samples": 163,
+    "failures": 0
+  }
+}

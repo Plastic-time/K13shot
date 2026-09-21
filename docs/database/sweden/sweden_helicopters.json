@@ -1,0 +1,300 @@
+[
+  {
+    "rank": "V",
+    "researchable_vehicles": [
+      [
+        {
+          "type": "single",
+          "title": "HKP3C",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/hkp3c.png",
+          "br": "7.7",
+          "rp": 0,
+          "sp": 390000,
+          "data_unit_id": "hkp3c",
+          "required_unit_id": "",
+          "selected": false,
+          "class_name": "",
+          "details": true,
+          "rank": "V",
+          "research_country": "Sweden",
+          "main_role": "Utility helicopter",
+          "is_component": false,
+          "component_of": null,
+          "is_premium": false,
+          "is_squadron": false,
+          "wiki": {
+            "url": "https://wiki.warthunder.com/unit/hkp3c",
+            "rank": "V",
+            "battle_rating_context": "default",
+            "battle_ratings": {
+              "AB": "7.7",
+              "RB": "7.7",
+              "SB": "7.7"
+            },
+            "battle_ratings_by_battle": {
+              "default": {
+                "AB": "7.7",
+                "RB": "7.7",
+                "SB": "7.7"
+              }
+            },
+            "research": "Free",
+            "purchase": "390,000",
+            "purchase_currency": "SL",
+            "status": null,
+            "fetched_at": "2026-09-19T06:32:07.643Z",
+            "sha256": "c4bdfff7e7817484ea488b1aed9b2bc482dc8a54788c78d6910d68d8f810ff20"
+          }
+        },
+        {
+          "type": "single",
+          "title": "HKP2",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/hkp2.png",
+          "br": "8.3",
+          "rp": 150000,
+          "sp": 490000,
+          "data_unit_id": "hkp2",
+          "required_unit_id": "hkp3c",
+          "selected": false,
+          "class_name": "",
+          "details": true,
+          "rank": "V",
+          "research_country": "Sweden",
+          "main_role": "Utility helicopter",
+          "is_component": false,
+          "component_of": null,
+          "is_premium": false,
+          "is_squadron": false,
+          "wiki": {
+            "url": "https://wiki.warthunder.com/unit/hkp2",
+            "rank": "V",
+            "battle_rating_context": "default",
+            "battle_ratings": {
+              "AB": "8.7",
+              "RB": "8.3",
+              "SB": "8.7"
+            },
+            "battle_ratings_by_battle": {
+              "default": {
+                "AB": "8.7",
+                "RB": "8.3",
+                "SB": "8.7"
+              }
+            },
+            "research": "150,000",
+            "purchase": "490,000",
+            "purchase_currency": "SL",
+            "status": null,
+            "fetched_at": "2026-09-19T06:32:07.838Z",
+            "sha256": "468f3db188f35decba453668e4f7b8b51b884a300d2cbf438eaacd6c186f8dbd"
+          }
+        }
+      ]
+    ],
+    "premium_vehicles": [
+      []
+    ],
+    "selected": [],
+    "unlock_quantity": null,
+    "source": "wiki"
+  },
+  {
+    "rank": "VI",
+    "researchable_vehicles": [
+      [
+        {
+          "type": "single",
+          "title": "HKP9A",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/hkp9a_cb2.png",
+          "br": "9.3",
+          "rp": 360000,
+          "sp": 980000,
+          "data_unit_id": "hkp9a_cb2",
+          "required_unit_id": "hkp2",
+          "selected": false,
+          "class_name": "",
+          "details": true,
+          "rank": "VI",
+          "research_country": "Sweden",
+          "main_role": "Utility helicopter",
+          "is_component": false,
+          "component_of": null,
+          "is_premium": false,
+          "is_squadron": false,
+          "wiki": {
+            "url": "https://wiki.warthunder.com/unit/hkp9a_cb2",
+            "rank": "VI",
+            "battle_rating_context": "default",
+            "battle_ratings": {
+              "AB": "9.7",
+              "RB": "9.3",
+              "SB": "9.7"
+            },
+            "battle_ratings_by_battle": {
+              "default": {
+                "AB": "9.7",
+                "RB": "9.3",
+                "SB": "9.7"
+              }
+            },
+            "research": "360,000",
+            "purchase": "980,000",
+            "purchase_currency": "SL",
+            "status": null,
+            "fetched_at": "2026-09-19T06:32:07.669Z",
+            "sha256": "91212d298cd75a1287a070fd11345ce3c09697e88435b3c5f5741b23904cf5fd"
+          }
+        },
+        {
+          "type": "single",
+          "title": "HKP9A (FC)",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/hkp9a_cb3_fc.png",
+          "br": "9.3",
+          "rp": 370000,
+          "sp": 990000,
+          "data_unit_id": "hkp9a_cb3_fc",
+          "required_unit_id": "hkp9a_cb2",
+          "selected": false,
+          "class_name": "",
+          "details": true,
+          "rank": "VI",
+          "research_country": "Sweden",
+          "main_role": "Utility helicopter",
+          "is_component": false,
+          "component_of": null,
+          "is_premium": false,
+          "is_squadron": false,
+          "wiki": {
+            "url": "https://wiki.warthunder.com/unit/hkp9a_cb3_fc",
+            "rank": "VI",
+            "battle_rating_context": "default",
+            "battle_ratings": {
+              "AB": "9.7",
+              "RB": "9.3",
+              "SB": "10.0"
+            },
+            "battle_ratings_by_battle": {
+              "default": {
+                "AB": "9.7",
+                "RB": "9.3",
+                "SB": "10.0"
+              }
+            },
+            "research": "370,000",
+            "purchase": "990,000",
+            "purchase_currency": "SL",
+            "status": null,
+            "fetched_at": "2026-09-19T06:32:07.966Z",
+            "sha256": "791b8990b323cc8dc94c96153ac9d926868d03790f3fe86bfdc04c8319562df3"
+          }
+        }
+      ]
+    ],
+    "premium_vehicles": [
+      [
+        {
+          "type": "single",
+          "title": "Mi-28A",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/mi_28a_sweden.png",
+          "br": "10.7",
+          "rp": 0,
+          "sp": 0,
+          "data_unit_id": "mi_28a_sweden",
+          "required_unit_id": "",
+          "selected": false,
+          "class_name": "prem",
+          "details": true,
+          "rank": "VI",
+          "research_country": "Sweden",
+          "main_role": "Attack helicopter",
+          "is_component": false,
+          "component_of": null,
+          "is_premium": true,
+          "is_squadron": false,
+          "wiki": {
+            "url": "https://wiki.warthunder.com/unit/mi_28a_sweden",
+            "rank": "VI",
+            "battle_rating_context": "default",
+            "battle_ratings": {
+              "AB": "10.3",
+              "RB": "10.7",
+              "SB": "10.0"
+            },
+            "battle_ratings_by_battle": {
+              "default": {
+                "AB": "10.3",
+                "RB": "10.7",
+                "SB": "10.0"
+              }
+            },
+            "research": null,
+            "purchase": "9,270",
+            "purchase_currency": "GE",
+            "status": "Premium vehicle",
+            "fetched_at": "2026-09-19T06:32:08.003Z",
+            "sha256": "70daf5a961106ec54cdc3d460cabc81db70da0d1ece5424d51d277b67d0df3ca"
+          }
+        }
+      ]
+    ],
+    "selected": [],
+    "unlock_quantity": null,
+    "source": "wiki"
+  },
+  {
+    "rank": "VII",
+    "researchable_vehicles": [
+      [
+        {
+          "type": "single",
+          "title": "AHS",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/ahs.png",
+          "br": "11.3",
+          "rp": 400000,
+          "sp": 1020000,
+          "data_unit_id": "ahs",
+          "required_unit_id": "hkp9a_cb3_fc",
+          "selected": false,
+          "class_name": "",
+          "details": true,
+          "rank": "VII",
+          "research_country": "Sweden",
+          "main_role": "Attack helicopter",
+          "is_component": false,
+          "component_of": null,
+          "is_premium": false,
+          "is_squadron": false,
+          "wiki": {
+            "url": "https://wiki.warthunder.com/unit/ahs",
+            "rank": "VII",
+            "battle_rating_context": "default",
+            "battle_ratings": {
+              "AB": "10.3",
+              "RB": "11.3",
+              "SB": "10.3"
+            },
+            "battle_ratings_by_battle": {
+              "default": {
+                "AB": "10.3",
+                "RB": "11.3",
+                "SB": "10.3"
+              }
+            },
+            "research": "400,000",
+            "purchase": "1,020,000",
+            "purchase_currency": "SL",
+            "status": null,
+            "fetched_at": "2026-09-19T06:32:07.450Z",
+            "sha256": "dc101c4b3f03a202dc4fd527c34e0ca57c6daa1e0b1aead6600661fd1d6b473e"
+          }
+        }
+      ]
+    ],
+    "premium_vehicles": [
+      []
+    ],
+    "selected": [],
+    "unlock_quantity": null,
+    "source": "wiki"
+  }
+]

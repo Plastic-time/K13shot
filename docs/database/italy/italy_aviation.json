@@ -1,0 +1,5604 @@
+[
+  {
+    "rank": "I",
+    "researchable_vehicles": [
+      [
+        {
+          "type": "single",
+          "title": "Ro.44",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/ro_44.png",
+          "br": "1.0",
+          "rp": 2900,
+          "sp": 700,
+          "data_unit_id": "ro_44",
+          "required_unit_id": "",
+          "selected": false,
+          "class_name": "",
+          "details": true,
+          "rank": "I",
+          "research_country": "Italy",
+          "main_role": "Fighter",
+          "is_component": false,
+          "component_of": null,
+          "is_premium": false,
+          "is_squadron": false,
+          "wiki": {
+            "url": "https://wiki.warthunder.com/unit/ro_44",
+            "rank": "I",
+            "battle_rating_context": "default",
+            "battle_ratings": {
+              "AB": "1.0",
+              "RB": "1.0",
+              "SB": "1.0"
+            },
+            "battle_ratings_by_battle": {
+              "default": {
+                "AB": "1.0",
+                "RB": "1.0",
+                "SB": "1.0"
+              }
+            },
+            "research": "2,900",
+            "purchase": "700",
+            "purchase_currency": "SL",
+            "status": null,
+            "fetched_at": "2026-09-19T06:31:30.524Z",
+            "sha256": "f26d590844802e3f53f2d6d4970a270b20f217bf801858cac42b756ce5c84d4a"
+          }
+        },
+        {
+          "type": "multiple",
+          "title": "Re.2000",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/re_2000_group.png",
+          "selected": false,
+          "br": "2.3",
+          "data_unit_id": "re_2000_group",
+          "required_unit_id": "ro_44",
+          "class_name": "",
+          "items": [
+            {
+              "type": "single",
+              "title": "Re.2000 serie 1",
+              "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/re_2000_int.png",
+              "br": "2.3",
+              "rp": 4000,
+              "sp": 2100,
+              "data_unit_id": "re_2000_int",
+              "required_unit_id": "",
+              "selected": false,
+              "class_name": "",
+              "details": true,
+              "rank": "I",
+              "research_country": "Italy",
+              "main_role": "Fighter",
+              "is_component": false,
+              "component_of": null,
+              "is_premium": false,
+              "is_squadron": false,
+              "wiki": {
+                "url": "https://wiki.warthunder.com/unit/re_2000_int",
+                "rank": "I",
+                "battle_rating_context": "default",
+                "battle_ratings": {
+                  "AB": "2.3",
+                  "RB": "2.3",
+                  "SB": "2.0"
+                },
+                "battle_ratings_by_battle": {
+                  "default": {
+                    "AB": "2.3",
+                    "RB": "2.3",
+                    "SB": "2.0"
+                  }
+                },
+                "research": "4,000",
+                "purchase": "2,100",
+                "purchase_currency": "SL",
+                "status": null,
+                "fetched_at": "2026-09-19T06:31:29.727Z",
+                "sha256": "88996dd8b37a7032024470e20444dfbb9204d7b03fc7fdcda813948edc50e910"
+              }
+            },
+            {
+              "type": "single",
+              "title": "Re.2000 G.A.",
+              "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/re_2000_ga.png",
+              "br": "2.3",
+              "rp": 3000,
+              "sp": 6300,
+              "data_unit_id": "re_2000_ga",
+              "required_unit_id": "re_2000_int",
+              "selected": false,
+              "class_name": "",
+              "details": true,
+              "rank": "I",
+              "research_country": "Italy",
+              "main_role": "Fighter",
+              "is_component": false,
+              "component_of": null,
+              "is_premium": false,
+              "is_squadron": false,
+              "wiki": {
+                "url": "https://wiki.warthunder.com/unit/re_2000_ga",
+                "rank": "I",
+                "battle_rating_context": "default",
+                "battle_ratings": {
+                  "AB": "2.3",
+                  "RB": "2.3",
+                  "SB": "2.0"
+                },
+                "battle_ratings_by_battle": {
+                  "default": {
+                    "AB": "2.3",
+                    "RB": "2.3",
+                    "SB": "2.0"
+                  }
+                },
+                "research": "3,000",
+                "purchase": "6,300",
+                "purchase_currency": "SL",
+                "status": null,
+                "fetched_at": "2026-09-19T06:31:29.260Z",
+                "sha256": "3addee21d89e540ab1f8f4621d0294627812b740bde7373599a5367ce97e77d9"
+              }
+            }
+          ],
+          "details": true,
+          "rp": 7000,
+          "sp": 8400
+        }
+      ],
+      [
+        {
+          "type": "multiple",
+          "title": "CR.32",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/cr_32_group.png",
+          "selected": false,
+          "br": "1.0",
+          "data_unit_id": "cr_32_group",
+          "required_unit_id": "",
+          "class_name": "",
+          "items": [
+            {
+              "type": "single",
+              "title": "CR.32",
+              "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/cr_32.png",
+              "br": "1.0",
+              "rp": 0,
+              "sp": 0,
+              "data_unit_id": "cr_32",
+              "required_unit_id": "",
+              "selected": false,
+              "class_name": "",
+              "details": true,
+              "rank": "I",
+              "research_country": "Italy",
+              "main_role": "Fighter",
+              "is_component": false,
+              "component_of": null,
+              "is_premium": false,
+              "is_squadron": false,
+              "wiki": {
+                "url": "https://wiki.warthunder.com/unit/cr_32",
+                "rank": "I",
+                "battle_rating_context": "default",
+                "battle_ratings": {
+                  "AB": "1.0",
+                  "RB": "1.0",
+                  "SB": "1.0"
+                },
+                "battle_ratings_by_battle": {
+                  "default": {
+                    "AB": "1.0",
+                    "RB": "1.0",
+                    "SB": "1.0"
+                  }
+                },
+                "research": "Free",
+                "purchase": "Free",
+                "purchase_currency": "SL",
+                "status": null,
+                "fetched_at": "2026-09-19T06:31:22.907Z",
+                "sha256": "f02f0f7965cff9475a742989f74101602f65ff48059bf41c552a2ac1f553d352"
+              }
+            },
+            {
+              "type": "single",
+              "title": "CR.32 quater",
+              "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/cr_32_quater.png",
+              "br": "1.0",
+              "rp": 0,
+              "sp": 0,
+              "data_unit_id": "cr_32_quater",
+              "required_unit_id": "cr_32",
+              "selected": false,
+              "class_name": "",
+              "details": true,
+              "rank": "I",
+              "research_country": "Italy",
+              "main_role": "Fighter",
+              "is_component": false,
+              "component_of": null,
+              "is_premium": false,
+              "is_squadron": false,
+              "wiki": {
+                "url": "https://wiki.warthunder.com/unit/cr_32_quater",
+                "rank": "I",
+                "battle_rating_context": "default",
+                "battle_ratings": {
+                  "AB": "1.0",
+                  "RB": "1.0",
+                  "SB": "1.0"
+                },
+                "battle_ratings_by_battle": {
+                  "default": {
+                    "AB": "1.0",
+                    "RB": "1.0",
+                    "SB": "1.0"
+                  }
+                },
+                "research": "Free",
+                "purchase": "Free",
+                "purchase_currency": "SL",
+                "status": null,
+                "fetched_at": "2026-09-19T06:31:23.263Z",
+                "sha256": "a808135df6d8b0abae8f74a23d185b537920109867fb4fc258377201346df615"
+              }
+            }
+          ],
+          "details": true,
+          "rp": 0,
+          "sp": 0
+        },
+        {
+          "type": "single",
+          "title": "CR.42",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/fiat_cr42_italy.png",
+          "br": "1.3",
+          "rp": 2900,
+          "sp": 700,
+          "data_unit_id": "fiat_cr42_italy",
+          "required_unit_id": "cr_32_group",
+          "selected": false,
+          "class_name": "",
+          "details": true,
+          "rank": "I",
+          "research_country": "Italy",
+          "main_role": "Fighter",
+          "is_component": false,
+          "component_of": null,
+          "is_premium": false,
+          "is_squadron": false,
+          "wiki": {
+            "url": "https://wiki.warthunder.com/unit/fiat_cr42_italy",
+            "rank": "I",
+            "battle_rating_context": "default",
+            "battle_ratings": {
+              "AB": "1.7",
+              "RB": "1.3",
+              "SB": "1.3"
+            },
+            "battle_ratings_by_battle": {
+              "default": {
+                "AB": "1.7",
+                "RB": "1.3",
+                "SB": "1.3"
+              }
+            },
+            "research": "2,900",
+            "purchase": "700",
+            "purchase_currency": "SL",
+            "status": null,
+            "fetched_at": "2026-09-19T06:31:24.534Z",
+            "sha256": "7ca4ffdf7baf6d3edf0675266a2d5d22931c952e71e027df52bdf68a534fecd4"
+          }
+        },
+        {
+          "type": "multiple",
+          "title": "G.50",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/fiat_g50_italy_group.png",
+          "selected": false,
+          "br": "1.7",
+          "data_unit_id": "fiat_g50_italy_group",
+          "required_unit_id": "fiat_cr42_italy",
+          "class_name": "",
+          "items": [
+            {
+              "type": "single",
+              "title": "G.50 serie 2",
+              "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/fiat_g50_seria2_italy.png",
+              "br": "1.7",
+              "rp": 4000,
+              "sp": 2100,
+              "data_unit_id": "fiat_g50_seria2_italy",
+              "required_unit_id": "",
+              "selected": false,
+              "class_name": "",
+              "details": true,
+              "rank": "I",
+              "research_country": "Italy",
+              "main_role": "Fighter",
+              "is_component": false,
+              "component_of": null,
+              "is_premium": false,
+              "is_squadron": false,
+              "wiki": {
+                "url": "https://wiki.warthunder.com/unit/fiat_g50_seria2_italy",
+                "rank": "I",
+                "battle_rating_context": "default",
+                "battle_ratings": {
+                  "AB": "2.0",
+                  "RB": "1.7",
+                  "SB": "1.7"
+                },
+                "battle_ratings_by_battle": {
+                  "default": {
+                    "AB": "2.0",
+                    "RB": "1.7",
+                    "SB": "1.7"
+                  }
+                },
+                "research": "4,000",
+                "purchase": "2,100",
+                "purchase_currency": "SL",
+                "status": null,
+                "fetched_at": "2026-09-19T06:31:24.617Z",
+                "sha256": "55313e69e5f6832d224a73eb59ff6ba0730fe6c2b21d8f00c2d137ccd6f0fa53"
+              }
+            },
+            {
+              "type": "single",
+              "title": "G.50 AS serie 7",
+              "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/fiat_g50_seria7as_italy.png",
+              "br": "1.7",
+              "rp": 3000,
+              "sp": 6300,
+              "data_unit_id": "fiat_g50_seria7as_italy",
+              "required_unit_id": "fiat_g50_seria2_italy",
+              "selected": false,
+              "class_name": "",
+              "details": true,
+              "rank": "I",
+              "research_country": "Italy",
+              "main_role": "Fighter",
+              "is_component": false,
+              "component_of": null,
+              "is_premium": false,
+              "is_squadron": false,
+              "wiki": {
+                "url": "https://wiki.warthunder.com/unit/fiat_g50_seria7as_italy",
+                "rank": "I",
+                "battle_rating_context": "default",
+                "battle_ratings": {
+                  "AB": "2.0",
+                  "RB": "1.7",
+                  "SB": "2.0"
+                },
+                "battle_ratings_by_battle": {
+                  "default": {
+                    "AB": "2.0",
+                    "RB": "1.7",
+                    "SB": "2.0"
+                  }
+                },
+                "research": "3,000",
+                "purchase": "6,300",
+                "purchase_currency": "SL",
+                "status": null,
+                "fetched_at": "2026-09-19T06:31:24.972Z",
+                "sha256": "7d26bf0bbf7fe7157615b29c7b406c9be35e346917be09922238c9094947f2ac"
+              }
+            }
+          ],
+          "details": true,
+          "rp": 7000,
+          "sp": 8400
+        }
+      ],
+      [
+        {
+          "type": "multiple",
+          "title": "Ba.65/▄Ju 87",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/ba_65_group.png",
+          "selected": false,
+          "br": "1.3",
+          "data_unit_id": "ba_65_group",
+          "required_unit_id": "",
+          "class_name": "",
+          "items": [
+            {
+              "type": "single",
+              "title": "Ba.65 (K.14) L",
+              "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/ba_65_k14_l.png",
+              "br": "1.3",
+              "rp": 2900,
+              "sp": 700,
+              "data_unit_id": "ba_65_k14_l",
+              "required_unit_id": "",
+              "selected": false,
+              "class_name": "",
+              "details": true,
+              "rank": "I",
+              "research_country": "Italy",
+              "main_role": "Strike aircraft",
+              "is_component": false,
+              "component_of": null,
+              "is_premium": false,
+              "is_squadron": false,
+              "wiki": {
+                "url": "https://wiki.warthunder.com/unit/ba_65_k14_l",
+                "rank": "I",
+                "battle_rating_context": "default",
+                "battle_ratings": {
+                  "AB": "1.7",
+                  "RB": "1.3",
+                  "SB": "1.3"
+                },
+                "battle_ratings_by_battle": {
+                  "default": {
+                    "AB": "1.7",
+                    "RB": "1.3",
+                    "SB": "1.3"
+                  }
+                },
+                "research": "2,900",
+                "purchase": "700",
+                "purchase_currency": "SL",
+                "status": null,
+                "fetched_at": "2026-09-19T06:31:22.307Z",
+                "sha256": "f97cc911ea673b74cd8c8070186b6be539755110660f828379aaa48090c8bef3"
+              }
+            },
+            {
+              "type": "single",
+              "title": "▄Ju 87 R-2",
+              "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/ju-87r-2_italy.png",
+              "br": "1.3",
+              "rp": 2000,
+              "sp": 2100,
+              "data_unit_id": "ju-87r-2_italy",
+              "required_unit_id": "ba_65_k14_l",
+              "selected": false,
+              "class_name": "",
+              "details": true,
+              "rank": "I",
+              "research_country": "Italy",
+              "main_role": "Bomber",
+              "is_component": false,
+              "component_of": null,
+              "is_premium": false,
+              "is_squadron": false,
+              "wiki": {
+                "url": "https://wiki.warthunder.com/unit/ju-87r-2_italy",
+                "rank": "I",
+                "battle_rating_context": "default",
+                "battle_ratings": {
+                  "AB": "1.3",
+                  "RB": "1.3",
+                  "SB": "1.3"
+                },
+                "battle_ratings_by_battle": {
+                  "default": {
+                    "AB": "1.3",
+                    "RB": "1.3",
+                    "SB": "1.3"
+                  }
+                },
+                "research": "2,000",
+                "purchase": "2,100",
+                "purchase_currency": "SL",
+                "status": null,
+                "fetched_at": "2026-09-19T06:31:26.684Z",
+                "sha256": "57ec2fa2d8cdb75fe566e38aaeff50bbc128d61749c23ad4f65da83f3e87445e"
+              }
+            }
+          ],
+          "details": true,
+          "rp": 4900,
+          "sp": 2800
+        },
+        {
+          "type": "multiple",
+          "title": "Breda 88/P.108",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/breda_group.png",
+          "selected": false,
+          "br": "1.7-2.3",
+          "data_unit_id": "breda_group",
+          "required_unit_id": "ba_65_group",
+          "class_name": "",
+          "items": [
+            {
+              "type": "single",
+              "title": "Breda 88 (P.XI)",
+              "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/breda_88.png",
+              "br": "1.7",
+              "rp": 4000,
+              "sp": 2100,
+              "data_unit_id": "breda_88",
+              "required_unit_id": "",
+              "selected": false,
+              "class_name": "",
+              "details": true,
+              "rank": "I",
+              "research_country": "Italy",
+              "main_role": "Strike aircraft",
+              "is_component": false,
+              "component_of": null,
+              "is_premium": false,
+              "is_squadron": false,
+              "wiki": {
+                "url": "https://wiki.warthunder.com/unit/breda_88",
+                "rank": "I",
+                "battle_rating_context": "default",
+                "battle_ratings": {
+                  "AB": "1.7",
+                  "RB": "1.7",
+                  "SB": "2.0"
+                },
+                "battle_ratings_by_battle": {
+                  "default": {
+                    "AB": "1.7",
+                    "RB": "1.7",
+                    "SB": "2.0"
+                  }
+                },
+                "research": "4,000",
+                "purchase": "2,100",
+                "purchase_currency": "SL",
+                "status": null,
+                "fetched_at": "2026-09-19T06:31:22.810Z",
+                "sha256": "bd0a26c8162191b7a82bfbaef64f418d59fed0a339a6c9f7cd1dd68521bbe4b7"
+              }
+            },
+            {
+              "type": "single",
+              "title": "P.108A serie 2",
+              "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/p_108a_serie2.png",
+              "br": "2.3",
+              "rp": 3000,
+              "sp": 6300,
+              "data_unit_id": "p_108a_serie2",
+              "required_unit_id": "breda_88",
+              "selected": false,
+              "class_name": "",
+              "details": true,
+              "rank": "I",
+              "research_country": "Italy",
+              "main_role": "Strike aircraft",
+              "is_component": false,
+              "component_of": null,
+              "is_premium": false,
+              "is_squadron": false,
+              "wiki": {
+                "url": "https://wiki.warthunder.com/unit/p_108a_serie2",
+                "rank": "I",
+                "battle_rating_context": "default",
+                "battle_ratings": {
+                  "AB": "1.7",
+                  "RB": "2.3",
+                  "SB": "3.0"
+                },
+                "battle_ratings_by_battle": {
+                  "default": {
+                    "AB": "1.7",
+                    "RB": "2.3",
+                    "SB": "3.0"
+                  }
+                },
+                "research": "3,000",
+                "purchase": "6,300",
+                "purchase_currency": "SL",
+                "status": null,
+                "fetched_at": "2026-09-19T06:31:28.934Z",
+                "sha256": "a053a9afebb145ad490f49748b11b418df04522102c1930f560a22e1379a7933"
+              }
+            }
+          ],
+          "details": true,
+          "rp": 7000,
+          "sp": 8400
+        },
+        {
+          "type": "single",
+          "title": "F.C.20 Bis",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/fc_20_bis.png",
+          "br": "2.0",
+          "rp": 5900,
+          "sp": 6300,
+          "data_unit_id": "fc_20_bis",
+          "required_unit_id": "breda_group",
+          "selected": false,
+          "class_name": "",
+          "details": true,
+          "rank": "I",
+          "research_country": "Italy",
+          "main_role": "Strike aircraft",
+          "is_component": false,
+          "component_of": null,
+          "is_premium": false,
+          "is_squadron": false,
+          "wiki": {
+            "url": "https://wiki.warthunder.com/unit/fc_20_bis",
+            "rank": "I",
+            "battle_rating_context": "default",
+            "battle_ratings": {
+              "AB": "2.3",
+              "RB": "2.0",
+              "SB": "2.3"
+            },
+            "battle_ratings_by_battle": {
+              "default": {
+                "AB": "2.3",
+                "RB": "2.0",
+                "SB": "2.3"
+              }
+            },
+            "research": "5,900",
+            "purchase": "6,300",
+            "purchase_currency": "SL",
+            "status": null,
+            "fetched_at": "2026-09-19T06:31:24.524Z",
+            "sha256": "e1bf3876e0c86283581aa166c84f69948e1e788c98e29f1fdf73afd37df48e55"
+          }
+        }
+      ],
+      [
+        {
+          "type": "single",
+          "title": "S.81",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/s_81_ar125.png",
+          "br": "1.3",
+          "rp": 2900,
+          "sp": 700,
+          "data_unit_id": "s_81_ar125",
+          "required_unit_id": "",
+          "selected": false,
+          "class_name": "",
+          "details": true,
+          "rank": "I",
+          "research_country": "Italy",
+          "main_role": "Bomber",
+          "is_component": false,
+          "component_of": null,
+          "is_premium": false,
+          "is_squadron": false,
+          "wiki": {
+            "url": "https://wiki.warthunder.com/unit/s_81_ar125",
+            "rank": "I",
+            "battle_rating_context": "default",
+            "battle_ratings": {
+              "AB": "1.3",
+              "RB": "1.3",
+              "SB": "1.3"
+            },
+            "battle_ratings_by_battle": {
+              "default": {
+                "AB": "1.3",
+                "RB": "1.3",
+                "SB": "1.3"
+              }
+            },
+            "research": "2,900",
+            "purchase": "700",
+            "purchase_currency": "SL",
+            "status": null,
+            "fetched_at": "2026-09-19T06:31:30.685Z",
+            "sha256": "368a7fd623035306560b4b30fcbf713979fb54a6156efe8626920cec5f535e91"
+          }
+        },
+        {
+          "type": "multiple",
+          "title": "B.R.20",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/br_20_dr_group.png",
+          "selected": false,
+          "br": "1.7",
+          "data_unit_id": "br_20_dr_group",
+          "required_unit_id": "s_81_ar125",
+          "class_name": "",
+          "items": [
+            {
+              "type": "single",
+              "title": "B.R.20DR",
+              "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/br_20_dr.png",
+              "br": "1.7",
+              "rp": 4000,
+              "sp": 2100,
+              "data_unit_id": "br_20_dr",
+              "required_unit_id": "",
+              "selected": false,
+              "class_name": "",
+              "details": true,
+              "rank": "I",
+              "research_country": "Italy",
+              "main_role": "Bomber",
+              "is_component": false,
+              "component_of": null,
+              "is_premium": false,
+              "is_squadron": false,
+              "wiki": {
+                "url": "https://wiki.warthunder.com/unit/br_20_dr",
+                "rank": "I",
+                "battle_rating_context": "default",
+                "battle_ratings": {
+                  "AB": "1.7",
+                  "RB": "1.7",
+                  "SB": "1.7"
+                },
+                "battle_ratings_by_battle": {
+                  "default": {
+                    "AB": "1.7",
+                    "RB": "1.7",
+                    "SB": "1.7"
+                  }
+                },
+                "research": "4,000",
+                "purchase": "2,100",
+                "purchase_currency": "SL",
+                "status": null,
+                "fetched_at": "2026-09-19T06:31:22.757Z",
+                "sha256": "13117f4e760f44fc3a132e3d8382ce4171924d667e0c50c8b244f08d317268f7"
+              }
+            },
+            {
+              "type": "single",
+              "title": "B.R.20M M1",
+              "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/br_20m_m1.png",
+              "br": "1.7",
+              "rp": 3000,
+              "sp": 6300,
+              "data_unit_id": "br_20m_m1",
+              "required_unit_id": "br_20_dr",
+              "selected": false,
+              "class_name": "",
+              "details": true,
+              "rank": "I",
+              "research_country": "Italy",
+              "main_role": "Bomber",
+              "is_component": false,
+              "component_of": null,
+              "is_premium": false,
+              "is_squadron": false,
+              "wiki": {
+                "url": "https://wiki.warthunder.com/unit/br_20m_m1",
+                "rank": "I",
+                "battle_rating_context": "default",
+                "battle_ratings": {
+                  "AB": "1.7",
+                  "RB": "1.7",
+                  "SB": "1.7"
+                },
+                "battle_ratings_by_battle": {
+                  "default": {
+                    "AB": "1.7",
+                    "RB": "1.7",
+                    "SB": "1.7"
+                  }
+                },
+                "research": "3,000",
+                "purchase": "6,300",
+                "purchase_currency": "SL",
+                "status": null,
+                "fetched_at": "2026-09-19T06:31:22.965Z",
+                "sha256": "56025dbd434ab19c6adfcd35ed25a53b70a7db00f8b602f3494da76619d4d692"
+              }
+            }
+          ],
+          "details": true,
+          "rp": 7000,
+          "sp": 8400
+        },
+        {
+          "type": "multiple",
+          "title": "S.M.79 (e)",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/sm-79_italy_group.png",
+          "selected": false,
+          "br": "1.7-2.0",
+          "data_unit_id": "sm_79_italy_group",
+          "required_unit_id": "br_20_dr_group",
+          "class_name": "",
+          "items": [
+            {
+              "type": "single",
+              "title": "S.M.79 serie 1",
+              "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/sm_79_1936_italy.png",
+              "br": "1.7",
+              "rp": 5900,
+              "sp": 6300,
+              "data_unit_id": "sm_79_1936_italy",
+              "required_unit_id": "",
+              "selected": false,
+              "class_name": "",
+              "details": true,
+              "rank": "I",
+              "research_country": "Italy",
+              "main_role": "Bomber",
+              "is_component": false,
+              "component_of": null,
+              "is_premium": false,
+              "is_squadron": false,
+              "wiki": {
+                "url": "https://wiki.warthunder.com/unit/sm_79_1936_italy",
+                "rank": "I",
+                "battle_rating_context": "default",
+                "battle_ratings": {
+                  "AB": "2.0",
+                  "RB": "1.7",
+                  "SB": "2.0"
+                },
+                "battle_ratings_by_battle": {
+                  "default": {
+                    "AB": "2.0",
+                    "RB": "1.7",
+                    "SB": "2.0"
+                  }
+                },
+                "research": "5,900",
+                "purchase": "6,300",
+                "purchase_currency": "SL",
+                "status": null,
+                "fetched_at": "2026-09-19T06:31:30.848Z",
+                "sha256": "fdb32cd9b957277a1330a87ffae8b73b36440f27746165a3e2a48d26d0bd8057"
+              }
+            },
+            {
+              "type": "single",
+              "title": "S.M.79 serie 8",
+              "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/sm_79_1939_italy.png",
+              "br": "2.0",
+              "rp": 3000,
+              "sp": 6300,
+              "data_unit_id": "sm_79_1939_italy",
+              "required_unit_id": "sm_79_1936_italy",
+              "selected": false,
+              "class_name": "",
+              "details": true,
+              "rank": "I",
+              "research_country": "Italy",
+              "main_role": "Bomber",
+              "is_component": false,
+              "component_of": null,
+              "is_premium": false,
+              "is_squadron": false,
+              "wiki": {
+                "url": "https://wiki.warthunder.com/unit/sm_79_1939_italy",
+                "rank": "I",
+                "battle_rating_context": "default",
+                "battle_ratings": {
+                  "AB": "2.0",
+                  "RB": "2.0",
+                  "SB": "2.3"
+                },
+                "battle_ratings_by_battle": {
+                  "default": {
+                    "AB": "2.0",
+                    "RB": "2.0",
+                    "SB": "2.3"
+                  }
+                },
+                "research": "3,000",
+                "purchase": "6,300",
+                "purchase_currency": "SL",
+                "status": null,
+                "fetched_at": "2026-09-19T06:31:30.986Z",
+                "sha256": "adbf0da43c40e4be64ccc4273afbff49d91758c1755220ea52050f411d780be4"
+              }
+            }
+          ],
+          "details": true,
+          "rp": 8900,
+          "sp": 12600
+        }
+      ],
+      [
+        {
+          "type": "single",
+          "title": "◔WM-21",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/wm_21.png",
+          "br": "1.0",
+          "rp": 2900,
+          "sp": 700,
+          "data_unit_id": "wm_21",
+          "required_unit_id": "",
+          "selected": false,
+          "class_name": "",
+          "details": true,
+          "rank": "I",
+          "research_country": "Italy",
+          "main_role": "Bomber",
+          "is_component": false,
+          "component_of": null,
+          "is_premium": false,
+          "is_squadron": false,
+          "wiki": {
+            "url": "https://wiki.warthunder.com/unit/wm_21",
+            "rank": "I",
+            "battle_rating_context": "default",
+            "battle_ratings": {
+              "AB": "1.0",
+              "RB": "1.0",
+              "SB": "1.0"
+            },
+            "battle_ratings_by_battle": {
+              "default": {
+                "AB": "1.0",
+                "RB": "1.0",
+                "SB": "1.0"
+              }
+            },
+            "research": "2,900",
+            "purchase": "700",
+            "purchase_currency": "SL",
+            "status": null,
+            "fetched_at": "2026-09-19T06:31:32.636Z",
+            "sha256": "c086cf3679a453223b33c8e59121c2e4dcb46d374e310c817092e0cd8ade99bc"
+          }
+        },
+        {
+          "type": "single",
+          "title": "◔Héja I",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/re_2000_heja_1.png",
+          "br": "2.0",
+          "rp": 4000,
+          "sp": 2100,
+          "data_unit_id": "re_2000_heja_1",
+          "required_unit_id": "wm_21",
+          "selected": false,
+          "class_name": "",
+          "details": true,
+          "rank": "I",
+          "research_country": "Italy",
+          "main_role": "Fighter",
+          "is_component": false,
+          "component_of": null,
+          "is_premium": false,
+          "is_squadron": false,
+          "wiki": {
+            "url": "https://wiki.warthunder.com/unit/re_2000_heja_1",
+            "rank": "I",
+            "battle_rating_context": "default",
+            "battle_ratings": {
+              "AB": "1.7",
+              "RB": "2.0",
+              "SB": "1.7"
+            },
+            "battle_ratings_by_battle": {
+              "default": {
+                "AB": "1.7",
+                "RB": "2.0",
+                "SB": "1.7"
+              }
+            },
+            "research": "4,000",
+            "purchase": "2,100",
+            "purchase_currency": "SL",
+            "status": null,
+            "fetched_at": "2026-09-19T06:31:29.375Z",
+            "sha256": "c398b83a92476407b00a092b30228739182059368da479477c623f91f6507983"
+          }
+        },
+        {
+          "type": "single",
+          "title": "◔Héja II",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/re_2000_heja_2.png",
+          "br": "2.3",
+          "rp": 5900,
+          "sp": 6300,
+          "data_unit_id": "re_2000_heja_2",
+          "required_unit_id": "re_2000_heja_1",
+          "selected": false,
+          "class_name": "",
+          "details": true,
+          "rank": "I",
+          "research_country": "Italy",
+          "main_role": "Fighter",
+          "is_component": false,
+          "component_of": null,
+          "is_premium": false,
+          "is_squadron": false,
+          "wiki": {
+            "url": "https://wiki.warthunder.com/unit/re_2000_heja_2",
+            "rank": "I",
+            "battle_rating_context": "default",
+            "battle_ratings": {
+              "AB": "2.3",
+              "RB": "2.3",
+              "SB": "2.0"
+            },
+            "battle_ratings_by_battle": {
+              "default": {
+                "AB": "2.3",
+                "RB": "2.3",
+                "SB": "2.0"
+              }
+            },
+            "research": "5,900",
+            "purchase": "6,300",
+            "purchase_currency": "SL",
+            "status": null,
+            "fetched_at": "2026-09-19T06:31:29.646Z",
+            "sha256": "ee438d83bf5445aa591088ef650ad5e5638731d59e7c4a1e71e16166d3e00a14"
+          }
+        }
+      ]
+    ],
+    "premium_vehicles": [
+      [
+        {
+          "type": "single",
+          "title": "Marcolin's C.R.42 CN",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/fiat_cr42_marcolin_italy.png",
+          "br": "1.3",
+          "rp": 0,
+          "sp": 0,
+          "data_unit_id": "fiat_cr42_marcolin_italy",
+          "required_unit_id": "",
+          "selected": false,
+          "class_name": "prem",
+          "details": true,
+          "rank": "I",
+          "research_country": "Italy",
+          "main_role": "Fighter",
+          "is_component": false,
+          "component_of": null,
+          "is_premium": true,
+          "is_squadron": false,
+          "wiki": {
+            "url": "https://wiki.warthunder.com/unit/fiat_cr42_marcolin_italy",
+            "rank": "I",
+            "battle_rating_context": "default",
+            "battle_ratings": {
+              "AB": "1.7",
+              "RB": "1.3",
+              "SB": "1.3"
+            },
+            "battle_ratings_by_battle": {
+              "default": {
+                "AB": "1.7",
+                "RB": "1.3",
+                "SB": "1.3"
+              }
+            },
+            "research": null,
+            "purchase": "250",
+            "purchase_currency": "GE",
+            "status": "Premium vehicle",
+            "fetched_at": "2026-09-19T06:31:24.700Z",
+            "sha256": "d121f90c719c7cab8dc68a669b67c0e52855530dd99282e2b54643b096577dae"
+          }
+        },
+        {
+          "type": "single",
+          "title": "CR.32 bis",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/cr_32_bis.png",
+          "br": "1.7",
+          "rp": 0,
+          "sp": 0,
+          "data_unit_id": "cr_32_bis",
+          "required_unit_id": "",
+          "selected": false,
+          "class_name": "prem",
+          "details": true,
+          "rank": "I",
+          "research_country": "Italy",
+          "main_role": "Fighter",
+          "is_component": false,
+          "component_of": null,
+          "is_premium": true,
+          "is_squadron": false,
+          "wiki": {
+            "url": "https://wiki.warthunder.com/unit/cr_32_bis",
+            "rank": "I",
+            "battle_rating_context": "default",
+            "battle_ratings": {
+              "AB": "1.7",
+              "RB": "1.7",
+              "SB": "1.7"
+            },
+            "battle_ratings_by_battle": {
+              "default": {
+                "AB": "1.7",
+                "RB": "1.7",
+                "SB": "1.7"
+              }
+            },
+            "research": null,
+            "purchase": null,
+            "purchase_currency": null,
+            "status": "Premium vehicle",
+            "fetched_at": "2026-09-19T06:31:23.219Z",
+            "sha256": "18d3ad131ce3f81ec15789734f529f133a3bc593368f5e66074f67a3a4d936e1"
+          }
+        }
+      ],
+      [
+        {
+          "type": "single",
+          "title": "Ba.65 A.80",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/ba_65_a80.png",
+          "br": "1.3",
+          "rp": 0,
+          "sp": 0,
+          "data_unit_id": "ba_65_a80",
+          "required_unit_id": "",
+          "selected": false,
+          "class_name": "prem",
+          "details": true,
+          "rank": "I",
+          "research_country": "Italy",
+          "main_role": "Strike aircraft",
+          "is_component": false,
+          "component_of": null,
+          "is_premium": true,
+          "is_squadron": false,
+          "wiki": {
+            "url": "https://wiki.warthunder.com/unit/ba_65_a80",
+            "rank": "I",
+            "battle_rating_context": "default",
+            "battle_ratings": {
+              "AB": "1.7",
+              "RB": "1.3",
+              "SB": "1.3"
+            },
+            "battle_ratings_by_battle": {
+              "default": {
+                "AB": "1.7",
+                "RB": "1.3",
+                "SB": "1.3"
+              }
+            },
+            "research": null,
+            "purchase": "400",
+            "purchase_currency": "GE",
+            "status": "Premium vehicle",
+            "fetched_at": "2026-09-19T06:31:22.155Z",
+            "sha256": "232103ee23b627a80da4a720c85a7c43a1cf2a938343aa1c4fe86d2fc9c83642"
+          }
+        }
+      ]
+    ],
+    "selected": [],
+    "unlock_quantity": null,
+    "source": "wiki"
+  },
+  {
+    "rank": "II",
+    "researchable_vehicles": [
+      [
+        {
+          "type": "single",
+          "title": "Re.2002 Early",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/re_2002_early.png",
+          "br": "2.3",
+          "rp": 9200,
+          "sp": 16000,
+          "data_unit_id": "re_2002_early",
+          "required_unit_id": "",
+          "selected": false,
+          "class_name": "",
+          "details": true,
+          "rank": "II",
+          "research_country": "Italy",
+          "main_role": "Fighter",
+          "is_component": false,
+          "component_of": null,
+          "is_premium": false,
+          "is_squadron": false,
+          "wiki": {
+            "url": "https://wiki.warthunder.com/unit/re_2002_early",
+            "rank": "II",
+            "battle_rating_context": "default",
+            "battle_ratings": {
+              "AB": "2.3",
+              "RB": "2.3",
+              "SB": "2.3"
+            },
+            "battle_ratings_by_battle": {
+              "default": {
+                "AB": "2.3",
+                "RB": "2.3",
+                "SB": "2.3"
+              }
+            },
+            "research": "9,200",
+            "purchase": "16,000",
+            "purchase_currency": "SL",
+            "status": null,
+            "fetched_at": "2026-09-19T06:31:30.233Z",
+            "sha256": "2daac4ba93c78055442fb71017c416e35b5cbae60949dda4f23a38f40d98dc74"
+          }
+        },
+        {
+          "type": "multiple",
+          "title": "Re.2001",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/re_2001_group.png",
+          "selected": false,
+          "br": "3.0",
+          "data_unit_id": "re_2001_group",
+          "required_unit_id": "re_2002_early",
+          "class_name": "",
+          "items": [
+            {
+              "type": "single",
+              "title": "Re.2001 serie 1",
+              "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/re_2001_serie1.png",
+              "br": "3.0",
+              "rp": 11000,
+              "sp": 22000,
+              "data_unit_id": "re_2001_serie1",
+              "required_unit_id": "",
+              "selected": false,
+              "class_name": "",
+              "details": true,
+              "rank": "II",
+              "research_country": "Italy",
+              "main_role": "Fighter",
+              "is_component": false,
+              "component_of": null,
+              "is_premium": false,
+              "is_squadron": false,
+              "wiki": {
+                "url": "https://wiki.warthunder.com/unit/re_2001_serie1",
+                "rank": "II",
+                "battle_rating_context": "default",
+                "battle_ratings": {
+                  "AB": "3.0",
+                  "RB": "3.0",
+                  "SB": "2.3"
+                },
+                "battle_ratings_by_battle": {
+                  "default": {
+                    "AB": "3.0",
+                    "RB": "3.0",
+                    "SB": "2.3"
+                  }
+                },
+                "research": "11,000",
+                "purchase": "22,000",
+                "purchase_currency": "SL",
+                "status": null,
+                "fetched_at": "2026-09-19T06:31:30.088Z",
+                "sha256": "b10e4ed81b668642e3f4ff5b76ff6fe8bf3cd765c8e2595f769cb97daec2f9a4"
+              }
+            },
+            {
+              "type": "single",
+              "title": "Re.2001 CB",
+              "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/re_2001_cb.png",
+              "br": "3.0",
+              "rp": 6900,
+              "sp": 32000,
+              "data_unit_id": "re_2001_cb",
+              "required_unit_id": "re_2001_serie1",
+              "selected": false,
+              "class_name": "",
+              "details": true,
+              "rank": "II",
+              "research_country": "Italy",
+              "main_role": "Fighter",
+              "is_component": false,
+              "component_of": null,
+              "is_premium": false,
+              "is_squadron": false,
+              "wiki": {
+                "url": "https://wiki.warthunder.com/unit/re_2001_cb",
+                "rank": "II",
+                "battle_rating_context": "default",
+                "battle_ratings": {
+                  "AB": "3.0",
+                  "RB": "3.0",
+                  "SB": "2.3"
+                },
+                "battle_ratings_by_battle": {
+                  "default": {
+                    "AB": "3.0",
+                    "RB": "3.0",
+                    "SB": "2.3"
+                  }
+                },
+                "research": "6,900",
+                "purchase": "32,000",
+                "purchase_currency": "SL",
+                "status": null,
+                "fetched_at": "2026-09-19T06:31:29.623Z",
+                "sha256": "ce123d32fcc880e02b2ae3079a829aa3076c48b06ed34493a963a690e6dd7c80"
+              }
+            }
+          ],
+          "details": true,
+          "rp": 17900,
+          "sp": 54000
+        }
+      ],
+      [
+        {
+          "type": "multiple",
+          "title": "C. 200",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/mc_200_italy_group.png",
+          "selected": false,
+          "br": "2.3",
+          "data_unit_id": "mc_200_italy_group",
+          "required_unit_id": "",
+          "class_name": "",
+          "items": [
+            {
+              "type": "single",
+              "title": "C. 200 serie 3",
+              "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/mc200_serie3_italy.png",
+              "br": "2.3",
+              "rp": 7900,
+              "sp": 10000,
+              "data_unit_id": "mc200_serie3_italy",
+              "required_unit_id": "",
+              "selected": false,
+              "class_name": "",
+              "details": true,
+              "rank": "II",
+              "research_country": "Italy",
+              "main_role": "Fighter",
+              "is_component": false,
+              "component_of": null,
+              "is_premium": false,
+              "is_squadron": false,
+              "wiki": {
+                "url": "https://wiki.warthunder.com/unit/mc200_serie3_italy",
+                "rank": "II",
+                "battle_rating_context": "default",
+                "battle_ratings": {
+                  "AB": "2.0",
+                  "RB": "2.3",
+                  "SB": "1.7"
+                },
+                "battle_ratings_by_battle": {
+                  "default": {
+                    "AB": "2.0",
+                    "RB": "2.3",
+                    "SB": "1.7"
+                  }
+                },
+                "research": "7,900",
+                "purchase": "10,000",
+                "purchase_currency": "SL",
+                "status": null,
+                "fetched_at": "2026-09-19T06:31:27.644Z",
+                "sha256": "a89d22cd6e81c44e82cf773a17c4815a3181ad2dd0b99dc2bc63d5e76f60b111"
+              }
+            },
+            {
+              "type": "single",
+              "title": "C. 200 serie 7",
+              "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/mc200_serie7_italy.png",
+              "br": "2.3",
+              "rp": 4600,
+              "sp": 16000,
+              "data_unit_id": "mc200_serie7_italy",
+              "required_unit_id": "mc200_serie3_italy",
+              "selected": false,
+              "class_name": "",
+              "details": true,
+              "rank": "II",
+              "research_country": "Italy",
+              "main_role": "Fighter",
+              "is_component": false,
+              "component_of": null,
+              "is_premium": false,
+              "is_squadron": false,
+              "wiki": {
+                "url": "https://wiki.warthunder.com/unit/mc200_serie7_italy",
+                "rank": "II",
+                "battle_rating_context": "default",
+                "battle_ratings": {
+                  "AB": "2.0",
+                  "RB": "2.3",
+                  "SB": "2.3"
+                },
+                "battle_ratings_by_battle": {
+                  "default": {
+                    "AB": "2.0",
+                    "RB": "2.3",
+                    "SB": "2.3"
+                  }
+                },
+                "research": "4,600",
+                "purchase": "16,000",
+                "purchase_currency": "SL",
+                "status": null,
+                "fetched_at": "2026-09-19T06:31:27.732Z",
+                "sha256": "b6e8a200786f034dcd64ac8e853ef2d9cac4b5cda7da96e2aacdbef5f01bd398"
+              }
+            }
+          ],
+          "details": true,
+          "rp": 12500,
+          "sp": 26000
+        },
+        {
+          "type": "multiple",
+          "title": "C. 202/C. 205 (e)",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/mc_202_italy_group.png",
+          "selected": false,
+          "br": "3.0-3.7",
+          "data_unit_id": "mc_202_italy_group",
+          "required_unit_id": "mc_200_italy_group",
+          "class_name": "",
+          "items": [
+            {
+              "type": "single",
+              "title": "C. 202",
+              "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/mc-202_italy.png",
+              "br": "3.0",
+              "rp": 9200,
+              "sp": 16000,
+              "data_unit_id": "mc-202_italy",
+              "required_unit_id": "",
+              "selected": false,
+              "class_name": "",
+              "details": true,
+              "rank": "II",
+              "research_country": "Italy",
+              "main_role": "Fighter",
+              "is_component": false,
+              "component_of": null,
+              "is_premium": false,
+              "is_squadron": false,
+              "wiki": {
+                "url": "https://wiki.warthunder.com/unit/mc-202_italy",
+                "rank": "II",
+                "battle_rating_context": "default",
+                "battle_ratings": {
+                  "AB": "3.0",
+                  "RB": "3.0",
+                  "SB": "2.3"
+                },
+                "battle_ratings_by_battle": {
+                  "default": {
+                    "AB": "3.0",
+                    "RB": "3.0",
+                    "SB": "2.3"
+                  }
+                },
+                "research": "9,200",
+                "purchase": "16,000",
+                "purchase_currency": "SL",
+                "status": null,
+                "fetched_at": "2026-09-19T06:31:27.195Z",
+                "sha256": "96967b98ed6840d5583f2082f6dcae746dcb04d12be7a70f288a6eaf14af3aa7"
+              }
+            },
+            {
+              "type": "single",
+              "title": "C. 205 serie 1",
+              "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/mc-205_serie1.png",
+              "br": "3.7",
+              "rp": 5600,
+              "sp": 22000,
+              "data_unit_id": "mc-205_serie1",
+              "required_unit_id": "mc-202_italy",
+              "selected": false,
+              "class_name": "",
+              "details": true,
+              "rank": "II",
+              "research_country": "Italy",
+              "main_role": "Fighter",
+              "is_component": false,
+              "component_of": null,
+              "is_premium": false,
+              "is_squadron": false,
+              "wiki": {
+                "url": "https://wiki.warthunder.com/unit/mc-205_serie1",
+                "rank": "II",
+                "battle_rating_context": "default",
+                "battle_ratings": {
+                  "AB": "3.3",
+                  "RB": "3.7",
+                  "SB": "3.7"
+                },
+                "battle_ratings_by_battle": {
+                  "default": {
+                    "AB": "3.3",
+                    "RB": "3.7",
+                    "SB": "3.7"
+                  }
+                },
+                "research": "5,600",
+                "purchase": "22,000",
+                "purchase_currency": "SL",
+                "status": null,
+                "fetched_at": "2026-09-19T06:31:27.549Z",
+                "sha256": "76ac313768222b1228765d09dd845877d8d07b409ad29a6dd9ea557209c59008"
+              }
+            }
+          ],
+          "details": true,
+          "rp": 14800,
+          "sp": 38000
+        }
+      ],
+      [
+        {
+          "type": "single",
+          "title": "▄Ju 87 D-3",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/ju-87d-3_italy.png",
+          "br": "2.0",
+          "rp": 9200,
+          "sp": 16000,
+          "data_unit_id": "ju-87d-3_italy",
+          "required_unit_id": "",
+          "selected": false,
+          "class_name": "",
+          "details": true,
+          "rank": "II",
+          "research_country": "Italy",
+          "main_role": "Bomber",
+          "is_component": false,
+          "component_of": null,
+          "is_premium": false,
+          "is_squadron": false,
+          "wiki": {
+            "url": "https://wiki.warthunder.com/unit/ju-87d-3_italy",
+            "rank": "II",
+            "battle_rating_context": "default",
+            "battle_ratings": {
+              "AB": "2.3",
+              "RB": "2.0",
+              "SB": "2.3"
+            },
+            "battle_ratings_by_battle": {
+              "default": {
+                "AB": "2.3",
+                "RB": "2.0",
+                "SB": "2.3"
+              }
+            },
+            "research": "9,200",
+            "purchase": "16,000",
+            "purchase_currency": "SL",
+            "status": null,
+            "fetched_at": "2026-09-19T06:31:26.474Z",
+            "sha256": "2fd45c4f4bc933f124b1a7f26a03e8d545c49eff479f028d67155b86bc10efb6"
+          }
+        },
+        {
+          "type": "single",
+          "title": "SM.91",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/sm_91.png",
+          "br": "3.7",
+          "rp": 11000,
+          "sp": 22000,
+          "data_unit_id": "sm_91",
+          "required_unit_id": "ju-87d-3_italy",
+          "selected": false,
+          "class_name": "",
+          "details": true,
+          "rank": "II",
+          "research_country": "Italy",
+          "main_role": "Strike aircraft",
+          "is_component": false,
+          "component_of": null,
+          "is_premium": false,
+          "is_squadron": false,
+          "wiki": {
+            "url": "https://wiki.warthunder.com/unit/sm_91",
+            "rank": "II",
+            "battle_rating_context": "air",
+            "battle_ratings": {
+              "AB": "3.7",
+              "RB": "3.7",
+              "SB": "4.0"
+            },
+            "battle_ratings_by_battle": {
+              "air": {
+                "AB": "3.7",
+                "RB": "3.7",
+                "SB": "4.0"
+              },
+              "tank": {
+                "AB": "—",
+                "RB": "3.3",
+                "SB": "3.3"
+              },
+              "ship": {
+                "AB": "3.7",
+                "RB": "3.7",
+                "SB": "—"
+              }
+            },
+            "research": "11,000",
+            "purchase": "22,000",
+            "purchase_currency": "SL",
+            "status": null,
+            "fetched_at": "2026-09-19T06:31:31.423Z",
+            "sha256": "6bf1f094b95710c1ca2e3d428b1fcfe26d8a4a7a4f3690a9a824720da589e737"
+          }
+        }
+      ],
+      [
+        {
+          "type": "multiple",
+          "title": "S.M.79 (l)",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/sm_79_1941_group.png",
+          "selected": false,
+          "br": "2.3",
+          "data_unit_id": "sm_79_1941_group",
+          "required_unit_id": "",
+          "class_name": "",
+          "items": [
+            {
+              "type": "single",
+              "title": "S.M.79 AS",
+              "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/sm_79_1941_italy.png",
+              "br": "2.3",
+              "rp": 9200,
+              "sp": 16000,
+              "data_unit_id": "sm_79_1941_italy",
+              "required_unit_id": "",
+              "selected": false,
+              "class_name": "",
+              "details": true,
+              "rank": "II",
+              "research_country": "Italy",
+              "main_role": "Bomber",
+              "is_component": false,
+              "component_of": null,
+              "is_premium": false,
+              "is_squadron": false,
+              "wiki": {
+                "url": "https://wiki.warthunder.com/unit/sm_79_1941_italy",
+                "rank": "II",
+                "battle_rating_context": "default",
+                "battle_ratings": {
+                  "AB": "2.3",
+                  "RB": "2.3",
+                  "SB": "2.3"
+                },
+                "battle_ratings_by_battle": {
+                  "default": {
+                    "AB": "2.3",
+                    "RB": "2.3",
+                    "SB": "2.3"
+                  }
+                },
+                "research": "9,200",
+                "purchase": "16,000",
+                "purchase_currency": "SL",
+                "status": null,
+                "fetched_at": "2026-09-19T06:31:31.362Z",
+                "sha256": "8f1f382540bc6aa52b8c560b7750e6c1a96b7e8d602200b6f29a7e358a8c0981"
+              }
+            },
+            {
+              "type": "single",
+              "title": "S.M.79 bis/T.M",
+              "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/sm_79_1943_italy.png",
+              "br": "2.3",
+              "rp": 5600,
+              "sp": 22000,
+              "data_unit_id": "sm_79_1943_italy",
+              "required_unit_id": "sm_79_1941_italy",
+              "selected": false,
+              "class_name": "",
+              "details": true,
+              "rank": "II",
+              "research_country": "Italy",
+              "main_role": "Bomber",
+              "is_component": false,
+              "component_of": null,
+              "is_premium": false,
+              "is_squadron": false,
+              "wiki": {
+                "url": "https://wiki.warthunder.com/unit/sm_79_1943_italy",
+                "rank": "II",
+                "battle_rating_context": "default",
+                "battle_ratings": {
+                  "AB": "2.3",
+                  "RB": "2.3",
+                  "SB": "2.3"
+                },
+                "battle_ratings_by_battle": {
+                  "default": {
+                    "AB": "2.3",
+                    "RB": "2.3",
+                    "SB": "2.3"
+                  }
+                },
+                "research": "5,600",
+                "purchase": "22,000",
+                "purchase_currency": "SL",
+                "status": null,
+                "fetched_at": "2026-09-19T06:31:31.459Z",
+                "sha256": "2a9474a54e839f711cb8c1fa01efe4270a804b90c649981737a9d1f730b2d822"
+              }
+            },
+            {
+              "type": "single",
+              "title": "S.M.79 B",
+              "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/sm_79_iar_italy.png",
+              "br": "2.3",
+              "rp": 6900,
+              "sp": 32000,
+              "data_unit_id": "sm_79_iar_italy",
+              "required_unit_id": "sm_79_1943_italy",
+              "selected": false,
+              "class_name": "",
+              "details": true,
+              "rank": "II",
+              "research_country": "Italy",
+              "main_role": "Bomber",
+              "is_component": false,
+              "component_of": null,
+              "is_premium": false,
+              "is_squadron": false,
+              "wiki": {
+                "url": "https://wiki.warthunder.com/unit/sm_79_iar_italy",
+                "rank": "II",
+                "battle_rating_context": "default",
+                "battle_ratings": {
+                  "AB": "2.3",
+                  "RB": "2.3",
+                  "SB": "2.3"
+                },
+                "battle_ratings_by_battle": {
+                  "default": {
+                    "AB": "2.3",
+                    "RB": "2.3",
+                    "SB": "2.3"
+                  }
+                },
+                "research": "6,900",
+                "purchase": "32,000",
+                "purchase_currency": "SL",
+                "status": null,
+                "fetched_at": "2026-09-19T06:31:31.337Z",
+                "sha256": "723629ba65a475cf1935a1086adfa57a09cbbb241e93a2fbf32c38cf1c88f635"
+              }
+            }
+          ],
+          "details": true,
+          "rp": 21700,
+          "sp": 70000
+        },
+        {
+          "type": "multiple",
+          "title": "Z.1007",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/z_1007_group.png",
+          "selected": false,
+          "br": "2.7-3.0",
+          "data_unit_id": "z_1007_group",
+          "required_unit_id": "sm_79_1941_group",
+          "class_name": "",
+          "items": [
+            {
+              "type": "single",
+              "title": "Z.1007 bis serie 3",
+              "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/z_1007_bis_serie3.png",
+              "br": "2.7",
+              "rp": 11000,
+              "sp": 22000,
+              "data_unit_id": "z_1007_bis_serie3",
+              "required_unit_id": "",
+              "selected": false,
+              "class_name": "",
+              "details": true,
+              "rank": "II",
+              "research_country": "Italy",
+              "main_role": "Bomber",
+              "is_component": false,
+              "component_of": null,
+              "is_premium": false,
+              "is_squadron": false,
+              "wiki": {
+                "url": "https://wiki.warthunder.com/unit/z_1007_bis_serie3",
+                "rank": "II",
+                "battle_rating_context": "default",
+                "battle_ratings": {
+                  "AB": "3.3",
+                  "RB": "2.7",
+                  "SB": "2.7"
+                },
+                "battle_ratings_by_battle": {
+                  "default": {
+                    "AB": "3.3",
+                    "RB": "2.7",
+                    "SB": "2.7"
+                  }
+                },
+                "research": "11,000",
+                "purchase": "22,000",
+                "purchase_currency": "SL",
+                "status": null,
+                "fetched_at": "2026-09-19T06:31:32.994Z",
+                "sha256": "3cd1dd6b4241f83298337717978081a0cd4996ad3a731f8ce8e527199fae6cb8"
+              }
+            },
+            {
+              "type": "single",
+              "title": "Z.1007 bis serie 5",
+              "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/z_1007_bis_serie5.png",
+              "br": "3.0",
+              "rp": 6900,
+              "sp": 32000,
+              "data_unit_id": "z_1007_bis_serie5",
+              "required_unit_id": "z_1007_bis_serie3",
+              "selected": false,
+              "class_name": "",
+              "details": true,
+              "rank": "II",
+              "research_country": "Italy",
+              "main_role": "Bomber",
+              "is_component": false,
+              "component_of": null,
+              "is_premium": false,
+              "is_squadron": false,
+              "wiki": {
+                "url": "https://wiki.warthunder.com/unit/z_1007_bis_serie5",
+                "rank": "II",
+                "battle_rating_context": "default",
+                "battle_ratings": {
+                  "AB": "3.3",
+                  "RB": "3.0",
+                  "SB": "3.0"
+                },
+                "battle_ratings_by_battle": {
+                  "default": {
+                    "AB": "3.3",
+                    "RB": "3.0",
+                    "SB": "3.0"
+                  }
+                },
+                "research": "6,900",
+                "purchase": "32,000",
+                "purchase_currency": "SL",
+                "status": null,
+                "fetched_at": "2026-09-19T06:31:32.924Z",
+                "sha256": "83eba9368a580f6dcf931a4e08f2d84cc080da424a6a1eef25b20e34a8ddd98e"
+              }
+            }
+          ],
+          "details": true,
+          "rp": 17900,
+          "sp": 54000
+        }
+      ],
+      [
+        {
+          "type": "single",
+          "title": "◔WM-23",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/wm_23.png",
+          "br": "2.7",
+          "rp": 9200,
+          "sp": 16000,
+          "data_unit_id": "wm_23",
+          "required_unit_id": "",
+          "selected": false,
+          "class_name": "",
+          "details": true,
+          "rank": "II",
+          "research_country": "Italy",
+          "main_role": "Fighter",
+          "is_component": false,
+          "component_of": null,
+          "is_premium": false,
+          "is_squadron": false,
+          "wiki": {
+            "url": "https://wiki.warthunder.com/unit/wm_23",
+            "rank": "II",
+            "battle_rating_context": "default",
+            "battle_ratings": {
+              "AB": "2.7",
+              "RB": "2.7",
+              "SB": "2.3"
+            },
+            "battle_ratings_by_battle": {
+              "default": {
+                "AB": "2.7",
+                "RB": "2.7",
+                "SB": "2.3"
+              }
+            },
+            "research": "9,200",
+            "purchase": "16,000",
+            "purchase_currency": "SL",
+            "status": null,
+            "fetched_at": "2026-09-19T06:31:32.872Z",
+            "sha256": "cbaf60c6dd8c1190a8396c651d0d4a7ac1cbac9621204fb28dc7d8c556b90669"
+          }
+        }
+      ]
+    ],
+    "premium_vehicles": [
+      [
+        {
+          "type": "single",
+          "title": "He 112 B-1/U2",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/he_112b_1_italy.png",
+          "br": "2.0",
+          "rp": 0,
+          "sp": 0,
+          "data_unit_id": "he_112b_1_italy",
+          "required_unit_id": "",
+          "selected": false,
+          "class_name": "prem",
+          "details": true,
+          "rank": "II",
+          "research_country": "Italy",
+          "main_role": "Fighter",
+          "is_component": false,
+          "component_of": null,
+          "is_premium": true,
+          "is_squadron": false,
+          "wiki": {
+            "url": "https://wiki.warthunder.com/unit/he_112b_1_italy",
+            "rank": "II",
+            "battle_rating_context": "default",
+            "battle_ratings": {
+              "AB": "2.3",
+              "RB": "2.0",
+              "SB": "2.3"
+            },
+            "battle_ratings_by_battle": {
+              "default": {
+                "AB": "2.3",
+                "RB": "2.0",
+                "SB": "2.3"
+              }
+            },
+            "research": null,
+            "purchase": "700",
+            "purchase_currency": "GE",
+            "status": "Premium vehicle",
+            "fetched_at": "2026-09-19T06:31:25.860Z",
+            "sha256": "157f439c56edcf25a277354d6c7dc6a922a6701aea1fd8604fa3f432ac31accd"
+          }
+        },
+        {
+          "type": "single",
+          "title": "Ro.57 Quadriarma",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/ro_57_quadriarma.png",
+          "br": "2.7",
+          "rp": 0,
+          "sp": 0,
+          "data_unit_id": "ro_57_quadriarma",
+          "required_unit_id": "",
+          "selected": false,
+          "class_name": "prem",
+          "details": true,
+          "rank": "II",
+          "research_country": "Italy",
+          "main_role": "Strike aircraft",
+          "is_component": false,
+          "component_of": null,
+          "is_premium": true,
+          "is_squadron": false,
+          "wiki": {
+            "url": "https://wiki.warthunder.com/unit/ro_57_quadriarma",
+            "rank": "II",
+            "battle_rating_context": "default",
+            "battle_ratings": {
+              "AB": "2.7",
+              "RB": "2.7",
+              "SB": "2.7"
+            },
+            "battle_ratings_by_battle": {
+              "default": {
+                "AB": "2.7",
+                "RB": "2.7",
+                "SB": "2.7"
+              }
+            },
+            "research": null,
+            "purchase": null,
+            "purchase_currency": null,
+            "status": "Premium vehicle",
+            "fetched_at": "2026-09-19T06:31:30.514Z",
+            "sha256": "610150b526cc49496bba36bed4ce874a341666384b1c9a093f7398a4449e25ba"
+          }
+        },
+        {
+          "type": "single",
+          "title": "Re.2001 gruppo 22",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/re_2001_serie1_ep.png",
+          "br": "3.0",
+          "rp": 0,
+          "sp": 0,
+          "data_unit_id": "re_2001_serie1_ep",
+          "required_unit_id": "",
+          "selected": false,
+          "class_name": "prem",
+          "details": true,
+          "rank": "II",
+          "research_country": "Italy",
+          "main_role": "Fighter",
+          "is_component": false,
+          "component_of": null,
+          "is_premium": true,
+          "is_squadron": false,
+          "wiki": {
+            "url": "https://wiki.warthunder.com/unit/re_2001_serie1_ep",
+            "rank": "II",
+            "battle_rating_context": "default",
+            "battle_ratings": {
+              "AB": "3.0",
+              "RB": "3.0",
+              "SB": "2.3"
+            },
+            "battle_ratings_by_battle": {
+              "default": {
+                "AB": "3.0",
+                "RB": "3.0",
+                "SB": "2.3"
+              }
+            },
+            "research": null,
+            "purchase": "850",
+            "purchase_currency": "GE",
+            "status": "Premium vehicle",
+            "fetched_at": "2026-09-19T06:31:30.190Z",
+            "sha256": "3a48e65aa6d49c3d31f71d4b89c942d947e90e9a7e13c157a1284634769c36fa"
+          }
+        }
+      ],
+      [
+        {
+          "type": "single",
+          "title": "IAR-81C",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/iar_81c.png",
+          "br": "2.7",
+          "rp": 0,
+          "sp": 0,
+          "data_unit_id": "iar_81c",
+          "required_unit_id": "",
+          "selected": false,
+          "class_name": "prem",
+          "details": true,
+          "rank": "II",
+          "research_country": "Italy",
+          "main_role": "Fighter",
+          "is_component": false,
+          "component_of": null,
+          "is_premium": true,
+          "is_squadron": false,
+          "wiki": {
+            "url": "https://wiki.warthunder.com/unit/iar_81c",
+            "rank": "II",
+            "battle_rating_context": "air",
+            "battle_ratings": {
+              "AB": "2.7",
+              "RB": "2.7",
+              "SB": "2.7"
+            },
+            "battle_ratings_by_battle": {
+              "air": {
+                "AB": "2.7",
+                "RB": "2.7",
+                "SB": "2.7"
+              },
+              "tank": {
+                "AB": "—",
+                "RB": "3.0",
+                "SB": "3.0"
+              },
+              "ship": {
+                "AB": "2.7",
+                "RB": "2.7",
+                "SB": "—"
+              }
+            },
+            "research": null,
+            "purchase": "1,000",
+            "purchase_currency": "GE",
+            "status": "Premium vehicle",
+            "fetched_at": "2026-09-19T06:31:25.920Z",
+            "sha256": "2ec7b05dd431e4a306fbf64a1603f62e0e945ebfea3b4758c590e8eb2dff17a1"
+          }
+        },
+        {
+          "type": "single",
+          "title": "C. 202D",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/mc-202_d.png",
+          "br": "3.0",
+          "rp": 0,
+          "sp": 0,
+          "data_unit_id": "mc-202_d",
+          "required_unit_id": "",
+          "selected": false,
+          "class_name": "prem",
+          "details": true,
+          "rank": "II",
+          "research_country": "Italy",
+          "main_role": "Fighter",
+          "is_component": false,
+          "component_of": null,
+          "is_premium": true,
+          "is_squadron": false,
+          "wiki": {
+            "url": "https://wiki.warthunder.com/unit/mc-202_d",
+            "rank": "II",
+            "battle_rating_context": "default",
+            "battle_ratings": {
+              "AB": "3.0",
+              "RB": "3.0",
+              "SB": "2.3"
+            },
+            "battle_ratings_by_battle": {
+              "default": {
+                "AB": "3.0",
+                "RB": "3.0",
+                "SB": "2.3"
+              }
+            },
+            "research": null,
+            "purchase": null,
+            "purchase_currency": null,
+            "status": "Premium vehicle",
+            "fetched_at": "2026-09-19T06:31:27.123Z",
+            "sha256": "0a1728fc0dca0a8a7c49c5f3dc37340fded397015dd92d1e2ae308d7da5a18a3"
+          }
+        }
+      ]
+    ],
+    "selected": [],
+    "unlock_quantity": null,
+    "source": "wiki"
+  },
+  {
+    "rank": "III",
+    "researchable_vehicles": [
+      [
+        {
+          "type": "single",
+          "title": "Re.2001 CN",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/re_2001_cn.png",
+          "br": "3.3",
+          "rp": 18000,
+          "sp": 47000,
+          "data_unit_id": "re_2001_cn",
+          "required_unit_id": "re_2001_group",
+          "selected": false,
+          "class_name": "",
+          "details": true,
+          "rank": "III",
+          "research_country": "Italy",
+          "main_role": "Fighter",
+          "is_component": false,
+          "component_of": null,
+          "is_premium": false,
+          "is_squadron": false,
+          "wiki": {
+            "url": "https://wiki.warthunder.com/unit/re_2001_cn",
+            "rank": "III",
+            "battle_rating_context": "default",
+            "battle_ratings": {
+              "AB": "4.3",
+              "RB": "3.3",
+              "SB": "3.3"
+            },
+            "battle_ratings_by_battle": {
+              "default": {
+                "AB": "4.3",
+                "RB": "3.3",
+                "SB": "3.3"
+              }
+            },
+            "research": "18,000",
+            "purchase": "47,000",
+            "purchase_currency": "SL",
+            "status": null,
+            "fetched_at": "2026-09-19T06:31:29.723Z",
+            "sha256": "287c4b0cded80b89fe6e0b3e13a7902d50d09bf965c7e1e5423347f0165a6071"
+          }
+        },
+        {
+          "type": "single",
+          "title": "G.55 sottoserie 0",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/g_55_serie1_ss0.png",
+          "br": "4.3",
+          "rp": 26000,
+          "sp": 76000,
+          "data_unit_id": "g_55_serie1_ss0",
+          "required_unit_id": "re_2001_cn",
+          "selected": false,
+          "class_name": "",
+          "details": true,
+          "rank": "III",
+          "research_country": "Italy",
+          "main_role": "Fighter",
+          "is_component": false,
+          "component_of": null,
+          "is_premium": false,
+          "is_squadron": false,
+          "wiki": {
+            "url": "https://wiki.warthunder.com/unit/g_55_serie1_ss0",
+            "rank": "III",
+            "battle_rating_context": "default",
+            "battle_ratings": {
+              "AB": "4.7",
+              "RB": "4.3",
+              "SB": "4.3"
+            },
+            "battle_ratings_by_battle": {
+              "default": {
+                "AB": "4.7",
+                "RB": "4.3",
+                "SB": "4.3"
+              }
+            },
+            "research": "26,000",
+            "purchase": "76,000",
+            "purchase_currency": "SL",
+            "status": null,
+            "fetched_at": "2026-09-19T06:31:25.500Z",
+            "sha256": "0cfd4e83dce97b260b62e91f518c7bb8ecb76bb51288b8cb655c90562538f59a"
+          }
+        }
+      ],
+      [
+        {
+          "type": "single",
+          "title": "C. 202EC",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/mc-202_ec.png",
+          "br": "4.0",
+          "rp": 18000,
+          "sp": 47000,
+          "data_unit_id": "mc-202_ec",
+          "required_unit_id": "mc_202_italy_group",
+          "selected": false,
+          "class_name": "",
+          "details": true,
+          "rank": "III",
+          "research_country": "Italy",
+          "main_role": "Fighter",
+          "is_component": false,
+          "component_of": null,
+          "is_premium": false,
+          "is_squadron": false,
+          "wiki": {
+            "url": "https://wiki.warthunder.com/unit/mc-202_ec",
+            "rank": "III",
+            "battle_rating_context": "default",
+            "battle_ratings": {
+              "AB": "4.0",
+              "RB": "4.0",
+              "SB": "3.0"
+            },
+            "battle_ratings_by_battle": {
+              "default": {
+                "AB": "4.0",
+                "RB": "4.0",
+                "SB": "3.0"
+              }
+            },
+            "research": "18,000",
+            "purchase": "47,000",
+            "purchase_currency": "SL",
+            "status": null,
+            "fetched_at": "2026-09-19T06:31:27.134Z",
+            "sha256": "222d6a8f40766f1f100062b04d8ec152e5b35fda7dafe9333bf810c58f2c9f97"
+          }
+        },
+        {
+          "type": "single",
+          "title": "C. 205N2",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/mc-205_n2.png",
+          "br": "4.7",
+          "rp": 26000,
+          "sp": 76000,
+          "data_unit_id": "mc-205_n2",
+          "required_unit_id": "mc-202_ec",
+          "selected": false,
+          "class_name": "",
+          "details": true,
+          "rank": "III",
+          "research_country": "Italy",
+          "main_role": "Fighter",
+          "is_component": false,
+          "component_of": null,
+          "is_premium": false,
+          "is_squadron": false,
+          "wiki": {
+            "url": "https://wiki.warthunder.com/unit/mc-205_n2",
+            "rank": "III",
+            "battle_rating_context": "default",
+            "battle_ratings": {
+              "AB": "5.0",
+              "RB": "4.7",
+              "SB": "4.7"
+            },
+            "battle_ratings_by_battle": {
+              "default": {
+                "AB": "5.0",
+                "RB": "4.7",
+                "SB": "4.7"
+              }
+            },
+            "research": "26,000",
+            "purchase": "76,000",
+            "purchase_currency": "SL",
+            "status": null,
+            "fetched_at": "2026-09-19T06:31:27.070Z",
+            "sha256": "3bd883ca70b4ef2c0bef26c4cbef941f7519746bfe25fa741b64be3df0f37874"
+          }
+        }
+      ],
+      [
+        {
+          "type": "single",
+          "title": "SM.92",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/sm_92.png",
+          "br": "4.0",
+          "rp": 18000,
+          "sp": 47000,
+          "data_unit_id": "sm_92",
+          "required_unit_id": "sm_91",
+          "selected": false,
+          "class_name": "",
+          "details": true,
+          "rank": "III",
+          "research_country": "Italy",
+          "main_role": "Strike aircraft",
+          "is_component": false,
+          "component_of": null,
+          "is_premium": false,
+          "is_squadron": false,
+          "wiki": {
+            "url": "https://wiki.warthunder.com/unit/sm_92",
+            "rank": "III",
+            "battle_rating_context": "default",
+            "battle_ratings": {
+              "AB": "4.0",
+              "RB": "4.0",
+              "SB": "4.3"
+            },
+            "battle_ratings_by_battle": {
+              "default": {
+                "AB": "4.0",
+                "RB": "4.0",
+                "SB": "4.3"
+              }
+            },
+            "research": "18,000",
+            "purchase": "47,000",
+            "purchase_currency": "SL",
+            "status": null,
+            "fetched_at": "2026-09-19T06:31:31.869Z",
+            "sha256": "af92c8b592fd8cbb0c4d61732f4a935dc71d748d902e19c175fe13c43dde73f3"
+          }
+        },
+        {
+          "type": "single",
+          "title": "▄P-47D-30",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/p-47d_30_italy.png",
+          "br": "5.0",
+          "rp": 26000,
+          "sp": 76000,
+          "data_unit_id": "p-47d_30_italy",
+          "required_unit_id": "sm_92",
+          "selected": false,
+          "class_name": "",
+          "details": true,
+          "rank": "III",
+          "research_country": "Italy",
+          "main_role": "Fighter",
+          "is_component": false,
+          "component_of": null,
+          "is_premium": false,
+          "is_squadron": false,
+          "wiki": {
+            "url": "https://wiki.warthunder.com/unit/p-47d_30_italy",
+            "rank": "III",
+            "battle_rating_context": "default",
+            "battle_ratings": {
+              "AB": "4.0",
+              "RB": "5.0",
+              "SB": "3.7"
+            },
+            "battle_ratings_by_battle": {
+              "default": {
+                "AB": "4.0",
+                "RB": "5.0",
+                "SB": "3.7"
+              }
+            },
+            "research": "26,000",
+            "purchase": "76,000",
+            "purchase_currency": "SL",
+            "status": null,
+            "fetched_at": "2026-09-19T06:31:28.802Z",
+            "sha256": "72535a6b64e50f32bd72f55850601c1c4afd9a1bb15424e79235255f3d495f43"
+          }
+        }
+      ],
+      [
+        {
+          "type": "multiple",
+          "title": "P.108B",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/p_108_group.png",
+          "selected": false,
+          "br": "3.3-3.7",
+          "data_unit_id": "p_108_group",
+          "required_unit_id": "z_1007_group",
+          "class_name": "",
+          "items": [
+            {
+              "type": "single",
+              "title": "P.108B serie 1",
+              "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/p_108b_serie1.png",
+              "br": "3.3",
+              "rp": 18000,
+              "sp": 47000,
+              "data_unit_id": "p_108b_serie1",
+              "required_unit_id": "",
+              "selected": false,
+              "class_name": "",
+              "details": true,
+              "rank": "III",
+              "research_country": "Italy",
+              "main_role": "Bomber",
+              "is_component": false,
+              "component_of": null,
+              "is_premium": false,
+              "is_squadron": false,
+              "wiki": {
+                "url": "https://wiki.warthunder.com/unit/p_108b_serie1",
+                "rank": "III",
+                "battle_rating_context": "default",
+                "battle_ratings": {
+                  "AB": "3.7",
+                  "RB": "3.3",
+                  "SB": "3.3"
+                },
+                "battle_ratings_by_battle": {
+                  "default": {
+                    "AB": "3.7",
+                    "RB": "3.3",
+                    "SB": "3.3"
+                  }
+                },
+                "research": "18,000",
+                "purchase": "47,000",
+                "purchase_currency": "SL",
+                "status": null,
+                "fetched_at": "2026-09-19T06:31:29.126Z",
+                "sha256": "42fbe35addfe03850d9b3e6ca9b0ae5c2a326a8c1989f703c26de10aadd7d270"
+              }
+            },
+            {
+              "type": "single",
+              "title": "P.108B serie 2",
+              "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/p_108b_serie2.png",
+              "br": "3.7",
+              "rp": 13000,
+              "sp": 76000,
+              "data_unit_id": "p_108b_serie2",
+              "required_unit_id": "p_108b_serie1",
+              "selected": false,
+              "class_name": "",
+              "details": true,
+              "rank": "III",
+              "research_country": "Italy",
+              "main_role": "Bomber",
+              "is_component": false,
+              "component_of": null,
+              "is_premium": false,
+              "is_squadron": false,
+              "wiki": {
+                "url": "https://wiki.warthunder.com/unit/p_108b_serie2",
+                "rank": "III",
+                "battle_rating_context": "default",
+                "battle_ratings": {
+                  "AB": "4.0",
+                  "RB": "3.7",
+                  "SB": "3.7"
+                },
+                "battle_ratings_by_battle": {
+                  "default": {
+                    "AB": "4.0",
+                    "RB": "3.7",
+                    "SB": "3.7"
+                  }
+                },
+                "research": "13,000",
+                "purchase": "76,000",
+                "purchase_currency": "SL",
+                "status": null,
+                "fetched_at": "2026-09-19T06:31:29.286Z",
+                "sha256": "8379a324e68d7bf05230caac69ea5e052749ee289c856654fc66a1454f95c135"
+              }
+            }
+          ],
+          "details": true,
+          "rp": 31000,
+          "sp": 123000
+        }
+      ],
+      [
+        {
+          "type": "multiple",
+          "title": "◔Me 210 Ca",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/me_210ca_1_hungary_group.png",
+          "selected": false,
+          "br": "3.0-3.3",
+          "data_unit_id": "me_210ca_1_hungary_group",
+          "required_unit_id": "wm_23",
+          "class_name": "",
+          "items": [
+            {
+              "type": "single",
+              "title": "◔Me 210 Ca-1",
+              "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/me_210ca_1_hungary.png",
+              "br": "3.0",
+              "rp": 18000,
+              "sp": 47000,
+              "data_unit_id": "me_210ca_1_hungary",
+              "required_unit_id": "",
+              "selected": false,
+              "class_name": "",
+              "details": true,
+              "rank": "III",
+              "research_country": "Italy",
+              "main_role": "Strike aircraft",
+              "is_component": false,
+              "component_of": null,
+              "is_premium": false,
+              "is_squadron": false,
+              "wiki": {
+                "url": "https://wiki.warthunder.com/unit/me_210ca_1_hungary",
+                "rank": "III",
+                "battle_rating_context": "default",
+                "battle_ratings": {
+                  "AB": "3.0",
+                  "RB": "3.0",
+                  "SB": "3.0"
+                },
+                "battle_ratings_by_battle": {
+                  "default": {
+                    "AB": "3.0",
+                    "RB": "3.0",
+                    "SB": "3.0"
+                  }
+                },
+                "research": "18,000",
+                "purchase": "47,000",
+                "purchase_currency": "SL",
+                "status": null,
+                "fetched_at": "2026-09-19T06:31:28.173Z",
+                "sha256": "30f85d8146053c2f1bc824b60e56b77ed8b52b5870e04f84b5c2db372420bc6d"
+              }
+            },
+            {
+              "type": "single",
+              "title": "◔Me 210 Ca-1 36.M",
+              "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/me_210ca_1_40_mm_hungary.png",
+              "br": "3.3",
+              "rp": 13000,
+              "sp": 76000,
+              "data_unit_id": "me_210ca_1_40_mm_hungary",
+              "required_unit_id": "me_210ca_1_hungary",
+              "selected": false,
+              "class_name": "",
+              "details": true,
+              "rank": "III",
+              "research_country": "Italy",
+              "main_role": "Strike aircraft",
+              "is_component": false,
+              "component_of": null,
+              "is_premium": false,
+              "is_squadron": false,
+              "wiki": {
+                "url": "https://wiki.warthunder.com/unit/me_210ca_1_40_mm_hungary",
+                "rank": "III",
+                "battle_rating_context": "default",
+                "battle_ratings": {
+                  "AB": "3.3",
+                  "RB": "3.3",
+                  "SB": "3.3"
+                },
+                "battle_ratings_by_battle": {
+                  "default": {
+                    "AB": "3.3",
+                    "RB": "3.3",
+                    "SB": "3.3"
+                  }
+                },
+                "research": "13,000",
+                "purchase": "76,000",
+                "purchase_currency": "SL",
+                "status": null,
+                "fetched_at": "2026-09-19T06:31:27.920Z",
+                "sha256": "c4b8c3e79f2cd9fc932446237f751c968dd6816109a834dde3bc7574c8abab4d"
+              }
+            }
+          ],
+          "details": true,
+          "rp": 31000,
+          "sp": 123000
+        }
+      ]
+    ],
+    "premium_vehicles": [
+      [
+        {
+          "type": "single",
+          "title": "Hs 129 B-2 (Romania)",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/hs-129b-2_romania.png",
+          "br": "2.3",
+          "rp": 0,
+          "sp": 0,
+          "data_unit_id": "hs-129b-2_romania_italy",
+          "required_unit_id": "",
+          "selected": false,
+          "class_name": "prem",
+          "details": true,
+          "rank": "III",
+          "research_country": "Italy",
+          "main_role": "Strike aircraft",
+          "is_component": false,
+          "component_of": null,
+          "is_premium": true,
+          "is_squadron": false,
+          "wiki": {
+            "url": "https://wiki.warthunder.com/unit/hs-129b-2_romania_italy",
+            "rank": "III",
+            "battle_rating_context": "default",
+            "battle_ratings": {
+              "AB": "3.3",
+              "RB": "2.3",
+              "SB": "2.7"
+            },
+            "battle_ratings_by_battle": {
+              "default": {
+                "AB": "3.3",
+                "RB": "2.3",
+                "SB": "2.7"
+              }
+            },
+            "research": null,
+            "purchase": "1,360",
+            "purchase_currency": "GE",
+            "status": "Premium vehicle",
+            "fetched_at": "2026-09-19T06:31:25.947Z",
+            "sha256": "06664d29317deaee798a598fe6617a73d7a538f6ff87990187c7c8d38a5e10d6"
+          }
+        },
+        {
+          "type": "single",
+          "title": "▄Spitfire Mk Vb/trop",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/spitfire_mk5b_italy.png",
+          "br": "3.7",
+          "rp": 0,
+          "sp": 0,
+          "data_unit_id": "spitfire_mk5b_italy",
+          "required_unit_id": "",
+          "selected": false,
+          "class_name": "prem",
+          "details": true,
+          "rank": "III",
+          "research_country": "Italy",
+          "main_role": "Fighter",
+          "is_component": false,
+          "component_of": null,
+          "is_premium": true,
+          "is_squadron": false,
+          "wiki": {
+            "url": "https://wiki.warthunder.com/unit/spitfire_mk5b_italy",
+            "rank": "III",
+            "battle_rating_context": "air",
+            "battle_ratings": {
+              "AB": "3.7",
+              "RB": "3.7",
+              "SB": "3.3"
+            },
+            "battle_ratings_by_battle": {
+              "air": {
+                "AB": "3.7",
+                "RB": "3.7",
+                "SB": "3.3"
+              },
+              "tank": {
+                "AB": "—",
+                "RB": "4.0",
+                "SB": "4.0"
+              },
+              "ship": {
+                "AB": "3.7",
+                "RB": "3.7",
+                "SB": "—"
+              }
+            },
+            "research": null,
+            "purchase": "1,300",
+            "purchase_currency": "GE",
+            "status": "Premium vehicle",
+            "fetched_at": "2026-09-19T06:31:31.619Z",
+            "sha256": "53cdc056ff823b5760f0444e2d71139208340231c65ab738dfd77fe67bd6e067"
+          }
+        }
+      ],
+      [
+        {
+          "type": "single",
+          "title": "IAR-81C (DB 605)",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/iar_81c_db_605.png",
+          "br": "3.0",
+          "rp": 0,
+          "sp": 0,
+          "data_unit_id": "iar_81c_db_605",
+          "required_unit_id": "",
+          "selected": false,
+          "class_name": "prem",
+          "details": true,
+          "rank": "III",
+          "research_country": "Italy",
+          "main_role": "Fighter",
+          "is_component": false,
+          "component_of": null,
+          "is_premium": true,
+          "is_squadron": false,
+          "wiki": {
+            "url": "https://wiki.warthunder.com/unit/iar_81c_db_605",
+            "rank": "III",
+            "battle_rating_context": "default",
+            "battle_ratings": {
+              "AB": "3.0",
+              "RB": "3.0",
+              "SB": "3.0"
+            },
+            "battle_ratings_by_battle": {
+              "default": {
+                "AB": "3.0",
+                "RB": "3.0",
+                "SB": "3.0"
+              }
+            },
+            "research": null,
+            "purchase": null,
+            "purchase_currency": null,
+            "status": "Premium vehicle",
+            "fetched_at": "2026-09-19T06:31:26.190Z",
+            "sha256": "8f7efcdfca0241d1ac0cf9593e8942e2dbcf5674b6cae626820013e15d5b1887"
+          }
+        },
+        {
+          "type": "single",
+          "title": "◔Bf 110 G-4",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/bf_110g_4_hungary.png",
+          "br": "3.7",
+          "rp": 0,
+          "sp": 0,
+          "data_unit_id": "bf_110g_4_hungary",
+          "required_unit_id": "",
+          "selected": false,
+          "class_name": "prem",
+          "details": true,
+          "rank": "III",
+          "research_country": "Italy",
+          "main_role": "Strike aircraft",
+          "is_component": false,
+          "component_of": null,
+          "is_premium": true,
+          "is_squadron": false,
+          "wiki": {
+            "url": "https://wiki.warthunder.com/unit/bf_110g_4_hungary",
+            "rank": "III",
+            "battle_rating_context": "default",
+            "battle_ratings": {
+              "AB": "3.7",
+              "RB": "3.7",
+              "SB": "3.7"
+            },
+            "battle_ratings_by_battle": {
+              "default": {
+                "AB": "3.7",
+                "RB": "3.7",
+                "SB": "3.7"
+              }
+            },
+            "research": null,
+            "purchase": "1,450",
+            "purchase_currency": "GE",
+            "status": "Premium vehicle",
+            "fetched_at": "2026-09-19T06:31:22.631Z",
+            "sha256": "359980701d2da581a9973379922af891fb1ceca496c749ce52521688530cdb68"
+          }
+        },
+        {
+          "type": "single",
+          "title": "◔Bf 109 F-4",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/bf-109f-4_hungary.png",
+          "br": "4.0",
+          "rp": 0,
+          "sp": 0,
+          "data_unit_id": "bf-109f-4_hungary",
+          "required_unit_id": "",
+          "selected": false,
+          "class_name": "prem",
+          "details": true,
+          "rank": "III",
+          "research_country": "Italy",
+          "main_role": "Fighter",
+          "is_component": false,
+          "component_of": null,
+          "is_premium": true,
+          "is_squadron": false,
+          "wiki": {
+            "url": "https://wiki.warthunder.com/unit/bf-109f-4_hungary",
+            "rank": "III",
+            "battle_rating_context": "default",
+            "battle_ratings": {
+              "AB": "4.3",
+              "RB": "4.0",
+              "SB": "4.0"
+            },
+            "battle_ratings_by_battle": {
+              "default": {
+                "AB": "4.3",
+                "RB": "4.0",
+                "SB": "4.0"
+              }
+            },
+            "research": null,
+            "purchase": null,
+            "purchase_currency": null,
+            "status": "Premium vehicle",
+            "fetched_at": "2026-09-19T06:31:22.100Z",
+            "sha256": "c6bf92bc223d167aadd30423569c69593c8423ee6612a7c04621bdd4d5428e01"
+          }
+        }
+      ]
+    ],
+    "selected": [],
+    "unlock_quantity": null,
+    "source": "wiki"
+  },
+  {
+    "rank": "IV",
+    "researchable_vehicles": [
+      [
+        {
+          "type": "multiple",
+          "title": "G.55/Re.2005",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/g_55_serie_group.png",
+          "selected": false,
+          "br": "5.3-6.3",
+          "data_unit_id": "g_55_serie_group",
+          "required_unit_id": "g_55_serie1_ss0",
+          "class_name": "",
+          "items": [
+            {
+              "type": "single",
+              "title": "G.55 serie 1",
+              "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/g_55_serie1.png",
+              "br": "5.3",
+              "rp": 46000,
+              "sp": 155000,
+              "data_unit_id": "g_55_serie1",
+              "required_unit_id": "",
+              "selected": false,
+              "class_name": "",
+              "details": true,
+              "rank": "IV",
+              "research_country": "Italy",
+              "main_role": "Fighter",
+              "is_component": false,
+              "component_of": null,
+              "is_premium": false,
+              "is_squadron": false,
+              "wiki": {
+                "url": "https://wiki.warthunder.com/unit/g_55_serie1",
+                "rank": "IV",
+                "battle_rating_context": "default",
+                "battle_ratings": {
+                  "AB": "5.3",
+                  "RB": "5.3",
+                  "SB": "4.7"
+                },
+                "battle_ratings_by_battle": {
+                  "default": {
+                    "AB": "5.3",
+                    "RB": "5.3",
+                    "SB": "4.7"
+                  }
+                },
+                "research": "46,000",
+                "purchase": "155,000",
+                "purchase_currency": "SL",
+                "status": null,
+                "fetched_at": "2026-09-19T06:31:25.479Z",
+                "sha256": "9bef6e08daacc78ceddd6073302d135df7f7f960703dcee9cf6bf4d14e07d88a"
+              }
+            },
+            {
+              "type": "single",
+              "title": "Re.2005 serie 0",
+              "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/re_2005_serie0.png",
+              "br": "6.3",
+              "rp": 27000,
+              "sp": 185000,
+              "data_unit_id": "re_2005_serie0",
+              "required_unit_id": "g_55_serie1",
+              "selected": false,
+              "class_name": "",
+              "details": true,
+              "rank": "IV",
+              "research_country": "Italy",
+              "main_role": "Fighter",
+              "is_component": false,
+              "component_of": null,
+              "is_premium": false,
+              "is_squadron": false,
+              "wiki": {
+                "url": "https://wiki.warthunder.com/unit/re_2005_serie0",
+                "rank": "IV",
+                "battle_rating_context": "default",
+                "battle_ratings": {
+                  "AB": "5.7",
+                  "RB": "6.3",
+                  "SB": "5.3"
+                },
+                "battle_ratings_by_battle": {
+                  "default": {
+                    "AB": "5.7",
+                    "RB": "6.3",
+                    "SB": "5.3"
+                  }
+                },
+                "research": "27,000",
+                "purchase": "185,000",
+                "purchase_currency": "SL",
+                "status": null,
+                "fetched_at": "2026-09-19T06:31:30.244Z",
+                "sha256": "7d39ff32b94f8af2ed9273b6e8443f68b2fe69a7cf86f5ab7d5c09eb355abaaa"
+              }
+            }
+          ],
+          "details": true,
+          "rp": 73000,
+          "sp": 340000
+        },
+        {
+          "type": "single",
+          "title": "G.56",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/g_56.png",
+          "br": "6.3",
+          "rp": 54000,
+          "sp": 185000,
+          "data_unit_id": "g_56",
+          "required_unit_id": "g_55_serie_group",
+          "selected": false,
+          "class_name": "",
+          "details": true,
+          "rank": "IV",
+          "research_country": "Italy",
+          "main_role": "Fighter",
+          "is_component": false,
+          "component_of": null,
+          "is_premium": false,
+          "is_squadron": false,
+          "wiki": {
+            "url": "https://wiki.warthunder.com/unit/g_56",
+            "rank": "IV",
+            "battle_rating_context": "default",
+            "battle_ratings": {
+              "AB": "6.7",
+              "RB": "6.3",
+              "SB": "6.0"
+            },
+            "battle_ratings_by_battle": {
+              "default": {
+                "AB": "6.7",
+                "RB": "6.3",
+                "SB": "6.0"
+              }
+            },
+            "research": "54,000",
+            "purchase": "185,000",
+            "purchase_currency": "SL",
+            "status": null,
+            "fetched_at": "2026-09-19T06:31:25.744Z",
+            "sha256": "dd4d9a8bcfa8da9f762e8d2c05b8101ad9b502aa45fa92ac1b9308f15348a5c4"
+          }
+        }
+      ],
+      [
+        {
+          "type": "single",
+          "title": "C. 205 serie 3",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/mc-205_serie3.png",
+          "br": "4.7",
+          "rp": 46000,
+          "sp": 155000,
+          "data_unit_id": "mc-205_serie3",
+          "required_unit_id": "mc-205_n2",
+          "selected": false,
+          "class_name": "",
+          "details": true,
+          "rank": "IV",
+          "research_country": "Italy",
+          "main_role": "Fighter",
+          "is_component": false,
+          "component_of": null,
+          "is_premium": false,
+          "is_squadron": false,
+          "wiki": {
+            "url": "https://wiki.warthunder.com/unit/mc-205_serie3",
+            "rank": "IV",
+            "battle_rating_context": "default",
+            "battle_ratings": {
+              "AB": "5.3",
+              "RB": "4.7",
+              "SB": "4.0"
+            },
+            "battle_ratings_by_battle": {
+              "default": {
+                "AB": "5.3",
+                "RB": "4.7",
+                "SB": "4.0"
+              }
+            },
+            "research": "46,000",
+            "purchase": "155,000",
+            "purchase_currency": "SL",
+            "status": null,
+            "fetched_at": "2026-09-19T06:31:27.492Z",
+            "sha256": "a01b0878c6915187daa6bc7767b36df6b1e54cfd9e0bb38a48af1fb00ae4b80e"
+          }
+        },
+        {
+          "type": "single",
+          "title": "▄Bf 109 G-14/AS",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/bf-109g-14as.png",
+          "br": "5.3",
+          "rp": 54000,
+          "sp": 185000,
+          "data_unit_id": "bf-109g-14as",
+          "required_unit_id": "mc-205_serie3",
+          "selected": false,
+          "class_name": "",
+          "details": true,
+          "rank": "IV",
+          "research_country": "Italy",
+          "main_role": "Fighter",
+          "is_component": false,
+          "component_of": null,
+          "is_premium": false,
+          "is_squadron": false,
+          "wiki": {
+            "url": "https://wiki.warthunder.com/unit/bf-109g-14as",
+            "rank": "IV",
+            "battle_rating_context": "default",
+            "battle_ratings": {
+              "AB": "5.7",
+              "RB": "5.3",
+              "SB": "5.0"
+            },
+            "battle_ratings_by_battle": {
+              "default": {
+                "AB": "5.7",
+                "RB": "5.3",
+                "SB": "5.0"
+              }
+            },
+            "research": "54,000",
+            "purchase": "185,000",
+            "purchase_currency": "SL",
+            "status": null,
+            "fetched_at": "2026-09-19T06:31:22.480Z",
+            "sha256": "9648c0a35f971ee864dee0fb56d16cccf84497a30a3c37d35388006731ebd553"
+          }
+        }
+      ],
+      [
+        {
+          "type": "single",
+          "title": "◔IL-10",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/il-10_1946_hungary.png",
+          "br": "5.0",
+          "rp": 63000,
+          "sp": 200000,
+          "data_unit_id": "il-10_1946_hungary",
+          "required_unit_id": "p-47d_30_italy",
+          "selected": false,
+          "class_name": "",
+          "details": true,
+          "rank": "IV",
+          "research_country": "Italy",
+          "main_role": "Strike aircraft",
+          "is_component": false,
+          "component_of": null,
+          "is_premium": false,
+          "is_squadron": false,
+          "wiki": {
+            "url": "https://wiki.warthunder.com/unit/il-10_1946_hungary",
+            "rank": "IV",
+            "battle_rating_context": "default",
+            "battle_ratings": {
+              "AB": "5.0",
+              "RB": "5.0",
+              "SB": "5.3"
+            },
+            "battle_ratings_by_battle": {
+              "default": {
+                "AB": "5.0",
+                "RB": "5.0",
+                "SB": "5.3"
+              }
+            },
+            "research": "63,000",
+            "purchase": "200,000",
+            "purchase_currency": "SL",
+            "status": null,
+            "fetched_at": "2026-09-19T06:31:26.478Z",
+            "sha256": "7af160b964916811ffa7dd2f802a0a36555d6b57b82f48118a60164292c59a16"
+          }
+        }
+      ],
+      [
+        {
+          "type": "single",
+          "title": "◔Tu-2S (8)",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/tu-2_postwar_late_hungary.png",
+          "br": "5.7",
+          "rp": 71000,
+          "sp": 210000,
+          "data_unit_id": "tu-2_postwar_late_hungary",
+          "required_unit_id": "p_108_group",
+          "selected": false,
+          "class_name": "",
+          "details": true,
+          "rank": "IV",
+          "research_country": "Italy",
+          "main_role": "Bomber",
+          "is_component": false,
+          "component_of": null,
+          "is_premium": false,
+          "is_squadron": false,
+          "wiki": {
+            "url": "https://wiki.warthunder.com/unit/tu-2_postwar_late_hungary",
+            "rank": "IV",
+            "battle_rating_context": "default",
+            "battle_ratings": {
+              "AB": "6.0",
+              "RB": "5.7",
+              "SB": "6.0"
+            },
+            "battle_ratings_by_battle": {
+              "default": {
+                "AB": "6.0",
+                "RB": "5.7",
+                "SB": "6.0"
+              }
+            },
+            "research": "71,000",
+            "purchase": "210,000",
+            "purchase_currency": "SL",
+            "status": null,
+            "fetched_at": "2026-09-19T06:31:32.465Z",
+            "sha256": "9ae9b4c842509d3cea7f832ce86180c2a2a306506cb8b1e12fb0a0c59072b390"
+          }
+        }
+      ],
+      [
+        {
+          "type": "single",
+          "title": "◔Yak-9P",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/yak-9p_hungary.png",
+          "br": "5.0",
+          "rp": 63000,
+          "sp": 200000,
+          "data_unit_id": "yak-9p_hungary",
+          "required_unit_id": "me_210ca_1_hungary_group",
+          "selected": false,
+          "class_name": "",
+          "details": true,
+          "rank": "IV",
+          "research_country": "Italy",
+          "main_role": "Fighter",
+          "is_component": false,
+          "component_of": null,
+          "is_premium": false,
+          "is_squadron": false,
+          "wiki": {
+            "url": "https://wiki.warthunder.com/unit/yak-9p_hungary",
+            "rank": "IV",
+            "battle_rating_context": "air",
+            "battle_ratings": {
+              "AB": "5.3",
+              "RB": "5.0",
+              "SB": "5.3"
+            },
+            "battle_ratings_by_battle": {
+              "air": {
+                "AB": "5.3",
+                "RB": "5.0",
+                "SB": "5.3"
+              },
+              "tank": {
+                "AB": "—",
+                "RB": "5.3",
+                "SB": "5.3"
+              },
+              "ship": {
+                "AB": "5.3",
+                "RB": "5.0",
+                "SB": "—"
+              }
+            },
+            "research": "63,000",
+            "purchase": "200,000",
+            "purchase_currency": "SL",
+            "status": null,
+            "fetched_at": "2026-09-19T06:31:32.733Z",
+            "sha256": "515d1905f40904a4fefb54e6bde15a867fc0f1ac509f6f19cfca35fec9031537"
+          }
+        },
+        {
+          "type": "single",
+          "title": "◔Fw 190 F-8",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/fw_190f_8_hungary.png",
+          "br": "5.0",
+          "rp": 71000,
+          "sp": 210000,
+          "data_unit_id": "fw_190f_8_hungary",
+          "required_unit_id": "yak-9p_hungary",
+          "selected": false,
+          "class_name": "",
+          "details": true,
+          "rank": "IV",
+          "research_country": "Italy",
+          "main_role": "Strike aircraft",
+          "is_component": false,
+          "component_of": null,
+          "is_premium": false,
+          "is_squadron": false,
+          "wiki": {
+            "url": "https://wiki.warthunder.com/unit/fw_190f_8_hungary",
+            "rank": "IV",
+            "battle_rating_context": "default",
+            "battle_ratings": {
+              "AB": "5.3",
+              "RB": "5.0",
+              "SB": "4.3"
+            },
+            "battle_ratings_by_battle": {
+              "default": {
+                "AB": "5.3",
+                "RB": "5.0",
+                "SB": "4.3"
+              }
+            },
+            "research": "71,000",
+            "purchase": "210,000",
+            "purchase_currency": "SL",
+            "status": null,
+            "fetched_at": "2026-09-19T06:31:25.289Z",
+            "sha256": "8c68a95fa332ca3c2d61ccacb8435dada71141f7c642da0ac0aac46f5a9e70bb"
+          }
+        }
+      ]
+    ],
+    "premium_vehicles": [
+      [
+        {
+          "type": "single",
+          "title": "◔Bf 109 G-2",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/bf-109g-2_hungary.png",
+          "br": "4.3",
+          "rp": 0,
+          "sp": 0,
+          "data_unit_id": "bf-109g-2_hungary",
+          "required_unit_id": "",
+          "selected": false,
+          "class_name": "prem",
+          "details": true,
+          "rank": "IV",
+          "research_country": "Italy",
+          "main_role": "Fighter",
+          "is_component": false,
+          "component_of": null,
+          "is_premium": true,
+          "is_squadron": false,
+          "wiki": {
+            "url": "https://wiki.warthunder.com/unit/bf-109g-2_hungary",
+            "rank": "IV",
+            "battle_rating_context": "air",
+            "battle_ratings": {
+              "AB": "5.3",
+              "RB": "4.3",
+              "SB": "4.3"
+            },
+            "battle_ratings_by_battle": {
+              "air": {
+                "AB": "5.3",
+                "RB": "4.3",
+                "SB": "4.3"
+              },
+              "tank": {
+                "AB": "—",
+                "RB": "4.7",
+                "SB": "4.7"
+              },
+              "ship": {
+                "AB": "5.3",
+                "RB": "4.3",
+                "SB": "—"
+              }
+            },
+            "research": null,
+            "purchase": "4,640",
+            "purchase_currency": "GE",
+            "status": "Premium vehicle",
+            "fetched_at": "2026-09-19T06:31:22.500Z",
+            "sha256": "31b8d3d217894ddebfb7c978327ff344b74611a57c478cecde6a7e79a4fe317d"
+          }
+        },
+        {
+          "type": "single",
+          "title": "G.55S",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/g_55s.png",
+          "br": "5.3",
+          "rp": 0,
+          "sp": 0,
+          "data_unit_id": "g_55s",
+          "required_unit_id": "",
+          "selected": false,
+          "class_name": "prem",
+          "details": true,
+          "rank": "IV",
+          "research_country": "Italy",
+          "main_role": "Fighter",
+          "is_component": false,
+          "component_of": null,
+          "is_premium": true,
+          "is_squadron": false,
+          "wiki": {
+            "url": "https://wiki.warthunder.com/unit/g_55s",
+            "rank": "IV",
+            "battle_rating_context": "default",
+            "battle_ratings": {
+              "AB": "5.3",
+              "RB": "5.3",
+              "SB": "4.7"
+            },
+            "battle_ratings_by_battle": {
+              "default": {
+                "AB": "5.3",
+                "RB": "5.3",
+                "SB": "4.7"
+              }
+            },
+            "research": null,
+            "purchase": "4,300",
+            "purchase_currency": "GE",
+            "status": "Premium vehicle",
+            "fetched_at": "2026-09-19T06:31:25.601Z",
+            "sha256": "286205e3c6fa47aa02c76d121c1a873b832a43e8a1cfbf2ec206bac0026a5f4d"
+          }
+        }
+      ],
+      [
+        {
+          "type": "single",
+          "title": "Re.2005 (VDM)",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/re_2005_vdm.png",
+          "br": "6.3",
+          "rp": 0,
+          "sp": 0,
+          "data_unit_id": "re_2005_vdm",
+          "required_unit_id": "",
+          "selected": false,
+          "class_name": "prem",
+          "details": true,
+          "rank": "IV",
+          "research_country": "Italy",
+          "main_role": "Fighter",
+          "is_component": false,
+          "component_of": null,
+          "is_premium": true,
+          "is_squadron": false,
+          "wiki": {
+            "url": "https://wiki.warthunder.com/unit/re_2005_vdm",
+            "rank": "IV",
+            "battle_rating_context": "default",
+            "battle_ratings": {
+              "AB": "5.7",
+              "RB": "6.3",
+              "SB": "5.3"
+            },
+            "battle_ratings_by_battle": {
+              "default": {
+                "AB": "5.7",
+                "RB": "6.3",
+                "SB": "5.3"
+              }
+            },
+            "research": null,
+            "purchase": null,
+            "purchase_currency": null,
+            "status": "Premium vehicle",
+            "fetched_at": "2026-09-19T06:31:30.476Z",
+            "sha256": "8cf9f56255894e517f56d0e5acd23a5f2aecd3b47cf6586966450c20e5e6fc41"
+          }
+        }
+      ]
+    ],
+    "selected": [],
+    "unlock_quantity": null,
+    "source": "wiki"
+  },
+  {
+    "rank": "V",
+    "researchable_vehicles": [
+      [
+        {
+          "type": "single",
+          "title": "Vampire FB 52A",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/vampire_fb52a_italy.png",
+          "br": "8.0",
+          "rp": 95000,
+          "sp": 270000,
+          "data_unit_id": "vampire_fb52a_italy",
+          "required_unit_id": "g_56",
+          "selected": false,
+          "class_name": "",
+          "details": true,
+          "rank": "V",
+          "research_country": "Italy",
+          "main_role": "Fighter",
+          "is_component": false,
+          "component_of": null,
+          "is_premium": false,
+          "is_squadron": false,
+          "wiki": {
+            "url": "https://wiki.warthunder.com/unit/vampire_fb52a_italy",
+            "rank": "V",
+            "battle_rating_context": "default",
+            "battle_ratings": {
+              "AB": "7.7",
+              "RB": "8.0",
+              "SB": "7.7"
+            },
+            "battle_ratings_by_battle": {
+              "default": {
+                "AB": "7.7",
+                "RB": "8.0",
+                "SB": "7.7"
+              }
+            },
+            "research": "95,000",
+            "purchase": "270,000",
+            "purchase_currency": "SL",
+            "status": null,
+            "fetched_at": "2026-09-19T06:31:32.420Z",
+            "sha256": "73cb0a94504dd1a8bd5e08cbb6dea4a19f67b904c0a5d3b043b1f6432040f529"
+          }
+        },
+        {
+          "type": "single",
+          "title": "CL-13 Mk.4",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/f-86_cl_13_mk4_italy.png",
+          "br": "8.0",
+          "rp": 120000,
+          "sp": 340000,
+          "data_unit_id": "f-86_cl_13_mk4_italy",
+          "required_unit_id": "vampire_fb52a_italy",
+          "selected": false,
+          "class_name": "",
+          "details": true,
+          "rank": "V",
+          "research_country": "Italy",
+          "main_role": "Fighter",
+          "is_component": false,
+          "component_of": null,
+          "is_premium": false,
+          "is_squadron": false,
+          "wiki": {
+            "url": "https://wiki.warthunder.com/unit/f-86_cl_13_mk4_italy",
+            "rank": "V",
+            "battle_rating_context": "default",
+            "battle_ratings": {
+              "AB": "7.7",
+              "RB": "8.0",
+              "SB": "9.0"
+            },
+            "battle_ratings_by_battle": {
+              "default": {
+                "AB": "7.7",
+                "RB": "8.0",
+                "SB": "9.0"
+              }
+            },
+            "research": "120,000",
+            "purchase": "340,000",
+            "purchase_currency": "SL",
+            "status": null,
+            "fetched_at": "2026-09-19T06:31:24.078Z",
+            "sha256": "735c5d1d1c443bcc5a7ba69d454de05790ba65fb231af7aa8a221c31d947aea8"
+          }
+        }
+      ],
+      [
+        {
+          "type": "multiple",
+          "title": "G.91",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/fiat_g91_group.png",
+          "selected": false,
+          "br": "8.3-8.7",
+          "data_unit_id": "fiat_g91_group",
+          "required_unit_id": "bf-109g-14as",
+          "class_name": "",
+          "items": [
+            {
+              "type": "single",
+              "title": "G.91 pre-serie",
+              "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/fiat_g91_ps.png",
+              "br": "8.3",
+              "rp": 105000,
+              "sp": 300000,
+              "data_unit_id": "fiat_g91_ps",
+              "required_unit_id": "",
+              "selected": false,
+              "class_name": "",
+              "details": true,
+              "rank": "V",
+              "research_country": "Italy",
+              "main_role": "Fighter",
+              "is_component": false,
+              "component_of": null,
+              "is_premium": false,
+              "is_squadron": false,
+              "wiki": {
+                "url": "https://wiki.warthunder.com/unit/fiat_g91_ps",
+                "rank": "V",
+                "battle_rating_context": "default",
+                "battle_ratings": {
+                  "AB": "8.3",
+                  "RB": "8.3",
+                  "SB": "8.3"
+                },
+                "battle_ratings_by_battle": {
+                  "default": {
+                    "AB": "8.3",
+                    "RB": "8.3",
+                    "SB": "8.3"
+                  }
+                },
+                "research": "105,000",
+                "purchase": "300,000",
+                "purchase_currency": "SL",
+                "status": null,
+                "fetched_at": "2026-09-19T06:31:24.925Z",
+                "sha256": "b5b251d583b588b74d5623e30f70b95d99fa44ced7ffd508708a9c5722faedfe"
+              }
+            },
+            {
+              "type": "single",
+              "title": "G.91 R/1",
+              "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/fiat_g91_r1.png",
+              "br": "8.7",
+              "rp": 61000,
+              "sp": 340000,
+              "data_unit_id": "fiat_g91_r1",
+              "required_unit_id": "fiat_g91_ps",
+              "selected": false,
+              "class_name": "",
+              "details": true,
+              "rank": "V",
+              "research_country": "Italy",
+              "main_role": "Fighter",
+              "is_component": false,
+              "component_of": null,
+              "is_premium": false,
+              "is_squadron": false,
+              "wiki": {
+                "url": "https://wiki.warthunder.com/unit/fiat_g91_r1",
+                "rank": "V",
+                "battle_rating_context": "air",
+                "battle_ratings": {
+                  "AB": "8.3",
+                  "RB": "8.7",
+                  "SB": "8.7"
+                },
+                "battle_ratings_by_battle": {
+                  "air": {
+                    "AB": "8.3",
+                    "RB": "8.7",
+                    "SB": "8.7"
+                  },
+                  "tank": {
+                    "AB": "—",
+                    "RB": "8.3",
+                    "SB": "8.3"
+                  },
+                  "ship": {
+                    "AB": "9.3",
+                    "RB": "9.3",
+                    "SB": "—"
+                  }
+                },
+                "research": "61,000",
+                "purchase": "340,000",
+                "purchase_currency": "SL",
+                "status": null,
+                "fetched_at": "2026-09-19T06:31:24.872Z",
+                "sha256": "e1f949935eee455ce3e1154a7da84f97422f2665029c6a6f0fe4f4a912690ca4"
+              }
+            }
+          ],
+          "details": true,
+          "rp": 166000,
+          "sp": 640000
+        }
+      ],
+      [
+        {
+          "type": "single",
+          "title": "MB-326K",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/mb_326k.png",
+          "br": "8.0",
+          "rp": 82000,
+          "sp": 240000,
+          "data_unit_id": "mb_326k",
+          "required_unit_id": "il-10_1946_hungary",
+          "selected": false,
+          "class_name": "",
+          "details": true,
+          "rank": "V",
+          "research_country": "Italy",
+          "main_role": "Strike aircraft",
+          "is_component": false,
+          "component_of": null,
+          "is_premium": false,
+          "is_squadron": false,
+          "wiki": {
+            "url": "https://wiki.warthunder.com/unit/mb_326k",
+            "rank": "V",
+            "battle_rating_context": "air",
+            "battle_ratings": {
+              "AB": "7.3",
+              "RB": "8.0",
+              "SB": "7.0"
+            },
+            "battle_ratings_by_battle": {
+              "air": {
+                "AB": "7.3",
+                "RB": "8.0",
+                "SB": "7.0"
+              },
+              "tank": {
+                "AB": "—",
+                "RB": "7.7",
+                "SB": "7.7"
+              },
+              "ship": {
+                "AB": "7.3",
+                "RB": "8.0",
+                "SB": "—"
+              }
+            },
+            "research": "82,000",
+            "purchase": "240,000",
+            "purchase_currency": "SL",
+            "status": null,
+            "fetched_at": "2026-09-19T06:31:26.785Z",
+            "sha256": "2821be71d8ddc1f609eed0dbee28e6a3f137df09d6c5774df71374fc23eb0ea3"
+          }
+        },
+        {
+          "type": "single",
+          "title": "▄F-84G-21-RE",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/f-84g_italy.png",
+          "br": "7.7",
+          "rp": 95000,
+          "sp": 270000,
+          "data_unit_id": "f-84g_italy",
+          "required_unit_id": "mb_326k",
+          "selected": false,
+          "class_name": "",
+          "details": true,
+          "rank": "V",
+          "research_country": "Italy",
+          "main_role": "Strike aircraft",
+          "is_component": false,
+          "component_of": null,
+          "is_premium": false,
+          "is_squadron": false,
+          "wiki": {
+            "url": "https://wiki.warthunder.com/unit/f-84g_italy",
+            "rank": "V",
+            "battle_rating_context": "default",
+            "battle_ratings": {
+              "AB": "7.7",
+              "RB": "7.7",
+              "SB": "8.0"
+            },
+            "battle_ratings_by_battle": {
+              "default": {
+                "AB": "7.7",
+                "RB": "7.7",
+                "SB": "8.0"
+              }
+            },
+            "research": "95,000",
+            "purchase": "270,000",
+            "purchase_currency": "SL",
+            "status": null,
+            "fetched_at": "2026-09-19T06:31:24.065Z",
+            "sha256": "572de3c9543dbced2ac5843511c4ded981cfcf33be9f58bc4e4860b4cd8da0c8"
+          }
+        }
+      ],
+      [
+        {
+          "type": "single",
+          "title": "◔IL-28",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/il_28_hungary.png",
+          "br": "8.0",
+          "rp": 105000,
+          "sp": 300000,
+          "data_unit_id": "il_28_hungary",
+          "required_unit_id": "tu-2_postwar_late_hungary",
+          "selected": false,
+          "class_name": "",
+          "details": true,
+          "rank": "V",
+          "research_country": "Italy",
+          "main_role": "Bomber",
+          "is_component": false,
+          "component_of": null,
+          "is_premium": false,
+          "is_squadron": false,
+          "wiki": {
+            "url": "https://wiki.warthunder.com/unit/il_28_hungary",
+            "rank": "V",
+            "battle_rating_context": "air",
+            "battle_ratings": {
+              "AB": "8.0",
+              "RB": "8.0",
+              "SB": "8.0"
+            },
+            "battle_ratings_by_battle": {
+              "air": {
+                "AB": "8.0",
+                "RB": "8.0",
+                "SB": "8.0"
+              },
+              "tank": {
+                "AB": "—",
+                "RB": "7.0",
+                "SB": "7.0"
+              },
+              "ship": {
+                "AB": "9.3",
+                "RB": "9.3",
+                "SB": "—"
+              }
+            },
+            "research": "105,000",
+            "purchase": "300,000",
+            "purchase_currency": "SL",
+            "status": null,
+            "fetched_at": "2026-09-19T06:31:26.285Z",
+            "sha256": "05ddf7df259377bd4d35a1fc320cd2c083b2acb5decf283b3644a7d03c058790"
+          }
+        }
+      ],
+      [
+        {
+          "type": "single",
+          "title": "◔MiG-15bis",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/mig-15bis_nr23_hungary.png",
+          "br": "8.3",
+          "rp": 120000,
+          "sp": 340000,
+          "data_unit_id": "mig-15bis_nr23_hungary",
+          "required_unit_id": "fw_190f_8_hungary",
+          "selected": false,
+          "class_name": "",
+          "details": true,
+          "rank": "V",
+          "research_country": "Italy",
+          "main_role": "Fighter",
+          "is_component": false,
+          "component_of": null,
+          "is_premium": false,
+          "is_squadron": false,
+          "wiki": {
+            "url": "https://wiki.warthunder.com/unit/mig-15bis_nr23_hungary",
+            "rank": "V",
+            "battle_rating_context": "default",
+            "battle_ratings": {
+              "AB": "8.7",
+              "RB": "8.3",
+              "SB": "8.7"
+            },
+            "battle_ratings_by_battle": {
+              "default": {
+                "AB": "8.7",
+                "RB": "8.3",
+                "SB": "8.7"
+              }
+            },
+            "research": "120,000",
+            "purchase": "340,000",
+            "purchase_currency": "SL",
+            "status": null,
+            "fetched_at": "2026-09-19T06:31:28.116Z",
+            "sha256": "f3270e59af521e853f49369a92cf4e1a200aec7f1538b4833d268f6e7c24f15b"
+          }
+        }
+      ]
+    ],
+    "premium_vehicles": [
+      [
+        {
+          "type": "single",
+          "title": "MB-326B",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/mb_326b.png",
+          "br": "6.7",
+          "rp": 0,
+          "sp": 0,
+          "data_unit_id": "mb_326b",
+          "required_unit_id": "",
+          "selected": false,
+          "class_name": "prem",
+          "details": true,
+          "rank": "V",
+          "research_country": "Italy",
+          "main_role": "Strike aircraft",
+          "is_component": false,
+          "component_of": null,
+          "is_premium": true,
+          "is_squadron": false,
+          "wiki": {
+            "url": "https://wiki.warthunder.com/unit/mb_326b",
+            "rank": "V",
+            "battle_rating_context": "default",
+            "battle_ratings": {
+              "AB": "6.7",
+              "RB": "6.7",
+              "SB": "6.3"
+            },
+            "battle_ratings_by_battle": {
+              "default": {
+                "AB": "6.7",
+                "RB": "6.7",
+                "SB": "6.3"
+              }
+            },
+            "research": null,
+            "purchase": "8,020",
+            "purchase_currency": "GE",
+            "status": "Premium vehicle",
+            "fetched_at": "2026-09-19T06:31:26.732Z",
+            "sha256": "ac6d1385c796975ca380b806d24c535d4f9b95da672f68618581977974c90789"
+          }
+        },
+        {
+          "type": "single",
+          "title": "G.91 R/4",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/fiat_g91_r4.png",
+          "br": "8.7",
+          "rp": 0,
+          "sp": 0,
+          "data_unit_id": "fiat_g91_r4",
+          "required_unit_id": "",
+          "selected": false,
+          "class_name": "prem",
+          "details": true,
+          "rank": "V",
+          "research_country": "Italy",
+          "main_role": "Fighter",
+          "is_component": false,
+          "component_of": null,
+          "is_premium": true,
+          "is_squadron": false,
+          "wiki": {
+            "url": "https://wiki.warthunder.com/unit/fiat_g91_r4",
+            "rank": "V",
+            "battle_rating_context": "air",
+            "battle_ratings": {
+              "AB": "8.3",
+              "RB": "8.7",
+              "SB": "9.0"
+            },
+            "battle_ratings_by_battle": {
+              "air": {
+                "AB": "8.3",
+                "RB": "8.7",
+                "SB": "9.0"
+              },
+              "tank": {
+                "AB": "—",
+                "RB": "8.7",
+                "SB": "9.0"
+              },
+              "ship": {
+                "AB": "9.3",
+                "RB": "9.3",
+                "SB": "—"
+              }
+            },
+            "research": null,
+            "purchase": "8,910",
+            "purchase_currency": "GE",
+            "status": "Premium vehicle",
+            "fetched_at": "2026-09-19T06:31:25.081Z",
+            "sha256": "aa9c3ba2d2e521c4765cfc67072d4568f87692a3231a2a5cadc0440fc61d71ae"
+          }
+        }
+      ],
+      []
+    ],
+    "selected": [],
+    "unlock_quantity": null,
+    "source": "wiki"
+  },
+  {
+    "rank": "VI",
+    "researchable_vehicles": [
+      [
+        {
+          "type": "single",
+          "title": "▄F-86K",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/f-86k_late_italy.png",
+          "br": "9.0",
+          "rp": 150000,
+          "sp": 420000,
+          "data_unit_id": "f-86k_late_italy",
+          "required_unit_id": "f-86_cl_13_mk4_italy",
+          "selected": false,
+          "class_name": "",
+          "details": true,
+          "rank": "VI",
+          "research_country": "Italy",
+          "main_role": "Fighter",
+          "is_component": false,
+          "component_of": null,
+          "is_premium": false,
+          "is_squadron": false,
+          "wiki": {
+            "url": "https://wiki.warthunder.com/unit/f-86k_late_italy",
+            "rank": "VI",
+            "battle_rating_context": "air",
+            "battle_ratings": {
+              "AB": "9.0",
+              "RB": "9.0",
+              "SB": "9.3"
+            },
+            "battle_ratings_by_battle": {
+              "air": {
+                "AB": "9.0",
+                "RB": "9.0",
+                "SB": "9.3"
+              },
+              "tank": {
+                "AB": "—",
+                "RB": "8.7",
+                "SB": "8.7"
+              },
+              "ship": {
+                "AB": "9.0",
+                "RB": "9.0",
+                "SB": "—"
+              }
+            },
+            "research": "150,000",
+            "purchase": "420,000",
+            "purchase_currency": "SL",
+            "status": null,
+            "fetched_at": "2026-09-19T06:31:24.234Z",
+            "sha256": "11c7ae0b36d76ca342694921ff06e974d2adcec430d37b0759dbaa29df147346"
+          }
+        },
+        {
+          "type": "single",
+          "title": "▄F-104G",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/f-104g_italy.png",
+          "br": "11.0",
+          "rp": 190000,
+          "sp": 530000,
+          "data_unit_id": "f-104g_italy",
+          "required_unit_id": "f-86k_late_italy",
+          "selected": false,
+          "class_name": "",
+          "details": true,
+          "rank": "VI",
+          "research_country": "Italy",
+          "main_role": "Fighter",
+          "is_component": false,
+          "component_of": null,
+          "is_premium": false,
+          "is_squadron": false,
+          "wiki": {
+            "url": "https://wiki.warthunder.com/unit/f-104g_italy",
+            "rank": "VI",
+            "battle_rating_context": "air",
+            "battle_ratings": {
+              "AB": "10.7",
+              "RB": "11.0",
+              "SB": "10.7"
+            },
+            "battle_ratings_by_battle": {
+              "air": {
+                "AB": "10.7",
+                "RB": "11.0",
+                "SB": "10.7"
+              },
+              "tank": {
+                "AB": "—",
+                "RB": "9.7",
+                "SB": "9.7"
+              },
+              "ship": {
+                "AB": "10.7",
+                "RB": "11.0",
+                "SB": "—"
+              }
+            },
+            "research": "190,000",
+            "purchase": "530,000",
+            "purchase_currency": "SL",
+            "status": null,
+            "fetched_at": "2026-09-19T06:31:23.629Z",
+            "sha256": "8a0110eebb6d3726f6a821bf1bec78f87672346127deab62ea481b46bcc0f6ca"
+          }
+        }
+      ],
+      [
+        {
+          "type": "single",
+          "title": "Sagittario 2",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/sagittario_2.png",
+          "br": "9.3",
+          "rp": 150000,
+          "sp": 420000,
+          "data_unit_id": "sagittario_2",
+          "required_unit_id": "fiat_g91_group",
+          "selected": false,
+          "class_name": "",
+          "details": true,
+          "rank": "VI",
+          "research_country": "Italy",
+          "main_role": "Fighter",
+          "is_component": false,
+          "component_of": null,
+          "is_premium": false,
+          "is_squadron": false,
+          "wiki": {
+            "url": "https://wiki.warthunder.com/unit/sagittario_2",
+            "rank": "VI",
+            "battle_rating_context": "default",
+            "battle_ratings": {
+              "AB": "9.0",
+              "RB": "9.3",
+              "SB": "8.0"
+            },
+            "battle_ratings_by_battle": {
+              "default": {
+                "AB": "9.0",
+                "RB": "9.3",
+                "SB": "8.0"
+              }
+            },
+            "research": "150,000",
+            "purchase": "420,000",
+            "purchase_currency": "SL",
+            "status": null,
+            "fetched_at": "2026-09-19T06:31:30.944Z",
+            "sha256": "e3440eb207e76977492b99a2e7d6a2b448664f2512872598db5364ae73ada7d3"
+          }
+        },
+        {
+          "type": "multiple",
+          "title": "G.91 Y",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/fiat_g91y_group.png",
+          "selected": false,
+          "br": "9.3",
+          "data_unit_id": "fiat_g91y_group",
+          "required_unit_id": "sagittario_2",
+          "class_name": "",
+          "items": [
+            {
+              "type": "single",
+              "title": "G.91 Y",
+              "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/fiat_g91_y.png",
+              "br": "9.3",
+              "rp": 170000,
+              "sp": 480000,
+              "data_unit_id": "fiat_g91_y",
+              "required_unit_id": "",
+              "selected": false,
+              "class_name": "",
+              "details": true,
+              "rank": "VI",
+              "research_country": "Italy",
+              "main_role": "Fighter",
+              "is_component": false,
+              "component_of": null,
+              "is_premium": false,
+              "is_squadron": false,
+              "wiki": {
+                "url": "https://wiki.warthunder.com/unit/fiat_g91_y",
+                "rank": "VI",
+                "battle_rating_context": "air",
+                "battle_ratings": {
+                  "AB": "9.3",
+                  "RB": "9.3",
+                  "SB": "9.3"
+                },
+                "battle_ratings_by_battle": {
+                  "air": {
+                    "AB": "9.3",
+                    "RB": "9.3",
+                    "SB": "9.3"
+                  },
+                  "tank": {
+                    "AB": "—",
+                    "RB": "9.0",
+                    "SB": "9.0"
+                  },
+                  "ship": {
+                    "AB": "9.3",
+                    "RB": "9.3",
+                    "SB": "—"
+                  }
+                },
+                "research": "170,000",
+                "purchase": "480,000",
+                "purchase_currency": "SL",
+                "status": null,
+                "fetched_at": "2026-09-19T06:31:25.469Z",
+                "sha256": "48af1068bb13a35e0c25259648d5acda552baed726db24706cfde218fff4193a"
+              }
+            },
+            {
+              "type": "single",
+              "title": "G.91 YS",
+              "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/fiat_g91_ys.png",
+              "br": "9.3",
+              "rp": 96000,
+              "sp": 530000,
+              "data_unit_id": "fiat_g91_ys",
+              "required_unit_id": "fiat_g91_y",
+              "selected": false,
+              "class_name": "",
+              "details": true,
+              "rank": "VI",
+              "research_country": "Italy",
+              "main_role": "Fighter",
+              "is_component": false,
+              "component_of": null,
+              "is_premium": false,
+              "is_squadron": false,
+              "wiki": {
+                "url": "https://wiki.warthunder.com/unit/fiat_g91_ys",
+                "rank": "VI",
+                "battle_rating_context": "default",
+                "battle_ratings": {
+                  "AB": "9.7",
+                  "RB": "9.3",
+                  "SB": "9.7"
+                },
+                "battle_ratings_by_battle": {
+                  "default": {
+                    "AB": "9.7",
+                    "RB": "9.3",
+                    "SB": "9.7"
+                  }
+                },
+                "research": "96,000",
+                "purchase": "530,000",
+                "purchase_currency": "SL",
+                "status": null,
+                "fetched_at": "2026-09-19T06:31:25.246Z",
+                "sha256": "9430928e43677aed6ab826130032f2011fa0827baa6f2f10a035afe211eb3755"
+              }
+            }
+          ],
+          "details": true,
+          "rp": 266000,
+          "sp": 1010000
+        }
+      ],
+      [
+        {
+          "type": "single",
+          "title": "▄F-84F",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/f-84f_italy.png",
+          "br": "8.3",
+          "rp": 135000,
+          "sp": 380000,
+          "data_unit_id": "f-84f_italy",
+          "required_unit_id": "f-84g_italy",
+          "selected": false,
+          "class_name": "",
+          "details": true,
+          "rank": "VI",
+          "research_country": "Italy",
+          "main_role": "Strike aircraft",
+          "is_component": false,
+          "component_of": null,
+          "is_premium": false,
+          "is_squadron": false,
+          "wiki": {
+            "url": "https://wiki.warthunder.com/unit/f-84f_italy",
+            "rank": "VI",
+            "battle_rating_context": "air",
+            "battle_ratings": {
+              "AB": "9.0",
+              "RB": "8.3",
+              "SB": "8.7"
+            },
+            "battle_ratings_by_battle": {
+              "air": {
+                "AB": "9.0",
+                "RB": "8.3",
+                "SB": "8.7"
+              },
+              "tank": {
+                "AB": "—",
+                "RB": "8.0",
+                "SB": "8.0"
+              },
+              "ship": {
+                "AB": "9.0",
+                "RB": "8.3",
+                "SB": "—"
+              }
+            },
+            "research": "135,000",
+            "purchase": "380,000",
+            "purchase_currency": "SL",
+            "status": null,
+            "fetched_at": "2026-09-19T06:31:24.040Z",
+            "sha256": "2039f498e4628f182bc113d709485d0a9239a495f37a682647594adc431dac56"
+          }
+        }
+      ],
+      [],
+      [
+        {
+          "type": "single",
+          "title": "◔MiG-17PF",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/mig-17pf_hungary.png",
+          "br": "8.7",
+          "rp": 150000,
+          "sp": 420000,
+          "data_unit_id": "mig-17pf_hungary",
+          "required_unit_id": "mig-15bis_nr23_hungary",
+          "selected": false,
+          "class_name": "",
+          "details": true,
+          "rank": "VI",
+          "research_country": "Italy",
+          "main_role": "Fighter",
+          "is_component": false,
+          "component_of": null,
+          "is_premium": false,
+          "is_squadron": false,
+          "wiki": {
+            "url": "https://wiki.warthunder.com/unit/mig-17pf_hungary",
+            "rank": "VI",
+            "battle_rating_context": "default",
+            "battle_ratings": {
+              "AB": "9.0",
+              "RB": "8.7",
+              "SB": "9.0"
+            },
+            "battle_ratings_by_battle": {
+              "default": {
+                "AB": "9.0",
+                "RB": "8.7",
+                "SB": "9.0"
+              }
+            },
+            "research": "150,000",
+            "purchase": "420,000",
+            "purchase_currency": "SL",
+            "status": null,
+            "fetched_at": "2026-09-19T06:31:28.277Z",
+            "sha256": "ead6c97d8bbb19aef3915bb2a6c3fb74d34f6262e687f41a2e8815af4dfe2f12"
+          }
+        }
+      ]
+    ],
+    "premium_vehicles": [
+      [
+        {
+          "type": "single",
+          "title": "Ariete",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/ariete.png",
+          "br": "9.3",
+          "rp": 0,
+          "sp": 0,
+          "data_unit_id": "ariete",
+          "required_unit_id": "",
+          "selected": false,
+          "class_name": "prem",
+          "details": true,
+          "rank": "VI",
+          "research_country": "Italy",
+          "main_role": "Fighter",
+          "is_component": false,
+          "component_of": null,
+          "is_premium": true,
+          "is_squadron": false,
+          "wiki": {
+            "url": "https://wiki.warthunder.com/unit/ariete",
+            "rank": "VI",
+            "battle_rating_context": "default",
+            "battle_ratings": {
+              "AB": "9.3",
+              "RB": "9.3",
+              "SB": "9.0"
+            },
+            "battle_ratings_by_battle": {
+              "default": {
+                "AB": "9.3",
+                "RB": "9.3",
+                "SB": "9.0"
+              }
+            },
+            "research": null,
+            "purchase": "8,730",
+            "purchase_currency": "GE",
+            "status": "Premium vehicle",
+            "fetched_at": "2026-09-19T06:31:21.826Z",
+            "sha256": "9d9408a543669c62a207cad172e5d6e59745c0eb753d17e286cdec766247b828"
+          }
+        },
+        {
+          "type": "single",
+          "title": "IAR-93B",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/iar_93b.png",
+          "br": "9.0",
+          "rp": null,
+          "sp": null,
+          "data_unit_id": "iar_93b",
+          "required_unit_id": "",
+          "selected": false,
+          "class_name": "",
+          "details": true,
+          "rank": "VI",
+          "research_country": "Italy",
+          "main_role": "Strike aircraft",
+          "is_component": false,
+          "component_of": null,
+          "is_premium": false,
+          "is_squadron": false,
+          "wiki": {
+            "url": "https://wiki.warthunder.com/unit/iar_93b",
+            "rank": "VI",
+            "battle_rating_context": "air",
+            "battle_ratings": {
+              "AB": "9.0",
+              "RB": "9.0",
+              "SB": "9.0"
+            },
+            "battle_ratings_by_battle": {
+              "air": {
+                "AB": "9.0",
+                "RB": "9.0",
+                "SB": "9.0"
+              },
+              "tank": {
+                "AB": "—",
+                "RB": "9.3",
+                "SB": "9.3"
+              },
+              "ship": {
+                "AB": "9.3",
+                "RB": "9.3",
+                "SB": "—"
+              }
+            },
+            "research": null,
+            "purchase": null,
+            "purchase_currency": null,
+            "status": null,
+            "fetched_at": "2026-09-19T06:31:26.349Z",
+            "sha256": "7bb7835cf16f56a29d1739e8bcf86b0e82475aeeae55ec672f128fe91bde7c59"
+          }
+        }
+      ],
+      []
+    ],
+    "selected": [],
+    "unlock_quantity": null,
+    "source": "wiki"
+  },
+  {
+    "rank": "VII",
+    "researchable_vehicles": [
+      [
+        {
+          "type": "single",
+          "title": "F-104S",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/f-104s.png",
+          "br": "11.3",
+          "rp": 230000,
+          "sp": 630000,
+          "data_unit_id": "f-104s",
+          "required_unit_id": "f-104g_italy",
+          "selected": false,
+          "class_name": "",
+          "details": true,
+          "rank": "VII",
+          "research_country": "Italy",
+          "main_role": "Fighter",
+          "is_component": false,
+          "component_of": null,
+          "is_premium": false,
+          "is_squadron": false,
+          "wiki": {
+            "url": "https://wiki.warthunder.com/unit/f-104s",
+            "rank": "VII",
+            "battle_rating_context": "air",
+            "battle_ratings": {
+              "AB": "11.0",
+              "RB": "11.3",
+              "SB": "10.7"
+            },
+            "battle_ratings_by_battle": {
+              "air": {
+                "AB": "11.0",
+                "RB": "11.3",
+                "SB": "10.7"
+              },
+              "tank": {
+                "AB": "—",
+                "RB": "10.0",
+                "SB": "10.0"
+              },
+              "ship": {
+                "AB": "11.0",
+                "RB": "11.3",
+                "SB": "—"
+              }
+            },
+            "research": "230,000",
+            "purchase": "630,000",
+            "purchase_currency": "SL",
+            "status": null,
+            "fetched_at": "2026-09-19T06:31:23.812Z",
+            "sha256": "f89628b486f27d33a0ade0a11bdb4f670599623208725d872457b44109a010d5"
+          }
+        },
+        {
+          "type": "single",
+          "title": "F-104S.ASA",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/f-104s_asa.png",
+          "br": "11.7",
+          "rp": 260000,
+          "sp": 720000,
+          "data_unit_id": "f-104s_asa",
+          "required_unit_id": "f-104s",
+          "selected": false,
+          "class_name": "",
+          "details": true,
+          "rank": "VII",
+          "research_country": "Italy",
+          "main_role": "Fighter",
+          "is_component": false,
+          "component_of": null,
+          "is_premium": false,
+          "is_squadron": false,
+          "wiki": {
+            "url": "https://wiki.warthunder.com/unit/f-104s_asa",
+            "rank": "VII",
+            "battle_rating_context": "air",
+            "battle_ratings": {
+              "AB": "11.7",
+              "RB": "11.7",
+              "SB": "11.7"
+            },
+            "battle_ratings_by_battle": {
+              "air": {
+                "AB": "11.7",
+                "RB": "11.7",
+                "SB": "11.7"
+              },
+              "tank": {
+                "AB": "—",
+                "RB": "11.0",
+                "SB": "11.0"
+              },
+              "ship": {
+                "AB": "11.7",
+                "RB": "11.7",
+                "SB": "—"
+              }
+            },
+            "research": "260,000",
+            "purchase": "720,000",
+            "purchase_currency": "SL",
+            "status": null,
+            "fetched_at": "2026-09-19T06:31:23.936Z",
+            "sha256": "3f9ecc1dc18afc2b91776904ce55de0d87c72e2ef9c9a23a36d4746d20396eed"
+          }
+        }
+      ],
+      [
+        {
+          "type": "single",
+          "title": "AMX",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/amx.png",
+          "br": "10.7",
+          "rp": 230000,
+          "sp": 630000,
+          "data_unit_id": "amx",
+          "required_unit_id": "fiat_g91y_group",
+          "selected": false,
+          "class_name": "",
+          "details": true,
+          "rank": "VII",
+          "research_country": "Italy",
+          "main_role": "Strike aircraft",
+          "is_component": false,
+          "component_of": null,
+          "is_premium": false,
+          "is_squadron": false,
+          "wiki": {
+            "url": "https://wiki.warthunder.com/unit/amx",
+            "rank": "VII",
+            "battle_rating_context": "air",
+            "battle_ratings": {
+              "AB": "11.0",
+              "RB": "10.7",
+              "SB": "10.7"
+            },
+            "battle_ratings_by_battle": {
+              "air": {
+                "AB": "11.0",
+                "RB": "10.7",
+                "SB": "10.7"
+              },
+              "tank": {
+                "AB": "—",
+                "RB": "11.0",
+                "SB": "11.0"
+              },
+              "ship": {
+                "AB": "11.0",
+                "RB": "10.7",
+                "SB": "—"
+              }
+            },
+            "research": "230,000",
+            "purchase": "630,000",
+            "purchase_currency": "SL",
+            "status": null,
+            "fetched_at": "2026-09-19T06:31:21.691Z",
+            "sha256": "5a71050d4f2486718933e01f19defcc037a02cb8bad0cf1177da1d4fd1be6a76"
+          }
+        },
+        {
+          "type": "single",
+          "title": "Tornado ADV",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/tornado_adv.png",
+          "br": "12.0",
+          "rp": 260000,
+          "sp": 720000,
+          "data_unit_id": "tornado_adv",
+          "required_unit_id": "amx",
+          "selected": false,
+          "class_name": "",
+          "details": true,
+          "rank": "VII",
+          "research_country": "Italy",
+          "main_role": "Fighter",
+          "is_component": false,
+          "component_of": null,
+          "is_premium": false,
+          "is_squadron": false,
+          "wiki": {
+            "url": "https://wiki.warthunder.com/unit/tornado_adv",
+            "rank": "VII",
+            "battle_rating_context": "air",
+            "battle_ratings": {
+              "AB": "12.0",
+              "RB": "12.0",
+              "SB": "12.0"
+            },
+            "battle_ratings_by_battle": {
+              "air": {
+                "AB": "12.0",
+                "RB": "12.0",
+                "SB": "12.0"
+              },
+              "tank": {
+                "AB": "—",
+                "RB": "11.0",
+                "SB": "11.0"
+              },
+              "ship": {
+                "AB": "12.0",
+                "RB": "12.0",
+                "SB": "—"
+              }
+            },
+            "research": "260,000",
+            "purchase": "720,000",
+            "purchase_currency": "SL",
+            "status": null,
+            "fetched_at": "2026-09-19T06:31:31.790Z",
+            "sha256": "8f01c068158345edbe402d85beff78cacae5efad452428c59d88c1fed3812ef3"
+          }
+        }
+      ],
+      [
+        {
+          "type": "single",
+          "title": "▄Tornado IDS",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/tornado_ids_it.png",
+          "br": "11.3",
+          "rp": 230000,
+          "sp": 630000,
+          "data_unit_id": "tornado_ids_it",
+          "required_unit_id": "f-84f_italy",
+          "selected": false,
+          "class_name": "",
+          "details": true,
+          "rank": "VII",
+          "research_country": "Italy",
+          "main_role": "Strike aircraft",
+          "is_component": false,
+          "component_of": null,
+          "is_premium": false,
+          "is_squadron": false,
+          "wiki": {
+            "url": "https://wiki.warthunder.com/unit/tornado_ids_it",
+            "rank": "VII",
+            "battle_rating_context": "air",
+            "battle_ratings": {
+              "AB": "11.0",
+              "RB": "11.3",
+              "SB": "11.3"
+            },
+            "battle_ratings_by_battle": {
+              "air": {
+                "AB": "11.0",
+                "RB": "11.3",
+                "SB": "11.3"
+              },
+              "tank": {
+                "AB": "—",
+                "RB": "9.7",
+                "SB": "9.7"
+              },
+              "ship": {
+                "AB": "11.0",
+                "RB": "11.3",
+                "SB": "—"
+              }
+            },
+            "research": "230,000",
+            "purchase": "630,000",
+            "purchase_currency": "SL",
+            "status": null,
+            "fetched_at": "2026-09-19T06:31:32.184Z",
+            "sha256": "2454205bfbf0d9a148a181f4b80930151f214e8f6b85a283d9fa58e18117572d"
+          }
+        },
+        {
+          "type": "multiple",
+          "title": "Tornado IDS",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/tornado_ids_it_group.png",
+          "selected": false,
+          "br": "11.3-11.7",
+          "data_unit_id": "tornado_ids_it_group",
+          "required_unit_id": "tornado_ids_it",
+          "class_name": "",
+          "items": [
+            {
+              "type": "single",
+              "title": "▄Tornado IDS (1995)",
+              "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/tornado_ids_it_mod95.png",
+              "br": "11.3",
+              "rp": 260000,
+              "sp": 720000,
+              "data_unit_id": "tornado_ids_it_mod95",
+              "required_unit_id": "",
+              "selected": false,
+              "class_name": "",
+              "details": true,
+              "rank": "VII",
+              "research_country": "Italy",
+              "main_role": "Strike aircraft",
+              "is_component": false,
+              "component_of": null,
+              "is_premium": false,
+              "is_squadron": false,
+              "wiki": {
+                "url": "https://wiki.warthunder.com/unit/tornado_ids_it_mod95",
+                "rank": "VII",
+                "battle_rating_context": "air",
+                "battle_ratings": {
+                  "AB": "11.7",
+                  "RB": "11.3",
+                  "SB": "11.7"
+                },
+                "battle_ratings_by_battle": {
+                  "air": {
+                    "AB": "11.7",
+                    "RB": "11.3",
+                    "SB": "11.7"
+                  },
+                  "tank": {
+                    "AB": "—",
+                    "RB": "11.3",
+                    "SB": "11.3"
+                  },
+                  "ship": {
+                    "AB": "11.7",
+                    "RB": "11.3",
+                    "SB": "—"
+                  }
+                },
+                "research": "260,000",
+                "purchase": "720,000",
+                "purchase_currency": "SL",
+                "status": null,
+                "fetched_at": "2026-09-19T06:31:32.059Z",
+                "sha256": "72a0a95bce0a03a4ea300af0561e842d1fca53fbb4c3996778686a14484ef637"
+              }
+            },
+            {
+              "type": "single",
+              "title": "▄Tornado IDS MLU (RET.8)",
+              "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/tornado_ids_it_ret8.png",
+              "br": "11.7",
+              "rp": 145000,
+              "sp": 780000,
+              "data_unit_id": "tornado_ids_it_ret8",
+              "required_unit_id": "tornado_ids_it_mod95",
+              "selected": false,
+              "class_name": "",
+              "details": true,
+              "rank": "VII",
+              "research_country": "Italy",
+              "main_role": "Strike aircraft",
+              "is_component": false,
+              "component_of": null,
+              "is_premium": false,
+              "is_squadron": false,
+              "wiki": {
+                "url": "https://wiki.warthunder.com/unit/tornado_ids_it_ret8",
+                "rank": "VII",
+                "battle_rating_context": "default",
+                "battle_ratings": {
+                  "AB": "11.7",
+                  "RB": "11.7",
+                  "SB": "11.7"
+                },
+                "battle_ratings_by_battle": {
+                  "default": {
+                    "AB": "11.7",
+                    "RB": "11.7",
+                    "SB": "11.7"
+                  }
+                },
+                "research": "145,000",
+                "purchase": "780,000",
+                "purchase_currency": "SL",
+                "status": null,
+                "fetched_at": "2026-09-19T06:31:32.406Z",
+                "sha256": "ad219e78d416679867310777fcb1698745f18d6f11310e2c212a20782e3135a2"
+              }
+            }
+          ],
+          "details": true,
+          "rp": 405000,
+          "sp": 1500000
+        }
+      ],
+      [
+        {
+          "type": "single",
+          "title": "◔Su-22M3",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/su_22m3_hungary.png",
+          "br": "11.0",
+          "rp": 210000,
+          "sp": 580000,
+          "data_unit_id": "su_22m3_hungary",
+          "required_unit_id": "il_28_hungary",
+          "selected": false,
+          "class_name": "",
+          "details": true,
+          "rank": "VII",
+          "research_country": "Italy",
+          "main_role": "Strike aircraft",
+          "is_component": false,
+          "component_of": null,
+          "is_premium": false,
+          "is_squadron": false,
+          "wiki": {
+            "url": "https://wiki.warthunder.com/unit/su_22m3_hungary",
+            "rank": "VII",
+            "battle_rating_context": "air",
+            "battle_ratings": {
+              "AB": "11.3",
+              "RB": "11.0",
+              "SB": "11.0"
+            },
+            "battle_ratings_by_battle": {
+              "air": {
+                "AB": "11.3",
+                "RB": "11.0",
+                "SB": "11.0"
+              },
+              "tank": {
+                "AB": "—",
+                "RB": "9.7",
+                "SB": "9.7"
+              },
+              "ship": {
+                "AB": "11.3",
+                "RB": "11.0",
+                "SB": "—"
+              }
+            },
+            "research": "210,000",
+            "purchase": "580,000",
+            "purchase_currency": "SL",
+            "status": null,
+            "fetched_at": "2026-09-19T06:31:31.936Z",
+            "sha256": "ab8227b7cda92b611ab0e6742c5e16f64c413618cb6a7331b10595fca2d44090"
+          }
+        }
+      ],
+      [
+        {
+          "type": "multiple",
+          "title": "◔MiG-21",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/mig-21_group.png",
+          "selected": false,
+          "br": "10.3-11.0",
+          "data_unit_id": "mig-21_hungary_group",
+          "required_unit_id": "mig-17pf_hungary",
+          "class_name": "",
+          "items": [
+            {
+              "type": "single",
+              "title": "◔MiG-21MF",
+              "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/mig-21_mf_hungary.png",
+              "br": "10.3",
+              "rp": 210000,
+              "sp": 580000,
+              "data_unit_id": "mig-21_mf_hungary",
+              "required_unit_id": "",
+              "selected": false,
+              "class_name": "",
+              "details": true,
+              "rank": "VII",
+              "research_country": "Italy",
+              "main_role": "Fighter",
+              "is_component": false,
+              "component_of": null,
+              "is_premium": false,
+              "is_squadron": false,
+              "wiki": {
+                "url": "https://wiki.warthunder.com/unit/mig-21_mf_hungary",
+                "rank": "VII",
+                "battle_rating_context": "air",
+                "battle_ratings": {
+                  "AB": "10.3",
+                  "RB": "10.3",
+                  "SB": "10.7"
+                },
+                "battle_ratings_by_battle": {
+                  "air": {
+                    "AB": "10.3",
+                    "RB": "10.3",
+                    "SB": "10.7"
+                  },
+                  "tank": {
+                    "AB": "—",
+                    "RB": "9.7",
+                    "SB": "9.7"
+                  },
+                  "ship": {
+                    "AB": "10.3",
+                    "RB": "10.3",
+                    "SB": "—"
+                  }
+                },
+                "research": "210,000",
+                "purchase": "580,000",
+                "purchase_currency": "SL",
+                "status": null,
+                "fetched_at": "2026-09-19T06:31:28.447Z",
+                "sha256": "3e8540bef512bcd8a335cef671658fb61b32736f9b042e16e77bbc81f0e322a8"
+              }
+            },
+            {
+              "type": "single",
+              "title": "◔MiG-21bis-SAU",
+              "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/mig-21_bis_sau_hungary.png",
+              "br": "11.0",
+              "rp": 115000,
+              "sp": 630000,
+              "data_unit_id": "mig-21_bis_sau_hungary",
+              "required_unit_id": "mig-21_mf_hungary",
+              "selected": false,
+              "class_name": "",
+              "details": true,
+              "rank": "VII",
+              "research_country": "Italy",
+              "main_role": "Fighter",
+              "is_component": false,
+              "component_of": null,
+              "is_premium": false,
+              "is_squadron": false,
+              "wiki": {
+                "url": "https://wiki.warthunder.com/unit/mig-21_bis_sau_hungary",
+                "rank": "VII",
+                "battle_rating_context": "air",
+                "battle_ratings": {
+                  "AB": "11.0",
+                  "RB": "11.0",
+                  "SB": "11.0"
+                },
+                "battle_ratings_by_battle": {
+                  "air": {
+                    "AB": "11.0",
+                    "RB": "11.0",
+                    "SB": "11.0"
+                  },
+                  "tank": {
+                    "AB": "—",
+                    "RB": "10.3",
+                    "SB": "10.3"
+                  },
+                  "ship": {
+                    "AB": "11.0",
+                    "RB": "11.0",
+                    "SB": "—"
+                  }
+                },
+                "research": "115,000",
+                "purchase": "630,000",
+                "purchase_currency": "SL",
+                "status": null,
+                "fetched_at": "2026-09-19T06:31:28.318Z",
+                "sha256": "f14e66aef842a901d8792354da1b0eb332826f2ea3e2f45c3289af91ed379942"
+              }
+            }
+          ],
+          "details": true,
+          "rp": 325000,
+          "sp": 1210000
+        },
+        {
+          "type": "single",
+          "title": "◔MiG-23MF",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/mig_23mf_hungary.png",
+          "br": "11.0",
+          "rp": 230000,
+          "sp": 630000,
+          "data_unit_id": "mig_23mf_hungary",
+          "required_unit_id": "mig-21_hungary_group",
+          "selected": false,
+          "class_name": "",
+          "details": true,
+          "rank": "VII",
+          "research_country": "Italy",
+          "main_role": "Fighter",
+          "is_component": false,
+          "component_of": null,
+          "is_premium": false,
+          "is_squadron": false,
+          "wiki": {
+            "url": "https://wiki.warthunder.com/unit/mig_23mf_hungary",
+            "rank": "VII",
+            "battle_rating_context": "air",
+            "battle_ratings": {
+              "AB": "11.3",
+              "RB": "11.0",
+              "SB": "11.0"
+            },
+            "battle_ratings_by_battle": {
+              "air": {
+                "AB": "11.3",
+                "RB": "11.0",
+                "SB": "11.0"
+              },
+              "tank": {
+                "AB": "—",
+                "RB": "10.3",
+                "SB": "10.3"
+              },
+              "ship": {
+                "AB": "11.3",
+                "RB": "11.0",
+                "SB": "—"
+              }
+            },
+            "research": "230,000",
+            "purchase": "630,000",
+            "purchase_currency": "SL",
+            "status": null,
+            "fetched_at": "2026-09-19T06:31:28.488Z",
+            "sha256": "044508b4096336b1f9841d76c0b472dc46cbef72e7d238175dcd5aecdfac5b40"
+          }
+        }
+      ]
+    ],
+    "premium_vehicles": [
+      [
+        {
+          "type": "single",
+          "title": "AMX A-1A",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/amx_a_1a_brazil.png",
+          "br": "11.0",
+          "rp": 0,
+          "sp": 0,
+          "data_unit_id": "amx_a_1a_brazil",
+          "required_unit_id": "",
+          "selected": false,
+          "class_name": "prem",
+          "details": true,
+          "rank": "VII",
+          "research_country": "Italy",
+          "main_role": "Strike aircraft",
+          "is_component": false,
+          "component_of": null,
+          "is_premium": true,
+          "is_squadron": false,
+          "wiki": {
+            "url": "https://wiki.warthunder.com/unit/amx_a_1a_brazil",
+            "rank": "VII",
+            "battle_rating_context": "air",
+            "battle_ratings": {
+              "AB": "11.3",
+              "RB": "11.0",
+              "SB": "11.0"
+            },
+            "battle_ratings_by_battle": {
+              "air": {
+                "AB": "11.3",
+                "RB": "11.0",
+                "SB": "11.0"
+              },
+              "tank": {
+                "AB": "—",
+                "RB": "11.3",
+                "SB": "11.3"
+              },
+              "ship": {
+                "AB": "11.3",
+                "RB": "11.0",
+                "SB": "—"
+              }
+            },
+            "research": null,
+            "purchase": "9,450",
+            "purchase_currency": "GE",
+            "status": "Premium vehicle",
+            "fetched_at": "2026-09-19T06:31:21.825Z",
+            "sha256": "81054bc34c5c6746be7c9cfdcc19c7ad27b3dd54479547f816525688647bd21f"
+          }
+        },
+        {
+          "type": "single",
+          "title": "▄F-104S TAF",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/f-104s_cb.png",
+          "br": "11.3",
+          "rp": 0,
+          "sp": 0,
+          "data_unit_id": "f-104s_cb",
+          "required_unit_id": "",
+          "selected": false,
+          "class_name": "prem",
+          "details": true,
+          "rank": "VII",
+          "research_country": "Italy",
+          "main_role": "Fighter",
+          "is_component": false,
+          "component_of": null,
+          "is_premium": true,
+          "is_squadron": false,
+          "wiki": {
+            "url": "https://wiki.warthunder.com/unit/f-104s_cb",
+            "rank": "VII",
+            "battle_rating_context": "air",
+            "battle_ratings": {
+              "AB": "11.0",
+              "RB": "11.3",
+              "SB": "10.7"
+            },
+            "battle_ratings_by_battle": {
+              "air": {
+                "AB": "11.0",
+                "RB": "11.3",
+                "SB": "10.7"
+              },
+              "tank": {
+                "AB": "—",
+                "RB": "10.0",
+                "SB": "10.0"
+              },
+              "ship": {
+                "AB": "11.0",
+                "RB": "11.3",
+                "SB": "—"
+              }
+            },
+            "research": null,
+            "purchase": "9,270",
+            "purchase_currency": "GE",
+            "status": "Premium vehicle",
+            "fetched_at": "2026-09-19T06:31:23.746Z",
+            "sha256": "b74cff9ff09b786fb171262fb9664fb4e48d8c9849d8c3ccce5c93b832cd342f"
+          }
+        }
+      ],
+      []
+    ],
+    "selected": [],
+    "unlock_quantity": null,
+    "source": "wiki"
+  },
+  {
+    "rank": "VIII",
+    "researchable_vehicles": [
+      [
+        {
+          "type": "single",
+          "title": "▄F-16A ADF",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/f_16a_block_15_adf_italy.png",
+          "br": "13.3",
+          "rp": 320000,
+          "sp": 860000,
+          "data_unit_id": "f_16a_block_15_adf_italy",
+          "required_unit_id": "f-104s_asa",
+          "selected": false,
+          "class_name": "",
+          "details": true,
+          "rank": "VIII",
+          "research_country": "Italy",
+          "main_role": "Fighter",
+          "is_component": false,
+          "component_of": null,
+          "is_premium": false,
+          "is_squadron": false,
+          "wiki": {
+            "url": "https://wiki.warthunder.com/unit/f_16a_block_15_adf_italy",
+            "rank": "VIII",
+            "battle_rating_context": "air",
+            "battle_ratings": {
+              "AB": "13.7",
+              "RB": "13.3",
+              "SB": "13.3"
+            },
+            "battle_ratings_by_battle": {
+              "air": {
+                "AB": "13.7",
+                "RB": "13.3",
+                "SB": "13.3"
+              },
+              "tank": {
+                "AB": "—",
+                "RB": "12.3",
+                "SB": "12.3"
+              },
+              "ship": {
+                "AB": "13.7",
+                "RB": "13.3",
+                "SB": "—"
+              }
+            },
+            "research": "320,000",
+            "purchase": "860,000",
+            "purchase_currency": "SL",
+            "status": null,
+            "fetched_at": "2026-09-19T06:31:24.333Z",
+            "sha256": "865b1f251e73f6a8a85d839fd25d512f04dd08504339faf198de01bd8b644979"
+          }
+        }
+      ],
+      [
+        {
+          "type": "single",
+          "title": "M-346FA",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/m_346fa.png",
+          "br": "13.0",
+          "rp": 290000,
+          "sp": 780000,
+          "data_unit_id": "m_346fa",
+          "required_unit_id": "tornado_adv",
+          "selected": false,
+          "class_name": "",
+          "details": true,
+          "rank": "VIII",
+          "research_country": "Italy",
+          "main_role": "Strike aircraft",
+          "is_component": false,
+          "component_of": null,
+          "is_premium": false,
+          "is_squadron": false,
+          "wiki": {
+            "url": "https://wiki.warthunder.com/unit/m_346fa",
+            "rank": "VIII",
+            "battle_rating_context": "air",
+            "battle_ratings": {
+              "AB": "13.0",
+              "RB": "13.0",
+              "SB": "13.0"
+            },
+            "battle_ratings_by_battle": {
+              "air": {
+                "AB": "13.0",
+                "RB": "13.0",
+                "SB": "13.0"
+              },
+              "tank": {
+                "AB": "—",
+                "RB": "12.3",
+                "SB": "12.3"
+              },
+              "ship": {
+                "AB": "13.0",
+                "RB": "13.0",
+                "SB": "—"
+              }
+            },
+            "research": "290,000",
+            "purchase": "780,000",
+            "purchase_currency": "SL",
+            "status": null,
+            "fetched_at": "2026-09-19T06:31:26.663Z",
+            "sha256": "cc15a90457ed8e9f5b58df3fffedaac4d2f15935b97483156cc13aba3928051e"
+          }
+        }
+      ],
+      [
+        {
+          "type": "single",
+          "title": "▄AV-8B Plus",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/av_8b_plus_italy.png",
+          "br": "13.0",
+          "rp": 320000,
+          "sp": 860000,
+          "data_unit_id": "av_8b_plus_italy",
+          "required_unit_id": "tornado_ids_it_group",
+          "selected": false,
+          "class_name": "",
+          "details": true,
+          "rank": "VIII",
+          "research_country": "Italy",
+          "main_role": "Strike aircraft",
+          "is_component": false,
+          "component_of": null,
+          "is_premium": false,
+          "is_squadron": false,
+          "wiki": {
+            "url": "https://wiki.warthunder.com/unit/av_8b_plus_italy",
+            "rank": "VIII",
+            "battle_rating_context": "air",
+            "battle_ratings": {
+              "AB": "13.3",
+              "RB": "13.0",
+              "SB": "13.0"
+            },
+            "battle_ratings_by_battle": {
+              "air": {
+                "AB": "13.3",
+                "RB": "13.0",
+                "SB": "13.0"
+              },
+              "tank": {
+                "AB": "—",
+                "RB": "12.0",
+                "SB": "12.0"
+              },
+              "ship": {
+                "AB": "13.3",
+                "RB": "13.0",
+                "SB": "—"
+              }
+            },
+            "research": "320,000",
+            "purchase": "860,000",
+            "purchase_currency": "SL",
+            "status": null,
+            "fetched_at": "2026-09-19T06:31:21.876Z",
+            "sha256": "db607fc1d0523b99d7130ff97dfe4bed387f200803567388748752f5fb408f0c"
+          }
+        }
+      ],
+      [],
+      [
+        {
+          "type": "single",
+          "title": "◔MiG-29 (9-12B)",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/mig_29_9_12b_hungary.png",
+          "br": "12.7",
+          "rp": 290000,
+          "sp": 780000,
+          "data_unit_id": "mig_29_9_12b_hungary",
+          "required_unit_id": "mig_23mf_hungary",
+          "selected": false,
+          "class_name": "",
+          "details": true,
+          "rank": "VIII",
+          "research_country": "Italy",
+          "main_role": "Fighter",
+          "is_component": false,
+          "component_of": null,
+          "is_premium": false,
+          "is_squadron": false,
+          "wiki": {
+            "url": "https://wiki.warthunder.com/unit/mig_29_9_12b_hungary",
+            "rank": "VIII",
+            "battle_rating_context": "air",
+            "battle_ratings": {
+              "AB": "12.7",
+              "RB": "12.7",
+              "SB": "12.3"
+            },
+            "battle_ratings_by_battle": {
+              "air": {
+                "AB": "12.7",
+                "RB": "12.7",
+                "SB": "12.3"
+              },
+              "tank": {
+                "AB": "—",
+                "RB": "11.7",
+                "SB": "11.7"
+              },
+              "ship": {
+                "AB": "12.7",
+                "RB": "12.7",
+                "SB": "—"
+              }
+            },
+            "research": "290,000",
+            "purchase": "780,000",
+            "purchase_currency": "SL",
+            "status": null,
+            "fetched_at": "2026-09-19T06:31:28.845Z",
+            "sha256": "c2df647ba074677b169866f14c81f881b6b137c94ccf66b31fe7166853d42818"
+          }
+        },
+        {
+          "type": "single",
+          "title": "◔JAS39EBS HU C",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/saab_jas39c_hungary.png",
+          "br": "13.7",
+          "rp": 350000,
+          "sp": 940000,
+          "data_unit_id": "saab_jas39c_hungary",
+          "required_unit_id": "mig_29_9_12b_hungary",
+          "selected": false,
+          "class_name": "",
+          "details": true,
+          "rank": "VIII",
+          "research_country": "Italy",
+          "main_role": "Fighter",
+          "is_component": false,
+          "component_of": null,
+          "is_premium": false,
+          "is_squadron": false,
+          "wiki": {
+            "url": "https://wiki.warthunder.com/unit/saab_jas39c_hungary",
+            "rank": "VIII",
+            "battle_rating_context": "air",
+            "battle_ratings": {
+              "AB": "13.7",
+              "RB": "13.7",
+              "SB": "13.7"
+            },
+            "battle_ratings_by_battle": {
+              "air": {
+                "AB": "13.7",
+                "RB": "13.7",
+                "SB": "13.7"
+              },
+              "tank": {
+                "AB": "—",
+                "RB": "12.7",
+                "SB": "12.7"
+              },
+              "ship": {
+                "AB": "13.7",
+                "RB": "13.7",
+                "SB": "—"
+              }
+            },
+            "research": "350,000",
+            "purchase": "940,000",
+            "purchase_currency": "SL",
+            "status": null,
+            "fetched_at": "2026-09-19T06:31:30.985Z",
+            "sha256": "7a230fe06231ad276b7cf0a3292473c09bc4be7702079415344a689b265d44c5"
+          }
+        }
+      ]
+    ],
+    "premium_vehicles": [
+      [
+        {
+          "type": "single",
+          "title": "MiG-29 Sniper",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/mig_29_9_12_sniper.png",
+          "br": "12.7",
+          "rp": 0,
+          "sp": 0,
+          "data_unit_id": "mig_29_9_12_sniper",
+          "required_unit_id": "",
+          "selected": false,
+          "class_name": "prem",
+          "details": true,
+          "rank": "VIII",
+          "research_country": "Italy",
+          "main_role": "Fighter",
+          "is_component": false,
+          "component_of": null,
+          "is_premium": true,
+          "is_squadron": false,
+          "wiki": {
+            "url": "https://wiki.warthunder.com/unit/mig_29_9_12_sniper",
+            "rank": "VIII",
+            "battle_rating_context": "air",
+            "battle_ratings": {
+              "AB": "12.7",
+              "RB": "12.7",
+              "SB": "12.3"
+            },
+            "battle_ratings_by_battle": {
+              "air": {
+                "AB": "12.7",
+                "RB": "12.7",
+                "SB": "12.3"
+              },
+              "tank": {
+                "AB": "—",
+                "RB": "11.7",
+                "SB": "11.7"
+              },
+              "ship": {
+                "AB": "12.7",
+                "RB": "12.7",
+                "SB": "—"
+              }
+            },
+            "research": null,
+            "purchase": null,
+            "purchase_currency": null,
+            "status": "Premium vehicle",
+            "fetched_at": "2026-09-19T06:31:28.809Z",
+            "sha256": "ecd7b91d9a1f4576330c68c055c4f7a5ea389db7673a05d46bd501944e5ae56b"
+          }
+        }
+      ],
+      []
+    ],
+    "selected": [],
+    "unlock_quantity": null,
+    "source": "wiki"
+  },
+  {
+    "rank": "IX",
+    "researchable_vehicles": [
+      [
+        {
+          "type": "single",
+          "title": "F-2000A",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/ef_2000a.png",
+          "br": "14.3",
+          "rp": 400000,
+          "sp": 1080000,
+          "data_unit_id": "ef_2000a",
+          "required_unit_id": "f_16a_block_15_adf_italy",
+          "selected": false,
+          "class_name": "",
+          "details": true,
+          "rank": "IX",
+          "research_country": "Italy",
+          "main_role": "Fighter",
+          "is_component": false,
+          "component_of": null,
+          "is_premium": false,
+          "is_squadron": false,
+          "wiki": {
+            "url": "https://wiki.warthunder.com/unit/ef_2000a",
+            "rank": "IX",
+            "battle_rating_context": "air",
+            "battle_ratings": {
+              "AB": "14.3",
+              "RB": "14.3",
+              "SB": "14.3"
+            },
+            "battle_ratings_by_battle": {
+              "air": {
+                "AB": "14.3",
+                "RB": "14.3",
+                "SB": "14.3"
+              },
+              "tank": {
+                "AB": "—",
+                "RB": "13.0",
+                "SB": "13.0"
+              },
+              "ship": {
+                "AB": "14.3",
+                "RB": "14.3",
+                "SB": "—"
+              }
+            },
+            "research": "400,000",
+            "purchase": "1,080,000",
+            "purchase_currency": "SL",
+            "status": null,
+            "fetched_at": "2026-09-19T06:31:23.424Z",
+            "sha256": "352285e8184cbda56639cfc6f5b7c30a1938ca853e9b4a273ca4e5bdf3d190d7"
+          }
+        },
+        {
+          "type": "single",
+          "title": "F-2000A (AESA)",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/ef_2000a_aesa.png",
+          "br": "14.7",
+          "rp": 410000,
+          "sp": 1100000,
+          "data_unit_id": "ef_2000a_aesa",
+          "required_unit_id": "ef_2000a",
+          "selected": false,
+          "class_name": "",
+          "details": true,
+          "rank": "IX",
+          "research_country": "Italy",
+          "main_role": "Fighter",
+          "is_component": false,
+          "component_of": null,
+          "is_premium": false,
+          "is_squadron": false,
+          "wiki": {
+            "url": "https://wiki.warthunder.com/unit/ef_2000a_aesa",
+            "rank": "IX",
+            "battle_rating_context": "air",
+            "battle_ratings": {
+              "AB": "14.7",
+              "RB": "14.7",
+              "SB": "14.7"
+            },
+            "battle_ratings_by_battle": {
+              "air": {
+                "AB": "14.7",
+                "RB": "14.7",
+                "SB": "14.7"
+              },
+              "tank": {
+                "AB": "—",
+                "RB": "13.0",
+                "SB": "13.0"
+              },
+              "ship": {
+                "AB": "14.7",
+                "RB": "14.7",
+                "SB": "—"
+              }
+            },
+            "research": "410,000",
+            "purchase": "1,100,000",
+            "purchase_currency": "SL",
+            "status": null,
+            "fetched_at": "2026-09-19T06:31:23.481Z",
+            "sha256": "ffbce0184d8454d6c62783afbe666e56b9f3bf7a8988dab69985d52177aca30a"
+          }
+        }
+      ],
+      [],
+      [],
+      [],
+      []
+    ],
+    "premium_vehicles": [
+      [],
+      []
+    ],
+    "selected": [],
+    "unlock_quantity": null,
+    "source": "wiki"
+  }
+]

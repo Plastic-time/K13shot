@@ -1,0 +1,73 @@
+name: Build Release Package
+
+on:
+  push:
+    branches:
+      - "release/**"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  package:
+    runs-on: windows-latest
+    steps:
+      - name: Check out source
+        uses: actions/checkout@v4
+
+      - name: Set up Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: 20
+
+      - name: Set up .NET
+        uses: actions/setup-dotnet@v4
+        with:
+          dotnet-version: "6.0.x"
+
+      - name: Install dependencies
+        run: npm ci
+
+      - name: Build packages
+        run: npm run package:release
+
+      - name: Verify release contents
+        shell: pwsh
+        run: |
+          $ErrorActionPreference = "Stop"
+          $version = (Get-Content -Raw package.json | ConvertFrom-Json).version
+          foreach ($suffix in @("-portable", "")) {
+            $zipPath = Join-Path $PWD "WarThunderResearchCalculator-v$version$suffix.zip"
+            $archive = [System.IO.Compression.ZipFile]::OpenRead($zipPath)
+            try {
+              foreach ($file in @("package.json", "package-lock.json", "public/styles.css", "public/app.js", "main.js", "README.md")) {
+                $entry = $archive.Entries | Where-Object { $_.FullName.Replace('\', '/') -eq $file }
+                if (-not $entry) { throw "Missing $file in $zipPath" }
+                $reader = [System.IO.StreamReader]::new($entry.Open())
+                try { $content = $reader.ReadToEnd() } finally { $reader.Dispose() }
+                if ($content -cne (Get-Content -Raw -LiteralPath $file)) { throw "Stale $file in $zipPath" }
+              }
+              if ($suffix -eq "-portable") {
+                foreach ($file in @("node.exe", "WarThunderResearchCalculator.exe")) {
+                  $entry = $archive.GetEntry($file)
+                  if (-not $entry -or $entry.Length -eq 0) { throw "Missing runtime: $file" }
+                }
+              }
+              Write-Host "Verified $zipPath"
+            } finally { $archive.Dispose() }
+          }
+
+      - name: Create GitHub Release
+        shell: pwsh
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          $tag = "v" + (Get-Content -Raw package.json | ConvertFrom-Json).version
+          gh release create $tag `
+            --target $env:GITHUB_SHA `
+            --latest `
+            --title "War Thunder 研发计算器 $tag" `
+            --notes "## 下载与使用`n普通玩家请下载 **WarThunderResearchCalculator-$tag-portable.zip**，解压到新文件夹后双击 WarThunderResearchCalculator.exe，无需安装 Node.js。`n`n## 更新内容`n- 将配件研发界面扩展到 3,225 辆拥有配件表的载具，共 52,430 个配件。`n- 按载具使用真实配件前置、等级门槛、RP 与银狮费用，支持自由选择和自动补足。`n- 数据按 44 个国家/军种块延迟加载，保持桌面、小窗口和手机宽度布局可用。`n- 10 个没有配件表的独立防空发射组件不会显示配件按钮。`n- 保留科技树精确规划、右键操作、中英文切换与滚动优化。`n`n网页版：https://plastic-time.github.io/K13shot/" `
+            "WarThunderResearchCalculator-$tag-portable.zip" `
+            "WarThunderResearchCalculator-$tag.zip"
