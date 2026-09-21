@@ -1,0 +1,2358 @@
+[
+  {
+    "rank": "I",
+    "researchable_vehicles": [
+      [
+        {
+          "type": "single",
+          "title": "M2A4",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/us_m2a4.png",
+          "br": "1.0",
+          "rp": null,
+          "sp": null,
+          "data_unit_id": "us_m2a4",
+          "selected": false,
+          "class_name": "",
+          "details": true,
+          "main_role": "Light tank"
+        },
+        {
+          "type": "single",
+          "title": "M3 Stuart",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/us_m3_stuart.png",
+          "br": "2.0",
+          "rp": "2,900",
+          "sp": "700",
+          "data_unit_id": "us_m3_stuart",
+          "selected": false,
+          "class_name": "",
+          "details": true,
+          "main_role": "Light tank"
+        },
+        {
+          "type": "single",
+          "title": "M3A1 Stuart",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/us_m3a1_stuart.png",
+          "br": "2.3",
+          "rp": "5,900",
+          "sp": "6,300",
+          "data_unit_id": "us_m3a1_stuart",
+          "selected": false,
+          "class_name": "",
+          "details": true,
+          "main_role": "Light tank"
+        }
+      ],
+      [
+        {
+          "type": "single",
+          "title": "M2",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/us_m2_medium.png",
+          "br": "1.3",
+          "rp": "2,900",
+          "sp": "700",
+          "data_unit_id": "us_m2_medium",
+          "selected": false,
+          "class_name": "",
+          "details": true,
+          "main_role": "Medium tank"
+        }
+      ],
+      [
+        {
+          "type": "single",
+          "title": "LVT(A)(1)",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/us_lvt_a_1.png",
+          "br": "1.0",
+          "rp": null,
+          "sp": null,
+          "data_unit_id": "us_lvt_a_1",
+          "selected": false,
+          "class_name": "",
+          "details": true,
+          "main_role": "Light tank"
+        },
+        {
+          "type": "single",
+          "title": "M22",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/us_m22_locust.png",
+          "br": "2.0",
+          "rp": "4,000",
+          "sp": "2,100",
+          "data_unit_id": "us_m22_locust",
+          "selected": false,
+          "class_name": "",
+          "details": true,
+          "main_role": "Light tank"
+        }
+      ],
+      [
+        {
+          "type": "single",
+          "title": "M13 MGMC",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/us_halftrack_m13.png",
+          "br": "1.7",
+          "rp": "2,900",
+          "sp": "700",
+          "data_unit_id": "us_halftrack_m13",
+          "selected": false,
+          "class_name": "",
+          "details": true,
+          "main_role": "SPAA"
+        },
+        {
+          "type": "single",
+          "title": "M15 CGMC",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/us_halftrack_m15.png",
+          "br": "1.7",
+          "rp": "4,000",
+          "sp": "2,100",
+          "data_unit_id": "us_halftrack_m15",
+          "selected": false,
+          "class_name": "",
+          "details": true,
+          "main_role": "SPAA"
+        }
+      ],
+      [
+        {
+          "type": "single",
+          "title": "M2A2",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/us_m2a2.png",
+          "br": "1.0",
+          "rp": "2,900",
+          "sp": "700",
+          "data_unit_id": "us_m2a2",
+          "selected": false,
+          "class_name": "",
+          "details": true,
+          "main_role": "Light tank"
+        },
+        {
+          "type": "single",
+          "title": "M8 HMC",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/us_m8_scott.png",
+          "br": "1.3",
+          "rp": "4,000",
+          "sp": "2,100",
+          "data_unit_id": "us_m8_scott",
+          "selected": false,
+          "class_name": "",
+          "details": true,
+          "main_role": "Tank destroyer"
+        },
+        {
+          "type": "single",
+          "title": "M3 GMC",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/us_halftrack_m3_75mm_gmc.png",
+          "br": "1.7",
+          "rp": "5,900",
+          "sp": "6,300",
+          "data_unit_id": "us_halftrack_m3_75mm_gmc",
+          "selected": false,
+          "class_name": "",
+          "details": true,
+          "main_role": "Tank destroyer"
+        }
+      ]
+    ],
+    "premium_vehicles": [
+      [
+        {
+          "type": "single",
+          "title": "M2A4 (1st Arm.Div.)",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/us_m2a4_1st_armor_div.png",
+          "br": "1.0",
+          "rp": 0,
+          "sp": 0,
+          "data_unit_id": "us_m2a4_1st_armor_div",
+          "selected": false,
+          "class_name": "prem",
+          "details": true,
+          "main_role": "Light tank"
+        },
+        {
+          "type": "single",
+          "title": "LVT(A)(4)",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/us_lvt_a_4.png",
+          "br": "1.3",
+          "rp": 0,
+          "sp": 0,
+          "data_unit_id": "us_lvt_a_4",
+          "selected": false,
+          "class_name": "prem",
+          "details": true,
+          "main_role": "Light tank"
+        },
+        {
+          "type": "single",
+          "title": "M3A1 (USMC)",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/us_m3a1_stuart_usmc.png",
+          "br": "2.3",
+          "rp": 0,
+          "sp": 0,
+          "data_unit_id": "us_m3a1_stuart_usmc",
+          "selected": false,
+          "class_name": "prem",
+          "details": true,
+          "main_role": "Light tank"
+        }
+      ],
+      [
+        {
+          "type": "single",
+          "title": "○LVT(A)(1)",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/us_lvt_a_1_trb.png",
+          "br": "1.0",
+          "rp": null,
+          "sp": null,
+          "data_unit_id": "us_lvt_a_1_trb",
+          "selected": false,
+          "class_name": "",
+          "details": true,
+          "main_role": "Light tank"
+        },
+        {
+          "type": "single",
+          "title": "M8 LAC",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/us_m8_greyhound.png",
+          "br": "1.0",
+          "rp": 0,
+          "sp": 0,
+          "data_unit_id": "us_m8_greyhound",
+          "selected": false,
+          "class_name": "prem",
+          "details": true,
+          "main_role": "Light tank"
+        }
+      ]
+    ],
+    "selected": [],
+    "unlock_quantity": 0
+  },
+  {
+    "rank": "II",
+    "researchable_vehicles": [
+      [
+        {
+          "type": "single",
+          "title": "M5A1",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/us_m5a1_stuart.png",
+          "br": "2.7",
+          "rp": "7,900",
+          "sp": "10,000",
+          "data_unit_id": "us_m5a1_stuart",
+          "selected": false,
+          "class_name": "",
+          "details": true,
+          "main_role": "Light tank"
+        },
+        {
+          "type": "single",
+          "title": "M24",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/us_m24_chaffee.png",
+          "br": "3.7",
+          "rp": "11,000",
+          "sp": "22,000",
+          "data_unit_id": "us_m24_chaffee",
+          "selected": false,
+          "class_name": "",
+          "details": true,
+          "main_role": "Light tank"
+        }
+      ],
+      [
+        {
+          "type": "single",
+          "title": "M3 Lee",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/us_m3_lee.png",
+          "br": "2.7",
+          "rp": "7,900",
+          "sp": "10,000",
+          "data_unit_id": "us_m3_lee",
+          "selected": false,
+          "class_name": "",
+          "details": true,
+          "main_role": "Medium tank"
+        },
+        {
+          "type": "multiple",
+          "title": "M4A1/M4/M4A2",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/us_sherman_group.png",
+          "selected": false,
+          "br": "3.3-4.0",
+          "data_unit_id": "us_sherman_group",
+          "class_name": "",
+          "items": [
+            {
+              "type": "single",
+              "title": "M4A1",
+              "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/us_m4a1_1942_sherman.png",
+              "br": "3.3",
+              "rp": "9,200",
+              "sp": "16,000",
+              "data_unit_id": "us_m4a1_1942_sherman",
+              "selected": false,
+              "class_name": "",
+              "details": true,
+              "main_role": "Medium tank"
+            },
+            {
+              "type": "single",
+              "title": "M4",
+              "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/us_m4_sherman.png",
+              "br": "3.7",
+              "rp": "5,600",
+              "sp": "22,000",
+              "data_unit_id": "us_m4_sherman",
+              "selected": false,
+              "class_name": "",
+              "details": true,
+              "main_role": "Medium tank"
+            },
+            {
+              "type": "single",
+              "title": "M4A2",
+              "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/us_m4a2_sherman.png",
+              "br": "4.0",
+              "rp": "6,900",
+              "sp": "32,000",
+              "data_unit_id": "us_m4a2_sherman",
+              "selected": false,
+              "class_name": "",
+              "details": true,
+              "main_role": "Medium tank"
+            }
+          ],
+          "details": true
+        }
+      ],
+      [],
+      [
+        {
+          "type": "single",
+          "title": "M16 MGMC",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/us_halftrack_m16.png",
+          "br": "2.7",
+          "rp": "7,900",
+          "sp": "10,000",
+          "data_unit_id": "us_halftrack_m16",
+          "selected": false,
+          "class_name": "",
+          "details": true,
+          "main_role": "SPAA"
+        },
+        {
+          "type": "single",
+          "title": "T77E1",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/us_t77e1.png",
+          "br": "4.0",
+          "rp": "11,000",
+          "sp": "22,000",
+          "data_unit_id": "us_t77e1",
+          "selected": false,
+          "class_name": "",
+          "details": true,
+          "main_role": "SPAA"
+        }
+      ],
+      [
+        {
+          "type": "single",
+          "title": "M4A3 (105)",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/us_m4a3_105_sherman.png",
+          "br": "3.0",
+          "rp": "9,200",
+          "sp": "16,000",
+          "data_unit_id": "us_m4a3_105_sherman",
+          "selected": false,
+          "class_name": "",
+          "details": true,
+          "main_role": "Medium tank"
+        },
+        {
+          "type": "single",
+          "title": "M10 GMC",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/us_m10.png",
+          "br": "3.3",
+          "rp": "11,000",
+          "sp": "22,000",
+          "data_unit_id": "us_m10",
+          "selected": false,
+          "class_name": "",
+          "details": true,
+          "main_role": "Tank destroyer"
+        }
+      ]
+    ],
+    "premium_vehicles": [
+      [
+        {
+          "type": "single",
+          "title": "▃Stuart VI (5th CAD)",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/us_m5a1_stuart_canadian_5st_arm.png",
+          "br": "2.7",
+          "rp": 0,
+          "sp": 0,
+          "data_unit_id": "us_m5a1_stuart_canadian_5st_arm",
+          "selected": false,
+          "class_name": "prem",
+          "details": true,
+          "main_role": "Light tank"
+        },
+        {
+          "type": "single",
+          "title": "▃Grant I",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/us_mk1_grant.png",
+          "br": "2.7",
+          "rp": 0,
+          "sp": 0,
+          "data_unit_id": "us_mk1_grant",
+          "selected": false,
+          "class_name": "prem",
+          "details": true,
+          "main_role": "Medium tank"
+        },
+        {
+          "type": "single",
+          "title": "LVT(A)(1) (M24)",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/us_lvt_a1_m24.png",
+          "br": "2.7",
+          "rp": 0,
+          "sp": 0,
+          "data_unit_id": "us_lvt_a1_m24",
+          "selected": false,
+          "class_name": "prem",
+          "details": true,
+          "main_role": "Light tank"
+        },
+        {
+          "type": "single",
+          "title": "M4A5",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/us_m4a5_ram_2.png",
+          "br": "3.7",
+          "rp": 0,
+          "sp": 0,
+          "data_unit_id": "us_m4a5_ram_2",
+          "selected": false,
+          "class_name": "prem",
+          "details": true,
+          "main_role": "Medium tank"
+        },
+        {
+          "type": "single",
+          "title": "M24 (TL)",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/us_m24_chaffee_tl.png",
+          "br": "3.7",
+          "rp": null,
+          "sp": null,
+          "data_unit_id": "us_m24_chaffee_tl",
+          "selected": false,
+          "class_name": "",
+          "details": true,
+          "main_role": "Light tank"
+        },
+        {
+          "type": "single",
+          "title": "M4",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/us_m4_sherman_promo.png",
+          "br": "3.7",
+          "rp": null,
+          "sp": null,
+          "data_unit_id": "us_m4_sherman_promo",
+          "selected": false,
+          "class_name": "",
+          "details": true,
+          "main_role": "Medium tank"
+        }
+      ],
+      [
+        {
+          "type": "single",
+          "title": "▃LVT(A)(4) (ZIS-2)",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/us_lvt_4_zis_2.png",
+          "br": "2.3",
+          "rp": null,
+          "sp": null,
+          "data_unit_id": "us_lvt_4_zis_2",
+          "selected": false,
+          "class_name": "",
+          "details": true,
+          "main_role": "Tank destroyer"
+        },
+        {
+          "type": "single",
+          "title": "M5A1 TD",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/us_m5a1_stuart_td.png",
+          "br": "2.7",
+          "rp": null,
+          "sp": null,
+          "data_unit_id": "us_m5a1_stuart_td",
+          "selected": false,
+          "class_name": "",
+          "details": true,
+          "main_role": "Light tank"
+        },
+        {
+          "type": "single",
+          "title": "M8A1 GMC",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/us_m8a1.png",
+          "br": "2.7",
+          "rp": 0,
+          "sp": 0,
+          "data_unit_id": "us_m8a1",
+          "selected": false,
+          "class_name": "prem",
+          "details": true,
+          "main_role": "Light tank"
+        },
+        {
+          "type": "single",
+          "title": "T18E2",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/us_t18_e2.png",
+          "br": "3.0",
+          "rp": 0,
+          "sp": 0,
+          "data_unit_id": "us_t18_e2",
+          "selected": false,
+          "class_name": "prem",
+          "details": true,
+          "main_role": "Light tank"
+        }
+      ]
+    ],
+    "selected": [],
+    "unlock_quantity": 0
+  },
+  {
+    "rank": "III",
+    "researchable_vehicles": [
+      [
+        {
+          "type": "single",
+          "title": "M18 GMC",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/us_m18_hellcat.png",
+          "br": "6.0",
+          "rp": "40,000",
+          "sp": "135,000",
+          "data_unit_id": "us_m18_hellcat",
+          "selected": false,
+          "class_name": "",
+          "details": true,
+          "main_role": "Light tank"
+        }
+      ],
+      [
+        {
+          "type": "single",
+          "title": "M4A1 (76) W",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/us_m4a1_76w_sherman.png",
+          "br": "5.0",
+          "rp": "18,000",
+          "sp": "47,000",
+          "data_unit_id": "us_m4a1_76w_sherman",
+          "selected": false,
+          "class_name": "",
+          "details": true,
+          "main_role": "Medium tank"
+        },
+        {
+          "type": "multiple",
+          "title": "M4 76(W) A2/A3",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/us_sherman_76w_group.png",
+          "selected": false,
+          "br": "5.3-5.7",
+          "data_unit_id": "us_sherman_76w_group",
+          "class_name": "",
+          "items": [
+            {
+              "type": "single",
+              "title": "M4A2 (76) W",
+              "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/us_m4a2_76w_sherman.png",
+              "br": "5.3",
+              "rp": "33,000",
+              "sp": "105,000",
+              "data_unit_id": "us_m4a2_76w_sherman",
+              "selected": false,
+              "class_name": "",
+              "details": true,
+              "main_role": "Medium tank"
+            },
+            {
+              "type": "single",
+              "title": "M4A3 (76) W",
+              "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/us_m4a3e8_76w_sherman.png",
+              "br": "5.7",
+              "rp": "20,000",
+              "sp": "135,000",
+              "data_unit_id": "us_m4a3e8_76w_sherman",
+              "selected": false,
+              "class_name": "",
+              "details": true,
+              "main_role": "Medium tank"
+            }
+          ],
+          "details": true
+        }
+      ],
+      [
+        {
+          "type": "multiple",
+          "title": "M6A1/T1E1",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/us_m6_group.png",
+          "selected": false,
+          "br": "5.0-5.3",
+          "data_unit_id": "us_m6_group",
+          "class_name": "",
+          "items": [
+            {
+              "type": "single",
+              "title": "M6A1",
+              "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/us_m6a1.png",
+              "br": "5.0",
+              "rp": "26,000",
+              "sp": "76,000",
+              "data_unit_id": "us_m6a1",
+              "selected": false,
+              "class_name": "",
+              "details": true,
+              "main_role": "Heavy tank"
+            },
+            {
+              "type": "single",
+              "title": "T1E1",
+              "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/us_t1e1.png",
+              "br": "5.3",
+              "rp": "17,000",
+              "sp": "105,000",
+              "data_unit_id": "us_t1e1",
+              "selected": false,
+              "class_name": "",
+              "details": true,
+              "main_role": "Heavy tank"
+            }
+          ],
+          "details": true
+        },
+        {
+          "type": "single",
+          "title": "M4A3E2",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/us_m4a3e2_sherman_jumbo.png",
+          "br": "5.7",
+          "rp": "33,000",
+          "sp": "105,000",
+          "data_unit_id": "us_m4a3e2_sherman_jumbo",
+          "selected": false,
+          "class_name": "",
+          "details": true,
+          "main_role": "Heavy tank"
+        },
+        {
+          "type": "single",
+          "title": "T1E1 (90)",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/us_t1e1_90.png",
+          "br": "5.7",
+          "rp": "40,000",
+          "sp": "135,000",
+          "data_unit_id": "us_t1e1_90",
+          "selected": false,
+          "class_name": "",
+          "details": true,
+          "main_role": "Heavy tank"
+        }
+      ],
+      [
+        {
+          "type": "multiple",
+          "title": "M19/M42",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/us_m19_m42_group.png",
+          "selected": false,
+          "br": "4.0",
+          "data_unit_id": "us_m19_m42_group",
+          "class_name": "",
+          "items": [
+            {
+              "type": "single",
+              "title": "M19A1",
+              "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/us_m19.png",
+              "br": "4.0",
+              "rp": "18,000",
+              "sp": "47,000",
+              "data_unit_id": "us_m19",
+              "selected": false,
+              "class_name": "",
+              "details": true,
+              "main_role": "SPAA"
+            },
+            {
+              "type": "single",
+              "title": "M42",
+              "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/us_m42_duster.png",
+              "br": "4.0",
+              "rp": "13,000",
+              "sp": "76,000",
+              "data_unit_id": "us_m42_duster",
+              "selected": false,
+              "class_name": "",
+              "details": true,
+              "main_role": "SPAA"
+            }
+          ],
+          "details": true
+        }
+      ],
+      [
+        {
+          "type": "multiple",
+          "title": "M44/55",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/us_m44_55_group.png",
+          "selected": false,
+          "br": "4.0",
+          "data_unit_id": "us_m44_55_group",
+          "class_name": "",
+          "items": [
+            {
+              "type": "single",
+              "title": "M44",
+              "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/us_m44.png",
+              "br": "4.0",
+              "rp": "18,000",
+              "sp": "47,000",
+              "data_unit_id": "us_m44",
+              "selected": false,
+              "class_name": "",
+              "details": true,
+              "main_role": "Tank destroyer"
+            },
+            {
+              "type": "single",
+              "title": "M55",
+              "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/us_m55.png",
+              "br": "4.0",
+              "rp": "13,000",
+              "sp": "76,000",
+              "data_unit_id": "us_m55",
+              "selected": false,
+              "class_name": "",
+              "details": true,
+              "main_role": "Tank destroyer"
+            }
+          ],
+          "details": true
+        },
+        {
+          "type": "multiple",
+          "title": "M36/M36B2",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/us_m36_group.png",
+          "selected": false,
+          "br": "5.3-5.7",
+          "data_unit_id": "us_m36_group",
+          "class_name": "",
+          "items": [
+            {
+              "type": "single",
+              "title": "M36 GMC",
+              "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/us_m36.png",
+              "br": "5.3",
+              "rp": "33,000",
+              "sp": "105,000",
+              "data_unit_id": "us_m36",
+              "selected": false,
+              "class_name": "",
+              "details": true,
+              "main_role": "Tank destroyer"
+            },
+            {
+              "type": "single",
+              "title": "M36B2",
+              "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/us_m36b2.png",
+              "br": "5.7",
+              "rp": "20,000",
+              "sp": "135,000",
+              "data_unit_id": "us_m36b2",
+              "selected": false,
+              "class_name": "",
+              "details": true,
+              "main_role": "Tank destroyer"
+            }
+          ],
+          "details": true
+        }
+      ]
+    ],
+    "premium_vehicles": [
+      [
+        {
+          "type": "single",
+          "title": "T14",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/us_t14.png",
+          "br": "4.7",
+          "rp": 0,
+          "sp": 0,
+          "data_unit_id": "us_t14",
+          "selected": false,
+          "class_name": "prem",
+          "details": true,
+          "main_role": "Heavy tank"
+        },
+        {
+          "type": "single",
+          "title": "Cobra King",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/us_m4a3e2_sherman_jumbo_cobra_king.png",
+          "br": "5.7",
+          "rp": 0,
+          "sp": 0,
+          "data_unit_id": "us_m4a3e2_sherman_jumbo_cobra_king",
+          "selected": false,
+          "class_name": "prem",
+          "details": true,
+          "main_role": "Heavy tank"
+        },
+        {
+          "type": "multiple",
+          "title": "Hell on Wheels",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/us_kit_3rank_group.png",
+          "selected": false,
+          "br": "5.3-6.0",
+          "data_unit_id": "us_kit_3rank_group",
+          "class_name": "prem",
+          "items": [
+            {
+              "type": "single",
+              "title": "Sherman (Hell)",
+              "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/us_m4a3e8_76w_sherman_kit_3rank.png",
+              "br": "5.7",
+              "rp": 0,
+              "sp": 0,
+              "data_unit_id": "us_m4a3e8_76w_sherman_kit_3rank",
+              "selected": false,
+              "class_name": "prem",
+              "details": true,
+              "main_role": "Medium tank"
+            },
+            {
+              "type": "single",
+              "title": "Hellcat (Hell)",
+              "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/us_m18_hellcat_kit_3rank.png",
+              "br": "6.0",
+              "rp": 0,
+              "sp": 0,
+              "data_unit_id": "us_m18_hellcat_kit_3rank",
+              "selected": false,
+              "class_name": "prem",
+              "details": true,
+              "main_role": "Light tank"
+            },
+            {
+              "type": "single",
+              "title": "▃Skink (Hell)",
+              "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/us_skink_aa_kit_3rank.png",
+              "br": "5.3",
+              "rp": 0,
+              "sp": 0,
+              "data_unit_id": "us_skink_aa_kit_3rank",
+              "selected": false,
+              "class_name": "prem",
+              "details": true,
+              "main_role": "SPAA"
+            }
+          ],
+          "details": true
+        }
+      ],
+      [
+        {
+          "type": "single",
+          "title": "Calliope",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/us_m4_sherman_calliope.png",
+          "br": "4.0",
+          "rp": 0,
+          "sp": 0,
+          "data_unit_id": "us_m4_sherman_calliope",
+          "selected": false,
+          "class_name": "prem",
+          "details": true,
+          "main_role": "Medium tank"
+        },
+        {
+          "type": "single",
+          "title": "T55E1",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/us_t55e1.png",
+          "br": "4.3",
+          "rp": 0,
+          "sp": 0,
+          "data_unit_id": "us_t55e1",
+          "selected": false,
+          "class_name": "prem",
+          "details": true,
+          "main_role": "Tank destroyer"
+        },
+        {
+          "type": "single",
+          "title": "T86",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/us_t86.png",
+          "br": "6.0",
+          "rp": 0,
+          "sp": 0,
+          "data_unit_id": "us_t86",
+          "selected": false,
+          "class_name": "prem",
+          "details": true,
+          "main_role": "Light tank"
+        },
+        {
+          "type": "single",
+          "title": "M18 \"Black Cat\"",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/us_m18_hellcat_black_cat.png",
+          "br": "6.0",
+          "rp": 0,
+          "sp": 0,
+          "data_unit_id": "us_m18_hellcat_black_cat",
+          "selected": false,
+          "class_name": "prem",
+          "details": true,
+          "main_role": "Light tank"
+        }
+      ]
+    ],
+    "selected": [],
+    "unlock_quantity": 0
+  },
+  {
+    "rank": "IV",
+    "researchable_vehicles": [
+      [
+        {
+          "type": "single",
+          "title": "M41A1",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/us_m41_walker_bulldog.png",
+          "br": "6.3",
+          "rp": "46,000",
+          "sp": "155,000",
+          "data_unit_id": "us_m41_walker_bulldog",
+          "selected": false,
+          "class_name": "",
+          "details": true,
+          "main_role": "Light tank"
+        },
+        {
+          "type": "single",
+          "title": "T92",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/us_t92.png",
+          "br": "7.0",
+          "rp": "71,000",
+          "sp": "210,000",
+          "data_unit_id": "us_t92",
+          "selected": false,
+          "class_name": "",
+          "details": true,
+          "main_role": "Light tank"
+        }
+      ],
+      [
+        {
+          "type": "multiple",
+          "title": "M4 T26/T25",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/us_t26_t25_group.png",
+          "selected": false,
+          "br": "6.0-6.3",
+          "data_unit_id": "us_t26_t25_group",
+          "class_name": "",
+          "items": [
+            {
+              "type": "single",
+              "title": "M4/T26",
+              "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/us_m4_t26.png",
+              "br": "6.0",
+              "rp": "46,000",
+              "sp": "155,000",
+              "data_unit_id": "us_m4_t26",
+              "selected": false,
+              "class_name": "",
+              "details": true,
+              "main_role": "Medium tank"
+            },
+            {
+              "type": "single",
+              "title": "T25",
+              "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/us_t25.png",
+              "br": "6.3",
+              "rp": "27,000",
+              "sp": "185,000",
+              "data_unit_id": "us_t25",
+              "selected": false,
+              "class_name": "",
+              "details": true,
+              "main_role": "Medium tank"
+            }
+          ],
+          "details": true
+        },
+        {
+          "type": "single",
+          "title": "M26",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/us_m26_pershing.png",
+          "br": "6.7",
+          "rp": "63,000",
+          "sp": "200,000",
+          "data_unit_id": "us_m26_pershing",
+          "selected": false,
+          "class_name": "",
+          "details": true,
+          "main_role": "Medium tank"
+        },
+        {
+          "type": "single",
+          "title": "M46",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/us_m46_patton.png",
+          "br": "7.0",
+          "rp": "71,000",
+          "sp": "210,000",
+          "data_unit_id": "us_m46_patton",
+          "selected": false,
+          "class_name": "",
+          "details": true,
+          "main_role": "Medium tank"
+        }
+      ],
+      [
+        {
+          "type": "single",
+          "title": "M4A3E2 (76) W",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/us_m4a3e2_76w_sherman_jumbo.png",
+          "br": "6.3",
+          "rp": "46,000",
+          "sp": "155,000",
+          "data_unit_id": "us_m4a3e2_76w_sherman_jumbo",
+          "selected": false,
+          "class_name": "",
+          "details": true,
+          "main_role": "Heavy tank"
+        },
+        {
+          "type": "multiple",
+          "title": "T26 E5/E1-1",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/us_t26_group.png",
+          "selected": false,
+          "br": "6.7",
+          "data_unit_id": "us_t26_group",
+          "class_name": "",
+          "items": [
+            {
+              "type": "single",
+              "title": "T26E5",
+              "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/us_t26e5.png",
+              "br": "6.7",
+              "rp": "54,000",
+              "sp": "185,000",
+              "data_unit_id": "us_t26e5",
+              "selected": false,
+              "class_name": "",
+              "details": true,
+              "main_role": "Heavy tank"
+            },
+            {
+              "type": "single",
+              "title": "T26E1-1",
+              "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/us_t26e4_superpershing.png",
+              "br": "6.7",
+              "rp": "31,000",
+              "sp": "200,000",
+              "data_unit_id": "us_t26e4_superpershing",
+              "selected": false,
+              "class_name": "",
+              "details": true,
+              "main_role": "Heavy tank"
+            }
+          ],
+          "details": true
+        },
+        {
+          "type": "single",
+          "title": "T34",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/us_t34.png",
+          "br": "6.7",
+          "rp": "71,000",
+          "sp": "210,000",
+          "data_unit_id": "us_t34",
+          "selected": false,
+          "class_name": "",
+          "details": true,
+          "main_role": "Heavy tank"
+        }
+      ],
+      [
+        {
+          "type": "single",
+          "title": "▃Skink",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/us_skink_aa.png",
+          "br": "5.3",
+          "rp": "46,000",
+          "sp": "155,000",
+          "data_unit_id": "us_skink_aa",
+          "selected": false,
+          "class_name": "",
+          "details": true,
+          "main_role": "SPAA"
+        }
+      ],
+      [
+        {
+          "type": "single",
+          "title": "M109A1",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/us_m109a1.png",
+          "br": "6.3",
+          "rp": "46,000",
+          "sp": "155,000",
+          "data_unit_id": "us_m109a1",
+          "selected": false,
+          "class_name": "",
+          "details": true,
+          "main_role": "Tank destroyer"
+        },
+        {
+          "type": "multiple",
+          "title": "M56/M50",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/us_m56_m50_group.png",
+          "selected": false,
+          "br": "6.7",
+          "data_unit_id": "us_m56_m50_group",
+          "class_name": "",
+          "items": [
+            {
+              "type": "single",
+              "title": "M56",
+              "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/us_m56_scorpion.png",
+              "br": "6.7",
+              "rp": "54,000",
+              "sp": "185,000",
+              "data_unit_id": "us_m56_scorpion",
+              "selected": false,
+              "class_name": "",
+              "details": true,
+              "main_role": "Tank destroyer"
+            },
+            {
+              "type": "single",
+              "title": "M50",
+              "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/us_m50_ontos.png",
+              "br": "6.7",
+              "rp": "31,000",
+              "sp": "200,000",
+              "data_unit_id": "us_m50_ontos",
+              "selected": false,
+              "class_name": "",
+              "details": true,
+              "main_role": "Tank destroyer"
+            }
+          ],
+          "details": true
+        }
+      ]
+    ],
+    "premium_vehicles": [
+      [
+        {
+          "type": "single",
+          "title": "Super Hellcat",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/us_m18_super_hellcat.png",
+          "br": "6.3",
+          "rp": 0,
+          "sp": 0,
+          "data_unit_id": "us_m18_super_hellcat",
+          "selected": false,
+          "class_name": "prem",
+          "details": true,
+          "main_role": "Light tank"
+        },
+        {
+          "type": "single",
+          "title": "T20",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/us_t20.png",
+          "br": "6.3",
+          "rp": 0,
+          "sp": 0,
+          "data_unit_id": "us_t20",
+          "selected": false,
+          "class_name": "prem",
+          "details": true,
+          "main_role": "Medium tank"
+        },
+        {
+          "type": "single",
+          "title": "M26 T99",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/us_m26_t99.png",
+          "br": "6.7",
+          "rp": 0,
+          "sp": 0,
+          "data_unit_id": "us_m26_t99",
+          "selected": false,
+          "class_name": "prem",
+          "details": true,
+          "main_role": "Medium tank"
+        },
+        {
+          "type": "single",
+          "title": "M26E1",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/us_m26e1_pershing.png",
+          "br": "6.7",
+          "rp": 0,
+          "sp": 0,
+          "data_unit_id": "us_m26e1_pershing",
+          "selected": false,
+          "class_name": "prem",
+          "details": true,
+          "main_role": "Medium tank"
+        },
+        {
+          "type": "single",
+          "title": "M46 \"Tiger\"",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/us_m46_patton_73_armor_bat.png",
+          "br": "7.0",
+          "rp": 0,
+          "sp": 0,
+          "data_unit_id": "us_m46_patton_73_armor_bat",
+          "selected": false,
+          "class_name": "prem",
+          "details": true,
+          "main_role": "Medium tank"
+        }
+      ],
+      [
+        {
+          "type": "single",
+          "title": "T28",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/us_t28.png",
+          "br": "6.3",
+          "rp": 0,
+          "sp": 0,
+          "data_unit_id": "us_t28",
+          "selected": false,
+          "class_name": "prem",
+          "details": true,
+          "main_role": "Tank destroyer"
+        },
+        {
+          "type": "single",
+          "title": "M551(76)",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/us_m551_76.png",
+          "br": "7.0",
+          "rp": 0,
+          "sp": 0,
+          "data_unit_id": "us_m551_76",
+          "selected": false,
+          "class_name": "prem",
+          "details": true,
+          "main_role": "Light tank"
+        },
+        {
+          "type": "single",
+          "title": "T30",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/us_t30.png",
+          "br": "6.7",
+          "rp": 0,
+          "sp": 0,
+          "data_unit_id": "us_t30",
+          "selected": false,
+          "class_name": "prem",
+          "details": true,
+          "main_role": "Heavy tank"
+        },
+        {
+          "type": "single",
+          "title": "M6A2E1",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/us_m6a2e1.png",
+          "br": "6.7",
+          "rp": 0,
+          "sp": 0,
+          "data_unit_id": "us_m6a2e1",
+          "selected": false,
+          "class_name": "prem",
+          "details": true,
+          "main_role": "Heavy tank"
+        },
+        {
+          "type": "single",
+          "title": "T29",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/us_t29.png",
+          "br": "7.0",
+          "rp": 0,
+          "sp": 0,
+          "data_unit_id": "us_t29",
+          "selected": false,
+          "class_name": "prem",
+          "details": true,
+          "main_role": "Heavy tank"
+        }
+      ]
+    ],
+    "selected": [],
+    "unlock_quantity": 0
+  },
+  {
+    "rank": "V",
+    "researchable_vehicles": [
+      [
+        {
+          "type": "single",
+          "title": "M551",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/us_m551.png",
+          "br": "8.0",
+          "rp": "120,000",
+          "sp": "340,000",
+          "data_unit_id": "us_m551",
+          "selected": false,
+          "class_name": "",
+          "details": true,
+          "main_role": "Light tank"
+        }
+      ],
+      [
+        {
+          "type": "multiple",
+          "title": "M47/M48",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/us_m47_48_group.png",
+          "selected": false,
+          "br": "7.3-7.7",
+          "data_unit_id": "us_m47_48_group",
+          "class_name": "",
+          "items": [
+            {
+              "type": "single",
+              "title": "M47",
+              "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/us_m47_patton_ii.png",
+              "br": "7.3",
+              "rp": "82,000",
+              "sp": "240,000",
+              "data_unit_id": "us_m47_patton_ii",
+              "selected": false,
+              "class_name": "",
+              "details": true,
+              "main_role": "Medium tank"
+            },
+            {
+              "type": "single",
+              "title": "M48A1",
+              "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/us_m48a1_patton_iii.png",
+              "br": "7.7",
+              "rp": "48,000",
+              "sp": "270,000",
+              "data_unit_id": "us_m48a1_patton_iii",
+              "selected": false,
+              "class_name": "",
+              "details": true,
+              "main_role": "Medium tank"
+            }
+          ],
+          "details": true
+        },
+        {
+          "type": "single",
+          "title": "M60",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/us_m60.png",
+          "br": "8.0",
+          "rp": "120,000",
+          "sp": "340,000",
+          "data_unit_id": "us_m60",
+          "selected": false,
+          "class_name": "",
+          "details": true,
+          "main_role": "Medium tank"
+        }
+      ],
+      [
+        {
+          "type": "multiple",
+          "title": "T32/T32E1",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/us_t32_group.png",
+          "selected": false,
+          "br": "7.3-7.7",
+          "data_unit_id": "us_t32_group",
+          "class_name": "",
+          "items": [
+            {
+              "type": "single",
+              "title": "T32",
+              "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/us_t32.png",
+              "br": "7.3",
+              "rp": "82,000",
+              "sp": "240,000",
+              "data_unit_id": "us_t32",
+              "selected": false,
+              "class_name": "",
+              "details": true,
+              "main_role": "Heavy tank"
+            },
+            {
+              "type": "single",
+              "title": "T32E1",
+              "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/us_t32e1.png",
+              "br": "7.7",
+              "rp": "48,000",
+              "sp": "270,000",
+              "data_unit_id": "us_t32e1",
+              "selected": false,
+              "class_name": "",
+              "details": true,
+              "main_role": "Heavy tank"
+            }
+          ],
+          "details": true
+        },
+        {
+          "type": "single",
+          "title": "M103",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/us_m103.png",
+          "br": "7.7",
+          "rp": "105,000",
+          "sp": "300,000",
+          "data_unit_id": "us_m103",
+          "selected": false,
+          "class_name": "",
+          "details": true,
+          "main_role": "Heavy tank"
+        }
+      ],
+      [
+        {
+          "type": "single",
+          "title": "M163",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/us_m163_vulcan.png",
+          "br": "7.3",
+          "rp": "95,000",
+          "sp": "270,000",
+          "data_unit_id": "us_m163_vulcan",
+          "selected": false,
+          "class_name": "",
+          "details": true,
+          "main_role": "SPAA"
+        }
+      ],
+      [
+        {
+          "type": "single",
+          "title": "T95",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/us_t95.png",
+          "br": "7.0",
+          "rp": "82,000",
+          "sp": "240,000",
+          "data_unit_id": "us_t95",
+          "selected": false,
+          "class_name": "",
+          "details": true,
+          "main_role": "Tank destroyer"
+        }
+      ]
+    ],
+    "premium_vehicles": [
+      [
+        {
+          "type": "single",
+          "title": "M728 CEV",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/us_m728.png",
+          "br": "7.0",
+          "rp": 0,
+          "sp": 0,
+          "data_unit_id": "us_m728",
+          "selected": false,
+          "class_name": "prem",
+          "details": true,
+          "main_role": "Medium tank"
+        },
+        {
+          "type": "single",
+          "title": "T54E2",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/us_t54e2.png",
+          "br": "7.7",
+          "rp": 0,
+          "sp": 0,
+          "data_unit_id": "us_t54e2",
+          "selected": false,
+          "class_name": "prem",
+          "details": true,
+          "main_role": "Medium tank"
+        },
+        {
+          "type": "single",
+          "title": "T54E1",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/us_t54e1.png",
+          "br": "8.0",
+          "rp": 0,
+          "sp": 0,
+          "data_unit_id": "us_t54e1",
+          "selected": false,
+          "class_name": "prem",
+          "details": true,
+          "main_role": "Medium tank"
+        },
+        {
+          "type": "single",
+          "title": "T58",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/us_t58.png",
+          "br": "8.7",
+          "rp": 0,
+          "sp": 0,
+          "data_unit_id": "us_t58",
+          "selected": false,
+          "class_name": "prem",
+          "details": true,
+          "main_role": "Heavy tank"
+        }
+      ],
+      [
+        {
+          "type": "single",
+          "title": "T114",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/us_t114.png",
+          "br": "7.7",
+          "rp": 0,
+          "sp": 0,
+          "data_unit_id": "us_t114",
+          "selected": false,
+          "class_name": "prem",
+          "details": true,
+          "main_role": "Light tank"
+        },
+        {
+          "type": "single",
+          "title": "▃Magach 3 (ERA)",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/us_magach_3.png",
+          "br": "8.0",
+          "rp": 0,
+          "sp": 0,
+          "data_unit_id": "us_magach_3",
+          "selected": false,
+          "class_name": "prem",
+          "details": true,
+          "main_role": "Medium tank"
+        }
+      ]
+    ],
+    "selected": [],
+    "unlock_quantity": 0
+  },
+  {
+    "rank": "VI",
+    "researchable_vehicles": [
+      [
+        {
+          "type": "single",
+          "title": "XM800T",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/us_xm_800t.png",
+          "br": "8.7",
+          "rp": "135,000",
+          "sp": "380,000",
+          "data_unit_id": "us_xm_800t",
+          "selected": false,
+          "class_name": "",
+          "details": true,
+          "main_role": "Light tank"
+        },
+        {
+          "type": "single",
+          "title": "Stingray",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/us_stingray.png",
+          "br": "9.3",
+          "rp": "190,000",
+          "sp": "520,000",
+          "data_unit_id": "us_stingray",
+          "selected": false,
+          "class_name": "",
+          "details": true,
+          "main_role": "Light tank"
+        },
+        {
+          "type": "single",
+          "title": "M1296",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/us_m1296_dragoon.png",
+          "br": "9.7",
+          "rp": "220,000",
+          "sp": "620,000",
+          "data_unit_id": "us_m1296_dragoon",
+          "selected": false,
+          "class_name": "",
+          "details": true,
+          "main_role": "Light tank"
+        }
+      ],
+      [
+        {
+          "type": "multiple",
+          "title": "M60A1 AOS/RISE",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/us_m60_group.png",
+          "selected": false,
+          "br": "8.3-8.7",
+          "data_unit_id": "us_m60_group",
+          "class_name": "",
+          "items": [
+            {
+              "type": "single",
+              "title": "M60A1 (AOS)",
+              "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/us_m60a1.png",
+              "br": "8.3",
+              "rp": "135,000",
+              "sp": "380,000",
+              "data_unit_id": "us_m60a1",
+              "selected": false,
+              "class_name": "",
+              "details": true,
+              "main_role": "Medium tank"
+            },
+            {
+              "type": "single",
+              "title": "M60A1 RISE (P)",
+              "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/us_m60a1_rise_passive_era.png",
+              "br": "8.7",
+              "rp": "81,000",
+              "sp": "450,000",
+              "data_unit_id": "us_m60a1_rise_passive_era",
+              "selected": false,
+              "class_name": "",
+              "details": true,
+              "main_role": "Medium tank"
+            }
+          ],
+          "details": true
+        },
+        {
+          "type": "single",
+          "title": "M60A3 TTS",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/us_m60a3_tts.png",
+          "br": "9.0",
+          "rp": "190,000",
+          "sp": "520,000",
+          "data_unit_id": "us_m60a3_tts",
+          "selected": false,
+          "class_name": "",
+          "details": true,
+          "main_role": "Medium tank"
+        }
+      ],
+      [
+        {
+          "type": "single",
+          "title": "T95E1",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/us_t95e1.png",
+          "br": "8.3",
+          "rp": "135,000",
+          "sp": "380,000",
+          "data_unit_id": "us_t95e1",
+          "selected": false,
+          "class_name": "",
+          "details": true,
+          "main_role": "Medium tank"
+        },
+        {
+          "type": "multiple",
+          "title": "MBT/XM",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/us_mbt_xm_group.png",
+          "selected": false,
+          "br": "9.0-9.3",
+          "data_unit_id": "us_mbt_xm_group",
+          "class_name": "",
+          "items": [
+            {
+              "type": "single",
+              "title": "XM803",
+              "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/us_xm_803.png",
+              "br": "9.0",
+              "rp": "190,000",
+              "sp": "520,000",
+              "data_unit_id": "us_xm_803",
+              "selected": false,
+              "class_name": "",
+              "details": true,
+              "main_role": "Medium tank"
+            },
+            {
+              "type": "single",
+              "title": "MBT-70",
+              "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/us_mbt_70.png",
+              "br": "9.3",
+              "rp": "110,000",
+              "sp": "620,000",
+              "data_unit_id": "us_mbt_70",
+              "selected": false,
+              "class_name": "",
+              "details": true,
+              "main_role": "Medium tank"
+            }
+          ],
+          "details": true
+        }
+      ],
+      [
+        {
+          "type": "single",
+          "title": "XM246",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/us_xm246.png",
+          "br": "8.7",
+          "rp": "135,000",
+          "sp": "380,000",
+          "data_unit_id": "us_xm246",
+          "selected": false,
+          "class_name": "",
+          "details": true,
+          "main_role": "SPAA"
+        },
+        {
+          "type": "multiple",
+          "title": "M247/Chaparral",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/us_m247_mim72_group.png",
+          "selected": false,
+          "br": "9.0",
+          "data_unit_id": "us_m247_mim72_group",
+          "class_name": "",
+          "items": [
+            {
+              "type": "single",
+              "title": "M247",
+              "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/us_m247.png",
+              "br": "9.0",
+              "rp": "190,000",
+              "sp": "520,000",
+              "data_unit_id": "us_m247",
+              "selected": false,
+              "class_name": "",
+              "details": true,
+              "main_role": "SPAA"
+            },
+            {
+              "type": "single",
+              "title": "Imp.Chaparral",
+              "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/us_mim_72_chaparral.png",
+              "br": "9.0",
+              "rp": "110,000",
+              "sp": "620,000",
+              "data_unit_id": "us_mim_72_chaparral",
+              "selected": false,
+              "class_name": "",
+              "details": true,
+              "main_role": "SPAA"
+            }
+          ],
+          "details": true
+        }
+      ],
+      [
+        {
+          "type": "single",
+          "title": "M60A2",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/us_m60a2.png",
+          "br": "8.3",
+          "rp": "135,000",
+          "sp": "380,000",
+          "data_unit_id": "us_m60a2",
+          "selected": false,
+          "class_name": "",
+          "details": true,
+          "main_role": "Medium tank"
+        },
+        {
+          "type": "single",
+          "title": "M3 Bradley",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/us_m3_bradley.png",
+          "br": "8.3",
+          "rp": "160,000",
+          "sp": "450,000",
+          "data_unit_id": "us_m3_bradley",
+          "selected": false,
+          "class_name": "",
+          "details": true,
+          "main_role": "Light tank"
+        }
+      ]
+    ],
+    "premium_vehicles": [
+      [
+        {
+          "type": "single",
+          "title": "M901",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/us_m901_itv.png",
+          "br": "8.3",
+          "rp": "400,000",
+          "sp": "450,000",
+          "data_unit_id": "us_m901_itv",
+          "selected": false,
+          "class_name": "squad",
+          "details": true,
+          "main_role": "Tank destroyer"
+        },
+        {
+          "type": "single",
+          "title": "XM1 (Chrysler)",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/us_xm1_chrysler.png",
+          "br": "9.0",
+          "rp": 0,
+          "sp": 0,
+          "data_unit_id": "us_xm1_chrysler",
+          "selected": false,
+          "class_name": "prem",
+          "details": true,
+          "main_role": "Medium tank"
+        },
+        {
+          "type": "single",
+          "title": "XM1 (GM)",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/us_xm1_gm.png",
+          "br": "9.3",
+          "rp": 0,
+          "sp": 0,
+          "data_unit_id": "us_xm1_gm",
+          "selected": false,
+          "class_name": "prem",
+          "details": true,
+          "main_role": "Medium tank"
+        }
+      ],
+      [
+        {
+          "type": "single",
+          "title": "EFV",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/us_efv_p1.png",
+          "br": "9.3",
+          "rp": null,
+          "sp": null,
+          "data_unit_id": "us_efv_p1",
+          "selected": false,
+          "class_name": "",
+          "details": true,
+          "main_role": "Light tank"
+        },
+        {
+          "type": "single",
+          "title": "▃Merkava Mk.1",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/us_merkava_mk_1.png",
+          "br": "9.3",
+          "rp": null,
+          "sp": null,
+          "data_unit_id": "us_merkava_mk_1",
+          "selected": false,
+          "class_name": "",
+          "details": true,
+          "main_role": "Medium tank"
+        },
+        {
+          "type": "single",
+          "title": "▃Merkava Mk.2B",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/us_merkava_mk_2b_late.png",
+          "br": "9.7",
+          "rp": null,
+          "sp": null,
+          "data_unit_id": "us_merkava_mk_2b_late",
+          "selected": false,
+          "class_name": "",
+          "details": true,
+          "main_role": "Medium tank"
+        },
+        {
+          "type": "single",
+          "title": "XM8",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/us_xm_8.png",
+          "br": "9.7",
+          "rp": null,
+          "sp": null,
+          "data_unit_id": "us_xm_8",
+          "selected": false,
+          "class_name": "",
+          "details": true,
+          "main_role": "Light tank"
+        }
+      ]
+    ],
+    "selected": [],
+    "unlock_quantity": 0
+  },
+  {
+    "rank": "VII",
+    "researchable_vehicles": [
+      [
+        {
+          "type": "single",
+          "title": "M1128",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/us_m1128_mgs.png",
+          "br": "10.3",
+          "rp": "260,000",
+          "sp": "710,000",
+          "data_unit_id": "us_m1128_mgs",
+          "selected": false,
+          "class_name": "",
+          "details": true,
+          "main_role": "Light tank"
+        },
+        {
+          "type": "single",
+          "title": "M10 Booker",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/us_m10_booker_late.png",
+          "br": "10.7",
+          "rp": "300,000",
+          "sp": "830,000",
+          "data_unit_id": "us_m10_booker_late",
+          "selected": false,
+          "class_name": "",
+          "details": true,
+          "main_role": "Light tank"
+        },
+        {
+          "type": "single",
+          "title": "HSTV-L",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/us_hstv_l.png",
+          "br": "12.0",
+          "rp": "350,000",
+          "sp": "950,000",
+          "data_unit_id": "us_hstv_l",
+          "selected": false,
+          "class_name": "",
+          "details": true,
+          "main_role": "Light tank"
+        }
+      ],
+      [
+        {
+          "type": "single",
+          "title": "120S",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/us_m60_120s.png",
+          "br": "10.3",
+          "rp": "260,000",
+          "sp": "710,000",
+          "data_unit_id": "us_m60_120s",
+          "selected": false,
+          "class_name": "",
+          "details": true,
+          "main_role": "Medium tank"
+        },
+        {
+          "type": "single",
+          "title": "M1A1 HC",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/us_m1a1_hc_abrams.png",
+          "br": "12.0",
+          "rp": "350,000",
+          "sp": "950,000",
+          "data_unit_id": "us_m1a1_hc_abrams",
+          "selected": false,
+          "class_name": "",
+          "details": true,
+          "main_role": "Medium tank"
+        }
+      ],
+      [
+        {
+          "type": "single",
+          "title": "M1 Abrams",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/us_m1_abrams.png",
+          "br": "10.7",
+          "rp": "260,000",
+          "sp": "710,000",
+          "data_unit_id": "us_m1_abrams",
+          "selected": false,
+          "class_name": "",
+          "details": true,
+          "main_role": "Medium tank"
+        },
+        {
+          "type": "multiple",
+          "title": "M1A1/IPM1",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/us_abrams_group.png",
+          "selected": false,
+          "br": "11.3-11.7",
+          "data_unit_id": "us_abrams_group",
+          "class_name": "",
+          "items": [
+            {
+              "type": "single",
+              "title": "M1A1",
+              "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/us_m1a1_abrams.png",
+              "br": "11.7",
+              "rp": "300,000",
+              "sp": "830,000",
+              "data_unit_id": "us_m1a1_abrams",
+              "selected": false,
+              "class_name": "",
+              "details": true,
+              "main_role": "Medium tank"
+            },
+            {
+              "type": "single",
+              "title": "IPM1",
+              "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/us_m1_ip_abrams.png",
+              "br": "11.3",
+              "rp": "175,000",
+              "sp": "950,000",
+              "data_unit_id": "us_m1_ip_abrams",
+              "selected": false,
+              "class_name": "",
+              "details": true,
+              "main_role": "Medium tank"
+            }
+          ],
+          "details": true
+        }
+      ],
+      [
+        {
+          "type": "single",
+          "title": "LAV-AD",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/us_lav_ad.png",
+          "br": "10.0",
+          "rp": "260,000",
+          "sp": "710,000",
+          "data_unit_id": "us_lav_ad",
+          "selected": false,
+          "class_name": "",
+          "details": true,
+          "main_role": "SPAA"
+        },
+        {
+          "type": "single",
+          "title": "XM975",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/us_xm_975_roland.png",
+          "br": "10.0",
+          "rp": "300,000",
+          "sp": "830,000",
+          "data_unit_id": "us_xm_975_roland",
+          "selected": false,
+          "class_name": "",
+          "details": true,
+          "main_role": "SPAA"
+        }
+      ],
+      [
+        {
+          "type": "single",
+          "title": "M3A3 Bradley",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/us_m3a3_bradley.png",
+          "br": "9.7",
+          "rp": "260,000",
+          "sp": "710,000",
+          "data_unit_id": "us_m3a3_bradley",
+          "selected": false,
+          "class_name": "",
+          "details": true,
+          "main_role": "Light tank"
+        }
+      ]
+    ],
+    "premium_vehicles": [
+      [
+        {
+          "type": "single",
+          "title": "M1128 Wolfpack",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/us_m1128_wolfpack.png",
+          "br": "10.3",
+          "rp": 0,
+          "sp": 0,
+          "data_unit_id": "us_m1128_wolfpack",
+          "selected": false,
+          "class_name": "prem",
+          "details": true,
+          "main_role": "Light tank"
+        },
+        {
+          "type": "single",
+          "title": "M1 KVT",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/us_m1_abrams_kvt.png",
+          "br": "10.7",
+          "rp": 0,
+          "sp": 0,
+          "data_unit_id": "us_m1_abrams_kvt",
+          "selected": false,
+          "class_name": "prem",
+          "details": true,
+          "main_role": "Medium tank"
+        },
+        {
+          "type": "single",
+          "title": "␙M1A1",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/us_m1a1_abrams_yt_cup_2019.png",
+          "br": "11.7",
+          "rp": null,
+          "sp": null,
+          "data_unit_id": "us_m1a1_abrams_yt_cup_2019",
+          "selected": false,
+          "class_name": "",
+          "details": true,
+          "main_role": "Medium tank"
+        },
+        {
+          "type": "single",
+          "title": "M1A1 AIM",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/us_m1a1_aim_abrams.png",
+          "br": "12.0",
+          "rp": "550,000",
+          "sp": "1,000,000",
+          "data_unit_id": "us_m1a1_aim_abrams",
+          "selected": false,
+          "class_name": "squad",
+          "details": true,
+          "main_role": "Medium tank"
+        },
+        {
+          "type": "single",
+          "title": "M1A1 Click-Bait",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/us_m1a1_hc_usmc.png",
+          "br": "12.0",
+          "rp": 0,
+          "sp": 0,
+          "data_unit_id": "us_m1a1_hc_usmc",
+          "selected": false,
+          "class_name": "prem",
+          "details": true,
+          "main_role": "Medium tank"
+        },
+        {
+          "type": "single",
+          "title": "◍M1A1 HC",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/us_m1a1_hc_usmc_sm.png",
+          "br": "12.0",
+          "rp": 0,
+          "sp": 0,
+          "data_unit_id": "us_m1a1_hc_usmc_sm",
+          "selected": false,
+          "class_name": "prem",
+          "details": true,
+          "main_role": "Medium tank"
+        },
+        {
+          "type": "single",
+          "title": "RDF/LT",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/us_rdf_lt.png",
+          "br": "12.0",
+          "rp": 0,
+          "sp": 0,
+          "data_unit_id": "us_rdf_lt",
+          "selected": false,
+          "class_name": "prem",
+          "details": true,
+          "main_role": "Light tank"
+        }
+      ],
+      [
+        {
+          "type": "single",
+          "title": "CCVL",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/us_ccvl.png",
+          "br": "10.0",
+          "rp": null,
+          "sp": null,
+          "data_unit_id": "us_ccvl",
+          "selected": false,
+          "class_name": "",
+          "details": true,
+          "main_role": "Light tank"
+        },
+        {
+          "type": "single",
+          "title": "M60 AMBT",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/us_m60a3_slep.png",
+          "br": "10.0",
+          "rp": null,
+          "sp": null,
+          "data_unit_id": "us_m60a3_slep",
+          "selected": false,
+          "class_name": "",
+          "details": true,
+          "main_role": "Medium tank"
+        },
+        {
+          "type": "single",
+          "title": "LOSAT",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/us_losat_ccv.png",
+          "br": "10.0",
+          "rp": null,
+          "sp": null,
+          "data_unit_id": "us_losat_ccv",
+          "selected": false,
+          "class_name": "",
+          "details": true,
+          "main_role": "Tank destroyer"
+        },
+        {
+          "type": "single",
+          "title": "AGS",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/us_ags_teledyne.png",
+          "br": "12.0",
+          "rp": null,
+          "sp": null,
+          "data_unit_id": "us_ags_teledyne",
+          "selected": false,
+          "class_name": "",
+          "details": true,
+          "main_role": "Light tank"
+        },
+        {
+          "type": "single",
+          "title": "▃Merkava Mk.3D",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/us_merkava_mk_3d.png",
+          "br": "11.3",
+          "rp": null,
+          "sp": null,
+          "data_unit_id": "us_merkava_mk_3d",
+          "selected": false,
+          "class_name": "",
+          "details": true,
+          "main_role": "Medium tank"
+        }
+      ]
+    ],
+    "selected": [],
+    "unlock_quantity": 0
+  },
+  {
+    "rank": "VIII",
+    "researchable_vehicles": [
+      [],
+      [],
+      [
+        {
+          "type": "multiple",
+          "title": "M1 A2/A2 SEP",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/us_abrams_a2_group.png",
+          "selected": false,
+          "br": "12.0-12.7",
+          "data_unit_id": "us_abrams_a2_group",
+          "class_name": "",
+          "items": [
+            {
+              "type": "single",
+              "title": "M1A2 Abrams",
+              "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/us_m1a2_abrams.png",
+              "br": "12.0",
+              "rp": "400,000",
+              "sp": "1,080,000",
+              "data_unit_id": "us_m1a2_abrams",
+              "selected": false,
+              "class_name": "",
+              "details": true,
+              "main_role": "Medium tank"
+            },
+            {
+              "type": "single",
+              "title": "M1A2 SEP",
+              "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/us_m1a2_sep_abrams.png",
+              "br": "12.7",
+              "rp": "200,000",
+              "sp": "1,100,000",
+              "data_unit_id": "us_m1a2_sep_abrams",
+              "selected": false,
+              "class_name": "",
+              "details": true,
+              "main_role": "Medium tank"
+            }
+          ],
+          "details": true
+        },
+        {
+          "type": "single",
+          "title": "M1A2 SEP V2",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/us_m1a2_sep2_abrams.png",
+          "br": "12.7",
+          "rp": "410,000",
+          "sp": "1,100,000",
+          "data_unit_id": "us_m1a2_sep2_abrams",
+          "selected": false,
+          "class_name": "",
+          "details": true,
+          "main_role": "Medium tank"
+        }
+      ],
+      [
+        {
+          "type": "single",
+          "title": "ADATS",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/us_adats_bradley.png",
+          "br": "11.7",
+          "rp": "400,000",
+          "sp": "1,080,000",
+          "data_unit_id": "us_adats_bradley",
+          "selected": false,
+          "class_name": "",
+          "details": true,
+          "main_role": "SPAA"
+        },
+        {
+          "type": "multiple",
+          "title": "CLAWS",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/us_sl_amraam_fcs.png",
+          "selected": false,
+          "br": "12.3",
+          "data_unit_id": "us_sl_amraam_fcs",
+          "class_name": "",
+          "items": [
+            {
+              "type": "single",
+              "title": "CLAWS (TADS)",
+              "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/us_sl_amraam_fcs.png",
+              "br": "12.3",
+              "rp": "410,000",
+              "sp": "1,100,000",
+              "data_unit_id": "us_sl_amraam_fcs",
+              "selected": false,
+              "class_name": "",
+              "details": true,
+              "main_role": "SPAA"
+            },
+            {
+              "type": "single",
+              "title": "CLAWS (TEL)",
+              "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/us_sl_amraam_launcher.png",
+              "br": null,
+              "rp": null,
+              "sp": null,
+              "data_unit_id": "us_sl_amraam_launcher",
+              "selected": false,
+              "class_name": "",
+              "details": true,
+              "main_role": "SPAA"
+            }
+          ],
+          "details": true
+        },
+        {
+          "type": "multiple",
+          "title": "NASAMS 3",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/us_nasams_fcs.png",
+          "selected": false,
+          "br": "12.7",
+          "data_unit_id": "us_nasams_fcs",
+          "class_name": "",
+          "items": [
+            {
+              "type": "single",
+              "title": "NASAMS 3 (TADS)",
+              "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/us_nasams_fcs.png",
+              "br": "12.7",
+              "rp": "420,000",
+              "sp": "1,120,000",
+              "data_unit_id": "us_nasams_fcs",
+              "selected": false,
+              "class_name": "",
+              "details": true,
+              "main_role": "SPAA"
+            },
+            {
+              "type": "single",
+              "title": "NASAMS 3 (TEL)",
+              "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/us_nasams_launcher.png",
+              "br": null,
+              "rp": null,
+              "sp": null,
+              "data_unit_id": "us_nasams_launcher",
+              "selected": false,
+              "class_name": "",
+              "details": true,
+              "main_role": "SPAA"
+            }
+          ],
+          "details": true
+        }
+      ],
+      []
+    ],
+    "premium_vehicles": [
+      [],
+      []
+    ],
+    "selected": [],
+    "unlock_quantity": 0
+  }
+]

@@ -1,0 +1,546 @@
+[
+  {
+    "rank": "I",
+    "researchable_vehicles": [
+      [
+        {
+          "type": "single",
+          "title": "PT-6",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/us_pt6.png",
+          "br": "1.0",
+          "rp": null,
+          "sp": null,
+          "data_unit_id": "us_pt6",
+          "selected": false,
+          "class_name": "",
+          "details": true,
+          "main_role": "Boat"
+        },
+        {
+          "type": "single",
+          "title": "PTF-7",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/us_nasty_ptf.png",
+          "br": "1.7",
+          "rp": "4,000",
+          "sp": "2,100",
+          "data_unit_id": "us_nasty_ptf",
+          "selected": false,
+          "class_name": "",
+          "details": true,
+          "main_role": "Boat"
+        }
+      ],
+      [
+        {
+          "type": "single",
+          "title": "PT-20",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/us_elco_77ft_pt20.png",
+          "br": "1.7",
+          "rp": "2,900",
+          "sp": "700",
+          "data_unit_id": "us_elco_77ft_pt20",
+          "selected": false,
+          "class_name": "",
+          "details": true,
+          "main_role": "Boat"
+        },
+        {
+          "type": "single",
+          "title": "PT-95",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/us_huckins_78ft_pt95.png",
+          "br": "1.7",
+          "rp": "4,000",
+          "sp": "2,100",
+          "data_unit_id": "us_huckins_78ft_pt95",
+          "selected": false,
+          "class_name": "",
+          "details": true,
+          "main_role": "Boat"
+        }
+      ],
+      []
+    ],
+    "premium_vehicles": [
+      [
+        {
+          "type": "single",
+          "title": "PT-3",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/us_pt3.png",
+          "br": "1.0",
+          "rp": 0,
+          "sp": 0,
+          "data_unit_id": "us_pt3",
+          "selected": false,
+          "class_name": "prem",
+          "details": true,
+          "main_role": "Boat"
+        }
+      ],
+      []
+    ],
+    "selected": [],
+    "unlock_quantity": 0
+  },
+  {
+    "rank": "II",
+    "researchable_vehicles": [
+      [
+        {
+          "type": "single",
+          "title": "PT-103",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/us_elco_80ft_pt_boat.png",
+          "br": "1.7",
+          "rp": "9,200",
+          "sp": "16,000",
+          "data_unit_id": "us_elco_80ft_pt_boat",
+          "selected": false,
+          "class_name": "",
+          "details": true,
+          "main_role": "Boat"
+        },
+        {
+          "type": "single",
+          "title": "PT-71",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/us_higgins_78ft_pt71.png",
+          "br": "2.0",
+          "rp": "11,000",
+          "sp": "22,000",
+          "data_unit_id": "us_higgins_78ft_pt71",
+          "selected": false,
+          "class_name": "",
+          "details": true,
+          "main_role": "Boat"
+        }
+      ],
+      [
+        {
+          "type": "single",
+          "title": "PC-451",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/us_pc_451.png",
+          "br": "2.3",
+          "rp": "7,900",
+          "sp": "10,000",
+          "data_unit_id": "us_pc_451",
+          "selected": false,
+          "class_name": "",
+          "details": true,
+          "main_role": "Heavy boat"
+        },
+        {
+          "type": "single",
+          "title": "SC-497",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/us_sc_497.png",
+          "br": "2.3",
+          "rp": "14,000",
+          "sp": "32,000",
+          "data_unit_id": "us_sc_497",
+          "selected": false,
+          "class_name": "",
+          "details": true,
+          "main_role": "Heavy boat"
+        }
+      ],
+      []
+    ],
+    "premium_vehicles": [
+      [
+        {
+          "type": "single",
+          "title": "Carmi (PC-466)",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/us_pc_466_carmi.png",
+          "br": "2.3",
+          "rp": 0,
+          "sp": 0,
+          "data_unit_id": "us_pc_466_carmi",
+          "selected": false,
+          "class_name": "prem",
+          "details": true,
+          "main_role": "Heavy boat"
+        },
+        {
+          "type": "single",
+          "title": "PT-174",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/us_elco_80ft_pt174.png",
+          "br": "2.3",
+          "rp": 0,
+          "sp": 0,
+          "data_unit_id": "us_elco_80ft_pt174",
+          "selected": false,
+          "class_name": "prem",
+          "details": true,
+          "main_role": "Boat"
+        }
+      ],
+      [
+        {
+          "type": "single",
+          "title": "PT-262",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/us_huckins_78ft_pt262.png",
+          "br": "2.0",
+          "rp": 0,
+          "sp": 0,
+          "data_unit_id": "us_huckins_78ft_pt262",
+          "selected": false,
+          "class_name": "prem",
+          "details": true,
+          "main_role": "Boat"
+        },
+        {
+          "type": "single",
+          "title": "PT-109",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/us_elco_80ft_pt109_boat.png",
+          "br": "1.7",
+          "rp": 0,
+          "sp": 0,
+          "data_unit_id": "us_elco_80ft_pt109_boat",
+          "selected": false,
+          "class_name": "prem",
+          "details": true,
+          "main_role": "Boat"
+        }
+      ]
+    ],
+    "selected": [],
+    "unlock_quantity": 0
+  },
+  {
+    "rank": "III",
+    "researchable_vehicles": [
+      [
+        {
+          "type": "single",
+          "title": "PT-314",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/us_elco_80ft_pt_boat_mod01.png",
+          "br": "2.3",
+          "rp": "18,000",
+          "sp": "47,000",
+          "data_unit_id": "us_elco_80ft_pt_boat_mod01",
+          "selected": false,
+          "class_name": "",
+          "details": true,
+          "main_role": "Boat"
+        },
+        {
+          "type": "single",
+          "title": "PT-565",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/us_elco_80ft_pt_boat_mod02.png",
+          "br": "3.0",
+          "rp": "36,000",
+          "sp": "115,000",
+          "data_unit_id": "us_elco_80ft_pt_boat_mod02",
+          "selected": false,
+          "class_name": "",
+          "details": true,
+          "main_role": "Boat"
+        }
+      ],
+      [
+        {
+          "type": "single",
+          "title": "PT-200",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/us_higgins_78ft_pt625.png",
+          "br": "2.7",
+          "rp": "26,000",
+          "sp": "76,000",
+          "data_unit_id": "us_higgins_78ft_pt625",
+          "selected": false,
+          "class_name": "",
+          "details": true,
+          "main_role": "Boat"
+        },
+        {
+          "type": "single",
+          "title": "PT-59",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/us_elco_77ft_pt59.png",
+          "br": "3.0",
+          "rp": "48,000",
+          "sp": "180,000",
+          "data_unit_id": "us_elco_77ft_pt59",
+          "selected": false,
+          "class_name": "",
+          "details": true,
+          "main_role": "Boat"
+        }
+      ],
+      [
+        {
+          "type": "single",
+          "title": "Kim Qui",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/us_pgm_59_class.png",
+          "br": "3.3",
+          "rp": "48,000",
+          "sp": "180,000",
+          "data_unit_id": "us_pgm_59_class",
+          "selected": false,
+          "class_name": "",
+          "details": true,
+          "main_role": "Heavy boat"
+        }
+      ]
+    ],
+    "premium_vehicles": [
+      [
+        {
+          "type": "single",
+          "title": "LCM(6) Zippo",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/us_lcm_zippo.png",
+          "br": "2.3",
+          "rp": 0,
+          "sp": 0,
+          "data_unit_id": "us_lcm_zippo",
+          "selected": false,
+          "class_name": "prem",
+          "details": true,
+          "main_role": "Heavy boat"
+        },
+        {
+          "type": "single",
+          "title": "Thunderbolt (PT-556)",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/us_elco_80ft_pt_boat_thunderbolt.png",
+          "br": "3.0",
+          "rp": 0,
+          "sp": 0,
+          "data_unit_id": "us_elco_80ft_pt_boat_thunderbolt",
+          "selected": false,
+          "class_name": "prem",
+          "details": true,
+          "main_role": "Boat"
+        }
+      ],
+      [
+        {
+          "type": "single",
+          "title": "PT-658",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/us_higgins_78ft_pt658.png",
+          "br": "2.7",
+          "rp": 0,
+          "sp": 0,
+          "data_unit_id": "us_higgins_78ft_pt658",
+          "selected": false,
+          "class_name": "prem",
+          "details": true,
+          "main_role": "Boat"
+        },
+        {
+          "type": "single",
+          "title": "USS Flagstaff",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/us_flagstaff_pgh1.png",
+          "br": "3.0",
+          "rp": 0,
+          "sp": 0,
+          "data_unit_id": "us_flagstaff_pgh1",
+          "selected": false,
+          "class_name": "prem",
+          "details": true,
+          "main_role": "Boat"
+        }
+      ]
+    ],
+    "selected": [],
+    "unlock_quantity": 0
+  },
+  {
+    "rank": "IV",
+    "researchable_vehicles": [
+      [
+        {
+          "type": "single",
+          "title": "USS Tucumcari",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/us_tucumcari_pgh2.png",
+          "br": "3.0",
+          "rp": "89,000",
+          "sp": "300,000",
+          "data_unit_id": "us_tucumcari_pgh2",
+          "selected": false,
+          "class_name": "",
+          "details": true,
+          "main_role": "Boat"
+        },
+        {
+          "type": "single",
+          "title": "PT-812",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/us_pt812.png",
+          "br": "3.3",
+          "rp": "120,000",
+          "sp": "360,000",
+          "data_unit_id": "us_pt812",
+          "selected": false,
+          "class_name": "",
+          "details": true,
+          "main_role": "Boat"
+        }
+      ],
+      [
+        {
+          "type": "single",
+          "title": "USS Asheville",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/us_ashville_class.png",
+          "br": "3.3",
+          "rp": "75,000",
+          "sp": "250,000",
+          "data_unit_id": "us_ashville_class",
+          "selected": false,
+          "class_name": "",
+          "details": true,
+          "main_role": "Heavy boat"
+        },
+        {
+          "type": "single",
+          "title": "USS Candid",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/us_admirable_class.png",
+          "br": "3.7",
+          "rp": "89,000",
+          "sp": "300,000",
+          "data_unit_id": "us_admirable_class",
+          "selected": false,
+          "class_name": "",
+          "details": true,
+          "main_role": "Heavy boat"
+        }
+      ],
+      [
+        {
+          "type": "single",
+          "title": "PGM-9",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/us_pgm_9_class.png",
+          "br": "3.3",
+          "rp": "89,000",
+          "sp": "300,000",
+          "data_unit_id": "us_pgm_9_class",
+          "selected": false,
+          "class_name": "",
+          "details": true,
+          "main_role": "Heavy boat"
+        }
+      ]
+    ],
+    "premium_vehicles": [
+      [
+        {
+          "type": "single",
+          "title": "PT-811",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/us_pt811.png",
+          "br": "3.7",
+          "rp": 0,
+          "sp": 0,
+          "data_unit_id": "us_pt811",
+          "selected": false,
+          "class_name": "prem",
+          "details": true,
+          "main_role": "Boat"
+        },
+        {
+          "type": "single",
+          "title": "USS Douglas",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/us_ashville_class_douglas.png",
+          "br": "4.0",
+          "rp": 0,
+          "sp": 0,
+          "data_unit_id": "us_ashville_class_douglas",
+          "selected": false,
+          "class_name": "prem",
+          "details": true,
+          "main_role": "Heavy boat"
+        }
+      ],
+      []
+    ],
+    "selected": [],
+    "unlock_quantity": 0
+  },
+  {
+    "rank": "V",
+    "researchable_vehicles": [
+      [
+        {
+          "type": "single",
+          "title": "PT-810",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/us_pt810.png",
+          "br": "3.3",
+          "rp": "220,000",
+          "sp": "640,000",
+          "data_unit_id": "us_pt810",
+          "selected": false,
+          "class_name": "",
+          "details": true,
+          "main_role": "Boat"
+        },
+        {
+          "type": "single",
+          "title": "USS Hoquiam",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/us_frigate_tacoma.png",
+          "br": "3.3",
+          "rp": "250,000",
+          "sp": "700,000",
+          "data_unit_id": "us_frigate_tacoma",
+          "selected": false,
+          "class_name": "",
+          "details": true,
+          "main_role": "Frigate"
+        },
+        {
+          "type": "single",
+          "title": "USS Dealey",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/us_frigate_dealey.png",
+          "br": "3.7",
+          "rp": "280,000",
+          "sp": "780,000",
+          "data_unit_id": "us_frigate_dealey",
+          "selected": false,
+          "class_name": "",
+          "details": true,
+          "main_role": "Frigate"
+        }
+      ],
+      [
+        {
+          "type": "single",
+          "title": "LCS(L)(3)",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/us_lcs_l_3.png",
+          "br": "3.7",
+          "rp": "250,000",
+          "sp": "700,000",
+          "data_unit_id": "us_lcs_l_3",
+          "selected": false,
+          "class_name": "",
+          "details": true,
+          "main_role": "Heavy boat"
+        },
+        {
+          "type": "single",
+          "title": "USS Coolbaugh",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/us_frigate_buckley_class_coolbaugh.png",
+          "br": "4.0",
+          "rp": "280,000",
+          "sp": "780,000",
+          "data_unit_id": "us_frigate_buckley_class_coolbaugh",
+          "selected": false,
+          "class_name": "",
+          "details": true,
+          "main_role": "Frigate"
+        }
+      ],
+      [
+        {
+          "type": "single",
+          "title": "USS Cyclone",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/us_cyclone_class_cyclone.png",
+          "br": "3.3",
+          "rp": "250,000",
+          "sp": "700,000",
+          "data_unit_id": "us_cyclone_class_cyclone",
+          "selected": false,
+          "class_name": "",
+          "details": true,
+          "main_role": "Heavy boat"
+        }
+      ]
+    ],
+    "premium_vehicles": [
+      [],
+      []
+    ],
+    "selected": [],
+    "unlock_quantity": 0
+  }
+]

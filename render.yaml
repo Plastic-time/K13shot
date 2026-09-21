@@ -1,0 +1,12 @@
+services:
+  - type: web
+    name: k13shot-wt-research
+    runtime: node
+    plan: free
+    buildCommand: npm ci
+    startCommand: npm start
+    healthCheckPath: /healthz
+    envVars:
+      - key: NODE_VERSION
+        value: 20
+

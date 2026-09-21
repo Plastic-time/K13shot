@@ -1,0 +1,547 @@
+[
+  {
+    "rank": "I",
+    "researchable_vehicles": [
+      [
+        {
+          "type": "single",
+          "title": "Bourrasque",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/fr_destroyer_bourrasque_class_bourrasque.png",
+          "br": "3.7",
+          "rp": null,
+          "sp": null,
+          "data_unit_id": "fr_destroyer_bourrasque_class_bourrasque",
+          "selected": false,
+          "class_name": "",
+          "details": true,
+          "main_role": "Destroyer"
+        },
+        {
+          "type": "single",
+          "title": "La Combattante",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/fr_destroyer_hunt_3series.png",
+          "br": "4.0",
+          "rp": "4,000",
+          "sp": "2,100",
+          "data_unit_id": "fr_destroyer_hunt_3series",
+          "selected": false,
+          "class_name": "",
+          "details": true,
+          "main_role": "Destroyer"
+        }
+      ],
+      [
+        {
+          "type": "single",
+          "title": "Leopard",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/fr_destroyer_jaguar_class_leopard.png",
+          "br": "3.7",
+          "rp": "2,900",
+          "sp": "700",
+          "data_unit_id": "fr_destroyer_jaguar_class_leopard",
+          "selected": false,
+          "class_name": "",
+          "details": true,
+          "main_role": "Destroyer"
+        },
+        {
+          "type": "single",
+          "title": "Chacal",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/fr_destroyer_jaguar_class_chacal.png",
+          "br": "4.0",
+          "rp": "4,000",
+          "sp": "2,100",
+          "data_unit_id": "fr_destroyer_jaguar_class_chacal",
+          "selected": false,
+          "class_name": "",
+          "details": true,
+          "main_role": "Destroyer"
+        },
+        {
+          "type": "single",
+          "title": "Verdun",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/fr_destroyer_guepard_class_verdun.png",
+          "br": "4.0",
+          "rp": "5,300",
+          "sp": "5,000",
+          "data_unit_id": "fr_destroyer_guepard_class_verdun",
+          "selected": false,
+          "class_name": "",
+          "details": true,
+          "main_role": "Destroyer"
+        }
+      ]
+    ],
+    "premium_vehicles": [
+      [
+        {
+          "type": "single",
+          "title": "Panthere",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/fr_destroyer_jaguar_class_panthere.png",
+          "br": "3.7",
+          "rp": 0,
+          "sp": 0,
+          "data_unit_id": "fr_destroyer_jaguar_class_panthere",
+          "selected": false,
+          "class_name": "prem",
+          "details": true,
+          "main_role": "Destroyer"
+        },
+        {
+          "type": "single",
+          "title": "Tornade",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/fr_destroyer_bourrasque_class_tornade.png",
+          "br": "3.7",
+          "rp": 0,
+          "sp": 0,
+          "data_unit_id": "fr_destroyer_bourrasque_class_tornade",
+          "selected": false,
+          "class_name": "prem",
+          "details": true,
+          "main_role": "Destroyer"
+        }
+      ]
+    ],
+    "selected": [],
+    "unlock_quantity": 0
+  },
+  {
+    "rank": "II",
+    "researchable_vehicles": [
+      [
+        {
+          "type": "single",
+          "title": "Vautour",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/fr_destroyer_aigle_class_vautour.png",
+          "br": "4.3",
+          "rp": "9,000",
+          "sp": "16,000",
+          "data_unit_id": "fr_destroyer_aigle_class_vautour",
+          "selected": false,
+          "class_name": "",
+          "details": true,
+          "main_role": "Destroyer"
+        },
+        {
+          "type": "single",
+          "title": "Vauquelin",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/fr_destroyer_vauquelin_class_vauquelin.png",
+          "br": "4.3",
+          "rp": "11,000",
+          "sp": "22,000",
+          "data_unit_id": "fr_destroyer_vauquelin_class_vauquelin",
+          "selected": false,
+          "class_name": "",
+          "details": true,
+          "main_role": "Destroyer"
+        },
+        {
+          "type": "single",
+          "title": "Guichen",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/fr_cruiser_chateaurenault_class_guichen.png",
+          "br": "4.7",
+          "rp": "13,000",
+          "sp": "31,000",
+          "data_unit_id": "fr_cruiser_chateaurenault_class_guichen",
+          "selected": false,
+          "class_name": "",
+          "details": true,
+          "main_role": "Destroyer"
+        }
+      ],
+      [
+        {
+          "type": "single",
+          "title": "Kleber",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/fr_destroyer_desaix_class_kleber.png",
+          "br": "4.3",
+          "rp": "7,000",
+          "sp": "8,700",
+          "data_unit_id": "fr_destroyer_desaix_class_kleber",
+          "selected": false,
+          "class_name": "",
+          "details": true,
+          "main_role": "Destroyer"
+        },
+        {
+          "type": "single",
+          "title": "Milan",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/fr_destroyer_aigle_class_milan.png",
+          "br": "4.3",
+          "rp": "9,000",
+          "sp": "16,000",
+          "data_unit_id": "fr_destroyer_aigle_class_milan",
+          "selected": false,
+          "class_name": "",
+          "details": true,
+          "main_role": "Destroyer"
+        },
+        {
+          "type": "single",
+          "title": "Marceau",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/fr_destroyer_marceau_class_marceau.png",
+          "br": "4.3",
+          "rp": "11,000",
+          "sp": "22,000",
+          "data_unit_id": "fr_destroyer_marceau_class_marceau",
+          "selected": false,
+          "class_name": "",
+          "details": true,
+          "main_role": "Destroyer"
+        }
+      ]
+    ],
+    "premium_vehicles": [
+      [
+        {
+          "type": "single",
+          "title": "Aigle",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/fr_destroyer_aigle_class_aigle.png",
+          "br": "4.3",
+          "rp": 0,
+          "sp": 0,
+          "data_unit_id": "fr_destroyer_aigle_class_aigle",
+          "selected": false,
+          "class_name": "prem",
+          "details": true,
+          "main_role": "Destroyer"
+        }
+      ]
+    ],
+    "selected": [],
+    "unlock_quantity": 0
+  },
+  {
+    "rank": "III",
+    "researchable_vehicles": [
+      [
+        {
+          "type": "single",
+          "title": "Le Malin",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/fr_destroyer_le_fantasque_class_le_malin.png",
+          "br": "4.7",
+          "rp": "15,000",
+          "sp": "38,000",
+          "data_unit_id": "fr_destroyer_le_fantasque_class_le_malin",
+          "selected": false,
+          "class_name": "",
+          "details": true,
+          "main_role": "Destroyer"
+        },
+        {
+          "type": "single",
+          "title": "Mogador",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/fr_destroyer_mogador_class_mogador.png",
+          "br": "5.0",
+          "rp": "21,000",
+          "sp": "70,000",
+          "data_unit_id": "fr_destroyer_mogador_class_mogador",
+          "selected": false,
+          "class_name": "",
+          "details": true,
+          "main_role": "Destroyer"
+        }
+      ],
+      [
+        {
+          "type": "single",
+          "title": "Jeanne d'Arc",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/fr_cruiser_jeanne_darc.png",
+          "br": "4.7",
+          "rp": "18,000",
+          "sp": "55,000",
+          "data_unit_id": "fr_cruiser_jeanne_darc",
+          "selected": false,
+          "class_name": "",
+          "details": true,
+          "main_role": "Light cruiser"
+        },
+        {
+          "type": "single",
+          "title": "Primauguet",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/fr_cruiser_dugauy_class_primaguet.png",
+          "br": "5.0",
+          "rp": "25,000",
+          "sp": "87,000",
+          "data_unit_id": "fr_cruiser_dugauy_class_primaguet",
+          "selected": false,
+          "class_name": "",
+          "details": true,
+          "main_role": "Light cruiser"
+        }
+      ]
+    ],
+    "premium_vehicles": [
+      [
+        {
+          "type": "single",
+          "title": "Le Triomphant",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/fr_destroyer_le_fantasque_class_le_triomphant.png",
+          "br": "4.7",
+          "rp": 0,
+          "sp": 0,
+          "data_unit_id": "fr_destroyer_le_fantasque_class_le_triomphant",
+          "selected": false,
+          "class_name": "prem",
+          "details": true,
+          "main_role": "Destroyer"
+        },
+        {
+          "type": "single",
+          "title": "Duguay-Trouin",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/fr_cruiser_dugauy_class_dugauy_trouin.png",
+          "br": "5.0",
+          "rp": 0,
+          "sp": 0,
+          "data_unit_id": "fr_cruiser_dugauy_class_dugauy_trouin",
+          "selected": false,
+          "class_name": "prem",
+          "details": true,
+          "main_role": "Light cruiser"
+        }
+      ]
+    ],
+    "selected": [],
+    "unlock_quantity": 0
+  },
+  {
+    "rank": "IV",
+    "researchable_vehicles": [
+      [
+        {
+          "type": "single",
+          "title": "Colbert",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/fr_cruiser_suffren_class_colbert.png",
+          "br": "5.3",
+          "rp": "46,000",
+          "sp": "150,000",
+          "data_unit_id": "fr_cruiser_suffren_class_colbert",
+          "selected": false,
+          "class_name": "",
+          "details": true,
+          "main_role": "Heavy cruiser"
+        },
+        {
+          "type": "single",
+          "title": "Suffren",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/fr_cruiser_suffren_class_suffren.png",
+          "br": "5.3",
+          "rp": "59,000",
+          "sp": "185,000",
+          "data_unit_id": "fr_cruiser_suffren_class_suffren",
+          "selected": false,
+          "class_name": "",
+          "details": true,
+          "main_role": "Heavy cruiser"
+        }
+      ],
+      [
+        {
+          "type": "single",
+          "title": "Emile Bertin",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/fr_cruiser_emile_bertin.png",
+          "br": "5.3",
+          "rp": "33,000",
+          "sp": "115,000",
+          "data_unit_id": "fr_cruiser_emile_bertin",
+          "selected": false,
+          "class_name": "",
+          "details": true,
+          "main_role": "Light cruiser"
+        },
+        {
+          "type": "single",
+          "title": "La Galissonnière",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/fr_cruiser_la_galissoniere_class_la_galissoniere.png",
+          "br": "5.7",
+          "rp": "59,000",
+          "sp": "185,000",
+          "data_unit_id": "fr_cruiser_la_galissoniere_class_la_galissoniere",
+          "selected": false,
+          "class_name": "",
+          "details": true,
+          "main_role": "Light cruiser"
+        },
+        {
+          "type": "single",
+          "title": "Gloire",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/fr_cruiser_la_galissoniere_class_gloire.png",
+          "br": "5.7",
+          "rp": "73,000",
+          "sp": "230,000",
+          "data_unit_id": "fr_cruiser_la_galissoniere_class_gloire",
+          "selected": false,
+          "class_name": "",
+          "details": true,
+          "main_role": "Light cruiser"
+        }
+      ]
+    ],
+    "premium_vehicles": [
+      [
+        {
+          "type": "single",
+          "title": "Dupleix",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/fr_cruiser_suffren_class_dupleix.png",
+          "br": "5.7",
+          "rp": 0,
+          "sp": 0,
+          "data_unit_id": "fr_cruiser_suffren_class_dupleix",
+          "selected": false,
+          "class_name": "prem",
+          "details": true,
+          "main_role": "Heavy cruiser"
+        }
+      ]
+    ],
+    "selected": [],
+    "unlock_quantity": 0
+  },
+  {
+    "rank": "V",
+    "researchable_vehicles": [
+      [
+        {
+          "type": "single",
+          "title": "Paris",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/fr_battleship_courbet_class_paris.png",
+          "br": "6.0",
+          "rp": "90,000",
+          "sp": "280,000",
+          "data_unit_id": "fr_battleship_courbet_class_paris",
+          "selected": false,
+          "class_name": "",
+          "details": true,
+          "main_role": "Battleship"
+        },
+        {
+          "type": "single",
+          "title": "Lorraine",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/fr_battleship_bretagne_class_lorraine.png",
+          "br": "6.3",
+          "rp": "145,000",
+          "sp": "440,000",
+          "data_unit_id": "fr_battleship_bretagne_class_lorraine",
+          "selected": false,
+          "class_name": "",
+          "details": true,
+          "main_role": "Battleship"
+        }
+      ],
+      [
+        {
+          "type": "single",
+          "title": "Bretagne",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/fr_battleship_bretagne_class_bretagne.png",
+          "br": "6.7",
+          "rp": "180,000",
+          "sp": "540,000",
+          "data_unit_id": "fr_battleship_bretagne_class_bretagne",
+          "selected": false,
+          "class_name": "",
+          "details": true,
+          "main_role": "Battleship"
+        }
+      ]
+    ],
+    "premium_vehicles": [
+      [
+        {
+          "type": "single",
+          "title": "Courbet",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/fr_battleship_courbet_class_courbet.png",
+          "br": "6.0",
+          "rp": 0,
+          "sp": 0,
+          "data_unit_id": "fr_battleship_courbet_class_courbet",
+          "selected": false,
+          "class_name": "prem",
+          "details": true,
+          "main_role": "Battleship"
+        }
+      ]
+    ],
+    "selected": [],
+    "unlock_quantity": 0
+  },
+  {
+    "rank": "VI",
+    "researchable_vehicles": [
+      [
+        {
+          "type": "single",
+          "title": "Dunkerque",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/fr_battleship_dunkerque.png",
+          "br": "7.0",
+          "rp": "260,000",
+          "sp": "780,000",
+          "data_unit_id": "fr_battleship_dunkerque",
+          "selected": false,
+          "class_name": "",
+          "details": true,
+          "main_role": "Battleship"
+        }
+      ],
+      []
+    ],
+    "premium_vehicles": [
+      [
+        {
+          "type": "single",
+          "title": "Strasbourg",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/fr_battleship_strasbourg.png",
+          "br": "7.3",
+          "rp": null,
+          "sp": null,
+          "data_unit_id": "fr_battleship_strasbourg",
+          "selected": false,
+          "class_name": "",
+          "details": true,
+          "main_role": "Battleship"
+        }
+      ]
+    ],
+    "selected": [],
+    "unlock_quantity": 0
+  },
+  {
+    "rank": "VII",
+    "researchable_vehicles": [
+      [
+        {
+          "type": "single",
+          "title": "Richelieu",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/fr_battleship_richelieu_class_richelieu.png",
+          "br": "8.3",
+          "rp": "400,000",
+          "sp": "1,150,000",
+          "data_unit_id": "fr_battleship_richelieu_class_richelieu",
+          "selected": false,
+          "class_name": "",
+          "details": true,
+          "main_role": "Battleship"
+        }
+      ],
+      [
+        {
+          "type": "single",
+          "title": "Clemenceau",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/fr_battleship_richelieu_class_clemenceau.png",
+          "br": "8.3",
+          "rp": "400,000",
+          "sp": "1,150,000",
+          "data_unit_id": "fr_battleship_richelieu_class_clemenceau",
+          "selected": false,
+          "class_name": "",
+          "details": true,
+          "main_role": "Battleship"
+        }
+      ]
+    ],
+    "premium_vehicles": [
+      []
+    ],
+    "selected": [],
+    "unlock_quantity": 0
+  }
+]

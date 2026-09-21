@@ -1,0 +1,73 @@
+name: Build Release Package
+
+on:
+  push:
+    branches:
+      - "release/**"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  package:
+    runs-on: windows-latest
+    steps:
+      - name: Check out source
+        uses: actions/checkout@v4
+
+      - name: Set up Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: 20
+
+      - name: Set up .NET
+        uses: actions/setup-dotnet@v4
+        with:
+          dotnet-version: "6.0.x"
+
+      - name: Install dependencies
+        run: npm ci
+
+      - name: Build packages
+        run: npm run package:release
+
+      - name: Verify release contents
+        shell: pwsh
+        run: |
+          $ErrorActionPreference = "Stop"
+          $version = (Get-Content -Raw package.json | ConvertFrom-Json).version
+          foreach ($suffix in @("-portable", "")) {
+            $zipPath = Join-Path $PWD "WarThunderResearchCalculator-v$version$suffix.zip"
+            $archive = [System.IO.Compression.ZipFile]::OpenRead($zipPath)
+            try {
+              foreach ($file in @("package.json", "package-lock.json", "public/styles.css", "public/app.js", "main.js", "README.md")) {
+                $entry = $archive.Entries | Where-Object { $_.FullName.Replace('\', '/') -eq $file }
+                if (-not $entry) { throw "Missing $file in $zipPath" }
+                $reader = [System.IO.StreamReader]::new($entry.Open())
+                try { $content = $reader.ReadToEnd() } finally { $reader.Dispose() }
+                if ($content -cne (Get-Content -Raw -LiteralPath $file)) { throw "Stale $file in $zipPath" }
+              }
+              if ($suffix -eq "-portable") {
+                foreach ($file in @("node.exe", "WarThunderResearchCalculator.exe")) {
+                  $entry = $archive.GetEntry($file)
+                  if (-not $entry -or $entry.Length -eq 0) { throw "Missing runtime: $file" }
+                }
+              }
+              Write-Host "Verified $zipPath"
+            } finally { $archive.Dispose() }
+          }
+
+      - name: Create GitHub Release
+        shell: pwsh
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          $tag = "v" + (Get-Content -Raw package.json | ConvertFrom-Json).version
+          gh release create $tag `
+            --target $env:GITHUB_SHA `
+            --latest `
+            --title "War Thunder 研发计算器 $tag" `
+            --notes "## 下载与使用`n普通玩家请下载 **WarThunderResearchCalculator-$tag-portable.zip**，解压到新文件夹后双击 WarThunderResearchCalculator.exe，无需安装 Node.js。`n`n## 更新内容`n- 修复鼠标停在科技树区域时无法上下滚轮的问题，保留横向滚动。`n- 移除毛玻璃和固定背景图层，减轻载具卡片阴影。`n- 桌面研发连线在空闲时绘制；窄屏或触控设备隐藏连线并跳过计算。`n- 本地版与 Pages 静态版同步滚动修复，Pages 说明默认收起。`n- 本次未重新抓取全部 Wiki 数据，内置数据仍为已有快照。`n`n网页版：https://plastic-time.github.io/K13shot/" `
+            "WarThunderResearchCalculator-$tag-portable.zip" `
+            "WarThunderResearchCalculator-$tag.zip"
