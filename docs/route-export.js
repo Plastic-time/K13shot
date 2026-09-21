@@ -91,7 +91,8 @@
       await document.fonts.ready;
       await embedImages(tree);
       const height = Math.ceil(sheet.scrollHeight);
-      const scale = Math.min(1, 16000 / width, 16000 / height, Math.sqrt(32000000 / (width * height)));
+      // Re-render text and paths at 2x without increasing the existing mobile canvas limits.
+      const scale = Math.min(2, 16000 / width, 16000 / height, Math.sqrt(32000000 / (width * height)));
       const canvas = await window.htmlToImage.toCanvas(sheet, {
         width, height, pixelRatio: scale, backgroundColor: "#edf0ed",
         skipAutoScale: true,
