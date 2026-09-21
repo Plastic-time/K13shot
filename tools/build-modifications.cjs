@@ -2,6 +2,7 @@ const fs = require("node:fs");
 const path = require("node:path");
 const crypto = require("node:crypto");
 const cheerio = require("cheerio");
+const { modificationIcon } = require("./modification-icons.cjs");
 
 const root = path.resolve(__dirname, "..");
 const datamineRoot = path.join(root, "logs", "datamine");
@@ -96,11 +97,6 @@ function numberNearIcon(popover, alt) {
   return match ? Number(match[0]) : 0;
 }
 
-function compactIcon(source) {
-  const prefix = "https://static.encyclopedia.warthunder.com/gui_skin/";
-  return source.startsWith(prefix) ? source.slice(prefix.length) : source;
-}
-
 function parseVehicle(vehicleId, meta, modificationNames, report) {
   const wikiPath = path.join(wikiRoot, `${vehicleId}.html`);
   if (!fs.existsSync(wikiPath)) {
@@ -144,7 +140,7 @@ function parseVehicle(vehicleId, meta, modificationNames, report) {
             column: logicalColumn + buttonIndex,
             zh: localized.zh || wikiEn,
             en: localized.en || wikiEn,
-            icon: compactIcon(popover(".game-unit_popover-header img").first().attr("src") || ""),
+            icon: modificationIcon(meta.chunk, popover),
             rp: numberNearIcon(popover, "RP"),
             sl: numberNearIcon(popover, "SL"),
             ge: numberNearIcon(popover, "GE"),
