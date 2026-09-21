@@ -45,9 +45,11 @@ foreach ($item in $portableItems) {
   Copy-Item -LiteralPath (Join-Path $root $item) -Destination $portableRoot -Recurse -Force
 }
 Copy-Item -LiteralPath (Join-Path $launcherOutput "WarThunderResearchCalculator.exe") -Destination $portableRoot -Force
-# Axios release notes contain illustrative URL credentials and are not runtime files.
-$axiosChangelog = Join-Path $portableRoot "node_modules\\axios\\CHANGELOG.md"
-if (Test-Path -LiteralPath $axiosChangelog) { Remove-Item -LiteralPath $axiosChangelog }
+# Axios documentation contains illustrative URL credentials and is not needed at runtime.
+foreach ($name in @('CHANGELOG.md', 'README.md')) {
+  $documentation = Join-Path $portableRoot "node_modules\\axios\\$name"
+  if (Test-Path -LiteralPath $documentation) { Remove-Item -LiteralPath $documentation }
+}
 
 $sourceItems = @("config", "database", "dict", "doc", "docs", "public", "src", ".github", ".githooks", ".gitattributes", ".gitignore", "AGENTS.md", "main.js", "package.json", "package-lock.json", "README.md")
 foreach ($item in $sourceItems) {
