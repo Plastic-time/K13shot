@@ -105,6 +105,48 @@ assert.deepEqual(j16.totals, { rp: 315000, sl: 482000 });
 const pl12a = planner.plan(j16, ["cn_pl12a"], []);
 assert.deepEqual({ rp: pl12a.rp, sl: pl12a.sl }, { rp: 110000, sl: 168000 });
 
+for (const file of ["modification-planner.js", "modifications.js", "modifications.css"]) {
+  assert.deepEqual(fs.readFileSync(path.join(root, "public", file)), fs.readFileSync(path.join(root, "docs", file)), `${file}: copies differ`);
+}
+assert(planner.isAutomaticallyUnlocked({ rp: 0, sl: 0 }));
+for (const mod of [{ rp: null, sl: 0 }, { rp: 0 }, { rp: "0", sl: 0 }, { rp: 0, sl: 50 }, { rp: 50, sl: 0 }]) {
+  assert(!planner.isAutomaticallyUnlocked(mod), "Only explicit zero RP and SL are unlocked");
+}
+
+const wolfpack = vehicles.get("us_m1128_wolfpack");
+assert(wolfpack.mods.every(planner.isAutomaticallyUnlocked));
+const unlockedPlan = planner.plan(wolfpack, wolfpack.mods.map(mod => mod.id), []);
+assert.equal(unlockedPlan.researchedIds.length, wolfpack.mods.length);
+assert.deepEqual(unlockedPlan.selectedIds, []);
+assert.deepEqual(unlockedPlan.includedIds, []);
+assert.deepEqual(unlockedPlan.dependencyIds, []);
+assert.deepEqual(unlockedPlan.fillerIds, []);
+assert.equal(unlockedPlan.rp + unlockedPlan.sl, 0);
+for (let tier = 1; tier <= 4; tier++) {
+  assert.equal(unlockedPlan.tierCounts[tier], wolfpack.mods.filter(mod => mod.tier === tier).length);
+}
+
+const mixed = {
+  tierRequirements: { 1: 2, 2: 0, 3: 0 },
+  mods: [
+    { id: "free", tier: 1, rp: 0, sl: 0, order: 0 },
+    { id: "filler", tier: 1, rp: 100, sl: 20, order: 1 },
+    { id: "expensive", tier: 1, rp: 500, sl: 100, order: 2 },
+    { id: "target", tier: 2, rp: 200, sl: 40, requires: ["free"], order: 3 },
+    { id: "freeHigh", tier: 4, rp: 0, sl: 0, order: 4 },
+  ],
+};
+const mixedPlan = planner.plan(mixed, ["free", "target", "freeHigh"], ["freeHigh"]);
+assert.deepEqual(mixedPlan.selectedIds, ["target"]);
+assert.deepEqual(mixedPlan.includedIds, ["filler", "target"]);
+assert.deepEqual(mixedPlan.dependencyIds, []);
+assert.deepEqual(mixedPlan.fillerIds, ["filler"]);
+assert.deepEqual(mixedPlan.tierCounts, { 1: 2, 2: 1, 3: 0, 4: 1 });
+assert.deepEqual([mixedPlan.rp, mixedPlan.sl], [300, 60]);
+const ownedMixed = planner.plan(mixed, ["target"], ["filler"]);
+assert.deepEqual(ownedMixed.includedIds, ["target"]);
+assert.deepEqual([ownedMixed.rp, ownedMixed.sl], [200, 40]);
+
 const audit = readJson(path.join(root, "tools", "modifications-audit.json"));
 assert.equal(catalog.stats.vehicles + audit.withoutTables, catalog.stats.treeUnits);
 assert.deepEqual({

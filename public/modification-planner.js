@@ -3,10 +3,16 @@
   if (typeof module === "object" && module.exports) module.exports = api;
   else root.ModificationPlanner = api;
 })(typeof globalThis === "object" ? globalThis : this, function createModificationPlanner() {
+  function isAutomaticallyUnlocked(mod) {
+    return mod.rp === 0 && mod.sl === 0;
+  }
+
   function plan(data, selectedIds, researchedIds) {
     const byId = new Map(data.mods.map(mod => [mod.id, mod]));
-    const selected = new Set(selectedIds.filter(id => byId.has(id)));
-    const researched = new Set(researchedIds.filter(id => byId.has(id)));
+    const unlocked = new Set(data.mods.filter(isAutomaticallyUnlocked).map(mod => mod.id));
+    const selected = new Set(selectedIds.filter(id => byId.has(id) && !unlocked.has(id)));
+    const manuallyResearched = new Set(researchedIds.filter(id => byId.has(id) && !unlocked.has(id)));
+    const researched = new Set([...manuallyResearched, ...unlocked]);
     const included = new Set();
     const dependencies = new Set();
     const fillers = new Set();
@@ -43,7 +49,8 @@
 
     for (let tier = 1; tier <= 3; tier += 1) {
       const higherPlanned = [...included].some(id => byId.get(id).tier > tier);
-      const higherResearched = [...researched].some(id => byId.get(id).tier > tier);
+      // A free high-tier module alone does not prove that earlier tiers were completed.
+      const higherResearched = [...manuallyResearched].some(id => byId.get(id).tier > tier);
       if (!higherPlanned || higherResearched) continue;
       const requiredCount = Number(data.tierRequirements[tier] || 0);
       while (countTier(tier) < requiredCount) {
@@ -78,5 +85,5 @@
     };
   }
 
-  return { plan };
+  return { plan, isAutomaticallyUnlocked };
 });

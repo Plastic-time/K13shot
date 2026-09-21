@@ -9,7 +9,7 @@
   const rpOutput = document.getElementById("modificationRp");
   const slOutput = document.getElementById("modificationSl");
   const status = document.getElementById("modificationStatus");
-  const ui = { data: null, selected: new Set(), researched: new Set(), result: null };
+  const ui = { data: null, selected: new Set(), researched: new Set(), unlocked: new Set(), result: null };
   let catalog = null;
   let catalogPromise = null;
   const chunkCache = new Map();
@@ -102,7 +102,7 @@
   function restore() {
     try {
       const saved = JSON.parse(localStorage.getItem(storageKey(ui.data.vehicleId)) || "{}");
-      const ids = new Set(ui.data.mods.map(mod => mod.id));
+      const ids = new Set(ui.data.mods.filter(mod => !ui.unlocked.has(mod.id)).map(mod => mod.id));
       ui.selected = new Set((saved.selected || []).filter(id => ids.has(id)));
       ui.researched = new Set((saved.researched || []).filter(id => ids.has(id)));
     } catch {
@@ -115,14 +115,14 @@
     if (ui.result) return ui.result.tierCounts;
     const counts = { 1: 0, 2: 0, 3: 0, 4: 0 };
     for (const mod of ui.data.mods) {
-      if (ui.researched.has(mod.id) || ui.selected.has(mod.id)) counts[mod.tier] += 1;
+      if (ui.unlocked.has(mod.id) || ui.researched.has(mod.id) || ui.selected.has(mod.id)) counts[mod.tier] += 1;
     }
     return counts;
   }
 
   function manualBudget() {
     return ui.data.mods.reduce((budget, mod) => {
-      if (ui.selected.has(mod.id) && !ui.researched.has(mod.id)) {
+      if (ui.selected.has(mod.id) && !ui.researched.has(mod.id) && !ui.unlocked.has(mod.id)) {
         budget.rp += mod.rp;
         budget.sl += mod.sl;
       }
@@ -131,6 +131,7 @@
   }
 
   function tileState(mod) {
+    if (ui.unlocked.has(mod.id)) return "unlocked";
     if (ui.researched.has(mod.id)) return "researched";
     if (ui.selected.has(mod.id)) return "target";
     if (ui.result?.dependencyIds.includes(mod.id)) return "dependency";
@@ -154,7 +155,7 @@
     }
     const tierCounts = currentTierCounts();
     const selectedCount = ui.selected.size;
-    const plannedSet = new Set([...(ui.result?.includedIds || []), ...ui.researched]);
+    const plannedSet = new Set([...(ui.result?.includedIds || []), ...ui.researched, ...ui.unlocked]);
     const cells = [];
     for (let tier = 1; tier <= 4; tier += 1) {
       for (let column = 0; column < totalColumns; column += 1) {
@@ -174,14 +175,15 @@
       const column = categoryOffsets.get(mod.category) + mod.column + 2;
       const stateName = tileState(mod);
       const isPlanned = plannedSet.has(mod.id);
+      const unlocked = ui.unlocked.has(mod.id);
       const name = mod.name[lang] || mod.name.en;
-      const titleText = `${name} / ${mod.name.en}\nRP ${format(mod.rp)} · SL ${format(mod.sl)}\n左键：目标 · 右键：已研发`;
+      const titleText = `${name} / ${mod.name.en}\n${unlocked ? "已解锁" : `RP ${format(mod.rp)} · SL ${format(mod.sl)}\n左键：目标 · 右键：已研发`}`;
       return `
         <button class="modification-tile ${stateName}${isPlanned ? " is-planned" : ""}" type="button"
-          data-mod-id="${escape(mod.id)}" style="grid-column:${column};grid-row:${mod.tier + 1}" title="${escape(titleText)}">
+          data-mod-id="${escape(mod.id)}" style="grid-column:${column};grid-row:${mod.tier + 1}" title="${escape(titleText)}"${unlocked ? " disabled" : ""}>
           <img src="${escape(mod.icon)}" alt="" loading="eager">
-          <span class="modification-tile-copy"><b>${escape(name)}</b><small>${format(mod.rp)} RP · ${format(mod.sl)} SL</small></span>
-          ${stateName ? `<span class="modification-state">${stateName === "researched" ? "✓ " : ""}${stateLabel(mod)}</span>` : ""}
+          <span class="modification-tile-copy"><b>${escape(name)}</b><small>${unlocked ? "✓ 已解锁" : `${format(mod.rp)} RP · ${format(mod.sl)} SL`}</small></span>
+          ${stateName && !unlocked ? `<span class="modification-state">${stateName === "researched" ? "✓ " : ""}${stateLabel(mod)}</span>` : ""}
         </button>`;
     });
 
@@ -194,7 +196,9 @@
     const budget = ui.result || manualBudget();
     rpOutput.textContent = format(budget.rp);
     slOutput.textContent = format(budget.sl);
-    if (ui.result) {
+    if (ui.unlocked.size === ui.data.mods.length) {
+      status.textContent = "全部配件已解锁";
+    } else if (ui.result) {
       const autoCount = ui.result.dependencyIds.length + ui.result.fillerIds.length;
       status.textContent = `目标 ${selectedCount} · 自动加入 ${autoCount} · 尚需研发 ${ui.result.includedIds.length}`;
     } else {
@@ -214,7 +218,7 @@
     svg.setAttribute("width", board.scrollWidth);
     svg.setAttribute("height", board.scrollHeight);
     svg.querySelectorAll("path.modification-link").forEach(path => path.remove());
-    const active = new Set([...(ui.result?.includedIds || []), ...ui.researched]);
+    const active = new Set([...(ui.result?.includedIds || []), ...ui.researched, ...ui.unlocked]);
     for (const mod of ui.data.mods) {
       const target = board.querySelector(`[data-mod-id="${CSS.escape(mod.id)}"]`);
       if (!target) continue;
@@ -247,6 +251,7 @@
     try {
       if (ui.data?.vehicleId !== vehicleId) {
         ui.data = await loadVehicle(vehicleId);
+        ui.unlocked = new Set(ui.data.mods.filter(window.ModificationPlanner.isAutomaticallyUnlocked).map(mod => mod.id));
         ui.result = null;
         restore();
       }
@@ -277,6 +282,7 @@
     const tile = event.target.closest("[data-mod-id]");
     if (!tile) return;
     const id = tile.dataset.modId;
+    if (ui.unlocked.has(id)) return;
     if (ui.researched.has(id)) ui.researched.delete(id);
     if (ui.selected.has(id)) ui.selected.delete(id); else ui.selected.add(id);
     ui.result = null;
@@ -289,6 +295,7 @@
     if (!tile) return;
     event.preventDefault();
     const id = tile.dataset.modId;
+    if (ui.unlocked.has(id)) return;
     if (ui.researched.has(id)) ui.researched.delete(id);
     else { ui.researched.add(id); ui.selected.delete(id); }
     ui.result = null;
@@ -301,7 +308,7 @@
     if (!action) return;
     if (action === "calculate") calculate();
     if (action === "all") {
-      ui.selected = new Set(ui.data.mods.filter(mod => !ui.researched.has(mod.id)).map(mod => mod.id));
+      ui.selected = new Set(ui.data.mods.filter(mod => !ui.researched.has(mod.id) && !ui.unlocked.has(mod.id)).map(mod => mod.id));
       calculate();
     }
     if (action === "clear") { ui.selected.clear(); ui.result = null; save(); render(); }

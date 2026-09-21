@@ -773,6 +773,7 @@ function renderUnit(unit, inFolder = false) {
       <span>
         <span class="unit-title">${updateBadge}${escapeHtml(displayTitle(unit))}</span>
         <span class="unit-meta">
+          ${window.RosterAudit?.badges(state.country, state.type, unit, displayTitle(unit)) || ""}
           <span class="pill">BR ${escapeHtml(unit.br || "-")}</span>
           ${squadron ? `<span class="pill squadron-label">联队载具</span>` : `<span class="pill rp">RP ${formatCost(unit.rp)}</span><span class="pill sp">SL ${formatCost(unit.sp)}</span>`}
           ${unlocked ? `<span class="pill unlocked">初始载具</span>` : ""}
@@ -1249,6 +1250,7 @@ async function init() {
   try {
     wireEvents();
     await loadRosterReport();
+    await window.RosterAudit?.load();
     await loadLocalizedNames();
     await window.ModificationWorkbench?.loadCatalog();
     await loadMeta();
