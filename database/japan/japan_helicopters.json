@@ -1,0 +1,148 @@
+[
+  {
+    "rank": "V",
+    "researchable_vehicles": [
+      [
+        {
+          "type": "single",
+          "title": "▅UH-1B",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/uh_1b_japan.png",
+          "br": "7.7",
+          "rp": null,
+          "sp": "390,000",
+          "data_unit_id": "uh_1b_japan",
+          "selected": false,
+          "class_name": "",
+          "details": true,
+          "main_role": "Utility helicopter"
+        }
+      ],
+      []
+    ],
+    "premium_vehicles": [
+      []
+    ],
+    "selected": [],
+    "unlock_quantity": 0
+  },
+  {
+    "rank": "VI",
+    "researchable_vehicles": [
+      [
+        {
+          "type": "single",
+          "title": "▅AH-1E",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/ah_1s_early.png",
+          "br": "9.3",
+          "rp": "360,000",
+          "sp": "980,000",
+          "data_unit_id": "ah_1s_early",
+          "selected": false,
+          "class_name": "",
+          "details": true,
+          "main_role": "Attack helicopter"
+        },
+        {
+          "type": "single",
+          "title": "AH-1S",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/ah_1s_late.png",
+          "br": "9.7",
+          "rp": "380,000",
+          "sp": "1,000,000",
+          "data_unit_id": "ah_1s_late",
+          "selected": false,
+          "class_name": "",
+          "details": true,
+          "main_role": "Attack helicopter"
+        }
+      ],
+      [
+        {
+          "type": "single",
+          "title": "◥Mi-35",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/mi_35p_indonesia.png",
+          "br": "9.7",
+          "rp": "370,000",
+          "sp": "990,000",
+          "data_unit_id": "mi_35p_indonesia",
+          "selected": false,
+          "class_name": "",
+          "details": true,
+          "main_role": "Attack helicopter"
+        }
+      ]
+    ],
+    "premium_vehicles": [
+      [
+        {
+          "type": "single",
+          "title": "AH-1S Kisarazu",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/ah_1s.png",
+          "br": "9.7",
+          "rp": 0,
+          "sp": 0,
+          "data_unit_id": "ah_1s",
+          "selected": false,
+          "class_name": "prem",
+          "details": true,
+          "main_role": "Attack helicopter"
+        }
+      ]
+    ],
+    "selected": [],
+    "unlock_quantity": 0
+  },
+  {
+    "rank": "VII",
+    "researchable_vehicles": [
+      [
+        {
+          "type": "single",
+          "title": "AH-64DJP",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/ah_64d_japan.png",
+          "br": "11.7",
+          "rp": "400,000",
+          "sp": "1,020,000",
+          "data_unit_id": "ah_64d_japan",
+          "selected": false,
+          "class_name": "",
+          "details": true,
+          "main_role": "Attack helicopter"
+        },
+        {
+          "type": "single",
+          "title": "◥AH-64E",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/ah_64e_indonesia.png",
+          "br": "13.0",
+          "rp": "400,000",
+          "sp": "1,030,000",
+          "data_unit_id": "ah_64e_indonesia",
+          "selected": false,
+          "class_name": "",
+          "details": true,
+          "main_role": "Attack helicopter"
+        }
+      ],
+      []
+    ],
+    "premium_vehicles": [
+      [
+        {
+          "type": "single",
+          "title": "AH-64DJP (AT)",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/ah_64d_lightweight_japan.png",
+          "br": "11.7",
+          "rp": 0,
+          "sp": 0,
+          "data_unit_id": "ah_64d_lightweight_japan",
+          "selected": false,
+          "class_name": "prem",
+          "details": true,
+          "main_role": "Attack helicopter"
+        }
+      ]
+    ],
+    "selected": [],
+    "unlock_quantity": 0
+  }
+]
