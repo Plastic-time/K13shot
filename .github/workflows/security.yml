@@ -26,4 +26,5 @@ jobs:
       - run: node tools/test-planner.cjs
       - run: node tools/test-modifications.cjs
       - run: node tools/test-ui-entrypoints.cjs
+      - run: node --test tools/test-online-client.cjs
       - run: node tools/check-publish-privacy.cjs

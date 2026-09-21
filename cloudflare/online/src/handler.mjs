@@ -42,7 +42,10 @@ export async function handleRequest(request, env) {
     "X-Content-Type-Options": "nosniff",
     "Vary": "Origin",
   });
-  if (allowed) headers.set("Access-Control-Allow-Origin", origin);
+  if (allowed) {
+    headers.set("Access-Control-Allow-Origin", origin);
+    headers.set("Access-Control-Expose-Headers", "Retry-After");
+  }
   const respond = (body, status = 200, extra = {}) => new Response(status === 204 ? null : JSON.stringify(body), {
     status, headers: new Headers([...headers, ...Object.entries(extra)]),
   });

@@ -30,6 +30,7 @@ test("simple POST returns the count and exact CORS origin, never credentials or 
   assert.equal(response.status, 200);
   assert.equal((await response.json()).online, 2);
   assert.equal(response.headers.get("Access-Control-Allow-Origin"), origin);
+  assert.equal(response.headers.get("Access-Control-Expose-Headers"), "Retry-After");
   assert.equal(response.headers.get("Access-Control-Allow-Credentials"), null);
   assert.equal(response.headers.get("Cache-Control"), "no-store");
   assert.equal(response.headers.get("Set-Cookie"), null);

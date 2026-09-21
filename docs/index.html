@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <title>War Thunder 研发计算器</title>
     <link rel="stylesheet" href="styles.css?v=touch-menu-20260921">
+    <link rel="stylesheet" href="online-count.css?v=20260921-1">
   </head>
   <body>
     <div class="app-shell">
@@ -14,6 +15,7 @@
           <div class="brand-title">
             <h1>War Thunder 研发计算器</h1>
             <span class="game-version" title="载具 RP / 银狮于 2026-09-21 核对；配件沿用独立快照">游戏数据 <span data-game-version>2.59.0.17</span></span>
+            <span id="onlineCount" class="online-count" data-state="connecting" role="status" aria-live="polite" aria-atomic="true" title="最近 90 秒活跃的浏览器估计数，同一浏览器多个标签页合并统计">当前在线：连接中</span>
           </div>
           <p id="statusText">正在载入静态科技树数据</p>
           <div class="creator-watermark" aria-label="作者水印">
@@ -260,5 +262,6 @@
     <script src="vehicle-folders.js?v=focused-popup-20260921"></script>
     <script src="vehicle-long-press.js?v=touch-menu-20260921"></script>
     <script src="app.js?v=touch-menu-20260921"></script>
+    <script src="online-count.js?v=20260921-1" defer data-endpoint="https://k13shot-online.k13shot-tools.workers.dev/heartbeat"></script>
   </body>
 </html>

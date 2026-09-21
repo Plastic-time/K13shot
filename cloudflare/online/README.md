@@ -1,6 +1,6 @@
 # K13shot online counter
 
-Independent Cloudflare Worker for the GitHub Pages calculator. This directory does not deploy the calculator, modify vehicle data, or package the desktop app. The front-end integration is a separate step after the Worker URL is known.
+Independent Cloudflare Worker for the GitHub Pages calculator. This directory does not deploy the calculator, modify vehicle data, or package the desktop app. The browser client is in `docs/online-count.js`, separate from the planning code; see [the Chinese maintenance guide](../../doc/online-counter.md).
 
 ## Dashboard setup
 
@@ -32,7 +32,7 @@ After deployment, share only the public HTTPS Worker URL. Verify a real `/heartb
 - All requests route to one named Durable Object. SQL transactions serialize updates, and SQLite preserves state across Worker eviction/restart. Plain Worker memory is not the source of truth.
 - Records last seen 90 seconds ago are excluded before every count; the next accepted write also removes them from the stored snapshot. No background alarm or cron job is required. If nobody visits again, expired random identifiers remain in that bounded snapshot until a later write or manual removal; expiry is not a promise of physical data deletion after 90 seconds.
 - Duplicate IDs do not add to the count. Updates for the same ID within 15 seconds do not write again. There is no explicit leave endpoint: closing one of several tabs must not remove another active tab.
-- The planned browser client shares a short-lived random identifier across tabs, elects one visible tab to report every 30 seconds, pauses when all tabs are hidden, and resumes when visible. Those browser behaviors are not implemented by this backend alone.
+- The browser client shares a random identifier across tabs, coordinates requests through Web Locks (with a best-effort local-storage lease fallback), reports about every 30 seconds, pauses when all tabs are hidden, and resumes when visible. An ID is replaced on the next report after 30 minutes of inactivity; browser storage is not automatically erased on tab closure. Blocking local storage disables the counter instead of generating one ID per tab. Private browsing and different browser profiles count separately.
 
 ## Limits and failure handling
 
@@ -41,7 +41,7 @@ After deployment, share only the public HTTPS Worker URL. Verify a real `/heartb
 - Maximum active IDs: 512. A single SQLite row contains the bounded snapshot and write budget. A normal accepted heartbeat selects one row and updates one row without secondary indexes; repeat requests inside the write interval are read-only. Pruning is included in that same write rather than issuing separate deletes per visitor.
 - The counter stops accepting new writes at 80,000/day (UTC), leaving nominal headroom below the published free 100,000 writes/day. This is an application guard, not a cap on total Cloudflare account requests, reads, duration, or spending. Other Workers and abuse can consume those quotas independently. Check actual platform usage after deployment.
 - At a 30-second interval, 80,000 regular heartbeats represent about 667 visitor-hours before initial visits and retries. Treat this as an estimate, not a capacity guarantee.
-- `429` means throttled; `503` means storage unavailable, capacity reached, or the daily write budget exhausted. Responses include `Retry-After`. The browser must back off, show unavailable instead of a false zero, and keep the calculator usable.
+- `429` means throttled; `503` means storage unavailable, capacity reached, or the daily write budget exhausted. Responses include `Retry-After`, exposed through CORS. The browser honors this delay, backs off after network errors, shows unavailable instead of a false zero, and keeps the calculator usable.
 - Worker responses are not cached. Application logging is disabled by default; code does not log request bodies or identifiers. Cloudflare still processes connection metadata and may retain platform diagnostics. Do not promise that no infrastructure ever sees an IP address.
 
 ## Quotas and maintenance
