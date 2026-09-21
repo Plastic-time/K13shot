@@ -1,0 +1,928 @@
+[
+  {
+    "rank": "IV",
+    "researchable_vehicles": [
+      [
+        {
+          "type": "single",
+          "title": "M-51",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/il_m_51.png",
+          "br": "6.3",
+          "rp": null,
+          "sp": "155,000",
+          "data_unit_id": "il_m_51",
+          "selected": false,
+          "class_name": "",
+          "details": true,
+          "main_role": "Medium tank"
+        },
+        {
+          "type": "multiple",
+          "title": "Magach 1/2",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/il_magach_1_2_group.png",
+          "selected": false,
+          "br": "7.7",
+          "data_unit_id": "il_magach_1_2_group",
+          "class_name": "",
+          "items": [
+            {
+              "type": "single",
+              "title": "Magach 1",
+              "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/il_m48a1_patton_iii.png",
+              "br": "7.7",
+              "rp": "63,000",
+              "sp": "200,000",
+              "data_unit_id": "il_m48a1_patton_iii",
+              "selected": false,
+              "class_name": "",
+              "details": true,
+              "main_role": "Medium tank"
+            },
+            {
+              "type": "single",
+              "title": "Magach 2",
+              "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/il_magach_2.png",
+              "br": "7.7",
+              "rp": "35,000",
+              "sp": "210,000",
+              "data_unit_id": "il_magach_2",
+              "selected": false,
+              "class_name": "",
+              "details": true,
+              "main_role": "Medium tank"
+            }
+          ],
+          "details": true
+        }
+      ],
+      [
+        {
+          "type": "single",
+          "title": "AMX-13",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/il_amx_13_75.png",
+          "br": "7.0",
+          "rp": "54,000",
+          "sp": "185,000",
+          "data_unit_id": "il_amx_13_75",
+          "selected": false,
+          "class_name": "",
+          "details": true,
+          "main_role": "Light tank"
+        },
+        {
+          "type": "single",
+          "title": "AML-90",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/il_aml_90.png",
+          "br": "7.7",
+          "rp": "63,000",
+          "sp": "200,000",
+          "data_unit_id": "il_aml_90",
+          "selected": false,
+          "class_name": "",
+          "details": true,
+          "main_role": "Light tank"
+        },
+        {
+          "type": "single",
+          "title": "Sho't",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/il_centurion_mk_5_shot.png",
+          "br": "7.7",
+          "rp": "71,000",
+          "sp": "210,000",
+          "data_unit_id": "il_centurion_mk_5_shot",
+          "selected": false,
+          "class_name": "",
+          "details": true,
+          "main_role": "Medium tank"
+        }
+      ],
+      [
+        {
+          "type": "single",
+          "title": "TCM-20",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/il_tcm_20.png",
+          "br": "4.3",
+          "rp": "46,000",
+          "sp": "155,000",
+          "data_unit_id": "il_tcm_20",
+          "selected": false,
+          "class_name": "",
+          "details": true,
+          "main_role": "SPAA"
+        },
+        {
+          "type": "single",
+          "title": "ZSU-57-2",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/il_zsu_57_2.png",
+          "br": "7.0",
+          "rp": "63,000",
+          "sp": "200,000",
+          "data_unit_id": "il_zsu_57_2",
+          "selected": false,
+          "class_name": "",
+          "details": true,
+          "main_role": "SPAA"
+        },
+        {
+          "type": "single",
+          "title": "Hovet",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/il_m163_vulcan.png",
+          "br": "7.3",
+          "rp": "82,000",
+          "sp": "240,000",
+          "data_unit_id": "il_m163_vulcan",
+          "selected": false,
+          "class_name": "",
+          "details": true,
+          "main_role": "SPAA"
+        }
+      ],
+      [
+        {
+          "type": "single",
+          "title": "M109",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/il_m109.png",
+          "br": "6.0",
+          "rp": "46,000",
+          "sp": "155,000",
+          "data_unit_id": "il_m109",
+          "selected": false,
+          "class_name": "",
+          "details": true,
+          "main_role": "Tank destroyer"
+        },
+        {
+          "type": "multiple",
+          "title": "Rochev/Tager",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/il_rochev_tager_group.png",
+          "selected": false,
+          "br": "6.3-6.7",
+          "data_unit_id": "il_rochev_tager_group",
+          "class_name": "",
+          "items": [
+            {
+              "type": "single",
+              "title": "Rochev",
+              "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/il_m109a1.png",
+              "br": "6.3",
+              "rp": "54,000",
+              "sp": "185,000",
+              "data_unit_id": "il_m109a1",
+              "selected": false,
+              "class_name": "",
+              "details": true,
+              "main_role": "Tank destroyer"
+            },
+            {
+              "type": "single",
+              "title": "Zachlam Tager",
+              "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/il_ss_11_halftrack.png",
+              "br": "6.7",
+              "rp": "31,000",
+              "sp": "200,000",
+              "data_unit_id": "il_ss_11_halftrack",
+              "selected": false,
+              "class_name": "",
+              "details": true,
+              "main_role": "Tank destroyer"
+            }
+          ],
+          "details": true
+        }
+      ]
+    ],
+    "premium_vehicles": [
+      [
+        {
+          "type": "single",
+          "title": "M-51 (W)",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/il_m_51_w.png",
+          "br": "6.3",
+          "rp": 0,
+          "sp": 0,
+          "data_unit_id": "il_m_51_w",
+          "selected": false,
+          "class_name": "prem",
+          "details": true,
+          "main_role": "Medium tank"
+        },
+        {
+          "type": "single",
+          "title": "Sholef",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/il_sholef.png",
+          "br": "7.3",
+          "rp": 0,
+          "sp": 0,
+          "data_unit_id": "il_sholef",
+          "selected": false,
+          "class_name": "prem",
+          "details": true,
+          "main_role": "Tank destroyer"
+        }
+      ]
+    ],
+    "selected": [],
+    "unlock_quantity": 0
+  },
+  {
+    "rank": "V",
+    "researchable_vehicles": [
+      [
+        {
+          "type": "multiple",
+          "title": "Magach 3/6",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/il_magach_3_6_group.png",
+          "selected": false,
+          "br": "8.0",
+          "data_unit_id": "il_magach_3_6_group",
+          "class_name": "",
+          "items": [
+            {
+              "type": "single",
+              "title": "Magach 3",
+              "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/il_magach_3_idf.png",
+              "br": "8.0",
+              "rp": "82,000",
+              "sp": "240,000",
+              "data_unit_id": "il_magach_3_idf",
+              "selected": false,
+              "class_name": "",
+              "details": true,
+              "main_role": "Medium tank"
+            },
+            {
+              "type": "single",
+              "title": "Magach 6",
+              "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/il_magach_6.png",
+              "br": "8.0",
+              "rp": "48,000",
+              "sp": "270,000",
+              "data_unit_id": "il_magach_6",
+              "selected": false,
+              "class_name": "",
+              "details": true,
+              "main_role": "Medium tank"
+            }
+          ],
+          "details": true
+        },
+        {
+          "type": "multiple",
+          "title": "Magach 6A/5",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/il_magach_6a_5_group.png",
+          "selected": false,
+          "br": "8.0",
+          "data_unit_id": "il_magach_6a_5_group",
+          "class_name": "",
+          "items": [
+            {
+              "type": "single",
+              "title": "Magach 6A",
+              "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/il_magach_6a.png",
+              "br": "8.0",
+              "rp": "95,000",
+              "sp": "270,000",
+              "data_unit_id": "il_magach_6a",
+              "selected": false,
+              "class_name": "",
+              "details": true,
+              "main_role": "Medium tank"
+            },
+            {
+              "type": "single",
+              "title": "Magach 5",
+              "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/il_magach_5.png",
+              "br": "8.0",
+              "rp": "53,000",
+              "sp": "300,000",
+              "data_unit_id": "il_magach_5",
+              "selected": false,
+              "class_name": "",
+              "details": true,
+              "main_role": "Medium tank"
+            }
+          ],
+          "details": true
+        }
+      ],
+      [
+        {
+          "type": "multiple",
+          "title": "Tiran 4/4S",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/il_tiran_4_group.png",
+          "selected": false,
+          "br": "8.0",
+          "data_unit_id": "il_tiran_4_group",
+          "class_name": "",
+          "items": [
+            {
+              "type": "single",
+              "title": "Tiran 4",
+              "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/il_tiran_4.png",
+              "br": "8.0",
+              "rp": "82,000",
+              "sp": "240,000",
+              "data_unit_id": "il_tiran_4",
+              "selected": false,
+              "class_name": "",
+              "details": true,
+              "main_role": "Medium tank"
+            },
+            {
+              "type": "single",
+              "title": "Tiran 4S",
+              "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/il_tiran_4_sh.png",
+              "br": "8.0",
+              "rp": "48,000",
+              "sp": "270,000",
+              "data_unit_id": "il_tiran_4_sh",
+              "selected": false,
+              "class_name": "",
+              "details": true,
+              "main_role": "Medium tank"
+            }
+          ],
+          "details": true
+        },
+        {
+          "type": "single",
+          "title": "Sho't Kal Alef",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/il_centurion_shot_kal_alef.png",
+          "br": "8.0",
+          "rp": "105,000",
+          "sp": "300,000",
+          "data_unit_id": "il_centurion_shot_kal_alef",
+          "selected": false,
+          "class_name": "",
+          "details": true,
+          "main_role": "Medium tank"
+        }
+      ],
+      [
+        {
+          "type": "single",
+          "title": "ZSU-23-4V",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/il_zsu_23_4.png",
+          "br": "8.0",
+          "rp": "135,000",
+          "sp": "380,000",
+          "data_unit_id": "il_zsu_23_4",
+          "selected": false,
+          "class_name": "",
+          "details": true,
+          "main_role": "SPAA"
+        }
+      ],
+      [
+        {
+          "type": "single",
+          "title": "Bardelas/60mm HVMS",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/il_m113_hvms.png",
+          "br": "7.7",
+          "rp": "120,000",
+          "sp": "340,000",
+          "data_unit_id": "il_m113_hvms",
+          "selected": false,
+          "class_name": "",
+          "details": true,
+          "main_role": "Light tank"
+        }
+      ]
+    ],
+    "premium_vehicles": [
+      [
+        {
+          "type": "single",
+          "title": "Magach 3 (ERA)",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/il_magach_3.png",
+          "br": "8.0",
+          "rp": 0,
+          "sp": 0,
+          "data_unit_id": "il_magach_3",
+          "selected": false,
+          "class_name": "prem",
+          "details": true,
+          "main_role": "Medium tank"
+        }
+      ]
+    ],
+    "selected": [],
+    "unlock_quantity": 0
+  },
+  {
+    "rank": "VI",
+    "researchable_vehicles": [
+      [
+        {
+          "type": "multiple",
+          "title": "Magach 6 R/B/Hydra",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/il_magach_6_group.png",
+          "selected": false,
+          "br": "8.7",
+          "data_unit_id": "il_magach_6_group",
+          "class_name": "",
+          "items": [
+            {
+              "type": "single",
+              "title": "Magach 6R",
+              "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/il_magach_6r.png",
+              "br": "8.7",
+              "rp": "135,000",
+              "sp": "380,000",
+              "data_unit_id": "il_magach_6r",
+              "selected": false,
+              "class_name": "",
+              "details": true,
+              "main_role": "Medium tank"
+            },
+            {
+              "type": "single",
+              "title": "Magach 6B",
+              "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/il_magach_6b.png",
+              "br": "8.7",
+              "rp": "81,000",
+              "sp": "450,000",
+              "data_unit_id": "il_magach_6b",
+              "selected": false,
+              "class_name": "",
+              "details": true,
+              "main_role": "Medium tank"
+            },
+            {
+              "type": "single",
+              "title": "Magach Hydra",
+              "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/il_magach_6_rocket.png",
+              "br": "8.7",
+              "rp": "94,000",
+              "sp": "520,000",
+              "data_unit_id": "il_magach_6_rocket",
+              "selected": false,
+              "class_name": "",
+              "details": true,
+              "main_role": "Medium tank"
+            }
+          ],
+          "details": true
+        },
+        {
+          "type": "multiple",
+          "title": "Magach 6 M/C",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/il_magach_6m_c_group.png",
+          "selected": false,
+          "br": "9.0-9.3",
+          "data_unit_id": "il_magach_6m_c_group",
+          "class_name": "",
+          "items": [
+            {
+              "type": "single",
+              "title": "Magach 6M",
+              "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/il_magach_6m.png",
+              "br": "9.0",
+              "rp": "160,000",
+              "sp": "450,000",
+              "data_unit_id": "il_magach_6m",
+              "selected": false,
+              "class_name": "",
+              "details": true,
+              "main_role": "Medium tank"
+            },
+            {
+              "type": "single",
+              "title": "Magach 6C",
+              "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/il_magach_6c.png",
+              "br": "9.3",
+              "rp": "94,000",
+              "sp": "520,000",
+              "data_unit_id": "il_magach_6c",
+              "selected": false,
+              "class_name": "",
+              "details": true,
+              "main_role": "Medium tank"
+            }
+          ],
+          "details": true
+        },
+        {
+          "type": "multiple",
+          "title": "Gal Batash/7C",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/il_magach_batash_7_group.png",
+          "selected": false,
+          "br": "9.3",
+          "data_unit_id": "il_magach_batash_7_group",
+          "class_name": "",
+          "items": [
+            {
+              "type": "single",
+              "title": "Gal Batash",
+              "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/il_magach_6b_gal_batash.png",
+              "br": "9.3",
+              "rp": "190,000",
+              "sp": "520,000",
+              "data_unit_id": "il_magach_6b_gal_batash",
+              "selected": false,
+              "class_name": "",
+              "details": true,
+              "main_role": "Medium tank"
+            },
+            {
+              "type": "single",
+              "title": "Magach 7C",
+              "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/il_magach_7c.png",
+              "br": "9.3",
+              "rp": "110,000",
+              "sp": "620,000",
+              "data_unit_id": "il_magach_7c",
+              "selected": false,
+              "class_name": "",
+              "details": true,
+              "main_role": "Medium tank"
+            }
+          ],
+          "details": true
+        }
+      ],
+      [
+        {
+          "type": "multiple",
+          "title": "Sho't/Tiran",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/il_merkava_1_2_group.png",
+          "selected": false,
+          "br": "8.7",
+          "data_unit_id": "il_gimel_tiran_group",
+          "class_name": "",
+          "items": [
+            {
+              "type": "single",
+              "title": "Sho't Kal Gimel",
+              "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/il_centurion_shot_kal_gimel.png",
+              "br": "8.7",
+              "rp": "135,000",
+              "sp": "380,000",
+              "data_unit_id": "il_centurion_shot_kal_gimel",
+              "selected": false,
+              "class_name": "",
+              "details": true,
+              "main_role": "Medium tank"
+            },
+            {
+              "type": "single",
+              "title": "Tiran 6",
+              "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/il_tiran_6.png",
+              "br": "8.7",
+              "rp": "81,000",
+              "sp": "450,000",
+              "data_unit_id": "il_tiran_6",
+              "selected": false,
+              "class_name": "",
+              "details": true,
+              "main_role": "Medium tank"
+            }
+          ],
+          "details": true
+        },
+        {
+          "type": "single",
+          "title": "Merkava Mk.1",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/il_merkava_mk_1.png",
+          "br": "9.3",
+          "rp": "160,000",
+          "sp": "450,000",
+          "data_unit_id": "il_merkava_mk_1",
+          "selected": false,
+          "class_name": "",
+          "details": true,
+          "main_role": "Medium tank"
+        },
+        {
+          "type": "multiple",
+          "title": "Merkava 1B/2B",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/il_merkava_1_2_group.png",
+          "selected": false,
+          "br": "9.7",
+          "data_unit_id": "il_merkava_1_2_group",
+          "class_name": "",
+          "items": [
+            {
+              "type": "single",
+              "title": "Merkava Mk.1B",
+              "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/il_merkava_mk_1b.png",
+              "br": "9.7",
+              "rp": "190,000",
+              "sp": "520,000",
+              "data_unit_id": "il_merkava_mk_1b",
+              "selected": false,
+              "class_name": "",
+              "details": true,
+              "main_role": "Medium tank"
+            },
+            {
+              "type": "single",
+              "title": "Merkava Mk.2B",
+              "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/il_merkava_mk_2b_early.png",
+              "br": "9.7",
+              "rp": "110,000",
+              "sp": "620,000",
+              "data_unit_id": "il_merkava_mk_2b_early",
+              "selected": false,
+              "class_name": "",
+              "details": true,
+              "main_role": "Medium tank"
+            }
+          ],
+          "details": true
+        }
+      ],
+      [
+        {
+          "type": "single",
+          "title": "Machbet",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/il_machbet.png",
+          "br": "9.3",
+          "rp": "220,000",
+          "sp": "620,000",
+          "data_unit_id": "il_machbet",
+          "selected": false,
+          "class_name": "",
+          "details": true,
+          "main_role": "SPAA"
+        }
+      ],
+      [
+        {
+          "type": "single",
+          "title": "Giraf",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/il_m113a1_tow.png",
+          "br": "8.3",
+          "rp": "160,000",
+          "sp": "450,000",
+          "data_unit_id": "il_m113a1_tow",
+          "selected": false,
+          "class_name": "",
+          "details": true,
+          "main_role": "Tank destroyer"
+        }
+      ]
+    ],
+    "premium_vehicles": [
+      [
+        {
+          "type": "single",
+          "title": "Sho't Kal Dalet",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/il_centurion_shot_kal_d.png",
+          "br": "9.0",
+          "rp": 0,
+          "sp": 0,
+          "data_unit_id": "il_centurion_shot_kal_d",
+          "selected": false,
+          "class_name": "prem",
+          "details": true,
+          "main_role": "Medium tank"
+        },
+        {
+          "type": "single",
+          "title": "Magach 6B Gal",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/il_magach_6b_gal.png",
+          "br": "9.3",
+          "rp": "440,000",
+          "sp": "560,000",
+          "data_unit_id": "il_magach_6b_gal",
+          "selected": false,
+          "class_name": "squad",
+          "details": true,
+          "main_role": "Medium tank"
+        },
+        {
+          "type": "single",
+          "title": "Merkava Mk.2D",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/il_merkava_mk_2d.png",
+          "br": "10.0",
+          "rp": 0,
+          "sp": 0,
+          "data_unit_id": "il_merkava_mk_2d",
+          "selected": false,
+          "class_name": "prem",
+          "details": true,
+          "main_role": "Medium tank"
+        }
+      ]
+    ],
+    "selected": [],
+    "unlock_quantity": 0
+  },
+  {
+    "rank": "VII",
+    "researchable_vehicles": [
+      [
+        {
+          "type": "single",
+          "title": "Sabra Mk.I",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/il_sabra_mk1.png",
+          "br": "10.0",
+          "rp": "260,000",
+          "sp": "710,000",
+          "data_unit_id": "il_sabra_mk1",
+          "selected": false,
+          "class_name": "",
+          "details": true,
+          "main_role": "Medium tank"
+        }
+      ],
+      [
+        {
+          "type": "multiple",
+          "title": "Merkava 3 B/C",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/il_merkava_3_group.png",
+          "selected": false,
+          "br": "11.3",
+          "data_unit_id": "il_merkava_3_group",
+          "class_name": "",
+          "items": [
+            {
+              "type": "single",
+              "title": "Merkava Mk.3B",
+              "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/il_merkava_mk_3b.png",
+              "br": "11.3",
+              "rp": "300,000",
+              "sp": "830,000",
+              "data_unit_id": "il_merkava_mk_3b",
+              "selected": false,
+              "class_name": "",
+              "details": true,
+              "main_role": "Medium tank"
+            },
+            {
+              "type": "single",
+              "title": "Merkava Mk.3C",
+              "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/il_merkava_mk_3c.png",
+              "br": "11.3",
+              "rp": "175,000",
+              "sp": "950,000",
+              "data_unit_id": "il_merkava_mk_3c",
+              "selected": false,
+              "class_name": "",
+              "details": true,
+              "main_role": "Medium tank"
+            }
+          ],
+          "details": true
+        }
+      ],
+      [
+        {
+          "type": "single",
+          "title": "Imp.Chaparral",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/il_mim_72_chaparral.png",
+          "br": "9.3",
+          "rp": "300,000",
+          "sp": "830,000",
+          "data_unit_id": "il_mim_72_chaparral",
+          "selected": false,
+          "class_name": "",
+          "details": true,
+          "main_role": "SPAA"
+        }
+      ],
+      [
+        {
+          "type": "single",
+          "title": "Namer 30",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/il_namer_rcws_30.png",
+          "br": "11.3",
+          "rp": "260,000",
+          "sp": "710,000",
+          "data_unit_id": "il_namer_rcws_30",
+          "selected": false,
+          "class_name": "",
+          "details": true,
+          "main_role": "Light tank"
+        },
+        {
+          "type": "single",
+          "title": "Eitan (P)",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/il_eitan.png",
+          "br": "11.3",
+          "rp": "300,000",
+          "sp": "830,000",
+          "data_unit_id": "il_eitan",
+          "selected": false,
+          "class_name": "",
+          "details": true,
+          "main_role": "Light tank"
+        }
+      ]
+    ],
+    "premium_vehicles": [
+      [
+        {
+          "type": "single",
+          "title": "Ra'am Sagol",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/il_merkava_mk_3_raam_segol.png",
+          "br": "11.3",
+          "rp": 0,
+          "sp": 0,
+          "data_unit_id": "il_merkava_mk_3_raam_segol",
+          "selected": false,
+          "class_name": "prem",
+          "details": true,
+          "main_role": "Medium tank"
+        }
+      ]
+    ],
+    "selected": [],
+    "unlock_quantity": 0
+  },
+  {
+    "rank": "VIII",
+    "researchable_vehicles": [
+      [],
+      [
+        {
+          "type": "multiple",
+          "title": "Merkava 4 B/LIC",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/il_merkava_4_group.png",
+          "selected": false,
+          "br": "12.3",
+          "data_unit_id": "il_merkava_4_group",
+          "class_name": "",
+          "items": [
+            {
+              "type": "single",
+              "title": "Merkava Mk.4B",
+              "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/il_merkava_mk_4b.png",
+              "br": "12.3",
+              "rp": "400,000",
+              "sp": "1,080,000",
+              "data_unit_id": "il_merkava_mk_4b",
+              "selected": false,
+              "class_name": "",
+              "details": true,
+              "main_role": "Medium tank"
+            },
+            {
+              "type": "single",
+              "title": "Merkava Mk.4 LIC",
+              "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/il_merkava_mk_4_lic.png",
+              "br": "12.3",
+              "rp": "200,000",
+              "sp": "1,100,000",
+              "data_unit_id": "il_merkava_mk_4_lic",
+              "selected": false,
+              "class_name": "",
+              "details": true,
+              "main_role": "Medium tank"
+            }
+          ],
+          "details": true
+        },
+        {
+          "type": "single",
+          "title": "Merkava Mk.4M",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/il_merkava_mk_4m.png",
+          "br": "12.7",
+          "rp": "410,000",
+          "sp": "1,100,000",
+          "data_unit_id": "il_merkava_mk_4m",
+          "selected": false,
+          "class_name": "",
+          "details": true,
+          "main_role": "Medium tank"
+        }
+      ],
+      [
+        {
+          "type": "single",
+          "title": "SPYDER",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/il_spyder_aio.png",
+          "br": "12.7",
+          "rp": "410,000",
+          "sp": "1,100,000",
+          "data_unit_id": "il_spyder_aio",
+          "selected": false,
+          "class_name": "",
+          "details": true,
+          "main_role": "SPAA"
+        }
+      ],
+      [
+        {
+          "type": "single",
+          "title": "Namer Tsrikhon",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/il_namer_tsrikhon.png",
+          "br": "11.3",
+          "rp": "400,000",
+          "sp": "1,080,000",
+          "data_unit_id": "il_namer_tsrikhon",
+          "selected": false,
+          "class_name": "",
+          "details": true,
+          "main_role": "Light tank"
+        }
+      ]
+    ],
+    "premium_vehicles": [
+      []
+    ],
+    "selected": [],
+    "unlock_quantity": 0
+  }
+]
