@@ -1,0 +1,1194 @@
+[
+  {
+    "rank": "I",
+    "researchable_vehicles": [
+      [
+        {
+          "type": "single",
+          "title": "MAS 561",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/it_mas_classe500_3_1944.png",
+          "br": "1.0",
+          "rp": 0,
+          "sp": 0,
+          "data_unit_id": "it_mas_classe500_3_1944",
+          "required_unit_id": "",
+          "selected": false,
+          "class_name": "",
+          "details": true,
+          "rank": "I",
+          "research_country": "Italy",
+          "main_role": "Boat",
+          "is_component": false,
+          "component_of": null,
+          "is_premium": false,
+          "is_squadron": false,
+          "wiki": {
+            "url": "https://wiki.warthunder.com/unit/it_mas_classe500_3_1944",
+            "rank": "I",
+            "battle_rating_context": "default",
+            "battle_ratings": {
+              "AB": "1.0",
+              "RB": "1.0"
+            },
+            "battle_ratings_by_battle": {
+              "default": {
+                "AB": "1.0",
+                "RB": "1.0"
+              }
+            },
+            "research": "Free",
+            "purchase": "Free",
+            "purchase_currency": "SL",
+            "status": null,
+            "fetched_at": "2026-09-19T06:33:04.344Z",
+            "sha256": "9db0655510dae4cf91534c1f58fc271ea90f10082b8e6c20846d4dbebc4ac2a9"
+          }
+        },
+        {
+          "type": "single",
+          "title": "VAS 201",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/it_vas_baglietto_68t_1serie.png",
+          "br": "1.3",
+          "rp": 4000,
+          "sp": 2100,
+          "data_unit_id": "it_vas_baglietto_68t_1serie",
+          "required_unit_id": "it_mas_classe500_3_1944",
+          "selected": false,
+          "class_name": "",
+          "details": true,
+          "rank": "I",
+          "research_country": "Italy",
+          "main_role": "Boat",
+          "is_component": false,
+          "component_of": null,
+          "is_premium": false,
+          "is_squadron": false,
+          "wiki": {
+            "url": "https://wiki.warthunder.com/unit/it_vas_baglietto_68t_1serie",
+            "rank": "I",
+            "battle_rating_context": "default",
+            "battle_ratings": {
+              "AB": "1.3",
+              "RB": "1.3"
+            },
+            "battle_ratings_by_battle": {
+              "default": {
+                "AB": "1.3",
+                "RB": "1.3"
+              }
+            },
+            "research": "4,000",
+            "purchase": "2,100",
+            "purchase_currency": "SL",
+            "status": null,
+            "fetched_at": "2026-09-19T06:33:05.732Z",
+            "sha256": "7d610e689a9625a8688ed2a63d0a672551dfdc9f4d792080a2703b9e492d914e"
+          }
+        }
+      ],
+      [
+        {
+          "type": "single",
+          "title": "MAS 555",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/it_mas_classe500_3.png",
+          "br": "1.0",
+          "rp": 2900,
+          "sp": 700,
+          "data_unit_id": "it_mas_classe500_3",
+          "required_unit_id": "",
+          "selected": false,
+          "class_name": "",
+          "details": true,
+          "rank": "I",
+          "research_country": "Italy",
+          "main_role": "Boat",
+          "is_component": false,
+          "component_of": null,
+          "is_premium": false,
+          "is_squadron": false,
+          "wiki": {
+            "url": "https://wiki.warthunder.com/unit/it_mas_classe500_3",
+            "rank": "I",
+            "battle_rating_context": "default",
+            "battle_ratings": {
+              "AB": "1.0",
+              "RB": "1.0"
+            },
+            "battle_ratings_by_battle": {
+              "default": {
+                "AB": "1.0",
+                "RB": "1.0"
+              }
+            },
+            "research": "2,900",
+            "purchase": "700",
+            "purchase_currency": "SL",
+            "status": null,
+            "fetched_at": "2026-09-19T06:33:04.236Z",
+            "sha256": "206938e9f6aab229e208e60169c6bd89e9dd7f24d802e51cfb8555ca9399eb5e"
+          }
+        },
+        {
+          "type": "single",
+          "title": "MAS 429",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/it_mas_classe429.png",
+          "br": "1.3",
+          "rp": 4000,
+          "sp": 2100,
+          "data_unit_id": "it_mas_classe429",
+          "required_unit_id": "it_mas_classe500_3",
+          "selected": false,
+          "class_name": "",
+          "details": true,
+          "rank": "I",
+          "research_country": "Italy",
+          "main_role": "Boat",
+          "is_component": false,
+          "component_of": null,
+          "is_premium": false,
+          "is_squadron": false,
+          "wiki": {
+            "url": "https://wiki.warthunder.com/unit/it_mas_classe429",
+            "rank": "I",
+            "battle_rating_context": "default",
+            "battle_ratings": {
+              "AB": "1.3",
+              "RB": "1.3"
+            },
+            "battle_ratings_by_battle": {
+              "default": {
+                "AB": "1.3",
+                "RB": "1.3"
+              }
+            },
+            "research": "4,000",
+            "purchase": "2,100",
+            "purchase_currency": "SL",
+            "status": null,
+            "fetched_at": "2026-09-19T06:33:04.002Z",
+            "sha256": "1c9bb431fe8a8230c341cb46b57c28b46867c0e1787a53ad1b4c91483dcd2fb2"
+          }
+        }
+      ]
+    ],
+    "premium_vehicles": [
+      [
+        {
+          "type": "single",
+          "title": "MAS 569",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/it_mas_classe500_4.png",
+          "br": "1.0",
+          "rp": 0,
+          "sp": 0,
+          "data_unit_id": "it_mas_classe500_4",
+          "required_unit_id": "",
+          "selected": false,
+          "class_name": "prem",
+          "details": true,
+          "rank": "I",
+          "research_country": "Italy",
+          "main_role": "Boat",
+          "is_component": false,
+          "component_of": null,
+          "is_premium": true,
+          "is_squadron": false,
+          "wiki": {
+            "url": "https://wiki.warthunder.com/unit/it_mas_classe500_4",
+            "rank": "I",
+            "battle_rating_context": "default",
+            "battle_ratings": {
+              "AB": "1.0",
+              "RB": "1.0"
+            },
+            "battle_ratings_by_battle": {
+              "default": {
+                "AB": "1.0",
+                "RB": "1.0"
+              }
+            },
+            "research": null,
+            "purchase": "250",
+            "purchase_currency": "GE",
+            "status": "Premium vehicle",
+            "fetched_at": "2026-09-19T06:33:04.363Z",
+            "sha256": "8f8c4cdd49e1573376d4ad875cca973bcae4caa8ad6b668b3e018a673e0e809c"
+          }
+        }
+      ],
+      []
+    ],
+    "selected": [],
+    "unlock_quantity": null,
+    "source": "wiki"
+  },
+  {
+    "rank": "II",
+    "researchable_vehicles": [
+      [
+        {
+          "type": "single",
+          "title": "MS-15",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/it_ms15_1a.png",
+          "br": "1.3",
+          "rp": 9200,
+          "sp": 16000,
+          "data_unit_id": "it_ms15_1a",
+          "required_unit_id": "it_vas_baglietto_68t_1serie",
+          "selected": false,
+          "class_name": "",
+          "details": true,
+          "rank": "II",
+          "research_country": "Italy",
+          "main_role": "Boat",
+          "is_component": false,
+          "component_of": null,
+          "is_premium": false,
+          "is_squadron": false,
+          "wiki": {
+            "url": "https://wiki.warthunder.com/unit/it_ms15_1a",
+            "rank": "II",
+            "battle_rating_context": "default",
+            "battle_ratings": {
+              "AB": "1.3",
+              "RB": "1.3"
+            },
+            "battle_ratings_by_battle": {
+              "default": {
+                "AB": "1.3",
+                "RB": "1.3"
+              }
+            },
+            "research": "9,200",
+            "purchase": "16,000",
+            "purchase_currency": "SL",
+            "status": null,
+            "fetched_at": "2026-09-19T06:33:05.010Z",
+            "sha256": "28f79acfe7897d7ce2d24951a4d6f68142039884a66e71109a4ddf09c060633e"
+          }
+        },
+        {
+          "type": "single",
+          "title": "Stefano Turr",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/it_mas_stefano_turr.png",
+          "br": "1.7",
+          "rp": 14000,
+          "sp": 32000,
+          "data_unit_id": "it_mas_stefano_turr",
+          "required_unit_id": "it_ms15_1a",
+          "selected": false,
+          "class_name": "",
+          "details": true,
+          "rank": "II",
+          "research_country": "Italy",
+          "main_role": "Boat",
+          "is_component": false,
+          "component_of": null,
+          "is_premium": false,
+          "is_squadron": false,
+          "wiki": {
+            "url": "https://wiki.warthunder.com/unit/it_mas_stefano_turr",
+            "rank": "II",
+            "battle_rating_context": "default",
+            "battle_ratings": {
+              "AB": "1.7",
+              "RB": "1.7"
+            },
+            "battle_ratings_by_battle": {
+              "default": {
+                "AB": "1.7",
+                "RB": "1.7"
+              }
+            },
+            "research": "14,000",
+            "purchase": "32,000",
+            "purchase_currency": "SL",
+            "status": null,
+            "fetched_at": "2026-09-19T06:33:04.542Z",
+            "sha256": "393b81094758f6d5ae45ac3f8406ffdd177bc23cf307a6562977deb1093cefff"
+          }
+        }
+      ],
+      [
+        {
+          "type": "single",
+          "title": "MS-53",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/it_ms53_2a.png",
+          "br": "1.7",
+          "rp": 11000,
+          "sp": 22000,
+          "data_unit_id": "it_ms53_2a",
+          "required_unit_id": "it_mas_classe429",
+          "selected": false,
+          "class_name": "",
+          "details": true,
+          "rank": "II",
+          "research_country": "Italy",
+          "main_role": "Boat",
+          "is_component": false,
+          "component_of": null,
+          "is_premium": false,
+          "is_squadron": false,
+          "wiki": {
+            "url": "https://wiki.warthunder.com/unit/it_ms53_2a",
+            "rank": "II",
+            "battle_rating_context": "default",
+            "battle_ratings": {
+              "AB": "1.7",
+              "RB": "1.7"
+            },
+            "battle_ratings_by_battle": {
+              "default": {
+                "AB": "1.7",
+                "RB": "1.7"
+              }
+            },
+            "research": "11,000",
+            "purchase": "22,000",
+            "purchase_currency": "SL",
+            "status": null,
+            "fetched_at": "2026-09-19T06:33:05.268Z",
+            "sha256": "934c215759d77df5d663ea5023d4d23c0505d0d858d3832eb0f5f11b2bbece0a"
+          }
+        },
+        {
+          "type": "single",
+          "title": "MAS 441",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/it_mas441.png",
+          "br": "2.0",
+          "rp": 14000,
+          "sp": 32000,
+          "data_unit_id": "it_mas441",
+          "required_unit_id": "it_ms53_2a",
+          "selected": false,
+          "class_name": "",
+          "details": true,
+          "rank": "II",
+          "research_country": "Italy",
+          "main_role": "Boat",
+          "is_component": false,
+          "component_of": null,
+          "is_premium": false,
+          "is_squadron": false,
+          "wiki": {
+            "url": "https://wiki.warthunder.com/unit/it_mas441",
+            "rank": "II",
+            "battle_rating_context": "default",
+            "battle_ratings": {
+              "AB": "2.0",
+              "RB": "2.0"
+            },
+            "battle_ratings_by_battle": {
+              "default": {
+                "AB": "2.0",
+                "RB": "2.0"
+              }
+            },
+            "research": "14,000",
+            "purchase": "32,000",
+            "purchase_currency": "SL",
+            "status": null,
+            "fetched_at": "2026-09-19T06:33:03.905Z",
+            "sha256": "0071e71b26fa750c92eb1d73570d841980017f991a8ba380d5300042b2024126"
+          }
+        }
+      ]
+    ],
+    "premium_vehicles": [
+      [],
+      []
+    ],
+    "selected": [],
+    "unlock_quantity": null,
+    "source": "wiki"
+  },
+  {
+    "rank": "III",
+    "researchable_vehicles": [
+      [
+        {
+          "type": "single",
+          "title": "GIS 811",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/it_a1_vosper.png",
+          "br": "2.3",
+          "rp": 26000,
+          "sp": 76000,
+          "data_unit_id": "it_a1_vosper",
+          "required_unit_id": "it_mas_stefano_turr",
+          "selected": false,
+          "class_name": "",
+          "details": true,
+          "rank": "III",
+          "research_country": "Italy",
+          "main_role": "Boat",
+          "is_component": false,
+          "component_of": null,
+          "is_premium": false,
+          "is_squadron": false,
+          "wiki": {
+            "url": "https://wiki.warthunder.com/unit/it_a1_vosper",
+            "rank": "III",
+            "battle_rating_context": "default",
+            "battle_ratings": {
+              "AB": "2.3",
+              "RB": "2.3"
+            },
+            "battle_ratings_by_battle": {
+              "default": {
+                "AB": "2.3",
+                "RB": "2.3"
+              }
+            },
+            "research": "26,000",
+            "purchase": "76,000",
+            "purchase_currency": "SL",
+            "status": null,
+            "fetched_at": "2026-09-19T06:33:03.064Z",
+            "sha256": "6ee6400cc437007eb62cbeff1c325f54d8d5e4ff4caef401e780846e0aff643f"
+          }
+        },
+        {
+          "type": "single",
+          "title": "MS-472",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/it_ms473_2a.png",
+          "br": "2.3",
+          "rp": 48000,
+          "sp": 180000,
+          "data_unit_id": "it_ms473_2a",
+          "required_unit_id": "it_a1_vosper",
+          "selected": false,
+          "class_name": "",
+          "details": true,
+          "rank": "III",
+          "research_country": "Italy",
+          "main_role": "Boat",
+          "is_component": false,
+          "component_of": null,
+          "is_premium": false,
+          "is_squadron": false,
+          "wiki": {
+            "url": "https://wiki.warthunder.com/unit/it_ms473_2a",
+            "rank": "III",
+            "battle_rating_context": "default",
+            "battle_ratings": {
+              "AB": "2.3",
+              "RB": "2.3"
+            },
+            "battle_ratings_by_battle": {
+              "default": {
+                "AB": "2.3",
+                "RB": "2.3"
+              }
+            },
+            "research": "48,000",
+            "purchase": "180,000",
+            "purchase_currency": "SL",
+            "status": null,
+            "fetched_at": "2026-09-19T06:33:05.085Z",
+            "sha256": "b5b2f861438cec87c8ebd9a65b1376411416e7ca7b06600be0f3e7f1e588c0af"
+          }
+        }
+      ],
+      [
+        {
+          "type": "single",
+          "title": "MV-611",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/it_ms471_1a.png",
+          "br": "2.3",
+          "rp": 36000,
+          "sp": 115000,
+          "data_unit_id": "it_ms471_1a",
+          "required_unit_id": "it_mas441",
+          "selected": false,
+          "class_name": "",
+          "details": true,
+          "rank": "III",
+          "research_country": "Italy",
+          "main_role": "Boat",
+          "is_component": false,
+          "component_of": null,
+          "is_premium": false,
+          "is_squadron": false,
+          "wiki": {
+            "url": "https://wiki.warthunder.com/unit/it_ms471_1a",
+            "rank": "III",
+            "battle_rating_context": "default",
+            "battle_ratings": {
+              "AB": "2.3",
+              "RB": "2.3"
+            },
+            "battle_ratings_by_battle": {
+              "default": {
+                "AB": "2.3",
+                "RB": "2.3"
+              }
+            },
+            "research": "36,000",
+            "purchase": "115,000",
+            "purchase_currency": "SL",
+            "status": null,
+            "fetched_at": "2026-09-19T06:33:05.221Z",
+            "sha256": "aeceeec35795d3abcad9280ceeae305555ec0d943ef06c1afe37578cda428d94"
+          }
+        }
+      ]
+    ],
+    "premium_vehicles": [
+      [
+        {
+          "type": "single",
+          "title": "MS 444",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/it_ms444.png",
+          "br": "2.7",
+          "rp": 0,
+          "sp": 0,
+          "data_unit_id": "it_ms444",
+          "required_unit_id": "",
+          "selected": false,
+          "class_name": "prem",
+          "details": true,
+          "rank": "III",
+          "research_country": "Italy",
+          "main_role": "Boat",
+          "is_component": false,
+          "component_of": null,
+          "is_premium": true,
+          "is_squadron": false,
+          "wiki": {
+            "url": "https://wiki.warthunder.com/unit/it_ms444",
+            "rank": "III",
+            "battle_rating_context": "default",
+            "battle_ratings": {
+              "AB": "2.7",
+              "RB": "2.7"
+            },
+            "battle_ratings_by_battle": {
+              "default": {
+                "AB": "2.7",
+                "RB": "2.7"
+              }
+            },
+            "research": null,
+            "purchase": "1,300",
+            "purchase_currency": "GE",
+            "status": "Premium vehicle",
+            "fetched_at": "2026-09-19T06:33:04.812Z",
+            "sha256": "c9ec5f5a2dbc307194d88d053dc72bbcfd6aa865ff25cbbf8629614167781870"
+          }
+        },
+        {
+          "type": "single",
+          "title": "MC-485",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/it_mc_485.png",
+          "br": "2.7",
+          "rp": 0,
+          "sp": 0,
+          "data_unit_id": "it_mc_485",
+          "required_unit_id": "",
+          "selected": false,
+          "class_name": "prem",
+          "details": true,
+          "rank": "III",
+          "research_country": "Italy",
+          "main_role": "Boat",
+          "is_component": false,
+          "component_of": null,
+          "is_premium": true,
+          "is_squadron": false,
+          "wiki": {
+            "url": "https://wiki.warthunder.com/unit/it_mc_485",
+            "rank": "III",
+            "battle_rating_context": "default",
+            "battle_ratings": {
+              "AB": "2.7",
+              "RB": "2.7"
+            },
+            "battle_ratings_by_battle": {
+              "default": {
+                "AB": "2.7",
+                "RB": "2.7"
+              }
+            },
+            "research": null,
+            "purchase": null,
+            "purchase_currency": null,
+            "status": "Premium vehicle",
+            "fetched_at": "2026-09-19T06:33:04.814Z",
+            "sha256": "fc5be03df0fb2218653c65e691ab7f3d71a043c308c364fb6cdc7f1ac53600d8"
+          }
+        }
+      ],
+      []
+    ],
+    "selected": [],
+    "unlock_quantity": null,
+    "source": "wiki"
+  },
+  {
+    "rank": "IV",
+    "researchable_vehicles": [
+      [
+        {
+          "type": "single",
+          "title": "MC-490",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/it_mc490_folgore.png",
+          "br": "3.3",
+          "rp": 89000,
+          "sp": 300000,
+          "data_unit_id": "it_mc490_folgore",
+          "required_unit_id": "it_ms473_2a",
+          "selected": false,
+          "class_name": "",
+          "details": true,
+          "rank": "IV",
+          "research_country": "Italy",
+          "main_role": "Boat",
+          "is_component": false,
+          "component_of": null,
+          "is_premium": false,
+          "is_squadron": false,
+          "wiki": {
+            "url": "https://wiki.warthunder.com/unit/it_mc490_folgore",
+            "rank": "IV",
+            "battle_rating_context": "default",
+            "battle_ratings": {
+              "AB": "3.3",
+              "RB": "3.3"
+            },
+            "battle_ratings_by_battle": {
+              "default": {
+                "AB": "3.3",
+                "RB": "3.3"
+              }
+            },
+            "research": "89,000",
+            "purchase": "300,000",
+            "purchase_currency": "SL",
+            "status": null,
+            "fetched_at": "2026-09-19T06:33:04.550Z",
+            "sha256": "d8a94cbfad1ff7ee910b09c172363b4300f872cccf399154c3f8c3a890314ac4"
+          }
+        },
+        {
+          "type": "single",
+          "title": "Baleno MC-492",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/it_mc492_baleno.png",
+          "br": "3.3",
+          "rp": 120000,
+          "sp": 360000,
+          "data_unit_id": "it_mc492_baleno",
+          "required_unit_id": "it_mc490_folgore",
+          "selected": false,
+          "class_name": "",
+          "details": true,
+          "rank": "IV",
+          "research_country": "Italy",
+          "main_role": "Boat",
+          "is_component": false,
+          "component_of": null,
+          "is_premium": false,
+          "is_squadron": false,
+          "wiki": {
+            "url": "https://wiki.warthunder.com/unit/it_mc492_baleno",
+            "rank": "IV",
+            "battle_rating_context": "default",
+            "battle_ratings": {
+              "AB": "3.3",
+              "RB": "3.3"
+            },
+            "battle_ratings_by_battle": {
+              "default": {
+                "AB": "3.3",
+                "RB": "3.3"
+              }
+            },
+            "research": "120,000",
+            "purchase": "360,000",
+            "purchase_currency": "SL",
+            "status": null,
+            "fetched_at": "2026-09-19T06:33:04.746Z",
+            "sha256": "539d620f450b0141b301ce83f153b48b19e53f85e364d7944490d4978b4928a8"
+          }
+        }
+      ],
+      [
+        {
+          "type": "single",
+          "title": "MS-473",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/it_ms473_2a_art.png",
+          "br": "3.0",
+          "rp": 89000,
+          "sp": 300000,
+          "data_unit_id": "it_ms473_2a_art",
+          "required_unit_id": "it_ms471_1a",
+          "selected": false,
+          "class_name": "",
+          "details": true,
+          "rank": "IV",
+          "research_country": "Italy",
+          "main_role": "Boat",
+          "is_component": false,
+          "component_of": null,
+          "is_premium": false,
+          "is_squadron": false,
+          "wiki": {
+            "url": "https://wiki.warthunder.com/unit/it_ms473_2a_art",
+            "rank": "IV",
+            "battle_rating_context": "default",
+            "battle_ratings": {
+              "AB": "3.0",
+              "RB": "3.0"
+            },
+            "battle_ratings_by_battle": {
+              "default": {
+                "AB": "3.0",
+                "RB": "3.0"
+              }
+            },
+            "research": "89,000",
+            "purchase": "300,000",
+            "purchase_currency": "SL",
+            "status": null,
+            "fetched_at": "2026-09-19T06:33:05.073Z",
+            "sha256": "61efcc80db1a6d4fad126f42df9462b48e118dfbe475e6ad111c37213b782b97"
+          }
+        },
+        {
+          "type": "single",
+          "title": "RN Gabbiano",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/it_gabbiano_class.png",
+          "br": "3.7",
+          "rp": 120000,
+          "sp": 360000,
+          "data_unit_id": "it_gabbiano_class",
+          "required_unit_id": "it_ms473_2a_art",
+          "selected": false,
+          "class_name": "",
+          "details": true,
+          "rank": "IV",
+          "research_country": "Italy",
+          "main_role": "Heavy boat",
+          "is_component": false,
+          "component_of": null,
+          "is_premium": false,
+          "is_squadron": false,
+          "wiki": {
+            "url": "https://wiki.warthunder.com/unit/it_gabbiano_class",
+            "rank": "IV",
+            "battle_rating_context": "default",
+            "battle_ratings": {
+              "AB": "3.7",
+              "RB": "3.7"
+            },
+            "battle_ratings_by_battle": {
+              "default": {
+                "AB": "3.7",
+                "RB": "3.7"
+              }
+            },
+            "research": "120,000",
+            "purchase": "360,000",
+            "purchase_currency": "SL",
+            "status": null,
+            "fetched_at": "2026-09-19T06:33:03.787Z",
+            "sha256": "19d1d182b57af379225d17489f939abaed52638d637c75de958b746f77822d71"
+          }
+        }
+      ]
+    ],
+    "premium_vehicles": [
+      [
+        {
+          "type": "single",
+          "title": "Folaga",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/it_gabbiano_class_c16.png",
+          "br": "3.7",
+          "rp": 0,
+          "sp": 0,
+          "data_unit_id": "it_gabbiano_class_c16",
+          "required_unit_id": "",
+          "selected": false,
+          "class_name": "prem",
+          "details": true,
+          "rank": "IV",
+          "research_country": "Italy",
+          "main_role": "Heavy boat",
+          "is_component": false,
+          "component_of": null,
+          "is_premium": true,
+          "is_squadron": false,
+          "wiki": {
+            "url": "https://wiki.warthunder.com/unit/it_gabbiano_class_c16",
+            "rank": "IV",
+            "battle_rating_context": "default",
+            "battle_ratings": {
+              "AB": "3.7",
+              "RB": "3.7"
+            },
+            "battle_ratings_by_battle": {
+              "default": {
+                "AB": "3.7",
+                "RB": "3.7"
+              }
+            },
+            "research": null,
+            "purchase": "3,850",
+            "purchase_currency": "GE",
+            "status": "Premium vehicle",
+            "fetched_at": "2026-09-19T06:33:03.867Z",
+            "sha256": "e7bf7713776030adb8eccd6514a4e64f1c0364ea85f4569a74d5730b144c7dda"
+          }
+        },
+        {
+          "type": "single",
+          "title": "Sparviero",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/it_p420_sparviero.png",
+          "br": "3.7",
+          "rp": 0,
+          "sp": 0,
+          "data_unit_id": "it_p420_sparviero",
+          "required_unit_id": "",
+          "selected": false,
+          "class_name": "prem",
+          "details": true,
+          "rank": "IV",
+          "research_country": "Italy",
+          "main_role": "Boat",
+          "is_component": false,
+          "component_of": null,
+          "is_premium": true,
+          "is_squadron": false,
+          "wiki": {
+            "url": "https://wiki.warthunder.com/unit/it_p420_sparviero",
+            "rank": "IV",
+            "battle_rating_context": "default",
+            "battle_ratings": {
+              "AB": "3.7",
+              "RB": "3.7"
+            },
+            "battle_ratings_by_battle": {
+              "default": {
+                "AB": "3.7",
+                "RB": "3.7"
+              }
+            },
+            "research": null,
+            "purchase": "3,850",
+            "purchase_currency": "GE",
+            "status": "Premium vehicle",
+            "fetched_at": "2026-09-19T06:33:05.330Z",
+            "sha256": "68b7a99f42d5179325df8ff472e1e920fcababea1705c4af9a5d7bb0fe53d346"
+          }
+        }
+      ],
+      [
+        {
+          "type": "single",
+          "title": "Freccia P-493",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/it_p493_freccia.png",
+          "br": "4.7",
+          "rp": 0,
+          "sp": 0,
+          "data_unit_id": "it_p493_freccia",
+          "required_unit_id": "",
+          "selected": false,
+          "class_name": "prem",
+          "details": true,
+          "rank": "IV",
+          "research_country": "Italy",
+          "main_role": "Boat",
+          "is_component": false,
+          "component_of": null,
+          "is_premium": true,
+          "is_squadron": false,
+          "wiki": {
+            "url": "https://wiki.warthunder.com/unit/it_p493_freccia",
+            "rank": "IV",
+            "battle_rating_context": "default",
+            "battle_ratings": {
+              "AB": "4.7",
+              "RB": "4.7"
+            },
+            "battle_ratings_by_battle": {
+              "default": {
+                "AB": "4.7",
+                "RB": "4.7"
+              }
+            },
+            "research": null,
+            "purchase": null,
+            "purchase_currency": null,
+            "status": "Premium vehicle",
+            "fetched_at": "2026-09-19T06:33:05.420Z",
+            "sha256": "c40372da720fa291d59c4216ede32ac6b0e66c6a1d9e0e82dfa72318d784e337"
+          }
+        }
+      ]
+    ],
+    "selected": [],
+    "unlock_quantity": null,
+    "source": "wiki"
+  },
+  {
+    "rank": "V",
+    "researchable_vehicles": [
+      [
+        {
+          "type": "single",
+          "title": "Alano",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/it_alano_9851.png",
+          "br": "3.7",
+          "rp": 220000,
+          "sp": 640000,
+          "data_unit_id": "it_alano_9851",
+          "required_unit_id": "it_mc492_baleno",
+          "selected": false,
+          "class_name": "",
+          "details": true,
+          "rank": "V",
+          "research_country": "Italy",
+          "main_role": "Heavy boat",
+          "is_component": false,
+          "component_of": null,
+          "is_premium": false,
+          "is_squadron": false,
+          "wiki": {
+            "url": "https://wiki.warthunder.com/unit/it_alano_9851",
+            "rank": "V",
+            "battle_rating_context": "default",
+            "battle_ratings": {
+              "AB": "3.7",
+              "RB": "3.7"
+            },
+            "battle_ratings_by_battle": {
+              "default": {
+                "AB": "3.7",
+                "RB": "3.7"
+              }
+            },
+            "research": "220,000",
+            "purchase": "640,000",
+            "purchase_currency": "SL",
+            "status": null,
+            "fetched_at": "2026-09-19T06:33:03.332Z",
+            "sha256": "e62dc5308056663f4002fea4fac4f3bcc32894217d42c09e6e29ba6c6a900b21"
+          }
+        },
+        {
+          "type": "single",
+          "title": "Cassiopea",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/it_cassiopea_p401.png",
+          "br": "3.7",
+          "rp": 250000,
+          "sp": 700000,
+          "data_unit_id": "it_cassiopea_p401",
+          "required_unit_id": "it_alano_9851",
+          "selected": false,
+          "class_name": "",
+          "details": true,
+          "rank": "V",
+          "research_country": "Italy",
+          "main_role": "Frigate",
+          "is_component": false,
+          "component_of": null,
+          "is_premium": false,
+          "is_squadron": false,
+          "wiki": {
+            "url": "https://wiki.warthunder.com/unit/it_cassiopea_p401",
+            "rank": "V",
+            "battle_rating_context": "default",
+            "battle_ratings": {
+              "AB": "3.7",
+              "RB": "3.7"
+            },
+            "battle_ratings_by_battle": {
+              "default": {
+                "AB": "3.7",
+                "RB": "3.7"
+              }
+            },
+            "research": "250,000",
+            "purchase": "700,000",
+            "purchase_currency": "SL",
+            "status": null,
+            "fetched_at": "2026-09-19T06:33:03.411Z",
+            "sha256": "21a647ab1dd92242f07e13f5b6f3c89b48eeacfea781b4ec79f58cf933b045e3"
+          }
+        },
+        {
+          "type": "single",
+          "title": "Saetta P-494",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/it_p494_saetta.png",
+          "br": "4.7",
+          "rp": 280000,
+          "sp": 780000,
+          "data_unit_id": "it_p494_saetta",
+          "required_unit_id": "it_cassiopea_p401",
+          "selected": false,
+          "class_name": "",
+          "details": true,
+          "rank": "V",
+          "research_country": "Italy",
+          "main_role": "Heavy boat",
+          "is_component": false,
+          "component_of": null,
+          "is_premium": false,
+          "is_squadron": false,
+          "wiki": {
+            "url": "https://wiki.warthunder.com/unit/it_p494_saetta",
+            "rank": "V",
+            "battle_rating_context": "default",
+            "battle_ratings": {
+              "AB": "4.7",
+              "RB": "4.7"
+            },
+            "battle_ratings_by_battle": {
+              "default": {
+                "AB": "4.7",
+                "RB": "4.7"
+              }
+            },
+            "research": "280,000",
+            "purchase": "780,000",
+            "purchase_currency": "SL",
+            "status": null,
+            "fetched_at": "2026-09-19T06:33:05.692Z",
+            "sha256": "ce175a4e8a25d9bccb559fd7226049de684e84fb936d38fa0ff2a3bf85d007e7"
+          }
+        }
+      ],
+      [
+        {
+          "type": "single",
+          "title": "RN Ghibli",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/it_ciclone_class_ghibli.png",
+          "br": "3.7",
+          "rp": 220000,
+          "sp": 640000,
+          "data_unit_id": "it_ciclone_class_ghibli",
+          "required_unit_id": "it_gabbiano_class",
+          "selected": false,
+          "class_name": "",
+          "details": true,
+          "rank": "V",
+          "research_country": "Italy",
+          "main_role": "Frigate",
+          "is_component": false,
+          "component_of": null,
+          "is_premium": false,
+          "is_squadron": false,
+          "wiki": {
+            "url": "https://wiki.warthunder.com/unit/it_ciclone_class_ghibli",
+            "rank": "V",
+            "battle_rating_context": "default",
+            "battle_ratings": {
+              "AB": "3.7",
+              "RB": "3.7"
+            },
+            "battle_ratings_by_battle": {
+              "default": {
+                "AB": "3.7",
+                "RB": "3.7"
+              }
+            },
+            "research": "220,000",
+            "purchase": "640,000",
+            "purchase_currency": "SL",
+            "status": null,
+            "fetched_at": "2026-09-19T06:33:03.688Z",
+            "sha256": "cc5ec23d3a72cb34e7434b8681e1d2235323a2e23a647bc0ccd43fe72757748d"
+          }
+        },
+        {
+          "type": "single",
+          "title": "Albatros",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/it_albatros_class_f543.png",
+          "br": "4.0",
+          "rp": 250000,
+          "sp": 700000,
+          "data_unit_id": "it_albatros_class_f543",
+          "required_unit_id": "it_ciclone_class_ghibli",
+          "selected": false,
+          "class_name": "",
+          "details": true,
+          "rank": "V",
+          "research_country": "Italy",
+          "main_role": "Frigate",
+          "is_component": false,
+          "component_of": null,
+          "is_premium": false,
+          "is_squadron": false,
+          "wiki": {
+            "url": "https://wiki.warthunder.com/unit/it_albatros_class_f543",
+            "rank": "V",
+            "battle_rating_context": "default",
+            "battle_ratings": {
+              "AB": "4.0",
+              "RB": "4.0"
+            },
+            "battle_ratings_by_battle": {
+              "default": {
+                "AB": "4.0",
+                "RB": "4.0"
+              }
+            },
+            "research": "250,000",
+            "purchase": "700,000",
+            "purchase_currency": "SL",
+            "status": null,
+            "fetched_at": "2026-09-19T06:33:03.224Z",
+            "sha256": "8ea914ccead1ff094210b9f26db79efa46c2f44b03650d4a2c7148896467ea6e"
+          }
+        }
+      ]
+    ],
+    "premium_vehicles": [
+      [
+        {
+          "type": "single",
+          "title": "Alcione",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/it_albatros_class_f544.png",
+          "br": "4.0",
+          "rp": null,
+          "sp": null,
+          "data_unit_id": "it_albatros_class_f544",
+          "required_unit_id": "",
+          "selected": false,
+          "class_name": "",
+          "details": true,
+          "rank": "V",
+          "research_country": "Italy",
+          "main_role": "Frigate",
+          "is_component": false,
+          "component_of": null,
+          "is_premium": false,
+          "is_squadron": false,
+          "wiki": {
+            "url": "https://wiki.warthunder.com/unit/it_albatros_class_f544",
+            "rank": "V",
+            "battle_rating_context": "default",
+            "battle_ratings": {
+              "AB": "4.0",
+              "RB": "4.0"
+            },
+            "battle_ratings_by_battle": {
+              "default": {
+                "AB": "4.0",
+                "RB": "4.0"
+              }
+            },
+            "research": null,
+            "purchase": null,
+            "purchase_currency": null,
+            "status": null,
+            "fetched_at": "2026-09-19T06:33:03.441Z",
+            "sha256": "d1d8efd45b0fd909a5079cd31e8aa333be79b3d5bcbb277d1466ce2bb299f55a"
+          }
+        }
+      ],
+      []
+    ],
+    "selected": [],
+    "unlock_quantity": null,
+    "source": "wiki"
+  }
+]

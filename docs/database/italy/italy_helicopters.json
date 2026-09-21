@@ -1,0 +1,429 @@
+[
+  {
+    "rank": "V",
+    "researchable_vehicles": [
+      [
+        {
+          "type": "single",
+          "title": "AB 205 A-1",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/ab_205a_1.png",
+          "br": "7.7",
+          "rp": 0,
+          "sp": 390000,
+          "data_unit_id": "ab_205a_1",
+          "required_unit_id": "",
+          "selected": false,
+          "class_name": "",
+          "details": true,
+          "rank": "V",
+          "research_country": "Italy",
+          "main_role": "Utility helicopter",
+          "is_component": false,
+          "component_of": null,
+          "is_premium": false,
+          "is_squadron": false,
+          "wiki": {
+            "url": "https://wiki.warthunder.com/unit/ab_205a_1",
+            "rank": "V",
+            "battle_rating_context": "default",
+            "battle_ratings": {
+              "AB": "7.7",
+              "RB": "7.7",
+              "SB": "8.0"
+            },
+            "battle_ratings_by_battle": {
+              "default": {
+                "AB": "7.7",
+                "RB": "7.7",
+                "SB": "8.0"
+              }
+            },
+            "research": "Free",
+            "purchase": "390,000",
+            "purchase_currency": "SL",
+            "status": null,
+            "fetched_at": "2026-09-19T06:32:06.018Z",
+            "sha256": "4303e7b169e6d19441e71d5c8abd5cf85cb44d51bf36111c3c4f25ed15a48ce4"
+          }
+        },
+        {
+          "type": "single",
+          "title": "◔Mi-24D",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/mi_24d_hungary.png",
+          "br": "8.7",
+          "rp": 150000,
+          "sp": 490000,
+          "data_unit_id": "mi_24d_hungary",
+          "required_unit_id": "ab_205a_1",
+          "selected": false,
+          "class_name": "",
+          "details": true,
+          "rank": "V",
+          "research_country": "Italy",
+          "main_role": "Attack helicopter",
+          "is_component": false,
+          "component_of": null,
+          "is_premium": false,
+          "is_squadron": false,
+          "wiki": {
+            "url": "https://wiki.warthunder.com/unit/mi_24d_hungary",
+            "rank": "V",
+            "battle_rating_context": "default",
+            "battle_ratings": {
+              "AB": "9.3",
+              "RB": "8.7",
+              "SB": "9.3"
+            },
+            "battle_ratings_by_battle": {
+              "default": {
+                "AB": "9.3",
+                "RB": "8.7",
+                "SB": "9.3"
+              }
+            },
+            "research": "150,000",
+            "purchase": "490,000",
+            "purchase_currency": "SL",
+            "status": null,
+            "fetched_at": "2026-09-19T06:32:06.122Z",
+            "sha256": "114617fbabd5d012fa9ee363ba207302e3bf5e2b493428570ce1dbfd45462f3f"
+          }
+        }
+      ]
+    ],
+    "premium_vehicles": [
+      []
+    ],
+    "selected": [],
+    "unlock_quantity": null,
+    "source": "wiki"
+  },
+  {
+    "rank": "VI",
+    "researchable_vehicles": [
+      [
+        {
+          "type": "single",
+          "title": "A.109EOA-2",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/a_109_eoa2.png",
+          "br": "8.7",
+          "rp": 380000,
+          "sp": 1000000,
+          "data_unit_id": "a_109_eoa2",
+          "required_unit_id": "mi_24d_hungary",
+          "selected": false,
+          "class_name": "",
+          "details": true,
+          "rank": "VI",
+          "research_country": "Italy",
+          "main_role": "Utility helicopter",
+          "is_component": false,
+          "component_of": null,
+          "is_premium": false,
+          "is_squadron": false,
+          "wiki": {
+            "url": "https://wiki.warthunder.com/unit/a_109_eoa2",
+            "rank": "VI",
+            "battle_rating_context": "default",
+            "battle_ratings": {
+              "AB": "8.7",
+              "RB": "8.7",
+              "SB": "9.3"
+            },
+            "battle_ratings_by_battle": {
+              "default": {
+                "AB": "8.7",
+                "RB": "8.7",
+                "SB": "9.3"
+              }
+            },
+            "research": "380,000",
+            "purchase": "1,000,000",
+            "purchase_currency": "SL",
+            "status": null,
+            "fetched_at": "2026-09-19T06:32:05.696Z",
+            "sha256": "492ea2aaab73d962f14ac3b2b8620dee25e76f3cd51e89cbe0283547bcf0734d"
+          }
+        },
+        {
+          "type": "single",
+          "title": "◔Mi-24V",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/mi_24v_hungary.png",
+          "br": "9.7",
+          "rp": 390000,
+          "sp": 1010000,
+          "data_unit_id": "mi_24v_hungary",
+          "required_unit_id": "a_109_eoa2",
+          "selected": false,
+          "class_name": "",
+          "details": true,
+          "rank": "VI",
+          "research_country": "Italy",
+          "main_role": "Attack helicopter",
+          "is_component": false,
+          "component_of": null,
+          "is_premium": false,
+          "is_squadron": false,
+          "wiki": {
+            "url": "https://wiki.warthunder.com/unit/mi_24v_hungary",
+            "rank": "VI",
+            "battle_rating_context": "default",
+            "battle_ratings": {
+              "AB": "10.0",
+              "RB": "9.7",
+              "SB": "9.7"
+            },
+            "battle_ratings_by_battle": {
+              "default": {
+                "AB": "10.0",
+                "RB": "9.7",
+                "SB": "9.7"
+              }
+            },
+            "research": "390,000",
+            "purchase": "1,010,000",
+            "purchase_currency": "SL",
+            "status": null,
+            "fetched_at": "2026-09-19T06:32:06.407Z",
+            "sha256": "40ef432e10ec481827e7cfdc60f567e4b47b68b82f39096528fc63ca2fca5293"
+          }
+        }
+      ]
+    ],
+    "premium_vehicles": [
+      [
+        {
+          "type": "single",
+          "title": "T129",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/t_129_atak.png",
+          "br": "10.7",
+          "rp": 0,
+          "sp": 0,
+          "data_unit_id": "t_129_atak",
+          "required_unit_id": "",
+          "selected": false,
+          "class_name": "prem",
+          "details": true,
+          "rank": "VI",
+          "research_country": "Italy",
+          "main_role": "Attack helicopter",
+          "is_component": false,
+          "component_of": null,
+          "is_premium": true,
+          "is_squadron": false,
+          "wiki": {
+            "url": "https://wiki.warthunder.com/unit/t_129_atak",
+            "rank": "VI",
+            "battle_rating_context": "default",
+            "battle_ratings": {
+              "AB": "9.7",
+              "RB": "10.7",
+              "SB": "9.7"
+            },
+            "battle_ratings_by_battle": {
+              "default": {
+                "AB": "9.7",
+                "RB": "10.7",
+                "SB": "9.7"
+              }
+            },
+            "research": null,
+            "purchase": "9,270",
+            "purchase_currency": "GE",
+            "status": "Premium vehicle",
+            "fetched_at": "2026-09-19T06:32:06.573Z",
+            "sha256": "853170e7a8ad1209bb10d0898ccacd396020859ff67df5e82abe5190785f7c9b"
+          }
+        },
+        {
+          "type": "single",
+          "title": "◔Mi-24P",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/mi_24p_hungary.png",
+          "br": "9.7",
+          "rp": 0,
+          "sp": 0,
+          "data_unit_id": "mi_24p_hungary",
+          "required_unit_id": "",
+          "selected": false,
+          "class_name": "prem",
+          "details": true,
+          "rank": "VI",
+          "research_country": "Italy",
+          "main_role": "Attack helicopter",
+          "is_component": false,
+          "component_of": null,
+          "is_premium": true,
+          "is_squadron": false,
+          "wiki": {
+            "url": "https://wiki.warthunder.com/unit/mi_24p_hungary",
+            "rank": "VI",
+            "battle_rating_context": "default",
+            "battle_ratings": {
+              "AB": "10.0",
+              "RB": "9.7",
+              "SB": "9.7"
+            },
+            "battle_ratings_by_battle": {
+              "default": {
+                "AB": "10.0",
+                "RB": "9.7",
+                "SB": "9.7"
+              }
+            },
+            "research": null,
+            "purchase": "8,730",
+            "purchase_currency": "GE",
+            "status": "Premium vehicle",
+            "fetched_at": "2026-09-19T06:32:06.228Z",
+            "sha256": "49bd2df8d3c0abf145bf6ce9dfa20fc04c21aaab75e6c092542c4ef6d2ec0460"
+          }
+        },
+        {
+          "type": "single",
+          "title": "A-129 International (p)",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/a_129_a.png",
+          "br": "11.0",
+          "rp": 0,
+          "sp": 0,
+          "data_unit_id": "a_129_a",
+          "required_unit_id": "",
+          "selected": false,
+          "class_name": "prem",
+          "details": true,
+          "rank": "VI",
+          "research_country": "Italy",
+          "main_role": "Attack helicopter",
+          "is_component": false,
+          "component_of": null,
+          "is_premium": true,
+          "is_squadron": false,
+          "wiki": {
+            "url": "https://wiki.warthunder.com/unit/a_129_a",
+            "rank": "VI",
+            "battle_rating_context": "default",
+            "battle_ratings": {
+              "AB": "9.7",
+              "RB": "11.0",
+              "SB": "9.7"
+            },
+            "battle_ratings_by_battle": {
+              "default": {
+                "AB": "9.7",
+                "RB": "11.0",
+                "SB": "9.7"
+              }
+            },
+            "research": null,
+            "purchase": null,
+            "purchase_currency": null,
+            "status": "Premium vehicle",
+            "fetched_at": "2026-09-19T06:32:05.790Z",
+            "sha256": "9e4873c51348c3c27dfa22b7cbea50c57514bead78f87c7e3e607fc57df098a2"
+          }
+        }
+      ]
+    ],
+    "selected": [],
+    "unlock_quantity": null,
+    "source": "wiki"
+  },
+  {
+    "rank": "VII",
+    "researchable_vehicles": [
+      [
+        {
+          "type": "single",
+          "title": "A129CBT",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/a_129_cbt.png",
+          "br": "11.0",
+          "rp": 400000,
+          "sp": 1020000,
+          "data_unit_id": "a_129_cbt",
+          "required_unit_id": "mi_24v_hungary",
+          "selected": false,
+          "class_name": "",
+          "details": true,
+          "rank": "VII",
+          "research_country": "Italy",
+          "main_role": "Attack helicopter",
+          "is_component": false,
+          "component_of": null,
+          "is_premium": false,
+          "is_squadron": false,
+          "wiki": {
+            "url": "https://wiki.warthunder.com/unit/a_129_cbt",
+            "rank": "VII",
+            "battle_rating_context": "default",
+            "battle_ratings": {
+              "AB": "9.7",
+              "RB": "11.0",
+              "SB": "9.7"
+            },
+            "battle_ratings_by_battle": {
+              "default": {
+                "AB": "9.7",
+                "RB": "11.0",
+                "SB": "9.7"
+              }
+            },
+            "research": "400,000",
+            "purchase": "1,020,000",
+            "purchase_currency": "SL",
+            "status": null,
+            "fetched_at": "2026-09-19T06:32:05.850Z",
+            "sha256": "3a51853eea0e0f3d118849fa0e3f6e0a2b873a61264bf8ccc6c8628235a3c762"
+          }
+        },
+        {
+          "type": "single",
+          "title": "AH-129D",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/a_129_d.png",
+          "br": "12.7",
+          "rp": 400000,
+          "sp": 1030000,
+          "data_unit_id": "a_129_d",
+          "required_unit_id": "a_129_cbt",
+          "selected": false,
+          "class_name": "",
+          "details": true,
+          "rank": "VII",
+          "research_country": "Italy",
+          "main_role": "Attack helicopter",
+          "is_component": false,
+          "component_of": null,
+          "is_premium": false,
+          "is_squadron": false,
+          "wiki": {
+            "url": "https://wiki.warthunder.com/unit/a_129_d",
+            "rank": "VII",
+            "battle_rating_context": "default",
+            "battle_ratings": {
+              "AB": "11.0",
+              "RB": "12.7",
+              "SB": "11.7"
+            },
+            "battle_ratings_by_battle": {
+              "default": {
+                "AB": "11.0",
+                "RB": "12.7",
+                "SB": "11.7"
+              }
+            },
+            "research": "400,000",
+            "purchase": "1,030,000",
+            "purchase_currency": "SL",
+            "status": null,
+            "fetched_at": "2026-09-19T06:32:06.109Z",
+            "sha256": "614271e8f43999b850d623817e106c3cf1b9006480968208db9e545a82fa57fe"
+          }
+        }
+      ]
+    ],
+    "premium_vehicles": [
+      []
+    ],
+    "selected": [],
+    "unlock_quantity": null,
+    "source": "wiki"
+  }
+]

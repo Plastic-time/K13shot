@@ -1,0 +1,1531 @@
+[
+  {
+    "rank": "I",
+    "researchable_vehicles": [
+      [
+        {
+          "type": "single",
+          "title": "PT-6",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/us_pt6.png",
+          "br": "1.0",
+          "rp": 0,
+          "sp": 0,
+          "data_unit_id": "us_pt6",
+          "required_unit_id": "",
+          "selected": false,
+          "class_name": "",
+          "details": true,
+          "rank": "I",
+          "research_country": "USA",
+          "main_role": "Boat",
+          "is_component": false,
+          "component_of": null,
+          "is_premium": false,
+          "is_squadron": false,
+          "wiki": {
+            "url": "https://wiki.warthunder.com/unit/us_pt6",
+            "rank": "I",
+            "battle_rating_context": "default",
+            "battle_ratings": {
+              "AB": "1.0",
+              "RB": "1.0"
+            },
+            "battle_ratings_by_battle": {
+              "default": {
+                "AB": "1.0",
+                "RB": "1.0"
+              }
+            },
+            "research": "Free",
+            "purchase": "Free",
+            "purchase_currency": "SL",
+            "status": null,
+            "fetched_at": "2026-09-19T06:32:46.408Z",
+            "sha256": "3ad0e49c058eec8f422fc50be11ca4764411a14a9bab4b7e4178917f7729eca6"
+          }
+        },
+        {
+          "type": "single",
+          "title": "PTF-7",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/us_nasty_ptf.png",
+          "br": "1.7",
+          "rp": 4000,
+          "sp": 2100,
+          "data_unit_id": "us_nasty_ptf",
+          "required_unit_id": "us_pt6",
+          "selected": false,
+          "class_name": "",
+          "details": true,
+          "rank": "I",
+          "research_country": "USA",
+          "main_role": "Boat",
+          "is_component": false,
+          "component_of": null,
+          "is_premium": false,
+          "is_squadron": false,
+          "wiki": {
+            "url": "https://wiki.warthunder.com/unit/us_nasty_ptf",
+            "rank": "I",
+            "battle_rating_context": "default",
+            "battle_ratings": {
+              "AB": "1.7",
+              "RB": "1.7"
+            },
+            "battle_ratings_by_battle": {
+              "default": {
+                "AB": "1.7",
+                "RB": "1.7"
+              }
+            },
+            "research": "4,000",
+            "purchase": "2,100",
+            "purchase_currency": "SL",
+            "status": null,
+            "fetched_at": "2026-09-19T06:32:45.639Z",
+            "sha256": "fc82526d80ed247b009a7f7a90de84c1f7b88511dc497485f4c755276cda611b"
+          }
+        }
+      ],
+      [
+        {
+          "type": "single",
+          "title": "PT-20",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/us_elco_77ft_pt20.png",
+          "br": "1.7",
+          "rp": 2900,
+          "sp": 700,
+          "data_unit_id": "us_elco_77ft_pt20",
+          "required_unit_id": "",
+          "selected": false,
+          "class_name": "",
+          "details": true,
+          "rank": "I",
+          "research_country": "USA",
+          "main_role": "Boat",
+          "is_component": false,
+          "component_of": null,
+          "is_premium": false,
+          "is_squadron": false,
+          "wiki": {
+            "url": "https://wiki.warthunder.com/unit/us_elco_77ft_pt20",
+            "rank": "I",
+            "battle_rating_context": "default",
+            "battle_ratings": {
+              "AB": "1.7",
+              "RB": "1.7"
+            },
+            "battle_ratings_by_battle": {
+              "default": {
+                "AB": "1.7",
+                "RB": "1.7"
+              }
+            },
+            "research": "2,900",
+            "purchase": "700",
+            "purchase_currency": "SL",
+            "status": null,
+            "fetched_at": "2026-09-19T06:32:43.896Z",
+            "sha256": "bc8bd8d87355c053b72cb68719023bef148ba45775ccca6defb205669678c6f6"
+          }
+        },
+        {
+          "type": "single",
+          "title": "PT-95",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/us_huckins_78ft_pt95.png",
+          "br": "1.7",
+          "rp": 4000,
+          "sp": 2100,
+          "data_unit_id": "us_huckins_78ft_pt95",
+          "required_unit_id": "us_elco_77ft_pt20",
+          "selected": false,
+          "class_name": "",
+          "details": true,
+          "rank": "I",
+          "research_country": "USA",
+          "main_role": "Boat",
+          "is_component": false,
+          "component_of": null,
+          "is_premium": false,
+          "is_squadron": false,
+          "wiki": {
+            "url": "https://wiki.warthunder.com/unit/us_huckins_78ft_pt95",
+            "rank": "I",
+            "battle_rating_context": "default",
+            "battle_ratings": {
+              "AB": "1.7",
+              "RB": "1.7"
+            },
+            "battle_ratings_by_battle": {
+              "default": {
+                "AB": "1.7",
+                "RB": "1.7"
+              }
+            },
+            "research": "4,000",
+            "purchase": "2,100",
+            "purchase_currency": "SL",
+            "status": null,
+            "fetched_at": "2026-09-19T06:32:45.386Z",
+            "sha256": "c1520b1987e65df690314f1e9a44cf0468858162dd17d2bb027f304cb36d043a"
+          }
+        }
+      ],
+      []
+    ],
+    "premium_vehicles": [
+      [
+        {
+          "type": "single",
+          "title": "PT-3",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/us_pt3.png",
+          "br": "1.0",
+          "rp": 0,
+          "sp": 0,
+          "data_unit_id": "us_pt3",
+          "required_unit_id": "",
+          "selected": false,
+          "class_name": "prem",
+          "details": true,
+          "rank": "I",
+          "research_country": "USA",
+          "main_role": "Boat",
+          "is_component": false,
+          "component_of": null,
+          "is_premium": true,
+          "is_squadron": false,
+          "wiki": {
+            "url": "https://wiki.warthunder.com/unit/us_pt3",
+            "rank": "I",
+            "battle_rating_context": "default",
+            "battle_ratings": {
+              "AB": "1.0",
+              "RB": "1.0"
+            },
+            "battle_ratings_by_battle": {
+              "default": {
+                "AB": "1.0",
+                "RB": "1.0"
+              }
+            },
+            "research": null,
+            "purchase": "250",
+            "purchase_currency": "GE",
+            "status": "Premium vehicle",
+            "fetched_at": "2026-09-19T06:32:46.170Z",
+            "sha256": "9d09b64a1aea771ff516382d9a7030832b7dce85bed97bcefd9fc3ee6768f787"
+          }
+        }
+      ],
+      []
+    ],
+    "selected": [],
+    "unlock_quantity": null,
+    "source": "wiki"
+  },
+  {
+    "rank": "II",
+    "researchable_vehicles": [
+      [
+        {
+          "type": "single",
+          "title": "PT-103",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/us_elco_80ft_pt_boat.png",
+          "br": "1.7",
+          "rp": 9200,
+          "sp": 16000,
+          "data_unit_id": "us_elco_80ft_pt_boat",
+          "required_unit_id": "us_nasty_ptf",
+          "selected": false,
+          "class_name": "",
+          "details": true,
+          "rank": "II",
+          "research_country": "USA",
+          "main_role": "Boat",
+          "is_component": false,
+          "component_of": null,
+          "is_premium": false,
+          "is_squadron": false,
+          "wiki": {
+            "url": "https://wiki.warthunder.com/unit/us_elco_80ft_pt_boat",
+            "rank": "II",
+            "battle_rating_context": "default",
+            "battle_ratings": {
+              "AB": "1.7",
+              "RB": "1.7"
+            },
+            "battle_ratings_by_battle": {
+              "default": {
+                "AB": "1.7",
+                "RB": "1.7"
+              }
+            },
+            "research": "9,200",
+            "purchase": "16,000",
+            "purchase_currency": "SL",
+            "status": null,
+            "fetched_at": "2026-09-19T06:32:44.246Z",
+            "sha256": "59612250e7a097688bc87fc459c072394721e8d42a298c021bc3ecce721a88c7"
+          }
+        },
+        {
+          "type": "single",
+          "title": "PT-71",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/us_higgins_78ft_pt71.png",
+          "br": "2.0",
+          "rp": 11000,
+          "sp": 22000,
+          "data_unit_id": "us_higgins_78ft_pt71",
+          "required_unit_id": "us_elco_80ft_pt_boat",
+          "selected": false,
+          "class_name": "",
+          "details": true,
+          "rank": "II",
+          "research_country": "USA",
+          "main_role": "Boat",
+          "is_component": false,
+          "component_of": null,
+          "is_premium": false,
+          "is_squadron": false,
+          "wiki": {
+            "url": "https://wiki.warthunder.com/unit/us_higgins_78ft_pt71",
+            "rank": "II",
+            "battle_rating_context": "default",
+            "battle_ratings": {
+              "AB": "2.0",
+              "RB": "2.0"
+            },
+            "battle_ratings_by_battle": {
+              "default": {
+                "AB": "2.0",
+                "RB": "2.0"
+              }
+            },
+            "research": "11,000",
+            "purchase": "22,000",
+            "purchase_currency": "SL",
+            "status": null,
+            "fetched_at": "2026-09-19T06:32:45.327Z",
+            "sha256": "0244cdab9d65afda3a2399c81617e1863f9be6d786438fdffe1ac52990ca224c"
+          }
+        }
+      ],
+      [
+        {
+          "type": "single",
+          "title": "PC-451",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/us_pc_451.png",
+          "br": "2.3",
+          "rp": 7900,
+          "sp": 10000,
+          "data_unit_id": "us_pc_451",
+          "required_unit_id": "us_huckins_78ft_pt95",
+          "selected": false,
+          "class_name": "",
+          "details": true,
+          "rank": "II",
+          "research_country": "USA",
+          "main_role": "Heavy boat",
+          "is_component": false,
+          "component_of": null,
+          "is_premium": false,
+          "is_squadron": false,
+          "wiki": {
+            "url": "https://wiki.warthunder.com/unit/us_pc_451",
+            "rank": "II",
+            "battle_rating_context": "default",
+            "battle_ratings": {
+              "AB": "2.3",
+              "RB": "2.3"
+            },
+            "battle_ratings_by_battle": {
+              "default": {
+                "AB": "2.3",
+                "RB": "2.3"
+              }
+            },
+            "research": "7,900",
+            "purchase": "10,000",
+            "purchase_currency": "SL",
+            "status": null,
+            "fetched_at": "2026-09-19T06:32:45.711Z",
+            "sha256": "dcf4b72c78d8a7f4e0b4933243d548c113fe85a5e2b8084b11d98f30b3921c1c"
+          }
+        },
+        {
+          "type": "single",
+          "title": "SC-497",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/us_sc_497.png",
+          "br": "2.3",
+          "rp": 14000,
+          "sp": 32000,
+          "data_unit_id": "us_sc_497",
+          "required_unit_id": "us_pc_451",
+          "selected": false,
+          "class_name": "",
+          "details": true,
+          "rank": "II",
+          "research_country": "USA",
+          "main_role": "Heavy boat",
+          "is_component": false,
+          "component_of": null,
+          "is_premium": false,
+          "is_squadron": false,
+          "wiki": {
+            "url": "https://wiki.warthunder.com/unit/us_sc_497",
+            "rank": "II",
+            "battle_rating_context": "default",
+            "battle_ratings": {
+              "AB": "2.3",
+              "RB": "2.3"
+            },
+            "battle_ratings_by_battle": {
+              "default": {
+                "AB": "2.3",
+                "RB": "2.3"
+              }
+            },
+            "research": "14,000",
+            "purchase": "32,000",
+            "purchase_currency": "SL",
+            "status": null,
+            "fetched_at": "2026-09-19T06:32:46.808Z",
+            "sha256": "3fab08d4a77cbee75531786bca1baaa05d5b11aff60aee3b6e5b24207967b438"
+          }
+        }
+      ],
+      []
+    ],
+    "premium_vehicles": [
+      [
+        {
+          "type": "single",
+          "title": "Carmi (PC-466)",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/us_pc_466_carmi.png",
+          "br": "2.3",
+          "rp": 0,
+          "sp": 0,
+          "data_unit_id": "us_pc_466_carmi",
+          "required_unit_id": "",
+          "selected": false,
+          "class_name": "prem",
+          "details": true,
+          "rank": "II",
+          "research_country": "USA",
+          "main_role": "Heavy boat",
+          "is_component": false,
+          "component_of": null,
+          "is_premium": true,
+          "is_squadron": false,
+          "wiki": {
+            "url": "https://wiki.warthunder.com/unit/us_pc_466_carmi",
+            "rank": "II",
+            "battle_rating_context": "default",
+            "battle_ratings": {
+              "AB": "2.3",
+              "RB": "2.3"
+            },
+            "battle_ratings_by_battle": {
+              "default": {
+                "AB": "2.3",
+                "RB": "2.3"
+              }
+            },
+            "research": null,
+            "purchase": "1,150",
+            "purchase_currency": "GE",
+            "status": "Premium vehicle",
+            "fetched_at": "2026-09-19T06:32:46.098Z",
+            "sha256": "b4d984fdbdf7652b09b9d2408d69fc3e1513d3ff3b22b62d77d469cf3550216d"
+          }
+        },
+        {
+          "type": "single",
+          "title": "PT-174",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/us_elco_80ft_pt174.png",
+          "br": "2.3",
+          "rp": 0,
+          "sp": 0,
+          "data_unit_id": "us_elco_80ft_pt174",
+          "required_unit_id": "",
+          "selected": false,
+          "class_name": "prem",
+          "details": true,
+          "rank": "II",
+          "research_country": "USA",
+          "main_role": "Boat",
+          "is_component": false,
+          "component_of": null,
+          "is_premium": true,
+          "is_squadron": false,
+          "wiki": {
+            "url": "https://wiki.warthunder.com/unit/us_elco_80ft_pt174",
+            "rank": "II",
+            "battle_rating_context": "default",
+            "battle_ratings": {
+              "AB": "2.3",
+              "RB": "2.3"
+            },
+            "battle_ratings_by_battle": {
+              "default": {
+                "AB": "2.3",
+                "RB": "2.3"
+              }
+            },
+            "research": null,
+            "purchase": "1,150",
+            "purchase_currency": "GE",
+            "status": "Premium vehicle",
+            "fetched_at": "2026-09-19T06:32:44.299Z",
+            "sha256": "32431284651709b8cb0ca36ab540763c0832a71c15dd228e59c057896fe6cb13"
+          }
+        }
+      ],
+      [
+        {
+          "type": "single",
+          "title": "PT-262",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/us_huckins_78ft_pt262.png",
+          "br": "2.0",
+          "rp": 0,
+          "sp": 0,
+          "data_unit_id": "us_huckins_78ft_pt262",
+          "required_unit_id": "",
+          "selected": false,
+          "class_name": "prem",
+          "details": true,
+          "rank": "II",
+          "research_country": "USA",
+          "main_role": "Boat",
+          "is_component": false,
+          "component_of": null,
+          "is_premium": true,
+          "is_squadron": false,
+          "wiki": {
+            "url": "https://wiki.warthunder.com/unit/us_huckins_78ft_pt262",
+            "rank": "II",
+            "battle_rating_context": "default",
+            "battle_ratings": {
+              "AB": "2.0",
+              "RB": "2.0"
+            },
+            "battle_ratings_by_battle": {
+              "default": {
+                "AB": "2.0",
+                "RB": "2.0"
+              }
+            },
+            "research": null,
+            "purchase": "850",
+            "purchase_currency": "GE",
+            "status": "Premium vehicle",
+            "fetched_at": "2026-09-19T06:32:45.333Z",
+            "sha256": "0163d309bbc6d256be9623162b202b349bd3f69bdb9c6bc3019af7d461c19f14"
+          }
+        },
+        {
+          "type": "single",
+          "title": "PT-109",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/us_elco_80ft_pt109_boat.png",
+          "br": "1.7",
+          "rp": 0,
+          "sp": 0,
+          "data_unit_id": "us_elco_80ft_pt109_boat",
+          "required_unit_id": "",
+          "selected": false,
+          "class_name": "prem",
+          "details": true,
+          "rank": "II",
+          "research_country": "USA",
+          "main_role": "Boat",
+          "is_component": false,
+          "component_of": null,
+          "is_premium": true,
+          "is_squadron": false,
+          "wiki": {
+            "url": "https://wiki.warthunder.com/unit/us_elco_80ft_pt109_boat",
+            "rank": "II",
+            "battle_rating_context": "default",
+            "battle_ratings": {
+              "AB": "1.7",
+              "RB": "1.7"
+            },
+            "battle_ratings_by_battle": {
+              "default": {
+                "AB": "1.7",
+                "RB": "1.7"
+              }
+            },
+            "research": null,
+            "purchase": null,
+            "purchase_currency": null,
+            "status": "Premium vehicle",
+            "fetched_at": "2026-09-19T06:32:44.234Z",
+            "sha256": "55f21a04ea5dd51baf151c1fded731844543bec9db5fd8298e5d23f946c8336e"
+          }
+        }
+      ]
+    ],
+    "selected": [],
+    "unlock_quantity": null,
+    "source": "wiki"
+  },
+  {
+    "rank": "III",
+    "researchable_vehicles": [
+      [
+        {
+          "type": "single",
+          "title": "PT-314",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/us_elco_80ft_pt_boat_mod01.png",
+          "br": "2.3",
+          "rp": 18000,
+          "sp": 47000,
+          "data_unit_id": "us_elco_80ft_pt_boat_mod01",
+          "required_unit_id": "us_higgins_78ft_pt71",
+          "selected": false,
+          "class_name": "",
+          "details": true,
+          "rank": "III",
+          "research_country": "USA",
+          "main_role": "Boat",
+          "is_component": false,
+          "component_of": null,
+          "is_premium": false,
+          "is_squadron": false,
+          "wiki": {
+            "url": "https://wiki.warthunder.com/unit/us_elco_80ft_pt_boat_mod01",
+            "rank": "III",
+            "battle_rating_context": "default",
+            "battle_ratings": {
+              "AB": "2.3",
+              "RB": "2.3"
+            },
+            "battle_ratings_by_battle": {
+              "default": {
+                "AB": "2.3",
+                "RB": "2.3"
+              }
+            },
+            "research": "18,000",
+            "purchase": "47,000",
+            "purchase_currency": "SL",
+            "status": null,
+            "fetched_at": "2026-09-19T06:32:44.606Z",
+            "sha256": "24fd65eaad7fd5b54cb229f1bb38b96207ee3cbffaf9b44e6717e898c1e47ca1"
+          }
+        },
+        {
+          "type": "single",
+          "title": "PT-565",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/us_elco_80ft_pt_boat_mod02.png",
+          "br": "2.7",
+          "rp": 36000,
+          "sp": 115000,
+          "data_unit_id": "us_elco_80ft_pt_boat_mod02",
+          "required_unit_id": "us_elco_80ft_pt_boat_mod01",
+          "selected": false,
+          "class_name": "",
+          "details": true,
+          "rank": "III",
+          "research_country": "USA",
+          "main_role": "Boat",
+          "is_component": false,
+          "component_of": null,
+          "is_premium": false,
+          "is_squadron": false,
+          "wiki": {
+            "url": "https://wiki.warthunder.com/unit/us_elco_80ft_pt_boat_mod02",
+            "rank": "III",
+            "battle_rating_context": "default",
+            "battle_ratings": {
+              "AB": "2.7",
+              "RB": "2.7"
+            },
+            "battle_ratings_by_battle": {
+              "default": {
+                "AB": "2.7",
+                "RB": "2.7"
+              }
+            },
+            "research": "36,000",
+            "purchase": "115,000",
+            "purchase_currency": "SL",
+            "status": null,
+            "fetched_at": "2026-09-19T06:32:44.493Z",
+            "sha256": "9c96b100157f6f054b978f74cf36a548dba18a70e97870ccb01d83f1e856d86b"
+          }
+        }
+      ],
+      [
+        {
+          "type": "single",
+          "title": "PT-200",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/us_higgins_78ft_pt625.png",
+          "br": "2.7",
+          "rp": 26000,
+          "sp": 76000,
+          "data_unit_id": "us_higgins_78ft_pt625",
+          "required_unit_id": "us_sc_497",
+          "selected": false,
+          "class_name": "",
+          "details": true,
+          "rank": "III",
+          "research_country": "USA",
+          "main_role": "Boat",
+          "is_component": false,
+          "component_of": null,
+          "is_premium": false,
+          "is_squadron": false,
+          "wiki": {
+            "url": "https://wiki.warthunder.com/unit/us_higgins_78ft_pt625",
+            "rank": "III",
+            "battle_rating_context": "default",
+            "battle_ratings": {
+              "AB": "2.7",
+              "RB": "2.7"
+            },
+            "battle_ratings_by_battle": {
+              "default": {
+                "AB": "2.7",
+                "RB": "2.7"
+              }
+            },
+            "research": "26,000",
+            "purchase": "76,000",
+            "purchase_currency": "SL",
+            "status": null,
+            "fetched_at": "2026-09-19T06:32:44.999Z",
+            "sha256": "4384d5b15613ec3106c8705670d28a9ef9e783de498516dbccc14ebf0d6696d7"
+          }
+        },
+        {
+          "type": "single",
+          "title": "PT-59",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/us_elco_77ft_pt59.png",
+          "br": "3.0",
+          "rp": 48000,
+          "sp": 180000,
+          "data_unit_id": "us_elco_77ft_pt59",
+          "required_unit_id": "us_higgins_78ft_pt625",
+          "selected": false,
+          "class_name": "",
+          "details": true,
+          "rank": "III",
+          "research_country": "USA",
+          "main_role": "Boat",
+          "is_component": false,
+          "component_of": null,
+          "is_premium": false,
+          "is_squadron": false,
+          "wiki": {
+            "url": "https://wiki.warthunder.com/unit/us_elco_77ft_pt59",
+            "rank": "III",
+            "battle_rating_context": "default",
+            "battle_ratings": {
+              "AB": "3.0",
+              "RB": "3.0"
+            },
+            "battle_ratings_by_battle": {
+              "default": {
+                "AB": "3.0",
+                "RB": "3.0"
+              }
+            },
+            "research": "48,000",
+            "purchase": "180,000",
+            "purchase_currency": "SL",
+            "status": null,
+            "fetched_at": "2026-09-19T06:32:44.141Z",
+            "sha256": "3ecf2184f3a7f6ceb2211e26066fed904b36c610b30627323fa6a4f9feb2ab88"
+          }
+        }
+      ],
+      [
+        {
+          "type": "single",
+          "title": "Kim Qui",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/us_pgm_59_class.png",
+          "br": "3.3",
+          "rp": 48000,
+          "sp": 180000,
+          "data_unit_id": "us_pgm_59_class",
+          "required_unit_id": "",
+          "selected": false,
+          "class_name": "",
+          "details": true,
+          "rank": "III",
+          "research_country": "USA",
+          "main_role": "Heavy boat",
+          "is_component": false,
+          "component_of": null,
+          "is_premium": false,
+          "is_squadron": false,
+          "wiki": {
+            "url": "https://wiki.warthunder.com/unit/us_pgm_59_class",
+            "rank": "III",
+            "battle_rating_context": "default",
+            "battle_ratings": {
+              "AB": "3.3",
+              "RB": "3.3"
+            },
+            "battle_ratings_by_battle": {
+              "default": {
+                "AB": "3.3",
+                "RB": "3.3"
+              }
+            },
+            "research": "48,000",
+            "purchase": "180,000",
+            "purchase_currency": "SL",
+            "status": null,
+            "fetched_at": "2026-09-19T06:32:46.090Z",
+            "sha256": "cd6af9134959912525ccc76f8f380150d0d80d1eeb12603007d5a5494d04eba4"
+          }
+        }
+      ]
+    ],
+    "premium_vehicles": [
+      [
+        {
+          "type": "single",
+          "title": "LCM(6) Zippo",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/us_lcm_zippo.png",
+          "br": "2.3",
+          "rp": 0,
+          "sp": 0,
+          "data_unit_id": "us_lcm_zippo",
+          "required_unit_id": "",
+          "selected": false,
+          "class_name": "prem",
+          "details": true,
+          "rank": "III",
+          "research_country": "USA",
+          "main_role": "Heavy boat",
+          "is_component": false,
+          "component_of": null,
+          "is_premium": true,
+          "is_squadron": false,
+          "wiki": {
+            "url": "https://wiki.warthunder.com/unit/us_lcm_zippo",
+            "rank": "III",
+            "battle_rating_context": "default",
+            "battle_ratings": {
+              "AB": "2.3",
+              "RB": "2.3"
+            },
+            "battle_ratings_by_battle": {
+              "default": {
+                "AB": "2.3",
+                "RB": "2.3"
+              }
+            },
+            "research": null,
+            "purchase": null,
+            "purchase_currency": null,
+            "status": "Premium vehicle",
+            "fetched_at": "2026-09-19T06:32:45.609Z",
+            "sha256": "c074dce33de7eb20c2fb6bd8c521412e071d84a52dee5edfba84cf6c84325ff0"
+          }
+        },
+        {
+          "type": "single",
+          "title": "Thunderbolt (PT-556)",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/us_elco_80ft_pt_boat_thunderbolt.png",
+          "br": "2.7",
+          "rp": 0,
+          "sp": 0,
+          "data_unit_id": "us_elco_80ft_pt_boat_thunderbolt",
+          "required_unit_id": "",
+          "selected": false,
+          "class_name": "prem",
+          "details": true,
+          "rank": "III",
+          "research_country": "USA",
+          "main_role": "Boat",
+          "is_component": false,
+          "component_of": null,
+          "is_premium": true,
+          "is_squadron": false,
+          "wiki": {
+            "url": "https://wiki.warthunder.com/unit/us_elco_80ft_pt_boat_thunderbolt",
+            "rank": "III",
+            "battle_rating_context": "default",
+            "battle_ratings": {
+              "AB": "2.7",
+              "RB": "2.7"
+            },
+            "battle_ratings_by_battle": {
+              "default": {
+                "AB": "2.7",
+                "RB": "2.7"
+              }
+            },
+            "research": null,
+            "purchase": "1,600",
+            "purchase_currency": "GE",
+            "status": "Premium vehicle",
+            "fetched_at": "2026-09-19T06:32:44.718Z",
+            "sha256": "0ee6721c53c39e7615f3371fa676123a27976314a421e9e1ff37e62cc2c12f87"
+          }
+        }
+      ],
+      [
+        {
+          "type": "single",
+          "title": "PT-658",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/us_higgins_78ft_pt658.png",
+          "br": "2.7",
+          "rp": 0,
+          "sp": 0,
+          "data_unit_id": "us_higgins_78ft_pt658",
+          "required_unit_id": "",
+          "selected": false,
+          "class_name": "prem",
+          "details": true,
+          "rank": "III",
+          "research_country": "USA",
+          "main_role": "Boat",
+          "is_component": false,
+          "component_of": null,
+          "is_premium": true,
+          "is_squadron": false,
+          "wiki": {
+            "url": "https://wiki.warthunder.com/unit/us_higgins_78ft_pt658",
+            "rank": "III",
+            "battle_rating_context": "default",
+            "battle_ratings": {
+              "AB": "2.7",
+              "RB": "2.7"
+            },
+            "battle_ratings_by_battle": {
+              "default": {
+                "AB": "2.7",
+                "RB": "2.7"
+              }
+            },
+            "research": null,
+            "purchase": null,
+            "purchase_currency": null,
+            "status": "Premium vehicle",
+            "fetched_at": "2026-09-19T06:32:45.266Z",
+            "sha256": "306ba1f044fd9107aa6cdf8574cea9f57538b90f08279145082e8a51220d99a5"
+          }
+        },
+        {
+          "type": "single",
+          "title": "USS Flagstaff",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/us_flagstaff_pgh1.png",
+          "br": "2.7",
+          "rp": 0,
+          "sp": 0,
+          "data_unit_id": "us_flagstaff_pgh1",
+          "required_unit_id": "",
+          "selected": false,
+          "class_name": "prem",
+          "details": true,
+          "rank": "III",
+          "research_country": "USA",
+          "main_role": "Boat",
+          "is_component": false,
+          "component_of": null,
+          "is_premium": true,
+          "is_squadron": false,
+          "wiki": {
+            "url": "https://wiki.warthunder.com/unit/us_flagstaff_pgh1",
+            "rank": "III",
+            "battle_rating_context": "default",
+            "battle_ratings": {
+              "AB": "2.7",
+              "RB": "2.7"
+            },
+            "battle_ratings_by_battle": {
+              "default": {
+                "AB": "2.7",
+                "RB": "2.7"
+              }
+            },
+            "research": null,
+            "purchase": null,
+            "purchase_currency": null,
+            "status": "Premium vehicle",
+            "fetched_at": "2026-09-19T06:32:44.563Z",
+            "sha256": "431884608453f6737c775365a291481f454c1672db515de630442df53d5b8c7d"
+          }
+        }
+      ]
+    ],
+    "selected": [],
+    "unlock_quantity": null,
+    "source": "wiki"
+  },
+  {
+    "rank": "IV",
+    "researchable_vehicles": [
+      [
+        {
+          "type": "single",
+          "title": "USS Tucumcari",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/us_tucumcari_pgh2.png",
+          "br": "3.0",
+          "rp": 89000,
+          "sp": 300000,
+          "data_unit_id": "us_tucumcari_pgh2",
+          "required_unit_id": "us_elco_80ft_pt_boat_mod02",
+          "selected": false,
+          "class_name": "",
+          "details": true,
+          "rank": "IV",
+          "research_country": "USA",
+          "main_role": "Boat",
+          "is_component": false,
+          "component_of": null,
+          "is_premium": false,
+          "is_squadron": false,
+          "wiki": {
+            "url": "https://wiki.warthunder.com/unit/us_tucumcari_pgh2",
+            "rank": "IV",
+            "battle_rating_context": "default",
+            "battle_ratings": {
+              "AB": "3.0",
+              "RB": "3.0"
+            },
+            "battle_ratings_by_battle": {
+              "default": {
+                "AB": "3.0",
+                "RB": "3.0"
+              }
+            },
+            "research": "89,000",
+            "purchase": "300,000",
+            "purchase_currency": "SL",
+            "status": null,
+            "fetched_at": "2026-09-19T06:32:46.791Z",
+            "sha256": "acc97355b31b30d04c3a93e162440a3ec3edf5cab852da56e1d4a31544dc25f8"
+          }
+        },
+        {
+          "type": "single",
+          "title": "PT-812",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/us_pt812.png",
+          "br": "3.3",
+          "rp": 120000,
+          "sp": 360000,
+          "data_unit_id": "us_pt812",
+          "required_unit_id": "us_tucumcari_pgh2",
+          "selected": false,
+          "class_name": "",
+          "details": true,
+          "rank": "IV",
+          "research_country": "USA",
+          "main_role": "Boat",
+          "is_component": false,
+          "component_of": null,
+          "is_premium": false,
+          "is_squadron": false,
+          "wiki": {
+            "url": "https://wiki.warthunder.com/unit/us_pt812",
+            "rank": "IV",
+            "battle_rating_context": "default",
+            "battle_ratings": {
+              "AB": "3.3",
+              "RB": "3.3"
+            },
+            "battle_ratings_by_battle": {
+              "default": {
+                "AB": "3.3",
+                "RB": "3.3"
+              }
+            },
+            "research": "120,000",
+            "purchase": "360,000",
+            "purchase_currency": "SL",
+            "status": null,
+            "fetched_at": "2026-09-19T06:32:46.471Z",
+            "sha256": "b32ff2facf3605574ad478a4fedca927a9d8f9f80b98ab721808777f153d0826"
+          }
+        }
+      ],
+      [
+        {
+          "type": "single",
+          "title": "USS Asheville",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/us_ashville_class.png",
+          "br": "3.3",
+          "rp": 75000,
+          "sp": 250000,
+          "data_unit_id": "us_ashville_class",
+          "required_unit_id": "us_elco_77ft_pt59",
+          "selected": false,
+          "class_name": "",
+          "details": true,
+          "rank": "IV",
+          "research_country": "USA",
+          "main_role": "Heavy boat",
+          "is_component": false,
+          "component_of": null,
+          "is_premium": false,
+          "is_squadron": false,
+          "wiki": {
+            "url": "https://wiki.warthunder.com/unit/us_ashville_class",
+            "rank": "IV",
+            "battle_rating_context": "default",
+            "battle_ratings": {
+              "AB": "3.3",
+              "RB": "3.3"
+            },
+            "battle_ratings_by_battle": {
+              "default": {
+                "AB": "3.3",
+                "RB": "3.3"
+              }
+            },
+            "research": "75,000",
+            "purchase": "250,000",
+            "purchase_currency": "SL",
+            "status": null,
+            "fetched_at": "2026-09-19T06:32:43.589Z",
+            "sha256": "792c55636937ab8b243bfd8a72325a1f9c1b6951d21cbdeb46926e12e0c64992"
+          }
+        },
+        {
+          "type": "single",
+          "title": "USS Candid",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/us_admirable_class.png",
+          "br": "3.7",
+          "rp": 89000,
+          "sp": 300000,
+          "data_unit_id": "us_admirable_class",
+          "required_unit_id": "us_ashville_class",
+          "selected": false,
+          "class_name": "",
+          "details": true,
+          "rank": "IV",
+          "research_country": "USA",
+          "main_role": "Heavy boat",
+          "is_component": false,
+          "component_of": null,
+          "is_premium": false,
+          "is_squadron": false,
+          "wiki": {
+            "url": "https://wiki.warthunder.com/unit/us_admirable_class",
+            "rank": "IV",
+            "battle_rating_context": "default",
+            "battle_ratings": {
+              "AB": "3.7",
+              "RB": "3.7"
+            },
+            "battle_ratings_by_battle": {
+              "default": {
+                "AB": "3.7",
+                "RB": "3.7"
+              }
+            },
+            "research": "89,000",
+            "purchase": "300,000",
+            "purchase_currency": "SL",
+            "status": null,
+            "fetched_at": "2026-09-19T06:32:43.429Z",
+            "sha256": "d28703e20c10430662bfaa8129b1ba8715314ef89d0df8f5d8b9c38a8162573a"
+          }
+        }
+      ],
+      [
+        {
+          "type": "single",
+          "title": "PGM-9",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/us_pgm_9_class.png",
+          "br": "3.3",
+          "rp": 89000,
+          "sp": 300000,
+          "data_unit_id": "us_pgm_9_class",
+          "required_unit_id": "us_pgm_59_class",
+          "selected": false,
+          "class_name": "",
+          "details": true,
+          "rank": "IV",
+          "research_country": "USA",
+          "main_role": "Heavy boat",
+          "is_component": false,
+          "component_of": null,
+          "is_premium": false,
+          "is_squadron": false,
+          "wiki": {
+            "url": "https://wiki.warthunder.com/unit/us_pgm_9_class",
+            "rank": "IV",
+            "battle_rating_context": "default",
+            "battle_ratings": {
+              "AB": "3.3",
+              "RB": "3.3"
+            },
+            "battle_ratings_by_battle": {
+              "default": {
+                "AB": "3.3",
+                "RB": "3.3"
+              }
+            },
+            "research": "89,000",
+            "purchase": "300,000",
+            "purchase_currency": "SL",
+            "status": null,
+            "fetched_at": "2026-09-19T06:32:45.967Z",
+            "sha256": "173152933eb4714f554b27e4334f7319ffb0bf7bec88ae9ab818fb2780fe038e"
+          }
+        }
+      ]
+    ],
+    "premium_vehicles": [
+      [
+        {
+          "type": "single",
+          "title": "PT-811",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/us_pt811.png",
+          "br": "3.7",
+          "rp": 0,
+          "sp": 0,
+          "data_unit_id": "us_pt811",
+          "required_unit_id": "",
+          "selected": false,
+          "class_name": "prem",
+          "details": true,
+          "rank": "IV",
+          "research_country": "USA",
+          "main_role": "Boat",
+          "is_component": false,
+          "component_of": null,
+          "is_premium": true,
+          "is_squadron": false,
+          "wiki": {
+            "url": "https://wiki.warthunder.com/unit/us_pt811",
+            "rank": "IV",
+            "battle_rating_context": "default",
+            "battle_ratings": {
+              "AB": "3.7",
+              "RB": "3.7"
+            },
+            "battle_ratings_by_battle": {
+              "default": {
+                "AB": "3.7",
+                "RB": "3.7"
+              }
+            },
+            "research": null,
+            "purchase": null,
+            "purchase_currency": null,
+            "status": "Premium vehicle",
+            "fetched_at": "2026-09-19T06:32:46.550Z",
+            "sha256": "32255cf40404d4865cee177f83d83ef25b48f2fb4633f37865dcd94d47dee2ee"
+          }
+        },
+        {
+          "type": "single",
+          "title": "USS Douglas",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/us_ashville_class_douglas.png",
+          "br": "4.0",
+          "rp": 0,
+          "sp": 0,
+          "data_unit_id": "us_ashville_class_douglas",
+          "required_unit_id": "",
+          "selected": false,
+          "class_name": "prem",
+          "details": true,
+          "rank": "IV",
+          "research_country": "USA",
+          "main_role": "Heavy boat",
+          "is_component": false,
+          "component_of": null,
+          "is_premium": true,
+          "is_squadron": false,
+          "wiki": {
+            "url": "https://wiki.warthunder.com/unit/us_ashville_class_douglas",
+            "rank": "IV",
+            "battle_rating_context": "default",
+            "battle_ratings": {
+              "AB": "4.0",
+              "RB": "4.0"
+            },
+            "battle_ratings_by_battle": {
+              "default": {
+                "AB": "4.0",
+                "RB": "4.0"
+              }
+            },
+            "research": null,
+            "purchase": "6,090",
+            "purchase_currency": "GE",
+            "status": "Premium vehicle",
+            "fetched_at": "2026-09-19T06:32:43.728Z",
+            "sha256": "9f062858f5b2345c222e824de560b3da26a8eee997577b29c92679b61b21a9e4"
+          }
+        }
+      ],
+      []
+    ],
+    "selected": [],
+    "unlock_quantity": null,
+    "source": "wiki"
+  },
+  {
+    "rank": "V",
+    "researchable_vehicles": [
+      [
+        {
+          "type": "single",
+          "title": "PT-810",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/us_pt810.png",
+          "br": "3.3",
+          "rp": 220000,
+          "sp": 640000,
+          "data_unit_id": "us_pt810",
+          "required_unit_id": "us_pt812",
+          "selected": false,
+          "class_name": "",
+          "details": true,
+          "rank": "V",
+          "research_country": "USA",
+          "main_role": "Boat",
+          "is_component": false,
+          "component_of": null,
+          "is_premium": false,
+          "is_squadron": false,
+          "wiki": {
+            "url": "https://wiki.warthunder.com/unit/us_pt810",
+            "rank": "V",
+            "battle_rating_context": "default",
+            "battle_ratings": {
+              "AB": "3.3",
+              "RB": "3.3"
+            },
+            "battle_ratings_by_battle": {
+              "default": {
+                "AB": "3.3",
+                "RB": "3.3"
+              }
+            },
+            "research": "220,000",
+            "purchase": "640,000",
+            "purchase_currency": "SL",
+            "status": null,
+            "fetched_at": "2026-09-19T06:32:46.574Z",
+            "sha256": "54eb9423e121fe3414bf5ee57dffdaf5865ef9600c8b608a80e1bc76e256937a"
+          }
+        },
+        {
+          "type": "single",
+          "title": "USS Hoquiam",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/us_frigate_tacoma.png",
+          "br": "3.3",
+          "rp": 250000,
+          "sp": 700000,
+          "data_unit_id": "us_frigate_tacoma",
+          "required_unit_id": "us_pt810",
+          "selected": false,
+          "class_name": "",
+          "details": true,
+          "rank": "V",
+          "research_country": "USA",
+          "main_role": "Frigate",
+          "is_component": false,
+          "component_of": null,
+          "is_premium": false,
+          "is_squadron": false,
+          "wiki": {
+            "url": "https://wiki.warthunder.com/unit/us_frigate_tacoma",
+            "rank": "V",
+            "battle_rating_context": "default",
+            "battle_ratings": {
+              "AB": "3.3",
+              "RB": "3.3"
+            },
+            "battle_ratings_by_battle": {
+              "default": {
+                "AB": "3.3",
+                "RB": "3.3"
+              }
+            },
+            "research": "250,000",
+            "purchase": "700,000",
+            "purchase_currency": "SL",
+            "status": null,
+            "fetched_at": "2026-09-19T06:32:44.876Z",
+            "sha256": "91dba6b3925f0115db2b588b54b81db4ec95f674746bef3d8491a680aa382c3b"
+          }
+        },
+        {
+          "type": "single",
+          "title": "USS Dealey",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/us_frigate_dealey.png",
+          "br": "3.7",
+          "rp": 280000,
+          "sp": 780000,
+          "data_unit_id": "us_frigate_dealey",
+          "required_unit_id": "us_frigate_tacoma",
+          "selected": false,
+          "class_name": "",
+          "details": true,
+          "rank": "V",
+          "research_country": "USA",
+          "main_role": "Frigate",
+          "is_component": false,
+          "component_of": null,
+          "is_premium": false,
+          "is_squadron": false,
+          "wiki": {
+            "url": "https://wiki.warthunder.com/unit/us_frigate_dealey",
+            "rank": "V",
+            "battle_rating_context": "default",
+            "battle_ratings": {
+              "AB": "3.7",
+              "RB": "3.7"
+            },
+            "battle_ratings_by_battle": {
+              "default": {
+                "AB": "3.7",
+                "RB": "3.7"
+              }
+            },
+            "research": "280,000",
+            "purchase": "780,000",
+            "purchase_currency": "SL",
+            "status": null,
+            "fetched_at": "2026-09-19T06:32:44.846Z",
+            "sha256": "f337e0dfa960732a42fbec28b6cb742c0108ad2d764403dfeec79f004d69a4cd"
+          }
+        }
+      ],
+      [
+        {
+          "type": "single",
+          "title": "LCS(L)(3)",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/us_lcs_l_3.png",
+          "br": "3.7",
+          "rp": 250000,
+          "sp": 700000,
+          "data_unit_id": "us_lcs_l_3",
+          "required_unit_id": "us_admirable_class",
+          "selected": false,
+          "class_name": "",
+          "details": true,
+          "rank": "V",
+          "research_country": "USA",
+          "main_role": "Heavy boat",
+          "is_component": false,
+          "component_of": null,
+          "is_premium": false,
+          "is_squadron": false,
+          "wiki": {
+            "url": "https://wiki.warthunder.com/unit/us_lcs_l_3",
+            "rank": "V",
+            "battle_rating_context": "default",
+            "battle_ratings": {
+              "AB": "3.7",
+              "RB": "3.7"
+            },
+            "battle_ratings_by_battle": {
+              "default": {
+                "AB": "3.7",
+                "RB": "3.7"
+              }
+            },
+            "research": "250,000",
+            "purchase": "700,000",
+            "purchase_currency": "SL",
+            "status": null,
+            "fetched_at": "2026-09-19T06:32:45.885Z",
+            "sha256": "2e62046c77c1362992980453dc7d1e4869851588ced367d063fa39463505d95e"
+          }
+        },
+        {
+          "type": "single",
+          "title": "USS Coolbaugh",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/us_frigate_buckley_class_coolbaugh.png",
+          "br": "4.0",
+          "rp": 280000,
+          "sp": 780000,
+          "data_unit_id": "us_frigate_buckley_class_coolbaugh",
+          "required_unit_id": "us_lcs_l_3",
+          "selected": false,
+          "class_name": "",
+          "details": true,
+          "rank": "V",
+          "research_country": "USA",
+          "main_role": "Frigate",
+          "is_component": false,
+          "component_of": null,
+          "is_premium": false,
+          "is_squadron": false,
+          "wiki": {
+            "url": "https://wiki.warthunder.com/unit/us_frigate_buckley_class_coolbaugh",
+            "rank": "V",
+            "battle_rating_context": "default",
+            "battle_ratings": {
+              "AB": "4.0",
+              "RB": "4.0"
+            },
+            "battle_ratings_by_battle": {
+              "default": {
+                "AB": "4.0",
+                "RB": "4.0"
+              }
+            },
+            "research": "280,000",
+            "purchase": "780,000",
+            "purchase_currency": "SL",
+            "status": null,
+            "fetched_at": "2026-09-19T06:32:44.747Z",
+            "sha256": "939fe5d8e8a897cbbaafd7a007fd57ac50ccf9ac5cdf44a6c851f97fd75091d7"
+          }
+        }
+      ],
+      [
+        {
+          "type": "single",
+          "title": "USS Cyclone",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/us_cyclone_class_cyclone.png",
+          "br": "3.3",
+          "rp": 250000,
+          "sp": 700000,
+          "data_unit_id": "us_cyclone_class_cyclone",
+          "required_unit_id": "us_pgm_9_class",
+          "selected": false,
+          "class_name": "",
+          "details": true,
+          "rank": "V",
+          "research_country": "USA",
+          "main_role": "Heavy boat",
+          "is_component": false,
+          "component_of": null,
+          "is_premium": false,
+          "is_squadron": false,
+          "wiki": {
+            "url": "https://wiki.warthunder.com/unit/us_cyclone_class_cyclone",
+            "rank": "V",
+            "battle_rating_context": "default",
+            "battle_ratings": {
+              "AB": "3.3",
+              "RB": "3.3"
+            },
+            "battle_ratings_by_battle": {
+              "default": {
+                "AB": "3.3",
+                "RB": "3.3"
+              }
+            },
+            "research": "250,000",
+            "purchase": "700,000",
+            "purchase_currency": "SL",
+            "status": null,
+            "fetched_at": "2026-09-19T06:32:43.839Z",
+            "sha256": "b68b861ebe317021fb6c7928d7cf4682d4900d4b1b5a2fe33940af3a1ffee586"
+          }
+        }
+      ]
+    ],
+    "premium_vehicles": [
+      [],
+      []
+    ],
+    "selected": [],
+    "unlock_quantity": null,
+    "source": "wiki"
+  }
+]

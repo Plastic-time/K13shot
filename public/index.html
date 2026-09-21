@@ -1,0 +1,240 @@
+﻿<!doctype html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="referrer" content="no-referrer" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>War Thunder 研发计算器</title>
+    <link rel="stylesheet" href="/styles.css?v=modification-symbols-20260921" />
+    <link rel="stylesheet" href="/modifications.css?v=j16-pilot-20260920" />
+  </head>
+  <body>
+    <div class="app-shell">
+      <header class="topbar">
+        <div class="brand-block">
+          <h1>War Thunder 研发计算器</h1>
+          <p id="statusText">正在载入数据</p>
+          <div class="creator-watermark" aria-label="作者水印">
+            bilibili关注：扑街的靓仔 <span>游戏ID：如日方中</span>
+          </div>
+        </div>
+        <div class="topbar-actions">
+          <button id="refreshDataButton" class="secondary-button" type="button">更新当前树</button>
+          <button id="guideButton" class="secondary-button" type="button">使用指南</button>
+          <button id="routeExportButton" class="secondary-button" type="button" disabled>导出科技树截图</button>
+          <button id="planButton" class="primary-button" type="button">精确规划</button>
+          <button id="clearButton" class="danger-button" type="button">清空计划</button>
+        </div>
+      </header>
+
+      <section class="toolbar" aria-label="筛选">
+        <label>
+          <span>国家</span>
+          <select id="countrySelect"></select>
+        </label>
+        <label>
+          <span>军种</span>
+          <select id="typeSelect"></select>
+        </label>
+        <label class="search-label">
+          <span>搜索</span>
+          <input id="searchInput" type="search" placeholder="中文、英文名称或 ID" />
+        </label>
+        <div class="language-field">
+          <span>载具名称</span>
+          <div class="language-toggle" role="group" aria-label="载具名称语言">
+            <button id="languageZhButton" class="language-option" type="button" data-language="zh" aria-pressed="false"><img class="language-flag" src="/assets/flags/cn.svg" alt="" /> 中文</button>
+            <button id="languageEnButton" class="language-option" type="button" data-language="en" aria-pressed="false"><img class="language-flag" src="/assets/flags/gb.svg" alt="" /> English</button>
+          </div>
+        </div>
+        <label>
+          <span>计算范围</span>
+          <select id="dependencyModeSelect">
+            <option value="selected">只算所选</option>
+          </select>
+        </label>
+        <label class="planner-option">
+          <input id="avoidFoldedInput" type="checkbox" />
+          <span>自动补位时避开折叠载具</span>
+        </label>
+      </section>
+
+      <main class="workspace">
+        <aside class="summary-panel" hidden aria-hidden="true">
+          <div class="planner-status" aria-live="polite">
+            <div>
+              <strong>本地精确规划</strong>
+              <span id="plannerStatus">选择目标后点击“精确规划”</span>
+            </div>
+            <div class="planner-state-counts">
+              <span>已拥有 <b id="ownedCount">0</b></span>
+              <span>途经点 <b id="waypointCount">0</b></span>
+            </div>
+          </div>
+          <div class="metric-grid">
+            <div class="metric">
+              <span>还需 RP</span>
+              <strong id="totalRp">0</strong>
+            </div>
+            <div class="metric">
+              <span>购买 SL</span>
+              <strong id="totalSp">0</strong>
+            </div>
+            <div class="metric">
+              <span>载具数量</span>
+              <strong id="missingCount">0</strong>
+            </div>
+          </div>
+          <div class="planned-block">
+            <div class="panel-heading">
+              <h2>已选择载具</h2>
+              <span id="plannedCount">0</span>
+            </div>
+            <div id="plannedList" class="compact-list"></div>
+          </div>
+          <div class="planned-block">
+            <div class="panel-heading">
+              <h2>研发路径</h2>
+              <span id="pathCount">0</span>
+            </div>
+            <div id="missingList" class="compact-list"></div>
+          </div>
+        </aside>
+
+        <section id="treeContainer" class="tree-container" aria-live="polite"></section>
+      </main>
+
+    </div>
+
+    <div id="unitContextMenu" class="unit-context-menu" role="menu" aria-label="载具规划操作" hidden>
+      <div class="unit-context-heading">
+        <span>载具操作</span>
+        <strong id="unitContextTitle"></strong>
+      </div>
+      <button type="button" role="menuitemcheckbox" data-context-action="target" aria-checked="false"><span data-context-label>设为目标</span></button>
+      <button type="button" role="menuitemcheckbox" data-context-action="owned" aria-checked="false"><span data-context-label>标记为已拥有</span></button>
+      <button type="button" role="menuitemcheckbox" data-context-action="waypoint" aria-checked="false"><span data-context-label>设为途经点</span></button>
+      <small id="unitContextHint">再次选择当前状态即可取消</small>
+    </div>
+
+    <dialog id="modificationDialog" class="modification-dialog" aria-labelledby="modificationTitle">
+      <header class="modification-titlebar">
+        <div class="modification-vehicle">
+          <img id="modificationVehicleImage" alt="" />
+          <div><span>MODIFICATIONS</span><h2 id="modificationTitle">配件研发 — J-16</h2></div>
+        </div>
+        <button class="modification-close" type="button" data-modification-close aria-label="关闭配件研发" title="关闭">×</button>
+      </header>
+      <div class="modification-toolbar">
+        <div class="modification-legend" aria-label="配件状态图例">
+          <span><i class="target"></i>目标</span><span><i class="dependency"></i>必经配件</span>
+          <span><i class="filler"></i>等级补足</span><span><i class="researched"></i>已研发</span>
+        </div>
+        <p>左键选择目标 · 右键标记已研发 · 等级门槛按游戏数据计算</p>
+      </div>
+      <div id="modificationViewport" class="modification-viewport"><div id="modificationTree" class="modification-tree" aria-live="polite"></div></div>
+      <footer class="modification-footer">
+        <div class="modification-budget" aria-live="polite">
+          <span>配件预算</span><strong><b id="modificationRp">0</b> RP</strong><strong><b id="modificationSl">0</b> SL</strong>
+          <small id="modificationStatus">选择配件后点击计算</small>
+        </div>
+        <div class="modification-actions">
+          <button type="button" data-modification-action="clear-owned">清除已研发</button>
+          <button type="button" data-modification-action="clear">清空目标</button>
+          <button type="button" data-modification-action="all">全部配件</button>
+          <button class="calculate" type="button" data-modification-action="calculate">计算配件研发</button>
+        </div>
+      </footer>
+    </dialog>
+
+    <dialog id="usageGuideDialog" class="usage-guide-dialog" aria-labelledby="usageGuideTitle">
+      <header class="usage-guide-header">
+        <div>
+          <span class="usage-guide-kicker">本地精确规划 · 测试版</span>
+          <h2 id="usageGuideTitle">使用指南</h2>
+        </div>
+        <button class="secondary-button usage-guide-close" type="button" data-guide-close>关闭</button>
+      </header>
+      <div class="usage-guide-body">
+        <div class="usage-guide-version">
+          <strong>快速上手</strong>
+          <time datetime="2026-09-20">2026.09.20</time>
+        </div>
+        <p class="usage-guide-intro">从选择目标到生成路线，只需要完成下面几步。所有标记仅保存在当前浏览器中。</p>
+        <ol class="usage-guide-steps">
+          <li>
+            <span class="usage-guide-number">01</span>
+            <div><strong>选择目标</strong><p>左键点击载具可选择或取消目标。也可以右键载具，再选择“设为目标”。</p></div>
+          </li>
+          <li>
+            <span class="usage-guide-number">02</span>
+            <div><strong>补充账号状态</strong><p>右键载具可标记“已拥有”或设为“途经点”。再次选择相同状态即可取消。</p></div>
+          </li>
+          <li>
+            <span class="usage-guide-number">03</span>
+            <div><strong>调整补位偏好</strong><p>勾选“自动补位时避开折叠载具”后，算法不会主动用折叠载具补足等级数量。</p></div>
+          </li>
+          <li>
+            <span class="usage-guide-number">04</span>
+            <div><strong>开始精确规划</strong><p>点击页首或科技树右侧的“精确规划”。下滑查看科技树时，右侧按钮会一直跟随可见区域。</p></div>
+          </li>
+          <li>
+            <span class="usage-guide-number">05</span>
+            <div><strong>阅读规划结果</strong><p>“必经路线”是前置载具，“等级补足”是为满足下一级解锁数量而自动加入的载具。</p></div>
+          </li>
+          <li>
+            <span class="usage-guide-number">06</span>
+            <div><strong>查看预算与分享</strong><p>底部浮动条显示当前待研发数量、RP 和银狮。点击“导出科技树截图”可保存完整科技树长图，包含屏幕外的载具、前置连线和规划标记。</p></div>
+          </li>
+        </ol>
+        <section class="usage-guide-update" aria-labelledby="usageGuideUpdateTitle">
+          <div class="usage-guide-update-meta"><span>本次交互更新</span><time datetime="2026-09-20">09 / 20</time></div>
+          <h3 id="usageGuideUpdateTitle">右键操作取代顶部模式切换</h3>
+          <p>顶部“点击操作”已移除。左键始终用于选择目标，已拥有和途经点直接通过载具右键菜单设置。</p>
+        </section>
+        <p class="usage-guide-warning"><strong>测试提醒：</strong>精确规划结果仅供参考。开始实际研发前，请在游戏内手动核对载具前置关系、等级数量和费用。</p>
+      </div>
+      <footer class="usage-guide-footer">
+        <button class="primary-button" type="button" data-guide-close>开始使用</button>
+      </footer>
+    </dialog>
+
+    <aside id="floatingBudget" class="floating-budget" aria-label="当前研发预算" aria-live="polite" aria-atomic="true">
+      <span class="budget-count">待研发 <b id="budgetCount">0</b> 辆</span>
+      <span class="budget-cost"><span id="budgetRpLabel">RP</span> <strong id="budgetRp">0</strong></span>
+      <span class="budget-cost budget-sl"><span id="budgetSlLabel">SL</span> <strong id="budgetSl">0</strong></span>
+    </aside>
+
+    <aside id="floatingPlanner" class="floating-planner" aria-label="精确规划浮动操作">
+      <div class="floating-planner-copy">
+        <span class="floating-planner-label">测试功能</span>
+        <strong id="floatingPlanCount">目标 0 · 途经点 0</strong>
+        <small>结果仅供参考，请在游戏内自行手动核对</small>
+      </div>
+      <button id="floatingPlanButton" class="primary-button floating-plan-button" type="button" aria-label="精确规划，测试功能" title="精确规划（测试功能）">
+        <span class="floating-plan-test">测试</span>
+        <span data-plan-button-label>规划</span>
+      </button>
+    </aside>
+
+    <div id="treeScrollBar" class="tree-scroll-bar" hidden>
+      <input id="treeScrollRange" class="tree-scroll-range" type="range" min="0" max="0" value="0" step="1" aria-label="科技树横向滚动" title="科技树横向滚动">
+    </div>
+    <div id="treeVerticalScrollBar" class="tree-scroll-bar is-vertical" hidden>
+      <input id="treeVerticalScrollRange" class="tree-scroll-range" type="range" min="0" max="0" value="0" step="1" aria-label="科技树纵向滚动" aria-orientation="vertical" title="科技树纵向滚动">
+    </div>
+    <div id="treeScrollCorner" class="tree-scroll-corner" aria-hidden="true" hidden></div>
+    <link rel="stylesheet" href="/tree-scroll.css?v=matching-axes-20260921">
+    <script src="/tree-scroll.js?v=matching-axes-20260921"></script>
+    <script src="/planner.js?v=local-exact-20260920"></script>
+    <script src="/modification-planner.js?v=all-vehicles-20260920"></script>
+    <script src="/modifications.js?v=all-vehicles-20260920"></script>
+    <script src="/html-to-image.js?v=1.11.13"></script>
+    <script src="/route-export.js?v=tree-screenshot-20260921"></script>
+    <link rel="stylesheet" href="/vehicle-updates.css?v=gold-edge-20260921">
+    <script src="/vehicle-updates-data.js?v=gold-edge-20260921"></script>
+    <link rel="stylesheet" href="/vehicle-folders.css?v=folder-plan-state-20260921">
+    <script src="/vehicle-folders.js?v=focused-popup-20260921"></script>
+    <script src="/app.js?v=aligned-tree-20260921"></script>
+  </body>
+</html>

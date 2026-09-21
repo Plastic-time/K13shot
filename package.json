@@ -1,0 +1,35 @@
+{
+  "name": "server",
+  "version": "1.0.4",
+  "main": "main.js",
+  "scripts": {
+    "start": "node main.js",
+    "dev": "node main.js",
+    "build:launcher": "dotnet publish ./tools/launcher/WarThunderResearchLauncher.csproj -c Release -r win-x64 --self-contained true -p:PublishSingleFile=true -o ./launcher-dist && powershell -NoProfile -Command \"Copy-Item -Force ./launcher-dist/WarThunderResearchCalculator.exe ./WarThunderResearchCalculator.exe\"",
+    "package:release": "powershell -NoProfile -ExecutionPolicy Bypass -File ./tools/package-release.ps1",
+    "build:modifications": "node ./tools/build-modifications.cjs",
+    "test:modifications": "node ./tools/test-modifications.cjs",
+    "test:security": "node --test tools/test-server-security.cjs tools/test-update-security.cjs",
+    "pull": "node ./src/4-fill_tree_details.js",
+    "pull:usa-ground": "node ./src/4-fill_tree_details.js usa ground"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "War Thunder TreeData-Test-App",
+  "dependencies": {
+    "axios": "^1.20.0",
+    "cheerio": "^1.2.0",
+    "express": "^5.2.1",
+    "js-beautify": "^2.0.3",
+    "module-alias": "^2.3.4"
+  },
+  "engines": {
+    "node": ">=24.21.0 <25"
+  },
+  "_moduleAliases": {
+    "@": "",
+    "@output": "output",
+    "@dict": "dict"
+  }
+}

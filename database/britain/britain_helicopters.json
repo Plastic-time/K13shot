@@ -1,0 +1,156 @@
+[
+  {
+    "rank": "V",
+    "researchable_vehicles": [
+      [
+        {
+          "type": "single",
+          "title": "Scout AH.Mk.1",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/scout_ah_mk1.png",
+          "br": "8.3",
+          "rp": null,
+          "sp": "390,000",
+          "data_unit_id": "scout_ah_mk1",
+          "selected": false,
+          "class_name": "",
+          "details": true,
+          "main_role": "Utility helicopter"
+        },
+        {
+          "type": "single",
+          "title": "Wasp HAS.Mk.1",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/wasp_has_mk1.png",
+          "br": "9.0",
+          "rp": "150,000",
+          "sp": "490,000",
+          "data_unit_id": "wasp_has_mk1",
+          "selected": false,
+          "class_name": "",
+          "details": true,
+          "main_role": "Utility helicopter"
+        },
+        {
+          "type": "single",
+          "title": "Wessex HU Mk.5",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/wessex_mk5.png",
+          "br": "9.0",
+          "rp": "360,000",
+          "sp": "980,000",
+          "data_unit_id": "wessex_mk5",
+          "selected": false,
+          "class_name": "",
+          "details": true,
+          "main_role": "Utility helicopter"
+        }
+      ]
+    ],
+    "premium_vehicles": [
+      []
+    ],
+    "selected": [],
+    "unlock_quantity": 0
+  },
+  {
+    "rank": "VI",
+    "researchable_vehicles": [
+      [
+        {
+          "type": "single",
+          "title": "Lynx AH.Mk.1",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/lynx_ah_mk1.png",
+          "br": "10.7",
+          "rp": "380,000",
+          "sp": "1,000,000",
+          "data_unit_id": "lynx_ah_mk1",
+          "selected": false,
+          "class_name": "",
+          "details": true,
+          "main_role": "Utility helicopter"
+        }
+      ]
+    ],
+    "premium_vehicles": [
+      [
+        {
+          "type": "single",
+          "title": "Superhind",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/super_hind_mk3.png",
+          "br": "10.3",
+          "rp": "360,000",
+          "sp": "1,030,000",
+          "data_unit_id": "super_hind_mk3",
+          "selected": false,
+          "class_name": "squad",
+          "details": true,
+          "main_role": "Attack helicopter"
+        },
+        {
+          "type": "single",
+          "title": "G-LYNX",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/g_lynx.png",
+          "br": "10.7",
+          "rp": 0,
+          "sp": 0,
+          "data_unit_id": "g_lynx",
+          "selected": false,
+          "class_name": "prem",
+          "details": true,
+          "main_role": "Utility helicopter"
+        },
+        {
+          "type": "single",
+          "title": "Rooivalk Mk1F CSH",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/ah_2_rooivalk.png",
+          "br": "11.7",
+          "rp": 0,
+          "sp": 0,
+          "data_unit_id": "ah_2_rooivalk",
+          "selected": false,
+          "class_name": "prem",
+          "details": true,
+          "main_role": "Attack helicopter"
+        }
+      ]
+    ],
+    "selected": [],
+    "unlock_quantity": 0
+  },
+  {
+    "rank": "VII",
+    "researchable_vehicles": [
+      [
+        {
+          "type": "single",
+          "title": "AH Mk.1 Apache",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/ah_mk1.png",
+          "br": "12.0",
+          "rp": "400,000",
+          "sp": "1,020,000",
+          "data_unit_id": "ah_mk1",
+          "selected": false,
+          "class_name": "",
+          "details": true,
+          "main_role": "Attack helicopter"
+        },
+        {
+          "type": "single",
+          "title": "AH Mk.2 Apache",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/ah_64e_britain.png",
+          "br": "13.0",
+          "rp": "400,000",
+          "sp": "1,030,000",
+          "data_unit_id": "ah_64e_britain",
+          "selected": false,
+          "class_name": "",
+          "details": true,
+          "main_role": "Attack helicopter"
+        }
+      ]
+    ],
+    "premium_vehicles": [
+      []
+    ],
+    "selected": [],
+    "unlock_quantity": 0
+  }
+]

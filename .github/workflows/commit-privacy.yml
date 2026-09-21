@@ -1,0 +1,20 @@
+name: Check Commit Privacy
+
+on:
+  push:
+  pull_request:
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  verify:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+          persist-credentials: false
+      - name: Reject personal commit emails
+        run: node tools/check-commit-privacy.cjs --all

@@ -1,0 +1,4474 @@
+[
+  {
+    "rank": "I",
+    "researchable_vehicles": [
+      [
+        {
+          "type": "single",
+          "title": "Strv m/31",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/sw_strv_m31.png",
+          "br": "1.0",
+          "rp": 0,
+          "sp": 0,
+          "data_unit_id": "sw_strv_m31",
+          "required_unit_id": "",
+          "selected": false,
+          "class_name": "",
+          "details": true,
+          "rank": "I",
+          "research_country": "Sweden",
+          "main_role": "Light tank",
+          "is_component": false,
+          "component_of": null,
+          "is_premium": false,
+          "is_squadron": false,
+          "wiki": {
+            "url": "https://wiki.warthunder.com/unit/sw_strv_m31",
+            "rank": "I",
+            "battle_rating_context": "default",
+            "battle_ratings": {
+              "AB": "1.0",
+              "RB": "1.0",
+              "SB": "1.0"
+            },
+            "battle_ratings_by_battle": {
+              "default": {
+                "AB": "1.0",
+                "RB": "1.0",
+                "SB": "1.0"
+              }
+            },
+            "research": "Free",
+            "purchase": "Free",
+            "purchase_currency": "SL",
+            "status": null,
+            "fetched_at": "2026-09-19T06:29:32.520Z",
+            "sha256": "f8f1b40e014eaba3ef8a18029f859f147c263c910b874a364979d2868794f28f"
+          }
+        },
+        {
+          "type": "single",
+          "title": "BT-42",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/sw_bt_42.png",
+          "br": "1.7",
+          "rp": 4000,
+          "sp": 2100,
+          "data_unit_id": "sw_bt_42",
+          "required_unit_id": "sw_strv_m31",
+          "selected": false,
+          "class_name": "",
+          "details": true,
+          "rank": "I",
+          "research_country": "Sweden",
+          "main_role": "Light tank",
+          "is_component": false,
+          "component_of": null,
+          "is_premium": false,
+          "is_squadron": false,
+          "wiki": {
+            "url": "https://wiki.warthunder.com/unit/sw_bt_42",
+            "rank": "I",
+            "battle_rating_context": "default",
+            "battle_ratings": {
+              "AB": "2.0",
+              "RB": "1.7",
+              "SB": "1.7"
+            },
+            "battle_ratings_by_battle": {
+              "default": {
+                "AB": "2.0",
+                "RB": "1.7",
+                "SB": "1.7"
+              }
+            },
+            "research": "4,000",
+            "purchase": "2,100",
+            "purchase_currency": "SL",
+            "status": null,
+            "fetched_at": "2026-09-19T06:29:25.215Z",
+            "sha256": "850371ca1d5f14aa9dded0b62a90ed18523e926cae5f67e4b63035932dffee46"
+          }
+        }
+      ],
+      [
+        {
+          "type": "single",
+          "title": "Strv m/38",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/sw_strv_m38.png",
+          "br": "1.0",
+          "rp": 0,
+          "sp": 0,
+          "data_unit_id": "sw_strv_m38",
+          "required_unit_id": "",
+          "selected": false,
+          "class_name": "",
+          "details": true,
+          "rank": "I",
+          "research_country": "Sweden",
+          "main_role": "Light tank",
+          "is_component": false,
+          "component_of": null,
+          "is_premium": false,
+          "is_squadron": false,
+          "wiki": {
+            "url": "https://wiki.warthunder.com/unit/sw_strv_m38",
+            "rank": "I",
+            "battle_rating_context": "default",
+            "battle_ratings": {
+              "AB": "1.0",
+              "RB": "1.0",
+              "SB": "1.0"
+            },
+            "battle_ratings_by_battle": {
+              "default": {
+                "AB": "1.0",
+                "RB": "1.0",
+                "SB": "1.0"
+              }
+            },
+            "research": "Free",
+            "purchase": "Free",
+            "purchase_currency": "SL",
+            "status": null,
+            "fetched_at": "2026-09-19T06:29:32.843Z",
+            "sha256": "84bf758941f8a21b52dfb4b34dfcfe9adaaf884375082f5149daf731a582f58f"
+          }
+        },
+        {
+          "type": "single",
+          "title": "Strv m/40L",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/sw_strv_m40l.png",
+          "br": "2.0",
+          "rp": 5900,
+          "sp": 6300,
+          "data_unit_id": "sw_strv_m40l",
+          "required_unit_id": "sw_strv_m38",
+          "selected": false,
+          "class_name": "",
+          "details": true,
+          "rank": "I",
+          "research_country": "Sweden",
+          "main_role": "Light tank",
+          "is_component": false,
+          "component_of": null,
+          "is_premium": false,
+          "is_squadron": false,
+          "wiki": {
+            "url": "https://wiki.warthunder.com/unit/sw_strv_m40l",
+            "rank": "I",
+            "battle_rating_context": "default",
+            "battle_ratings": {
+              "AB": "2.0",
+              "RB": "2.0",
+              "SB": "2.0"
+            },
+            "battle_ratings_by_battle": {
+              "default": {
+                "AB": "2.0",
+                "RB": "2.0",
+                "SB": "2.0"
+              }
+            },
+            "research": "5,900",
+            "purchase": "6,300",
+            "purchase_currency": "SL",
+            "status": null,
+            "fetched_at": "2026-09-19T06:29:32.994Z",
+            "sha256": "8ae06016f298bad4e224f589a9e42d17a41d1532ee80b8d975e298a61cccb4e1"
+          }
+        }
+      ],
+      [
+        {
+          "type": "single",
+          "title": "Pvlvv fm/42",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/sw_pvlvv_fm42.png",
+          "br": "1.7",
+          "rp": 4000,
+          "sp": 2100,
+          "data_unit_id": "sw_pvlvv_fm42",
+          "required_unit_id": "",
+          "selected": false,
+          "class_name": "",
+          "details": true,
+          "rank": "I",
+          "research_country": "Sweden",
+          "main_role": "SPAA",
+          "is_component": false,
+          "component_of": null,
+          "is_premium": false,
+          "is_squadron": false,
+          "wiki": {
+            "url": "https://wiki.warthunder.com/unit/sw_pvlvv_fm42",
+            "rank": "I",
+            "battle_rating_context": "default",
+            "battle_ratings": {
+              "AB": "1.3",
+              "RB": "1.7",
+              "SB": "1.3"
+            },
+            "battle_ratings_by_battle": {
+              "default": {
+                "AB": "1.3",
+                "RB": "1.7",
+                "SB": "1.3"
+              }
+            },
+            "research": "4,000",
+            "purchase": "2,100",
+            "purchase_currency": "SL",
+            "status": null,
+            "fetched_at": "2026-09-19T06:29:29.931Z",
+            "sha256": "f883c8b8d497fb3141f3559404c5d97f01d4ac9df57bc0a2472733af0e8c2642"
+          }
+        }
+      ],
+      [
+        {
+          "type": "single",
+          "title": "Ikv 72",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/sw_ikv_72.png",
+          "br": "1.7",
+          "rp": 2900,
+          "sp": 700,
+          "data_unit_id": "sw_ikv_72",
+          "required_unit_id": "",
+          "selected": false,
+          "class_name": "",
+          "details": true,
+          "rank": "I",
+          "research_country": "Sweden",
+          "main_role": "Tank destroyer",
+          "is_component": false,
+          "component_of": null,
+          "is_premium": false,
+          "is_squadron": false,
+          "wiki": {
+            "url": "https://wiki.warthunder.com/unit/sw_ikv_72",
+            "rank": "I",
+            "battle_rating_context": "default",
+            "battle_ratings": {
+              "AB": "1.7",
+              "RB": "1.7",
+              "SB": "1.7"
+            },
+            "battle_ratings_by_battle": {
+              "default": {
+                "AB": "1.7",
+                "RB": "1.7",
+                "SB": "1.7"
+              }
+            },
+            "research": "2,900",
+            "purchase": "700",
+            "purchase_currency": "SL",
+            "status": null,
+            "fetched_at": "2026-09-19T06:29:26.220Z",
+            "sha256": "4d9e08d164cbb7ac126475bba84d025c2fd27fa34e5ac15509aaf1b2f8a30ba3"
+          }
+        },
+        {
+          "type": "single",
+          "title": "Sav m/43 (1944)",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/sw_sav_m43_1944.png",
+          "br": "1.7",
+          "rp": 4000,
+          "sp": 2100,
+          "data_unit_id": "sw_sav_m43_1944",
+          "required_unit_id": "sw_ikv_72",
+          "selected": false,
+          "class_name": "",
+          "details": true,
+          "rank": "I",
+          "research_country": "Sweden",
+          "main_role": "Tank destroyer",
+          "is_component": false,
+          "component_of": null,
+          "is_premium": false,
+          "is_squadron": false,
+          "wiki": {
+            "url": "https://wiki.warthunder.com/unit/sw_sav_m43_1944",
+            "rank": "I",
+            "battle_rating_context": "default",
+            "battle_ratings": {
+              "AB": "1.7",
+              "RB": "1.7",
+              "SB": "1.7"
+            },
+            "battle_ratings_by_battle": {
+              "default": {
+                "AB": "1.7",
+                "RB": "1.7",
+                "SB": "1.7"
+              }
+            },
+            "research": "4,000",
+            "purchase": "2,100",
+            "purchase_currency": "SL",
+            "status": null,
+            "fetched_at": "2026-09-19T06:29:30.282Z",
+            "sha256": "8af6e4fc01d2829df18d3e173013a91d6c08e442ff11b50a8aa8af38e3091ae7"
+          }
+        }
+      ],
+      [
+        {
+          "type": "single",
+          "title": "Vickers Mk.E",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/sw_vickers_mk_e_37.png",
+          "br": "1.0",
+          "rp": 2900,
+          "sp": 700,
+          "data_unit_id": "sw_vickers_mk_e_37",
+          "required_unit_id": "",
+          "selected": false,
+          "class_name": "",
+          "details": true,
+          "rank": "I",
+          "research_country": "Sweden",
+          "main_role": "Light tank",
+          "is_component": false,
+          "component_of": null,
+          "is_premium": false,
+          "is_squadron": false,
+          "wiki": {
+            "url": "https://wiki.warthunder.com/unit/sw_vickers_mk_e_37",
+            "rank": "I",
+            "battle_rating_context": "default",
+            "battle_ratings": {
+              "AB": "1.0",
+              "RB": "1.0",
+              "SB": "1.0"
+            },
+            "battle_ratings_by_battle": {
+              "default": {
+                "AB": "1.0",
+                "RB": "1.0",
+                "SB": "1.0"
+              }
+            },
+            "research": "2,900",
+            "purchase": "700",
+            "purchase_currency": "SL",
+            "status": null,
+            "fetched_at": "2026-09-19T06:29:34.656Z",
+            "sha256": "7519316b718375fd769f4db78e4e31cd0ad814b029aa049565e7df4f3513a3fd"
+          }
+        },
+        {
+          "type": "single",
+          "title": "▄T-28",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/sw_t_28.png",
+          "br": "1.7",
+          "rp": 4000,
+          "sp": 2100,
+          "data_unit_id": "sw_t_28",
+          "required_unit_id": "sw_vickers_mk_e_37",
+          "selected": false,
+          "class_name": "",
+          "details": true,
+          "rank": "I",
+          "research_country": "Sweden",
+          "main_role": "Medium tank",
+          "is_component": false,
+          "component_of": null,
+          "is_premium": false,
+          "is_squadron": false,
+          "wiki": {
+            "url": "https://wiki.warthunder.com/unit/sw_t_28",
+            "rank": "I",
+            "battle_rating_context": "default",
+            "battle_ratings": {
+              "AB": "2.0",
+              "RB": "1.7",
+              "SB": "1.7"
+            },
+            "battle_ratings_by_battle": {
+              "default": {
+                "AB": "2.0",
+                "RB": "1.7",
+                "SB": "1.7"
+              }
+            },
+            "research": "4,000",
+            "purchase": "2,100",
+            "purchase_currency": "SL",
+            "status": null,
+            "fetched_at": "2026-09-19T06:29:33.278Z",
+            "sha256": "80263720f951af547779b93edc1efaffbc40583e9ee4c81e0e23aac06a0c42a6"
+          }
+        }
+      ]
+    ],
+    "premium_vehicles": [
+      [
+        {
+          "type": "single",
+          "title": "Strv m/39",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/sw_strv_m39.png",
+          "br": "1.0",
+          "rp": 0,
+          "sp": 0,
+          "data_unit_id": "sw_strv_m39",
+          "required_unit_id": "",
+          "selected": false,
+          "class_name": "prem",
+          "details": true,
+          "rank": "I",
+          "research_country": "Sweden",
+          "main_role": "Light tank",
+          "is_component": false,
+          "component_of": null,
+          "is_premium": true,
+          "is_squadron": false,
+          "wiki": {
+            "url": "https://wiki.warthunder.com/unit/sw_strv_m39",
+            "rank": "I",
+            "battle_rating_context": "default",
+            "battle_ratings": {
+              "AB": "1.0",
+              "RB": "1.0",
+              "SB": "1.0"
+            },
+            "battle_ratings_by_battle": {
+              "default": {
+                "AB": "1.0",
+                "RB": "1.0",
+                "SB": "1.0"
+              }
+            },
+            "research": null,
+            "purchase": "250",
+            "purchase_currency": "GE",
+            "status": "Premium vehicle",
+            "fetched_at": "2026-09-19T06:29:32.643Z",
+            "sha256": "0aab9e0e3c18a26ecd7db1b2b25d3a0a06dc824da1372595e3dfe3ee849f0337"
+          }
+        },
+        {
+          "type": "single",
+          "title": "▄T-26E",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/sw_vickers_mk_e_45.png",
+          "br": "1.0",
+          "rp": 0,
+          "sp": 0,
+          "data_unit_id": "sw_vickers_mk_e_45",
+          "required_unit_id": "",
+          "selected": false,
+          "class_name": "prem",
+          "details": true,
+          "rank": "I",
+          "research_country": "Sweden",
+          "main_role": "Light tank",
+          "is_component": false,
+          "component_of": null,
+          "is_premium": true,
+          "is_squadron": false,
+          "wiki": {
+            "url": "https://wiki.warthunder.com/unit/sw_vickers_mk_e_45",
+            "rank": "I",
+            "battle_rating_context": "default",
+            "battle_ratings": {
+              "AB": "1.0",
+              "RB": "1.0",
+              "SB": "1.0"
+            },
+            "battle_ratings_by_battle": {
+              "default": {
+                "AB": "1.0",
+                "RB": "1.0",
+                "SB": "1.0"
+              }
+            },
+            "research": null,
+            "purchase": "400",
+            "purchase_currency": "GE",
+            "status": "Premium vehicle",
+            "fetched_at": "2026-09-19T06:29:34.491Z",
+            "sha256": "f27e20887f08c9f06fc4a1ba4711148d67f7d7de188998104ed1e5af4ed1c909"
+          }
+        }
+      ],
+      [
+        {
+          "type": "single",
+          "title": "Strv m/39 TD",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/sw_strv_m39_td.png",
+          "br": "1.0",
+          "rp": null,
+          "sp": null,
+          "data_unit_id": "sw_strv_m39_td",
+          "required_unit_id": "",
+          "selected": false,
+          "class_name": "",
+          "details": true,
+          "rank": "I",
+          "research_country": "Sweden",
+          "main_role": "Light tank",
+          "is_component": false,
+          "component_of": null,
+          "is_premium": false,
+          "is_squadron": false,
+          "wiki": {
+            "url": "https://wiki.warthunder.com/unit/sw_strv_m39_td",
+            "rank": "I",
+            "battle_rating_context": "default",
+            "battle_ratings": {
+              "AB": "1.0",
+              "RB": "1.0",
+              "SB": "1.0"
+            },
+            "battle_ratings_by_battle": {
+              "default": {
+                "AB": "1.0",
+                "RB": "1.0",
+                "SB": "1.0"
+              }
+            },
+            "research": null,
+            "purchase": null,
+            "purchase_currency": null,
+            "status": null,
+            "fetched_at": "2026-09-19T06:29:32.788Z",
+            "sha256": "904498e6740b320aee5946ca31f1898ef2fd16ac3ddf143810e55fd788def400"
+          }
+        },
+        {
+          "type": "single",
+          "title": "Pbil m/40",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/sw_pbil_m40.png",
+          "br": "2.0",
+          "rp": 0,
+          "sp": 0,
+          "data_unit_id": "sw_pbil_m40",
+          "required_unit_id": "",
+          "selected": false,
+          "class_name": "prem",
+          "details": true,
+          "rank": "I",
+          "research_country": "Sweden",
+          "main_role": "Light tank",
+          "is_component": false,
+          "component_of": null,
+          "is_premium": true,
+          "is_squadron": false,
+          "wiki": {
+            "url": "https://wiki.warthunder.com/unit/sw_pbil_m40",
+            "rank": "I",
+            "battle_rating_context": "default",
+            "battle_ratings": {
+              "AB": "2.0",
+              "RB": "2.0",
+              "SB": "2.0"
+            },
+            "battle_ratings_by_battle": {
+              "default": {
+                "AB": "2.0",
+                "RB": "2.0",
+                "SB": "2.0"
+              }
+            },
+            "research": null,
+            "purchase": null,
+            "purchase_currency": null,
+            "status": "Premium vehicle",
+            "fetched_at": "2026-09-19T06:29:28.536Z",
+            "sha256": "e0508c02ece48cd54f3b0529260ca5298e72fc8f6bdcb57f79fcc7a06c2b76b2"
+          }
+        }
+      ]
+    ],
+    "selected": [],
+    "unlock_quantity": null,
+    "source": "wiki"
+  },
+  {
+    "rank": "II",
+    "researchable_vehicles": [
+      [
+        {
+          "type": "single",
+          "title": "Strv m/41 S-II",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/sw_strv_m41_s2.png",
+          "br": "2.7",
+          "rp": 9200,
+          "sp": 16000,
+          "data_unit_id": "sw_strv_m41_s2",
+          "required_unit_id": "",
+          "selected": false,
+          "class_name": "",
+          "details": true,
+          "rank": "II",
+          "research_country": "Sweden",
+          "main_role": "Light tank",
+          "is_component": false,
+          "component_of": null,
+          "is_premium": false,
+          "is_squadron": false,
+          "wiki": {
+            "url": "https://wiki.warthunder.com/unit/sw_strv_m41_s2",
+            "rank": "II",
+            "battle_rating_context": "default",
+            "battle_ratings": {
+              "AB": "2.3",
+              "RB": "2.7",
+              "SB": "2.7"
+            },
+            "battle_ratings_by_battle": {
+              "default": {
+                "AB": "2.3",
+                "RB": "2.7",
+                "SB": "2.7"
+              }
+            },
+            "research": "9,200",
+            "purchase": "16,000",
+            "purchase_currency": "SL",
+            "status": null,
+            "fetched_at": "2026-09-19T06:29:33.077Z",
+            "sha256": "1c2f8d0076df14ca53d44a7761f7b72cd62a8a60695102371c7ee28fe9102792"
+          }
+        },
+        {
+          "type": "single",
+          "title": "Pvkv III",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/sw_pvkv_iii.png",
+          "br": "3.3",
+          "rp": 14000,
+          "sp": 32000,
+          "data_unit_id": "sw_pvkv_iii",
+          "required_unit_id": "sw_strv_m41_s2",
+          "selected": false,
+          "class_name": "",
+          "details": true,
+          "rank": "II",
+          "research_country": "Sweden",
+          "main_role": "Tank destroyer",
+          "is_component": false,
+          "component_of": null,
+          "is_premium": false,
+          "is_squadron": false,
+          "wiki": {
+            "url": "https://wiki.warthunder.com/unit/sw_pvkv_III",
+            "rank": "II",
+            "battle_rating_context": "default",
+            "battle_ratings": {
+              "AB": "3.3",
+              "RB": "3.3",
+              "SB": "3.3"
+            },
+            "battle_ratings_by_battle": {
+              "default": {
+                "AB": "3.3",
+                "RB": "3.3",
+                "SB": "3.3"
+              }
+            },
+            "research": "14,000",
+            "purchase": "32,000",
+            "purchase_currency": "SL",
+            "status": null,
+            "fetched_at": "2026-09-19T06:29:29.546Z",
+            "sha256": "7d1597ff15e16cc705df1cd73cec5df86109b02a3d938fc9a951001767e056e6"
+          }
+        }
+      ],
+      [
+        {
+          "type": "single",
+          "title": "Lago I",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/sw_lago_1.png",
+          "br": "2.3",
+          "rp": 9200,
+          "sp": 16000,
+          "data_unit_id": "sw_lago_1",
+          "required_unit_id": "",
+          "selected": false,
+          "class_name": "",
+          "details": true,
+          "rank": "II",
+          "research_country": "Sweden",
+          "main_role": "Medium tank",
+          "is_component": false,
+          "component_of": null,
+          "is_premium": false,
+          "is_squadron": false,
+          "wiki": {
+            "url": "https://wiki.warthunder.com/unit/sw_lago_1",
+            "rank": "II",
+            "battle_rating_context": "default",
+            "battle_ratings": {
+              "AB": "2.3",
+              "RB": "2.3",
+              "SB": "2.3"
+            },
+            "battle_ratings_by_battle": {
+              "default": {
+                "AB": "2.3",
+                "RB": "2.3",
+                "SB": "2.3"
+              }
+            },
+            "research": "9,200",
+            "purchase": "16,000",
+            "purchase_currency": "SL",
+            "status": null,
+            "fetched_at": "2026-09-19T06:29:27.282Z",
+            "sha256": "aee9e3db5a830eb65cccf4aa1e0f11956c44c603344e283b8aefd2ab4df74b3d"
+          }
+        },
+        {
+          "type": "single",
+          "title": "Strv m/42 EH",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/sw_strv_m42_eh.png",
+          "br": "2.7",
+          "rp": 11000,
+          "sp": 22000,
+          "data_unit_id": "sw_strv_m42_eh",
+          "required_unit_id": "sw_lago_1",
+          "selected": false,
+          "class_name": "",
+          "details": true,
+          "rank": "II",
+          "research_country": "Sweden",
+          "main_role": "Medium tank",
+          "is_component": false,
+          "component_of": null,
+          "is_premium": false,
+          "is_squadron": false,
+          "wiki": {
+            "url": "https://wiki.warthunder.com/unit/sw_strv_m42_eh",
+            "rank": "II",
+            "battle_rating_context": "default",
+            "battle_ratings": {
+              "AB": "2.7",
+              "RB": "2.7",
+              "SB": "2.7"
+            },
+            "battle_ratings_by_battle": {
+              "default": {
+                "AB": "2.7",
+                "RB": "2.7",
+                "SB": "2.7"
+              }
+            },
+            "research": "11,000",
+            "purchase": "22,000",
+            "purchase_currency": "SL",
+            "status": null,
+            "fetched_at": "2026-09-19T06:29:33.444Z",
+            "sha256": "d4f9cede6bc6dfcb56b54a778265caec8d903bd9efe367304c3189d201bb8428"
+          }
+        }
+      ],
+      [
+        {
+          "type": "single",
+          "title": "Pbv 301",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/sw_pbv_301.png",
+          "br": "2.3",
+          "rp": 7900,
+          "sp": 10000,
+          "data_unit_id": "sw_pbv_301",
+          "required_unit_id": "",
+          "selected": false,
+          "class_name": "",
+          "details": true,
+          "rank": "II",
+          "research_country": "Sweden",
+          "main_role": "SPAA",
+          "is_component": false,
+          "component_of": null,
+          "is_premium": false,
+          "is_squadron": false,
+          "wiki": {
+            "url": "https://wiki.warthunder.com/unit/sw_pbv_301",
+            "rank": "II",
+            "battle_rating_context": "default",
+            "battle_ratings": {
+              "AB": "2.3",
+              "RB": "2.3",
+              "SB": "2.3"
+            },
+            "battle_ratings_by_battle": {
+              "default": {
+                "AB": "2.3",
+                "RB": "2.3",
+                "SB": "2.3"
+              }
+            },
+            "research": "7,900",
+            "purchase": "10,000",
+            "purchase_currency": "SL",
+            "status": null,
+            "fetched_at": "2026-09-19T06:29:28.944Z",
+            "sha256": "71b3a9362a0ed1ba47f76e3b5f75f55ecb052078c383e06ff3d1a0530e901a34"
+          }
+        },
+        {
+          "type": "single",
+          "title": "Lvtdgb m/40",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/sw_tgdgb_m40_lv.png",
+          "br": "2.7",
+          "rp": 9200,
+          "sp": 16000,
+          "data_unit_id": "sw_tgdgb_m40_lv",
+          "required_unit_id": "sw_pbv_301",
+          "selected": false,
+          "class_name": "",
+          "details": true,
+          "rank": "II",
+          "research_country": "Sweden",
+          "main_role": "SPAA",
+          "is_component": false,
+          "component_of": null,
+          "is_premium": false,
+          "is_squadron": false,
+          "wiki": {
+            "url": "https://wiki.warthunder.com/unit/sw_tgdgb_m40_lv",
+            "rank": "II",
+            "battle_rating_context": "default",
+            "battle_ratings": {
+              "AB": "3.0",
+              "RB": "2.7",
+              "SB": "2.7"
+            },
+            "battle_ratings_by_battle": {
+              "default": {
+                "AB": "3.0",
+                "RB": "2.7",
+                "SB": "2.7"
+              }
+            },
+            "research": "9,200",
+            "purchase": "16,000",
+            "purchase_currency": "SL",
+            "status": null,
+            "fetched_at": "2026-09-19T06:29:34.217Z",
+            "sha256": "4523427dd10daf495ed111bc8c8f6c0244ca8e0d11195915e922c910b3a844c3"
+          }
+        }
+      ],
+      [
+        {
+          "type": "single",
+          "title": "Spj fm/43-44",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/sw_stormpjas_fm43_44.png",
+          "br": "1.7",
+          "rp": 7900,
+          "sp": 10000,
+          "data_unit_id": "sw_stormpjas_fm43_44",
+          "required_unit_id": "",
+          "selected": false,
+          "class_name": "",
+          "details": true,
+          "rank": "II",
+          "research_country": "Sweden",
+          "main_role": "Tank destroyer",
+          "is_component": false,
+          "component_of": null,
+          "is_premium": false,
+          "is_squadron": false,
+          "wiki": {
+            "url": "https://wiki.warthunder.com/unit/sw_stormpjas_fm43_44",
+            "rank": "II",
+            "battle_rating_context": "default",
+            "battle_ratings": {
+              "AB": "2.3",
+              "RB": "1.7",
+              "SB": "1.7"
+            },
+            "battle_ratings_by_battle": {
+              "default": {
+                "AB": "2.3",
+                "RB": "1.7",
+                "SB": "1.7"
+              }
+            },
+            "research": "7,900",
+            "purchase": "10,000",
+            "purchase_currency": "SL",
+            "status": null,
+            "fetched_at": "2026-09-19T06:29:30.614Z",
+            "sha256": "050d4ed33c300d464c6f0add2796bae6564794bf852a68c7820d9d69c09b3d2e"
+          }
+        },
+        {
+          "type": "single",
+          "title": "Sav m/43 (1946)",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/sw_sav_m43_1946.png",
+          "br": "3.0",
+          "rp": 11000,
+          "sp": 22000,
+          "data_unit_id": "sw_sav_m43_1946",
+          "required_unit_id": "sw_stormpjas_fm43_44",
+          "selected": false,
+          "class_name": "",
+          "details": true,
+          "rank": "II",
+          "research_country": "Sweden",
+          "main_role": "Tank destroyer",
+          "is_component": false,
+          "component_of": null,
+          "is_premium": false,
+          "is_squadron": false,
+          "wiki": {
+            "url": "https://wiki.warthunder.com/unit/sw_sav_m43_1946",
+            "rank": "II",
+            "battle_rating_context": "default",
+            "battle_ratings": {
+              "AB": "3.0",
+              "RB": "3.0",
+              "SB": "3.0"
+            },
+            "battle_ratings_by_battle": {
+              "default": {
+                "AB": "3.0",
+                "RB": "3.0",
+                "SB": "3.0"
+              }
+            },
+            "research": "11,000",
+            "purchase": "22,000",
+            "purchase_currency": "SL",
+            "status": null,
+            "fetched_at": "2026-09-19T06:29:30.242Z",
+            "sha256": "a8ca00b4b38df6877aa23250fbfde66cb3e390098afdd65949ea9edc7822eccc"
+          }
+        }
+      ],
+      []
+    ],
+    "premium_vehicles": [
+      [
+        {
+          "type": "single",
+          "title": "Strv m/41 S-I",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/sw_strv_m41_s1.png",
+          "br": "2.7",
+          "rp": 0,
+          "sp": 0,
+          "data_unit_id": "sw_strv_m41_s1",
+          "required_unit_id": "",
+          "selected": false,
+          "class_name": "prem",
+          "details": true,
+          "rank": "II",
+          "research_country": "Sweden",
+          "main_role": "Light tank",
+          "is_component": false,
+          "component_of": null,
+          "is_premium": true,
+          "is_squadron": false,
+          "wiki": {
+            "url": "https://wiki.warthunder.com/unit/sw_strv_m41_s1",
+            "rank": "II",
+            "battle_rating_context": "default",
+            "battle_ratings": {
+              "AB": "2.7",
+              "RB": "2.7",
+              "SB": "2.7"
+            },
+            "battle_ratings_by_battle": {
+              "default": {
+                "AB": "2.7",
+                "RB": "2.7",
+                "SB": "2.7"
+              }
+            },
+            "research": null,
+            "purchase": "850",
+            "purchase_currency": "GE",
+            "status": "Premium vehicle",
+            "fetched_at": "2026-09-19T06:29:33.012Z",
+            "sha256": "0463d1429fbbbaf109b919c02e9eacbab2704ecc2f3f741f350e71892b5347f3"
+          }
+        },
+        {
+          "type": "single",
+          "title": "Ikv 73",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/sw_ikv_73.png",
+          "br": "2.7",
+          "rp": 0,
+          "sp": 0,
+          "data_unit_id": "sw_ikv_73",
+          "required_unit_id": "",
+          "selected": false,
+          "class_name": "prem",
+          "details": true,
+          "rank": "II",
+          "research_country": "Sweden",
+          "main_role": "Medium tank",
+          "is_component": false,
+          "component_of": null,
+          "is_premium": true,
+          "is_squadron": false,
+          "wiki": {
+            "url": "https://wiki.warthunder.com/unit/sw_ikv_73",
+            "rank": "II",
+            "battle_rating_context": "default",
+            "battle_ratings": {
+              "AB": "2.7",
+              "RB": "2.7",
+              "SB": "2.7"
+            },
+            "battle_ratings_by_battle": {
+              "default": {
+                "AB": "2.7",
+                "RB": "2.7",
+                "SB": "2.7"
+              }
+            },
+            "research": null,
+            "purchase": null,
+            "purchase_currency": null,
+            "status": "Premium vehicle",
+            "fetched_at": "2026-09-19T06:29:26.288Z",
+            "sha256": "0384ede9a878969ae81c4611bc55d51ec9fb7f81b2fc102280d8243bf01c1038"
+          }
+        }
+      ],
+      [
+        {
+          "type": "single",
+          "title": "▄T-50",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/sw_t_50_fin.png",
+          "br": "3.0",
+          "rp": 0,
+          "sp": 0,
+          "data_unit_id": "sw_t_50_fin",
+          "required_unit_id": "",
+          "selected": false,
+          "class_name": "prem",
+          "details": true,
+          "rank": "II",
+          "research_country": "Sweden",
+          "main_role": "Light tank",
+          "is_component": false,
+          "component_of": null,
+          "is_premium": true,
+          "is_squadron": false,
+          "wiki": {
+            "url": "https://wiki.warthunder.com/unit/sw_t_50_fin",
+            "rank": "II",
+            "battle_rating_context": "default",
+            "battle_ratings": {
+              "AB": "3.0",
+              "RB": "3.0",
+              "SB": "3.0"
+            },
+            "battle_ratings_by_battle": {
+              "default": {
+                "AB": "3.0",
+                "RB": "3.0",
+                "SB": "3.0"
+              }
+            },
+            "research": null,
+            "purchase": "1,000",
+            "purchase_currency": "GE",
+            "status": "Premium vehicle",
+            "fetched_at": "2026-09-19T06:29:33.747Z",
+            "sha256": "d4028c2ca091f7a1c7b900ae37f5e99c4887f17b2b2271a2400bc8c2fa398f30"
+          }
+        }
+      ]
+    ],
+    "selected": [],
+    "unlock_quantity": null,
+    "source": "wiki"
+  },
+  {
+    "rank": "III",
+    "researchable_vehicles": [
+      [
+        {
+          "type": "single",
+          "title": "M24DK",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/sw_m24_chaffee_dk.png",
+          "br": "4.0",
+          "rp": 18000,
+          "sp": 47000,
+          "data_unit_id": "sw_m24_chaffee_dk",
+          "required_unit_id": "sw_pvkv_iii",
+          "selected": false,
+          "class_name": "",
+          "details": true,
+          "rank": "III",
+          "research_country": "Sweden",
+          "main_role": "Light tank",
+          "is_component": false,
+          "component_of": null,
+          "is_premium": false,
+          "is_squadron": false,
+          "wiki": {
+            "url": "https://wiki.warthunder.com/unit/sw_m24_chaffee_dk",
+            "rank": "III",
+            "battle_rating_context": "default",
+            "battle_ratings": {
+              "AB": "3.7",
+              "RB": "4.0",
+              "SB": "4.0"
+            },
+            "battle_ratings_by_battle": {
+              "default": {
+                "AB": "3.7",
+                "RB": "4.0",
+                "SB": "4.0"
+              }
+            },
+            "research": "18,000",
+            "purchase": "47,000",
+            "purchase_currency": "SL",
+            "status": null,
+            "fetched_at": "2026-09-19T06:29:28.290Z",
+            "sha256": "13255aeecca8197c5f8f61b4994974f6b1f7c917ddf7dd8cd0526b5b39e7ec39"
+          }
+        },
+        {
+          "type": "single",
+          "title": "Pvkv II",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/sw_pvkv_ii.png",
+          "br": "4.3",
+          "rp": 26000,
+          "sp": 76000,
+          "data_unit_id": "sw_pvkv_ii",
+          "required_unit_id": "sw_m24_chaffee_dk",
+          "selected": false,
+          "class_name": "",
+          "details": true,
+          "rank": "III",
+          "research_country": "Sweden",
+          "main_role": "Tank destroyer",
+          "is_component": false,
+          "component_of": null,
+          "is_premium": false,
+          "is_squadron": false,
+          "wiki": {
+            "url": "https://wiki.warthunder.com/unit/sw_pvkv_II",
+            "rank": "III",
+            "battle_rating_context": "default",
+            "battle_ratings": {
+              "AB": "4.0",
+              "RB": "4.3",
+              "SB": "4.3"
+            },
+            "battle_ratings_by_battle": {
+              "default": {
+                "AB": "4.0",
+                "RB": "4.3",
+                "SB": "4.3"
+              }
+            },
+            "research": "26,000",
+            "purchase": "76,000",
+            "purchase_currency": "SL",
+            "status": null,
+            "fetched_at": "2026-09-19T06:29:29.406Z",
+            "sha256": "3680de984412f0a7e20a8acfd8d1070d31fd343d427e365d09936a07c182e712"
+          }
+        }
+      ],
+      [
+        {
+          "type": "single",
+          "title": "Pvkv IV",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/sw_pvkv_iv.png",
+          "br": "3.0",
+          "rp": 18000,
+          "sp": 47000,
+          "data_unit_id": "sw_pvkv_iv",
+          "required_unit_id": "sw_strv_m42_eh",
+          "selected": false,
+          "class_name": "",
+          "details": true,
+          "rank": "III",
+          "research_country": "Sweden",
+          "main_role": "Medium tank",
+          "is_component": false,
+          "component_of": null,
+          "is_premium": false,
+          "is_squadron": false,
+          "wiki": {
+            "url": "https://wiki.warthunder.com/unit/sw_pvkv_iv",
+            "rank": "III",
+            "battle_rating_context": "default",
+            "battle_ratings": {
+              "AB": "3.0",
+              "RB": "3.0",
+              "SB": "3.0"
+            },
+            "battle_ratings_by_battle": {
+              "default": {
+                "AB": "3.0",
+                "RB": "3.0",
+                "SB": "3.0"
+              }
+            },
+            "research": "18,000",
+            "purchase": "47,000",
+            "purchase_currency": "SL",
+            "status": null,
+            "fetched_at": "2026-09-19T06:29:29.522Z",
+            "sha256": "34ea23c83d4151bd403014de7b77b1ec5f4516a830bdfa6cfd63dbd08d3081a9"
+          }
+        },
+        {
+          "type": "single",
+          "title": "Strv m/42 DT",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/sw_strv_m42_delat_torn.png",
+          "br": "5.0",
+          "rp": 33000,
+          "sp": 105000,
+          "data_unit_id": "sw_strv_m42_delat_torn",
+          "required_unit_id": "sw_pvkv_iv",
+          "selected": false,
+          "class_name": "",
+          "details": true,
+          "rank": "III",
+          "research_country": "Sweden",
+          "main_role": "Medium tank",
+          "is_component": false,
+          "component_of": null,
+          "is_premium": false,
+          "is_squadron": false,
+          "wiki": {
+            "url": "https://wiki.warthunder.com/unit/sw_strv_m42_delat_torn",
+            "rank": "III",
+            "battle_rating_context": "default",
+            "battle_ratings": {
+              "AB": "5.0",
+              "RB": "5.0",
+              "SB": "5.0"
+            },
+            "battle_ratings_by_battle": {
+              "default": {
+                "AB": "5.0",
+                "RB": "5.0",
+                "SB": "5.0"
+              }
+            },
+            "research": "33,000",
+            "purchase": "105,000",
+            "purchase_currency": "SL",
+            "status": null,
+            "fetched_at": "2026-09-19T06:29:33.297Z",
+            "sha256": "b33b17b7d545e314bc2638c75957c381d4c2511c00c450eabb68a2cc208beb0b"
+          }
+        }
+      ],
+      [
+        {
+          "type": "single",
+          "title": "L-62 ANTI II",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/sw_l_62_anti_ii.png",
+          "br": "3.3",
+          "rp": 18000,
+          "sp": 47000,
+          "data_unit_id": "sw_l_62_anti_ii",
+          "required_unit_id": "sw_tgdgb_m40_lv",
+          "selected": false,
+          "class_name": "",
+          "details": true,
+          "rank": "III",
+          "research_country": "Sweden",
+          "main_role": "SPAA",
+          "is_component": false,
+          "component_of": null,
+          "is_premium": false,
+          "is_squadron": false,
+          "wiki": {
+            "url": "https://wiki.warthunder.com/unit/sw_l_62_anti_II",
+            "rank": "III",
+            "battle_rating_context": "default",
+            "battle_ratings": {
+              "AB": "3.7",
+              "RB": "3.3",
+              "SB": "3.0"
+            },
+            "battle_ratings_by_battle": {
+              "default": {
+                "AB": "3.7",
+                "RB": "3.3",
+                "SB": "3.0"
+              }
+            },
+            "research": "18,000",
+            "purchase": "47,000",
+            "purchase_currency": "SL",
+            "status": null,
+            "fetched_at": "2026-09-19T06:29:27.374Z",
+            "sha256": "38ea7a67ef70b8cf410061a69acc9c3c83127580cc9204b780902922b0401f91"
+          }
+        },
+        {
+          "type": "single",
+          "title": "Lvkv 42",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/sw_lvkv_42.png",
+          "br": "4.7",
+          "rp": 33000,
+          "sp": 105000,
+          "data_unit_id": "sw_lvkv_42",
+          "required_unit_id": "sw_l_62_anti_ii",
+          "selected": false,
+          "class_name": "",
+          "details": true,
+          "rank": "III",
+          "research_country": "Sweden",
+          "main_role": "SPAA",
+          "is_component": false,
+          "component_of": null,
+          "is_premium": false,
+          "is_squadron": false,
+          "wiki": {
+            "url": "https://wiki.warthunder.com/unit/sw_lvkv_42",
+            "rank": "III",
+            "battle_rating_context": "default",
+            "battle_ratings": {
+              "AB": "4.7",
+              "RB": "4.7",
+              "SB": "4.3"
+            },
+            "battle_ratings_by_battle": {
+              "default": {
+                "AB": "4.7",
+                "RB": "4.7",
+                "SB": "4.3"
+              }
+            },
+            "research": "33,000",
+            "purchase": "105,000",
+            "purchase_currency": "SL",
+            "status": null,
+            "fetched_at": "2026-09-19T06:29:27.949Z",
+            "sha256": "87c77493b4d8751518a4889e4d0c01c9d35ad08825f5a91b06bc10cdddf9db37"
+          }
+        }
+      ],
+      [
+        {
+          "type": "multiple",
+          "title": "Pvkv/Ikv",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/sw_pvkv_ikv_group.png",
+          "selected": false,
+          "br": "4.0",
+          "data_unit_id": "sw_pvkv_ikv_group",
+          "required_unit_id": "sw_sav_m43_1946",
+          "class_name": "",
+          "items": [
+            {
+              "type": "single",
+              "title": "Pvkv m/43 (1946)",
+              "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/sw_pvkv_m43_1946.png",
+              "br": "4.0",
+              "rp": 26000,
+              "sp": 76000,
+              "data_unit_id": "sw_pvkv_m43_1946",
+              "required_unit_id": "",
+              "selected": false,
+              "class_name": "",
+              "details": true,
+              "rank": "III",
+              "research_country": "Sweden",
+              "main_role": "Tank destroyer",
+              "is_component": false,
+              "component_of": null,
+              "is_premium": false,
+              "is_squadron": false,
+              "wiki": {
+                "url": "https://wiki.warthunder.com/unit/sw_pvkv_m43_1946",
+                "rank": "III",
+                "battle_rating_context": "default",
+                "battle_ratings": {
+                  "AB": "4.0",
+                  "RB": "4.0",
+                  "SB": "4.0"
+                },
+                "battle_ratings_by_battle": {
+                  "default": {
+                    "AB": "4.0",
+                    "RB": "4.0",
+                    "SB": "4.0"
+                  }
+                },
+                "research": "26,000",
+                "purchase": "76,000",
+                "purchase_currency": "SL",
+                "status": null,
+                "fetched_at": "2026-09-19T06:29:29.489Z",
+                "sha256": "de6ee3d8ceec4decdfc5c8665e148577385424be851c9b49357c54b859b90405"
+              }
+            },
+            {
+              "type": "single",
+              "title": "Ikv 103",
+              "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/sw_ikv_103.png",
+              "br": "4.0",
+              "rp": 17000,
+              "sp": 105000,
+              "data_unit_id": "sw_ikv_103",
+              "required_unit_id": "sw_pvkv_m43_1946",
+              "selected": false,
+              "class_name": "",
+              "details": true,
+              "rank": "III",
+              "research_country": "Sweden",
+              "main_role": "Tank destroyer",
+              "is_component": false,
+              "component_of": null,
+              "is_premium": false,
+              "is_squadron": false,
+              "wiki": {
+                "url": "https://wiki.warthunder.com/unit/sw_ikv_103",
+                "rank": "III",
+                "battle_rating_context": "default",
+                "battle_ratings": {
+                  "AB": "4.0",
+                  "RB": "4.0",
+                  "SB": "4.0"
+                },
+                "battle_ratings_by_battle": {
+                  "default": {
+                    "AB": "4.0",
+                    "RB": "4.0",
+                    "SB": "4.0"
+                  }
+                },
+                "research": "17,000",
+                "purchase": "105,000",
+                "purchase_currency": "SL",
+                "status": null,
+                "fetched_at": "2026-09-19T06:29:25.977Z",
+                "sha256": "2c00f34fb4d3be592027c4d36a8887fdfebb4d489baeb776e06dda58074e688d"
+              }
+            }
+          ],
+          "details": true,
+          "rp": 43000,
+          "sp": 181000
+        },
+        {
+          "type": "single",
+          "title": "Pvkv m/43 (1963)",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/sw_pvkv_m43_1963.png",
+          "br": "5.0",
+          "rp": 33000,
+          "sp": 105000,
+          "data_unit_id": "sw_pvkv_m43_1963",
+          "required_unit_id": "sw_pvkv_ikv_group",
+          "selected": false,
+          "class_name": "",
+          "details": true,
+          "rank": "III",
+          "research_country": "Sweden",
+          "main_role": "Tank destroyer",
+          "is_component": false,
+          "component_of": null,
+          "is_premium": false,
+          "is_squadron": false,
+          "wiki": {
+            "url": "https://wiki.warthunder.com/unit/sw_pvkv_m43_1963",
+            "rank": "III",
+            "battle_rating_context": "default",
+            "battle_ratings": {
+              "AB": "4.7",
+              "RB": "5.0",
+              "SB": "5.0"
+            },
+            "battle_ratings_by_battle": {
+              "default": {
+                "AB": "4.7",
+                "RB": "5.0",
+                "SB": "5.0"
+              }
+            },
+            "research": "33,000",
+            "purchase": "105,000",
+            "purchase_currency": "SL",
+            "status": null,
+            "fetched_at": "2026-09-19T06:29:29.796Z",
+            "sha256": "e37e3542e30d2abbdd080fe3eab5e4703dba4f6b4714d0b3dbd527117b8d465a"
+          }
+        }
+      ],
+      [
+        {
+          "type": "multiple",
+          "title": "T-34/Pz.IV",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/sw_t_34_pz_4_group.png",
+          "selected": false,
+          "br": "4.0",
+          "data_unit_id": "sw_t_34_pz_4_group",
+          "required_unit_id": "",
+          "class_name": "",
+          "items": [
+            {
+              "type": "single",
+              "title": "▄T-34",
+              "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/sw_t_34_1941.png",
+              "br": "4.0",
+              "rp": 18000,
+              "sp": 47000,
+              "data_unit_id": "sw_t_34_1941",
+              "required_unit_id": "",
+              "selected": false,
+              "class_name": "",
+              "details": true,
+              "rank": "III",
+              "research_country": "Sweden",
+              "main_role": "Medium tank",
+              "is_component": false,
+              "component_of": null,
+              "is_premium": false,
+              "is_squadron": false,
+              "wiki": {
+                "url": "https://wiki.warthunder.com/unit/sw_t_34_1941",
+                "rank": "III",
+                "battle_rating_context": "default",
+                "battle_ratings": {
+                  "AB": "4.0",
+                  "RB": "4.0",
+                  "SB": "4.0"
+                },
+                "battle_ratings_by_battle": {
+                  "default": {
+                    "AB": "4.0",
+                    "RB": "4.0",
+                    "SB": "4.0"
+                  }
+                },
+                "research": "18,000",
+                "purchase": "47,000",
+                "purchase_currency": "SL",
+                "status": null,
+                "fetched_at": "2026-09-19T06:29:33.516Z",
+                "sha256": "793dbee86f2c37c1b5786cd92da329af5d60545c0a5b6fb5df2dcfe96c3e9d60"
+              }
+            },
+            {
+              "type": "single",
+              "title": "▄Pz.IV",
+              "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/sw_pzkpfw_iv_ausf_j.png",
+              "br": "4.0",
+              "rp": 13000,
+              "sp": 76000,
+              "data_unit_id": "sw_pzkpfw_iv_ausf_j",
+              "required_unit_id": "sw_t_34_1941",
+              "selected": false,
+              "class_name": "",
+              "details": true,
+              "rank": "III",
+              "research_country": "Sweden",
+              "main_role": "Medium tank",
+              "is_component": false,
+              "component_of": null,
+              "is_premium": false,
+              "is_squadron": false,
+              "wiki": {
+                "url": "https://wiki.warthunder.com/unit/sw_pzkpfw_IV_ausf_J",
+                "rank": "III",
+                "battle_rating_context": "default",
+                "battle_ratings": {
+                  "AB": "4.0",
+                  "RB": "4.0",
+                  "SB": "4.0"
+                },
+                "battle_ratings_by_battle": {
+                  "default": {
+                    "AB": "4.0",
+                    "RB": "4.0",
+                    "SB": "4.0"
+                  }
+                },
+                "research": "13,000",
+                "purchase": "76,000",
+                "purchase_currency": "SL",
+                "status": null,
+                "fetched_at": "2026-09-19T06:29:30.194Z",
+                "sha256": "d44b883c2a068d8e1b93ef73dd8f57982154d753f6d91e603bf3b8616da6521d"
+              }
+            }
+          ],
+          "details": true,
+          "rp": 31000,
+          "sp": 123000
+        },
+        {
+          "type": "multiple",
+          "title": "PT/Comet",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/sw_pt_76_comet_group.png",
+          "selected": false,
+          "br": "5.3",
+          "data_unit_id": "sw_pt_76_comet_group",
+          "required_unit_id": "sw_t_34_pz_4_group",
+          "class_name": "",
+          "items": [
+            {
+              "type": "single",
+              "title": "▄PT-76",
+              "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/sw_pt_76b.png",
+              "br": "5.3",
+              "rp": 33000,
+              "sp": 105000,
+              "data_unit_id": "sw_pt_76b",
+              "required_unit_id": "",
+              "selected": false,
+              "class_name": "",
+              "details": true,
+              "rank": "III",
+              "research_country": "Sweden",
+              "main_role": "Light tank",
+              "is_component": false,
+              "component_of": null,
+              "is_premium": false,
+              "is_squadron": false,
+              "wiki": {
+                "url": "https://wiki.warthunder.com/unit/sw_pt_76b",
+                "rank": "III",
+                "battle_rating_context": "default",
+                "battle_ratings": {
+                  "AB": "5.0",
+                  "RB": "5.3",
+                  "SB": "5.3"
+                },
+                "battle_ratings_by_battle": {
+                  "default": {
+                    "AB": "5.0",
+                    "RB": "5.3",
+                    "SB": "5.3"
+                  }
+                },
+                "research": "33,000",
+                "purchase": "105,000",
+                "purchase_currency": "SL",
+                "status": null,
+                "fetched_at": "2026-09-19T06:29:29.120Z",
+                "sha256": "5919f42189a0ab92152ba0209e8a3cf162a1bee7e3c4fdf2a2b74b7357bcb51b"
+              }
+            },
+            {
+              "type": "single",
+              "title": "▄Comet I",
+              "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/sw_a_34_comet.png",
+              "br": "5.3",
+              "rp": 20000,
+              "sp": 135000,
+              "data_unit_id": "sw_a_34_comet",
+              "required_unit_id": "sw_pt_76b",
+              "selected": false,
+              "class_name": "",
+              "details": true,
+              "rank": "III",
+              "research_country": "Sweden",
+              "main_role": "Medium tank",
+              "is_component": false,
+              "component_of": null,
+              "is_premium": false,
+              "is_squadron": false,
+              "wiki": {
+                "url": "https://wiki.warthunder.com/unit/sw_a_34_comet",
+                "rank": "III",
+                "battle_rating_context": "default",
+                "battle_ratings": {
+                  "AB": "5.0",
+                  "RB": "5.3",
+                  "SB": "5.3"
+                },
+                "battle_ratings_by_battle": {
+                  "default": {
+                    "AB": "5.0",
+                    "RB": "5.3",
+                    "SB": "5.3"
+                  }
+                },
+                "research": "20,000",
+                "purchase": "135,000",
+                "purchase_currency": "SL",
+                "status": null,
+                "fetched_at": "2026-09-19T06:29:24.752Z",
+                "sha256": "bb5fc9c458ca1d5b5927b1988e5fe8677dfb2a0858d8b1a58fb699bf2b5c2f17"
+              }
+            }
+          ],
+          "details": true,
+          "rp": 53000,
+          "sp": 240000
+        }
+      ]
+    ],
+    "premium_vehicles": [
+      [
+        {
+          "type": "single",
+          "title": "SAV 20.12.48",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/sw_sav_fm48.png",
+          "br": "4.0",
+          "rp": 0,
+          "sp": 0,
+          "data_unit_id": "sw_sav_fm48",
+          "required_unit_id": "",
+          "selected": false,
+          "class_name": "prem",
+          "details": true,
+          "rank": "III",
+          "research_country": "Sweden",
+          "main_role": "Tank destroyer",
+          "is_component": false,
+          "component_of": null,
+          "is_premium": true,
+          "is_squadron": false,
+          "wiki": {
+            "url": "https://wiki.warthunder.com/unit/sw_sav_fm48",
+            "rank": "III",
+            "battle_rating_context": "default",
+            "battle_ratings": {
+              "AB": "4.0",
+              "RB": "4.0",
+              "SB": "4.0"
+            },
+            "battle_ratings_by_battle": {
+              "default": {
+                "AB": "4.0",
+                "RB": "4.0",
+                "SB": "4.0"
+              }
+            },
+            "research": null,
+            "purchase": null,
+            "purchase_currency": null,
+            "status": "Premium vehicle",
+            "fetched_at": "2026-09-19T06:29:30.218Z",
+            "sha256": "291a510d25433bb8f6c82fd250690f2392da5c1d2c8883528b62d0463c59c20c"
+          }
+        },
+        {
+          "type": "single",
+          "title": "Sherman III/IV",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/sw_sherman_3_4.png",
+          "br": "3.7",
+          "rp": 0,
+          "sp": 0,
+          "data_unit_id": "sw_sherman_3_4",
+          "required_unit_id": "",
+          "selected": false,
+          "class_name": "prem",
+          "details": true,
+          "rank": "III",
+          "research_country": "Sweden",
+          "main_role": "Medium tank",
+          "is_component": false,
+          "component_of": null,
+          "is_premium": true,
+          "is_squadron": false,
+          "wiki": {
+            "url": "https://wiki.warthunder.com/unit/sw_sherman_3_4",
+            "rank": "III",
+            "battle_rating_context": "default",
+            "battle_ratings": {
+              "AB": "3.7",
+              "RB": "3.7",
+              "SB": "3.7"
+            },
+            "battle_ratings_by_battle": {
+              "default": {
+                "AB": "3.7",
+                "RB": "3.7",
+                "SB": "3.7"
+              }
+            },
+            "research": null,
+            "purchase": "1,300",
+            "purchase_currency": "GE",
+            "status": "Premium vehicle",
+            "fetched_at": "2026-09-19T06:29:30.470Z",
+            "sha256": "5f68179fb3513f175da4bc45a698ff286bed94e5a9df6c3dac375bf476026231"
+          }
+        }
+      ],
+      [
+        {
+          "type": "single",
+          "title": "▄KV-1 m1942",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/sw_kv_1_1942_fin.png",
+          "br": "4.7",
+          "rp": 0,
+          "sp": 0,
+          "data_unit_id": "sw_kv_1_1942_fin",
+          "required_unit_id": "",
+          "selected": false,
+          "class_name": "prem",
+          "details": true,
+          "rank": "III",
+          "research_country": "Sweden",
+          "main_role": "Heavy tank",
+          "is_component": false,
+          "component_of": null,
+          "is_premium": true,
+          "is_squadron": false,
+          "wiki": {
+            "url": "https://wiki.warthunder.com/unit/sw_kv_1_1942_fin",
+            "rank": "III",
+            "battle_rating_context": "default",
+            "battle_ratings": {
+              "AB": "4.7",
+              "RB": "4.7",
+              "SB": "4.7"
+            },
+            "battle_ratings_by_battle": {
+              "default": {
+                "AB": "4.7",
+                "RB": "4.7",
+                "SB": "4.7"
+              }
+            },
+            "research": null,
+            "purchase": "2,980",
+            "purchase_currency": "GE",
+            "status": "Premium vehicle",
+            "fetched_at": "2026-09-19T06:29:26.878Z",
+            "sha256": "6fbb19ec7831da4bea3bc622e6b4ca9c57ba73a5ac4bba1e60ab8cb17121460f"
+          }
+        }
+      ]
+    ],
+    "selected": [],
+    "unlock_quantity": null,
+    "source": "wiki"
+  },
+  {
+    "rank": "IV",
+    "researchable_vehicles": [
+      [
+        {
+          "type": "single",
+          "title": "Pbv 501",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/sw_pbv_501.png",
+          "br": "6.7",
+          "rp": 71000,
+          "sp": 210000,
+          "data_unit_id": "sw_pbv_501",
+          "required_unit_id": "sw_pvkv_ii",
+          "selected": false,
+          "class_name": "",
+          "details": true,
+          "rank": "IV",
+          "research_country": "Sweden",
+          "main_role": "Light tank",
+          "is_component": false,
+          "component_of": null,
+          "is_premium": false,
+          "is_squadron": false,
+          "wiki": {
+            "url": "https://wiki.warthunder.com/unit/sw_pbv_501",
+            "rank": "IV",
+            "battle_rating_context": "default",
+            "battle_ratings": {
+              "AB": "6.7",
+              "RB": "6.7",
+              "SB": "6.7"
+            },
+            "battle_ratings_by_battle": {
+              "default": {
+                "AB": "6.7",
+                "RB": "6.7",
+                "SB": "6.7"
+              }
+            },
+            "research": "71,000",
+            "purchase": "210,000",
+            "purchase_currency": "SL",
+            "status": null,
+            "fetched_at": "2026-09-19T06:29:28.991Z",
+            "sha256": "0ed50a5cd5093d03f75875fda02491f0eb02a0b0106cc93f72cd7476e7738a15"
+          }
+        }
+      ],
+      [
+        {
+          "type": "single",
+          "title": "Strv 74",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/sw_strv_74.png",
+          "br": "5.7",
+          "rp": 63000,
+          "sp": 200000,
+          "data_unit_id": "sw_strv_74",
+          "required_unit_id": "sw_strv_m42_delat_torn",
+          "selected": false,
+          "class_name": "",
+          "details": true,
+          "rank": "IV",
+          "research_country": "Sweden",
+          "main_role": "Light tank",
+          "is_component": false,
+          "component_of": null,
+          "is_premium": false,
+          "is_squadron": false,
+          "wiki": {
+            "url": "https://wiki.warthunder.com/unit/sw_strv_74",
+            "rank": "IV",
+            "battle_rating_context": "default",
+            "battle_ratings": {
+              "AB": "5.7",
+              "RB": "5.7",
+              "SB": "5.7"
+            },
+            "battle_ratings_by_battle": {
+              "default": {
+                "AB": "5.7",
+                "RB": "5.7",
+                "SB": "5.7"
+              }
+            },
+            "research": "63,000",
+            "purchase": "200,000",
+            "purchase_currency": "SL",
+            "status": null,
+            "fetched_at": "2026-09-19T06:29:32.390Z",
+            "sha256": "e33db5de0d7cc8b27d0effc1a4b5d987ec983bb9cc2c81d6225f4b6e53caf54e"
+          }
+        }
+      ],
+      [
+        {
+          "type": "single",
+          "title": "U-SH 204 GK",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/sw_landsverk_ush_204_gk.png",
+          "br": "5.3",
+          "rp": 54000,
+          "sp": 185000,
+          "data_unit_id": "sw_landsverk_ush_204_gk",
+          "required_unit_id": "sw_lvkv_42",
+          "selected": false,
+          "class_name": "",
+          "details": true,
+          "rank": "IV",
+          "research_country": "Sweden",
+          "main_role": "SPAA",
+          "is_component": false,
+          "component_of": null,
+          "is_premium": false,
+          "is_squadron": false,
+          "wiki": {
+            "url": "https://wiki.warthunder.com/unit/sw_landsverk_ush_204_gk",
+            "rank": "IV",
+            "battle_rating_context": "default",
+            "battle_ratings": {
+              "AB": "5.0",
+              "RB": "5.3",
+              "SB": "5.3"
+            },
+            "battle_ratings_by_battle": {
+              "default": {
+                "AB": "5.0",
+                "RB": "5.3",
+                "SB": "5.3"
+              }
+            },
+            "research": "54,000",
+            "purchase": "185,000",
+            "purchase_currency": "SL",
+            "status": null,
+            "fetched_at": "2026-09-19T06:29:27.095Z",
+            "sha256": "4e9cbceb4e81f04375b0ffdc8ff5f649ba61d36066673f064c33d00f5080c254"
+          }
+        }
+      ],
+      [
+        {
+          "type": "single",
+          "title": "Bkan 1C",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/sw_bkan_1c.png",
+          "br": "6.7",
+          "rp": 71000,
+          "sp": 210000,
+          "data_unit_id": "sw_bkan_1c",
+          "required_unit_id": "sw_pvkv_m43_1963",
+          "selected": false,
+          "class_name": "",
+          "details": true,
+          "rank": "IV",
+          "research_country": "Sweden",
+          "main_role": "Tank destroyer",
+          "is_component": false,
+          "component_of": null,
+          "is_premium": false,
+          "is_squadron": false,
+          "wiki": {
+            "url": "https://wiki.warthunder.com/unit/sw_bkan_1c",
+            "rank": "IV",
+            "battle_rating_context": "default",
+            "battle_ratings": {
+              "AB": "7.0",
+              "RB": "6.7",
+              "SB": "6.7"
+            },
+            "battle_ratings_by_battle": {
+              "default": {
+                "AB": "7.0",
+                "RB": "6.7",
+                "SB": "6.7"
+              }
+            },
+            "research": "71,000",
+            "purchase": "210,000",
+            "purchase_currency": "SL",
+            "status": null,
+            "fetched_at": "2026-09-19T06:29:24.961Z",
+            "sha256": "aa5a27cd821b831fcb0d1e16654835b6f5ba3d4a79f5a0e6d924fe505ad2ea15"
+          }
+        }
+      ],
+      [
+        {
+          "type": "single",
+          "title": "▄T-34-85",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/sw_t_34_85_zis_53.png",
+          "br": "5.7",
+          "rp": 63000,
+          "sp": 200000,
+          "data_unit_id": "sw_t_34_85_zis_53",
+          "required_unit_id": "sw_pt_76_comet_group",
+          "selected": false,
+          "class_name": "",
+          "details": true,
+          "rank": "IV",
+          "research_country": "Sweden",
+          "main_role": "Medium tank",
+          "is_component": false,
+          "component_of": null,
+          "is_premium": false,
+          "is_squadron": false,
+          "wiki": {
+            "url": "https://wiki.warthunder.com/unit/sw_t_34_85_zis_53",
+            "rank": "IV",
+            "battle_rating_context": "default",
+            "battle_ratings": {
+              "AB": "5.7",
+              "RB": "5.7",
+              "SB": "5.7"
+            },
+            "battle_ratings_by_battle": {
+              "default": {
+                "AB": "5.7",
+                "RB": "5.7",
+                "SB": "5.7"
+              }
+            },
+            "research": "63,000",
+            "purchase": "200,000",
+            "purchase_currency": "SL",
+            "status": null,
+            "fetched_at": "2026-09-19T06:29:33.595Z",
+            "sha256": "0e2a421ef62fbf8e75eb0467b7dd5d6d3780cf772b30bd20f06a7f759a5f452d"
+          }
+        },
+        {
+          "type": "single",
+          "title": "▄Charioteer Mk VII",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/sw_charioteer_mk_7.png",
+          "br": "6.0",
+          "rp": 71000,
+          "sp": 210000,
+          "data_unit_id": "sw_charioteer_mk_7",
+          "required_unit_id": "sw_t_34_85_zis_53",
+          "selected": false,
+          "class_name": "",
+          "details": true,
+          "rank": "IV",
+          "research_country": "Sweden",
+          "main_role": "Medium tank",
+          "is_component": false,
+          "component_of": null,
+          "is_premium": false,
+          "is_squadron": false,
+          "wiki": {
+            "url": "https://wiki.warthunder.com/unit/sw_charioteer_mk_7",
+            "rank": "IV",
+            "battle_rating_context": "default",
+            "battle_ratings": {
+              "AB": "6.0",
+              "RB": "6.0",
+              "SB": "6.0"
+            },
+            "battle_ratings_by_battle": {
+              "default": {
+                "AB": "6.0",
+                "RB": "6.0",
+                "SB": "6.0"
+              }
+            },
+            "research": "71,000",
+            "purchase": "210,000",
+            "purchase_currency": "SL",
+            "status": null,
+            "fetched_at": "2026-09-19T06:29:25.067Z",
+            "sha256": "841664117f4ad25dab8b4fea89a615dcb255bf83308e8afa3818df2ef539b00b"
+          }
+        }
+      ]
+    ],
+    "premium_vehicles": [
+      [
+        {
+          "type": "single",
+          "title": "Kungstiger",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/sw_kungstiger.png",
+          "br": "6.3",
+          "rp": 0,
+          "sp": 0,
+          "data_unit_id": "sw_kungstiger",
+          "required_unit_id": "",
+          "selected": false,
+          "class_name": "prem",
+          "details": true,
+          "rank": "IV",
+          "research_country": "Sweden",
+          "main_role": "Heavy tank",
+          "is_component": false,
+          "component_of": null,
+          "is_premium": true,
+          "is_squadron": false,
+          "wiki": {
+            "url": "https://wiki.warthunder.com/unit/sw_kungstiger",
+            "rank": "IV",
+            "battle_rating_context": "default",
+            "battle_ratings": {
+              "AB": "6.3",
+              "RB": "6.3",
+              "SB": "6.3"
+            },
+            "battle_ratings_by_battle": {
+              "default": {
+                "AB": "6.3",
+                "RB": "6.3",
+                "SB": "6.3"
+              }
+            },
+            "research": null,
+            "purchase": null,
+            "purchase_currency": null,
+            "status": "Premium vehicle",
+            "fetched_at": "2026-09-19T06:29:26.825Z",
+            "sha256": "8c710f28ddca87aa47a12da8633c94a0fa316fa5e54439682ca4be8924d73a60"
+          }
+        }
+      ],
+      []
+    ],
+    "selected": [],
+    "unlock_quantity": null,
+    "source": "wiki"
+  },
+  {
+    "rank": "V",
+    "researchable_vehicles": [
+      [
+        {
+          "type": "single",
+          "title": "Ikv 91",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/sw_ikv_91.png",
+          "br": "8.0",
+          "rp": 95000,
+          "sp": 270000,
+          "data_unit_id": "sw_ikv_91",
+          "required_unit_id": "sw_pbv_501",
+          "selected": false,
+          "class_name": "",
+          "details": true,
+          "rank": "V",
+          "research_country": "Sweden",
+          "main_role": "Light tank",
+          "is_component": false,
+          "component_of": null,
+          "is_premium": false,
+          "is_squadron": false,
+          "wiki": {
+            "url": "https://wiki.warthunder.com/unit/sw_ikv_91",
+            "rank": "V",
+            "battle_rating_context": "default",
+            "battle_ratings": {
+              "AB": "7.3",
+              "RB": "8.0",
+              "SB": "8.0"
+            },
+            "battle_ratings_by_battle": {
+              "default": {
+                "AB": "7.3",
+                "RB": "8.0",
+                "SB": "8.0"
+              }
+            },
+            "research": "95,000",
+            "purchase": "270,000",
+            "purchase_currency": "SL",
+            "status": null,
+            "fetched_at": "2026-09-19T06:29:26.281Z",
+            "sha256": "3c611c1496ea77422d317c382728d061693ff6d3c255873a2c2d491c492e9129"
+          }
+        },
+        {
+          "type": "single",
+          "title": "U-SH 405",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/sw_landsverk_ush_405.png",
+          "br": "8.0",
+          "rp": 105000,
+          "sp": 300000,
+          "data_unit_id": "sw_landsverk_ush_405",
+          "required_unit_id": "sw_ikv_91",
+          "selected": false,
+          "class_name": "",
+          "details": true,
+          "rank": "V",
+          "research_country": "Sweden",
+          "main_role": "Light tank",
+          "is_component": false,
+          "component_of": null,
+          "is_premium": false,
+          "is_squadron": false,
+          "wiki": {
+            "url": "https://wiki.warthunder.com/unit/sw_landsverk_ush_405",
+            "rank": "V",
+            "battle_rating_context": "default",
+            "battle_ratings": {
+              "AB": "7.7",
+              "RB": "8.0",
+              "SB": "8.0"
+            },
+            "battle_ratings_by_battle": {
+              "default": {
+                "AB": "7.7",
+                "RB": "8.0",
+                "SB": "8.0"
+              }
+            },
+            "research": "105,000",
+            "purchase": "300,000",
+            "purchase_currency": "SL",
+            "status": null,
+            "fetched_at": "2026-09-19T06:29:27.310Z",
+            "sha256": "c7af723d1fb36f3b9f6a2856fb772a9eea07311e326ad81fdc502942c32a92c7"
+          }
+        }
+      ],
+      [
+        {
+          "type": "single",
+          "title": "Strv 81",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/sw_strv_81.png",
+          "br": "7.7",
+          "rp": 95000,
+          "sp": 270000,
+          "data_unit_id": "sw_strv_81",
+          "required_unit_id": "sw_strv_74",
+          "selected": false,
+          "class_name": "",
+          "details": true,
+          "rank": "V",
+          "research_country": "Sweden",
+          "main_role": "Medium tank",
+          "is_component": false,
+          "component_of": null,
+          "is_premium": false,
+          "is_squadron": false,
+          "wiki": {
+            "url": "https://wiki.warthunder.com/unit/sw_strv_81",
+            "rank": "V",
+            "battle_rating_context": "default",
+            "battle_ratings": {
+              "AB": "7.7",
+              "RB": "7.7",
+              "SB": "7.7"
+            },
+            "battle_ratings_by_battle": {
+              "default": {
+                "AB": "7.7",
+                "RB": "7.7",
+                "SB": "7.7"
+              }
+            },
+            "research": "95,000",
+            "purchase": "270,000",
+            "purchase_currency": "SL",
+            "status": null,
+            "fetched_at": "2026-09-19T06:29:32.300Z",
+            "sha256": "c38dd11877728872ee4c4388504cc47d44604570545ef26a5b8533f39a6afd8d"
+          }
+        },
+        {
+          "type": "multiple",
+          "title": "Strv 101/103A",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/sw_strv_101_103a_group.png",
+          "selected": false,
+          "br": "8.0",
+          "data_unit_id": "sw_strv_101_103a_group",
+          "required_unit_id": "sw_strv_81",
+          "class_name": "",
+          "items": [
+            {
+              "type": "single",
+              "title": "Strv 101",
+              "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/sw_strv_101.png",
+              "br": "8.0",
+              "rp": 105000,
+              "sp": 300000,
+              "data_unit_id": "sw_strv_101",
+              "required_unit_id": "",
+              "selected": false,
+              "class_name": "",
+              "details": true,
+              "rank": "V",
+              "research_country": "Sweden",
+              "main_role": "Medium tank",
+              "is_component": false,
+              "component_of": null,
+              "is_premium": false,
+              "is_squadron": false,
+              "wiki": {
+                "url": "https://wiki.warthunder.com/unit/sw_strv_101",
+                "rank": "V",
+                "battle_rating_context": "default",
+                "battle_ratings": {
+                  "AB": "8.0",
+                  "RB": "8.0",
+                  "SB": "8.0"
+                },
+                "battle_ratings_by_battle": {
+                  "default": {
+                    "AB": "8.0",
+                    "RB": "8.0",
+                    "SB": "8.0"
+                  }
+                },
+                "research": "105,000",
+                "purchase": "300,000",
+                "purchase_currency": "SL",
+                "status": null,
+                "fetched_at": "2026-09-19T06:29:31.218Z",
+                "sha256": "d7c5e9eda644ce2170333aa3f82bdf2a0500cd3e1dd842dfc6ca71dc34b787d1"
+              }
+            },
+            {
+              "type": "single",
+              "title": "Strv 103A",
+              "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/sw_strv_103a.png",
+              "br": "8.0",
+              "rp": 61000,
+              "sp": 340000,
+              "data_unit_id": "sw_strv_103a",
+              "required_unit_id": "sw_strv_101",
+              "selected": false,
+              "class_name": "",
+              "details": true,
+              "rank": "V",
+              "research_country": "Sweden",
+              "main_role": "Medium tank",
+              "is_component": false,
+              "component_of": null,
+              "is_premium": false,
+              "is_squadron": false,
+              "wiki": {
+                "url": "https://wiki.warthunder.com/unit/sw_strv_103a",
+                "rank": "V",
+                "battle_rating_context": "default",
+                "battle_ratings": {
+                  "AB": "8.0",
+                  "RB": "8.0",
+                  "SB": "8.0"
+                },
+                "battle_ratings_by_battle": {
+                  "default": {
+                    "AB": "8.0",
+                    "RB": "8.0",
+                    "SB": "8.0"
+                  }
+                },
+                "research": "61,000",
+                "purchase": "340,000",
+                "purchase_currency": "SL",
+                "status": null,
+                "fetched_at": "2026-09-19T06:29:31.498Z",
+                "sha256": "fc47a8c6519139b48482fb999de80485736b7c87fd660612f76ebbe4beaeb073"
+              }
+            }
+          ],
+          "details": true,
+          "rp": 166000,
+          "sp": 640000
+        }
+      ],
+      [
+        {
+          "type": "single",
+          "title": "▄ZSU-57-2",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/sw_zsu_57_2.png",
+          "br": "7.0",
+          "rp": 82000,
+          "sp": 240000,
+          "data_unit_id": "sw_zsu_57_2",
+          "required_unit_id": "sw_landsverk_ush_204_gk",
+          "selected": false,
+          "class_name": "",
+          "details": true,
+          "rank": "V",
+          "research_country": "Sweden",
+          "main_role": "SPAA",
+          "is_component": false,
+          "component_of": null,
+          "is_premium": false,
+          "is_squadron": false,
+          "wiki": {
+            "url": "https://wiki.warthunder.com/unit/sw_zsu_57_2",
+            "rank": "V",
+            "battle_rating_context": "default",
+            "battle_ratings": {
+              "AB": "7.0",
+              "RB": "7.0",
+              "SB": "7.0"
+            },
+            "battle_ratings_by_battle": {
+              "default": {
+                "AB": "7.0",
+                "RB": "7.0",
+                "SB": "7.0"
+              }
+            },
+            "research": "82,000",
+            "purchase": "240,000",
+            "purchase_currency": "SL",
+            "status": null,
+            "fetched_at": "2026-09-19T06:29:34.922Z",
+            "sha256": "1ca72ca44e8f8c1c12e07c662700a84a5c8cfe9d3906f1dcdb211b83d5aa3e14"
+          }
+        },
+        {
+          "type": "single",
+          "title": "VEAK 40",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/sw_veak_40.png",
+          "br": "7.7",
+          "rp": 95000,
+          "sp": 270000,
+          "data_unit_id": "sw_veak_40",
+          "required_unit_id": "sw_zsu_57_2",
+          "selected": false,
+          "class_name": "",
+          "details": true,
+          "rank": "V",
+          "research_country": "Sweden",
+          "main_role": "SPAA",
+          "is_component": false,
+          "component_of": null,
+          "is_premium": false,
+          "is_squadron": false,
+          "wiki": {
+            "url": "https://wiki.warthunder.com/unit/sw_veak_40",
+            "rank": "V",
+            "battle_rating_context": "default",
+            "battle_ratings": {
+              "AB": "7.7",
+              "RB": "7.7",
+              "SB": "7.7"
+            },
+            "battle_ratings_by_battle": {
+              "default": {
+                "AB": "7.7",
+                "RB": "7.7",
+                "SB": "7.7"
+              }
+            },
+            "research": "95,000",
+            "purchase": "270,000",
+            "purchase_currency": "SL",
+            "status": null,
+            "fetched_at": "2026-09-19T06:29:34.403Z",
+            "sha256": "33f3b0cd4f7b20d2a46777f4751cdabf288d0f0c9775d4aa484a5a7262ee483b"
+          }
+        }
+      ],
+      [
+        {
+          "type": "single",
+          "title": "Pvrbv 551",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/sw_pvrbv_551.png",
+          "br": "8.0",
+          "rp": 105000,
+          "sp": 300000,
+          "data_unit_id": "sw_pvrbv_551",
+          "required_unit_id": "sw_bkan_1c",
+          "selected": false,
+          "class_name": "",
+          "details": true,
+          "rank": "V",
+          "research_country": "Sweden",
+          "main_role": "Tank destroyer",
+          "is_component": false,
+          "component_of": null,
+          "is_premium": false,
+          "is_squadron": false,
+          "wiki": {
+            "url": "https://wiki.warthunder.com/unit/sw_pvrbv_551",
+            "rank": "V",
+            "battle_rating_context": "default",
+            "battle_ratings": {
+              "AB": "8.0",
+              "RB": "8.0",
+              "SB": "8.0"
+            },
+            "battle_ratings_by_battle": {
+              "default": {
+                "AB": "8.0",
+                "RB": "8.0",
+                "SB": "8.0"
+              }
+            },
+            "research": "105,000",
+            "purchase": "300,000",
+            "purchase_currency": "SL",
+            "status": null,
+            "fetched_at": "2026-09-19T06:29:29.972Z",
+            "sha256": "fb8c883125226a0018a0e9cbb6884e8a82ec6cfd92ea53797b5c6b816c148e42"
+          }
+        }
+      ],
+      [
+        {
+          "type": "single",
+          "title": "▄T-54",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/sw_t_54_1951.png",
+          "br": "8.0",
+          "rp": 120000,
+          "sp": 340000,
+          "data_unit_id": "sw_t_54_1951",
+          "required_unit_id": "sw_charioteer_mk_7",
+          "selected": false,
+          "class_name": "",
+          "details": true,
+          "rank": "V",
+          "research_country": "Sweden",
+          "main_role": "Medium tank",
+          "is_component": false,
+          "component_of": null,
+          "is_premium": false,
+          "is_squadron": false,
+          "wiki": {
+            "url": "https://wiki.warthunder.com/unit/sw_t_54_1951",
+            "rank": "V",
+            "battle_rating_context": "default",
+            "battle_ratings": {
+              "AB": "8.0",
+              "RB": "8.0",
+              "SB": "8.0"
+            },
+            "battle_ratings_by_battle": {
+              "default": {
+                "AB": "8.0",
+                "RB": "8.0",
+                "SB": "8.0"
+              }
+            },
+            "research": "120,000",
+            "purchase": "340,000",
+            "purchase_currency": "SL",
+            "status": null,
+            "fetched_at": "2026-09-19T06:29:33.755Z",
+            "sha256": "f438ac9f1d6ce22eec4a90bdc0e2a4336bfefbed6998a2036c38db3813faf8e5"
+          }
+        }
+      ]
+    ],
+    "premium_vehicles": [
+      [
+        {
+          "type": "single",
+          "title": "Strv 81 (RB 52)",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/uk_centurion_mk_3_ss11.png",
+          "br": "7.7",
+          "rp": 0,
+          "sp": 0,
+          "data_unit_id": "sw_strv_81_rb52",
+          "required_unit_id": "",
+          "selected": false,
+          "class_name": "prem",
+          "details": true,
+          "rank": "V",
+          "research_country": "Sweden",
+          "main_role": "Medium tank",
+          "is_component": false,
+          "component_of": null,
+          "is_premium": true,
+          "is_squadron": false,
+          "wiki": {
+            "url": "https://wiki.warthunder.com/unit/sw_strv_81_rb52",
+            "rank": "V",
+            "battle_rating_context": "default",
+            "battle_ratings": {
+              "AB": "7.7",
+              "RB": "7.7",
+              "SB": "7.7"
+            },
+            "battle_ratings_by_battle": {
+              "default": {
+                "AB": "7.7",
+                "RB": "7.7",
+                "SB": "7.7"
+              }
+            },
+            "research": null,
+            "purchase": "8,020",
+            "purchase_currency": "GE",
+            "status": "Premium vehicle",
+            "fetched_at": "2026-09-19T06:29:32.591Z",
+            "sha256": "03c86cbd3d0fdff688b778e4f09f80f43cbc60bf3c2e43d6dcd23178380514c6"
+          }
+        },
+        {
+          "type": "single",
+          "title": "Strv 103-0",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/sw_strv_103_0.png",
+          "br": "8.0",
+          "rp": 0,
+          "sp": 0,
+          "data_unit_id": "sw_strv_103_0",
+          "required_unit_id": "",
+          "selected": false,
+          "class_name": "prem",
+          "details": true,
+          "rank": "V",
+          "research_country": "Sweden",
+          "main_role": "Medium tank",
+          "is_component": false,
+          "component_of": null,
+          "is_premium": true,
+          "is_squadron": false,
+          "wiki": {
+            "url": "https://wiki.warthunder.com/unit/sw_strv_103_0",
+            "rank": "V",
+            "battle_rating_context": "default",
+            "battle_ratings": {
+              "AB": "8.0",
+              "RB": "8.0",
+              "SB": "8.0"
+            },
+            "battle_ratings_by_battle": {
+              "default": {
+                "AB": "8.0",
+                "RB": "8.0",
+                "SB": "8.0"
+              }
+            },
+            "research": null,
+            "purchase": "8,380",
+            "purchase_currency": "GE",
+            "status": "Premium vehicle",
+            "fetched_at": "2026-09-19T06:29:31.365Z",
+            "sha256": "c329711d9806d0088151632c895fba7ca5f71415185fd26a9b74eaa4a90f43fa"
+          }
+        }
+      ],
+      [
+        {
+          "type": "single",
+          "title": "VIDAR",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/sw_k9_vidar.png",
+          "br": "8.0",
+          "rp": 0,
+          "sp": 0,
+          "data_unit_id": "sw_k9_vidar",
+          "required_unit_id": "",
+          "selected": false,
+          "class_name": "prem",
+          "details": true,
+          "rank": "V",
+          "research_country": "Sweden",
+          "main_role": "Tank destroyer",
+          "is_component": false,
+          "component_of": null,
+          "is_premium": true,
+          "is_squadron": false,
+          "wiki": {
+            "url": "https://wiki.warthunder.com/unit/sw_k9_vidar",
+            "rank": "V",
+            "battle_rating_context": "default",
+            "battle_ratings": {
+              "AB": "8.0",
+              "RB": "8.0",
+              "SB": "8.0"
+            },
+            "battle_ratings_by_battle": {
+              "default": {
+                "AB": "8.0",
+                "RB": "8.0",
+                "SB": "8.0"
+              }
+            },
+            "research": null,
+            "purchase": null,
+            "purchase_currency": null,
+            "status": "Premium vehicle",
+            "fetched_at": "2026-09-19T06:29:26.734Z",
+            "sha256": "7e41d64a86c28b8815014f50add4b38fc07b350302d3c4289d729e4cb89cab73"
+          }
+        }
+      ]
+    ],
+    "selected": [],
+    "unlock_quantity": null,
+    "source": "wiki"
+  },
+  {
+    "rank": "VI",
+    "researchable_vehicles": [
+      [
+        {
+          "type": "single",
+          "title": "CV 90105 TML",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/sw_cv_90105.png",
+          "br": "8.7",
+          "rp": 135000,
+          "sp": 380000,
+          "data_unit_id": "sw_cv_90105",
+          "required_unit_id": "sw_landsverk_ush_405",
+          "selected": false,
+          "class_name": "",
+          "details": true,
+          "rank": "VI",
+          "research_country": "Sweden",
+          "main_role": "Light tank",
+          "is_component": false,
+          "component_of": null,
+          "is_premium": false,
+          "is_squadron": false,
+          "wiki": {
+            "url": "https://wiki.warthunder.com/unit/sw_cv_90105",
+            "rank": "VI",
+            "battle_rating_context": "default",
+            "battle_ratings": {
+              "AB": "8.7",
+              "RB": "8.7",
+              "SB": "8.7"
+            },
+            "battle_ratings_by_battle": {
+              "default": {
+                "AB": "8.7",
+                "RB": "8.7",
+                "SB": "8.7"
+              }
+            },
+            "research": "135,000",
+            "purchase": "380,000",
+            "purchase_currency": "SL",
+            "status": null,
+            "fetched_at": "2026-09-19T06:29:25.301Z",
+            "sha256": "be30e732483f61600292852ca5f7fa01d0b347abf2e6eb3d8dd9066193cb2191"
+          }
+        },
+        {
+          "type": "single",
+          "title": "Ikv 91-105",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/sw_ikv_91_105.png",
+          "br": "9.0",
+          "rp": 160000,
+          "sp": 450000,
+          "data_unit_id": "sw_ikv_91_105",
+          "required_unit_id": "sw_cv_90105",
+          "selected": false,
+          "class_name": "",
+          "details": true,
+          "rank": "VI",
+          "research_country": "Sweden",
+          "main_role": "Light tank",
+          "is_component": false,
+          "component_of": null,
+          "is_premium": false,
+          "is_squadron": false,
+          "wiki": {
+            "url": "https://wiki.warthunder.com/unit/sw_ikv_91_105",
+            "rank": "VI",
+            "battle_rating_context": "default",
+            "battle_ratings": {
+              "AB": "8.7",
+              "RB": "9.0",
+              "SB": "9.0"
+            },
+            "battle_ratings_by_battle": {
+              "default": {
+                "AB": "8.7",
+                "RB": "9.0",
+                "SB": "9.0"
+              }
+            },
+            "research": "160,000",
+            "purchase": "450,000",
+            "purchase_currency": "SL",
+            "status": null,
+            "fetched_at": "2026-09-19T06:29:26.598Z",
+            "sha256": "68658387b5df2759b04523530b321072713aa623576052c6d8a26c6c384e0a23"
+          }
+        },
+        {
+          "type": "multiple",
+          "title": "CV30FIN/Strf 40B",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/sw_cv_90_ifv_group.png",
+          "selected": false,
+          "br": "9.3-9.7",
+          "data_unit_id": "sw_cv_90_ifv_group",
+          "required_unit_id": "sw_ikv_91_105",
+          "class_name": "",
+          "items": [
+            {
+              "type": "single",
+              "title": "CV 9030FIN",
+              "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/sw_cv_9030_fin.png",
+              "br": "9.3",
+              "rp": 190000,
+              "sp": 520000,
+              "data_unit_id": "sw_cv_9030_fin",
+              "required_unit_id": "",
+              "selected": false,
+              "class_name": "",
+              "details": true,
+              "rank": "VI",
+              "research_country": "Sweden",
+              "main_role": "Light tank",
+              "is_component": false,
+              "component_of": null,
+              "is_premium": false,
+              "is_squadron": false,
+              "wiki": {
+                "url": "https://wiki.warthunder.com/unit/sw_cv_9030_fin",
+                "rank": "VI",
+                "battle_rating_context": "default",
+                "battle_ratings": {
+                  "AB": "9.3",
+                  "RB": "9.3",
+                  "SB": "9.3"
+                },
+                "battle_ratings_by_battle": {
+                  "default": {
+                    "AB": "9.3",
+                    "RB": "9.3",
+                    "SB": "9.3"
+                  }
+                },
+                "research": "190,000",
+                "purchase": "520,000",
+                "purchase_currency": "SL",
+                "status": null,
+                "fetched_at": "2026-09-19T06:29:25.774Z",
+                "sha256": "a2c199900fdc8b532a28cabac5fec31752485eada725d4756255593ba218155d"
+              }
+            },
+            {
+              "type": "single",
+              "title": "Strf 9040B",
+              "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/sw_strf_90b.png",
+              "br": "9.7",
+              "rp": 110000,
+              "sp": 620000,
+              "data_unit_id": "sw_strf_90b",
+              "required_unit_id": "sw_cv_9030_fin",
+              "selected": false,
+              "class_name": "",
+              "details": true,
+              "rank": "VI",
+              "research_country": "Sweden",
+              "main_role": "Light tank",
+              "is_component": false,
+              "component_of": null,
+              "is_premium": false,
+              "is_squadron": false,
+              "wiki": {
+                "url": "https://wiki.warthunder.com/unit/sw_strf_90b",
+                "rank": "VI",
+                "battle_rating_context": "default",
+                "battle_ratings": {
+                  "AB": "9.7",
+                  "RB": "9.7",
+                  "SB": "9.7"
+                },
+                "battle_ratings_by_battle": {
+                  "default": {
+                    "AB": "9.7",
+                    "RB": "9.7",
+                    "SB": "9.7"
+                  }
+                },
+                "research": "110,000",
+                "purchase": "620,000",
+                "purchase_currency": "SL",
+                "status": null,
+                "fetched_at": "2026-09-19T06:29:30.835Z",
+                "sha256": "7473aa0df432b7a39355929829fe72ea62269c342af78dd0329f0b1c0665e4d1"
+              }
+            }
+          ],
+          "details": true,
+          "rp": 300000,
+          "sp": 1140000
+        }
+      ],
+      [
+        {
+          "type": "multiple",
+          "title": "Strv 104/103C",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/sw_strv_104_103c_group.png",
+          "selected": false,
+          "br": "8.7-9.0",
+          "data_unit_id": "sw_strv_104_103c_group",
+          "required_unit_id": "sw_strv_101_103a_group",
+          "class_name": "",
+          "items": [
+            {
+              "type": "single",
+              "title": "Strv 104",
+              "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/sw_strv_104.png",
+              "br": "8.7",
+              "rp": 160000,
+              "sp": 450000,
+              "data_unit_id": "sw_strv_104",
+              "required_unit_id": "",
+              "selected": false,
+              "class_name": "",
+              "details": true,
+              "rank": "VI",
+              "research_country": "Sweden",
+              "main_role": "Medium tank",
+              "is_component": false,
+              "component_of": null,
+              "is_premium": false,
+              "is_squadron": false,
+              "wiki": {
+                "url": "https://wiki.warthunder.com/unit/sw_strv_104",
+                "rank": "VI",
+                "battle_rating_context": "default",
+                "battle_ratings": {
+                  "AB": "8.7",
+                  "RB": "8.7",
+                  "SB": "8.7"
+                },
+                "battle_ratings_by_battle": {
+                  "default": {
+                    "AB": "8.7",
+                    "RB": "8.7",
+                    "SB": "8.7"
+                  }
+                },
+                "research": "160,000",
+                "purchase": "450,000",
+                "purchase_currency": "SL",
+                "status": null,
+                "fetched_at": "2026-09-19T06:29:31.559Z",
+                "sha256": "b8bbe73512c61f6185012957a0446396f242edbc96ed85b1250329784bcee1e8"
+              }
+            },
+            {
+              "type": "single",
+              "title": "Strv 103C",
+              "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/sw_strv_103c.png",
+              "br": "9.0",
+              "rp": 94000,
+              "sp": 520000,
+              "data_unit_id": "sw_strv_103c",
+              "required_unit_id": "sw_strv_104",
+              "selected": false,
+              "class_name": "",
+              "details": true,
+              "rank": "VI",
+              "research_country": "Sweden",
+              "main_role": "Medium tank",
+              "is_component": false,
+              "component_of": null,
+              "is_premium": false,
+              "is_squadron": false,
+              "wiki": {
+                "url": "https://wiki.warthunder.com/unit/sw_strv_103c",
+                "rank": "VI",
+                "battle_rating_context": "default",
+                "battle_ratings": {
+                  "AB": "8.7",
+                  "RB": "9.0",
+                  "SB": "9.0"
+                },
+                "battle_ratings_by_battle": {
+                  "default": {
+                    "AB": "8.7",
+                    "RB": "9.0",
+                    "SB": "9.0"
+                  }
+                },
+                "research": "94,000",
+                "purchase": "520,000",
+                "purchase_currency": "SL",
+                "status": null,
+                "fetched_at": "2026-09-19T06:29:31.555Z",
+                "sha256": "1a5e041386d62b77958eb835e7a59d28da6912d43b2dccca28f02c631c1319a7"
+              }
+            }
+          ],
+          "details": true,
+          "rp": 254000,
+          "sp": 970000
+        },
+        {
+          "type": "single",
+          "title": "Strv 105",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/sw_strv_105.png",
+          "br": "9.3",
+          "rp": 220000,
+          "sp": 620000,
+          "data_unit_id": "sw_strv_105",
+          "required_unit_id": "sw_strv_104_103c_group",
+          "selected": false,
+          "class_name": "",
+          "details": true,
+          "rank": "VI",
+          "research_country": "Sweden",
+          "main_role": "Medium tank",
+          "is_component": false,
+          "component_of": null,
+          "is_premium": false,
+          "is_squadron": false,
+          "wiki": {
+            "url": "https://wiki.warthunder.com/unit/sw_strv_105",
+            "rank": "VI",
+            "battle_rating_context": "default",
+            "battle_ratings": {
+              "AB": "9.3",
+              "RB": "9.3",
+              "SB": "9.3"
+            },
+            "battle_ratings_by_battle": {
+              "default": {
+                "AB": "9.3",
+                "RB": "9.3",
+                "SB": "9.3"
+              }
+            },
+            "research": "220,000",
+            "purchase": "620,000",
+            "purchase_currency": "SL",
+            "status": null,
+            "fetched_at": "2026-09-19T06:29:31.948Z",
+            "sha256": "d13e3ad7c936bd0947ebeecbfc0d4674f239f96e4a5ac252eefecfdf748ef641"
+          }
+        }
+      ],
+      [
+        {
+          "type": "single",
+          "title": "ItPsV Leopard",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/sw_itpsv_90.png",
+          "br": "8.7",
+          "rp": 160000,
+          "sp": 450000,
+          "data_unit_id": "sw_itpsv_90",
+          "required_unit_id": "sw_veak_40",
+          "selected": false,
+          "class_name": "",
+          "details": true,
+          "rank": "VI",
+          "research_country": "Sweden",
+          "main_role": "SPAA",
+          "is_component": false,
+          "component_of": null,
+          "is_premium": false,
+          "is_squadron": false,
+          "wiki": {
+            "url": "https://wiki.warthunder.com/unit/sw_itpsv_90",
+            "rank": "VI",
+            "battle_rating_context": "default",
+            "battle_ratings": {
+              "AB": "8.7",
+              "RB": "8.7",
+              "SB": "8.7"
+            },
+            "battle_ratings_by_battle": {
+              "default": {
+                "AB": "8.7",
+                "RB": "8.7",
+                "SB": "8.7"
+              }
+            },
+            "research": "160,000",
+            "purchase": "450,000",
+            "purchase_currency": "SL",
+            "status": null,
+            "fetched_at": "2026-09-19T06:29:26.765Z",
+            "sha256": "d2f1ff3e47dcb2f0dce9da3ffbddd82b1ebd5e63a597a35e1e5db90a1ececccd"
+          }
+        },
+        {
+          "type": "single",
+          "title": "Lvrbv 701",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/sw_lvrbv_701.png",
+          "br": "9.7",
+          "rp": 220000,
+          "sp": 620000,
+          "data_unit_id": "sw_lvrbv_701",
+          "required_unit_id": "sw_itpsv_90",
+          "selected": false,
+          "class_name": "",
+          "details": true,
+          "rank": "VI",
+          "research_country": "Sweden",
+          "main_role": "SPAA",
+          "is_component": false,
+          "component_of": null,
+          "is_premium": false,
+          "is_squadron": false,
+          "wiki": {
+            "url": "https://wiki.warthunder.com/unit/sw_lvrbv_701",
+            "rank": "VI",
+            "battle_rating_context": "default",
+            "battle_ratings": {
+              "AB": "9.3",
+              "RB": "9.7",
+              "SB": "9.7"
+            },
+            "battle_ratings_by_battle": {
+              "default": {
+                "AB": "9.3",
+                "RB": "9.7",
+                "SB": "9.7"
+              }
+            },
+            "research": "220,000",
+            "purchase": "620,000",
+            "purchase_currency": "SL",
+            "status": null,
+            "fetched_at": "2026-09-19T06:29:28.132Z",
+            "sha256": "70f017e11e332c3149900848d883124e4d00aa09929de1577273eab7f959f3a9"
+          }
+        }
+      ],
+      [
+        {
+          "type": "multiple",
+          "title": "UDES/Pbv",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/sw_udes_pbv_group.png",
+          "selected": false,
+          "br": "8.3-8.7",
+          "data_unit_id": "sw_udes_pbv_group",
+          "required_unit_id": "sw_pvrbv_551",
+          "class_name": "",
+          "items": [
+            {
+              "type": "single",
+              "title": "UDES 33",
+              "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/sw_udes_33.png",
+              "br": "8.3",
+              "rp": 135000,
+              "sp": 380000,
+              "data_unit_id": "sw_udes_33",
+              "required_unit_id": "",
+              "selected": false,
+              "class_name": "",
+              "details": true,
+              "rank": "VI",
+              "research_country": "Sweden",
+              "main_role": "Tank destroyer",
+              "is_component": false,
+              "component_of": null,
+              "is_premium": false,
+              "is_squadron": false,
+              "wiki": {
+                "url": "https://wiki.warthunder.com/unit/sw_udes_33",
+                "rank": "VI",
+                "battle_rating_context": "default",
+                "battle_ratings": {
+                  "AB": "8.3",
+                  "RB": "8.3",
+                  "SB": "8.3"
+                },
+                "battle_ratings_by_battle": {
+                  "default": {
+                    "AB": "8.3",
+                    "RB": "8.3",
+                    "SB": "8.3"
+                  }
+                },
+                "research": "135,000",
+                "purchase": "380,000",
+                "purchase_currency": "SL",
+                "status": null,
+                "fetched_at": "2026-09-19T06:29:34.537Z",
+                "sha256": "f4cb25f9cbc26ac3bca35e32667e3dcd3cc7865339d96e43f4cbb4db1775d655"
+              }
+            },
+            {
+              "type": "single",
+              "title": "Pbv 302 (BILL)",
+              "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/sw_pbv_302_bill.png",
+              "br": "8.7",
+              "rp": 81000,
+              "sp": 450000,
+              "data_unit_id": "sw_pbv_302_bill",
+              "required_unit_id": "sw_udes_33",
+              "selected": false,
+              "class_name": "",
+              "details": true,
+              "rank": "VI",
+              "research_country": "Sweden",
+              "main_role": "Tank destroyer",
+              "is_component": false,
+              "component_of": null,
+              "is_premium": false,
+              "is_squadron": false,
+              "wiki": {
+                "url": "https://wiki.warthunder.com/unit/sw_pbv_302_bill",
+                "rank": "VI",
+                "battle_rating_context": "default",
+                "battle_ratings": {
+                  "AB": "8.7",
+                  "RB": "8.7",
+                  "SB": "8.7"
+                },
+                "battle_ratings_by_battle": {
+                  "default": {
+                    "AB": "8.7",
+                    "RB": "8.7",
+                    "SB": "8.7"
+                  }
+                },
+                "research": "81,000",
+                "purchase": "450,000",
+                "purchase_currency": "SL",
+                "status": null,
+                "fetched_at": "2026-09-19T06:29:28.823Z",
+                "sha256": "903cb8ccd4f52b0bbfa1c9e41f00cb9c28432e15cb20fa5e6504aa6d8a273040"
+              }
+            }
+          ],
+          "details": true,
+          "rp": 216000,
+          "sp": 830000
+        }
+      ],
+      [
+        {
+          "type": "single",
+          "title": "▄T-55M",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/sw_t_55m.png",
+          "br": "9.0",
+          "rp": 160000,
+          "sp": 450000,
+          "data_unit_id": "sw_t_55m",
+          "required_unit_id": "sw_t_54_1951",
+          "selected": false,
+          "class_name": "",
+          "details": true,
+          "rank": "VI",
+          "research_country": "Sweden",
+          "main_role": "Medium tank",
+          "is_component": false,
+          "component_of": null,
+          "is_premium": false,
+          "is_squadron": false,
+          "wiki": {
+            "url": "https://wiki.warthunder.com/unit/sw_t_55m",
+            "rank": "VI",
+            "battle_rating_context": "default",
+            "battle_ratings": {
+              "AB": "8.7",
+              "RB": "9.0",
+              "SB": "9.0"
+            },
+            "battle_ratings_by_battle": {
+              "default": {
+                "AB": "8.7",
+                "RB": "9.0",
+                "SB": "9.0"
+              }
+            },
+            "research": "160,000",
+            "purchase": "450,000",
+            "purchase_currency": "SL",
+            "status": null,
+            "fetched_at": "2026-09-19T06:29:34.098Z",
+            "sha256": "33a39960648ea07b5782f84667855ca3ebe87e0c50ce7b4f8a063a097538db44"
+          }
+        },
+        {
+          "type": "single",
+          "title": "▄T-72M1",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/sw_t_72m1.png",
+          "br": "9.3",
+          "rp": 220000,
+          "sp": 620000,
+          "data_unit_id": "sw_t_72m1",
+          "required_unit_id": "sw_t_55m",
+          "selected": false,
+          "class_name": "",
+          "details": true,
+          "rank": "VI",
+          "research_country": "Sweden",
+          "main_role": "Medium tank",
+          "is_component": false,
+          "component_of": null,
+          "is_premium": false,
+          "is_squadron": false,
+          "wiki": {
+            "url": "https://wiki.warthunder.com/unit/sw_t_72m1",
+            "rank": "VI",
+            "battle_rating_context": "default",
+            "battle_ratings": {
+              "AB": "9.3",
+              "RB": "9.3",
+              "SB": "9.3"
+            },
+            "battle_ratings_by_battle": {
+              "default": {
+                "AB": "9.3",
+                "RB": "9.3",
+                "SB": "9.3"
+              }
+            },
+            "research": "220,000",
+            "purchase": "620,000",
+            "purchase_currency": "SL",
+            "status": null,
+            "fetched_at": "2026-09-19T06:29:34.156Z",
+            "sha256": "3cf4a82b3b94515af1643d3eef833119aeeca6e02700e0e83f52a473e15d9d05"
+          }
+        }
+      ]
+    ],
+    "premium_vehicles": [
+      [
+        {
+          "type": "single",
+          "title": "Leopard 1A5NO2",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/sw_leopard_1a5no.png",
+          "br": "9.3",
+          "rp": 0,
+          "sp": 0,
+          "data_unit_id": "sw_leopard_1a5no",
+          "required_unit_id": "",
+          "selected": false,
+          "class_name": "prem",
+          "details": true,
+          "rank": "VI",
+          "research_country": "Sweden",
+          "main_role": "Medium tank",
+          "is_component": false,
+          "component_of": null,
+          "is_premium": true,
+          "is_squadron": false,
+          "wiki": {
+            "url": "https://wiki.warthunder.com/unit/sw_leopard_1a5no",
+            "rank": "VI",
+            "battle_rating_context": "default",
+            "battle_ratings": {
+              "AB": "9.3",
+              "RB": "9.3",
+              "SB": "9.3"
+            },
+            "battle_ratings_by_battle": {
+              "default": {
+                "AB": "9.3",
+                "RB": "9.3",
+                "SB": "9.3"
+              }
+            },
+            "research": null,
+            "purchase": "8,910",
+            "purchase_currency": "GE",
+            "status": "Premium vehicle",
+            "fetched_at": "2026-09-19T06:29:27.500Z",
+            "sha256": "23ec8a6278f220db0dd406599d03dd89cd810be038f466b9995789f832f15dc9"
+          }
+        },
+        {
+          "type": "single",
+          "title": "CV 9035DK",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/sw_cv_9035_dk.png",
+          "br": "9.7",
+          "rp": 0,
+          "sp": 0,
+          "data_unit_id": "sw_cv_9035_dk",
+          "required_unit_id": "",
+          "selected": false,
+          "class_name": "prem",
+          "details": true,
+          "rank": "VI",
+          "research_country": "Sweden",
+          "main_role": "Light tank",
+          "is_component": false,
+          "component_of": null,
+          "is_premium": true,
+          "is_squadron": false,
+          "wiki": {
+            "url": "https://wiki.warthunder.com/unit/sw_cv_9035_dk",
+            "rank": "VI",
+            "battle_rating_context": "default",
+            "battle_ratings": {
+              "AB": "9.7",
+              "RB": "9.7",
+              "SB": "9.7"
+            },
+            "battle_ratings_by_battle": {
+              "default": {
+                "AB": "9.7",
+                "RB": "9.7",
+                "SB": "9.7"
+              }
+            },
+            "research": null,
+            "purchase": "9,090",
+            "purchase_currency": "GE",
+            "status": "Premium vehicle",
+            "fetched_at": "2026-09-19T06:29:25.623Z",
+            "sha256": "ec151bd77d25c6f5dd38fc42d52d9bdd17d490c86f9c5ffcc5e51c773d16d9cc"
+          }
+        }
+      ],
+      [
+        {
+          "type": "single",
+          "title": "BMP-2MD",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/sw_bmp_2md.png",
+          "br": "8.7",
+          "rp": 0,
+          "sp": 0,
+          "data_unit_id": "sw_bmp_2md",
+          "required_unit_id": "",
+          "selected": false,
+          "class_name": "squad",
+          "details": true,
+          "rank": "VI",
+          "research_country": "Sweden",
+          "main_role": "Light tank",
+          "is_component": false,
+          "component_of": null,
+          "is_premium": false,
+          "is_squadron": true,
+          "wiki": {
+            "url": "https://wiki.warthunder.com/unit/sw_bmp_2md",
+            "rank": "VI",
+            "battle_rating_context": "default",
+            "battle_ratings": {
+              "AB": "8.7",
+              "RB": "8.7",
+              "SB": "8.7"
+            },
+            "battle_ratings_by_battle": {
+              "default": {
+                "AB": "8.7",
+                "RB": "8.7",
+                "SB": "8.7"
+              }
+            },
+            "research": "400,000",
+            "purchase": "470,000",
+            "purchase_currency": "SL",
+            "status": "Squadron vehicle",
+            "fetched_at": "2026-09-19T06:29:24.982Z",
+            "sha256": "eaea679cbd2b2f12f176be3575c9b8de795564521eec4740e83fa36708c85f8f"
+          }
+        }
+      ]
+    ],
+    "selected": [],
+    "unlock_quantity": null,
+    "source": "wiki"
+  },
+  {
+    "rank": "VII",
+    "researchable_vehicles": [
+      [
+        {
+          "type": "single",
+          "title": "Strf 9040C",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/sw_strf_90c.png",
+          "br": "10.3",
+          "rp": 300000,
+          "sp": 830000,
+          "data_unit_id": "sw_strf_90c",
+          "required_unit_id": "sw_cv_90_ifv_group",
+          "selected": false,
+          "class_name": "",
+          "details": true,
+          "rank": "VII",
+          "research_country": "Sweden",
+          "main_role": "Light tank",
+          "is_component": false,
+          "component_of": null,
+          "is_premium": false,
+          "is_squadron": false,
+          "wiki": {
+            "url": "https://wiki.warthunder.com/unit/sw_strf_90c",
+            "rank": "VII",
+            "battle_rating_context": "default",
+            "battle_ratings": {
+              "AB": "10.3",
+              "RB": "10.3",
+              "SB": "10.3"
+            },
+            "battle_ratings_by_battle": {
+              "default": {
+                "AB": "10.3",
+                "RB": "10.3",
+                "SB": "10.3"
+              }
+            },
+            "research": "300,000",
+            "purchase": "830,000",
+            "purchase_currency": "SL",
+            "status": null,
+            "fetched_at": "2026-09-19T06:29:30.989Z",
+            "sha256": "90d9116f39b63d6d9ee92f3c14c59c58e84c49c89a8af51720a1199052a06a4b"
+          }
+        }
+      ],
+      [
+        {
+          "type": "single",
+          "title": "Strv 121",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/sw_strv_121.png",
+          "br": "10.7",
+          "rp": 300000,
+          "sp": 830000,
+          "data_unit_id": "sw_strv_121",
+          "required_unit_id": "sw_strv_105",
+          "selected": false,
+          "class_name": "",
+          "details": true,
+          "rank": "VII",
+          "research_country": "Sweden",
+          "main_role": "Medium tank",
+          "is_component": false,
+          "component_of": null,
+          "is_premium": false,
+          "is_squadron": false,
+          "wiki": {
+            "url": "https://wiki.warthunder.com/unit/sw_strv_121",
+            "rank": "VII",
+            "battle_rating_context": "default",
+            "battle_ratings": {
+              "AB": "10.7",
+              "RB": "10.7",
+              "SB": "10.7"
+            },
+            "battle_ratings_by_battle": {
+              "default": {
+                "AB": "10.7",
+                "RB": "10.7",
+                "SB": "10.7"
+              }
+            },
+            "research": "300,000",
+            "purchase": "830,000",
+            "purchase_currency": "SL",
+            "status": null,
+            "fetched_at": "2026-09-19T06:29:32.035Z",
+            "sha256": "01c9eb78734f3e60f386c928c09a4663f461d954ce196bc2c47b4ed28ffafac7"
+          }
+        }
+      ],
+      [
+        {
+          "type": "multiple",
+          "title": "Lvkv/ASRAD",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/sw_lvkv_asrad_group.png",
+          "selected": false,
+          "br": "10.3",
+          "data_unit_id": "sw_lvkv_asrad_group",
+          "required_unit_id": "sw_lvrbv_701",
+          "class_name": "",
+          "items": [
+            {
+              "type": "single",
+              "title": "Lvkv 9040C",
+              "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/sw_lvkv_90c.png",
+              "br": "10.3",
+              "rp": 300000,
+              "sp": 830000,
+              "data_unit_id": "sw_lvkv_90c",
+              "required_unit_id": "",
+              "selected": false,
+              "class_name": "",
+              "details": true,
+              "rank": "VII",
+              "research_country": "Sweden",
+              "main_role": "SPAA",
+              "is_component": false,
+              "component_of": null,
+              "is_premium": false,
+              "is_squadron": false,
+              "wiki": {
+                "url": "https://wiki.warthunder.com/unit/sw_lvkv_90c",
+                "rank": "VII",
+                "battle_rating_context": "default",
+                "battle_ratings": {
+                  "AB": "10.3",
+                  "RB": "10.3",
+                  "SB": "10.3"
+                },
+                "battle_ratings_by_battle": {
+                  "default": {
+                    "AB": "10.3",
+                    "RB": "10.3",
+                    "SB": "10.3"
+                  }
+                },
+                "research": "300,000",
+                "purchase": "830,000",
+                "purchase_currency": "SL",
+                "status": null,
+                "fetched_at": "2026-09-19T06:29:27.828Z",
+                "sha256": "9b665307d5ba4475f5584f03f108559170c7918c4038d6b5939eef9c7fdaac60"
+              }
+            },
+            {
+              "type": "single",
+              "title": "ASRAD-R",
+              "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/sw_asrad_r.png",
+              "br": "10.3",
+              "rp": 175000,
+              "sp": 950000,
+              "data_unit_id": "sw_asrad_r",
+              "required_unit_id": "sw_lvkv_90c",
+              "selected": false,
+              "class_name": "",
+              "details": true,
+              "rank": "VII",
+              "research_country": "Sweden",
+              "main_role": "SPAA",
+              "is_component": false,
+              "component_of": null,
+              "is_premium": false,
+              "is_squadron": false,
+              "wiki": {
+                "url": "https://wiki.warthunder.com/unit/sw_asrad_r",
+                "rank": "VII",
+                "battle_rating_context": "default",
+                "battle_ratings": {
+                  "AB": "10.3",
+                  "RB": "10.3",
+                  "SB": "10.3"
+                },
+                "battle_ratings_by_battle": {
+                  "default": {
+                    "AB": "10.3",
+                    "RB": "10.3",
+                    "SB": "10.3"
+                  }
+                },
+                "research": "175,000",
+                "purchase": "950,000",
+                "purchase_currency": "SL",
+                "status": null,
+                "fetched_at": "2026-09-19T06:29:24.823Z",
+                "sha256": "d1250aa69540648fbd0d9bf3629e87890cbdcc81cc61e25555515b4c099f5879"
+              }
+            }
+          ],
+          "details": true,
+          "rp": 475000,
+          "sp": 1780000
+        }
+      ],
+      [
+        {
+          "type": "single",
+          "title": "Strf 9040 BILL",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/sw_strf_9056.png",
+          "br": "10.3",
+          "rp": 300000,
+          "sp": 830000,
+          "data_unit_id": "sw_strf_9056",
+          "required_unit_id": "sw_udes_pbv_group",
+          "selected": false,
+          "class_name": "",
+          "details": true,
+          "rank": "VII",
+          "research_country": "Sweden",
+          "main_role": "Light tank",
+          "is_component": false,
+          "component_of": null,
+          "is_premium": false,
+          "is_squadron": false,
+          "wiki": {
+            "url": "https://wiki.warthunder.com/unit/sw_strf_9056",
+            "rank": "VII",
+            "battle_rating_context": "default",
+            "battle_ratings": {
+              "AB": "10.7",
+              "RB": "10.3",
+              "SB": "10.3"
+            },
+            "battle_ratings_by_battle": {
+              "default": {
+                "AB": "10.7",
+                "RB": "10.3",
+                "SB": "10.3"
+              }
+            },
+            "research": "300,000",
+            "purchase": "830,000",
+            "purchase_currency": "SL",
+            "status": null,
+            "fetched_at": "2026-09-19T06:29:30.768Z",
+            "sha256": "a17facde283698f0ae37a3dea819bedd31d8a64bffefe4a04436988fca3fe205"
+          }
+        }
+      ],
+      [
+        {
+          "type": "single",
+          "title": "▄Leopard 2A4",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/sw_leopard_2a4_fin.png",
+          "br": "10.7",
+          "rp": 300000,
+          "sp": 830000,
+          "data_unit_id": "sw_leopard_2a4_fin",
+          "required_unit_id": "sw_t_72m1",
+          "selected": false,
+          "class_name": "",
+          "details": true,
+          "rank": "VII",
+          "research_country": "Sweden",
+          "main_role": "Medium tank",
+          "is_component": false,
+          "component_of": null,
+          "is_premium": false,
+          "is_squadron": false,
+          "wiki": {
+            "url": "https://wiki.warthunder.com/unit/sw_leopard_2a4_fin",
+            "rank": "VII",
+            "battle_rating_context": "default",
+            "battle_ratings": {
+              "AB": "10.7",
+              "RB": "10.7",
+              "SB": "10.7"
+            },
+            "battle_ratings_by_battle": {
+              "default": {
+                "AB": "10.7",
+                "RB": "10.7",
+                "SB": "10.7"
+              }
+            },
+            "research": "300,000",
+            "purchase": "830,000",
+            "purchase_currency": "SL",
+            "status": null,
+            "fetched_at": "2026-09-19T06:29:27.717Z",
+            "sha256": "affb314ce7355e3e52828a080ec651ff2bcc6bfa580226be605466966ae43ac0"
+          }
+        }
+      ]
+    ],
+    "premium_vehicles": [
+      [
+        {
+          "type": "single",
+          "title": "CV 90105",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/sw_cv_90105_tml.png",
+          "br": "10.3",
+          "rp": 0,
+          "sp": 0,
+          "data_unit_id": "sw_cv_90105_tml",
+          "required_unit_id": "",
+          "selected": false,
+          "class_name": "prem",
+          "details": true,
+          "rank": "VII",
+          "research_country": "Sweden",
+          "main_role": "Light tank",
+          "is_component": false,
+          "component_of": null,
+          "is_premium": true,
+          "is_squadron": false,
+          "wiki": {
+            "url": "https://wiki.warthunder.com/unit/sw_cv_90105_tml",
+            "rank": "VII",
+            "battle_rating_context": "default",
+            "battle_ratings": {
+              "AB": "10.3",
+              "RB": "10.3",
+              "SB": "10.3"
+            },
+            "battle_ratings_by_battle": {
+              "default": {
+                "AB": "10.3",
+                "RB": "10.3",
+                "SB": "10.3"
+              }
+            },
+            "research": null,
+            "purchase": null,
+            "purchase_currency": null,
+            "status": "Premium vehicle",
+            "fetched_at": "2026-09-19T06:29:25.426Z",
+            "sha256": "0ac7feb4494faddcd5f6a0fef1fc101edb46d7964bfe3eb904fa4a80da95a00d"
+          }
+        },
+        {
+          "type": "single",
+          "title": "Christian II",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/sw_strv121b_christian2.png",
+          "br": "10.7",
+          "rp": 0,
+          "sp": 0,
+          "data_unit_id": "sw_strv121b_christian2",
+          "required_unit_id": "",
+          "selected": false,
+          "class_name": "prem",
+          "details": true,
+          "rank": "VII",
+          "research_country": "Sweden",
+          "main_role": "Medium tank",
+          "is_component": false,
+          "component_of": null,
+          "is_premium": true,
+          "is_squadron": false,
+          "wiki": {
+            "url": "https://wiki.warthunder.com/unit/sw_strv121b_christian2",
+            "rank": "VII",
+            "battle_rating_context": "default",
+            "battle_ratings": {
+              "AB": "10.7",
+              "RB": "10.7",
+              "SB": "10.7"
+            },
+            "battle_ratings_by_battle": {
+              "default": {
+                "AB": "10.7",
+                "RB": "10.7",
+                "SB": "10.7"
+              }
+            },
+            "research": null,
+            "purchase": null,
+            "purchase_currency": null,
+            "status": "Premium vehicle",
+            "fetched_at": "2026-09-19T06:29:31.140Z",
+            "sha256": "537447ffaa689d57fccf173a92492675faa6bcd8508c24fec0dbdc09aea2c224"
+          }
+        }
+      ],
+      [
+        {
+          "type": "single",
+          "title": "CT-CV 105HP",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/sw_patria_amv_ctcv_105.png",
+          "br": "10.0",
+          "rp": null,
+          "sp": null,
+          "data_unit_id": "sw_patria_amv_ctcv_105",
+          "required_unit_id": "",
+          "selected": false,
+          "class_name": "",
+          "details": true,
+          "rank": "VII",
+          "research_country": "Sweden",
+          "main_role": "Light tank",
+          "is_component": false,
+          "component_of": null,
+          "is_premium": false,
+          "is_squadron": false,
+          "wiki": {
+            "url": "https://wiki.warthunder.com/unit/sw_patria_amv_ctcv_105",
+            "rank": "VII",
+            "battle_rating_context": "default",
+            "battle_ratings": {
+              "AB": "9.7",
+              "RB": "10.0",
+              "SB": "10.0"
+            },
+            "battle_ratings_by_battle": {
+              "default": {
+                "AB": "9.7",
+                "RB": "10.0",
+                "SB": "10.0"
+              }
+            },
+            "research": null,
+            "purchase": null,
+            "purchase_currency": null,
+            "status": null,
+            "fetched_at": "2026-09-19T06:29:28.665Z",
+            "sha256": "6a18f480f2bf5508817af199135eb830d590d7b084ccf12da23bff6c3bf41ab8"
+          }
+        }
+      ]
+    ],
+    "selected": [],
+    "unlock_quantity": null,
+    "source": "wiki"
+  },
+  {
+    "rank": "VIII",
+    "researchable_vehicles": [
+      [
+        {
+          "type": "single",
+          "title": "CV90120-T",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/sw_cv_90120.png",
+          "br": "12.0",
+          "rp": 400000,
+          "sp": 1080000,
+          "data_unit_id": "sw_cv_90120",
+          "required_unit_id": "sw_strf_90c",
+          "selected": false,
+          "class_name": "",
+          "details": true,
+          "rank": "VIII",
+          "research_country": "Sweden",
+          "main_role": "Light tank",
+          "is_component": false,
+          "component_of": null,
+          "is_premium": false,
+          "is_squadron": false,
+          "wiki": {
+            "url": "https://wiki.warthunder.com/unit/sw_cv_90120",
+            "rank": "VIII",
+            "battle_rating_context": "default",
+            "battle_ratings": {
+              "AB": "12.0",
+              "RB": "12.0",
+              "SB": "12.0"
+            },
+            "battle_ratings_by_battle": {
+              "default": {
+                "AB": "12.0",
+                "RB": "12.0",
+                "SB": "12.0"
+              }
+            },
+            "research": "400,000",
+            "purchase": "1,080,000",
+            "purchase_currency": "SL",
+            "status": null,
+            "fetched_at": "2026-09-19T06:29:25.667Z",
+            "sha256": "1fbfeebce7d6fb1eaf6e37012ed1ab497e34447607efb6e989df8cd036a320ef"
+          }
+        }
+      ],
+      [
+        {
+          "type": "multiple",
+          "title": "Strv 122/122 PLSS",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/sw_strv_122_group.png",
+          "selected": false,
+          "br": "12.7",
+          "data_unit_id": "sw_strv_122_group",
+          "required_unit_id": "sw_strv_121",
+          "class_name": "",
+          "items": [
+            {
+              "type": "single",
+              "title": "Strv 122A",
+              "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/sw_strv_122.png",
+              "br": "12.7",
+              "rp": 400000,
+              "sp": 1080000,
+              "data_unit_id": "sw_strv_122",
+              "required_unit_id": "",
+              "selected": false,
+              "class_name": "",
+              "details": true,
+              "rank": "VIII",
+              "research_country": "Sweden",
+              "main_role": "Medium tank",
+              "is_component": false,
+              "component_of": null,
+              "is_premium": false,
+              "is_squadron": false,
+              "wiki": {
+                "url": "https://wiki.warthunder.com/unit/sw_strv_122",
+                "rank": "VIII",
+                "battle_rating_context": "default",
+                "battle_ratings": {
+                  "AB": "12.7",
+                  "RB": "12.7",
+                  "SB": "12.7"
+                },
+                "battle_ratings_by_battle": {
+                  "default": {
+                    "AB": "12.7",
+                    "RB": "12.7",
+                    "SB": "12.7"
+                  }
+                },
+                "research": "400,000",
+                "purchase": "1,080,000",
+                "purchase_currency": "SL",
+                "status": null,
+                "fetched_at": "2026-09-19T06:29:31.865Z",
+                "sha256": "384183ed9458675cb506ee623bd743c11ba630fb6ebc4c80b6d59fd4d795a539"
+              }
+            },
+            {
+              "type": "single",
+              "title": "Strv 122B PLSS",
+              "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/sw_strv_122b_plss.png",
+              "br": "12.7",
+              "rp": 200000,
+              "sp": 1100000,
+              "data_unit_id": "sw_strv_122b_plss",
+              "required_unit_id": "sw_strv_122",
+              "selected": false,
+              "class_name": "",
+              "details": true,
+              "rank": "VIII",
+              "research_country": "Sweden",
+              "main_role": "Medium tank",
+              "is_component": false,
+              "component_of": null,
+              "is_premium": false,
+              "is_squadron": false,
+              "wiki": {
+                "url": "https://wiki.warthunder.com/unit/sw_strv_122b_plss",
+                "rank": "VIII",
+                "battle_rating_context": "default",
+                "battle_ratings": {
+                  "AB": "12.7",
+                  "RB": "12.7",
+                  "SB": "12.7"
+                },
+                "battle_ratings_by_battle": {
+                  "default": {
+                    "AB": "12.7",
+                    "RB": "12.7",
+                    "SB": "12.7"
+                  }
+                },
+                "research": "200,000",
+                "purchase": "1,100,000",
+                "purchase_currency": "SL",
+                "status": null,
+                "fetched_at": "2026-09-19T06:29:32.148Z",
+                "sha256": "ff7526e7160725bff045eb88a452390d8c55b5da0c5fff7ff51ae93e98152cab"
+              }
+            }
+          ],
+          "details": true,
+          "rp": 600000,
+          "sp": 2180000
+        },
+        {
+          "type": "single",
+          "title": "Strv 122B+",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/sw_strv_122b_plus.png",
+          "br": "12.7",
+          "rp": 410000,
+          "sp": 1100000,
+          "data_unit_id": "sw_strv_122b_plus",
+          "required_unit_id": "sw_strv_122_group",
+          "selected": false,
+          "class_name": "",
+          "details": true,
+          "rank": "VIII",
+          "research_country": "Sweden",
+          "main_role": "Medium tank",
+          "is_component": false,
+          "component_of": null,
+          "is_premium": false,
+          "is_squadron": false,
+          "wiki": {
+            "url": "https://wiki.warthunder.com/unit/sw_strv_122b_plus",
+            "rank": "VIII",
+            "battle_rating_context": "default",
+            "battle_ratings": {
+              "AB": "12.7",
+              "RB": "12.7",
+              "SB": "12.7"
+            },
+            "battle_ratings_by_battle": {
+              "default": {
+                "AB": "12.7",
+                "RB": "12.7",
+                "SB": "12.7"
+              }
+            },
+            "research": "410,000",
+            "purchase": "1,100,000",
+            "purchase_currency": "SL",
+            "status": null,
+            "fetched_at": "2026-09-19T06:29:32.124Z",
+            "sha256": "ffdcd01e3c151d29dc824c8b15bb7754286aa3915e9178afdf1c91167f1d386d"
+          }
+        }
+      ],
+      [
+        {
+          "type": "single",
+          "title": "ItO 90M",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/sw_crotale_ng.png",
+          "br": "12.0",
+          "rp": 400000,
+          "sp": 1080000,
+          "data_unit_id": "sw_crotale_ng",
+          "required_unit_id": "sw_lvkv_asrad_group",
+          "selected": false,
+          "class_name": "",
+          "details": true,
+          "rank": "VIII",
+          "research_country": "Sweden",
+          "main_role": "SPAA",
+          "is_component": false,
+          "component_of": null,
+          "is_premium": false,
+          "is_squadron": false,
+          "wiki": {
+            "url": "https://wiki.warthunder.com/unit/sw_crotale_ng",
+            "rank": "VIII",
+            "battle_rating_context": "default",
+            "battle_ratings": {
+              "AB": "12.0",
+              "RB": "12.0",
+              "SB": "12.0"
+            },
+            "battle_ratings_by_battle": {
+              "default": {
+                "AB": "12.0",
+                "RB": "12.0",
+                "SB": "12.0"
+              }
+            },
+            "research": "400,000",
+            "purchase": "1,080,000",
+            "purchase_currency": "SL",
+            "status": null,
+            "fetched_at": "2026-09-19T06:29:25.268Z",
+            "sha256": "0508390328ad7edf2f8da8b1e9437b9dab4cd3879f217654660d0ac20e236e10"
+          }
+        },
+        {
+          "type": "multiple",
+          "title": "EldE 98/NOMADS",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/sw_eldenhet_nomads_group.png",
+          "selected": false,
+          "br": "12.0",
+          "data_unit_id": "sw_eldenhet_nomads_group",
+          "required_unit_id": "sw_crotale_ng",
+          "class_name": "",
+          "items": [
+            {
+              "type": "single",
+              "title": "EldE 98",
+              "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/sw_eldenhet_98.png",
+              "br": "12.0",
+              "rp": 410000,
+              "sp": 1100000,
+              "data_unit_id": "sw_eldenhet_98",
+              "required_unit_id": "",
+              "selected": false,
+              "class_name": "",
+              "details": true,
+              "rank": "VIII",
+              "research_country": "Sweden",
+              "main_role": "SPAA",
+              "is_component": false,
+              "component_of": null,
+              "is_premium": false,
+              "is_squadron": false,
+              "wiki": {
+                "url": "https://wiki.warthunder.com/unit/sw_eldenhet_98",
+                "rank": "VIII",
+                "battle_rating_context": "default",
+                "battle_ratings": {
+                  "AB": "12.0",
+                  "RB": "12.0",
+                  "SB": "12.0"
+                },
+                "battle_ratings_by_battle": {
+                  "default": {
+                    "AB": "12.0",
+                    "RB": "12.0",
+                    "SB": "12.0"
+                  }
+                },
+                "research": "410,000",
+                "purchase": "1,100,000",
+                "purchase_currency": "SL",
+                "status": null,
+                "fetched_at": "2026-09-19T06:29:26.071Z",
+                "sha256": "973885ed186bd958512547befa3d11304aa8ec06d104e83895e428c07b7f83cb"
+              }
+            },
+            {
+              "type": "single",
+              "title": "NOMADS",
+              "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/sw_nomads.png",
+              "br": "12.0",
+              "rp": 210000,
+              "sp": 1120000,
+              "data_unit_id": "sw_nomads",
+              "required_unit_id": "sw_eldenhet_98",
+              "selected": false,
+              "class_name": "",
+              "details": true,
+              "rank": "VIII",
+              "research_country": "Sweden",
+              "main_role": "SPAA",
+              "is_component": false,
+              "component_of": null,
+              "is_premium": false,
+              "is_squadron": false,
+              "wiki": {
+                "url": "https://wiki.warthunder.com/unit/sw_nomads",
+                "rank": "VIII",
+                "battle_rating_context": "default",
+                "battle_ratings": {
+                  "AB": "12.0",
+                  "RB": "12.0",
+                  "SB": "12.0"
+                },
+                "battle_ratings_by_battle": {
+                  "default": {
+                    "AB": "12.0",
+                    "RB": "12.0",
+                    "SB": "12.0"
+                  }
+                },
+                "research": "210,000",
+                "purchase": "1,120,000",
+                "purchase_currency": "SL",
+                "status": null,
+                "fetched_at": "2026-09-19T06:29:28.415Z",
+                "sha256": "5985262bb636e53f7752586550e07bc000d688576e24ff85f8f8aa221af25b5a"
+              }
+            }
+          ],
+          "details": true,
+          "rp": 620000,
+          "sp": 2220000
+        },
+        {
+          "type": "multiple",
+          "title": "NASAMS 3",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/sw_nasams_fcs.png",
+          "selected": false,
+          "br": "12.7",
+          "data_unit_id": "sw_nasams_fcs",
+          "required_unit_id": "sw_eldenhet_nomads_group",
+          "class_name": "",
+          "items": [
+            {
+              "type": "single",
+              "title": "NASAMS 3 (TADS)",
+              "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/sw_nasams_fcs.png",
+              "br": "12.7",
+              "rp": 420000,
+              "sp": 1120000,
+              "data_unit_id": "sw_nasams_fcs",
+              "required_unit_id": "",
+              "selected": false,
+              "class_name": "",
+              "details": true,
+              "rank": "VIII",
+              "research_country": "Sweden",
+              "main_role": "SPAA",
+              "is_component": false,
+              "component_of": null,
+              "is_premium": false,
+              "is_squadron": false,
+              "wiki": {
+                "url": "https://wiki.warthunder.com/unit/sw_nasams_fcs",
+                "rank": "VIII",
+                "battle_rating_context": "default",
+                "battle_ratings": {
+                  "AB": "12.7",
+                  "RB": "12.7",
+                  "SB": "12.7"
+                },
+                "battle_ratings_by_battle": {
+                  "default": {
+                    "AB": "12.7",
+                    "RB": "12.7",
+                    "SB": "12.7"
+                  }
+                },
+                "research": "420,000",
+                "purchase": "1,120,000",
+                "purchase_currency": "SL",
+                "status": null,
+                "fetched_at": "2026-09-19T06:29:28.105Z",
+                "sha256": "772c8a56b16738700e6375b93a8b11782af873acb4484a82e8870ae3afbb1fc6"
+              }
+            },
+            {
+              "type": "single",
+              "title": "NASAMS 3 (TEL)",
+              "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/sw_nasams_launcher.png",
+              "br": null,
+              "rp": 0,
+              "sp": 0,
+              "data_unit_id": "sw_nasams_launcher",
+              "required_unit_id": "",
+              "selected": false,
+              "class_name": "",
+              "details": true,
+              "rank": "VIII",
+              "research_country": "Sweden",
+              "main_role": "SPAA",
+              "is_component": true,
+              "component_of": "sw_nasams_fcs",
+              "is_premium": false,
+              "is_squadron": false,
+              "wiki": {
+                "url": "https://wiki.warthunder.com/unit/sw_nasams_launcher",
+                "rank": null,
+                "battle_rating_context": "default",
+                "battle_ratings": {},
+                "battle_ratings_by_battle": {},
+                "research": null,
+                "purchase": null,
+                "purchase_currency": null,
+                "status": null,
+                "fetched_at": "2026-09-19T06:29:28.419Z",
+                "sha256": "32c27d08d408dfc170cbafa1ceb4b3d8de7a6ac2da57a8a41631d743695316f2"
+              }
+            }
+          ],
+          "details": true,
+          "rp": 420000,
+          "sp": 1120000
+        }
+      ],
+      [
+        {
+          "type": "single",
+          "title": "CV 90 Mk.IV",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/sw_cv_90_mk4.png",
+          "br": "10.7",
+          "rp": 400000,
+          "sp": 1080000,
+          "data_unit_id": "sw_cv_90_mk4",
+          "required_unit_id": "sw_strf_9056",
+          "selected": false,
+          "class_name": "",
+          "details": true,
+          "rank": "VIII",
+          "research_country": "Sweden",
+          "main_role": "Light tank",
+          "is_component": false,
+          "component_of": null,
+          "is_premium": false,
+          "is_squadron": false,
+          "wiki": {
+            "url": "https://wiki.warthunder.com/unit/sw_cv_90_mk4",
+            "rank": "VIII",
+            "battle_rating_context": "default",
+            "battle_ratings": {
+              "AB": "10.7",
+              "RB": "10.7",
+              "SB": "10.7"
+            },
+            "battle_ratings_by_battle": {
+              "default": {
+                "AB": "10.7",
+                "RB": "10.7",
+                "SB": "10.7"
+              }
+            },
+            "research": "400,000",
+            "purchase": "1,080,000",
+            "purchase_currency": "SL",
+            "status": null,
+            "fetched_at": "2026-09-19T06:29:25.753Z",
+            "sha256": "72b069cefa688a4bc9c14334bd8a1438565d0dda3366d25c09045067e702ad2e"
+          }
+        }
+      ],
+      [
+        {
+          "type": "single",
+          "title": "▄Leopard 2A6",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/sw_leopard_2a6nl.png",
+          "br": "12.7",
+          "rp": 400000,
+          "sp": 1080000,
+          "data_unit_id": "sw_leopard_2a6nl",
+          "required_unit_id": "sw_leopard_2a4_fin",
+          "selected": false,
+          "class_name": "",
+          "details": true,
+          "rank": "VIII",
+          "research_country": "Sweden",
+          "main_role": "Medium tank",
+          "is_component": false,
+          "component_of": null,
+          "is_premium": false,
+          "is_squadron": false,
+          "wiki": {
+            "url": "https://wiki.warthunder.com/unit/sw_leopard_2a6nl",
+            "rank": "VIII",
+            "battle_rating_context": "default",
+            "battle_ratings": {
+              "AB": "12.7",
+              "RB": "12.7",
+              "SB": "12.7"
+            },
+            "battle_ratings_by_battle": {
+              "default": {
+                "AB": "12.7",
+                "RB": "12.7",
+                "SB": "12.7"
+              }
+            },
+            "research": "400,000",
+            "purchase": "1,080,000",
+            "purchase_currency": "SL",
+            "status": null,
+            "fetched_at": "2026-09-19T06:29:27.768Z",
+            "sha256": "e155cf1b0a7a0ee344ac751b2db185a5d0a30d83e2788b58870c3f5f52183d55"
+          }
+        }
+      ]
+    ],
+    "premium_vehicles": [
+      [
+        {
+          "type": "single",
+          "title": "T 80 U",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/sw_t_80u.png",
+          "br": "11.3",
+          "rp": 0,
+          "sp": 0,
+          "data_unit_id": "sw_t_80u",
+          "required_unit_id": "",
+          "selected": false,
+          "class_name": "squad",
+          "details": true,
+          "rank": "VIII",
+          "research_country": "Sweden",
+          "main_role": "Medium tank",
+          "is_component": false,
+          "component_of": null,
+          "is_premium": false,
+          "is_squadron": true,
+          "wiki": {
+            "url": "https://wiki.warthunder.com/unit/sw_t_80u",
+            "rank": "VIII",
+            "battle_rating_context": "default",
+            "battle_ratings": {
+              "AB": "11.3",
+              "RB": "11.3",
+              "SB": "11.3"
+            },
+            "battle_ratings_by_battle": {
+              "default": {
+                "AB": "11.3",
+                "RB": "11.3",
+                "SB": "11.3"
+              }
+            },
+            "research": "570,000",
+            "purchase": "1,140,000",
+            "purchase_currency": "SL",
+            "status": "Squadron vehicle",
+            "fetched_at": "2026-09-19T06:29:34.075Z",
+            "sha256": "2a1e2bce6581ae810831904d4fa53e1faeffa5cdaa9fcf48a6fc2b4d20887fdf"
+          }
+        }
+      ],
+      []
+    ],
+    "selected": [],
+    "unlock_quantity": null,
+    "source": "wiki"
+  }
+]

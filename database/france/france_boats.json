@@ -1,0 +1,399 @@
+[
+  {
+    "rank": "I",
+    "researchable_vehicles": [
+      [
+        {
+          "type": "multiple",
+          "title": "VTB-8/11/14",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/fr_vtb_group.png",
+          "selected": false,
+          "br": "1.0",
+          "data_unit_id": "fr_vtb_group",
+          "class_name": "",
+          "items": [
+            {
+              "type": "single",
+              "title": "VTB-8",
+              "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/fr_vtb8.png",
+              "br": "1.0",
+              "rp": null,
+              "sp": null,
+              "data_unit_id": "fr_vtb8",
+              "selected": false,
+              "class_name": "",
+              "details": true,
+              "main_role": "Boat"
+            },
+            {
+              "type": "single",
+              "title": "VTB-11",
+              "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/fr_vtb11.png",
+              "br": "1.0",
+              "rp": null,
+              "sp": null,
+              "data_unit_id": "fr_vtb11",
+              "selected": false,
+              "class_name": "",
+              "details": true,
+              "main_role": "Boat"
+            },
+            {
+              "type": "single",
+              "title": "VTB-14",
+              "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/fr_vtb14.png",
+              "br": "1.0",
+              "rp": null,
+              "sp": null,
+              "data_unit_id": "fr_vtb14",
+              "selected": false,
+              "class_name": "",
+              "details": true,
+              "main_role": "Boat"
+            }
+          ],
+          "details": true
+        },
+        {
+          "type": "single",
+          "title": "VTB-12",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/fr_vtb12_mod.png",
+          "br": "1.0",
+          "rp": null,
+          "sp": null,
+          "data_unit_id": "fr_vtb12_mod",
+          "selected": false,
+          "class_name": "",
+          "details": true,
+          "main_role": "Boat"
+        },
+        {
+          "type": "single",
+          "title": "VTB-18",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/fr_vtb18.png",
+          "br": "1.0",
+          "rp": "2,900",
+          "sp": "700",
+          "data_unit_id": "fr_vtb18",
+          "selected": false,
+          "class_name": "",
+          "details": true,
+          "main_role": "Boat"
+        }
+      ],
+      [
+        {
+          "type": "single",
+          "title": "VTB-13",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/fr_vtb13.png",
+          "br": "1.3",
+          "rp": "4,000",
+          "sp": "2,100",
+          "data_unit_id": "fr_vtb13",
+          "selected": false,
+          "class_name": "",
+          "details": true,
+          "main_role": "Boat"
+        }
+      ]
+    ],
+    "premium_vehicles": [
+      [
+        {
+          "type": "single",
+          "title": "VTB-10",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/fr_vtb10.png",
+          "br": "1.0",
+          "rp": 0,
+          "sp": 0,
+          "data_unit_id": "fr_vtb10",
+          "selected": false,
+          "class_name": "prem",
+          "details": true,
+          "main_role": "Boat"
+        },
+        {
+          "type": "single",
+          "title": "VTB-9",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/fr_vtb9.png",
+          "br": "1.0",
+          "rp": 0,
+          "sp": 0,
+          "data_unit_id": "fr_vtb9",
+          "selected": false,
+          "class_name": "prem",
+          "details": true,
+          "main_role": "Boat"
+        }
+      ]
+    ],
+    "selected": [],
+    "unlock_quantity": 0
+  },
+  {
+    "rank": "II",
+    "researchable_vehicles": [
+      [
+        {
+          "type": "single",
+          "title": "VTB-19",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/fr_type40k_vedette.png",
+          "br": "1.7",
+          "rp": "7,900",
+          "sp": "10,000",
+          "data_unit_id": "fr_type40k_vedette",
+          "selected": false,
+          "class_name": "",
+          "details": true,
+          "main_role": "Boat"
+        }
+      ],
+      [
+        {
+          "type": "single",
+          "title": "MTB-96",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/fr_mtb96_vosper.png",
+          "br": "2.0",
+          "rp": "7,900",
+          "sp": "10,000",
+          "data_unit_id": "fr_mtb96_vosper",
+          "selected": false,
+          "class_name": "",
+          "details": true,
+          "main_role": "Boat"
+        },
+        {
+          "type": "single",
+          "title": "Aconit",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/fr_flower_class_aconit.png",
+          "br": "2.3",
+          "rp": "9,200",
+          "sp": "16,000",
+          "data_unit_id": "fr_flower_class_aconit",
+          "selected": false,
+          "class_name": "",
+          "details": true,
+          "main_role": "Heavy boat"
+        }
+      ]
+    ],
+    "premium_vehicles": [
+      []
+    ],
+    "selected": [],
+    "unlock_quantity": 0
+  },
+  {
+    "rank": "III",
+    "researchable_vehicles": [
+      [
+        {
+          "type": "single",
+          "title": "L'Intrépide",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/fr_adroit_class.png",
+          "br": "2.7",
+          "rp": "26,000",
+          "sp": "76,000",
+          "data_unit_id": "fr_adroit_class",
+          "selected": false,
+          "class_name": "",
+          "details": true,
+          "main_role": "Boat"
+        },
+        {
+          "type": "single",
+          "title": "Arras",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/fr_arras_class_arras.png",
+          "br": "3.0",
+          "rp": "36,000",
+          "sp": "115,000",
+          "data_unit_id": "fr_arras_class_arras",
+          "selected": false,
+          "class_name": "",
+          "details": true,
+          "main_role": "Heavy boat"
+        }
+      ],
+      [
+        {
+          "type": "single",
+          "title": "L9059",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/fr_lcg_m_l9059.png",
+          "br": "2.7",
+          "rp": "26,000",
+          "sp": "76,000",
+          "data_unit_id": "fr_lcg_m_l9059",
+          "selected": false,
+          "class_name": "",
+          "details": true,
+          "main_role": "Boat"
+        },
+        {
+          "type": "single",
+          "title": "Marne",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/fr_marne_class_marne.png",
+          "br": "3.3",
+          "rp": "48,000",
+          "sp": "180,000",
+          "data_unit_id": "fr_marne_class_marne",
+          "selected": false,
+          "class_name": "",
+          "details": true,
+          "main_role": "Frigate"
+        }
+      ]
+    ],
+    "premium_vehicles": [
+      [
+        {
+          "type": "single",
+          "title": "Amiens",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/fr_arras_class_amiens.png",
+          "br": "3.0",
+          "rp": 0,
+          "sp": 0,
+          "data_unit_id": "fr_arras_class_amiens",
+          "selected": false,
+          "class_name": "prem",
+          "details": true,
+          "main_role": "Heavy boat"
+        },
+        {
+          "type": "single",
+          "title": "Aisne",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/fr_marne_class_aisne.png",
+          "br": "3.3",
+          "rp": 0,
+          "sp": 0,
+          "data_unit_id": "fr_marne_class_aisne",
+          "selected": false,
+          "class_name": "prem",
+          "details": true,
+          "main_role": "Frigate"
+        }
+      ]
+    ],
+    "selected": [],
+    "unlock_quantity": 0
+  },
+  {
+    "rank": "IV",
+    "researchable_vehicles": [
+      [
+        {
+          "type": "single",
+          "title": "VLT-1",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/fr_vlt1.png",
+          "br": "3.3",
+          "rp": "89,000",
+          "sp": "300,000",
+          "data_unit_id": "fr_vlt1",
+          "selected": false,
+          "class_name": "",
+          "details": true,
+          "main_role": "Boat"
+        }
+      ],
+      [
+        {
+          "type": "single",
+          "title": "Commandant Dominé",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/fr_elan_class_commandant_domine.png",
+          "br": "3.3",
+          "rp": "61,000",
+          "sp": "230,000",
+          "data_unit_id": "fr_elan_class_commandant_domine",
+          "selected": false,
+          "class_name": "",
+          "details": true,
+          "main_role": "Frigate"
+        },
+        {
+          "type": "single",
+          "title": "La Surprise",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/fr_frigate_croix_de_lorraine_class_la_surprise.png",
+          "br": "3.3",
+          "rp": "75,000",
+          "sp": "250,000",
+          "data_unit_id": "fr_frigate_croix_de_lorraine_class_la_surprise",
+          "selected": false,
+          "class_name": "",
+          "details": true,
+          "main_role": "Frigate"
+        }
+      ]
+    ],
+    "premium_vehicles": [
+      [
+        {
+          "type": "single",
+          "title": "VLT-2",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/fr_vlt2.png",
+          "br": "3.3",
+          "rp": 0,
+          "sp": 0,
+          "data_unit_id": "fr_vlt2",
+          "selected": false,
+          "class_name": "prem",
+          "details": true,
+          "main_role": "Boat"
+        },
+        {
+          "type": "single",
+          "title": "Le Corse",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/fr_frigate_corse_class_corse.png",
+          "br": "4.0",
+          "rp": 0,
+          "sp": 0,
+          "data_unit_id": "fr_frigate_corse_class_corse",
+          "selected": false,
+          "class_name": "prem",
+          "details": true,
+          "main_role": "Frigate"
+        }
+      ]
+    ],
+    "selected": [],
+    "unlock_quantity": 0
+  },
+  {
+    "rank": "V",
+    "researchable_vehicles": [
+      [
+        {
+          "type": "single",
+          "title": "La Combattante",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/fr_p730_combattante.png",
+          "br": "3.7",
+          "rp": "250,000",
+          "sp": "700,000",
+          "data_unit_id": "fr_p730_combattante",
+          "selected": false,
+          "class_name": "",
+          "details": true,
+          "main_role": "Boat"
+        }
+      ],
+      [
+        {
+          "type": "single",
+          "title": "Le Brestois",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/fr_frigate_corse_class_brestois.png",
+          "br": "4.3",
+          "rp": "320,000",
+          "sp": "860,000",
+          "data_unit_id": "fr_frigate_corse_class_brestois",
+          "selected": false,
+          "class_name": "",
+          "details": true,
+          "main_role": "Frigate"
+        }
+      ]
+    ],
+    "premium_vehicles": [
+      []
+    ],
+    "selected": [],
+    "unlock_quantity": 0
+  }
+]

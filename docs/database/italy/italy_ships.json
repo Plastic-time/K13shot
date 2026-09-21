@@ -1,0 +1,1639 @@
+[
+  {
+    "rank": "I",
+    "researchable_vehicles": [
+      [
+        {
+          "type": "single",
+          "title": "RN Turbine",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/it_destroyer_turbine.png",
+          "br": "3.3",
+          "rp": 0,
+          "sp": 0,
+          "data_unit_id": "it_destroyer_turbine",
+          "required_unit_id": "",
+          "selected": false,
+          "class_name": "",
+          "details": true,
+          "rank": "I",
+          "research_country": "Italy",
+          "main_role": "Destroyer",
+          "is_component": false,
+          "component_of": null,
+          "is_premium": false,
+          "is_squadron": false,
+          "wiki": {
+            "url": "https://wiki.warthunder.com/unit/it_destroyer_turbine",
+            "rank": "I",
+            "battle_rating_context": "default",
+            "battle_ratings": {
+              "AB": "3.3",
+              "RB": "3.3"
+            },
+            "battle_ratings_by_battle": {
+              "default": {
+                "AB": "3.3",
+                "RB": "3.3"
+              }
+            },
+            "research": "Free",
+            "purchase": "Free",
+            "purchase_currency": "SL",
+            "status": null,
+            "fetched_at": "2026-09-19T06:32:39.360Z",
+            "sha256": "fac2df3c904d64c7d67c7fe168a25c277631400fdc80ea17bc5f7dded55f1c4d"
+          }
+        },
+        {
+          "type": "single",
+          "title": "RN Dardo",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/it_destroyer_dardo.png",
+          "br": "3.7",
+          "rp": 4000,
+          "sp": 2100,
+          "data_unit_id": "it_destroyer_dardo",
+          "required_unit_id": "it_destroyer_turbine",
+          "selected": false,
+          "class_name": "",
+          "details": true,
+          "rank": "I",
+          "research_country": "Italy",
+          "main_role": "Destroyer",
+          "is_component": false,
+          "component_of": null,
+          "is_premium": false,
+          "is_squadron": false,
+          "wiki": {
+            "url": "https://wiki.warthunder.com/unit/it_destroyer_dardo",
+            "rank": "I",
+            "battle_rating_context": "default",
+            "battle_ratings": {
+              "AB": "3.7",
+              "RB": "3.7"
+            },
+            "battle_ratings_by_battle": {
+              "default": {
+                "AB": "3.7",
+                "RB": "3.7"
+              }
+            },
+            "research": "4,000",
+            "purchase": "2,100",
+            "purchase_currency": "SL",
+            "status": null,
+            "fetched_at": "2026-09-19T06:32:38.398Z",
+            "sha256": "208075a7e191e2ded701e7d9417603b144f0cef6071f14eabca8410604c6cdf8"
+          }
+        },
+        {
+          "type": "single",
+          "title": "RN Vincenzo Gioberti",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/it_destroyer_oriani_class_gioberti.png",
+          "br": "3.7",
+          "rp": 5300,
+          "sp": 5000,
+          "data_unit_id": "it_destroyer_oriani_class_gioberti",
+          "required_unit_id": "it_destroyer_dardo",
+          "selected": false,
+          "class_name": "",
+          "details": true,
+          "rank": "I",
+          "research_country": "Italy",
+          "main_role": "Destroyer",
+          "is_component": false,
+          "component_of": null,
+          "is_premium": false,
+          "is_squadron": false,
+          "wiki": {
+            "url": "https://wiki.warthunder.com/unit/it_destroyer_oriani_class_gioberti",
+            "rank": "I",
+            "battle_rating_context": "default",
+            "battle_ratings": {
+              "AB": "3.7",
+              "RB": "3.7"
+            },
+            "battle_ratings_by_battle": {
+              "default": {
+                "AB": "3.7",
+                "RB": "3.7"
+              }
+            },
+            "research": "5,300",
+            "purchase": "5,000",
+            "purchase_currency": "SL",
+            "status": null,
+            "fetched_at": "2026-09-19T06:32:38.837Z",
+            "sha256": "7b16f8e97249d1d50c9a1ce85381891e0abcfd42c3baccc67e3e8616147f714f"
+          }
+        }
+      ],
+      [
+        {
+          "type": "single",
+          "title": "RN Aquila",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/it_destroyer_vifor_class_aquila.png",
+          "br": "3.3",
+          "rp": 2900,
+          "sp": 700,
+          "data_unit_id": "it_destroyer_vifor_class_aquila",
+          "required_unit_id": "",
+          "selected": false,
+          "class_name": "",
+          "details": true,
+          "rank": "I",
+          "research_country": "Italy",
+          "main_role": "Destroyer",
+          "is_component": false,
+          "component_of": null,
+          "is_premium": false,
+          "is_squadron": false,
+          "wiki": {
+            "url": "https://wiki.warthunder.com/unit/it_destroyer_vifor_class_aquila",
+            "rank": "I",
+            "battle_rating_context": "default",
+            "battle_ratings": {
+              "AB": "3.3",
+              "RB": "3.3"
+            },
+            "battle_ratings_by_battle": {
+              "default": {
+                "AB": "3.3",
+                "RB": "3.3"
+              }
+            },
+            "research": "2,900",
+            "purchase": "700",
+            "purchase_currency": "SL",
+            "status": null,
+            "fetched_at": "2026-09-19T06:32:39.555Z",
+            "sha256": "20b9c894fbfe6ab57a1ae6799fae2a2dee43552b0583ea6796bac9b68bce9186"
+          }
+        },
+        {
+          "type": "single",
+          "title": "Grecale",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/it_destroyer_maestrale_class_grecale.png",
+          "br": "3.7",
+          "rp": 5300,
+          "sp": 5000,
+          "data_unit_id": "it_destroyer_maestrale_class_grecale",
+          "required_unit_id": "it_destroyer_vifor_class_aquila",
+          "selected": false,
+          "class_name": "",
+          "details": true,
+          "rank": "I",
+          "research_country": "Italy",
+          "main_role": "Destroyer",
+          "is_component": false,
+          "component_of": null,
+          "is_premium": false,
+          "is_squadron": false,
+          "wiki": {
+            "url": "https://wiki.warthunder.com/unit/it_destroyer_maestrale_class_grecale",
+            "rank": "I",
+            "battle_rating_context": "default",
+            "battle_ratings": {
+              "AB": "3.7",
+              "RB": "3.7"
+            },
+            "battle_ratings_by_battle": {
+              "default": {
+                "AB": "3.7",
+                "RB": "3.7"
+              }
+            },
+            "research": "5,300",
+            "purchase": "5,000",
+            "purchase_currency": "SL",
+            "status": null,
+            "fetched_at": "2026-09-19T06:32:38.753Z",
+            "sha256": "3354129e08a34782e88ddf3eee96237854cbb925d634c566c1ad8994df756287"
+          }
+        }
+      ]
+    ],
+    "premium_vehicles": [
+      [
+        {
+          "type": "single",
+          "title": "RN Aquilone",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/it_destroyer_aquilone.png",
+          "br": "3.3",
+          "rp": 0,
+          "sp": 0,
+          "data_unit_id": "it_destroyer_aquilone",
+          "required_unit_id": "",
+          "selected": false,
+          "class_name": "prem",
+          "details": true,
+          "rank": "I",
+          "research_country": "Italy",
+          "main_role": "Destroyer",
+          "is_component": false,
+          "component_of": null,
+          "is_premium": true,
+          "is_squadron": false,
+          "wiki": {
+            "url": "https://wiki.warthunder.com/unit/it_destroyer_aquilone",
+            "rank": "I",
+            "battle_rating_context": "default",
+            "battle_ratings": {
+              "AB": "3.3",
+              "RB": "3.3"
+            },
+            "battle_ratings_by_battle": {
+              "default": {
+                "AB": "3.3",
+                "RB": "3.3"
+              }
+            },
+            "research": null,
+            "purchase": "250",
+            "purchase_currency": "GE",
+            "status": "Premium vehicle",
+            "fetched_at": "2026-09-19T06:32:38.123Z",
+            "sha256": "b881f22b220eef863804abf81b66d0ac57d5f4d4f5db8e8dd9c8047ef473eb46"
+          }
+        }
+      ],
+      [
+        {
+          "type": "single",
+          "title": "RN Saetta",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/it_destroyer_saetta.png",
+          "br": "3.7",
+          "rp": 0,
+          "sp": 0,
+          "data_unit_id": "it_destroyer_saetta",
+          "required_unit_id": "",
+          "selected": false,
+          "class_name": "prem",
+          "details": true,
+          "rank": "I",
+          "research_country": "Italy",
+          "main_role": "Destroyer",
+          "is_component": false,
+          "component_of": null,
+          "is_premium": true,
+          "is_squadron": false,
+          "wiki": {
+            "url": "https://wiki.warthunder.com/unit/it_destroyer_saetta",
+            "rank": "I",
+            "battle_rating_context": "default",
+            "battle_ratings": {
+              "AB": "3.7",
+              "RB": "3.7"
+            },
+            "battle_ratings_by_battle": {
+              "default": {
+                "AB": "3.7",
+                "RB": "3.7"
+              }
+            },
+            "research": null,
+            "purchase": "400",
+            "purchase_currency": "GE",
+            "status": "Premium vehicle",
+            "fetched_at": "2026-09-19T06:32:39.026Z",
+            "sha256": "a65cee0f2e8dd3607f0feb0ec71bf054a54ce45eb678bbd749ff43d2146a42b8"
+          }
+        }
+      ]
+    ],
+    "selected": [],
+    "unlock_quantity": null,
+    "source": "wiki"
+  },
+  {
+    "rank": "II",
+    "researchable_vehicles": [
+      [
+        {
+          "type": "single",
+          "title": "RN Leone",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/it_destroyer_leone_class.png",
+          "br": "4.0",
+          "rp": 9000,
+          "sp": 16000,
+          "data_unit_id": "it_destroyer_leone_class",
+          "required_unit_id": "it_destroyer_oriani_class_gioberti",
+          "selected": false,
+          "class_name": "",
+          "details": true,
+          "rank": "II",
+          "research_country": "Italy",
+          "main_role": "Destroyer",
+          "is_component": false,
+          "component_of": null,
+          "is_premium": false,
+          "is_squadron": false,
+          "wiki": {
+            "url": "https://wiki.warthunder.com/unit/it_destroyer_leone_class",
+            "rank": "II",
+            "battle_rating_context": "default",
+            "battle_ratings": {
+              "AB": "4.0",
+              "RB": "4.0"
+            },
+            "battle_ratings_by_battle": {
+              "default": {
+                "AB": "4.0",
+                "RB": "4.0"
+              }
+            },
+            "research": "9,000",
+            "purchase": "16,000",
+            "purchase_currency": "SL",
+            "status": null,
+            "fetched_at": "2026-09-19T06:32:38.517Z",
+            "sha256": "1ba60c938c9747e625a3b0133ec9dcf69780389afb89d6bdc7027ff4b8191f6e"
+          }
+        },
+        {
+          "type": "single",
+          "title": "RN Corazziere",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/it_destroyer_soldati_serie1_camicianera.png",
+          "br": "4.3",
+          "rp": 11000,
+          "sp": 22000,
+          "data_unit_id": "it_destroyer_soldati_serie1_camicianera",
+          "required_unit_id": "it_destroyer_leone_class",
+          "selected": false,
+          "class_name": "",
+          "details": true,
+          "rank": "II",
+          "research_country": "Italy",
+          "main_role": "Destroyer",
+          "is_component": false,
+          "component_of": null,
+          "is_premium": false,
+          "is_squadron": false,
+          "wiki": {
+            "url": "https://wiki.warthunder.com/unit/it_destroyer_soldati_serie1_camicianera",
+            "rank": "II",
+            "battle_rating_context": "default",
+            "battle_ratings": {
+              "AB": "4.3",
+              "RB": "4.3"
+            },
+            "battle_ratings_by_battle": {
+              "default": {
+                "AB": "4.3",
+                "RB": "4.3"
+              }
+            },
+            "research": "11,000",
+            "purchase": "22,000",
+            "purchase_currency": "SL",
+            "status": null,
+            "fetched_at": "2026-09-19T06:32:39.292Z",
+            "sha256": "6ccb9cd0f74c45c824af278fb2c69c401ac31ae3339e701d3afa256ae7035ce1"
+          }
+        }
+      ],
+      [
+        {
+          "type": "single",
+          "title": "RN Comandante Margottini",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/it_destroyer_comandanti_medaglie_doro.png",
+          "br": "4.0",
+          "rp": 7000,
+          "sp": 8700,
+          "data_unit_id": "it_destroyer_comandanti_medaglie_doro",
+          "required_unit_id": "it_destroyer_maestrale_class_grecale",
+          "selected": false,
+          "class_name": "",
+          "details": true,
+          "rank": "II",
+          "research_country": "Italy",
+          "main_role": "Destroyer",
+          "is_component": false,
+          "component_of": null,
+          "is_premium": false,
+          "is_squadron": false,
+          "wiki": {
+            "url": "https://wiki.warthunder.com/unit/it_destroyer_comandanti_medaglie_doro",
+            "rank": "II",
+            "battle_rating_context": "default",
+            "battle_ratings": {
+              "AB": "4.0",
+              "RB": "4.0"
+            },
+            "battle_ratings_by_battle": {
+              "default": {
+                "AB": "4.0",
+                "RB": "4.0"
+              }
+            },
+            "research": "7,000",
+            "purchase": "8,700",
+            "purchase_currency": "SL",
+            "status": null,
+            "fetched_at": "2026-09-19T06:32:38.203Z",
+            "sha256": "3451b92903712d31241282121d94f9a61b79314fb577e79bfd2b9d56acdb6db1"
+          }
+        },
+        {
+          "type": "single",
+          "title": "Impetuoso",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/it_destroyer_impetuoso_class_impetuoso.png",
+          "br": "4.3",
+          "rp": 13000,
+          "sp": 31000,
+          "data_unit_id": "it_destroyer_impetuoso_class_impetuoso",
+          "required_unit_id": "it_destroyer_comandanti_medaglie_doro",
+          "selected": false,
+          "class_name": "",
+          "details": true,
+          "rank": "II",
+          "research_country": "Italy",
+          "main_role": "Destroyer",
+          "is_component": false,
+          "component_of": null,
+          "is_premium": false,
+          "is_squadron": false,
+          "wiki": {
+            "url": "https://wiki.warthunder.com/unit/it_destroyer_impetuoso_class_impetuoso",
+            "rank": "II",
+            "battle_rating_context": "default",
+            "battle_ratings": {
+              "AB": "4.3",
+              "RB": "4.3"
+            },
+            "battle_ratings_by_battle": {
+              "default": {
+                "AB": "4.3",
+                "RB": "4.3"
+              }
+            },
+            "research": "13,000",
+            "purchase": "31,000",
+            "purchase_currency": "SL",
+            "status": null,
+            "fetched_at": "2026-09-19T06:32:38.423Z",
+            "sha256": "1ac8f7b3fcd4f5f9d6558b0c623627f2de9a99843b9799e389d9995fe99c576d"
+          }
+        }
+      ]
+    ],
+    "premium_vehicles": [
+      [
+        {
+          "type": "single",
+          "title": "Geniere",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/it_destroyer_fletcher_geniere.png",
+          "br": "4.7",
+          "rp": 0,
+          "sp": 0,
+          "data_unit_id": "it_destroyer_fletcher_geniere",
+          "required_unit_id": "",
+          "selected": false,
+          "class_name": "prem",
+          "details": true,
+          "rank": "II",
+          "research_country": "Italy",
+          "main_role": "Destroyer",
+          "is_component": false,
+          "component_of": null,
+          "is_premium": true,
+          "is_squadron": false,
+          "wiki": {
+            "url": "https://wiki.warthunder.com/unit/it_destroyer_fletcher_geniere",
+            "rank": "II",
+            "battle_rating_context": "default",
+            "battle_ratings": {
+              "AB": "4.7",
+              "RB": "4.7"
+            },
+            "battle_ratings_by_battle": {
+              "default": {
+                "AB": "4.7",
+                "RB": "4.7"
+              }
+            },
+            "research": null,
+            "purchase": "1,150",
+            "purchase_currency": "GE",
+            "status": "Premium vehicle",
+            "fetched_at": "2026-09-19T06:32:38.295Z",
+            "sha256": "528f34db4ecbf5574411f6bb04254d815121bf333330c623f4729d73d07fb086"
+          }
+        }
+      ],
+      []
+    ],
+    "selected": [],
+    "unlock_quantity": null,
+    "source": "wiki"
+  },
+  {
+    "rank": "III",
+    "researchable_vehicles": [
+      [
+        {
+          "type": "single",
+          "title": "RN Da Verazzano",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/it_destroyer_navigatori_class_verazzano.png",
+          "br": "4.3",
+          "rp": 15000,
+          "sp": 38000,
+          "data_unit_id": "it_destroyer_navigatori_class_verazzano",
+          "required_unit_id": "it_destroyer_soldati_serie1_camicianera",
+          "selected": false,
+          "class_name": "",
+          "details": true,
+          "rank": "III",
+          "research_country": "Italy",
+          "main_role": "Destroyer",
+          "is_component": false,
+          "component_of": null,
+          "is_premium": false,
+          "is_squadron": false,
+          "wiki": {
+            "url": "https://wiki.warthunder.com/unit/it_destroyer_navigatori_class_verazzano",
+            "rank": "III",
+            "battle_rating_context": "default",
+            "battle_ratings": {
+              "AB": "4.3",
+              "RB": "4.3"
+            },
+            "battle_ratings_by_battle": {
+              "default": {
+                "AB": "4.3",
+                "RB": "4.3"
+              }
+            },
+            "research": "15,000",
+            "purchase": "38,000",
+            "purchase_currency": "SL",
+            "status": null,
+            "fetched_at": "2026-09-19T06:32:38.893Z",
+            "sha256": "34a499cfa8db681b8d44c4bbe2990c8c5b1c51d54523de8a8edb692d0c71e5b7"
+          }
+        },
+        {
+          "type": "single",
+          "title": "RN Bartolomeo Colleoni",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/it_cruiser_bartolomeocolleoni_1940.png",
+          "br": "5.0",
+          "rp": 21000,
+          "sp": 70000,
+          "data_unit_id": "it_cruiser_bartolomeocolleoni_1940",
+          "required_unit_id": "it_destroyer_navigatori_class_verazzano",
+          "selected": false,
+          "class_name": "",
+          "details": true,
+          "rank": "III",
+          "research_country": "Italy",
+          "main_role": "Light cruiser",
+          "is_component": false,
+          "component_of": null,
+          "is_premium": false,
+          "is_squadron": false,
+          "wiki": {
+            "url": "https://wiki.warthunder.com/unit/it_cruiser_bartolomeocolleoni_1940",
+            "rank": "III",
+            "battle_rating_context": "default",
+            "battle_ratings": {
+              "AB": "5.0",
+              "RB": "5.0"
+            },
+            "battle_ratings_by_battle": {
+              "default": {
+                "AB": "5.0",
+                "RB": "5.0"
+              }
+            },
+            "research": "21,000",
+            "purchase": "70,000",
+            "purchase_currency": "SL",
+            "status": null,
+            "fetched_at": "2026-09-19T06:32:36.751Z",
+            "sha256": "d9c34f6fe1b6d6c046aec1a08b12b7ae4bacc06f34c583aa0fef7735a448e68a"
+          }
+        },
+        {
+          "type": "single",
+          "title": "RN Armando Diaz",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/it_cruiser_cadorna_class_diaz.png",
+          "br": "5.3",
+          "rp": 25000,
+          "sp": 87000,
+          "data_unit_id": "it_cruiser_cadorna_class_diaz",
+          "required_unit_id": "it_cruiser_bartolomeocolleoni_1940",
+          "selected": false,
+          "class_name": "",
+          "details": true,
+          "rank": "III",
+          "research_country": "Italy",
+          "main_role": "Light cruiser",
+          "is_component": false,
+          "component_of": null,
+          "is_premium": false,
+          "is_squadron": false,
+          "wiki": {
+            "url": "https://wiki.warthunder.com/unit/it_cruiser_cadorna_class_diaz",
+            "rank": "III",
+            "battle_rating_context": "default",
+            "battle_ratings": {
+              "AB": "5.3",
+              "RB": "5.3"
+            },
+            "battle_ratings_by_battle": {
+              "default": {
+                "AB": "5.3",
+                "RB": "5.3"
+              }
+            },
+            "research": "25,000",
+            "purchase": "87,000",
+            "purchase_currency": "SL",
+            "status": null,
+            "fetched_at": "2026-09-19T06:32:37.089Z",
+            "sha256": "acf305dd7dbb1b99eae63c25571e4c1cf53d90efa6e95ecccd56ac5388f8f283"
+          }
+        }
+      ],
+      [
+        {
+          "type": "single",
+          "title": "RN Etna",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/it_cruiser_etna_class.png",
+          "br": "4.7",
+          "rp": 18000,
+          "sp": 55000,
+          "data_unit_id": "it_cruiser_etna_class",
+          "required_unit_id": "it_destroyer_impetuoso_class_impetuoso",
+          "selected": false,
+          "class_name": "",
+          "details": true,
+          "rank": "III",
+          "research_country": "Italy",
+          "main_role": "Light cruiser",
+          "is_component": false,
+          "component_of": null,
+          "is_premium": false,
+          "is_squadron": false,
+          "wiki": {
+            "url": "https://wiki.warthunder.com/unit/it_cruiser_etna_class",
+            "rank": "III",
+            "battle_rating_context": "default",
+            "battle_ratings": {
+              "AB": "4.7",
+              "RB": "4.7"
+            },
+            "battle_ratings_by_battle": {
+              "default": {
+                "AB": "4.7",
+                "RB": "4.7"
+              }
+            },
+            "research": "18,000",
+            "purchase": "55,000",
+            "purchase_currency": "SL",
+            "status": null,
+            "fetched_at": "2026-09-19T06:32:37.396Z",
+            "sha256": "b3bad7729c7f8104549ece5f45cfddc399d73dffd06a8a3078506f6d31e44832"
+          }
+        },
+        {
+          "type": "single",
+          "title": "RN Attilio Regolo",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/it_cruiser_capitani_romani_class_attilio_regolo.png",
+          "br": "4.7",
+          "rp": 25000,
+          "sp": 87000,
+          "data_unit_id": "it_cruiser_capitani_romani_class_attilio_regolo",
+          "required_unit_id": "it_cruiser_etna_class",
+          "selected": false,
+          "class_name": "",
+          "details": true,
+          "rank": "III",
+          "research_country": "Italy",
+          "main_role": "Light cruiser",
+          "is_component": false,
+          "component_of": null,
+          "is_premium": false,
+          "is_squadron": false,
+          "wiki": {
+            "url": "https://wiki.warthunder.com/unit/it_cruiser_capitani_romani_class_attilio_regolo",
+            "rank": "III",
+            "battle_rating_context": "default",
+            "battle_ratings": {
+              "AB": "4.7",
+              "RB": "4.7"
+            },
+            "battle_ratings_by_battle": {
+              "default": {
+                "AB": "4.7",
+                "RB": "4.7"
+              }
+            },
+            "research": "25,000",
+            "purchase": "87,000",
+            "purchase_currency": "SL",
+            "status": null,
+            "fetched_at": "2026-09-19T06:32:37.224Z",
+            "sha256": "7ea2eb1008d6df265acabda84e2b1953d6bdcd67ab427aa2eda8a3b2c128aefb"
+          }
+        }
+      ]
+    ],
+    "premium_vehicles": [
+      [
+        {
+          "type": "single",
+          "title": "RN Tigre",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/it_destroyer_leone_class_tigre.png",
+          "br": "4.0",
+          "rp": 0,
+          "sp": 0,
+          "data_unit_id": "it_destroyer_leone_class_tigre",
+          "required_unit_id": "",
+          "selected": false,
+          "class_name": "prem",
+          "details": true,
+          "rank": "III",
+          "research_country": "Italy",
+          "main_role": "Destroyer",
+          "is_component": false,
+          "component_of": null,
+          "is_premium": true,
+          "is_squadron": false,
+          "wiki": {
+            "url": "https://wiki.warthunder.com/unit/it_destroyer_leone_class_tigre",
+            "rank": "III",
+            "battle_rating_context": "default",
+            "battle_ratings": {
+              "AB": "4.0",
+              "RB": "4.0"
+            },
+            "battle_ratings_by_battle": {
+              "default": {
+                "AB": "4.0",
+                "RB": "4.0"
+              }
+            },
+            "research": null,
+            "purchase": "1,750",
+            "purchase_currency": "GE",
+            "status": "Premium vehicle",
+            "fetched_at": "2026-09-19T06:32:38.564Z",
+            "sha256": "6b47310e843dfa9a86ad963fd466b9ac90903a61d418e39d392173cdfb5b0ae9"
+          }
+        },
+        {
+          "type": "single",
+          "title": "RN Geniere",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/it_destroyer_soldati_serie1_geniere.png",
+          "br": "4.3",
+          "rp": 0,
+          "sp": 0,
+          "data_unit_id": "it_destroyer_soldati_serie1_geniere",
+          "required_unit_id": "",
+          "selected": false,
+          "class_name": "prem",
+          "details": true,
+          "rank": "III",
+          "research_country": "Italy",
+          "main_role": "Destroyer",
+          "is_component": false,
+          "component_of": null,
+          "is_premium": true,
+          "is_squadron": false,
+          "wiki": {
+            "url": "https://wiki.warthunder.com/unit/it_destroyer_soldati_serie1_geniere",
+            "rank": "III",
+            "battle_rating_context": "default",
+            "battle_ratings": {
+              "AB": "4.3",
+              "RB": "4.3"
+            },
+            "battle_ratings_by_battle": {
+              "default": {
+                "AB": "4.3",
+                "RB": "4.3"
+              }
+            },
+            "research": null,
+            "purchase": null,
+            "purchase_currency": null,
+            "status": "Premium vehicle",
+            "fetched_at": "2026-09-19T06:32:39.372Z",
+            "sha256": "1e0afb155d40cf0b5ffe0df09263054b59798ce079724efdb4569ace54d3a41f"
+          }
+        }
+      ],
+      [
+        {
+          "type": "single",
+          "title": "RN Aviere",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/it_destroyer_soldati_serie1.png",
+          "br": "4.0",
+          "rp": 0,
+          "sp": 0,
+          "data_unit_id": "it_destroyer_soldati_serie1",
+          "required_unit_id": "",
+          "selected": false,
+          "class_name": "prem",
+          "details": true,
+          "rank": "III",
+          "research_country": "Italy",
+          "main_role": "Destroyer",
+          "is_component": false,
+          "component_of": null,
+          "is_premium": true,
+          "is_squadron": false,
+          "wiki": {
+            "url": "https://wiki.warthunder.com/unit/it_destroyer_soldati_serie1",
+            "rank": "III",
+            "battle_rating_context": "default",
+            "battle_ratings": {
+              "AB": "4.0",
+              "RB": "4.0"
+            },
+            "battle_ratings_by_battle": {
+              "default": {
+                "AB": "4.0",
+                "RB": "4.0"
+              }
+            },
+            "research": null,
+            "purchase": null,
+            "purchase_currency": null,
+            "status": "Premium vehicle",
+            "fetched_at": "2026-09-19T06:32:39.226Z",
+            "sha256": "5fee3730a6fdb9cccd983e131d67e97aa2043cecc4c08bdeb80f1c2c58465581"
+          }
+        },
+        {
+          "type": "single",
+          "title": "RN Luigi Cadorna",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/it_cruiser_cadorna_class_cadorna.png",
+          "br": "5.3",
+          "rp": 0,
+          "sp": 0,
+          "data_unit_id": "it_cruiser_cadorna_class_cadorna",
+          "required_unit_id": "",
+          "selected": false,
+          "class_name": "prem",
+          "details": true,
+          "rank": "III",
+          "research_country": "Italy",
+          "main_role": "Light cruiser",
+          "is_component": false,
+          "component_of": null,
+          "is_premium": true,
+          "is_squadron": false,
+          "wiki": {
+            "url": "https://wiki.warthunder.com/unit/it_cruiser_cadorna_class_cadorna",
+            "rank": "III",
+            "battle_rating_context": "default",
+            "battle_ratings": {
+              "AB": "5.3",
+              "RB": "5.3"
+            },
+            "battle_ratings_by_battle": {
+              "default": {
+                "AB": "5.3",
+                "RB": "5.3"
+              }
+            },
+            "research": null,
+            "purchase": null,
+            "purchase_currency": null,
+            "status": "Premium vehicle",
+            "fetched_at": "2026-09-19T06:32:36.978Z",
+            "sha256": "71b42d1aba14719985941d71052c8527f08bb163b61fa2e096bf58fc3ca3c07b"
+          }
+        }
+      ]
+    ],
+    "selected": [],
+    "unlock_quantity": null,
+    "source": "wiki"
+  },
+  {
+    "rank": "IV",
+    "researchable_vehicles": [
+      [
+        {
+          "type": "single",
+          "title": "RN Raimondo Montecuccoli",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/it_cruiser_montecuccoli.png",
+          "br": "5.3",
+          "rp": 46000,
+          "sp": 150000,
+          "data_unit_id": "it_cruiser_montecuccoli",
+          "required_unit_id": "it_cruiser_cadorna_class_diaz",
+          "selected": false,
+          "class_name": "",
+          "details": true,
+          "rank": "IV",
+          "research_country": "Italy",
+          "main_role": "Light cruiser",
+          "is_component": false,
+          "component_of": null,
+          "is_premium": false,
+          "is_squadron": false,
+          "wiki": {
+            "url": "https://wiki.warthunder.com/unit/it_cruiser_montecuccoli",
+            "rank": "IV",
+            "battle_rating_context": "default",
+            "battle_ratings": {
+              "AB": "5.3",
+              "RB": "5.3"
+            },
+            "battle_ratings_by_battle": {
+              "default": {
+                "AB": "5.3",
+                "RB": "5.3"
+              }
+            },
+            "research": "46,000",
+            "purchase": "150,000",
+            "purchase_currency": "SL",
+            "status": null,
+            "fetched_at": "2026-09-19T06:32:37.741Z",
+            "sha256": "77885d2e71eaf63fd8d09fbc0291b7634e5fa48e0d7ddd539d6271ede17afd35"
+          }
+        },
+        {
+          "type": "single",
+          "title": "RN Eugenio di Savoia",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/it_cruiser_eugenio_di_savoia.png",
+          "br": "5.7",
+          "rp": 59000,
+          "sp": 185000,
+          "data_unit_id": "it_cruiser_eugenio_di_savoia",
+          "required_unit_id": "it_cruiser_montecuccoli",
+          "selected": false,
+          "class_name": "",
+          "details": true,
+          "rank": "IV",
+          "research_country": "Italy",
+          "main_role": "Light cruiser",
+          "is_component": false,
+          "component_of": null,
+          "is_premium": false,
+          "is_squadron": false,
+          "wiki": {
+            "url": "https://wiki.warthunder.com/unit/it_cruiser_eugenio_di_savoia",
+            "rank": "IV",
+            "battle_rating_context": "default",
+            "battle_ratings": {
+              "AB": "5.7",
+              "RB": "5.7"
+            },
+            "battle_ratings_by_battle": {
+              "default": {
+                "AB": "5.7",
+                "RB": "5.7"
+              }
+            },
+            "research": "59,000",
+            "purchase": "185,000",
+            "purchase_currency": "SL",
+            "status": null,
+            "fetched_at": "2026-09-19T06:32:37.296Z",
+            "sha256": "de1c7903642daf0edf5e47b990938440268ec6a9f85eaf315aafcb407a36f0ea"
+          }
+        }
+      ],
+      [
+        {
+          "type": "single",
+          "title": "RN Trento",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/it_cruiser_trento.png",
+          "br": "5.3",
+          "rp": 33000,
+          "sp": 115000,
+          "data_unit_id": "it_cruiser_trento",
+          "required_unit_id": "it_cruiser_capitani_romani_class_attilio_regolo",
+          "selected": false,
+          "class_name": "",
+          "details": true,
+          "rank": "IV",
+          "research_country": "Italy",
+          "main_role": "Heavy cruiser",
+          "is_component": false,
+          "component_of": null,
+          "is_premium": false,
+          "is_squadron": false,
+          "wiki": {
+            "url": "https://wiki.warthunder.com/unit/it_cruiser_trento",
+            "rank": "IV",
+            "battle_rating_context": "default",
+            "battle_ratings": {
+              "AB": "5.3",
+              "RB": "5.3"
+            },
+            "battle_ratings_by_battle": {
+              "default": {
+                "AB": "5.3",
+                "RB": "5.3"
+              }
+            },
+            "research": "33,000",
+            "purchase": "115,000",
+            "purchase_currency": "SL",
+            "status": null,
+            "fetched_at": "2026-09-19T06:32:37.671Z",
+            "sha256": "a620b1ea0d0fa7383363f1791f80277e5c01d5aebb08e8d7c2e2087f18bd4aa1"
+          }
+        },
+        {
+          "type": "single",
+          "title": "RN Bolzano",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/it_cruiser_bolzano.png",
+          "br": "5.7",
+          "rp": 73000,
+          "sp": 230000,
+          "data_unit_id": "it_cruiser_bolzano",
+          "required_unit_id": "it_cruiser_trento",
+          "selected": false,
+          "class_name": "",
+          "details": true,
+          "rank": "IV",
+          "research_country": "Italy",
+          "main_role": "Heavy cruiser",
+          "is_component": false,
+          "component_of": null,
+          "is_premium": false,
+          "is_squadron": false,
+          "wiki": {
+            "url": "https://wiki.warthunder.com/unit/it_cruiser_bolzano",
+            "rank": "IV",
+            "battle_rating_context": "default",
+            "battle_ratings": {
+              "AB": "5.7",
+              "RB": "5.7"
+            },
+            "battle_ratings_by_battle": {
+              "default": {
+                "AB": "5.7",
+                "RB": "5.7"
+              }
+            },
+            "research": "73,000",
+            "purchase": "230,000",
+            "purchase_currency": "SL",
+            "status": null,
+            "fetched_at": "2026-09-19T06:32:36.948Z",
+            "sha256": "add8b1702357848e3563899a5d9cf10b1e7253cd27e5ce231a28fc32ffbc4fbc"
+          }
+        }
+      ]
+    ],
+    "premium_vehicles": [
+      [
+        {
+          "type": "single",
+          "title": "RN Pola",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/it_cruiser_zara_class_pola.png",
+          "br": "6.0",
+          "rp": 0,
+          "sp": 0,
+          "data_unit_id": "it_cruiser_zara_class_pola",
+          "required_unit_id": "",
+          "selected": false,
+          "class_name": "prem",
+          "details": true,
+          "rank": "IV",
+          "research_country": "Italy",
+          "main_role": "Heavy cruiser",
+          "is_component": false,
+          "component_of": null,
+          "is_premium": true,
+          "is_squadron": false,
+          "wiki": {
+            "url": "https://wiki.warthunder.com/unit/it_cruiser_zara_class_pola",
+            "rank": "IV",
+            "battle_rating_context": "default",
+            "battle_ratings": {
+              "AB": "6.0",
+              "RB": "6.0"
+            },
+            "battle_ratings_by_battle": {
+              "default": {
+                "AB": "6.0",
+                "RB": "6.0"
+              }
+            },
+            "research": null,
+            "purchase": "8,020",
+            "purchase_currency": "GE",
+            "status": "Premium vehicle",
+            "fetched_at": "2026-09-19T06:32:37.968Z",
+            "sha256": "fcaa625606d1ab3e056166cec868909be751a68cb41f90b7e6b1ebea69d66a9f"
+          }
+        }
+      ],
+      []
+    ],
+    "selected": [],
+    "unlock_quantity": null,
+    "source": "wiki"
+  },
+  {
+    "rank": "V",
+    "researchable_vehicles": [
+      [
+        {
+          "type": "single",
+          "title": "RN Duca degli Abruzzi",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/it_cruiser_garibaldi_class_abruzzi.png",
+          "br": "5.7",
+          "rp": 90000,
+          "sp": 280000,
+          "data_unit_id": "it_cruiser_garibaldi_class_abruzzi",
+          "required_unit_id": "it_cruiser_eugenio_di_savoia",
+          "selected": false,
+          "class_name": "",
+          "details": true,
+          "rank": "V",
+          "research_country": "Italy",
+          "main_role": "Light cruiser",
+          "is_component": false,
+          "component_of": null,
+          "is_premium": false,
+          "is_squadron": false,
+          "wiki": {
+            "url": "https://wiki.warthunder.com/unit/it_cruiser_garibaldi_class_abruzzi",
+            "rank": "V",
+            "battle_rating_context": "default",
+            "battle_ratings": {
+              "AB": "5.7",
+              "RB": "5.7"
+            },
+            "battle_ratings_by_battle": {
+              "default": {
+                "AB": "5.7",
+                "RB": "5.7"
+              }
+            },
+            "research": "90,000",
+            "purchase": "280,000",
+            "purchase_currency": "SL",
+            "status": null,
+            "fetched_at": "2026-09-19T06:32:37.643Z",
+            "sha256": "9f7011ff094745ad63c3543fc523f6a57b327c16c9accf4530861cdf22619445"
+          }
+        },
+        {
+          "type": "single",
+          "title": "RN Dante Alighieri",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/it_battleship_dante_alighieri.png",
+          "br": "6.3",
+          "rp": 145000,
+          "sp": 440000,
+          "data_unit_id": "it_battleship_dante_alighieri",
+          "required_unit_id": "it_cruiser_garibaldi_class_abruzzi",
+          "selected": false,
+          "class_name": "",
+          "details": true,
+          "rank": "V",
+          "research_country": "Italy",
+          "main_role": "Battleship",
+          "is_component": false,
+          "component_of": null,
+          "is_premium": false,
+          "is_squadron": false,
+          "wiki": {
+            "url": "https://wiki.warthunder.com/unit/it_battleship_dante_alighieri",
+            "rank": "V",
+            "battle_rating_context": "default",
+            "battle_ratings": {
+              "AB": "6.3",
+              "RB": "6.3"
+            },
+            "battle_ratings_by_battle": {
+              "default": {
+                "AB": "6.3",
+                "RB": "6.3"
+              }
+            },
+            "research": "145,000",
+            "purchase": "440,000",
+            "purchase_currency": "SL",
+            "status": null,
+            "fetched_at": "2026-09-19T06:32:36.162Z",
+            "sha256": "bdcc879baa64ce5c25fb0fbbc7ed5d90d4dc3cb18ad701ee6de88b04c9127aa5"
+          }
+        },
+        {
+          "type": "single",
+          "title": "RN Francesco Caracciolo",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/it_battleship_francesco_caracciolo.png",
+          "br": "6.7",
+          "rp": 180000,
+          "sp": 540000,
+          "data_unit_id": "it_battleship_francesco_caracciolo",
+          "required_unit_id": "it_battleship_dante_alighieri",
+          "selected": false,
+          "class_name": "",
+          "details": true,
+          "rank": "V",
+          "research_country": "Italy",
+          "main_role": "Battleship",
+          "is_component": false,
+          "component_of": null,
+          "is_premium": false,
+          "is_squadron": false,
+          "wiki": {
+            "url": "https://wiki.warthunder.com/unit/it_battleship_francesco_caracciolo",
+            "rank": "V",
+            "battle_rating_context": "default",
+            "battle_ratings": {
+              "AB": "6.7",
+              "RB": "6.7"
+            },
+            "battle_ratings_by_battle": {
+              "default": {
+                "AB": "6.7",
+                "RB": "6.7"
+              }
+            },
+            "research": "180,000",
+            "purchase": "540,000",
+            "purchase_currency": "SL",
+            "status": null,
+            "fetched_at": "2026-09-19T06:32:35.983Z",
+            "sha256": "de8d25597b666334bcb5196f0992e3be1666d398b86ae867fc24a1ef89c32eb0"
+          }
+        }
+      ],
+      [
+        {
+          "type": "single",
+          "title": "RN Zara",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/it_cruiser_zara_class.png",
+          "br": "6.0",
+          "rp": 110000,
+          "sp": 340000,
+          "data_unit_id": "it_cruiser_zara_class",
+          "required_unit_id": "it_cruiser_bolzano",
+          "selected": false,
+          "class_name": "",
+          "details": true,
+          "rank": "V",
+          "research_country": "Italy",
+          "main_role": "Heavy cruiser",
+          "is_component": false,
+          "component_of": null,
+          "is_premium": false,
+          "is_squadron": false,
+          "wiki": {
+            "url": "https://wiki.warthunder.com/unit/it_cruiser_zara_class",
+            "rank": "V",
+            "battle_rating_context": "default",
+            "battle_ratings": {
+              "AB": "6.0",
+              "RB": "6.0"
+            },
+            "battle_ratings_by_battle": {
+              "default": {
+                "AB": "6.0",
+                "RB": "6.0"
+              }
+            },
+            "research": "110,000",
+            "purchase": "340,000",
+            "purchase_currency": "SL",
+            "status": null,
+            "fetched_at": "2026-09-19T06:32:37.957Z",
+            "sha256": "efe6b35f39dfbdd017f28aebc04a5741fcf227c37fd88c69222894b96a786074"
+          }
+        },
+        {
+          "type": "single",
+          "title": "RN Andrea Doria",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/it_battleship_andrea_doria.png",
+          "br": "6.3",
+          "rp": 145000,
+          "sp": 440000,
+          "data_unit_id": "it_battleship_andrea_doria",
+          "required_unit_id": "it_cruiser_zara_class",
+          "selected": false,
+          "class_name": "",
+          "details": true,
+          "rank": "V",
+          "research_country": "Italy",
+          "main_role": "Battleship",
+          "is_component": false,
+          "component_of": null,
+          "is_premium": false,
+          "is_squadron": false,
+          "wiki": {
+            "url": "https://wiki.warthunder.com/unit/it_battleship_andrea_doria",
+            "rank": "V",
+            "battle_rating_context": "default",
+            "battle_ratings": {
+              "AB": "6.3",
+              "RB": "6.3"
+            },
+            "battle_ratings_by_battle": {
+              "default": {
+                "AB": "6.3",
+                "RB": "6.3"
+              }
+            },
+            "research": "145,000",
+            "purchase": "440,000",
+            "purchase_currency": "SL",
+            "status": null,
+            "fetched_at": "2026-09-19T06:32:35.725Z",
+            "sha256": "a90bd48424e18fc3428943f0aba123fb4208a4436a68d41636f9e770e8919014"
+          }
+        }
+      ]
+    ],
+    "premium_vehicles": [
+      [
+        {
+          "type": "single",
+          "title": "RN Leonardo da Vinci",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/it_battleship_leonardo_da_vinci.png",
+          "br": "6.3",
+          "rp": 0,
+          "sp": 0,
+          "data_unit_id": "it_battleship_leonardo_da_vinci",
+          "required_unit_id": "",
+          "selected": false,
+          "class_name": "prem",
+          "details": true,
+          "rank": "V",
+          "research_country": "Italy",
+          "main_role": "Battleship",
+          "is_component": false,
+          "component_of": null,
+          "is_premium": true,
+          "is_squadron": false,
+          "wiki": {
+            "url": "https://wiki.warthunder.com/unit/it_battleship_leonardo_da_vinci",
+            "rank": "V",
+            "battle_rating_context": "default",
+            "battle_ratings": {
+              "AB": "6.3",
+              "RB": "6.3"
+            },
+            "battle_ratings_by_battle": {
+              "default": {
+                "AB": "6.3",
+                "RB": "6.3"
+              }
+            },
+            "research": null,
+            "purchase": "8,380",
+            "purchase_currency": "GE",
+            "status": "Premium vehicle",
+            "fetched_at": "2026-09-19T06:32:36.450Z",
+            "sha256": "b11432531d53f95492369e5df314217849a37b5d2ffcd0e261a27e3267ef56d8"
+          }
+        }
+      ],
+      []
+    ],
+    "selected": [],
+    "unlock_quantity": null,
+    "source": "wiki"
+  },
+  {
+    "rank": "VI",
+    "researchable_vehicles": [
+      [
+        {
+          "type": "single",
+          "title": "RN Conte di Cavour",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/it_battleship_conte_di_cavour.png",
+          "br": "7.3",
+          "rp": 300000,
+          "sp": 900000,
+          "data_unit_id": "it_battleship_conte_di_cavour",
+          "required_unit_id": "it_battleship_francesco_caracciolo",
+          "selected": false,
+          "class_name": "",
+          "details": true,
+          "rank": "VI",
+          "research_country": "Italy",
+          "main_role": "Battleship",
+          "is_component": false,
+          "component_of": null,
+          "is_premium": false,
+          "is_squadron": false,
+          "wiki": {
+            "url": "https://wiki.warthunder.com/unit/it_battleship_conte_di_cavour",
+            "rank": "VI",
+            "battle_rating_context": "default",
+            "battle_ratings": {
+              "AB": "7.3",
+              "RB": "7.3"
+            },
+            "battle_ratings_by_battle": {
+              "default": {
+                "AB": "7.3",
+                "RB": "7.3"
+              }
+            },
+            "research": "300,000",
+            "purchase": "900,000",
+            "purchase_currency": "SL",
+            "status": null,
+            "fetched_at": "2026-09-19T06:32:36.237Z",
+            "sha256": "f4e7aad7c3bf40f5425a147591617c7b5d43d2913c15f97913a2c7fbe39bc9c9"
+          }
+        }
+      ],
+      [
+        {
+          "type": "single",
+          "title": "RN Duilio",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/it_battleship_caio_duilio.png",
+          "br": "7.3",
+          "rp": 220000,
+          "sp": 660000,
+          "data_unit_id": "it_battleship_caio_duilio",
+          "required_unit_id": "it_battleship_andrea_doria",
+          "selected": false,
+          "class_name": "",
+          "details": true,
+          "rank": "VI",
+          "research_country": "Italy",
+          "main_role": "Battleship",
+          "is_component": false,
+          "component_of": null,
+          "is_premium": false,
+          "is_squadron": false,
+          "wiki": {
+            "url": "https://wiki.warthunder.com/unit/it_battleship_caio_duilio",
+            "rank": "VI",
+            "battle_rating_context": "default",
+            "battle_ratings": {
+              "AB": "7.3",
+              "RB": "7.3"
+            },
+            "battle_ratings_by_battle": {
+              "default": {
+                "AB": "7.3",
+                "RB": "7.3"
+              }
+            },
+            "research": "220,000",
+            "purchase": "660,000",
+            "purchase_currency": "SL",
+            "status": null,
+            "fetched_at": "2026-09-19T06:32:35.925Z",
+            "sha256": "1795461da6099319e0f7b95d26a5979c0380e529a6fec4ebfea524e72909be24"
+          }
+        }
+      ]
+    ],
+    "premium_vehicles": [
+      [
+        {
+          "type": "single",
+          "title": "RN Giulio Cesare",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/it_battleship_giulio_cesare.png",
+          "br": "7.3",
+          "rp": 0,
+          "sp": 0,
+          "data_unit_id": "it_battleship_giulio_cesare",
+          "required_unit_id": "",
+          "selected": false,
+          "class_name": "prem",
+          "details": true,
+          "rank": "VI",
+          "research_country": "Italy",
+          "main_role": "Battleship",
+          "is_component": false,
+          "component_of": null,
+          "is_premium": true,
+          "is_squadron": false,
+          "wiki": {
+            "url": "https://wiki.warthunder.com/unit/it_battleship_giulio_cesare",
+            "rank": "VI",
+            "battle_rating_context": "default",
+            "battle_ratings": {
+              "AB": "7.3",
+              "RB": "7.3"
+            },
+            "battle_ratings_by_battle": {
+              "default": {
+                "AB": "7.3",
+                "RB": "7.3"
+              }
+            },
+            "research": null,
+            "purchase": null,
+            "purchase_currency": null,
+            "status": "Premium vehicle",
+            "fetched_at": "2026-09-19T06:32:36.194Z",
+            "sha256": "d2a816206c4f63c4deddb043c570e0a960f47f6d76b0aa2771ffe6cafda46e79"
+          }
+        }
+      ],
+      []
+    ],
+    "selected": [],
+    "unlock_quantity": null,
+    "source": "wiki"
+  },
+  {
+    "rank": "VII",
+    "researchable_vehicles": [
+      [
+        {
+          "type": "single",
+          "title": "RN Roma",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/it_battleship_littorio_class_roma.png",
+          "br": "8.3",
+          "rp": 400000,
+          "sp": 1150000,
+          "data_unit_id": "it_battleship_littorio_class_roma",
+          "required_unit_id": "it_battleship_conte_di_cavour",
+          "selected": false,
+          "class_name": "",
+          "details": true,
+          "rank": "VII",
+          "research_country": "Italy",
+          "main_role": "Battleship",
+          "is_component": false,
+          "component_of": null,
+          "is_premium": false,
+          "is_squadron": false,
+          "wiki": {
+            "url": "https://wiki.warthunder.com/unit/it_battleship_littorio_class_roma",
+            "rank": "VII",
+            "battle_rating_context": "default",
+            "battle_ratings": {
+              "AB": "8.3",
+              "RB": "8.3"
+            },
+            "battle_ratings_by_battle": {
+              "default": {
+                "AB": "8.3",
+                "RB": "8.3"
+              }
+            },
+            "research": "400,000",
+            "purchase": "1,150,000",
+            "purchase_currency": "SL",
+            "status": null,
+            "fetched_at": "2026-09-19T06:32:36.443Z",
+            "sha256": "029b3103873084063a03e6ef93294f811361fd8e3fb27a1e8a0604e96802bff7"
+          }
+        }
+      ],
+      [
+        {
+          "type": "single",
+          "title": "RN Italia",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/it_battleship_littorio_class_littorio.png",
+          "br": "8.3",
+          "rp": 410000,
+          "sp": 1190000,
+          "data_unit_id": "it_battleship_littorio_class_littorio",
+          "required_unit_id": "it_battleship_caio_duilio",
+          "selected": false,
+          "class_name": "",
+          "details": true,
+          "rank": "VII",
+          "research_country": "Italy",
+          "main_role": "Battleship",
+          "is_component": false,
+          "component_of": null,
+          "is_premium": false,
+          "is_squadron": false,
+          "wiki": {
+            "url": "https://wiki.warthunder.com/unit/it_battleship_littorio_class_littorio",
+            "rank": "VII",
+            "battle_rating_context": "default",
+            "battle_ratings": {
+              "AB": "8.3",
+              "RB": "8.3"
+            },
+            "battle_ratings_by_battle": {
+              "default": {
+                "AB": "8.3",
+                "RB": "8.3"
+              }
+            },
+            "research": "410,000",
+            "purchase": "1,190,000",
+            "purchase_currency": "SL",
+            "status": null,
+            "fetched_at": "2026-09-19T06:32:36.557Z",
+            "sha256": "a0d5bed8354d392b00aa2a7277021c53607c934ec6eab898bf3b97a03c649c82"
+          }
+        }
+      ]
+    ],
+    "premium_vehicles": [
+      [],
+      []
+    ],
+    "selected": [],
+    "unlock_quantity": null,
+    "source": "wiki"
+  }
+]

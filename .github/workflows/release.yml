@@ -1,0 +1,94 @@
+name: Build Release Package
+
+on:
+  push:
+    tags:
+      - "v*"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  package:
+    runs-on: windows-latest
+    steps:
+      - name: Check out source
+        uses: actions/checkout@v4
+
+      - name: Set up Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: 24
+          check-latest: true
+
+      - name: Set up .NET
+        uses: actions/setup-dotnet@v4
+        with:
+          dotnet-version: "10.0.x"
+
+      - name: Install dependencies
+        run: npm ci --ignore-scripts
+
+      - name: Application regression checks
+        run: |
+          npm audit --audit-level=low
+          if ($LASTEXITCODE -ne 0) { throw "Dependency audit failed" }
+          npm run test:security
+          if ($LASTEXITCODE -ne 0) { throw "Security tests failed" }
+          node tools/test-wiki.cjs
+          if ($LASTEXITCODE -ne 0) { throw "Wiki regression failed" }
+          node tools/test-planner.cjs
+          if ($LASTEXITCODE -ne 0) { throw "Planner regression failed" }
+          node tools/test-modifications.cjs
+          if ($LASTEXITCODE -ne 0) { throw "Modification regression failed" }
+          node tools/check-publish-privacy.cjs
+          if ($LASTEXITCODE -ne 0) { throw "Privacy scan failed" }
+
+      - name: Build packages
+        run: npm run package:release
+
+      - name: Verify release contents
+        shell: pwsh
+        run: |
+          $ErrorActionPreference = "Stop"
+          $version = (Get-Content -Raw package.json | ConvertFrom-Json).version
+          foreach ($suffix in @("-portable", "")) {
+            $zipPath = Join-Path $PWD "WarThunderResearchCalculator-v$version$suffix.zip"
+            $archive = [System.IO.Compression.ZipFile]::OpenRead($zipPath)
+            try {
+              foreach ($file in @("package.json", "package-lock.json", "public/styles.css", "public/app.js", "main.js", "README.md")) {
+                $entry = $archive.Entries | Where-Object { $_.FullName.Replace('\', '/') -eq $file }
+                if (-not $entry) { throw "Missing $file in $zipPath" }
+                $reader = [System.IO.StreamReader]::new($entry.Open())
+                try { $content = $reader.ReadToEnd() } finally { $reader.Dispose() }
+                if ($content -cne (Get-Content -Raw -LiteralPath $file)) { throw "Stale $file in $zipPath" }
+              }
+              if ($suffix -eq "-portable") {
+                foreach ($file in @("node.exe", "WarThunderResearchCalculator.exe")) {
+                  $entry = $archive.GetEntry($file)
+                  if (-not $entry -or $entry.Length -eq 0) { throw "Missing runtime: $file" }
+                }
+              }
+              Write-Host "Verified $zipPath"
+            } finally { $archive.Dispose() }
+          }
+
+      - name: Scan packaged files for secrets and personal paths
+        shell: pwsh
+        run: ./tools/check-release-privacy.ps1
+
+      - name: Create GitHub Release
+        shell: pwsh
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          $tag = "v" + (Get-Content -Raw package.json | ConvertFrom-Json).version
+          gh release create $tag `
+            --target $env:GITHUB_SHA `
+            --latest `
+            --title "War Thunder 研发计算器 $tag 维护更新" `
+            --notes-file doc/release-v1.0.4.md `
+            "WarThunderResearchCalculator-$tag-portable.zip" `
+            "WarThunderResearchCalculator-$tag.zip" `
+            "WarThunderResearchCalculator-$tag-SHA256SUMS.txt"

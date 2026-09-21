@@ -1,0 +1,3 @@
+#!/bin/sh
+node "$(dirname "$0")/../tools/check-commit-privacy.cjs" --identity || exit 1
+exec node "$(dirname "$0")/../tools/check-publish-privacy.cjs" --staged

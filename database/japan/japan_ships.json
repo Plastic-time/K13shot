@@ -1,0 +1,830 @@
+[
+  {
+    "rank": "I",
+    "researchable_vehicles": [
+      [
+        {
+          "type": "single",
+          "title": "IJN Momi",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/jp_destroyer_momi.png",
+          "br": "3.3",
+          "rp": null,
+          "sp": null,
+          "data_unit_id": "jp_destroyer_momi",
+          "selected": false,
+          "class_name": "",
+          "details": true,
+          "main_role": "Destroyer"
+        },
+        {
+          "type": "single",
+          "title": "IJN Matsu",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/jp_destroyer_matsu.png",
+          "br": "3.7",
+          "rp": "4,000",
+          "sp": "2,100",
+          "data_unit_id": "jp_destroyer_matsu",
+          "selected": false,
+          "class_name": "",
+          "details": true,
+          "main_role": "Destroyer"
+        }
+      ],
+      [
+        {
+          "type": "single",
+          "title": "IJN Mutsuki",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/jp_destroyer_mutsuki.png",
+          "br": "3.3",
+          "rp": "2,900",
+          "sp": "700",
+          "data_unit_id": "jp_destroyer_mutsuki",
+          "selected": false,
+          "class_name": "",
+          "details": true,
+          "main_role": "Destroyer"
+        }
+      ],
+      []
+    ],
+    "premium_vehicles": [
+      [
+        {
+          "type": "single",
+          "title": "IJN Satsuki",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/jp_destroyer_satsuki.png",
+          "br": "3.3",
+          "rp": 0,
+          "sp": 0,
+          "data_unit_id": "jp_destroyer_satsuki",
+          "selected": false,
+          "class_name": "prem",
+          "details": true,
+          "main_role": "Destroyer"
+        }
+      ],
+      [
+        {
+          "type": "single",
+          "title": "IJN Tade",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/jp_destroyer_tade.png",
+          "br": "3.3",
+          "rp": 0,
+          "sp": 0,
+          "data_unit_id": "jp_destroyer_tade",
+          "selected": false,
+          "class_name": "prem",
+          "details": true,
+          "main_role": "Destroyer"
+        }
+      ]
+    ],
+    "selected": [],
+    "unlock_quantity": 0
+  },
+  {
+    "rank": "II",
+    "researchable_vehicles": [
+      [
+        {
+          "type": "single",
+          "title": "IJN Tsugaru",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/jp_minelayer_tsugaru.png",
+          "br": "4.0",
+          "rp": "7,000",
+          "sp": "8,700",
+          "data_unit_id": "jp_minelayer_tsugaru",
+          "selected": false,
+          "class_name": "",
+          "details": true,
+          "main_role": "Destroyer"
+        },
+        {
+          "type": "single",
+          "title": "JDS Harukaze (DD-101)",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/jp_destroyer_harukaze.png",
+          "br": "4.0",
+          "rp": "9,000",
+          "sp": "16,000",
+          "data_unit_id": "jp_destroyer_harukaze",
+          "selected": false,
+          "class_name": "",
+          "details": true,
+          "main_role": "Destroyer"
+        },
+        {
+          "type": "single",
+          "title": "JDS Murasame (DD-107)",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/jp_destroyer_murasame.png",
+          "br": "4.3",
+          "rp": "11,000",
+          "sp": "22,000",
+          "data_unit_id": "jp_destroyer_murasame",
+          "selected": false,
+          "class_name": "",
+          "details": true,
+          "main_role": "Destroyer"
+        }
+      ],
+      [
+        {
+          "type": "single",
+          "title": "IJN Hatsuharu",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/jp_destroyer_hatsuharu.png",
+          "br": "4.3",
+          "rp": "9,000",
+          "sp": "16,000",
+          "data_unit_id": "jp_destroyer_hatsuharu",
+          "selected": false,
+          "class_name": "",
+          "details": true,
+          "main_role": "Destroyer"
+        },
+        {
+          "type": "single",
+          "title": "IJN Ayanami",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/jp_destroyer_fubuki.png",
+          "br": "4.3",
+          "rp": "11,000",
+          "sp": "22,000",
+          "data_unit_id": "jp_destroyer_fubuki",
+          "selected": false,
+          "class_name": "",
+          "details": true,
+          "main_role": "Destroyer"
+        },
+        {
+          "type": "single",
+          "title": "IJN Yugumo",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/jp_destroyer_yugumo.png",
+          "br": "4.7",
+          "rp": "13,000",
+          "sp": "31,000",
+          "data_unit_id": "jp_destroyer_yugumo",
+          "selected": false,
+          "class_name": "",
+          "details": true,
+          "main_role": "Destroyer"
+        }
+      ],
+      []
+    ],
+    "premium_vehicles": [
+      [
+        {
+          "type": "single",
+          "title": "IJN Nenohi",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/jp_destroyer_nenohi.png",
+          "br": "4.3",
+          "rp": 0,
+          "sp": 0,
+          "data_unit_id": "jp_destroyer_nenohi",
+          "selected": false,
+          "class_name": "prem",
+          "details": true,
+          "main_role": "Destroyer"
+        },
+        {
+          "type": "single",
+          "title": "JDS Yūgure (DD-184)",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/jp_destroyer_yugure.png",
+          "br": "4.7",
+          "rp": 0,
+          "sp": 0,
+          "data_unit_id": "jp_destroyer_yugure",
+          "selected": false,
+          "class_name": "prem",
+          "details": true,
+          "main_role": "Destroyer"
+        }
+      ],
+      [
+        {
+          "type": "single",
+          "title": "IJN Hayanami",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/jp_destroyer_hayanami.png",
+          "br": "4.7",
+          "rp": 0,
+          "sp": 0,
+          "data_unit_id": "jp_destroyer_hayanami",
+          "selected": false,
+          "class_name": "prem",
+          "details": true,
+          "main_role": "Destroyer"
+        }
+      ]
+    ],
+    "selected": [],
+    "unlock_quantity": 0
+  },
+  {
+    "rank": "III",
+    "researchable_vehicles": [
+      [
+        {
+          "type": "single",
+          "title": "IJN Akizuki",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/jp_destroyer_akizuki.png",
+          "br": "5.0",
+          "rp": "15,000",
+          "sp": "38,000",
+          "data_unit_id": "jp_destroyer_akizuki",
+          "selected": false,
+          "class_name": "",
+          "details": true,
+          "main_role": "Destroyer"
+        },
+        {
+          "type": "single",
+          "title": "IJN Kako",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/jp_cruiser_kako.png",
+          "br": "5.0",
+          "rp": "25,000",
+          "sp": "87,000",
+          "data_unit_id": "jp_cruiser_kako",
+          "selected": false,
+          "class_name": "",
+          "details": true,
+          "main_role": "Heavy cruiser"
+        }
+      ],
+      [
+        {
+          "type": "single",
+          "title": "IJN Isuzu",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/jp_cruiser_isuzu.png",
+          "br": "4.7",
+          "rp": "18,000",
+          "sp": "55,000",
+          "data_unit_id": "jp_cruiser_isuzu",
+          "selected": false,
+          "class_name": "",
+          "details": true,
+          "main_role": "Light cruiser"
+        },
+        {
+          "type": "single",
+          "title": "IJN Tama",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/jp_cruiser_kuma.png",
+          "br": "5.0",
+          "rp": "21,000",
+          "sp": "70,000",
+          "data_unit_id": "jp_cruiser_kuma",
+          "selected": false,
+          "class_name": "",
+          "details": true,
+          "main_role": "Light cruiser"
+        },
+        {
+          "type": "single",
+          "title": "IJN Sendai",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/jp_cruiser_sendai.png",
+          "br": "5.0",
+          "rp": "25,000",
+          "sp": "87,000",
+          "data_unit_id": "jp_cruiser_sendai",
+          "selected": false,
+          "class_name": "",
+          "details": true,
+          "main_role": "Light cruiser"
+        }
+      ],
+      [
+        {
+          "type": "single",
+          "title": "IJN Kagero",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/jp_destroyer_kagero.png",
+          "br": "4.7",
+          "rp": "21,000",
+          "sp": "70,000",
+          "data_unit_id": "jp_destroyer_kagero",
+          "selected": false,
+          "class_name": "",
+          "details": true,
+          "main_role": "Destroyer"
+        }
+      ]
+    ],
+    "premium_vehicles": [
+      [
+        {
+          "type": "single",
+          "title": "IJN Yukikaze",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/jp_destroyer_yukikaze.png",
+          "br": "4.3",
+          "rp": 0,
+          "sp": 0,
+          "data_unit_id": "jp_destroyer_yukikaze",
+          "selected": false,
+          "class_name": "prem",
+          "details": true,
+          "main_role": "Destroyer"
+        },
+        {
+          "type": "single",
+          "title": "IJN Kiyoshimo",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/jp_destroyer_kiyoshimo.png",
+          "br": "4.7",
+          "rp": 0,
+          "sp": 0,
+          "data_unit_id": "jp_destroyer_kiyoshimo",
+          "selected": false,
+          "class_name": "prem",
+          "details": true,
+          "main_role": "Destroyer"
+        },
+        {
+          "type": "single",
+          "title": "IJN Yubari",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/jp_cruiser_yubari.png",
+          "br": "4.7",
+          "rp": 0,
+          "sp": 0,
+          "data_unit_id": "jp_cruiser_yubari",
+          "selected": false,
+          "class_name": "prem",
+          "details": true,
+          "main_role": "Light cruiser"
+        },
+        {
+          "type": "single",
+          "title": "IJN Shimakaze",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/jp_destroyer_shimakaze.png",
+          "br": "5.0",
+          "rp": "260,000",
+          "sp": "195,000",
+          "data_unit_id": "jp_destroyer_shimakaze",
+          "selected": false,
+          "class_name": "squad",
+          "details": true,
+          "main_role": "Destroyer"
+        }
+      ],
+      [
+        {
+          "type": "single",
+          "title": "IJN Hatsuzuki",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/jp_destroyer_hatsuzuki.png",
+          "br": "5.0",
+          "rp": null,
+          "sp": null,
+          "data_unit_id": "jp_destroyer_hatsuzuki",
+          "selected": false,
+          "class_name": "",
+          "details": true,
+          "main_role": "Destroyer"
+        },
+        {
+          "type": "single",
+          "title": "IJN Yuudachi",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/jp_destroyer_yuudachi.png",
+          "br": "4.3",
+          "rp": 0,
+          "sp": 0,
+          "data_unit_id": "jp_destroyer_yuudachi",
+          "selected": false,
+          "class_name": "prem",
+          "details": true,
+          "main_role": "Destroyer"
+        }
+      ]
+    ],
+    "selected": [],
+    "unlock_quantity": 0
+  },
+  {
+    "rank": "IV",
+    "researchable_vehicles": [
+      [
+        {
+          "type": "multiple",
+          "title": "IJN Furutaka/Aoba",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/jp_cruiser_furutaka_aoba_group.png",
+          "selected": false,
+          "br": "5.7",
+          "data_unit_id": "jp_cruiser_furutaka_aoba_group",
+          "class_name": "",
+          "items": [
+            {
+              "type": "single",
+              "title": "IJN Furutaka",
+              "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/jp_cruiser_furutaka.png",
+              "br": "5.7",
+              "rp": "46,000",
+              "sp": "150,000",
+              "data_unit_id": "jp_cruiser_furutaka",
+              "selected": false,
+              "class_name": "",
+              "details": true,
+              "main_role": "Heavy cruiser"
+            },
+            {
+              "type": "single",
+              "title": "IJN Aoba",
+              "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/jp_cruiser_aoba.png",
+              "br": "5.7",
+              "rp": "30,000",
+              "sp": "185,000",
+              "data_unit_id": "jp_cruiser_aoba",
+              "selected": false,
+              "class_name": "",
+              "details": true,
+              "main_role": "Heavy cruiser"
+            }
+          ],
+          "details": true
+        },
+        {
+          "type": "single",
+          "title": "IJN Haguro",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/jp_cruiser_haguro.png",
+          "br": "6.0",
+          "rp": "73,000",
+          "sp": "230,000",
+          "data_unit_id": "jp_cruiser_haguro",
+          "selected": false,
+          "class_name": "",
+          "details": true,
+          "main_role": "Heavy cruiser"
+        }
+      ],
+      [
+        {
+          "type": "single",
+          "title": "IJN Agano",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/jp_cruiser_agano.png",
+          "br": "5.3",
+          "rp": "33,000",
+          "sp": "115,000",
+          "data_unit_id": "jp_cruiser_agano",
+          "selected": false,
+          "class_name": "",
+          "details": true,
+          "main_role": "Light cruiser"
+        },
+        {
+          "type": "single",
+          "title": "IJN Oyodo",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/jp_cruiser_oyodo.png",
+          "br": "5.3",
+          "rp": "59,000",
+          "sp": "185,000",
+          "data_unit_id": "jp_cruiser_oyodo",
+          "selected": false,
+          "class_name": "",
+          "details": true,
+          "main_role": "Light cruiser"
+        }
+      ],
+      [
+        {
+          "type": "single",
+          "title": "IJN Ikoma",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/jp_armoredcruiser_ikoma.png",
+          "br": "5.7",
+          "rp": "59,000",
+          "sp": "185,000",
+          "data_unit_id": "jp_armoredcruiser_ikoma",
+          "selected": false,
+          "class_name": "",
+          "details": true,
+          "main_role": "Battlecruiser"
+        }
+      ]
+    ],
+    "premium_vehicles": [
+      [
+        {
+          "type": "single",
+          "title": "IJN Myoko",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/jp_cruiser_myoko.png",
+          "br": "6.0",
+          "rp": 0,
+          "sp": 0,
+          "data_unit_id": "jp_cruiser_myoko",
+          "selected": false,
+          "class_name": "prem",
+          "details": true,
+          "main_role": "Heavy cruiser"
+        }
+      ],
+      []
+    ],
+    "selected": [],
+    "unlock_quantity": 0
+  },
+  {
+    "rank": "V",
+    "researchable_vehicles": [
+      [
+        {
+          "type": "single",
+          "title": "IJN Tone",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/jp_cruiser_tone.png",
+          "br": "6.0",
+          "rp": "90,000",
+          "sp": "280,000",
+          "data_unit_id": "jp_cruiser_tone",
+          "selected": false,
+          "class_name": "",
+          "details": true,
+          "main_role": "Heavy cruiser"
+        }
+      ],
+      [
+        {
+          "type": "single",
+          "title": "IJN Suzuya",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/jp_cruiser_mogami_suzuya.png",
+          "br": "6.0",
+          "rp": "110,000",
+          "sp": "340,000",
+          "data_unit_id": "jp_cruiser_mogami_suzuya",
+          "selected": false,
+          "class_name": "",
+          "details": true,
+          "main_role": "Light cruiser"
+        },
+        {
+          "type": "single",
+          "title": "IJN Mogami",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/jp_cruiser_mogami.png",
+          "br": "6.0",
+          "rp": "145,000",
+          "sp": "440,000",
+          "data_unit_id": "jp_cruiser_mogami",
+          "selected": false,
+          "class_name": "",
+          "details": true,
+          "main_role": "Heavy cruiser"
+        },
+        {
+          "type": "single",
+          "title": "IJN Hyuga",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/jp_battleship_hyuga.png",
+          "br": "7.0",
+          "rp": "180,000",
+          "sp": "540,000",
+          "data_unit_id": "jp_battleship_hyuga",
+          "selected": false,
+          "class_name": "",
+          "details": true,
+          "main_role": "Battleship"
+        }
+      ],
+      [
+        {
+          "type": "single",
+          "title": "IJN Settsu",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/jp_battleship_settsu.png",
+          "br": "6.3",
+          "rp": "145,000",
+          "sp": "440,000",
+          "data_unit_id": "jp_battleship_settsu",
+          "selected": false,
+          "class_name": "",
+          "details": true,
+          "main_role": "Battleship"
+        },
+        {
+          "type": "single",
+          "title": "IJN Hiei",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/jp_battlecruiser_hiei.png",
+          "br": "6.7",
+          "rp": "180,000",
+          "sp": "540,000",
+          "data_unit_id": "jp_battlecruiser_hiei",
+          "selected": false,
+          "class_name": "",
+          "details": true,
+          "main_role": "Battlecruiser"
+        }
+      ]
+    ],
+    "premium_vehicles": [
+      [
+        {
+          "type": "single",
+          "title": "IJN Mikuma",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/jp_cruiser_mogami_mikuma.png",
+          "br": "6.0",
+          "rp": 0,
+          "sp": 0,
+          "data_unit_id": "jp_cruiser_mogami_mikuma",
+          "selected": false,
+          "class_name": "prem",
+          "details": true,
+          "main_role": "Light cruiser"
+        },
+        {
+          "type": "single",
+          "title": "IJN Yamashiro",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/jp_battleship_yamashiro.png",
+          "br": "7.0",
+          "rp": 0,
+          "sp": 0,
+          "data_unit_id": "jp_battleship_yamashiro",
+          "selected": false,
+          "class_name": "prem",
+          "details": true,
+          "main_role": "Battleship"
+        },
+        {
+          "type": "single",
+          "title": "IJN Kirishima",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/jp_battlecruiser_kirishima.png",
+          "br": "7.3",
+          "rp": null,
+          "sp": null,
+          "data_unit_id": "jp_battlecruiser_kirishima",
+          "selected": false,
+          "class_name": "",
+          "details": true,
+          "main_role": "Battleship"
+        }
+      ],
+      [
+        {
+          "type": "single",
+          "title": "IJN Kurama",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/jp_armoredcruiser_kurama.png",
+          "br": "5.7",
+          "rp": null,
+          "sp": null,
+          "data_unit_id": "jp_armoredcruiser_kurama",
+          "selected": false,
+          "class_name": "",
+          "details": true,
+          "main_role": "Battlecruiser"
+        },
+        {
+          "type": "single",
+          "title": "IJN Haruna",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/jp_battlecruiser_haruna.png",
+          "br": "7.3",
+          "rp": null,
+          "sp": null,
+          "data_unit_id": "jp_battlecruiser_haruna",
+          "selected": false,
+          "class_name": "",
+          "details": true,
+          "main_role": "Battleship"
+        }
+      ]
+    ],
+    "selected": [],
+    "unlock_quantity": 0
+  },
+  {
+    "rank": "VI",
+    "researchable_vehicles": [
+      [
+        {
+          "type": "single",
+          "title": "IJN Fuso",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/jp_battleship_fuso.png",
+          "br": "7.7",
+          "rp": "300,000",
+          "sp": "900,000",
+          "data_unit_id": "jp_battleship_fuso",
+          "selected": false,
+          "class_name": "",
+          "details": true,
+          "main_role": "Battleship"
+        }
+      ],
+      [
+        {
+          "type": "single",
+          "title": "IJN Ise",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/jp_battleship_ise.png",
+          "br": "7.7",
+          "rp": "260,000",
+          "sp": "780,000",
+          "data_unit_id": "jp_battleship_ise",
+          "selected": false,
+          "class_name": "",
+          "details": true,
+          "main_role": "Battleship"
+        },
+        {
+          "type": "single",
+          "title": "IJN Amagi",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/jp_battlecruiser_amagi.png",
+          "br": "8.0",
+          "rp": "350,000",
+          "sp": "1,050,000",
+          "data_unit_id": "jp_battlecruiser_amagi",
+          "selected": false,
+          "class_name": "",
+          "details": true,
+          "main_role": "Battlecruiser"
+        }
+      ],
+      [
+        {
+          "type": "single",
+          "title": "IJN Kongo",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/jp_battlecruiser_kongo.png",
+          "br": "7.3",
+          "rp": "220,000",
+          "sp": "660,000",
+          "data_unit_id": "jp_battlecruiser_kongo",
+          "selected": false,
+          "class_name": "",
+          "details": true,
+          "main_role": "Battleship"
+        },
+        {
+          "type": "single",
+          "title": "IJN Mutsu",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/jp_battleship_mutsu.png",
+          "br": "8.0",
+          "rp": "300,000",
+          "sp": "900,000",
+          "data_unit_id": "jp_battleship_mutsu",
+          "selected": false,
+          "class_name": "",
+          "details": true,
+          "main_role": "Battleship"
+        }
+      ]
+    ],
+    "premium_vehicles": [
+      [
+        {
+          "type": "single",
+          "title": "IJN Nagato",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/jp_battleship_nagato.png",
+          "br": "8.3",
+          "rp": 0,
+          "sp": 0,
+          "data_unit_id": "jp_battleship_nagato",
+          "selected": false,
+          "class_name": "prem",
+          "details": true,
+          "main_role": "Battleship"
+        }
+      ],
+      [
+        {
+          "type": "single",
+          "title": "IJN Tosa",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/jp_battleship_tosa.png",
+          "br": "8.0",
+          "rp": null,
+          "sp": null,
+          "data_unit_id": "jp_battleship_tosa",
+          "selected": false,
+          "class_name": "",
+          "details": true,
+          "main_role": "Battleship"
+        }
+      ]
+    ],
+    "selected": [],
+    "unlock_quantity": 0
+  },
+  {
+    "rank": "VII",
+    "researchable_vehicles": [
+      [
+        {
+          "type": "single",
+          "title": "IJN Yamato",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/jp_battleship_yamato.png",
+          "br": "8.7",
+          "rp": "400,000",
+          "sp": "1,150,000",
+          "data_unit_id": "jp_battleship_yamato",
+          "selected": false,
+          "class_name": "",
+          "details": true,
+          "main_role": "Battleship"
+        }
+      ],
+      [
+        {
+          "type": "single",
+          "title": "IJN Musashi",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/jp_battleship_musashi.png",
+          "br": "8.7",
+          "rp": "400,000",
+          "sp": "1,150,000",
+          "data_unit_id": "jp_battleship_musashi",
+          "selected": false,
+          "class_name": "",
+          "details": true,
+          "main_role": "Battleship"
+        }
+      ],
+      []
+    ],
+    "premium_vehicles": [
+      [],
+      []
+    ],
+    "selected": [],
+    "unlock_quantity": 0
+  }
+]
