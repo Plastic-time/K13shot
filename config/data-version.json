@@ -1,0 +1,11 @@
+{
+  "gameVersion": "2.59.0.17",
+  "verifiedAt": "2026-09-21T06:50:51.648Z",
+  "scope": "vehicle-research-and-purchase-costs",
+  "gameDataCommit": "510a793c2bdb01c51475118199c7b66b72935ff1",
+  "treeCount": 50,
+  "vehicleCount": 3235,
+  "directCostPairCount": 2212,
+  "wikiUnpricedVehicleCount": 156,
+  "modificationsSnapshotChanged": false
+}

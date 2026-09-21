@@ -38,6 +38,8 @@ jobs:
           if ($LASTEXITCODE -ne 0) { throw "Security tests failed" }
           node tools/test-wiki.cjs
           if ($LASTEXITCODE -ne 0) { throw "Wiki regression failed" }
+          node tools/test-desktop-snapshot.cjs
+          if ($LASTEXITCODE -ne 0) { throw "Desktop snapshot regression failed" }
           node tools/test-planner.cjs
           if ($LASTEXITCODE -ne 0) { throw "Planner regression failed" }
           node tools/test-modifications.cjs
@@ -88,7 +90,7 @@ jobs:
             --target $env:GITHUB_SHA `
             --latest `
             --title "War Thunder 研发计算器 $tag 维护更新" `
-            --notes-file doc/release-v1.0.4.md `
+            --notes-file "doc/release-$tag.md" `
             "WarThunderResearchCalculator-$tag-portable.zip" `
             "WarThunderResearchCalculator-$tag.zip" `
             "WarThunderResearchCalculator-$tag-SHA256SUMS.txt"

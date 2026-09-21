@@ -10,6 +10,7 @@
           "selected": false,
           "br": "1.0",
           "data_unit_id": "fr_vtb_group",
+          "required_unit_id": "",
           "class_name": "",
           "items": [
             {
@@ -17,68 +18,210 @@
               "title": "VTB-8",
               "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/fr_vtb8.png",
               "br": "1.0",
-              "rp": null,
-              "sp": null,
+              "rp": 0,
+              "sp": 0,
               "data_unit_id": "fr_vtb8",
+              "required_unit_id": "",
               "selected": false,
               "class_name": "",
               "details": true,
-              "main_role": "Boat"
+              "rank": "I",
+              "research_country": "France",
+              "main_role": "Boat",
+              "is_component": false,
+              "component_of": null,
+              "is_premium": false,
+              "is_squadron": false,
+              "wiki": {
+                "url": "https://wiki.warthunder.com/unit/fr_vtb8",
+                "rank": "I",
+                "battle_rating_context": "default",
+                "battle_ratings": {
+                  "AB": "1.0",
+                  "RB": "1.0"
+                },
+                "battle_ratings_by_battle": {
+                  "default": {
+                    "AB": "1.0",
+                    "RB": "1.0"
+                  }
+                },
+                "research": "Free",
+                "purchase": "Free",
+                "purchase_currency": "SL",
+                "status": null,
+                "fetched_at": "2026-09-19T06:33:08.222Z",
+                "sha256": "b357281a70d801a6c804f52d973e7bb6ffbfc5c4f8c17d588036917bb91b8a87"
+              }
             },
             {
               "type": "single",
               "title": "VTB-11",
               "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/fr_vtb11.png",
               "br": "1.0",
-              "rp": null,
-              "sp": null,
+              "rp": 0,
+              "sp": 0,
               "data_unit_id": "fr_vtb11",
+              "required_unit_id": "",
               "selected": false,
               "class_name": "",
               "details": true,
-              "main_role": "Boat"
+              "rank": "I",
+              "research_country": "France",
+              "main_role": "Boat",
+              "is_component": false,
+              "component_of": null,
+              "is_premium": false,
+              "is_squadron": false,
+              "wiki": {
+                "url": "https://wiki.warthunder.com/unit/fr_vtb11",
+                "rank": "I",
+                "battle_rating_context": "default",
+                "battle_ratings": {
+                  "AB": "1.0",
+                  "RB": "1.0"
+                },
+                "battle_ratings_by_battle": {
+                  "default": {
+                    "AB": "1.0",
+                    "RB": "1.0"
+                  }
+                },
+                "research": "Free",
+                "purchase": "Free",
+                "purchase_currency": "SL",
+                "status": null,
+                "fetched_at": "2026-09-19T06:33:07.802Z",
+                "sha256": "246e4f3576f32fd83d2074750e4bda6bfdc420eb8c6efcff38c6d3e5da58d84c"
+              }
             },
             {
               "type": "single",
               "title": "VTB-14",
               "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/fr_vtb14.png",
               "br": "1.0",
-              "rp": null,
-              "sp": null,
+              "rp": 0,
+              "sp": 0,
               "data_unit_id": "fr_vtb14",
+              "required_unit_id": "",
               "selected": false,
               "class_name": "",
               "details": true,
-              "main_role": "Boat"
+              "rank": "I",
+              "research_country": "France",
+              "main_role": "Boat",
+              "is_component": false,
+              "component_of": null,
+              "is_premium": false,
+              "is_squadron": false,
+              "wiki": {
+                "url": "https://wiki.warthunder.com/unit/fr_vtb14",
+                "rank": "I",
+                "battle_rating_context": "default",
+                "battle_ratings": {
+                  "AB": "1.0",
+                  "RB": "1.0"
+                },
+                "battle_ratings_by_battle": {
+                  "default": {
+                    "AB": "1.0",
+                    "RB": "1.0"
+                  }
+                },
+                "research": "Free",
+                "purchase": "Free",
+                "purchase_currency": "SL",
+                "status": null,
+                "fetched_at": "2026-09-19T06:33:08.212Z",
+                "sha256": "d3c4ffb7e61d069c29dc7eecf6154de166faa92670c3f9288a55227be17671b9"
+              }
             }
           ],
-          "details": true
+          "details": true,
+          "rp": 0,
+          "sp": 0
         },
         {
           "type": "single",
           "title": "VTB-12",
           "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/fr_vtb12_mod.png",
           "br": "1.0",
-          "rp": null,
-          "sp": null,
+          "rp": 0,
+          "sp": 0,
           "data_unit_id": "fr_vtb12_mod",
+          "required_unit_id": "",
           "selected": false,
           "class_name": "",
           "details": true,
-          "main_role": "Boat"
+          "rank": "I",
+          "research_country": "France",
+          "main_role": "Boat",
+          "is_component": false,
+          "component_of": null,
+          "is_premium": false,
+          "is_squadron": false,
+          "wiki": {
+            "url": "https://wiki.warthunder.com/unit/fr_vtb12_mod",
+            "rank": "I",
+            "battle_rating_context": "default",
+            "battle_ratings": {
+              "AB": "1.0",
+              "RB": "1.0"
+            },
+            "battle_ratings_by_battle": {
+              "default": {
+                "AB": "1.0",
+                "RB": "1.0"
+              }
+            },
+            "research": "Free",
+            "purchase": "Free",
+            "purchase_currency": "SL",
+            "status": null,
+            "fetched_at": "2026-09-19T06:33:07.845Z",
+            "sha256": "a3c1582f812ecc72615edcc3f8345a6137395aa1b1079812898b8cadf1777c12"
+          }
         },
         {
           "type": "single",
           "title": "VTB-18",
           "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/fr_vtb18.png",
           "br": "1.0",
-          "rp": "2,900",
-          "sp": "700",
+          "rp": 2900,
+          "sp": 700,
           "data_unit_id": "fr_vtb18",
+          "required_unit_id": "fr_vtb12_mod",
           "selected": false,
           "class_name": "",
           "details": true,
-          "main_role": "Boat"
+          "rank": "I",
+          "research_country": "France",
+          "main_role": "Boat",
+          "is_component": false,
+          "component_of": null,
+          "is_premium": false,
+          "is_squadron": false,
+          "wiki": {
+            "url": "https://wiki.warthunder.com/unit/fr_vtb18",
+            "rank": "I",
+            "battle_rating_context": "default",
+            "battle_ratings": {
+              "AB": "1.0",
+              "RB": "1.0"
+            },
+            "battle_ratings_by_battle": {
+              "default": {
+                "AB": "1.0",
+                "RB": "1.0"
+              }
+            },
+            "research": "2,900",
+            "purchase": "700",
+            "purchase_currency": "SL",
+            "status": null,
+            "fetched_at": "2026-09-19T06:33:08.112Z",
+            "sha256": "02f49605248b2a88c8ae58b83c2520606088ddc2c8f0c138903e860ba3574057"
+          }
         }
       ],
       [
@@ -87,13 +230,82 @@
           "title": "VTB-13",
           "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/fr_vtb13.png",
           "br": "1.3",
-          "rp": "4,000",
-          "sp": "2,100",
+          "rp": 4000,
+          "sp": 2100,
           "data_unit_id": "fr_vtb13",
+          "required_unit_id": "",
           "selected": false,
           "class_name": "",
           "details": true,
-          "main_role": "Boat"
+          "rank": "I",
+          "research_country": "France",
+          "main_role": "Boat",
+          "is_component": false,
+          "component_of": null,
+          "is_premium": false,
+          "is_squadron": false,
+          "wiki": {
+            "url": "https://wiki.warthunder.com/unit/fr_vtb13",
+            "rank": "I",
+            "battle_rating_context": "default",
+            "battle_ratings": {
+              "AB": "1.3",
+              "RB": "1.3"
+            },
+            "battle_ratings_by_battle": {
+              "default": {
+                "AB": "1.3",
+                "RB": "1.3"
+              }
+            },
+            "research": "4,000",
+            "purchase": "2,100",
+            "purchase_currency": "SL",
+            "status": null,
+            "fetched_at": "2026-09-19T06:33:07.985Z",
+            "sha256": "0c99e00b49e35bb9e7f142bc01a136813464310e28d11f57e4551af986157e4f"
+          }
+        },
+        {
+          "type": "single",
+          "title": "LCM(65)",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/fr_lcm_monitor.png",
+          "br": "1.7",
+          "rp": 5900,
+          "sp": 6300,
+          "data_unit_id": "fr_lcm_monitor",
+          "required_unit_id": "fr_vtb13",
+          "selected": false,
+          "class_name": "",
+          "details": true,
+          "rank": "I",
+          "research_country": "France",
+          "main_role": "Boat",
+          "is_component": false,
+          "component_of": null,
+          "is_premium": false,
+          "is_squadron": false,
+          "wiki": {
+            "url": "https://wiki.warthunder.com/unit/fr_lcm_monitor",
+            "rank": "I",
+            "battle_rating_context": "default",
+            "battle_ratings": {
+              "AB": "1.7",
+              "RB": "1.7"
+            },
+            "battle_ratings_by_battle": {
+              "default": {
+                "AB": "1.7",
+                "RB": "1.7"
+              }
+            },
+            "research": "5,900",
+            "purchase": "6,300",
+            "purchase_currency": "SL",
+            "status": null,
+            "fetched_at": "2026-09-19T06:33:06.684Z",
+            "sha256": "a51eaefb9a898998e1f8a93b5793d842e6d082d1ebbf04ca22a06e2cc577a860"
+          }
         }
       ]
     ],
@@ -107,10 +319,38 @@
           "rp": 0,
           "sp": 0,
           "data_unit_id": "fr_vtb10",
+          "required_unit_id": "",
           "selected": false,
           "class_name": "prem",
           "details": true,
-          "main_role": "Boat"
+          "rank": "I",
+          "research_country": "France",
+          "main_role": "Boat",
+          "is_component": false,
+          "component_of": null,
+          "is_premium": true,
+          "is_squadron": false,
+          "wiki": {
+            "url": "https://wiki.warthunder.com/unit/fr_vtb10",
+            "rank": "I",
+            "battle_rating_context": "default",
+            "battle_ratings": {
+              "AB": "1.0",
+              "RB": "1.0"
+            },
+            "battle_ratings_by_battle": {
+              "default": {
+                "AB": "1.0",
+                "RB": "1.0"
+              }
+            },
+            "research": null,
+            "purchase": "250",
+            "purchase_currency": "GE",
+            "status": "Premium vehicle",
+            "fetched_at": "2026-09-19T06:33:07.480Z",
+            "sha256": "77bc1537a6f010c4a7fe568591e354cf2b8be8c51ee0893b2f270cb4f6a14e44"
+          }
         },
         {
           "type": "single",
@@ -120,15 +360,45 @@
           "rp": 0,
           "sp": 0,
           "data_unit_id": "fr_vtb9",
+          "required_unit_id": "",
           "selected": false,
           "class_name": "prem",
           "details": true,
-          "main_role": "Boat"
+          "rank": "I",
+          "research_country": "France",
+          "main_role": "Boat",
+          "is_component": false,
+          "component_of": null,
+          "is_premium": true,
+          "is_squadron": false,
+          "wiki": {
+            "url": "https://wiki.warthunder.com/unit/fr_vtb9",
+            "rank": "I",
+            "battle_rating_context": "default",
+            "battle_ratings": {
+              "AB": "1.0",
+              "RB": "1.0"
+            },
+            "battle_ratings_by_battle": {
+              "default": {
+                "AB": "1.0",
+                "RB": "1.0"
+              }
+            },
+            "research": null,
+            "purchase": "400",
+            "purchase_currency": "GE",
+            "status": "Premium vehicle",
+            "fetched_at": "2026-09-19T06:33:08.375Z",
+            "sha256": "ad37b464fb13e40b1548260f796a2a70ae3d5abaad7b2d732a15e5012451d1f8"
+          }
         }
-      ]
+      ],
+      []
     ],
     "selected": [],
-    "unlock_quantity": 0
+    "unlock_quantity": null,
+    "source": "wiki"
   },
   {
     "rank": "II",
@@ -139,13 +409,41 @@
           "title": "VTB-19",
           "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/fr_type40k_vedette.png",
           "br": "1.7",
-          "rp": "7,900",
-          "sp": "10,000",
+          "rp": 7900,
+          "sp": 10000,
           "data_unit_id": "fr_type40k_vedette",
+          "required_unit_id": "fr_vtb18",
           "selected": false,
           "class_name": "",
           "details": true,
-          "main_role": "Boat"
+          "rank": "II",
+          "research_country": "France",
+          "main_role": "Boat",
+          "is_component": false,
+          "component_of": null,
+          "is_premium": false,
+          "is_squadron": false,
+          "wiki": {
+            "url": "https://wiki.warthunder.com/unit/fr_type40k_vedette",
+            "rank": "II",
+            "battle_rating_context": "default",
+            "battle_ratings": {
+              "AB": "1.7",
+              "RB": "1.7"
+            },
+            "battle_ratings_by_battle": {
+              "default": {
+                "AB": "1.7",
+                "RB": "1.7"
+              }
+            },
+            "research": "7,900",
+            "purchase": "10,000",
+            "purchase_currency": "SL",
+            "status": null,
+            "fetched_at": "2026-09-19T06:33:07.180Z",
+            "sha256": "3154a0010dbab1658b4386846e64ab8a5d19bd67fd871fe2df0ca7ff59203c39"
+          }
         }
       ],
       [
@@ -154,34 +452,92 @@
           "title": "MTB-96",
           "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/fr_mtb96_vosper.png",
           "br": "2.0",
-          "rp": "7,900",
-          "sp": "10,000",
+          "rp": 7900,
+          "sp": 10000,
           "data_unit_id": "fr_mtb96_vosper",
+          "required_unit_id": "fr_lcm_monitor",
           "selected": false,
           "class_name": "",
           "details": true,
-          "main_role": "Boat"
+          "rank": "II",
+          "research_country": "France",
+          "main_role": "Boat",
+          "is_component": false,
+          "component_of": null,
+          "is_premium": false,
+          "is_squadron": false,
+          "wiki": {
+            "url": "https://wiki.warthunder.com/unit/fr_mtb96_vosper",
+            "rank": "II",
+            "battle_rating_context": "default",
+            "battle_ratings": {
+              "AB": "2.0",
+              "RB": "2.0"
+            },
+            "battle_ratings_by_battle": {
+              "default": {
+                "AB": "2.0",
+                "RB": "2.0"
+              }
+            },
+            "research": "7,900",
+            "purchase": "10,000",
+            "purchase_currency": "SL",
+            "status": null,
+            "fetched_at": "2026-09-19T06:33:06.909Z",
+            "sha256": "44432890a745007bd99a5f56c9e84c518022d2c3a1eac06c472ad86e7ef3e734"
+          }
         },
         {
           "type": "single",
           "title": "Aconit",
           "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/fr_flower_class_aconit.png",
           "br": "2.3",
-          "rp": "9,200",
-          "sp": "16,000",
+          "rp": 9200,
+          "sp": 16000,
           "data_unit_id": "fr_flower_class_aconit",
+          "required_unit_id": "fr_mtb96_vosper",
           "selected": false,
           "class_name": "",
           "details": true,
-          "main_role": "Heavy boat"
+          "rank": "II",
+          "research_country": "France",
+          "main_role": "Heavy boat",
+          "is_component": false,
+          "component_of": null,
+          "is_premium": false,
+          "is_squadron": false,
+          "wiki": {
+            "url": "https://wiki.warthunder.com/unit/fr_flower_class_aconit",
+            "rank": "II",
+            "battle_rating_context": "default",
+            "battle_ratings": {
+              "AB": "2.3",
+              "RB": "2.3"
+            },
+            "battle_ratings_by_battle": {
+              "default": {
+                "AB": "2.3",
+                "RB": "2.3"
+              }
+            },
+            "research": "9,200",
+            "purchase": "16,000",
+            "purchase_currency": "SL",
+            "status": null,
+            "fetched_at": "2026-09-19T06:33:06.200Z",
+            "sha256": "b17d4fbab743ac565b33fc28bae855495bf2bf6a9ab014b8916d8f1dc0870c13"
+          }
         }
       ]
     ],
     "premium_vehicles": [
+      [],
       []
     ],
     "selected": [],
-    "unlock_quantity": 0
+    "unlock_quantity": null,
+    "source": "wiki"
   },
   {
     "rank": "III",
@@ -192,26 +548,82 @@
           "title": "L'Intrépide",
           "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/fr_adroit_class.png",
           "br": "2.7",
-          "rp": "26,000",
-          "sp": "76,000",
+          "rp": 26000,
+          "sp": 76000,
           "data_unit_id": "fr_adroit_class",
+          "required_unit_id": "fr_type40k_vedette",
           "selected": false,
           "class_name": "",
           "details": true,
-          "main_role": "Boat"
+          "rank": "III",
+          "research_country": "France",
+          "main_role": "Boat",
+          "is_component": false,
+          "component_of": null,
+          "is_premium": false,
+          "is_squadron": false,
+          "wiki": {
+            "url": "https://wiki.warthunder.com/unit/fr_adroit_class",
+            "rank": "III",
+            "battle_rating_context": "default",
+            "battle_ratings": {
+              "AB": "2.7",
+              "RB": "2.7"
+            },
+            "battle_ratings_by_battle": {
+              "default": {
+                "AB": "2.7",
+                "RB": "2.7"
+              }
+            },
+            "research": "26,000",
+            "purchase": "76,000",
+            "purchase_currency": "SL",
+            "status": null,
+            "fetched_at": "2026-09-19T06:33:05.639Z",
+            "sha256": "d0d5b573127a1092f53ff2cc28ba66f1a4d2298703707f5a9046d206ca1b9479"
+          }
         },
         {
           "type": "single",
           "title": "Arras",
           "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/fr_arras_class_arras.png",
-          "br": "3.0",
-          "rp": "36,000",
-          "sp": "115,000",
+          "br": "3.3",
+          "rp": 36000,
+          "sp": 115000,
           "data_unit_id": "fr_arras_class_arras",
+          "required_unit_id": "fr_adroit_class",
           "selected": false,
           "class_name": "",
           "details": true,
-          "main_role": "Heavy boat"
+          "rank": "III",
+          "research_country": "France",
+          "main_role": "Heavy boat",
+          "is_component": false,
+          "component_of": null,
+          "is_premium": false,
+          "is_squadron": false,
+          "wiki": {
+            "url": "https://wiki.warthunder.com/unit/fr_arras_class_arras",
+            "rank": "III",
+            "battle_rating_context": "default",
+            "battle_ratings": {
+              "AB": "3.3",
+              "RB": "3.3"
+            },
+            "battle_ratings_by_battle": {
+              "default": {
+                "AB": "3.3",
+                "RB": "3.3"
+              }
+            },
+            "research": "36,000",
+            "purchase": "115,000",
+            "purchase_currency": "SL",
+            "status": null,
+            "fetched_at": "2026-09-19T06:33:05.963Z",
+            "sha256": "c0c3b7117d7d0bb692ea9293f68cc873d6aa6162f097dff17daa1a158f588183"
+          }
         }
       ],
       [
@@ -219,27 +631,83 @@
           "type": "single",
           "title": "L9059",
           "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/fr_lcg_m_l9059.png",
-          "br": "2.7",
-          "rp": "26,000",
-          "sp": "76,000",
+          "br": "2.3",
+          "rp": 26000,
+          "sp": 76000,
           "data_unit_id": "fr_lcg_m_l9059",
+          "required_unit_id": "fr_flower_class_aconit",
           "selected": false,
           "class_name": "",
           "details": true,
-          "main_role": "Boat"
+          "rank": "III",
+          "research_country": "France",
+          "main_role": "Boat",
+          "is_component": false,
+          "component_of": null,
+          "is_premium": false,
+          "is_squadron": false,
+          "wiki": {
+            "url": "https://wiki.warthunder.com/unit/fr_lcg_m_l9059",
+            "rank": "III",
+            "battle_rating_context": "default",
+            "battle_ratings": {
+              "AB": "2.3",
+              "RB": "2.3"
+            },
+            "battle_ratings_by_battle": {
+              "default": {
+                "AB": "2.3",
+                "RB": "2.3"
+              }
+            },
+            "research": "26,000",
+            "purchase": "76,000",
+            "purchase_currency": "SL",
+            "status": null,
+            "fetched_at": "2026-09-19T06:33:06.383Z",
+            "sha256": "31aa94999aec1ffb064d7b7c340cabe31c78fe05ea3972b9861dbe54bb045824"
+          }
         },
         {
           "type": "single",
           "title": "Marne",
           "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/fr_marne_class_marne.png",
-          "br": "3.3",
-          "rp": "48,000",
-          "sp": "180,000",
+          "br": "3.0",
+          "rp": 48000,
+          "sp": 180000,
           "data_unit_id": "fr_marne_class_marne",
+          "required_unit_id": "fr_lcg_m_l9059",
           "selected": false,
           "class_name": "",
           "details": true,
-          "main_role": "Frigate"
+          "rank": "III",
+          "research_country": "France",
+          "main_role": "Frigate",
+          "is_component": false,
+          "component_of": null,
+          "is_premium": false,
+          "is_squadron": false,
+          "wiki": {
+            "url": "https://wiki.warthunder.com/unit/fr_marne_class_marne",
+            "rank": "III",
+            "battle_rating_context": "default",
+            "battle_ratings": {
+              "AB": "3.0",
+              "RB": "3.0"
+            },
+            "battle_ratings_by_battle": {
+              "default": {
+                "AB": "3.0",
+                "RB": "3.0"
+              }
+            },
+            "research": "48,000",
+            "purchase": "180,000",
+            "purchase_currency": "SL",
+            "status": null,
+            "fetched_at": "2026-09-19T06:33:06.654Z",
+            "sha256": "fbe13e361506a8812f8cd5b234cd6c95f86b54c4a6453e2a71e5c33f0ed8300b"
+          }
         }
       ]
     ],
@@ -249,32 +717,132 @@
           "type": "single",
           "title": "Amiens",
           "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/fr_arras_class_amiens.png",
-          "br": "3.0",
+          "br": "3.3",
           "rp": 0,
           "sp": 0,
           "data_unit_id": "fr_arras_class_amiens",
+          "required_unit_id": "",
           "selected": false,
           "class_name": "prem",
           "details": true,
-          "main_role": "Heavy boat"
+          "rank": "III",
+          "research_country": "France",
+          "main_role": "Heavy boat",
+          "is_component": false,
+          "component_of": null,
+          "is_premium": true,
+          "is_squadron": false,
+          "wiki": {
+            "url": "https://wiki.warthunder.com/unit/fr_arras_class_amiens",
+            "rank": "III",
+            "battle_rating_context": "default",
+            "battle_ratings": {
+              "AB": "3.3",
+              "RB": "3.3"
+            },
+            "battle_ratings_by_battle": {
+              "default": {
+                "AB": "3.3",
+                "RB": "3.3"
+              }
+            },
+            "research": null,
+            "purchase": null,
+            "purchase_currency": null,
+            "status": "Premium vehicle",
+            "fetched_at": "2026-09-19T06:33:05.738Z",
+            "sha256": "924042e202283d2fc9c4566c08204e56153901513c714a38aa2a7fe559d72b17"
+          }
         },
         {
           "type": "single",
           "title": "Aisne",
           "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/fr_marne_class_aisne.png",
-          "br": "3.3",
+          "br": "3.0",
           "rp": 0,
           "sp": 0,
           "data_unit_id": "fr_marne_class_aisne",
+          "required_unit_id": "",
           "selected": false,
           "class_name": "prem",
           "details": true,
-          "main_role": "Frigate"
+          "rank": "III",
+          "research_country": "France",
+          "main_role": "Frigate",
+          "is_component": false,
+          "component_of": null,
+          "is_premium": true,
+          "is_squadron": false,
+          "wiki": {
+            "url": "https://wiki.warthunder.com/unit/fr_marne_class_aisne",
+            "rank": "III",
+            "battle_rating_context": "default",
+            "battle_ratings": {
+              "AB": "3.0",
+              "RB": "3.0"
+            },
+            "battle_ratings_by_battle": {
+              "default": {
+                "AB": "3.0",
+                "RB": "3.0"
+              }
+            },
+            "research": null,
+            "purchase": "1,750",
+            "purchase_currency": "GE",
+            "status": "Premium vehicle",
+            "fetched_at": "2026-09-19T06:33:06.852Z",
+            "sha256": "767befe580d320f671b8d5a0dd052b9d7b831ae934ac9b692d6861fc9562f0ea"
+          }
+        }
+      ],
+      [
+        {
+          "type": "single",
+          "title": "Glaive",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/fr_trident_class_glaive_p671.png",
+          "br": "2.7",
+          "rp": 0,
+          "sp": 0,
+          "data_unit_id": "fr_trident_class_glaive_p671",
+          "required_unit_id": "",
+          "selected": false,
+          "class_name": "prem",
+          "details": true,
+          "rank": "III",
+          "research_country": "France",
+          "main_role": "Boat",
+          "is_component": false,
+          "component_of": null,
+          "is_premium": true,
+          "is_squadron": false,
+          "wiki": {
+            "url": "https://wiki.warthunder.com/unit/fr_trident_class_glaive_p671",
+            "rank": "III",
+            "battle_rating_context": "default",
+            "battle_ratings": {
+              "AB": "2.7",
+              "RB": "2.7"
+            },
+            "battle_ratings_by_battle": {
+              "default": {
+                "AB": "2.7",
+                "RB": "2.7"
+              }
+            },
+            "research": null,
+            "purchase": null,
+            "purchase_currency": null,
+            "status": "Premium vehicle",
+            "fetched_at": "2026-09-19T06:33:07.220Z",
+            "sha256": "8faf149c78d7ac5dc4e10bed898fb4eb042b67b90918025b74a3fdcdea98ad81"
+          }
         }
       ]
     ],
     "selected": [],
-    "unlock_quantity": 0
+    "unlock_quantity": null,
+    "source": "wiki"
   },
   {
     "rank": "IV",
@@ -285,41 +853,125 @@
           "title": "VLT-1",
           "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/fr_vlt1.png",
           "br": "3.3",
-          "rp": "89,000",
-          "sp": "300,000",
+          "rp": 89000,
+          "sp": 300000,
           "data_unit_id": "fr_vlt1",
+          "required_unit_id": "fr_arras_class_arras",
           "selected": false,
           "class_name": "",
           "details": true,
-          "main_role": "Boat"
+          "rank": "IV",
+          "research_country": "France",
+          "main_role": "Boat",
+          "is_component": false,
+          "component_of": null,
+          "is_premium": false,
+          "is_squadron": false,
+          "wiki": {
+            "url": "https://wiki.warthunder.com/unit/fr_vlt1",
+            "rank": "IV",
+            "battle_rating_context": "default",
+            "battle_ratings": {
+              "AB": "3.3",
+              "RB": "3.3"
+            },
+            "battle_ratings_by_battle": {
+              "default": {
+                "AB": "3.3",
+                "RB": "3.3"
+              }
+            },
+            "research": "89,000",
+            "purchase": "300,000",
+            "purchase_currency": "SL",
+            "status": null,
+            "fetched_at": "2026-09-19T06:33:07.363Z",
+            "sha256": "a81936bc0886b6a66980b812be387f0e44bd0e58ea7215e24b0822559d1d7c3b"
+          }
         }
       ],
       [
         {
           "type": "single",
-          "title": "Commandant Dominé",
+          "title": "Commandant Dominé",
           "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/fr_elan_class_commandant_domine.png",
           "br": "3.3",
-          "rp": "61,000",
-          "sp": "230,000",
+          "rp": 61000,
+          "sp": 230000,
           "data_unit_id": "fr_elan_class_commandant_domine",
+          "required_unit_id": "fr_marne_class_marne",
           "selected": false,
           "class_name": "",
           "details": true,
-          "main_role": "Frigate"
+          "rank": "IV",
+          "research_country": "France",
+          "main_role": "Frigate",
+          "is_component": false,
+          "component_of": null,
+          "is_premium": false,
+          "is_squadron": false,
+          "wiki": {
+            "url": "https://wiki.warthunder.com/unit/fr_elan_class_commandant_domine",
+            "rank": "IV",
+            "battle_rating_context": "default",
+            "battle_ratings": {
+              "AB": "3.3",
+              "RB": "3.3"
+            },
+            "battle_ratings_by_battle": {
+              "default": {
+                "AB": "3.3",
+                "RB": "3.3"
+              }
+            },
+            "research": "61,000",
+            "purchase": "230,000",
+            "purchase_currency": "SL",
+            "status": null,
+            "fetched_at": "2026-09-19T06:33:06.018Z",
+            "sha256": "a4cd77a57ba09889e56983970c89bd520fae998f62039a68dbd277a01281d61e"
+          }
         },
         {
           "type": "single",
-          "title": "La Surprise",
+          "title": "La Surprise",
           "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/fr_frigate_croix_de_lorraine_class_la_surprise.png",
           "br": "3.3",
-          "rp": "75,000",
-          "sp": "250,000",
+          "rp": 75000,
+          "sp": 250000,
           "data_unit_id": "fr_frigate_croix_de_lorraine_class_la_surprise",
+          "required_unit_id": "fr_elan_class_commandant_domine",
           "selected": false,
           "class_name": "",
           "details": true,
-          "main_role": "Frigate"
+          "rank": "IV",
+          "research_country": "France",
+          "main_role": "Frigate",
+          "is_component": false,
+          "component_of": null,
+          "is_premium": false,
+          "is_squadron": false,
+          "wiki": {
+            "url": "https://wiki.warthunder.com/unit/fr_frigate_croix_de_lorraine_class_la_surprise",
+            "rank": "IV",
+            "battle_rating_context": "default",
+            "battle_ratings": {
+              "AB": "3.3",
+              "RB": "3.3"
+            },
+            "battle_ratings_by_battle": {
+              "default": {
+                "AB": "3.3",
+                "RB": "3.3"
+              }
+            },
+            "research": "75,000",
+            "purchase": "250,000",
+            "purchase_currency": "SL",
+            "status": null,
+            "fetched_at": "2026-09-19T06:33:06.443Z",
+            "sha256": "3c760e4c6033598b8d6c4e6a32314333acc2d28912df6b520879c78526076f9c"
+          }
         }
       ]
     ],
@@ -333,28 +985,86 @@
           "rp": 0,
           "sp": 0,
           "data_unit_id": "fr_vlt2",
+          "required_unit_id": "",
           "selected": false,
           "class_name": "prem",
           "details": true,
-          "main_role": "Boat"
+          "rank": "IV",
+          "research_country": "France",
+          "main_role": "Boat",
+          "is_component": false,
+          "component_of": null,
+          "is_premium": true,
+          "is_squadron": false,
+          "wiki": {
+            "url": "https://wiki.warthunder.com/unit/fr_vlt2",
+            "rank": "IV",
+            "battle_rating_context": "default",
+            "battle_ratings": {
+              "AB": "3.3",
+              "RB": "3.3"
+            },
+            "battle_ratings_by_battle": {
+              "default": {
+                "AB": "3.3",
+                "RB": "3.3"
+              }
+            },
+            "research": null,
+            "purchase": "4,880",
+            "purchase_currency": "GE",
+            "status": "Premium vehicle",
+            "fetched_at": "2026-09-19T06:33:07.670Z",
+            "sha256": "26734ee5719de8363d4f1300447bbc7fc51c3cf7258798bb24155e6a0b02107f"
+          }
         },
         {
           "type": "single",
-          "title": "Le Corse",
+          "title": "Le Corse",
           "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/fr_frigate_corse_class_corse.png",
           "br": "4.0",
           "rp": 0,
           "sp": 0,
           "data_unit_id": "fr_frigate_corse_class_corse",
+          "required_unit_id": "",
           "selected": false,
           "class_name": "prem",
           "details": true,
-          "main_role": "Frigate"
+          "rank": "IV",
+          "research_country": "France",
+          "main_role": "Frigate",
+          "is_component": false,
+          "component_of": null,
+          "is_premium": true,
+          "is_squadron": false,
+          "wiki": {
+            "url": "https://wiki.warthunder.com/unit/fr_frigate_corse_class_corse",
+            "rank": "IV",
+            "battle_rating_context": "default",
+            "battle_ratings": {
+              "AB": "4.0",
+              "RB": "4.0"
+            },
+            "battle_ratings_by_battle": {
+              "default": {
+                "AB": "4.0",
+                "RB": "4.0"
+              }
+            },
+            "research": null,
+            "purchase": "6,090",
+            "purchase_currency": "GE",
+            "status": "Premium vehicle",
+            "fetched_at": "2026-09-19T06:33:06.405Z",
+            "sha256": "8458c90cb7b91f4c0c502b5fbcf0f11c69b6c05fc306037c9908df6b8572a13d"
+          }
         }
-      ]
+      ],
+      []
     ],
     "selected": [],
-    "unlock_quantity": 0
+    "unlock_quantity": null,
+    "source": "wiki"
   },
   {
     "rank": "V",
@@ -362,38 +1072,96 @@
       [
         {
           "type": "single",
-          "title": "La Combattante",
+          "title": "La Combattante",
           "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/fr_p730_combattante.png",
           "br": "3.7",
-          "rp": "250,000",
-          "sp": "700,000",
+          "rp": 250000,
+          "sp": 700000,
           "data_unit_id": "fr_p730_combattante",
+          "required_unit_id": "fr_vlt1",
           "selected": false,
           "class_name": "",
           "details": true,
-          "main_role": "Boat"
+          "rank": "V",
+          "research_country": "France",
+          "main_role": "Boat",
+          "is_component": false,
+          "component_of": null,
+          "is_premium": false,
+          "is_squadron": false,
+          "wiki": {
+            "url": "https://wiki.warthunder.com/unit/fr_p730_combattante",
+            "rank": "V",
+            "battle_rating_context": "default",
+            "battle_ratings": {
+              "AB": "3.7",
+              "RB": "3.7"
+            },
+            "battle_ratings_by_battle": {
+              "default": {
+                "AB": "3.7",
+                "RB": "3.7"
+              }
+            },
+            "research": "250,000",
+            "purchase": "700,000",
+            "purchase_currency": "SL",
+            "status": null,
+            "fetched_at": "2026-09-19T06:33:07.170Z",
+            "sha256": "da8621bcbf6fbc3e29c82b5df4076e64711c1e0a339a63dccbef75053699ccaf"
+          }
         }
       ],
       [
         {
           "type": "single",
-          "title": "Le Brestois",
+          "title": "Le Brestois",
           "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/fr_frigate_corse_class_brestois.png",
-          "br": "4.3",
-          "rp": "320,000",
-          "sp": "860,000",
+          "br": "4.0",
+          "rp": 320000,
+          "sp": 860000,
           "data_unit_id": "fr_frigate_corse_class_brestois",
+          "required_unit_id": "fr_frigate_croix_de_lorraine_class_la_surprise",
           "selected": false,
           "class_name": "",
           "details": true,
-          "main_role": "Frigate"
+          "rank": "V",
+          "research_country": "France",
+          "main_role": "Frigate",
+          "is_component": false,
+          "component_of": null,
+          "is_premium": false,
+          "is_squadron": false,
+          "wiki": {
+            "url": "https://wiki.warthunder.com/unit/fr_frigate_corse_class_brestois",
+            "rank": "V",
+            "battle_rating_context": "default",
+            "battle_ratings": {
+              "AB": "4.0",
+              "RB": "4.0"
+            },
+            "battle_ratings_by_battle": {
+              "default": {
+                "AB": "4.0",
+                "RB": "4.0"
+              }
+            },
+            "research": "320,000",
+            "purchase": "860,000",
+            "purchase_currency": "SL",
+            "status": null,
+            "fetched_at": "2026-09-19T06:33:06.064Z",
+            "sha256": "ab755c2ee772cb0017e862d3269d832cfad9ac970514d7800c2cfbbfd3ebcf5d"
+          }
         }
       ]
     ],
     "premium_vehicles": [
+      [],
       []
     ],
     "selected": [],
-    "unlock_quantity": 0
+    "unlock_quantity": null,
+    "source": "wiki"
   }
 ]

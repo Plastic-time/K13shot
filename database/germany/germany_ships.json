@@ -8,54 +8,207 @@
           "title": "Leopard",
           "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/germ_destroyer_class1924_leopard1932.png",
           "br": "3.7",
-          "rp": null,
-          "sp": null,
+          "rp": 0,
+          "sp": 0,
           "data_unit_id": "germ_destroyer_class1924_leopard1932",
+          "required_unit_id": "",
           "selected": false,
           "class_name": "",
           "details": true,
-          "main_role": "Destroyer"
+          "rank": "I",
+          "research_country": "Germany",
+          "main_role": "Destroyer",
+          "is_component": false,
+          "component_of": null,
+          "is_premium": false,
+          "is_squadron": false,
+          "wiki": {
+            "url": "https://wiki.warthunder.com/unit/germ_destroyer_class1924_leopard1932",
+            "rank": "I",
+            "battle_rating_context": "default",
+            "battle_ratings": {
+              "AB": "3.7",
+              "RB": "3.7"
+            },
+            "battle_ratings_by_battle": {
+              "default": {
+                "AB": "3.7",
+                "RB": "3.7"
+              }
+            },
+            "research": "Free",
+            "purchase": "Free",
+            "purchase_currency": "SL",
+            "status": null,
+            "fetched_at": "2026-09-19T06:32:17.800Z",
+            "sha256": "c1885171fa98a3fc4292f23a7fc5dba4a375252944b815c78f3f9a94d1d7b94b"
+          }
         },
         {
           "type": "single",
-          "title": "Z15 Erich Steinbrinck",
+          "title": "Z15 Erich Steinbrinck",
           "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/germ_destroyer_class1934a_1944.png",
           "br": "4.0",
-          "rp": "4,000",
-          "sp": "2,100",
+          "rp": 4000,
+          "sp": 2100,
           "data_unit_id": "germ_destroyer_class1934a_1944",
+          "required_unit_id": "germ_destroyer_class1924_leopard1932",
           "selected": false,
           "class_name": "",
           "details": true,
-          "main_role": "Destroyer"
+          "rank": "I",
+          "research_country": "Germany",
+          "main_role": "Destroyer",
+          "is_component": false,
+          "component_of": null,
+          "is_premium": false,
+          "is_squadron": false,
+          "wiki": {
+            "url": "https://wiki.warthunder.com/unit/germ_destroyer_class1934a_1944",
+            "rank": "I",
+            "battle_rating_context": "default",
+            "battle_ratings": {
+              "AB": "4.0",
+              "RB": "4.0"
+            },
+            "battle_ratings_by_battle": {
+              "default": {
+                "AB": "4.0",
+                "RB": "4.0"
+              }
+            },
+            "research": "4,000",
+            "purchase": "2,100",
+            "purchase_currency": "SL",
+            "status": null,
+            "fetched_at": "2026-09-19T06:32:18.142Z",
+            "sha256": "917d0417980de241af3fb491b98144b9d31ed7200d91a7941af6b38aaa5c9864"
+          }
         }
       ],
       [
         {
           "type": "single",
-          "title": "T22",
-          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/germ_destroyer_class1939_t22.png",
+          "title": "Lorelei",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/germ_kanonenboot_k4_lorelei.png",
           "br": "3.7",
-          "rp": "2,900",
-          "sp": "700",
-          "data_unit_id": "germ_destroyer_class1939_t22",
+          "rp": 2900,
+          "sp": 700,
+          "data_unit_id": "germ_kanonenboot_k4_lorelei",
+          "required_unit_id": "",
           "selected": false,
           "class_name": "",
           "details": true,
-          "main_role": "Destroyer"
+          "rank": "I",
+          "research_country": "Germany",
+          "main_role": "Destroyer",
+          "is_component": false,
+          "component_of": null,
+          "is_premium": false,
+          "is_squadron": false,
+          "wiki": {
+            "url": "https://wiki.warthunder.com/unit/germ_kanonenboot_k4_lorelei",
+            "rank": "I",
+            "battle_rating_context": "default",
+            "battle_ratings": {
+              "AB": "3.7",
+              "RB": "3.7"
+            },
+            "battle_ratings_by_battle": {
+              "default": {
+                "AB": "3.7",
+                "RB": "3.7"
+              }
+            },
+            "research": "2,900",
+            "purchase": "700",
+            "purchase_currency": "SL",
+            "status": null,
+            "fetched_at": "2026-09-19T06:32:19.492Z",
+            "sha256": "bf9f30eb309b433374d00b676195585137b54995f911773abfff0307290c56d4"
+          }
+        },
+        {
+          "type": "single",
+          "title": "T22",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/germ_destroyer_class1939_t22.png",
+          "br": "3.7",
+          "rp": 4000,
+          "sp": 2100,
+          "data_unit_id": "germ_destroyer_class1939_t22",
+          "required_unit_id": "germ_kanonenboot_k4_lorelei",
+          "selected": false,
+          "class_name": "",
+          "details": true,
+          "rank": "I",
+          "research_country": "Germany",
+          "main_role": "Destroyer",
+          "is_component": false,
+          "component_of": null,
+          "is_premium": false,
+          "is_squadron": false,
+          "wiki": {
+            "url": "https://wiki.warthunder.com/unit/germ_destroyer_class1939_t22",
+            "rank": "I",
+            "battle_rating_context": "default",
+            "battle_ratings": {
+              "AB": "3.7",
+              "RB": "3.7"
+            },
+            "battle_ratings_by_battle": {
+              "default": {
+                "AB": "3.7",
+                "RB": "3.7"
+              }
+            },
+            "research": "4,000",
+            "purchase": "2,100",
+            "purchase_currency": "SL",
+            "status": null,
+            "fetched_at": "2026-09-19T06:32:18.895Z",
+            "sha256": "2d30eed2a36d8b969493d3d96ee097094d6913a51aa8fd642f1b0a7e25aa2800"
+          }
         },
         {
           "type": "single",
           "title": "K2",
           "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/germ_kanonenboot_k2.png",
           "br": "4.3",
-          "rp": "5,300",
-          "sp": "5,000",
+          "rp": 5300,
+          "sp": 5000,
           "data_unit_id": "germ_kanonenboot_k2",
+          "required_unit_id": "germ_destroyer_class1939_t22",
           "selected": false,
           "class_name": "",
           "details": true,
-          "main_role": "Destroyer"
+          "rank": "I",
+          "research_country": "Germany",
+          "main_role": "Destroyer",
+          "is_component": false,
+          "component_of": null,
+          "is_premium": false,
+          "is_squadron": false,
+          "wiki": {
+            "url": "https://wiki.warthunder.com/unit/germ_kanonenboot_k2",
+            "rank": "I",
+            "battle_rating_context": "default",
+            "battle_ratings": {
+              "AB": "4.3",
+              "RB": "4.3"
+            },
+            "battle_ratings_by_battle": {
+              "default": {
+                "AB": "4.3",
+                "RB": "4.3"
+              }
+            },
+            "research": "5,300",
+            "purchase": "5,000",
+            "purchase_currency": "SL",
+            "status": null,
+            "fetched_at": "2026-09-19T06:32:19.463Z",
+            "sha256": "2aa17bca9d805ca953513c4ac779e2e30e0067d82814baf78e72d67f0da74285"
+          }
         }
       ]
     ],
@@ -69,16 +222,45 @@
           "rp": 0,
           "sp": 0,
           "data_unit_id": "germ_destroyer_class1924_iltis",
+          "required_unit_id": "",
           "selected": false,
           "class_name": "prem",
           "details": true,
-          "main_role": "Destroyer"
+          "rank": "I",
+          "research_country": "Germany",
+          "main_role": "Destroyer",
+          "is_component": false,
+          "component_of": null,
+          "is_premium": true,
+          "is_squadron": false,
+          "wiki": {
+            "url": "https://wiki.warthunder.com/unit/germ_destroyer_class1924_iltis",
+            "rank": "I",
+            "battle_rating_context": "default",
+            "battle_ratings": {
+              "AB": "3.7",
+              "RB": "3.7"
+            },
+            "battle_ratings_by_battle": {
+              "default": {
+                "AB": "3.7",
+                "RB": "3.7"
+              }
+            },
+            "research": null,
+            "purchase": "250",
+            "purchase_currency": "GE",
+            "status": "Premium vehicle",
+            "fetched_at": "2026-09-19T06:32:17.609Z",
+            "sha256": "0346b9f27aca39fe06455bc317f5a2b5d7b222b5782dff468ab041fa08dcff1f"
+          }
         }
       ],
       []
     ],
     "selected": [],
-    "unlock_quantity": 0
+    "unlock_quantity": null,
+    "source": "wiki"
   },
   {
     "rank": "II",
@@ -86,75 +268,174 @@
       [
         {
           "type": "single",
-          "title": "Z12 Erich Giese",
+          "title": "Z12 Erich Giese",
           "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/germ_destroyer_class1934a_1940.png",
           "br": "4.3",
-          "rp": "7,000",
-          "sp": "8,700",
+          "rp": 7000,
+          "sp": 8700,
           "data_unit_id": "germ_destroyer_class1934a_1940",
+          "required_unit_id": "germ_destroyer_class1934a_1944",
           "selected": false,
           "class_name": "",
           "details": true,
-          "main_role": "Destroyer"
+          "rank": "II",
+          "research_country": "Germany",
+          "main_role": "Destroyer",
+          "is_component": false,
+          "component_of": null,
+          "is_premium": false,
+          "is_squadron": false,
+          "wiki": {
+            "url": "https://wiki.warthunder.com/unit/germ_destroyer_class1934a_1940",
+            "rank": "II",
+            "battle_rating_context": "default",
+            "battle_ratings": {
+              "AB": "4.3",
+              "RB": "4.3"
+            },
+            "battle_ratings_by_battle": {
+              "default": {
+                "AB": "4.3",
+                "RB": "4.3"
+              }
+            },
+            "research": "7,000",
+            "purchase": "8,700",
+            "purchase_currency": "SL",
+            "status": null,
+            "fetched_at": "2026-09-19T06:32:17.937Z",
+            "sha256": "dd70db3c2c2042419233bf6b370cff1f5020526a688270ea206cf3467a7790ef"
+          }
         },
         {
           "type": "single",
           "title": "Z32",
           "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/germ_destroyer_class1936a_mob_z32.png",
           "br": "4.7",
-          "rp": "13,000",
-          "sp": "31,000",
+          "rp": 13000,
+          "sp": 31000,
           "data_unit_id": "germ_destroyer_class1936a_mob_z32",
+          "required_unit_id": "germ_destroyer_class1934a_1940",
           "selected": false,
           "class_name": "",
           "details": true,
-          "main_role": "Destroyer"
+          "rank": "II",
+          "research_country": "Germany",
+          "main_role": "Destroyer",
+          "is_component": false,
+          "component_of": null,
+          "is_premium": false,
+          "is_squadron": false,
+          "wiki": {
+            "url": "https://wiki.warthunder.com/unit/germ_destroyer_class1936a_mob_z32",
+            "rank": "II",
+            "battle_rating_context": "default",
+            "battle_ratings": {
+              "AB": "4.7",
+              "RB": "4.7"
+            },
+            "battle_ratings_by_battle": {
+              "default": {
+                "AB": "4.7",
+                "RB": "4.7"
+              }
+            },
+            "research": "13,000",
+            "purchase": "31,000",
+            "purchase_currency": "SL",
+            "status": null,
+            "fetched_at": "2026-09-19T06:32:18.296Z",
+            "sha256": "b1fef3363af013f4494c91896158a15782e99d9f424d7400531e0b2afcac6c21"
+          }
         }
       ],
       [
         {
           "type": "single",
-          "title": "Z22 Anton Schmitt",
+          "title": "Z22 Anton Schmitt",
           "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/germ_destroyer_class1936_z20.png",
           "br": "4.3",
-          "rp": "9,000",
-          "sp": "16,000",
+          "rp": 9000,
+          "sp": 16000,
           "data_unit_id": "germ_destroyer_class1936_z20",
+          "required_unit_id": "germ_kanonenboot_k2",
           "selected": false,
           "class_name": "",
           "details": true,
-          "main_role": "Destroyer"
+          "rank": "II",
+          "research_country": "Germany",
+          "main_role": "Destroyer",
+          "is_component": false,
+          "component_of": null,
+          "is_premium": false,
+          "is_squadron": false,
+          "wiki": {
+            "url": "https://wiki.warthunder.com/unit/germ_destroyer_class1936_z20",
+            "rank": "II",
+            "battle_rating_context": "default",
+            "battle_ratings": {
+              "AB": "4.3",
+              "RB": "4.3"
+            },
+            "battle_ratings_by_battle": {
+              "default": {
+                "AB": "4.3",
+                "RB": "4.3"
+              }
+            },
+            "research": "9,000",
+            "purchase": "16,000",
+            "purchase_currency": "SL",
+            "status": null,
+            "fetched_at": "2026-09-19T06:32:18.266Z",
+            "sha256": "ec8ff607de13f2c74332a5ff4e99f368179116cec57bb1ee0cc1f81f89fe701e"
+          }
         },
         {
           "type": "single",
           "title": "Z43",
           "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/germ_destroyer_class1936b.png",
           "br": "4.7",
-          "rp": "11,000",
-          "sp": "22,000",
+          "rp": 11000,
+          "sp": 22000,
           "data_unit_id": "germ_destroyer_class1936b",
+          "required_unit_id": "germ_destroyer_class1936_z20",
           "selected": false,
           "class_name": "",
           "details": true,
-          "main_role": "Destroyer"
+          "rank": "II",
+          "research_country": "Germany",
+          "main_role": "Destroyer",
+          "is_component": false,
+          "component_of": null,
+          "is_premium": false,
+          "is_squadron": false,
+          "wiki": {
+            "url": "https://wiki.warthunder.com/unit/germ_destroyer_class1936b",
+            "rank": "II",
+            "battle_rating_context": "default",
+            "battle_ratings": {
+              "AB": "4.7",
+              "RB": "4.7"
+            },
+            "battle_ratings_by_battle": {
+              "default": {
+                "AB": "4.7",
+                "RB": "4.7"
+              }
+            },
+            "research": "11,000",
+            "purchase": "22,000",
+            "purchase_currency": "SL",
+            "status": null,
+            "fetched_at": "2026-09-19T06:32:18.625Z",
+            "sha256": "552eaebf82ba206b4d0bba3b3e96c105891d390f41e62d187cfd7ab0d31287eb"
+          }
         }
       ]
     ],
     "premium_vehicles": [
       [
-        {
-          "type": "single",
-          "title": "Z4 Zerstörer",
-          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/germ_destroyer_fletcher_zerstorer4.png",
-          "br": "4.7",
-          "rp": 0,
-          "sp": 0,
-          "data_unit_id": "germ_destroyer_fletcher_zerstorer4",
-          "selected": false,
-          "class_name": "prem",
-          "details": true,
-          "main_role": "Destroyer"
-        },
         {
           "type": "single",
           "title": "Jaguar",
@@ -163,16 +444,86 @@
           "rp": 0,
           "sp": 0,
           "data_unit_id": "germ_destroyer_class1924_jaguar1941",
+          "required_unit_id": "",
           "selected": false,
           "class_name": "prem",
           "details": true,
-          "main_role": "Destroyer"
+          "rank": "II",
+          "research_country": "Germany",
+          "main_role": "Destroyer",
+          "is_component": false,
+          "component_of": null,
+          "is_premium": true,
+          "is_squadron": false,
+          "wiki": {
+            "url": "https://wiki.warthunder.com/unit/germ_destroyer_class1924_jaguar1941",
+            "rank": "II",
+            "battle_rating_context": "default",
+            "battle_ratings": {
+              "AB": "3.7",
+              "RB": "3.7"
+            },
+            "battle_ratings_by_battle": {
+              "default": {
+                "AB": "3.7",
+                "RB": "3.7"
+              }
+            },
+            "research": null,
+            "purchase": null,
+            "purchase_currency": null,
+            "status": "Premium vehicle",
+            "fetched_at": "2026-09-19T06:32:17.793Z",
+            "sha256": "064577e489465e08cab3cd9730d98cf61eeed548c4920825f78f5a34c8629243"
+          }
+        },
+        {
+          "type": "single",
+          "title": "Z4 Zerstörer",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/germ_destroyer_fletcher_zerstorer4.png",
+          "br": "4.7",
+          "rp": 0,
+          "sp": 0,
+          "data_unit_id": "germ_destroyer_fletcher_zerstorer4",
+          "required_unit_id": "",
+          "selected": false,
+          "class_name": "prem",
+          "details": true,
+          "rank": "II",
+          "research_country": "Germany",
+          "main_role": "Destroyer",
+          "is_component": false,
+          "component_of": null,
+          "is_premium": true,
+          "is_squadron": false,
+          "wiki": {
+            "url": "https://wiki.warthunder.com/unit/germ_destroyer_fletcher_zerstorer4",
+            "rank": "II",
+            "battle_rating_context": "default",
+            "battle_ratings": {
+              "AB": "4.7",
+              "RB": "4.7"
+            },
+            "battle_ratings_by_battle": {
+              "default": {
+                "AB": "4.7",
+                "RB": "4.7"
+              }
+            },
+            "research": null,
+            "purchase": "1,150",
+            "purchase_currency": "GE",
+            "status": "Premium vehicle",
+            "fetched_at": "2026-09-19T06:32:19.347Z",
+            "sha256": "71ee0835742f802933c08afb517b2cba06399c03e83817925fd7b23f5139133b"
+          }
         }
       ],
       []
     ],
     "selected": [],
-    "unlock_quantity": 0
+    "unlock_quantity": null,
+    "source": "wiki"
   },
   {
     "rank": "III",
@@ -183,67 +534,207 @@
           "title": "Z51",
           "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/germ_destroyer_class1942_z51.png",
           "br": "4.7",
-          "rp": "15,000",
-          "sp": "38,000",
+          "rp": 15000,
+          "sp": 38000,
           "data_unit_id": "germ_destroyer_class1942_z51",
+          "required_unit_id": "germ_destroyer_class1936a_mob_z32",
           "selected": false,
           "class_name": "",
           "details": true,
-          "main_role": "Destroyer"
+          "rank": "III",
+          "research_country": "Germany",
+          "main_role": "Destroyer",
+          "is_component": false,
+          "component_of": null,
+          "is_premium": false,
+          "is_squadron": false,
+          "wiki": {
+            "url": "https://wiki.warthunder.com/unit/germ_destroyer_class1942_z51",
+            "rank": "III",
+            "battle_rating_context": "default",
+            "battle_ratings": {
+              "AB": "4.7",
+              "RB": "4.7"
+            },
+            "battle_ratings_by_battle": {
+              "default": {
+                "AB": "4.7",
+                "RB": "4.7"
+              }
+            },
+            "research": "15,000",
+            "purchase": "38,000",
+            "purchase_currency": "SL",
+            "status": null,
+            "fetched_at": "2026-09-19T06:32:19.142Z",
+            "sha256": "bf8a172c67c34351b97674aec78f5a83e3420d73d9dc2fd80cf1c73e8c03c36d"
+          }
         },
         {
           "type": "single",
           "title": "Z46",
           "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/germ_destroyer_class1936c_z46.png",
           "br": "5.0",
-          "rp": "18,000",
-          "sp": "55,000",
+          "rp": 18000,
+          "sp": 55000,
           "data_unit_id": "germ_destroyer_class1936c_z46",
+          "required_unit_id": "germ_destroyer_class1942_z51",
           "selected": false,
           "class_name": "",
           "details": true,
-          "main_role": "Destroyer"
+          "rank": "III",
+          "research_country": "Germany",
+          "main_role": "Destroyer",
+          "is_component": false,
+          "component_of": null,
+          "is_premium": false,
+          "is_squadron": false,
+          "wiki": {
+            "url": "https://wiki.warthunder.com/unit/germ_destroyer_class1936c_z46",
+            "rank": "III",
+            "battle_rating_context": "default",
+            "battle_ratings": {
+              "AB": "5.0",
+              "RB": "5.0"
+            },
+            "battle_ratings_by_battle": {
+              "default": {
+                "AB": "5.0",
+                "RB": "5.0"
+              }
+            },
+            "research": "18,000",
+            "purchase": "55,000",
+            "purchase_currency": "SL",
+            "status": null,
+            "fetched_at": "2026-09-19T06:32:18.658Z",
+            "sha256": "152c560619e0f1cbd274c7bf5219db5e6aee014f795d894f30c1eb301005624e"
+          }
         },
         {
           "type": "single",
           "title": "Z52",
           "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/germ_destroyer_class1944_z52.png",
           "br": "5.0",
-          "rp": "21,000",
-          "sp": "70,000",
+          "rp": 21000,
+          "sp": 70000,
           "data_unit_id": "germ_destroyer_class1944_z52",
+          "required_unit_id": "germ_destroyer_class1936c_z46",
           "selected": false,
           "class_name": "",
           "details": true,
-          "main_role": "Destroyer"
+          "rank": "III",
+          "research_country": "Germany",
+          "main_role": "Destroyer",
+          "is_component": false,
+          "component_of": null,
+          "is_premium": false,
+          "is_squadron": false,
+          "wiki": {
+            "url": "https://wiki.warthunder.com/unit/germ_destroyer_class1944_z52",
+            "rank": "III",
+            "battle_rating_context": "default",
+            "battle_ratings": {
+              "AB": "5.0",
+              "RB": "5.0"
+            },
+            "battle_ratings_by_battle": {
+              "default": {
+                "AB": "5.0",
+                "RB": "5.0"
+              }
+            },
+            "research": "21,000",
+            "purchase": "70,000",
+            "purchase_currency": "SL",
+            "status": null,
+            "fetched_at": "2026-09-19T06:32:19.170Z",
+            "sha256": "e96f82cf6e66cd9bf1d2b5184c4dd6f3ee7846719db61ba982c78c809e893140"
+          }
         }
       ],
       [
         {
           "type": "single",
-          "title": "SMS Elbing",
+          "title": "SMS Elbing",
           "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/germ_cruiser_elbing.png",
           "br": "4.7",
-          "rp": "21,000",
-          "sp": "70,000",
+          "rp": 21000,
+          "sp": 70000,
           "data_unit_id": "germ_cruiser_elbing",
+          "required_unit_id": "germ_destroyer_class1936b",
           "selected": false,
           "class_name": "",
           "details": true,
-          "main_role": "Light cruiser"
+          "rank": "III",
+          "research_country": "Germany",
+          "main_role": "Light cruiser",
+          "is_component": false,
+          "component_of": null,
+          "is_premium": false,
+          "is_squadron": false,
+          "wiki": {
+            "url": "https://wiki.warthunder.com/unit/germ_cruiser_elbing",
+            "rank": "III",
+            "battle_rating_context": "default",
+            "battle_ratings": {
+              "AB": "4.7",
+              "RB": "4.7"
+            },
+            "battle_ratings_by_battle": {
+              "default": {
+                "AB": "4.7",
+                "RB": "4.7"
+              }
+            },
+            "research": "21,000",
+            "purchase": "70,000",
+            "purchase_currency": "SL",
+            "status": null,
+            "fetched_at": "2026-09-19T06:32:16.888Z",
+            "sha256": "98bdfa5333150b8d852a5366a9b956f300d0f9b26dd70d9fbbd472681538cd85"
+          }
         },
         {
           "type": "single",
           "title": "Emden",
           "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/germ_cruiser_emden_1944.png",
           "br": "5.0",
-          "rp": "25,000",
-          "sp": "87,000",
+          "rp": 25000,
+          "sp": 87000,
           "data_unit_id": "germ_cruiser_emden_1944",
+          "required_unit_id": "germ_cruiser_elbing",
           "selected": false,
           "class_name": "",
           "details": true,
-          "main_role": "Light cruiser"
+          "rank": "III",
+          "research_country": "Germany",
+          "main_role": "Light cruiser",
+          "is_component": false,
+          "component_of": null,
+          "is_premium": false,
+          "is_squadron": false,
+          "wiki": {
+            "url": "https://wiki.warthunder.com/unit/germ_cruiser_emden_1944",
+            "rank": "III",
+            "battle_rating_context": "default",
+            "battle_ratings": {
+              "AB": "5.0",
+              "RB": "5.0"
+            },
+            "battle_ratings_by_battle": {
+              "default": {
+                "AB": "5.0",
+                "RB": "5.0"
+              }
+            },
+            "research": "25,000",
+            "purchase": "87,000",
+            "purchase_currency": "SL",
+            "status": null,
+            "fetched_at": "2026-09-19T06:32:16.893Z",
+            "sha256": "d357a50741c6751d291027f9e94723f4083476208f2771d8df222e71c44c03fd"
+          }
         }
       ]
     ],
@@ -257,23 +748,79 @@
           "rp": 0,
           "sp": 0,
           "data_unit_id": "germ_destroyer_class1936c_z47",
+          "required_unit_id": "",
           "selected": false,
           "class_name": "prem",
           "details": true,
-          "main_role": "Destroyer"
+          "rank": "III",
+          "research_country": "Germany",
+          "main_role": "Destroyer",
+          "is_component": false,
+          "component_of": null,
+          "is_premium": true,
+          "is_squadron": false,
+          "wiki": {
+            "url": "https://wiki.warthunder.com/unit/germ_destroyer_class1936c_z47",
+            "rank": "III",
+            "battle_rating_context": "default",
+            "battle_ratings": {
+              "AB": "5.0",
+              "RB": "5.0"
+            },
+            "battle_ratings_by_battle": {
+              "default": {
+                "AB": "5.0",
+                "RB": "5.0"
+              }
+            },
+            "research": null,
+            "purchase": "1,750",
+            "purchase_currency": "GE",
+            "status": "Premium vehicle",
+            "fetched_at": "2026-09-19T06:32:18.665Z",
+            "sha256": "59e5c545d7bdba7681adfb69c72db7acf282a7bd865765c090e45c43fc581ce4"
+          }
         },
         {
           "type": "single",
-          "title": "Z20 Karl Galster",
+          "title": "Z20 Karl Galster",
           "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/germ_destroyer_class1936_z20_karlgalster.png",
           "br": "4.7",
           "rp": 0,
           "sp": 0,
           "data_unit_id": "germ_destroyer_class1936_z20_karlgalster",
+          "required_unit_id": "",
           "selected": false,
           "class_name": "prem",
           "details": true,
-          "main_role": "Destroyer"
+          "rank": "III",
+          "research_country": "Germany",
+          "main_role": "Destroyer",
+          "is_component": false,
+          "component_of": null,
+          "is_premium": true,
+          "is_squadron": false,
+          "wiki": {
+            "url": "https://wiki.warthunder.com/unit/germ_destroyer_class1936_z20_karlgalster",
+            "rank": "III",
+            "battle_rating_context": "default",
+            "battle_ratings": {
+              "AB": "4.7",
+              "RB": "4.7"
+            },
+            "battle_ratings_by_battle": {
+              "default": {
+                "AB": "4.7",
+                "RB": "4.7"
+              }
+            },
+            "research": null,
+            "purchase": null,
+            "purchase_currency": null,
+            "status": "Premium vehicle",
+            "fetched_at": "2026-09-19T06:32:18.352Z",
+            "sha256": "f5e7b95eb92efb260df1e9541dc5a4a78fed381514419b855d2d11080b5de713"
+          }
         }
       ],
       [
@@ -285,10 +832,38 @@
           "rp": 0,
           "sp": 0,
           "data_unit_id": "germ_destroyer_class1939_t31",
+          "required_unit_id": "",
           "selected": false,
           "class_name": "prem",
           "details": true,
-          "main_role": "Destroyer"
+          "rank": "III",
+          "research_country": "Germany",
+          "main_role": "Destroyer",
+          "is_component": false,
+          "component_of": null,
+          "is_premium": true,
+          "is_squadron": false,
+          "wiki": {
+            "url": "https://wiki.warthunder.com/unit/germ_destroyer_class1939_t31",
+            "rank": "III",
+            "battle_rating_context": "default",
+            "battle_ratings": {
+              "AB": "4.0",
+              "RB": "4.0"
+            },
+            "battle_ratings_by_battle": {
+              "default": {
+                "AB": "4.0",
+                "RB": "4.0"
+              }
+            },
+            "research": null,
+            "purchase": null,
+            "purchase_currency": null,
+            "status": "Premium vehicle",
+            "fetched_at": "2026-09-19T06:32:19.060Z",
+            "sha256": "29dd016f0651a22700653dd2347658cb9c7a6c344f5ca8661ac5ac7d751d6f56"
+          }
         },
         {
           "type": "single",
@@ -298,15 +873,44 @@
           "rp": 0,
           "sp": 0,
           "data_unit_id": "germ_destroyer_class1936a_z25",
+          "required_unit_id": "",
           "selected": false,
           "class_name": "prem",
           "details": true,
-          "main_role": "Destroyer"
+          "rank": "III",
+          "research_country": "Germany",
+          "main_role": "Destroyer",
+          "is_component": false,
+          "component_of": null,
+          "is_premium": true,
+          "is_squadron": false,
+          "wiki": {
+            "url": "https://wiki.warthunder.com/unit/germ_destroyer_class1936a_z25",
+            "rank": "III",
+            "battle_rating_context": "default",
+            "battle_ratings": {
+              "AB": "4.3",
+              "RB": "4.3"
+            },
+            "battle_ratings_by_battle": {
+              "default": {
+                "AB": "4.3",
+                "RB": "4.3"
+              }
+            },
+            "research": null,
+            "purchase": null,
+            "purchase_currency": null,
+            "status": "Premium vehicle",
+            "fetched_at": "2026-09-19T06:32:18.688Z",
+            "sha256": "ea73f5a48c37c54aa46980322aa98215ba7470d00a8aa8999911424c3206557d"
+          }
         }
       ]
     ],
     "selected": [],
-    "unlock_quantity": 0
+    "unlock_quantity": null,
+    "source": "wiki"
   },
   {
     "rank": "IV",
@@ -317,13 +921,41 @@
           "title": "Lütjens",
           "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/germ_destroyer_lutjens_class_lutjens.png",
           "br": "5.3",
-          "rp": "33,000",
-          "sp": "115,000",
+          "rp": 33000,
+          "sp": 115000,
           "data_unit_id": "germ_destroyer_lutjens_class_lutjens",
+          "required_unit_id": "germ_destroyer_class1944_z52",
           "selected": false,
           "class_name": "",
           "details": true,
-          "main_role": "Destroyer"
+          "rank": "IV",
+          "research_country": "Germany",
+          "main_role": "Destroyer",
+          "is_component": false,
+          "component_of": null,
+          "is_premium": false,
+          "is_squadron": false,
+          "wiki": {
+            "url": "https://wiki.warthunder.com/unit/germ_destroyer_lutjens_class_lutjens",
+            "rank": "IV",
+            "battle_rating_context": "default",
+            "battle_ratings": {
+              "AB": "5.3",
+              "RB": "5.3"
+            },
+            "battle_ratings_by_battle": {
+              "default": {
+                "AB": "5.3",
+                "RB": "5.3"
+              }
+            },
+            "research": "33,000",
+            "purchase": "115,000",
+            "purchase_currency": "SL",
+            "status": null,
+            "fetched_at": "2026-09-19T06:32:19.377Z",
+            "sha256": "00f7d8285a6b0ee2a52ba4e9092f1650f266dfabb365f670286607e286f0c3e7"
+          }
         },
         {
           "type": "multiple",
@@ -332,6 +964,7 @@
           "selected": false,
           "br": "5.3-5.7",
           "data_unit_id": "germ_cruiser_leipzig_nurnberg_group",
+          "required_unit_id": "germ_destroyer_lutjens_class_lutjens",
           "class_name": "",
           "items": [
             {
@@ -339,42 +972,128 @@
               "title": "Leipzig",
               "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/germ_cruiser_leipzig.png",
               "br": "5.3",
-              "rp": "46,000",
-              "sp": "150,000",
+              "rp": 46000,
+              "sp": 150000,
               "data_unit_id": "germ_cruiser_leipzig",
+              "required_unit_id": "",
               "selected": false,
               "class_name": "",
               "details": true,
-              "main_role": "Light cruiser"
+              "rank": "IV",
+              "research_country": "Germany",
+              "main_role": "Light cruiser",
+              "is_component": false,
+              "component_of": null,
+              "is_premium": false,
+              "is_squadron": false,
+              "wiki": {
+                "url": "https://wiki.warthunder.com/unit/germ_cruiser_leipzig",
+                "rank": "IV",
+                "battle_rating_context": "default",
+                "battle_ratings": {
+                  "AB": "5.3",
+                  "RB": "5.3"
+                },
+                "battle_ratings_by_battle": {
+                  "default": {
+                    "AB": "5.3",
+                    "RB": "5.3"
+                  }
+                },
+                "research": "46,000",
+                "purchase": "150,000",
+                "purchase_currency": "SL",
+                "status": null,
+                "fetched_at": "2026-09-19T06:32:17.214Z",
+                "sha256": "982d3581341c1f8ea7d462713954ad631d9a72c9bd06c73f25094a1db714135f"
+              }
             },
             {
               "type": "single",
               "title": "Nürnberg",
               "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/germ_cruiser_nurnberg.png",
               "br": "5.7",
-              "rp": "30,000",
-              "sp": "185,000",
+              "rp": 30000,
+              "sp": 185000,
               "data_unit_id": "germ_cruiser_nurnberg",
+              "required_unit_id": "germ_cruiser_leipzig",
               "selected": false,
               "class_name": "",
               "details": true,
-              "main_role": "Light cruiser"
+              "rank": "IV",
+              "research_country": "Germany",
+              "main_role": "Light cruiser",
+              "is_component": false,
+              "component_of": null,
+              "is_premium": false,
+              "is_squadron": false,
+              "wiki": {
+                "url": "https://wiki.warthunder.com/unit/germ_cruiser_nurnberg",
+                "rank": "IV",
+                "battle_rating_context": "default",
+                "battle_ratings": {
+                  "AB": "5.7",
+                  "RB": "5.7"
+                },
+                "battle_ratings_by_battle": {
+                  "default": {
+                    "AB": "5.7",
+                    "RB": "5.7"
+                  }
+                },
+                "research": "30,000",
+                "purchase": "185,000",
+                "purchase_currency": "SL",
+                "status": null,
+                "fetched_at": "2026-09-19T06:32:17.422Z",
+                "sha256": "6cfbdf48c9b1232e71b689f9556f35cacc85c353262d336d424d7989172544a3"
+              }
             }
           ],
-          "details": true
+          "details": true,
+          "rp": 76000,
+          "sp": 335000
         },
         {
           "type": "single",
-          "title": "Admiral Hipper",
+          "title": "Admiral Hipper",
           "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/germ_cruiser_admiral_hipper.png",
           "br": "6.0",
-          "rp": "59,000",
-          "sp": "185,000",
+          "rp": 59000,
+          "sp": 185000,
           "data_unit_id": "germ_cruiser_admiral_hipper",
+          "required_unit_id": "germ_cruiser_leipzig_nurnberg_group",
           "selected": false,
           "class_name": "",
           "details": true,
-          "main_role": "Heavy cruiser"
+          "rank": "IV",
+          "research_country": "Germany",
+          "main_role": "Heavy cruiser",
+          "is_component": false,
+          "component_of": null,
+          "is_premium": false,
+          "is_squadron": false,
+          "wiki": {
+            "url": "https://wiki.warthunder.com/unit/germ_cruiser_admiral_hipper",
+            "rank": "IV",
+            "battle_rating_context": "default",
+            "battle_ratings": {
+              "AB": "6.0",
+              "RB": "6.0"
+            },
+            "battle_ratings_by_battle": {
+              "default": {
+                "AB": "6.0",
+                "RB": "6.0"
+              }
+            },
+            "research": "59,000",
+            "purchase": "185,000",
+            "purchase_currency": "SL",
+            "status": null,
+            "fetched_at": "2026-09-19T06:32:16.440Z",
+            "sha256": "cd6fe67def7d8838dda7af0f4f307ecb816ed4507b5d2461c7f2b13c6c683cb3"
+          }
         }
       ],
       [
@@ -383,26 +1102,82 @@
           "title": "Köln",
           "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/germ_cruiser_koln.png",
           "br": "5.3",
-          "rp": "46,000",
-          "sp": "150,000",
+          "rp": 46000,
+          "sp": 150000,
           "data_unit_id": "germ_cruiser_koln",
+          "required_unit_id": "germ_cruiser_emden_1944",
           "selected": false,
           "class_name": "",
           "details": true,
-          "main_role": "Light cruiser"
+          "rank": "IV",
+          "research_country": "Germany",
+          "main_role": "Light cruiser",
+          "is_component": false,
+          "component_of": null,
+          "is_premium": false,
+          "is_squadron": false,
+          "wiki": {
+            "url": "https://wiki.warthunder.com/unit/germ_cruiser_koln",
+            "rank": "IV",
+            "battle_rating_context": "default",
+            "battle_ratings": {
+              "AB": "5.3",
+              "RB": "5.3"
+            },
+            "battle_ratings_by_battle": {
+              "default": {
+                "AB": "5.3",
+                "RB": "5.3"
+              }
+            },
+            "research": "46,000",
+            "purchase": "150,000",
+            "purchase_currency": "SL",
+            "status": null,
+            "fetched_at": "2026-09-19T06:32:16.993Z",
+            "sha256": "ecfad72ee02b44d79aae564229d1483e3564233988982c22041b23bbd2a97af6"
+          }
         },
         {
           "type": "single",
-          "title": "Admiral Graf Spee",
+          "title": "Admiral Graf Spee",
           "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/germ_cruiser_admiral_graf_spee.png",
           "br": "6.0",
-          "rp": "73,000",
-          "sp": "230,000",
+          "rp": 73000,
+          "sp": 230000,
           "data_unit_id": "germ_cruiser_admiral_graf_spee",
+          "required_unit_id": "germ_cruiser_koln",
           "selected": false,
           "class_name": "",
           "details": true,
-          "main_role": "Heavy cruiser"
+          "rank": "IV",
+          "research_country": "Germany",
+          "main_role": "Heavy cruiser",
+          "is_component": false,
+          "component_of": null,
+          "is_premium": false,
+          "is_squadron": false,
+          "wiki": {
+            "url": "https://wiki.warthunder.com/unit/germ_cruiser_admiral_graf_spee",
+            "rank": "IV",
+            "battle_rating_context": "default",
+            "battle_ratings": {
+              "AB": "6.0",
+              "RB": "6.0"
+            },
+            "battle_ratings_by_battle": {
+              "default": {
+                "AB": "6.0",
+                "RB": "6.0"
+              }
+            },
+            "research": "73,000",
+            "purchase": "230,000",
+            "purchase_currency": "SL",
+            "status": null,
+            "fetched_at": "2026-09-19T06:32:16.661Z",
+            "sha256": "724041cfc0d8e8a5ee4839da5ac9bca75f2d5bf4054ae0332ab8ca258c3eb6a9"
+          }
         }
       ]
     ],
@@ -416,29 +1191,128 @@
           "rp": 0,
           "sp": 0,
           "data_unit_id": "germ_cruiser_karlsruhe",
+          "required_unit_id": "",
           "selected": false,
           "class_name": "prem",
           "details": true,
-          "main_role": "Light cruiser"
+          "rank": "IV",
+          "research_country": "Germany",
+          "main_role": "Light cruiser",
+          "is_component": false,
+          "component_of": null,
+          "is_premium": true,
+          "is_squadron": false,
+          "wiki": {
+            "url": "https://wiki.warthunder.com/unit/germ_cruiser_karlsruhe",
+            "rank": "IV",
+            "battle_rating_context": "default",
+            "battle_ratings": {
+              "AB": "5.7",
+              "RB": "5.7"
+            },
+            "battle_ratings_by_battle": {
+              "default": {
+                "AB": "5.7",
+                "RB": "5.7"
+              }
+            },
+            "research": null,
+            "purchase": "4,880",
+            "purchase_currency": "GE",
+            "status": "Premium vehicle",
+            "fetched_at": "2026-09-19T06:32:17.105Z",
+            "sha256": "95b28e78d66ef0653ff77ba045d4be5e718b7823d82a41b228da85af1ed7367c"
+          }
         },
         {
           "type": "single",
-          "title": "Prinz Eugen",
+          "title": "Prinz Eugen",
           "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/germ_cruiser_prinz_eugen.png",
           "br": "6.0",
           "rp": 0,
           "sp": 0,
           "data_unit_id": "germ_cruiser_prinz_eugen",
+          "required_unit_id": "",
           "selected": false,
           "class_name": "prem",
           "details": true,
-          "main_role": "Heavy cruiser"
+          "rank": "IV",
+          "research_country": "Germany",
+          "main_role": "Heavy cruiser",
+          "is_component": false,
+          "component_of": null,
+          "is_premium": true,
+          "is_squadron": false,
+          "wiki": {
+            "url": "https://wiki.warthunder.com/unit/germ_cruiser_prinz_eugen",
+            "rank": "IV",
+            "battle_rating_context": "default",
+            "battle_ratings": {
+              "AB": "6.0",
+              "RB": "6.0"
+            },
+            "battle_ratings_by_battle": {
+              "default": {
+                "AB": "6.0",
+                "RB": "6.0"
+              }
+            },
+            "research": null,
+            "purchase": "8,020",
+            "purchase_currency": "GE",
+            "status": "Premium vehicle",
+            "fetched_at": "2026-09-19T06:32:17.254Z",
+            "sha256": "766710ec96341e54c35372b25720191d495baf2e01f78c97919ae0754b37b0ff"
+          }
         }
       ],
-      []
+      [
+        {
+          "type": "single",
+          "title": "Admiral Scheer",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/germ_cruiser_admiral_scheer.png",
+          "br": "5.7",
+          "rp": 0,
+          "sp": 0,
+          "data_unit_id": "germ_cruiser_admiral_scheer",
+          "required_unit_id": "",
+          "selected": false,
+          "class_name": "prem",
+          "details": true,
+          "rank": "IV",
+          "research_country": "Germany",
+          "main_role": "Heavy cruiser",
+          "is_component": false,
+          "component_of": null,
+          "is_premium": true,
+          "is_squadron": false,
+          "wiki": {
+            "url": "https://wiki.warthunder.com/unit/germ_cruiser_admiral_scheer",
+            "rank": "IV",
+            "battle_rating_context": "default",
+            "battle_ratings": {
+              "AB": "5.7",
+              "RB": "5.7"
+            },
+            "battle_ratings_by_battle": {
+              "default": {
+                "AB": "5.7",
+                "RB": "5.7"
+              }
+            },
+            "research": null,
+            "purchase": "7,480",
+            "purchase_currency": "GE",
+            "status": "Premium vehicle",
+            "fetched_at": "2026-09-19T06:32:16.724Z",
+            "sha256": "66dc18106ddefd772196619cef62e0c4bc09e31626823e5f06c64a8318f68705"
+          }
+        }
+      ]
     ],
     "selected": [],
-    "unlock_quantity": 0
+    "unlock_quantity": null,
+    "source": "wiki"
   },
   {
     "rank": "V",
@@ -451,90 +1325,261 @@
           "selected": false,
           "br": "6.0-6.7",
           "data_unit_id": "germ_westfalen_helgoland_group",
+          "required_unit_id": "germ_cruiser_admiral_hipper",
           "class_name": "",
           "items": [
             {
               "type": "single",
-              "title": "SMS Westfalen",
+              "title": "SMS Westfalen",
               "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/germ_battleship_westfalen.png",
               "br": "6.0",
-              "rp": "110,000",
-              "sp": "340,000",
+              "rp": 110000,
+              "sp": 340000,
               "data_unit_id": "germ_battleship_westfalen",
+              "required_unit_id": "",
               "selected": false,
               "class_name": "",
               "details": true,
-              "main_role": "Battleship"
+              "rank": "V",
+              "research_country": "Germany",
+              "main_role": "Battleship",
+              "is_component": false,
+              "component_of": null,
+              "is_premium": false,
+              "is_squadron": false,
+              "wiki": {
+                "url": "https://wiki.warthunder.com/unit/germ_battleship_westfalen",
+                "rank": "V",
+                "battle_rating_context": "default",
+                "battle_ratings": {
+                  "AB": "6.0",
+                  "RB": "6.0"
+                },
+                "battle_ratings_by_battle": {
+                  "default": {
+                    "AB": "6.0",
+                    "RB": "6.0"
+                  }
+                },
+                "research": "110,000",
+                "purchase": "340,000",
+                "purchase_currency": "SL",
+                "status": null,
+                "fetched_at": "2026-09-19T06:32:16.404Z",
+                "sha256": "c3babcd2a761037738da92086879f3e713e981276d30cf5de2f05f45220529f4"
+              }
             },
             {
               "type": "single",
-              "title": "SMS Helgoland",
+              "title": "SMS Helgoland",
               "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/germ_battleship_helgoland.png",
               "br": "6.7",
-              "rp": "73,000",
-              "sp": "440,000",
+              "rp": 73000,
+              "sp": 440000,
               "data_unit_id": "germ_battleship_helgoland",
+              "required_unit_id": "germ_battleship_westfalen",
               "selected": false,
               "class_name": "",
               "details": true,
-              "main_role": "Battleship"
+              "rank": "V",
+              "research_country": "Germany",
+              "main_role": "Battleship",
+              "is_component": false,
+              "component_of": null,
+              "is_premium": false,
+              "is_squadron": false,
+              "wiki": {
+                "url": "https://wiki.warthunder.com/unit/germ_battleship_helgoland",
+                "rank": "V",
+                "battle_rating_context": "default",
+                "battle_ratings": {
+                  "AB": "6.7",
+                  "RB": "6.7"
+                },
+                "battle_ratings_by_battle": {
+                  "default": {
+                    "AB": "6.7",
+                    "RB": "6.7"
+                  }
+                },
+                "research": "73,000",
+                "purchase": "440,000",
+                "purchase_currency": "SL",
+                "status": null,
+                "fetched_at": "2026-09-19T06:32:15.675Z",
+                "sha256": "ed5570149f38e34be9fbaef996590d6af3c67bfb9ef2c8c4a0ab0171fddb4601"
+              }
             }
           ],
-          "details": true
+          "details": true,
+          "rp": 183000,
+          "sp": 780000
         },
         {
           "type": "single",
-          "title": "SMS Kaiser",
+          "title": "SMS Kaiser",
           "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/germ_battleship_kaiser.png",
           "br": "6.7",
-          "rp": "145,000",
-          "sp": "440,000",
+          "rp": 145000,
+          "sp": 440000,
           "data_unit_id": "germ_battleship_kaiser",
+          "required_unit_id": "germ_westfalen_helgoland_group",
           "selected": false,
           "class_name": "",
           "details": true,
-          "main_role": "Battleship"
+          "rank": "V",
+          "research_country": "Germany",
+          "main_role": "Battleship",
+          "is_component": false,
+          "component_of": null,
+          "is_premium": false,
+          "is_squadron": false,
+          "wiki": {
+            "url": "https://wiki.warthunder.com/unit/germ_battleship_kaiser",
+            "rank": "V",
+            "battle_rating_context": "default",
+            "battle_ratings": {
+              "AB": "6.7",
+              "RB": "6.7"
+            },
+            "battle_ratings_by_battle": {
+              "default": {
+                "AB": "6.7",
+                "RB": "6.7"
+              }
+            },
+            "research": "145,000",
+            "purchase": "440,000",
+            "purchase_currency": "SL",
+            "status": null,
+            "fetched_at": "2026-09-19T06:32:15.634Z",
+            "sha256": "5074fd37c1d174d489fa7ee891b2e54c192397999b99cf6ed2a7b4ff9034e5c8"
+          }
         },
         {
           "type": "single",
-          "title": "SMS König",
+          "title": "SMS König",
           "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/germ_battleship_konig.png",
           "br": "6.7",
-          "rp": "180,000",
-          "sp": "540,000",
+          "rp": 180000,
+          "sp": 540000,
           "data_unit_id": "germ_battleship_konig",
+          "required_unit_id": "germ_battleship_kaiser",
           "selected": false,
           "class_name": "",
           "details": true,
-          "main_role": "Battleship"
+          "rank": "V",
+          "research_country": "Germany",
+          "main_role": "Battleship",
+          "is_component": false,
+          "component_of": null,
+          "is_premium": false,
+          "is_squadron": false,
+          "wiki": {
+            "url": "https://wiki.warthunder.com/unit/germ_battleship_konig",
+            "rank": "V",
+            "battle_rating_context": "default",
+            "battle_ratings": {
+              "AB": "6.7",
+              "RB": "6.7"
+            },
+            "battle_ratings_by_battle": {
+              "default": {
+                "AB": "6.7",
+                "RB": "6.7"
+              }
+            },
+            "research": "180,000",
+            "purchase": "540,000",
+            "purchase_currency": "SL",
+            "status": null,
+            "fetched_at": "2026-09-19T06:32:15.910Z",
+            "sha256": "7c19e67b6a00551728ed9cdcf4bd98cce96fb4c1e3b1c2ab5537ddd76dc2209b"
+          }
         }
       ],
       [
         {
           "type": "single",
-          "title": "SMS Von der Tann",
+          "title": "SMS Von der Tann",
           "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/germ_battlecruiser_von_der_tann.png",
           "br": "6.0",
-          "rp": "90,000",
-          "sp": "280,000",
+          "rp": 90000,
+          "sp": 280000,
           "data_unit_id": "germ_battlecruiser_von_der_tann",
+          "required_unit_id": "germ_cruiser_admiral_graf_spee",
           "selected": false,
           "class_name": "",
           "details": true,
-          "main_role": "Battlecruiser"
+          "rank": "V",
+          "research_country": "Germany",
+          "main_role": "Battlecruiser",
+          "is_component": false,
+          "component_of": null,
+          "is_premium": false,
+          "is_squadron": false,
+          "wiki": {
+            "url": "https://wiki.warthunder.com/unit/germ_battlecruiser_von_der_tann",
+            "rank": "V",
+            "battle_rating_context": "default",
+            "battle_ratings": {
+              "AB": "6.0",
+              "RB": "6.0"
+            },
+            "battle_ratings_by_battle": {
+              "default": {
+                "AB": "6.0",
+                "RB": "6.0"
+              }
+            },
+            "research": "90,000",
+            "purchase": "280,000",
+            "purchase_currency": "SL",
+            "status": null,
+            "fetched_at": "2026-09-19T06:32:15.143Z",
+            "sha256": "69463c8b4b30c47a2002d6913f05ff1640e7a0912d673a76a60c237d84778fd4"
+          }
         },
         {
           "type": "single",
-          "title": "SMS Derfflinger",
+          "title": "SMS Derfflinger",
           "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/germ_battlecruiser_derfflinger.png",
           "br": "6.7",
-          "rp": "145,000",
-          "sp": "440,000",
+          "rp": 145000,
+          "sp": 440000,
           "data_unit_id": "germ_battlecruiser_derfflinger",
+          "required_unit_id": "germ_battlecruiser_von_der_tann",
           "selected": false,
           "class_name": "",
           "details": true,
-          "main_role": "Battlecruiser"
+          "rank": "V",
+          "research_country": "Germany",
+          "main_role": "Battlecruiser",
+          "is_component": false,
+          "component_of": null,
+          "is_premium": false,
+          "is_squadron": false,
+          "wiki": {
+            "url": "https://wiki.warthunder.com/unit/germ_battlecruiser_derfflinger",
+            "rank": "V",
+            "battle_rating_context": "default",
+            "battle_ratings": {
+              "AB": "6.7",
+              "RB": "6.7"
+            },
+            "battle_ratings_by_battle": {
+              "default": {
+                "AB": "6.7",
+                "RB": "6.7"
+              }
+            },
+            "research": "145,000",
+            "purchase": "440,000",
+            "purchase_currency": "SL",
+            "status": null,
+            "fetched_at": "2026-09-19T06:32:14.750Z",
+            "sha256": "25e20aac282ec938a8d0b17762ac86f78ae3af5f9ef89acfeb193402d93c15d5"
+          }
         }
       ]
     ],
@@ -542,35 +1587,92 @@
       [
         {
           "type": "single",
-          "title": "SMS Nassau",
+          "title": "SMS Nassau",
           "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/germ_battleship_nassau.png",
           "br": "6.0",
           "rp": 0,
           "sp": 0,
           "data_unit_id": "germ_battleship_nassau",
+          "required_unit_id": "",
           "selected": false,
           "class_name": "prem",
           "details": true,
-          "main_role": "Battleship"
+          "rank": "V",
+          "research_country": "Germany",
+          "main_role": "Battleship",
+          "is_component": false,
+          "component_of": null,
+          "is_premium": true,
+          "is_squadron": false,
+          "wiki": {
+            "url": "https://wiki.warthunder.com/unit/germ_battleship_nassau",
+            "rank": "V",
+            "battle_rating_context": "default",
+            "battle_ratings": {
+              "AB": "6.0",
+              "RB": "6.0"
+            },
+            "battle_ratings_by_battle": {
+              "default": {
+                "AB": "6.0",
+                "RB": "6.0"
+              }
+            },
+            "research": null,
+            "purchase": "8,380",
+            "purchase_currency": "GE",
+            "status": "Premium vehicle",
+            "fetched_at": "2026-09-19T06:32:15.924Z",
+            "sha256": "e50a942fa124fe12ceff412a00c95c6fcdb0c0917fff6e3cb5d760bee0cc9228"
+          }
         },
         {
           "type": "single",
-          "title": "SMS Ostfriesland",
+          "title": "SMS Ostfriesland",
           "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/germ_battleship_ostfriesland.png",
           "br": "6.7",
           "rp": null,
           "sp": null,
           "data_unit_id": "germ_battleship_ostfriesland",
+          "required_unit_id": "",
           "selected": false,
           "class_name": "",
           "details": true,
-          "main_role": "Battleship"
+          "rank": "V",
+          "research_country": "Germany",
+          "main_role": "Battleship",
+          "is_component": false,
+          "component_of": null,
+          "is_premium": false,
+          "is_squadron": false,
+          "wiki": {
+            "url": "https://wiki.warthunder.com/unit/germ_battleship_ostfriesland",
+            "rank": "V",
+            "battle_rating_context": "default",
+            "battle_ratings": {
+              "AB": "6.7",
+              "RB": "6.7"
+            },
+            "battle_ratings_by_battle": {
+              "default": {
+                "AB": "6.7",
+                "RB": "6.7"
+              }
+            },
+            "research": null,
+            "purchase": null,
+            "purchase_currency": null,
+            "status": null,
+            "fetched_at": "2026-09-19T06:32:16.129Z",
+            "sha256": "ece4b7d6abcaf4e9ca0c6a324f9ff856343d428a00cd920f493a2484220e7481"
+          }
         }
       ],
       []
     ],
     "selected": [],
-    "unlock_quantity": 0
+    "unlock_quantity": null,
+    "source": "wiki"
   },
   {
     "rank": "VI",
@@ -578,57 +1680,169 @@
       [
         {
           "type": "single",
-          "title": "SMS Bayern",
+          "title": "SMS Bayern",
           "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/germ_battleship_bayern.png",
           "br": "7.0",
-          "rp": "260,000",
-          "sp": "780,000",
+          "rp": 260000,
+          "sp": 780000,
           "data_unit_id": "germ_battleship_bayern",
+          "required_unit_id": "germ_battleship_konig",
           "selected": false,
           "class_name": "",
           "details": true,
-          "main_role": "Battleship"
+          "rank": "VI",
+          "research_country": "Germany",
+          "main_role": "Battleship",
+          "is_component": false,
+          "component_of": null,
+          "is_premium": false,
+          "is_squadron": false,
+          "wiki": {
+            "url": "https://wiki.warthunder.com/unit/germ_battleship_bayern",
+            "rank": "VI",
+            "battle_rating_context": "default",
+            "battle_ratings": {
+              "AB": "7.0",
+              "RB": "7.0"
+            },
+            "battle_ratings_by_battle": {
+              "default": {
+                "AB": "7.0",
+                "RB": "7.0"
+              }
+            },
+            "research": "260,000",
+            "purchase": "780,000",
+            "purchase_currency": "SL",
+            "status": null,
+            "fetched_at": "2026-09-19T06:32:15.082Z",
+            "sha256": "1b561905b5accc313cfe86727f419b6576ab90f4837ddc5e6fae09e2399be065"
+          }
         },
         {
           "type": "single",
-          "title": "SMS Sachsen",
+          "title": "SMS Sachsen",
           "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/germ_battleship_sachsen.png",
           "br": "7.0",
-          "rp": "300,000",
-          "sp": "900,000",
+          "rp": 300000,
+          "sp": 900000,
           "data_unit_id": "germ_battleship_sachsen",
+          "required_unit_id": "germ_battleship_bayern",
           "selected": false,
           "class_name": "",
           "details": true,
-          "main_role": "Battleship"
+          "rank": "VI",
+          "research_country": "Germany",
+          "main_role": "Battleship",
+          "is_component": false,
+          "component_of": null,
+          "is_premium": false,
+          "is_squadron": false,
+          "wiki": {
+            "url": "https://wiki.warthunder.com/unit/germ_battleship_sachsen",
+            "rank": "VI",
+            "battle_rating_context": "default",
+            "battle_ratings": {
+              "AB": "7.0",
+              "RB": "7.0"
+            },
+            "battle_ratings_by_battle": {
+              "default": {
+                "AB": "7.0",
+                "RB": "7.0"
+              }
+            },
+            "research": "300,000",
+            "purchase": "900,000",
+            "purchase_currency": "SL",
+            "status": null,
+            "fetched_at": "2026-09-19T06:32:16.133Z",
+            "sha256": "7a1e98ff00174fe95d574b806e09c62a4ee7e31ae32884db88c2be8a0ea19626"
+          }
         }
       ],
       [
         {
           "type": "single",
-          "title": "Ersatz Yorck",
+          "title": "Ersatz Yorck",
           "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/germ_battlecruiser_ersatz_yorck.png",
           "br": "7.0",
-          "rp": "220,000",
-          "sp": "660,000",
+          "rp": 220000,
+          "sp": 660000,
           "data_unit_id": "germ_battlecruiser_ersatz_yorck",
+          "required_unit_id": "germ_battlecruiser_derfflinger",
           "selected": false,
           "class_name": "",
           "details": true,
-          "main_role": "Battlecruiser"
+          "rank": "VI",
+          "research_country": "Germany",
+          "main_role": "Battlecruiser",
+          "is_component": false,
+          "component_of": null,
+          "is_premium": false,
+          "is_squadron": false,
+          "wiki": {
+            "url": "https://wiki.warthunder.com/unit/germ_battlecruiser_ersatz_yorck",
+            "rank": "VI",
+            "battle_rating_context": "default",
+            "battle_ratings": {
+              "AB": "7.0",
+              "RB": "7.0"
+            },
+            "battle_ratings_by_battle": {
+              "default": {
+                "AB": "7.0",
+                "RB": "7.0"
+              }
+            },
+            "research": "220,000",
+            "purchase": "660,000",
+            "purchase_currency": "SL",
+            "status": null,
+            "fetched_at": "2026-09-19T06:32:14.808Z",
+            "sha256": "bc06f6c543900b9a577dd144b2d12a0ef1dc2df385e4fc8a25c5feed8124ef36"
+          }
         },
         {
           "type": "single",
           "title": "Scharnhorst",
           "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/germ_battleship_scharnhorst.png",
           "br": "7.3",
-          "rp": "350,000",
-          "sp": "1,050,000",
+          "rp": 350000,
+          "sp": 1050000,
           "data_unit_id": "germ_battleship_scharnhorst",
+          "required_unit_id": "germ_battlecruiser_ersatz_yorck",
           "selected": false,
           "class_name": "",
           "details": true,
-          "main_role": "Battlecruiser"
+          "rank": "VI",
+          "research_country": "Germany",
+          "main_role": "Battlecruiser",
+          "is_component": false,
+          "component_of": null,
+          "is_premium": false,
+          "is_squadron": false,
+          "wiki": {
+            "url": "https://wiki.warthunder.com/unit/germ_battleship_scharnhorst",
+            "rank": "VI",
+            "battle_rating_context": "default",
+            "battle_ratings": {
+              "AB": "7.3",
+              "RB": "7.3"
+            },
+            "battle_ratings_by_battle": {
+              "default": {
+                "AB": "7.3",
+                "RB": "7.3"
+              }
+            },
+            "research": "350,000",
+            "purchase": "1,050,000",
+            "purchase_currency": "SL",
+            "status": null,
+            "fetched_at": "2026-09-19T06:32:16.243Z",
+            "sha256": "9b9b12a8e8056987c81a6dfb761af21964e2e70d53b6d27fb4b913a945e9bf12"
+          }
         }
       ]
     ],
@@ -642,23 +1856,79 @@
           "rp": 0,
           "sp": 0,
           "data_unit_id": "germ_battleship_gneisenau_380mm",
+          "required_unit_id": "",
           "selected": false,
           "class_name": "prem",
           "details": true,
-          "main_role": "Battlecruiser"
+          "rank": "VI",
+          "research_country": "Germany",
+          "main_role": "Battlecruiser",
+          "is_component": false,
+          "component_of": null,
+          "is_premium": true,
+          "is_squadron": false,
+          "wiki": {
+            "url": "https://wiki.warthunder.com/unit/germ_battleship_gneisenau_380mm",
+            "rank": "VI",
+            "battle_rating_context": "default",
+            "battle_ratings": {
+              "AB": "7.7",
+              "RB": "7.7"
+            },
+            "battle_ratings_by_battle": {
+              "default": {
+                "AB": "7.7",
+                "RB": "7.7"
+              }
+            },
+            "research": null,
+            "purchase": null,
+            "purchase_currency": null,
+            "status": "Premium vehicle",
+            "fetched_at": "2026-09-19T06:32:15.615Z",
+            "sha256": "67ecd0c3ca3160149967dabb2ba88f54a59ab86739de3168b20a54c762d4e285"
+          }
         },
         {
           "type": "single",
-          "title": "SMS Baden",
+          "title": "SMS Baden",
           "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/germ_battleship_baden.png",
           "br": "7.0",
           "rp": null,
           "sp": null,
           "data_unit_id": "germ_battleship_baden",
+          "required_unit_id": "",
           "selected": false,
           "class_name": "",
           "details": true,
-          "main_role": "Battleship"
+          "rank": "VI",
+          "research_country": "Germany",
+          "main_role": "Battleship",
+          "is_component": false,
+          "component_of": null,
+          "is_premium": false,
+          "is_squadron": false,
+          "wiki": {
+            "url": "https://wiki.warthunder.com/unit/germ_battleship_baden",
+            "rank": "VI",
+            "battle_rating_context": "default",
+            "battle_ratings": {
+              "AB": "7.0",
+              "RB": "7.0"
+            },
+            "battle_ratings_by_battle": {
+              "default": {
+                "AB": "7.0",
+                "RB": "7.0"
+              }
+            },
+            "research": null,
+            "purchase": null,
+            "purchase_currency": null,
+            "status": null,
+            "fetched_at": "2026-09-19T06:32:15.146Z",
+            "sha256": "3af7f202109b7c2e3e57d998c14f773c7585e2372b333580d6243d8147a5cdaa"
+          }
         }
       ],
       [
@@ -670,15 +1940,44 @@
           "rp": null,
           "sp": null,
           "data_unit_id": "germ_battlecruiser_mackensen_class",
+          "required_unit_id": "",
           "selected": false,
           "class_name": "",
           "details": true,
-          "main_role": "Battlecruiser"
+          "rank": "VI",
+          "research_country": "Germany",
+          "main_role": "Battlecruiser",
+          "is_component": false,
+          "component_of": null,
+          "is_premium": false,
+          "is_squadron": false,
+          "wiki": {
+            "url": "https://wiki.warthunder.com/unit/germ_battlecruiser_mackensen_class",
+            "rank": "VI",
+            "battle_rating_context": "default",
+            "battle_ratings": {
+              "AB": "7.0",
+              "RB": "7.0"
+            },
+            "battle_ratings_by_battle": {
+              "default": {
+                "AB": "7.0",
+                "RB": "7.0"
+              }
+            },
+            "research": null,
+            "purchase": null,
+            "purchase_currency": null,
+            "status": null,
+            "fetched_at": "2026-09-19T06:32:14.905Z",
+            "sha256": "3e89b5d8b9f6ed25f88314190ba1b53973b2f99de6f1782d5c138a56edbe49fa"
+          }
         }
       ]
     ],
     "selected": [],
-    "unlock_quantity": 0
+    "unlock_quantity": null,
+    "source": "wiki"
   },
   {
     "rank": "VII",
@@ -689,13 +1988,41 @@
           "title": "Bismarck",
           "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/germ_battleship_bismarck.png",
           "br": "8.3",
-          "rp": "400,000",
-          "sp": "1,150,000",
+          "rp": 400000,
+          "sp": 1150000,
           "data_unit_id": "germ_battleship_bismarck",
+          "required_unit_id": "germ_battleship_sachsen",
           "selected": false,
           "class_name": "",
           "details": true,
-          "main_role": "Battleship"
+          "rank": "VII",
+          "research_country": "Germany",
+          "main_role": "Battleship",
+          "is_component": false,
+          "component_of": null,
+          "is_premium": false,
+          "is_squadron": false,
+          "wiki": {
+            "url": "https://wiki.warthunder.com/unit/germ_battleship_bismarck",
+            "rank": "VII",
+            "battle_rating_context": "default",
+            "battle_ratings": {
+              "AB": "8.3",
+              "RB": "8.3"
+            },
+            "battle_ratings_by_battle": {
+              "default": {
+                "AB": "8.3",
+                "RB": "8.3"
+              }
+            },
+            "research": "400,000",
+            "purchase": "1,150,000",
+            "purchase_currency": "SL",
+            "status": null,
+            "fetched_at": "2026-09-19T06:32:15.419Z",
+            "sha256": "65d7886fc8a95559b4c6fc520693e1e92c5384ac75e5709666ae33790a372a4c"
+          }
         }
       ],
       []
@@ -705,6 +2032,7 @@
       []
     ],
     "selected": [],
-    "unlock_quantity": 0
+    "unlock_quantity": null,
+    "source": "wiki"
   }
 ]

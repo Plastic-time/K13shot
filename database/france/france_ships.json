@@ -8,26 +8,82 @@
           "title": "Bourrasque",
           "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/fr_destroyer_bourrasque_class_bourrasque.png",
           "br": "3.7",
-          "rp": null,
-          "sp": null,
+          "rp": 0,
+          "sp": 0,
           "data_unit_id": "fr_destroyer_bourrasque_class_bourrasque",
+          "required_unit_id": "",
           "selected": false,
           "class_name": "",
           "details": true,
-          "main_role": "Destroyer"
+          "rank": "I",
+          "research_country": "France",
+          "main_role": "Destroyer",
+          "is_component": false,
+          "component_of": null,
+          "is_premium": false,
+          "is_squadron": false,
+          "wiki": {
+            "url": "https://wiki.warthunder.com/unit/fr_destroyer_bourrasque_class_bourrasque",
+            "rank": "I",
+            "battle_rating_context": "default",
+            "battle_ratings": {
+              "AB": "3.7",
+              "RB": "3.7"
+            },
+            "battle_ratings_by_battle": {
+              "default": {
+                "AB": "3.7",
+                "RB": "3.7"
+              }
+            },
+            "research": "Free",
+            "purchase": "Free",
+            "purchase_currency": "SL",
+            "status": null,
+            "fetched_at": "2026-09-19T06:32:42.234Z",
+            "sha256": "c1b41c2d319593ee0a04722c511a09689b4e0e917089209bd3f22d2f332fc867"
+          }
         },
         {
           "type": "single",
-          "title": "La Combattante",
+          "title": "La Combattante",
           "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/fr_destroyer_hunt_3series.png",
           "br": "4.0",
-          "rp": "4,000",
-          "sp": "2,100",
+          "rp": 4000,
+          "sp": 2100,
           "data_unit_id": "fr_destroyer_hunt_3series",
+          "required_unit_id": "fr_destroyer_bourrasque_class_bourrasque",
           "selected": false,
           "class_name": "",
           "details": true,
-          "main_role": "Destroyer"
+          "rank": "I",
+          "research_country": "France",
+          "main_role": "Destroyer",
+          "is_component": false,
+          "component_of": null,
+          "is_premium": false,
+          "is_squadron": false,
+          "wiki": {
+            "url": "https://wiki.warthunder.com/unit/fr_destroyer_hunt_3series",
+            "rank": "I",
+            "battle_rating_context": "default",
+            "battle_ratings": {
+              "AB": "4.0",
+              "RB": "4.0"
+            },
+            "battle_ratings_by_battle": {
+              "default": {
+                "AB": "4.0",
+                "RB": "4.0"
+              }
+            },
+            "research": "4,000",
+            "purchase": "2,100",
+            "purchase_currency": "SL",
+            "status": null,
+            "fetched_at": "2026-09-19T06:32:42.694Z",
+            "sha256": "595db1d2e1af03fa193a713cebe9864a56db9f9cab86790b2837dd6f17385af2"
+          }
         }
       ],
       [
@@ -36,39 +92,123 @@
           "title": "Leopard",
           "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/fr_destroyer_jaguar_class_leopard.png",
           "br": "3.7",
-          "rp": "2,900",
-          "sp": "700",
+          "rp": 2900,
+          "sp": 700,
           "data_unit_id": "fr_destroyer_jaguar_class_leopard",
+          "required_unit_id": "",
           "selected": false,
           "class_name": "",
           "details": true,
-          "main_role": "Destroyer"
+          "rank": "I",
+          "research_country": "France",
+          "main_role": "Destroyer",
+          "is_component": false,
+          "component_of": null,
+          "is_premium": false,
+          "is_squadron": false,
+          "wiki": {
+            "url": "https://wiki.warthunder.com/unit/fr_destroyer_jaguar_class_leopard",
+            "rank": "I",
+            "battle_rating_context": "default",
+            "battle_ratings": {
+              "AB": "3.7",
+              "RB": "3.7"
+            },
+            "battle_ratings_by_battle": {
+              "default": {
+                "AB": "3.7",
+                "RB": "3.7"
+              }
+            },
+            "research": "2,900",
+            "purchase": "700",
+            "purchase_currency": "SL",
+            "status": null,
+            "fetched_at": "2026-09-19T06:32:42.741Z",
+            "sha256": "87bbde59e173f4452b00164244a4a7c85d518519b55a27a25020840e448b948e"
+          }
         },
         {
           "type": "single",
           "title": "Chacal",
           "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/fr_destroyer_jaguar_class_chacal.png",
           "br": "4.0",
-          "rp": "4,000",
-          "sp": "2,100",
+          "rp": 4000,
+          "sp": 2100,
           "data_unit_id": "fr_destroyer_jaguar_class_chacal",
+          "required_unit_id": "fr_destroyer_jaguar_class_leopard",
           "selected": false,
           "class_name": "",
           "details": true,
-          "main_role": "Destroyer"
+          "rank": "I",
+          "research_country": "France",
+          "main_role": "Destroyer",
+          "is_component": false,
+          "component_of": null,
+          "is_premium": false,
+          "is_squadron": false,
+          "wiki": {
+            "url": "https://wiki.warthunder.com/unit/fr_destroyer_jaguar_class_chacal",
+            "rank": "I",
+            "battle_rating_context": "default",
+            "battle_ratings": {
+              "AB": "4.0",
+              "RB": "4.0"
+            },
+            "battle_ratings_by_battle": {
+              "default": {
+                "AB": "4.0",
+                "RB": "4.0"
+              }
+            },
+            "research": "4,000",
+            "purchase": "2,100",
+            "purchase_currency": "SL",
+            "status": null,
+            "fetched_at": "2026-09-19T06:32:42.586Z",
+            "sha256": "64cf2d3652cea8d2d1b2b88233b77b0caeb2a2dfdcb783ac340e8bb277db67a8"
+          }
         },
         {
           "type": "single",
           "title": "Verdun",
           "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/fr_destroyer_guepard_class_verdun.png",
           "br": "4.0",
-          "rp": "5,300",
-          "sp": "5,000",
+          "rp": 5300,
+          "sp": 5000,
           "data_unit_id": "fr_destroyer_guepard_class_verdun",
+          "required_unit_id": "fr_destroyer_jaguar_class_chacal",
           "selected": false,
           "class_name": "",
           "details": true,
-          "main_role": "Destroyer"
+          "rank": "I",
+          "research_country": "France",
+          "main_role": "Destroyer",
+          "is_component": false,
+          "component_of": null,
+          "is_premium": false,
+          "is_squadron": false,
+          "wiki": {
+            "url": "https://wiki.warthunder.com/unit/fr_destroyer_guepard_class_verdun",
+            "rank": "I",
+            "battle_rating_context": "default",
+            "battle_ratings": {
+              "AB": "4.0",
+              "RB": "4.0"
+            },
+            "battle_ratings_by_battle": {
+              "default": {
+                "AB": "4.0",
+                "RB": "4.0"
+              }
+            },
+            "research": "5,300",
+            "purchase": "5,000",
+            "purchase_currency": "SL",
+            "status": null,
+            "fetched_at": "2026-09-19T06:32:42.521Z",
+            "sha256": "869e639408f3b913b8d69f219b09a7af78ae74b9cc57fe2f82ee597d2b47fb5d"
+          }
         }
       ]
     ],
@@ -82,10 +222,38 @@
           "rp": 0,
           "sp": 0,
           "data_unit_id": "fr_destroyer_jaguar_class_panthere",
+          "required_unit_id": "",
           "selected": false,
           "class_name": "prem",
           "details": true,
-          "main_role": "Destroyer"
+          "rank": "I",
+          "research_country": "France",
+          "main_role": "Destroyer",
+          "is_component": false,
+          "component_of": null,
+          "is_premium": true,
+          "is_squadron": false,
+          "wiki": {
+            "url": "https://wiki.warthunder.com/unit/fr_destroyer_jaguar_class_panthere",
+            "rank": "I",
+            "battle_rating_context": "default",
+            "battle_ratings": {
+              "AB": "3.7",
+              "RB": "3.7"
+            },
+            "battle_ratings_by_battle": {
+              "default": {
+                "AB": "3.7",
+                "RB": "3.7"
+              }
+            },
+            "research": null,
+            "purchase": "250",
+            "purchase_currency": "GE",
+            "status": "Premium vehicle",
+            "fetched_at": "2026-09-19T06:32:42.990Z",
+            "sha256": "72392c5383c0c5f99db16c412435313a4124e0abbc992e54e74487972b145c51"
+          }
         },
         {
           "type": "single",
@@ -95,15 +263,44 @@
           "rp": 0,
           "sp": 0,
           "data_unit_id": "fr_destroyer_bourrasque_class_tornade",
+          "required_unit_id": "",
           "selected": false,
           "class_name": "prem",
           "details": true,
-          "main_role": "Destroyer"
+          "rank": "I",
+          "research_country": "France",
+          "main_role": "Destroyer",
+          "is_component": false,
+          "component_of": null,
+          "is_premium": true,
+          "is_squadron": false,
+          "wiki": {
+            "url": "https://wiki.warthunder.com/unit/fr_destroyer_bourrasque_class_tornade",
+            "rank": "I",
+            "battle_rating_context": "default",
+            "battle_ratings": {
+              "AB": "3.7",
+              "RB": "3.7"
+            },
+            "battle_ratings_by_battle": {
+              "default": {
+                "AB": "3.7",
+                "RB": "3.7"
+              }
+            },
+            "research": null,
+            "purchase": "400",
+            "purchase_currency": "GE",
+            "status": "Premium vehicle",
+            "fetched_at": "2026-09-19T06:32:42.045Z",
+            "sha256": "1efa8d81c79b40c505b1ff688c165e543cb41ae081fd2072c3b91283b694cd64"
+          }
         }
       ]
     ],
     "selected": [],
-    "unlock_quantity": 0
+    "unlock_quantity": null,
+    "source": "wiki"
   },
   {
     "rank": "II",
@@ -114,39 +311,123 @@
           "title": "Vautour",
           "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/fr_destroyer_aigle_class_vautour.png",
           "br": "4.3",
-          "rp": "9,000",
-          "sp": "16,000",
+          "rp": 9000,
+          "sp": 16000,
           "data_unit_id": "fr_destroyer_aigle_class_vautour",
+          "required_unit_id": "fr_destroyer_hunt_3series",
           "selected": false,
           "class_name": "",
           "details": true,
-          "main_role": "Destroyer"
+          "rank": "II",
+          "research_country": "France",
+          "main_role": "Destroyer",
+          "is_component": false,
+          "component_of": null,
+          "is_premium": false,
+          "is_squadron": false,
+          "wiki": {
+            "url": "https://wiki.warthunder.com/unit/fr_destroyer_aigle_class_vautour",
+            "rank": "II",
+            "battle_rating_context": "default",
+            "battle_ratings": {
+              "AB": "4.3",
+              "RB": "4.3"
+            },
+            "battle_ratings_by_battle": {
+              "default": {
+                "AB": "4.3",
+                "RB": "4.3"
+              }
+            },
+            "research": "9,000",
+            "purchase": "16,000",
+            "purchase_currency": "SL",
+            "status": null,
+            "fetched_at": "2026-09-19T06:32:42.184Z",
+            "sha256": "d6a1953effde5702ae9bdf6361f750d1c22f31b1e9fee2072100cf1f92b746be"
+          }
         },
         {
           "type": "single",
           "title": "Vauquelin",
           "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/fr_destroyer_vauquelin_class_vauquelin.png",
           "br": "4.3",
-          "rp": "11,000",
-          "sp": "22,000",
+          "rp": 11000,
+          "sp": 22000,
           "data_unit_id": "fr_destroyer_vauquelin_class_vauquelin",
+          "required_unit_id": "fr_destroyer_aigle_class_vautour",
           "selected": false,
           "class_name": "",
           "details": true,
-          "main_role": "Destroyer"
+          "rank": "II",
+          "research_country": "France",
+          "main_role": "Destroyer",
+          "is_component": false,
+          "component_of": null,
+          "is_premium": false,
+          "is_squadron": false,
+          "wiki": {
+            "url": "https://wiki.warthunder.com/unit/fr_destroyer_vauquelin_class_vauquelin",
+            "rank": "II",
+            "battle_rating_context": "default",
+            "battle_ratings": {
+              "AB": "4.3",
+              "RB": "4.3"
+            },
+            "battle_ratings_by_battle": {
+              "default": {
+                "AB": "4.3",
+                "RB": "4.3"
+              }
+            },
+            "research": "11,000",
+            "purchase": "22,000",
+            "purchase_currency": "SL",
+            "status": null,
+            "fetched_at": "2026-09-19T06:32:43.397Z",
+            "sha256": "caf4644a6e00f1e41ac46dbc5f559e68ba8f5012389800ff6a102f56dd8f148f"
+          }
         },
         {
           "type": "single",
           "title": "Guichen",
           "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/fr_cruiser_chateaurenault_class_guichen.png",
           "br": "4.7",
-          "rp": "13,000",
-          "sp": "31,000",
+          "rp": 13000,
+          "sp": 31000,
           "data_unit_id": "fr_cruiser_chateaurenault_class_guichen",
+          "required_unit_id": "fr_destroyer_vauquelin_class_vauquelin",
           "selected": false,
           "class_name": "",
           "details": true,
-          "main_role": "Destroyer"
+          "rank": "II",
+          "research_country": "France",
+          "main_role": "Destroyer",
+          "is_component": false,
+          "component_of": null,
+          "is_premium": false,
+          "is_squadron": false,
+          "wiki": {
+            "url": "https://wiki.warthunder.com/unit/fr_cruiser_chateaurenault_class_guichen",
+            "rank": "II",
+            "battle_rating_context": "default",
+            "battle_ratings": {
+              "AB": "4.7",
+              "RB": "4.7"
+            },
+            "battle_ratings_by_battle": {
+              "default": {
+                "AB": "4.7",
+                "RB": "4.7"
+              }
+            },
+            "research": "13,000",
+            "purchase": "31,000",
+            "purchase_currency": "SL",
+            "status": null,
+            "fetched_at": "2026-09-19T06:32:40.713Z",
+            "sha256": "d27fceca4380b6870d7fb7af2db57fa5a897a8fa1553e144d29df93033fcc2e9"
+          }
         }
       ],
       [
@@ -155,39 +436,123 @@
           "title": "Kleber",
           "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/fr_destroyer_desaix_class_kleber.png",
           "br": "4.3",
-          "rp": "7,000",
-          "sp": "8,700",
+          "rp": 7000,
+          "sp": 8700,
           "data_unit_id": "fr_destroyer_desaix_class_kleber",
+          "required_unit_id": "fr_destroyer_guepard_class_verdun",
           "selected": false,
           "class_name": "",
           "details": true,
-          "main_role": "Destroyer"
+          "rank": "II",
+          "research_country": "France",
+          "main_role": "Destroyer",
+          "is_component": false,
+          "component_of": null,
+          "is_premium": false,
+          "is_squadron": false,
+          "wiki": {
+            "url": "https://wiki.warthunder.com/unit/fr_destroyer_desaix_class_kleber",
+            "rank": "II",
+            "battle_rating_context": "default",
+            "battle_ratings": {
+              "AB": "4.3",
+              "RB": "4.3"
+            },
+            "battle_ratings_by_battle": {
+              "default": {
+                "AB": "4.3",
+                "RB": "4.3"
+              }
+            },
+            "research": "7,000",
+            "purchase": "8,700",
+            "purchase_currency": "SL",
+            "status": null,
+            "fetched_at": "2026-09-19T06:32:42.463Z",
+            "sha256": "82b6a293538c194e4f004609f5b0c4988280325556e9a406891da46ccc555577"
+          }
         },
         {
           "type": "single",
           "title": "Milan",
           "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/fr_destroyer_aigle_class_milan.png",
           "br": "4.3",
-          "rp": "9,000",
-          "sp": "16,000",
+          "rp": 9000,
+          "sp": 16000,
           "data_unit_id": "fr_destroyer_aigle_class_milan",
+          "required_unit_id": "fr_destroyer_desaix_class_kleber",
           "selected": false,
           "class_name": "",
           "details": true,
-          "main_role": "Destroyer"
+          "rank": "II",
+          "research_country": "France",
+          "main_role": "Destroyer",
+          "is_component": false,
+          "component_of": null,
+          "is_premium": false,
+          "is_squadron": false,
+          "wiki": {
+            "url": "https://wiki.warthunder.com/unit/fr_destroyer_aigle_class_milan",
+            "rank": "II",
+            "battle_rating_context": "default",
+            "battle_ratings": {
+              "AB": "4.3",
+              "RB": "4.3"
+            },
+            "battle_ratings_by_battle": {
+              "default": {
+                "AB": "4.3",
+                "RB": "4.3"
+              }
+            },
+            "research": "9,000",
+            "purchase": "16,000",
+            "purchase_currency": "SL",
+            "status": null,
+            "fetched_at": "2026-09-19T06:32:41.892Z",
+            "sha256": "bf2ed98bd07471fcfe9c101afe1040efc6316ad270cb771baccbdf0de1aba484"
+          }
         },
         {
           "type": "single",
           "title": "Marceau",
           "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/fr_destroyer_marceau_class_marceau.png",
           "br": "4.3",
-          "rp": "11,000",
-          "sp": "22,000",
+          "rp": 11000,
+          "sp": 22000,
           "data_unit_id": "fr_destroyer_marceau_class_marceau",
+          "required_unit_id": "fr_destroyer_aigle_class_milan",
           "selected": false,
           "class_name": "",
           "details": true,
-          "main_role": "Destroyer"
+          "rank": "II",
+          "research_country": "France",
+          "main_role": "Destroyer",
+          "is_component": false,
+          "component_of": null,
+          "is_premium": false,
+          "is_squadron": false,
+          "wiki": {
+            "url": "https://wiki.warthunder.com/unit/fr_destroyer_marceau_class_marceau",
+            "rank": "II",
+            "battle_rating_context": "default",
+            "battle_ratings": {
+              "AB": "4.3",
+              "RB": "4.3"
+            },
+            "battle_ratings_by_battle": {
+              "default": {
+                "AB": "4.3",
+                "RB": "4.3"
+              }
+            },
+            "research": "11,000",
+            "purchase": "22,000",
+            "purchase_currency": "SL",
+            "status": null,
+            "fetched_at": "2026-09-19T06:32:43.212Z",
+            "sha256": "2490eb6c4eed6a9fc20ddedf0500a113b3c889040059e0dde48d6d3918736ccf"
+          }
         }
       ]
     ],
@@ -201,15 +566,44 @@
           "rp": 0,
           "sp": 0,
           "data_unit_id": "fr_destroyer_aigle_class_aigle",
+          "required_unit_id": "",
           "selected": false,
           "class_name": "prem",
           "details": true,
-          "main_role": "Destroyer"
+          "rank": "II",
+          "research_country": "France",
+          "main_role": "Destroyer",
+          "is_component": false,
+          "component_of": null,
+          "is_premium": true,
+          "is_squadron": false,
+          "wiki": {
+            "url": "https://wiki.warthunder.com/unit/fr_destroyer_aigle_class_aigle",
+            "rank": "II",
+            "battle_rating_context": "default",
+            "battle_ratings": {
+              "AB": "4.3",
+              "RB": "4.3"
+            },
+            "battle_ratings_by_battle": {
+              "default": {
+                "AB": "4.3",
+                "RB": "4.3"
+              }
+            },
+            "research": null,
+            "purchase": "850",
+            "purchase_currency": "GE",
+            "status": "Premium vehicle",
+            "fetched_at": "2026-09-19T06:32:41.717Z",
+            "sha256": "089b24239d13c18accb24fbd4865b28798b62327afe113bdb2dc7f37d00fac93"
+          }
         }
       ]
     ],
     "selected": [],
-    "unlock_quantity": 0
+    "unlock_quantity": null,
+    "source": "wiki"
   },
   {
     "rank": "III",
@@ -217,57 +611,169 @@
       [
         {
           "type": "single",
-          "title": "Le Malin",
+          "title": "Le Malin",
           "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/fr_destroyer_le_fantasque_class_le_malin.png",
           "br": "4.7",
-          "rp": "15,000",
-          "sp": "38,000",
+          "rp": 15000,
+          "sp": 38000,
           "data_unit_id": "fr_destroyer_le_fantasque_class_le_malin",
+          "required_unit_id": "fr_cruiser_chateaurenault_class_guichen",
           "selected": false,
           "class_name": "",
           "details": true,
-          "main_role": "Destroyer"
+          "rank": "III",
+          "research_country": "France",
+          "main_role": "Destroyer",
+          "is_component": false,
+          "component_of": null,
+          "is_premium": false,
+          "is_squadron": false,
+          "wiki": {
+            "url": "https://wiki.warthunder.com/unit/fr_destroyer_le_fantasque_class_le_malin",
+            "rank": "III",
+            "battle_rating_context": "default",
+            "battle_ratings": {
+              "AB": "4.7",
+              "RB": "4.7"
+            },
+            "battle_ratings_by_battle": {
+              "default": {
+                "AB": "4.7",
+                "RB": "4.7"
+              }
+            },
+            "research": "15,000",
+            "purchase": "38,000",
+            "purchase_currency": "SL",
+            "status": null,
+            "fetched_at": "2026-09-19T06:32:42.880Z",
+            "sha256": "1624270758664e7452556f173488df256d19ed9bdefc9c6feb7f70916ece83f4"
+          }
         },
         {
           "type": "single",
           "title": "Mogador",
           "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/fr_destroyer_mogador_class_mogador.png",
           "br": "5.0",
-          "rp": "21,000",
-          "sp": "70,000",
+          "rp": 21000,
+          "sp": 70000,
           "data_unit_id": "fr_destroyer_mogador_class_mogador",
+          "required_unit_id": "fr_destroyer_le_fantasque_class_le_malin",
           "selected": false,
           "class_name": "",
           "details": true,
-          "main_role": "Destroyer"
+          "rank": "III",
+          "research_country": "France",
+          "main_role": "Destroyer",
+          "is_component": false,
+          "component_of": null,
+          "is_premium": false,
+          "is_squadron": false,
+          "wiki": {
+            "url": "https://wiki.warthunder.com/unit/fr_destroyer_mogador_class_mogador",
+            "rank": "III",
+            "battle_rating_context": "default",
+            "battle_ratings": {
+              "AB": "5.0",
+              "RB": "5.0"
+            },
+            "battle_ratings_by_battle": {
+              "default": {
+                "AB": "5.0",
+                "RB": "5.0"
+              }
+            },
+            "research": "21,000",
+            "purchase": "70,000",
+            "purchase_currency": "SL",
+            "status": null,
+            "fetched_at": "2026-09-19T06:32:43.170Z",
+            "sha256": "62453306baf256dd25ad3ec8ade5f17bb6b27a5ea7c45246bf6aad86fb4f69ed"
+          }
         }
       ],
       [
         {
           "type": "single",
-          "title": "Jeanne d'Arc",
+          "title": "Jeanne d'Arc",
           "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/fr_cruiser_jeanne_darc.png",
           "br": "4.7",
-          "rp": "18,000",
-          "sp": "55,000",
+          "rp": 18000,
+          "sp": 55000,
           "data_unit_id": "fr_cruiser_jeanne_darc",
+          "required_unit_id": "fr_destroyer_marceau_class_marceau",
           "selected": false,
           "class_name": "",
           "details": true,
-          "main_role": "Light cruiser"
+          "rank": "III",
+          "research_country": "France",
+          "main_role": "Light cruiser",
+          "is_component": false,
+          "component_of": null,
+          "is_premium": false,
+          "is_squadron": false,
+          "wiki": {
+            "url": "https://wiki.warthunder.com/unit/fr_cruiser_jeanne_darc",
+            "rank": "III",
+            "battle_rating_context": "default",
+            "battle_ratings": {
+              "AB": "4.7",
+              "RB": "4.7"
+            },
+            "battle_ratings_by_battle": {
+              "default": {
+                "AB": "4.7",
+                "RB": "4.7"
+              }
+            },
+            "research": "18,000",
+            "purchase": "55,000",
+            "purchase_currency": "SL",
+            "status": null,
+            "fetched_at": "2026-09-19T06:32:41.125Z",
+            "sha256": "9b9b6feebefae513a455bacfbcc3b3d15c76f6e2ed5b0353c29b794ff412c318"
+          }
         },
         {
           "type": "single",
           "title": "Primauguet",
           "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/fr_cruiser_dugauy_class_primaguet.png",
           "br": "5.0",
-          "rp": "25,000",
-          "sp": "87,000",
+          "rp": 25000,
+          "sp": 87000,
           "data_unit_id": "fr_cruiser_dugauy_class_primaguet",
+          "required_unit_id": "fr_cruiser_jeanne_darc",
           "selected": false,
           "class_name": "",
           "details": true,
-          "main_role": "Light cruiser"
+          "rank": "III",
+          "research_country": "France",
+          "main_role": "Light cruiser",
+          "is_component": false,
+          "component_of": null,
+          "is_premium": false,
+          "is_squadron": false,
+          "wiki": {
+            "url": "https://wiki.warthunder.com/unit/fr_cruiser_dugauy_class_primaguet",
+            "rank": "III",
+            "battle_rating_context": "default",
+            "battle_ratings": {
+              "AB": "5.0",
+              "RB": "5.0"
+            },
+            "battle_ratings_by_battle": {
+              "default": {
+                "AB": "5.0",
+                "RB": "5.0"
+              }
+            },
+            "research": "25,000",
+            "purchase": "87,000",
+            "purchase_currency": "SL",
+            "status": null,
+            "fetched_at": "2026-09-19T06:32:40.917Z",
+            "sha256": "b296a95cd7e32e2df5427f342d233a1d7df2753936f7450137bc133ae7e29159"
+          }
         }
       ]
     ],
@@ -275,16 +781,44 @@
       [
         {
           "type": "single",
-          "title": "Le Triomphant",
+          "title": "Le Triomphant",
           "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/fr_destroyer_le_fantasque_class_le_triomphant.png",
           "br": "4.7",
           "rp": 0,
           "sp": 0,
           "data_unit_id": "fr_destroyer_le_fantasque_class_le_triomphant",
+          "required_unit_id": "",
           "selected": false,
           "class_name": "prem",
           "details": true,
-          "main_role": "Destroyer"
+          "rank": "III",
+          "research_country": "France",
+          "main_role": "Destroyer",
+          "is_component": false,
+          "component_of": null,
+          "is_premium": true,
+          "is_squadron": false,
+          "wiki": {
+            "url": "https://wiki.warthunder.com/unit/fr_destroyer_le_fantasque_class_le_triomphant",
+            "rank": "III",
+            "battle_rating_context": "default",
+            "battle_ratings": {
+              "AB": "4.7",
+              "RB": "4.7"
+            },
+            "battle_ratings_by_battle": {
+              "default": {
+                "AB": "4.7",
+                "RB": "4.7"
+              }
+            },
+            "research": null,
+            "purchase": null,
+            "purchase_currency": null,
+            "status": "Premium vehicle",
+            "fetched_at": "2026-09-19T06:32:43.164Z",
+            "sha256": "6b708c28986d0899c0613db898bf867b449c42d7ae98164269d14bad8635face"
+          }
         },
         {
           "type": "single",
@@ -294,15 +828,44 @@
           "rp": 0,
           "sp": 0,
           "data_unit_id": "fr_cruiser_dugauy_class_dugauy_trouin",
+          "required_unit_id": "",
           "selected": false,
           "class_name": "prem",
           "details": true,
-          "main_role": "Light cruiser"
+          "rank": "III",
+          "research_country": "France",
+          "main_role": "Light cruiser",
+          "is_component": false,
+          "component_of": null,
+          "is_premium": true,
+          "is_squadron": false,
+          "wiki": {
+            "url": "https://wiki.warthunder.com/unit/fr_cruiser_dugauy_class_dugauy_trouin",
+            "rank": "III",
+            "battle_rating_context": "default",
+            "battle_ratings": {
+              "AB": "5.0",
+              "RB": "5.0"
+            },
+            "battle_ratings_by_battle": {
+              "default": {
+                "AB": "5.0",
+                "RB": "5.0"
+              }
+            },
+            "research": null,
+            "purchase": "1,600",
+            "purchase_currency": "GE",
+            "status": "Premium vehicle",
+            "fetched_at": "2026-09-19T06:32:40.958Z",
+            "sha256": "a63a679bc546d472cf0bd309cdda0edc02066d28939c2f2d043b80fc14350155"
+          }
         }
       ]
     ],
     "selected": [],
-    "unlock_quantity": 0
+    "unlock_quantity": null,
+    "source": "wiki"
   },
   {
     "rank": "IV",
@@ -313,67 +876,207 @@
           "title": "Colbert",
           "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/fr_cruiser_suffren_class_colbert.png",
           "br": "5.3",
-          "rp": "46,000",
-          "sp": "150,000",
+          "rp": 46000,
+          "sp": 150000,
           "data_unit_id": "fr_cruiser_suffren_class_colbert",
+          "required_unit_id": "fr_destroyer_mogador_class_mogador",
           "selected": false,
           "class_name": "",
           "details": true,
-          "main_role": "Heavy cruiser"
+          "rank": "IV",
+          "research_country": "France",
+          "main_role": "Heavy cruiser",
+          "is_component": false,
+          "component_of": null,
+          "is_premium": false,
+          "is_squadron": false,
+          "wiki": {
+            "url": "https://wiki.warthunder.com/unit/fr_cruiser_suffren_class_colbert",
+            "rank": "IV",
+            "battle_rating_context": "default",
+            "battle_ratings": {
+              "AB": "5.3",
+              "RB": "5.3"
+            },
+            "battle_ratings_by_battle": {
+              "default": {
+                "AB": "5.3",
+                "RB": "5.3"
+              }
+            },
+            "research": "46,000",
+            "purchase": "150,000",
+            "purchase_currency": "SL",
+            "status": null,
+            "fetched_at": "2026-09-19T06:32:41.667Z",
+            "sha256": "01c104416d7db61b1a6a675756a8b7978183d78beae5a476c86328f9c40bd0cd"
+          }
         },
         {
           "type": "single",
           "title": "Suffren",
           "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/fr_cruiser_suffren_class_suffren.png",
           "br": "5.3",
-          "rp": "59,000",
-          "sp": "185,000",
+          "rp": 59000,
+          "sp": 185000,
           "data_unit_id": "fr_cruiser_suffren_class_suffren",
+          "required_unit_id": "fr_cruiser_suffren_class_colbert",
           "selected": false,
           "class_name": "",
           "details": true,
-          "main_role": "Heavy cruiser"
+          "rank": "IV",
+          "research_country": "France",
+          "main_role": "Heavy cruiser",
+          "is_component": false,
+          "component_of": null,
+          "is_premium": false,
+          "is_squadron": false,
+          "wiki": {
+            "url": "https://wiki.warthunder.com/unit/fr_cruiser_suffren_class_suffren",
+            "rank": "IV",
+            "battle_rating_context": "default",
+            "battle_ratings": {
+              "AB": "5.3",
+              "RB": "5.3"
+            },
+            "battle_ratings_by_battle": {
+              "default": {
+                "AB": "5.3",
+                "RB": "5.3"
+              }
+            },
+            "research": "59,000",
+            "purchase": "185,000",
+            "purchase_currency": "SL",
+            "status": null,
+            "fetched_at": "2026-09-19T06:32:41.701Z",
+            "sha256": "161200689d727d610327b31aec84232dbc755495f996357a3ba8127f805dc421"
+          }
         }
       ],
       [
         {
           "type": "single",
-          "title": "Emile Bertin",
+          "title": "Emile Bertin",
           "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/fr_cruiser_emile_bertin.png",
           "br": "5.3",
-          "rp": "33,000",
-          "sp": "115,000",
+          "rp": 33000,
+          "sp": 115000,
           "data_unit_id": "fr_cruiser_emile_bertin",
+          "required_unit_id": "fr_cruiser_dugauy_class_primaguet",
           "selected": false,
           "class_name": "",
           "details": true,
-          "main_role": "Light cruiser"
+          "rank": "IV",
+          "research_country": "France",
+          "main_role": "Light cruiser",
+          "is_component": false,
+          "component_of": null,
+          "is_premium": false,
+          "is_squadron": false,
+          "wiki": {
+            "url": "https://wiki.warthunder.com/unit/fr_cruiser_emile_bertin",
+            "rank": "IV",
+            "battle_rating_context": "default",
+            "battle_ratings": {
+              "AB": "5.3",
+              "RB": "5.3"
+            },
+            "battle_ratings_by_battle": {
+              "default": {
+                "AB": "5.3",
+                "RB": "5.3"
+              }
+            },
+            "research": "33,000",
+            "purchase": "115,000",
+            "purchase_currency": "SL",
+            "status": null,
+            "fetched_at": "2026-09-19T06:32:41.132Z",
+            "sha256": "f3e47e1b608306af460fb0c64ad3c71ac38166f5c460fdbbdfa335e61ee34d33"
+          }
         },
         {
           "type": "single",
-          "title": "La Galissonnière",
+          "title": "La Galissonnière",
           "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/fr_cruiser_la_galissoniere_class_la_galissoniere.png",
           "br": "5.7",
-          "rp": "59,000",
-          "sp": "185,000",
+          "rp": 59000,
+          "sp": 185000,
           "data_unit_id": "fr_cruiser_la_galissoniere_class_la_galissoniere",
+          "required_unit_id": "fr_cruiser_emile_bertin",
           "selected": false,
           "class_name": "",
           "details": true,
-          "main_role": "Light cruiser"
+          "rank": "IV",
+          "research_country": "France",
+          "main_role": "Light cruiser",
+          "is_component": false,
+          "component_of": null,
+          "is_premium": false,
+          "is_squadron": false,
+          "wiki": {
+            "url": "https://wiki.warthunder.com/unit/fr_cruiser_la_galissoniere_class_la_galissoniere",
+            "rank": "IV",
+            "battle_rating_context": "default",
+            "battle_ratings": {
+              "AB": "5.7",
+              "RB": "5.7"
+            },
+            "battle_ratings_by_battle": {
+              "default": {
+                "AB": "5.7",
+                "RB": "5.7"
+              }
+            },
+            "research": "59,000",
+            "purchase": "185,000",
+            "purchase_currency": "SL",
+            "status": null,
+            "fetched_at": "2026-09-19T06:32:41.494Z",
+            "sha256": "7be50ce51fc79422e311dcd5faf60ba04d0c4f97d2ac0173fc4f45ef12ed90d8"
+          }
         },
         {
           "type": "single",
           "title": "Gloire",
           "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/fr_cruiser_la_galissoniere_class_gloire.png",
           "br": "5.7",
-          "rp": "73,000",
-          "sp": "230,000",
+          "rp": 73000,
+          "sp": 230000,
           "data_unit_id": "fr_cruiser_la_galissoniere_class_gloire",
+          "required_unit_id": "fr_cruiser_la_galissoniere_class_la_galissoniere",
           "selected": false,
           "class_name": "",
           "details": true,
-          "main_role": "Light cruiser"
+          "rank": "IV",
+          "research_country": "France",
+          "main_role": "Light cruiser",
+          "is_component": false,
+          "component_of": null,
+          "is_premium": false,
+          "is_squadron": false,
+          "wiki": {
+            "url": "https://wiki.warthunder.com/unit/fr_cruiser_la_galissoniere_class_gloire",
+            "rank": "IV",
+            "battle_rating_context": "default",
+            "battle_ratings": {
+              "AB": "5.7",
+              "RB": "5.7"
+            },
+            "battle_ratings_by_battle": {
+              "default": {
+                "AB": "5.7",
+                "RB": "5.7"
+              }
+            },
+            "research": "73,000",
+            "purchase": "230,000",
+            "purchase_currency": "SL",
+            "status": null,
+            "fetched_at": "2026-09-19T06:32:41.321Z",
+            "sha256": "15143ed7b028be8788d7b3cf6d2c9d3f983eeef17e7490dbf1e7c0762a0ed03c"
+          }
         }
       ]
     ],
@@ -387,15 +1090,44 @@
           "rp": 0,
           "sp": 0,
           "data_unit_id": "fr_cruiser_suffren_class_dupleix",
+          "required_unit_id": "",
           "selected": false,
           "class_name": "prem",
           "details": true,
-          "main_role": "Heavy cruiser"
+          "rank": "IV",
+          "research_country": "France",
+          "main_role": "Heavy cruiser",
+          "is_component": false,
+          "component_of": null,
+          "is_premium": true,
+          "is_squadron": false,
+          "wiki": {
+            "url": "https://wiki.warthunder.com/unit/fr_cruiser_suffren_class_dupleix",
+            "rank": "IV",
+            "battle_rating_context": "default",
+            "battle_ratings": {
+              "AB": "5.7",
+              "RB": "5.7"
+            },
+            "battle_ratings_by_battle": {
+              "default": {
+                "AB": "5.7",
+                "RB": "5.7"
+              }
+            },
+            "research": null,
+            "purchase": "6,090",
+            "purchase_currency": "GE",
+            "status": "Premium vehicle",
+            "fetched_at": "2026-09-19T06:32:41.398Z",
+            "sha256": "7f9bd6599e342edae136edeeac7986c722ac5e8485282e2bf647967656a1b859"
+          }
         }
       ]
     ],
     "selected": [],
-    "unlock_quantity": 0
+    "unlock_quantity": null,
+    "source": "wiki"
   },
   {
     "rank": "V",
@@ -406,41 +1138,166 @@
           "title": "Paris",
           "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/fr_battleship_courbet_class_paris.png",
           "br": "6.0",
-          "rp": "90,000",
-          "sp": "280,000",
+          "rp": 90000,
+          "sp": 280000,
           "data_unit_id": "fr_battleship_courbet_class_paris",
+          "required_unit_id": "fr_cruiser_suffren_class_suffren",
           "selected": false,
           "class_name": "",
           "details": true,
-          "main_role": "Battleship"
+          "rank": "V",
+          "research_country": "France",
+          "main_role": "Battleship",
+          "is_component": false,
+          "component_of": null,
+          "is_premium": false,
+          "is_squadron": false,
+          "wiki": {
+            "url": "https://wiki.warthunder.com/unit/fr_battleship_courbet_class_paris",
+            "rank": "V",
+            "battle_rating_context": "default",
+            "battle_ratings": {
+              "AB": "6.0",
+              "RB": "6.0"
+            },
+            "battle_ratings_by_battle": {
+              "default": {
+                "AB": "6.0",
+                "RB": "6.0"
+              }
+            },
+            "research": "90,000",
+            "purchase": "280,000",
+            "purchase_currency": "SL",
+            "status": null,
+            "fetched_at": "2026-09-19T06:32:40.093Z",
+            "sha256": "b28a6f2e256c055791479b2eeac55524ade45262750f4108ff4a87fd5c44435b"
+          }
         },
         {
           "type": "single",
           "title": "Lorraine",
           "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/fr_battleship_bretagne_class_lorraine.png",
           "br": "6.3",
-          "rp": "145,000",
-          "sp": "440,000",
+          "rp": 145000,
+          "sp": 440000,
           "data_unit_id": "fr_battleship_bretagne_class_lorraine",
+          "required_unit_id": "fr_battleship_courbet_class_paris",
           "selected": false,
           "class_name": "",
           "details": true,
-          "main_role": "Battleship"
+          "rank": "V",
+          "research_country": "France",
+          "main_role": "Battleship",
+          "is_component": false,
+          "component_of": null,
+          "is_premium": false,
+          "is_squadron": false,
+          "wiki": {
+            "url": "https://wiki.warthunder.com/unit/fr_battleship_bretagne_class_lorraine",
+            "rank": "V",
+            "battle_rating_context": "default",
+            "battle_ratings": {
+              "AB": "6.3",
+              "RB": "6.3"
+            },
+            "battle_ratings_by_battle": {
+              "default": {
+                "AB": "6.3",
+                "RB": "6.3"
+              }
+            },
+            "research": "145,000",
+            "purchase": "440,000",
+            "purchase_currency": "SL",
+            "status": null,
+            "fetched_at": "2026-09-19T06:32:39.902Z",
+            "sha256": "446e0577bc5901512d41268824ae3db67677186fbf399c35198fccc5d7215e73"
+          }
         }
       ],
       [
         {
           "type": "single",
-          "title": "Bretagne",
-          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/fr_battleship_bretagne_class_bretagne.png",
-          "br": "6.7",
-          "rp": "180,000",
-          "sp": "540,000",
-          "data_unit_id": "fr_battleship_bretagne_class_bretagne",
+          "title": "Algerie",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/fr_cruiser_algerie_class.png",
+          "br": "6.0",
+          "rp": 110000,
+          "sp": 340000,
+          "data_unit_id": "fr_cruiser_algerie_class",
+          "required_unit_id": "fr_cruiser_la_galissoniere_class_gloire",
           "selected": false,
           "class_name": "",
           "details": true,
-          "main_role": "Battleship"
+          "rank": "V",
+          "research_country": "France",
+          "main_role": "Heavy cruiser",
+          "is_component": false,
+          "component_of": null,
+          "is_premium": false,
+          "is_squadron": false,
+          "wiki": {
+            "url": "https://wiki.warthunder.com/unit/fr_cruiser_algerie_class",
+            "rank": "V",
+            "battle_rating_context": "default",
+            "battle_ratings": {
+              "AB": "6.0",
+              "RB": "6.0"
+            },
+            "battle_ratings_by_battle": {
+              "default": {
+                "AB": "6.0",
+                "RB": "6.0"
+              }
+            },
+            "research": "110,000",
+            "purchase": "340,000",
+            "purchase_currency": "SL",
+            "status": null,
+            "fetched_at": "2026-09-19T06:32:40.496Z",
+            "sha256": "9c61610a280bedb1522ee2924bed71e3bfeb32d3ee17803e71748d04fb9eafdb"
+          }
+        },
+        {
+          "type": "single",
+          "title": "Bretagne",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/fr_battleship_bretagne_class_bretagne.png",
+          "br": "6.7",
+          "rp": 180000,
+          "sp": 540000,
+          "data_unit_id": "fr_battleship_bretagne_class_bretagne",
+          "required_unit_id": "fr_cruiser_algerie_class",
+          "selected": false,
+          "class_name": "",
+          "details": true,
+          "rank": "V",
+          "research_country": "France",
+          "main_role": "Battleship",
+          "is_component": false,
+          "component_of": null,
+          "is_premium": false,
+          "is_squadron": false,
+          "wiki": {
+            "url": "https://wiki.warthunder.com/unit/fr_battleship_bretagne_class_bretagne",
+            "rank": "V",
+            "battle_rating_context": "default",
+            "battle_ratings": {
+              "AB": "6.7",
+              "RB": "6.7"
+            },
+            "battle_ratings_by_battle": {
+              "default": {
+                "AB": "6.7",
+                "RB": "6.7"
+              }
+            },
+            "research": "180,000",
+            "purchase": "540,000",
+            "purchase_currency": "SL",
+            "status": null,
+            "fetched_at": "2026-09-19T06:32:39.767Z",
+            "sha256": "968f85df9a7fb545b8848667f893a1997f83dcf8c79496abd7edef54aa9550fe"
+          }
         }
       ]
     ],
@@ -454,15 +1311,44 @@
           "rp": 0,
           "sp": 0,
           "data_unit_id": "fr_battleship_courbet_class_courbet",
+          "required_unit_id": "",
           "selected": false,
           "class_name": "prem",
           "details": true,
-          "main_role": "Battleship"
+          "rank": "V",
+          "research_country": "France",
+          "main_role": "Battleship",
+          "is_component": false,
+          "component_of": null,
+          "is_premium": true,
+          "is_squadron": false,
+          "wiki": {
+            "url": "https://wiki.warthunder.com/unit/fr_battleship_courbet_class_courbet",
+            "rank": "V",
+            "battle_rating_context": "default",
+            "battle_ratings": {
+              "AB": "6.0",
+              "RB": "6.0"
+            },
+            "battle_ratings_by_battle": {
+              "default": {
+                "AB": "6.0",
+                "RB": "6.0"
+              }
+            },
+            "research": null,
+            "purchase": "8,380",
+            "purchase_currency": "GE",
+            "status": "Premium vehicle",
+            "fetched_at": "2026-09-19T06:32:39.843Z",
+            "sha256": "fde17e7786022de897a06c8e4942487a2037f0253f733347385dac7727af88ff"
+          }
         }
       ]
     ],
     "selected": [],
-    "unlock_quantity": 0
+    "unlock_quantity": null,
+    "source": "wiki"
   },
   {
     "rank": "VI",
@@ -473,13 +1359,41 @@
           "title": "Dunkerque",
           "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/fr_battleship_dunkerque.png",
           "br": "7.0",
-          "rp": "260,000",
-          "sp": "780,000",
+          "rp": 260000,
+          "sp": 780000,
           "data_unit_id": "fr_battleship_dunkerque",
+          "required_unit_id": "fr_battleship_bretagne_class_lorraine",
           "selected": false,
           "class_name": "",
           "details": true,
-          "main_role": "Battleship"
+          "rank": "VI",
+          "research_country": "France",
+          "main_role": "Battleship",
+          "is_component": false,
+          "component_of": null,
+          "is_premium": false,
+          "is_squadron": false,
+          "wiki": {
+            "url": "https://wiki.warthunder.com/unit/fr_battleship_dunkerque",
+            "rank": "VI",
+            "battle_rating_context": "default",
+            "battle_ratings": {
+              "AB": "7.0",
+              "RB": "7.0"
+            },
+            "battle_ratings_by_battle": {
+              "default": {
+                "AB": "7.0",
+                "RB": "7.0"
+              }
+            },
+            "research": "260,000",
+            "purchase": "780,000",
+            "purchase_currency": "SL",
+            "status": null,
+            "fetched_at": "2026-09-19T06:32:40.185Z",
+            "sha256": "b14d6d4c7725848a53e44081db5c93c51031db300ed32383e3a587f034d5132d"
+          }
         }
       ],
       []
@@ -494,15 +1408,44 @@
           "rp": null,
           "sp": null,
           "data_unit_id": "fr_battleship_strasbourg",
+          "required_unit_id": "",
           "selected": false,
           "class_name": "",
           "details": true,
-          "main_role": "Battleship"
+          "rank": "VI",
+          "research_country": "France",
+          "main_role": "Battleship",
+          "is_component": false,
+          "component_of": null,
+          "is_premium": false,
+          "is_squadron": false,
+          "wiki": {
+            "url": "https://wiki.warthunder.com/unit/fr_battleship_strasbourg",
+            "rank": "VI",
+            "battle_rating_context": "default",
+            "battle_ratings": {
+              "AB": "7.3",
+              "RB": "7.3"
+            },
+            "battle_ratings_by_battle": {
+              "default": {
+                "AB": "7.3",
+                "RB": "7.3"
+              }
+            },
+            "research": null,
+            "purchase": null,
+            "purchase_currency": null,
+            "status": null,
+            "fetched_at": "2026-09-19T06:32:40.718Z",
+            "sha256": "d47b1019d2ee501dd0e25f93a0247330aecef14a88869a55e1b308225a4a72ea"
+          }
         }
       ]
     ],
     "selected": [],
-    "unlock_quantity": 0
+    "unlock_quantity": null,
+    "source": "wiki"
   },
   {
     "rank": "VII",
@@ -513,13 +1456,41 @@
           "title": "Richelieu",
           "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/fr_battleship_richelieu_class_richelieu.png",
           "br": "8.3",
-          "rp": "400,000",
-          "sp": "1,150,000",
+          "rp": 400000,
+          "sp": 1150000,
           "data_unit_id": "fr_battleship_richelieu_class_richelieu",
+          "required_unit_id": "fr_battleship_dunkerque",
           "selected": false,
           "class_name": "",
           "details": true,
-          "main_role": "Battleship"
+          "rank": "VII",
+          "research_country": "France",
+          "main_role": "Battleship",
+          "is_component": false,
+          "component_of": null,
+          "is_premium": false,
+          "is_squadron": false,
+          "wiki": {
+            "url": "https://wiki.warthunder.com/unit/fr_battleship_richelieu_class_richelieu",
+            "rank": "VII",
+            "battle_rating_context": "default",
+            "battle_ratings": {
+              "AB": "8.3",
+              "RB": "8.3"
+            },
+            "battle_ratings_by_battle": {
+              "default": {
+                "AB": "8.3",
+                "RB": "8.3"
+              }
+            },
+            "research": "400,000",
+            "purchase": "1,150,000",
+            "purchase_currency": "SL",
+            "status": null,
+            "fetched_at": "2026-09-19T06:32:40.618Z",
+            "sha256": "c4d7d021748bc00e646db57c0177277821f94fe1d445956bdb1425f0c6fe6a18"
+          }
         }
       ],
       [
@@ -528,20 +1499,91 @@
           "title": "Clemenceau",
           "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/fr_battleship_richelieu_class_clemenceau.png",
           "br": "8.3",
-          "rp": "400,000",
-          "sp": "1,150,000",
+          "rp": 400000,
+          "sp": 1150000,
           "data_unit_id": "fr_battleship_richelieu_class_clemenceau",
+          "required_unit_id": "fr_battleship_bretagne_class_bretagne",
           "selected": false,
           "class_name": "",
           "details": true,
-          "main_role": "Battleship"
+          "rank": "VII",
+          "research_country": "France",
+          "main_role": "Battleship",
+          "is_component": false,
+          "component_of": null,
+          "is_premium": false,
+          "is_squadron": false,
+          "wiki": {
+            "url": "https://wiki.warthunder.com/unit/fr_battleship_richelieu_class_clemenceau",
+            "rank": "VII",
+            "battle_rating_context": "default",
+            "battle_ratings": {
+              "AB": "8.3",
+              "RB": "8.3"
+            },
+            "battle_ratings_by_battle": {
+              "default": {
+                "AB": "8.3",
+                "RB": "8.3"
+              }
+            },
+            "research": "400,000",
+            "purchase": "1,150,000",
+            "purchase_currency": "SL",
+            "status": null,
+            "fetched_at": "2026-09-19T06:32:40.161Z",
+            "sha256": "6ac62bc216f58a6127724de1ae9e39e04cda458dca3588bce62633764014e789"
+          }
         }
       ]
     ],
     "premium_vehicles": [
-      []
+      [
+        {
+          "type": "single",
+          "title": "Jean Bart",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/fr_battleship_richelieu_class_jean_bart.png",
+          "br": "8.3",
+          "rp": 0,
+          "sp": 0,
+          "data_unit_id": "fr_battleship_richelieu_class_jean_bart",
+          "required_unit_id": "",
+          "selected": false,
+          "class_name": "prem",
+          "details": true,
+          "rank": "VII",
+          "research_country": "France",
+          "main_role": "Battleship",
+          "is_component": false,
+          "component_of": null,
+          "is_premium": true,
+          "is_squadron": false,
+          "wiki": {
+            "url": "https://wiki.warthunder.com/unit/fr_battleship_richelieu_class_jean_bart",
+            "rank": "VII",
+            "battle_rating_context": "default",
+            "battle_ratings": {
+              "AB": "8.3",
+              "RB": "8.3"
+            },
+            "battle_ratings_by_battle": {
+              "default": {
+                "AB": "8.3",
+                "RB": "8.3"
+              }
+            },
+            "research": null,
+            "purchase": null,
+            "purchase_currency": null,
+            "status": "Premium vehicle",
+            "fetched_at": "2026-09-19T06:32:40.435Z",
+            "sha256": "43b0eeae10370b5ba714027434a01dcdd3bb04ff31f1dd00b29b51651b46c56c"
+          }
+        }
+      ]
     ],
     "selected": [],
-    "unlock_quantity": 0
+    "unlock_quantity": null,
+    "source": "wiki"
   }
 ]

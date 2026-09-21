@@ -8,93 +8,289 @@
           "title": "MTB-1(1)",
           "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/uk_mtb_1series.png",
           "br": "1.0",
-          "rp": null,
-          "sp": null,
+          "rp": 0,
+          "sp": 0,
           "data_unit_id": "uk_mtb_1series",
+          "required_unit_id": "",
           "selected": false,
           "class_name": "",
           "details": true,
-          "main_role": "Boat"
+          "rank": "I",
+          "research_country": "Great Britain",
+          "main_role": "Boat",
+          "is_component": false,
+          "component_of": null,
+          "is_premium": false,
+          "is_squadron": false,
+          "wiki": {
+            "url": "https://wiki.warthunder.com/unit/uk_mtb_1series",
+            "rank": "I",
+            "battle_rating_context": "default",
+            "battle_ratings": {
+              "AB": "1.0",
+              "RB": "1.0"
+            },
+            "battle_ratings_by_battle": {
+              "default": {
+                "AB": "1.0",
+                "RB": "1.0"
+              }
+            },
+            "research": "Free",
+            "purchase": "Free",
+            "purchase_currency": "SL",
+            "status": null,
+            "fetched_at": "2026-09-19T06:32:58.732Z",
+            "sha256": "b25c898869789b2b2f9422a29e42c250c92088d1ca917c032c96b7705fc9a2a3"
+          }
         },
         {
           "type": "single",
           "title": "MTB-35",
           "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/uk_mtb35_vosper.png",
           "br": "1.0",
-          "rp": null,
-          "sp": null,
+          "rp": 0,
+          "sp": 0,
           "data_unit_id": "uk_mtb35_vosper",
+          "required_unit_id": "",
           "selected": false,
           "class_name": "",
           "details": true,
-          "main_role": "Boat"
+          "rank": "I",
+          "research_country": "Great Britain",
+          "main_role": "Boat",
+          "is_component": false,
+          "component_of": null,
+          "is_premium": false,
+          "is_squadron": false,
+          "wiki": {
+            "url": "https://wiki.warthunder.com/unit/uk_mtb35_vosper",
+            "rank": "I",
+            "battle_rating_context": "default",
+            "battle_ratings": {
+              "AB": "1.0",
+              "RB": "1.0"
+            },
+            "battle_ratings_by_battle": {
+              "default": {
+                "AB": "1.0",
+                "RB": "1.0"
+              }
+            },
+            "research": "Free",
+            "purchase": "Free",
+            "purchase_currency": "SL",
+            "status": null,
+            "fetched_at": "2026-09-19T06:32:58.893Z",
+            "sha256": "5d87cb7a756aafbddfc4a56ce51d5e36facc7fe08ee9d07e95b113117dd6f81b"
+          }
         },
         {
           "type": "single",
-          "title": "Fairmile A (ML100)",
+          "title": "Fairmile A (ML100)",
           "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/uk_fairmile_a_ml100.png",
           "br": "1.0",
-          "rp": "2,900",
-          "sp": "700",
+          "rp": 2900,
+          "sp": 700,
           "data_unit_id": "uk_fairmile_a_ml100",
+          "required_unit_id": "uk_mtb35_vosper",
           "selected": false,
           "class_name": "",
           "details": true,
-          "main_role": "Boat"
+          "rank": "I",
+          "research_country": "Great Britain",
+          "main_role": "Boat",
+          "is_component": false,
+          "component_of": null,
+          "is_premium": false,
+          "is_squadron": false,
+          "wiki": {
+            "url": "https://wiki.warthunder.com/unit/uk_fairmile_a_ml100",
+            "rank": "I",
+            "battle_rating_context": "default",
+            "battle_ratings": {
+              "AB": "1.0",
+              "RB": "1.0"
+            },
+            "battle_ratings_by_battle": {
+              "default": {
+                "AB": "1.0",
+                "RB": "1.0"
+              }
+            },
+            "research": "2,900",
+            "purchase": "700",
+            "purchase_currency": "SL",
+            "status": null,
+            "fetched_at": "2026-09-19T06:32:56.584Z",
+            "sha256": "a00674fc5350ef9cf317fb09bc9143540cc96924d78f97ed1cbe7656c11fe43e"
+          }
         },
         {
           "type": "single",
           "title": "MGB-61",
           "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/uk_70ft_mgb.png",
           "br": "1.7",
-          "rp": "5,900",
-          "sp": "6,300",
+          "rp": 5900,
+          "sp": 6300,
           "data_unit_id": "uk_70ft_mgb",
+          "required_unit_id": "uk_fairmile_a_ml100",
           "selected": false,
           "class_name": "",
           "details": true,
-          "main_role": "Boat"
+          "rank": "I",
+          "research_country": "Great Britain",
+          "main_role": "Boat",
+          "is_component": false,
+          "component_of": null,
+          "is_premium": false,
+          "is_squadron": false,
+          "wiki": {
+            "url": "https://wiki.warthunder.com/unit/uk_70ft_mgb",
+            "rank": "I",
+            "battle_rating_context": "default",
+            "battle_ratings": {
+              "AB": "1.7",
+              "RB": "1.7"
+            },
+            "battle_ratings_by_battle": {
+              "default": {
+                "AB": "1.7",
+                "RB": "1.7"
+              }
+            },
+            "research": "5,900",
+            "purchase": "6,300",
+            "purchase_currency": "SL",
+            "status": null,
+            "fetched_at": "2026-09-19T06:32:55.585Z",
+            "sha256": "12734fca17a3d11f04478a0557e8ad4fc3a93a09ab54058464cd3575dcfc1591"
+          }
         }
       ],
       [
         {
           "type": "single",
-          "title": "MTB Vosper",
+          "title": "MTB Vosper",
           "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/uk_mtb_vosper_1series.png",
           "br": "1.0",
-          "rp": "2,900",
-          "sp": "700",
+          "rp": 2900,
+          "sp": 700,
           "data_unit_id": "uk_mtb_vosper_1series",
+          "required_unit_id": "",
           "selected": false,
           "class_name": "",
           "details": true,
-          "main_role": "Boat"
+          "rank": "I",
+          "research_country": "Great Britain",
+          "main_role": "Boat",
+          "is_component": false,
+          "component_of": null,
+          "is_premium": false,
+          "is_squadron": false,
+          "wiki": {
+            "url": "https://wiki.warthunder.com/unit/uk_mtb_vosper_1series",
+            "rank": "I",
+            "battle_rating_context": "default",
+            "battle_ratings": {
+              "AB": "1.0",
+              "RB": "1.0"
+            },
+            "battle_ratings_by_battle": {
+              "default": {
+                "AB": "1.0",
+                "RB": "1.0"
+              }
+            },
+            "research": "2,900",
+            "purchase": "700",
+            "purchase_currency": "SL",
+            "status": null,
+            "fetched_at": "2026-09-19T06:32:59.064Z",
+            "sha256": "949431d23b050273a372a1347370d7f28d420180cc3be3b3a4ac4049143ffaea"
+          }
         },
         {
           "type": "single",
-          "title": "MTB Vosper(2)",
+          "title": "MTB Vosper(2)",
           "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/uk_mtb_vosper_2series.png",
           "br": "1.7",
-          "rp": "4,000",
-          "sp": "2,100",
+          "rp": 4000,
+          "sp": 2100,
           "data_unit_id": "uk_mtb_vosper_2series",
+          "required_unit_id": "uk_mtb_vosper_1series",
           "selected": false,
           "class_name": "",
           "details": true,
-          "main_role": "Boat"
+          "rank": "I",
+          "research_country": "Great Britain",
+          "main_role": "Boat",
+          "is_component": false,
+          "component_of": null,
+          "is_premium": false,
+          "is_squadron": false,
+          "wiki": {
+            "url": "https://wiki.warthunder.com/unit/uk_mtb_vosper_2series",
+            "rank": "I",
+            "battle_rating_context": "default",
+            "battle_ratings": {
+              "AB": "1.7",
+              "RB": "1.7"
+            },
+            "battle_ratings_by_battle": {
+              "default": {
+                "AB": "1.7",
+                "RB": "1.7"
+              }
+            },
+            "research": "4,000",
+            "purchase": "2,100",
+            "purchase_currency": "SL",
+            "status": null,
+            "fetched_at": "2026-09-19T06:32:59.273Z",
+            "sha256": "f6e7972377fe2b6e2f7d6e66b442fbbe8601a509799eeb7f6435b7180421f592"
+          }
         },
         {
           "type": "single",
-          "title": "ML 1383",
+          "title": "ML 1383",
           "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/uk_hdml_ml1383.png",
           "br": "1.7",
-          "rp": "5,900",
-          "sp": "6,300",
+          "rp": 5900,
+          "sp": 6300,
           "data_unit_id": "uk_hdml_ml1383",
+          "required_unit_id": "uk_mtb_vosper_2series",
           "selected": false,
           "class_name": "",
           "details": true,
-          "main_role": "Boat"
+          "rank": "I",
+          "research_country": "Great Britain",
+          "main_role": "Boat",
+          "is_component": false,
+          "component_of": null,
+          "is_premium": false,
+          "is_squadron": false,
+          "wiki": {
+            "url": "https://wiki.warthunder.com/unit/uk_hdml_ml1383",
+            "rank": "I",
+            "battle_rating_context": "default",
+            "battle_ratings": {
+              "AB": "1.7",
+              "RB": "1.7"
+            },
+            "battle_ratings_by_battle": {
+              "default": {
+                "AB": "1.7",
+                "RB": "1.7"
+              }
+            },
+            "research": "5,900",
+            "purchase": "6,300",
+            "purchase_currency": "SL",
+            "status": null,
+            "fetched_at": "2026-09-19T06:32:58.613Z",
+            "sha256": "d5d8720fdfb4d696f8b7383dedceb714c172d3491a1e8faa6b7aae52cc7f360b"
+          }
         }
       ]
     ],
@@ -108,16 +304,45 @@
           "rp": 0,
           "sp": 0,
           "data_unit_id": "uk_mtb_2series",
+          "required_unit_id": "",
           "selected": false,
           "class_name": "prem",
           "details": true,
-          "main_role": "Boat"
+          "rank": "I",
+          "research_country": "Great Britain",
+          "main_role": "Boat",
+          "is_component": false,
+          "component_of": null,
+          "is_premium": true,
+          "is_squadron": false,
+          "wiki": {
+            "url": "https://wiki.warthunder.com/unit/uk_mtb_2series",
+            "rank": "I",
+            "battle_rating_context": "default",
+            "battle_ratings": {
+              "AB": "1.0",
+              "RB": "1.0"
+            },
+            "battle_ratings_by_battle": {
+              "default": {
+                "AB": "1.0",
+                "RB": "1.0"
+              }
+            },
+            "research": null,
+            "purchase": "250",
+            "purchase_currency": "GE",
+            "status": "Premium vehicle",
+            "fetched_at": "2026-09-19T06:32:58.930Z",
+            "sha256": "9cc6db86b9289dfd93115dab71bb9373b3d0b21d8335c9a3a82806b50a1f9c15"
+          }
         }
       ],
       []
     ],
     "selected": [],
-    "unlock_quantity": 0
+    "unlock_quantity": null,
+    "source": "wiki"
   },
   {
     "rank": "II",
@@ -128,72 +353,253 @@
           "title": "MTB-379",
           "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/uk_73ft_vosper_type1.png",
           "br": "2.0",
-          "rp": "7,900",
-          "sp": "10,000",
+          "rp": 7900,
+          "sp": 10000,
           "data_unit_id": "uk_73ft_vosper_type1",
+          "required_unit_id": "uk_70ft_mgb",
           "selected": false,
           "class_name": "",
           "details": true,
-          "main_role": "Boat"
+          "rank": "II",
+          "research_country": "Great Britain",
+          "main_role": "Boat",
+          "is_component": false,
+          "component_of": null,
+          "is_premium": false,
+          "is_squadron": false,
+          "wiki": {
+            "url": "https://wiki.warthunder.com/unit/uk_73ft_vosper_type1",
+            "rank": "II",
+            "battle_rating_context": "default",
+            "battle_ratings": {
+              "AB": "2.0",
+              "RB": "2.0"
+            },
+            "battle_ratings_by_battle": {
+              "default": {
+                "AB": "2.0",
+                "RB": "2.0"
+              }
+            },
+            "research": "7,900",
+            "purchase": "10,000",
+            "purchase_currency": "SL",
+            "status": null,
+            "fetched_at": "2026-09-19T06:32:55.653Z",
+            "sha256": "09f3452add54dd07e4324ac955481ea0891ddb1026039f75539fec8d09ae0559"
+          }
         },
         {
           "type": "single",
-          "title": "Fairmile B (ML345)",
+          "title": "Fairmile B (ML345)",
           "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/uk_fairmile_b_ml345.png",
           "br": "2.0",
-          "rp": "9,200",
-          "sp": "16,000",
+          "rp": 9200,
+          "sp": 16000,
           "data_unit_id": "uk_fairmile_b_ml345",
+          "required_unit_id": "uk_73ft_vosper_type1",
           "selected": false,
           "class_name": "",
           "details": true,
-          "main_role": "Boat"
+          "rank": "II",
+          "research_country": "Great Britain",
+          "main_role": "Boat",
+          "is_component": false,
+          "component_of": null,
+          "is_premium": false,
+          "is_squadron": false,
+          "wiki": {
+            "url": "https://wiki.warthunder.com/unit/uk_fairmile_b_ml345",
+            "rank": "II",
+            "battle_rating_context": "default",
+            "battle_ratings": {
+              "AB": "2.0",
+              "RB": "2.0"
+            },
+            "battle_ratings_by_battle": {
+              "default": {
+                "AB": "2.0",
+                "RB": "2.0"
+              }
+            },
+            "research": "9,200",
+            "purchase": "16,000",
+            "purchase_currency": "SL",
+            "status": null,
+            "fetched_at": "2026-09-19T06:32:56.896Z",
+            "sha256": "6abdbd0ca2b9978160f92389c774eab08619112d085351596aa30ad768755cff"
+          }
         },
         {
           "type": "single",
-          "title": "Dark Adventurer",
+          "title": "Dark Adventurer",
           "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/uk_dark_class.png",
           "br": "2.0",
-          "rp": "14,000",
-          "sp": "32,000",
+          "rp": 14000,
+          "sp": 32000,
           "data_unit_id": "uk_dark_class",
+          "required_unit_id": "uk_fairmile_b_ml345",
           "selected": false,
           "class_name": "",
           "details": true,
-          "main_role": "Boat"
+          "rank": "II",
+          "research_country": "Great Britain",
+          "main_role": "Boat",
+          "is_component": false,
+          "component_of": null,
+          "is_premium": false,
+          "is_squadron": false,
+          "wiki": {
+            "url": "https://wiki.warthunder.com/unit/uk_dark_class",
+            "rank": "II",
+            "battle_rating_context": "default",
+            "battle_ratings": {
+              "AB": "2.0",
+              "RB": "2.0"
+            },
+            "battle_ratings_by_battle": {
+              "default": {
+                "AB": "2.0",
+                "RB": "2.0"
+              }
+            },
+            "research": "14,000",
+            "purchase": "32,000",
+            "purchase_currency": "SL",
+            "status": null,
+            "fetched_at": "2026-09-19T06:32:56.202Z",
+            "sha256": "daedb154712cee62b09efb1d80f6415788fe2c4fc1453508cd343a52459adc5f"
+          }
         }
       ],
       [
         {
           "type": "single",
-          "title": "HMS Liscomb",
+          "title": "HMS Liscomb",
           "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/uk_isles_class_trawler.png",
           "br": "2.3",
-          "rp": "7,900",
-          "sp": "10,000",
+          "rp": 7900,
+          "sp": 10000,
           "data_unit_id": "uk_isles_class_trawler",
+          "required_unit_id": "uk_hdml_ml1383",
           "selected": false,
           "class_name": "",
           "details": true,
-          "main_role": "Heavy boat"
+          "rank": "II",
+          "research_country": "Great Britain",
+          "main_role": "Heavy boat",
+          "is_component": false,
+          "component_of": null,
+          "is_premium": false,
+          "is_squadron": false,
+          "wiki": {
+            "url": "https://wiki.warthunder.com/unit/uk_isles_class_trawler",
+            "rank": "II",
+            "battle_rating_context": "default",
+            "battle_ratings": {
+              "AB": "2.0",
+              "RB": "2.3"
+            },
+            "battle_ratings_by_battle": {
+              "default": {
+                "AB": "2.0",
+                "RB": "2.3"
+              }
+            },
+            "research": "7,900",
+            "purchase": "10,000",
+            "purchase_currency": "SL",
+            "status": null,
+            "fetched_at": "2026-09-19T06:32:58.614Z",
+            "sha256": "eaa19260656083782038d9d0287990c425e995b9cb443fe20bf299cff173f085"
+          }
         },
         {
           "type": "single",
-          "title": "HMCS Brantford",
+          "title": "HMCS Brantford",
           "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/uk_flower_class.png",
           "br": "2.3",
-          "rp": "11,000",
-          "sp": "22,000",
+          "rp": 11000,
+          "sp": 22000,
           "data_unit_id": "uk_flower_class",
+          "required_unit_id": "uk_isles_class_trawler",
           "selected": false,
           "class_name": "",
           "details": true,
-          "main_role": "Heavy boat"
+          "rank": "II",
+          "research_country": "Great Britain",
+          "main_role": "Heavy boat",
+          "is_component": false,
+          "component_of": null,
+          "is_premium": false,
+          "is_squadron": false,
+          "wiki": {
+            "url": "https://wiki.warthunder.com/unit/uk_flower_class",
+            "rank": "II",
+            "battle_rating_context": "default",
+            "battle_ratings": {
+              "AB": "2.3",
+              "RB": "2.3"
+            },
+            "battle_ratings_by_battle": {
+              "default": {
+                "AB": "2.3",
+                "RB": "2.3"
+              }
+            },
+            "research": "11,000",
+            "purchase": "22,000",
+            "purchase_currency": "SL",
+            "status": null,
+            "fetched_at": "2026-09-19T06:32:57.897Z",
+            "sha256": "ccb87d51b3f0a42f108a8f96c7ca77d3ffea372b6f2c9874259e226ce9525862"
+          }
         }
       ]
     ],
     "premium_vehicles": [
       [
+        {
+          "type": "single",
+          "title": "MTB-523",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/uk_73ft_vosper_type2.png",
+          "br": "2.0",
+          "rp": 0,
+          "sp": 0,
+          "data_unit_id": "uk_73ft_vosper_type2",
+          "required_unit_id": "",
+          "selected": false,
+          "class_name": "prem",
+          "details": true,
+          "rank": "II",
+          "research_country": "Great Britain",
+          "main_role": "Boat",
+          "is_component": false,
+          "component_of": null,
+          "is_premium": true,
+          "is_squadron": false,
+          "wiki": {
+            "url": "https://wiki.warthunder.com/unit/uk_73ft_vosper_type2",
+            "rank": "II",
+            "battle_rating_context": "default",
+            "battle_ratings": {
+              "AB": "2.0",
+              "RB": "2.0"
+            },
+            "battle_ratings_by_battle": {
+              "default": {
+                "AB": "2.0",
+                "RB": "2.0"
+              }
+            },
+            "research": null,
+            "purchase": "850",
+            "purchase_currency": "GE",
+            "status": "Premium vehicle",
+            "fetched_at": "2026-09-19T06:32:55.963Z",
+            "sha256": "622e98641f05826945059a17adca49b65358854200c0f7de5fb1ad46e379865c"
+          }
+        },
         {
           "type": "single",
           "title": "MGB-75",
@@ -202,16 +608,45 @@
           "rp": 0,
           "sp": 0,
           "data_unit_id": "uk_71ft_mgb",
+          "required_unit_id": "",
           "selected": false,
           "class_name": "prem",
           "details": true,
-          "main_role": "Boat"
+          "rank": "II",
+          "research_country": "Great Britain",
+          "main_role": "Boat",
+          "is_component": false,
+          "component_of": null,
+          "is_premium": true,
+          "is_squadron": false,
+          "wiki": {
+            "url": "https://wiki.warthunder.com/unit/uk_71ft_mgb",
+            "rank": "II",
+            "battle_rating_context": "default",
+            "battle_ratings": {
+              "AB": "2.0",
+              "RB": "2.3"
+            },
+            "battle_ratings_by_battle": {
+              "default": {
+                "AB": "2.0",
+                "RB": "2.3"
+              }
+            },
+            "research": null,
+            "purchase": "1,000",
+            "purchase_currency": "GE",
+            "status": "Premium vehicle",
+            "fetched_at": "2026-09-19T06:32:55.503Z",
+            "sha256": "63072915a473ad61cb7503f2ffc6390bb2fdce1562bac7e1b36f538973ce5a02"
+          }
         }
       ],
       []
     ],
     "selected": [],
-    "unlock_quantity": 0
+    "unlock_quantity": null,
+    "source": "wiki"
   },
   {
     "rank": "III",
@@ -222,80 +657,248 @@
           "title": "MTB-460",
           "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/uk_71ft_mtb460.png",
           "br": "2.3",
-          "rp": "18,000",
-          "sp": "47,000",
+          "rp": 18000,
+          "sp": 47000,
           "data_unit_id": "uk_71ft_mtb460",
+          "required_unit_id": "uk_dark_class",
           "selected": false,
           "class_name": "",
           "details": true,
-          "main_role": "Boat"
+          "rank": "III",
+          "research_country": "Great Britain",
+          "main_role": "Boat",
+          "is_component": false,
+          "component_of": null,
+          "is_premium": false,
+          "is_squadron": false,
+          "wiki": {
+            "url": "https://wiki.warthunder.com/unit/uk_71ft_mtb460",
+            "rank": "III",
+            "battle_rating_context": "default",
+            "battle_ratings": {
+              "AB": "2.3",
+              "RB": "2.3"
+            },
+            "battle_ratings_by_battle": {
+              "default": {
+                "AB": "2.3",
+                "RB": "2.3"
+              }
+            },
+            "research": "18,000",
+            "purchase": "47,000",
+            "purchase_currency": "SL",
+            "status": null,
+            "fetched_at": "2026-09-19T06:32:55.847Z",
+            "sha256": "af6b065f11905dc31a611e1c815155d7dc880cfc4b5e4e44aa7fb65b394532fe"
+          }
         },
         {
           "type": "single",
-          "title": "Dark Aggressor",
+          "title": "Dark Aggressor",
           "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/uk_dark_class_mtb.png",
           "br": "2.3",
-          "rp": "26,000",
-          "sp": "76,000",
+          "rp": 26000,
+          "sp": 76000,
           "data_unit_id": "uk_dark_class_mtb",
+          "required_unit_id": "uk_71ft_mtb460",
           "selected": false,
           "class_name": "",
           "details": true,
-          "main_role": "Boat"
+          "rank": "III",
+          "research_country": "Great Britain",
+          "main_role": "Boat",
+          "is_component": false,
+          "component_of": null,
+          "is_premium": false,
+          "is_squadron": false,
+          "wiki": {
+            "url": "https://wiki.warthunder.com/unit/uk_dark_class_mtb",
+            "rank": "III",
+            "battle_rating_context": "default",
+            "battle_ratings": {
+              "AB": "2.3",
+              "RB": "2.3"
+            },
+            "battle_ratings_by_battle": {
+              "default": {
+                "AB": "2.3",
+                "RB": "2.3"
+              }
+            },
+            "research": "26,000",
+            "purchase": "76,000",
+            "purchase_currency": "SL",
+            "status": null,
+            "fetched_at": "2026-09-19T06:32:56.435Z",
+            "sha256": "13ce7de05e5dd7d78c7c7a99200a8a1b73eccd4467a5b6667b90ad3e765f8308"
+          }
         },
         {
           "type": "single",
-          "title": "Fairmile D (617)",
+          "title": "Fairmile D (617)",
           "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/uk_fairmile_d_617_632.png",
           "br": "2.3",
-          "rp": "36,000",
-          "sp": "115,000",
+          "rp": 36000,
+          "sp": 115000,
           "data_unit_id": "uk_fairmile_d_617_632",
+          "required_unit_id": "uk_dark_class_mtb",
           "selected": false,
           "class_name": "",
           "details": true,
-          "main_role": "Boat"
+          "rank": "III",
+          "research_country": "Great Britain",
+          "main_role": "Boat",
+          "is_component": false,
+          "component_of": null,
+          "is_premium": false,
+          "is_squadron": false,
+          "wiki": {
+            "url": "https://wiki.warthunder.com/unit/uk_fairmile_d_617_632",
+            "rank": "III",
+            "battle_rating_context": "default",
+            "battle_ratings": {
+              "AB": "2.3",
+              "RB": "2.3"
+            },
+            "battle_ratings_by_battle": {
+              "default": {
+                "AB": "2.3",
+                "RB": "2.3"
+              }
+            },
+            "research": "36,000",
+            "purchase": "115,000",
+            "purchase_currency": "SL",
+            "status": null,
+            "fetched_at": "2026-09-19T06:32:57.391Z",
+            "sha256": "6776a3a0936a4b1a62f850a44e544ae4bff0723c138295f790bbf7a404715dbb"
+          }
         }
       ],
       [
         {
           "type": "single",
-          "title": "Fairmile C (312)",
+          "title": "Fairmile C (312)",
           "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/uk_fairmile_c.png",
           "br": "2.3",
-          "rp": "26,000",
-          "sp": "76,000",
+          "rp": 26000,
+          "sp": 76000,
           "data_unit_id": "uk_fairmile_c",
+          "required_unit_id": "uk_flower_class",
           "selected": false,
           "class_name": "",
           "details": true,
-          "main_role": "Boat"
+          "rank": "III",
+          "research_country": "Great Britain",
+          "main_role": "Boat",
+          "is_component": false,
+          "component_of": null,
+          "is_premium": false,
+          "is_squadron": false,
+          "wiki": {
+            "url": "https://wiki.warthunder.com/unit/uk_fairmile_c",
+            "rank": "III",
+            "battle_rating_context": "default",
+            "battle_ratings": {
+              "AB": "2.3",
+              "RB": "2.3"
+            },
+            "battle_ratings_by_battle": {
+              "default": {
+                "AB": "2.3",
+                "RB": "2.3"
+              }
+            },
+            "research": "26,000",
+            "purchase": "76,000",
+            "purchase_currency": "SL",
+            "status": null,
+            "fetched_at": "2026-09-19T06:32:56.875Z",
+            "sha256": "16024d855c21041e8e38abde7beb0062c53993ac717015310856adbde355ed8e"
+          }
         },
         {
           "type": "single",
-          "title": "Fairmile H LCS(L)(2)",
+          "title": "Fairmile H LCS(L)(2)",
           "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/uk_fairmile_lcs_l_h_mk2.png",
           "br": "2.3",
-          "rp": "36,000",
-          "sp": "115,000",
+          "rp": 36000,
+          "sp": 115000,
           "data_unit_id": "uk_fairmile_lcs_l_h_mk2",
+          "required_unit_id": "uk_fairmile_c",
           "selected": false,
           "class_name": "",
           "details": true,
-          "main_role": "Boat"
+          "rank": "III",
+          "research_country": "Great Britain",
+          "main_role": "Boat",
+          "is_component": false,
+          "component_of": null,
+          "is_premium": false,
+          "is_squadron": false,
+          "wiki": {
+            "url": "https://wiki.warthunder.com/unit/uk_fairmile_lcs_l_h_mk2",
+            "rank": "III",
+            "battle_rating_context": "default",
+            "battle_ratings": {
+              "AB": "2.3",
+              "RB": "2.3"
+            },
+            "battle_ratings_by_battle": {
+              "default": {
+                "AB": "2.3",
+                "RB": "2.3"
+              }
+            },
+            "research": "36,000",
+            "purchase": "115,000",
+            "purchase_currency": "SL",
+            "status": null,
+            "fetched_at": "2026-09-19T06:32:57.561Z",
+            "sha256": "afcba52d14e7fc0f7ee206bf4135a9fc6d349a664478e70404f0f862933a1efd"
+          }
         },
         {
           "type": "single",
-          "title": "Fairmile D (601)",
+          "title": "Fairmile D (601)",
           "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/uk_fairmile_d_601_616.png",
           "br": "2.3",
-          "rp": "48,000",
-          "sp": "180,000",
+          "rp": 48000,
+          "sp": 180000,
           "data_unit_id": "uk_fairmile_d_601_616",
+          "required_unit_id": "uk_fairmile_lcs_l_h_mk2",
           "selected": false,
           "class_name": "",
           "details": true,
-          "main_role": "Boat"
+          "rank": "III",
+          "research_country": "Great Britain",
+          "main_role": "Boat",
+          "is_component": false,
+          "component_of": null,
+          "is_premium": false,
+          "is_squadron": false,
+          "wiki": {
+            "url": "https://wiki.warthunder.com/unit/uk_fairmile_d_601_616",
+            "rank": "III",
+            "battle_rating_context": "default",
+            "battle_ratings": {
+              "AB": "2.3",
+              "RB": "2.3"
+            },
+            "battle_ratings_by_battle": {
+              "default": {
+                "AB": "2.3",
+                "RB": "2.3"
+              }
+            },
+            "research": "48,000",
+            "purchase": "180,000",
+            "purchase_currency": "SL",
+            "status": null,
+            "fetched_at": "2026-09-19T06:32:57.151Z",
+            "sha256": "7e552a22744f568a0c41ff9b9e0127026dc26d7d669d9af48836459d64e62ee7"
+          }
         }
       ]
     ],
@@ -303,42 +906,126 @@
       [
         {
           "type": "single",
-          "title": "HMS Gay Archer",
+          "title": "HMS Gay Archer",
           "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/uk_gay_class_archer.png",
           "br": "2.3",
           "rp": 0,
           "sp": 0,
           "data_unit_id": "uk_gay_class_archer",
+          "required_unit_id": "",
           "selected": false,
           "class_name": "prem",
           "details": true,
-          "main_role": "Boat"
+          "rank": "III",
+          "research_country": "Great Britain",
+          "main_role": "Boat",
+          "is_component": false,
+          "component_of": null,
+          "is_premium": true,
+          "is_squadron": false,
+          "wiki": {
+            "url": "https://wiki.warthunder.com/unit/uk_gay_class_archer",
+            "rank": "III",
+            "battle_rating_context": "default",
+            "battle_ratings": {
+              "AB": "2.3",
+              "RB": "2.3"
+            },
+            "battle_ratings_by_battle": {
+              "default": {
+                "AB": "2.3",
+                "RB": "2.3"
+              }
+            },
+            "research": null,
+            "purchase": null,
+            "purchase_currency": null,
+            "status": "Premium vehicle",
+            "fetched_at": "2026-09-19T06:32:58.464Z",
+            "sha256": "1a203e1a7fa6ff370ab4c10224658aa7ab0a4ac11f7700ef07e7956400c24e6b"
+          }
         },
         {
           "type": "single",
-          "title": "Fairmile D (5001)",
+          "title": "Fairmile D (5001)",
           "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/uk_fairmile_d_5001_5029.png",
           "br": "2.7",
           "rp": 0,
           "sp": 0,
           "data_unit_id": "uk_fairmile_d_5001_5029",
+          "required_unit_id": "",
           "selected": false,
           "class_name": "prem",
           "details": true,
-          "main_role": "Boat"
+          "rank": "III",
+          "research_country": "Great Britain",
+          "main_role": "Boat",
+          "is_component": false,
+          "component_of": null,
+          "is_premium": true,
+          "is_squadron": false,
+          "wiki": {
+            "url": "https://wiki.warthunder.com/unit/uk_fairmile_d_5001_5029",
+            "rank": "III",
+            "battle_rating_context": "default",
+            "battle_ratings": {
+              "AB": "2.7",
+              "RB": "2.7"
+            },
+            "battle_ratings_by_battle": {
+              "default": {
+                "AB": "2.7",
+                "RB": "2.7"
+              }
+            },
+            "research": null,
+            "purchase": null,
+            "purchase_currency": null,
+            "status": "Premium vehicle",
+            "fetched_at": "2026-09-19T06:32:57.399Z",
+            "sha256": "be4c92e74a6fd51a52044d846a0f107fea6e90c5ae44a221bf58027878a0abed"
+          }
         },
         {
           "type": "single",
-          "title": "SGB Grey Goose",
+          "title": "SGB Grey Goose",
           "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/uk_sgb_309.png",
           "br": "3.0",
           "rp": 0,
           "sp": 0,
           "data_unit_id": "uk_sgb_309",
+          "required_unit_id": "",
           "selected": false,
           "class_name": "prem",
           "details": true,
-          "main_role": "Boat"
+          "rank": "III",
+          "research_country": "Great Britain",
+          "main_role": "Boat",
+          "is_component": false,
+          "component_of": null,
+          "is_premium": true,
+          "is_squadron": false,
+          "wiki": {
+            "url": "https://wiki.warthunder.com/unit/uk_sgb_309",
+            "rank": "III",
+            "battle_rating_context": "default",
+            "battle_ratings": {
+              "AB": "3.0",
+              "RB": "3.0"
+            },
+            "battle_ratings_by_battle": {
+              "default": {
+                "AB": "3.0",
+                "RB": "3.0"
+              }
+            },
+            "research": null,
+            "purchase": null,
+            "purchase_currency": null,
+            "status": "Premium vehicle",
+            "fetched_at": "2026-09-19T06:32:59.249Z",
+            "sha256": "060490a38eff7bbd2b176cd4858d0670d7ff56abfe8d60396daa04790769dc94"
+          }
         }
       ],
       [
@@ -350,28 +1037,85 @@
           "rp": 0,
           "sp": 0,
           "data_unit_id": "uk_higgins_78ft_mtb422",
+          "required_unit_id": "",
           "selected": false,
           "class_name": "prem",
           "details": true,
-          "main_role": "Boat"
+          "rank": "III",
+          "research_country": "Great Britain",
+          "main_role": "Boat",
+          "is_component": false,
+          "component_of": null,
+          "is_premium": true,
+          "is_squadron": false,
+          "wiki": {
+            "url": "https://wiki.warthunder.com/unit/uk_higgins_78ft_mtb422",
+            "rank": "III",
+            "battle_rating_context": "default",
+            "battle_ratings": {
+              "AB": "2.3",
+              "RB": "2.3"
+            },
+            "battle_ratings_by_battle": {
+              "default": {
+                "AB": "2.3",
+                "RB": "2.3"
+              }
+            },
+            "research": null,
+            "purchase": null,
+            "purchase_currency": null,
+            "status": "Premium vehicle",
+            "fetched_at": "2026-09-19T06:32:58.402Z",
+            "sha256": "233cbc5519c12a30032241b26b8a1461b89e563fe4e782bd041022005319b164"
+          }
         },
         {
           "type": "single",
-          "title": "Dark Aggressor TD",
+          "title": "Dark Aggressor TD",
           "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/uk_dark_class_mtb_td.png",
           "br": "2.3",
           "rp": null,
           "sp": null,
           "data_unit_id": "uk_dark_class_mtb_td",
+          "required_unit_id": "",
           "selected": false,
           "class_name": "",
           "details": true,
-          "main_role": "Boat"
+          "rank": "III",
+          "research_country": "Great Britain",
+          "main_role": "Boat",
+          "is_component": false,
+          "component_of": null,
+          "is_premium": false,
+          "is_squadron": false,
+          "wiki": {
+            "url": "https://wiki.warthunder.com/unit/uk_dark_class_mtb_td",
+            "rank": "III",
+            "battle_rating_context": "default",
+            "battle_ratings": {
+              "AB": "2.3",
+              "RB": "2.3"
+            },
+            "battle_ratings_by_battle": {
+              "default": {
+                "AB": "2.3",
+                "RB": "2.3"
+              }
+            },
+            "research": null,
+            "purchase": null,
+            "purchase_currency": null,
+            "status": null,
+            "fetched_at": "2026-09-19T06:32:56.664Z",
+            "sha256": "3375696433763654489d1dd551099362e725111e8de8d4e7eaf38a7b84e71ba8"
+          }
         }
       ]
     ],
     "selected": [],
-    "unlock_quantity": 0
+    "unlock_quantity": null,
+    "source": "wiki"
   },
   {
     "rank": "IV",
@@ -379,70 +1123,210 @@
       [
         {
           "type": "single",
-          "title": "Fairmile D (697)",
+          "title": "Fairmile D (697)",
           "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/uk_fairmile_d_697_800.png",
           "br": "2.7",
-          "rp": "75,000",
-          "sp": "250,000",
+          "rp": 75000,
+          "sp": 250000,
           "data_unit_id": "uk_fairmile_d_697_800",
+          "required_unit_id": "uk_fairmile_d_617_632",
           "selected": false,
           "class_name": "",
           "details": true,
-          "main_role": "Boat"
+          "rank": "IV",
+          "research_country": "Great Britain",
+          "main_role": "Boat",
+          "is_component": false,
+          "component_of": null,
+          "is_premium": false,
+          "is_squadron": false,
+          "wiki": {
+            "url": "https://wiki.warthunder.com/unit/uk_fairmile_d_697_800",
+            "rank": "IV",
+            "battle_rating_context": "default",
+            "battle_ratings": {
+              "AB": "2.7",
+              "RB": "2.7"
+            },
+            "battle_ratings_by_battle": {
+              "default": {
+                "AB": "2.7",
+                "RB": "2.7"
+              }
+            },
+            "research": "75,000",
+            "purchase": "250,000",
+            "purchase_currency": "SL",
+            "status": null,
+            "fetched_at": "2026-09-19T06:32:57.502Z",
+            "sha256": "7b5606ebca085867d98ef0ecc85c61757a0d59ae543e2fc15166520a1e91c10c"
+          }
         },
         {
           "type": "single",
-          "title": "SGB Grey Fox",
+          "title": "SGB Grey Fox",
           "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/uk_sgb_304.png",
           "br": "3.0",
-          "rp": "120,000",
-          "sp": "360,000",
+          "rp": 120000,
+          "sp": 360000,
           "data_unit_id": "uk_sgb_304",
+          "required_unit_id": "uk_fairmile_d_697_800",
           "selected": false,
           "class_name": "",
           "details": true,
-          "main_role": "Boat"
+          "rank": "IV",
+          "research_country": "Great Britain",
+          "main_role": "Boat",
+          "is_component": false,
+          "component_of": null,
+          "is_premium": false,
+          "is_squadron": false,
+          "wiki": {
+            "url": "https://wiki.warthunder.com/unit/uk_sgb_304",
+            "rank": "IV",
+            "battle_rating_context": "default",
+            "battle_ratings": {
+              "AB": "3.0",
+              "RB": "3.0"
+            },
+            "battle_ratings_by_battle": {
+              "default": {
+                "AB": "3.0",
+                "RB": "3.0"
+              }
+            },
+            "research": "120,000",
+            "purchase": "360,000",
+            "purchase_currency": "SL",
+            "status": null,
+            "fetched_at": "2026-09-19T06:32:59.288Z",
+            "sha256": "99bd3d4f64e253b4b1d89980d0ac7d1e5219aa9839df62b6f5c525e73465ab00"
+          }
         }
       ],
       [
         {
           "type": "single",
-          "title": "HMAS Arrow",
+          "title": "HMAS Arrow",
           "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/uk_attack_class_arrow.png",
           "br": "2.7",
-          "rp": "75,000",
-          "sp": "250,000",
+          "rp": 75000,
+          "sp": 250000,
           "data_unit_id": "uk_attack_class_arrow",
+          "required_unit_id": "uk_fairmile_d_601_616",
           "selected": false,
           "class_name": "",
           "details": true,
-          "main_role": "Heavy boat"
+          "rank": "IV",
+          "research_country": "Great Britain",
+          "main_role": "Heavy boat",
+          "is_component": false,
+          "component_of": null,
+          "is_premium": false,
+          "is_squadron": false,
+          "wiki": {
+            "url": "https://wiki.warthunder.com/unit/uk_attack_class_arrow",
+            "rank": "IV",
+            "battle_rating_context": "default",
+            "battle_ratings": {
+              "AB": "2.7",
+              "RB": "2.7"
+            },
+            "battle_ratings_by_battle": {
+              "default": {
+                "AB": "2.7",
+                "RB": "2.7"
+              }
+            },
+            "research": "75,000",
+            "purchase": "250,000",
+            "purchase_currency": "SL",
+            "status": null,
+            "fetched_at": "2026-09-19T06:32:55.839Z",
+            "sha256": "e7b1eecf2f8b039b4fb7e2e3d68eae00a8d6d4584ec72e571f9b24551ab42a90"
+          }
         },
         {
           "type": "single",
-          "title": "HMAS Fremantle",
+          "title": "HMAS Fremantle",
           "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/uk_fremantle_class.png",
           "br": "3.0",
-          "rp": "89,000",
-          "sp": "300,000",
+          "rp": 89000,
+          "sp": 300000,
           "data_unit_id": "uk_fremantle_class",
+          "required_unit_id": "uk_attack_class_arrow",
           "selected": false,
           "class_name": "",
           "details": true,
-          "main_role": "Heavy boat"
+          "rank": "IV",
+          "research_country": "Great Britain",
+          "main_role": "Heavy boat",
+          "is_component": false,
+          "component_of": null,
+          "is_premium": false,
+          "is_squadron": false,
+          "wiki": {
+            "url": "https://wiki.warthunder.com/unit/uk_fremantle_class",
+            "rank": "IV",
+            "battle_rating_context": "default",
+            "battle_ratings": {
+              "AB": "3.0",
+              "RB": "3.0"
+            },
+            "battle_ratings_by_battle": {
+              "default": {
+                "AB": "3.0",
+                "RB": "3.0"
+              }
+            },
+            "research": "89,000",
+            "purchase": "300,000",
+            "purchase_currency": "SL",
+            "status": null,
+            "fetched_at": "2026-09-19T06:32:57.878Z",
+            "sha256": "c00674c97c95485e25f561216db686d505a7cab5d77280a021a0dfd7b33f1b24"
+          }
         },
         {
           "type": "single",
-          "title": "Fairmile C (332)",
+          "title": "Fairmile C (332)",
           "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/uk_fairmile_c_332.png",
           "br": "3.0",
-          "rp": "120,000",
-          "sp": "360,000",
+          "rp": 120000,
+          "sp": 360000,
           "data_unit_id": "uk_fairmile_c_332",
+          "required_unit_id": "uk_fremantle_class",
           "selected": false,
           "class_name": "",
           "details": true,
-          "main_role": "Boat"
+          "rank": "IV",
+          "research_country": "Great Britain",
+          "main_role": "Boat",
+          "is_component": false,
+          "component_of": null,
+          "is_premium": false,
+          "is_squadron": false,
+          "wiki": {
+            "url": "https://wiki.warthunder.com/unit/uk_fairmile_c_332",
+            "rank": "IV",
+            "battle_rating_context": "default",
+            "battle_ratings": {
+              "AB": "3.0",
+              "RB": "3.0"
+            },
+            "battle_ratings_by_battle": {
+              "default": {
+                "AB": "3.0",
+                "RB": "3.0"
+              }
+            },
+            "research": "120,000",
+            "purchase": "360,000",
+            "purchase_currency": "SL",
+            "status": null,
+            "fetched_at": "2026-09-19T06:32:57.117Z",
+            "sha256": "0346c77225785dc58b2b0ee0c1a99d92380acf85a607b674c2a5b06fe7f66014"
+          }
         }
       ]
     ],
@@ -450,49 +1334,134 @@
       [
         {
           "type": "single",
-          "title": "LÉ Orla",
+          "title": "LÉ Orla",
           "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/uk_corvette_orla.png",
           "br": "4.3",
           "rp": 0,
           "sp": 0,
           "data_unit_id": "uk_corvette_orla",
+          "required_unit_id": "",
           "selected": false,
           "class_name": "prem",
           "details": true,
-          "main_role": "Heavy boat"
+          "rank": "IV",
+          "research_country": "Great Britain",
+          "main_role": "Heavy boat",
+          "is_component": false,
+          "component_of": null,
+          "is_premium": true,
+          "is_squadron": false,
+          "wiki": {
+            "url": "https://wiki.warthunder.com/unit/uk_corvette_orla",
+            "rank": "IV",
+            "battle_rating_context": "default",
+            "battle_ratings": {
+              "AB": "4.3",
+              "RB": "4.3"
+            },
+            "battle_ratings_by_battle": {
+              "default": {
+                "AB": "4.3",
+                "RB": "4.3"
+              }
+            },
+            "research": null,
+            "purchase": "6,090",
+            "purchase_currency": "GE",
+            "status": "Premium vehicle",
+            "fetched_at": "2026-09-19T06:32:56.237Z",
+            "sha256": "053f5cc92f4c5c8410175b0edc985357679b9799e8c140bd594e17b20cddd1e9"
+          }
         },
         {
           "type": "single",
-          "title": "HMS Whitby",
+          "title": "HMS Whitby",
           "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/uk_frigate_whitby.png",
           "br": "3.7",
           "rp": 0,
           "sp": 0,
           "data_unit_id": "uk_frigate_whitby",
+          "required_unit_id": "",
           "selected": false,
           "class_name": "prem",
           "details": true,
-          "main_role": "Frigate"
+          "rank": "IV",
+          "research_country": "Great Britain",
+          "main_role": "Frigate",
+          "is_component": false,
+          "component_of": null,
+          "is_premium": true,
+          "is_squadron": false,
+          "wiki": {
+            "url": "https://wiki.warthunder.com/unit/uk_frigate_whitby",
+            "rank": "IV",
+            "battle_rating_context": "default",
+            "battle_ratings": {
+              "AB": "3.7",
+              "RB": "3.7"
+            },
+            "battle_ratings_by_battle": {
+              "default": {
+                "AB": "3.7",
+                "RB": "3.7"
+              }
+            },
+            "research": null,
+            "purchase": "6,090",
+            "purchase_currency": "GE",
+            "status": "Premium vehicle",
+            "fetched_at": "2026-09-19T06:32:58.157Z",
+            "sha256": "0f1c00c8bab61de09d826babc6db9f286e63bf9ea93937df493ac3cb43dc4e1e"
+          }
         }
       ],
       [
         {
           "type": "single",
-          "title": "HMS Spey",
+          "title": "HMS Spey",
           "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/uk_frigate_river.png",
           "br": "3.3",
           "rp": 0,
           "sp": 0,
           "data_unit_id": "uk_frigate_river",
+          "required_unit_id": "",
           "selected": false,
           "class_name": "prem",
           "details": true,
-          "main_role": "Frigate"
+          "rank": "IV",
+          "research_country": "Great Britain",
+          "main_role": "Frigate",
+          "is_component": false,
+          "component_of": null,
+          "is_premium": true,
+          "is_squadron": false,
+          "wiki": {
+            "url": "https://wiki.warthunder.com/unit/uk_frigate_river",
+            "rank": "IV",
+            "battle_rating_context": "default",
+            "battle_ratings": {
+              "AB": "3.3",
+              "RB": "3.3"
+            },
+            "battle_ratings_by_battle": {
+              "default": {
+                "AB": "3.3",
+                "RB": "3.3"
+              }
+            },
+            "research": null,
+            "purchase": null,
+            "purchase_currency": null,
+            "status": "Premium vehicle",
+            "fetched_at": "2026-09-19T06:32:58.139Z",
+            "sha256": "6e9dec4e6d2cd18acbc6ae98bd14cc9fc813f4b73e34526c27b20edc4efae03d"
+          }
         }
       ]
     ],
     "selected": [],
-    "unlock_quantity": 0
+    "unlock_quantity": null,
+    "source": "wiki"
   },
   {
     "rank": "V",
@@ -500,70 +1469,210 @@
       [
         {
           "type": "single",
-          "title": "Brave Borderer",
+          "title": "Brave Borderer",
           "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/uk_brave_borderer.png",
           "br": "3.3",
-          "rp": "220,000",
-          "sp": "640,000",
+          "rp": 220000,
+          "sp": 640000,
           "data_unit_id": "uk_brave_borderer",
+          "required_unit_id": "uk_sgb_304",
           "selected": false,
           "class_name": "",
           "details": true,
-          "main_role": "Boat"
+          "rank": "V",
+          "research_country": "Great Britain",
+          "main_role": "Boat",
+          "is_component": false,
+          "component_of": null,
+          "is_premium": false,
+          "is_squadron": false,
+          "wiki": {
+            "url": "https://wiki.warthunder.com/unit/uk_brave_borderer",
+            "rank": "V",
+            "battle_rating_context": "default",
+            "battle_ratings": {
+              "AB": "3.3",
+              "RB": "3.3"
+            },
+            "battle_ratings_by_battle": {
+              "default": {
+                "AB": "3.3",
+                "RB": "3.3"
+              }
+            },
+            "research": "220,000",
+            "purchase": "640,000",
+            "purchase_currency": "SL",
+            "status": null,
+            "fetched_at": "2026-09-19T06:32:55.945Z",
+            "sha256": "a77d77707dd86d7fd6dcea18d7f50807643934200f82fd7b8d383ec85fb3564e"
+          }
         },
         {
           "type": "single",
-          "title": "HMCS Terra Nova",
+          "title": "HMCS Terra Nova",
           "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/uk_destroyer_restigouche_class_terranova.png",
           "br": "4.0",
-          "rp": "280,000",
-          "sp": "780,000",
+          "rp": 280000,
+          "sp": 780000,
           "data_unit_id": "uk_destroyer_restigouche_class_terranova",
+          "required_unit_id": "uk_brave_borderer",
           "selected": false,
           "class_name": "",
           "details": true,
-          "main_role": "Frigate"
+          "rank": "V",
+          "research_country": "Great Britain",
+          "main_role": "Frigate",
+          "is_component": false,
+          "component_of": null,
+          "is_premium": false,
+          "is_squadron": false,
+          "wiki": {
+            "url": "https://wiki.warthunder.com/unit/uk_destroyer_restigouche_class_terranova",
+            "rank": "V",
+            "battle_rating_context": "default",
+            "battle_ratings": {
+              "AB": "4.0",
+              "RB": "4.0"
+            },
+            "battle_ratings_by_battle": {
+              "default": {
+                "AB": "4.0",
+                "RB": "4.0"
+              }
+            },
+            "research": "280,000",
+            "purchase": "780,000",
+            "purchase_currency": "SL",
+            "status": null,
+            "fetched_at": "2026-09-19T06:32:56.785Z",
+            "sha256": "f7a6863ba4d45a8e0affe49e31d078be1cf0e5684c650fe3839489a703181fcc"
+          }
         },
         {
           "type": "single",
-          "title": "HMS Leopard",
+          "title": "HMS Leopard",
           "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/uk_frigate_leopard.png",
           "br": "4.0",
-          "rp": "320,000",
-          "sp": "860,000",
+          "rp": 320000,
+          "sp": 860000,
           "data_unit_id": "uk_frigate_leopard",
+          "required_unit_id": "uk_destroyer_restigouche_class_terranova",
           "selected": false,
           "class_name": "",
           "details": true,
-          "main_role": "Frigate"
+          "rank": "V",
+          "research_country": "Great Britain",
+          "main_role": "Frigate",
+          "is_component": false,
+          "component_of": null,
+          "is_premium": false,
+          "is_squadron": false,
+          "wiki": {
+            "url": "https://wiki.warthunder.com/unit/uk_frigate_leopard",
+            "rank": "V",
+            "battle_rating_context": "default",
+            "battle_ratings": {
+              "AB": "4.0",
+              "RB": "4.0"
+            },
+            "battle_ratings_by_battle": {
+              "default": {
+                "AB": "4.0",
+                "RB": "4.0"
+              }
+            },
+            "research": "320,000",
+            "purchase": "860,000",
+            "purchase_currency": "SL",
+            "status": null,
+            "fetched_at": "2026-09-19T06:32:57.983Z",
+            "sha256": "e209704f6ea4f0f0cc9df12ecc3844195dc3698d59d4845810e3405b725374c9"
+          }
         }
       ],
       [
         {
           "type": "single",
-          "title": "HMS Blackpool",
+          "title": "HMS Blackpool",
           "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/uk_frigate_whitby_blackpool.png",
           "br": "3.7",
-          "rp": "250,000",
-          "sp": "700,000",
+          "rp": 250000,
+          "sp": 700000,
           "data_unit_id": "uk_frigate_whitby_blackpool",
+          "required_unit_id": "uk_fairmile_c_332",
           "selected": false,
           "class_name": "",
           "details": true,
-          "main_role": "Frigate"
+          "rank": "V",
+          "research_country": "Great Britain",
+          "main_role": "Frigate",
+          "is_component": false,
+          "component_of": null,
+          "is_premium": false,
+          "is_squadron": false,
+          "wiki": {
+            "url": "https://wiki.warthunder.com/unit/uk_frigate_whitby_blackpool",
+            "rank": "V",
+            "battle_rating_context": "default",
+            "battle_ratings": {
+              "AB": "3.7",
+              "RB": "3.7"
+            },
+            "battle_ratings_by_battle": {
+              "default": {
+                "AB": "3.7",
+                "RB": "3.7"
+              }
+            },
+            "research": "250,000",
+            "purchase": "700,000",
+            "purchase_currency": "SL",
+            "status": null,
+            "fetched_at": "2026-09-19T06:32:58.161Z",
+            "sha256": "93b2c1877ddf08c03cddcd7d1e58a07824f32eaf9887eb934e45a058fb7f6c93"
+          }
         },
         {
           "type": "single",
-          "title": "HMS Peacock",
+          "title": "HMS Peacock",
           "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/uk_corvette_peacock.png",
           "br": "4.3",
-          "rp": "280,000",
-          "sp": "780,000",
+          "rp": 280000,
+          "sp": 780000,
           "data_unit_id": "uk_corvette_peacock",
+          "required_unit_id": "uk_frigate_whitby_blackpool",
           "selected": false,
           "class_name": "",
           "details": true,
-          "main_role": "Heavy boat"
+          "rank": "V",
+          "research_country": "Great Britain",
+          "main_role": "Heavy boat",
+          "is_component": false,
+          "component_of": null,
+          "is_premium": false,
+          "is_squadron": false,
+          "wiki": {
+            "url": "https://wiki.warthunder.com/unit/uk_corvette_peacock",
+            "rank": "V",
+            "battle_rating_context": "default",
+            "battle_ratings": {
+              "AB": "4.3",
+              "RB": "4.3"
+            },
+            "battle_ratings_by_battle": {
+              "default": {
+                "AB": "4.3",
+                "RB": "4.3"
+              }
+            },
+            "research": "280,000",
+            "purchase": "780,000",
+            "purchase_currency": "SL",
+            "status": null,
+            "fetched_at": "2026-09-19T06:32:56.274Z",
+            "sha256": "f4f357f12281ce1e66724c0ed3145384db4a11edd3b71bd1ce96db1b676d3015"
+          }
         }
       ]
     ],
@@ -572,6 +1681,7 @@
       []
     ],
     "selected": [],
-    "unlock_quantity": 0
+    "unlock_quantity": null,
+    "source": "wiki"
   }
 ]

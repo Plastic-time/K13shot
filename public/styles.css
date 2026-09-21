@@ -1489,6 +1489,23 @@ body {
   font-size: 19px;
 }
 
+.brand-title {
+  grid-column: 1 / -1;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: baseline;
+  gap: 4px 12px;
+  min-width: 0;
+}
+
+.game-version {
+  color: #50635f;
+  font-size: 11px;
+  line-height: 1.4;
+  white-space: nowrap;
+  font-variant-numeric: tabular-nums;
+}
+
 .topbar p {
   font-size: 12px;
 }

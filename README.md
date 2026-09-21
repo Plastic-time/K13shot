@@ -2,7 +2,7 @@
 
 想知道开到目标载具还需要走哪条线、花多少研发点和银狮？这款《战争雷霆》研发计算器将**自动路线规划**与**可视化配件研发**放在同一个科技树界面中：选择想开的载具，标记已经拥有的载具，再计算路线；进入配件窗口，还能为单辆载具定制配件研发计划。
 
-**[直接打开网页版，无需下载](https://plastic-time.github.io/K13shot/)** · [下载便携版](https://github.com/Plastic-time/K13shot/releases/tag/v1.0.4)
+**[直接打开网页版，无需下载](https://plastic-time.github.io/K13shot/)** · [下载便携版](https://github.com/Plastic-time/K13shot/releases/tag/v1.0.5)
 
 无需登录游戏账号，规划计算在当前浏览器中完成。以下介绍以当前网页版为准，已发布的下载包保留其发布时的功能，不会自动获得后续网页更新。
 
@@ -41,14 +41,21 @@
 
 如果你只是想直接使用，下载：
 
-**[WarThunderResearchCalculator-v1.0.4-portable.zip](https://github.com/Plastic-time/K13shot/releases/download/v1.0.4/WarThunderResearchCalculator-v1.0.4-portable.zip)**
+**[WarThunderResearchCalculator-v1.0.5-portable.zip](https://github.com/Plastic-time/K13shot/releases/download/v1.0.5/WarThunderResearchCalculator-v1.0.5-portable.zip)**
 
 这是推荐给大多数玩家的便携版。解压后双击 `WarThunderResearchCalculator.exe` 即可运行，不需要安装 Node.js，也不需要执行 `npm install`。
 
 | 文件 | 推荐人群 | 是否需要安装 Node.js | 使用方式 |
 | --- | --- | --- | --- |
-| `WarThunderResearchCalculator-v1.0.4-portable.zip` | 普通玩家，推荐下载 | 不需要 | 解压后双击 exe |
-| `WarThunderResearchCalculator-v1.0.4.zip` | 开发者或已安装 Node.js 的用户 | 需要 | 解压后运行 `npm install` |
+| `WarThunderResearchCalculator-v1.0.5-portable.zip` | 普通玩家，推荐下载 | 不需要 | 解压后双击 exe |
+| `WarThunderResearchCalculator-v1.0.5.zip` | 开发者或已安装 Node.js 的用户 | 需要 | 解压后运行 `npm install` |
+
+## v1.0.5 数据同步
+
+- 网页和桌面左上角显示游戏数据版本 **2.59.0.17**，表示 2026-09-21 载具 RP / 银狮核对的版本基准。
+- 桌面版同步目前网页版的 **3,235 辆载具**，较 v1.0.4 补齐 106 辆，修正 34 辆的 66 个已确认费用字段。
+- Wiki 未标价的项目保留为空，不用游戏内部数值直接补成玩家可用价格。
+- 不修改规划代码、等级门槛或前置规则文件，配件沿用独立快照；新增桌面和网页数据库一致性测试。
 
 ## v1.0.4 维护更新
 
@@ -114,7 +121,7 @@ node tools/test-modifications.cjs
 
 网页版数据更新：重新抓取全部国家与军种的科技树及详情，逐项核对载具 ID、名称、等级、原始前置关系、各战斗类型的 BR、研发费用与购买货币。飞机默认显示空战 RB，不再被陆战或海战数值覆盖。计算器的前置补全、Rank I 和折叠组处理已恢复为本次数据更新前的规则，数据刷新不再改变这些规则。
 
-金币、联队载具继续排除在普通研发费用合计之外，但 `wiki` 字段完整保留原始费用与货币，这不代表游戏内免费。Wiki 没有提供的费用保留为 `null`，网页显示“未提供”，合计提示“未知”，不冒充 0。下一级解锁数量使用项目原有的 `dict/unlock_quantity.js` 规则表，恢复“已选 / 所需”和达标提示；此表不是本次 Wiki 抓取结果。该表同步为 `docs/unlock-quantity.js`，独立于 Wiki 数据快照，后续数据更新不会清除这些门槛。网页版与 v1.0.4 下载包使用同一份数据。
+金币、联队载具继续排除在普通研发费用合计之外，但 `wiki` 字段完整保留原始费用与货币，这不代表游戏内免费。Wiki 没有提供的费用保留为 `null`，网页显示“未提供”，合计提示“未知”，不冒充 0。下一级解锁数量使用项目原有的 `dict/unlock_quantity.js` 规则表，恢复“已选 / 所需”和达标提示；此表不是本次 Wiki 抓取结果。该表同步为 `docs/unlock-quantity.js`，独立于 Wiki 数据快照，后续数据更新不会清除这些门槛。网页版与 v1.0.5 下载包使用同一份科技树数据；v1.0.4 的桌面数据库存在滞后，已在 v1.0.5 同步。
 
 重新更新与核验（需 Node.js 24 LTS 和 `npm install`）：
 
@@ -147,7 +154,7 @@ node tools/test-wiki.cjs
 
 ### 便携版，推荐
 
-1. 下载 `WarThunderResearchCalculator-v1.0.4-portable.zip`。
+1. 下载 `WarThunderResearchCalculator-v1.0.5-portable.zip`。
 2. 解压到任意文件夹。
 3. 双击 `WarThunderResearchCalculator.exe`。
 4. 浏览器会自动打开计算器页面。
@@ -235,14 +242,14 @@ The current snapshot contains 3,225 vehicles with modification tables and 52,430
 
 If you simply want to use the calculator, download:
 
-**[WarThunderResearchCalculator-v1.0.4-portable.zip](https://github.com/Plastic-time/K13shot/releases/download/v1.0.4/WarThunderResearchCalculator-v1.0.4-portable.zip)**
+**[WarThunderResearchCalculator-v1.0.5-portable.zip](https://github.com/Plastic-time/K13shot/releases/download/v1.0.5/WarThunderResearchCalculator-v1.0.5-portable.zip)**
 
 This is the recommended portable package for most players. Extract it and double-click `WarThunderResearchCalculator.exe`. No Node.js installation or `npm install` is required.
 
 | File | Recommended For | Requires Node.js | How to Use |
 | --- | --- | --- | --- |
-| `WarThunderResearchCalculator-v1.0.4-portable.zip` | Most players | No | Extract and double-click the exe |
-| `WarThunderResearchCalculator-v1.0.4.zip` | Developers or users with Node.js installed | Yes | Extract and run `npm install` |
+| `WarThunderResearchCalculator-v1.0.5-portable.zip` | Most players | No | Extract and double-click the exe |
+| `WarThunderResearchCalculator-v1.0.5.zip` | Developers or users with Node.js installed | Yes | Extract and run `npm install` |
 
 ## Features
 

@@ -5,42 +5,132 @@
       [
         {
           "type": "single",
-          "title": "AB 41",
+          "title": "AB 41",
           "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/it_ab_41.png",
           "br": "1.0",
-          "rp": null,
-          "sp": null,
+          "rp": 0,
+          "sp": 0,
           "data_unit_id": "it_ab_41",
+          "required_unit_id": "",
           "selected": false,
           "class_name": "",
           "details": true,
-          "main_role": "Light tank"
+          "rank": "I",
+          "research_country": "Italy",
+          "main_role": "Light tank",
+          "is_component": false,
+          "component_of": null,
+          "is_premium": false,
+          "is_squadron": false,
+          "wiki": {
+            "url": "https://wiki.warthunder.com/unit/it_ab_41",
+            "rank": "I",
+            "battle_rating_context": "default",
+            "battle_ratings": {
+              "AB": "1.0",
+              "RB": "1.0",
+              "SB": "1.0"
+            },
+            "battle_ratings_by_battle": {
+              "default": {
+                "AB": "1.0",
+                "RB": "1.0",
+                "SB": "1.0"
+              }
+            },
+            "research": "Free",
+            "purchase": "Free",
+            "purchase_currency": "SL",
+            "status": null,
+            "fetched_at": "2026-09-19T06:29:04.164Z",
+            "sha256": "4e7f06d7708a9fc5f57985519843a3f7063f38b3786b260bacfe57bbfdd0a52a"
+          }
         },
         {
           "type": "single",
           "title": "M11/39",
           "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/it_m11_39.png",
           "br": "1.0",
-          "rp": "2,900",
-          "sp": "700",
+          "rp": 2900,
+          "sp": 700,
           "data_unit_id": "it_m11_39",
+          "required_unit_id": "it_ab_41",
           "selected": false,
           "class_name": "",
           "details": true,
-          "main_role": "Light tank"
+          "rank": "I",
+          "research_country": "Italy",
+          "main_role": "Light tank",
+          "is_component": false,
+          "component_of": null,
+          "is_premium": false,
+          "is_squadron": false,
+          "wiki": {
+            "url": "https://wiki.warthunder.com/unit/it_m11_39",
+            "rank": "I",
+            "battle_rating_context": "default",
+            "battle_ratings": {
+              "AB": "1.0",
+              "RB": "1.0",
+              "SB": "1.0"
+            },
+            "battle_ratings_by_battle": {
+              "default": {
+                "AB": "1.0",
+                "RB": "1.0",
+                "SB": "1.0"
+              }
+            },
+            "research": "2,900",
+            "purchase": "700",
+            "purchase_currency": "SL",
+            "status": null,
+            "fetched_at": "2026-09-19T06:29:08.303Z",
+            "sha256": "980dbe64776fe9859e46372685ac32f0ef9f694c03e813614dd74a3228a96eb4"
+          }
         },
         {
           "type": "single",
-          "title": "AS 42/47",
+          "title": "AS 42/47",
           "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/it_as_42_47.png",
           "br": "2.0",
-          "rp": "4,000",
-          "sp": "2,100",
+          "rp": 4000,
+          "sp": 2100,
           "data_unit_id": "it_as_42_47",
+          "required_unit_id": "it_m11_39",
           "selected": false,
           "class_name": "",
           "details": true,
-          "main_role": "Light tank"
+          "rank": "I",
+          "research_country": "Italy",
+          "main_role": "Light tank",
+          "is_component": false,
+          "component_of": null,
+          "is_premium": false,
+          "is_squadron": false,
+          "wiki": {
+            "url": "https://wiki.warthunder.com/unit/it_as_42_47",
+            "rank": "I",
+            "battle_rating_context": "default",
+            "battle_ratings": {
+              "AB": "1.7",
+              "RB": "2.0",
+              "SB": "2.0"
+            },
+            "battle_ratings_by_battle": {
+              "default": {
+                "AB": "1.7",
+                "RB": "2.0",
+                "SB": "2.0"
+              }
+            },
+            "research": "4,000",
+            "purchase": "2,100",
+            "purchase_currency": "SL",
+            "status": null,
+            "fetched_at": "2026-09-19T06:29:04.631Z",
+            "sha256": "42ffca81d65c2d01a1c37d629c3059b61806f3a7b1aef108d2532286565a9d99"
+          }
         }
       ],
       [
@@ -49,13 +139,43 @@
           "title": "L6/40",
           "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/it_l6.png",
           "br": "1.0",
-          "rp": null,
-          "sp": null,
+          "rp": 0,
+          "sp": 0,
           "data_unit_id": "it_l6",
+          "required_unit_id": "",
           "selected": false,
           "class_name": "",
           "details": true,
-          "main_role": "Light tank"
+          "rank": "I",
+          "research_country": "Italy",
+          "main_role": "Light tank",
+          "is_component": false,
+          "component_of": null,
+          "is_premium": false,
+          "is_squadron": false,
+          "wiki": {
+            "url": "https://wiki.warthunder.com/unit/it_l6",
+            "rank": "I",
+            "battle_rating_context": "default",
+            "battle_ratings": {
+              "AB": "1.0",
+              "RB": "1.0",
+              "SB": "1.0"
+            },
+            "battle_ratings_by_battle": {
+              "default": {
+                "AB": "1.0",
+                "RB": "1.0",
+                "SB": "1.0"
+              }
+            },
+            "research": "Free",
+            "purchase": "Free",
+            "purchase_currency": "SL",
+            "status": null,
+            "fetched_at": "2026-09-19T06:29:07.195Z",
+            "sha256": "0b329ef84f4dd2d8941a2b35e8f9c083c1f48f5a91d143d494f4acc91283085b"
+          }
         },
         {
           "type": "multiple",
@@ -64,105 +184,318 @@
           "selected": false,
           "br": "1.7-2.0",
           "data_unit_id": "it_m13_40_group",
+          "required_unit_id": "it_l6",
           "class_name": "",
           "items": [
             {
               "type": "single",
-              "title": "M13/40 (I)",
+              "title": "M13/40 (I)",
               "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/it_m13_40_serie_1.png",
               "br": "1.7",
-              "rp": "2,900",
-              "sp": "700",
+              "rp": 2900,
+              "sp": 700,
               "data_unit_id": "it_m13_40_serie_1",
+              "required_unit_id": "",
               "selected": false,
               "class_name": "",
               "details": true,
-              "main_role": "Medium tank"
+              "rank": "I",
+              "research_country": "Italy",
+              "main_role": "Medium tank",
+              "is_component": false,
+              "component_of": null,
+              "is_premium": false,
+              "is_squadron": false,
+              "wiki": {
+                "url": "https://wiki.warthunder.com/unit/it_m13_40_serie_1",
+                "rank": "I",
+                "battle_rating_context": "default",
+                "battle_ratings": {
+                  "AB": "1.7",
+                  "RB": "1.7",
+                  "SB": "1.7"
+                },
+                "battle_ratings_by_battle": {
+                  "default": {
+                    "AB": "1.7",
+                    "RB": "1.7",
+                    "SB": "1.7"
+                  }
+                },
+                "research": "2,900",
+                "purchase": "700",
+                "purchase_currency": "SL",
+                "status": null,
+                "fetched_at": "2026-09-19T06:29:08.198Z",
+                "sha256": "6e39903c24f2fb6e13c918a526d3de937f5c89b29541a61db129dd47952c93f4"
+              }
             },
             {
               "type": "single",
-              "title": "M13/40 (III)",
+              "title": "M13/40 (III)",
               "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/it_m13_40_serie_3.png",
               "br": "2.0",
-              "rp": "2,000",
-              "sp": "2,100",
+              "rp": 2000,
+              "sp": 2100,
               "data_unit_id": "it_m13_40_serie_3",
+              "required_unit_id": "it_m13_40_serie_1",
               "selected": false,
               "class_name": "",
               "details": true,
-              "main_role": "Medium tank"
+              "rank": "I",
+              "research_country": "Italy",
+              "main_role": "Medium tank",
+              "is_component": false,
+              "component_of": null,
+              "is_premium": false,
+              "is_squadron": false,
+              "wiki": {
+                "url": "https://wiki.warthunder.com/unit/it_m13_40_serie_3",
+                "rank": "I",
+                "battle_rating_context": "default",
+                "battle_ratings": {
+                  "AB": "2.0",
+                  "RB": "2.0",
+                  "SB": "2.0"
+                },
+                "battle_ratings_by_battle": {
+                  "default": {
+                    "AB": "2.0",
+                    "RB": "2.0",
+                    "SB": "2.0"
+                  }
+                },
+                "research": "2,000",
+                "purchase": "2,100",
+                "purchase_currency": "SL",
+                "status": null,
+                "fetched_at": "2026-09-19T06:29:08.376Z",
+                "sha256": "ed28142520fbacacc5d5b20ac2038c2666ac1e66bf9dd78a85e9ec0eb60c3ac3"
+              }
             }
           ],
-          "details": true
+          "details": true,
+          "rp": 4900,
+          "sp": 2800
         },
         {
           "type": "single",
           "title": "M14/41",
           "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/it_m14_41.png",
           "br": "2.0",
-          "rp": "5,900",
-          "sp": "6,300",
+          "rp": 5900,
+          "sp": 6300,
           "data_unit_id": "it_m14_41",
+          "required_unit_id": "it_m13_40_group",
           "selected": false,
           "class_name": "",
           "details": true,
-          "main_role": "Medium tank"
+          "rank": "I",
+          "research_country": "Italy",
+          "main_role": "Medium tank",
+          "is_component": false,
+          "component_of": null,
+          "is_premium": false,
+          "is_squadron": false,
+          "wiki": {
+            "url": "https://wiki.warthunder.com/unit/it_m14_41",
+            "rank": "I",
+            "battle_rating_context": "default",
+            "battle_ratings": {
+              "AB": "2.3",
+              "RB": "2.0",
+              "SB": "2.0"
+            },
+            "battle_ratings_by_battle": {
+              "default": {
+                "AB": "2.3",
+                "RB": "2.0",
+                "SB": "2.0"
+              }
+            },
+            "research": "5,900",
+            "purchase": "6,300",
+            "purchase_currency": "SL",
+            "status": null,
+            "fetched_at": "2026-09-19T06:29:08.476Z",
+            "sha256": "998cac646deed8bc40ac8185ebb39f1ae86a4858e1b7bc75d8619bba40199f46"
+          }
         }
       ],
       [
         {
           "type": "single",
-          "title": "AS 42",
+          "title": "AS 42",
           "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/it_as_42_metropolitana.png",
           "br": "1.3",
-          "rp": "2,900",
-          "sp": "700",
+          "rp": 2900,
+          "sp": 700,
           "data_unit_id": "it_as_42_metropolitana",
+          "required_unit_id": "",
           "selected": false,
           "class_name": "",
           "details": true,
-          "main_role": "SPAA"
+          "rank": "I",
+          "research_country": "Italy",
+          "main_role": "SPAA",
+          "is_component": false,
+          "component_of": null,
+          "is_premium": false,
+          "is_squadron": false,
+          "wiki": {
+            "url": "https://wiki.warthunder.com/unit/it_as_42_metropolitana",
+            "rank": "I",
+            "battle_rating_context": "default",
+            "battle_ratings": {
+              "AB": "1.3",
+              "RB": "1.3",
+              "SB": "1.3"
+            },
+            "battle_ratings_by_battle": {
+              "default": {
+                "AB": "1.3",
+                "RB": "1.3",
+                "SB": "1.3"
+              }
+            },
+            "research": "2,900",
+            "purchase": "700",
+            "purchase_currency": "SL",
+            "status": null,
+            "fetched_at": "2026-09-19T06:29:04.645Z",
+            "sha256": "e66778b3a6c0a01a7db8e7d7998a5bb9831ed3543ec7b42e262dc02be5af425f"
+          }
         }
       ],
       [
         {
           "type": "single",
-          "title": "L3/33 CC",
+          "title": "L3/33 CC",
           "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/it_l3_cc.png",
           "br": "1.0",
-          "rp": "2,900",
-          "sp": "700",
+          "rp": 2900,
+          "sp": 700,
           "data_unit_id": "it_l3_cc",
+          "required_unit_id": "",
           "selected": false,
           "class_name": "",
           "details": true,
-          "main_role": "Tank destroyer"
+          "rank": "I",
+          "research_country": "Italy",
+          "main_role": "Tank destroyer",
+          "is_component": false,
+          "component_of": null,
+          "is_premium": false,
+          "is_squadron": false,
+          "wiki": {
+            "url": "https://wiki.warthunder.com/unit/it_l3_cc",
+            "rank": "I",
+            "battle_rating_context": "default",
+            "battle_ratings": {
+              "AB": "1.0",
+              "RB": "1.0",
+              "SB": "1.0"
+            },
+            "battle_ratings_by_battle": {
+              "default": {
+                "AB": "1.0",
+                "RB": "1.0",
+                "SB": "1.0"
+              }
+            },
+            "research": "2,900",
+            "purchase": "700",
+            "purchase_currency": "SL",
+            "status": null,
+            "fetched_at": "2026-09-19T06:29:06.897Z",
+            "sha256": "8d6ecbc015f2dee21c9916b6d6e18edc4d07f1ffc81981c0e99370510c89c38c"
+          }
         },
         {
           "type": "single",
-          "title": "47/32 L40",
+          "title": "47/32 L40",
           "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/it_semovente_l40.png",
           "br": "1.3",
-          "rp": "4,000",
-          "sp": "2,100",
+          "rp": 4000,
+          "sp": 2100,
           "data_unit_id": "it_semovente_l40",
+          "required_unit_id": "it_l3_cc",
           "selected": false,
           "class_name": "",
           "details": true,
-          "main_role": "Tank destroyer"
+          "rank": "I",
+          "research_country": "Italy",
+          "main_role": "Tank destroyer",
+          "is_component": false,
+          "component_of": null,
+          "is_premium": false,
+          "is_squadron": false,
+          "wiki": {
+            "url": "https://wiki.warthunder.com/unit/it_semovente_l40",
+            "rank": "I",
+            "battle_rating_context": "default",
+            "battle_ratings": {
+              "AB": "1.3",
+              "RB": "1.3",
+              "SB": "1.3"
+            },
+            "battle_ratings_by_battle": {
+              "default": {
+                "AB": "1.3",
+                "RB": "1.3",
+                "SB": "1.3"
+              }
+            },
+            "research": "4,000",
+            "purchase": "2,100",
+            "purchase_currency": "SL",
+            "status": null,
+            "fetched_at": "2026-09-19T06:29:12.063Z",
+            "sha256": "1a6ca57f757d4295909d2011545f08f0f174167d848c7dd12a4777a65cfb96b0"
+          }
         },
         {
           "type": "single",
-          "title": "Lancia 3Ro (100/17)",
+          "title": "Lancia 3Ro (100/17)",
           "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/it_lancia3ro_100.png",
           "br": "1.7",
-          "rp": "5,900",
-          "sp": "6,300",
+          "rp": 5900,
+          "sp": 6300,
           "data_unit_id": "it_lancia3ro_100",
+          "required_unit_id": "it_semovente_l40",
           "selected": false,
           "class_name": "",
           "details": true,
-          "main_role": "Tank destroyer"
+          "rank": "I",
+          "research_country": "Italy",
+          "main_role": "Tank destroyer",
+          "is_component": false,
+          "component_of": null,
+          "is_premium": false,
+          "is_squadron": false,
+          "wiki": {
+            "url": "https://wiki.warthunder.com/unit/it_lancia3ro_100",
+            "rank": "I",
+            "battle_rating_context": "default",
+            "battle_ratings": {
+              "AB": "2.0",
+              "RB": "1.7",
+              "SB": "1.7"
+            },
+            "battle_ratings_by_battle": {
+              "default": {
+                "AB": "2.0",
+                "RB": "1.7",
+                "SB": "1.7"
+              }
+            },
+            "research": "5,900",
+            "purchase": "6,300",
+            "purchase_currency": "SL",
+            "status": null,
+            "fetched_at": "2026-09-19T06:29:07.402Z",
+            "sha256": "935299665cbd74fded2d79e73aaa1fd519fac943b4f190c9e42c014daed7acb2"
+          }
         }
       ],
       [
@@ -171,13 +504,43 @@
           "title": "Csaba",
           "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/it_39m_csaba.png",
           "br": "1.0",
-          "rp": "2,900",
-          "sp": "700",
+          "rp": 2900,
+          "sp": 700,
           "data_unit_id": "it_39m_csaba",
+          "required_unit_id": "",
           "selected": false,
           "class_name": "",
           "details": true,
-          "main_role": "Light tank"
+          "rank": "I",
+          "research_country": "Italy",
+          "main_role": "Light tank",
+          "is_component": false,
+          "component_of": null,
+          "is_premium": false,
+          "is_squadron": false,
+          "wiki": {
+            "url": "https://wiki.warthunder.com/unit/it_39m_csaba",
+            "rank": "I",
+            "battle_rating_context": "default",
+            "battle_ratings": {
+              "AB": "1.0",
+              "RB": "1.0",
+              "SB": "1.0"
+            },
+            "battle_ratings_by_battle": {
+              "default": {
+                "AB": "1.0",
+                "RB": "1.0",
+                "SB": "1.0"
+              }
+            },
+            "research": "2,900",
+            "purchase": "700",
+            "purchase_currency": "SL",
+            "status": null,
+            "fetched_at": "2026-09-19T06:29:03.157Z",
+            "sha256": "5872f48a28c477cdddf56c1130707adbd3a697737419fe36f68e6b64a4622265"
+          }
         }
       ]
     ],
@@ -185,49 +548,140 @@
       [
         {
           "type": "single",
-          "title": "L6/40 (31 Rgt.)",
+          "title": "L6/40 (31 Rgt.)",
           "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/it_l6_leone.png",
           "br": "1.0",
           "rp": 0,
           "sp": 0,
           "data_unit_id": "it_l6_leone",
+          "required_unit_id": "",
           "selected": false,
           "class_name": "prem",
           "details": true,
-          "main_role": "Light tank"
+          "rank": "I",
+          "research_country": "Italy",
+          "main_role": "Light tank",
+          "is_component": false,
+          "component_of": null,
+          "is_premium": true,
+          "is_squadron": false,
+          "wiki": {
+            "url": "https://wiki.warthunder.com/unit/it_l6_leone",
+            "rank": "I",
+            "battle_rating_context": "default",
+            "battle_ratings": {
+              "AB": "1.0",
+              "RB": "1.0",
+              "SB": "1.0"
+            },
+            "battle_ratings_by_battle": {
+              "default": {
+                "AB": "1.0",
+                "RB": "1.0",
+                "SB": "1.0"
+              }
+            },
+            "research": null,
+            "purchase": "250",
+            "purchase_currency": "GE",
+            "status": "Premium vehicle",
+            "fetched_at": "2026-09-19T06:29:07.216Z",
+            "sha256": "e104081fe6dfb555eb017a3cf3b3abe5fda2b6e5deb2d14fc8093fe137666c3b"
+          }
         },
         {
           "type": "single",
-          "title": "M13/40 (II)",
+          "title": "M13/40 (II)",
           "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/it_m13_40_serie_2.png",
           "br": "2.0",
           "rp": 0,
           "sp": 0,
           "data_unit_id": "it_m13_40_serie_2",
+          "required_unit_id": "",
           "selected": false,
           "class_name": "prem",
           "details": true,
-          "main_role": "Medium tank"
+          "rank": "I",
+          "research_country": "Italy",
+          "main_role": "Medium tank",
+          "is_component": false,
+          "component_of": null,
+          "is_premium": true,
+          "is_squadron": false,
+          "wiki": {
+            "url": "https://wiki.warthunder.com/unit/it_m13_40_serie_2",
+            "rank": "I",
+            "battle_rating_context": "default",
+            "battle_ratings": {
+              "AB": "2.0",
+              "RB": "2.0",
+              "SB": "2.0"
+            },
+            "battle_ratings_by_battle": {
+              "default": {
+                "AB": "2.0",
+                "RB": "2.0",
+                "SB": "2.0"
+              }
+            },
+            "research": null,
+            "purchase": "400",
+            "purchase_currency": "GE",
+            "status": "Premium vehicle",
+            "fetched_at": "2026-09-19T06:29:08.133Z",
+            "sha256": "9e6dcbf62c5a1d3d9789cc61b3b4b31f0474d00b1623fe91ff47ebba2de85900"
+          }
         }
       ],
       [
         {
           "type": "single",
-          "title": "Toldi IIA",
+          "title": "Toldi IIA",
           "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/it_toldi_ii_a.png",
           "br": "1.3",
           "rp": 0,
           "sp": 0,
           "data_unit_id": "it_toldi_ii_a",
+          "required_unit_id": "",
           "selected": false,
           "class_name": "prem",
           "details": true,
-          "main_role": "Light tank"
+          "rank": "I",
+          "research_country": "Italy",
+          "main_role": "Light tank",
+          "is_component": false,
+          "component_of": null,
+          "is_premium": true,
+          "is_squadron": false,
+          "wiki": {
+            "url": "https://wiki.warthunder.com/unit/it_toldi_II_a",
+            "rank": "I",
+            "battle_rating_context": "default",
+            "battle_ratings": {
+              "AB": "1.3",
+              "RB": "1.3",
+              "SB": "1.3"
+            },
+            "battle_ratings_by_battle": {
+              "default": {
+                "AB": "1.3",
+                "RB": "1.3",
+                "SB": "1.3"
+              }
+            },
+            "research": null,
+            "purchase": null,
+            "purchase_currency": null,
+            "status": "Premium vehicle",
+            "fetched_at": "2026-09-19T06:29:13.599Z",
+            "sha256": "34e3af4cec17b25357d966547430bc3cd1746986e57d9ad8025ee2bbde05e06f"
+          }
         }
       ]
     ],
     "selected": [],
-    "unlock_quantity": 0
+    "unlock_quantity": null,
+    "source": "wiki"
   },
   {
     "rank": "II",
@@ -235,29 +689,89 @@
       [
         {
           "type": "single",
-          "title": "AB 43",
+          "title": "AB 43",
           "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/it_ab_43.png",
           "br": "2.7",
-          "rp": "7,900",
-          "sp": "10,000",
+          "rp": 7900,
+          "sp": 10000,
           "data_unit_id": "it_ab_43",
+          "required_unit_id": "",
           "selected": false,
           "class_name": "",
           "details": true,
-          "main_role": "Light tank"
+          "rank": "II",
+          "research_country": "Italy",
+          "main_role": "Light tank",
+          "is_component": false,
+          "component_of": null,
+          "is_premium": false,
+          "is_squadron": false,
+          "wiki": {
+            "url": "https://wiki.warthunder.com/unit/it_ab_43",
+            "rank": "II",
+            "battle_rating_context": "default",
+            "battle_ratings": {
+              "AB": "2.3",
+              "RB": "2.7",
+              "SB": "2.7"
+            },
+            "battle_ratings_by_battle": {
+              "default": {
+                "AB": "2.3",
+                "RB": "2.7",
+                "SB": "2.7"
+              }
+            },
+            "research": "7,900",
+            "purchase": "10,000",
+            "purchase_currency": "SL",
+            "status": null,
+            "fetched_at": "2026-09-19T06:29:04.357Z",
+            "sha256": "72bde13c02740e14edead57697aeb7eb9c44edd9848fd4607bd28521ccca355a"
+          }
         },
         {
           "type": "single",
           "title": "▄M3A3",
           "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/it_m3a3_stuart.png",
           "br": "2.7",
-          "rp": "9,200",
-          "sp": "16,000",
+          "rp": 9200,
+          "sp": 16000,
           "data_unit_id": "it_m3a3_stuart",
+          "required_unit_id": "it_ab_43",
           "selected": false,
           "class_name": "",
           "details": true,
-          "main_role": "Light tank"
+          "rank": "II",
+          "research_country": "Italy",
+          "main_role": "Light tank",
+          "is_component": false,
+          "component_of": null,
+          "is_premium": false,
+          "is_squadron": false,
+          "wiki": {
+            "url": "https://wiki.warthunder.com/unit/it_m3a3_stuart",
+            "rank": "II",
+            "battle_rating_context": "default",
+            "battle_ratings": {
+              "AB": "2.7",
+              "RB": "2.7",
+              "SB": "2.7"
+            },
+            "battle_ratings_by_battle": {
+              "default": {
+                "AB": "2.7",
+                "RB": "2.7",
+                "SB": "2.7"
+              }
+            },
+            "research": "9,200",
+            "purchase": "16,000",
+            "purchase_currency": "SL",
+            "status": null,
+            "fetched_at": "2026-09-19T06:29:09.346Z",
+            "sha256": "b0ecceb94dc0d88b55663e9f9318754fb18f9a0398048185564cb0624116830b"
+          }
         }
       ],
       [
@@ -266,8 +780,9 @@
           "title": "M15/Pz.III",
           "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/it_m15_pz_3_group.png",
           "selected": false,
-          "br": "2.7-3.0",
+          "br": "2.7-3.3",
           "data_unit_id": "it_m15_pz_3_group",
+          "required_unit_id": "",
           "class_name": "",
           "items": [
             {
@@ -275,42 +790,134 @@
               "title": "M15/42",
               "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/it_m15_42.png",
               "br": "2.7",
-              "rp": "7,900",
-              "sp": "10,000",
+              "rp": 7900,
+              "sp": 10000,
               "data_unit_id": "it_m15_42",
+              "required_unit_id": "",
               "selected": false,
               "class_name": "",
               "details": true,
-              "main_role": "Medium tank"
+              "rank": "II",
+              "research_country": "Italy",
+              "main_role": "Medium tank",
+              "is_component": false,
+              "component_of": null,
+              "is_premium": false,
+              "is_squadron": false,
+              "wiki": {
+                "url": "https://wiki.warthunder.com/unit/it_m15_42",
+                "rank": "II",
+                "battle_rating_context": "default",
+                "battle_ratings": {
+                  "AB": "2.7",
+                  "RB": "2.7",
+                  "SB": "2.7"
+                },
+                "battle_ratings_by_battle": {
+                  "default": {
+                    "AB": "2.7",
+                    "RB": "2.7",
+                    "SB": "2.7"
+                  }
+                },
+                "research": "7,900",
+                "purchase": "10,000",
+                "purchase_currency": "SL",
+                "status": null,
+                "fetched_at": "2026-09-19T06:29:08.612Z",
+                "sha256": "336ce7cf1e3aa7df5558467d6c179dede3526cab00963b594fb098320aace678"
+              }
             },
             {
               "type": "single",
-              "title": "▄Pz.III N",
+              "title": "▄Pz.III N",
               "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/it_pzkpfw_iii_ausf_n.png",
-              "br": "3.0",
-              "rp": "4,600",
-              "sp": "16,000",
+              "br": "3.3",
+              "rp": 4600,
+              "sp": 16000,
               "data_unit_id": "it_pzkpfw_iii_ausf_n",
+              "required_unit_id": "it_m15_42",
               "selected": false,
               "class_name": "",
               "details": true,
-              "main_role": "Medium tank"
+              "rank": "II",
+              "research_country": "Italy",
+              "main_role": "Medium tank",
+              "is_component": false,
+              "component_of": null,
+              "is_premium": false,
+              "is_squadron": false,
+              "wiki": {
+                "url": "https://wiki.warthunder.com/unit/it_pzkpfw_III_ausf_N",
+                "rank": "II",
+                "battle_rating_context": "default",
+                "battle_ratings": {
+                  "AB": "3.3",
+                  "RB": "3.3",
+                  "SB": "3.3"
+                },
+                "battle_ratings_by_battle": {
+                  "default": {
+                    "AB": "3.3",
+                    "RB": "3.3",
+                    "SB": "3.3"
+                  }
+                },
+                "research": "4,600",
+                "purchase": "16,000",
+                "purchase_currency": "SL",
+                "status": null,
+                "fetched_at": "2026-09-19T06:29:11.307Z",
+                "sha256": "0a8f4f04fdd81e9f85a0b5fa106b66e7c4de56944bacb209dad666c95676c150"
+              }
             }
           ],
-          "details": true
+          "details": true,
+          "rp": 12500,
+          "sp": 26000
         },
         {
           "type": "single",
           "title": "P40",
           "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/it_p_40.png",
           "br": "3.3",
-          "rp": "14,000",
-          "sp": "32,000",
+          "rp": 14000,
+          "sp": 32000,
           "data_unit_id": "it_p_40",
+          "required_unit_id": "it_m15_pz_3_group",
           "selected": false,
           "class_name": "",
           "details": true,
-          "main_role": "Medium tank"
+          "rank": "II",
+          "research_country": "Italy",
+          "main_role": "Medium tank",
+          "is_component": false,
+          "component_of": null,
+          "is_premium": false,
+          "is_squadron": false,
+          "wiki": {
+            "url": "https://wiki.warthunder.com/unit/it_p_40",
+            "rank": "II",
+            "battle_rating_context": "default",
+            "battle_ratings": {
+              "AB": "3.3",
+              "RB": "3.3",
+              "SB": "3.3"
+            },
+            "battle_ratings_by_battle": {
+              "default": {
+                "AB": "3.3",
+                "RB": "3.3",
+                "SB": "3.3"
+              }
+            },
+            "research": "14,000",
+            "purchase": "32,000",
+            "purchase_currency": "SL",
+            "status": null,
+            "fetched_at": "2026-09-19T06:29:10.811Z",
+            "sha256": "5d235d7f2bd43ae7d6571dfa9a3a082c731a6fe540f12782d3160e5b39fe2861"
+          }
         }
       ],
       [
@@ -319,13 +926,43 @@
           "title": "CM52",
           "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/it_fiat_cm52.png",
           "br": "2.3",
-          "rp": "7,900",
-          "sp": "10,000",
+          "rp": 7900,
+          "sp": 10000,
           "data_unit_id": "it_fiat_cm52",
+          "required_unit_id": "",
           "selected": false,
           "class_name": "",
           "details": true,
-          "main_role": "SPAA"
+          "rank": "II",
+          "research_country": "Italy",
+          "main_role": "SPAA",
+          "is_component": false,
+          "component_of": null,
+          "is_premium": false,
+          "is_squadron": false,
+          "wiki": {
+            "url": "https://wiki.warthunder.com/unit/it_fiat_cm52",
+            "rank": "II",
+            "battle_rating_context": "default",
+            "battle_ratings": {
+              "AB": "2.3",
+              "RB": "2.3",
+              "SB": "2.3"
+            },
+            "battle_ratings_by_battle": {
+              "default": {
+                "AB": "2.3",
+                "RB": "2.3",
+                "SB": "2.3"
+              }
+            },
+            "research": "7,900",
+            "purchase": "10,000",
+            "purchase_currency": "SL",
+            "status": null,
+            "fetched_at": "2026-09-19T06:29:06.497Z",
+            "sha256": "8feab5756d1607fe7f1f65400fbfdaabe8ff3c50247519550c9fad4dc737d4b0"
+          }
         }
       ],
       [
@@ -336,49 +973,142 @@
           "selected": false,
           "br": "2.0-2.3",
           "data_unit_id": "it_semovente_m41_group",
+          "required_unit_id": "",
           "class_name": "",
           "items": [
             {
               "type": "single",
-              "title": "75/18 M41",
+              "title": "75/18 M41",
               "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/it_semovente_m41_75_18.png",
               "br": "2.0",
-              "rp": "7,900",
-              "sp": "10,000",
+              "rp": 7900,
+              "sp": 10000,
               "data_unit_id": "it_semovente_m41_75_18",
+              "required_unit_id": "",
               "selected": false,
               "class_name": "",
               "details": true,
-              "main_role": "Tank destroyer"
+              "rank": "II",
+              "research_country": "Italy",
+              "main_role": "Tank destroyer",
+              "is_component": false,
+              "component_of": null,
+              "is_premium": false,
+              "is_squadron": false,
+              "wiki": {
+                "url": "https://wiki.warthunder.com/unit/it_semovente_m41_75_18",
+                "rank": "II",
+                "battle_rating_context": "default",
+                "battle_ratings": {
+                  "AB": "2.0",
+                  "RB": "2.0",
+                  "SB": "2.0"
+                },
+                "battle_ratings_by_battle": {
+                  "default": {
+                    "AB": "2.0",
+                    "RB": "2.0",
+                    "SB": "2.0"
+                  }
+                },
+                "research": "7,900",
+                "purchase": "10,000",
+                "purchase_currency": "SL",
+                "status": null,
+                "fetched_at": "2026-09-19T06:29:12.080Z",
+                "sha256": "bb26172964250f5b657bf303b2b23b758b8f73d972a54d98e6c08e856a635891"
+              }
             },
             {
               "type": "single",
-              "title": "75/32 M41",
+              "title": "75/32 M41",
               "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/it_semovente_m41_75_32.png",
               "br": "2.3",
-              "rp": "4,600",
-              "sp": "16,000",
+              "rp": 4600,
+              "sp": 16000,
               "data_unit_id": "it_semovente_m41_75_32",
+              "required_unit_id": "it_semovente_m41_75_18",
               "selected": false,
               "class_name": "",
               "details": true,
-              "main_role": "Tank destroyer"
+              "rank": "II",
+              "research_country": "Italy",
+              "main_role": "Tank destroyer",
+              "is_component": false,
+              "component_of": null,
+              "is_premium": false,
+              "is_squadron": false,
+              "wiki": {
+                "url": "https://wiki.warthunder.com/unit/it_semovente_m41_75_32",
+                "rank": "II",
+                "battle_rating_context": "default",
+                "battle_ratings": {
+                  "AB": "2.3",
+                  "RB": "2.3",
+                  "SB": "2.3"
+                },
+                "battle_ratings_by_battle": {
+                  "default": {
+                    "AB": "2.3",
+                    "RB": "2.3",
+                    "SB": "2.3"
+                  }
+                },
+                "research": "4,600",
+                "purchase": "16,000",
+                "purchase_currency": "SL",
+                "status": null,
+                "fetched_at": "2026-09-19T06:29:12.165Z",
+                "sha256": "d40e11aab7e25ac1c8526ebb017d91267edb6f3d3136e184cf598b5578ab959b"
+              }
             },
             {
               "type": "single",
-              "title": "75/34 M42",
+              "title": "75/34 M42",
               "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/it_semovente_m42_75_34.png",
               "br": "2.3",
-              "rp": "5,600",
-              "sp": "22,000",
+              "rp": 5600,
+              "sp": 22000,
               "data_unit_id": "it_semovente_m42_75_34",
+              "required_unit_id": "it_semovente_m41_75_32",
               "selected": false,
               "class_name": "",
               "details": true,
-              "main_role": "Tank destroyer"
+              "rank": "II",
+              "research_country": "Italy",
+              "main_role": "Tank destroyer",
+              "is_component": false,
+              "component_of": null,
+              "is_premium": false,
+              "is_squadron": false,
+              "wiki": {
+                "url": "https://wiki.warthunder.com/unit/it_semovente_m42_75_34",
+                "rank": "II",
+                "battle_rating_context": "default",
+                "battle_ratings": {
+                  "AB": "2.3",
+                  "RB": "2.3",
+                  "SB": "2.3"
+                },
+                "battle_ratings_by_battle": {
+                  "default": {
+                    "AB": "2.3",
+                    "RB": "2.3",
+                    "SB": "2.3"
+                  }
+                },
+                "research": "5,600",
+                "purchase": "22,000",
+                "purchase_currency": "SL",
+                "status": null,
+                "fetched_at": "2026-09-19T06:29:12.436Z",
+                "sha256": "6d992e9697cf182574cf82a87d72bf7a05fe95612230783f1d92e80274cb5ac7"
+              }
             }
           ],
-          "details": true
+          "details": true,
+          "rp": 18100,
+          "sp": 48000
         },
         {
           "type": "multiple",
@@ -387,64 +1117,187 @@
           "selected": false,
           "br": "3.0-3.3",
           "data_unit_id": "it_semovente_m43_105_75_group",
+          "required_unit_id": "it_semovente_m41_group",
           "class_name": "",
           "items": [
             {
               "type": "single",
-              "title": "105/25 M43",
+              "title": "105/25 M43",
               "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/it_semovente_m43_105.png",
               "br": "3.0",
-              "rp": "11,000",
-              "sp": "22,000",
+              "rp": 11000,
+              "sp": 22000,
               "data_unit_id": "it_semovente_m43_105",
+              "required_unit_id": "",
               "selected": false,
               "class_name": "",
               "details": true,
-              "main_role": "Tank destroyer"
+              "rank": "II",
+              "research_country": "Italy",
+              "main_role": "Tank destroyer",
+              "is_component": false,
+              "component_of": null,
+              "is_premium": false,
+              "is_squadron": false,
+              "wiki": {
+                "url": "https://wiki.warthunder.com/unit/it_semovente_m43_105",
+                "rank": "II",
+                "battle_rating_context": "default",
+                "battle_ratings": {
+                  "AB": "3.0",
+                  "RB": "3.0",
+                  "SB": "3.0"
+                },
+                "battle_ratings_by_battle": {
+                  "default": {
+                    "AB": "3.0",
+                    "RB": "3.0",
+                    "SB": "3.0"
+                  }
+                },
+                "research": "11,000",
+                "purchase": "22,000",
+                "purchase_currency": "SL",
+                "status": null,
+                "fetched_at": "2026-09-19T06:29:12.345Z",
+                "sha256": "96a1ee87f95051a261defc1584dc9a20a4c804fc5a06b615eb19930166f59051"
+              }
             },
             {
               "type": "single",
-              "title": "75/34 M43",
+              "title": "75/34 M43",
               "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/it_semovente_m43_75_34.png",
               "br": "3.3",
-              "rp": "6,900",
-              "sp": "32,000",
+              "rp": 6900,
+              "sp": 32000,
               "data_unit_id": "it_semovente_m43_75_34",
+              "required_unit_id": "it_semovente_m43_105",
               "selected": false,
               "class_name": "",
               "details": true,
-              "main_role": "Tank destroyer"
+              "rank": "II",
+              "research_country": "Italy",
+              "main_role": "Tank destroyer",
+              "is_component": false,
+              "component_of": null,
+              "is_premium": false,
+              "is_squadron": false,
+              "wiki": {
+                "url": "https://wiki.warthunder.com/unit/it_semovente_m43_75_34",
+                "rank": "II",
+                "battle_rating_context": "default",
+                "battle_ratings": {
+                  "AB": "3.3",
+                  "RB": "3.3",
+                  "SB": "3.3"
+                },
+                "battle_ratings_by_battle": {
+                  "default": {
+                    "AB": "3.3",
+                    "RB": "3.3",
+                    "SB": "3.3"
+                  }
+                },
+                "research": "6,900",
+                "purchase": "32,000",
+                "purchase_currency": "SL",
+                "status": null,
+                "fetched_at": "2026-09-19T06:29:12.618Z",
+                "sha256": "9dc79e5ae6285d63ec6b1707fc01e046ca4466310f2ab4329b5894c6798bbcd8"
+              }
             }
           ],
-          "details": true
+          "details": true,
+          "rp": 17900,
+          "sp": 54000
         }
       ],
       [
         {
           "type": "single",
-          "title": "Turan I",
+          "title": "Turan I",
           "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/it_40m_turan_1.png",
           "br": "2.3",
-          "rp": "7,900",
-          "sp": "10,000",
+          "rp": 7900,
+          "sp": 10000,
           "data_unit_id": "it_40m_turan_1",
+          "required_unit_id": "",
           "selected": false,
           "class_name": "",
           "details": true,
-          "main_role": "Medium tank"
+          "rank": "II",
+          "research_country": "Italy",
+          "main_role": "Medium tank",
+          "is_component": false,
+          "component_of": null,
+          "is_premium": false,
+          "is_squadron": false,
+          "wiki": {
+            "url": "https://wiki.warthunder.com/unit/it_40m_turan_1",
+            "rank": "II",
+            "battle_rating_context": "default",
+            "battle_ratings": {
+              "AB": "2.3",
+              "RB": "2.3",
+              "SB": "2.3"
+            },
+            "battle_ratings_by_battle": {
+              "default": {
+                "AB": "2.3",
+                "RB": "2.3",
+                "SB": "2.3"
+              }
+            },
+            "research": "7,900",
+            "purchase": "10,000",
+            "purchase_currency": "SL",
+            "status": null,
+            "fetched_at": "2026-09-19T06:29:03.531Z",
+            "sha256": "f275e6147290f3b2150b71966639712205b060650bcf07590269c5823a772946"
+          }
         },
         {
           "type": "single",
-          "title": "Zrinyi II",
+          "title": "Zrinyi II",
           "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/it_40_43m_zrinyi_2.png",
           "br": "2.7",
-          "rp": "9,200",
-          "sp": "16,000",
+          "rp": 9200,
+          "sp": 16000,
           "data_unit_id": "it_40_43m_zrinyi_2",
+          "required_unit_id": "it_40m_turan_1",
           "selected": false,
           "class_name": "",
           "details": true,
-          "main_role": "Tank destroyer"
+          "rank": "II",
+          "research_country": "Italy",
+          "main_role": "Tank destroyer",
+          "is_component": false,
+          "component_of": null,
+          "is_premium": false,
+          "is_squadron": false,
+          "wiki": {
+            "url": "https://wiki.warthunder.com/unit/it_40_43m_zrinyi_2",
+            "rank": "II",
+            "battle_rating_context": "default",
+            "battle_ratings": {
+              "AB": "2.7",
+              "RB": "2.7",
+              "SB": "2.7"
+            },
+            "battle_ratings_by_battle": {
+              "default": {
+                "AB": "2.7",
+                "RB": "2.7",
+                "SB": "2.7"
+              }
+            },
+            "research": "9,200",
+            "purchase": "16,000",
+            "purchase_currency": "SL",
+            "status": null,
+            "fetched_at": "2026-09-19T06:29:03.405Z",
+            "sha256": "d9dac8e1898a579a9dca7b4b9c83ebf7cc5e4f62c03aff62d069def04b7f18d0"
+          }
         }
       ]
     ],
@@ -452,62 +1305,183 @@
       [
         {
           "type": "single",
-          "title": "M14/41 (47/40)",
+          "title": "M14/41 (47/40)",
           "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/it_m14_41_47_40.png",
           "br": "2.3",
           "rp": 0,
           "sp": 0,
           "data_unit_id": "it_m14_41_47_40",
+          "required_unit_id": "",
           "selected": false,
           "class_name": "prem",
           "details": true,
-          "main_role": "Medium tank"
+          "rank": "II",
+          "research_country": "Italy",
+          "main_role": "Medium tank",
+          "is_component": false,
+          "component_of": null,
+          "is_premium": true,
+          "is_squadron": false,
+          "wiki": {
+            "url": "https://wiki.warthunder.com/unit/it_m14_41_47_40",
+            "rank": "II",
+            "battle_rating_context": "default",
+            "battle_ratings": {
+              "AB": "2.3",
+              "RB": "2.3",
+              "SB": "2.3"
+            },
+            "battle_ratings_by_battle": {
+              "default": {
+                "AB": "2.3",
+                "RB": "2.3",
+                "SB": "2.3"
+              }
+            },
+            "research": null,
+            "purchase": "700",
+            "purchase_currency": "GE",
+            "status": "Premium vehicle",
+            "fetched_at": "2026-09-19T06:29:08.665Z",
+            "sha256": "e40b746de92af16c7557a2dec51bd0b749fc1bfb862a444bcc9b3308b9d70874"
+          }
         },
         {
           "type": "single",
-          "title": "Celere Sahariano",
+          "title": "Celere Sahariano",
           "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/it_sahariano.png",
           "br": "2.7",
           "rp": 0,
           "sp": 0,
           "data_unit_id": "it_sahariano",
+          "required_unit_id": "",
           "selected": false,
           "class_name": "prem",
           "details": true,
-          "main_role": "Medium tank"
+          "rank": "II",
+          "research_country": "Italy",
+          "main_role": "Medium tank",
+          "is_component": false,
+          "component_of": null,
+          "is_premium": true,
+          "is_squadron": false,
+          "wiki": {
+            "url": "https://wiki.warthunder.com/unit/it_sahariano",
+            "rank": "II",
+            "battle_rating_context": "default",
+            "battle_ratings": {
+              "AB": "2.7",
+              "RB": "2.7",
+              "SB": "2.7"
+            },
+            "battle_ratings_by_battle": {
+              "default": {
+                "AB": "2.7",
+                "RB": "2.7",
+                "SB": "2.7"
+              }
+            },
+            "research": null,
+            "purchase": "850",
+            "purchase_currency": "GE",
+            "status": "Premium vehicle",
+            "fetched_at": "2026-09-19T06:29:11.569Z",
+            "sha256": "224240d08ba5751f5b7614370ba86f8a018d988ff10d75a93dfe0106edcb8fcf"
+          }
         }
       ],
       [
         {
           "type": "single",
-          "title": "Turan II",
+          "title": "Turan II",
           "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/it_41m_turan_2.png",
           "br": "2.3",
           "rp": 0,
           "sp": 0,
           "data_unit_id": "it_41m_turan_2",
+          "required_unit_id": "",
           "selected": false,
           "class_name": "prem",
           "details": true,
-          "main_role": "Medium tank"
+          "rank": "II",
+          "research_country": "Italy",
+          "main_role": "Medium tank",
+          "is_component": false,
+          "component_of": null,
+          "is_premium": true,
+          "is_squadron": false,
+          "wiki": {
+            "url": "https://wiki.warthunder.com/unit/it_41m_turan_2",
+            "rank": "II",
+            "battle_rating_context": "default",
+            "battle_ratings": {
+              "AB": "2.3",
+              "RB": "2.3",
+              "SB": "2.3"
+            },
+            "battle_ratings_by_battle": {
+              "default": {
+                "AB": "2.3",
+                "RB": "2.3",
+                "SB": "2.3"
+              }
+            },
+            "research": null,
+            "purchase": null,
+            "purchase_currency": null,
+            "status": "Premium vehicle",
+            "fetched_at": "2026-09-19T06:29:03.664Z",
+            "sha256": "94b0dbb0c9b6c7f26f5cc9c94a52f51e7645f2aab80943217751f9ddb3ca4909"
+          }
         },
         {
           "type": "single",
-          "title": "P40 \"G.C. Leoncello\"",
+          "title": "P40 \"G.C. Leoncello\"",
           "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/it_p_26_40.png",
           "br": "3.3",
           "rp": 0,
           "sp": 0,
           "data_unit_id": "it_p_26_40",
+          "required_unit_id": "",
           "selected": false,
           "class_name": "prem",
           "details": true,
-          "main_role": "Medium tank"
+          "rank": "II",
+          "research_country": "Italy",
+          "main_role": "Medium tank",
+          "is_component": false,
+          "component_of": null,
+          "is_premium": true,
+          "is_squadron": false,
+          "wiki": {
+            "url": "https://wiki.warthunder.com/unit/it_p_26_40",
+            "rank": "II",
+            "battle_rating_context": "default",
+            "battle_ratings": {
+              "AB": "3.3",
+              "RB": "3.3",
+              "SB": "3.3"
+            },
+            "battle_ratings_by_battle": {
+              "default": {
+                "AB": "3.3",
+                "RB": "3.3",
+                "SB": "3.3"
+              }
+            },
+            "research": null,
+            "purchase": null,
+            "purchase_currency": null,
+            "status": "Premium vehicle",
+            "fetched_at": "2026-09-19T06:29:10.650Z",
+            "sha256": "616cea7f9bf4816ebdbe10bd3a64f9db4feb7f64126f4a139ee0d69933a41d1f"
+          }
         }
       ]
     ],
     "selected": [],
-    "unlock_quantity": 0
+    "unlock_quantity": null,
+    "source": "wiki"
   },
   {
     "rank": "III",
@@ -517,98 +1491,323 @@
           "type": "single",
           "title": "▄M24",
           "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/it_m24_chaffee.png",
-          "br": "3.7",
-          "rp": "18,000",
-          "sp": "47,000",
-          "data_unit_id": "it_m24_chaffee",
-          "selected": false,
-          "class_name": "",
-          "details": true,
-          "main_role": "Light tank"
-        },
-        {
-          "type": "single",
-          "title": "▄M44",
-          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/it_m44.png",
           "br": "4.0",
-          "rp": "26,000",
-          "sp": "76,000",
-          "data_unit_id": "it_m44",
+          "rp": 18000,
+          "sp": 47000,
+          "data_unit_id": "it_m24_chaffee",
+          "required_unit_id": "it_m3a3_stuart",
           "selected": false,
           "class_name": "",
           "details": true,
-          "main_role": "Tank destroyer"
+          "rank": "III",
+          "research_country": "Italy",
+          "main_role": "Light tank",
+          "is_component": false,
+          "component_of": null,
+          "is_premium": false,
+          "is_squadron": false,
+          "wiki": {
+            "url": "https://wiki.warthunder.com/unit/it_m24_chaffee",
+            "rank": "III",
+            "battle_rating_context": "default",
+            "battle_ratings": {
+              "AB": "3.7",
+              "RB": "4.0",
+              "SB": "4.0"
+            },
+            "battle_ratings_by_battle": {
+              "default": {
+                "AB": "3.7",
+                "RB": "4.0",
+                "SB": "4.0"
+              }
+            },
+            "research": "18,000",
+            "purchase": "47,000",
+            "purchase_currency": "SL",
+            "status": null,
+            "fetched_at": "2026-09-19T06:29:08.877Z",
+            "sha256": "63bd671d3fddbd9b37378f408b883cfb5d2b0f4c2531511bea711ecb9975115b"
+          }
         },
         {
           "type": "single",
-          "title": "Breda 501",
+          "title": "Breda 501",
           "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/it_semovente_breda_501.png",
           "br": "5.0",
-          "rp": "40,000",
-          "sp": "135,000",
+          "rp": 40000,
+          "sp": 135000,
           "data_unit_id": "it_semovente_breda_501",
+          "required_unit_id": "it_m24_chaffee",
           "selected": false,
           "class_name": "",
           "details": true,
-          "main_role": "Tank destroyer"
+          "rank": "III",
+          "research_country": "Italy",
+          "main_role": "Tank destroyer",
+          "is_component": false,
+          "component_of": null,
+          "is_premium": false,
+          "is_squadron": false,
+          "wiki": {
+            "url": "https://wiki.warthunder.com/unit/it_semovente_breda_501",
+            "rank": "III",
+            "battle_rating_context": "default",
+            "battle_ratings": {
+              "AB": "4.7",
+              "RB": "5.0",
+              "SB": "5.0"
+            },
+            "battle_ratings_by_battle": {
+              "default": {
+                "AB": "4.7",
+                "RB": "5.0",
+                "SB": "5.0"
+              }
+            },
+            "research": "40,000",
+            "purchase": "135,000",
+            "purchase_currency": "SL",
+            "status": null,
+            "fetched_at": "2026-09-19T06:29:11.871Z",
+            "sha256": "4e8380967cad2bc43ae53c31548b6cbdc53fce533ce421f61fe2a46d402ed677"
+          }
         }
       ],
       [
         {
           "type": "single",
-          "title": "▄Sherman V",
+          "title": "▄Sherman V",
           "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/it_m4a4_sherman.png",
           "br": "3.7",
-          "rp": "18,000",
-          "sp": "47,000",
+          "rp": 18000,
+          "sp": 47000,
           "data_unit_id": "it_m4a4_sherman",
+          "required_unit_id": "it_p_40",
           "selected": false,
           "class_name": "",
           "details": true,
-          "main_role": "Medium tank"
+          "rank": "III",
+          "research_country": "Italy",
+          "main_role": "Medium tank",
+          "is_component": false,
+          "component_of": null,
+          "is_premium": false,
+          "is_squadron": false,
+          "wiki": {
+            "url": "https://wiki.warthunder.com/unit/it_m4a4_sherman",
+            "rank": "III",
+            "battle_rating_context": "default",
+            "battle_ratings": {
+              "AB": "3.7",
+              "RB": "3.7",
+              "SB": "3.7"
+            },
+            "battle_ratings_by_battle": {
+              "default": {
+                "AB": "3.7",
+                "RB": "3.7",
+                "SB": "3.7"
+              }
+            },
+            "research": "18,000",
+            "purchase": "47,000",
+            "purchase_currency": "SL",
+            "status": null,
+            "fetched_at": "2026-09-19T06:29:09.475Z",
+            "sha256": "a8ca21af08617362def1461174c848def18996b7e0229ce6e8b8b35462cfa524"
+          }
         },
         {
           "type": "single",
-          "title": "Sherman Ic",
+          "title": "Sherman Ic",
           "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/it_sherman_vii.png",
           "br": "4.7",
-          "rp": "40,000",
-          "sp": "135,000",
+          "rp": 40000,
+          "sp": 135000,
           "data_unit_id": "it_sherman_vii",
+          "required_unit_id": "it_m4a4_sherman",
           "selected": false,
           "class_name": "",
           "details": true,
-          "main_role": "Medium tank"
+          "rank": "III",
+          "research_country": "Italy",
+          "main_role": "Medium tank",
+          "is_component": false,
+          "component_of": null,
+          "is_premium": false,
+          "is_squadron": false,
+          "wiki": {
+            "url": "https://wiki.warthunder.com/unit/it_sherman_VII",
+            "rank": "III",
+            "battle_rating_context": "default",
+            "battle_ratings": {
+              "AB": "4.7",
+              "RB": "4.7",
+              "SB": "4.7"
+            },
+            "battle_ratings_by_battle": {
+              "default": {
+                "AB": "4.7",
+                "RB": "4.7",
+                "SB": "4.7"
+              }
+            },
+            "research": "40,000",
+            "purchase": "135,000",
+            "purchase_currency": "SL",
+            "status": null,
+            "fetched_at": "2026-09-19T06:29:13.303Z",
+            "sha256": "f83db99b68f2ca08c13631a84bded6d18d28208881e8d8295f0ac2bbe4ad8882"
+          }
         }
       ],
       [
         {
           "type": "single",
-          "title": "M42 Contraereo",
+          "title": "M42 Contraereo",
           "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/it_m15_42_contraereo.png",
           "br": "3.7",
-          "rp": "18,000",
-          "sp": "47,000",
+          "rp": 18000,
+          "sp": 47000,
           "data_unit_id": "it_m15_42_contraereo",
+          "required_unit_id": "it_fiat_cm52",
           "selected": false,
           "class_name": "",
           "details": true,
-          "main_role": "SPAA"
+          "rank": "III",
+          "research_country": "Italy",
+          "main_role": "SPAA",
+          "is_component": false,
+          "component_of": null,
+          "is_premium": false,
+          "is_squadron": false,
+          "wiki": {
+            "url": "https://wiki.warthunder.com/unit/it_m15_42_contraereo",
+            "rank": "III",
+            "battle_rating_context": "default",
+            "battle_ratings": {
+              "AB": "4.0",
+              "RB": "3.7",
+              "SB": "3.7"
+            },
+            "battle_ratings_by_battle": {
+              "default": {
+                "AB": "4.0",
+                "RB": "3.7",
+                "SB": "3.7"
+              }
+            },
+            "research": "18,000",
+            "purchase": "47,000",
+            "purchase_currency": "SL",
+            "status": null,
+            "fetched_at": "2026-09-19T06:29:08.654Z",
+            "sha256": "501f4f0769b04206a606ea1b30b13e847ab723010bf16d3262365ea1c83a1fc3"
+          }
         }
       ],
       [
         {
-          "type": "single",
-          "title": "▄M55",
-          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/it_m55.png",
-          "br": "4.0",
-          "rp": "18,000",
-          "sp": "47,000",
-          "data_unit_id": "it_m55",
+          "type": "multiple",
+          "title": "M44/55",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/it_m44_55_group.png",
           "selected": false,
+          "br": "3.7",
+          "data_unit_id": "it_m44_55_group",
+          "required_unit_id": "it_semovente_m43_105_75_group",
           "class_name": "",
+          "items": [
+            {
+              "type": "single",
+              "title": "▄M44",
+              "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/it_m44.png",
+              "br": "3.7",
+              "rp": 18000,
+              "sp": 47000,
+              "data_unit_id": "it_m44",
+              "required_unit_id": "",
+              "selected": false,
+              "class_name": "",
+              "details": true,
+              "rank": "III",
+              "research_country": "Italy",
+              "main_role": "Tank destroyer",
+              "is_component": false,
+              "component_of": null,
+              "is_premium": false,
+              "is_squadron": false,
+              "wiki": {
+                "url": "https://wiki.warthunder.com/unit/it_m44",
+                "rank": "III",
+                "battle_rating_context": "default",
+                "battle_ratings": {
+                  "AB": "3.7",
+                  "RB": "3.7",
+                  "SB": "3.7"
+                },
+                "battle_ratings_by_battle": {
+                  "default": {
+                    "AB": "3.7",
+                    "RB": "3.7",
+                    "SB": "3.7"
+                  }
+                },
+                "research": "18,000",
+                "purchase": "47,000",
+                "purchase_currency": "SL",
+                "status": null,
+                "fetched_at": "2026-09-19T06:29:09.582Z",
+                "sha256": "a47de21348af11184714366e42cdefd2ace2cf37e9ae5ca0f59372862123e9a0"
+              }
+            },
+            {
+              "type": "single",
+              "title": "▄M55",
+              "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/it_m55.png",
+              "br": "3.7",
+              "rp": 13000,
+              "sp": 76000,
+              "data_unit_id": "it_m55",
+              "required_unit_id": "it_m44",
+              "selected": false,
+              "class_name": "",
+              "details": true,
+              "rank": "III",
+              "research_country": "Italy",
+              "main_role": "Tank destroyer",
+              "is_component": false,
+              "component_of": null,
+              "is_premium": false,
+              "is_squadron": false,
+              "wiki": {
+                "url": "https://wiki.warthunder.com/unit/it_m55",
+                "rank": "III",
+                "battle_rating_context": "default",
+                "battle_ratings": {
+                  "AB": "3.7",
+                  "RB": "3.7",
+                  "SB": "3.7"
+                },
+                "battle_ratings_by_battle": {
+                  "default": {
+                    "AB": "3.7",
+                    "RB": "3.7",
+                    "SB": "3.7"
+                  }
+                },
+                "research": "13,000",
+                "purchase": "76,000",
+                "purchase_currency": "SL",
+                "status": null,
+                "fetched_at": "2026-09-19T06:29:09.735Z",
+                "sha256": "6a7a0c21a3e92cd19101649e553e88e96c9ee872d61bc46f05a63bfc5766cf77"
+              }
+            }
+          ],
           "details": true,
-          "main_role": "Tank destroyer"
+          "rp": 31000,
+          "sp": 123000
         },
         {
           "type": "multiple",
@@ -617,64 +1816,187 @@
           "selected": false,
           "br": "3.7-4.0",
           "data_unit_id": "it_semovente_stug_group",
+          "required_unit_id": "it_m44_55_group",
           "class_name": "",
           "items": [
             {
               "type": "single",
-              "title": "90/53 M41M",
+              "title": "90/53 M41M",
               "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/it_semovente_m41m_90.png",
               "br": "3.7",
-              "rp": "26,000",
-              "sp": "76,000",
+              "rp": 26000,
+              "sp": 76000,
               "data_unit_id": "it_semovente_m41m_90",
+              "required_unit_id": "",
               "selected": false,
               "class_name": "",
               "details": true,
-              "main_role": "Tank destroyer"
+              "rank": "III",
+              "research_country": "Italy",
+              "main_role": "Tank destroyer",
+              "is_component": false,
+              "component_of": null,
+              "is_premium": false,
+              "is_squadron": false,
+              "wiki": {
+                "url": "https://wiki.warthunder.com/unit/it_semovente_m41m_90",
+                "rank": "III",
+                "battle_rating_context": "default",
+                "battle_ratings": {
+                  "AB": "3.7",
+                  "RB": "3.7",
+                  "SB": "3.7"
+                },
+                "battle_ratings_by_battle": {
+                  "default": {
+                    "AB": "3.7",
+                    "RB": "3.7",
+                    "SB": "3.7"
+                  }
+                },
+                "research": "26,000",
+                "purchase": "76,000",
+                "purchase_currency": "SL",
+                "status": null,
+                "fetched_at": "2026-09-19T06:29:12.339Z",
+                "sha256": "52e261c9aafbf7e532a1997387893f2a5965316cdb617d33b6f69fba0d4c39f5"
+              }
             },
             {
               "type": "single",
-              "title": "▄StuG III G",
+              "title": "▄StuG III G",
               "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/it_stug_iii_ausf_g.png",
               "br": "4.0",
-              "rp": "17,000",
-              "sp": "105,000",
+              "rp": 17000,
+              "sp": 105000,
               "data_unit_id": "it_stug_iii_ausf_g",
+              "required_unit_id": "it_semovente_m41m_90",
               "selected": false,
               "class_name": "",
               "details": true,
-              "main_role": "Tank destroyer"
+              "rank": "III",
+              "research_country": "Italy",
+              "main_role": "Tank destroyer",
+              "is_component": false,
+              "component_of": null,
+              "is_premium": false,
+              "is_squadron": false,
+              "wiki": {
+                "url": "https://wiki.warthunder.com/unit/it_stug_III_ausf_G",
+                "rank": "III",
+                "battle_rating_context": "default",
+                "battle_ratings": {
+                  "AB": "4.3",
+                  "RB": "4.0",
+                  "SB": "4.0"
+                },
+                "battle_ratings_by_battle": {
+                  "default": {
+                    "AB": "4.3",
+                    "RB": "4.0",
+                    "SB": "4.0"
+                  }
+                },
+                "research": "17,000",
+                "purchase": "105,000",
+                "purchase_currency": "SL",
+                "status": null,
+                "fetched_at": "2026-09-19T06:29:13.413Z",
+                "sha256": "18882408dfb99c5004f9038b44faeda009413bebdf89d7d1fd48825d3720d5e3"
+              }
             }
           ],
-          "details": true
+          "details": true,
+          "rp": 43000,
+          "sp": 181000
         },
         {
           "type": "single",
-          "title": "75/46 M43",
+          "title": "75/46 M43",
           "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/it_semovente_m43_75_46.png",
           "br": "4.7",
-          "rp": "40,000",
-          "sp": "135,000",
+          "rp": 40000,
+          "sp": 135000,
           "data_unit_id": "it_semovente_m43_75_46",
+          "required_unit_id": "it_semovente_stug_group",
           "selected": false,
           "class_name": "",
           "details": true,
-          "main_role": "Tank destroyer"
+          "rank": "III",
+          "research_country": "Italy",
+          "main_role": "Tank destroyer",
+          "is_component": false,
+          "component_of": null,
+          "is_premium": false,
+          "is_squadron": false,
+          "wiki": {
+            "url": "https://wiki.warthunder.com/unit/it_semovente_m43_75_46",
+            "rank": "III",
+            "battle_rating_context": "default",
+            "battle_ratings": {
+              "AB": "4.7",
+              "RB": "4.7",
+              "SB": "4.7"
+            },
+            "battle_ratings_by_battle": {
+              "default": {
+                "AB": "4.7",
+                "RB": "4.7",
+                "SB": "4.7"
+              }
+            },
+            "research": "40,000",
+            "purchase": "135,000",
+            "purchase_currency": "SL",
+            "status": null,
+            "fetched_at": "2026-09-19T06:29:12.699Z",
+            "sha256": "2eca2ac16572bfd65685c3f3a632392034f36ee9c79e60f4052af7dfcecf1904"
+          }
         }
       ],
       [
         {
           "type": "single",
-          "title": "Turan III",
+          "title": "Turan III",
           "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/it_43m_turan_3.png",
           "br": "4.0",
-          "rp": "18,000",
-          "sp": "47,000",
+          "rp": 18000,
+          "sp": 47000,
           "data_unit_id": "it_43m_turan_3",
+          "required_unit_id": "it_40_43m_zrinyi_2",
           "selected": false,
           "class_name": "",
           "details": true,
-          "main_role": "Medium tank"
+          "rank": "III",
+          "research_country": "Italy",
+          "main_role": "Medium tank",
+          "is_component": false,
+          "component_of": null,
+          "is_premium": false,
+          "is_squadron": false,
+          "wiki": {
+            "url": "https://wiki.warthunder.com/unit/it_43m_turan_3",
+            "rank": "III",
+            "battle_rating_context": "default",
+            "battle_ratings": {
+              "AB": "4.3",
+              "RB": "4.0",
+              "SB": "4.0"
+            },
+            "battle_ratings_by_battle": {
+              "default": {
+                "AB": "4.3",
+                "RB": "4.0",
+                "SB": "4.0"
+              }
+            },
+            "research": "18,000",
+            "purchase": "47,000",
+            "purchase_currency": "SL",
+            "status": null,
+            "fetched_at": "2026-09-19T06:29:03.779Z",
+            "sha256": "06d4ea8741d82fdf7b15196cfe99f5b669aa2c2fd12e26a1aba5c3b8fd79c638"
+          }
         }
       ]
     ],
@@ -682,75 +2004,226 @@
       [
         {
           "type": "single",
-          "title": "M43 \"G.C.Leoncello\"",
+          "title": "M43 \"G.C.Leoncello\"",
           "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/it_semovente_m43_105_leoncello.png",
           "br": "3.0",
           "rp": 0,
           "sp": 0,
           "data_unit_id": "it_semovente_m43_105_leoncello",
+          "required_unit_id": "",
           "selected": false,
           "class_name": "prem",
           "details": true,
-          "main_role": "Tank destroyer"
+          "rank": "III",
+          "research_country": "Italy",
+          "main_role": "Tank destroyer",
+          "is_component": false,
+          "component_of": null,
+          "is_premium": true,
+          "is_squadron": false,
+          "wiki": {
+            "url": "https://wiki.warthunder.com/unit/it_semovente_m43_105_leoncello",
+            "rank": "III",
+            "battle_rating_context": "default",
+            "battle_ratings": {
+              "AB": "3.0",
+              "RB": "3.0",
+              "SB": "3.0"
+            },
+            "battle_ratings_by_battle": {
+              "default": {
+                "AB": "3.0",
+                "RB": "3.0",
+                "SB": "3.0"
+              }
+            },
+            "research": null,
+            "purchase": null,
+            "purchase_currency": null,
+            "status": "Premium vehicle",
+            "fetched_at": "2026-09-19T06:29:12.681Z",
+            "sha256": "f95f9ef7a098aa892a95bd9a3a8a77fe7ce3f2434cbc1fdf47fb3d350a5bc66a"
+          }
         },
         {
           "type": "single",
-          "title": "▄Sherman I Composito",
+          "title": "▄Sherman I Composito",
           "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/it_sherman_75_37.png",
           "br": "3.7",
           "rp": 0,
           "sp": 0,
           "data_unit_id": "it_sherman_75_37",
+          "required_unit_id": "",
           "selected": false,
           "class_name": "prem",
           "details": true,
-          "main_role": "Medium tank"
+          "rank": "III",
+          "research_country": "Italy",
+          "main_role": "Medium tank",
+          "is_component": false,
+          "component_of": null,
+          "is_premium": true,
+          "is_squadron": false,
+          "wiki": {
+            "url": "https://wiki.warthunder.com/unit/it_sherman_75_37",
+            "rank": "III",
+            "battle_rating_context": "default",
+            "battle_ratings": {
+              "AB": "3.7",
+              "RB": "3.7",
+              "SB": "3.7"
+            },
+            "battle_ratings_by_battle": {
+              "default": {
+                "AB": "3.7",
+                "RB": "3.7",
+                "SB": "3.7"
+              }
+            },
+            "research": null,
+            "purchase": "1,300",
+            "purchase_currency": "GE",
+            "status": "Premium vehicle",
+            "fetched_at": "2026-09-19T06:29:12.891Z",
+            "sha256": "f56cc829749be8aabd06a8e1c9ca967bd5a098a7f301195d783837be656c7661"
+          }
         },
         {
           "type": "single",
-          "title": "▄Pz.IV G",
+          "title": "▄Pz.IV G",
           "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/it_pzkpfw_iv_ausf_g.png",
-          "br": "3.7",
+          "br": "4.0",
           "rp": 0,
           "sp": 0,
           "data_unit_id": "it_pzkpfw_iv_ausf_g",
+          "required_unit_id": "",
           "selected": false,
           "class_name": "prem",
           "details": true,
-          "main_role": "Medium tank"
+          "rank": "III",
+          "research_country": "Italy",
+          "main_role": "Medium tank",
+          "is_component": false,
+          "component_of": null,
+          "is_premium": true,
+          "is_squadron": false,
+          "wiki": {
+            "url": "https://wiki.warthunder.com/unit/it_pzkpfw_IV_ausf_G",
+            "rank": "III",
+            "battle_rating_context": "default",
+            "battle_ratings": {
+              "AB": "4.0",
+              "RB": "4.0",
+              "SB": "4.0"
+            },
+            "battle_ratings_by_battle": {
+              "default": {
+                "AB": "4.0",
+                "RB": "4.0",
+                "SB": "4.0"
+              }
+            },
+            "research": null,
+            "purchase": "1,750",
+            "purchase_currency": "GE",
+            "status": "Premium vehicle",
+            "fetched_at": "2026-09-19T06:29:11.362Z",
+            "sha256": "c6417f67c72afa184fc4e75a05ecc4040ac9ab413a2d76d5d792e846c4a0736c"
+          }
         }
       ],
       [
         {
           "type": "single",
-          "title": "Zrinyi I",
+          "title": "Zrinyi I",
           "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/it_44m_zrinyi_1.png",
           "br": "4.0",
           "rp": 0,
           "sp": 0,
           "data_unit_id": "it_44m_zrinyi_1",
+          "required_unit_id": "",
           "selected": false,
           "class_name": "prem",
           "details": true,
-          "main_role": "Tank destroyer"
+          "rank": "III",
+          "research_country": "Italy",
+          "main_role": "Tank destroyer",
+          "is_component": false,
+          "component_of": null,
+          "is_premium": true,
+          "is_squadron": false,
+          "wiki": {
+            "url": "https://wiki.warthunder.com/unit/it_44m_zrinyi_1",
+            "rank": "III",
+            "battle_rating_context": "default",
+            "battle_ratings": {
+              "AB": "4.0",
+              "RB": "4.0",
+              "SB": "4.0"
+            },
+            "battle_ratings_by_battle": {
+              "default": {
+                "AB": "4.0",
+                "RB": "4.0",
+                "SB": "4.0"
+              }
+            },
+            "research": null,
+            "purchase": null,
+            "purchase_currency": null,
+            "status": "Premium vehicle",
+            "fetched_at": "2026-09-19T06:29:03.878Z",
+            "sha256": "b4067d56e7105d452161e5efd6430f69b93580c626da203b381320183fdfeaad"
+          }
         },
         {
           "type": "single",
-          "title": "Breda 90/53",
+          "title": "Breda 90/53",
           "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/it_breda_52_autocannone.png",
           "br": "4.0",
           "rp": 0,
           "sp": 0,
           "data_unit_id": "it_breda_52_autocannone",
+          "required_unit_id": "",
           "selected": false,
           "class_name": "prem",
           "details": true,
-          "main_role": "Tank destroyer"
+          "rank": "III",
+          "research_country": "Italy",
+          "main_role": "Tank destroyer",
+          "is_component": false,
+          "component_of": null,
+          "is_premium": true,
+          "is_squadron": false,
+          "wiki": {
+            "url": "https://wiki.warthunder.com/unit/it_breda_52_autocannone",
+            "rank": "III",
+            "battle_rating_context": "default",
+            "battle_ratings": {
+              "AB": "4.0",
+              "RB": "4.0",
+              "SB": "4.0"
+            },
+            "battle_ratings_by_battle": {
+              "default": {
+                "AB": "4.0",
+                "RB": "4.0",
+                "SB": "4.0"
+              }
+            },
+            "research": null,
+            "purchase": null,
+            "purchase_currency": null,
+            "status": "Premium vehicle",
+            "fetched_at": "2026-09-19T06:29:05.080Z",
+            "sha256": "af9df01d7c86998dc830158a33b7d9f281228d9159ce8d668066b6b1c8d92b51"
+          }
         }
       ]
     ],
     "selected": [],
-    "unlock_quantity": 0
+    "unlock_quantity": null,
+    "source": "wiki"
   },
   {
     "rank": "IV",
@@ -761,13 +2234,43 @@
           "title": "▄M18",
           "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/it_m18_hellcat.png",
           "br": "6.0",
-          "rp": "54,000",
-          "sp": "185,000",
+          "rp": 54000,
+          "sp": 185000,
           "data_unit_id": "it_m18_hellcat",
+          "required_unit_id": "it_semovente_breda_501",
           "selected": false,
           "class_name": "",
           "details": true,
-          "main_role": "Light tank"
+          "rank": "IV",
+          "research_country": "Italy",
+          "main_role": "Light tank",
+          "is_component": false,
+          "component_of": null,
+          "is_premium": false,
+          "is_squadron": false,
+          "wiki": {
+            "url": "https://wiki.warthunder.com/unit/it_m18_hellcat",
+            "rank": "IV",
+            "battle_rating_context": "default",
+            "battle_ratings": {
+              "AB": "5.3",
+              "RB": "6.0",
+              "SB": "6.0"
+            },
+            "battle_ratings_by_battle": {
+              "default": {
+                "AB": "5.3",
+                "RB": "6.0",
+                "SB": "6.0"
+              }
+            },
+            "research": "54,000",
+            "purchase": "185,000",
+            "purchase_currency": "SL",
+            "status": null,
+            "fetched_at": "2026-09-19T06:29:08.738Z",
+            "sha256": "4f1c84b78ab5af78f62a671387efa1952d4eabecb3aec1359642488a7a02e46d"
+          }
         },
         {
           "type": "multiple",
@@ -776,6 +2279,7 @@
           "selected": false,
           "br": "6.7",
           "data_unit_id": "it_fiat_group",
+          "required_unit_id": "it_m18_hellcat",
           "class_name": "",
           "items": [
             {
@@ -783,85 +2287,267 @@
               "title": "AUBL/74",
               "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/it_fiat_6616_cockerill.png",
               "br": "6.7",
-              "rp": "71,000",
-              "sp": "210,000",
+              "rp": 71000,
+              "sp": 210000,
               "data_unit_id": "it_fiat_6616_cockerill",
+              "required_unit_id": "",
               "selected": false,
               "class_name": "",
               "details": true,
-              "main_role": "Light tank"
+              "rank": "IV",
+              "research_country": "Italy",
+              "main_role": "Light tank",
+              "is_component": false,
+              "component_of": null,
+              "is_premium": false,
+              "is_squadron": false,
+              "wiki": {
+                "url": "https://wiki.warthunder.com/unit/it_fiat_6616_cockerill",
+                "rank": "IV",
+                "battle_rating_context": "default",
+                "battle_ratings": {
+                  "AB": "6.7",
+                  "RB": "6.7",
+                  "SB": "6.7"
+                },
+                "battle_ratings_by_battle": {
+                  "default": {
+                    "AB": "6.7",
+                    "RB": "6.7",
+                    "SB": "6.7"
+                  }
+                },
+                "research": "71,000",
+                "purchase": "210,000",
+                "purchase_currency": "SL",
+                "status": null,
+                "fetched_at": "2026-09-19T06:29:06.545Z",
+                "sha256": "47607014b6548a9f4df7df0da16f8bc55c64b0abaf34ced82a83393aa0f528fe"
+              }
             },
             {
               "type": "single",
-              "title": "FIAT 6614",
+              "title": "FIAT 6614",
               "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/it_fiat_6614_106sr.png",
               "br": "6.7",
-              "rp": "35,000",
-              "sp": "210,000",
+              "rp": 35000,
+              "sp": 210000,
               "data_unit_id": "it_fiat_6614_106sr",
+              "required_unit_id": "it_fiat_6616_cockerill",
               "selected": false,
               "class_name": "",
               "details": true,
-              "main_role": "Light tank"
+              "rank": "IV",
+              "research_country": "Italy",
+              "main_role": "Light tank",
+              "is_component": false,
+              "component_of": null,
+              "is_premium": false,
+              "is_squadron": false,
+              "wiki": {
+                "url": "https://wiki.warthunder.com/unit/it_fiat_6614_106sr",
+                "rank": "IV",
+                "battle_rating_context": "default",
+                "battle_ratings": {
+                  "AB": "6.7",
+                  "RB": "6.7",
+                  "SB": "6.7"
+                },
+                "battle_ratings_by_battle": {
+                  "default": {
+                    "AB": "6.7",
+                    "RB": "6.7",
+                    "SB": "6.7"
+                  }
+                },
+                "research": "35,000",
+                "purchase": "210,000",
+                "purchase_currency": "SL",
+                "status": null,
+                "fetched_at": "2026-09-19T06:29:06.120Z",
+                "sha256": "4a8a8b883563f6fd2b89b13b1bbbbd0c38ffedbac449f7ac5951c6c8f4043773"
+              }
             }
           ],
-          "details": true
+          "details": true,
+          "rp": 106000,
+          "sp": 420000
         }
       ],
       [
         {
           "type": "single",
-          "title": "▄Sherman Vc",
+          "title": "▄Sherman Vc",
           "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/it_sherman_vc_firefly.png",
           "br": "5.0",
-          "rp": "46,000",
-          "sp": "155,000",
+          "rp": 46000,
+          "sp": 155000,
           "data_unit_id": "it_sherman_vc_firefly",
+          "required_unit_id": "it_sherman_vii",
           "selected": false,
           "class_name": "",
           "details": true,
-          "main_role": "Medium tank"
+          "rank": "IV",
+          "research_country": "Italy",
+          "main_role": "Medium tank",
+          "is_component": false,
+          "component_of": null,
+          "is_premium": false,
+          "is_squadron": false,
+          "wiki": {
+            "url": "https://wiki.warthunder.com/unit/it_sherman_vc_firefly",
+            "rank": "IV",
+            "battle_rating_context": "default",
+            "battle_ratings": {
+              "AB": "5.0",
+              "RB": "5.0",
+              "SB": "5.0"
+            },
+            "battle_ratings_by_battle": {
+              "default": {
+                "AB": "5.0",
+                "RB": "5.0",
+                "SB": "5.0"
+              }
+            },
+            "research": "46,000",
+            "purchase": "155,000",
+            "purchase_currency": "SL",
+            "status": null,
+            "fetched_at": "2026-09-19T06:29:13.076Z",
+            "sha256": "b6cbe4041b5451405b88ed3eccd00987c4b1089d04c3d2f55cddb5ce991488b6"
+          }
         },
         {
           "type": "single",
           "title": "M26A1",
           "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/it_m26a1_pershing.png",
           "br": "6.7",
-          "rp": "63,000",
-          "sp": "200,000",
+          "rp": 63000,
+          "sp": 200000,
           "data_unit_id": "it_m26a1_pershing",
+          "required_unit_id": "it_sherman_vc_firefly",
           "selected": false,
           "class_name": "",
           "details": true,
-          "main_role": "Medium tank"
+          "rank": "IV",
+          "research_country": "Italy",
+          "main_role": "Medium tank",
+          "is_component": false,
+          "component_of": null,
+          "is_premium": false,
+          "is_squadron": false,
+          "wiki": {
+            "url": "https://wiki.warthunder.com/unit/it_m26a1_pershing",
+            "rank": "IV",
+            "battle_rating_context": "default",
+            "battle_ratings": {
+              "AB": "6.7",
+              "RB": "6.7",
+              "SB": "6.7"
+            },
+            "battle_ratings_by_battle": {
+              "default": {
+                "AB": "6.7",
+                "RB": "6.7",
+                "SB": "6.7"
+              }
+            },
+            "research": "63,000",
+            "purchase": "200,000",
+            "purchase_currency": "SL",
+            "status": null,
+            "fetched_at": "2026-09-19T06:29:09.123Z",
+            "sha256": "4243516047b6cb386a57d7879875f1ef448c5991058bdf6f178d8a191366e639"
+          }
         }
       ],
       [
         {
           "type": "single",
-          "title": "Leopard 40/70",
+          "title": "Leopard 40/70",
           "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/it_leopard_bofors.png",
           "br": "6.0",
-          "rp": "46,000",
-          "sp": "155,000",
+          "rp": 46000,
+          "sp": 155000,
           "data_unit_id": "it_leopard_bofors",
+          "required_unit_id": "it_m15_42_contraereo",
           "selected": false,
           "class_name": "",
           "details": true,
-          "main_role": "SPAA"
+          "rank": "IV",
+          "research_country": "Italy",
+          "main_role": "SPAA",
+          "is_component": false,
+          "component_of": null,
+          "is_premium": false,
+          "is_squadron": false,
+          "wiki": {
+            "url": "https://wiki.warthunder.com/unit/it_leopard_bofors",
+            "rank": "IV",
+            "battle_rating_context": "default",
+            "battle_ratings": {
+              "AB": "6.0",
+              "RB": "6.0",
+              "SB": "6.0"
+            },
+            "battle_ratings_by_battle": {
+              "default": {
+                "AB": "6.0",
+                "RB": "6.0",
+                "SB": "6.0"
+              }
+            },
+            "research": "46,000",
+            "purchase": "155,000",
+            "purchase_currency": "SL",
+            "status": null,
+            "fetched_at": "2026-09-19T06:29:07.874Z",
+            "sha256": "1feab3dc72bff8ca90f7f8a2c873f317a1443df6fa5e496e0a2e302ad4ad857f"
+          }
         },
         {
           "type": "single",
-          "title": "R3 T20 FA-HS",
+          "title": "R3 T20 FA-HS",
           "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/it_oto_r3_t20_fa.png",
           "br": "6.0",
-          "rp": "54,000",
-          "sp": "185,000",
+          "rp": 54000,
+          "sp": 185000,
           "data_unit_id": "it_oto_r3_t20_fa",
+          "required_unit_id": "it_leopard_bofors",
           "selected": false,
           "class_name": "",
           "details": true,
-          "main_role": "SPAA"
+          "rank": "IV",
+          "research_country": "Italy",
+          "main_role": "SPAA",
+          "is_component": false,
+          "component_of": null,
+          "is_premium": false,
+          "is_squadron": false,
+          "wiki": {
+            "url": "https://wiki.warthunder.com/unit/it_oto_r3_t20_fa",
+            "rank": "IV",
+            "battle_rating_context": "default",
+            "battle_ratings": {
+              "AB": "5.7",
+              "RB": "6.0",
+              "SB": "6.0"
+            },
+            "battle_ratings_by_battle": {
+              "default": {
+                "AB": "5.7",
+                "RB": "6.0",
+                "SB": "6.0"
+              }
+            },
+            "research": "54,000",
+            "purchase": "185,000",
+            "purchase_currency": "SL",
+            "status": null,
+            "fetched_at": "2026-09-19T06:29:10.141Z",
+            "sha256": "46e949b72e8e6a8c6bc28f517a5681d0ce478352d8da1fe1288c64da652ab20d"
+          }
         }
       ],
       [
@@ -870,26 +2556,129 @@
           "title": "M36B1",
           "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/it_m36b1.png",
           "br": "5.7",
-          "rp": "54,000",
-          "sp": "185,000",
+          "rp": 54000,
+          "sp": 185000,
           "data_unit_id": "it_m36b1",
+          "required_unit_id": "it_semovente_m43_75_46",
           "selected": false,
           "class_name": "",
           "details": true,
-          "main_role": "Tank destroyer"
+          "rank": "IV",
+          "research_country": "Italy",
+          "main_role": "Tank destroyer",
+          "is_component": false,
+          "component_of": null,
+          "is_premium": false,
+          "is_squadron": false,
+          "wiki": {
+            "url": "https://wiki.warthunder.com/unit/it_m36b1",
+            "rank": "IV",
+            "battle_rating_context": "default",
+            "battle_ratings": {
+              "AB": "5.7",
+              "RB": "5.7",
+              "SB": "5.7"
+            },
+            "battle_ratings_by_battle": {
+              "default": {
+                "AB": "5.7",
+                "RB": "5.7",
+                "SB": "5.7"
+              }
+            },
+            "research": "54,000",
+            "purchase": "185,000",
+            "purchase_currency": "SL",
+            "status": null,
+            "fetched_at": "2026-09-19T06:29:09.157Z",
+            "sha256": "dda43122a6c57cd455e7df5e01f09809c56a647e10294f88083aa16739fe7b9c"
+          }
         },
         {
           "type": "single",
           "title": "▄M109G",
           "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/it_m109g.png",
-          "br": "6.0",
-          "rp": "63,000",
-          "sp": "200,000",
+          "br": "5.7",
+          "rp": 63000,
+          "sp": 200000,
           "data_unit_id": "it_m109g",
+          "required_unit_id": "it_m36b1",
           "selected": false,
           "class_name": "",
           "details": true,
-          "main_role": "Tank destroyer"
+          "rank": "IV",
+          "research_country": "Italy",
+          "main_role": "Tank destroyer",
+          "is_component": false,
+          "component_of": null,
+          "is_premium": false,
+          "is_squadron": false,
+          "wiki": {
+            "url": "https://wiki.warthunder.com/unit/it_m109g",
+            "rank": "IV",
+            "battle_rating_context": "default",
+            "battle_ratings": {
+              "AB": "5.7",
+              "RB": "5.7",
+              "SB": "5.7"
+            },
+            "battle_ratings_by_battle": {
+              "default": {
+                "AB": "5.7",
+                "RB": "5.7",
+                "SB": "5.7"
+              }
+            },
+            "research": "63,000",
+            "purchase": "200,000",
+            "purchase_currency": "SL",
+            "status": null,
+            "fetched_at": "2026-09-19T06:29:07.854Z",
+            "sha256": "a1c06d1492bb650aa856148af1583038f0b1c45d00a66bc6652e2be11a9b0eb6"
+          }
+        },
+        {
+          "type": "single",
+          "title": "Palmaria",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/it_palmaria.png",
+          "br": "6.7",
+          "rp": 71000,
+          "sp": 210000,
+          "data_unit_id": "it_palmaria",
+          "required_unit_id": "it_m109g",
+          "selected": false,
+          "class_name": "",
+          "details": true,
+          "rank": "IV",
+          "research_country": "Italy",
+          "main_role": "Tank destroyer",
+          "is_component": false,
+          "component_of": null,
+          "is_premium": false,
+          "is_squadron": false,
+          "wiki": {
+            "url": "https://wiki.warthunder.com/unit/it_palmaria",
+            "rank": "IV",
+            "battle_rating_context": "default",
+            "battle_ratings": {
+              "AB": "6.7",
+              "RB": "6.7",
+              "SB": "6.7"
+            },
+            "battle_ratings_by_battle": {
+              "default": {
+                "AB": "6.7",
+                "RB": "6.7",
+                "SB": "6.7"
+              }
+            },
+            "research": "71,000",
+            "purchase": "210,000",
+            "purchase_currency": "SL",
+            "status": null,
+            "fetched_at": "2026-09-19T06:29:10.838Z",
+            "sha256": "9c042d7d5e4ef229763f5ec86d0e71a44621cd71b05ae29f61768a22d66bde05"
+          }
         }
       ],
       [
@@ -897,14 +2686,44 @@
           "type": "single",
           "title": "◔2S1",
           "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/it_2s1.png",
-          "br": "6.0",
-          "rp": "54,000",
-          "sp": "185,000",
+          "br": "5.7",
+          "rp": 54000,
+          "sp": 185000,
           "data_unit_id": "it_2s1",
+          "required_unit_id": "it_43m_turan_3",
           "selected": false,
           "class_name": "",
           "details": true,
-          "main_role": "Tank destroyer"
+          "rank": "IV",
+          "research_country": "Italy",
+          "main_role": "Tank destroyer",
+          "is_component": false,
+          "component_of": null,
+          "is_premium": false,
+          "is_squadron": false,
+          "wiki": {
+            "url": "https://wiki.warthunder.com/unit/it_2s1",
+            "rank": "IV",
+            "battle_rating_context": "default",
+            "battle_ratings": {
+              "AB": "5.7",
+              "RB": "5.7",
+              "SB": "5.7"
+            },
+            "battle_ratings_by_battle": {
+              "default": {
+                "AB": "5.7",
+                "RB": "5.7",
+                "SB": "5.7"
+              }
+            },
+            "research": "54,000",
+            "purchase": "185,000",
+            "purchase_currency": "SL",
+            "status": null,
+            "fetched_at": "2026-09-19T06:29:03.327Z",
+            "sha256": "a9ceea72cd6eb8e10ecb26b39399dd7ac8a66bf494d4db9b10f5ad2c1c74b1c3"
+          }
         }
       ]
     ],
@@ -918,29 +2737,134 @@
           "rp": 0,
           "sp": 0,
           "data_unit_id": "it_pzkpfw_vi_ausf_e_tiger",
+          "required_unit_id": "",
           "selected": false,
           "class_name": "prem",
           "details": true,
-          "main_role": "Heavy tank"
+          "rank": "IV",
+          "research_country": "Italy",
+          "main_role": "Heavy tank",
+          "is_component": false,
+          "component_of": null,
+          "is_premium": true,
+          "is_squadron": false,
+          "wiki": {
+            "url": "https://wiki.warthunder.com/unit/it_pzkpfw_VI_ausf_e_tiger",
+            "rank": "IV",
+            "battle_rating_context": "default",
+            "battle_ratings": {
+              "AB": "6.0",
+              "RB": "6.0",
+              "SB": "6.0"
+            },
+            "battle_ratings_by_battle": {
+              "default": {
+                "AB": "6.0",
+                "RB": "6.0",
+                "SB": "6.0"
+              }
+            },
+            "research": null,
+            "purchase": "4,880",
+            "purchase_currency": "GE",
+            "status": "Premium vehicle",
+            "fetched_at": "2026-09-19T06:29:11.744Z",
+            "sha256": "6901ed35a7b46e0096ed3e3c13994f2d533a1630ffa87b40b0084f5a8f738318"
+          }
         },
         {
           "type": "single",
-          "title": "M26 \"D.C.Ariete\"",
+          "title": "M26 \"D.C.Ariete\"",
           "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/it_m26_ariete.png",
           "br": "6.7",
           "rp": 0,
           "sp": 0,
           "data_unit_id": "it_m26_ariete",
+          "required_unit_id": "",
           "selected": false,
           "class_name": "prem",
           "details": true,
-          "main_role": "Medium tank"
+          "rank": "IV",
+          "research_country": "Italy",
+          "main_role": "Medium tank",
+          "is_component": false,
+          "component_of": null,
+          "is_premium": true,
+          "is_squadron": false,
+          "wiki": {
+            "url": "https://wiki.warthunder.com/unit/it_m26_ariete",
+            "rank": "IV",
+            "battle_rating_context": "default",
+            "battle_ratings": {
+              "AB": "6.7",
+              "RB": "6.7",
+              "SB": "6.7"
+            },
+            "battle_ratings_by_battle": {
+              "default": {
+                "AB": "6.7",
+                "RB": "6.7",
+                "SB": "6.7"
+              }
+            },
+            "research": null,
+            "purchase": "6,090",
+            "purchase_currency": "GE",
+            "status": "Premium vehicle",
+            "fetched_at": "2026-09-19T06:29:09.101Z",
+            "sha256": "67d07e45fc4aeb534e900b7e29c0c6f2d03a4a4a02d4fc6a25a86bb990bfc12a"
+          }
         }
       ],
-      []
+      [
+        {
+          "type": "single",
+          "title": "FIAT 6616UB",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/it_fiat_6616_ub.png",
+          "br": "6.0",
+          "rp": 0,
+          "sp": 0,
+          "data_unit_id": "it_fiat_6616_ub",
+          "required_unit_id": "",
+          "selected": false,
+          "class_name": "prem",
+          "details": true,
+          "rank": "IV",
+          "research_country": "Italy",
+          "main_role": "Light tank",
+          "is_component": false,
+          "component_of": null,
+          "is_premium": true,
+          "is_squadron": false,
+          "wiki": {
+            "url": "https://wiki.warthunder.com/unit/it_fiat_6616_ub",
+            "rank": "IV",
+            "battle_rating_context": "default",
+            "battle_ratings": {
+              "AB": "6.0",
+              "RB": "6.0",
+              "SB": "6.0"
+            },
+            "battle_ratings_by_battle": {
+              "default": {
+                "AB": "6.0",
+                "RB": "6.0",
+                "SB": "6.0"
+              }
+            },
+            "research": null,
+            "purchase": null,
+            "purchase_currency": null,
+            "status": "Premium vehicle",
+            "fetched_at": "2026-09-19T06:29:06.647Z",
+            "sha256": "beae45f82489affd1f2591b0c1c588ba11955207fdff8801e4f45b71321acc0b"
+          }
+        }
+      ]
     ],
     "selected": [],
-    "unlock_quantity": 0
+    "unlock_quantity": null,
+    "source": "wiki"
   },
   {
     "rank": "V",
@@ -948,44 +2872,134 @@
       [
         {
           "type": "single",
-          "title": "C13 T90",
+          "title": "C13 T90",
           "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/it_c13_t90.png",
-          "br": "7.0",
-          "rp": "82,000",
-          "sp": "240,000",
+          "br": "7.3",
+          "rp": 82000,
+          "sp": 240000,
           "data_unit_id": "it_c13_t90",
+          "required_unit_id": "it_fiat_group",
           "selected": false,
           "class_name": "",
           "details": true,
-          "main_role": "Light tank"
+          "rank": "V",
+          "research_country": "Italy",
+          "main_role": "Light tank",
+          "is_component": false,
+          "component_of": null,
+          "is_premium": false,
+          "is_squadron": false,
+          "wiki": {
+            "url": "https://wiki.warthunder.com/unit/it_c13_t90",
+            "rank": "V",
+            "battle_rating_context": "default",
+            "battle_ratings": {
+              "AB": "7.0",
+              "RB": "7.3",
+              "SB": "7.3"
+            },
+            "battle_ratings_by_battle": {
+              "default": {
+                "AB": "7.0",
+                "RB": "7.3",
+                "SB": "7.3"
+              }
+            },
+            "research": "82,000",
+            "purchase": "240,000",
+            "purchase_currency": "SL",
+            "status": null,
+            "fetched_at": "2026-09-19T06:29:05.075Z",
+            "sha256": "6a3a37ddc04f6e01beab695ab7fe81a8bad3589b4c48ec85fa14631a196316fc"
+          }
         },
         {
           "type": "single",
-          "title": "R3 T106 FA",
+          "title": "R3 T106 FA",
           "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/it_oto_r3_106sr.png",
           "br": "8.0",
-          "rp": "120,000",
-          "sp": "340,000",
+          "rp": 120000,
+          "sp": 340000,
           "data_unit_id": "it_oto_r3_106sr",
+          "required_unit_id": "it_c13_t90",
           "selected": false,
           "class_name": "",
           "details": true,
-          "main_role": "Light tank"
+          "rank": "V",
+          "research_country": "Italy",
+          "main_role": "Light tank",
+          "is_component": false,
+          "component_of": null,
+          "is_premium": false,
+          "is_squadron": false,
+          "wiki": {
+            "url": "https://wiki.warthunder.com/unit/it_oto_r3_106sr",
+            "rank": "V",
+            "battle_rating_context": "default",
+            "battle_ratings": {
+              "AB": "7.7",
+              "RB": "8.0",
+              "SB": "8.0"
+            },
+            "battle_ratings_by_battle": {
+              "default": {
+                "AB": "7.7",
+                "RB": "8.0",
+                "SB": "8.0"
+              }
+            },
+            "research": "120,000",
+            "purchase": "340,000",
+            "purchase_currency": "SL",
+            "status": null,
+            "fetched_at": "2026-09-19T06:29:10.177Z",
+            "sha256": "d5fe84a5b1106a72c351ffe721c9bd7fc79c8cdfa361efe3bf567ee923e12045"
+          }
         }
       ],
       [
         {
           "type": "single",
-          "title": "M47 (105/55)",
+          "title": "M47 (105/55)",
           "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/it_m47_105.png",
           "br": "7.7",
-          "rp": "105,000",
-          "sp": "300,000",
+          "rp": 105000,
+          "sp": 300000,
           "data_unit_id": "it_m47_105",
+          "required_unit_id": "it_m26a1_pershing",
           "selected": false,
           "class_name": "",
           "details": true,
-          "main_role": "Medium tank"
+          "rank": "V",
+          "research_country": "Italy",
+          "main_role": "Medium tank",
+          "is_component": false,
+          "component_of": null,
+          "is_premium": false,
+          "is_squadron": false,
+          "wiki": {
+            "url": "https://wiki.warthunder.com/unit/it_m47_105",
+            "rank": "V",
+            "battle_rating_context": "default",
+            "battle_ratings": {
+              "AB": "7.7",
+              "RB": "7.7",
+              "SB": "7.7"
+            },
+            "battle_ratings_by_battle": {
+              "default": {
+                "AB": "7.7",
+                "RB": "7.7",
+                "SB": "7.7"
+              }
+            },
+            "research": "105,000",
+            "purchase": "300,000",
+            "purchase_currency": "SL",
+            "status": null,
+            "fetched_at": "2026-09-19T06:29:09.439Z",
+            "sha256": "772e87ccfc3d1956d4fafcf32ad4a677634641e920e22624fc20d0e201731cc0"
+          }
         },
         {
           "type": "multiple",
@@ -994,6 +3008,7 @@
           "selected": false,
           "br": "8.0",
           "data_unit_id": "it_of_leo_group",
+          "required_unit_id": "it_m47_105",
           "class_name": "",
           "items": [
             {
@@ -1001,29 +3016,91 @@
               "title": "OF-40",
               "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/it_of_40_mk_1.png",
               "br": "8.0",
-              "rp": "135,000",
-              "sp": "380,000",
+              "rp": 135000,
+              "sp": 380000,
               "data_unit_id": "it_of_40_mk_1",
+              "required_unit_id": "",
               "selected": false,
               "class_name": "",
               "details": true,
-              "main_role": "Medium tank"
+              "rank": "V",
+              "research_country": "Italy",
+              "main_role": "Medium tank",
+              "is_component": false,
+              "component_of": null,
+              "is_premium": false,
+              "is_squadron": false,
+              "wiki": {
+                "url": "https://wiki.warthunder.com/unit/it_of_40_mk_1",
+                "rank": "V",
+                "battle_rating_context": "default",
+                "battle_ratings": {
+                  "AB": "8.0",
+                  "RB": "8.0",
+                  "SB": "8.0"
+                },
+                "battle_ratings_by_battle": {
+                  "default": {
+                    "AB": "8.0",
+                    "RB": "8.0",
+                    "SB": "8.0"
+                  }
+                },
+                "research": "135,000",
+                "purchase": "380,000",
+                "purchase_currency": "SL",
+                "status": null,
+                "fetched_at": "2026-09-19T06:29:09.721Z",
+                "sha256": "e2b42281b11fac66c79b46551e98184e6c9236f0ee51aefd0cb97d18fed6785d"
+              }
             },
             {
               "type": "single",
-              "title": "▄Leopard 1A2",
+              "title": "▄Leopard 1A2",
               "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/it_leopard_1a2.png",
               "br": "8.0",
-              "rp": "81,000",
-              "sp": "450,000",
+              "rp": 81000,
+              "sp": 450000,
               "data_unit_id": "it_leopard_1a2",
+              "required_unit_id": "it_of_40_mk_1",
               "selected": false,
               "class_name": "",
               "details": true,
-              "main_role": "Medium tank"
+              "rank": "V",
+              "research_country": "Italy",
+              "main_role": "Medium tank",
+              "is_component": false,
+              "component_of": null,
+              "is_premium": false,
+              "is_squadron": false,
+              "wiki": {
+                "url": "https://wiki.warthunder.com/unit/it_leopard_1a2",
+                "rank": "V",
+                "battle_rating_context": "default",
+                "battle_ratings": {
+                  "AB": "8.0",
+                  "RB": "8.0",
+                  "SB": "8.0"
+                },
+                "battle_ratings_by_battle": {
+                  "default": {
+                    "AB": "8.0",
+                    "RB": "8.0",
+                    "SB": "8.0"
+                  }
+                },
+                "research": "81,000",
+                "purchase": "450,000",
+                "purchase_currency": "SL",
+                "status": null,
+                "fetched_at": "2026-09-19T06:29:07.312Z",
+                "sha256": "f6661cb5ada1597245feea1744547e6653d5738920656a9d9467120fbf0fb9d3"
+              }
             }
           ],
-          "details": true
+          "details": true,
+          "rp": 216000,
+          "sp": 830000
         }
       ],
       [
@@ -1032,42 +3109,176 @@
           "title": "◔ZSU-57-2",
           "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/it_zsu_57_2.png",
           "br": "7.0",
-          "rp": "82,000",
-          "sp": "240,000",
+          "rp": 82000,
+          "sp": 240000,
           "data_unit_id": "it_zsu_57_2",
+          "required_unit_id": "it_oto_r3_t20_fa",
           "selected": false,
           "class_name": "",
           "details": true,
-          "main_role": "SPAA"
+          "rank": "V",
+          "research_country": "Italy",
+          "main_role": "SPAA",
+          "is_component": false,
+          "component_of": null,
+          "is_premium": false,
+          "is_squadron": false,
+          "wiki": {
+            "url": "https://wiki.warthunder.com/unit/it_zsu_57_2",
+            "rank": "V",
+            "battle_rating_context": "default",
+            "battle_ratings": {
+              "AB": "7.0",
+              "RB": "7.0",
+              "SB": "7.0"
+            },
+            "battle_ratings_by_battle": {
+              "default": {
+                "AB": "7.0",
+                "RB": "7.0",
+                "SB": "7.0"
+              }
+            },
+            "research": "82,000",
+            "purchase": "240,000",
+            "purchase_currency": "SL",
+            "status": null,
+            "fetched_at": "2026-09-19T06:29:14.176Z",
+            "sha256": "0d42829a5d3123c57e4dd11c01a7efd5ffb38ea079d85e265efff5534204e8b2"
+          }
         },
         {
           "type": "single",
           "title": "◔ZSU-23-4V",
           "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/it_zsu_23_4.png",
           "br": "8.0",
-          "rp": "135,000",
-          "sp": "380,000",
+          "rp": 135000,
+          "sp": 380000,
           "data_unit_id": "it_zsu_23_4",
+          "required_unit_id": "it_zsu_57_2",
           "selected": false,
           "class_name": "",
           "details": true,
-          "main_role": "SPAA"
+          "rank": "V",
+          "research_country": "Italy",
+          "main_role": "SPAA",
+          "is_component": false,
+          "component_of": null,
+          "is_premium": false,
+          "is_squadron": false,
+          "wiki": {
+            "url": "https://wiki.warthunder.com/unit/it_zsu_23_4",
+            "rank": "V",
+            "battle_rating_context": "default",
+            "battle_ratings": {
+              "AB": "8.0",
+              "RB": "8.0",
+              "SB": "8.0"
+            },
+            "battle_ratings_by_battle": {
+              "default": {
+                "AB": "8.0",
+                "RB": "8.0",
+                "SB": "8.0"
+              }
+            },
+            "research": "135,000",
+            "purchase": "380,000",
+            "purchase_currency": "SL",
+            "status": null,
+            "fetched_at": "2026-09-19T06:29:14.086Z",
+            "sha256": "cfc2c3fbdf411d6054c1174f7a28ad600fca6e5981b29b4043f52bca5b48f7a3"
+          }
         }
       ],
-      [],
+      [
+        {
+          "type": "single",
+          "title": "▄PzH 2000",
+          "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/it_pzh_2000.png",
+          "br": "7.7",
+          "rp": 95000,
+          "sp": 270000,
+          "data_unit_id": "it_pzh_2000",
+          "required_unit_id": "it_palmaria",
+          "selected": false,
+          "class_name": "",
+          "details": true,
+          "rank": "V",
+          "research_country": "Italy",
+          "main_role": "Tank destroyer",
+          "is_component": false,
+          "component_of": null,
+          "is_premium": false,
+          "is_squadron": false,
+          "wiki": {
+            "url": "https://wiki.warthunder.com/unit/it_pzh_2000",
+            "rank": "V",
+            "battle_rating_context": "default",
+            "battle_ratings": {
+              "AB": "8.0",
+              "RB": "7.7",
+              "SB": "7.7"
+            },
+            "battle_ratings_by_battle": {
+              "default": {
+                "AB": "8.0",
+                "RB": "7.7",
+                "SB": "7.7"
+              }
+            },
+            "research": "95,000",
+            "purchase": "270,000",
+            "purchase_currency": "SL",
+            "status": null,
+            "fetched_at": "2026-09-19T06:29:11.104Z",
+            "sha256": "d53eec879417fc3912997e4dd89a25613a5626a6bbaf045fadf5f32f6f158946"
+          }
+        }
+      ],
       [
         {
           "type": "single",
           "title": "◔BTR-80A",
           "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/it_btr_80a_hungary.png",
           "br": "7.3",
-          "rp": "95,000",
-          "sp": "270,000",
+          "rp": 95000,
+          "sp": 270000,
           "data_unit_id": "it_btr_80a_hungary",
+          "required_unit_id": "it_2s1",
           "selected": false,
           "class_name": "",
           "details": true,
-          "main_role": "Light tank"
+          "rank": "V",
+          "research_country": "Italy",
+          "main_role": "Light tank",
+          "is_component": false,
+          "component_of": null,
+          "is_premium": false,
+          "is_squadron": false,
+          "wiki": {
+            "url": "https://wiki.warthunder.com/unit/it_btr_80a_hungary",
+            "rank": "V",
+            "battle_rating_context": "default",
+            "battle_ratings": {
+              "AB": "7.3",
+              "RB": "7.3",
+              "SB": "7.3"
+            },
+            "battle_ratings_by_battle": {
+              "default": {
+                "AB": "7.3",
+                "RB": "7.3",
+                "SB": "7.3"
+              }
+            },
+            "research": "95,000",
+            "purchase": "270,000",
+            "purchase_currency": "SL",
+            "status": null,
+            "fetched_at": "2026-09-19T06:29:05.024Z",
+            "sha256": "8fc09cb8be8ed39fab1929ebb496d17f90e1d7e4d59bc87d0781b47bef027292"
+          }
         }
       ]
     ],
@@ -1075,62 +3286,183 @@
       [
         {
           "type": "single",
-          "title": "PzH 2000HU",
+          "title": "PzH 2000HU",
           "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/it_pzh_2000_hu.png",
           "br": "7.7",
           "rp": 0,
           "sp": 0,
           "data_unit_id": "it_pzh_2000_hu",
+          "required_unit_id": "",
           "selected": false,
           "class_name": "prem",
           "details": true,
-          "main_role": "Tank destroyer"
+          "rank": "V",
+          "research_country": "Italy",
+          "main_role": "Tank destroyer",
+          "is_component": false,
+          "component_of": null,
+          "is_premium": true,
+          "is_squadron": false,
+          "wiki": {
+            "url": "https://wiki.warthunder.com/unit/it_pzh_2000_hu",
+            "rank": "V",
+            "battle_rating_context": "default",
+            "battle_ratings": {
+              "AB": "8.0",
+              "RB": "7.7",
+              "SB": "7.7"
+            },
+            "battle_ratings_by_battle": {
+              "default": {
+                "AB": "8.0",
+                "RB": "7.7",
+                "SB": "7.7"
+              }
+            },
+            "research": null,
+            "purchase": "8,020",
+            "purchase_currency": "GE",
+            "status": "Premium vehicle",
+            "fetched_at": "2026-09-19T06:29:11.118Z",
+            "sha256": "dfee396261c70b33f42812cb6dedc7a81fed526524c4d3493f1658ded8cf5b89"
+          }
         },
         {
           "type": "single",
-          "title": "M60A1 \"D.C.Ariete\"",
+          "title": "M60A1 \"D.C.Ariete\"",
           "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/it_m60a1_ariete.png",
           "br": "8.0",
           "rp": 0,
           "sp": 0,
           "data_unit_id": "it_m60a1_ariete",
+          "required_unit_id": "",
           "selected": false,
           "class_name": "prem",
           "details": true,
-          "main_role": "Medium tank"
+          "rank": "V",
+          "research_country": "Italy",
+          "main_role": "Medium tank",
+          "is_component": false,
+          "component_of": null,
+          "is_premium": true,
+          "is_squadron": false,
+          "wiki": {
+            "url": "https://wiki.warthunder.com/unit/it_m60a1_ariete",
+            "rank": "V",
+            "battle_rating_context": "default",
+            "battle_ratings": {
+              "AB": "8.0",
+              "RB": "8.0",
+              "SB": "8.0"
+            },
+            "battle_ratings_by_battle": {
+              "default": {
+                "AB": "8.0",
+                "RB": "8.0",
+                "SB": "8.0"
+              }
+            },
+            "research": null,
+            "purchase": "7,480",
+            "purchase_currency": "GE",
+            "status": "Premium vehicle",
+            "fetched_at": "2026-09-19T06:29:09.757Z",
+            "sha256": "d8bd6663b608cdb082d9d1f990cb9ff2ee3277744d79c48496e0280a2c9e1ddb"
+          }
         }
       ],
       [
         {
           "type": "single",
-          "title": "FIROS 6",
+          "title": "FIROS 6",
           "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/it_fiat_6614_firos.png",
           "br": "7.7",
           "rp": null,
           "sp": null,
           "data_unit_id": "it_fiat_6614_firos",
+          "required_unit_id": "",
           "selected": false,
           "class_name": "",
           "details": true,
-          "main_role": "Light tank"
+          "rank": "V",
+          "research_country": "Italy",
+          "main_role": "Light tank",
+          "is_component": false,
+          "component_of": null,
+          "is_premium": false,
+          "is_squadron": false,
+          "wiki": {
+            "url": "https://wiki.warthunder.com/unit/it_fiat_6614_firos",
+            "rank": "V",
+            "battle_rating_context": "default",
+            "battle_ratings": {
+              "AB": "7.7",
+              "RB": "7.7",
+              "SB": "7.7"
+            },
+            "battle_ratings_by_battle": {
+              "default": {
+                "AB": "7.7",
+                "RB": "7.7",
+                "SB": "7.7"
+              }
+            },
+            "research": null,
+            "purchase": null,
+            "purchase_currency": null,
+            "status": null,
+            "fetched_at": "2026-09-19T06:29:06.459Z",
+            "sha256": "3df97d486e84fa3440cf4250c9fe88cd75cc86fe4259fdd5e0bfe4045eb3c0f8"
+          }
         },
         {
           "type": "single",
-          "title": "AUBL/74 HVG",
+          "title": "AUBL/74 HVG",
           "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/it_aubl_74_60_70m.png",
           "br": "8.0",
           "rp": 0,
           "sp": 0,
           "data_unit_id": "it_aubl_74_60_70m",
+          "required_unit_id": "",
           "selected": false,
           "class_name": "prem",
           "details": true,
-          "main_role": "Light tank"
+          "rank": "V",
+          "research_country": "Italy",
+          "main_role": "Light tank",
+          "is_component": false,
+          "component_of": null,
+          "is_premium": true,
+          "is_squadron": false,
+          "wiki": {
+            "url": "https://wiki.warthunder.com/unit/it_aubl_74_60_70m",
+            "rank": "V",
+            "battle_rating_context": "default",
+            "battle_ratings": {
+              "AB": "8.0",
+              "RB": "8.0",
+              "SB": "8.0"
+            },
+            "battle_ratings_by_battle": {
+              "default": {
+                "AB": "8.0",
+                "RB": "8.0",
+                "SB": "8.0"
+              }
+            },
+            "research": null,
+            "purchase": null,
+            "purchase_currency": null,
+            "status": "Premium vehicle",
+            "fetched_at": "2026-09-19T06:29:04.567Z",
+            "sha256": "0df92d2a18fa7c5c63d893b9654b6b8231673182181ef872b3eeb2e9e461dacb"
+          }
         }
       ]
     ],
     "selected": [],
-    "unlock_quantity": 0
+    "unlock_quantity": null,
+    "source": "wiki"
   },
   {
     "rank": "VI",
@@ -1141,13 +3473,43 @@
           "title": "VCC-80/60",
           "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/it_vcc_80_hitfist_60.png",
           "br": "9.3",
-          "rp": "160,000",
-          "sp": "450,000",
+          "rp": 160000,
+          "sp": 450000,
           "data_unit_id": "it_vcc_80_hitfist_60",
+          "required_unit_id": "it_oto_r3_106sr",
           "selected": false,
           "class_name": "",
           "details": true,
-          "main_role": "Light tank"
+          "rank": "VI",
+          "research_country": "Italy",
+          "main_role": "Light tank",
+          "is_component": false,
+          "component_of": null,
+          "is_premium": false,
+          "is_squadron": false,
+          "wiki": {
+            "url": "https://wiki.warthunder.com/unit/it_vcc_80_hitfist_60",
+            "rank": "VI",
+            "battle_rating_context": "default",
+            "battle_ratings": {
+              "AB": "9.3",
+              "RB": "9.3",
+              "SB": "9.3"
+            },
+            "battle_ratings_by_battle": {
+              "default": {
+                "AB": "9.3",
+                "RB": "9.3",
+                "SB": "9.3"
+              }
+            },
+            "research": "160,000",
+            "purchase": "450,000",
+            "purchase_currency": "SL",
+            "status": null,
+            "fetched_at": "2026-09-19T06:29:13.994Z",
+            "sha256": "a5d916e25d0f5c88362d1607e93ebd5bae8d14656b79442155e4b91c992f3634"
+          }
         },
         {
           "type": "multiple",
@@ -1156,120 +3518,363 @@
           "selected": false,
           "br": "9.3-9.7",
           "data_unit_id": "it_centauro_105_group",
+          "required_unit_id": "it_vcc_80_hitfist_60",
           "class_name": "",
           "items": [
             {
               "type": "single",
-              "title": "Centauro I 105",
+              "title": "Centauro I 105",
               "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/it_b1_centauro.png",
               "br": "9.3",
-              "rp": "190,000",
-              "sp": "520,000",
+              "rp": 190000,
+              "sp": 520000,
               "data_unit_id": "it_b1_centauro",
+              "required_unit_id": "",
               "selected": false,
               "class_name": "",
               "details": true,
-              "main_role": "Light tank"
+              "rank": "VI",
+              "research_country": "Italy",
+              "main_role": "Light tank",
+              "is_component": false,
+              "component_of": null,
+              "is_premium": false,
+              "is_squadron": false,
+              "wiki": {
+                "url": "https://wiki.warthunder.com/unit/it_b1_centauro",
+                "rank": "VI",
+                "battle_rating_context": "default",
+                "battle_ratings": {
+                  "AB": "9.3",
+                  "RB": "9.3",
+                  "SB": "9.3"
+                },
+                "battle_ratings_by_battle": {
+                  "default": {
+                    "AB": "9.3",
+                    "RB": "9.3",
+                    "SB": "9.3"
+                  }
+                },
+                "research": "190,000",
+                "purchase": "520,000",
+                "purchase_currency": "SL",
+                "status": null,
+                "fetched_at": "2026-09-19T06:29:04.743Z",
+                "sha256": "216e0506a1fcda4dde86248900958ed09fa4185c2f4abf85cbda066fd86e2dc9"
+              }
             },
             {
               "type": "single",
-              "title": "Centauro I 105 R",
+              "title": "Centauro I 105 R",
               "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/it_b1_centauro_romor.png",
               "br": "9.7",
-              "rp": "110,000",
-              "sp": "620,000",
+              "rp": 110000,
+              "sp": 620000,
               "data_unit_id": "it_b1_centauro_romor",
+              "required_unit_id": "it_b1_centauro",
               "selected": false,
               "class_name": "",
               "details": true,
-              "main_role": "Light tank"
+              "rank": "VI",
+              "research_country": "Italy",
+              "main_role": "Light tank",
+              "is_component": false,
+              "component_of": null,
+              "is_premium": false,
+              "is_squadron": false,
+              "wiki": {
+                "url": "https://wiki.warthunder.com/unit/it_b1_centauro_romor",
+                "rank": "VI",
+                "battle_rating_context": "default",
+                "battle_ratings": {
+                  "AB": "9.7",
+                  "RB": "9.7",
+                  "SB": "9.7"
+                },
+                "battle_ratings_by_battle": {
+                  "default": {
+                    "AB": "9.7",
+                    "RB": "9.7",
+                    "SB": "9.7"
+                  }
+                },
+                "research": "110,000",
+                "purchase": "620,000",
+                "purchase_currency": "SL",
+                "status": null,
+                "fetched_at": "2026-09-19T06:29:04.887Z",
+                "sha256": "f06db34a0c2251dc1ccd69131bdaef31ba0af723d532fbdf4e116fa1ab7e2cd7"
+              }
             }
           ],
-          "details": true
+          "details": true,
+          "rp": 300000,
+          "sp": 1140000
         }
       ],
       [
         {
           "type": "single",
-          "title": "OF-40 Mk.2A",
+          "title": "OF-40 Mk.2A",
           "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/it_of_40_mk_2a.png",
           "br": "9.0",
-          "rp": "190,000",
-          "sp": "520,000",
+          "rp": 190000,
+          "sp": 520000,
           "data_unit_id": "it_of_40_mk_2a",
+          "required_unit_id": "it_of_leo_group",
           "selected": false,
           "class_name": "",
           "details": true,
-          "main_role": "Medium tank"
+          "rank": "VI",
+          "research_country": "Italy",
+          "main_role": "Medium tank",
+          "is_component": false,
+          "component_of": null,
+          "is_premium": false,
+          "is_squadron": false,
+          "wiki": {
+            "url": "https://wiki.warthunder.com/unit/it_of_40_mk_2a",
+            "rank": "VI",
+            "battle_rating_context": "default",
+            "battle_ratings": {
+              "AB": "9.0",
+              "RB": "9.0",
+              "SB": "9.0"
+            },
+            "battle_ratings_by_battle": {
+              "default": {
+                "AB": "9.0",
+                "RB": "9.0",
+                "SB": "9.0"
+              }
+            },
+            "research": "190,000",
+            "purchase": "520,000",
+            "purchase_currency": "SL",
+            "status": null,
+            "fetched_at": "2026-09-19T06:29:10.085Z",
+            "sha256": "982f0d0a48a36c89700e7d6a714fbf74e212f2d80af0bd43d91db1f3da02c75c"
+          }
         },
         {
           "type": "single",
-          "title": "▄Leopard 1A5",
+          "title": "▄Leopard 1A5",
           "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/it_leopard_1a5.png",
           "br": "9.3",
-          "rp": "220,000",
-          "sp": "620,000",
+          "rp": 220000,
+          "sp": 620000,
           "data_unit_id": "it_leopard_1a5",
+          "required_unit_id": "it_of_40_mk_2a",
           "selected": false,
           "class_name": "",
           "details": true,
-          "main_role": "Medium tank"
+          "rank": "VI",
+          "research_country": "Italy",
+          "main_role": "Medium tank",
+          "is_component": false,
+          "component_of": null,
+          "is_premium": false,
+          "is_squadron": false,
+          "wiki": {
+            "url": "https://wiki.warthunder.com/unit/it_leopard_1a5",
+            "rank": "VI",
+            "battle_rating_context": "default",
+            "battle_ratings": {
+              "AB": "9.3",
+              "RB": "9.3",
+              "SB": "9.3"
+            },
+            "battle_ratings_by_battle": {
+              "default": {
+                "AB": "9.3",
+                "RB": "9.3",
+                "SB": "9.3"
+              }
+            },
+            "research": "220,000",
+            "purchase": "620,000",
+            "purchase_currency": "SL",
+            "status": null,
+            "fetched_at": "2026-09-19T06:29:07.595Z",
+            "sha256": "cc41fc9038e76d9a37f420bc997c3260d33ae21cd86d01f804878ac67aa94ab7"
+          }
         }
       ],
       [
         {
           "type": "single",
-          "title": "SIDAM 25",
+          "title": "SIDAM 25",
           "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/it_otobreda_sidam_25.png",
-          "br": "8.3",
-          "rp": "160,000",
-          "sp": "450,000",
+          "br": "8.0",
+          "rp": 160000,
+          "sp": 450000,
           "data_unit_id": "it_otobreda_sidam_25",
+          "required_unit_id": "it_zsu_23_4",
           "selected": false,
           "class_name": "",
           "details": true,
-          "main_role": "SPAA"
+          "rank": "VI",
+          "research_country": "Italy",
+          "main_role": "SPAA",
+          "is_component": false,
+          "component_of": null,
+          "is_premium": false,
+          "is_squadron": false,
+          "wiki": {
+            "url": "https://wiki.warthunder.com/unit/it_otobreda_sidam_25",
+            "rank": "VI",
+            "battle_rating_context": "default",
+            "battle_ratings": {
+              "AB": "8.0",
+              "RB": "8.0",
+              "SB": "8.0"
+            },
+            "battle_ratings_by_battle": {
+              "default": {
+                "AB": "8.0",
+                "RB": "8.0",
+                "SB": "8.0"
+              }
+            },
+            "research": "160,000",
+            "purchase": "450,000",
+            "purchase_currency": "SL",
+            "status": null,
+            "fetched_at": "2026-09-19T06:29:10.458Z",
+            "sha256": "c02c370075773e86a9ee77748d6519c3fecedb1293a4c71312704f93b48c6436"
+          }
         },
         {
           "type": "single",
-          "title": "SIDAM 25 (Mistral)",
+          "title": "SIDAM 25 (Mistral)",
           "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/it_otobreda_sidam_25_mistral.png",
           "br": "9.7",
-          "rp": "220,000",
-          "sp": "620,000",
+          "rp": 220000,
+          "sp": 620000,
           "data_unit_id": "it_otobreda_sidam_25_mistral",
+          "required_unit_id": "it_otobreda_sidam_25",
           "selected": false,
           "class_name": "",
           "details": true,
-          "main_role": "SPAA"
+          "rank": "VI",
+          "research_country": "Italy",
+          "main_role": "SPAA",
+          "is_component": false,
+          "component_of": null,
+          "is_premium": false,
+          "is_squadron": false,
+          "wiki": {
+            "url": "https://wiki.warthunder.com/unit/it_otobreda_sidam_25_mistral",
+            "rank": "VI",
+            "battle_rating_context": "default",
+            "battle_ratings": {
+              "AB": "10.0",
+              "RB": "9.7",
+              "SB": "9.7"
+            },
+            "battle_ratings_by_battle": {
+              "default": {
+                "AB": "10.0",
+                "RB": "9.7",
+                "SB": "9.7"
+              }
+            },
+            "research": "220,000",
+            "purchase": "620,000",
+            "purchase_currency": "SL",
+            "status": null,
+            "fetched_at": "2026-09-19T06:29:10.365Z",
+            "sha256": "a89447ab9ac2ebf1e9daaaea99cd95051ff4f4feb702a264c6ca7c6853123b71"
+          }
         }
       ],
       [
         {
           "type": "single",
-          "title": "M113A1 (TOW)",
+          "title": "M113A1 (TOW)",
           "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/it_m113a1_tow.png",
           "br": "8.3",
-          "rp": "135,000",
-          "sp": "380,000",
+          "rp": 135000,
+          "sp": 380000,
           "data_unit_id": "it_m113a1_tow",
+          "required_unit_id": "it_pzh_2000",
           "selected": false,
           "class_name": "",
           "details": true,
-          "main_role": "Tank destroyer"
+          "rank": "VI",
+          "research_country": "Italy",
+          "main_role": "Tank destroyer",
+          "is_component": false,
+          "component_of": null,
+          "is_premium": false,
+          "is_squadron": false,
+          "wiki": {
+            "url": "https://wiki.warthunder.com/unit/it_m113a1_tow",
+            "rank": "VI",
+            "battle_rating_context": "default",
+            "battle_ratings": {
+              "AB": "8.3",
+              "RB": "8.3",
+              "SB": "8.3"
+            },
+            "battle_ratings_by_battle": {
+              "default": {
+                "AB": "8.3",
+                "RB": "8.3",
+                "SB": "8.3"
+              }
+            },
+            "research": "135,000",
+            "purchase": "380,000",
+            "purchase_currency": "SL",
+            "status": null,
+            "fetched_at": "2026-09-19T06:29:08.178Z",
+            "sha256": "d047a179d2eedcded6baf4911a8b183a7758935e21bfd2426ea8dc737d12e371"
+          }
         },
         {
           "type": "single",
-          "title": "VBC (PT2)",
+          "title": "VBC (PT2)",
           "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/it_vbc_pt2.png",
           "br": "9.7",
-          "rp": "190,000",
-          "sp": "520,000",
+          "rp": 190000,
+          "sp": 520000,
           "data_unit_id": "it_vbc_pt2",
+          "required_unit_id": "it_m113a1_tow",
           "selected": false,
           "class_name": "",
           "details": true,
-          "main_role": "Light tank"
+          "rank": "VI",
+          "research_country": "Italy",
+          "main_role": "Light tank",
+          "is_component": false,
+          "component_of": null,
+          "is_premium": false,
+          "is_squadron": false,
+          "wiki": {
+            "url": "https://wiki.warthunder.com/unit/it_vbc_pt2",
+            "rank": "VI",
+            "battle_rating_context": "default",
+            "battle_ratings": {
+              "AB": "9.3",
+              "RB": "9.7",
+              "SB": "9.7"
+            },
+            "battle_ratings_by_battle": {
+              "default": {
+                "AB": "9.3",
+                "RB": "9.7",
+                "SB": "9.7"
+              }
+            },
+            "research": "190,000",
+            "purchase": "520,000",
+            "purchase_currency": "SL",
+            "status": null,
+            "fetched_at": "2026-09-19T06:29:13.885Z",
+            "sha256": "86d634e5a9a67e6bfea844474dff0c5ced4f4c78eae6defb1029a77a6325d00f"
+          }
         }
       ],
       [
@@ -1278,13 +3883,43 @@
           "title": "◔T-72M1",
           "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/it_t_72m1.png",
           "br": "9.3",
-          "rp": "220,000",
-          "sp": "620,000",
+          "rp": 220000,
+          "sp": 620000,
           "data_unit_id": "it_t_72m1",
+          "required_unit_id": "it_btr_80a_hungary",
           "selected": false,
           "class_name": "",
           "details": true,
-          "main_role": "Medium tank"
+          "rank": "VI",
+          "research_country": "Italy",
+          "main_role": "Medium tank",
+          "is_component": false,
+          "component_of": null,
+          "is_premium": false,
+          "is_squadron": false,
+          "wiki": {
+            "url": "https://wiki.warthunder.com/unit/it_t_72m1",
+            "rank": "VI",
+            "battle_rating_context": "default",
+            "battle_ratings": {
+              "AB": "9.3",
+              "RB": "9.3",
+              "SB": "9.3"
+            },
+            "battle_ratings_by_battle": {
+              "default": {
+                "AB": "9.3",
+                "RB": "9.3",
+                "SB": "9.3"
+              }
+            },
+            "research": "220,000",
+            "purchase": "620,000",
+            "purchase_currency": "SL",
+            "status": null,
+            "fetched_at": "2026-09-19T06:29:13.329Z",
+            "sha256": "a91dda7ea32821bdf8700176a4f66784734d348109bfec2df61293855219d57d"
+          }
         }
       ]
     ],
@@ -1292,16 +3927,46 @@
       [
         {
           "type": "single",
-          "title": "OF-40 (MTCA)",
+          "title": "OF-40 (MTCA)",
           "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/it_of_40_mtca.png",
           "br": "9.3",
           "rp": 0,
           "sp": 0,
           "data_unit_id": "it_of_40_mtca",
+          "required_unit_id": "",
           "selected": false,
           "class_name": "prem",
           "details": true,
-          "main_role": "Medium tank"
+          "rank": "VI",
+          "research_country": "Italy",
+          "main_role": "Medium tank",
+          "is_component": false,
+          "component_of": null,
+          "is_premium": true,
+          "is_squadron": false,
+          "wiki": {
+            "url": "https://wiki.warthunder.com/unit/it_of_40_mtca",
+            "rank": "VI",
+            "battle_rating_context": "default",
+            "battle_ratings": {
+              "AB": "9.3",
+              "RB": "9.3",
+              "SB": "9.3"
+            },
+            "battle_ratings_by_battle": {
+              "default": {
+                "AB": "9.3",
+                "RB": "9.3",
+                "SB": "9.3"
+              }
+            },
+            "research": null,
+            "purchase": "8,730",
+            "purchase_currency": "GE",
+            "status": "Premium vehicle",
+            "fetched_at": "2026-09-19T06:29:10.098Z",
+            "sha256": "73080ac7f939e7f8b0f091c8437cf4af39c588ad73dca2798e94f7357f7c6fff"
+          }
         },
         {
           "type": "single",
@@ -1311,10 +3976,40 @@
           "rp": 0,
           "sp": 0,
           "data_unit_id": "it_vrcc_centauro",
+          "required_unit_id": "",
           "selected": false,
           "class_name": "prem",
           "details": true,
-          "main_role": "Light tank"
+          "rank": "VI",
+          "research_country": "Italy",
+          "main_role": "Light tank",
+          "is_component": false,
+          "component_of": null,
+          "is_premium": true,
+          "is_squadron": false,
+          "wiki": {
+            "url": "https://wiki.warthunder.com/unit/it_vrcc_centauro",
+            "rank": "VI",
+            "battle_rating_context": "default",
+            "battle_ratings": {
+              "AB": "9.7",
+              "RB": "9.7",
+              "SB": "9.7"
+            },
+            "battle_ratings_by_battle": {
+              "default": {
+                "AB": "9.7",
+                "RB": "9.7",
+                "SB": "9.7"
+              }
+            },
+            "research": null,
+            "purchase": "8,910",
+            "purchase_currency": "GE",
+            "status": "Premium vehicle",
+            "fetched_at": "2026-09-19T06:29:14.117Z",
+            "sha256": "c8f0f8a1402800507414ea34eeb9645f8b37914766abe079f36d7d774d71feaa"
+          }
         }
       ],
       [
@@ -1323,18 +4018,49 @@
           "title": "C13/TUA",
           "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/it_c13_tua.png",
           "br": "8.3",
-          "rp": "400,000",
-          "sp": "470,000",
+          "rp": 0,
+          "sp": 0,
           "data_unit_id": "it_c13_tua",
+          "required_unit_id": "",
           "selected": false,
           "class_name": "squad",
           "details": true,
-          "main_role": "Tank destroyer"
+          "rank": "VI",
+          "research_country": "Italy",
+          "main_role": "Tank destroyer",
+          "is_component": false,
+          "component_of": null,
+          "is_premium": false,
+          "is_squadron": true,
+          "wiki": {
+            "url": "https://wiki.warthunder.com/unit/it_c13_tua",
+            "rank": "VI",
+            "battle_rating_context": "default",
+            "battle_ratings": {
+              "AB": "8.3",
+              "RB": "8.3",
+              "SB": "8.3"
+            },
+            "battle_ratings_by_battle": {
+              "default": {
+                "AB": "8.3",
+                "RB": "8.3",
+                "SB": "8.3"
+              }
+            },
+            "research": "400,000",
+            "purchase": "470,000",
+            "purchase_currency": "SL",
+            "status": "Squadron vehicle",
+            "fetched_at": "2026-09-19T06:29:05.262Z",
+            "sha256": "fe55cbf57e611b7d730ba075ef9b50113b6a7d99d933ad958e1855e21adefa28"
+          }
         }
       ]
     ],
     "selected": [],
-    "unlock_quantity": 0
+    "unlock_quantity": null,
+    "source": "wiki"
   },
   {
     "rank": "VII",
@@ -1342,31 +4068,91 @@
       [
         {
           "type": "single",
-          "title": "Centauro I 120",
+          "title": "Centauro I 120",
           "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/it_centauro_mgs_120.png",
           "br": "11.7",
-          "rp": "350,000",
-          "sp": "950,000",
+          "rp": 350000,
+          "sp": 950000,
           "data_unit_id": "it_centauro_mgs_120",
+          "required_unit_id": "it_centauro_105_group",
           "selected": false,
           "class_name": "",
           "details": true,
-          "main_role": "Light tank"
+          "rank": "VII",
+          "research_country": "Italy",
+          "main_role": "Light tank",
+          "is_component": false,
+          "component_of": null,
+          "is_premium": false,
+          "is_squadron": false,
+          "wiki": {
+            "url": "https://wiki.warthunder.com/unit/it_centauro_mgs_120",
+            "rank": "VII",
+            "battle_rating_context": "default",
+            "battle_ratings": {
+              "AB": "11.7",
+              "RB": "11.7",
+              "SB": "11.7"
+            },
+            "battle_ratings_by_battle": {
+              "default": {
+                "AB": "11.7",
+                "RB": "11.7",
+                "SB": "11.7"
+              }
+            },
+            "research": "350,000",
+            "purchase": "950,000",
+            "purchase_currency": "SL",
+            "status": null,
+            "fetched_at": "2026-09-19T06:29:05.974Z",
+            "sha256": "3639779dc02a375c6ab4403bf71e1eb1dfccff376f656f3247c7db9d352e705d"
+          }
         }
       ],
       [
         {
           "type": "single",
-          "title": "Ariete (P)",
+          "title": "Ariete (P)",
           "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/it_c1_ariete_preserie.png",
           "br": "10.7",
-          "rp": "260,000",
-          "sp": "710,000",
+          "rp": 260000,
+          "sp": 710000,
           "data_unit_id": "it_c1_ariete_preserie",
+          "required_unit_id": "it_leopard_1a5",
           "selected": false,
           "class_name": "",
           "details": true,
-          "main_role": "Medium tank"
+          "rank": "VII",
+          "research_country": "Italy",
+          "main_role": "Medium tank",
+          "is_component": false,
+          "component_of": null,
+          "is_premium": false,
+          "is_squadron": false,
+          "wiki": {
+            "url": "https://wiki.warthunder.com/unit/it_c1_ariete_preserie",
+            "rank": "VII",
+            "battle_rating_context": "default",
+            "battle_ratings": {
+              "AB": "10.7",
+              "RB": "10.7",
+              "SB": "10.7"
+            },
+            "battle_ratings_by_battle": {
+              "default": {
+                "AB": "10.7",
+                "RB": "10.7",
+                "SB": "10.7"
+              }
+            },
+            "research": "260,000",
+            "purchase": "710,000",
+            "purchase_currency": "SL",
+            "status": null,
+            "fetched_at": "2026-09-19T06:29:05.405Z",
+            "sha256": "17e8d885ca1de21950648adcd80ceac7603561ec66b099da16c9a957f5f5520f"
+          }
         },
         {
           "type": "multiple",
@@ -1375,36 +4161,99 @@
           "selected": false,
           "br": "11.7",
           "data_unit_id": "it_ariete_group",
+          "required_unit_id": "it_c1_ariete_preserie",
           "class_name": "",
           "items": [
             {
               "type": "single",
-              "title": "Ariete PSO",
+              "title": "Ariete PSO",
               "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/it_c1_ariete_pso.png",
               "br": "11.7",
-              "rp": "350,000",
-              "sp": "950,000",
+              "rp": 350000,
+              "sp": 950000,
               "data_unit_id": "it_c1_ariete_pso",
+              "required_unit_id": "",
               "selected": false,
               "class_name": "",
               "details": true,
-              "main_role": "Medium tank"
+              "rank": "VII",
+              "research_country": "Italy",
+              "main_role": "Medium tank",
+              "is_component": false,
+              "component_of": null,
+              "is_premium": false,
+              "is_squadron": false,
+              "wiki": {
+                "url": "https://wiki.warthunder.com/unit/it_c1_ariete_pso",
+                "rank": "VII",
+                "battle_rating_context": "default",
+                "battle_ratings": {
+                  "AB": "11.7",
+                  "RB": "11.7",
+                  "SB": "11.7"
+                },
+                "battle_ratings_by_battle": {
+                  "default": {
+                    "AB": "11.7",
+                    "RB": "11.7",
+                    "SB": "11.7"
+                  }
+                },
+                "research": "350,000",
+                "purchase": "950,000",
+                "purchase_currency": "SL",
+                "status": null,
+                "fetched_at": "2026-09-19T06:29:05.573Z",
+                "sha256": "be3e36fe14eb51235bedf68017e64455eb7beb50222e793476c8bdb2c425a73b"
+              }
             },
             {
               "type": "single",
               "title": "Ariete",
               "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/it_c1_ariete.png",
               "br": "11.7",
-              "rp": "175,000",
-              "sp": "950,000",
+              "rp": 175000,
+              "sp": 950000,
               "data_unit_id": "it_c1_ariete",
+              "required_unit_id": "it_c1_ariete_pso",
               "selected": false,
               "class_name": "",
               "details": true,
-              "main_role": "Medium tank"
+              "rank": "VII",
+              "research_country": "Italy",
+              "main_role": "Medium tank",
+              "is_component": false,
+              "component_of": null,
+              "is_premium": false,
+              "is_squadron": false,
+              "wiki": {
+                "url": "https://wiki.warthunder.com/unit/it_c1_ariete",
+                "rank": "VII",
+                "battle_rating_context": "default",
+                "battle_ratings": {
+                  "AB": "11.7",
+                  "RB": "11.7",
+                  "SB": "11.7"
+                },
+                "battle_ratings_by_battle": {
+                  "default": {
+                    "AB": "11.7",
+                    "RB": "11.7",
+                    "SB": "11.7"
+                  }
+                },
+                "research": "175,000",
+                "purchase": "950,000",
+                "purchase_currency": "SL",
+                "status": null,
+                "fetched_at": "2026-09-19T06:29:05.577Z",
+                "sha256": "a4d37cb37a38e22093e8d1fe700092630a0e977ec8b9bc9dd2f3cf9922049e66"
+              }
             }
           ],
-          "details": true
+          "details": true,
+          "rp": 525000,
+          "sp": 1900000
         }
       ],
       [
@@ -1415,6 +4264,7 @@
           "selected": false,
           "br": "10.3",
           "data_unit_id": "it_9a33_35_group",
+          "required_unit_id": "it_otobreda_sidam_25_mistral",
           "class_name": "",
           "items": [
             {
@@ -1422,42 +4272,134 @@
               "title": "▄Osa-AKM",
               "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/it_9a33bm3.png",
               "br": "10.3",
-              "rp": "300,000",
-              "sp": "830,000",
+              "rp": 300000,
+              "sp": 830000,
               "data_unit_id": "it_9a33bm3",
+              "required_unit_id": "",
               "selected": false,
               "class_name": "",
               "details": true,
-              "main_role": "SPAA"
+              "rank": "VII",
+              "research_country": "Italy",
+              "main_role": "SPAA",
+              "is_component": false,
+              "component_of": null,
+              "is_premium": false,
+              "is_squadron": false,
+              "wiki": {
+                "url": "https://wiki.warthunder.com/unit/it_9a33bm3",
+                "rank": "VII",
+                "battle_rating_context": "default",
+                "battle_ratings": {
+                  "AB": "10.3",
+                  "RB": "10.3",
+                  "SB": "10.3"
+                },
+                "battle_ratings_by_battle": {
+                  "default": {
+                    "AB": "10.3",
+                    "RB": "10.3",
+                    "SB": "10.3"
+                  }
+                },
+                "research": "300,000",
+                "purchase": "830,000",
+                "purchase_currency": "SL",
+                "status": null,
+                "fetched_at": "2026-09-19T06:29:03.929Z",
+                "sha256": "1a8946a43375562ba614b2cc72a310f7daabb6a636871174a5dfad22887e15eb"
+              }
             },
             {
               "type": "single",
               "title": "◔Strela-10M",
               "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/it_9a35_m.png",
               "br": "10.3",
-              "rp": "175,000",
-              "sp": "950,000",
+              "rp": 175000,
+              "sp": 950000,
               "data_unit_id": "it_9a35_m",
+              "required_unit_id": "it_9a33bm3",
               "selected": false,
               "class_name": "",
               "details": true,
-              "main_role": "SPAA"
+              "rank": "VII",
+              "research_country": "Italy",
+              "main_role": "SPAA",
+              "is_component": false,
+              "component_of": null,
+              "is_premium": false,
+              "is_squadron": false,
+              "wiki": {
+                "url": "https://wiki.warthunder.com/unit/it_9a35_m",
+                "rank": "VII",
+                "battle_rating_context": "default",
+                "battle_ratings": {
+                  "AB": "11.0",
+                  "RB": "10.3",
+                  "SB": "10.3"
+                },
+                "battle_ratings_by_battle": {
+                  "default": {
+                    "AB": "11.0",
+                    "RB": "10.3",
+                    "SB": "10.3"
+                  }
+                },
+                "research": "175,000",
+                "purchase": "950,000",
+                "purchase_currency": "SL",
+                "status": null,
+                "fetched_at": "2026-09-19T06:29:04.188Z",
+                "sha256": "863b7d9704ee8a610a65317fa9402168ca686f1e23df54dccc08ea45e8edf151"
+              }
             }
           ],
-          "details": true
+          "details": true,
+          "rp": 475000,
+          "sp": 1780000
         },
         {
           "type": "single",
           "title": "OTOMATIC",
           "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/it_otomatic.png",
           "br": "11.3",
-          "rp": "350,000",
-          "sp": "950,000",
+          "rp": 350000,
+          "sp": 950000,
           "data_unit_id": "it_otomatic",
+          "required_unit_id": "it_9a33_35_group",
           "selected": false,
           "class_name": "",
           "details": true,
-          "main_role": "SPAA"
+          "rank": "VII",
+          "research_country": "Italy",
+          "main_role": "SPAA",
+          "is_component": false,
+          "component_of": null,
+          "is_premium": false,
+          "is_squadron": false,
+          "wiki": {
+            "url": "https://wiki.warthunder.com/unit/it_otomatic",
+            "rank": "VII",
+            "battle_rating_context": "default",
+            "battle_ratings": {
+              "AB": "11.3",
+              "RB": "11.3",
+              "SB": "11.3"
+            },
+            "battle_ratings_by_battle": {
+              "default": {
+                "AB": "11.3",
+                "RB": "11.3",
+                "SB": "11.3"
+              }
+            },
+            "research": "350,000",
+            "purchase": "950,000",
+            "purchase_currency": "SL",
+            "status": null,
+            "fetched_at": "2026-09-19T06:29:10.667Z",
+            "sha256": "5a3b43322c319e558eff68315ea17c10fe992d0038a78bf75e1db8ef6b037bfa"
+          }
         }
       ],
       [
@@ -1468,6 +4410,7 @@
           "selected": false,
           "br": "10.0",
           "data_unit_id": "it_dardo_group",
+          "required_unit_id": "it_vbc_pt2",
           "class_name": "",
           "items": [
             {
@@ -1475,70 +4418,222 @@
               "title": "Dardo",
               "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/it_dardo_vcc.png",
               "br": "10.0",
-              "rp": "260,000",
-              "sp": "710,000",
+              "rp": 260000,
+              "sp": 710000,
               "data_unit_id": "it_dardo_vcc",
+              "required_unit_id": "",
               "selected": false,
               "class_name": "",
               "details": true,
-              "main_role": "Light tank"
+              "rank": "VII",
+              "research_country": "Italy",
+              "main_role": "Light tank",
+              "is_component": false,
+              "component_of": null,
+              "is_premium": false,
+              "is_squadron": false,
+              "wiki": {
+                "url": "https://wiki.warthunder.com/unit/it_dardo_vcc",
+                "rank": "VII",
+                "battle_rating_context": "default",
+                "battle_ratings": {
+                  "AB": "10.0",
+                  "RB": "10.0",
+                  "SB": "10.0"
+                },
+                "battle_ratings_by_battle": {
+                  "default": {
+                    "AB": "10.0",
+                    "RB": "10.0",
+                    "SB": "10.0"
+                  }
+                },
+                "research": "260,000",
+                "purchase": "710,000",
+                "purchase_currency": "SL",
+                "status": null,
+                "fetched_at": "2026-09-19T06:29:06.178Z",
+                "sha256": "7f92b58cb64039a015575f5884c7e85673fe5d1dea6bc72314cccb3bf4c19d99"
+              }
             },
             {
               "type": "single",
               "title": "VCC-80/30",
               "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/it_vcc_80_hitfist_30.png",
               "br": "10.0",
-              "rp": "150,000",
-              "sp": "830,000",
+              "rp": 150000,
+              "sp": 830000,
               "data_unit_id": "it_vcc_80_hitfist_30",
+              "required_unit_id": "it_dardo_vcc",
               "selected": false,
               "class_name": "",
               "details": true,
-              "main_role": "Light tank"
+              "rank": "VII",
+              "research_country": "Italy",
+              "main_role": "Light tank",
+              "is_component": false,
+              "component_of": null,
+              "is_premium": false,
+              "is_squadron": false,
+              "wiki": {
+                "url": "https://wiki.warthunder.com/unit/it_vcc_80_hitfist_30",
+                "rank": "VII",
+                "battle_rating_context": "default",
+                "battle_ratings": {
+                  "AB": "10.0",
+                  "RB": "10.0",
+                  "SB": "10.0"
+                },
+                "battle_ratings_by_battle": {
+                  "default": {
+                    "AB": "10.0",
+                    "RB": "10.0",
+                    "SB": "10.0"
+                  }
+                },
+                "research": "150,000",
+                "purchase": "830,000",
+                "purchase_currency": "SL",
+                "status": null,
+                "fetched_at": "2026-09-19T06:29:13.702Z",
+                "sha256": "227e8b962dbfd99f56057262c10f2d7c28c993c9c3c7c388029e62c70b88cff0"
+              }
             }
           ],
-          "details": true
+          "details": true,
+          "rp": 410000,
+          "sp": 1540000
         },
         {
           "type": "single",
           "title": "Freccia",
           "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/it_freccia.png",
-          "br": "10.7",
-          "rp": "300,000",
-          "sp": "830,000",
+          "br": "11.0",
+          "rp": 300000,
+          "sp": 830000,
           "data_unit_id": "it_freccia",
+          "required_unit_id": "it_dardo_group",
           "selected": false,
           "class_name": "",
           "details": true,
-          "main_role": "Light tank"
+          "rank": "VII",
+          "research_country": "Italy",
+          "main_role": "Light tank",
+          "is_component": false,
+          "component_of": null,
+          "is_premium": false,
+          "is_squadron": false,
+          "wiki": {
+            "url": "https://wiki.warthunder.com/unit/it_freccia",
+            "rank": "VII",
+            "battle_rating_context": "default",
+            "battle_ratings": {
+              "AB": "10.7",
+              "RB": "11.0",
+              "SB": "11.0"
+            },
+            "battle_ratings_by_battle": {
+              "default": {
+                "AB": "10.7",
+                "RB": "11.0",
+                "SB": "11.0"
+              }
+            },
+            "research": "300,000",
+            "purchase": "830,000",
+            "purchase_currency": "SL",
+            "status": null,
+            "fetched_at": "2026-09-19T06:29:06.870Z",
+            "sha256": "168e4fc091d7897d537fad8e3e4a8644dd3d2ff5557209e57033775f4184a297"
+          }
         }
       ],
       [
         {
           "type": "single",
-          "title": "◔Leopard 2A4",
+          "title": "◔Leopard 2A4",
           "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/it_leopard_2a4.png",
           "br": "10.7",
-          "rp": "260,000",
-          "sp": "710,000",
+          "rp": 260000,
+          "sp": 710000,
           "data_unit_id": "it_leopard_2a4",
+          "required_unit_id": "it_t_72m1",
           "selected": false,
           "class_name": "",
           "details": true,
-          "main_role": "Medium tank"
+          "rank": "VII",
+          "research_country": "Italy",
+          "main_role": "Medium tank",
+          "is_component": false,
+          "component_of": null,
+          "is_premium": false,
+          "is_squadron": false,
+          "wiki": {
+            "url": "https://wiki.warthunder.com/unit/it_leopard_2a4",
+            "rank": "VII",
+            "battle_rating_context": "default",
+            "battle_ratings": {
+              "AB": "10.7",
+              "RB": "10.7",
+              "SB": "10.7"
+            },
+            "battle_ratings_by_battle": {
+              "default": {
+                "AB": "10.7",
+                "RB": "10.7",
+                "SB": "10.7"
+              }
+            },
+            "research": "260,000",
+            "purchase": "710,000",
+            "purchase_currency": "SL",
+            "status": null,
+            "fetched_at": "2026-09-19T06:29:07.845Z",
+            "sha256": "fac0133c66913921dec39399d4159bc8fdfe0dc63bb86a203f3746926ef8ad96"
+          }
         },
         {
           "type": "single",
           "title": "KF41",
           "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/it_kf_41.png",
           "br": "11.0",
-          "rp": "300,000",
-          "sp": "830,000",
+          "rp": 300000,
+          "sp": 830000,
           "data_unit_id": "it_kf_41",
+          "required_unit_id": "it_leopard_2a4",
           "selected": false,
           "class_name": "",
           "details": true,
-          "main_role": "Light tank"
+          "rank": "VII",
+          "research_country": "Italy",
+          "main_role": "Light tank",
+          "is_component": false,
+          "component_of": null,
+          "is_premium": false,
+          "is_squadron": false,
+          "wiki": {
+            "url": "https://wiki.warthunder.com/unit/it_kf_41",
+            "rank": "VII",
+            "battle_rating_context": "default",
+            "battle_ratings": {
+              "AB": "11.0",
+              "RB": "11.0",
+              "SB": "11.0"
+            },
+            "battle_ratings_by_battle": {
+              "default": {
+                "AB": "11.0",
+                "RB": "11.0",
+                "SB": "11.0"
+              }
+            },
+            "research": "300,000",
+            "purchase": "830,000",
+            "purchase_currency": "SL",
+            "status": null,
+            "fetched_at": "2026-09-19T06:29:06.926Z",
+            "sha256": "95929db2fbee59a381a1d121b0c33e483fe44ff47366fe156bde8dbd984cd01a"
+          }
         }
       ]
     ],
@@ -1546,49 +4641,140 @@
       [
         {
           "type": "single",
-          "title": "Centauro RGO",
+          "title": "Centauro RGO",
           "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/it_centauro_rgo_120.png",
           "br": "11.7",
           "rp": 0,
           "sp": 0,
           "data_unit_id": "it_centauro_rgo_120",
+          "required_unit_id": "",
           "selected": false,
           "class_name": "prem",
           "details": true,
-          "main_role": "Light tank"
+          "rank": "VII",
+          "research_country": "Italy",
+          "main_role": "Light tank",
+          "is_component": false,
+          "component_of": null,
+          "is_premium": true,
+          "is_squadron": false,
+          "wiki": {
+            "url": "https://wiki.warthunder.com/unit/it_centauro_rgo_120",
+            "rank": "VII",
+            "battle_rating_context": "default",
+            "battle_ratings": {
+              "AB": "11.7",
+              "RB": "11.7",
+              "SB": "11.7"
+            },
+            "battle_ratings_by_battle": {
+              "default": {
+                "AB": "11.7",
+                "RB": "11.7",
+                "SB": "11.7"
+              }
+            },
+            "research": null,
+            "purchase": "9,620",
+            "purchase_currency": "GE",
+            "status": "Premium vehicle",
+            "fetched_at": "2026-09-19T06:29:06.084Z",
+            "sha256": "fc72c3212370d43412a869d840b70d782386f20db905fd7e80f263d0b48d8900"
+          }
         },
         {
           "type": "single",
-          "title": "Ariete Certezza",
+          "title": "Ariete Certezza",
           "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/it_c1_ariete_certezza.png",
           "br": "11.7",
           "rp": 0,
           "sp": 0,
           "data_unit_id": "it_c1_ariete_certezza",
+          "required_unit_id": "",
           "selected": false,
           "class_name": "prem",
           "details": true,
-          "main_role": "Medium tank"
+          "rank": "VII",
+          "research_country": "Italy",
+          "main_role": "Medium tank",
+          "is_component": false,
+          "component_of": null,
+          "is_premium": true,
+          "is_squadron": false,
+          "wiki": {
+            "url": "https://wiki.warthunder.com/unit/it_c1_ariete_certezza",
+            "rank": "VII",
+            "battle_rating_context": "default",
+            "battle_ratings": {
+              "AB": "11.7",
+              "RB": "11.7",
+              "SB": "11.7"
+            },
+            "battle_ratings_by_battle": {
+              "default": {
+                "AB": "11.7",
+                "RB": "11.7",
+                "SB": "11.7"
+              }
+            },
+            "research": null,
+            "purchase": null,
+            "purchase_currency": null,
+            "status": "Premium vehicle",
+            "fetched_at": "2026-09-19T06:29:05.466Z",
+            "sha256": "7338872dab98a91bd604de3ef6ff8676ecf5cbed46e36a1ddf481dcf1f91c23e"
+          }
         }
       ],
       [
         {
           "type": "single",
-          "title": "Freccia OWS 30",
+          "title": "Freccia OWS 30",
           "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/it_freccia_hitfist_ows.png",
           "br": "10.7",
-          "rp": "540,000",
-          "sp": "870,000",
+          "rp": 0,
+          "sp": 0,
           "data_unit_id": "it_freccia_hitfist_ows",
+          "required_unit_id": "",
           "selected": false,
           "class_name": "squad",
           "details": true,
-          "main_role": "Light tank"
+          "rank": "VII",
+          "research_country": "Italy",
+          "main_role": "Light tank",
+          "is_component": false,
+          "component_of": null,
+          "is_premium": false,
+          "is_squadron": true,
+          "wiki": {
+            "url": "https://wiki.warthunder.com/unit/it_freccia_hitfist_ows",
+            "rank": "VII",
+            "battle_rating_context": "default",
+            "battle_ratings": {
+              "AB": "10.7",
+              "RB": "10.7",
+              "SB": "10.7"
+            },
+            "battle_ratings_by_battle": {
+              "default": {
+                "AB": "10.7",
+                "RB": "10.7",
+                "SB": "10.7"
+              }
+            },
+            "research": "540,000",
+            "purchase": "870,000",
+            "purchase_currency": "SL",
+            "status": "Squadron vehicle",
+            "fetched_at": "2026-09-19T06:29:06.909Z",
+            "sha256": "9c9a49465013b924f74575ae75c9b7f6c9376b334c9007d56dca9212dc4d6a90"
+          }
         }
       ]
     ],
     "selected": [],
-    "unlock_quantity": 0
+    "unlock_quantity": null,
+    "source": "wiki"
   },
   {
     "rank": "VIII",
@@ -1596,31 +4782,91 @@
       [
         {
           "type": "single",
-          "title": "Centauro II (P)",
+          "title": "Centauro II (P)",
           "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/it_centauro_2.png",
-          "br": "12.0",
-          "rp": "400,000",
-          "sp": "1,080,000",
+          "br": "12.3",
+          "rp": 400000,
+          "sp": 1080000,
           "data_unit_id": "it_centauro_2",
+          "required_unit_id": "it_centauro_mgs_120",
           "selected": false,
           "class_name": "",
           "details": true,
-          "main_role": "Light tank"
+          "rank": "VIII",
+          "research_country": "Italy",
+          "main_role": "Light tank",
+          "is_component": false,
+          "component_of": null,
+          "is_premium": false,
+          "is_squadron": false,
+          "wiki": {
+            "url": "https://wiki.warthunder.com/unit/it_centauro_2",
+            "rank": "VIII",
+            "battle_rating_context": "default",
+            "battle_ratings": {
+              "AB": "12.3",
+              "RB": "12.3",
+              "SB": "12.3"
+            },
+            "battle_ratings_by_battle": {
+              "default": {
+                "AB": "12.3",
+                "RB": "12.3",
+                "SB": "12.3"
+              }
+            },
+            "research": "400,000",
+            "purchase": "1,080,000",
+            "purchase_currency": "SL",
+            "status": null,
+            "fetched_at": "2026-09-19T06:29:05.670Z",
+            "sha256": "feb7c7e22a97fc7150531873e78765ae2b497ad9bcc8dfbca67511aee8f56a82"
+          }
         }
       ],
       [
         {
           "type": "single",
-          "title": "Ariete AMV",
+          "title": "Ariete AMV",
           "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/it_ariete_amv_pt1.png",
           "br": "12.3",
-          "rp": "400,000",
-          "sp": "1,080,000",
+          "rp": 400000,
+          "sp": 1080000,
           "data_unit_id": "it_ariete_amv_pt1",
+          "required_unit_id": "it_ariete_group",
           "selected": false,
           "class_name": "",
           "details": true,
-          "main_role": "Medium tank"
+          "rank": "VIII",
+          "research_country": "Italy",
+          "main_role": "Medium tank",
+          "is_component": false,
+          "component_of": null,
+          "is_premium": false,
+          "is_squadron": false,
+          "wiki": {
+            "url": "https://wiki.warthunder.com/unit/it_ariete_amv_pt1",
+            "rank": "VIII",
+            "battle_rating_context": "default",
+            "battle_ratings": {
+              "AB": "12.3",
+              "RB": "12.3",
+              "SB": "12.3"
+            },
+            "battle_ratings_by_battle": {
+              "default": {
+                "AB": "12.3",
+                "RB": "12.3",
+                "SB": "12.3"
+              }
+            },
+            "research": "400,000",
+            "purchase": "1,080,000",
+            "purchase_currency": "SL",
+            "status": null,
+            "fetched_at": "2026-09-19T06:29:04.257Z",
+            "sha256": "52bb28f102a460add8afaeae5458c728038cd70b0a33d648b389e151e8c850b0"
+          }
         }
       ],
       [
@@ -1631,52 +4877,135 @@
           "selected": false,
           "br": "12.7",
           "data_unit_id": "it_samp_t_fcs",
+          "required_unit_id": "it_otomatic",
           "class_name": "",
           "items": [
             {
               "type": "single",
-              "title": "FSAF SAMP/T (TADS)",
+              "title": "FSAF SAMP/T (TADS)",
               "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/it_samp_t_fcs.png",
               "br": "12.7",
-              "rp": "410,000",
-              "sp": "1,100,000",
+              "rp": 410000,
+              "sp": 1100000,
               "data_unit_id": "it_samp_t_fcs",
+              "required_unit_id": "",
               "selected": false,
               "class_name": "",
               "details": true,
-              "main_role": "SPAA"
+              "rank": "VIII",
+              "research_country": "Italy",
+              "main_role": "SPAA",
+              "is_component": false,
+              "component_of": null,
+              "is_premium": false,
+              "is_squadron": false,
+              "wiki": {
+                "url": "https://wiki.warthunder.com/unit/it_samp_t_fcs",
+                "rank": "VIII",
+                "battle_rating_context": "default",
+                "battle_ratings": {
+                  "AB": "12.7",
+                  "RB": "12.7",
+                  "SB": "12.7"
+                },
+                "battle_ratings_by_battle": {
+                  "default": {
+                    "AB": "12.7",
+                    "RB": "12.7",
+                    "SB": "12.7"
+                  }
+                },
+                "research": "410,000",
+                "purchase": "1,100,000",
+                "purchase_currency": "SL",
+                "status": null,
+                "fetched_at": "2026-09-19T06:29:11.615Z",
+                "sha256": "83fdddcd250f38778b30fffc9e1a1c2050041fc2dc82eec68ea86dce154eaf31"
+              }
             },
             {
               "type": "single",
-              "title": "FSAF SAMP/T (TEL)",
+              "title": "FSAF SAMP/T (TEL)",
               "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/it_samp_t_launcher.png",
               "br": null,
-              "rp": null,
-              "sp": null,
+              "rp": 0,
+              "sp": 0,
               "data_unit_id": "it_samp_t_launcher",
+              "required_unit_id": "",
               "selected": false,
               "class_name": "",
               "details": true,
-              "main_role": "SPAA"
+              "rank": "VIII",
+              "research_country": "Italy",
+              "main_role": "SPAA",
+              "is_component": true,
+              "component_of": "it_samp_t_fcs",
+              "is_premium": false,
+              "is_squadron": false,
+              "wiki": {
+                "url": "https://wiki.warthunder.com/unit/it_samp_t_launcher",
+                "rank": null,
+                "battle_rating_context": "default",
+                "battle_ratings": {},
+                "battle_ratings_by_battle": {},
+                "research": null,
+                "purchase": null,
+                "purchase_currency": null,
+                "status": null,
+                "fetched_at": "2026-09-19T06:29:11.685Z",
+                "sha256": "0b9e8752e25ec84e935eb27a5bc920ad25a30f4a823c8673ca7cc5bbd769c6ac"
+              }
             }
           ],
-          "details": true
+          "details": true,
+          "rp": 410000,
+          "sp": 1100000
         }
       ],
       [],
       [
         {
           "type": "single",
-          "title": "Leopard 2A7HU",
+          "title": "Leopard 2A7HU",
           "vehicle_icon": "https://static.encyclopedia.warthunder.com/slots/it_leopard_2a7_hungary.png",
           "br": "12.7",
-          "rp": "420,000",
-          "sp": "1,120,000",
+          "rp": 420000,
+          "sp": 1120000,
           "data_unit_id": "it_leopard_2a7_hungary",
+          "required_unit_id": "it_kf_41",
           "selected": false,
           "class_name": "",
           "details": true,
-          "main_role": "Medium tank"
+          "rank": "VIII",
+          "research_country": "Italy",
+          "main_role": "Medium tank",
+          "is_component": false,
+          "component_of": null,
+          "is_premium": false,
+          "is_squadron": false,
+          "wiki": {
+            "url": "https://wiki.warthunder.com/unit/it_leopard_2a7_hungary",
+            "rank": "VIII",
+            "battle_rating_context": "default",
+            "battle_ratings": {
+              "AB": "12.7",
+              "RB": "12.7",
+              "SB": "12.7"
+            },
+            "battle_ratings_by_battle": {
+              "default": {
+                "AB": "12.7",
+                "RB": "12.7",
+                "SB": "12.7"
+              }
+            },
+            "research": "420,000",
+            "purchase": "1,120,000",
+            "purchase_currency": "SL",
+            "status": null,
+            "fetched_at": "2026-09-19T06:29:07.858Z",
+            "sha256": "bbc4206bf159f3e62066f1bf4f66aa80612fc9cf3876b7a145cda5595fe1fee7"
+          }
         }
       ]
     ],
@@ -1685,6 +5014,7 @@
       []
     ],
     "selected": [],
-    "unlock_quantity": 0
+    "unlock_quantity": null,
+    "source": "wiki"
   }
 ]
