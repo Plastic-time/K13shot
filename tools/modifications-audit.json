@@ -2,7 +2,7 @@
   "missingWiki": 0,
   "withoutTables": 10,
   "missingGameConfig": 0,
-  "missingGameMods": 5,
+  "missingGameMods": 0,
   "tierMismatches": 1,
   "costMismatches": 38,
   "untranslatedCategories": [],
@@ -21,13 +21,7 @@
       "sw_nasams_launcher"
     ],
     "missingGameConfig": [],
-    "missingGameMods": [
-      "do_217j_2:ju-88_4xSC250",
-      "do_217j_2:flamm_250",
-      "do_217j_2:ju-88_2xSC500",
-      "do_217j_2:flamm_500",
-      "do_217j_2:etc1000_1_mod"
-    ],
+    "missingGameMods": [],
     "tierMismatches": [
       "it_pzh_2000:laser_rangefinder_lws:2->4"
     ],

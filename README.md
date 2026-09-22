@@ -2,7 +2,7 @@
 
 想知道开到目标载具还需要走哪条线、花多少研发点和银狮？这款《战争雷霆》研发计算器将**自动路线规划**与**可视化配件研发**放在同一个科技树界面中：选择想开的载具，标记已经拥有的载具，再计算路线；进入配件窗口，还能为单辆载具定制配件研发计划。
 
-**[直接打开网页版，无需下载](https://plastic-time.github.io/K13shot/)** · [下载便携版](https://github.com/Plastic-time/K13shot/releases/tag/v1.0.7)
+**[直接打开网页版，无需下载](https://plastic-time.github.io/K13shot/)** · [下载便携版](https://github.com/Plastic-time/K13shot/releases/tag/v1.0.8)
 
 无需登录游戏账号，规划计算在当前浏览器中完成。以下介绍以当前网页版为准，已发布的下载包保留其发布时的功能，不会自动获得后续网页更新。
 
@@ -39,20 +39,27 @@ RP 和银狮均明确为 0 的配件直接显示“已解锁”，无需点击�
 
 窗口底部单独显示配件预算，**不会与科技树的载具研发费用混在一起**。支持“全部配件”“清空目标”和“清除已研发”，便于比较不同配件方案。
 
-当前配件快照覆盖 **3,225 辆载具、52,430 个配件**。拥有配件表的载具才显示入口；不具备独立配件表的组件不会强行添加按钮。费用、等级和前置优先使用固定版本游戏配置，名称、图标和布局结合 Wiki 快照，具体数据来源与已知例外见下文。
+当前配件快照覆盖 **3,225 辆载具、52,424 个配件**。拥有配件表的载具才显示入口；不具备独立配件表的组件不会强行添加按钮。费用、等级和前置优先使用固定版本游戏配置，名称、图标和布局结合 Wiki 快照，具体数据来源与已知例外见下文。
 
 ## 下载哪个？
 
 如果你只是想直接使用，下载：
 
-**[WarThunderResearchCalculator-v1.0.7-portable.zip](https://github.com/Plastic-time/K13shot/releases/download/v1.0.7/WarThunderResearchCalculator-v1.0.7-portable.zip)**
+**[WarThunderResearchCalculator-v1.0.8-portable.zip](https://github.com/Plastic-time/K13shot/releases/download/v1.0.8/WarThunderResearchCalculator-v1.0.8-portable.zip)**
 
 这是推荐给大多数玩家的便携版。解压后双击 `WarThunderResearchCalculator.exe` 即可运行，不需要安装 Node.js，也不需要执行 `npm install`。
 
 | 文件 | 推荐人群 | 是否需要安装 Node.js | 使用方式 |
 | --- | --- | --- | --- |
-| `WarThunderResearchCalculator-v1.0.7-portable.zip` | 普通玩家，推荐下载 | 不需要 | 解压后双击 exe |
-| `WarThunderResearchCalculator-v1.0.7.zip` | 开发者或已安装 Node.js 的用户 | 需要 | 解压后运行 `npm install` |
+| `WarThunderResearchCalculator-v1.0.8-portable.zip` | 普通玩家，推荐下载 | 不需要 | 解压后双击 exe |
+| `WarThunderResearchCalculator-v1.0.8.zip` | 开发者或已安装 Node.js 的用户 | 需要 | 解压后运行 `npm install` |
+
+## v1.0.8 配件数据修正
+
+- Ka-29 移除多出的 S-24 并修正分层费用、对应前置，总计 297,800 RP / 436,000 SL。
+- Do 217 J-2 移除 5 项多余炸弹解锁并收起空列，总计 5,940 RP / 4,480 SL。
+- 英国、日本 CA-27 Mk.32 的第三层挂架修正为 GLBC mk.3，按游戏内确认值采用 9,000 RP / 9,000 SL；每辆全部配件总计 145,800 RP / 221,000 SL，保留旧挂架保存的选择状态。
+- 网页与下载版同步；不更改界面、载具费用或规划算法。整体数据基准仍为 2.59.0.17，详细来源与局部修正范围见 [v1.0.8 更新说明](doc/release-v1.0.8.md)。
 
 ## v1.0.7 界面更新
 
@@ -103,7 +110,7 @@ GitHub Pages 可直接在浏览器中使用，无需安装或登录。它读取�
 
 ### 配件数据与核验
 
-科技树中所有拥有配件表的载具现在都带有独立“配件”按钮，可打开接近游戏配件树布局的交互面板。当前覆盖 3,225 辆载具、52,430 个配件和 44 个国家/军种数据块；配件名称、图标与布局来自本地 War Thunder Wiki 快照，费用、真实等级、`prevModification`、`reqModification` 和每级解锁数量优先使用固定版本的 War Thunder Datamine 游戏配置。
+科技树中所有拥有配件表的载具现在都带有独立“配件”按钮，可打开接近游戏配件树布局的交互面板。当前覆盖 3,225 辆载具、52,424 个配件和 44 个国家/军种数据块；配件名称、图标与布局来自本地 War Thunder Wiki 快照，费用、真实等级、`prevModification`、`reqModification` 和每级解锁数量优先使用固定版本的 War Thunder Datamine 游戏配置。
 
 - 左键配件可设为目标，右键可标记账号中已经研发的配件。
 - 手动选择任意数量的配件时，等级数量、RP 与 SL 会立即更新；此时预算只统计玩家实际点选的配件。
@@ -112,7 +119,7 @@ GitHub Pages 可直接在浏览器中使用，无需安装或登录。它读取�
 - 配件预算独立显示，不会混入主页面的载具研发 RP / SL。
 - 浏览器先载入轻量索引，点击“配件”后才读取当前国家和军种的数据块，不会一次载入全部配件。
 - 10 个防空系统的独立发射组件在 Wiki 与游戏配置中都没有配件表，因此不会显示“配件”按钮；这不是载具数据遗漏。
-- `Do 217 J-2` 有 5 个 Wiki 配件不在当前 Datamine 配置中，这 5 项保留 Wiki 的等级、费用与明确前置；其余配件优先使用 Datamine 数据。实际研发前仍建议在游戏内核对。
+- `Ka-29` 与 `Do 217 J-2` 根据游戏截图及 2.59.0.22 配置作了局部修正：分别移除过时的 S-24 项目和 5 项炸弹解锁，配件总研发点为 297,800 和 5,940；修正来源单独记录在配件索引中，不代表其他载具快照已整体升级。实际研发前仍建议在游戏内核对。
 
 完整的缺失项、差异项与回退清单保存在 [`tools/modifications-audit.json`](tools/modifications-audit.json)，不会作为网页内容显示。
 
@@ -174,7 +181,7 @@ node tools/test-wiki.cjs
 
 ### 便携版，推荐
 
-1. 下载 `WarThunderResearchCalculator-v1.0.7-portable.zip`。
+1. 下载 `WarThunderResearchCalculator-v1.0.8-portable.zip`。
 2. 解压到任意文件夹。
 3. 双击 `WarThunderResearchCalculator.exe`。
 4. 浏览器会自动打开计算器页面。
@@ -256,20 +263,20 @@ Planning is experimental. A search that reaches its computation limit reports th
 
 Open **Modifications** on a supported vehicle to see a game-style tree with categories, tiers, and prerequisite arrows. Left-click to choose any number of upgrades and right-click to mark researched ones. Manual selection updates the selected-only budget immediately; **Calculate Modification Research** adds required prerequisites and tier fillers. Modification RP and Silver Lions remain separate from vehicle research costs.
 
-The current snapshot contains 3,225 vehicles with modification tables and 52,430 modifications. This overview describes the current web version; downloadable releases retain the features available when they were packaged. Data is snapshot-based rather than automatically synchronized with the live game.
+The current snapshot contains 3,225 vehicles with modification tables and 52,424 modifications. This overview describes the current web version; downloadable releases retain the features available when they were packaged. Data is snapshot-based rather than automatically synchronized with the live game.
 
 ## Which File Should I Download?
 
 If you simply want to use the calculator, download:
 
-**[WarThunderResearchCalculator-v1.0.7-portable.zip](https://github.com/Plastic-time/K13shot/releases/download/v1.0.7/WarThunderResearchCalculator-v1.0.7-portable.zip)**
+**[WarThunderResearchCalculator-v1.0.8-portable.zip](https://github.com/Plastic-time/K13shot/releases/download/v1.0.8/WarThunderResearchCalculator-v1.0.8-portable.zip)**
 
 This is the recommended portable package for most players. Extract it and double-click `WarThunderResearchCalculator.exe`. No Node.js installation or `npm install` is required.
 
 | File | Recommended For | Requires Node.js | How to Use |
 | --- | --- | --- | --- |
-| `WarThunderResearchCalculator-v1.0.7-portable.zip` | Most players | No | Extract and double-click the exe |
-| `WarThunderResearchCalculator-v1.0.7.zip` | Developers or users with Node.js installed | Yes | Extract and run `npm install` |
+| `WarThunderResearchCalculator-v1.0.8-portable.zip` | Most players | No | Extract and double-click the exe |
+| `WarThunderResearchCalculator-v1.0.8.zip` | Developers or users with Node.js installed | Yes | Extract and run `npm install` |
 
 ## Features
 

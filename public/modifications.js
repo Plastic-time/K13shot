@@ -55,6 +55,7 @@
     const iconPrefix = "https://static.encyclopedia.warthunder.com/gui_skin/";
     return {
       vehicleId: raw.i,
+      aliases: raw.aliases || {},
       vehicleName: { zh: raw.n[0], en: raw.n[1] },
       vehicleIcon: raw.v,
       tierRequirements: { 1: raw.r[0], 2: raw.r[1], 3: raw.r[2] },
@@ -124,8 +125,9 @@
     try {
       const saved = JSON.parse(localStorage.getItem(storageKey(ui.data.vehicleId)) || "{}");
       const ids = new Set(ui.data.mods.filter(mod => !ui.unlocked.has(mod.id)).map(mod => mod.id));
-      ui.selected = new Set((saved.selected || []).filter(id => ids.has(id)));
-      ui.researched = new Set((saved.researched || []).filter(id => ids.has(id)));
+      const restoreIds = values => new Set((values || []).map(id => Object.hasOwn(ui.data.aliases, id) ? ui.data.aliases[id] : id).filter(id => ids.has(id)));
+      ui.selected = restoreIds(saved.selected);
+      ui.researched = restoreIds(saved.researched);
     } catch {
       ui.selected.clear();
       ui.researched.clear();

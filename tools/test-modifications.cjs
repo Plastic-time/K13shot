@@ -33,7 +33,7 @@ const publicCatalogPath = path.join(publicRoot, "catalog.json");
 assert.deepEqual(fs.readFileSync(docsCatalogPath), fs.readFileSync(publicCatalogPath), "Catalog copies differ");
 const catalog = readJson(docsCatalogPath);
 assert.equal(catalog.schema, 2);
-assert.deepEqual(catalog.stats, { treeUnits: 3235, vehicles: 3225, modifications: 52430, chunks: 44 });
+assert.deepEqual(catalog.stats, { treeUnits: 3235, vehicles: 3225, modifications: 52424, chunks: 44 });
 assert.equal(Object.keys(catalog.vehicles).length, catalog.stats.vehicles);
 assert.equal(Object.keys(catalog.chunks).length, catalog.stats.chunks);
 
@@ -99,6 +99,58 @@ for (const vehicleId of ["us_m2a4", "j_16", "ah_1g", "us_destroyer_clemson_litch
 }
 
 const j16 = vehicles.get("j_16");
+const ka29 = vehicles.get("ka_29");
+assert.equal(ka29.mods.length, 17);
+assert.deepEqual(ka29.tierRequirements, {1: 1, 2: 2, 3: 3});
+assert.deepEqual(ka29.totals, {rp: 297800, sl: 436000});
+assert(!ka29.mods.some(mod => mod.id === "il_28sh_s24"));
+for (const mod of ka29.mods) assert.equal(mod.rp, {1: 9800, 2: 17000, 3: 15000, 4: 48000}[mod.tier]);
+assert.deepEqual(ka29.mods.find(mod => mod.id === "mi_24_su_9M114").requires, ["yak_38_b8m1"]);
+const ka29All = planner.plan(ka29, ka29.mods.map(mod => mod.id), []);
+assert.deepEqual([ka29All.rp, ka29All.sl], [297800, 436000]);
+assert.deepEqual(planner.plan(ka29, ["mi_24_su_9M114"], []).dependencyIds, ["yak_38_b8m1"]);
+const {correctKa29} = require('./update-ka29-modifications.cjs');
+const ka29Raw = readJson(path.join(docsRoot, 'ussr_helicopters.json')).v.ka_29;
+assert.deepEqual(correctKa29(ka29Raw), ka29Raw, 'Correction must be idempotent');
+const otherVehicle = {i: 'another_vehicle', m: []};
+assert.equal(correctKa29(otherVehicle), otherVehicle, 'Other vehicles must not change');
+const {correctDo217, isRemovedDo217Modification} = require('./update-do217-modifications.cjs');
+const do217Raw = readJson(path.join(docsRoot, 'germany_aviation.json')).v.do_217j_2;
+assert.deepEqual(correctDo217(do217Raw), do217Raw, 'Do 217 correction must be idempotent');
+assert.equal(correctDo217(otherVehicle), otherVehicle);
+assert(!isRemovedDo217Modification('another_vehicle', 'flamm_250'));
+const do217 = vehicles.get('do_217j_2');
+assert.equal(do217.mods.length, 14);
+assert.deepEqual(do217.totals, {rp: 5940, sl: 4480});
+assert.deepEqual(do217.tierRequirements, {1: 1, 2: 2, 3: 2});
+assert.equal(do217.categories.find(category => category.name.en === 'Weaponry').columns, 2);
+assert(!do217.mods.some(mod => isRemovedDo217Modification('do_217j_2', mod.id)));
+const do217All = planner.plan(do217, do217.mods.map(mod => mod.id), []);
+assert.deepEqual([do217All.rp, do217All.sl], [5940, 4480]);
+assert.deepEqual(planner.plan(do217, ['mg131_turret_new_gun'], []).dependencyIds, ['mg131_turret_belt_pack']);
+const {correctCa27, vehicleIds: ca27Ids} = require('./update-ca27-modifications.cjs');
+assert.equal(correctCa27(otherVehicle), otherVehicle);
+for (const id of ca27Ids) {
+  const raw = readJson(path.join(root, 'docs', catalog.chunks[catalog.vehicles[id]].path)).v[id];
+  assert.deepEqual(correctCa27(raw), raw, 'CA-27 correction must be idempotent');
+  const old = structuredClone(raw);
+  const oldRack = old.m.find(mod => mod[0] === 'gloster_lbc');
+  oldRack[0] = 'frc_mk2';
+  oldRack[8] = 14000;
+  assert.deepEqual(correctCa27(old), raw);
+  const data = vehicles.get(id);
+  assert.equal(data.mods.length, 14);
+  assert.deepEqual(data.totals, {rp: 145800, sl: 221000});
+  assert.deepEqual(data.tierRequirements, {1: 1, 2: 1, 3: 2});
+  const rack = data.mods.find(mod => mod.id === 'gloster_lbc');
+  assert.equal(rack.name.en, 'GLBC mk.3');
+  assert.equal(rack.icon, 'pilon_bomb.png');
+  assert.deepEqual([rack.rp, rack.sl], [9000, 9000]);
+  assert(!data.mods.some(mod => mod.id === 'frc_mk2'));
+  assert.deepEqual(planner.plan(data, ['gloster_lbc'], []).dependencyIds, ['fmbc_mk2']);
+  const all = planner.plan(data, data.mods.map(mod => mod.id), []);
+  assert.deepEqual([all.rp, all.sl], [145800, 221000]);
+}
 assert.equal(j16.mods.length, 25);
 assert.deepEqual(j16.tierRequirements, { 1: 1, 2: 3, 3: 3 });
 assert.deepEqual(j16.totals, { rp: 315000, sl: 482000 });
@@ -154,7 +206,7 @@ assert.deepEqual({
   withoutTables: audit.withoutTables,
   missingGameConfig: audit.missingGameConfig,
   missingGameMods: audit.missingGameMods,
-}, { missingWiki: 0, withoutTables: 10, missingGameConfig: 0, missingGameMods: 5 });
+}, { missingWiki: 0, withoutTables: 10, missingGameConfig: 0, missingGameMods: 0 });
 assert(audit.samples.withoutTables.every(id => !catalog.vehicles[id]), "No-table components must not expose a modification button");
 
 console.log(JSON.stringify({

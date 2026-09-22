@@ -3,6 +3,9 @@ const path = require("node:path");
 const crypto = require("node:crypto");
 const cheerio = require("cheerio");
 const { modificationIcon, ammunitionArt } = require("./modification-icons.cjs");
+const { correctKa29, correction: ka29Correction } = require("./update-ka29-modifications.cjs");
+const { correctDo217, isRemovedDo217Modification, correction: do217Correction } = require("./update-do217-modifications.cjs");
+const { correctCa27, vehicleIds: ca27Ids, correction: ca27Correction } = require("./update-ca27-modifications.cjs");
 
 const root = path.resolve(__dirname, "..");
 const datamineRoot = path.join(root, "logs", "datamine");
@@ -130,7 +133,7 @@ function parseVehicle(vehicleId, meta, modificationNames, report) {
         buttons.each((buttonIndex, buttonNode) => {
           const button = $(buttonNode);
           const id = button.attr("data-mod-id");
-          if (!id) return;
+          if (!id || isRemovedDo217Modification(vehicleId, id)) return;
           const popover = cheerio.load(button.attr("data-feature-popover") || "");
           const wikiEn = cleanText(popover(".game-unit_popover-header span").first().text()) || cleanText(button.text());
           const localized = modificationNames.get(id) || {};
@@ -232,7 +235,8 @@ let modificationCount = 0;
 
 let processed = 0;
 for (const [vehicleId, meta] of units) {
-  const vehicle = parseVehicle(vehicleId, meta, modificationNames, report);
+  const parsed = parseVehicle(vehicleId, meta, modificationNames, report);
+  const vehicle = parsed ? correctCa27(correctDo217(correctKa29(parsed))) : null;
   processed += 1;
   if (processed % 250 === 0) process.stdout.write(`\rParsed ${processed}/${units.size}`);
   if (!vehicle) continue;
@@ -264,6 +268,7 @@ for (const outputRoot of ["docs", "public"]) {
 
 const catalog = {
   schema: 2,
+  corrections: { ka_29: ka29Correction, do_217j_2: do217Correction, ...Object.fromEntries(ca27Ids.map(id => [id, ca27Correction])) },
   version: "2.59.0.17",
   generatedAt: new Date().toISOString(),
   sources: {
