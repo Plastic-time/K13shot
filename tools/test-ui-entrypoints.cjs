@@ -15,18 +15,23 @@ for (const folder of ['public', 'docs']) {
   assert.equal($('#budgetRp').length, 1);
   assert.equal($('#budgetSl').length, 1);
   const scripts = $('script[src]').map((_, node) => $(node).attr('src').replace(/^\//, '').split('?')[0]).get();
-  for (const script of ['vehicle-long-press.js', 'roster.js', 'modifications.js']) {
+  for (const script of ['vehicle-long-press.js', 'roster.js', 'modifications.js', 'tree-navigation.js']) {
     assert(scripts.includes(script), `${folder}: missing ${script}`);
     assert(scripts.indexOf(script) < scripts.indexOf('app.js'));
   }
   for (const script of scripts.filter(src => !/^https?:/.test(src))) assert(fs.existsSync(path.join(root, folder, script)));
+  const styles = $('link[rel="stylesheet"]').map((_, node) => $(node).attr('href').replace(/^\//, '').split('?')[0]).get();
+  assert(styles.includes('ui-dark.css'));
+  assert(styles.includes('tree-navigation.css'));
+  assert(!styles.some(file => /preview/.test(file)));
+  for (const file of styles.filter(src => !/^https?:/.test(src))) assert(fs.existsSync(path.join(root, folder, file)));
   assert($('#usageGuideDialog').text().includes('\u957f\u6309'));
   assert($('#usageGuideDialog').text().includes('\u9014\u7ecf\u70b9'));
   assert.match(read('app.js'), /VehicleLongPress\?\.configure/);
   assert.match(read('app.js'), /RosterAudit\?\.badges/);
   assert.match(read('modifications.js'), /isAutomaticallyUnlocked/);
 }
-for (const file of ['styles.css', 'tree-scroll.css', 'vehicle-long-press.js', 'modifications.js', 'modification-planner.js']) {
+for (const file of ['styles.css', 'tree-scroll.css', 'vehicle-long-press.js', 'modifications.js', 'modification-planner.js', 'ui-dark.css', 'tree-navigation.css', 'tree-navigation.js']) {
   assert(fs.readFileSync(path.join(root, 'public', file)).equals(fs.readFileSync(path.join(root, 'docs', file))), `${file}: copies differ`);
 }
 const pkg = require('../package.json');

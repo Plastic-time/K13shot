@@ -1086,6 +1086,7 @@ async function loadMeta() {
     .join("");
   els.countrySelect.value = state.country;
   els.typeSelect.value = state.type;
+  window.TreeNavigation?.mount(els.countrySelect, els.typeSelect);
 }
 
 let treeRequestId = 0;
@@ -1094,6 +1095,7 @@ async function loadTree() {
   const requestId = ++treeRequestId;
   state.country = els.countrySelect.value;
   state.type = els.typeSelect.value;
+  window.TreeNavigation?.sync(true);
   setStatus("正在读取静态科技树数据");
   els.treeContainer.innerHTML = `<div class="loading">正在载入科技树</div>`;
 
@@ -1104,7 +1106,7 @@ async function loadTree() {
     if (requestId !== treeRequestId) return;
     state.tree = result.data || [];
     flattenTree(state.tree);
-    setStatus(`${translateCountry(state.country)} · ${translateType(state.type)} · ${state.units.length} 个载具 · Wiki ${state.snapshot.fetched_to.slice(0, 10)} · BR: RB`);
+    setStatus(`${state.units.length} 个载具 · Wiki ${state.snapshot.fetched_to.slice(0, 10)} · BR: RB`);
     calculatePlan();
   } catch (err) {
     if (requestId !== treeRequestId) return;
@@ -1118,6 +1120,8 @@ async function loadTree() {
     setStatus(err.message);
     renderSummary();
     renderTree();
+  } finally {
+    if (requestId === treeRequestId) window.TreeNavigation?.sync(false);
   }
 }
 

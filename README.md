@@ -2,7 +2,7 @@
 
 想知道开到目标载具还需要走哪条线、花多少研发点和银狮？这款《战争雷霆》研发计算器将**自动路线规划**与**可视化配件研发**放在同一个科技树界面中：选择想开的载具，标记已经拥有的载具，再计算路线；进入配件窗口，还能为单辆载具定制配件研发计划。
 
-**[直接打开网页版，无需下载](https://plastic-time.github.io/K13shot/)** · [下载便携版](https://github.com/Plastic-time/K13shot/releases/tag/v1.0.6)
+**[直接打开网页版，无需下载](https://plastic-time.github.io/K13shot/)** · [下载便携版](https://github.com/Plastic-time/K13shot/releases/tag/v1.0.7)
 
 无需登录游戏账号，规划计算在当前浏览器中完成。以下介绍以当前网页版为准，已发布的下载包保留其发布时的功能，不会自动获得后续网页更新。
 
@@ -45,14 +45,22 @@ RP 和银狮均明确为 0 的配件直接显示“已解锁”，无需点击�
 
 如果你只是想直接使用，下载：
 
-**[WarThunderResearchCalculator-v1.0.6-portable.zip](https://github.com/Plastic-time/K13shot/releases/download/v1.0.6/WarThunderResearchCalculator-v1.0.6-portable.zip)**
+**[WarThunderResearchCalculator-v1.0.7-portable.zip](https://github.com/Plastic-time/K13shot/releases/download/v1.0.7/WarThunderResearchCalculator-v1.0.7-portable.zip)**
 
 这是推荐给大多数玩家的便携版。解压后双击 `WarThunderResearchCalculator.exe` 即可运行，不需要安装 Node.js，也不需要执行 `npm install`。
 
 | 文件 | 推荐人群 | 是否需要安装 Node.js | 使用方式 |
 | --- | --- | --- | --- |
-| `WarThunderResearchCalculator-v1.0.6-portable.zip` | 普通玩家，推荐下载 | 不需要 | 解压后双击 exe |
-| `WarThunderResearchCalculator-v1.0.6.zip` | 开发者或已安装 Node.js 的用户 | 需要 | 解压后运行 `npm install` |
+| `WarThunderResearchCalculator-v1.0.7-portable.zip` | 普通玩家，推荐下载 | 不需要 | 解压后双击 exe |
+| `WarThunderResearchCalculator-v1.0.7.zip` | 开发者或已安装 Node.js 的用户 | 需要 | 解压后运行 `npm install` |
+
+## v1.0.7 界面更新
+
+- 采用深色石墨风格，统一科技树、折叠窗口与底部预算栏的视觉样式。
+- 国家改为国旗选择面板，手机上从底部展开；军种改为图标标签，窄屏可横向滑动。
+- 移除顶部重复的国家、军种文字，切换后仍保留各科技树的规划状态。
+- 桌面版同步此前网页的炮弹与弹链图标、手机配件标题适配及更高分辨率科技树截图。
+- 研发算法、载具费用、等级门槛和前置关系未改。在线人数仍仅用于网页版。详情见 [v1.0.7 更新说明](doc/release-v1.0.7.md)。
 
 ## v1.0.6 交互更新
 
@@ -120,10 +128,10 @@ node tools/test-modifications.cjs
 1. 左键点击最终想研发的载具，或右键载具后选择“设为目标”。
 2. 右键账号中已经拥有的载具并选择“标记为已拥有”；这些载具会参与等级解锁计数，但不会计入待研发费用。
 3. 需要强制经过某辆载具时，右键它并选择“设为途经点”。
-4. 点击右上角“精确规划”。紫色“等级补足”标签表示算法为满足下一级数量要求自动选择的载具。
+4. 点击底部研发总计右侧的“精确规划”。紫色“等级补足”标签表示算法为满足下一级数量要求自动选择的载具。
 5. “自动补位时避开折叠载具”只限制算法自动选择的补位载具，不会移除玩家明确指定的目标或途经点。
 
-科技树右侧提供独立的浮动规划轨道。按钮只在科技树进入屏幕时出现，并跟随当前可见区域移动，不会覆盖载具卡片；悬停或聚焦按钮可展开目标数量和测试提醒。精确规划目前属于测试功能，结果仅供参考，请在游戏内自行手动核对后再决定研发路线。
+科技树底部显示半透明的浮动预算栏，“精确规划”位于总计右侧并带有“测试”标签，下滑时仍可使用。精确规划目前属于测试功能，结果仅供参考，请在游戏内自行手动核对后再决定研发路线。
 
 页面顶部提供“使用指南”，以更新日志式分段说明左键、右键和精确规划的完整流程。原“点击操作”模式切换已删除：普通左键始终选择或取消目标，鼠标右键可直接选择“设为目标”“标记为已拥有”或“设为途经点”。再次选择已经生效的状态即可取消；初始载具会自动计入，因此右键选项不可修改。
 
@@ -166,7 +174,7 @@ node tools/test-wiki.cjs
 
 ### 便携版，推荐
 
-1. 下载 `WarThunderResearchCalculator-v1.0.6-portable.zip`。
+1. 下载 `WarThunderResearchCalculator-v1.0.7-portable.zip`。
 2. 解压到任意文件夹。
 3. 双击 `WarThunderResearchCalculator.exe`。
 4. 浏览器会自动打开计算器页面。
@@ -254,14 +262,14 @@ The current snapshot contains 3,225 vehicles with modification tables and 52,430
 
 If you simply want to use the calculator, download:
 
-**[WarThunderResearchCalculator-v1.0.6-portable.zip](https://github.com/Plastic-time/K13shot/releases/download/v1.0.6/WarThunderResearchCalculator-v1.0.6-portable.zip)**
+**[WarThunderResearchCalculator-v1.0.7-portable.zip](https://github.com/Plastic-time/K13shot/releases/download/v1.0.7/WarThunderResearchCalculator-v1.0.7-portable.zip)**
 
 This is the recommended portable package for most players. Extract it and double-click `WarThunderResearchCalculator.exe`. No Node.js installation or `npm install` is required.
 
 | File | Recommended For | Requires Node.js | How to Use |
 | --- | --- | --- | --- |
-| `WarThunderResearchCalculator-v1.0.6-portable.zip` | Most players | No | Extract and double-click the exe |
-| `WarThunderResearchCalculator-v1.0.6.zip` | Developers or users with Node.js installed | Yes | Extract and run `npm install` |
+| `WarThunderResearchCalculator-v1.0.7-portable.zip` | Most players | No | Extract and double-click the exe |
+| `WarThunderResearchCalculator-v1.0.7.zip` | Developers or users with Node.js installed | Yes | Extract and run `npm install` |
 
 ## Features
 

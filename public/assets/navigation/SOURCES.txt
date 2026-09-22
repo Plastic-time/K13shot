@@ -1,0 +1,10 @@
+Navigation icons: Lucide, https://github.com/lucide-icons/lucide
+Snapshot: 951813ce76a859d4d8b145366972cbb237147a4e
+License: LICENSE-lucide.txt
+
+Additional flags: https://github.com/lipis/flag-icons
+Snapshot: 086f7e97d657358203916dbe84f61c2bccaa81eb
+License: ../flags/LICENSE-flag-icons.txt
+Existing cn.svg and gb.svg were retained.
+Soviet flag: https://wiki.warthunder.com/static/country_svg/country_ussr.svg
+War Thunder artwork belongs to its respective rights holders.

@@ -61,7 +61,7 @@ jobs:
             $zipPath = Join-Path $PWD "WarThunderResearchCalculator-v$version$suffix.zip"
             $archive = [System.IO.Compression.ZipFile]::OpenRead($zipPath)
             try {
-              foreach ($file in @("package.json", "package-lock.json", "public/index.html", "public/styles.css", "public/app.js", "public/vehicle-long-press.js", "public/roster.js", "public/roster.css", "public/modifications.js", "public/modification-planner.js", "public/tree-scroll.css", "main.js", "README.md")) {
+              foreach ($file in @("package.json", "package-lock.json", "public/index.html", "public/styles.css", "public/app.js", "public/ui-dark.css", "public/tree-navigation.css", "public/tree-navigation.js", "public/assets/flags/su.svg", "public/assets/navigation/plane.svg", "public/vehicle-long-press.js", "public/roster.js", "public/roster.css", "public/modifications.js", "public/modification-planner.js", "public/tree-scroll.css", "main.js", "README.md")) {
                 $entry = $archive.Entries | Where-Object { $_.FullName.Replace('\', '/') -eq $file }
                 if (-not $entry) { throw "Missing $file in $zipPath" }
                 $reader = [System.IO.StreamReader]::new($entry.Open())

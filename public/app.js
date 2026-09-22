@@ -1047,12 +1047,14 @@ async function loadMeta() {
     .join("");
   els.countrySelect.value = state.country;
   els.typeSelect.value = state.type;
+  window.TreeNavigation?.mount(els.countrySelect, els.typeSelect);
 }
 
 async function loadTree() {
   closeUnitContextMenu();
   state.country = els.countrySelect.value;
   state.type = els.typeSelect.value;
+  window.TreeNavigation?.sync(true);
   setStatus("正在读取科技树数据");
   els.treeContainer.innerHTML = `<div class="loading">正在载入科技树</div>`;
 
@@ -1062,7 +1064,7 @@ async function loadTree() {
     const result = await api(`/api/tree/${state.country}/${state.type}`);
     state.tree = result.data || [];
     flattenTree(state.tree);
-    setStatus(`${translateCountry(state.country)} · ${translateType(state.type)} · ${state.units.length} 个载具`);
+    setStatus(`${state.units.length} 个载具`);
     calculatePlan();
   } catch (err) {
     state.tree = [];
@@ -1075,6 +1077,8 @@ async function loadTree() {
     setStatus(err.message);
     renderSummary();
     renderTree();
+  } finally {
+    window.TreeNavigation?.sync(false);
   }
 }
 
