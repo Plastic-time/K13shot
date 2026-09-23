@@ -4,11 +4,11 @@ const path = require('node:path');
 
 async function checkPlannedFolderCount({ evaluate, call, artifacts, suffix }) {
   await evaluate("els.countrySelect.value='usa';els.typeSelect.value='ground';state.search='';els.searchInput.value='';loadTree()");
-  await evaluate("state.planned.clear();state.owned.clear();state.waypoints.clear();state.avoidFolded=false;invalidateExactPlan();calculatePlan();toggleUnitMode('us_m18_hellcat','target')");
+  await evaluate("els.clearButton.click();state.avoidFolded=false;calculatePlan();toggleUnitMode('us_m18_hellcat','target')");
   const plan = async () => {
     await evaluate("runExactPlan()");
     for (let i=0;i<80;i++) {
-      if (await evaluate("Boolean(state.planResult)")) return;
+      if (await evaluate("Boolean(state.planResult) && !state.planResult.dirty && !els.planButton.disabled")) return;
       await new Promise(resolve => setTimeout(resolve,100));
     }
     throw new Error('Exact planning did not finish');
@@ -65,8 +65,10 @@ async function checkPlannedFolderCount({ evaluate, call, artifacts, suffix }) {
   fs.writeFileSync(path.join(artifacts,suffix+'-planned-folder-count.png'),Buffer.from(shot.data,'base64'));
   const ownedId=automatic.automatic[0];
   await evaluate(`toggleUnitMode("${ownedId}","owned")`);
-  assert(await evaluate("state.planResult === null"));
-  assert(await evaluate("els.treeContainer.querySelectorAll('.folder-selection-count').length === 0"),'Invalidated plans must not leave stale automatic counts');
+  assert(await evaluate("state.planResult?.dirty === true"));
+  counts=await check();
+  assert(counts.every(group => group.actual === group.expected),'Edited plans retain accurate folder counts');
+  assert(await evaluate(`!state.planResult.selectedIds.includes("${ownedId}")`));
   await evaluate("toggleUnitMode(state.units.find(unit => !state.initialUnlocked.has(unit.data_unit_id) && !state.owned.has(unit.data_unit_id) && !state.planned.has(unit.data_unit_id)).data_unit_id,'waypoint')");
   await plan();
   counts=await check();

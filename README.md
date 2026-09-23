@@ -2,7 +2,7 @@
 
 想知道开到目标载具还需要走哪条线、花多少研发点和银狮？这款《战争雷霆》研发计算器将**自动路线规划**与**可视化配件研发**放在同一个科技树界面中：选择想开的载具，标记已经拥有的载具，再计算路线；进入配件窗口，还能为单辆载具定制配件研发计划。
 
-**[直接打开网页版，无需下载](https://plastic-time.github.io/K13shot/)** · [下载便携版](https://github.com/Plastic-time/K13shot/releases/tag/v1.0.8)
+**[直接打开网页版，无需下载](https://plastic-time.github.io/K13shot/)** · [下载便携版](https://github.com/Plastic-time/K13shot/releases/tag/v1.0.9)
 
 无需登录游戏账号，规划计算在当前浏览器中完成。以下介绍以当前网页版为准，已发布的下载包保留其发布时的功能，不会自动获得后续网页更新。
 
@@ -22,6 +22,7 @@
 - **优先节省 RP**：以最低 RP 为首要搜索目标，RP 相同时再比较银狮、待研发载具数量等条件。
 - **可避开折叠补位**：开启“自动补位时避开折叠载具”，限制自动补位选择；你明确指定的目标和途经点仍会保留。
 - **保留选择空间**：也可以只手动选择载具查看预算，不使用自动规划。
+- **调整规划结果**：自动规划后可单独取消载具或标记已拥有，其他路线选择保留；再次点击被取消的自动载具会恢复其原有角色，不会统一变成目标。手动调整后按当前选择统计预算，重新点击“精确规划”才会重新搜索路线。
 - **一键重新开始**：“清空计划”会一起清除目标、途经点、已拥有标记和自动规划结果。
 
 > **精确规划仍为测试功能。** 结果受当前数据快照、项目规则和本机搜索上限影响。达到计算上限时，仅表示当前找到的路线，不保证是全局最优；实际研发前请在游戏内核对前置关系、等级门槛和费用。
@@ -41,18 +42,31 @@ RP 和银狮均明确为 0 的配件直接显示“已解锁”，无需点击�
 
 当前配件快照覆盖 **3,225 辆载具、52,424 个配件**。拥有配件表的载具才显示入口；不具备独立配件表的组件不会强行添加按钮。费用、等级和前置优先使用固定版本游戏配置，名称、图标和布局结合 Wiki 快照，具体数据来源与已知例外见下文。
 
+## Wiki 载具详情
+
+点击卡片左上角的小书签，在弹窗中查看该载具的 War Thunder Wiki 页面；“配件”入口仍留在卡片内部。折叠组也支持此入口，打开或关闭详情不会修改研发计划。
+
+Wiki 需要联网，内容由第三方网站提供。网络缓慢、验证提示或嵌入限制可能影响显示，可使用窗口右上角的外部打开按钮；加载较慢时窗口也会提供“在新标签页打开 Wiki”的入口。关闭窗口后停止嵌入页面。
+
 ## 下载哪个？
 
 如果你只是想直接使用，下载：
 
-**[WarThunderResearchCalculator-v1.0.8-portable.zip](https://github.com/Plastic-time/K13shot/releases/download/v1.0.8/WarThunderResearchCalculator-v1.0.8-portable.zip)**
+**[WarThunderResearchCalculator-v1.0.9-portable.zip](https://github.com/Plastic-time/K13shot/releases/download/v1.0.9/WarThunderResearchCalculator-v1.0.9-portable.zip)**
 
 这是推荐给大多数玩家的便携版。解压后双击 `WarThunderResearchCalculator.exe` 即可运行，不需要安装 Node.js，也不需要执行 `npm install`。
 
 | 文件 | 推荐人群 | 是否需要安装 Node.js | 使用方式 |
 | --- | --- | --- | --- |
-| `WarThunderResearchCalculator-v1.0.8-portable.zip` | 普通玩家，推荐下载 | 不需要 | 解压后双击 exe |
-| `WarThunderResearchCalculator-v1.0.8.zip` | 开发者或已安装 Node.js 的用户 | 需要 | 解压后运行 `npm install` |
+| `WarThunderResearchCalculator-v1.0.9-portable.zip` | 普通玩家，推荐下载 | 不需要 | 解压后双击 exe |
+| `WarThunderResearchCalculator-v1.0.9.zip` | 开发者或已安装 Node.js 的用户 | 需要 | 解压后运行 `npm install` |
+
+## v1.0.9 规划交互与 Wiki 详情
+
+- 自动规划结果支持逐辆调整，保留其余选择、原有角色和刷新后的路线草稿；重新规划仍以明确指定的目标、途经点和已拥有状态为依据。
+- 新增小书签形式的 Wiki 详情入口，兼容折叠载具、手机触控和独立配件按钮。
+- 加载缓慢时提供外部打开入口，避免一直停留在“正在载入”；第三方 Wiki 的验证和可用性不由本项目控制。
+- 保留原有金币、礼包分类标签、零值费用显示和 BR 字号；不更新游戏费用、数据快照或规划搜索算法。详情见 [v1.0.9 更新说明](doc/release-v1.0.9.md)。
 
 ## v1.0.8 配件数据修正
 

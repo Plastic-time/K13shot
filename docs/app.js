@@ -225,7 +225,7 @@ function getRankUnlockQuantity(rank) {
 
 function getUnlockCountVehicleIds() {
   const ids = new Set([...state.initialUnlocked, ...state.owned]);
-  const source = state.planResult?.selectedIds || [...state.planned];
+  const source = state.planResult?.selectedIds || [...state.planned, ...state.waypoints];
   source.forEach((id) => ids.add(id));
   return [...ids];
 }
@@ -341,7 +341,12 @@ function loadSavedState() {
   state.owned = new Set(saved.owned || []);
   state.waypoints = new Set(saved.waypoints || []);
   state.avoidFolded = saved.avoidFolded === true;
-  state.planResult = null;
+  state.planResult = Array.isArray(saved.route?.selectedIds) ? {
+    selectedIds: saved.route.selectedIds.filter(id => typeof id === "string"),
+    fillerIds: Array.isArray(saved.route.fillerIds) ? saved.route.fillerIds.filter(id => typeof id === "string") : [],
+    removedAutoRoles: Object.fromEntries(Object.entries(saved.route.removedAutoRoles || {}).filter(([, role]) => role === "filler" || role === "route")),
+    dirty: true,
+  } : null;
   state.folderMode = "all";
   state.dependencyMode = saved.dependencyMode || "selected";
   els.dependencyModeSelect.value = state.dependencyMode;
@@ -357,6 +362,11 @@ function saveState() {
       waypoints: [...state.waypoints],
       avoidFolded: state.avoidFolded,
       dependencyMode: state.dependencyMode,
+      route: state.planResult ? {
+        selectedIds: state.planResult.selectedIds,
+        fillerIds: state.planResult.fillerIds,
+        removedAutoRoles: state.planResult.removedAutoRoles || {},
+      } : null,
     })
   );
 }
@@ -474,11 +484,11 @@ function getDependencyIds(unitId, visited = new Set()) {
 }
 
 function calculatePlan() {
-  const orderedIds = state.planResult?.selectedIds || [...state.planned];
+  const orderedIds = state.planResult?.selectedIds || [...state.planned, ...state.waypoints];
 
   state.missing = orderedIds
     .map((id) => state.unitMap.get(id))
-    .filter((unit) => unit && !isInitialUnlockedUnit(unit))
+    .filter((unit) => unit && !isInitialUnlockedUnit(unit) && !state.owned.has(unit.data_unit_id))
     .filter(Boolean)
     .sort(compareUnitsByProgression);
 
@@ -486,8 +496,19 @@ function calculatePlan() {
   renderTree();
 }
 
-function invalidateExactPlan() {
-  state.planResult = null;
+function invalidateExactPlan(removedId = null) {
+  if (!state.planResult) return;
+  // Keep the editable route, but discard the previous search's validity claims.
+  const selectedIds = [...new Set([
+    ...state.planResult.selectedIds, ...state.planned, ...state.waypoints,
+  ])].filter(id => id !== removedId && !state.owned.has(id) && !state.initialUnlocked.has(id));
+  const selected = new Set(selectedIds);
+  state.planResult = {
+    selectedIds,
+    fillerIds: state.planResult.fillerIds.filter(id => selected.has(id) && !state.planned.has(id) && !state.waypoints.has(id)),
+    removedAutoRoles: state.planResult.removedAutoRoles || {},
+    dirty: true,
+  };
 }
 
 const contextModeLabels = {
@@ -546,8 +567,10 @@ function openUnitContextMenu(id, clientX, clientY) {
 
 function toggleUnitMode(id, mode) {
   if (state.initialUnlocked.has(id)) return;
+  if (state.planResult?.removedAutoRoles) delete state.planResult.removedAutoRoles[id];
   const targetSet = getModeSet(mode);
-  if (targetSet.has(id)) {
+  const removing = targetSet.has(id);
+  if (removing) {
     targetSet.delete(id);
   } else {
     state.planned.delete(id);
@@ -555,7 +578,7 @@ function toggleUnitMode(id, mode) {
     state.waypoints.delete(id);
     targetSet.add(id);
   }
-  invalidateExactPlan();
+  invalidateExactPlan(removing ? id : null);
   saveState();
   calculatePlan();
 }
@@ -592,7 +615,8 @@ function runExactPlan() {
       calculatePlan();
       saveState();
     } catch (error) {
-      state.planResult = null;
+      invalidateExactPlan();
+      calculatePlan();
       els.plannerStatus.textContent = `规划失败：${error.message}`;
     } finally {
       setPlanButtonsDisabled(false);
@@ -628,7 +652,7 @@ function renderSummary() {
   els.budgetSlLabel.textContent = state.missing.some(unit => unit.sp == null) ? "已知 SL" : "SL";
   els.routeExportButton.disabled = !state.units.length || window.RouteExporter?.isBusy();
 
-  if (state.planResult) {
+  if (state.planResult && !state.planResult.dirty) {
     const result = state.planResult;
     const mainStatus = result.feasible
       ? (result.searchComplete ? "已找到最低 RP 路线" : "已返回当前找到的最低路线")
@@ -774,7 +798,7 @@ function renderUnit(unit, inFolder = false) {
     : "";
 
   return `
-    <div class="unit-tile-shell${modificationButton ? " has-modifications" : ""}">
+    <div class="unit-tile-shell has-unit-actions${modificationButton ? " has-modifications" : ""}">
     <button class="${classes.join(" ")}" type="button" data-unit-id="${escapeHtml(id)}" title="${escapeHtml(id)} · 右键或长按设置目标、已拥有或途经点">
       ${unit.vehicle_icon ? `<img src="${escapeHtml(unit.vehicle_icon)}" alt="">` : `<span></span>`}
       <span>
@@ -793,7 +817,7 @@ function renderUnit(unit, inFolder = false) {
         </span>
       </span>
       ${isNew ? '<span class="unit-update-edge" aria-hidden="true"></span>' : ""}
-    </button>${modificationButton}
+    </button><div class="unit-actions">${modificationButton}<button class="unit-wiki-launch" type="button" data-wiki-id="${escapeHtml(id)}" data-wiki-title="${escapeHtml(displayTitle(unit))}" aria-label="查看 ${escapeHtml(displayTitle(unit))} Wiki 详情" title="Wiki 载具详情"><span class="wiki-bookmark"><img src="assets/wiki/book-open.svg" alt=""></span></button></div>
     </div>
   `;
 }
@@ -1126,6 +1150,28 @@ async function loadTree() {
 }
 
 function toggleUnit(id) {
+  if (state.initialUnlocked.has(id)) return;
+  if (state.planResult?.selectedIds.includes(id) && !state.planned.has(id)) {
+    if (!state.waypoints.has(id)) {
+      state.planResult.removedAutoRoles ||= {};
+      state.planResult.removedAutoRoles[id] = state.planResult.fillerIds.includes(id) ? "filler" : "route";
+    }
+    state.waypoints.delete(id);
+    invalidateExactPlan(id);
+    saveState();
+    calculatePlan();
+    return;
+  }
+  const previousRole = state.planResult?.removedAutoRoles?.[id];
+  if ((previousRole === "filler" || previousRole === "route") && !state.planned.has(id) && !state.owned.has(id) && !state.waypoints.has(id)) {
+    state.planResult.selectedIds.push(id);
+    if (previousRole === "filler") state.planResult.fillerIds.push(id);
+    delete state.planResult.removedAutoRoles[id];
+    invalidateExactPlan();
+    saveState();
+    calculatePlan();
+    return;
+  }
   toggleUnitMode(id, "target");
 }
 
@@ -1187,6 +1233,7 @@ function wireEvents() {
     state.planned.clear();
     state.owned.clear();
     state.waypoints.clear();
+    state.planResult = null;
     invalidateExactPlan();
     saveState();
     calculatePlan();
@@ -1259,7 +1306,7 @@ function wireEvents() {
     const button = event.target.closest("[data-remove-plan]");
     if (!button) return;
     state.planned.delete(button.dataset.removePlan);
-    invalidateExactPlan();
+    invalidateExactPlan(button.dataset.removePlan);
     saveState();
     calculatePlan();
   });

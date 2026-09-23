@@ -42,7 +42,7 @@ async function checkBudgetPlanner({ evaluate, call, artifacts, suffix }) {
   assert.deepEqual(bottom.dock, initial.dock, 'Bottom control must stay fixed while scrolling');
   assert(bottom.clickable, 'Planning must remain clickable at the bottom');
   await evaluate(`(() => {
-    state.planned.clear(); state.owned.clear(); state.waypoints.clear(); invalidateExactPlan(); calculatePlan();
+    els.clearButton.click();
     const goal = state.units.find(unit => getRankOrder(unit.rank) === 3 && unit.section === 'researchable' && unit.rp > 0);
     toggleUnitMode(goal.data_unit_id, 'target');
   })()`);
