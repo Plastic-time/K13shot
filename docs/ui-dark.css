@@ -68,7 +68,14 @@ body,
 
 .tree-headings .band-title { border: 0; padding: 6px 0 10px; background: transparent; color: #bac3c4; font-size: 12px; font-weight: 600; }
 .tree-headings .premium-title { color: #dfc58b; }
-.rank-rail { background: #222728; border-color: #3c4445; color: #b1bdbe; font-weight: 600; }
+.rank-rail {
+  background: rgba(34, 39, 40, 0.7);
+  -webkit-backdrop-filter: blur(8px);
+  backdrop-filter: blur(8px);
+  border-color: #3c4445;
+  color: #b1bdbe;
+  font-weight: 600;
+}
 .rank-block { border-bottom-color: #3c4445; }
 .rank-unlock-line span { border-color: #586465; border-radius: 3px; background: #2b3232; color: #c8d0cc; font-size: 11px; font-weight: 600; box-shadow: none; }
 .rank-unlock-line::before,

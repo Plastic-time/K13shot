@@ -46,6 +46,16 @@ jobs:
           if ($LASTEXITCODE -ne 0) { throw "Modification regression failed" }
           node tools/test-ui-entrypoints.cjs
           if ($LASTEXITCODE -ne 0) { throw "UI entrypoint regression failed" }
+          node tools/test-site-locales.cjs
+          if ($LASTEXITCODE -ne 0) { throw "Locale coverage check failed" }
+          node tools/test-multilingual-copy.cjs
+          if ($LASTEXITCODE -ne 0) { throw "Multilingual terminology check failed" }
+          node tools/test-english-copy.cjs
+          if ($LASTEXITCODE -ne 0) { throw "English copy check failed" }
+          node tools/test-localized-names.cjs
+          if ($LASTEXITCODE -ne 0) { throw "Game name check failed" }
+          node tools/test-vehicle-updates.cjs
+          if ($LASTEXITCODE -ne 0) { throw "New vehicle badge check failed" }
           node tools/check-publish-privacy.cjs
           if ($LASTEXITCODE -ne 0) { throw "Privacy scan failed" }
 
@@ -61,7 +71,7 @@ jobs:
             $zipPath = Join-Path $PWD "WarThunderResearchCalculator-v$version$suffix.zip"
             $archive = [System.IO.Compression.ZipFile]::OpenRead($zipPath)
             try {
-              foreach ($file in @("package.json", "package-lock.json", "public/index.html", "public/styles.css", "public/app.js", "public/ui-dark.css", "public/tree-navigation.css", "public/tree-navigation.js", "public/assets/flags/su.svg", "public/assets/navigation/plane.svg", "public/wiki-viewer.js", "public/wiki-viewer.css", "public/assets/wiki/book-open.svg", "public/assets/wiki/external-link.svg", "public/assets/wiki/rotate-cw.svg", "public/assets/wiki/x.svg", "public/assets/wiki/LICENSE", "public/vehicle-long-press.js", "public/roster.js", "public/roster.css", "public/modifications.js", "public/modification-planner.js", "public/tree-scroll.css", "main.js", "README.md")) {
+              foreach ($file in @("public/i18n.js", "public/app-translations.js", "public/static-translations.js", "public/module-translations.js", "public/vehicle-names.json", "public/modification-names.json", "public/budget-glass.css", "public/press-feedback.css", "public/press-feedback.js", "public/vehicle-updates-data.js", "package.json", "package-lock.json", "public/index.html", "public/styles.css", "public/app.js", "public/ui-dark.css", "public/tree-navigation.css", "public/tree-navigation.js", "public/assets/flags/su.svg", "public/assets/navigation/plane.svg", "public/wiki-viewer.js", "public/wiki-viewer.css", "public/assets/wiki/book-open.svg", "public/assets/wiki/external-link.svg", "public/assets/wiki/rotate-cw.svg", "public/assets/wiki/x.svg", "public/assets/wiki/LICENSE", "public/vehicle-long-press.js", "public/roster.js", "public/roster.css", "public/modifications.js", "public/modification-planner.js", "public/tree-scroll.css", "main.js", "README.md")) {
                 $entry = $archive.Entries | Where-Object { $_.FullName.Replace('\', '/') -eq $file }
                 if (-not $entry) { throw "Missing $file in $zipPath" }
                 $reader = [System.IO.StreamReader]::new($entry.Open())

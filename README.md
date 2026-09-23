@@ -2,7 +2,7 @@
 
 想知道开到目标载具还需要走哪条线、花多少研发点和银狮？这款《战争雷霆》研发计算器将**自动路线规划**与**可视化配件研发**放在同一个科技树界面中：选择想开的载具，标记已经拥有的载具，再计算路线；进入配件窗口，还能为单辆载具定制配件研发计划。
 
-**[直接打开网页版，无需下载](https://plastic-time.github.io/K13shot/)** · [下载便携版](https://github.com/Plastic-time/K13shot/releases/tag/v1.0.9)
+**[直接打开网页版，无需下载](https://plastic-time.github.io/K13shot/)** · [下载便携版](https://github.com/Plastic-time/K13shot/releases/tag/v1.0.10)
 
 无需登录游戏账号，规划计算在当前浏览器中完成。以下介绍以当前网页版为准，已发布的下载包保留其发布时的功能，不会自动获得后续网页更新。
 
@@ -52,14 +52,23 @@ Wiki 需要联网，内容由第三方网站提供。网络缓慢、验证提示
 
 如果你只是想直接使用，下载：
 
-**[WarThunderResearchCalculator-v1.0.9-portable.zip](https://github.com/Plastic-time/K13shot/releases/download/v1.0.9/WarThunderResearchCalculator-v1.0.9-portable.zip)**
+**[WarThunderResearchCalculator-v1.0.10-portable.zip](https://github.com/Plastic-time/K13shot/releases/download/v1.0.10/WarThunderResearchCalculator-v1.0.10-portable.zip)**
 
 这是推荐给大多数玩家的便携版。解压后双击 `WarThunderResearchCalculator.exe` 即可运行，不需要安装 Node.js，也不需要执行 `npm install`。
 
 | 文件 | 推荐人群 | 是否需要安装 Node.js | 使用方式 |
 | --- | --- | --- | --- |
-| `WarThunderResearchCalculator-v1.0.9-portable.zip` | 普通玩家，推荐下载 | 不需要 | 解压后双击 exe |
-| `WarThunderResearchCalculator-v1.0.9.zip` | 开发者或已安装 Node.js 的用户 | 需要 | 解压后运行 `npm install` |
+| `WarThunderResearchCalculator-v1.0.10-portable.zip` | 普通玩家，推荐下载 | 不需要 | 解压后双击 exe |
+| `WarThunderResearchCalculator-v1.0.10.zip` | 开发者或已安装 Node.js 的用户 | 需要 | 解压后运行 `npm install` |
+
+## v1.0.10 多语言与界面优化
+
+- 新增全站中文、英语、俄语、德语、法语、日语、西班牙语切换，覆盖按钮、指南、规划提示和配件窗口；切换时保留规划状态。
+- 载具名称使用固定游戏版本的语言文件，支持多语言搜索。未找到官方语言条目的配件沿用已有名称；第三方 Wiki 正文不由本项目翻译。
+- 底部预算栏采用深色半透明玻璃效果，可点击控件加入按压回弹，并尊重减少动态效果设置。
+- 等级栏贴合左侧边缘，背景半透明而文字保持清晰；配件和 Wiki 按钮不会盖住等级栏。
+- “新增”金边仅标记当前游戏大版本新增载具，不再把较早版本载具算作新增。
+- 优化手机端多语言长文案和配件按钮排布。本次不升级游戏数据快照，不改费用、前置和规划搜索规则。详情见 [v1.0.10 更新说明](doc/release-v1.0.10.md)。
 
 ## v1.0.9 规划交互与 Wiki 详情
 

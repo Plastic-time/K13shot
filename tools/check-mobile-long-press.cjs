@@ -28,7 +28,7 @@ async function checkMobileLongPress({ evaluate, call, artifacts, suffix, country
     if (country) await evaluate(`els.countrySelect.value=${JSON.stringify(country)}; els.typeSelect.value='ground'; loadTree()`);
     await evaluate('document.fonts.ready');
     await evaluate('els.clearButton.click(); closeUnitContextMenu();');
-    const id = await evaluate(`[...document.querySelectorAll('#treeContainer .unit-tile')].find(tile => !state.initialUnlocked.has(tile.dataset.unitId) && state.unitMap.get(tile.dataset.unitId)?.rp > 0).dataset.unitId`);
+    const id = await evaluate(`[...document.querySelectorAll('#treeContainer .unit-tile')].find(tile => !state.initialUnlocked.has(tile.dataset.unitId) && parseNumber(state.unitMap.get(tile.dataset.unitId)?.rp) > 0).dataset.unitId`);
     const selector = `#treeContainer .unit-tile[data-unit-id="${id}"]`;
     let point = await pointFor(selector);
     await tap(point);

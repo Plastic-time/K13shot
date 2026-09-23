@@ -14,11 +14,15 @@
   let catalogPromise = null;
   const chunkCache = new Map();
 
-  const format = value => Number(value || 0).toLocaleString("en-US");
+  const format = value => window.WTI18n.number(Number(value || 0));
   const escape = value => String(value ?? "").replace(/[&<>"']/g, character => ({
     "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#39;",
   })[character]);
-  const language = () => (typeof state !== "undefined" && state.language === "en" ? "en" : "zh");
+  const t = (source, params) => window.WTI18n.t(source, params, 'modifications');
+  const failure = source => Object.assign(new Error(t(source)), { translationSource: source });
+  const language = () => window.WTI18n.locale;
+  let localizedNames = {};
+  let nameFallbacks = {};
   const storageKey = id => `wt-research:modifications:${id}`;
 
   async function sha256(content) {
@@ -29,22 +33,37 @@
   async function loadCatalog() {
     if (catalog) return catalog;
     if (!catalogPromise) {
-      catalogPromise = fetch("database/modifications/catalog.json?v=all-vehicles-20260920", { cache: "no-cache" })
+      catalogPromise = Promise.all([fetch("database/modifications/catalog.json?v=all-vehicles-20260920", { cache: "no-cache" })
         .then(response => {
-          if (!response.ok) throw new Error("配件索引载入失败");
+          if (!response.ok) throw failure("配件索引载入失败");
           return response.json();
         })
         .then(data => {
-          if (data.schema !== 2 || !data.vehicles || !data.chunks) throw new Error("配件索引格式错误");
-          catalog = data;
+          if (data.schema !== 2 || !data.vehicles || !data.chunks) throw failure("配件索引格式错误");
           return data;
-        })
+        }), loadModificationNames()])
+        .then(([data]) => { catalog = data; return data; })
         .catch(error => {
           catalogPromise = null;
-          throw error;
+          throw failure(error.translationSource || "配件索引载入失败");
         });
     }
     return catalogPromise;
+  }
+
+  async function loadModificationNames() {
+    try {
+      const response = await fetch("modification-names.json?v=multilingual-20260922", { cache: "no-cache", signal: AbortSignal.timeout(8000) });
+      if (!response.ok) return;
+      const data = await response.json();
+      if (data.schema !== 1 || !data.names || typeof data.names !== "object") return;
+      localizedNames = data.names;
+      nameFallbacks = data.coverage?.fallbacks || {};
+    } catch {
+      // Names are supplementary; keep the independently verified costs usable offline.
+      localizedNames = {};
+      nameFallbacks = {};
+    }
   }
 
   function hasVehicle(vehicleId) {
@@ -79,7 +98,7 @@
     if (!art || !valid(art.b) || !art.b.length || !valid(art.d)) {
       return `<img src="${escape(mod.icon)}" alt="" loading="eager">`;
     }
-    const hint = art.v ? `${language() === "en" ? "Belt group preview" : "弹链组图示"}: ${art.n} (${art.v.map(item => item.w ? `${item.w}: ${item.n}` : item.n).join(" / ")})` : art.n;
+    const hint = art.v ? t("弹链组图示：{name}（{items}）", { name: art.n, items: art.v.map(item => item.w ? `${item.w}: ${item.n}` : item.n).join(" / ") }) : art.n;
     const images = files => files.map(file => `<img src="images/ammunition/${escape(file)}" alt="" loading="eager">`).join("");
     const ratio = Number.isFinite(art.r) && art.r > 0 && art.r <= 1 ? art.r : 1 / art.b.length;
     const width = ratio * 100;
@@ -97,20 +116,20 @@
     const index = await loadCatalog();
     const chunkKey = index.vehicles[vehicleId];
     const chunkMeta = index.chunks[chunkKey];
-    if (!chunkKey || !chunkMeta) throw new Error("这辆载具没有可研发配件");
+    if (!chunkKey || !chunkMeta) throw failure("这辆载具没有可研发配件");
     if (!chunkCache.has(chunkKey)) {
       chunkCache.set(chunkKey, fetch(`${chunkMeta.path}?v=${chunkMeta.sha256.slice(0, 16)}`, { cache: "no-cache" })
         .then(async response => {
-          if (!response.ok) throw new Error("配件数据载入失败");
+          if (!response.ok) throw failure("配件数据载入失败");
           const content = await response.text();
-          if (await sha256(content) !== chunkMeta.sha256) throw new Error("配件数据版本校验失败，请刷新页面");
+          if (await sha256(content) !== chunkMeta.sha256) throw failure("配件数据版本校验失败，请刷新页面");
           return JSON.parse(content);
         })
-        .catch(error => { chunkCache.delete(chunkKey); throw error; }));
+        .catch(error => { chunkCache.delete(chunkKey); throw failure(error.translationSource || "配件数据载入失败"); }));
     }
     const chunk = await chunkCache.get(chunkKey);
     const raw = chunk.v?.[vehicleId];
-    if (!raw) throw new Error("配件数据中找不到这辆载具");
+    if (!raw) throw failure("配件数据中找不到这辆载具");
     return normalizeVehicle(raw);
   }
 
@@ -164,12 +183,49 @@
 
   function stateLabel(mod) {
     const labels = { researched: "已研发", target: "目标", dependency: "必经", filler: "补足" };
-    return labels[tileState(mod)] || "";
+    return labels[tileState(mod)] ? t(labels[tileState(mod)]) : "";
+  }
+
+  function vehicleName() {
+    return typeof displayTitle === "function"
+      ? displayTitle({ data_unit_id: ui.data.vehicleId, title: ui.data.vehicleName.en, title_zh: ui.data.vehicleName.zh })
+      : ui.data.vehicleName[language()] || ui.data.vehicleName.en;
+  }
+
+  function translateControls() {
+    const text = (selector, source) => {
+      const element = dialog.querySelector(selector);
+      if (element) element.textContent = t(source);
+    };
+    text(".modification-vehicle > div > span", "配件");
+    const close = dialog.querySelector("[data-modification-close]");
+    close?.setAttribute("aria-label", t("关闭配件研发"));
+    close?.setAttribute("title", t("关闭"));
+    dialog.querySelector(".modification-legend")?.setAttribute("aria-label", t("配件状态图例"));
+    for (const [kind, source] of Object.entries({ target: "目标", dependency: "必经配件", filler: "等级补足", researched: "已研发" })) {
+      const icon = dialog.querySelector(`.modification-legend i.${kind}`);
+      if (icon?.nextElementSibling) {
+        icon.nextElementSibling.dataset.i18nContext = 'modifications';
+        icon.nextElementSibling.textContent = t(source);
+      }
+      else if (icon) icon.parentElement.replaceChildren(icon, document.createTextNode(t(source)));
+    }
+    text(".modification-toolbar > p", "左键选择目标 · 右键标记已研发 · 等级门槛按游戏数据计算");
+    text(".modification-budget > span", "配件预算");
+    for (const [action, source] of Object.entries({ "clear-owned": "清除已研发", clear: "清空目标", all: "全部配件", calculate: "计算配件研发" })) {
+      text(`[data-modification-action="${action}"]`, source);
+    }
+    if (!ui.data) {
+      title.textContent = t("配件研发");
+      status.textContent = t("选择配件后点击计算");
+    }
   }
 
   function render() {
     if (!ui.data) return;
     const lang = language();
+    title.textContent = t("配件研发 - {vehicle}", { vehicle: vehicleName() });
+    vehicleImage.alt = vehicleName();
     const categoryOffsets = new Map();
     let totalColumns = 0;
     for (const category of ui.data.categories) {
@@ -187,7 +243,7 @@
     }
     const headers = ui.data.categories.map(category => {
       const start = categoryOffsets.get(category.id) + 2;
-      return `<h3 class="modification-category" style="grid-column:${start}/span ${category.columns};grid-row:1">${escape(category.name[lang])}</h3>`;
+      return `<h3 class="modification-category" style="grid-column:${start}/span ${category.columns};grid-row:1">${escape(t(category.name.zh))}</h3>`;
     });
     const tiers = [1, 2, 3, 4].map(tier => {
       const required = ui.data.tierRequirements[tier];
@@ -199,35 +255,39 @@
       const stateName = tileState(mod);
       const isPlanned = plannedSet.has(mod.id);
       const unlocked = ui.unlocked.has(mod.id);
-      const name = mod.name[lang] || mod.name.en;
-      const titleText = `${name} / ${mod.name.en}\n${unlocked ? "已解锁" : `RP ${format(mod.rp)} · SL ${format(mod.sl)}\n左键：目标 · 右键：已研发`}`;
+      const names = localizedNames[mod.id] || {};
+      const usable = value => typeof value === "string" && value.trim() && value !== mod.id ? value : "";
+      const fallback = nameFallbacks[mod.id] || {};
+      const englishName = (fallback.en ? mod.name.en : usable(names.en)) || mod.name.en;
+      const name = (fallback[lang] ? mod.name[lang] || mod.name.en : usable(names[lang])) || mod.name[lang] || englishName;
+      const titleText = `${name} / ${englishName}\n${unlocked ? t("已解锁") : `${format(mod.rp)} RP · ${format(mod.sl)} SL\n${t("左键：目标 · 右键：已研发")}`}`;
       return `
         <button class="modification-tile ${stateName}${isPlanned ? " is-planned" : ""}" type="button"
           data-mod-id="${escape(mod.id)}" style="grid-column:${column};grid-row:${mod.tier + 1}" title="${escape(titleText)}"${unlocked ? " disabled" : ""}>
           ${renderIcon(mod)}
-          <span class="modification-tile-copy"><b>${escape(name)}</b><small>${unlocked ? "✓ 已解锁" : `${format(mod.rp)} RP · ${format(mod.sl)} SL`}</small></span>
-          ${stateName && !unlocked ? `<span class="modification-state">${stateName === "researched" ? "✓ " : ""}${stateLabel(mod)}</span>` : ""}
+          <span class="modification-tile-copy"><b>${escape(name)}</b><small>${unlocked ? `✓ ${escape(t("已解锁"))}` : `${format(mod.rp)} RP · ${format(mod.sl)} SL`}</small></span>
+          ${stateName && !unlocked ? `<span class="modification-state">${stateName === "researched" ? "✓ " : ""}${escape(stateLabel(mod))}</span>` : ""}
         </button>`;
     });
 
     tree.innerHTML = `
       <div class="modification-board" style="grid-template-columns:54px repeat(${totalColumns}, 178px)">
         <svg class="modification-links" aria-hidden="true"><defs><marker id="mod-arrow" markerWidth="7" markerHeight="7" refX="6" refY="3.5" orient="auto"><path d="M0 0 L7 3.5 L0 7 Z"></path></marker></defs></svg>
-        <div class="modification-tier-title">等级</div>${headers.join("")}${cells.join("")}${tiers.join("")}${tiles.join("")}
+        <div class="modification-tier-title">${escape(t("等级"))}</div>${headers.join("")}${cells.join("")}${tiers.join("")}${tiles.join("")}
       </div>`;
 
     const budget = ui.result || manualBudget();
     rpOutput.textContent = format(budget.rp);
     slOutput.textContent = format(budget.sl);
     if (ui.unlocked.size === ui.data.mods.length) {
-      status.textContent = "全部配件已解锁";
+      status.textContent = t("全部配件已解锁");
     } else if (ui.result) {
       const autoCount = ui.result.dependencyIds.length + ui.result.fillerIds.length;
-      status.textContent = `目标 ${selectedCount} · 自动加入 ${autoCount} · 尚需研发 ${ui.result.includedIds.length}`;
+      status.textContent = t("目标 {selected} · 自动加入 {auto} · 尚需研发 {remaining}", { selected: selectedCount, auto: autoCount, remaining: ui.result.includedIds.length });
     } else {
       status.textContent = selectedCount
-        ? `手动选择 ${selectedCount} · 当前预算仅统计所选配件`
-        : "可自由选择任意配件，点击计算后自动补齐前置";
+        ? t("手动选择 {count} · 当前预算仅统计所选配件", { count: selectedCount })
+        : t("可自由选择任意配件，点击计算后自动补齐前置");
     }
     requestAnimationFrame(drawConnections);
   }
@@ -278,15 +338,13 @@
         ui.result = null;
         restore();
       }
-      const lang = language();
-      title.textContent = `配件研发 — ${ui.data.vehicleName[lang] || ui.data.vehicleName.en}`;
       vehicleImage.src = ui.data.vehicleIcon;
-      vehicleImage.alt = ui.data.vehicleName[lang] || ui.data.vehicleName.en;
+      translateControls();
       render();
       dialog.showModal();
       requestAnimationFrame(drawConnections);
     } catch (error) {
-      if (typeof setStatus === "function") setStatus(error.message);
+      if (typeof setStatus === "function") setStatus(t(error.translationSource || "配件数据载入失败"));
     }
   }
 
@@ -349,6 +407,19 @@
 
   viewport.addEventListener("scroll", drawConnections, { passive: true });
   window.addEventListener("resize", drawConnections, { passive: true });
+  document.addEventListener("wt-language-change", () => {
+    translateControls();
+    if (!dialog.open) return;
+    const focused = document.activeElement?.dataset.modId;
+    const { scrollLeft, scrollTop } = viewport;
+    render();
+    viewport.scrollLeft = scrollLeft;
+    viewport.scrollTop = scrollTop;
+    if (focused) tree.querySelector(`[data-mod-id="${CSS.escape(focused)}"]`)?.focus({ preventScroll: true });
+  });
+  title.removeAttribute("data-i18n");
+  status.removeAttribute("data-i18n");
+  translateControls();
 
   window.ModificationWorkbench = { loadCatalog, hasVehicle, open };
 })();

@@ -1,10 +1,10 @@
+const tr = (source, params) => window.WTI18n.t(source, params);
 const els = {
   statusText: document.getElementById("statusText"),
   countrySelect: document.getElementById("countrySelect"),
   typeSelect: document.getElementById("typeSelect"),
   searchInput: document.getElementById("searchInput"),
-  languageZhButton: document.getElementById("languageZhButton"),
-  languageEnButton: document.getElementById("languageEnButton"),
+  languageSelect: document.getElementById("languageSelect"),
   dependencyModeSelect: document.getElementById("dependencyModeSelect"),
   guideButton: document.getElementById("guideButton"),
   routeExportButton: document.getElementById("routeExportButton"),
@@ -56,7 +56,7 @@ const state = {
   folderMode: "all",
   dependencyMode: "selected",
   avoidFolded: false,
-  language: "zh",
+  language: window.WTI18n.locale,
   search: "",
 };
 
@@ -109,6 +109,12 @@ const zh = {
     "Battlecruiser": "战列巡洋舰",
     "Motor torpedo boat": "鱼雷艇",
     "Motor gun boat": "炮艇",
+    "Attack helicopter": "攻击直升机",
+    "Utility helicopter": "通用直升机",
+    "Barge": "驳船",
+    "Boat": "快艇",
+    "Frigate": "护卫舰",
+    "Heavy boat": "重型快艇",
   },
 };
 
@@ -135,16 +141,16 @@ function cleanText(value) {
 }
 
 function translateCountry(code, fallback) {
-  return zh.countries[code] || fallback || code;
+  return tr(zh.countries[code] || fallback || code);
 }
 
 function translateType(code, fallback) {
-  return zh.types[code] || fallback || code;
+  return tr(zh.types[code] || fallback || code);
 }
 
 function translateRole(role) {
   const cleanRole = cleanText(role);
-  return zh.roles[cleanRole] || cleanRole;
+  return tr(zh.roles[cleanRole] || cleanRole);
 }
 
 function localizedTitles(unit) {
@@ -152,6 +158,7 @@ function localizedTitles(unit) {
   const localized = state.localizedNames[id] || {};
   const fallback = cleanText(unit?.title);
   return {
+    ...Object.fromEntries(window.WTI18n.locales.map(language => [language, cleanText(localized[language] || localized.en || fallback)])),
     en: cleanText(localized.en || fallback),
     zh: cleanText(localized.zh || unit?.title_zh || unit?.zh_title || unit?.cn_title || localized.en || fallback),
   };
@@ -163,38 +170,43 @@ function displayTitle(unit) {
 }
 
 function updateLanguageControls() {
-  for (const [language, button] of [["zh", els.languageZhButton], ["en", els.languageEnButton]]) {
-    const active = state.language === language;
-    button.classList.toggle("is-active", active);
-    button.setAttribute("aria-pressed", String(active));
-  }
+  els.languageSelect.value = state.language;
 }
 
 function setLanguage(language) {
-  if (!["zh", "en"].includes(language) || state.language === language) return;
+  if (!window.WTI18n.locales.includes(language) || state.language === language) return;
+  const scroll = { left: els.treeContainer.scrollLeft, top: els.treeContainer.scrollTop };
   state.language = language;
-  localStorage.setItem("wt-research:vehicle-language", language);
+  window.WTI18n.setLocale(language);
+  for (const option of els.countrySelect.options) option.textContent = translateCountry(option.value);
+  for (const option of els.typeSelect.options) option.textContent = translateType(option.value);
   updateLanguageControls();
   renderSummary();
   renderTree();
+  els.treeContainer.scrollLeft = scroll.left;
+  els.treeContainer.scrollTop = scroll.top;
+  window.TreeNavigation?.sync(false);
+  if (state.units.length) setStatus(tr("{count} 个载具", { count: formatNumber(state.units.length) }));
+  setPlanButtonsDisabled(els.planButton.disabled);
+  closeUnitContextMenu();
 }
 
 async function loadLocalizedNames() {
   const response = await fetch("/vehicle-names.json?v=371120be", { cache: "no-cache" });
-  if (!response.ok) throw new Error("中英文载具名称暂不可用");
+  if (!response.ok) throw new Error(tr("载具名称暂不可用"));
   const payload = await response.json();
-  if (payload.schema !== 1 || !payload.names) throw new Error("中英文载具名称格式错误");
+  if (payload.schema !== 1 || !payload.names) throw new Error(tr("载具名称格式错误"));
   state.localizedNames = payload.names;
-  state.language = localStorage.getItem("wt-research:vehicle-language") === "en" ? "en" : "zh";
+  state.language = window.WTI18n.locale;
   updateLanguageControls();
 }
 
 function displayRank(rank) {
-  return `等级 ${cleanText(rank)}`;
+  return tr("等级 {rank}", { rank: cleanText(rank) });
 }
 
 function sectionLabel(section) {
-  return zh.sections[section] || section;
+  return tr(zh.sections[section] || section);
 }
 
 function getRankUnlockQuantity(rank) {
@@ -233,7 +245,7 @@ function parseNumber(value) {
 }
 
 function formatNumber(value) {
-  return Math.round(parseNumber(value)).toLocaleString("en-US");
+  return window.WTI18n.number(Math.round(parseNumber(value)));
 }
 
 function formatCost(value) {
@@ -507,14 +519,14 @@ function openUnitContextMenu(id, clientX, clientY) {
   const initial = state.initialUnlocked.has(id);
   els.unitContextMenu.dataset.unitId = id;
   els.unitContextTitle.textContent = displayTitle(unit);
-  els.unitContextHint.textContent = initial ? "初始载具已经自动计入，无需设置" : "再次选择当前状态即可取消";
+  els.unitContextHint.textContent = tr(initial ? "初始载具已经自动计入，无需设置" : "再次选择当前状态即可取消");
   els.unitContextMenu.querySelectorAll("[data-context-action]").forEach((button) => {
     const mode = button.dataset.contextAction;
     const active = getModeSet(mode).has(id);
     button.disabled = initial;
     button.classList.toggle("is-active", active);
     button.setAttribute("aria-checked", String(active));
-    button.querySelector("[data-context-label]").textContent = contextModeLabels[mode][active ? 1 : 0];
+    button.querySelector("[data-context-label]").textContent = tr(contextModeLabels[mode][active ? 1 : 0]);
   });
   els.unitContextMenu.hidden = false;
   els.unitContextMenu.style.left = "0px";
@@ -555,15 +567,15 @@ async function loadRosterReport() {
 
 function runExactPlan() {
   if (!state.planned.size && !state.waypoints.size) {
-    els.plannerStatus.textContent = "请先选择至少一个目标或途经点";
+    els.plannerStatus.textContent = tr("请先选择至少一个目标或途经点");
     return;
   }
   if (!window.LocalPlanner?.plan) {
-    els.plannerStatus.textContent = "本地规划器未能载入";
+    els.plannerStatus.textContent = tr("本地规划器未能载入");
     return;
   }
   setPlanButtonsDisabled(true);
-  els.plannerStatus.textContent = "正在本机搜索最低 RP 路线";
+  els.plannerStatus.textContent = tr("正在本机搜索最低 RP 路线");
   window.setTimeout(() => {
     try {
       const rosterUnits = state.rosterReport?.trees?.[`${state.country}/${state.type}`]?.units || {};
@@ -585,7 +597,7 @@ function runExactPlan() {
     } catch (error) {
       invalidateExactPlan();
       calculatePlan();
-      els.plannerStatus.textContent = `规划失败：${error.message}`;
+      els.plannerStatus.textContent = tr("规划失败：{error}", { error: error.message });
     } finally {
       setPlanButtonsDisabled(false);
     }
@@ -594,7 +606,7 @@ function runExactPlan() {
 
 function setPlanButtonsDisabled(disabled) {
   els.planButton.disabled = disabled;
-  els.planButton.querySelector("[data-plan-button-label]").textContent = disabled ? "规划中" : "精确规划";
+  els.planButton.querySelector("[data-plan-button-label]").textContent = tr(disabled ? "规划中" : "精确规划");
 }
 
 
@@ -610,42 +622,43 @@ function renderSummary() {
   els.pathCount.textContent = state.missing.length;
   els.ownedCount.textContent = state.owned.size;
   els.waypointCount.textContent = state.waypoints.size;
-  els.floatingPlanCount.textContent = `目标 ${state.planned.size} · 途经点 ${state.waypoints.size}`;
+  els.floatingPlanCount.textContent = tr("目标 {targets} · 途经点 {waypoints}", { targets: state.planned.size, waypoints: state.waypoints.size });
   els.budgetCount.textContent = state.missing.length;
   els.budgetRp.textContent = formatNumber(rawRp);
   els.budgetSl.textContent = formatNumber(totalSp);
-  els.budgetRpLabel.textContent = state.missing.some(unit => unit.rp == null) ? "已知 RP" : "RP";
-  els.budgetSlLabel.textContent = state.missing.some(unit => unit.sp == null) ? "已知 SL" : "SL";
+  els.budgetRpLabel.textContent = state.missing.some(unit => unit.rp == null) ? tr("已知 RP") : "RP";
+  els.budgetSlLabel.textContent = state.missing.some(unit => unit.sp == null) ? tr("已知 SL") : "SL";
   els.routeExportButton.disabled = !state.units.length || window.RouteExporter?.isBusy();
 
   if (state.planResult && !state.planResult.dirty) {
     const result = state.planResult;
     const mainStatus = result.feasible
-      ? (result.searchComplete ? "已找到最低 RP 路线" : "已返回当前找到的最低路线")
-      : "当前数据无法组成完整路线";
-    const details = `${result.fillerIds.length} 个等级补足 · ${result.exploredStates.toLocaleString("en-US")} 个方案状态 · ${result.elapsedMs} ms`;
-    els.plannerStatus.textContent = `${mainStatus} · ${details}${result.warnings.length ? ` · ${result.warnings.join(" ")}` : ""}`;
+      ? (result.searchComplete ? tr("已找到最低 RP 路线") : tr("已返回当前找到的最低路线"))
+      : tr("当前数据无法组成完整路线");
+    const details = tr("{fillers} 个等级补足 · {states} 个方案状态 · {time} ms", { fillers: result.fillerIds.length, states: formatNumber(result.exploredStates), time: result.elapsedMs });
+    const warnings = (result.warningMessages || []).map(item => tr(item.source, item.params));
+    els.plannerStatus.textContent = `${mainStatus} · ${details}${warnings.length ? ` · ${warnings.join(" ")}` : ""}`;
   } else {
     els.plannerStatus.textContent = state.planned.size || state.waypoints.size
-      ? "计划已改变，请点击“精确规划”重新计算"
-      : "选择目标后点击“精确规划”";
+      ? tr("计划已改变，请点击“精确规划”重新计算")
+      : tr("选择目标后点击“精确规划”");
   }
 
   els.plannedList.innerHTML = plannedUnits.length
     ? plannedUnits.map((unit) => renderListItem(unit, true)).join("")
-    : `<div class="empty-state">暂无选择</div>`;
+    : `<div class="empty-state">${tr("暂无选择")}</div>`;
 
   els.missingList.innerHTML = state.missing.length
     ? state.missing.map((unit) => renderListItem(unit, false)).join("")
-    : `<div class="empty-state">暂无计算结果</div>`;
+    : `<div class="empty-state">${tr("暂无计算结果")}</div>`;
 }
 
 function getRouteKind(unit) {
   const id = unit.data_unit_id;
-  if (state.planned.has(id)) return "目标";
-  if (state.waypoints.has(id)) return "途经点";
-  if (state.planResult?.fillerIds?.includes(id)) return "等级补足";
-  return "必经路线";
+  if (state.planned.has(id)) return tr("目标");
+  if (state.waypoints.has(id)) return tr("途经点");
+  if (state.planResult?.fillerIds?.includes(id)) return tr("等级补足");
+  return tr("必经路线");
 }
 
 function buildRouteExportPayload() {
@@ -659,11 +672,11 @@ function buildRouteExportPayload() {
   return {
     country: translateCountry(state.country),
     type: translateType(state.type),
-    generatedAt: new Intl.DateTimeFormat("zh-CN", { dateStyle: "medium", timeStyle: "short" }).format(date),
+    generatedAt: new Intl.DateTimeFormat(window.WTI18n.tag, { dateStyle: "medium", timeStyle: "short" }).format(date),
     targetCount: state.planned.size,
     pendingCount: state.missing.length,
-    rpLabel: hasUnknownRp ? "已知 RP" : "总 RP",
-    slLabel: hasUnknownSl ? "已知 SL" : "总 SL",
+    rpLabel: hasUnknownRp ? tr("已知 RP") : tr("总 RP"),
+    slLabel: hasUnknownSl ? tr("已知 SL") : tr("总 SL"),
     totalRp: formatNumber(totalRp),
     totalSl: formatNumber(totalSl),
     filename: `war-thunder-route-${state.country}-${state.type}-${stamp}.png`,
@@ -671,8 +684,8 @@ function buildRouteExportPayload() {
       title: displayTitle(unit),
       rank: displayRank(unit.rank || "-"),
       br: cleanText(unit.br) || "-",
-      rp: unit.rp == null ? "未提供" : formatNumber(unit.rp),
-      sl: unit.sp == null ? "未提供" : formatNumber(unit.sp),
+      rp: unit.rp == null ? tr("未提供") : formatNumber(unit.rp),
+      sl: unit.sp == null ? tr("未提供") : formatNumber(unit.sp),
       kind: getRouteKind(unit),
     })),
   };
@@ -681,20 +694,20 @@ function buildRouteExportPayload() {
 async function exportRouteImage() {
   if (!state.units.length || window.RouteExporter?.isBusy()) return;
   if (!window.RouteExporter?.download) {
-    setStatus("路线图生成器未能载入");
+    setStatus(tr("路线图生成器未能载入"));
     return;
   }
 
   els.routeExportButton.disabled = true;
-  els.routeExportButton.textContent = "正在生成截图…";
+  els.routeExportButton.textContent = tr("正在生成截图…");
   try {
     await window.RouteExporter.download(buildRouteExportPayload(), els.treeContainer.querySelector(".tree-canvas"), renderTreeConnections);
-    setStatus("完整科技树截图已下载");
+    setStatus(tr("完整科技树截图已下载"));
   } catch (error) {
-    setStatus(`路线图生成失败：${error.message}`);
+    setStatus(tr("路线图生成失败：{error}", { error: error.message }));
   } finally {
     els.routeExportButton.disabled = !state.units.length;
-    els.routeExportButton.textContent = "导出科技树截图";
+    els.routeExportButton.textContent = tr("导出科技树截图");
   }
 }
 
@@ -705,11 +718,11 @@ window.WTRouteExport = {
 
 function renderListItem(unit, removable) {
   const removeButton = removable
-    ? `<button class="mini-button" type="button" data-remove-plan="${escapeHtml(unit.data_unit_id)}">移除</button>`
+    ? `<button class="mini-button" type="button" data-remove-plan="${escapeHtml(unit.data_unit_id)}">${tr("移除")}</button>`
     : `<span class="list-meta">${escapeHtml(displayRank(unit.rank || ""))}</span>`;
   const role = translateRole(unit.main_role);
   const routeLabel = !removable && state.planResult
-    ? (state.planResult.fillerIds.includes(unit.data_unit_id) ? " · 等级补足" : " · 必经路线")
+    ? (state.planResult.fillerIds.includes(unit.data_unit_id) ? ` · ${tr("等级补足")}` : ` · ${tr("必经路线")}`)
     : "";
 
   return `
@@ -729,7 +742,7 @@ function unitMatchesSearch(unit) {
   const titles = localizedTitles(unit);
   const parentTitles = state.localizedNames[cleanText(unit.parent_group_id).toLowerCase()] || {};
   const haystack =
-    `${titles.zh} ${titles.en} ${unit.title || ""} ${unit.data_unit_id || ""} ${parentTitles.zh || ""} ${parentTitles.en || ""} ${unit.parent_group_title || ""} ${translateRole(unit.main_role)}`.toLowerCase();
+    `${Object.values(titles).join(" ")} ${unit.title || ""} ${unit.data_unit_id || ""} ${Object.values(parentTitles).join(" ")} ${unit.parent_group_title || ""} ${translateRole(unit.main_role)}`.toLowerCase();
   return haystack.includes(state.search.toLowerCase());
 }
 
@@ -739,10 +752,8 @@ function renderUnit(unit, inFolder = false) {
     && !state.owned.has(id) && !state.planned.has(id) && !state.waypoints.has(id);
   const update = window.WTVehicleUpdates;
   const isNew = update?.trees?.[`${state.country}/${state.type}`]?.includes(id);
-  const updateTip = isNew ? (state.language === "en"
-    ? `Added to this calculator snapshot on ${update.date}; not necessarily newly released in game.`
-    : `${update.date} 数据更新新增收录；不一定是游戏本次新推出的载具。`) : "";
-  const updateBadge = isNew ? `<span class="unit-update-label" title="${escapeHtml(updateTip)}">${state.language === "en" ? "NEW" : "新增"}</span> ` : "";
+  const updateTip = isNew ? tr("{major} {name} 游戏版本新增载具（{date}）。", update) : "";
+  const updateBadge = isNew ? `<span class="unit-update-label" title="${escapeHtml(updateTip)}">${tr("新增")}</span> ` : "";
   const classes = ["unit-tile"];
   if (autoSelected) classes.push("auto-planned");
   const className = cleanText(unit.class_name).toLowerCase();
@@ -760,30 +771,30 @@ function renderUnit(unit, inFolder = false) {
   const unlocked = isInitialUnlockedUnit(unit);
 
   const modificationButton = window.ModificationWorkbench?.hasVehicle(id)
-    ? `<button class="unit-modifications-launch" type="button" data-modifications-id="${escapeHtml(id)}" aria-label="打开 ${escapeHtml(displayTitle(unit))} 配件研发" title="配件研发"><span aria-hidden="true">⚙</span><b>配件</b></button>`
+    ? `<button class="unit-modifications-launch" type="button" data-modifications-id="${escapeHtml(id)}" aria-label="${escapeHtml(tr("打开 {name} 配件研发", { name: displayTitle(unit) }))}" title="${tr("配件研发")}"><span aria-hidden="true">⚙</span><b>${tr("配件")}</b></button>`
     : "";
 
   return `
     <div class="unit-tile-shell has-unit-actions${modificationButton ? " has-modifications" : ""}">
-    <button class="${classes.join(" ")}" type="button" data-unit-id="${escapeHtml(id)}" title="${escapeHtml(id)} · 右键或长按设置目标、已拥有或途经点">
+    <button class="${classes.join(" ")}" type="button" data-unit-id="${escapeHtml(id)}" title="${escapeHtml(id)} · ${tr("右键或长按设置目标、已拥有或途经点")}">
       ${unit.vehicle_icon ? `<img src="${escapeHtml(unit.vehicle_icon)}" alt="">` : `<span></span>`}
       <span>
         <span class="unit-title">${updateBadge}${escapeHtml(displayTitle(unit))}</span>
         <span class="unit-meta">
           ${window.RosterAudit?.badges(state.country, state.type, unit, displayTitle(unit)) || ""}
           <span class="pill">BR ${escapeHtml(unit.br || "-")}</span>
-          ${squadron ? `<span class="pill squadron-label">联队载具</span>` : `<span class="pill rp">RP ${formatCost(unit.rp)}</span><span class="pill sp">SL ${formatCost(unit.sp)}</span>`}
-          ${unlocked ? `<span class="pill unlocked">初始载具</span>` : ""}
-          ${state.planned.has(id) ? `<span class="pill target-label">目标</span>` : ""}
-          ${state.owned.has(id) ? `<span class="pill owned-label">已拥有</span>` : ""}
-          ${state.waypoints.has(id) ? `<span class="pill waypoint-label">途经点</span>` : ""}
-          ${autoSelected ? `<span class="pill auto-planned-label">${state.language === "en" ? "Selected" : "已选"} · ${state.planResult.fillerIds.includes(id) ? (state.language === "en" ? "Rank filler" : "等级补足") : (state.language === "en" ? "Required route" : "必经路线")}</span>` : ""}
-          ${state.planResult?.fillerIds.includes(id) ? `<span class="pill filler-label">等级补足</span>` : ""}
+          ${squadron ? `<span class="pill squadron-label">${tr("联队载具")}</span>` : `<span class="pill rp">RP ${formatCost(unit.rp)}</span><span class="pill sp">SL ${formatCost(unit.sp)}</span>`}
+          ${unlocked ? `<span class="pill unlocked">${tr("初始载具")}</span>` : ""}
+          ${state.planned.has(id) ? `<span class="pill target-label">${tr("目标")}</span>` : ""}
+          ${state.owned.has(id) ? `<span class="pill owned-label">${tr("已拥有")}</span>` : ""}
+          ${state.waypoints.has(id) ? `<span class="pill waypoint-label">${tr("途经点")}</span>` : ""}
+          ${autoSelected ? `<span class="pill auto-planned-label">${tr("已选")} · ${tr(state.planResult.fillerIds.includes(id) ? "等级补足" : "必经路线")}</span>` : ""}
+          ${state.planResult?.fillerIds.includes(id) ? `<span class="pill filler-label">${tr("等级补足")}</span>` : ""}
           ${role ? `<span class="pill role">${escapeHtml(role)}</span>` : ""}
         </span>
       </span>
       ${isNew ? '<span class="unit-update-edge" aria-hidden="true"></span>' : ""}
-    </button><div class="unit-actions">${modificationButton}<button class="unit-wiki-launch" type="button" data-wiki-id="${escapeHtml(id)}" data-wiki-title="${escapeHtml(displayTitle(unit))}" aria-label="查看 ${escapeHtml(displayTitle(unit))} Wiki 详情" title="Wiki 载具详情"><span class="wiki-bookmark"><img src="assets/wiki/book-open.svg" alt=""></span></button></div>
+    </button><div class="unit-actions">${modificationButton}<button class="unit-wiki-launch" type="button" data-wiki-id="${escapeHtml(id)}" data-wiki-title="${escapeHtml(displayTitle(unit))}" aria-label="${escapeHtml(tr("查看 {name} Wiki 详情", { name: displayTitle(unit) }))}" title="${tr("Wiki 载具详情")}"><span class="wiki-bookmark"><img src="assets/wiki/book-open.svg" alt=""></span></button></div>
     </div>
   `;
 }
@@ -810,7 +821,7 @@ function renderGroup(group, context) {
   const selected = folded.filter(item => selectedIds.has(item.data_unit_id) || state.owned.has(item.data_unit_id)).length;
   const hasNew = folded.some(item => window.WTVehicleUpdates?.trees?.[`${state.country}/${state.type}`]?.includes(item.data_unit_id));
   const matches = state.search ? folded.filter(unitMatchesSearch).length : 0;
-  const en = state.language === "en";
+
   const items = children.slice(0, 1).map((item) =>
     renderUnit({
       ...item,
@@ -827,12 +838,12 @@ function renderGroup(group, context) {
   return `
     <div class="${classes.join(" ")}">
       ${items[0]}
-      ${folded.length && selectedCount ? `<span class="folder-selection-count" data-selected-count="${selectedCount}" title="${en ? "Selected vehicles in the current route, including the main vehicle and automatically planned vehicles; owned vehicles excluded." : "本组当前路线已选载具，含主载具及自动规划载具，不含已拥有载具。"}">${en ? `${selectedCount} selected` : `已选 ${selectedCount} 辆`}</span>` : ""}
+      ${folded.length && selectedCount ? `<span class="folder-selection-count" data-selected-count="${selectedCount}" title="${tr("本组当前路线已选载具，含主载具及自动规划载具，不含已拥有载具。")}">${tr("已选 {count} 辆", { count: selectedCount })}</span>` : ""}
       ${folded.length ? `<button type="button" class="folder-toggle${selected ? " has-selection" : ""}${hasNew ? " has-new" : ""}${matches ? " has-match" : ""}"
         data-folder-key="${escapeHtml(key)}" data-folder-group="${escapeHtml(group.data_unit_id)}"
         aria-expanded="false" aria-haspopup="dialog"
-        aria-label="${escapeHtml(displayTitle(group))} · ${children.length} ${en ? "vehicles" : "辆"}"
-        title="${escapeHtml(displayTitle(group))} · ${children.length} ${en ? "vehicles" : "辆"}${selected ? ` · ${en ? "Marked" : "已标记"} ${selected}` : ""}${matches ? ` · ${en ? "Matches" : "匹配"} ${matches}` : ""}${hasNew ? ` · ${en ? "NEW" : "新增"}` : ""}"><span aria-hidden="true">≡</span></button>` : ""}
+        aria-label="${escapeHtml(displayTitle(group))} · ${tr("{count} 个载具", { count: children.length })}"
+        title="${escapeHtml(displayTitle(group))} · ${tr("{count} 个载具", { count: children.length })}${selected ? ` · ${tr("已标记")} ${selected}` : ""}${matches ? ` · ${tr("匹配")} ${matches}` : ""}${hasNew ? ` · ${tr("新增")}` : ""}"><span aria-hidden="true">≡</span></button>` : ""}
     </div>
   `;
 }
@@ -993,11 +1004,11 @@ function renderRankUnlockGate(rank, nextRank) {
   const quantity = getRankUnlockQuantity(rank);
   const selected = getSelectedVehicleCount(rank.rank);
   const complete = quantity > 0 && selected >= quantity;
-  const targetLabel = nextRank ? `解锁${displayRank(nextRank.rank)}` : "后续等级要求";
+  const targetLabel = nextRank ? tr("解锁等级 {rank}", { rank: nextRank.rank }) : tr("后续等级要求");
 
   return `
-    <div class="rank-unlock-line ${quantity ? "" : "is-zero"} ${complete ? "is-complete" : ""}" aria-label="已选择 ${selected} 个，${targetLabel}需要 ${quantity} 个载具">
-      <span>${targetLabel}：${selected} / ${quantity}</span>
+    <div class="rank-unlock-line ${quantity ? "" : "is-zero"} ${complete ? "is-complete" : ""}" aria-label="${escapeHtml(tr("已选择 {selected} 个，{target}需要 {quantity} 个载具", { selected, target: targetLabel, quantity }))}">
+      <span>${targetLabel}: ${selected} / ${quantity}</span>
     </div>
   `;
 }
@@ -1017,7 +1028,7 @@ function renderRankRail(rank) {
 function renderTree() {
   window.VehicleFolders?.beforeTreeRender();
   if (!state.tree.length) {
-    els.treeContainer.innerHTML = `<div class="loading">没有本地数据</div>`;
+    els.treeContainer.innerHTML = `<div class="loading">${tr("没有本地数据")}</div>`;
     return;
   }
 
@@ -1055,7 +1066,7 @@ function renderTree() {
 
   els.treeContainer.innerHTML = html
     ? `<div class="tree-canvas" style="--research-width: ${columnWidth(researchColumns)}px; --premium-width: ${premiumColumns ? columnWidth(premiumColumns) + 27 : 0}px;"><svg class="tree-links" aria-hidden="true"></svg><div class="tree-content"><div class="tree-headings rank-field">${researchColumns ? `<h3 class="band-title researchable-title">${sectionLabel("researchable")}</h3>` : ""}${premiumColumns ? `<h3 class="band-title premium-title">${sectionLabel("premium")}</h3>` : ""}</div>${html}</div></div>`
-    : `<div class="loading">没有匹配项</div>`;
+    : `<div class="loading">${tr("没有匹配项")}</div>`;
   scheduleTreeConnections();
 
   window.VehicleFolders?.refresh();
@@ -1079,8 +1090,8 @@ async function loadTree() {
   state.country = els.countrySelect.value;
   state.type = els.typeSelect.value;
   window.TreeNavigation?.sync(true);
-  setStatus("正在读取科技树数据");
-  els.treeContainer.innerHTML = `<div class="loading">正在载入科技树</div>`;
+  setStatus(tr("正在读取科技树数据"));
+  els.treeContainer.innerHTML = `<div class="loading">${tr("正在载入科技树")}</div>`;
 
   loadSavedState();
 
@@ -1088,7 +1099,7 @@ async function loadTree() {
     const result = await api(`/api/tree/${state.country}/${state.type}`);
     state.tree = result.data || [];
     flattenTree(state.tree);
-    setStatus(`${state.units.length} 个载具`);
+    setStatus(tr("{count} 个载具", { count: formatNumber(state.units.length) }));
     calculatePlan();
   } catch (err) {
     state.tree = [];
@@ -1133,7 +1144,7 @@ function toggleUnit(id) {
 }
 
 async function refreshCurrentTree() {
-  setStatus("正在从官方 Wiki 更新当前树");
+  setStatus(tr("正在从官方 Wiki 更新当前树"));
   els.refreshDataButton.disabled = true;
   try {
     const session = await api("/api/session", { cache: "no-store" });
@@ -1144,7 +1155,7 @@ async function refreshCurrentTree() {
     });
     state.tree = result.data || [];
     flattenTree(state.tree);
-    setStatus(`已更新 ${translateCountry(state.country)} · ${translateType(state.type)}`);
+    setStatus(tr("已更新 {country} · {type}", { country: translateCountry(state.country), type: translateType(state.type) }));
     calculatePlan();
   } catch (err) {
     setStatus(err.message);
@@ -1157,8 +1168,7 @@ function wireEvents() {
   window.VehicleLongPress?.configure({ open: openUnitContextMenu, close: closeUnitContextMenu });
   els.countrySelect.addEventListener("change", loadTree);
   els.typeSelect.addEventListener("change", loadTree);
-  els.languageZhButton.addEventListener("click", () => setLanguage("zh"));
-  els.languageEnButton.addEventListener("click", () => setLanguage("en"));
+  els.languageSelect.addEventListener("change", event => setLanguage(event.target.value));
 
   els.searchInput.addEventListener("input", () => {
     state.search = els.searchInput.value.trim();

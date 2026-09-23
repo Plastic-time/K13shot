@@ -1,8 +1,8 @@
 .toolbar.has-tree-navigation { display: block; padding: 0; overflow: visible; }
-.tree-navigation { display: grid; grid-template-columns: 154px minmax(0, 1fr); gap: 20px; align-items: center; padding: 8px 20px 0; border-bottom: 1px solid #414849; }
+.tree-navigation { display: grid; grid-template-columns: 174px minmax(0, 1fr); gap: 20px; align-items: center; padding: 8px 20px 0; border-bottom: 1px solid #414849; }
 .country-trigger { display: flex; align-items: center; gap: 10px; width: 100%; min-height: 42px; padding: 8px 12px; margin-bottom: 8px; border: 1px solid #61706a; border-radius: 3px; background: #303c35; color: #eaf0e8; font-size: 14px; font-weight: 600; }
 .country-trigger:hover { background: #405247; border-color: #9cb5a3; }
-.country-current { flex: 1; text-align: left; }
+.country-current { flex: 1; min-width: 0; text-align: left; overflow-wrap: anywhere; }
 .country-flag { flex: 0 0 28px; width: 28px; height: 21px; object-fit: contain; }
 .nav-icon { display: inline-block; width: 18px; height: 18px; flex: 0 0 18px; background: currentColor; mask: var(--nav-icon) center / contain no-repeat; -webkit-mask: var(--nav-icon) center / contain no-repeat; }
 .country-trigger .nav-icon { width: 14px; height: 14px; flex-basis: 14px; }
@@ -16,11 +16,15 @@
 .tree-navigation button:focus-visible,
 .country-picker button:focus-visible { outline: 2px solid #e3cc90; outline-offset: -3px; }
 .tree-filters { display: flex; align-items: flex-end; gap: 12px; padding: 9px 20px 11px; overflow-x: auto; overscroll-behavior-inline: contain; scrollbar-width: thin; scrollbar-color: #677972 transparent; }
-.tree-filters > label { flex: 0 0 120px; }
+.tree-filters > label { flex: 0 0 170px; min-width: 0; }
 .tree-filters > [hidden] { display: none !important; }
 .tree-filters > .search-label { flex: 1 0 210px; }
-.tree-filters > .language-field { flex: 0 0 232px; }
-.tree-filters > .planner-option { flex: 0 0 218px; min-height: 38px; }
+.tree-filters > .language-field { flex: 0 0 144px; width: 144px; }
+.tree-filters > .planner-option { flex: 0 0 260px; min-height: 38px; }
+.tree-filters > .planner-option input { flex-shrink: 0; }
+.tree-filters > .planner-option span { min-width: 0; overflow-wrap: anywhere; }
+.language-field select { width: 100%; min-width: 0; }
+.tree-filters select { text-overflow: ellipsis; }
 .country-picker { position: fixed; inset: auto; margin: 0; width: min(400px, calc(100vw - 24px)); max-height: calc(100dvh - 24px); padding: 0; border: 1px solid #718379; border-radius: 6px; background: #282f2d; color: #edf2eb; box-shadow: 0 18px 60px #0008; overflow: auto; }
 .country-picker::backdrop { background: #060c0a70; }
 .country-picker-heading { position: sticky; top: 0; display: flex; justify-content: space-between; align-items: center; padding: 10px 12px 10px 18px; border-bottom: 1px solid #4b5851; background: #282f2d; }
@@ -29,7 +33,7 @@
 .country-picker-close:hover { background: #425047; }
 .country-grid { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 6px; padding: 12px; }
 .country-choice { display: flex; align-items: center; gap: 10px; min-width: 0; min-height: 52px; padding: 10px; border: 1px solid transparent; border-radius: 3px; background: #303936; color: #dce5de; text-align: left; font-size: 13px; }
-.country-choice > span:not(.nav-icon) { flex: 1; }
+.country-choice > span:not(.nav-icon) { flex: 1; min-width: 0; overflow-wrap: anywhere; }
 .country-choice > .nav-icon { visibility: hidden; width: 15px; height: 15px; flex-basis: 15px; }
 .country-choice:hover { background: #435448; border-color: #8ea695; }
 .country-choice[aria-pressed="true"] { background: #405747; border-color: #a6bfa9; color: #f2f6ec; }
@@ -43,4 +47,38 @@
   .tree-filters > .planner-option { min-height: 44px; }
   .country-picker { inset: auto 0 0; width: 100%; max-width: none; max-height: calc(100dvh - 16px); border-radius: 8px 8px 0 0; padding-bottom: env(safe-area-inset-bottom, 0px); }
   .brand-block #statusText { display: block; font-size: 10px; }
+}
+
+/* Translated labels wrap without changing the controls' state or hit targets. */
+.brand-title h1 { min-width: 0; overflow-wrap: anywhere; }
+.game-version { white-space: normal; }
+.topbar-actions { min-width: 0; }
+.topbar-actions #clearButton { min-width: max-content; }
+.floating-budget .budget-summary { flex-wrap: wrap; gap: 6px 16px; }
+.floating-budget .budget-count { white-space: normal; overflow-wrap: anywhere; }
+html:not([lang^="zh"]) .budget-count > [data-i18n="辆"] { display: none; }
+.floating-budget .floating-plan-button { width: auto; min-width: 134px; max-width: 210px; height: auto; min-height: 44px; white-space: normal; }
+.floating-budget [data-plan-button-label] { min-width: 0; overflow-wrap: anywhere; }
+.floating-budget .floating-plan-test { flex-shrink: 0; }
+.floating-planner-copy { overflow-wrap: anywhere; }
+.usage-guide-dialog p,
+.usage-guide-dialog strong,
+.unit-context-menu button { overflow-wrap: anywhere; }
+.modification-legend { flex-wrap: wrap; }
+.modification-actions { flex-wrap: wrap; }
+.modification-actions button { white-space: normal; }
+@media (max-width: 540px) {
+  .modification-actions { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+  .modification-actions button { min-height: 44px; overflow-wrap: anywhere; hyphens: auto; }
+}
+@media (max-width: 720px) {
+  .tree-filters select { min-height: 44px; }
+  .floating-budget { width: min(460px, calc(100% - 24px)); max-width: calc(100% - 24px); grid-template-columns: minmax(0, 1fr) 108px; }
+  .floating-budget .budget-summary { display: grid; gap: 3px; }
+  .floating-budget .floating-planner { min-width: 0; padding-left: 8px; }
+  .floating-budget .floating-plan-button { width: 100%; min-width: 0; max-width: none; min-height: 76px; padding: 8px 6px; font-size: 13px; }
+  .floating-budget .budget-cost { min-width: 0; }
+  .floating-budget .budget-cost strong { min-width: 0; overflow-wrap: anywhere; white-space: normal; }
+  .country-picker-heading h2 { min-width: 0; overflow-wrap: anywhere; }
+  .country-picker-close { flex-shrink: 0; }
 }

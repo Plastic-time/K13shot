@@ -110,5 +110,7 @@ async function main() {
   console.log(JSON.stringify({ count: nodes.size, translated, rows: rows.size }));
 }
 
-if (require.main === module) main().catch(error => { console.error(error); process.exitCode = 1; });
 module.exports = { parseCsv, parseCsvLine, cleanName, collectNodes, buildRows, localizedName };
+// Preserve the historical entry point without regenerating an obsolete two-language file.
+if (require.main === module) require('./build-game-locales.cjs').main(process.argv.includes('--check'))
+  .catch(error => { console.error(error.message); process.exitCode = 1; });

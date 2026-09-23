@@ -1,15 +1,16 @@
 (() => {
   'use strict';
+  const t = (source, params) => window.WTI18n.t(source, params);
   const dialog = document.createElement('dialog');
   dialog.id = 'wikiDialog';
   dialog.className = 'wiki-dialog';
   dialog.setAttribute('aria-labelledby', 'wikiTitle');
   dialog.innerHTML = `<div class="wiki-window">
-    <header class="wiki-heading"><div><small>WAR THUNDER WIKI</small><h2 id="wikiTitle"></h2></div>
-      <nav aria-label="Wiki"><button type="button" data-wiki-reload title="重新加载" aria-label="重新加载"><img src="assets/wiki/rotate-cw.svg" alt=""></button>
-      <a data-wiki-external target="_blank" rel="noopener noreferrer" title="在新标签页打开 Wiki" aria-label="在新标签页打开 Wiki"><img src="assets/wiki/external-link.svg" alt=""></a>
-      <button type="button" data-wiki-close title="关闭 Wiki" aria-label="关闭 Wiki" autofocus><img src="assets/wiki/x.svg" alt=""></button></nav>
-    </header><p class="wiki-load-status" role="status" hidden><span></span><a target="_blank" rel="noopener noreferrer" hidden>在新标签页打开 Wiki</a></p><div class="wiki-frame-host"></div></div>`;
+    <header class="wiki-heading"><div><small></small><h2 id="wikiTitle"></h2></div>
+      <nav><button type="button" data-wiki-reload><img src="assets/wiki/rotate-cw.svg" alt=""></button>
+      <a data-wiki-external target="_blank" rel="noopener noreferrer"><img src="assets/wiki/external-link.svg" alt=""></a>
+      <button type="button" data-wiki-close autofocus><img src="assets/wiki/x.svg" alt=""></button></nav>
+    </header><p class="wiki-load-status" role="status" hidden><span></span><a target="_blank" rel="noopener noreferrer" hidden></a></p><div class="wiki-frame-host"></div></div>`;
   document.body.append(dialog);
   const heading = dialog.querySelector('h2');
   const external = dialog.querySelector('[data-wiki-external]');
@@ -18,6 +19,22 @@
   const statusLink = status.querySelector('a');
   const host = dialog.querySelector('.wiki-frame-host');
   let url = '', timeout, trigger, requestId = 0;
+  let vehicleId = '', fallbackTitle = '';
+  function translate() {
+    dialog.querySelector('small').textContent = t('战争雷霆 Wiki');
+    dialog.querySelector('nav').setAttribute('aria-label', t('Wiki 操作'));
+    for (const [selector, source] of [['[data-wiki-reload]', '重新加载'], ['[data-wiki-external]', '在新标签页打开 Wiki'], ['[data-wiki-close]', '关闭 Wiki']]) {
+      const element = dialog.querySelector(selector);
+      element.title = t(source);
+      element.setAttribute('aria-label', t(source));
+    }
+    statusLink.textContent = t('在新标签页打开 Wiki');
+    const states = { loading: '正在载入 Wiki…', error: 'Wiki 未能载入。', slow: '如果页面空白或无法浏览，' };
+    statusText.textContent = states[dialog.dataset.loadState] ? t(states[dialog.dataset.loadState]) : '';
+    if (vehicleId) heading.textContent = typeof displayTitle === 'function'
+      ? displayTitle({ data_unit_id: vehicleId, title: fallbackTitle || vehicleId }) : fallbackTitle || vehicleId;
+    if (host.firstElementChild) host.firstElementChild.title = t('{vehicle} - 战争雷霆 Wiki', { vehicle: heading.textContent });
+  }
   let touchStart = null;
   document.addEventListener('touchstart', event => {
     const touch = event.touches.length === 1 ? event.touches[0] : null;
@@ -42,12 +59,12 @@
     const currentRequest = ++requestId;
     dialog.dataset.loadState = 'loading';
     status.hidden = false;
-    statusText.textContent = '正在载入 Wiki…';
+    statusText.textContent = t('正在载入 Wiki…');
     statusLink.hidden = true;
     statusLink.href = url;
     const frame = document.createElement('iframe');
     const isCurrent = () => dialog.open && requestId === currentRequest && host.firstElementChild === frame;
-    frame.title = heading.textContent + ' - War Thunder Wiki';
+    frame.title = t('{vehicle} - 战争雷霆 Wiki', { vehicle: heading.textContent });
     frame.referrerPolicy = 'strict-origin-when-cross-origin';
     frame.setAttribute('sandbox', 'allow-scripts allow-same-origin allow-popups');
     frame.addEventListener('load', () => {
@@ -62,7 +79,7 @@
       clearTimeout(timeout);
       dialog.dataset.loadState = 'error';
       status.hidden = false;
-      statusText.textContent = 'Wiki 未能载入。';
+      statusText.textContent = t('Wiki 未能载入。');
       statusLink.hidden = false;
     });
     frame.src = url;
@@ -72,7 +89,7 @@
       if (!isCurrent()) return;
       dialog.dataset.loadState = 'slow';
       status.hidden = false;
-      statusText.textContent = '如果页面空白或无法浏览，';
+      statusText.textContent = t('如果页面空白或无法浏览，');
       statusLink.hidden = false;
     }, 8000);
   }
@@ -80,7 +97,9 @@
   function open(id, title, source) {
     if (typeof id !== 'string' || !/^[a-z0-9_-]+$/i.test(id)) return;
     url = `https://wiki.warthunder.com/unit/${encodeURIComponent(id)}`;
-    heading.textContent = title || id;
+    vehicleId = id;
+    fallbackTitle = title || id;
+    translate();
     external.href = url;
     trigger = source || document.activeElement;
     if (!dialog.open) dialog.showModal();
@@ -109,4 +128,6 @@
     open(button.dataset.wikiId, button.dataset.wikiTitle, button);
   });
   window.WikiViewer = {open};
+  document.addEventListener('wt-language-change', translate);
+  translate();
 })();

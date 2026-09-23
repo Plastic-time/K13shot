@@ -1,5 +1,6 @@
 (() => {
   "use strict";
+  const t = (source, params) => window.WTI18n.t(source, params);
   let options, panel, backdrop, content, heading, activeKey = "", activeGroup = "", trigger, frame;
   let restoreUnit = "";
   const buttons = () => [...options.tree.querySelectorAll("[data-folder-key]")];
@@ -67,7 +68,8 @@
     panel.setAttribute("role", "dialog");
     panel.setAttribute("aria-modal", "true");
     panel.setAttribute("aria-labelledby", "folderPopupTitle");
-    panel.innerHTML = '<header class="folder-popup-heading"><span id="folderPopupTitle"></span><button type="button" class="folder-popup-close" aria-label="关闭 / Close" title="关闭 / Close">×</button></header><div class="folder-popup-content"></div>';
+    panel.innerHTML = '<header class="folder-popup-heading"><span id="folderPopupTitle"></span><button type="button" class="folder-popup-close">×</button></header><div class="folder-popup-content"></div>';
+    translateControls();
     document.body.append(panel);
     heading = panel.querySelector("#folderPopupTitle");
     content = panel.querySelector(".folder-popup-content");
@@ -127,6 +129,19 @@
       if (activeKey && !buttons().some(button => button.dataset.folderKey === activeKey)) close();
     }).observe(options.tree, { childList: true });
   }
+
+  function translateControls() {
+    const closeButton = panel?.querySelector('.folder-popup-close');
+    closeButton?.setAttribute('aria-label', t('关闭'));
+    closeButton?.setAttribute('title', t('关闭'));
+  }
+
+  document.addEventListener('wt-language-change', () => {
+    translateControls();
+    if (!panel || panel.hidden) return;
+    if (panel.contains(document.activeElement)) restoreUnit = document.activeElement.dataset.unitId || '';
+    refresh();
+  });
 
   window.VehicleFolders = { configure, refresh, close, beforeTreeRender() {
     if (panel?.contains(document.activeElement)) restoreUnit = document.activeElement.dataset.unitId || "";

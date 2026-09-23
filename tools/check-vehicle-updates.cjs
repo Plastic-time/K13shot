@@ -45,9 +45,12 @@ async function checkVehicleUpdates({ evaluate, call, artifacts, suffix }) {
   fs.writeFileSync(path.join(artifacts, suffix + '-new-vehicle.png'), Buffer.from(shot.data, 'base64'));
   await evaluate("els.searchInput.value='';els.searchInput.dispatchEvent(new Event('input'));els.countrySelect.value='usa';els.typeSelect.value='aviation';loadTree()");
   const aviation = await checkMarks();
+  assert(!aviation.includes('b_52h'));
+  assert(!aviation.includes('f_14d'));
+  assert(!aviation.includes('f_16xl'));
   if (suffix.startsWith('pages')) assert(await evaluate(`(() => {
-    const unit = state.unitMap.get('f_14d');
-    if (!unit.parent_group_id) return document.querySelector('[data-unit-id="f_14d"] .unit-update-label') !== null;
+    const unit = state.unitMap.get('f_14d_vf_11');
+    if (!unit.parent_group_id) return document.querySelector('[data-unit-id="f_14d_vf_11"] .unit-update-label') !== null;
     return [...document.querySelectorAll('[data-folder-group]')].some(button =>
       button.dataset.folderGroup === unit.parent_group_id && button.classList.contains('has-new'));
   })()`), 'Collapsed folders indicate new vehicles inside');

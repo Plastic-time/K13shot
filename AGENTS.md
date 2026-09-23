@@ -22,6 +22,19 @@ the `guizang-ppt-skill/SKILL.md` file under the user's local Codex skills direct
 
 ## Game Data Authority
 
+- Check https://github.com/gszabi99/War-Thunder-Datamine when reviewing game
+  updates. Resolve a commit first, then read its version and configuration;
+  never consume a moving branch as an unrecorded production snapshot.
+- Run `node tools/check-datamine-updates.cjs` for a read-only update report in
+  `logs/datamine-update-check.json`. This is an on-demand check, not a scheduled
+  watcher or an automatic import. Review costs and user-confirmed corrections
+  separately before applying changes; changed files alone do not prove changed
+  player-facing prices or public availability.
+- NEW vehicle badges mean additions in the current game major update compared
+  with the preceding live major update, not newly scraped calculator entries.
+  Review configuration differences against official release announcements to
+  exclude dev-server, unreleased, renamed and model-only changes. Maintain
+  `config/vehicle-release.json`; a new major version requires a fresh review.
 - For future data updates, use version-pinned game configuration as the primary
   authority for vehicle and modification RP, Silver Lions, tiers, unlock counts,
   prerequisites, and modification membership. Record the game version and source

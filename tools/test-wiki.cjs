@@ -24,13 +24,26 @@ assert.throws(()=>parseWikiDetail('<html>error</html>','test'));
 assert.throws(()=>parseWikiDetail(fixture(),'wrong-id'));
 assert.throws(()=>parseWikiDetail(fixture({rp:'broken value'}),'test'));
 
-const context=vm.createContext({document:{getElementById:()=>({})},window:{matchMedia:()=>({matches:false})},console});
+function appContext() {
+  const context = vm.createContext({
+    document: { documentElement: {}, getElementById: () => ({}), addEventListener() {}, dispatchEvent() {}, querySelectorAll: () => [] },
+    window: { matchMedia: () => ({ matches: false }) },
+    localStorage: { getItem: () => null, setItem() {} },
+    CustomEvent: class { constructor(type, options) { this.type = type; this.detail = options.detail; } },
+    console,
+  });
+  for (const file of ['i18n.js', 'app-translations.js', 'static-translations.js', 'module-translations.js']) {
+    vm.runInContext(fs.readFileSync(path.join(root, 'docs', file), 'utf8'), context);
+  }
+  return context;
+}
+const context=appContext();
 const app=fs.readFileSync(path.join(root,'docs/app.js'),'utf8').replace(/\binit\(\);\s*$/,'');
 const rules=fs.readFileSync(path.join(root,'docs/unlock-quantity.js'),'utf8');
 assert.equal(rules,fs.readFileSync(path.join(root,'dict/unlock_quantity.js'),'utf8'));
 const expose='\nrenderTree=()=>{};renderSummary=()=>{};globalThis.calc={state,flattenTree,getDependencyIds,calculatePlan,isInitialUnlockedUnit,formatCost,getRankUnlockQuantity,renderRankUnlockGate};';
 vm.runInContext(rules+'\n'+app+expose,context);
-const legacy=vm.createContext({document:{getElementById:()=>({})},window:{matchMedia:()=>({matches:false})},console});
+const legacy=appContext();
 vm.runInContext(rules+'\n'+app+'\n'+fs.readFileSync(path.join(root,'tools/fixtures/legacy-planning.js'),'utf8')+expose,legacy);
 const {calc}=context;
 const manifest=JSON.parse(fs.readFileSync(path.join(root,'docs/database/manifest.json'),'utf8'));

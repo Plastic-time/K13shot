@@ -1,5 +1,7 @@
 (function () {
   "use strict";
+  const t = (source, params) => window.WTI18n.t(source, params);
+  const failure = (source, params) => Object.assign(new Error(t(source, params)), { translationSource: source, translationParams: params });
 
   let busy = false;
   const imageCache = new Map();
@@ -8,7 +10,7 @@
     return new Promise((resolve, reject) => {
       const reader = new FileReader();
       reader.onload = () => resolve(reader.result);
-      reader.onerror = () => reject(new Error("图片读取失败"));
+      reader.onerror = () => reject(new Error(t("图片读取失败")));
       reader.readAsDataURL(blob);
     });
   }
@@ -25,7 +27,7 @@
             });
             if (!response.ok) throw new Error("HTTP " + response.status);
             const blob = await response.blob();
-            if (!blob.type.startsWith("image/")) throw new Error("无效图片");
+            if (!blob.type.startsWith("image/")) throw new Error(t("无效图片"));
             return await readDataUrl(blob);
           } catch (error) {
             if (attempt === 1) throw error;
@@ -55,12 +57,12 @@
         }
       }
     }));
-    if (failed.length) throw new Error(failed.length + " 张载具图片未能读取，请检查网络后重试");
+    if (failed.length) throw failure("{count} 张载具图片未能读取，请检查网络后重试", { count: failed.length });
   }
 
   async function render(payload, source, drawConnections) {
-    if (busy) throw new Error("正在生成科技树截图，请稍候");
-    if (!source || !window.htmlToImage) throw new Error("科技树或截图组件尚未载入");
+    if (busy) throw new Error(t("正在生成科技树截图，请稍候"));
+    if (!source || !window.htmlToImage) throw new Error(t("科技树或截图组件尚未载入"));
     busy = true;
     let host;
     try {
@@ -79,9 +81,9 @@
       const header = document.createElement("header");
       header.className = "tree-screenshot-header";
       const title = document.createElement("strong");
-      title.textContent = payload.country + " · " + payload.type + " 科技树";
+      title.textContent = t("{country} · {type} 科技树", { country: payload.country, type: payload.type });
       const budget = document.createElement("span");
-      budget.textContent = "待研发 " + payload.pendingCount + " 辆 · " + payload.rpLabel + " " + payload.totalRp + " · " + payload.slLabel + " " + payload.totalSl;
+      budget.textContent = t("待研发 {count} 辆 · {rpLabel} {rp} · {slLabel} {sl}", { count: payload.pendingCount, rpLabel: payload.rpLabel, rp: payload.totalRp, slLabel: payload.slLabel, sl: payload.totalSl });
       header.append(title, budget);
       sheet.append(header, tree);
       host.append(sheet);
@@ -97,8 +99,10 @@
         width, height, pixelRatio: scale, backgroundColor: "#edf0ed",
         skipAutoScale: true,
       });
-      if (!canvas.width || !canvas.height) throw new Error("科技树截图尺寸无效");
+      if (!canvas.width || !canvas.height) throw failure("科技树截图尺寸无效");
       return canvas;
+    } catch (error) {
+      throw failure(error.translationSource || "截图生成失败", error.translationParams);
     } finally {
       host?.remove();
       busy = false;
@@ -108,7 +112,11 @@
   async function download(payload, source, drawConnections) {
     const canvas = await render(payload, source, drawConnections);
     const blob = await new Promise((resolve, reject) => {
-      canvas.toBlob(value => value ? resolve(value) : reject(new Error("截图生成失败")), "image/png");
+      try {
+        canvas.toBlob(value => value ? resolve(value) : reject(failure("截图生成失败")), "image/png");
+      } catch {
+        reject(failure("截图生成失败"));
+      }
     });
     const url = URL.createObjectURL(blob);
     const anchor = document.createElement("a");

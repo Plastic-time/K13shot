@@ -83,6 +83,11 @@
     const hidden = new Set(input.hiddenIds || []);
     const avoidFolded = input.avoidFolded === true;
     const warnings = [];
+    const warningMessages = [];
+    const warn = (source, params = {}) => {
+      warningMessages.push({ source, params });
+      warnings.push(source.replace(/\{(\w+)\}/g, (_, key) => String(params[key])));
+    };
     const closureCache = new Map();
 
     function isFirstRank(rank) {
@@ -130,14 +135,14 @@
     }
 
     const mandatoryHidden = [...mandatory].filter(id => hidden.has(id) && !targets.has(id) && !waypoints.has(id));
-    if (mandatoryHidden.length) warnings.push(`前置链包含 ${mandatoryHidden.length} 个持有后可见载具，请在游戏内确认。`);
+    if (mandatoryHidden.length) warn("前置链包含 {count} 个持有后可见载具，请在游戏内确认。", { count: mandatoryHidden.length });
 
     const ignoredRequested = requested.filter(id => {
       const unit = unitMap.get(id);
       const className = String(unit?.class_name || "").trim().toLowerCase();
       return unit?.section !== "researchable" || SPECIAL_CLASSES.has(className) || unit?.is_squadron === true;
     });
-    if (ignoredRequested.length) warnings.push(`${ignoredRequested.length} 个非科技树目标只作标记，不计入自动研发费用。`);
+    if (ignoredRequested.length) warn("{count} 个非科技树目标只作标记，不计入自动研发费用。", { count: ignoredRequested.length });
 
     const maxRequestedRank = activeRequested.reduce((max, id) => {
       const unit = unitMap.get(id);
@@ -289,8 +294,8 @@
 
     const finalSelected = best || base;
     const unresolved = highestDeficiency(finalSelected);
-    if (unresolved) warnings.push(`等级 ${unresolved.rank} 仍缺少 ${unresolved.missing} 个可用载具，当前数据无法形成完整路线。`);
-    if (!searchComplete && !unresolved && queue.size) warnings.push("搜索达到本机计算上限，已返回当前找到的最低路线。");
+    if (unresolved) warn("等级 {rank} 仍缺少 {count} 个可用载具，当前数据无法形成完整路线。", { rank: unresolved.rank, count: unresolved.missing });
+    if (!searchComplete && !unresolved && queue.size) warn("搜索达到本机计算上限，已返回当前找到的最低路线。");
     if (!searchComplete && !unresolved && !queue.size) searchComplete = true;
 
     const selectedIds = [...finalSelected]
@@ -318,6 +323,7 @@
       totalSp: total.sp,
       rankCounts,
       warnings,
+      warningMessages,
       searchComplete: searchComplete && !unresolved,
       feasible: !unresolved,
       exploredStates: explored,

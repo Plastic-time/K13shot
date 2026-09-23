@@ -1,5 +1,7 @@
 (() => {
   "use strict";
+  const t = (source, params = {}) => window.WTI18n?.t(source, params)
+    ?? source.replace(/\{(\w+)\}/g, (match, key) => params[key] ?? match);
   const badge = document.getElementById("onlineCount");
   const endpoint = document.currentScript?.dataset.endpoint;
   if (!badge) return;
@@ -20,11 +22,15 @@
   let stopped = false;
   let storageWorks = true;
   let owner;
+  let lastStatus = "connecting", lastCount;
   function show(status, count) {
-    const text = status === "online" ? `\u5f53\u524d\u5728\u7ebf\uff1a${count} \u4eba` : messages[status];
+    lastStatus = status;
+    lastCount = count;
+    const text = status === "online" ? t("\u5f53\u524d\u5728\u7ebf\uff1a{count} \u4eba", { count }) : t(messages[status]);
     badge.dataset.state = status;
     if (badge.textContent !== text) badge.textContent = text;
   }
+  document.addEventListener("wt-language-change", () => show(lastStatus, lastCount));
   function read() {
     const raw = localStorage.getItem(KEY);
     if (!raw) return {};

@@ -270,14 +270,14 @@ async function main() {
             const zh = {
               text: zhTitle?.textContent,
               complete: zhTitle && zhTitle.scrollWidth <= zhTitle.clientWidth + 1 && zhTitle.scrollHeight <= zhTitle.clientHeight + 1,
-              active: els.languageZhButton.getAttribute('aria-pressed') === 'true',
+              active: els.languageSelect.value === 'zh',
             };
             setLanguage('en');
             const enTitle = groupTitle();
             const en = {
               text: enTitle?.textContent,
               complete: enTitle && enTitle.scrollWidth <= enTitle.clientWidth + 1 && enTitle.scrollHeight <= enTitle.clientHeight + 1,
-              active: els.languageEnButton.getAttribute('aria-pressed') === 'true',
+              active: els.languageSelect.value === 'en',
             };
             els.searchInput.value = '布伦海姆'; els.searchInput.dispatchEvent(new Event('input'));
             const chineseSearchInEnglish = groupTitle()?.textContent === 'Blenheim/Beaufort';
@@ -287,16 +287,16 @@ async function main() {
             const labelsFit = [...document.querySelectorAll('.unit-title, .group-header > span')].every(node =>
               node.scrollWidth <= node.clientWidth + 1 && node.scrollHeight <= node.clientHeight + 1
             );
-            const flags = [els.languageZhButton, els.languageEnButton].map(button => button.querySelector('.language-flag')?.getAttribute('src'));
+            const languages = [...els.languageSelect.options].map(option => option.value);
             els.searchInput.value = ''; els.searchInput.dispatchEvent(new Event('input'));
-            return {zh, en, chineseSearchInEnglish, englishSearchInChinese, labelsFit, flags};
+            return {zh, en, chineseSearchInEnglish, englishSearchInChinese, labelsFit, languages};
           })()`);
           assert.deepEqual(language.zh, {text:'布伦海姆/波佛特',complete:true,active:true});
           assert.deepEqual(language.en, {text:'Blenheim/Beaufort',complete:true,active:true});
           assert.equal(language.chineseSearchInEnglish, true, 'Chinese search must work in English display mode');
           assert.equal(language.englishSearchInChinese, true, 'English search must work in Chinese display mode');
           assert.equal(language.labelsFit, true, 'Vehicle and folder names must not be clipped');
-          assert.deepEqual(language.flags, ['assets/flags/cn.svg','assets/flags/gb.svg']);
+          assert.deepEqual(language.languages, ['zh', 'en', 'ru', 'de', 'fr', 'ja', 'es']);
           console.log(JSON.stringify({label:`vehicle-language-${width}`, ...language, pass:true}));
           const languageShot = await call('Page.captureScreenshot', { format: 'png' });
           fs.writeFileSync(path.join(artifacts, `vehicle-language-${width}.png`), Buffer.from(languageShot.data, 'base64'));

@@ -3,6 +3,11 @@
   const flags = {usa: "us", germany: "de", ussr: "su", britain: "gb", japan: "jp", china: "cn", italy: "it", france: "fr", sweden: "se", israel: "il"};
   const icons = {ground: "truck", aviation: "plane", helicopters: "fan", ships: "ship", boats: "sailboat"};
   const labels = {ships: "远洋", boats: "近岸"};
+  const countryLabels = {usa: "美国", germany: "德国", ussr: "苏联", britain: "英国", japan: "日本", china: "中国", italy: "意大利", france: "法国", sweden: "瑞典", israel: "以色列"};
+  const typeLabels = {ground: "陆战", aviation: "空战", helicopters: "直升机", ships: "远洋舰队", boats: "近岸舰队"};
+  const t = (source, params) => window.WTI18n.t(source, params);
+  let loadingState = false;
+  let pickerTitle, dismiss;
   let country, type, trigger, dialog, tabs, choices;
 
   function element(tag, className, text) {
@@ -50,15 +55,31 @@
   }
   function sync(loading = false) {
     if (!trigger) return;
+    loadingState = loading;
     const option = country.selectedOptions[0];
-    trigger.replaceChildren(flag(country.value), element("span", "country-current", option?.textContent || country.value), icon("chevron-down"));
-    trigger.setAttribute("aria-label", `切换国家，当前${option?.textContent || country.value}`);
+    const current = t(countryLabels[country.value] || option?.textContent || country.value);
+    trigger.replaceChildren(flag(country.value), element("span", "country-current", current), icon("chevron-down"));
+    trigger.setAttribute("aria-label", t("切换国家，当前{country}", {country: current}));
+    trigger.title = t("切换国家");
+    tabs.setAttribute("aria-label", t("军种"));
+    pickerTitle.textContent = t("选择国家");
+    dismiss.setAttribute("aria-label", t("关闭国家选择"));
+    dismiss.title = t("关闭");
     trigger.disabled = loading;
     for (const node of tabs.children) {
+      const source = typeLabels[node.dataset.type] || node.dataset.source;
+      node.setAttribute("aria-label", t(source));
+      node.title = t(source);
+      node.querySelector(".branch-label").textContent = t(labels[node.dataset.type] || source);
       node.disabled = loading;
       node.setAttribute("aria-pressed", String(node.dataset.type === type.value));
     }
-    for (const node of choices.children) node.setAttribute("aria-pressed", String(node.dataset.country === country.value));
+    for (const node of choices.children) {
+      const label = t(countryLabels[node.dataset.country] || node.dataset.source);
+      node.querySelector(".country-label").textContent = label;
+      node.setAttribute("aria-label", label);
+      node.setAttribute("aria-pressed", String(node.dataset.country === country.value));
+    }
     tabs.setAttribute("aria-busy", String(loading));
   }
   function mount(countrySelect, typeSelect) {
@@ -67,18 +88,19 @@
     type = typeSelect;
     const toolbar = country.closest(".toolbar");
     const navigation = element("div", "tree-navigation");
-    trigger = button("country-trigger", "切换国家");
+    trigger = button("country-trigger", t("切换国家"));
     trigger.setAttribute("aria-haspopup", "dialog");
     trigger.setAttribute("aria-controls", "countryPicker");
     trigger.setAttribute("aria-expanded", "false");
     tabs = element("div", "branch-tabs");
     tabs.setAttribute("role", "group");
-    tabs.setAttribute("aria-label", "军种");
+    tabs.setAttribute("aria-label", t("军种"));
     for (const option of type.options) {
       const node = button("branch-tab", option.textContent);
       node.dataset.type = option.value;
+      node.dataset.source = option.textContent;
       node.title = option.textContent;
-      node.append(icon(icons[option.value]), element("span", "", labels[option.value] || option.textContent));
+      node.append(icon(icons[option.value]), element("span", "branch-label", t(labels[option.value] || typeLabels[option.value] || option.textContent)));
       node.addEventListener("click", () => choose(type, option.value));
       tabs.append(node);
     }
@@ -86,18 +108,19 @@
     dialog.id = "countryPicker";
     dialog.setAttribute("aria-labelledby", "countryPickerTitle");
     const heading = element("header", "country-picker-heading");
-    const title = element("h2", "", "选择国家");
-    title.id = "countryPickerTitle";
-    const dismiss = button("country-picker-close", "关闭国家选择");
-    dismiss.title = "关闭";
+    pickerTitle = element("h2", "", t("选择国家"));
+    pickerTitle.id = "countryPickerTitle";
+    dismiss = button("country-picker-close", t("关闭国家选择"));
+    dismiss.title = t("关闭");
     dismiss.append(icon("x"));
     dismiss.addEventListener("click", close);
-    heading.append(title, dismiss);
+    heading.append(pickerTitle, dismiss);
     choices = element("div", "country-grid");
     for (const option of country.options) {
       const node = button("country-choice", option.textContent);
       node.dataset.country = option.value;
-      node.append(flag(option.value), element("span", "", option.textContent), icon("check"));
+      node.dataset.source = option.textContent;
+      node.append(flag(option.value), element("span", "country-label", t(countryLabels[option.value] || option.textContent)), icon("check"));
       node.addEventListener("click", () => choose(country, option.value));
       choices.append(node);
     }
@@ -126,5 +149,10 @@
     toolbar.classList.add("has-tree-navigation");
     sync();
   }
+  document.addEventListener("wt-language-change", () => {
+    // Keep the current selection, focus, open picker and in-flight loading state.
+    sync(loadingState);
+    if (dialog?.open) position();
+  });
   window.TreeNavigation = {mount, sync};
 })();

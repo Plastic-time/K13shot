@@ -1,71 +1,52 @@
-// Generated from the published snapshot; not a game release-date claim.
+// Generated from config/vehicle-release.json; reviewed game release additions only.
 window.WTVehicleUpdates = {
-  "date": "2026-09-19",
-  "basis": "snapshot-additions",
+  "date": "2026-09-16",
+  "basis": "game-major-update",
+  "status": "reviewed",
+  "major": "2.59",
+  "name": "Sky Odyssey",
+  "announcement": "https://warthunder.com/en/game/changelog/current/1894",
   "trees": {
     "usa/ground": [
       "us_m7"
     ],
     "germany/ground": [
-      "germ_hummel",
-      "germ_schutzenpanzer_puma_vjtf_mod",
       "germ_embt"
     ],
     "ussr/ground": [
       "ussr_t_44_kit_4rank",
       "ussr_is_2m_kit_4rank",
       "ussr_m53_59_kit_4rank",
-      "ussr_object_416",
-      "ussr_t_90m_arena_m"
+      "ussr_object_416"
     ],
     "britain/ground": [
-      "uk_fv107_scimitar_mk2",
-      "uk_arjun_mk1",
-      "uk_challenger_2_megatron_sm",
-      "uk_m1a1_aim_abrams",
-      "uk_m1a2_sep3_abrams"
+      "uk_arjun_mk1"
     ],
     "japan/ground": [
-      "jp_harimau",
-      "jp_type_90b_sm",
-      "jp_leopard_2ri"
+      "jp_harimau"
     ],
     "china/ground": [
       "cn_plz_45",
-      "cn_pgz_88",
-      "cn_mbt2000_sm",
       "cn_fk_2000"
     ],
     "italy/ground": [
-      "it_palmaria",
-      "it_fiat_6616_ub",
       "it_pzh_2000"
     ],
     "france/ground": [
       "fr_arl_44_mod",
-      "fr_leopard_1a5be",
       "fr_embt"
     ],
-    "sweden/ground": [
-      "sw_nomads"
-    ],
+    "sweden/ground": [],
     "israel/ground": [
       "il_9a33bm3",
       "il_tor_m1",
-      "il_hunter_afv",
       "il_leopard_2a6_hel"
     ],
     "usa/aviation": [
       "f_102a_late",
-      "f_101c",
-      "b_52h",
-      "f_14d_vf_11",
-      "f_14d",
-      "f_16xl"
+      "f_14d_vf_11"
     ],
     "germany/aviation": [
-      "fw_189c_0",
-      "ia_58a_pucara",
       "arado_234b_2_mt"
     ],
     "ussr/aviation": [
@@ -85,33 +66,27 @@ window.WTVehicleUpdates = {
     "china/aviation": [
       "j_16"
     ],
-    "italy/aviation": [
-      "iar_81c_db_605"
-    ],
+    "italy/aviation": [],
     "france/aviation": [
       "se_203"
     ],
     "sweden/aviation": [
-      "saab_j35j",
-      "saab_ajs37_early"
+      "saab_j35j"
     ],
     "israel/aviation": [
       "sb2c_5_greece",
-      "spitfire_lf_mk9c_cw_greece",
       "f-84g_greece",
       "f_102a_greece",
       "f_86em_greece",
       "a_7h_greece",
       "mirage_f1cg_greece",
       "a_7e_greece",
-      "mig_21_2000_iaf",
       "f_4e_aup_greece",
       "mirage_2000_5eg_mk2_greece",
       "rafale_eg_greece"
     ],
     "usa/helicopters": [],
     "germany/helicopters": [
-      "mi_24d_german",
       "h145m"
     ],
     "ussr/helicopters": [],
@@ -125,32 +100,20 @@ window.WTVehicleUpdates = {
     "sweden/helicopters": [],
     "israel/helicopters": [],
     "usa/ships": [
-      "us_destroyer_mahan_class",
-      "us_destroyer_gridley",
-      "us_battleship_north_carolina_class"
+      "us_destroyer_mahan_class"
     ],
-    "germany/ships": [
-      "germ_kanonenboot_k4_lorelei",
-      "germ_cruiser_admiral_scheer"
-    ],
-    "ussr/ships": [
-      "ussr_cruiser_chervona_ukraina",
-      "ussr_battleship_oktyabrskaya_revolutsiya"
-    ],
+    "germany/ships": [],
+    "ussr/ships": [],
     "britain/ships": [
-      "uk_egret_class",
       "uk_battleship_lion_class"
     ],
-    "japan/ships": [
-      "jp_destroyer_suzutsuki"
-    ],
+    "japan/ships": [],
     "china/ships": [],
     "italy/ships": [
       "it_battleship_giulio_cesare"
     ],
     "france/ships": [
-      "fr_cruiser_algerie_class",
-      "fr_battleship_richelieu_class_jean_bart"
+      "fr_cruiser_algerie_class"
     ],
     "sweden/ships": [],
     "israel/ships": [],
@@ -161,20 +124,14 @@ window.WTVehicleUpdates = {
     "ussr/boats": [
       "ussr_fugas_t1_strela"
     ],
-    "britain/boats": [
-      "uk_73ft_vosper_type2"
-    ],
+    "britain/boats": [],
     "japan/boats": [
-      "jp_ujishima_msc",
       "jp_type9_pt809"
     ],
     "china/boats": [],
-    "italy/boats": [
-      "it_mas_classe429"
-    ],
+    "italy/boats": [],
     "france/boats": [
-      "fr_lcm_monitor",
-      "fr_trident_class_glaive_p671"
+      "fr_lcm_monitor"
     ],
     "sweden/boats": [],
     "israel/boats": []

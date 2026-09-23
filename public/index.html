@@ -4,60 +4,69 @@
     <meta charset="utf-8" />
     <meta name="referrer" content="no-referrer" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <title>War Thunder 研发计算器</title>
-    <link rel="stylesheet" href="/styles.css?v=touch-menu-20260921" />
-    <link rel="stylesheet" href="/modifications.css?v=mobile-header-20260921" />
+    <script src="/i18n.js?v=1.0.10"></script>
+    <script src="/app-translations.js?v=1.0.10"></script>
+    <script src="/static-translations.js?v=1.0.10"></script>
+    <script src="/module-translations.js?v=1.0.10"></script>
+    <title data-i18n="War Thunder 研发计算器">War Thunder 研发计算器</title>
+    <link rel="stylesheet" href="/styles.css?v=1.0.10" />
+    <link rel="stylesheet" href="/modifications.css?v=1.0.10" />
   </head>
   <body>
     <div class="app-shell">
       <header class="topbar">
         <div class="brand-block">
           <div class="brand-title">
-            <h1>War Thunder 研发计算器</h1>
-            <span class="game-version" title="载具 RP / 银狮于 2026-09-21 核对；配件沿用独立快照">游戏数据 <span data-game-version>2.59.0.17</span></span>
+            <h1 data-i18n="War Thunder 研发计算器">War Thunder 研发计算器</h1>
+            <span class="game-version" title="载具 RP / 银狮于 2026-09-21 核对；配件沿用独立快照" data-i18n-title="载具 RP / 银狮于 2026-09-21 核对；配件沿用独立快照"><span data-i18n="游戏数据">游戏数据</span> <span data-game-version>2.59.0.17</span></span>
           </div>
-          <p id="statusText">正在载入数据</p>
-          <div class="creator-watermark" aria-label="作者水印">
-            bilibili关注：扑街的靓仔 <span>游戏ID：如日方中</span>
+          <p id="statusText" data-i18n="正在载入数据">正在载入数据</p>
+          <div class="creator-watermark" aria-label="作者水印" data-i18n-aria-label="作者水印">
+            <span data-i18n="bilibili关注：">bilibili关注：</span>扑街的靓仔 <span><span data-i18n="游戏ID：">游戏ID：</span>如日方中</span>
           </div>
         </div>
         <div class="topbar-actions">
-          <button id="refreshDataButton" class="secondary-button" type="button">更新当前树</button>
-          <button id="guideButton" class="secondary-button" type="button">使用指南</button>
-          <button id="routeExportButton" class="secondary-button" type="button" disabled>导出科技树截图</button>
-          <button id="clearButton" class="danger-button" type="button">清空计划</button>
+          <button id="refreshDataButton" class="secondary-button" type="button" data-i18n="更新当前树">更新当前树</button>
+          <button id="guideButton" class="secondary-button" type="button" data-i18n="使用指南">使用指南</button>
+          <button id="routeExportButton" class="secondary-button" type="button" disabled data-i18n="导出科技树截图">导出科技树截图</button>
+          <button id="clearButton" class="danger-button" type="button" data-i18n="清空计划">清空计划</button>
         </div>
       </header>
 
-      <section class="toolbar" aria-label="筛选">
+      <section class="toolbar" aria-label="筛选" data-i18n-aria-label="筛选">
         <label>
-          <span>国家</span>
+          <span data-i18n="国家">国家</span>
           <select id="countrySelect"></select>
         </label>
         <label>
-          <span>军种</span>
+          <span data-i18n="军种">军种</span>
           <select id="typeSelect"></select>
         </label>
         <label class="search-label">
-          <span>搜索</span>
-          <input id="searchInput" type="search" placeholder="中文、英文名称或 ID" />
+          <span data-i18n="搜索">搜索</span>
+          <input id="searchInput" type="search" placeholder="载具名称或 ID" data-i18n-placeholder="载具名称或 ID" />
         </label>
-        <div class="language-field">
-          <span>载具名称</span>
-          <div class="language-toggle" role="group" aria-label="载具名称语言">
-            <button id="languageZhButton" class="language-option" type="button" data-language="zh" aria-pressed="false"><img class="language-flag" src="/assets/flags/cn.svg" alt="" /> 中文</button>
-            <button id="languageEnButton" class="language-option" type="button" data-language="en" aria-pressed="false"><img class="language-flag" src="/assets/flags/gb.svg" alt="" /> English</button>
-          </div>
-        </div>
+        <label class="language-field">
+          <span data-i18n="语言">语言</span>
+          <select id="languageSelect" aria-label="语言" data-i18n-aria-label="语言">
+            <option value="zh" lang="zh">中文</option>
+            <option value="en" lang="en">English</option>
+            <option value="ru" lang="ru">Русский</option>
+            <option value="de" lang="de">Deutsch</option>
+            <option value="fr" lang="fr">Français</option>
+            <option value="ja" lang="ja">日本語</option>
+            <option value="es" lang="es">Español</option>
+          </select>
+        </label>
         <label>
-          <span>计算范围</span>
+          <span data-i18n="计算范围">计算范围</span>
           <select id="dependencyModeSelect">
-            <option value="selected">只算所选</option>
+            <option value="selected" data-i18n="只算所选">只算所选</option>
           </select>
         </label>
         <label class="planner-option">
           <input id="avoidFoldedInput" type="checkbox" />
-          <span>自动补位时避开折叠载具</span>
+          <span data-i18n="自动补位时避开折叠载具">自动补位时避开折叠载具</span>
         </label>
       </section>
 
@@ -65,38 +74,38 @@
         <aside class="summary-panel" hidden aria-hidden="true">
           <div class="planner-status" aria-live="polite">
             <div>
-              <strong>本地精确规划</strong>
-              <span id="plannerStatus">选择目标后点击“精确规划”</span>
+              <strong data-i18n="本地精确规划">本地精确规划</strong>
+              <span id="plannerStatus" data-i18n="选择目标后点击“精确规划”">选择目标后点击“精确规划”</span>
             </div>
             <div class="planner-state-counts">
-              <span>已拥有 <b id="ownedCount">0</b></span>
-              <span>途经点 <b id="waypointCount">0</b></span>
+              <span><span data-i18n="已拥有">已拥有</span> <b id="ownedCount">0</b></span>
+              <span><span data-i18n="途经点">途经点</span> <b id="waypointCount">0</b></span>
             </div>
           </div>
           <div class="metric-grid">
             <div class="metric">
-              <span>还需 RP</span>
+              <span data-i18n="还需 RP">还需 RP</span>
               <strong id="totalRp">0</strong>
             </div>
             <div class="metric">
-              <span>购买 SL</span>
+              <span data-i18n="购买 SL">购买 SL</span>
               <strong id="totalSp">0</strong>
             </div>
             <div class="metric">
-              <span>载具数量</span>
+              <span data-i18n="载具数量">载具数量</span>
               <strong id="missingCount">0</strong>
             </div>
           </div>
           <div class="planned-block">
             <div class="panel-heading">
-              <h2>已选择载具</h2>
+              <h2 data-i18n="已选择载具">已选择载具</h2>
               <span id="plannedCount">0</span>
             </div>
             <div id="plannedList" class="compact-list"></div>
           </div>
           <div class="planned-block">
             <div class="panel-heading">
-              <h2>研发路径</h2>
+              <h2 data-i18n="研发路径">研发路径</h2>
               <span id="pathCount">0</span>
             </div>
             <div id="missingList" class="compact-list"></div>
@@ -108,43 +117,43 @@
 
     </div>
 
-    <div id="unitContextMenu" class="unit-context-menu" role="menu" aria-label="载具规划操作" hidden>
+    <div id="unitContextMenu" class="unit-context-menu" role="menu" aria-label="载具规划操作" hidden data-i18n-aria-label="载具规划操作">
       <div class="unit-context-heading">
-        <span>载具操作</span>
+        <span data-i18n="载具操作">载具操作</span>
         <strong id="unitContextTitle"></strong>
       </div>
-      <button type="button" role="menuitemcheckbox" data-context-action="target" aria-checked="false"><span data-context-label>设为目标</span></button>
-      <button type="button" role="menuitemcheckbox" data-context-action="owned" aria-checked="false"><span data-context-label>标记为已拥有</span></button>
-      <button type="button" role="menuitemcheckbox" data-context-action="waypoint" aria-checked="false"><span data-context-label>设为途经点</span></button>
-      <small id="unitContextHint">再次选择当前状态即可取消</small>
+      <button type="button" role="menuitemcheckbox" data-context-action="target" aria-checked="false"><span data-context-label data-i18n="设为目标">设为目标</span></button>
+      <button type="button" role="menuitemcheckbox" data-context-action="owned" aria-checked="false"><span data-context-label data-i18n="标记为已拥有">标记为已拥有</span></button>
+      <button type="button" role="menuitemcheckbox" data-context-action="waypoint" aria-checked="false"><span data-context-label data-i18n="设为途经点">设为途经点</span></button>
+      <small id="unitContextHint" data-i18n="再次选择当前状态即可取消">再次选择当前状态即可取消</small>
     </div>
 
     <dialog id="modificationDialog" class="modification-dialog" aria-labelledby="modificationTitle">
       <header class="modification-titlebar">
         <div class="modification-vehicle">
           <img id="modificationVehicleImage" alt="" />
-          <div><span>MODIFICATIONS</span><h2 id="modificationTitle">配件研发 — J-16</h2></div>
+          <div><span data-i18n="配件">配件</span><h2 id="modificationTitle" data-i18n="配件研发">配件研发</h2></div>
         </div>
-        <button class="modification-close" type="button" data-modification-close aria-label="关闭配件研发" title="关闭">×</button>
+        <button class="modification-close" type="button" data-modification-close aria-label="关闭配件研发" title="关闭" data-i18n-title="关闭" data-i18n-aria-label="关闭配件研发">×</button>
       </header>
       <div class="modification-toolbar">
-        <div class="modification-legend" aria-label="配件状态图例">
-          <span><i class="target"></i>目标</span><span><i class="dependency"></i>必经配件</span>
-          <span><i class="filler"></i>等级补足</span><span><i class="researched"></i>已研发</span>
+        <div class="modification-legend" aria-label="配件状态图例" data-i18n-aria-label="配件状态图例">
+          <span><i class="target"></i><span data-i18n="目标">目标</span></span><span><i class="dependency"></i><span data-i18n="必经配件">必经配件</span></span>
+          <span><i class="filler"></i><span data-i18n="等级补足">等级补足</span></span><span><i class="researched"></i><span data-i18n="已研发">已研发</span></span>
         </div>
-        <p>左键选择目标 · 右键标记已研发 · 等级门槛按游戏数据计算</p>
+        <p data-i18n="左键选择目标 · 右键标记已研发 · 等级门槛按游戏数据计算">左键选择目标 · 右键标记已研发 · 等级门槛按游戏数据计算</p>
       </div>
       <div id="modificationViewport" class="modification-viewport"><div id="modificationTree" class="modification-tree" aria-live="polite"></div></div>
       <footer class="modification-footer">
         <div class="modification-budget" aria-live="polite">
-          <span>配件预算</span><strong><b id="modificationRp">0</b> RP</strong><strong><b id="modificationSl">0</b> SL</strong>
-          <small id="modificationStatus">选择配件后点击计算</small>
+          <span data-i18n="配件预算">配件预算</span><strong><b id="modificationRp">0</b> RP</strong><strong><b id="modificationSl">0</b> SL</strong>
+          <small id="modificationStatus" data-i18n="选择配件后点击计算">选择配件后点击计算</small>
         </div>
         <div class="modification-actions">
-          <button type="button" data-modification-action="clear-owned">清除已研发</button>
-          <button type="button" data-modification-action="clear">清空目标</button>
-          <button type="button" data-modification-action="all">全部配件</button>
-          <button class="calculate" type="button" data-modification-action="calculate">计算配件研发</button>
+          <button type="button" data-modification-action="clear-owned" data-i18n="清除已研发">清除已研发</button>
+          <button type="button" data-modification-action="clear" data-i18n="清空目标">清空目标</button>
+          <button type="button" data-modification-action="all" data-i18n="全部配件">全部配件</button>
+          <button class="calculate" type="button" data-modification-action="calculate" data-i18n="计算配件研发">计算配件研发</button>
         </div>
       </footer>
     </dialog>
@@ -152,99 +161,102 @@
     <dialog id="usageGuideDialog" class="usage-guide-dialog" aria-labelledby="usageGuideTitle">
       <header class="usage-guide-header">
         <div>
-          <span class="usage-guide-kicker">本地精确规划 · 测试版</span>
-          <h2 id="usageGuideTitle">使用指南</h2>
+          <span class="usage-guide-kicker" data-i18n="本地精确规划 · 测试版">本地精确规划 · 测试版</span>
+          <h2 id="usageGuideTitle" data-i18n="使用指南">使用指南</h2>
         </div>
-        <button class="secondary-button usage-guide-close" type="button" data-guide-close>关闭</button>
+        <button class="secondary-button usage-guide-close" type="button" data-guide-close data-i18n="关闭">关闭</button>
       </header>
       <div class="usage-guide-body">
         <div class="usage-guide-version">
-          <strong>快速上手</strong>
+          <strong data-i18n="快速上手">快速上手</strong>
           <time datetime="2026-09-21">2026.09.21</time>
         </div>
-        <p class="usage-guide-intro">从选择目标到生成路线，只需要完成下面几步。所有标记仅保存在当前浏览器中。</p>
+        <p class="usage-guide-intro" data-i18n="从选择目标到生成路线，只需要完成下面几步。所有标记仅保存在当前浏览器中。">从选择目标到生成路线，只需要完成下面几步。所有标记仅保存在当前浏览器中。</p>
         <ol class="usage-guide-steps">
           <li>
             <span class="usage-guide-number">01</span>
-            <div><strong>选择目标</strong><p>电脑左键点击或手机轻点载具，可选择或取消目标。电脑右键点击、手机按住载具约半秒，都能打开操作菜单，再选择“设为目标”。折叠窗口内的载具同样支持。</p></div>
+            <div><strong data-i18n="选择目标">选择目标</strong><p data-i18n="电脑左键点击或手机轻点载具，可选择或取消目标。电脑右键点击、手机按住载具约半秒，都能打开操作菜单，再选择“设为目标”。折叠窗口内的载具同样支持。">电脑左键点击或手机轻点载具，可选择或取消目标。电脑右键点击、手机按住载具约半秒，都能打开操作菜单，再选择“设为目标”。折叠窗口内的载具同样支持。</p></div>
           </li>
           <li>
             <span class="usage-guide-number">02</span>
-            <div><strong>补充账号状态</strong><p>右键或长按载具后，可标记“已拥有”，表示账号已经拥有该载具；也可设为“途经点”，让规划路线包含这辆载具。再次选择相同状态即可取消。滑动浏览不会触发长按菜单。</p></div>
+            <div><strong data-i18n="补充账号状态">补充账号状态</strong><p data-i18n="右键或长按载具后，可标记“已拥有”，表示账号已经拥有该载具；也可设为“途经点”，让规划路线包含这辆载具。再次选择相同状态即可取消。滑动浏览不会触发长按菜单。">右键或长按载具后，可标记“已拥有”，表示账号已经拥有该载具；也可设为“途经点”，让规划路线包含这辆载具。再次选择相同状态即可取消。滑动浏览不会触发长按菜单。</p></div>
           </li>
           <li>
             <span class="usage-guide-number">03</span>
-            <div><strong>调整补位偏好</strong><p>勾选“自动补位时避开折叠载具”后，算法不会主动用折叠载具补足等级数量。</p></div>
+            <div><strong data-i18n="调整补位偏好">调整补位偏好</strong><p data-i18n="勾选“自动补位时避开折叠载具”后，算法不会主动用折叠载具补足等级数量。">勾选“自动补位时避开折叠载具”后，算法不会主动用折叠载具补足等级数量。</p></div>
           </li>
           <li>
             <span class="usage-guide-number">04</span>
-            <div><strong>开始精确规划</strong><p>点击底部研发总计右侧的“精确规划”。下滑查看科技树时，底栏仍保持可见。</p></div>
+            <div><strong data-i18n="开始精确规划">开始精确规划</strong><p data-i18n="点击底部研发总计右侧的“精确规划”。下滑查看科技树时，底栏仍保持可见。">点击底部研发总计右侧的“精确规划”。下滑查看科技树时，底栏仍保持可见。</p></div>
           </li>
           <li>
             <span class="usage-guide-number">05</span>
-            <div><strong>阅读规划结果</strong><p>“必经路线”是前置载具，“等级补足”是为满足下一级解锁数量而自动加入的载具。</p></div>
+            <div><strong data-i18n="阅读规划结果">阅读规划结果</strong><p data-i18n="“必经路线”是前置载具，“等级补足”是为满足下一级解锁数量而自动加入的载具。">“必经路线”是前置载具，“等级补足”是为满足下一级解锁数量而自动加入的载具。</p></div>
           </li>
           <li>
             <span class="usage-guide-number">06</span>
-            <div><strong>查看预算与分享</strong><p>底部浮动条显示当前待研发数量、RP 和银狮。点击“导出科技树截图”可保存完整科技树长图，包含屏幕外的载具、前置连线和规划标记。</p></div>
+            <div><strong data-i18n="查看预算与分享">查看预算与分享</strong><p data-i18n="底部浮动条显示当前待研发数量、RP 和银狮。点击“导出科技树截图”可保存完整科技树长图，包含屏幕外的载具、前置连线和规划标记。">底部浮动条显示当前待研发数量、RP 和银狮。点击“导出科技树截图”可保存完整科技树长图，包含屏幕外的载具、前置连线和规划标记。</p></div>
           </li>
         </ol>
         <section class="usage-guide-update" aria-labelledby="usageGuideUpdateTitle">
-          <div class="usage-guide-update-meta"><span>本次交互更新</span><time datetime="2026-09-21">09 / 21</time></div>
-          <h3 id="usageGuideUpdateTitle">电脑右键，手机长按</h3>
-          <p>目标、已拥有和途经点统一在载具菜单中设置。长按只打开菜单，不会自动改变载具状态；松手后再轻点需要的选项，轻点菜单外即可关闭。</p>
+          <div class="usage-guide-update-meta"><span data-i18n="本次交互更新">本次交互更新</span><time datetime="2026-09-21">09 / 21</time></div>
+          <h3 id="usageGuideUpdateTitle" data-i18n="电脑右键，手机长按">电脑右键，手机长按</h3>
+          <p data-i18n="目标、已拥有和途经点统一在载具菜单中设置。长按只打开菜单，不会自动改变载具状态；松手后再轻点需要的选项，轻点菜单外即可关闭。">目标、已拥有和途经点统一在载具菜单中设置。长按只打开菜单，不会自动改变载具状态；松手后再轻点需要的选项，轻点菜单外即可关闭。</p>
         </section>
-        <p class="usage-guide-warning"><strong>测试提醒：</strong>精确规划结果仅供参考。开始实际研发前，请在游戏内手动核对载具前置关系、等级数量和费用。</p>
+        <p class="usage-guide-warning"><strong data-i18n="测试提醒：">测试提醒：</strong><span data-i18n="精确规划结果仅供参考。开始实际研发前，请在游戏内手动核对载具前置关系、等级数量和费用。">精确规划结果仅供参考。开始实际研发前，请在游戏内手动核对载具前置关系、等级数量和费用。</span></p>
       </div>
       <footer class="usage-guide-footer">
-        <button class="primary-button" type="button" data-guide-close>开始使用</button>
+        <button class="primary-button" type="button" data-guide-close data-i18n="开始使用">开始使用</button>
       </footer>
     </dialog>
 
-    <aside id="floatingBudget" class="floating-budget" aria-label="研发预算与规划">
+    <aside id="floatingBudget" class="floating-budget" aria-label="研发预算与规划" data-i18n-aria-label="研发预算与规划">
       <div class="budget-summary" aria-live="polite" aria-atomic="true">
-        <span class="budget-count">待研发 <b id="budgetCount">0</b> 辆</span>
+        <span class="budget-count"><span data-i18n="待研发">待研发</span> <b id="budgetCount">0</b> <span data-i18n="辆">辆</span></span>
         <span class="budget-cost"><span id="budgetRpLabel">RP</span> <strong id="budgetRp">0</strong></span>
         <span class="budget-cost budget-sl"><span id="budgetSlLabel">SL</span> <strong id="budgetSl">0</strong></span>
       </div>
       <div id="floatingPlanner" class="floating-planner">
-        <button id="planButton" class="primary-button floating-plan-button" type="button" aria-label="精确规划，测试功能" aria-describedby="floatingPlanHelp">
-          <span data-plan-button-label>精确规划</span>
-          <span class="floating-plan-test">测试</span>
+        <button id="planButton" class="primary-button floating-plan-button" type="button" aria-label="精确规划，测试功能" aria-describedby="floatingPlanHelp" data-i18n-aria-label="精确规划，测试功能">
+          <span data-plan-button-label data-i18n="精确规划">精确规划</span>
+          <span class="floating-plan-test" data-i18n="测试">测试</span>
         </button>
         <div id="floatingPlanHelp" class="floating-planner-copy" role="tooltip">
-          <strong id="floatingPlanCount">目标 0 · 途经点 0</strong>
-          <small>测试功能，结果请在游戏内手动核对</small>
+          <strong id="floatingPlanCount" data-i18n="目标 0 · 途经点 0">目标 0 · 途经点 0</strong>
+          <small data-i18n="测试功能，结果请在游戏内手动核对">测试功能，结果请在游戏内手动核对</small>
         </div>
       </div>
     </aside>
 
     <div id="treeScrollBar" class="tree-scroll-bar" hidden>
-      <input id="treeScrollRange" class="tree-scroll-range" type="range" min="0" max="0" value="0" step="1" aria-label="科技树横向滚动" title="科技树横向滚动">
+      <input id="treeScrollRange" class="tree-scroll-range" type="range" min="0" max="0" value="0" step="1" aria-label="科技树横向滚动" title="科技树横向滚动" data-i18n-title="科技树横向滚动" data-i18n-aria-label="科技树横向滚动">
     </div>
     <div id="treeVerticalScrollBar" class="tree-scroll-bar is-vertical" hidden>
-      <input id="treeVerticalScrollRange" class="tree-scroll-range" type="range" min="0" max="0" value="0" step="1" aria-label="科技树纵向滚动" aria-orientation="vertical" title="科技树纵向滚动">
+      <input id="treeVerticalScrollRange" class="tree-scroll-range" type="range" min="0" max="0" value="0" step="1" aria-label="科技树纵向滚动" aria-orientation="vertical" title="科技树纵向滚动" data-i18n-title="科技树纵向滚动" data-i18n-aria-label="科技树纵向滚动">
     </div>
     <div id="treeScrollCorner" class="tree-scroll-corner" aria-hidden="true" hidden></div>
-    <link rel="stylesheet" href="/tree-scroll.css?v=budget-planner-20260921">
-    <script src="/tree-scroll.js?v=matching-axes-20260921"></script>
-    <script src="/planner.js?v=local-exact-20260920"></script>
-    <script src="/modification-planner.js?v=auto-unlocked-20260921"></script>
-    <script src="/modifications.js?v=1.0.8"></script>
+    <link rel="stylesheet" href="/tree-scroll.css?v=1.0.10">
+    <script src="/tree-scroll.js?v=1.0.10"></script>
+    <script src="/planner.js?v=1.0.10"></script>
+    <script src="/modification-planner.js?v=1.0.10"></script>
+    <script src="/modifications.js?v=1.0.10"></script>
     <script src="/html-to-image.js?v=1.11.13"></script>
-    <script src="/route-export.js?v=tree-hd-20260921"></script>
-    <link rel="stylesheet" href="/vehicle-updates.css?v=gold-edge-20260921">
-    <script src="/vehicle-updates-data.js?v=gold-edge-20260921"></script>
-    <link rel="stylesheet" href="/vehicle-folders.css?v=folder-plan-state-20260921">
-    <script src="/vehicle-folders.js?v=focused-popup-20260921"></script>
-    <link rel="stylesheet" href="/roster.css?v=restore-labels-20260921">
-    <script src="/roster.js?v=restore-labels-20260921"></script>
-    <script src="/vehicle-long-press.js?v=touch-menu-20260921"></script>
-    <link rel="stylesheet" href="/ui-dark.css?v=1.0.7">
-    <link rel="stylesheet" href="/tree-navigation.css?v=1.0.7">
-    <script src="/tree-navigation.js?v=1.0.7"></script>
-    <link rel="stylesheet" href="/wiki-viewer.css?v=1.0.9">
-    <script src="/wiki-viewer.js?v=1.0.9"></script>
-    <script src="/app.js?v=1.0.9"></script>
+    <script src="/route-export.js?v=1.0.10"></script>
+    <link rel="stylesheet" href="/vehicle-updates.css?v=1.0.10">
+    <script src="/vehicle-updates-data.js?v=1.0.10"></script>
+    <link rel="stylesheet" href="/vehicle-folders.css?v=1.0.10">
+    <script src="/vehicle-folders.js?v=1.0.10"></script>
+    <link rel="stylesheet" href="/roster.css?v=1.0.10">
+    <script src="/roster.js?v=1.0.10"></script>
+    <script src="/vehicle-long-press.js?v=1.0.10"></script>
+    <link rel="stylesheet" href="/ui-dark.css?v=1.0.10">
+    <link rel="stylesheet" href="/tree-navigation.css?v=1.0.10">
+    <script src="/tree-navigation.js?v=1.0.10"></script>
+    <link rel="stylesheet" href="/wiki-viewer.css?v=1.0.10">
+    <script src="/wiki-viewer.js?v=1.0.10"></script>
+    <link rel="stylesheet" href="/budget-glass.css?v=1.0.10">
+    <link rel="stylesheet" href="/press-feedback.css?v=1.0.10">
+    <script src="/press-feedback.js?v=1.0.10"></script>
+    <script src="/app.js?v=1.0.10"></script>
   </body>
 </html>
