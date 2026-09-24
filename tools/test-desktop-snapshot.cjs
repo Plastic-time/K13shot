@@ -47,13 +47,12 @@ assert(units.has('rafale_eg_greece'));
 for (const folder of ['public', 'docs']) {
   const $ = cheerio.load(fs.readFileSync(path.join(root, folder, 'index.html'), 'utf8'));
   assert.equal($('[data-game-version]').length, 1);
-  assert.equal($('[data-game-version]').text(), version.gameVersion);
+  assert.equal($('[data-game-version]').text(), correction.gameVersion);
   assert($('[data-game-version]').closest('.topbar').length, 'Version must stay outside the scrollable tree');
-  assert.equal($('[data-game-correction]').length, 1);
-  assert.equal($('[data-game-correction]').text(), correction.gameVersion);
-  assert($('[data-game-correction]').closest('.topbar').length);
-  assert.equal($('.game-version [data-i18n="基础"]').length, 1);
-  assert.equal($('.game-version [data-i18n="局部修正"]').length, 1);
+  assert.equal($('[data-game-correction]').length, 0);
+  assert.equal($('.game-version [data-i18n="游戏版本"]').length, 1);
+  assert.equal($('.game-version [data-i18n="基础"]').length, 0);
+  assert.equal($('.game-version [data-i18n="局部修正"]').length, 0);
   assert.equal($('[data-game-correction-scope]').length, 1);
   assert($('[data-game-correction-scope]').text().includes('CA-27'));
   assert($('[data-game-correction-scope]').text().includes('不代表全量数据升级'));

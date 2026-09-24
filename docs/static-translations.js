@@ -1,5 +1,6 @@
 // Rows: zh, en, ru, de, fr, ja, es. Shared labels live in the app and module catalogs.
 window.WTI18n.register([
+  ["游戏版本","Game version","Версия игры","Spielversion","Version du jeu","ゲームバージョン","Versión del juego"],
   ["基础","Base","База","Basis","Base","基本","Base"],
   ["局部修正","Partial correction","Частичное исправление","Teilkorrektur","Correction partielle","一部修正","Corrección parcial"],
   ["局部修正仅涉及英国、日本 CA-27 Mk.32 的 GLBC mk.3 银狮费用，不代表全量数据升级。","The partial correction only changes the GLBC mk.3 Silver Lion cost for the British and Japanese CA-27 Mk.32; it is not a full data update.","Частичное исправление затрагивает только стоимость GLBC mk.3 в серебряных львах для британского и японского CA-27 Mk.32; это не полное обновление данных.","Die Teilkorrektur betrifft nur die Silver-Lions-Kosten von GLBC mk.3 für die britische und japanische CA-27 Mk.32; sie ist kein vollständiges Datenupdate.","La correction partielle concerne uniquement le coût en Silver Lions du GLBC mk.3 des CA-27 Mk.32 britannique et japonais ; il ne s’agit pas d’une mise à jour complète des données.","一部修正の対象はイギリスと日本のCA-27 Mk.32のGLBC mk.3のSL費用のみです。データ全体の更新ではありません。","La corrección parcial solo modifica el coste en Silver Lions del GLBC mk.3 de los CA-27 Mk.32 británico y japonés; no es una actualización completa de los datos."],
