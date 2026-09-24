@@ -138,18 +138,22 @@ for (const id of ca27Ids) {
   oldRack[0] = 'frc_mk2';
   oldRack[8] = 14000;
   assert.deepEqual(correctCa27(old), raw);
+  const previousCorrection = structuredClone(raw);
+  previousCorrection.m.find(mod => mod[0] === 'gloster_lbc')[8] = 9000;
+  previousCorrection.t[1] = 221000;
+  assert.deepEqual(correctCa27(previousCorrection), raw, 'Update prior 9000 SL correction without changing other data');
   const data = vehicles.get(id);
   assert.equal(data.mods.length, 14);
-  assert.deepEqual(data.totals, {rp: 145800, sl: 221000});
+  assert.deepEqual(data.totals, {rp: 145800, sl: 226000});
   assert.deepEqual(data.tierRequirements, {1: 1, 2: 1, 3: 2});
   const rack = data.mods.find(mod => mod.id === 'gloster_lbc');
   assert.equal(rack.name.en, 'GLBC mk.3');
   assert.equal(rack.icon, 'pilon_bomb.png');
-  assert.deepEqual([rack.rp, rack.sl], [9000, 9000]);
+  assert.deepEqual([rack.rp, rack.sl], [9000, 14000]);
   assert(!data.mods.some(mod => mod.id === 'frc_mk2'));
   assert.deepEqual(planner.plan(data, ['gloster_lbc'], []).dependencyIds, ['fmbc_mk2']);
   const all = planner.plan(data, data.mods.map(mod => mod.id), []);
-  assert.deepEqual([all.rp, all.sl], [145800, 221000]);
+  assert.deepEqual([all.rp, all.sl], [145800, 226000]);
 }
 assert.equal(j16.mods.length, 25);
 assert.deepEqual(j16.tierRequirements, { 1: 1, 2: 3, 3: 3 });

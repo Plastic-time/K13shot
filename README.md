@@ -2,7 +2,7 @@
 
 想知道开到目标载具还需要走哪条线、花多少研发点和银狮？这款《战争雷霆》研发计算器将**自动路线规划**与**可视化配件研发**放在同一个科技树界面中：选择想开的载具，标记已经拥有的载具，再计算路线；进入配件窗口，还能为单辆载具定制配件研发计划。
 
-**[直接打开网页版，无需下载](https://plastic-time.github.io/K13shot/)** · [下载便携版](https://github.com/Plastic-time/K13shot/releases/tag/v1.0.10)
+**[直接打开网页版，无需下载](https://plastic-time.github.io/K13shot/)** · [下载便携版](https://github.com/Plastic-time/K13shot/releases/tag/v1.0.11)
 
 无需登录游戏账号，规划计算在当前浏览器中完成。以下介绍以当前网页版为准，已发布的下载包保留其发布时的功能，不会自动获得后续网页更新。
 
@@ -52,14 +52,19 @@ Wiki 需要联网，内容由第三方网站提供。网络缓慢、验证提示
 
 如果你只是想直接使用，下载：
 
-**[WarThunderResearchCalculator-v1.0.10-portable.zip](https://github.com/Plastic-time/K13shot/releases/download/v1.0.10/WarThunderResearchCalculator-v1.0.10-portable.zip)**
+**[WarThunderResearchCalculator-v1.0.11-portable.zip](https://github.com/Plastic-time/K13shot/releases/download/v1.0.11/WarThunderResearchCalculator-v1.0.11-portable.zip)**
 
 这是推荐给大多数玩家的便携版。解压后双击 `WarThunderResearchCalculator.exe` 即可运行，不需要安装 Node.js，也不需要执行 `npm install`。
 
 | 文件 | 推荐人群 | 是否需要安装 Node.js | 使用方式 |
 | --- | --- | --- | --- |
-| `WarThunderResearchCalculator-v1.0.10-portable.zip` | 普通玩家，推荐下载 | 不需要 | 解压后双击 exe |
-| `WarThunderResearchCalculator-v1.0.10.zip` | 开发者或已安装 Node.js 的用户 | 需要 | 解压后运行 `npm install` |
+| `WarThunderResearchCalculator-v1.0.11-portable.zip` | 普通玩家，推荐下载 | 不需要 | 解压后双击 exe |
+| `WarThunderResearchCalculator-v1.0.11.zip` | 开发者或已安装 Node.js 的用户 | 需要 | 解压后运行 `npm install` |
+
+## v1.0.11 CA-27 配件费用修正
+
+- 英国、日本 CA-27 Mk.32 的 GLBC mk.3 挂架调整为 9,000 RP / 14,000 SL；每辆全部配件总计 145,800 RP / 226,000 SL。
+- 本次经用户确认，按固定游戏配置 2.59.0.34 更新这两项银狮费用，替代 v1.0.8 的 9,000 SL 修正；不升级整体数据快照，不改界面、研发点、前置或规划算法。详情见 [v1.0.11 更新说明](doc/release-v1.0.11.md)。
 
 ## v1.0.10 多语言与界面优化
 

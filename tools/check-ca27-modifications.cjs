@@ -34,13 +34,13 @@ async function main() {
       assert.equal(await page.locator('[data-mod-id="frc_mk2"]').count(), 0);
       assert(await rack.evaluate(node => node.classList.contains('target')));
       assert.equal(await page.locator('#modificationRp').innerText(), '9,000');
-      assert.equal(await page.locator('#modificationSl').innerText(), '9,000');
+      assert.equal(await page.locator('#modificationSl').innerText(), '14,000');
       assert((await rack.locator('img').getAttribute('src')).endsWith('/pilon_bomb.png'));
       await page.locator('[data-modification-action="calculate"]').click();
       assert(await page.locator('[data-mod-id="fmbc_mk2"]').evaluate(node => node.classList.contains('dependency')));
       await page.locator('[data-modification-action="all"]').click();
       assert.equal(await page.locator('#modificationRp').innerText(), '145,800');
-      assert.equal(await page.locator('#modificationSl').innerText(), '221,000');
+      assert.equal(await page.locator('#modificationSl').innerText(), '226,000');
       await page.waitForFunction(() => [...document.querySelectorAll('.modification-tile img')].every(image => image.complete && image.naturalWidth > 0));
       await page.screenshot({path: path.join(output, `${mode}-${id}.png`)});
       await page.evaluate(id => localStorage.setItem(`wt-research:modifications:${id}`, JSON.stringify({selected: [], researched: ['frc_mk2']})), id);
