@@ -7,5 +7,15 @@
   "vehicleCount": 3235,
   "directCostPairCount": 2212,
   "wikiUnpricedVehicleCount": 156,
-  "modificationsSnapshotChanged": false
+  "modificationsSnapshotChanged": false,
+  "latestCorrection": {
+    "gameVersion": "2.59.0.34",
+    "gameDataCommit": "2e2b2e050d80802a64dc1e155d16e088cf2cf122",
+    "scope": "modification-purchase-cost",
+    "vehicleIds": ["ca_27_mk32_raaf", "ca_27_mk32_malaysia"],
+    "modificationId": "gloster_lbc",
+    "silverLions": 14000,
+    "fullSnapshotUpgrade": false,
+    "provenance": "doc/release-v1.0.11.md"
+  }
 }

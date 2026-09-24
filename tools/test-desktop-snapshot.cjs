@@ -8,6 +8,20 @@ const root = path.resolve(__dirname, '..');
 const read = file => JSON.parse(fs.readFileSync(path.join(root, file), 'utf8'));
 const manifest = read('docs/database/manifest.json');
 const version = read('config/data-version.json');
+const catalog = read('public/database/modifications/catalog.json');
+const correction = version.latestCorrection;
+assert.equal(correction.fullSnapshotUpgrade, false);
+assert.notEqual(correction.gameVersion, version.gameVersion);
+assert.equal(catalog.version, version.gameVersion);
+assert.equal(catalog.sources.datamineCommit, version.gameDataCommit);
+for (const id of correction.vehicleIds) {
+  const recorded = catalog.corrections[id];
+  assert.equal(recorded.gameVersion, correction.gameVersion);
+  assert.equal(recorded.datamineCommit, correction.gameDataCommit);
+  assert.equal(recorded.modificationId, correction.modificationId);
+  assert.equal(recorded.sl, correction.silverLions);
+}
+assert(fs.readFileSync(path.join(root, correction.provenance), 'utf8').includes(correction.gameDataCommit));
 const units = new Map();
 for (const entry of manifest.files) {
   const desktop = fs.readFileSync(path.join(root, entry.path));
@@ -35,6 +49,14 @@ for (const folder of ['public', 'docs']) {
   assert.equal($('[data-game-version]').length, 1);
   assert.equal($('[data-game-version]').text(), version.gameVersion);
   assert($('[data-game-version]').closest('.topbar').length, 'Version must stay outside the scrollable tree');
+  assert.equal($('[data-game-correction]').length, 1);
+  assert.equal($('[data-game-correction]').text(), correction.gameVersion);
+  assert($('[data-game-correction]').closest('.topbar').length);
+  assert.equal($('.game-version [data-i18n="基础"]').length, 1);
+  assert.equal($('.game-version [data-i18n="局部修正"]').length, 1);
+  assert.equal($('[data-game-correction-scope]').length, 1);
+  assert($('[data-game-correction-scope]').text().includes('CA-27'));
+  assert($('[data-game-correction-scope]').text().includes('不代表全量数据升级'));
 }
 assert.equal(require('../dict/unlock_quantity').get_unlock_quantity('israel', 'aviation', 'VIII'), 3);
 console.log(JSON.stringify({ trees: manifest.files.length, units: units.size, gameVersion: version.gameVersion,
