@@ -5,7 +5,7 @@ const axios=require('axios');
 const {root,sha}=require('./refresh-wiki.cjs');
 
 async function check() {
-  const base='https://plastic-time.github.io/K13shot/';
+  const base='https://plastic-time.github.io/warthunder-research-calculator/';
   const stamp=Date.now();
   const get=async file=>(await axios.get(`${base}${file}?verify=${stamp}`,{timeout:30000,responseType:'arraybuffer'})).data;
   const manifest=JSON.parse(await get('database/manifest.json'));

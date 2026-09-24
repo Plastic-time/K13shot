@@ -23,6 +23,6 @@
 - 普通用户下载 `WarThunderResearchCalculator-v1.0.7-portable.zip`，解压后双击 `WarThunderResearchCalculator.exe`。这是 Windows 便携包，无需安装 Node.js。
 - `WarThunderResearchCalculator-v1.0.7.zip` 为开发者包，需要 Node.js 24 LTS（24.21.0 或更高的 24.x 版本）。
 - `WarThunderResearchCalculator-v1.0.7-SHA256SUMS.txt` 提供两个压缩包的校验值。
-- 网页版：https://plastic-time.github.io/K13shot/
+- 网页版：https://plastic-time.github.io/warthunder-research-calculator/
 
 现有本地计划保存在浏览器中；请先解压到新目录，退出旧版本，再启动新版本。安装包不会自动更新。

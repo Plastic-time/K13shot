@@ -7,9 +7,9 @@
 <p align="center">Choose your targets. Map your route. Know the RP and Silver Lions you need.</p>
 
 <p align="center">
-  <a href="https://plastic-time.github.io/K13shot/"><strong>Open Web App</strong></a> &nbsp; · &nbsp;
-  <a href="https://github.com/Plastic-time/K13shot/releases/latest"><strong>Download for Windows</strong></a> &nbsp; · &nbsp;
-  <a href="https://github.com/Plastic-time/K13shot/releases">Releases</a>
+  <a href="https://plastic-time.github.io/warthunder-research-calculator/"><strong>Open Web App</strong></a> &nbsp; · &nbsp;
+  <a href="https://github.com/Plastic-time/warthunder-research-calculator/releases/latest"><strong>Download for Windows</strong></a> &nbsp; · &nbsp;
+  <a href="https://github.com/Plastic-time/warthunder-research-calculator/releases">Releases</a>
 </p>
 
 <p align="center"><a href="README.md">简体中文</a> &nbsp; / &nbsp; <strong>English</strong></p>
@@ -47,7 +47,7 @@
 | Calculate a route | Select Exact Planning in the bottom bar | Same |
 | View vehicle information | Select the Wiki bookmark on the card | Same |
 
-Open the web app to start; no game account is required. On Windows, download the [v1.0.11 portable package](https://github.com/Plastic-time/K13shot/releases/download/v1.0.11/WarThunderResearchCalculator-v1.0.11-portable.zip), extract it, and run `WarThunderResearchCalculator.exe`. No separate Node.js installation is needed. Downloaded packages do not automatically receive later web updates.
+Open the web app to start; no game account is required. On Windows, download the [v1.0.11 portable package](https://github.com/Plastic-time/warthunder-research-calculator/releases/download/v1.0.11/WarThunderResearchCalculator-v1.0.11-portable.zip), extract it, and run `WarThunderResearchCalculator.exe`. No separate Node.js installation is needed. Downloaded packages do not automatically receive later web updates.
 
 Browse ground vehicles, aircraft, helicopters, bluewater fleets, and coastal fleets. The interface and vehicle names support Chinese, English, Russian, German, French, Japanese, and Spanish. This project does not translate third-party Wiki articles.
 
@@ -66,7 +66,7 @@ Browse ground vehicles, aircraft, helicopters, bluewater fleets, and coastal fle
 - [Online counter rules](doc/online-counter.md) (Chinese)
 - [Modification artwork sources](doc/ammunition-artwork.md) (Chinese)
 - [Vehicle snapshot manifest](docs/database/manifest.json) · [Modification audit](tools/modifications-audit.json)
-- [v1.0.11 notes](doc/release-v1.0.11.md) (Chinese) · [All releases](https://github.com/Plastic-time/K13shot/releases)
+- [v1.0.11 notes](doc/release-v1.0.11.md) (Chinese) · [All releases](https://github.com/Plastic-time/warthunder-research-calculator/releases)
 
 </details>
 

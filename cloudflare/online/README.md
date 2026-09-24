@@ -4,7 +4,7 @@ Independent Cloudflare Worker for the GitHub Pages calculator. This directory do
 
 ## Dashboard setup
 
-In Workers & Pages, create a Worker from `Plastic-time/K13shot`:
+In Workers & Pages, create a Worker from `Plastic-time/warthunder-research-calculator`:
 
 | Setting | Value |
 | --- | --- |
@@ -27,7 +27,7 @@ After deployment, share only the public HTTPS Worker URL. Verify a real `/heartb
 
 - `POST /heartbeat`: a JSON body with exactly one field, `visitorId`, containing a random lowercase UUID v4.
 - Send it as `Content-Type: text/plain;charset=UTF-8`, with `credentials: omit`, so browsers can make a simple cross-origin request without an OPTIONS preflight on every heartbeat. Do not put identifiers in URLs.
-- The allowed browser origin is exactly `https://plastic-time.github.io`, configured in `wrangler.jsonc`. Origins do not contain `/K13shot/`; CORS cannot isolate paths on the same origin.
+- The allowed browser origin is exactly `https://plastic-time.github.io`, configured in `wrangler.jsonc`. Origins do not contain `/warthunder-research-calculator/`; CORS cannot isolate paths on the same origin.
 - The response is `{ "online": 1, "intervalSeconds": 30, "timeoutSeconds": 90 }`. It never returns other visitors' identifiers or timestamps. Counts are estimates of browsers, not authenticated humans.
 - All requests route to one named Durable Object. SQL transactions serialize updates, and SQLite preserves state across Worker eviction/restart. Plain Worker memory is not the source of truth.
 - Records last seen 90 seconds ago are excluded before every count; the next accepted write also removes them from the stored snapshot. No background alarm or cron job is required. If nobody visits again, expired random identifiers remain in that bounded snapshot until a later write or manual removal; expiry is not a promise of physical data deletion after 90 seconds.

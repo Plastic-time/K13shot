@@ -5,7 +5,7 @@ const { chromium } = require('playwright');
 const root = path.resolve(__dirname, '..');
 const docs = path.join(root, 'docs');
 const artifacts = path.join(root, 'logs/online-count-check');
-const site = 'https://plastic-time.github.io/K13shot/';
+const site = 'https://plastic-time.github.io/warthunder-research-calculator/';
 const endpoint = 'https://k13shot-online.k13shot-tools.workers.dev/heartbeat';
 const delay = ms => new Promise(resolve => setTimeout(resolve, ms));
 
@@ -18,7 +18,7 @@ async function main() {
     const ctx = await browser.newContext({ viewport: { width, height: 900 } });
     ctx.on('page', page => page.on('pageerror', error => errors.push(error.message)));
     await ctx.route(site + '**', async route => {
-      const pathname = decodeURIComponent(new URL(route.request().url()).pathname.slice('/K13shot/'.length));
+      const pathname = decodeURIComponent(new URL(route.request().url()).pathname.slice('/warthunder-research-calculator/'.length));
       const file = path.resolve(docs, pathname || 'index.html');
       if (!file.startsWith(docs + path.sep) || !fs.existsSync(file)) return route.fulfill({ status: 404, body: '' });
       return route.fulfill({ path: file });

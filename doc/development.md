@@ -4,7 +4,7 @@
 
 ## 本地运行
 
-普通用户建议下载 [Windows 便携版](https://github.com/Plastic-time/K13shot/releases/latest)。开发环境使用 **Node.js 24 LTS，版本不低于 24.21.0 且低于 25**，以 `package.json` 的 `engines` 为准。
+普通用户建议下载 [Windows 便携版](https://github.com/Plastic-time/warthunder-research-calculator/releases/latest)。开发环境使用 **Node.js 24 LTS，版本不低于 24.21.0 且低于 25**，以 `package.json` 的 `engines` 为准。
 
 ```powershell
 npm ci --ignore-scripts

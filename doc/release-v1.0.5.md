@@ -19,4 +19,4 @@
 
 v1.0.0 至 v1.0.3 的旧下载附件已停止提供。建议使用本版并解压到新文件夹，不要覆盖正在运行的旧程序。
 
-[直接使用网页版](https://plastic-time.github.io/K13shot/)
+[直接使用网页版](https://plastic-time.github.io/warthunder-research-calculator/)

@@ -19,4 +19,4 @@
 
 精确规划仍是测试功能，请在游戏内核对路线、门槛和费用。触摸操作已通过浏览器模拟测试，不代表所有手机机型均经过实机测试。下载后请解压到新文件夹，不要覆盖正在运行的旧程序。
 
-[直接使用网页版](https://plastic-time.github.io/K13shot/)
+[直接使用网页版](https://plastic-time.github.io/warthunder-research-calculator/)

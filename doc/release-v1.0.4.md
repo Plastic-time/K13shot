@@ -33,4 +33,4 @@ storage; image requests still reach the War Thunder image host. No claim of
 complete anonymity or zero undiscovered vulnerabilities is made. Old copies or
 GitHub cached objects cannot be revoked by updating a release.
 
-Web calculator: https://plastic-time.github.io/K13shot/
+Web calculator: https://plastic-time.github.io/warthunder-research-calculator/
