@@ -120,6 +120,7 @@ const zh = {
 
 function setStatus(text) {
   els.statusText.textContent = text;
+  els.statusText.removeAttribute("title");
 }
 
 const staticCountries = ["usa", "germany", "ussr", "britain", "japan", "china", "italy", "france", "sweden", "israel"];
@@ -1141,7 +1142,8 @@ async function loadTree() {
     if (requestId !== treeRequestId) return;
     state.tree = result.data || [];
     flattenTree(state.tree);
-    setStatus(`${tr("{count} 个载具", { count: formatNumber(state.units.length) })} · Wiki ${state.snapshot.fetched_to.slice(0, 10)} · BR: RB`);
+    setStatus(tr("{count} 个载具", { count: formatNumber(state.units.length) }));
+    els.statusText.title = `Wiki ${state.snapshot.fetched_to.slice(0, 10)} · BR: RB`;
     calculatePlan();
   } catch (err) {
     if (requestId !== treeRequestId) return;

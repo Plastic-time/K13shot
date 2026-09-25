@@ -4,8 +4,10 @@
 .brand-name { color: #f2f3ed; font-size: 23px; line-height: 1.1; font-weight: 750; }
 .brand-name.is-chinese { display: inline-flex; gap: 4px; font-size: 25px; line-height: 1.25; font-weight: 600; }
 .brand-subtitle { color: #d3bd87; font-size: 13px; line-height: 1.35; font-weight: 500; }
-.header-metadata { display: flex; align-items: center; flex-wrap: wrap; gap: 4px 14px; min-width: 0; }
-.header-metadata .online-count { color: #a8b8ae; min-inline-size: 0; }
+.header-metadata { grid-column: 1 / -1; display: flex; align-items: center; gap: 12px; min-width: 0; }
+.header-metadata #statusText, .header-metadata .online-count { margin: 0; font-size: 11px; line-height: 1.4; }
+.header-metadata #statusText { min-width: 0; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+.header-metadata .online-count { color: #a8b8ae; min-inline-size: 0; flex-shrink: 0; }
 .header-metadata:empty { display: none; }
 .header-actions-area { display: flex; flex-direction: column; align-items: flex-end; gap: 8px; min-width: 0; }
 .header-actions-area > .game-version { text-align: right; font-size: 10px; line-height: 1.4; }
@@ -35,11 +37,19 @@
 .mobile-sheet-body .creator-profile strong { font-size: 17px; }
 .mobile-sheet-body .creator-game-id { color: #aebdb3; }
 .mobile-search-done { order: 2; min-height: 44px; }
+@media (min-width: 721px) {
+  .topbar { display: grid; grid-template-columns: minmax(0, 1fr) auto minmax(0, 1fr); align-items: start; }
+  .topbar > .brand-block { grid-column: 1; grid-row: 1; }
+  .header-creator { grid-column: 2; grid-row: 1; display: flex; justify-content: center; justify-self: center; min-width: 0; max-width: min(360px, 32vw); }
+  .header-actions-area { grid-column: 3; grid-row: 1; }
+  .header-actions-area .topbar-actions button { white-space: normal; max-width: 100%; }
+}
 @media (prefers-reduced-motion: no-preference) {
   .mobile-header-sheet[open] { animation: header-sheet-in 180ms ease-out; }
   @keyframes header-sheet-in { from { transform: translateY(20px); opacity: 0; } to { transform: translateY(0); opacity: 1; } }
 }
 @media (max-width: 720px) {
+  .header-creator { display: none; }
   .topbar.compact-header { display: grid; grid-template-columns: minmax(0, 1fr) 88px; align-items: start; column-gap: 8px; row-gap: 0; padding: 12px 12px 10px; }
   .compact-header .brand-block { display: contents; }
   .compact-header .brand-title { display: contents; }
@@ -61,6 +71,8 @@
   .branch-tabs { scrollbar-width: none; }
   .branch-tabs::-webkit-scrollbar { display: none; }
   .mobile-tree-tools { display: flex; align-items: center; gap: 10px; padding: 0 10px 0 14px; min-height: 44px; background: #222725; }
-  .mobile-tree-tools #statusText { display: block; flex: 1; min-width: 0; margin: 0; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; color: #a6b4ac; font-size: 10px; line-height: 1.5; }
+  .mobile-tree-tools .header-metadata { flex: 1; gap: 10px; }
+  .mobile-tree-tools #statusText { display: block; color: #a6b4ac; }
+  .mobile-tree-tools #statusText, .mobile-tree-tools .online-count { font-size: 10px; line-height: 1.5; }
   .mobile-tree-actions { display: flex; flex: 0 0 auto; gap: 0; order: 2; }
 }

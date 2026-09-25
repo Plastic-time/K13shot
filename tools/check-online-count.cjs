@@ -38,12 +38,14 @@ async function main() {
       const toolbar = document.querySelector('.toolbar').getBoundingClientRect();
       const title = document.querySelector('.topbar h1').getBoundingClientRect();
       const actions = document.querySelector('.topbar-actions').getBoundingClientRect();
+      const status = document.getElementById('statusText').getBoundingClientRect();
       const overlaps = b => r.left < b.right && r.right > b.left && r.top < b.bottom && r.bottom > b.top;
       return { fits: r.left >= 0 && r.right <= innerWidth && badge.scrollWidth <= badge.clientWidth + 1,
         notOverlapping: !overlaps(title) && !overlaps(actions), treeBelowToolbar: tree.top >= toolbar.bottom - 1,
+        alignedWithVehicleCount: status.right <= r.left && Math.abs((status.top + status.bottom) - (r.top + r.bottom)) <= 2,
         treeHeight: tree.height, text: badge.textContent };
     });
-    assert(layout.fits && layout.notOverlapping && layout.treeBelowToolbar && layout.treeHeight > 430, JSON.stringify(layout));
+    assert(layout.fits && layout.notOverlapping && layout.alignedWithVehicleCount && layout.treeBelowToolbar && layout.treeHeight > 430, JSON.stringify(layout));
     await page.screenshot({ path: path.join(artifacts, `online-${width}.png`) });
     return layout;
   }

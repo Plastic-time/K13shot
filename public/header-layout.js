@@ -14,7 +14,9 @@
   lockup.append(emblem, heading);
   heading.removeAttribute("data-i18n");
   const metadata = node("div", "header-metadata");
-  brand.append(metadata);
+  const status = document.getElementById("statusText");
+  status.before(metadata);
+  metadata.append(status);
   const version = document.querySelector(".game-version");
   const online = document.getElementById("onlineCount");
   if (online) metadata.append(online);
@@ -86,7 +88,11 @@
   const moreButton = iconButton("更多", "ellipsis");
   moreButton.id = "mobileMoreButton";
   controls.append(authorButton, moreButton);
-  relocate(document.querySelector(".creator-watermark"), sheet("mobileAuthor", "作者", authorButton));
+  const creator = document.querySelector(".creator-watermark");
+  const creatorSlot = node("div", "header-creator");
+  topbar.insertBefore(creatorSlot, controls);
+  creatorSlot.append(creator);
+  relocate(creator, sheet("mobileAuthor", "作者", authorButton));
   const actions = document.querySelector(".topbar-actions");
   const actionArea = node("div", "header-actions-area");
   actions.before(actionArea);
@@ -154,8 +160,7 @@
     for (const label of [...filters.children]) {
       if (label !== searchLabel && !label.hidden) relocate(label, filterBody);
     }
-    const status = document.getElementById("statusText");
-    relocate(status, compactTools);
+    relocate(metadata, compactTools);
     const actions = node("div", "mobile-tree-actions");
     actions.append(search, options);
     compactTools.append(actions);

@@ -303,7 +303,7 @@ button:focus-visible {
   gap: 0;
 }
 
-.brand-block .creator-watermark {
+:is(.brand-block, .header-creator) .creator-watermark {
   display: flex;
   align-items: center;
   justify-content: flex-start;
@@ -326,7 +326,7 @@ button:focus-visible {
   transition: background-color 160ms ease, border-color 160ms ease, box-shadow 160ms ease;
 }
 
-.brand-block .creator-watermark span {
+:is(.brand-block, .header-creator) .creator-watermark span {
   color: rgba(104, 112, 106, 0.9);
 }
 
@@ -1360,7 +1360,7 @@ button:focus-visible {
     grid-template-columns: 1fr;
   }
 
-  .brand-block .creator-watermark {
+  :is(.brand-block, .header-creator) .creator-watermark {
     justify-self: start;
     white-space: normal;
   }
@@ -1539,7 +1539,7 @@ body {
   row-gap: 3px;
 }
 
-.brand-block .creator-watermark {
+:is(.brand-block, .header-creator) .creator-watermark {
   font-size: 10px;
 }
 
