@@ -5,6 +5,7 @@
   const corner = document.getElementById('treeScrollCorner');
   const xRange = document.getElementById('treeScrollRange');
   const yRange = document.getElementById('treeVerticalScrollRange');
+  const viewport = window.visualViewport;
   let frame = 0;
   let canvas = null;
 
@@ -19,18 +20,24 @@
     frame = 0;
     const rect = tree.getBoundingClientRect();
     const size = parseFloat(getComputedStyle(horizontal).getPropertyValue('--tree-scroll-size'));
-    const left = Math.max(0, rect.left);
-    const right = Math.min(document.documentElement.clientWidth, rect.right);
-    const top = Math.max(0, rect.top);
-    const bottom = Math.min(window.innerHeight, rect.bottom);
-    const visible = !!tree.querySelector('.tree-canvas') && right - left > size && bottom - top > size;
+    const scale = viewport?.scale || 1;
+    const viewLeft = viewport?.offsetLeft || 0;
+    const viewTop = viewport?.offsetTop || 0;
+    const left = Math.max(viewLeft, rect.left);
+    const right = Math.min(viewLeft + (viewport?.width ?? document.documentElement.clientWidth), rect.right);
+    const top = Math.max(viewTop, rect.top);
+    const bottom = Math.min(viewTop + (viewport?.height ?? window.innerHeight), rect.bottom);
+    const thickness = size / scale;
+    const visible = !!tree.querySelector('.tree-canvas') && right - left > thickness && bottom - top > thickness;
     [horizontal, vertical, corner].forEach(element => { element.hidden = !visible; });
     if (!visible) return;
 
-    Object.assign(horizontal.style, { left: left + 'px', top: (bottom - size) + 'px', width: (right - left - size) + 'px' });
-    Object.assign(vertical.style, { left: (right - size) + 'px', top: top + 'px', height: (bottom - top - size) + 'px' });
-    vertical.style.setProperty('--tree-scroll-length', Math.max(0, bottom - top - size - 4) + 'px');
-    Object.assign(corner.style, { left: (right - size) + 'px', top: (bottom - size) + 'px' });
+    // Pin the controls to the visible tree during pinch zoom without magnifying their thickness.
+    const transform = `scale(${1 / scale})`;
+    Object.assign(horizontal.style, { left: left + 'px', top: (bottom - thickness) + 'px', width: ((right - left) * scale - size) + 'px', transform });
+    Object.assign(vertical.style, { left: (right - thickness) + 'px', top: top + 'px', height: ((bottom - top) * scale - size) + 'px', transform });
+    vertical.style.setProperty('--tree-scroll-length', Math.max(0, (bottom - top) * scale - size - 4) + 'px');
+    Object.assign(corner.style, { left: (right - thickness) + 'px', top: (bottom - thickness) + 'px', transform });
     updateRange(xRange, Math.max(0, tree.scrollWidth - tree.clientWidth), tree.scrollLeft);
     updateRange(yRange, Math.max(0, tree.scrollHeight - tree.clientHeight), tree.scrollTop);
   }
@@ -60,6 +67,8 @@
   tree.addEventListener('scroll', schedule, { passive: true });
   window.addEventListener('resize', schedule, { passive: true });
   window.addEventListener('scroll', schedule, { passive: true });
+  viewport?.addEventListener('resize', schedule, { passive: true });
+  viewport?.addEventListener('scroll', schedule, { passive: true });
   window.WTTreeScroll = { schedule, sync };
   schedule();
 })();

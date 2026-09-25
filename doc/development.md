@@ -93,4 +93,12 @@ node tools/check-publish-privacy.cjs
 node tools/check-commit-privacy.cjs --all
 ```
 
-版本说明单独存放在 `doc/release-v*.md`。推送主分支会触发 Pages 部署；发布版本标签会触发 Windows 构建和 Release。打包命令为 `npm run package:release`，内容与流程见 `.github/workflows/release.yml`。
+版本说明单独存放在 `doc/release-v*.md`。推送主分支会触发 Pages 部署；发布版本标签会触发 Windows 构建和检查，将 ZIP 与校验文件保存为该次运行的 `release-packages` 附件（保留 7 天），不再由机器人创建 Release。打包命令为 `npm run package:release`，内容与流程见 `.github/workflows/release.yml`。
+
+核对该次运行的标签、提交和校验值后，用已登录的 `Plastic-time` 账号下载构建附件并创建正式 Release，确保发布者显示为作者账号。不要把个人访问令牌写入仓库或前端，也不要为署名恢复私人邮箱。
+
+```powershell
+gh api user --jq .login
+gh run download <run-id> --name release-packages --dir <download-directory>
+gh release create <tag> --verify-tag --latest --title "War Thunder 研发计算器 <tag> 维护更新" --notes-file doc/release-<tag>.md <portable.zip> <source.zip> <SHA256SUMS.txt>
+```

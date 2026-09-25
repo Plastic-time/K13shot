@@ -19,6 +19,7 @@
   position: fixed;
   z-index: 30;
   box-sizing: border-box;
+  transform-origin: top left;
   background: var(--tree-scroll-track);
   border: 1px solid var(--tree-scroll-border);
 }

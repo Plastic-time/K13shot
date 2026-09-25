@@ -47,7 +47,7 @@
 | Calculate a route | Select Exact Planning in the bottom bar | Same |
 | View vehicle information | Select the Wiki bookmark on the card | Same |
 
-Open the web app to start; no game account is required. On Windows, download the [v1.0.12 portable package](https://github.com/Plastic-time/warthunder-research-calculator/releases/download/v1.0.12/WarThunderResearchCalculator-v1.0.12-portable.zip), extract it, and run `WarThunderResearchCalculator.exe`. No separate Node.js installation is needed. Downloaded packages do not automatically receive later web updates.
+Open the web app to start; no game account is required. On Windows, download the [v1.0.13 portable package](https://github.com/Plastic-time/warthunder-research-calculator/releases/download/v1.0.13/WarThunderResearchCalculator-v1.0.13-portable.zip), extract it, and run `WarThunderResearchCalculator.exe`. No separate Node.js installation is needed. Downloaded packages do not automatically receive later web updates.
 
 Browse ground vehicles, aircraft, helicopters, bluewater fleets, and coastal fleets. The interface and vehicle names support Chinese, English, Russian, German, French, Japanese, and Spanish. This project does not translate third-party Wiki articles.
 
@@ -66,7 +66,7 @@ Browse ground vehicles, aircraft, helicopters, bluewater fleets, and coastal fle
 - [Online counter rules](doc/online-counter.md) (Chinese)
 - [Modification artwork sources](doc/ammunition-artwork.md) (Chinese)
 - [Vehicle snapshot manifest](docs/database/manifest.json) · [Modification audit](tools/modifications-audit.json)
-- [v1.0.12 notes](doc/release-v1.0.12.md) (Chinese) · [All releases](https://github.com/Plastic-time/warthunder-research-calculator/releases)
+- [v1.0.13 notes](doc/release-v1.0.13.md) (Chinese) · [All releases](https://github.com/Plastic-time/warthunder-research-calculator/releases)
 
 </details>
 

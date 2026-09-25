@@ -7,7 +7,7 @@ on:
   workflow_dispatch:
 
 permissions:
-  contents: write
+  contents: read
 
 jobs:
   package:
@@ -46,6 +46,8 @@ jobs:
           if ($LASTEXITCODE -ne 0) { throw "Modification regression failed" }
           node tools/test-ui-entrypoints.cjs
           if ($LASTEXITCODE -ne 0) { throw "UI entrypoint regression failed" }
+          node tools/test-tree-scroll.cjs
+          if ($LASTEXITCODE -ne 0) { throw "Viewport scroll regression failed" }
           node tools/test-site-locales.cjs
           if ($LASTEXITCODE -ne 0) { throw "Locale coverage check failed" }
           node tools/test-multilingual-copy.cjs
@@ -71,7 +73,7 @@ jobs:
             $zipPath = Join-Path $PWD "WarThunderResearchCalculator-v$version$suffix.zip"
             $archive = [System.IO.Compression.ZipFile]::OpenRead($zipPath)
             try {
-              foreach ($file in @("public/i18n.js", "public/app-translations.js", "public/static-translations.js", "public/module-translations.js", "public/vehicle-names.json", "public/modification-names.json", "public/budget-glass.css", "public/press-feedback.css", "public/press-feedback.js", "public/vehicle-updates-data.js", "package.json", "package-lock.json", "public/index.html", "public/styles.css", "public/app.js", "public/ui-dark.css", "public/tree-navigation.css", "public/tree-navigation.js", "public/header-layout.js", "public/header-layout.css", "public/assets/navigation/ellipsis.svg", "public/assets/navigation/search.svg", "public/assets/navigation/sliders-horizontal.svg", "public/assets/flags/su.svg", "public/assets/navigation/plane.svg", "public/wiki-viewer.js", "public/wiki-viewer.css", "public/assets/wiki/book-open.svg", "public/assets/wiki/external-link.svg", "public/assets/wiki/rotate-cw.svg", "public/assets/wiki/x.svg", "public/assets/wiki/LICENSE", "public/vehicle-long-press.js", "public/roster.js", "public/roster.css", "public/modifications.js", "public/modification-planner.js", "public/tree-scroll.css", "main.js", "README.md", "README.en.md")) {
+              foreach ($file in @("public/i18n.js", "public/app-translations.js", "public/static-translations.js", "public/module-translations.js", "public/vehicle-names.json", "public/modification-names.json", "public/budget-glass.css", "public/press-feedback.css", "public/press-feedback.js", "public/vehicle-updates-data.js", "package.json", "package-lock.json", "public/index.html", "public/styles.css", "public/app.js", "public/ui-dark.css", "public/tree-navigation.css", "public/tree-navigation.js", "public/header-layout.js", "public/header-layout.css", "public/assets/navigation/ellipsis.svg", "public/assets/navigation/search.svg", "public/assets/navigation/sliders-horizontal.svg", "public/assets/flags/su.svg", "public/assets/navigation/plane.svg", "public/wiki-viewer.js", "public/wiki-viewer.css", "public/assets/wiki/book-open.svg", "public/assets/wiki/external-link.svg", "public/assets/wiki/rotate-cw.svg", "public/assets/wiki/x.svg", "public/assets/wiki/LICENSE", "public/vehicle-long-press.js", "public/roster.js", "public/roster.css", "public/modifications.js", "public/modification-planner.js", "public/tree-scroll.css", "public/tree-scroll.js", "main.js", "README.md", "README.en.md")) {
                 $entry = $archive.Entries | Where-Object { $_.FullName.Replace('\', '/') -eq $file }
                 if (-not $entry) { throw "Missing $file in $zipPath" }
                 $reader = [System.IO.StreamReader]::new($entry.Open())
@@ -102,17 +104,13 @@ jobs:
         shell: pwsh
         run: ./tools/check-release-privacy.ps1
 
-      - name: Create GitHub Release
-        shell: pwsh
-        env:
-          GH_TOKEN: ${{ github.token }}
-        run: |
-          $tag = "v" + (Get-Content -Raw package.json | ConvertFrom-Json).version
-          gh release create $tag `
-            --target $env:GITHUB_SHA `
-            --latest `
-            --title "War Thunder 研发计算器 $tag 维护更新" `
-            --notes-file "doc/release-$tag.md" `
-            "WarThunderResearchCalculator-$tag-portable.zip" `
-            "WarThunderResearchCalculator-$tag.zip" `
-            "WarThunderResearchCalculator-$tag-SHA256SUMS.txt"
+      - name: Save verified packages for owner publication
+        uses: actions/upload-artifact@v7
+        with:
+          name: release-packages
+          path: |
+            WarThunderResearchCalculator-v*.zip
+            WarThunderResearchCalculator-v*-SHA256SUMS.txt
+          if-no-files-found: error
+          compression-level: 0
+          retention-days: 7

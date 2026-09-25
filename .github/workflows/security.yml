@@ -27,6 +27,7 @@ jobs:
       - run: node tools/test-modifications.cjs
       - run: node --test tools/test-modification-icons.cjs
       - run: node tools/test-ui-entrypoints.cjs
+      - run: node tools/test-tree-scroll.cjs
       - run: node tools/test-site-locales.cjs
       - run: node tools/test-multilingual-copy.cjs
       - run: node tools/test-english-copy.cjs

@@ -47,7 +47,7 @@
 | 自动计算路线 | 点击底部“精确规划” | 同左 |
 | 查看载具资料 | 点击卡片上的 Wiki 小书签 | 同左 |
 
-网页版直接打开即可，无需游戏账号。Windows 用户下载 [v1.0.12 便携包](https://github.com/Plastic-time/warthunder-research-calculator/releases/download/v1.0.12/WarThunderResearchCalculator-v1.0.12-portable.zip)，解压后运行 `WarThunderResearchCalculator.exe`，不需要另外安装 Node.js。下载包不会自动获得之后的网页更新。
+网页版直接打开即可，无需游戏账号。Windows 用户下载 [v1.0.13 便携包](https://github.com/Plastic-time/warthunder-research-calculator/releases/download/v1.0.13/WarThunderResearchCalculator-v1.0.13-portable.zip)，解压后运行 `WarThunderResearchCalculator.exe`，不需要另外安装 Node.js。下载包不会自动获得之后的网页更新。
 
 支持陆战、空战、直升机、远洋与近岸舰队；界面及载具名称支持中文、英语、俄语、德语、法语、日语和西班牙语。第三方 Wiki 正文不由本项目翻译。
 
@@ -66,7 +66,7 @@
 - [在线人数统计规则](doc/online-counter.md)
 - [配件图标来源](doc/ammunition-artwork.md)
 - [载具快照清单](docs/database/manifest.json) · [配件核对记录](tools/modifications-audit.json)
-- [v1.0.12 更新说明](doc/release-v1.0.12.md) · [全部版本](https://github.com/Plastic-time/warthunder-research-calculator/releases)
+- [v1.0.13 更新说明](doc/release-v1.0.13.md) · [全部版本](https://github.com/Plastic-time/warthunder-research-calculator/releases)
 
 </details>
 
