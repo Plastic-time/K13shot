@@ -25,13 +25,13 @@ New-Item -ItemType Directory -Path $launcherOutput, $portableRoot, $sourceRoot -
 
 Push-Location $root
 try {
-  dotnet publish ./tools/launcher/WarThunderResearchLauncher.csproj -c Release -r win-x64 --self-contained true -p:PublishSingleFile=true -o $launcherOutput
+  dotnet publish ./tools/launcher/WarThunderResearchLauncher.csproj -c Release -r win-x64 --self-contained true -p:PublishSingleFile=true "-p:Version=$Version" -o $launcherOutput
   if ($LASTEXITCODE -ne 0) { throw "Failed to build the Windows launcher." }
 } finally {
   Pop-Location
 }
 
-$portableItems = @("config", "database", "dict", "public", "src", "node_modules", "main.js", "package.json", "package-lock.json", "README.md", "node.exe")
+$portableItems = @("config", "database", "dict", "public", "src", "node_modules", "main.js", "package.json", "package-lock.json", "README.md", "README.en.md", "node.exe")
 foreach ($item in $portableItems) {
   if ($item -eq "node.exe") {
     $nodePath = (Get-Command node -ErrorAction Stop).Source
@@ -51,7 +51,7 @@ foreach ($name in @('CHANGELOG.md', 'README.md')) {
   if (Test-Path -LiteralPath $documentation) { Remove-Item -LiteralPath $documentation }
 }
 
-$sourceItems = @("config", "database", "dict", "doc", "docs", "public", "src", ".github", ".githooks", ".gitattributes", ".gitignore", "AGENTS.md", "main.js", "package.json", "package-lock.json", "README.md")
+$sourceItems = @("config", "database", "dict", "doc", "docs", "public", "src", ".github", ".githooks", ".gitattributes", ".gitignore", "AGENTS.md", "main.js", "package.json", "package-lock.json", "README.md", "README.en.md")
 foreach ($item in $sourceItems) {
   Copy-Item -LiteralPath (Join-Path $root $item) -Destination $sourceRoot -Recurse -Force
 }
