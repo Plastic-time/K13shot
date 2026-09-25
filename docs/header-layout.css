@@ -1,0 +1,66 @@
+.brand-lockup { display: flex; align-items: center; gap: 12px; min-width: 0; }
+.brand-emblem { display: block; width: 44px; height: 44px; flex: 0 0 44px; object-fit: contain; }
+.brand-lockup h1 { display: grid; gap: 3px; margin: 0; min-width: 0; }
+.brand-name { color: #f2f3ed; font-size: 23px; line-height: 1.1; font-weight: 750; }
+.brand-name.is-chinese { display: inline-flex; gap: 4px; font-size: 25px; line-height: 1.25; font-weight: 600; }
+.brand-subtitle { color: #d3bd87; font-size: 13px; line-height: 1.35; font-weight: 500; }
+.header-metadata { display: flex; align-items: center; flex-wrap: wrap; gap: 4px 14px; min-width: 0; }
+.header-metadata .online-count { color: #a8b8ae; min-inline-size: 0; }
+.header-metadata:empty { display: none; }
+.header-actions-area { display: flex; flex-direction: column; align-items: flex-end; gap: 8px; min-width: 0; }
+.header-actions-area > .game-version { text-align: right; font-size: 10px; line-height: 1.4; }
+.mobile-header-controls, .mobile-tree-tools { display: none; }
+.header-icon-button { display: inline-grid; place-items: center; padding: 0; width: 44px; height: 44px; flex: 0 0 44px; border: 0; border-radius: 8px; background: transparent; color: #c2cdc7; cursor: pointer; }
+.header-icon-button:hover { background: #ffffff0a; color: #fff; }
+.header-icon-button:focus-visible { outline: 2px solid #d3bd87; outline-offset: -2px; }
+.header-icon-button .nav-icon { width: 21px; height: 21px; }
+.header-icon-button .creator-avatar { width: 30px; height: 30px; }
+.header-icon-button.has-value { color: #e7cf8d; background: #d3bd8714; }
+.mobile-header-sheet { position: fixed; inset: auto 0 0; width: 100%; max-width: 560px; max-height: calc(100dvh - 20px); margin: auto auto 0; padding: 0 0 env(safe-area-inset-bottom, 0px); border: 1px solid #59615c; border-bottom: 0; border-radius: 16px 16px 0 0; background: #242a28; color: #e7ece8; box-shadow: 0 -12px 44px #0005; }
+.mobile-header-sheet::backdrop { background: #08100bb3; backdrop-filter: blur(5px); }
+.mobile-sheet-heading { display: flex; align-items: center; justify-content: space-between; gap: 12px; padding: 8px 12px 8px 20px; border-bottom: 1px solid #414a44; }
+.mobile-sheet-heading h2 { margin: 0; font-size: 16px; line-height: 1.4; }
+.mobile-sheet-body { display: grid; gap: 18px; padding: 20px; overflow-wrap: anywhere; }
+.mobile-sheet-body > label { display: grid; gap: 8px; min-width: 0; font-size: 13px; color: #c4cdc7; }
+.mobile-sheet-body input[type="search"], .mobile-sheet-body select { width: 100%; min-width: 0; min-height: 46px; padding: 10px 12px; border: 1px solid #616f66; border-radius: 6px; background: #1d2320; color: #f1f4f0; }
+.mobile-sheet-body > .planner-option { display: flex; align-items: center; gap: 10px; min-height: 44px; width: auto; }
+.mobile-sheet-body .planner-option input { width: 20px; height: 20px; flex: 0 0 20px; }
+.mobile-sheet-body .topbar-actions { display: grid; grid-template-columns: 1fr; gap: 8px; width: 100%; padding: 0; overflow: visible; }
+.mobile-sheet-body .topbar-actions button { min-height: 46px; width: 100%; text-align: left; white-space: normal; }
+.mobile-sheet-body .topbar-actions button[hidden] { display: none; }
+.mobile-sheet-body .creator-watermark { display: flex; align-items: center; gap: 14px; padding: 4px; color: #dce8de; text-decoration: none; }
+.mobile-sheet-body .creator-avatar { width: 52px; height: 52px; flex-basis: 52px; }
+.mobile-sheet-body .creator-copy { display: grid; gap: 8px; font-size: 12px; }
+.mobile-sheet-body .creator-profile { display: grid; gap: 3px; color: #aebdb3; }
+.mobile-sheet-body .creator-profile strong { font-size: 17px; }
+.mobile-sheet-body .creator-game-id { color: #aebdb3; }
+.mobile-search-done { order: 2; min-height: 44px; }
+@media (prefers-reduced-motion: no-preference) {
+  .mobile-header-sheet[open] { animation: header-sheet-in 180ms ease-out; }
+  @keyframes header-sheet-in { from { transform: translateY(20px); opacity: 0; } to { transform: translateY(0); opacity: 1; } }
+}
+@media (max-width: 720px) {
+  .topbar.compact-header { display: grid; grid-template-columns: minmax(0, 1fr) 88px; align-items: start; column-gap: 8px; row-gap: 0; padding: 12px 12px 10px; }
+  .compact-header .brand-block { display: contents; }
+  .compact-header .brand-title { display: contents; }
+  .compact-header .header-actions-area { display: contents; }
+  .compact-header .header-actions-area > .game-version { grid-column: 1 / -1; grid-row: 1; margin-bottom: 6px; }
+  .compact-header .brand-lockup { grid-column: 1; grid-row: 2; gap: 9px; min-height: 44px; }
+  .compact-header .brand-emblem { width: 36px; height: 40px; flex-basis: 36px; }
+  .compact-header .brand-name { font-size: 19px; white-space: nowrap; }
+  .compact-header .brand-name.is-chinese { font-size: 21px; }
+  .compact-header .brand-subtitle { font-size: 12px; }
+  .compact-header .header-metadata { grid-column: 1 / -1; grid-row: 3; gap: 4px 12px; margin-top: 7px; font-size: 10px; }
+  .compact-header .game-version, .compact-header .online-count { font-size: 10px; line-height: 1.4; }
+  .compact-header .mobile-header-controls { display: flex; grid-column: 2; grid-row: 2; align-self: center; }
+  .toolbar.has-tree-navigation .tree-filters { display: none; }
+  .tree-navigation { grid-template-columns: 106px minmax(0, 1fr); padding: 6px 12px 0; gap: 7px; }
+  .country-trigger { min-height: 44px; padding: 7px; font-size: 12px; }
+  .country-flag { width: 24px; height: 18px; flex-basis: 24px; }
+  .branch-tab { min-width: 76px; min-height: 48px; padding: 8px 10px 10px; gap: 6px; font-size: 12px; }
+  .branch-tabs { scrollbar-width: none; }
+  .branch-tabs::-webkit-scrollbar { display: none; }
+  .mobile-tree-tools { display: flex; align-items: center; gap: 10px; padding: 0 10px 0 14px; min-height: 44px; background: #222725; }
+  .mobile-tree-tools #statusText { display: block; flex: 1; min-width: 0; margin: 0; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; color: #a6b4ac; font-size: 10px; line-height: 1.5; }
+  .mobile-tree-actions { display: flex; flex: 0 0 auto; gap: 0; order: 2; }
+}

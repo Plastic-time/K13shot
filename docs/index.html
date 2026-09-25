@@ -4,12 +4,13 @@
     <meta charset="utf-8" />
     <meta name="referrer" content="no-referrer" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="icon" type="image/png" href="assets/research-emblem.png" />
     <script src="i18n.js?v=1.0.10"></script>
     <script src="app-translations.js?v=1.0.10"></script>
-    <script src="static-translations.js?v=1.0.11-game-version"></script>
+    <script src="static-translations.js?v=1.0.11-mobile-header"></script>
     <script src="module-translations.js?v=1.0.10"></script>
-    <title data-i18n="War Thunder 研发计算器">War Thunder 研发计算器</title>
-    <link rel="stylesheet" href="styles.css?v=1.0.10">
+    <title data-i18n="战争雷霆研发计算器">战争雷霆研发计算器</title>
+    <link rel="stylesheet" href="styles.css?v=1.0.11-creator-card">
     <link rel="stylesheet" href="online-count.css?v=1.0.10">
   </head>
   <body>
@@ -17,14 +18,18 @@
       <header class="topbar">
         <div class="brand-block">
           <div class="brand-title">
-            <h1 data-i18n="War Thunder 研发计算器">War Thunder 研发计算器</h1>
+            <h1 data-i18n="战争雷霆研发计算器">战争雷霆研发计算器</h1>
             <span class="game-version" title="局部修正仅涉及英国、日本 CA-27 Mk.32 的 GLBC mk.3 银狮费用，不代表全量数据升级。" data-i18n-title="局部修正仅涉及英国、日本 CA-27 Mk.32 的 GLBC mk.3 银狮费用，不代表全量数据升级。"><span data-i18n="游戏版本">游戏版本</span> <span data-game-version>2.59.0.34</span></span>
             <span id="onlineCount" class="online-count" data-state="connecting" role="status" aria-live="polite" aria-atomic="true" title="最近 90 秒活跃的浏览器估计数，同一浏览器多个标签页合并统计" data-i18n-title="最近 90 秒活跃的浏览器估计数，同一浏览器多个标签页合并统计" data-i18n="当前在线：连接中">当前在线：连接中</span>
           </div>
           <p id="statusText" data-i18n="正在载入静态科技树数据">正在载入静态科技树数据</p>
-          <div class="creator-watermark" aria-label="作者水印" data-i18n-aria-label="作者水印">
-            <span data-i18n="bilibili关注：">bilibili关注：</span>扑街的靓仔 <span><span data-i18n="游戏ID：">游戏ID：</span>如日方中</span>
-          </div>
+          <a class="creator-watermark" href="https://space.bilibili.com/543495611" target="_blank" rel="noopener noreferrer">
+            <img class="creator-avatar" src="assets/creator-avatar.jpg" width="26" height="26" alt="" />
+            <span class="creator-copy">
+              <span class="creator-profile"><span data-i18n="bilibili关注：">bilibili关注：</span><strong>扑街的靓仔</strong></span>
+              <span class="creator-game-id"><span data-i18n="游戏ID：">游戏ID：</span>如日方中</span>
+            </span>
+          </a>
         </div>
         <div class="topbar-actions">
           <button id="guideButton" class="secondary-button" type="button" data-i18n="使用指南">使用指南</button>
@@ -271,7 +276,7 @@
     <link rel="stylesheet" href="vehicle-folders.css?v=1.0.10">
     <script src="vehicle-folders.js?v=1.0.10"></script>
     <script src="vehicle-long-press.js?v=1.0.10"></script>
-    <link rel="stylesheet" href="ui-dark.css?v=1.0.10">
+    <link rel="stylesheet" href="ui-dark.css?v=1.0.11-creator-card">
     <link rel="stylesheet" href="tree-navigation.css?v=1.0.10">
     <script src="tree-navigation.js?v=1.0.10"></script>
     <link rel="stylesheet" href="wiki-viewer.css?v=1.0.10">
@@ -279,6 +284,8 @@
     <link rel="stylesheet" href="budget-glass.css?v=1.0.10">
     <link rel="stylesheet" href="press-feedback.css?v=1.0.10">
     <script src="press-feedback.js?v=1.0.10"></script>
+    <link rel="stylesheet" href="header-layout.css?v=1.0.11-mobile-header">
+    <script src="header-layout.js?v=1.0.11-mobile-header"></script>
     <script src="app.js?v=1.0.10"></script>
     <script src="online-count.js?v=1.0.10" defer data-endpoint="https://k13shot-online.k13shot-tools.workers.dev/heartbeat"></script>
   </body>

@@ -1,10 +1,13 @@
 // Rows: zh, en, ru, de, fr, ja, es. Shared labels live in the app and module catalogs.
 window.WTI18n.register([
+  ["作者","Creator","Автор","Autor","Auteur","作者","Autor"],
+  ["更多","More","Ещё","Mehr","Plus","その他","Más"],
+  ["查看结果","View results","Показать результаты","Ergebnisse anzeigen","Voir les résultats","結果を表示","Ver resultados"],
   ["游戏版本","Game version","Версия игры","Spielversion","Version du jeu","ゲームバージョン","Versión del juego"],
   ["基础","Base","База","Basis","Base","基本","Base"],
   ["局部修正","Partial correction","Частичное исправление","Teilkorrektur","Correction partielle","一部修正","Corrección parcial"],
   ["局部修正仅涉及英国、日本 CA-27 Mk.32 的 GLBC mk.3 银狮费用，不代表全量数据升级。","The partial correction only changes the GLBC mk.3 Silver Lion cost for the British and Japanese CA-27 Mk.32; it is not a full data update.","Частичное исправление затрагивает только стоимость GLBC mk.3 в серебряных львах для британского и японского CA-27 Mk.32; это не полное обновление данных.","Die Teilkorrektur betrifft nur die Silver-Lions-Kosten von GLBC mk.3 für die britische und japanische CA-27 Mk.32; sie ist kein vollständiges Datenupdate.","La correction partielle concerne uniquement le coût en Silver Lions du GLBC mk.3 des CA-27 Mk.32 britannique et japonais ; il ne s’agit pas d’une mise à jour complète des données.","一部修正の対象はイギリスと日本のCA-27 Mk.32のGLBC mk.3のSL費用のみです。データ全体の更新ではありません。","La corrección parcial solo modifica el coste en Silver Lions del GLBC mk.3 de los CA-27 Mk.32 británico y japonés; no es una actualización completa de los datos."],
-  ["War Thunder 研发计算器","War Thunder Research Calculator","Калькулятор исследований War Thunder","War Thunder Forschungsrechner","Calculateur de recherche War Thunder","War Thunder 研究計算機","Calculadora de investigación de War Thunder"],
+  ["战争雷霆研发计算器","Warthunder Research Calculator","Калькулятор исследований Warthunder","Warthunder Forschungsrechner","Calculateur de recherche Warthunder","Warthunder 研究計算機","Calculadora de investigación de Warthunder"],
   ["载具 RP / 银狮于 2026-09-21 核对；配件沿用独立快照","Vehicle RP / SL checked on 2026-09-21; modifications use a separate snapshot","RP / SL техники проверены 2026-09-21; модификации используют отдельный снимок","Fahrzeug-RP / SL am 2026-09-21 geprüft; Modifikationen nutzen einen separaten Datenstand","RP / SL des véhicules vérifiés le 2026-09-21 ; les modifications utilisent un instantané distinct","車両のRP・SLは2026-09-21に確認済み。改造は別のスナップショットを使用","RP / SL de vehículos verificados el 2026-09-21; las modificaciones usan una instantánea independiente"],
   ["游戏数据","Game data","Данные игры","Spieldaten","Données du jeu","ゲームデータ","Datos del juego"],
   ["正在载入数据","Loading data","Загрузка данных","Daten werden geladen","Chargement des données","データを読み込み中","Cargando datos"],

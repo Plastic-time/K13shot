@@ -28,8 +28,10 @@ body,
 .topbar h1 { color: #f1f2ee; font-size: 19px; font-weight: 700; }
 .brand-block { row-gap: 5px; }
 .game-version { color: #a8b3b3; }
-.brand-block .creator-watermark { background: transparent; border-color: #42494a; color: #b0c7b9; font-weight: 500; }
+.brand-block .creator-watermark { background: #85b29a0d; border-color: #85b29a55; color: #b0c7b9; font-weight: 500; box-shadow: inset 0 1px 0 #ffffff06; }
 .brand-block .creator-watermark span { color: #a8b3b3; }
+.brand-block .creator-watermark .creator-game-id { color: #bbc5bf; }
+.brand-block .creator-watermark:hover { background: #85b29a1a; border-color: #85b29a99; box-shadow: 0 2px 10px #0002, inset 0 1px 0 #ffffff08; }
 .topbar-actions button {
   min-height: 38px;
   padding: 8px 12px;

@@ -84,7 +84,7 @@ button {
 
 .brand-block {
   display: grid;
-  grid-template-columns: max-content max-content;
+  grid-template-columns: max-content minmax(0, 1fr);
   column-gap: 12px;
   row-gap: 6px;
   align-items: center;
@@ -306,24 +306,61 @@ button:focus-visible {
 .brand-block .creator-watermark {
   display: flex;
   align-items: center;
-  justify-content: center;
+  justify-content: flex-start;
   gap: 8px;
-  min-height: 24px;
-  padding: 4px 9px;
+  justify-self: start;
+  max-width: 100%;
+  min-width: 0;
+  min-height: 36px;
+  padding: 4px 12px 4px 5px;
   border: 1px solid rgba(69, 96, 106, 0.2);
-  border-radius: 6px;
+  border-radius: 999px;
   background: rgba(255, 253, 247, 0.66);
   color: rgba(39, 118, 91, 0.92);
   font-size: 11px;
   font-weight: 800;
   letter-spacing: 0;
-  text-align: center;
-  white-space: nowrap;
+  text-align: left;
+  text-decoration: none;
+  white-space: normal;
+  transition: background-color 160ms ease, border-color 160ms ease, box-shadow 160ms ease;
 }
 
 .brand-block .creator-watermark span {
   color: rgba(104, 112, 106, 0.9);
 }
+
+.creator-avatar {
+  display: block;
+  flex: 0 0 26px;
+  width: 26px;
+  height: 26px;
+  border-radius: 50%;
+  object-fit: cover;
+  box-shadow: 0 0 0 1px rgba(130, 171, 148, 0.6);
+}
+
+.creator-copy {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 2px 10px;
+  min-width: 0;
+  line-height: 1.5;
+}
+
+.creator-profile,
+.creator-game-id {
+  display: inline-flex;
+  flex-wrap: wrap;
+  align-items: baseline;
+  gap: 0 4px;
+  min-width: 0;
+  overflow-wrap: anywhere;
+}
+
+.creator-profile strong { color: var(--green-strong); font-weight: 700; }
+.creator-watermark:focus-visible { outline: 2px solid var(--green-strong); outline-offset: 3px; }
 
 .summary-panel {
   border-right: 1px solid var(--line);
@@ -1614,8 +1651,7 @@ body {
     padding: 10px 12px;
   }
 
-  .brand-block p,
-  .brand-block .creator-watermark {
+  .brand-block p {
     display: none;
   }
 

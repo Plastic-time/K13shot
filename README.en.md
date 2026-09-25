@@ -73,4 +73,4 @@ Browse ground vehicles, aircraft, helicopters, bluewater fleets, and coastal fle
 ---
 
 <p align="center"><sub>An unofficial, player-made tool. Not affiliated with Gaijin Entertainment. Game names, vehicle images, and other third-party assets belong to their respective owners.</sub></p>
-<p align="center"><sub>bilibili: 扑街的靓仔 &nbsp; · &nbsp; In-game ID: 如日方中</sub></p>
+<p align="center"><a href="https://space.bilibili.com/543495611"><img src="doc/assets/creator-avatar.svg" width="26" height="26" align="absmiddle" alt="Creator avatar"></a> &nbsp; <sub>bilibili: <a href="https://space.bilibili.com/543495611">扑街的靓仔</a> &nbsp; · &nbsp; In-game ID: 如日方中</sub></p>

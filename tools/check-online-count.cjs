@@ -86,6 +86,7 @@ async function main() {
       const page = await ctx.newPage();
       await page.goto(site, { waitUntil: 'domcontentloaded' }); await loaded(page); await online(page);
       const layout = await checkLayout(page, width);
+      if (width <= 720) await page.locator('#mobileMoreButton').click();
       await page.locator('#guideButton').click();
       assert(await page.locator('#usageGuideDialog').isVisible());
       console.log(JSON.stringify({ width, layout, guideWorks: true }));

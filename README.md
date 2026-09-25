@@ -73,4 +73,4 @@
 ---
 
 <p align="center"><sub>由玩家制作的非官方工具，与 Gaijin Entertainment 无隶属关系。游戏名称、载具图片等素材的权利归各自权利人所有。</sub></p>
-<p align="center"><sub>bilibili：扑街的靓仔 &nbsp; · &nbsp; 游戏 ID：如日方中</sub></p>
+<p align="center"><a href="https://space.bilibili.com/543495611"><img src="doc/assets/creator-avatar.svg" width="26" height="26" align="absmiddle" alt="扑街的靓仔头像"></a> &nbsp; <sub>bilibili：<a href="https://space.bilibili.com/543495611">扑街的靓仔</a> &nbsp; · &nbsp; 游戏 ID：如日方中</sub></p>
